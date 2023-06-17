@@ -1,0 +1,37 @@
+site_name: Catálogo D&D
+site_url: https://logoff.github.io/catalogo-dnd/
+site_dir: ./dist/
+docs_dir: ./src/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+  language: es
+  logo: img/dungeons-and-dragons-black.png
+  favicon: img/dungeons-and-dragons.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
+plugins:
+  - search
+  - roamlinks
+  - awesome-pages
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/d-and-d
+      link: https://dnd.wizards.com/es
+      name: Dungeons & Dragons
+    - icon: fontawesome/brands/github
+      link: https://github.com/logoff/catalogo-dnd
+      name: GitHub - Catálogo D&D
+
+copyright: Copyright &copy; 2023 logoff
