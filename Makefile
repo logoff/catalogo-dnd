@@ -24,6 +24,6 @@ docker-serve-site: docker-build
 		-v $$(pwd)/mkdocs.yml:/site/mkdocs.yml \
 		-v $$(pwd)/src:/site/src \
 		-v $$(pwd)/main.py:/site/main.py \
-		-v $$(pwd)/.git:/site/.git \
+		-v $$(pwd)/data:/site/data \
 		-p 8000:8000 \
 		$(APP):$$(poetry version --short)

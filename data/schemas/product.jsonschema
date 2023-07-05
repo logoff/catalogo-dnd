@@ -1,0 +1,90 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Products",
+    "type": "object",
+    "$id": "/schemas/products",
+    "code": {
+        "type": "string"
+    },
+    "properties": {
+        "publications": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "$ref": "#/$defs/book"
+                    }
+                ]
+            }
+        }
+    },
+    "required": [
+        "code",
+        "publications"
+    ],
+    "$defs": {
+        "book": {
+            "title": "Book",
+            "type": "object",
+            "$id": "/schemas/book",
+            "properties": {
+                "language": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "edition": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "item_code": {
+                    "type": "string"
+                },
+                "authors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "pages": {
+                    "type": "integer"
+                },
+                "isbn13": {
+                    "type": "integer"
+                },
+                "images": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "official_url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "openlibrary_url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "amazon_associated_link": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            },
+            "required": [
+                "language",
+                "type",
+                "edition",
+                "title"
+            ]
+        }
+    }
+}

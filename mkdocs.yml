@@ -11,16 +11,26 @@ theme:
   logo: img/dungeons-and-dragons-black.png
   favicon: img/dungeons-and-dragons.png
   features:
-    - navigation.instant
-    - navigation.tracking
+    - navigation.instant # Instant loading: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
+    - navigation.tracking # Anchor tracking: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking
     - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
+    - navigation.tabs.sticky ## Sticky navigation tabs: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking
+    - navigation.top # Back-to-top button
+    - toc.integrate # Navigation integration: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-integration
 
 plugins:
   - search
+  - glightbox:
+      touchNavigation: true
   - roamlinks
   - awesome-pages
+  - macros:
+      on_error_fail: true
+      verbose: true
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
 
 extra_css:
   - stylesheets/extra.css

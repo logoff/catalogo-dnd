@@ -1,6 +1,69 @@
 [data-md-color-scheme="slate"] {
-    --md-primary-fg-color:        #e10303;
-    --md-primary-fg-color--light: #e61720;
-    --md-primary-fg-color--dark:  #9e0b0f;
-    --md-primary-bg-color:        #000000;
-  }
+  --md-primary-fg-color: #e10303;
+  --md-primary-fg-color--light: #e61720;
+  --md-primary-fg-color--dark: #9e0b0f;
+  --md-primary-bg-color: #000000;
+}
+
+/* horizontally align images in the same figure */
+.md-typeset figure {
+  white-space: nowrap;
+}
+
+.md-typeset figure img {
+  display: inline-block;
+  width: 100px;
+}
+
+/* product sheet styles */
+.publication-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.product-title {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-weight: bold;
+  background-color: var(--md-primary-bg-color);
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-images {
+  flex: 2;
+}
+
+.product-data {
+  display: block;
+  flex: 1;
+  padding-right: 2%;
+}
+
+.glightbox {
+  margin: 10px;
+}
+
+.amazon_button {
+  width: 100px;
+  display: block;
+}

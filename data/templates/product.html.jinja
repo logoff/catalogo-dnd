@@ -1,0 +1,70 @@
+{# templates/product.html.jinja #}
+{% for item in items %}
+#### {{ item['code'] }}
+
+{% for publication in item.publications %}
+{% if publication['type'] == 'book' %}
+<div class="publication-container">
+  <div class="main-content">
+
+    {# title #}
+    <div class="product-title row">
+      <p>{{ publication['title'] }}</p>
+    </div>
+
+    {# row #}
+    <div class="row">
+
+      {# images #}
+      <div class="item product-images">
+        {% if "images" in publication %}
+        {% for image in publication.images %}
+        <img class="product-image" src="{{ image }}" />
+        {% endfor %}
+        {% endif %}
+      </div>
+
+      {# product data #}
+      <div class="item product-data">
+        <p><b>Idioma:</b> {{ publication['language'] }}</p>
+
+        {% if "publisher" in publication %}
+        <p><b>Editorial:</b> {{ publication['publisher'] }}</p>
+        {% endif %}
+
+        {% if "date" in publication %}
+        <p><b>Fecha de publicación:</b> {{ parse_date(publication['date']) }}</p>
+        {% endif %}
+
+        {% if "authors" in publication %}
+        <p><b>Número de páginas:</b> {{ publication['pages'] }}</p>
+        {% endif %}
+
+        {% if "pages" in publication %}
+        <p><b>Autores:</b> {{ ', '.join(publication['authors']) }}</p>
+        {% endif %}
+
+        {% if "isbn13" in publication %}
+        <p><b>ISBN13:</b> {{ publication['isbn13'] }}</p>
+        {% endif %}
+
+        {% if "item_code" in publication %}
+        <p><b>Código de artículo:</b> {{ publication['item_code'] }}</p>
+        {% endif %}
+
+        {% if "official_url" in publication %}
+        <p><b>URL oficial:</b> <a href="{{ publication['official_url'] }}">enlace</a></p>
+        {% endif %}
+        
+        {% if "amazon_associated_link" in publication %}
+        <a class="amazon_button" target="_blank" href="{{ publication['amazon_associated_link'] }}"><img src="img/disponible_en_amazon.png"></a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+<br />
+<br />
+{% endfor %}
