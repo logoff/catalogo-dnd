@@ -1,0 +1,71 @@
+{
+    "code": "MM",
+    "publications": [
+        {
+            "type": "book",
+            "language": "english",
+            "edition": "5e",
+            "title": "Monster Manual",
+            "date": "2014-09-30",
+            "item_code": "A9218",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 352,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786965618,
+            "images": [
+                "http://www.tsrarchive.com/5e/5e-mm.jpg",
+                "http://www.tsrarchive.com/5e/5e-mm-back.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/products/monster-manual",
+            "openlibrary_url": "https://openlibrary.org/books/OL26631912M",
+            "amazon_associated_link": "https://amzn.to/3D5fGv0"
+        },
+        {
+            "type": "book",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Monster Manual: Manual de Monstruos",
+            "date": "2017-10-26",
+            "item_code": "EEWCDD02",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 352,
+            "publisher": "Edge Entertainment / Gale Force Nine",
+            "isbn13": 9788416357642,
+            "images": [
+                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm.jpg",
+                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm-back.jpg"
+            ],
+            "openlibrary_url": "https://openlibrary.org/books/OL47566819M"
+        },
+        {
+            "type": "book",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Monster Manual: Manual de Monstruos",
+            "date": "2021-10-08",
+            "item_code": "A92181050",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 320,
+            "publisher": "Wizards of the Coast",
+            "images": [
+                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm2.jpg",
+                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm2-back.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/es/products/monster-manual",
+            "isbn13": 9780786967582,
+            "amazon_associated_link": "https://amzn.to/3XGK6gm"
+        }
+    ]
+}
