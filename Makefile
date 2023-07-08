@@ -14,7 +14,10 @@ clean-site:
 	rm -rf dist/
 
 serve-site:
-	poetry run mkdocs serve --dev-addr=0.0.0.0:8000
+	poetry run mkdocs serve \
+		--dev-addr=0.0.0.0:8000 \
+		--watch data \
+		--watch macros
 
 docker-build:
 	docker image build --tag=$(APP):$$(poetry version --short) .
@@ -23,7 +26,7 @@ docker-serve-site: docker-build
 	docker container run --rm -it \
 		-v $$(pwd)/mkdocs.yml:/site/mkdocs.yml \
 		-v $$(pwd)/src:/site/src \
-		-v $$(pwd)/main.py:/site/main.py \
 		-v $$(pwd)/data:/site/data \
+		-v $$(pwd)/macros:/site/macros \
 		-p 8000:8000 \
 		$(APP):$$(poetry version --short)

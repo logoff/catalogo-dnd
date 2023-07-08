@@ -3,6 +3,7 @@
     "publications": [
         {
             "type": "book",
+            "subtype": "core_rules",
             "language": "english",
             "edition": "5e",
             "title": "Dungeon Master's Guide",
@@ -27,6 +28,7 @@
         },
         {
             "type": "book",
+            "subtype": "core_rules",
             "language": "castellano",
             "edition": "5e",
             "title": "Dungeon Master's Guide: Guía del Dungeon Master",
@@ -49,6 +51,7 @@
         },
         {
             "type": "book",
+            "subtype": "core_rules",
             "language": "castellano",
             "edition": "5e",
             "title": "Dungeon Master's Guide: Guía del Dungeon Master",

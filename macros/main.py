@@ -1,13 +1,16 @@
-import datetime
 import glob
 import json
 import os
 
 import jsonschema
-from babel.dates import format_date, format_datetime
+from babel.dates import format_datetime
 from jinja2 import Environment, FileSystemLoader
 
-PRODUCT_SCHEMA = json.load(open("data/schemas/product.jsonschema"))
+from macros import utils
+
+JSON_SCHEMA_PRODUCT = json.load(open("data/schemas/product.jsonschema"))
+JINJA2_TEMPLATES_FOLDER = "data/templates/"
+JINJA2_TEMPLATE_PRODUCT = "product.html.jinja"
 
 
 def define_env(env):
@@ -40,7 +43,7 @@ def define_env(env):
         try:
             with open(file, mode="r") as f:
                 product = json.load(f)
-                jsonschema.validate(instance=product, schema=PRODUCT_SCHEMA)
+                jsonschema.validate(instance=product, schema=JSON_SCHEMA_PRODUCT)
                 return product
         except Exception as e:
             log(f"Error processing file {file}, skipping file.")
@@ -49,12 +52,10 @@ def define_env(env):
 
     def _create_products_sheets(items: list) -> list:
         log(f"Received items: {items}")
-        return jinja_env.get_template("product.html.jinja").render(items=items)
+        return jinja_env.get_template(JINJA2_TEMPLATE_PRODUCT).render(items=items)
 
-def parse_date(date_str: str) -> str:
-    return format_date(datetime.datetime.strptime(date_str, "%Y-%m-%d"), locale="es_ES")
 
-jinja_env = Environment(loader=FileSystemLoader("data/templates/"))
-jinja_env.globals.update(parse_date=parse_date)
+jinja_env = Environment(loader=FileSystemLoader(JINJA2_TEMPLATES_FOLDER))
+jinja_env.globals.update(utils=utils)
 jinja_env.trim_blocks = True
 jinja_env.lstrip_blocks = True

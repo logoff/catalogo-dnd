@@ -1,0 +1,107 @@
+{
+    "code": "LMoP",
+    "publications": [
+        {
+            "type": "boxed_set",
+            "subtype": "starter_set",
+            "language": "english",
+            "edition": "5e",
+            "title": "Starter Set",
+            "date": "2014-07-15",
+            "item_code": "A9216",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford"
+            ],
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786965595,
+            "images": [
+                "http://www.tsrarchive.com/5e/5e-starter-box.jpg",
+                "http://www.tsrarchive.com/5e/5e-starter-box-back.jpg"
+            ],
+            "sub_publications": [
+                {
+                    "title": "Starter Set Rulebook",
+                    "pages": 32,
+                    "images": [
+                        "http://www.tsrarchive.com/5e/5e-starter-rulebook.jpg"
+                    ]
+                },
+                {
+                    "title": "Lost Mine of Phandelver",
+                    "pages": 64,
+                    "images": [
+                        "http://www.tsrarchive.com/5e/5e-starter-lostmine.jpg"
+                    ]
+                },
+                {
+                    "title": "Pre-generated character sheets",
+                    "images": [
+                        "http://www.tsrarchive.com/5e/5e-starter-pg1.jpg",
+                        "http://www.tsrarchive.com/5e/5e-starter-pg2.jpg",
+                        "http://www.tsrarchive.com/5e/5e-starter-pg3.jpg",
+                        "http://www.tsrarchive.com/5e/5e-starter-pg4.jpg",
+                        "http://www.tsrarchive.com/5e/5e-starter-pg5.jpg"
+                    ]
+                },
+                {
+                    "title": "6 game dice",
+                    "images": [
+                        "http://www.tsrarchive.com/5e/5e-starter-dice.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "boxed_set",
+            "subtype": "starter_set",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Caja de Inicio",
+            "date": "2017-09-16",
+            "item_code": "EEWCDD00",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford"
+            ],
+            "publisher": "Edge Entertainment / Gale Force Nine",
+            "isbn13": 8435407617551,
+            "images": [
+                "http://www.tsrarchive.com/in/sp/sp-5e-core-caja.jpg",
+                "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-back.jpg"
+            ],
+            "sub_publications": [
+                {
+                    "title": "Caja de Inicio: Reglamento",
+                    "pages": 32,
+                    "images": [
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-book1.jpg"
+                    ]
+                },
+                {
+                    "title": "La Mina Perdida de Phandelver",
+                    "pages": 64,
+                    "images": [
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-book2.jpg"
+                    ]
+                },
+                {
+                    "title": "Aventureros pregenerados",
+                    "images": [
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-p1.jpg",
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-p2.jpg",
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-p3.jpg",
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-p4.jpg",
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-p5.jpg"
+                    ]
+                },
+                {
+                    "title": "6 dados",
+                    "images": [
+                        "http://www.tsrarchive.com/in/sp/sp-5e-core-caja-dice.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

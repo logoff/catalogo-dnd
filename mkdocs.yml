@@ -25,7 +25,9 @@ plugins:
   - roamlinks
   - awesome-pages
   - macros:
+      module_name: macros
       on_error_fail: true
+      on_undefined: strict
       verbose: true
 
 markdown_extensions:

@@ -3,6 +3,7 @@
     "publications": [
         {
             "type": "book",
+            "subtype": "core_rules",
             "language": "english",
             "edition": "5e",
             "title": "Monster Manual",
@@ -26,6 +27,7 @@
         },
         {
             "type": "book",
+            "subtype": "core_rules",
             "language": "castellano",
             "edition": "5e",
             "title": "Monster Manual: Manual de Monstruos",
@@ -47,6 +49,7 @@
         },
         {
             "type": "book",
+            "subtype": "core_rules",
             "language": "castellano",
             "edition": "5e",
             "title": "Monster Manual: Manual de Monstruos",

@@ -12,7 +12,7 @@
             "items": {
                 "anyOf": [
                     {
-                        "$ref": "#/$defs/book"
+                        "$ref": "#/$defs/publication"
                     }
                 ]
             }
@@ -23,16 +23,24 @@
         "publications"
     ],
     "$defs": {
-        "book": {
-            "title": "Book",
+        "publication": {
+            "title": "Publication",
             "type": "object",
-            "$id": "/schemas/book",
+            "$id": "/schemas/publication",
             "properties": {
                 "language": {
                     "type": "string"
                 },
                 "type": {
-                    "type": "string"
+                    "type": "string",
+                    "enum": ["book", "boxed_set", "accesory"]
+                },
+                "subtype": {
+                    "type": "string",
+                    "enum": [
+                        "core_rules", "supplemental_rules", "setting", "adventure",
+                        "starter_set", "rules", "adventure_setting"
+                    ]
                 },
                 "edition": {
                     "type": "string"
@@ -77,12 +85,45 @@
                 "amazon_associated_link": {
                     "type": "string",
                     "format": "uri"
+                },
+                "sub_publications": {
+                    "type": "array",
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$ref": "/schemas/products#/$defs/sub_publication"
+                            }
+                        ]
+                    }
                 }
             },
             "required": [
-                "language",
                 "type",
+                "subtype",
                 "edition",
+                "title"
+            ]
+        },
+        "sub_publication": {
+            "title": "Sub Publication",
+            "type": "object",
+            "$id": "/schemas/sub_publication",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "pages": {
+                    "type": "integer"
+                },
+                "images": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                }
+            },
+            "required": [
                 "title"
             ]
         }

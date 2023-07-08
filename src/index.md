@@ -10,3 +10,7 @@ Esta web no tiene ningún soporte ni afiliación con las compañías *Hasbro* y 
 ### Libros
 
 {{ print_product_table('data/products/books') }}
+
+### Cajas
+
+{{ print_product_table('data/products/boxed_sets') }}

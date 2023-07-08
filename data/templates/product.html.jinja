@@ -3,7 +3,6 @@
 #### {{ item['code'] }}
 
 {% for publication in item.publications %}
-{% if publication['type'] == 'book' %}
 <div class="publication-container">
   <div class="main-content">
 
@@ -28,12 +27,14 @@
       <div class="item product-data">
         <p><b>Idioma:</b> {{ publication['language'] }}</p>
 
+        <p><b>Tipo:</b> {{ utils.parse_subtype(publication['type'], publication['subtype']) }}</p>
+
         {% if "publisher" in publication %}
         <p><b>Editorial:</b> {{ publication['publisher'] }}</p>
         {% endif %}
 
         {% if "date" in publication %}
-        <p><b>Fecha de publicación:</b> {{ parse_date(publication['date']) }}</p>
+        <p><b>Fecha de publicación:</b> {{ utils.parse_date(publication['date']) }}</p>
         {% endif %}
 
         {% if "authors" in publication %}
@@ -55,15 +56,33 @@
         {% if "official_url" in publication %}
         <p><b>URL oficial:</b> <a href="{{ publication['official_url'] }}">enlace</a></p>
         {% endif %}
-        
+
         {% if "amazon_associated_link" in publication %}
-        <a class="amazon_button" target="_blank" href="{{ publication['amazon_associated_link'] }}"><img src="img/disponible_en_amazon.png"></a>
+        <a class="amazon_button" target="_blank" href="{{ publication['amazon_associated_link'] }}"><img
+            src="img/disponible_en_amazon.png"></a>
+        {% endif %}
+
+        {% if publication['type'] == 'boxed_set' and publication['sub_publications']|length > 0 %}
+        <p>
+        <b>Contenido:</b>
+        <ul>
+          {% for sub_publication in publication.sub_publications %}
+          <li>
+            {{ sub_publication['title'] }}:
+            {% if sub_publication['images'] %}
+            {% for image in sub_publication['images'] %}
+            [<a target="_blank" href="{{ image }}">{{ loop.index }}</a>]
+            {% endfor %}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        </p>
         {% endif %}
       </div>
     </div>
   </div>
 </div>
-{% endif %}
 {% endfor %}
 <br />
 <br />
