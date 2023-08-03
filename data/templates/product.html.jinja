@@ -1,6 +1,6 @@
 {# templates/product.html.jinja #}
 {% for item in items %}
-#### {{ item['code'] }}
+##### {{ item['code'] }}
 
 {% for publication in item.publications %}
 <div class="publication-container">
@@ -84,6 +84,4 @@
   </div>
 </div>
 {% endfor %}
-<br />
-<br />
 {% endfor %}

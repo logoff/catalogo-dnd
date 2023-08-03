@@ -6,11 +6,13 @@ Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**, que ofrece
 Esta web no tiene ningún soporte ni afiliación con las compañías *Hasbro* y *Wizards of the Coast*, o la marca registrada *Dungeons & Dragons*.
 
 ## Productos
-
 ### Libros
+#### Libros básicos
+{{ print_product_table('data/products/books/core_rules') }}
 
-{{ print_product_table('data/products/books') }}
+#### Escenarios de campaña
+{{ print_product_table('data/products/books/settings') }}
 
 ### Cajas
-
-{{ print_product_table('data/products/boxed_sets') }}
+#### Cajas de inicio
+{{ print_product_table('data/products/boxed_sets/starter_sets') }}
