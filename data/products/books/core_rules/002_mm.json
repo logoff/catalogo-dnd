@@ -18,8 +18,8 @@
             "publisher": "Wizards of the Coast",
             "isbn13": 9780786965618,
             "images": [
-                "http://www.tsrarchive.com/5e/5e-mm.jpg",
-                "http://www.tsrarchive.com/5e/5e-mm-back.jpg"
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-mm.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-mm-back.jpg"
             ],
             "official_url": "https://dnd.wizards.com/products/monster-manual",
             "openlibrary_url": "https://openlibrary.org/books/OL26631912M",
@@ -42,8 +42,8 @@
             "publisher": "Edge Entertainment / Gale Force Nine",
             "isbn13": 9788416357642,
             "images": [
-                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm.jpg",
-                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm-back.jpg"
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm-back.jpg"
             ],
             "openlibrary_url": "https://openlibrary.org/books/OL47566819M"
         },
@@ -63,8 +63,8 @@
             "pages": 320,
             "publisher": "Wizards of the Coast",
             "images": [
-                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm2.jpg",
-                "http://www.tsrarchive.com/in/sp/sp-5e-core-mdm2-back.jpg"
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm2.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm2-back.jpg"
             ],
             "official_url": "https://dnd.wizards.com/es/products/monster-manual",
             "isbn13": 9780786967582,
