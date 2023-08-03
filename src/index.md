@@ -13,6 +13,9 @@ Esta web no tiene ningún soporte ni afiliación con las compañías *Hasbro* y 
 #### Escenarios de campaña
 {{ print_product_table('data/products/books/settings') }}
 
+#### Aventuras
+{{ print_product_table('data/products/books/adventures') }}
+
 ### Cajas
 #### Cajas de inicio
 {{ print_product_table('data/products/boxed_sets/starter_sets') }}
