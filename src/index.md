@@ -10,6 +10,9 @@ Esta web no tiene ningún soporte ni afiliación con las compañías *Hasbro* y 
 #### Libros básicos
 {{ print_product_table('data/products/books/core_rules') }}
 
+#### Expansiones del reglamento
+{{ print_product_table('data/products/books/supplemental_rules') }}
+
 #### Escenarios de campaña
 {{ print_product_table('data/products/books/settings') }}
 
