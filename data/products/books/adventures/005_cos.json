@@ -1,0 +1,68 @@
+{
+    "code": "COS",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "5e",
+            "title": "Curse of Strahd",
+            "date": "2016-03-15",
+            "item_code": "B6517",
+            "authors": [
+                "Christopher Perkins"
+            ],
+            "pages": 256,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786965984,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-curse.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-curse-back.jpg"
+            ],
+            "openlibrary_url": "https://openlibrary.org/books/OL26806048M",
+            "amazon_associated_link": "https://amzn.to/45epMWn"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "La Maldición de Strahd",
+            "date": "2019-11-29",
+            "item_code": "EEWCDD07",
+            "authors": [
+                "Christopher Perkins"
+            ],
+            "pages": 256,
+            "publisher": "Edge Entertainment / Gale Force Nine",
+            "isbn13": 8435407625631,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mal.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mal-back.jpg"
+            ],
+            "amazon_associated_link": "https://amzn.to/3OLsnl8"
+
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "La Maldición de Strahd",
+            "date": "2022-11-25",
+            "item_code": "B65171050",
+            "authors": [
+                "Christopher Perkins"
+            ],
+            "pages": 256,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786967919,
+            "images": [
+                "https://freakelitex.com/wp-content/uploads/2022/11/La-Maldicion-de-Strahd-ya-en-espanol-1-1.jpg",
+                "https://freakelitex.com/wp-content/uploads/2022/12/Resena-de-La-Maldicion-de-Strahd-en-espanol-4.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/es/products/curse-strahd-revamped",
+            "amazon_associated_link": "https://amzn.to/3DLjUYN"
+        }
+    ]
+}
