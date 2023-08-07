@@ -1,0 +1,49 @@
+{
+    "code": "TOA",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "5e",
+            "title": "Tomb of Annihilation",
+            "date": "2017-09-19",
+            "item_code": "C2208",
+            "authors": [
+                "Christopher Perkins",
+                "Will Doyle",
+                "Steven Winter"
+            ],
+            "pages": 256,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786966103,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tomb.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tomb-back.jpg"
+            ],
+            "openlibrary_url": "https://openlibrary.org/books/OL26806049M",
+            "amazon_associated_link": "https://amzn.to/3QvY6Iw"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "La Tumba de la Aniquilación",
+            "date": "2018-09-21",
+            "item_code": "EEWCDD05",
+            "authors": [
+                "Christopher Perkins",
+                "Will Doyle",
+                "Steven Winter"
+            ],
+            "pages": 256,
+            "publisher": "Edge Entertainment / Gale Force Nine",
+            "isbn13": 9788416357864,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-tumb.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-tumb-back.jpg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "code": "TOTWP",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "5e",
+            "title": "Tales From the Yawning Portal",
+            "date": "2017-03-24",
+            "item_code": "C2207",
+            "authors": [
+                "Kim Mohan",
+                "Mike Mearls"
+            ],
+            "pages": 248,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786966097,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tales.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tales-back.jpg"
+            ],
+            "openlibrary_url": "https://openlibrary.org/books/OL26876233M",
+            "amazon_associated_link": "https://amzn.to/3qkxXSc"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Cuentos del Portal Bostezante",
+            "date": "2020-08-14",
+            "item_code": "EEWCDD11",
+            "authors": [
+                "Kim Mohan",
+                "Mike Mearls"
+            ],
+            "pages": 248,
+            "publisher": "Edge Entertainment / Gale Force Nine",
+            "isbn13": 8435407626164,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-port.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-port-back.jpg"
+            ],
+            "amazon_associated_link": "https://amzn.to/3s7a2WH"
+        }
+    ]
+}
