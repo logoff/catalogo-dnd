@@ -1,0 +1,63 @@
+{
+    "code": "RMR",
+    "publications": [
+        {
+            "type": "boxed_set",
+            "subtype": "starter_set",
+            "language": "english",
+            "edition": "5e",
+            "title": "Dungeons & Dragons vs. Rick and Morty",
+            "date": "2019-09-19",
+            "item_code": "C7248",
+            "authors": [
+                "Kate Welch"
+            ],
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786966882,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-back.jpg"
+            ],
+            "openlibrary_url": "https://openlibrary.org/books/OL33340879M",
+            "amazon_associated_link": "https://amzn.to/3QpeLNM",
+            "sub_publications": [
+                {
+                    "title": "Rulebook",
+                    "pages": 64,
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-book1.jpg"
+                    ]
+                },
+                {
+                    "title": "The Lost Dungeon of Rickedness: Big Rick Energy",
+                    "pages": 64,
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-book2.jpg"
+                    ]
+                },
+                {
+                    "title": "Dungeon Master screen",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-screen.jpg"
+                    ]
+                },
+                {
+                    "title": "Pregenerated character sheets (5)",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-c1.jpg",
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-c2.jpg",
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-c3.jpg",
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-c4.jpg",
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-c5.jpg"
+                    ]
+                },
+                {
+                    "title": "Polyhedral dice (11)",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-box-rick-dice.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

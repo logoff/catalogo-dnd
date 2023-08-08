@@ -1,0 +1,29 @@
+{
+    "code": "ERLW",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "setting",
+            "language": "english",
+            "edition": "5e",
+            "title": "Eberron: Rising From the Last War",
+            "date": "2019-11-19",
+            "item_code": "C7287",
+            "authors": [
+                "Jeremy Crawford",
+                "James Wyatt",
+                "Keith Baker"
+            ],
+            "pages": 320,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786966899,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-rising.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-rising-back.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/products/eberron",
+            "openlibrary_url": "https://openlibrary.org/books/OL30671149M",
+            "amazon_associated_link": "https://amzn.to/3Ot9kdR"
+        }
+    ]
+}
