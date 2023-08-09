@@ -1,0 +1,48 @@
+{
+    "code": "TCE",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "supplemental_rules",
+            "language": "english",
+            "edition": "5e",
+            "title": "Tasha's Cauldron of Everything",
+            "date": "2020-11-17",
+            "item_code": "C7878",
+            "authors": [
+                "Jeremy Crawford"
+            ],
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786967025,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-tash.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-tash-back.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/products/tashas-cauldron-everything",
+            "openlibrary_url": "https://openlibrary.org/books/OL31379362M",
+            "amazon_associated_link": "https://amzn.to/3qtRiQL"
+        },
+        {
+            "type": "book",
+            "subtype": "supplemental_rules",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "El Caldero de Tasha para Todo",
+            "date": "2022-07-12",
+            "item_code": "C78781050",
+            "authors": [
+                "Jeremy Crawford"
+            ],
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786967797,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-cald.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-cald-back.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/es/products/tashas-cauldron-everything",
+            "amazon_associated_link": "https://amzn.to/3KAdVKq"
+        }
+    ]
+}

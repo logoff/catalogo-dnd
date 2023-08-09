@@ -1,0 +1,48 @@
+{
+    "code": "WBTW",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "5e",
+            "title": "The Wild Beyond the Witchlight: A Feywild Adventure",
+            "date": "2021-03-16",
+            "item_code": "C9276",
+            "authors": [
+                "Christopher Perkins"
+            ],
+            "pages": 252,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786967278,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-wbtw.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-wbtw-back.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/products/wild-beyond-witchlight",
+            "openlibrary_url": "https://openlibrary.org/books/OL33924484M",
+            "amazon_associated_link": "https://amzn.to/3sappO7"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Las tierras más allá de Brujaluz",
+            "date": "2023-02-24",
+            "item_code": "C92761050",
+            "authors": [
+                "Christopher Perkins"
+            ],
+            "pages": 252,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786968909,
+            "images": [
+                "https://proxy.logoff.cat/b2b.asmodee.es/product/image/large/c92761050_1.png",
+                "https://proxy.logoff.cat/b2b.asmodee.es/product/image/large/c92761050_2.png"
+            ],
+            "official_url": "https://dnd.wizards.com/es/products/wild-beyond-witchlight",
+            "amazon_associated_link": "https://amzn.to/3qrvs0r"
+        }
+    ]
+}

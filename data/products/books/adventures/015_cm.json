@@ -1,0 +1,46 @@
+{
+    "code": "CM",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "5e",
+            "title": "Candlekeep Mysteries",
+            "date": "2021-03-16",
+            "item_code": "C9278",
+            "authors": [
+                "Graeme Barber",
+                "Bill Benham",
+                "Kelly Lynne D'Angelo",
+                "Alison Huang",
+                "Mark Hulmes",
+                "Jennifer Kretchmer",
+                "Daniel Kwan",
+                "Adam Lee",
+                "Ari Levitch",
+                "Chris Lindsay",
+                "Sarah Madsen",
+                "Christopher Perkins",
+                "Michael Polkinghorn",
+                "Taymoor Rehman",
+                "Hannah Rose",
+                "Derek Ruiz",
+                "Kienna Shaw",
+                "Brandes Stoddard",
+                "Amy Vorpahl",
+                "Toni Winslow-Brill"
+            ],
+            "pages": 224,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786967223,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-ckm.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-ckm-back.jpg"
+            ],
+            "official_url": "https://dnd.wizards.com/products/candlekeep-mysteries",
+            "openlibrary_url": "https://openlibrary.org/books/OL36356901M",
+            "amazon_associated_link": "https://amzn.to/3KwegNW"
+        }
+    ]
+}
