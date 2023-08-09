@@ -68,9 +68,9 @@
         <ul>
           {% for sub_publication in publication.sub_publications %}
           <li>
-            {{ sub_publication['title'] }}:
+            {{ sub_publication['title'] }}
             {% if sub_publication['images'] %}
-            {% for image in sub_publication['images'] %}
+            - {% for image in sub_publication['images'] %}
             [<a target="_blank" href="{{ image }}">{{ loop.index }}</a>]
             {% endfor %}
             {% endif %}
