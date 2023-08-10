@@ -57,6 +57,10 @@
         <p><b>URL oficial:</b> <a href="{{ publication['official_url'] }}">enlace</a></p>
         {% endif %}
 
+        {% if "openlibrary_url" in publication %}
+        <p><b>URL Open Library:</b> <a href="{{ publication['openlibrary_url'] }}">enlace</a></p>
+        {% endif %}
+
         {% if "amazon_associated_link" in publication %}
         <a class="amazon_button" target="_blank" href="{{ publication['amazon_associated_link'] }}"><img
             src="img/disponible_en_amazon.png"></a>
