@@ -29,15 +29,15 @@
 
         <p><b>Tipo:</b> {{ utils.parse_subtype(publication['type'], publication['subtype']) }}</p>
 
-        {% if "publisher" in publication %}
+        {% if publication['publisher'] %}
         <p><b>Editorial:</b> {{ publication['publisher'] }}</p>
         {% endif %}
 
-        {% if "date" in publication %}
+        {% if publication['date'] %}
         <p><b>Fecha de publicación:</b> {{ utils.parse_date(publication['date']) }}</p>
         {% endif %}
 
-        {% if "authors" in publication %}
+        {% if publication['pages'] %}
         <p><b>Número de páginas:</b> {{ publication['pages'] }}</p>
         {% endif %}
 
@@ -45,31 +45,31 @@
         <p><b>Autores:</b> {{ ', '.join(publication['authors']) }}</p>
         {% endif %}
 
-        {% if "isbn13" in publication %}
+        {% if publication['isbn13'] %}
         <p><b>ISBN13:</b> {{ publication['isbn13'] }}</p>
         {% endif %}
 
-        {% if "item_code" in publication %}
+        {% if publication['item_code'] %}
         <p><b>Código de artículo:</b> {{ publication['item_code'] }}</p>
         {% endif %}
 
-        {% if "official_url" in publication %}
+        {% if publication['official_url'] %}
         <p><b>URL oficial:</b> <a href="{{ publication['official_url'] }}">enlace</a></p>
         {% endif %}
 
-        {% if "wpn_url" in publication %}
+        {% if publication['wpn_url'] %}
         <p><b>URL Wizards Play Network:</b> <a href="{{ publication['wpn_url'] }}">enlace</a></p>
         {% endif %}
 
-        {% if "spain_distr_url" in publication %}
+        {% if publication['spain_distr_url'] %}
         <p><b>URL distribuidora en España:</b> <a href="{{ publication['spain_distr_url'] }}">enlace</a></p>
         {% endif %}
 
-        {% if "openlibrary_url" in publication %}
+        {% if publication['openlibrary_url'] %}
         <p><b>URL Open Library:</b> <a href="{{ publication['openlibrary_url'] }}">enlace</a></p>
         {% endif %}
 
-        {% if "amazon_associated_link" in publication %}
+        {% if publication['amazon_associated_link'] %}
         <a class="amazon_button" target="_blank" href="{{ publication['amazon_associated_link'] }}"><img
             src="img/disponible_en_amazon.png"></a>
         {% endif %}
