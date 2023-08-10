@@ -14,7 +14,7 @@
                 "Stan!",
                 "Ben Petrisor"
             ],
-            "publisher": "Wizards of the Coast",
+            "publisher": "Hasbro / Wizards of the Coast",
             "isbn13": 9780786965595,
             "images": [
                 "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-st-starter-box.jpg",
@@ -57,6 +57,61 @@
                     "title": "6 dice",
                     "images": [
                         "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-st-starter-box-dice.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+
+            "type": "boxed_set",
+            "subtype": "starter_set",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Stranger Things Dungeons & Dragons Caja de inicio",
+            "date": "2019-07-10",
+            "authors": [
+                "Jeremy Crawford",
+                "Stan!",
+                "Ben Petrisor"
+            ],
+            "publisher": "Hasbro / Wizards of the Coast",
+            "isbn13": 5010993642595,
+            "images": [
+                "https://1.bp.blogspot.com/-lUaPdaBdlZs/Xj_WTY77K8I/AAAAAAAAVSw/yUyaIHHTSxI-FQmjJH1EwGV_NbRh20lIACLcBGAsYHQ/s1600/IMG-20200209-WA0011.jpg"
+            ],
+            "amazon_associated_link": "https://amzn.to/3YBJIQP",
+            "sub_publications": [
+                {
+                    "title": "Caja de Inicio: Reglamento",
+                    "pages": 44,
+                    "images": [
+                        "https://1.bp.blogspot.com/-RyqNCwyuVbM/Xj_XAa7W0TI/AAAAAAAAVTU/EtFw0CNLREAzXOxWvjSQ7MaZhsIoIUhVwCEwYBhgL/s1600/IMG-20200209-WA0008.jpg"
+                    ]
+                },
+                {
+                    "title": "La caza de la Thessalhydra",
+                    "pages": 24,
+                    "images": [
+                        "https://1.bp.blogspot.com/-kJ_GskGDD0U/Xj_XKtyBJbI/AAAAAAAAVTo/towjEl23qvAm6AGXJuziFw67qFLaPPRAgCEwYBhgL/s1600/IMG-20200209-WA0019.jpg"
+                    ]
+                },
+                {
+                    "title": "Stranger Things hojas de personaje pregenerados (5)",
+                    "images": [
+                        "https://1.bp.blogspot.com/-pNtJYAFwav8/Xj_XtyyXhWI/AAAAAAAAVT0/7x3ZihENY78Xtd56TE1PB-10hYwEIsfagCLcBGAsYHQ/s1600/IMG-20200209-WA0010.jpg",
+                        "https://1.bp.blogspot.com/-XeoYZB7Cqvo/Xj_XxOpg49I/AAAAAAAAVT4/GY7loX-GfQYepdmbnY3XP0VAbf34l-JDwCLcBGAsYHQ/s1600/IMG-20200209-WA0001.jpg"
+                    ]
+                },
+                {
+                    "title": "Miniaturas del Demogorgon (2)",
+                    "images": [
+                        "https://1.bp.blogspot.com/-p0epxJx7CFs/Xj_X4UrKgLI/AAAAAAAAVUA/3GDxsp-9v6cbDxlMK5YtlyN9mp2e4RVbwCLcBGAsYHQ/s1600/IMG-20200209-WA0005.jpgg"
+                    ]
+                },
+                {
+                    "title": "6 dados",
+                    "images": [
+                        "https://1.bp.blogspot.com/-DalQ_17feaM/Xj_X09XthsI/AAAAAAAAVT8/BEGkfvL2S4IlSlPO0nDqiFvtenbG8zA-wCLcBGAsYHQ/s1600/IMG-20200209-WA0003.jpg"
                     ]
                 }
             ]
