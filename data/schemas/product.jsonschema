@@ -78,6 +78,14 @@
                     "type": "string",
                     "format": "uri"
                 },
+                "wpn_url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "spain_distr_url": {
+                    "type": "string",
+                    "format": "uri"
+                },
                 "openlibrary_url": {
                     "type": "string",
                     "format": "uri"

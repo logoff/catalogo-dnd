@@ -20,6 +20,7 @@
                 "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-tash-back.jpg"
             ],
             "official_url": "https://dnd.wizards.com/products/tashas-cauldron-everything",
+            "wpn_url": "https://wpn.wizards.com/en/products/tashas-cauldron-of-everything",
             "openlibrary_url": "https://openlibrary.org/books/OL31379362M",
             "amazon_associated_link": "https://amzn.to/3qtRiQL"
         },
@@ -42,6 +43,7 @@
                 "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-cald-back.jpg"
             ],
             "official_url": "https://dnd.wizards.com/es/products/tashas-cauldron-everything",
+            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-caldero-de-tasha-para-todo-c78781050",
             "amazon_associated_link": "https://amzn.to/3KAdVKq"
         }
     ]

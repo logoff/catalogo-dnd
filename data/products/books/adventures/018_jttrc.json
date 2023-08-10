@@ -21,6 +21,7 @@
                 "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-radcit-back.jpg"
             ],
             "official_url": "https://dnd.wizards.com/products/journeys-through-radiant-citadel",
+            "wpn_url": "https://wpn.wizards.com/en/products/journeys-through-the-radiant-citadel",
             "openlibrary_url": "https://openlibrary.org/books/OL37802724M",
             "amazon_associated_link": "https://amzn.to/3qrucKQ"
         },
@@ -43,7 +44,7 @@
                 "https://proxy.logoff.cat/b2b.asmodee.es/product/image/large/d09961050_1.png",
                 "https://proxy.logoff.cat/b2b.asmodee.es/product/image/large/d09961050_2.png"
             ],
-            "official_url": "https://dnd.wizards.com/es/products/wild-beyond-witchlight",
+            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-viajes-por-la-ciudadela-radiante-hc-d09961050",
             "amazon_associated_link": "https://amzn.to/3qrvs0r"
         }
     ]

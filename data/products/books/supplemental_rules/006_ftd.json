@@ -20,6 +20,7 @@
                 "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-fiz-back.jpg"
             ],
             "official_url": "https://dnd.wizards.com/products/treasury-dragons",
+            "wpn_url": "https://wpn.wizards.com/en/products/fizbans-treasury-of-dragons-",
             "openlibrary_url": "https://openlibrary.org/books/OL34240880M",
             "amazon_associated_link": "https://amzn.to/3OscYoy"
         },
@@ -42,6 +43,7 @@
                 "https://freakelitex.com/wp-content/uploads/2023/05/Dungeons-and-Dragons-El-tesoro-de-los-dragones-de-Fizban-ya-disponible-3.jpg"
             ],
             "official_url": "https://dnd.wizards.com/es/products/treasury-dragons",
+            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-tesoro-de-los-dragones-de-fizban-c92741050",
             "amazon_associated_link": "https://amzn.to/45no8BG"
         }
     ]

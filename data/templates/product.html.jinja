@@ -57,6 +57,14 @@
         <p><b>URL oficial:</b> <a href="{{ publication['official_url'] }}">enlace</a></p>
         {% endif %}
 
+        {% if "wpn_url" in publication %}
+        <p><b>URL Wizards Play Network:</b> <a href="{{ publication['wpn_url'] }}">enlace</a></p>
+        {% endif %}
+
+        {% if "spain_distr_url" in publication %}
+        <p><b>URL distribuidora en España:</b> <a href="{{ publication['spain_distr_url'] }}">enlace</a></p>
+        {% endif %}
+
         {% if "openlibrary_url" in publication %}
         <p><b>URL Open Library:</b> <a href="{{ publication['openlibrary_url'] }}">enlace</a></p>
         {% endif %}
