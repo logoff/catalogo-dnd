@@ -1,0 +1,25 @@
+{
+    "code": "BPGG",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "supplemental_rules",
+            "language": "english",
+            "edition": "5e",
+            "title": "Bigby Presents Glory of the Giants",
+            "date": "2023-08-15",
+            "item_code": "D2431",
+            "authors": [
+            ],
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786968985,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/7vmKlNiWrBwm5uLZ7BDBPP/3aff891d6630bddb377e7acdda6adc23/DnD_BGG_TradCvr_EN_4C_00000.png"
+            ],
+            "official_url": "https://dnd.wizards.com/products/monsters-of-the-multiverse",
+            "openlibrary_url": "https://openlibrary.org/books/OL48465341M",
+            "amazon_associated_link": "https://amzn.to/45nqX5P"
+        }
+    ]
+}
