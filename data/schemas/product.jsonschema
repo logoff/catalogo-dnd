@@ -90,7 +90,7 @@
                     "type": "string",
                     "format": "uri"
                 },
-                "amazon_associated_link": {
+                "amazon_link": {
                     "type": "string",
                     "format": "uri"
                 },
