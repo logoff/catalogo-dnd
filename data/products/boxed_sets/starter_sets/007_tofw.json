@@ -1,0 +1,61 @@
+{
+    "code": "TOFW",
+    "publications": [
+        {
+            "type": "boxed_set",
+            "subtype": "adventure_setting",
+            "language": "english",
+            "edition": "5e",
+            "title": "Planescape: Adventures in the Multiverse",
+            "date": "2023-10-20",
+            "item_code": "D2437",
+            "authors": [
+                "Justice Ramin Arman",
+                "Dan Dillon",
+                "F. Wesley Schneider"
+            ],
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969043,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ps.jpg"
+            ],
+            "official_url": "https://dndstore.wizards.com/eu/product/820945/planescape-adventures-in-the-multiverse-digital-plus-physical-bundle",
+            "wpn_url": "https://wpn.wizards.com/en/products/planescape-adventures-in-the-multiverse",
+            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-planescape-5-adventures-in-the-multiverse-hc-d24370000",
+            "openlibrary_url": "https://openlibrary.org/books/OL49308962M",
+            "amazon_link": "https://www.amazon.es/RPG-PLANESCAPE-ADV-MULTIVERSE-Adventures/dp/0786969040",
+            "sub_publications": [
+                {
+                    "title": "Turn of Fortune's Wheel",
+                    "pages": 96,
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ps-book1.jpg"
+                    ]
+                },
+                {
+                    "title": "Sigil and the Outlands",
+                    "pages": 96,
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ps-book2.jpg"
+                    ]
+                },
+                {
+                    "title": "Morte's Planar Parade",
+                    "pages": 64,
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ps-book3.jpg"
+                    ]
+                },
+                {
+                    "title": "Dungeon Master Screen",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ps-scrn.jpg"
+                    ]
+                },
+                {
+                    "title": "Double-side poster map"
+                }
+            ]
+        }
+    ]
+}
