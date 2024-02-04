@@ -1,0 +1,66 @@
+{
+    "code": "BMT",
+    "publications": [
+        {
+            "type": "boxed_set",
+            "subtype": "others",
+            "language": "english",
+            "edition": "5e",
+            "title": "The Deck of Many Things",
+            "date": "2024-02-01",
+            "item_code": "D3195",
+            "authors": [
+                "Jason Tondro"
+            ],
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969173,
+            "images": [
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck-back.jpg"
+            ],
+            "official_url": "https://dndstore.wizards.com/eu/product/865605/the-deck-of-many-things-digital-plus-physical-bundle",
+            "wpn_url": "https://wpn.wizards.com/en/products/the-deck-of-many-things",
+            "amazon_link": "https://www.amazon.es/Deck-Many-Things-expansi%C3%B3n-referencia/dp/0786969172",
+            "sub_publications": [
+                {
+                    "title": "Outer box",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck.jpg"
+                    ]
+                },
+                {
+                    "title": "The Book of Many Things",
+                    "pages": 192,
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck-book1.jpg"
+                    ]
+                },
+                {
+                    "title": "Funda",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck-slip.jpg"
+                    ]
+                },
+                {
+                    "title": "Caja de la baraja",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck-box.jpg"
+                    ]
+                },
+                {
+                    "title": "Card Reference Guide",
+                    "pages": 80,
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck-book2.jpg"
+                    ]
+                },
+                {
+                    "title": "Cartas (66)",
+                    "images": [
+                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-deck-card.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

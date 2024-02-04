@@ -25,5 +25,7 @@ def parse_subtype(type: str, subtype: str) -> str:
             return "Set de regalo de los reglamentos básicos"
         elif PublicationBoxedSetSubType.ADVENTURE_SETTING.value == subtype:
             return "Colección de campaña"
+        elif PublicationBoxedSetSubType.OTHERS.value == subtype:
+            return "Otro"
     else:
         raise ValueError(f"Unknown PublicationBookSubType: {subtype} for {type}!")

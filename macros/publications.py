@@ -17,3 +17,4 @@ class PublicationBoxedSetSubType(StrEnum):
     STARTER_SET= "starter_set"
     RULES = "rules"
     ADVENTURE_SETTING = "adventure_setting"
+    OTHERS = "OTHERS"

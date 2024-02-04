@@ -25,3 +25,6 @@ Esta web no tiene ningún soporte ni afiliación con las compañías *Hasbro* y 
 
 #### Colecciones de campaña
 {{ print_product_table('data/products/02_boxed_sets/02_adventure_settings') }}
+
+#### Otros
+{{ print_product_table('data/products/02_boxed_sets/03_others') }}

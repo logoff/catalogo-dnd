@@ -39,7 +39,7 @@
                     "type": "string",
                     "enum": [
                         "core_rules", "supplemental_rules", "setting", "adventure",
-                        "starter_set", "rules", "adventure_setting"
+                        "starter_set", "rules", "adventure_setting", "others"
                     ]
                 },
                 "edition": {
