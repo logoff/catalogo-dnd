@@ -8,17 +8,20 @@ Esta web no tiene ningún soporte ni afiliación con las compañías *Hasbro* y 
 ## Productos
 ### Libros
 #### Libros básicos
-{{ print_product_table('data/products/books/core_rules') }}
+{{ print_product_table('data/products/01_books/01_core_rules') }}
 
 #### Expansiones del reglamento
-{{ print_product_table('data/products/books/supplemental_rules') }}
+{{ print_product_table('data/products/01_books/02_supplemental_rules') }}
 
 #### Escenarios de campaña
-{{ print_product_table('data/products/books/settings') }}
+{{ print_product_table('data/products/01_books/03_settings') }}
 
 #### Aventuras
-{{ print_product_table('data/products/books/adventures') }}
+{{ print_product_table('data/products/01_books/04_adventures') }}
 
 ### Cajas
 #### Cajas de inicio
-{{ print_product_table('data/products/boxed_sets/starter_sets') }}
+{{ print_product_table('data/products/02_boxed_sets/01_starter_sets') }}
+
+#### Colecciones de campaña
+{{ print_product_table('data/products/02_boxed_sets/02_adventure_settings') }}
