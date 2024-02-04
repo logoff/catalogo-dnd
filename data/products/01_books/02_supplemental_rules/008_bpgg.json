@@ -10,16 +10,32 @@
             "date": "2023-08-15",
             "item_code": "D2431",
             "authors": [
+                "James Wyatt"
             ],
             "pages": 192,
             "publisher": "Wizards of the Coast",
             "isbn13": 9780786968985,
             "images": [
-                "https://images.ctfassets.net/0piqveu8x9oj/7vmKlNiWrBwm5uLZ7BDBPP/3aff891d6630bddb377e7acdda6adc23/DnD_BGG_TradCvr_EN_4C_00000.png"
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-big.jpg",
+                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-big-back.jpg"
             ],
             "wpn_url": "https://wpn.wizards.com/en/products/bigby-presents-glory-of-the-giants",
             "openlibrary_url": "https://openlibrary.org/books/OL48465341M",
             "amazon_link": "https://www.amazon.es/Bigby-Presents-Dungeons-Dragons-Expansion/dp/0786968982"
+        },
+        {
+            "type": "book",
+            "subtype": "supplemental_rules",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Bigby presenta: La Gloria de los Gigantes",
+            "date": "2024-06-30",
+            "item_code": "D2431",
+            "authors": [
+                "James Wyatt"
+            ],
+            "pages": 192,
+            "publisher": "Wizards of the Coast"
         }
     ]
 }

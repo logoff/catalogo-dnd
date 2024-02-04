@@ -25,6 +25,29 @@
             "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-keys-from-the-golden-vault-hc-d24290000",
             "openlibrary_url": "https://openlibrary.org/books/OL46117672M",
             "amazon_link": "https://www.amazon.es/KEYS-GOLDEN-VAULT-Dungeons-Dragons/dp/0786968966"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Las Llaves de la Cámara de Oro",
+            "date": "2024-03-15",
+            "item_code": "D24291050",
+            "authors": [
+                "Amanda Hamon",
+                "Christopher Perkins"
+            ],
+            "pages": 208,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969319,
+            "images": [
+                "https://m.media-amazon.com/images/I/712CMGD4AwL._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71rwBD3njML._SL1500_.jpg"
+
+            ],
+            "official_url": "https://dnd.wizards.com/es/products/keys-from-the-golden-vault",
+            "amazon_link": "https://www.amazon.es/aventura-Dungeons-Dragons-Versi%C3%B3n-Espa%C3%B1ol/dp/0786969318"
         }
     ]
 }

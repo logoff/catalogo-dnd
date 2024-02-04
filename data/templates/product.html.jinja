@@ -20,6 +20,8 @@
         {% for image in publication.images %}
         <img class="product-image" src="{{ image }}" />
         {% endfor %}
+        {% else %}
+        <img class="product-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/240px-Imagen_no_disponible.svg.png" />
         {% endif %}
       </div>
 

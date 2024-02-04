@@ -24,6 +24,19 @@
             "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-phandelver-1-below-5-the-shattered-obelisk-d24330000",
             "openlibrary_url": "https://openlibrary.org/books/OL48980524M",
             "amazon_link": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Adventure/dp/0786969008"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Phandelver y más allá: El Obelisco destrozado",
+            "date": "2024-09-30",
+            "authors": [
+                "Amanda Hamon"
+            ],
+            "pages": 224,
+            "publisher": "Wizards of the Coast"
         }
     ]
 }
