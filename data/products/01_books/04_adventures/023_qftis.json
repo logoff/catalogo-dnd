@@ -1,0 +1,26 @@
+{
+    "code": "QFTIS",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "5e",
+            "title": "Quests from the Infinite Staircase",
+            "date": "2024-07-16",
+            "item_code": "D3706",
+            "authors": [
+            ],
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969494,
+            "images": [
+                "https://proxy.logoff.cat/cdn.media.amplience.net/i/wizardsprod/quests-from-the-infinite-staircase_Physical_EN_01",
+                "https://proxy.logoff.cat/cdn.media.amplience.net/i/wizardsprod/quests-from-the-infinite-staircase_Physical_EN_04"
+            ],
+            "official_url": "https://dndstore.wizards.com/eu/product/928659/quests-from-the-infinite-staircase-digital-plus-physical-bundle",
+            "wpn_url": "https://wpn.wizards.com/en/products/quests-from-the-infinite-staircase",
+            "amazon_link": "https://www.amazon.es/Infinite-Staircase-Dungeons-antolog%C3%ADa-aventuras/dp/0786969490"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": "VEOR",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "5e",
+            "title": "Vecna: Eve of Ruin",
+            "date": "2024-05-21",
+            "item_code": "D3704",
+            "authors": [
+            ],
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969470,
+            "images": [
+                "https://proxy.logoff.cat/cdn.media.amplience.net/i/wizardsprod/vecna-eve-of-ruin_Physical_EN_01",
+                "https://proxy.logoff.cat/cdn.media.amplience.net/i/wizardsprod/vecna-eve-of-ruin_Physical_EN_05"
+            ],
+            "official_url": "https://dndstore.wizards.com/us/en/product/924703/vecna-eve-of-ruin-digital-plus-physical-bundle",
+            "wpn_url": "https://wpn.wizards.com/en/products/vecna-eve-of-ruin",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Aventura-Versi%C3%B3n-Adventure/dp/0786969474"
+        }
+    ]
+}
