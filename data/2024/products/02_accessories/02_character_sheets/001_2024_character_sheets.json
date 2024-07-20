@@ -1,0 +1,23 @@
+{
+    "code": "CS",
+    "publications": [
+        {
+            "type": "accessory",
+            "subtype": "character_sheet",
+            "language": "english",
+            "edition": "2024",
+            "title": "2024 Character Sheets",
+            "date": "2024-09-17",
+            "item_code": "D38980000",
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969807,
+            "images": [
+                "https://cdn.media.amplience.net/i/wizardsprod/2024-character-sheets-product-02",
+                "https://cdn.media.amplience.net/i/wizardsprod/2024-character-sheets-product-03"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/category/D3898000",
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-character-sheets",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Character-Sheets-Accessories/dp/0786969806/"
+        }
+    ]
+}

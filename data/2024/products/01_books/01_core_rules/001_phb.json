@@ -1,0 +1,48 @@
+{
+    "code": "PHB",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "english",
+            "edition": "2024",
+            "title": "Player's Handbook",
+            "date": "2024-09-17",
+            "item_code": "D3709000",
+            "authors": [
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969517,
+            "images": [
+                "https://cdn.media.amplience.net/i/wizardsprod/players-handbook-2024-product-01",
+                "https://cdn.media.amplience.net/i/wizardsprod/players-handbook-2024-product-02"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/core-rules/3709000",
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-players-handbook?product=3KKHKAgA7Fjiwg3enZtstH",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Rulebook/dp/0786969512"
+        },
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "english",
+            "edition": "2024",
+            "title": "Player's Handbook (Alternate-Art Cover)",
+            "date": "2024-09-17",
+            "item_code": "D39200000",
+            "authors": [
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969821,
+            "images": [
+                "https://www.enworld.org/attachments/0_dnd_phb_alt_cvr_full_cvr-jpg-webp.366453"
+            ],
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-players-handbook?product=3nwKG3lFpQPM1sKZMyI7Nl"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "code": "DMG",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "english",
+            "edition": "2024",
+            "title": "Dungeon Master's Guide",
+            "date": "2024-11-12",
+            "item_code": "D3710000",
+            "authors": [
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969524,
+            "images": [
+                "https://cdn.media.amplience.net/i/wizardsprod/dungeon-masters-guide-2024-product-01",
+                "https://cdn.media.amplience.net/i/wizardsprod/dungeon-masters-guide-2024-product-02"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/core-rules/3710000",
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-dungeon-masters-guide?product=6XGa8AdgaUk1p48cSIjFXi",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Rulebook/dp/0786969520"
+        },
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "english",
+            "edition": "2024",
+            "title": "Dungeon Master's Guide (Alternate-Art Cover)",
+            "date": "2024-11-12",
+            "item_code": "D39210000",
+            "authors": [
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969845,
+            "images": [
+                "https://www.enworld.org/attachments/2024_dnd_dmg_alt-webp.366454"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/core-rules/3710000",
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-dungeon-masters-guide?product=4dxTpIOH6M9zeXpQ66xUqU"
+        }
+    ]
+}

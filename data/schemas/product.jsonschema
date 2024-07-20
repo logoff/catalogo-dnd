@@ -33,13 +33,14 @@
                 },
                 "type": {
                     "type": "string",
-                    "enum": ["book", "boxed_set", "accesory"]
+                    "enum": ["book", "boxed_set", "accessory"]
                 },
                 "subtype": {
                     "type": "string",
                     "enum": [
                         "core_rules", "supplemental_rules", "setting", "adventure",
-                        "starter_set", "rules", "adventure_setting", "others"
+                        "starter_set", "rules", "adventure_setting", "others",
+                        "character_sheet", "screen"
                     ]
                 },
                 "edition": {

@@ -1,0 +1,23 @@
+{
+    "code": "DMS",
+    "publications": [
+        {
+            "type": "accessory",
+            "subtype": "screen",
+            "language": "english",
+            "edition": "2024",
+            "title": "2024 Dungeon Master's Screen",
+            "date": "2024-11-12",
+            "item_code": "D38970000",
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969814,
+            "images": [
+                "https://cdn.media.amplience.net/i/wizardsprod/dungeon-masters-screen-2024-product-02",
+                "https://cdn.media.amplience.net/i/wizardsprod/dungeon-masters-screen-2024-product-03"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/category/D3897000",
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-dungeon-masters-screen",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Accssories/dp/0786969814/"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "code": "MM",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "english",
+            "edition": "2024",
+            "title": "Monster Manual",
+            "date": "2025-02-18",
+            "item_code": "D37110000",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969548,
+            "images": [
+                "https://cdn.media.amplience.net/i/wizardsprod/monster-manual-2024-cover-physical"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/core-rules/3711000",
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-monster-manual?product=1OSPBcMxe3gNOo2NIMDqty",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Monster-Manual-Rulebook/dp/0786969547"
+        },
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "english",
+            "edition": "2024",
+            "title": "Monster Manual",
+            "date": "2025-02-18",
+            "item_code": "D39220000",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969838,
+            "images": [
+                "https://www.enworld.org/attachments/2025_mm_alt-webp.366455"
+            ],
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-monster-manual?product=39uez5A4cOacvfY1XDtBOL"
+        }
+    ]
+}
