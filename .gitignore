@@ -6,3 +6,6 @@ dist/
 
 # Python cache
 __pycache__/
+
+# pyenv local Python version file
+.python-version
