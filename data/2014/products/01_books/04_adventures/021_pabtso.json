@@ -30,13 +30,20 @@
             "subtype": "adventure",
             "language": "castellano",
             "edition": "5e",
-            "title": "Phandelver y más allá: El Obelisco destrozado",
+            "title": "Phandelver y más allá: El Obelisco despedazado",
             "date": "2024-09-30",
+            "item_code": "D24331050",
             "authors": [
                 "Amanda Hamon"
             ],
             "pages": 224,
-            "publisher": "Wizards of the Coast"
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969456,
+            "images": [
+                "https://i.ibb.co/sqG5ycf/picture-1.jpg",
+                "https://i.ibb.co/09wwrcG/picture.jpg"
+            ],
+            "amazon_link": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Dungeons/dp/0786969458"
         }
     ]
 }
