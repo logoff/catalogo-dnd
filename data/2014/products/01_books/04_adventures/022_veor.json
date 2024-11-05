@@ -10,6 +10,7 @@
             "date": "2024-05-21",
             "item_code": "D3704",
             "authors": [
+                "Amanda Hamon"
             ],
             "pages": 192,
             "publisher": "Wizards of the Coast",
@@ -21,6 +22,26 @@
             "official_url": "https://dndstore.wizards.com/us/en/product/924703/vecna-eve-of-ruin-digital-plus-physical-bundle",
             "wpn_url": "https://wpn.wizards.com/en/products/vecna-eve-of-ruin",
             "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Aventura-Versi%C3%B3n-Adventure/dp/0786969474"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "castellano",
+            "edition": "5e",
+            "title": "Vecna: Víspera de la destrucción",
+            "date": "2024-11-08",
+            "item_code": "D37041050",
+            "authors": [
+                "Amanda Hamon"
+            ],
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969586,
+            "images": [
+                "https://dungeonmarvels.com/161813-large_default/dungeons-dragons-vecna-vispera-de-la-destruccion-castellano.jpg",
+                "https://dungeonmarvels.com/161815-large_default/dungeons-dragons-vecna-vispera-de-la-destruccion-castellano.jpg"
+            ],
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-V%C3%ADspera-Destrucci%C3%B3n-aventura/dp/078696958X"
         }
     ]
 }
