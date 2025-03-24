@@ -18,7 +18,8 @@
             "publisher": "Wizards of the Coast",
             "isbn13": 9780786969548,
             "images": [
-                "https://cdn.media.amplience.net/i/wizardsprod/monster-manual-2024-cover-physical"
+                "https://m.media-amazon.com/images/I/71ObV-N1cwL._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71hdGn9vlZL._SL1500_.jpg"
             ],
             "official_url": "https://marketplace.dndbeyond.com/core-rules/3711000",
             "wpn_url": "https://wpn.wizards.com/en/products/2024-monster-manual?product=1OSPBcMxe3gNOo2NIMDqty",
@@ -43,7 +44,29 @@
             "images": [
                 "https://www.enworld.org/attachments/2025_mm_alt-webp.366455"
             ],
-            "wpn_url": "https://wpn.wizards.com/en/products/2024-monster-manual?product=39uez5A4cOacvfY1XDtBOL"
+            "wpn_url": "https://wpn.wizards.com/en/products/2024-monster-manual?product=39uez5A4cOacvfY1XDtBOL",
+            "amazon_link": "https://www.amazon.es/RPG-MONSTER-MANUAL-ALT-CVR/dp/0786969830"
+        },
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "castellano",
+            "edition": "2024",
+            "title": "Manual de Monstruos",
+            "date": "2025-09-30",
+            "item_code": "D37111050",
+            "authors": [
+                "Mike Mearls",
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969739,
+            "images": [
+                "https://m.media-amazon.com/images/I/71I81dEu25L._SL1500_.jpg"
+            ],
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Monster-Versi%C3%B3n-Espa%C3%B1ol/dp/0786969733"
         }
     ]
 }

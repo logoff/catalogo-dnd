@@ -43,6 +43,26 @@
                 "https://www.enworld.org/attachments/0_dnd_phb_alt_cvr_full_cvr-jpg-webp.366453"
             ],
             "wpn_url": "https://wpn.wizards.com/en/products/2024-players-handbook?product=3nwKG3lFpQPM1sKZMyI7Nl"
+        },
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "castellano",
+            "edition": "2024",
+            "title": "Manual del Jugador",
+            "date": "2025-03-31",
+            "item_code": "D37091050",
+            "authors": [
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969685,
+            "images": [
+                "https://m.media-amazon.com/images/I/813WnRBnHFL._SL1500_.jpg"
+            ],
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Versi%C3%B3n/dp/0786969687"
         }
     ]
 }

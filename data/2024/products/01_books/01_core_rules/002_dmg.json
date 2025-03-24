@@ -42,8 +42,27 @@
             "images": [
                 "https://www.enworld.org/attachments/2024_dnd_dmg_alt-webp.366454"
             ],
-            "official_url": "https://marketplace.dndbeyond.com/core-rules/3710000",
             "wpn_url": "https://wpn.wizards.com/en/products/2024-dungeon-masters-guide?product=4dxTpIOH6M9zeXpQ66xUqU"
+        },
+        {
+            "type": "book",
+            "subtype": "core_rules",
+            "language": "castellano",
+            "edition": "2024",
+            "title": "Guía del Dungeon Master",
+            "date": "2025-06-30",
+            "item_code": "D37101050",
+            "authors": [
+                "Jeremy Crawford",
+                "Christopher Perkins"
+            ],
+            "pages": 384,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969784,
+            "images": [
+                "https://m.media-amazon.com/images/I/812q6Fm+9dL._SL1500_.jpg"
+            ],
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Versi%C3%B3n/dp/0786969784"
         }
     ]
 }
