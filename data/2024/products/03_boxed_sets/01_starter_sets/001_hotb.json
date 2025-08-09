@@ -1,0 +1,21 @@
+{
+    "code": "HotB",
+    "publications": [
+        {
+            "type": "boxed_set",
+            "subtype": "starter_set",
+            "language": "english",
+            "edition": "2024",
+            "title": "Starter Set: Heroes of the Borderlands",
+            "date": "2025-09-16",
+            "item_code": "D47050000",
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786965595,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/4GxXiArF2ZbjmTGeIqCdD9/12fd0f353d16c63b09e22903dccfe769/DnD_LANTERN_PACKAGING_3.png"
+            ],
+            "wpn_url": "https://wpn.wizards.com/en/products/starter-set-heroes-of-the-borderlands",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Inicio-Heroes-Borderlands/dp/B0FDJFR245/"
+        }
+    ]
+}
