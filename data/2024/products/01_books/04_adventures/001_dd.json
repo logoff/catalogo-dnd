@@ -1,0 +1,41 @@
+{
+    "code": "DD",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "2024",
+            "title": "Dragon Delves",
+            "date": "2025-07-08",
+            "item_code": "D4716",
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969989,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/3y45Cr4MrQMMxzbgYHvdWV/587f124469255a838280237508a083ad/WoTC_PRISM_TradCvr_250128_0001.png"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/PROMO-April-Bundles/4716000?pid=D4716000",
+            "wpn_url": "https://wpn.wizards.com/en/products/dragon-delves?product=3L5VjGPRd7cMlXGQO6GJun",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Dragon-Delves-Adventure/dp/0786969989/"
+        },
+        {
+            "type": "book",
+            "subtype": "adventure",
+            "language": "english",
+            "edition": "2024",
+            "title": "Dragon Delves (Alternate-Art Cover)",
+            "date": "2025-07-08",
+            "item_code": "D4717",
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969997,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/5xftRiqHrMW1bUpBYDr1T5/a684557f02fb06abb9b90a06adb14d86/WOTC_D_D_PRISM_AltCvr_250207.0001.png"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/PROMO-April-Bundles/4716000?pid=D4716000",
+            "wpn_url": "https://wpn.wizards.com/en/products/dragon-delves?product=5WfkRpSfnijcBHRB0BY5Yo",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-alternativa-Adventure-Anthology/dp/0786969997"
+        }
+    ]
+}
