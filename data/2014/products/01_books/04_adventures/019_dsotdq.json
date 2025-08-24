@@ -40,10 +40,11 @@
             "publisher": "Wizards of the Coast",
             "isbn13": 9780786968329,
             "images": [
-                "https://proxy.logoff.cat/b2b.asmodee.es/product/image/large/d09911050_1.png",
-                "https://proxy.logoff.cat/b2b.asmodee.es/product/image/large/d09911050_2.png"
+                "https://m.media-amazon.com/images/I/71qsRbJwT6L._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/712bvo03PvL._SL1500_.jpg"
             ],
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dl-la-sombra-de-la-reina-de-los-dragones-d09911050"
+            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dl-la-sombra-de-la-reina-de-los-dragones-d09911050",
+            "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/078696832X"
         }
     ]
 }

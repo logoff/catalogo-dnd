@@ -30,12 +30,18 @@
             "edition": "5e",
             "title": "Bigby presenta: La Gloria de los Gigantes",
             "date": "2024-06-30",
-            "item_code": "D2431",
+            "item_code": "D24311050",
             "authors": [
                 "James Wyatt"
             ],
             "pages": 192,
-            "publisher": "Wizards of the Coast"
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969395,
+            "images": [
+                "https://gigamesh.com/wp-content/uploads/Bigby-Presenta-La-Gloria-de-los-Gigantes-e1752503388783.jpg",
+                "https://gigamesh.com/wp-content/uploads/Bigby-Presenta-La-Gloria-de-los-Gigantes_b-e1752503413716.jpg"
+            ],
+            "amazon_link": "https://www.amazon.es/Bigby-Presents-expansi%C3%B3n-Dungeons-Dragons/dp/0786969393"
         }
     ]
 }
