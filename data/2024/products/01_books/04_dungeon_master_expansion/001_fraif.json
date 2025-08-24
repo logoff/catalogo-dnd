@@ -1,0 +1,40 @@
+{
+    "code": "FRAiF",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "dungeon_master_expansion",
+            "language": "english",
+            "edition": "2024",
+            "title": "Forgotten Realms: Adventures in Faerûn",
+            "date": "2025-11-11",
+            "item_code": "D47140000",
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969954,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/5o2j0KFMUuxvsNDlqRV8rS/362c1ea77ba0823da632f605b9f27b6f/AIF-01.png"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4714000?pid=DB4714000",
+            "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-adventures-in-faerun?product=2vgmRvrwQA3RMZKw16bEB4",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Forgotten-Realms-Adventures/dp/0786969954/"
+        },
+        {
+            "type": "book",
+            "subtype": "dungeon_master_expansion",
+            "language": "english",
+            "edition": "2024",
+            "title": "Forgotten Realms: Adventures in Faerûn (Alternate-Art Cover)",
+            "date": "2025-11-11",
+            "item_code": "D47150000",
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969962,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/Rl6IOO3lS2yYUP9JqDA45/ade33bcffcadaf68014f970d6e2c1a85/AIF_Alt-01-2.png"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4714000?pid=DB4714000",
+            "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-adventures-in-faerun?product=1nHGFKzApS8Iv0iaOb6Vvn"
+        }
+    ]
+}

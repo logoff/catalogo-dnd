@@ -3,7 +3,7 @@
     "publications": [
         {
             "type": "book",
-            "subtype": "supplemental_rules",
+            "subtype": "rules_expansion",
             "language": "english",
             "edition": "2024",
             "title": "Eberron: Forge of the Artificer",
@@ -21,7 +21,7 @@
         },
         {
             "type": "book",
-            "subtype": "supplemental_rules",
+            "subtype": "rules_expansion",
             "language": "english",
             "edition": "2024",
             "title": "Eberron: Forge of the Artificer (Alternate-Art Cover)",

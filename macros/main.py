@@ -36,7 +36,7 @@ def define_env(env):
                 items.append(item)
 
         generated_html = _create_products_sheets(items)
-        log(f"Generated HTML:\n{generated_html}")
+        # log(f"Generated HTML:\n{generated_html}")
         return generated_html
 
     def _validate_and_read_json_file(file: os.PathLike) -> bool:
@@ -51,7 +51,7 @@ def define_env(env):
             return None
 
     def _create_products_sheets(items: list) -> list:
-        log(f"Received items: {items}")
+        # log(f"Received items: {items}")
         return jinja_env.get_template(JINJA2_TEMPLATE_PRODUCT).render(items=items)
 
 

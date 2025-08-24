@@ -1,6 +1,6 @@
 {# templates/product.html.jinja #}
 {% for item in items %}
-##### {{ item['code'] }}
+##### {{ item.publications[0]['title'] }}
 
 {% for publication in item.publications %}
 <div class="publication-container">
@@ -29,7 +29,7 @@
       <div class="item product-data">
         <p><b>Idioma:</b> {{ publication['language'] }}</p>
 
-        <p><b>Tipo:</b> {{ utils.parse_subtype(publication['type'], publication['subtype']) }}</p>
+        <p><b>Tipo:</b> {{utils.parse_subtype(publication['edition'], publication['type'], publication['subtype']) }}</p>
 
         {% if publication['publisher'] %}
         <p><b>Editorial:</b> {{ publication['publisher'] }}</p>

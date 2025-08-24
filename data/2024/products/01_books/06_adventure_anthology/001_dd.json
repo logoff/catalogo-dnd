@@ -3,7 +3,7 @@
     "publications": [
         {
             "type": "book",
-            "subtype": "adventure",
+            "subtype": "adventure_anthology",
             "language": "english",
             "edition": "2024",
             "title": "Dragon Delves",
@@ -21,7 +21,7 @@
         },
         {
             "type": "book",
-            "subtype": "adventure",
+            "subtype": "adventure_anthology",
             "language": "english",
             "edition": "2024",
             "title": "Dragon Delves (Alternate-Art Cover)",

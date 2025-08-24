@@ -9,15 +9,14 @@ class PublicationType(StrEnum):
 
 class PublicationBookSubType(StrEnum):
     CORE_RULES = "core_rules"
-    SUPPLEMENTAL_RULES = "supplemental_rules"
-    SETTING = "setting"
-    ADVENTURE = "adventure"
+    RULES_EXPANSION = "rules_expansion"
+    PLAYER_EXPANSION = "player_expansion"
+    DUNGEON_MASTER_EXPANSION = "dungeon_master_expansion"
+    ADVENTURE_ANTHOLOGY = "adventure_anthology"
 
 
 class PublicationBoxedSetSubType(StrEnum):
     STARTER_SET = "starter_set"
-    RULES = "rules"
-    ADVENTURE_SETTING = "adventure_setting"
     OTHERS = "others"
 
 

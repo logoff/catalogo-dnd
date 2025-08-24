@@ -1,0 +1,40 @@
+{
+    "code": "FRHoF",
+    "publications": [
+        {
+            "type": "book",
+            "subtype": "player_expansion",
+            "language": "english",
+            "edition": "2024",
+            "title": "Forgotten Realms: Heroes of Faerûn",
+            "date": "2025-11-11",
+            "item_code": "D47120000",
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969938,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/6LMlkVJl2SQzAE9bxJpqLj/244ecc6b6a8ebf538e8466ae05e98351/HOF-01.png"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4712000?pid=D4712000",
+            "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-heroes-of-faerun?product=2uGHrQNCJJ8zix9bKqhaAi",
+            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Forgotten-Realms-Heroes/dp/0786969938"
+        },
+        {
+            "type": "book",
+            "subtype": "player_expansion",
+            "language": "english",
+            "edition": "2024",
+            "title": "Forgotten Realms: Heroes of Faerûn (Alternate-Art Cover)",
+            "date": "2025-11-11",
+            "item_code": "D47130000",
+            "pages": 192,
+            "publisher": "Wizards of the Coast",
+            "isbn13": 9780786969946,
+            "images": [
+                "https://images.ctfassets.net/0piqveu8x9oj/1xrBCXKxYNSWYmBCLjZxcV/9a6a71af5947d36e4bfd0c3c89a275fd/HOF_Alt-01-2.png"
+            ],
+            "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4712000?pid=D4712000",
+            "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-heroes-of-faerun?product=4ICmKQ2JF1ROFXoeZeOfpF"
+        }
+    ]
+}

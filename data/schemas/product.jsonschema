@@ -40,7 +40,8 @@
                     "enum": [
                         "core_rules", "supplemental_rules", "setting", "adventure",
                         "starter_set", "rules", "adventure_setting", "others",
-                        "character_sheet", "screen"
+                        "rules_expansion", "player_expansion", "dungeon_master_expansion",
+                        "adventure_anthology", "character_sheet", "screen"
                     ]
                 },
                 "edition": {
