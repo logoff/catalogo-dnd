@@ -43,7 +43,7 @@
         <p><b>Número de páginas:</b> {{ publication['pages'] }}</p>
         {% endif %}
 
-        {% if "pages" in publication %}
+        {% if "pages" in publication and publication['authors'] %}
         <p><b>Autores:</b> {{ ', '.join(publication['authors']) }}</p>
         {% endif %}
 
