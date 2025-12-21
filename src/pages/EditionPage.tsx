@@ -6,6 +6,7 @@ import ProductGrid from '@/components/products/ProductGrid'
 import FilterPanel from '@/components/filters/FilterPanel'
 import ViewToggle from '@/components/products/ViewToggle'
 import { translateEditionLong } from '@/utils/translations'
+import { useUrlFilters } from '@/hooks/useUrlFilters'
 import type { Edition } from '@/types'
 
 interface EditionPageProps {
@@ -13,6 +14,7 @@ interface EditionPageProps {
 }
 
 export default function EditionPage({ edition }: EditionPageProps) {
+  useUrlFilters()
   const products = useProductStore((state) => state.products)
   const isLoaded = useProductStore((state) => state.isLoaded)
   const searchQuery = useProductStore((state) => state.searchQuery)
