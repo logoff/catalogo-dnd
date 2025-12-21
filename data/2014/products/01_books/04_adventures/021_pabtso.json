@@ -13,7 +13,10 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969005,
-      "images": ["/images/products/pabtso/pub0_img0.jpg", "/images/products/pabtso/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/pabtso/pub0_img0.jpg",
+        "/images/products/2014/pabtso/pub0_img1.jpg"
+      ],
       "official_url": "https://dndstore.wizards.com/eu/product/820932/phandelver-and-below-the-shattered-obelisk-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/phandelver-and-below-the-shattered-obelisk",
       "openlibrary_url": "https://openlibrary.org/books/OL48980524M",
@@ -31,7 +34,10 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969456,
-      "images": ["/images/products/pabtso/pub1_img0.jpg", "/images/products/pabtso/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/pabtso/pub1_img0.jpg",
+        "/images/products/2014/pabtso/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Dungeons/dp/0786969458"
     }
   ]

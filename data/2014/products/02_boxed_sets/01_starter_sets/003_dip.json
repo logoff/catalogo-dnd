@@ -12,7 +12,10 @@
       "authors": ["Jeremy Crawford", "Chris Perkins"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966837,
-      "images": ["/images/products/dip/pub0_img0.jpg", "/images/products/dip/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/dip/pub0_img0.jpg",
+        "/images/products/2014/dip/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/essentials-kit",
       "wpn_url": "https://wpn.wizards.com/en/products/dungeons-and-dragons-essentials-kit",
       "openlibrary_url": "https://openlibrary.org/books/OL32051179M",
@@ -21,54 +24,54 @@
         {
           "title": "Starter Set Rulebook",
           "pages": 32,
-          "images": ["/images/products/dip/pub0_sub0_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub0_sub0_img0.jpg"]
         },
         {
           "title": "Dragon of Icespire Peak",
           "pages": 64,
-          "images": ["/images/products/dip/pub0_sub1_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Character Record Sheets (6)",
           "images": [
-            "/images/products/dip/pub0_sub2_img0.jpg",
-            "/images/products/dip/pub0_sub2_img1.jpg",
-            "/images/products/dip/pub0_sub2_img2.jpg",
-            "/images/products/dip/pub0_sub2_img3.jpg",
-            "/images/products/dip/pub0_sub2_img4.jpg",
-            "/images/products/dip/pub0_sub2_img5.jpg"
+            "/images/products/2014/dip/pub0_sub2_img0.jpg",
+            "/images/products/2014/dip/pub0_sub2_img1.jpg",
+            "/images/products/2014/dip/pub0_sub2_img2.jpg",
+            "/images/products/2014/dip/pub0_sub2_img3.jpg",
+            "/images/products/2014/dip/pub0_sub2_img4.jpg",
+            "/images/products/2014/dip/pub0_sub2_img5.jpg"
           ]
         },
         {
           "title": "Accessory card sheets (81)",
           "images": [
-            "/images/products/dip/pub0_sub3_img0.jpg",
-            "/images/products/dip/pub0_sub3_img1.jpg",
-            "/images/products/dip/pub0_sub3_img2.jpg",
-            "/images/products/dip/pub0_sub3_img3.jpg",
-            "/images/products/dip/pub0_sub3_img4.jpg",
-            "/images/products/dip/pub0_sub3_img5.jpg"
+            "/images/products/2014/dip/pub0_sub3_img0.jpg",
+            "/images/products/2014/dip/pub0_sub3_img1.jpg",
+            "/images/products/2014/dip/pub0_sub3_img2.jpg",
+            "/images/products/2014/dip/pub0_sub3_img3.jpg",
+            "/images/products/2014/dip/pub0_sub3_img4.jpg",
+            "/images/products/2014/dip/pub0_sub3_img5.jpg"
           ]
         },
         {
           "title": "Accessory card storage box",
-          "images": ["/images/products/dip/pub0_sub4_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub0_sub4_img0.jpg"]
         },
         {
           "title": "Fold-out map",
-          "images": ["/images/products/dip/pub0_sub5_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub0_sub5_img0.jpg"]
         },
         {
           "title": "Dungeon Master screen",
-          "images": ["/images/products/dip/pub0_sub6_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub0_sub6_img0.jpg"]
         },
         {
           "title": "Welcome Adventurer!",
-          "images": ["/images/products/dip/pub0_sub7_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub0_sub7_img0.jpg"]
         },
         {
           "title": "Polyhedral dice (11)",
-          "images": ["/images/products/dip/pub0_sub8_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub0_sub8_img0.jpg"]
         }
       ]
     },
@@ -83,7 +86,10 @@
       "authors": ["Jeremy Crawford", "Chris Perkins"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967421,
-      "images": ["/images/products/dip/pub1_img0.jpg", "/images/products/dip/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/dip/pub1_img0.jpg",
+        "/images/products/2014/dip/pub1_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/essentials-kit",
       "openlibrary_url": "https://openlibrary.org/books/OL34193503M",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-C70080000-Essentials-construcci%C3%B3n/dp/0786967420",
@@ -91,47 +97,47 @@
         {
           "title": "Kit Esencial Reglamento",
           "pages": 68,
-          "images": ["/images/products/dip/pub1_sub0_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub0_img0.jpg"]
         },
         {
           "title": "El Drágon del Pico Agujahelada",
           "pages": 68,
-          "images": ["/images/products/dip/pub1_sub1_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub1_img0.jpg"]
         },
         {
           "title": "Hojas de personaje en blanco (6)",
-          "images": ["/images/products/dip/pub1_sub2_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub2_img0.jpg"]
         },
         {
           "title": "Cartas de objetos mágicos, acompañantes y más (81)",
           "images": [
-            "/images/products/dip/pub1_sub3_img0.jpg",
-            "/images/products/dip/pub1_sub3_img1.jpg",
-            "/images/products/dip/pub1_sub3_img2.jpg",
-            "/images/products/dip/pub1_sub3_img3.jpg",
-            "/images/products/dip/pub1_sub3_img4.jpg",
-            "/images/products/dip/pub1_sub3_img5.jpg"
+            "/images/products/2014/dip/pub1_sub3_img0.jpg",
+            "/images/products/2014/dip/pub1_sub3_img1.jpg",
+            "/images/products/2014/dip/pub1_sub3_img2.jpg",
+            "/images/products/2014/dip/pub1_sub3_img3.jpg",
+            "/images/products/2014/dip/pub1_sub3_img4.jpg",
+            "/images/products/2014/dip/pub1_sub3_img5.jpg"
           ]
         },
         {
           "title": "Caja para las cartas",
-          "images": ["/images/products/dip/pub1_sub4_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub4_img0.jpg"]
         },
         {
           "title": "Póster de mapas con dos caras",
-          "images": ["/images/products/dip/pub1_sub5_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub5_img0.jpg"]
         },
         {
           "title": "Pantalla del Dungeon Master",
-          "images": ["/images/products/dip/pub1_sub6_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub6_img0.jpg"]
         },
         {
           "title": "¡Bienvenidos, Aventureros!",
-          "images": ["/images/products/dip/pub1_sub7_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub7_img0.jpg"]
         },
         {
           "title": "Dados poliédricos (11)",
-          "images": ["/images/products/dip/pub1_sub8_img0.jpg"]
+          "images": ["/images/products/2014/dip/pub1_sub8_img0.jpg"]
         }
       ]
     }

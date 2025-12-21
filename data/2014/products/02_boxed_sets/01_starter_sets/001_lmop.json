@@ -12,33 +12,36 @@
       "authors": ["Mike Mearls", "Jeremy Crawford"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965595,
-      "images": ["/images/products/lmop/pub0_img0.jpg", "/images/products/lmop/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/lmop/pub0_img0.jpg",
+        "/images/products/2014/lmop/pub0_img1.jpg"
+      ],
       "wpn_url": "https://wpn.wizards.com/en/products/dungeons-and-dragons-starter-set",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Roleplaying/dp/0786965592",
       "sub_publications": [
         {
           "title": "Starter Set Rulebook",
           "pages": 32,
-          "images": ["/images/products/lmop/pub0_sub0_img0.jpg"]
+          "images": ["/images/products/2014/lmop/pub0_sub0_img0.jpg"]
         },
         {
           "title": "Lost Mine of Phandelver",
           "pages": 64,
-          "images": ["/images/products/lmop/pub0_sub1_img0.jpg"]
+          "images": ["/images/products/2014/lmop/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Pre-generated character sheets",
           "images": [
-            "/images/products/lmop/pub0_sub2_img0.jpg",
-            "/images/products/lmop/pub0_sub2_img1.jpg",
-            "/images/products/lmop/pub0_sub2_img2.jpg",
-            "/images/products/lmop/pub0_sub2_img3.jpg",
-            "/images/products/lmop/pub0_sub2_img4.jpg"
+            "/images/products/2014/lmop/pub0_sub2_img0.jpg",
+            "/images/products/2014/lmop/pub0_sub2_img1.jpg",
+            "/images/products/2014/lmop/pub0_sub2_img2.jpg",
+            "/images/products/2014/lmop/pub0_sub2_img3.jpg",
+            "/images/products/2014/lmop/pub0_sub2_img4.jpg"
           ]
         },
         {
           "title": "6 game dice",
-          "images": ["/images/products/lmop/pub0_sub3_img0.jpg"]
+          "images": ["/images/products/2014/lmop/pub0_sub3_img0.jpg"]
         }
       ]
     },
@@ -53,31 +56,34 @@
       "authors": ["Mike Mearls", "Jeremy Crawford"],
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407617551,
-      "images": ["/images/products/lmop/pub1_img0.jpg", "/images/products/lmop/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/lmop/pub1_img0.jpg",
+        "/images/products/2014/lmop/pub1_img1.jpg"
+      ],
       "sub_publications": [
         {
           "title": "Caja de Inicio: Reglamento",
           "pages": 32,
-          "images": ["/images/products/lmop/pub1_sub0_img0.jpg"]
+          "images": ["/images/products/2014/lmop/pub1_sub0_img0.jpg"]
         },
         {
           "title": "La Mina Perdida de Phandelver",
           "pages": 64,
-          "images": ["/images/products/lmop/pub1_sub1_img0.jpg"]
+          "images": ["/images/products/2014/lmop/pub1_sub1_img0.jpg"]
         },
         {
           "title": "Aventureros pregenerados",
           "images": [
-            "/images/products/lmop/pub1_sub2_img0.jpg",
-            "/images/products/lmop/pub1_sub2_img1.jpg",
-            "/images/products/lmop/pub1_sub2_img2.jpg",
-            "/images/products/lmop/pub1_sub2_img3.jpg",
-            "/images/products/lmop/pub1_sub2_img4.jpg"
+            "/images/products/2014/lmop/pub1_sub2_img0.jpg",
+            "/images/products/2014/lmop/pub1_sub2_img1.jpg",
+            "/images/products/2014/lmop/pub1_sub2_img2.jpg",
+            "/images/products/2014/lmop/pub1_sub2_img3.jpg",
+            "/images/products/2014/lmop/pub1_sub2_img4.jpg"
           ]
         },
         {
           "title": "6 dados",
-          "images": ["/images/products/lmop/pub1_sub3_img0.jpg"]
+          "images": ["/images/products/2014/lmop/pub1_sub3_img0.jpg"]
         }
       ]
     }

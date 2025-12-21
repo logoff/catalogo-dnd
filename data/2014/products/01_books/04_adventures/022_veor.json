@@ -13,7 +13,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969470,
-      "images": ["/images/products/veor/pub0_img0.jpg", "/images/products/veor/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/veor/pub0_img0.jpg",
+        "/images/products/2014/veor/pub0_img1.jpg"
+      ],
       "official_url": "https://dndstore.wizards.com/us/en/product/924703/vecna-eve-of-ruin-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/vecna-eve-of-ruin",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Aventura-Versi%C3%B3n-Adventure/dp/0786969474"
@@ -30,7 +33,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969586,
-      "images": ["/images/products/veor/pub1_img0.jpg", "/images/products/veor/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/veor/pub1_img0.jpg",
+        "/images/products/2014/veor/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-V%C3%ADspera-Destrucci%C3%B3n-aventura/dp/078696958X"
     }
   ]

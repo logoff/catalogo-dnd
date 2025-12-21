@@ -13,7 +13,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967025,
-      "images": ["/images/products/tce/pub0_img0.jpg", "/images/products/tce/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/tce/pub0_img0.jpg",
+        "/images/products/2014/tce/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/tashas-cauldron-everything",
       "wpn_url": "https://wpn.wizards.com/en/products/tashas-cauldron-of-everything",
       "openlibrary_url": "https://openlibrary.org/books/OL31379362M",
@@ -31,7 +34,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967797,
-      "images": ["/images/products/tce/pub1_img0.jpg", "/images/products/tce/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/tce/pub1_img0.jpg",
+        "/images/products/2014/tce/pub1_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/tashas-cauldron-everything",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Caldero-expansi%C3%B3n-reglamento/dp/078696779X"
     }

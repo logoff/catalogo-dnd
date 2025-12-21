@@ -12,7 +12,7 @@
       "authors": ["Justice Ramin Arman", "Dan Dillon", "F. Wesley Schneider"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969043,
-      "images": ["/images/products/tofw/pub0_img0.jpg"],
+      "images": ["/images/products/2014/tofw/pub0_img0.jpg"],
       "official_url": "https://dndstore.wizards.com/eu/product/820945/planescape-adventures-in-the-multiverse-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/planescape-adventures-in-the-multiverse",
       "openlibrary_url": "https://openlibrary.org/books/OL49308962M",
@@ -21,21 +21,21 @@
         {
           "title": "Turn of Fortune's Wheel",
           "pages": 96,
-          "images": ["/images/products/tofw/pub0_sub0_img0.jpg"]
+          "images": ["/images/products/2014/tofw/pub0_sub0_img0.jpg"]
         },
         {
           "title": "Sigil and the Outlands",
           "pages": 96,
-          "images": ["/images/products/tofw/pub0_sub1_img0.jpg"]
+          "images": ["/images/products/2014/tofw/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Morte's Planar Parade",
           "pages": 64,
-          "images": ["/images/products/tofw/pub0_sub2_img0.jpg"]
+          "images": ["/images/products/2014/tofw/pub0_sub2_img0.jpg"]
         },
         {
           "title": "Dungeon Master Screen",
-          "images": ["/images/products/tofw/pub0_sub3_img0.jpg"]
+          "images": ["/images/products/2014/tofw/pub0_sub3_img0.jpg"]
         },
         {
           "title": "Double-side poster map"

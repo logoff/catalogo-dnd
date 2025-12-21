@@ -13,7 +13,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966004,
-      "images": ["/images/products/skt/pub0_img0.jpg", "/images/products/skt/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/skt/pub0_img0.jpg",
+        "/images/products/2014/skt/pub0_img1.jpg"
+      ],
       "wpn_url": "https://wpn.wizards.com/en/products/storm-kings-thunder",
       "openlibrary_url": "https://openlibrary.org/books/OL26967452M",
       "amazon_link": "https://www.amazon.es/STORM-KINGS-THUNDER-Dungeons-Dragons/dp/0786966009"
@@ -30,7 +33,10 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407626188,
-      "images": ["/images/products/skt/pub1_img0.jpg", "/images/products/skt/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/skt/pub1_img0.jpg",
+        "/images/products/2014/skt/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Tormenta-Asmodee-EEWCDD14/dp/B0925NT31Z"
     }
   ]

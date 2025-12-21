@@ -13,7 +13,10 @@
       "pages": 252,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967278,
-      "images": ["/images/products/wbtw/pub0_img0.jpg", "/images/products/wbtw/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/wbtw/pub0_img0.jpg",
+        "/images/products/2014/wbtw/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/wild-beyond-witchlight",
       "wpn_url": "https://wpn.wizards.com/en/products/the-wild-beyond-the-witchlight-a-feywild-adventure",
       "openlibrary_url": "https://openlibrary.org/books/OL33924484M",
@@ -31,7 +34,10 @@
       "pages": 252,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968909,
-      "images": ["/images/products/wbtw/pub1_img0.jpg", "/images/products/wbtw/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/wbtw/pub1_img0.jpg",
+        "/images/products/2014/wbtw/pub1_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/wild-beyond-witchlight",
       "amazon_link": "https://www.amazon.es/Wild-Beyond-Witchlight-Adventure-aventura/dp/0786968907"
     }

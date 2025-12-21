@@ -34,7 +34,10 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967223,
-      "images": ["/images/products/cm/pub0_img0.jpg", "/images/products/cm/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/cm/pub0_img0.jpg",
+        "/images/products/2014/cm/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/candlekeep-mysteries",
       "wpn_url": "https://wpn.wizards.com/en/products/candlekeep-mysteries",
       "openlibrary_url": "https://openlibrary.org/books/OL36356901M",

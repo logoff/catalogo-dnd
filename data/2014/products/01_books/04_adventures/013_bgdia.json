@@ -13,7 +13,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966769,
-      "images": ["/images/products/bgdia/pub0_img0.jpg", "/images/products/bgdia/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/bgdia/pub0_img0.jpg",
+        "/images/products/2014/bgdia/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/baldurs-gate-descent-into-avernus",
       "wpn_url": "https://wpn.wizards.com/en/products/baldurs-gate-descent-into-avernus",
       "openlibrary_url": "https://openlibrary.org/books/OL29817921M",
@@ -31,7 +34,10 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407629394,
-      "images": ["/images/products/bgdia/pub1_img0.jpg", "/images/products/bgdia/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/bgdia/pub1_img0.jpg",
+        "/images/products/2014/bgdia/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Edge-Entertaiment-Espa%C3%B1a-Descenso-Dungeons/dp/B08BP8TQX8"
     }
   ]
