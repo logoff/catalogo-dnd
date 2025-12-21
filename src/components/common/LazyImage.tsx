@@ -1,17 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import clsx from 'clsx'
-import { getAssetPath } from '@/utils/constants'
+import { resolveImageSrc } from '@/utils/imageResolver'
 
 // Cache de imágenes ya cargadas para evitar parpadeo en re-renders
 const loadedCache = new Set<string>()
-
-// Aplica getAssetPath solo a rutas locales (no URLs externas)
-function resolveImageSrc(src: string): string {
-  if (src.startsWith('http://') || src.startsWith('https://')) {
-    return src
-  }
-  return getAssetPath(src)
-}
 
 interface LazyImageProps {
   src: string

@@ -1,14 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { XMarkIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
-import { getAssetPath } from '@/utils/constants'
-
-// Aplica getAssetPath solo a rutas locales (no URLs externas)
-function resolveImageSrc(src: string): string {
-  if (src.startsWith('http://') || src.startsWith('https://')) {
-    return src
-  }
-  return getAssetPath(src)
-}
+import { resolveImageSrc } from '@/utils/imageResolver'
 
 interface ImageLightboxProps {
   images: string[]
