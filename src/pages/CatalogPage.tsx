@@ -4,8 +4,11 @@ import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductGrid from '@/components/products/ProductGrid'
 import FilterPanel from '@/components/filters/FilterPanel'
 import ViewToggle from '@/components/products/ViewToggle'
+import { useUrlFilters } from '@/hooks/useUrlFilters'
 
 export default function CatalogPage() {
+  useUrlFilters()
+
   const products = useProductStore((state) => state.products)
   const getFilteredProducts = useProductStore((state) => state.getFilteredProducts)
   const viewMode = useProductStore((state) => state.viewMode)
