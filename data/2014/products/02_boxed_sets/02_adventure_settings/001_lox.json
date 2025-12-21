@@ -12,7 +12,10 @@
       "authors": ["Christopher Perkins", "Jeremy Crawford", "Ari Levitch"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968169,
-      "images": ["/images/products/lox/pub0_img0.jpg", "/images/products/lox/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/lox/pub0_img0.jpg",
+        "/images/products/2014/lox/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/spelljammer",
       "wpn_url": "https://wpn.wizards.com/en/products/spelljammers-adventures-in-space",
       "openlibrary_url": "https://openlibrary.org/books/OL37928896M",
@@ -21,21 +24,21 @@
         {
           "title": "Astral Adventurer's Guide",
           "pages": 64,
-          "images": ["/images/products/lox/pub0_sub0_img0.jpg"]
+          "images": ["/images/products/2014/lox/pub0_sub0_img0.jpg"]
         },
         {
           "title": "Light of Xaryxis",
           "pages": 64,
-          "images": ["/images/products/lox/pub0_sub1_img0.jpg"]
+          "images": ["/images/products/2014/lox/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Boo's Astral Managerie",
           "pages": 64,
-          "images": ["/images/products/lox/pub0_sub2_img0.jpg"]
+          "images": ["/images/products/2014/lox/pub0_sub2_img0.jpg"]
         },
         {
           "title": "Dungeon Master Screen",
-          "images": ["/images/products/lox/pub0_sub3_img0.jpg"]
+          "images": ["/images/products/2014/lox/pub0_sub3_img0.jpg"]
         },
         {
           "title": "Double-side poster map"

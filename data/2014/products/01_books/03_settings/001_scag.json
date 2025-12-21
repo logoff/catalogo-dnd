@@ -13,7 +13,10 @@
       "pages": 160,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965809,
-      "images": ["/images/products/scag/pub0_img0.jpg", "/images/products/scag/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/scag/pub0_img0.jpg",
+        "/images/products/2014/scag/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/sword-coast-adventurers-guide",
       "openlibrary_url": "https://openlibrary.org/books/OL27218814M",
       "amazon_link": "https://www.amazon.es/Sword-Coast-Adventurers-Dungeons-Dragons/dp/0786965800"
@@ -30,7 +33,10 @@
       "pages": 320,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407624894,
-      "images": ["/images/products/scag/pub1_img0.jpg", "/images/products/scag/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/scag/pub1_img0.jpg",
+        "/images/products/2014/scag/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Edge-Entertainment-Aventurero-Espa%C3%B1ol-EEWCDD06/dp/B07N89FY95"
     }
   ]

@@ -12,36 +12,39 @@
       "authors": ["Jason Tondro"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969173,
-      "images": ["/images/products/bmt/pub0_img0.jpg", "/images/products/bmt/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/bmt/pub0_img0.jpg",
+        "/images/products/2014/bmt/pub0_img1.jpg"
+      ],
       "official_url": "https://dndstore.wizards.com/eu/product/865605/the-deck-of-many-things-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/the-deck-of-many-things",
       "amazon_link": "https://www.amazon.es/Deck-Many-Things-expansi%C3%B3n-referencia/dp/0786969172",
       "sub_publications": [
         {
           "title": "Outer box",
-          "images": ["/images/products/bmt/pub0_sub0_img0.jpg"]
+          "images": ["/images/products/2014/bmt/pub0_sub0_img0.jpg"]
         },
         {
           "title": "The Book of Many Things",
           "pages": 192,
-          "images": ["/images/products/bmt/pub0_sub1_img0.jpg"]
+          "images": ["/images/products/2014/bmt/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Funda",
-          "images": ["/images/products/bmt/pub0_sub2_img0.jpg"]
+          "images": ["/images/products/2014/bmt/pub0_sub2_img0.jpg"]
         },
         {
           "title": "Caja de la baraja",
-          "images": ["/images/products/bmt/pub0_sub3_img0.jpg"]
+          "images": ["/images/products/2014/bmt/pub0_sub3_img0.jpg"]
         },
         {
           "title": "Card Reference Guide",
           "pages": 80,
-          "images": ["/images/products/bmt/pub0_sub4_img0.jpg"]
+          "images": ["/images/products/2014/bmt/pub0_sub4_img0.jpg"]
         },
         {
           "title": "Cartas (66)",
-          "images": ["/images/products/bmt/pub0_sub5_img0.jpg"]
+          "images": ["/images/products/2014/bmt/pub0_sub5_img0.jpg"]
         }
       ]
     }

@@ -13,7 +13,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966240,
-      "images": ["/images/products/mtf/pub0_img0.jpg", "/images/products/mtf/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/mtf/pub0_img0.jpg",
+        "/images/products/2014/mtf/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/mordenkainens-tome-foes",
       "wpn_url": "https://wpn.wizards.com/en/products/mordenkainenands-tome-of-foes?product=WjvPOV8zT5323XD8Q9LmN",
       "openlibrary_url": "https://openlibrary.org/books/OL26962195M",

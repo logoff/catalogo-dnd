@@ -13,7 +13,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966110,
-      "images": ["/images/products/xge/pub0_img0.jpg", "/images/products/xge/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/xge/pub0_img0.jpg",
+        "/images/products/2014/xge/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/xanathars-guide-everything",
       "wpn_url": "https://wpn.wizards.com/en/products/xanathars-guide-to-everything",
       "openlibrary_url": "https://openlibrary.org/books/OL26806050M",
@@ -31,7 +34,10 @@
       "pages": 192,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407625648,
-      "images": ["/images/products/xge/pub1_img0.jpg", "/images/products/xge/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/xge/pub1_img0.jpg",
+        "/images/products/2014/xge/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Gu%C3%ADa-Monstruos-EEWCDD13/dp/B08L9SD9DY"
     },
     {
@@ -46,7 +52,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967841,
-      "images": ["/images/products/xge/pub2_img0.jpg", "/images/products/xge/pub2_img1.jpg"],
+      "images": [
+        "/images/products/2014/xge/pub2_img0.jpg",
+        "/images/products/2014/xge/pub2_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/xanathars-guide-everything",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Xanathar-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967846"
     }

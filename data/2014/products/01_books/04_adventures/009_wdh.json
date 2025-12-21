@@ -13,7 +13,10 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966257,
-      "images": ["/images/products/wdh/pub0_img0.jpg", "/images/products/wdh/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/wdh/pub0_img0.jpg",
+        "/images/products/2014/wdh/pub0_img1.jpg"
+      ],
       "wpn_url": "https://wpn.wizards.com/en/products/waterdeep-dragon-heist",
       "official_url": "https://dnd.wizards.com/products/waterdeep-dragon-heist",
       "openlibrary_url": "https://openlibrary.org/books/OL27358095M",
@@ -31,7 +34,10 @@
       "pages": 224,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407624900,
-      "images": ["/images/products/wdh/pub1_img0.jpg", "/images/products/wdh/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/wdh/pub1_img0.jpg",
+        "/images/products/2014/wdh/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Golpe-Dragones-EEWCDD08/dp/B07WL5542G"
     }
   ]

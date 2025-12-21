@@ -13,7 +13,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966103,
-      "images": ["/images/products/toa/pub0_img0.jpg", "/images/products/toa/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/toa/pub0_img0.jpg",
+        "/images/products/2014/toa/pub0_img1.jpg"
+      ],
       "wpn_url": "https://wpn.wizards.com/en/products/tomb-of-annihilation",
       "openlibrary_url": "https://openlibrary.org/books/OL26806049M",
       "amazon_link": "https://www.amazon.es/Tomb-Annihilation-Dungeons-Dragons-Wizards/dp/0786966106"
@@ -30,7 +33,10 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 9788416357864,
-      "images": ["/images/products/toa/pub1_img0.jpg", "/images/products/toa/pub1_img1.jpg"]
+      "images": [
+        "/images/products/2014/toa/pub1_img0.jpg",
+        "/images/products/2014/toa/pub1_img1.jpg"
+      ]
     }
   ]
 }

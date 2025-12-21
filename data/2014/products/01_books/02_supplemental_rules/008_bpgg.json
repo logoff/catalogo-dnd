@@ -13,7 +13,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968985,
-      "images": ["/images/products/bpgg/pub0_img0.jpg", "/images/products/bpgg/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/bpgg/pub0_img0.jpg",
+        "/images/products/2014/bpgg/pub0_img1.jpg"
+      ],
       "wpn_url": "https://wpn.wizards.com/en/products/bigby-presents-glory-of-the-giants",
       "openlibrary_url": "https://openlibrary.org/books/OL48465341M",
       "amazon_link": "https://www.amazon.es/Bigby-Presents-Dungeons-Dragons-Expansion/dp/0786968982"
@@ -30,7 +33,10 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969395,
-      "images": ["/images/products/bpgg/pub1_img0.jpg", "/images/products/bpgg/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/bpgg/pub1_img0.jpg",
+        "/images/products/2014/bpgg/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Bigby-Presents-expansi%C3%B3n-Dungeons-Dragons/dp/0786969393"
     }
   ]

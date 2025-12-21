@@ -13,7 +13,10 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967292,
-      "images": ["/images/products/ftd/pub0_img0.jpg", "/images/products/ftd/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/ftd/pub0_img0.jpg",
+        "/images/products/2014/ftd/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/treasury-dragons",
       "wpn_url": "https://wpn.wizards.com/en/products/fizbans-treasury-of-dragons-",
       "openlibrary_url": "https://openlibrary.org/books/OL34240880M",
@@ -31,7 +34,10 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968855,
-      "images": ["/images/products/ftd/pub1_img0.jpg", "/images/products/ftd/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/ftd/pub1_img0.jpg",
+        "/images/products/2014/ftd/pub1_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/treasury-dragons",
       "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-Versi%C3%B3n/dp/0786968850"
     }

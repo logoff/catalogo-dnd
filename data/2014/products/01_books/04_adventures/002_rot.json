@@ -13,7 +13,10 @@
       "pages": 96,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965656,
-      "images": ["/images/products/rot/pub0_img0.jpg", "/images/products/rot/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/rot/pub0_img0.jpg",
+        "/images/products/2014/rot/pub0_img1.jpg"
+      ],
       "openlibrary_url": "https://openlibrary.org/books/OL26967450M",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Tyranny-Tiamat-Adventure/dp/0786965657"
     }

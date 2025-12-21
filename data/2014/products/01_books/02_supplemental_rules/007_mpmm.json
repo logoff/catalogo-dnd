@@ -13,7 +13,10 @@
       "pages": 288,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967872,
-      "images": ["/images/products/mpmm/pub0_img0.jpg", "/images/products/mpmm/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/mpmm/pub0_img0.jpg",
+        "/images/products/2014/mpmm/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/monsters-of-the-multiverse",
       "wpn_url": "https://wpn.wizards.com/en/products/mordenkainen-presents-monsters-of-the-multiverse",
       "openlibrary_url": "https://openlibrary.org/books/OL37593203M",
@@ -31,7 +34,10 @@
       "pages": 288,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968145,
-      "images": ["/images/products/mpmm/pub1_img0.jpg", "/images/products/mpmm/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/mpmm/pub1_img0.jpg",
+        "/images/products/2014/mpmm/pub1_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/monsters-of-the-multiverse",
       "amazon_link": "https://www.amazon.es/Mordenkainen-Presents-Dungeons-Dragons-Collectif/dp/0786968141"
     }

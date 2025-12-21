@@ -12,37 +12,40 @@
       "authors": ["Jeremy Crawford", "Stan!", "Ben Petrisor"],
       "publisher": "Hasbro / Wizards of the Coast",
       "isbn13": 9780786965595,
-      "images": ["/images/products/hftt/pub0_img0.jpg", "/images/products/hftt/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/hftt/pub0_img0.jpg",
+        "/images/products/2014/hftt/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/stranger-things-starter-set",
       "amazon_link": "https://www.amazon.es/Stranger-Things-Dungeons-Dragons-Hasbro/dp/B07G5X6N5P",
       "sub_publications": [
         {
           "title": "Starter Set Rulebook",
           "pages": 44,
-          "images": ["/images/products/hftt/pub0_sub0_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub0_sub0_img0.jpg"]
         },
         {
           "title": "Hunt for the Thessalhydra",
           "pages": 24,
-          "images": ["/images/products/hftt/pub0_sub1_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Stranger Things character sheets (5)",
           "images": [
-            "/images/products/hftt/pub0_sub2_img0.jpg",
-            "/images/products/hftt/pub0_sub2_img1.jpg",
-            "/images/products/hftt/pub0_sub2_img2.jpg",
-            "/images/products/hftt/pub0_sub2_img3.jpg",
-            "/images/products/hftt/pub0_sub2_img4.jpg"
+            "/images/products/2014/hftt/pub0_sub2_img0.jpg",
+            "/images/products/2014/hftt/pub0_sub2_img1.jpg",
+            "/images/products/2014/hftt/pub0_sub2_img2.jpg",
+            "/images/products/2014/hftt/pub0_sub2_img3.jpg",
+            "/images/products/2014/hftt/pub0_sub2_img4.jpg"
           ]
         },
         {
           "title": "Demogorgon miniatures (2)",
-          "images": ["/images/products/hftt/pub0_sub3_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub0_sub3_img0.jpg"]
         },
         {
           "title": "6 dice",
-          "images": ["/images/products/hftt/pub0_sub4_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub0_sub4_img0.jpg"]
         }
       ]
     },
@@ -56,33 +59,33 @@
       "authors": ["Jeremy Crawford", "Stan!", "Ben Petrisor"],
       "publisher": "Hasbro / Wizards of the Coast",
       "isbn13": 5010993642595,
-      "images": ["/images/products/hftt/pub1_img0.jpg"],
+      "images": ["/images/products/2014/hftt/pub1_img0.jpg"],
       "amazon_link": "https://www.amazon.es/Hasbro-Dungeons-Castellano-Multicolor-5010993642595/dp/B07R5V57XD",
       "sub_publications": [
         {
           "title": "Caja de Inicio: Reglamento",
           "pages": 44,
-          "images": ["/images/products/hftt/pub1_sub0_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub1_sub0_img0.jpg"]
         },
         {
           "title": "La caza de la Thessalhydra",
           "pages": 24,
-          "images": ["/images/products/hftt/pub1_sub1_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub1_sub1_img0.jpg"]
         },
         {
           "title": "Stranger Things hojas de personaje pregenerados (5)",
           "images": [
-            "/images/products/hftt/pub1_sub2_img0.jpg",
-            "/images/products/hftt/pub1_sub2_img1.jpg"
+            "/images/products/2014/hftt/pub1_sub2_img0.jpg",
+            "/images/products/2014/hftt/pub1_sub2_img1.jpg"
           ]
         },
         {
           "title": "Miniaturas del Demogorgon (2)",
-          "images": ["/images/products/hftt/pub1_sub3_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub1_sub3_img0.jpg"]
         },
         {
           "title": "6 dados",
-          "images": ["/images/products/hftt/pub1_sub4_img0.jpg"]
+          "images": ["/images/products/2014/hftt/pub1_sub4_img0.jpg"]
         }
       ]
     }

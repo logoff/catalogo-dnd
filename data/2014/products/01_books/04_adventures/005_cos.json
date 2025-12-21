@@ -13,7 +13,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965984,
-      "images": ["/images/products/cos/pub0_img0.jpg", "/images/products/cos/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/cos/pub0_img0.jpg",
+        "/images/products/2014/cos/pub0_img1.jpg"
+      ],
       "wpn_url": "https://wpn.wizards.com/en/products/curse-of-strahd",
       "openlibrary_url": "https://openlibrary.org/books/OL26806048M",
       "amazon_link": "https://www.amazon.es/Curse-Strahd-Dungeons-Sourcebook-Supplement/dp/0786965983"
@@ -30,7 +33,10 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407625631,
-      "images": ["/images/products/cos/pub1_img0.jpg", "/images/products/cos/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/cos/pub1_img0.jpg",
+        "/images/products/2014/cos/pub1_img1.jpg"
+      ],
       "amazon_link": "https://www.amazon.es/Edge-Entertainment-Maldici%C3%B3n-Asmodee-EEWCDD07/dp/B07QH1YRRD"
     },
     {
@@ -45,7 +51,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967919,
-      "images": ["/images/products/cos/pub2_img0.jpg", "/images/products/cos/pub2_img1.jpg"],
+      "images": [
+        "/images/products/2014/cos/pub2_img0.jpg",
+        "/images/products/2014/cos/pub2_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/curse-strahd-revamped",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Maldici%C3%B3n-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967919"
     }

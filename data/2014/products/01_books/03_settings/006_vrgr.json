@@ -13,7 +13,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967254,
-      "images": ["/images/products/vrgr/pub0_img0.jpg", "/images/products/vrgr/pub0_img1.jpg"],
+      "images": [
+        "/images/products/2014/vrgr/pub0_img0.jpg",
+        "/images/products/2014/vrgr/pub0_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/products/van-richtens-guide-ravenloft",
       "wpn_url": "https://wpn.wizards.com/en/products/van-richtens-guide-to-ravenloft",
       "openlibrary_url": "https://openlibrary.org/books/OL32470797M",
@@ -31,7 +34,10 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968626,
-      "images": ["/images/products/vrgr/pub1_img0.jpg", "/images/products/vrgr/pub1_img1.jpg"],
+      "images": [
+        "/images/products/2014/vrgr/pub1_img0.jpg",
+        "/images/products/2014/vrgr/pub1_img1.jpg"
+      ],
       "official_url": "https://dnd.wizards.com/es/products/van-richtens-guide-ravenloft",
       "openlibrary_url": "https://openlibrary.org/books/OL38453588M",
       "amazon_link": "https://www.amazon.es/RPG-VAN-RICHTENS-GUIDE-RAVENLOFT/dp/0786968621"
