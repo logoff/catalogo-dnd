@@ -10,6 +10,7 @@ export default function CatalogPage() {
   useUrlFilters()
 
   const products = useProductStore((state) => state.products)
+  const isLoaded = useProductStore((state) => state.isLoaded)
   const getFilteredProducts = useProductStore((state) => state.getFilteredProducts)
   const viewMode = useProductStore((state) => state.viewMode)
   const setViewMode = useProductStore((state) => state.setViewMode)
@@ -50,6 +51,7 @@ export default function CatalogPage() {
             <ProductGrid
               products={filteredProducts}
               view={viewMode}
+              isLoading={!isLoaded}
               emptyMessage="No se encontraron productos con los filtros seleccionados"
             />
           </main>

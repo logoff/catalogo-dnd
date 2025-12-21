@@ -14,6 +14,7 @@ interface EditionPageProps {
 
 export default function EditionPage({ edition }: EditionPageProps) {
   const products = useProductStore((state) => state.products)
+  const isLoaded = useProductStore((state) => state.isLoaded)
   const searchQuery = useProductStore((state) => state.searchQuery)
   const types = useProductStore((state) => state.types)
   const subtypes = useProductStore((state) => state.subtypes)
@@ -127,6 +128,7 @@ export default function EditionPage({ edition }: EditionPageProps) {
             <ProductGrid
               products={filteredProducts}
               view={viewMode}
+              isLoading={!isLoaded}
               emptyMessage="No se encontraron productos con los filtros seleccionados"
             />
           </main>

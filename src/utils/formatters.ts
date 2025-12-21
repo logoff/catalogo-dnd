@@ -28,7 +28,10 @@ export function slugify(text: string): string {
     .replace(/(^-|-$)/g, '')
 }
 
-export function formatDateRange(dateRange: { earliest?: string; latest?: string }): string {
+export function formatDateRange(dateRange: {
+  earliest?: string | null
+  latest?: string | null
+}): string {
   if (!dateRange.earliest) return ''
 
   const formatYear = (date: string) => date.slice(0, 4)

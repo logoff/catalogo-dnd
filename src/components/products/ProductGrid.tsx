@@ -1,19 +1,26 @@
 import type { ProductWithMeta } from '@/types'
 import ProductCard from './ProductCard'
 import ProductListItem from './ProductListItem'
+import { ProductGridSkeleton } from '../common/Skeleton'
 import type { ViewMode } from './ViewToggle'
 
 interface ProductGridProps {
   products: ProductWithMeta[]
   emptyMessage?: string
   view?: ViewMode
+  isLoading?: boolean
 }
 
 export default function ProductGrid({
   products,
   emptyMessage = 'No se encontraron productos',
   view = 'grid',
+  isLoading = false,
 }: ProductGridProps) {
+  if (isLoading) {
+    return <ProductGridSkeleton view={view} />
+  }
+
   if (products.length === 0) {
     return (
       <div className="text-center py-12">
