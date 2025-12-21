@@ -1,28 +1,26 @@
 {
-    "code": "POTA",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "english",
-            "edition": "5e",
-            "title": "Princes of the Apocalypse",
-            "date": "2015-04-07",
-            "item_code": "B2436",
-            "authors": [
-                "Richard Baker"
-            ],
-            "pages": 256,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786965786,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-princes.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-princes-back.jpg"
-            ],
-            "wpn_url": "https://wpn.wizards.com/en/products/princes-of-the-apocalypse",
-            "official_url": "https://dnd.wizards.com/products/princes-apocalypse",
-            "openlibrary_url": "https://openlibrary.org/books/OL26806047M",
-            "amazon_link": "https://www.amazon.es/Princes-Apocalypse-author-Wizards-published/dp/B01J4OSD92"
-        }
-    ]
+  "code": "POTA",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "english",
+      "edition": "5e",
+      "title": "Princes of the Apocalypse",
+      "date": "2015-04-07",
+      "item_code": "B2436",
+      "authors": ["Richard Baker"],
+      "pages": 256,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786965786,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-princes.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-princes-back.jpg"
+      ],
+      "wpn_url": "https://wpn.wizards.com/en/products/princes-of-the-apocalypse",
+      "official_url": "https://dnd.wizards.com/products/princes-apocalypse",
+      "openlibrary_url": "https://openlibrary.org/books/OL26806047M",
+      "amazon_link": "https://www.amazon.es/Princes-Apocalypse-author-Wizards-published/dp/B01J4OSD92"
+    }
+  ]
 }

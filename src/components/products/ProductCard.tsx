@@ -47,9 +47,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* Publications count */}
         {product.publications.length > 1 && (
-          <p className="text-xs text-gray-400 mt-2">
-            {product.publications.length} ediciones
-          </p>
+          <p className="text-xs text-gray-400 mt-2">{product.publications.length} ediciones</p>
         )}
       </div>
     </Link>

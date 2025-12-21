@@ -1,48 +1,44 @@
 {
-    "code": "SCAG",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "setting",
-            "language": "english",
-            "edition": "5e",
-            "title": "Sword Coast Adventurer's Guide",
-            "date": "2015-11-03",
-            "item_code": "B2438",
-            "authors": [
-                "Steve Kenson"
-            ],
-            "pages": 160,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786965809,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-coast.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-coast-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/sword-coast-adventurers-guide",
-            "openlibrary_url": "https://openlibrary.org/books/OL27218814M",
-            "amazon_link": "https://www.amazon.es/Sword-Coast-Adventurers-Dungeons-Dragons/dp/0786965800"
-        },
-        {
-            "type": "book",
-            "subtype": "setting",
-            "language": "castellano",
-            "edition": "5e",
-            "title": "Guía del Aventurero de la Costa de la Espada",
-            "date": "2018-11-01",
-            "item_code": "EEWCDD06",
-            "authors": [
-                "Steve Kenson"
-            ],
-            "pages": 320,
-            "publisher": "Edge Entertainment / Gale Force Nine",
-            "isbn13": 8435407624894,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-esp.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-esp-back.jpg"
-            ],
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-gu%c3%ada-del-aventurero-de-la-costa-de-la-eewcdd06",
-            "amazon_link": "https://www.amazon.es/Edge-Entertainment-Aventurero-Espa%C3%B1ol-EEWCDD06/dp/B07N89FY95"
-        }
-    ]
+  "code": "SCAG",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "setting",
+      "language": "english",
+      "edition": "5e",
+      "title": "Sword Coast Adventurer's Guide",
+      "date": "2015-11-03",
+      "item_code": "B2438",
+      "authors": ["Steve Kenson"],
+      "pages": 160,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786965809,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-coast.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-coast-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/sword-coast-adventurers-guide",
+      "openlibrary_url": "https://openlibrary.org/books/OL27218814M",
+      "amazon_link": "https://www.amazon.es/Sword-Coast-Adventurers-Dungeons-Dragons/dp/0786965800"
+    },
+    {
+      "type": "book",
+      "subtype": "setting",
+      "language": "castellano",
+      "edition": "5e",
+      "title": "Guía del Aventurero de la Costa de la Espada",
+      "date": "2018-11-01",
+      "item_code": "EEWCDD06",
+      "authors": ["Steve Kenson"],
+      "pages": 320,
+      "publisher": "Edge Entertainment / Gale Force Nine",
+      "isbn13": 8435407624894,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-esp.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-esp-back.jpg"
+      ],
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-gu%c3%ada-del-aventurero-de-la-costa-de-la-eewcdd06",
+      "amazon_link": "https://www.amazon.es/Edge-Entertainment-Aventurero-Espa%C3%B1ol-EEWCDD06/dp/B07N89FY95"
+    }
+  ]
 }

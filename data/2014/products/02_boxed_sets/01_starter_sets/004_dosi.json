@@ -1,102 +1,86 @@
 {
-    "code": "DOSI",
-    "publications": [
+  "code": "DOSI",
+  "publications": [
+    {
+      "type": "boxed_set",
+      "subtype": "starter_set",
+      "language": "english",
+      "edition": "5e",
+      "title": "Starter Set: Dragons of Stormwreck Isle",
+      "date": "2022-10-04",
+      "item_code": "D0995",
+      "authors": ["Jeremy Crawford", "James Wyatt"],
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786967935,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/starter-set",
+      "wpn_url": "https://wpn.wizards.com/en/products/dragons-of-stormwreck-isle",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Stormwreck/dp/B09V84WNPK",
+      "sub_publications": [
         {
-            "type": "boxed_set",
-            "subtype": "starter_set",
-            "language": "english",
-            "edition": "5e",
-            "title": "Starter Set: Dragons of Stormwreck Isle",
-            "date": "2022-10-04",
-            "item_code": "D0995",
-            "authors": [
-                "Jeremy Crawford",
-                "James Wyatt"
-            ],
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786967935,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/starter-set",
-            "wpn_url": "https://wpn.wizards.com/en/products/dragons-of-stormwreck-isle",
-            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Stormwreck/dp/B09V84WNPK",
-            "sub_publications": [
-                {
-                    "title": "Starter Set Rulebook",
-                    "pages": 32,
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-book1.jpg"
-                    ]
-                },
-                {
-                    "title": "Dragons of Stormwreck Isle",
-                    "pages": 48,
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-book2.jpg"
-                    ]
-                },
-                {
-                    "title": "Pregenerated character sheets (5)",
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg1.jpg",
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg2.jpg",
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg3.jpg",
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg4.jpg",
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg5.jpg"
-                    ]
-                },
-                {
-                    "title": "Welcome Adventurer!",
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-welc.jpg"
-                    ]
-                },
-                {
-                    "title": "Game dice (6)",
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-dice.jpg"
-                    ]
-                }
-            ]
+          "title": "Starter Set Rulebook",
+          "pages": 32,
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-book1.jpg"]
         },
         {
-            "type": "boxed_set",
-            "subtype": "starter_set",
-            "language": "castellano",
-            "edition": "5e",
-            "title": "Caja de Inicio: Los Dragones de la Isla de las Tempestades",
-            "date": "2022-10-18",
-            "item_code": "D09951050",
-            "authors": [
-                "Jeremy Crawford",
-                "James Wyatt"
-            ],
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786967978,
-            "images": [
-                "https://m.media-amazon.com/images/I/71O8LNixoNL._AC_SL1500_.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/es/products/starter-set",
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-los-dragones-de-la-isla-de-las-tempestades-d09951050",
-            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Stormwreck/dp/0786967978",
-            "sub_publications": [
-                {
-                    "title": "Caja de Inicio: Reglamento",
-                    "pages": 32
-                },
-                {
-                    "title": "Los Dragones de la Isla de las Tempestades",
-                    "pages": 48
-                },
-                {
-                    "title": "Personajes pregenerados (5)"
-                },
-                {
-                    "title": "sados poliédricos (6)"
-                }
-            ]
+          "title": "Dragons of Stormwreck Isle",
+          "pages": 48,
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-book2.jpg"]
+        },
+        {
+          "title": "Pregenerated character sheets (5)",
+          "images": [
+            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg1.jpg",
+            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg2.jpg",
+            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg3.jpg",
+            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg4.jpg",
+            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-pg5.jpg"
+          ]
+        },
+        {
+          "title": "Welcome Adventurer!",
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-welc.jpg"]
+        },
+        {
+          "title": "Game dice (6)",
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-doswi-dice.jpg"]
         }
-    ]
+      ]
+    },
+    {
+      "type": "boxed_set",
+      "subtype": "starter_set",
+      "language": "castellano",
+      "edition": "5e",
+      "title": "Caja de Inicio: Los Dragones de la Isla de las Tempestades",
+      "date": "2022-10-18",
+      "item_code": "D09951050",
+      "authors": ["Jeremy Crawford", "James Wyatt"],
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786967978,
+      "images": ["https://m.media-amazon.com/images/I/71O8LNixoNL._AC_SL1500_.jpg"],
+      "official_url": "https://dnd.wizards.com/es/products/starter-set",
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-los-dragones-de-la-isla-de-las-tempestades-d09951050",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Stormwreck/dp/0786967978",
+      "sub_publications": [
+        {
+          "title": "Caja de Inicio: Reglamento",
+          "pages": 32
+        },
+        {
+          "title": "Los Dragones de la Isla de las Tempestades",
+          "pages": 48
+        },
+        {
+          "title": "Personajes pregenerados (5)"
+        },
+        {
+          "title": "sados poliédricos (6)"
+        }
+      ]
+    }
+  ]
 }

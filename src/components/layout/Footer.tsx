@@ -4,11 +4,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
-            <p className="text-gray-400 text-sm">
-              Copyright © {new Date().getFullYear()} logoff
-            </p>
+            <p className="text-gray-400 text-sm">Copyright © {new Date().getFullYear()} logoff</p>
             <p className="text-gray-500 text-xs mt-1">
-              Catálogo no oficial. Dungeons & Dragons es una marca registrada de Wizards of the Coast LLC.
+              Catálogo no oficial. Dungeons & Dragons es una marca registrada de Wizards of the
+              Coast LLC.
             </p>
           </div>
 

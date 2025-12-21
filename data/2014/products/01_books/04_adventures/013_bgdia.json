@@ -1,49 +1,45 @@
 {
-    "code": "BGDIA",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "english",
-            "edition": "5e",
-            "title": "Baldur's Gate: Descent into Avernus",
-            "date": "2019-09-17",
-            "item_code": "C6297",
-            "authors": [
-                "Adam Lee"
-            ],
-            "pages": 256,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786966769,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-aver.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-aver-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/baldurs-gate-descent-into-avernus",
-            "wpn_url": "https://wpn.wizards.com/en/products/baldurs-gate-descent-into-avernus",
-            "openlibrary_url": "https://openlibrary.org/books/OL29817921M",
-            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Baldurs-Gate-Hardcover/dp/0786966769"
-        },
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "castellano",
-            "edition": "5e",
-            "title": "Puerta de Baldur: Descenso a Averno",
-            "date": "2020-06-26",
-            "item_code": "EEWCDD12",
-            "authors": [
-                "Adam Lee"
-            ],
-            "pages": 256,
-            "publisher": "Edge Entertainment / Gale Force Nine",
-            "isbn13": 8435407629394,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-aver.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-aver-back.jpg"
-            ],
-            "spain_distr_url": "https://b2b.asmodee.es/juego/juego-de-rol/d-1-d-5-descenso-a-averno-eewcdd12",
-            "amazon_link": "https://www.amazon.es/Edge-Entertaiment-Espa%C3%B1a-Descenso-Dungeons/dp/B08BP8TQX8"
-        }
-    ]
+  "code": "BGDIA",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "english",
+      "edition": "5e",
+      "title": "Baldur's Gate: Descent into Avernus",
+      "date": "2019-09-17",
+      "item_code": "C6297",
+      "authors": ["Adam Lee"],
+      "pages": 256,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786966769,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-aver.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-aver-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/baldurs-gate-descent-into-avernus",
+      "wpn_url": "https://wpn.wizards.com/en/products/baldurs-gate-descent-into-avernus",
+      "openlibrary_url": "https://openlibrary.org/books/OL29817921M",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Baldurs-Gate-Hardcover/dp/0786966769"
+    },
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "castellano",
+      "edition": "5e",
+      "title": "Puerta de Baldur: Descenso a Averno",
+      "date": "2020-06-26",
+      "item_code": "EEWCDD12",
+      "authors": ["Adam Lee"],
+      "pages": 256,
+      "publisher": "Edge Entertainment / Gale Force Nine",
+      "isbn13": 8435407629394,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-aver.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-aver-back.jpg"
+      ],
+      "spain_distr_url": "https://b2b.asmodee.es/juego/juego-de-rol/d-1-d-5-descenso-a-averno-eewcdd12",
+      "amazon_link": "https://www.amazon.es/Edge-Entertaiment-Espa%C3%B1a-Descenso-Dungeons/dp/B08BP8TQX8"
+    }
+  ]
 }

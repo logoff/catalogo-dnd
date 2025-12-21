@@ -32,15 +32,15 @@ function enrichProduct(product: Product, path: string): ProductWithMeta {
   const edition = extractEditionFromPath(path)
 
   // Extract all unique languages
-  const languages = [...new Set(
-    product.publications
-      .map(p => p.language)
-      .filter((lang): lang is Language => !!lang)
-  )]
+  const languages = [
+    ...new Set(
+      product.publications.map((p) => p.language).filter((lang): lang is Language => !!lang)
+    ),
+  ]
 
   // Calculate date range
   const dates = product.publications
-    .map(p => p.date)
+    .map((p) => p.date)
     .filter((d): d is string => !!d)
     .sort()
 
@@ -75,13 +75,13 @@ export function loadAllProducts(): ProductWithMeta[] {
 
 // Get products by edition
 export function getProductsByEdition(edition: Edition): ProductWithMeta[] {
-  return loadAllProducts().filter(p => p.primaryEdition === edition)
+  return loadAllProducts().filter((p) => p.primaryEdition === edition)
 }
 
 // Get product by code
 export function getProductByCode(code: string): ProductWithMeta | undefined {
   return loadAllProducts().find(
-    p => p.code.toLowerCase() === code.toLowerCase() || p.slug === code.toLowerCase()
+    (p) => p.code.toLowerCase() === code.toLowerCase() || p.slug === code.toLowerCase()
   )
 }
 
@@ -120,7 +120,7 @@ export function getCategoryTree(edition: Edition): CategoryNode[] {
 
     // Get or create subcategory
     if (subcategory) {
-      let subNode = categoryNode.children.find(c => c.id === subcategory)
+      let subNode = categoryNode.children.find((c) => c.id === subcategory)
       if (!subNode) {
         subNode = {
           id: subcategory,

@@ -17,7 +17,10 @@ export default function SortSelect() {
   const currentValue = `${sortOption.field}-${sortOption.direction}`
 
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const [field, direction] = e.target.value.split('-') as [SortOption['field'], SortOption['direction']]
+    const [field, direction] = e.target.value.split('-') as [
+      SortOption['field'],
+      SortOption['direction'],
+    ]
     setSortOption({ field, direction })
   }
 

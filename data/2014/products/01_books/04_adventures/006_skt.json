@@ -1,48 +1,44 @@
 {
-    "code": "SKT",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "english",
-            "edition": "5e",
-            "title": "Storm King's Thunder",
-            "date": "2016-09-06",
-            "item_code": "B8669",
-            "authors": [
-                "Christopher Perkins"
-            ],
-            "pages": 256,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786966004,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-storm.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-storm-back.jpg"
-            ],
-            "wpn_url": "https://wpn.wizards.com/en/products/storm-kings-thunder",
-            "openlibrary_url": "https://openlibrary.org/books/OL26967452M",
-            "amazon_link": "https://www.amazon.es/STORM-KINGS-THUNDER-Dungeons-Dragons/dp/0786966009"
-        },
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "castellano",
-            "edition": "5e",
-            "title": "El Trueno del Rey de la Tormenta",
-            "date": "2021-04-16",
-            "item_code": "EEWCDD14",
-            "authors": [
-                "Christopher Perkins"
-            ],
-            "pages": 256,
-            "publisher": "Edge Entertainment / Gale Force Nine",
-            "isbn13": 8435407626188,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-true.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-true-back.jpg"
-            ],
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-trueno-del-rey-de-la-tormenta-eewcdd14",
-            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Tormenta-Asmodee-EEWCDD14/dp/B0925NT31Z"
-        }
-    ]
+  "code": "SKT",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "english",
+      "edition": "5e",
+      "title": "Storm King's Thunder",
+      "date": "2016-09-06",
+      "item_code": "B8669",
+      "authors": ["Christopher Perkins"],
+      "pages": 256,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786966004,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-storm.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-storm-back.jpg"
+      ],
+      "wpn_url": "https://wpn.wizards.com/en/products/storm-kings-thunder",
+      "openlibrary_url": "https://openlibrary.org/books/OL26967452M",
+      "amazon_link": "https://www.amazon.es/STORM-KINGS-THUNDER-Dungeons-Dragons/dp/0786966009"
+    },
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "castellano",
+      "edition": "5e",
+      "title": "El Trueno del Rey de la Tormenta",
+      "date": "2021-04-16",
+      "item_code": "EEWCDD14",
+      "authors": ["Christopher Perkins"],
+      "pages": 256,
+      "publisher": "Edge Entertainment / Gale Force Nine",
+      "isbn13": 8435407626188,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-true.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-true-back.jpg"
+      ],
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-trueno-del-rey-de-la-tormenta-eewcdd14",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Tormenta-Asmodee-EEWCDD14/dp/B0925NT31Z"
+    }
+  ]
 }

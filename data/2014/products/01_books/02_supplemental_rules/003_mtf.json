@@ -1,29 +1,26 @@
 {
-    "code": "MTF",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "supplemental_rules",
-            "language": "english",
-            "edition": "5e",
-            "title": "Mordenkainen's Tome of Foes",
-            "date": "2018-05-29",
-            "item_code": "C4594",
-            "authors": [
-                "Mike Mearls",
-                "Jeremy Crawford"
-            ],
-            "pages": 256,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786966240,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-foes.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-foes-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/mordenkainens-tome-foes",
-            "wpn_url": "https://wpn.wizards.com/en/products/mordenkainenands-tome-of-foes?product=WjvPOV8zT5323XD8Q9LmN",
-            "openlibrary_url": "https://openlibrary.org/books/OL26962195M",
-            "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Mordenkainens-Wizards-Team/dp/0786966246"
-        }
-    ]
+  "code": "MTF",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "supplemental_rules",
+      "language": "english",
+      "edition": "5e",
+      "title": "Mordenkainen's Tome of Foes",
+      "date": "2018-05-29",
+      "item_code": "C4594",
+      "authors": ["Mike Mearls", "Jeremy Crawford"],
+      "pages": 256,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786966240,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-foes.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-foes-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/mordenkainens-tome-foes",
+      "wpn_url": "https://wpn.wizards.com/en/products/mordenkainenands-tome-of-foes?product=WjvPOV8zT5323XD8Q9LmN",
+      "openlibrary_url": "https://openlibrary.org/books/OL26962195M",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Mordenkainens-Wizards-Team/dp/0786966246"
+    }
+  ]
 }

@@ -113,16 +113,12 @@ function PublicationSection({ publication }: PublicationSectionProps) {
           <div className="flex flex-wrap gap-2 mb-4">
             <EditionBadge edition={publication.edition} />
             <TypeBadge type={publication.type} />
-            {publication.language && (
-              <LanguageBadge language={publication.language} />
-            )}
+            {publication.language && <LanguageBadge language={publication.language} />}
           </div>
 
           <DataRow label="Tipo" value={translateSubtype(publication.type, publication.subtype)} />
 
-          {publication.publisher && (
-            <DataRow label="Editorial" value={publication.publisher} />
-          )}
+          {publication.publisher && <DataRow label="Editorial" value={publication.publisher} />}
 
           {publication.date && (
             <DataRow label="Fecha de publicación" value={formatDate(publication.date)} />
@@ -136,9 +132,7 @@ function PublicationSection({ publication }: PublicationSectionProps) {
             <DataRow label="Autores" value={publication.authors.join(', ')} />
           )}
 
-          {publication.isbn13 && (
-            <DataRow label="ISBN-13" value={formatISBN(publication.isbn13)} />
-          )}
+          {publication.isbn13 && <DataRow label="ISBN-13" value={formatISBN(publication.isbn13)} />}
 
           {publication.item_code && (
             <DataRow label="Código de artículo" value={publication.item_code} />
@@ -196,9 +190,11 @@ function PublicationSection({ publication }: PublicationSectionProps) {
           )}
 
           {/* Sub-publications (for boxed sets) */}
-          {publication.type === 'boxed_set' && publication.sub_publications && publication.sub_publications.length > 0 && (
-            <SubPublicationsList subPublications={publication.sub_publications} />
-          )}
+          {publication.type === 'boxed_set' &&
+            publication.sub_publications &&
+            publication.sub_publications.length > 0 && (
+              <SubPublicationsList subPublications={publication.sub_publications} />
+            )}
         </div>
       </div>
 

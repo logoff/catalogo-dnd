@@ -7,8 +7,8 @@ import { getAssetPath } from '@/utils/constants'
 export default function HomePage() {
   const products = useProductStore((state) => state.products)
 
-  const products2014 = products.filter(p => p.primaryEdition === '5e')
-  const products2024 = products.filter(p => p.primaryEdition === '2024')
+  const products2014 = products.filter((p) => p.primaryEdition === '5e')
+  const products2024 = products.filter((p) => p.primaryEdition === '2024')
 
   // Get featured products (first 5 from each edition)
   const featured2024 = products2024.slice(0, 5)
@@ -26,12 +26,10 @@ export default function HomePage() {
             alt="Dungeons & Dragons"
             className="h-24 md:h-32 mx-auto mb-6"
           />
-          <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">
-            Catálogo D&D 5E
-          </h1>
+          <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">Catálogo D&D 5E</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Explora todos los productos oficiales de Dungeons & Dragons
-            5ª edición (2014) y la nueva edición 2024.
+            Explora todos los productos oficiales de Dungeons & Dragons 5ª edición (2014) y la nueva
+            edición 2024.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/2014" className="btn-primary">
@@ -69,9 +67,7 @@ export default function HomePage() {
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">
-                D&D 5E (2024)
-              </h2>
+              <h2 className="font-display text-2xl text-dnd-gold">D&D 5E (2024)</h2>
               <Link to="/2024" className="text-dnd-gold hover:text-dnd-gold-light">
                 Ver todos &rarr;
               </Link>
@@ -86,9 +82,7 @@ export default function HomePage() {
         <section className="py-12 bg-dnd-stone/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">
-                D&D 5E (2014)
-              </h2>
+              <h2 className="font-display text-2xl text-dnd-gold">D&D 5E (2014)</h2>
               <Link to="/2014" className="text-dnd-gold hover:text-dnd-gold-light">
                 Ver todos &rarr;
               </Link>

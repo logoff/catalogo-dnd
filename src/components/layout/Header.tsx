@@ -9,9 +9,7 @@ export default function Header() {
 
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
     `px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-      isActive
-        ? 'bg-dnd-red text-white'
-        : 'text-gray-300 hover:bg-dnd-stone-light hover:text-white'
+      isActive ? 'bg-dnd-red text-white' : 'text-gray-300 hover:bg-dnd-stone-light hover:text-white'
     }`
 
   return (
@@ -25,9 +23,7 @@ export default function Header() {
               alt="D&D Logo"
               className="h-10 w-auto"
             />
-            <span className="font-display text-xl text-dnd-gold hidden sm:block">
-              Catálogo D&D
-            </span>
+            <span className="font-display text-xl text-dnd-gold hidden sm:block">Catálogo D&D</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -57,11 +53,7 @@ export default function Header() {
             className="md:hidden p-2 rounded-md text-gray-400 hover:text-white hover:bg-dnd-stone-light"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {mobileMenuOpen ? (
-              <XMarkIcon className="h-6 w-6" />
-            ) : (
-              <Bars3Icon className="h-6 w-6" />
-            )}
+            {mobileMenuOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
           </button>
         </div>
 
@@ -72,12 +64,7 @@ export default function Header() {
               <SearchBar />
             </div>
             <nav className="flex flex-col gap-2">
-              <NavLink
-                to="/"
-                end
-                className={navLinkClass}
-                onClick={() => setMobileMenuOpen(false)}
-              >
+              <NavLink to="/" end className={navLinkClass} onClick={() => setMobileMenuOpen(false)}>
                 Inicio
               </NavLink>
               <NavLink
@@ -87,18 +74,10 @@ export default function Header() {
               >
                 Catálogo
               </NavLink>
-              <NavLink
-                to="/2014"
-                className={navLinkClass}
-                onClick={() => setMobileMenuOpen(false)}
-              >
+              <NavLink to="/2014" className={navLinkClass} onClick={() => setMobileMenuOpen(false)}>
                 5E (2014)
               </NavLink>
-              <NavLink
-                to="/2024"
-                className={navLinkClass}
-                onClick={() => setMobileMenuOpen(false)}
-              >
+              <NavLink to="/2024" className={navLinkClass} onClick={() => setMobileMenuOpen(false)}>
                 5E (2024)
               </NavLink>
             </nav>
