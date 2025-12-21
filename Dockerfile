@@ -1,21 +1,15 @@
-FROM python:3.12-slim
+FROM ghcr.io/astral-sh/uv:python3.13-alpine
 
 WORKDIR /site
 
-# upgrade pip
-RUN pip install --upgrade pip wheel setuptools
-
-# install make
-RUN apt-get update && \
-    apt-get install -y make cargo
-
-# install Poetry
-RUN pip install poetry
+ENV LANG=en_GB.UTF8
 
 # copy project files and install dependencies
-COPY pyproject.toml poetry.lock Makefile ./
-RUN python3 -m poetry install --no-root
+COPY pyproject.toml uv.lock ./
+RUN uv sync --locked
 
 EXPOSE 8000
 
-ENTRYPOINT ["make", "serve-site"]
+ENTRYPOINT ["uv", "run", "mkdocs"]
+
+CMD ["serve", "--dev-addr=0.0.0.0:8000"]
