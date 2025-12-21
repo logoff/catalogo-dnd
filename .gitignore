@@ -1,11 +1,28 @@
-# build folder
+# Dependencies
+node_modules/
+
+# Build output
 dist/
 
-# Visual Studio Code folder
+# IDE
 .vscode/
+.idea/
 
-# Python cache
-__pycache__/
+# Logs
+*.log
+npm-debug.log*
 
-# pyenv local Python version file
-.python-version
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI
+.claude/
+
+# TypeScript
+*.tsbuildinfo

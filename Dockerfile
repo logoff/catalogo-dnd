@@ -1,15 +1,13 @@
-FROM ghcr.io/astral-sh/uv:python3.13-alpine
+# Development server with hot-reload
+FROM node:22-alpine
 
-WORKDIR /site
+WORKDIR /app
 
-ENV LANG=en_GB.UTF8
+# Install dependencies first (cached layer)
+COPY package*.json ./
+RUN npm install
 
-# copy project files and install dependencies
-COPY pyproject.toml uv.lock ./
-RUN uv sync --locked
+# Source code will be mounted as volume
+EXPOSE 5173
 
-EXPOSE 8000
-
-ENTRYPOINT ["uv", "run", "mkdocs"]
-
-CMD ["serve", "--dev-addr=0.0.0.0:8000"]
+CMD ["npm", "run", "dev", "--", "--host"]

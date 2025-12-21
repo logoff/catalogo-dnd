@@ -1,35 +1,78 @@
-set shell := ["bash", "-uc"]
+# Catálogo D&D 5E - Comandos comunes
 
-project_name := "catalogo-dnd"
-version := `uv version --short`
+# Versión del proyecto (extraída de package.json)
+version := `node -p "require('./package.json').version"`
+image_name := "catalogo-dnd:" + version
 
-site-version:
-    @echo "{{project_name}}:{{version}}"
+# Mostrar ayuda
+default:
+    @just --list
 
-build-site:
-    uv sync --locked
-    uv run mkdocs build
+# === Desarrollo local ===
 
-clean-site:
-    rm -rf dist/
+# Instalar dependencias
+install:
+    npm install
 
-serve-site: build-site
-    uv run mkdocs serve \
-        --dev-addr=0.0.0.0:8000 \
-        --watch data \
-        --watch macros
+# Iniciar servidor de desarrollo (instala dependencias si es necesario)
+dev: install
+    npm run dev
 
-publish-site: build-site
-    uv run mkdocs gh-deploy --force
+# Iniciar servidor de desarrollo (accesible desde red local)
+dev-host: install
+    npm run dev -- --host
 
+# === Build ===
+
+# Construir el sitio para producción
+build: install
+    npm run build
+
+# Previsualizar build de producción
+preview: build
+    npm run preview
+
+# Verificar tipos TypeScript
+typecheck: install
+    npm run typecheck
+
+# Linter
+lint: install
+    npm run lint
+
+# === Docker ===
+
+# Construir imagen Docker
 docker-build:
-    docker image build --tag="{{project_name}}:{{version}}" .
+    docker image build \
+        -t {{ image_name }} \
+        .
 
-docker-serve-site: docker-build
-    docker container run --rm -it \
-        -v $(pwd)/mkdocs.yml:/site/mkdocs.yml \
-        -v $(pwd)/src:/site/src \
-        -v $(pwd)/data:/site/data \
-        -v $(pwd)/macros:/site/macros \
-        -p 8000:8000 \
-        {{project_name}}:{{version}}
+# Ejecutar servidor de desarrollo con Docker (construye imagen si es necesario)
+docker-run: docker-build
+    docker container run \
+        -it \
+        --rm \
+        -p 5173:5173 \
+        -v $(pwd):/app \
+        {{ image_name }}
+
+# Ejecutar en background
+docker-run-detached: docker-build
+    docker container run \
+        -d \
+        -p 5173:5173 \
+        -v $(pwd):/app \
+        --name catalogo-dnd \
+        {{ image_name }}
+
+# Parar contenedor Docker
+docker-stop:
+    docker container stop catalogo-dnd \
+    && docker container rm catalogo-dnd
+
+# === Despliegue ===
+
+# Publicar a GitHub Pages (construye antes)
+deploy: build
+    npx gh-pages -d dist
