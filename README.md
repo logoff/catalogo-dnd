@@ -2,25 +2,36 @@
 
 https://logoff.github.io/catalogo-dnd/
 # Catálogo Dungeons & Dragons
-Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**, que ofrece una lista completa de todos los libros y accesorios publicados en inglés y en castellano de Dungeons & Dragons de las ediciones 5ª y 2024.
+Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**, que ofrece una lista completa de todos los libros y accesorios publicados en inglés y en castellano de Dungeons & Dragons de las ediciones 5E (2014) y 5E (2024).
 
 ## Cómo poner en marcha el proyecto
 
 ### Requisitos
 
-* [Python](https://www.python.org/) 3.13
-* [uv](https://docs.astral.sh/uv/)
+* [Node.js](https://nodejs.org/) 22+
 * [just](https://just.systems/)
 * [Docker](https://www.docker.com/) (opcional)
 
-## Construir y servir
+### Desarrollo local
 
 ```
-just docker-build
+just dev
 ```
 
+Abrir http://localhost:5173/.
+
+### Con Docker
+
 ```
-just docker-serve-site
+just docker-run
 ```
 
-Abrir http://localhost:8000/.
+Abrir http://localhost:5173/.
+
+## Comandos disponibles
+
+* `just dev` - Servidor de desarrollo
+* `just build` - Construir para producción
+* `just preview` - Previsualizar build
+* `just docker-run` - Ejecutar con Docker
+* `just deploy` - Publicar a GitHub Pages

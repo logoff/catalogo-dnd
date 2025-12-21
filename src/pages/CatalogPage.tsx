@@ -1,0 +1,66 @@
+import { useMemo } from 'react'
+import { useProductStore } from '@/store/productStore'
+import MetaTags from '@/components/seo/MetaTags'
+import Breadcrumbs from '@/components/common/Breadcrumbs'
+import ProductGrid from '@/components/products/ProductGrid'
+import FilterPanel from '@/components/filters/FilterPanel'
+
+export default function CatalogPage() {
+  const products = useProductStore((state) => state.products)
+  const searchQuery = useProductStore((state) => state.searchQuery)
+  const editions = useProductStore((state) => state.editions)
+  const types = useProductStore((state) => state.types)
+  const subtypes = useProductStore((state) => state.subtypes)
+  const languages = useProductStore((state) => state.languages)
+  const sortOption = useProductStore((state) => state.sortOption)
+  const getFilteredProducts = useProductStore((state) => state.getFilteredProducts)
+
+  const filteredProducts = useMemo(() => getFilteredProducts(), [
+    getFilteredProducts,
+    products,
+    searchQuery,
+    editions,
+    types,
+    subtypes,
+    languages,
+    sortOption,
+  ])
+  const totalProducts = products.length
+
+  return (
+    <>
+      <MetaTags
+        title="Catálogo"
+        description="Explora todos los productos oficiales de Dungeons & Dragons"
+      />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <Breadcrumbs items={[{ label: 'Catálogo' }]} />
+
+        <h1 className="font-display text-3xl text-dnd-gold mb-2">
+          Catálogo completo
+        </h1>
+        <p className="text-gray-400 mb-8">
+          {filteredProducts.length} de {totalProducts} productos
+        </p>
+
+        <div className="flex flex-col lg:flex-row gap-8">
+          {/* Sidebar with filters */}
+          <aside className="lg:w-64 flex-shrink-0">
+            <div className="lg:sticky lg:top-24">
+              <FilterPanel />
+            </div>
+          </aside>
+
+          {/* Product grid */}
+          <main className="flex-1">
+            <ProductGrid
+              products={filteredProducts}
+              emptyMessage="No se encontraron productos con los filtros seleccionados"
+            />
+          </main>
+        </div>
+      </div>
+    </>
+  )
+}

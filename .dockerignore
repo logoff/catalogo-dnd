@@ -1,8 +1,7 @@
 .git/
 .github/
 .vscode/
-__pychache__/
+node_modules/
 dist/
-.gitignore
-Dockerfile
-README.md
+*.log
+.env*
