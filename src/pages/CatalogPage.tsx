@@ -3,10 +3,17 @@ import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductGrid from '@/components/products/ProductGrid'
 import FilterPanel from '@/components/filters/FilterPanel'
+import ViewToggle from '@/components/products/ViewToggle'
+import { useUrlFilters } from '@/hooks/useUrlFilters'
 
 export default function CatalogPage() {
+  useUrlFilters()
+
   const products = useProductStore((state) => state.products)
+  const isLoaded = useProductStore((state) => state.isLoaded)
   const getFilteredProducts = useProductStore((state) => state.getFilteredProducts)
+  const viewMode = useProductStore((state) => state.viewMode)
+  const setViewMode = useProductStore((state) => state.setViewMode)
 
   const filteredProducts = getFilteredProducts()
   const totalProducts = products.length
@@ -21,10 +28,15 @@ export default function CatalogPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ label: 'Catálogo' }]} />
 
-        <h1 className="font-display text-3xl text-dnd-gold mb-2">Catálogo completo</h1>
-        <p className="text-gray-400 mb-8">
-          {filteredProducts.length} de {totalProducts} productos
-        </p>
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h1 className="font-display text-3xl text-dnd-gold mb-2">Catálogo completo</h1>
+            <p className="text-gray-400">
+              {filteredProducts.length} de {totalProducts} productos
+            </p>
+          </div>
+          <ViewToggle view={viewMode} onChange={setViewMode} />
+        </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar with filters */}
@@ -38,6 +50,8 @@ export default function CatalogPage() {
           <main className="flex-1">
             <ProductGrid
               products={filteredProducts}
+              view={viewMode}
+              isLoading={!isLoaded}
               emptyMessage="No se encontraron productos con los filtros seleccionados"
             />
           </main>

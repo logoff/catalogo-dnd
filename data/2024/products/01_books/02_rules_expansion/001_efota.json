@@ -12,9 +12,7 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786970006,
-      "images": [
-        "https://images.ctfassets.net/0piqveu8x9oj/1Y7zHfQIPRZo14fjelNch2/b454314e3061f8c281c058eee14436c9/NIK133_WPN_Product-Shot-Standard-Front.png"
-      ],
+      "images": ["/images/products/efota/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/expanded-rules/5147000?pid=D5147000",
       "wpn_url": "https://wpn.wizards.com/en/products/product-details-or-d-and-d-or-eberron-forge-of-the-artificer?product=3dGZKSphSonxZ6dQF37czS",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Eberron-Artificer-reglamento/dp/0786970006"
@@ -30,9 +28,7 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786970014,
-      "images": [
-        "https://images.ctfassets.net/0piqveu8x9oj/5klo0X8pA0n8fVVzlddOvH/d6306fc226ef38cdc4adc688772d36f4/NIK134_WPN_Product-Shot-Alt-Front.png"
-      ],
+      "images": ["/images/products/efota/pub1_img0.png"],
       "wpn_url": "https://wpn.wizards.com/en/products/product-details-or-d-and-d-or-eberron-forge-of-the-artificer?product=2LAPCkykhAJZz8FJAEmMKc"
     }
   ]

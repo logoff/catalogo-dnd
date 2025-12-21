@@ -13,10 +13,7 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966752,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-salt.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-salt-back.jpg"
-      ],
+      "images": ["/images/products/gos/pub0_img0.jpg", "/images/products/gos/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/ghosts-saltmarsh",
       "wpn_url": "https://wpn.wizards.com/en/products/ghosts-of-saltmarsh?product=1tGXmqb8FzImxGmZckYC5k",
       "openlibrary_url": "https://openlibrary.org/books/OL28418506M",
@@ -34,10 +31,7 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407631175,
-      "images": [
-        "https://dracotienda.com/155136-large_default/dungeons-dragons-fantasmas-de-saltmarsh.jpg"
-      ],
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-fantasmas-de-saltmarsh-eewcdd15",
+      "images": ["/images/products/gos/pub1_img0.jpg"],
       "amazon_link": "https://www.amazon.es/Gale-Force-Nine-Fantasmas-Saltmarsh/dp/B09TBGGTC3"
     }
   ]

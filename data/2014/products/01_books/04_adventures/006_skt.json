@@ -13,10 +13,7 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966004,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-storm.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-storm-back.jpg"
-      ],
+      "images": ["/images/products/skt/pub0_img0.jpg", "/images/products/skt/pub0_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/storm-kings-thunder",
       "openlibrary_url": "https://openlibrary.org/books/OL26967452M",
       "amazon_link": "https://www.amazon.es/STORM-KINGS-THUNDER-Dungeons-Dragons/dp/0786966009"
@@ -33,11 +30,7 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407626188,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-true.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-true-back.jpg"
-      ],
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-trueno-del-rey-de-la-tormenta-eewcdd14",
+      "images": ["/images/products/skt/pub1_img0.jpg", "/images/products/skt/pub1_img1.jpg"],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Tormenta-Asmodee-EEWCDD14/dp/B0925NT31Z"
     }
   ]

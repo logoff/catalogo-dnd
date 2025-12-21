@@ -13,10 +13,7 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967018,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ther.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ther-back.jpg"
-      ],
+      "images": ["/images/products/mot/pub0_img0.jpg", "/images/products/mot/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/mythic-odysseys-theros",
       "wpn_url": "https://wpn.wizards.com/en/products/mythic-odysseys-of-theros",
       "openlibrary_url": "https://openlibrary.org/books/OL36344975M",

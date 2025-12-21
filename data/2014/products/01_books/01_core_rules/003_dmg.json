@@ -13,10 +13,7 @@
       "pages": 320,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965625,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-dmg.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-dmg-back.jpg"
-      ],
+      "images": ["/images/products/dmg/pub0_img0.jpg", "/images/products/dmg/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/dungeon-masters-guide",
       "wpn_url": "https://wpn.wizards.com/en/products/dungeon-masters-guide",
       "openlibrary_url": "https://openlibrary.org/books/OL26631919M",
@@ -34,10 +31,7 @@
       "pages": 320,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 9788416357659,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-gdm.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-gdm-back.jpg"
-      ],
+      "images": ["/images/products/dmg/pub1_img0.jpg", "/images/products/dmg/pub1_img1.jpg"],
       "openlibrary_url": "https://openlibrary.org/books/OL47567567M"
     },
     {
@@ -52,11 +46,8 @@
       "pages": 320,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967537,
-      "images": [
-        "https://www.goblintrader.es/153283-superlarge_default/dungeons-dragons-guia-del-dungeon-master-edicion-espanola-spanish.jpg"
-      ],
+      "images": ["/images/products/dmg/pub2_img0.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/dungeon-masters-guide",
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-manual-del-master-a92191050",
       "amazon_link": "https://www.amazon.es/dp/0786967536"
     }
   ]

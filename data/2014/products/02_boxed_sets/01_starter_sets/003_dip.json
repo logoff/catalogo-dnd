@@ -12,10 +12,7 @@
       "authors": ["Jeremy Crawford", "Chris Perkins"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966837,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-back.jpg"
-      ],
+      "images": ["/images/products/dip/pub0_img0.jpg", "/images/products/dip/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/essentials-kit",
       "wpn_url": "https://wpn.wizards.com/en/products/dungeons-and-dragons-essentials-kit",
       "openlibrary_url": "https://openlibrary.org/books/OL32051179M",
@@ -24,54 +21,54 @@
         {
           "title": "Starter Set Rulebook",
           "pages": 32,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-book1.jpg"]
+          "images": ["/images/products/dip/pub0_sub0_img0.jpg"]
         },
         {
           "title": "Dragon of Icespire Peak",
           "pages": 64,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-book2.jpg"]
+          "images": ["/images/products/dip/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Character Record Sheets (6)",
           "images": [
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-crs.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg1.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg2.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg3.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg4.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg5.jpg"
+            "/images/products/dip/pub0_sub2_img0.jpg",
+            "/images/products/dip/pub0_sub2_img1.jpg",
+            "/images/products/dip/pub0_sub2_img2.jpg",
+            "/images/products/dip/pub0_sub2_img3.jpg",
+            "/images/products/dip/pub0_sub2_img4.jpg",
+            "/images/products/dip/pub0_sub2_img5.jpg"
           ]
         },
         {
           "title": "Accessory card sheets (81)",
           "images": [
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-acc1.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-acc2.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-acc3.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-acc4.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-acc5.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-acc9.jpg"
+            "/images/products/dip/pub0_sub3_img0.jpg",
+            "/images/products/dip/pub0_sub3_img1.jpg",
+            "/images/products/dip/pub0_sub3_img2.jpg",
+            "/images/products/dip/pub0_sub3_img3.jpg",
+            "/images/products/dip/pub0_sub3_img4.jpg",
+            "/images/products/dip/pub0_sub3_img5.jpg"
           ]
         },
         {
           "title": "Accessory card storage box",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-stor.jpg"]
+          "images": ["/images/products/dip/pub0_sub4_img0.jpg"]
         },
         {
           "title": "Fold-out map",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-map.jpg"]
+          "images": ["/images/products/dip/pub0_sub5_img0.jpg"]
         },
         {
           "title": "Dungeon Master screen",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-screen.jpg"]
+          "images": ["/images/products/dip/pub0_sub6_img0.jpg"]
         },
         {
           "title": "Welcome Adventurer!",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-welc.jpg"]
+          "images": ["/images/products/dip/pub0_sub7_img0.jpg"]
         },
         {
           "title": "Polyhedral dice (11)",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-core-ess-dice.jpg"]
+          "images": ["/images/products/dip/pub0_sub8_img0.jpg"]
         }
       ]
     },
@@ -86,59 +83,55 @@
       "authors": ["Jeremy Crawford", "Chris Perkins"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967421,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-back.jpg"
-      ],
+      "images": ["/images/products/dip/pub1_img0.jpg", "/images/products/dip/pub1_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/essentials-kit",
-      "spain_distr_url": "https://b2b.asmodee.es/dungeons-1-dragons-5-kit-esencial-wtcc70081050",
       "openlibrary_url": "https://openlibrary.org/books/OL34193503M",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-C70080000-Essentials-construcci%C3%B3n/dp/0786967420",
       "sub_publications": [
         {
           "title": "Kit Esencial Reglamento",
           "pages": 68,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-book1.jpg"]
+          "images": ["/images/products/dip/pub1_sub0_img0.jpg"]
         },
         {
           "title": "El Drágon del Pico Agujahelada",
           "pages": 68,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-book2.jpg"]
+          "images": ["/images/products/dip/pub1_sub1_img0.jpg"]
         },
         {
           "title": "Hojas de personaje en blanco (6)",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-crs.jpg"]
+          "images": ["/images/products/dip/pub1_sub2_img0.jpg"]
         },
         {
           "title": "Cartas de objetos mágicos, acompañantes y más (81)",
           "images": [
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-acc1.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-acc2.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-acc3.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-acc4.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-acc5.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-acc9.jpg"
+            "/images/products/dip/pub1_sub3_img0.jpg",
+            "/images/products/dip/pub1_sub3_img1.jpg",
+            "/images/products/dip/pub1_sub3_img2.jpg",
+            "/images/products/dip/pub1_sub3_img3.jpg",
+            "/images/products/dip/pub1_sub3_img4.jpg",
+            "/images/products/dip/pub1_sub3_img5.jpg"
           ]
         },
         {
           "title": "Caja para las cartas",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-stor.jpg"]
+          "images": ["/images/products/dip/pub1_sub4_img0.jpg"]
         },
         {
           "title": "Póster de mapas con dos caras",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-map.jpg"]
+          "images": ["/images/products/dip/pub1_sub5_img0.jpg"]
         },
         {
           "title": "Pantalla del Dungeon Master",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-pant.jpg"]
+          "images": ["/images/products/dip/pub1_sub6_img0.jpg"]
         },
         {
           "title": "¡Bienvenidos, Aventureros!",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-bien.jpg"]
+          "images": ["/images/products/dip/pub1_sub7_img0.jpg"]
         },
         {
           "title": "Dados poliédricos (11)",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-ke-dice.jpg"]
+          "images": ["/images/products/dip/pub1_sub8_img0.jpg"]
         }
       ]
     }

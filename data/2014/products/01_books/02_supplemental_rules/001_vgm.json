@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966011,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-volo.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-volo-back.jpg"
-      ],
+      "images": ["/images/products/vgm/pub0_img0.jpg", "/images/products/vgm/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/volos-guide-to-monsters",
       "wpn_url": "https://wpn.wizards.com/en/products/volos-guide-to-monsters-?product=51paqv55CAxi9KuiGh4VCl",
       "openlibrary_url": "https://openlibrary.org/books/OL27225183M/",
@@ -34,11 +31,7 @@
       "pages": 224,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407629899,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-volo.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-volo-back.jpg"
-      ],
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-gu%c3%ada-de-volo-de-los-monstruos-eewcdd13",
+      "images": ["/images/products/vgm/pub1_img0.jpg", "/images/products/vgm/pub1_img1.jpg"],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Gu%C3%ADa-Monstruos-EEWCDD13/dp/B08L9SD9DY"
     }
   ]

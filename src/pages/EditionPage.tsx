@@ -4,6 +4,7 @@ import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductGrid from '@/components/products/ProductGrid'
 import FilterPanel from '@/components/filters/FilterPanel'
+import ViewToggle from '@/components/products/ViewToggle'
 import { translateEditionLong } from '@/utils/translations'
 import type { Edition } from '@/types'
 
@@ -13,11 +14,14 @@ interface EditionPageProps {
 
 export default function EditionPage({ edition }: EditionPageProps) {
   const products = useProductStore((state) => state.products)
+  const isLoaded = useProductStore((state) => state.isLoaded)
   const searchQuery = useProductStore((state) => state.searchQuery)
   const types = useProductStore((state) => state.types)
   const subtypes = useProductStore((state) => state.subtypes)
   const languages = useProductStore((state) => state.languages)
   const sortOption = useProductStore((state) => state.sortOption)
+  const viewMode = useProductStore((state) => state.viewMode)
+  const setViewMode = useProductStore((state) => state.setViewMode)
 
   // Filter products by this edition and apply other filters
   const filteredProducts = useMemo(() => {
@@ -101,10 +105,15 @@ export default function EditionPage({ edition }: EditionPageProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ label: editionTitle }]} />
 
-        <h1 className="font-display text-3xl text-dnd-gold mb-2">{editionTitle}</h1>
-        <p className="text-gray-400 mb-8">
-          {filteredProducts.length} de {editionProducts.length} productos
-        </p>
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h1 className="font-display text-3xl text-dnd-gold mb-2">{editionTitle}</h1>
+            <p className="text-gray-400">
+              {filteredProducts.length} de {editionProducts.length} productos
+            </p>
+          </div>
+          <ViewToggle view={viewMode} onChange={setViewMode} />
+        </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar with filters */}
@@ -118,6 +127,8 @@ export default function EditionPage({ edition }: EditionPageProps) {
           <main className="flex-1">
             <ProductGrid
               products={filteredProducts}
+              view={viewMode}
+              isLoading={!isLoaded}
               emptyMessage="No se encontraron productos con los filtros seleccionados"
             />
           </main>

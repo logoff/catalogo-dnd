@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966974,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tod.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tod-back.jpg"
-      ],
+      "images": ["/images/products/tod/pub0_img0.jpg", "/images/products/tod/pub0_img1.jpg"],
       "openlibrary_url": "https://openlibrary.org/books/OL44309413M"
     },
     {
@@ -31,10 +28,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968657,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tod-reg.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tod-reg-back.jpg"
-      ],
+      "images": ["/images/products/tod/pub1_img0.jpg", "/images/products/tod/pub1_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/tyranny-of-dragons",
       "openlibrary_url": "https://openlibrary.org/books/OL42717559M",
       "amazon_link": "https://www.amazon.es/RPG-TYRANNY-DRAGONS-HC-Adventure/dp/0786968656"

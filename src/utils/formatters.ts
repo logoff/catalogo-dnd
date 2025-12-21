@@ -27,3 +27,25 @@ export function slugify(text: string): string {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '')
 }
+
+export function formatDateRange(dateRange: {
+  earliest?: string | null
+  latest?: string | null
+}): string {
+  if (!dateRange.earliest) return ''
+
+  const formatYear = (date: string) => date.slice(0, 4)
+
+  if (!dateRange.latest || dateRange.earliest === dateRange.latest) {
+    return formatYear(dateRange.earliest)
+  }
+
+  const earliestYear = formatYear(dateRange.earliest)
+  const latestYear = formatYear(dateRange.latest)
+
+  if (earliestYear === latestYear) {
+    return earliestYear
+  }
+
+  return `${earliestYear}–${latestYear}`
+}

@@ -13,10 +13,7 @@
       "pages": 352,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965618,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-mm.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-mm-back.jpg"
-      ],
+      "images": ["/images/products/mm/pub0_img0.jpg", "/images/products/mm/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/monster-manual",
       "wpn_url": "https://wpn.wizards.com/en/products/monster-manual",
       "openlibrary_url": "https://openlibrary.org/books/OL26631912M",
@@ -34,10 +31,7 @@
       "pages": 352,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 9788416357642,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm-back.jpg"
-      ],
+      "images": ["/images/products/mm/pub1_img0.jpg", "/images/products/mm/pub1_img1.jpg"],
       "openlibrary_url": "https://openlibrary.org/books/OL47566819M"
     },
     {
@@ -52,12 +46,8 @@
       "pages": 320,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967582,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm2.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdm2-back.jpg"
-      ],
+      "images": ["/images/products/mm/pub2_img0.jpg", "/images/products/mm/pub2_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/monster-manual",
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-manual-de-monstruos-a92181050",
       "amazon_link": "https://www.amazon.es/dp/0786967587"
     }
   ]

@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966905,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ai.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-ai-back.jpg"
-      ],
+      "images": ["/images/products/ai/pub0_img0.jpg", "/images/products/ai/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/acquisitions-incorporated",
       "wpn_url": "https://wpn.wizards.com/en/products/acquisitions-incorporated",
       "openlibrary_url": "https://openlibrary.org/books/OL34402051M",

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/generate-sitemap.mjs",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
@@ -17,6 +17,7 @@
     "@heroicons/react": "^2.2.0",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "framer-motion": "^12.23.26",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
@@ -28,7 +29,7 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "*.{js,jsx}": [
+    "*.{js,jsx,mjs}": [
       "eslint --fix",
       "prettier --write"
     ],

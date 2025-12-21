@@ -13,10 +13,7 @@
       "pages": 248,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966097,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tales.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-tales-back.jpg"
-      ],
+      "images": ["/images/products/totwp/pub0_img0.jpg", "/images/products/totwp/pub0_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/tales-from-the-yawning-portal",
       "openlibrary_url": "https://openlibrary.org/books/OL26876233M",
       "amazon_link": "https://www.amazon.es/Tales-Yawning-Portal-Dungeons-Dragons/dp/0786966092"
@@ -33,11 +30,7 @@
       "pages": 248,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407626164,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-port.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-port-back.jpg"
-      ],
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-cuentos-del-portal-bostezante-eewcdd11",
+      "images": ["/images/products/totwp/pub1_img0.jpg", "/images/products/totwp/pub1_img1.jpg"],
       "amazon_link": "https://www.amazon.es/Edge-Entertainement-Dungeons-Dragons-Bostezante/dp/B086PVR1HK"
     }
   ]

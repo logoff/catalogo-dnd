@@ -13,13 +13,9 @@
       "pages": 208,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968961,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-keys.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-keys-back.jpg"
-      ],
+      "images": ["/images/products/kftgv/pub0_img0.jpg", "/images/products/kftgv/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/keys-from-the-golden-vault",
       "wpn_url": "https://wpn.wizards.com/en/products/keys-from-the-golden-vault",
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-keys-from-the-golden-vault-hc-d24290000",
       "openlibrary_url": "https://openlibrary.org/books/OL46117672M",
       "amazon_link": "https://www.amazon.es/KEYS-GOLDEN-VAULT-Dungeons-Dragons/dp/0786968966"
     },
@@ -35,10 +31,7 @@
       "pages": 208,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969319,
-      "images": [
-        "https://m.media-amazon.com/images/I/712CMGD4AwL._SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/71rwBD3njML._SL1500_.jpg"
-      ],
+      "images": ["/images/products/kftgv/pub1_img0.jpg", "/images/products/kftgv/pub1_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/keys-from-the-golden-vault",
       "amazon_link": "https://www.amazon.es/aventura-Dungeons-Dragons-Versi%C3%B3n-Espa%C3%B1ol/dp/0786969318"
     }

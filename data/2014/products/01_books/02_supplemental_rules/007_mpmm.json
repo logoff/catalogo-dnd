@@ -13,10 +13,7 @@
       "pages": 288,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967872,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-mord.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-mord-back.jpg"
-      ],
+      "images": ["/images/products/mpmm/pub0_img0.jpg", "/images/products/mpmm/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/monsters-of-the-multiverse",
       "wpn_url": "https://wpn.wizards.com/en/products/mordenkainen-presents-monsters-of-the-multiverse",
       "openlibrary_url": "https://openlibrary.org/books/OL37593203M",
@@ -34,12 +31,8 @@
       "pages": 288,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968145,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mord.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mord-back.jpg"
-      ],
+      "images": ["/images/products/mpmm/pub1_img0.jpg", "/images/products/mpmm/pub1_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/monsters-of-the-multiverse",
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-monstruos-del-multiverso-d08681050",
       "amazon_link": "https://www.amazon.es/Mordenkainen-Presents-Dungeons-Dragons-Collectif/dp/0786968141"
     }
   ]

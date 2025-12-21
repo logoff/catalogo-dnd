@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import {
   GlobeAltIcon,
-  BuildingStorefrontIcon,
   BookOpenIcon,
   ArrowTopRightOnSquareIcon,
   SparklesIcon,
@@ -12,6 +11,7 @@ import ImageLightbox from '../common/ImageLightbox'
 import { translateSubtype } from '@/utils/translations'
 import { formatDate, formatISBN } from '@/utils/formatters'
 import { PLACEHOLDER_IMAGE, getAssetPath } from '@/utils/constants'
+import LazyImage from '../common/LazyImage'
 
 interface ProductDetailProps {
   product: ProductWithMeta
@@ -57,13 +57,6 @@ function PublicationSection({ publication }: PublicationSectionProps) {
       color: 'from-purple-600 to-purple-800',
       hoverColor: 'hover:from-purple-500 hover:to-purple-700',
     },
-    publication.spain_distr_url && {
-      url: publication.spain_distr_url,
-      label: 'Distribuidor ES',
-      icon: BuildingStorefrontIcon,
-      color: 'from-amber-600 to-amber-800',
-      hoverColor: 'hover:from-amber-500 hover:to-amber-700',
-    },
     publication.openlibrary_url && {
       url: publication.openlibrary_url,
       label: 'Open Library',
@@ -96,11 +89,11 @@ function PublicationSection({ publication }: PublicationSectionProps) {
                 onClick={() => openLightbox(index)}
                 className="block cursor-zoom-in"
               >
-                <img
+                <LazyImage
                   src={image}
                   alt={`${publication.title} - Imagen ${index + 1}`}
-                  className="max-h-80 w-auto rounded-lg shadow-card hover:shadow-card-hover transition-shadow hover:scale-[1.02]"
-                  loading="lazy"
+                  containerClassName="max-h-80 w-auto rounded-lg shadow-card hover:shadow-card-hover transition-shadow"
+                  className="max-h-80 w-auto rounded-lg hover:scale-[1.02] transition-transform"
                 />
               </button>
             ))}

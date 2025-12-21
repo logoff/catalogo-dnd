@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967995,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-radcit.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-radcit-back.jpg"
-      ],
+      "images": ["/images/products/jttrc/pub0_img0.jpg", "/images/products/jttrc/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/journeys-through-radiant-citadel",
       "wpn_url": "https://wpn.wizards.com/en/products/journeys-through-the-radiant-citadel",
       "openlibrary_url": "https://openlibrary.org/books/OL37802724M",
@@ -34,11 +31,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968039,
-      "images": [
-        "https://m.media-amazon.com/images/I/81Q8P5jlCjL._SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/81Nrw9DPAbL._SL1500_.jpg"
-      ],
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-viajes-por-la-ciudadela-radiante-hc-d09961050",
+      "images": ["/images/products/jttrc/pub1_img0.jpg", "/images/products/jttrc/pub1_img1.jpg"],
       "amazon_link": "https://www.amazon.es/Viajes-Ciudadela-Radiante-Versi%C3%B3n-Espa%C3%B1ol/dp/0786968036"
     }
   ]

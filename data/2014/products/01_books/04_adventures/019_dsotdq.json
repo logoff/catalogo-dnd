@@ -13,13 +13,9 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968282,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-sotdq.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-sotdq-back.jpg"
-      ],
+      "images": ["/images/products/dsotdq/pub0_img0.jpg", "/images/products/dsotdq/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/dragonlance",
       "wpn_url": "https://wpn.wizards.com/en/products/dragonlance-shadow-of-the-dragon-queen",
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dragonlance-shadow-dragon-queen-hc-d09910000",
       "openlibrary_url": "https://openlibrary.org/books/OL39714757M",
       "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/0786968281"
     },
@@ -35,11 +31,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968329,
-      "images": [
-        "https://m.media-amazon.com/images/I/71qsRbJwT6L._SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/712bvo03PvL._SL1500_.jpg"
-      ],
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dl-la-sombra-de-la-reina-de-los-dragones-d09911050",
+      "images": ["/images/products/dsotdq/pub1_img0.jpg", "/images/products/dsotdq/pub1_img1.jpg"],
       "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/078696832X"
     }
   ]

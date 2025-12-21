@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967865,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-nether.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-nether-back.jpg"
-      ],
+      "images": ["/images/products/crcotn/pub0_img0.jpg", "/images/products/crcotn/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/call-netherdeep",
       "wpn_url": "https://wpn.wizards.com/en/products/critical-role-presents-call-of-the-netherdeep-dandd-adventure-book",
       "openlibrary_url": "https://openlibrary.org/works/OL26627292W",

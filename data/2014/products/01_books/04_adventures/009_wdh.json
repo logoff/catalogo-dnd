@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966257,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-heist.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-heist-back.jpg"
-      ],
+      "images": ["/images/products/wdh/pub0_img0.jpg", "/images/products/wdh/pub0_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/waterdeep-dragon-heist",
       "official_url": "https://dnd.wizards.com/products/waterdeep-dragon-heist",
       "openlibrary_url": "https://openlibrary.org/books/OL27358095M",
@@ -34,11 +31,7 @@
       "pages": 224,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407624900,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-golp.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-golp-back.jpg"
-      ],
-      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-golpe-de-los-dragones-eewcdd08",
+      "images": ["/images/products/wdh/pub1_img0.jpg", "/images/products/wdh/pub1_img1.jpg"],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Golpe-Dragones-EEWCDD08/dp/B07WL5542G"
     }
   ]

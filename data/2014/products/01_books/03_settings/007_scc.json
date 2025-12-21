@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967445,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-strix.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-strix-back.jpg"
-      ],
+      "images": ["/images/products/scc/pub0_img0.jpg", "/images/products/scc/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/strixhaven-curriculum-chaos",
       "wpn_url": "https://wpn.wizards.com/en/products/strixhaven-a-curriculum-of-chaos",
       "openlibrary_url": "https://openlibrary.org/books/OL32895479M",

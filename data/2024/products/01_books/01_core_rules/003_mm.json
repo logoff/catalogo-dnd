@@ -13,10 +13,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969548,
-      "images": [
-        "https://m.media-amazon.com/images/I/71ObV-N1cwL._SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/71hdGn9vlZL._SL1500_.jpg"
-      ],
+      "images": ["/images/products/mm/pub0_img0.jpg", "/images/products/mm/pub0_img1.jpg"],
       "official_url": "https://marketplace.dndbeyond.com/core-rules/3711000",
       "wpn_url": "https://wpn.wizards.com/en/products/2024-monster-manual?product=1OSPBcMxe3gNOo2NIMDqty",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Monster-Manual-Rulebook/dp/0786969547"
@@ -33,7 +30,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969838,
-      "images": ["https://www.enworld.org/attachments/2025_mm_alt-webp.366455"],
+      "images": ["/images/products/mm/pub1_img0.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/2024-monster-manual?product=39uez5A4cOacvfY1XDtBOL",
       "amazon_link": "https://www.amazon.es/RPG-MONSTER-MANUAL-ALT-CVR/dp/0786969830"
     },
@@ -49,7 +46,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969739,
-      "images": ["https://m.media-amazon.com/images/I/71I81dEu25L._SL1500_.jpg"],
+      "images": ["/images/products/mm/pub2_img0.jpg"],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Monster-Versi%C3%B3n-Espa%C3%B1ol/dp/0786969733"
     }
   ]

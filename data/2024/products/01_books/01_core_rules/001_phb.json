@@ -13,10 +13,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969517,
-      "images": [
-        "https://cdn.media.amplience.net/i/wizardsprod/players-handbook-2024-product-01",
-        "https://cdn.media.amplience.net/i/wizardsprod/players-handbook-2024-product-02"
-      ],
+      "images": ["/images/products/phb/pub0_img0.jpg", "/images/products/phb/pub0_img1.jpg"],
       "official_url": "https://marketplace.dndbeyond.com/core-rules/3709000",
       "wpn_url": "https://wpn.wizards.com/en/products/2024-players-handbook?product=3KKHKAgA7Fjiwg3enZtstH",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Rulebook/dp/0786969512"
@@ -33,7 +30,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969821,
-      "images": ["https://www.enworld.org/attachments/0_dnd_phb_alt_cvr_full_cvr-jpg-webp.366453"],
+      "images": ["/images/products/phb/pub1_img0.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/2024-players-handbook?product=3nwKG3lFpQPM1sKZMyI7Nl"
     },
     {
@@ -48,7 +45,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969685,
-      "images": ["https://m.media-amazon.com/images/I/813WnRBnHFL._SL1500_.jpg"],
+      "images": ["/images/products/phb/pub2_img0.jpg"],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Versi%C3%B3n/dp/0786969687"
     }
   ]

@@ -27,7 +27,7 @@ function App() {
           <Route path="2014/:category" element={<EditionPage edition="5e" />} />
           <Route path="2024" element={<EditionPage edition="2024" />} />
           <Route path="2024/:category" element={<EditionPage edition="2024" />} />
-          <Route path="producto/:code" element={<ProductDetailPage />} />
+          <Route path="producto/:edition/:code" element={<ProductDetailPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

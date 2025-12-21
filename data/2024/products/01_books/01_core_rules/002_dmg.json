@@ -13,10 +13,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969524,
-      "images": [
-        "https://cdn.media.amplience.net/i/wizardsprod/dungeon-masters-guide-2024-product-01",
-        "https://cdn.media.amplience.net/i/wizardsprod/dungeon-masters-guide-2024-product-02"
-      ],
+      "images": ["/images/products/dmg/pub0_img0.jpg", "/images/products/dmg/pub0_img1.jpg"],
       "official_url": "https://marketplace.dndbeyond.com/core-rules/3710000",
       "wpn_url": "https://wpn.wizards.com/en/products/2024-dungeon-masters-guide?product=6XGa8AdgaUk1p48cSIjFXi",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Rulebook/dp/0786969520"
@@ -33,7 +30,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969845,
-      "images": ["https://www.enworld.org/attachments/2024_dnd_dmg_alt-webp.366454"],
+      "images": ["/images/products/dmg/pub1_img0.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/2024-dungeon-masters-guide?product=4dxTpIOH6M9zeXpQ66xUqU"
     },
     {
@@ -48,7 +45,7 @@
       "pages": 384,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969784,
-      "images": ["https://m.media-amazon.com/images/I/812q6Fm+9dL._SL1500_.jpg"],
+      "images": ["/images/products/dmg/pub2_img0.jpg"],
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Versi%C3%B3n/dp/0786969784"
     }
   ]

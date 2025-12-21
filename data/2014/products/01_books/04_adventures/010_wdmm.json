@@ -13,10 +13,7 @@
       "pages": 320,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966264,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-mad.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-mad-back.jpg"
-      ],
+      "images": ["/images/products/wdmm/pub0_img0.jpg", "/images/products/wdmm/pub0_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/waterdeep-dungeon-of-the-mad-mage",
       "official_url": "https://dnd.wizards.com/products/waterdeep-dungeon-of-the-mad-mage",
       "openlibrary_url": "https://openlibrary.org/books/OL29398481M",
@@ -34,10 +31,7 @@
       "pages": 320,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407624917,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mago.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mago-back.jpg"
-      ]
+      "images": ["/images/products/wdmm/pub1_img0.jpg", "/images/products/wdmm/pub1_img1.jpg"]
     }
   ]
 }
