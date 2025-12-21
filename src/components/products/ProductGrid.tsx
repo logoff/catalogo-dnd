@@ -1,19 +1,33 @@
 import type { ProductWithMeta } from '@/types'
 import ProductCard from './ProductCard'
+import ProductListItem from './ProductListItem'
+import type { ViewMode } from './ViewToggle'
 
 interface ProductGridProps {
   products: ProductWithMeta[]
   emptyMessage?: string
+  view?: ViewMode
 }
 
 export default function ProductGrid({
   products,
   emptyMessage = 'No se encontraron productos',
+  view = 'grid',
 }: ProductGridProps) {
   if (products.length === 0) {
     return (
       <div className="text-center py-12">
         <p className="text-gray-400 text-lg">{emptyMessage}</p>
+      </div>
+    )
+  }
+
+  if (view === 'list') {
+    return (
+      <div className="flex flex-col gap-3">
+        {products.map((product) => (
+          <ProductListItem key={`${product.code}-${product.primaryEdition}`} product={product} />
+        ))}
       </div>
     )
   }
