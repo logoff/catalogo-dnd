@@ -1,20 +1,26 @@
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeftIcon } from '@heroicons/react/24/outline'
-import { getProductByCode } from '@/services/dataLoader'
+import { getProductByCodeAndEdition } from '@/services/dataLoader'
 import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductDetail from '@/components/products/ProductDetail'
 import { translateEditionLong } from '@/utils/translations'
+import type { Edition } from '@/types'
 
 export default function ProductDetailPage() {
-  const { code } = useParams<{ code: string }>()
-  const product = code ? getProductByCode(code) : undefined
+  const { code, edition: editionParam } = useParams<{ code: string; edition: string }>()
+
+  // Convert URL edition to internal edition type
+  const edition: Edition = editionParam === '2024' ? '2024' : '5e'
+  const product = code ? getProductByCodeAndEdition(code, edition) : undefined
 
   if (!product) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h1 className="font-display text-3xl text-dnd-gold mb-4">Producto no encontrado</h1>
-        <p className="text-gray-400 mb-8">No se encontró ningún producto con el código "{code}"</p>
+        <p className="text-gray-400 mb-8">
+          No se encontró ningún producto con el código "{code}" en la edición {editionParam}
+        </p>
         <Link to="/catalogo" className="btn-primary">
           Volver al catálogo
         </Link>
@@ -22,8 +28,8 @@ export default function ProductDetailPage() {
     )
   }
 
-  const editionPath = product.primaryEdition === '5e' ? '2014' : '2024'
-  const editionLabel = translateEditionLong(product.primaryEdition)
+  const editionPath = edition === '5e' ? '2014' : '2024'
+  const editionLabel = translateEditionLong(edition)
 
   return (
     <>

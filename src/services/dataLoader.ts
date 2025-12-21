@@ -85,6 +85,18 @@ export function getProductByCode(code: string): ProductWithMeta | undefined {
   )
 }
 
+// Get product by code and edition
+export function getProductByCodeAndEdition(
+  code: string,
+  edition: Edition
+): ProductWithMeta | undefined {
+  return loadAllProducts().find(
+    (p) =>
+      (p.code.toLowerCase() === code.toLowerCase() || p.slug === code.toLowerCase()) &&
+      p.primaryEdition === edition
+  )
+}
+
 // Get category structure for navigation
 export interface CategoryNode {
   id: string

@@ -11,10 +11,11 @@ interface ProductListItemProps {
 export default function ProductListItem({ product }: ProductListItemProps) {
   const firstPub = product.publications[0]
   const imageUrl = firstPub?.images?.[0] ?? PLACEHOLDER_IMAGE
+  const editionPath = product.primaryEdition === '5e' ? '2014' : '2024'
 
   return (
     <Link
-      to={`/producto/${product.code.toLowerCase()}`}
+      to={`/producto/${editionPath}/${product.code.toLowerCase()}`}
       className="card-dnd group flex gap-4 animate-fade-in"
     >
       {/* Image */}
