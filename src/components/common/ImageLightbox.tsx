@@ -1,5 +1,14 @@
 import { useState, useEffect, useCallback } from 'react'
 import { XMarkIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
+import { getAssetPath } from '@/utils/constants'
+
+// Aplica getAssetPath solo a rutas locales (no URLs externas)
+function resolveImageSrc(src: string): string {
+  if (src.startsWith('http://') || src.startsWith('https://')) {
+    return src
+  }
+  return getAssetPath(src)
+}
 
 interface ImageLightboxProps {
   images: string[]
@@ -102,7 +111,7 @@ export default function ImageLightbox({
         onClick={(e) => e.stopPropagation()}
       >
         <img
-          src={images[currentIndex]}
+          src={resolveImageSrc(images[currentIndex])}
           alt={`Imagen ${currentIndex + 1}`}
           className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
         />
@@ -139,7 +148,7 @@ export default function ImageLightbox({
               }`}
             >
               <img
-                src={img}
+                src={resolveImageSrc(img)}
                 alt={`Miniatura ${index + 1}`}
                 className="w-full h-full object-cover"
               />

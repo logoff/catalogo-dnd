@@ -1,8 +1,17 @@
 import { useEffect, useRef, useState } from 'react'
 import clsx from 'clsx'
+import { getAssetPath } from '@/utils/constants'
 
 // Cache de imágenes ya cargadas para evitar parpadeo en re-renders
 const loadedCache = new Set<string>()
+
+// Aplica getAssetPath solo a rutas locales (no URLs externas)
+function resolveImageSrc(src: string): string {
+  if (src.startsWith('http://') || src.startsWith('https://')) {
+    return src
+  }
+  return getAssetPath(src)
+}
 
 interface LazyImageProps {
   src: string
@@ -12,19 +21,20 @@ interface LazyImageProps {
 }
 
 export default function LazyImage({ src, alt, className, containerClassName }: LazyImageProps) {
-  const [loaded, setLoaded] = useState(() => loadedCache.has(src))
+  const resolvedSrc = resolveImageSrc(src)
+  const [loaded, setLoaded] = useState(() => loadedCache.has(resolvedSrc))
   const imgRef = useRef<HTMLImageElement>(null)
 
   useEffect(() => {
     const img = imgRef.current
     if (!loaded && img?.complete && img?.naturalHeight > 0) {
-      loadedCache.add(src)
+      loadedCache.add(resolvedSrc)
       setLoaded(true)
     }
-  }, [src, loaded])
+  }, [resolvedSrc, loaded])
 
   const handleLoad = () => {
-    loadedCache.add(src)
+    loadedCache.add(resolvedSrc)
     setLoaded(true)
   }
 
@@ -37,7 +47,7 @@ export default function LazyImage({ src, alt, className, containerClassName }: L
 
       <img
         ref={imgRef}
-        src={src}
+        src={resolvedSrc}
         alt={alt}
         loading="lazy"
         className={clsx(
