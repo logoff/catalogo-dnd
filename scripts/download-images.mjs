@@ -52,8 +52,8 @@ function getExtensionFromUrl(url) {
     if (IMAGE_EXTENSIONS.includes(ext)) {
       return ext
     }
-  } catch (e) {
-    // ignore
+  } catch {
+    // ignore invalid URLs
   }
   return '.jpg' // default
 }
@@ -62,32 +62,36 @@ function downloadImage(url, destPath) {
   return new Promise((resolve, reject) => {
     const protocol = url.startsWith('https') ? https : http
 
-    const request = protocol.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; DnD-Catalog/1.0)'
+    const request = protocol.get(
+      url,
+      {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; DnD-Catalog/1.0)',
+        },
+        timeout: 30000,
       },
-      timeout: 30000
-    }, (response) => {
-      // Handle redirects
-      if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
-        downloadImage(response.headers.location, destPath).then(resolve).catch(reject)
-        return
-      }
+      (response) => {
+        // Handle redirects
+        if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+          downloadImage(response.headers.location, destPath).then(resolve).catch(reject)
+          return
+        }
 
-      if (response.statusCode !== 200) {
-        reject(new Error(`HTTP ${response.statusCode} for ${url}`))
-        return
-      }
+        if (response.statusCode !== 200) {
+          reject(new Error(`HTTP ${response.statusCode} for ${url}`))
+          return
+        }
 
-      const chunks = []
-      response.on('data', (chunk) => chunks.push(chunk))
-      response.on('end', () => {
-        const buffer = Buffer.concat(chunks)
-        writeFileSync(destPath, buffer)
-        resolve(destPath)
-      })
-      response.on('error', reject)
-    })
+        const chunks = []
+        response.on('data', (chunk) => chunks.push(chunk))
+        response.on('end', () => {
+          const buffer = Buffer.concat(chunks)
+          writeFileSync(destPath, buffer)
+          resolve(destPath)
+        })
+        response.on('error', reject)
+      }
+    )
 
     request.on('error', reject)
     request.on('timeout', () => {
@@ -152,7 +156,7 @@ async function processProduct(filePath) {
         modified = true
 
         // Pequeña pausa para no sobrecargar servidores
-        await new Promise(r => setTimeout(r, 200))
+        await new Promise((r) => setTimeout(r, 200))
       } catch (error) {
         console.error(`  Error: ${error.message}`)
         // Mantener URL original si falla
@@ -204,7 +208,7 @@ async function processProduct(filePath) {
             newSubImages.push(localPath)
             results.downloaded++
             modified = true
-            await new Promise(r => setTimeout(r, 200))
+            await new Promise((r) => setTimeout(r, 200))
           } catch (error) {
             console.error(`  Error (sub): ${error.message}`)
             newSubImages.push(imageUrl)
