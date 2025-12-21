@@ -22,7 +22,7 @@ dev: install
 dev-host: install
     npm run dev -- --host
 
-# === Build ===
+# === Build y verificación ===
 
 # Construir el sitio para producción
 build: install
@@ -34,7 +34,15 @@ preview: build
 
 # Verificar tipos TypeScript
 typecheck: install
-    npm run typecheck
+    npx tsc --noEmit
+
+# Ejecutar tests
+test: install
+    npm run test
+
+# Ejecutar tests en modo watch
+test-watch: install
+    npm run test:watch
 
 # Linter (ESLint)
 lint: install
@@ -51,6 +59,9 @@ format-check: install
 # Formatear código (Prettier)
 format: install
     npm run format
+
+# Ejecutar todas las verificaciones (lint, format, typecheck, test)
+check: lint format-check typecheck test
 
 # === Docker ===
 
@@ -85,6 +96,7 @@ docker-stop:
 
 # === Despliegue ===
 
-# Publicar a GitHub Pages (construye antes)
-deploy: build
-    npx gh-pages -d dist
+# Lanzar deploy a GitHub Pages (via GitHub Actions)
+deploy:
+    gh workflow run deploy.yml
+    @echo "Deploy iniciado. Ver progreso en: https://github.com/logoff/catalogo-dnd/actions"
