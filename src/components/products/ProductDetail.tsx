@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import {
   GlobeAltIcon,
-  BuildingStorefrontIcon,
   BookOpenIcon,
   ArrowTopRightOnSquareIcon,
   SparklesIcon,
@@ -57,13 +56,6 @@ function PublicationSection({ publication }: PublicationSectionProps) {
       icon: SparklesIcon,
       color: 'from-purple-600 to-purple-800',
       hoverColor: 'hover:from-purple-500 hover:to-purple-700',
-    },
-    publication.spain_distr_url && {
-      url: publication.spain_distr_url,
-      label: 'Distribuidor ES',
-      icon: BuildingStorefrontIcon,
-      color: 'from-amber-600 to-amber-800',
-      hoverColor: 'hover:from-amber-500 hover:to-amber-700',
     },
     publication.openlibrary_url && {
       url: publication.openlibrary_url,

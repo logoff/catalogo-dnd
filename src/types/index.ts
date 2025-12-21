@@ -45,7 +45,6 @@ export interface Publication {
   images?: string[]
   official_url?: string
   wpn_url?: string
-  spain_distr_url?: string
   openlibrary_url?: string
   amazon_link?: string
   sub_publications?: SubPublication[]
