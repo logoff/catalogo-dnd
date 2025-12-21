@@ -36,9 +36,21 @@ preview: build
 typecheck: install
     npm run typecheck
 
-# Linter
+# Linter (ESLint)
 lint: install
     npm run lint
+
+# Corregir errores de linter automáticamente
+lint-fix: install
+    npm run lint:fix
+
+# Verificar formato (Prettier)
+format-check: install
+    npm run format:check
+
+# Formatear código (Prettier)
+format: install
+    npm run format
 
 # === Docker ===
 

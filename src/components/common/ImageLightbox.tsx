@@ -8,8 +8,21 @@ interface ImageLightboxProps {
   onClose: () => void
 }
 
-export default function ImageLightbox({ images, initialIndex = 0, isOpen, onClose }: ImageLightboxProps) {
+export default function ImageLightbox({
+  images,
+  initialIndex = 0,
+  isOpen,
+  onClose,
+}: ImageLightboxProps) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex)
+
+  const goToPrevious = useCallback(() => {
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))
+  }, [images.length])
+
+  const goToNext = useCallback(() => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1))
+  }, [images.length])
 
   // Reset index when opening with a new initial index
   useEffect(() => {
@@ -44,15 +57,7 @@ export default function ImageLightbox({ images, initialIndex = 0, isOpen, onClos
       document.removeEventListener('keydown', handleKeyDown)
       document.body.style.overflow = ''
     }
-  }, [isOpen, onClose])
-
-  const goToPrevious = useCallback(() => {
-    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))
-  }, [images.length])
-
-  const goToNext = useCallback(() => {
-    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1))
-  }, [images.length])
+  }, [isOpen, onClose, goToPrevious, goToNext])
 
   if (!isOpen || images.length === 0) return null
 

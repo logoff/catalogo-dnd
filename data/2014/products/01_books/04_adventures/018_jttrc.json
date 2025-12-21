@@ -1,51 +1,45 @@
 {
-    "code": "JTTRC",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "english",
-            "edition": "5e",
-            "title": "Journeys Through the Radiant Citadel",
-            "date": "2022-07-19",
-            "item_code": "D0996",
-            "authors": [
-                "Ajit A. George",
-                "F. Wesley Schneider"
-            ],
-            "pages": 224,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786967995,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-radcit.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-radcit-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/journeys-through-radiant-citadel",
-            "wpn_url": "https://wpn.wizards.com/en/products/journeys-through-the-radiant-citadel",
-            "openlibrary_url": "https://openlibrary.org/books/OL37802724M",
-            "amazon_link": "https://www.amazon.es/Journeys-Through-Radiant-Aventuras-Dungeons/dp/0786967994"
-        },
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "castellano",
-            "edition": "5e",
-            "title": "Viajes por la Ciudadela Radiante",
-            "date": "2023-09-08",
-            "item_code": "D09961050",
-            "authors": [
-                "Ajit A. George",
-                "F. Wesley Schneider"
-            ],
-            "pages": 224,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786968039,
-            "images": [
-                "https://m.media-amazon.com/images/I/81Q8P5jlCjL._SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/81Nrw9DPAbL._SL1500_.jpg"
-            ],
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-viajes-por-la-ciudadela-radiante-hc-d09961050",
-            "amazon_link": "https://www.amazon.es/Viajes-Ciudadela-Radiante-Versi%C3%B3n-Espa%C3%B1ol/dp/0786968036"
-        }
-    ]
+  "code": "JTTRC",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "english",
+      "edition": "5e",
+      "title": "Journeys Through the Radiant Citadel",
+      "date": "2022-07-19",
+      "item_code": "D0996",
+      "authors": ["Ajit A. George", "F. Wesley Schneider"],
+      "pages": 224,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786967995,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-radcit.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-radcit-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/journeys-through-radiant-citadel",
+      "wpn_url": "https://wpn.wizards.com/en/products/journeys-through-the-radiant-citadel",
+      "openlibrary_url": "https://openlibrary.org/books/OL37802724M",
+      "amazon_link": "https://www.amazon.es/Journeys-Through-Radiant-Aventuras-Dungeons/dp/0786967994"
+    },
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "castellano",
+      "edition": "5e",
+      "title": "Viajes por la Ciudadela Radiante",
+      "date": "2023-09-08",
+      "item_code": "D09961050",
+      "authors": ["Ajit A. George", "F. Wesley Schneider"],
+      "pages": 224,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786968039,
+      "images": [
+        "https://m.media-amazon.com/images/I/81Q8P5jlCjL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81Nrw9DPAbL._SL1500_.jpg"
+      ],
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-viajes-por-la-ciudadela-radiante-hc-d09961050",
+      "amazon_link": "https://www.amazon.es/Viajes-Ciudadela-Radiante-Versi%C3%B3n-Espa%C3%B1ol/dp/0786968036"
+    }
+  ]
 }

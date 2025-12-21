@@ -1,50 +1,46 @@
 {
-    "code": "DSOTDQ",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "english",
-            "edition": "5e",
-            "title": "Dragonlance: Shadow of the Dragon Queen",
-            "date": "2022-12-06",
-            "item_code": "D0991",
-            "authors": [
-                "F. Wesley Schneider"
-            ],
-            "pages": 224,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786968282,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-sotdq.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-sotdq-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/dragonlance",
-            "wpn_url": "https://wpn.wizards.com/en/products/dragonlance-shadow-of-the-dragon-queen",
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dragonlance-shadow-dragon-queen-hc-d09910000",
-            "openlibrary_url": "https://openlibrary.org/books/OL39714757M",
-            "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/0786968281"
-        },
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "castellano",
-            "edition": "5e",
-            "title": "Dragonlance: La sombra de la Reina de los dragones",
-            "date": "2023-11-03",
-            "item_code": "D09911050",
-            "authors": [
-                "F. Wesley Schneider"
-            ],
-            "pages": 224,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786968329,
-            "images": [
-                "https://m.media-amazon.com/images/I/71qsRbJwT6L._SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/712bvo03PvL._SL1500_.jpg"
-            ],
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dl-la-sombra-de-la-reina-de-los-dragones-d09911050",
-            "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/078696832X"
-        }
-    ]
+  "code": "DSOTDQ",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "english",
+      "edition": "5e",
+      "title": "Dragonlance: Shadow of the Dragon Queen",
+      "date": "2022-12-06",
+      "item_code": "D0991",
+      "authors": ["F. Wesley Schneider"],
+      "pages": 224,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786968282,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-sotdq.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-sotdq-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/dragonlance",
+      "wpn_url": "https://wpn.wizards.com/en/products/dragonlance-shadow-of-the-dragon-queen",
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dragonlance-shadow-dragon-queen-hc-d09910000",
+      "openlibrary_url": "https://openlibrary.org/books/OL39714757M",
+      "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/0786968281"
+    },
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "castellano",
+      "edition": "5e",
+      "title": "Dragonlance: La sombra de la Reina de los dragones",
+      "date": "2023-11-03",
+      "item_code": "D09911050",
+      "authors": ["F. Wesley Schneider"],
+      "pages": 224,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786968329,
+      "images": [
+        "https://m.media-amazon.com/images/I/71qsRbJwT6L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/712bvo03PvL._SL1500_.jpg"
+      ],
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-dl-la-sombra-de-la-reina-de-los-dragones-d09911050",
+      "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/078696832X"
+    }
+  ]
 }

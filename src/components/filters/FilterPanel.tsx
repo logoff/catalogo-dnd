@@ -1,7 +1,12 @@
 import { useMemo } from 'react'
 import { XMarkIcon, FunnelIcon } from '@heroicons/react/24/outline'
 import { useProductStore } from '@/store/productStore'
-import { translateType, translateLanguage, translateEdition, translateSubtypeStandalone } from '@/utils/translations'
+import {
+  translateType,
+  translateLanguage,
+  translateEdition,
+  translateSubtypeStandalone,
+} from '@/utils/translations'
 import { EDITIONS, TYPES, LANGUAGES, SUBTYPES_BY_TYPE } from '@/utils/constants'
 import type { Edition, PublicationType, PublicationSubtype, Language } from '@/types'
 import SortSelect from './SortSelect'
@@ -50,9 +55,7 @@ export default function FilterPanel({ showEditionFilter = true }: FilterPanelPro
         <div className="flex items-center gap-2">
           <FunnelIcon className="h-5 w-5 text-dnd-gold" />
           <h3 className="font-display text-lg text-dnd-gold">Filtros</h3>
-          {activeCount > 0 && (
-            <span className="badge bg-dnd-red text-white">{activeCount}</span>
-          )}
+          {activeCount > 0 && <span className="badge bg-dnd-red text-white">{activeCount}</span>}
         </div>
         {activeCount > 0 && (
           <button

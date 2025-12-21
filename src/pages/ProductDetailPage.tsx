@@ -13,12 +13,8 @@ export default function ProductDetailPage() {
   if (!product) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-        <h1 className="font-display text-3xl text-dnd-gold mb-4">
-          Producto no encontrado
-        </h1>
-        <p className="text-gray-400 mb-8">
-          No se encontró ningún producto con el código "{code}"
-        </p>
+        <h1 className="font-display text-3xl text-dnd-gold mb-4">Producto no encontrado</h1>
+        <p className="text-gray-400 mb-8">No se encontró ningún producto con el código "{code}"</p>
         <Link to="/catalogo" className="btn-primary">
           Volver al catálogo
         </Link>
@@ -38,10 +34,7 @@ export default function ProductDetailPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs
-          items={[
-            { label: editionLabel, to: `/${editionPath}` },
-            { label: product.primaryTitle }
-          ]}
+          items={[{ label: editionLabel, to: `/${editionPath}` }, { label: product.primaryTitle }]}
         />
 
         {/* Back link */}
@@ -55,11 +48,10 @@ export default function ProductDetailPage() {
 
         {/* Product header */}
         <div className="mb-8">
-          <h1 className="font-display text-4xl text-dnd-gold mb-2">
-            {product.primaryTitle}
-          </h1>
+          <h1 className="font-display text-4xl text-dnd-gold mb-2">{product.primaryTitle}</h1>
           <p className="text-gray-400">
-            Código: {product.code} · {product.publications.length} edición{product.publications.length !== 1 ? 'es' : ''}
+            Código: {product.code} · {product.publications.length} edición
+            {product.publications.length !== 1 ? 'es' : ''}
           </p>
         </div>
 

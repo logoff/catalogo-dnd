@@ -1,30 +1,26 @@
 {
-    "code": "CRCOTN",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "adventure",
-            "language": "english",
-            "edition": "5e",
-            "title": "Critical Role Presents: Call of the Netherdeep",
-            "date": "2022-03-15",
-            "item_code": "D0867",
-            "authors": [
-                "James J. Haeck",
-                "Matthew Mercer",
-                "Christopher Perkins"
-            ],
-            "pages": 224,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786967865,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-nether.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-nether-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/call-netherdeep",
-            "wpn_url": "https://wpn.wizards.com/en/products/critical-role-presents-call-of-the-netherdeep-dandd-adventure-book",
-            "openlibrary_url": "https://openlibrary.org/works/OL26627292W",
-            "amazon_link": "https://www.amazon.es/Critical-Role-Call-Netherdeep/dp/0786967862"
-        }
-    ]
+  "code": "CRCOTN",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure",
+      "language": "english",
+      "edition": "5e",
+      "title": "Critical Role Presents: Call of the Netherdeep",
+      "date": "2022-03-15",
+      "item_code": "D0867",
+      "authors": ["James J. Haeck", "Matthew Mercer", "Christopher Perkins"],
+      "pages": 224,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786967865,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-nether.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-nether-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/call-netherdeep",
+      "wpn_url": "https://wpn.wizards.com/en/products/critical-role-presents-call-of-the-netherdeep-dandd-adventure-book",
+      "openlibrary_url": "https://openlibrary.org/works/OL26627292W",
+      "amazon_link": "https://www.amazon.es/Critical-Role-Call-Netherdeep/dp/0786967862"
+    }
+  ]
 }

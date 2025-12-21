@@ -1,62 +1,50 @@
 {
-    "code": "LOX",
-    "publications": [
+  "code": "LOX",
+  "publications": [
+    {
+      "type": "boxed_set",
+      "subtype": "adventure_setting",
+      "language": "english",
+      "edition": "5e",
+      "title": "Spelljammer: Adventures in Space",
+      "date": "2022-08-16",
+      "item_code": "D0989",
+      "authors": ["Christopher Perkins", "Jeremy Crawford", "Ari Levitch"],
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786968169,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-page.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/spelljammer",
+      "wpn_url": "https://wpn.wizards.com/en/products/spelljammers-adventures-in-space",
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-spelljammer-5-adventures-in-space-hc-d09890000",
+      "openlibrary_url": "https://openlibrary.org/books/OL37928896M",
+      "amazon_link": "https://www.amazon.es/Spelljammer-Adventures-colecci%C3%B3n-escenario-Roleplaying/dp/0786968168",
+      "sub_publications": [
         {
-            "type": "boxed_set",
-            "subtype": "adventure_setting",
-            "language": "english",
-            "edition": "5e",
-            "title": "Spelljammer: Adventures in Space",
-            "date": "2022-08-16",
-            "item_code": "D0989",
-            "authors": [
-                "Christopher Perkins",
-                "Jeremy Crawford",
-                "Ari Levitch"
-            ],
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786968169,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-page.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/spelljammer",
-            "wpn_url": "https://wpn.wizards.com/en/products/spelljammers-adventures-in-space",
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-spelljammer-5-adventures-in-space-hc-d09890000",
-            "openlibrary_url": "https://openlibrary.org/books/OL37928896M",
-            "amazon_link": "https://www.amazon.es/Spelljammer-Adventures-colecci%C3%B3n-escenario-Roleplaying/dp/0786968168",
-            "sub_publications": [
-                {
-                    "title": "Astral Adventurer's Guide",
-                    "pages": 64,
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-book1.jpg"
-                    ]
-                },
-                {
-                    "title": "Light of Xaryxis",
-                    "pages": 64,
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-book2.jpg"
-                    ]
-                },
-                {
-                    "title": "Boo's Astral Managerie",
-                    "pages": 64,
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-book3.jpg"
-                    ]
-                },
-                {
-                    "title": "Dungeon Master Screen",
-                    "images": [
-                        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-screen.jpg"
-                    ]
-                },
-                {
-                    "title": "Double-side poster map"
-                }
-            ]
+          "title": "Astral Adventurer's Guide",
+          "pages": 64,
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-book1.jpg"]
+        },
+        {
+          "title": "Light of Xaryxis",
+          "pages": 64,
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-book2.jpg"]
+        },
+        {
+          "title": "Boo's Astral Managerie",
+          "pages": 64,
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-book3.jpg"]
+        },
+        {
+          "title": "Dungeon Master Screen",
+          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-sj-screen.jpg"]
+        },
+        {
+          "title": "Double-side poster map"
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,50 +1,46 @@
 {
-    "code": "FTD",
-    "publications": [
-        {
-            "type": "book",
-            "subtype": "supplemental_rules",
-            "language": "english",
-            "edition": "5e",
-            "title": "Fizban's Treasury of Dragons",
-            "date": "2021-10-26",
-            "item_code": "C9274",
-            "authors": [
-                "James Wyatt"
-            ],
-            "pages": 224,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786967292,
-            "images": [
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-fiz.jpg",
-                "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-fiz-back.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/products/treasury-dragons",
-            "wpn_url": "https://wpn.wizards.com/en/products/fizbans-treasury-of-dragons-",
-            "openlibrary_url": "https://openlibrary.org/books/OL34240880M",
-            "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-DDN/dp/0786967293"
-        },
-        {
-            "type": "book",
-            "subtype": "supplemental_rules",
-            "language": "castellano",
-            "edition": "5e",
-            "title": "El tesoro de los dragones de Fizban",
-            "date": "2023-05-12",
-            "item_code": "C92741050",
-            "authors": [
-                "James Wyatt"
-            ],
-            "pages": 224,
-            "publisher": "Wizards of the Coast",
-            "isbn13": 9780786968855,
-            "images": [
-                "https://freakelitex.com/wp-content/uploads/2023/05/Dungeons-and-Dragons-El-tesoro-de-los-dragones-de-Fizban-ya-disponible.jpg",
-                "https://freakelitex.com/wp-content/uploads/2023/05/Dungeons-and-Dragons-El-tesoro-de-los-dragones-de-Fizban-ya-disponible-3.jpg"
-            ],
-            "official_url": "https://dnd.wizards.com/es/products/treasury-dragons",
-            "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-tesoro-de-los-dragones-de-fizban-c92741050",
-            "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-Versi%C3%B3n/dp/0786968850"
-        }
-    ]
+  "code": "FTD",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "supplemental_rules",
+      "language": "english",
+      "edition": "5e",
+      "title": "Fizban's Treasury of Dragons",
+      "date": "2021-10-26",
+      "item_code": "C9274",
+      "authors": ["James Wyatt"],
+      "pages": 224,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786967292,
+      "images": [
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-fiz.jpg",
+        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-fiz-back.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/products/treasury-dragons",
+      "wpn_url": "https://wpn.wizards.com/en/products/fizbans-treasury-of-dragons-",
+      "openlibrary_url": "https://openlibrary.org/books/OL34240880M",
+      "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-DDN/dp/0786967293"
+    },
+    {
+      "type": "book",
+      "subtype": "supplemental_rules",
+      "language": "castellano",
+      "edition": "5e",
+      "title": "El tesoro de los dragones de Fizban",
+      "date": "2023-05-12",
+      "item_code": "C92741050",
+      "authors": ["James Wyatt"],
+      "pages": 224,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786968855,
+      "images": [
+        "https://freakelitex.com/wp-content/uploads/2023/05/Dungeons-and-Dragons-El-tesoro-de-los-dragones-de-Fizban-ya-disponible.jpg",
+        "https://freakelitex.com/wp-content/uploads/2023/05/Dungeons-and-Dragons-El-tesoro-de-los-dragones-de-Fizban-ya-disponible-3.jpg"
+      ],
+      "official_url": "https://dnd.wizards.com/es/products/treasury-dragons",
+      "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-tesoro-de-los-dragones-de-fizban-c92741050",
+      "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-Versi%C3%B3n/dp/0786968850"
+    }
+  ]
 }
