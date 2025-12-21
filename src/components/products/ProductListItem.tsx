@@ -4,6 +4,7 @@ import type { ProductWithMeta } from '@/types'
 import { LanguageBadge, TypeBadge, EditionBadge } from '../common/Badge'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import { formatDateRange } from '@/utils/formatters'
+import LazyImage from '../common/LazyImage'
 
 interface ProductListItemProps {
   product: ProductWithMeta
@@ -21,14 +22,12 @@ export default function ProductListItem({ product }: ProductListItemProps) {
         className="card-dnd group flex gap-4"
       >
         {/* Image */}
-        <div className="w-20 h-28 flex-shrink-0 overflow-hidden bg-dnd-stone-light rounded">
-          <img
-            src={imageUrl}
-            alt={product.primaryTitle}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            loading="lazy"
-          />
-        </div>
+        <LazyImage
+          src={imageUrl}
+          alt={product.primaryTitle}
+          containerClassName="w-20 h-28 flex-shrink-0 bg-dnd-stone-light rounded"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+        />
 
         {/* Content */}
         <div className="flex-1 py-1 min-w-0">

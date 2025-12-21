@@ -86,7 +86,11 @@ export default function ProductGrid({
       key={`grid-${products.length}`}
     >
       {products.map((product) => (
-        <motion.div key={`${product.code}-${product.primaryEdition}`} variants={itemVariants}>
+        <motion.div
+          key={`${product.code}-${product.primaryEdition}`}
+          variants={itemVariants}
+          className="h-full"
+        >
           <ProductCard product={product} />
         </motion.div>
       ))}

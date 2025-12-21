@@ -42,8 +42,15 @@ interface EditionBadgeProps {
 }
 
 export function EditionBadge({ edition }: EditionBadgeProps) {
+  const is2024 = edition === '5e24' || edition === '2024'
+
   return (
-    <span className="badge bg-dnd-gold/20 text-dnd-gold border border-dnd-gold/40">
+    <span
+      className={clsx('badge', {
+        'bg-amber-500/20 text-amber-300 border border-amber-500/40': !is2024,
+        'bg-cyan-500/20 text-cyan-300 border border-cyan-500/40': is2024,
+      })}
+    >
       {translateEdition(edition)}
     </span>
   )

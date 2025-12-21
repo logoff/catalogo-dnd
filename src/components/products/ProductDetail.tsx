@@ -12,6 +12,7 @@ import ImageLightbox from '../common/ImageLightbox'
 import { translateSubtype } from '@/utils/translations'
 import { formatDate, formatISBN } from '@/utils/formatters'
 import { PLACEHOLDER_IMAGE, getAssetPath } from '@/utils/constants'
+import LazyImage from '../common/LazyImage'
 
 interface ProductDetailProps {
   product: ProductWithMeta
@@ -96,11 +97,11 @@ function PublicationSection({ publication }: PublicationSectionProps) {
                 onClick={() => openLightbox(index)}
                 className="block cursor-zoom-in"
               >
-                <img
+                <LazyImage
                   src={image}
                   alt={`${publication.title} - Imagen ${index + 1}`}
-                  className="max-h-80 w-auto rounded-lg shadow-card hover:shadow-card-hover transition-shadow hover:scale-[1.02]"
-                  loading="lazy"
+                  containerClassName="max-h-80 w-auto rounded-lg shadow-card hover:shadow-card-hover transition-shadow"
+                  className="max-h-80 w-auto rounded-lg hover:scale-[1.02] transition-transform"
                 />
               </button>
             ))}
