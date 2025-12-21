@@ -13,10 +13,7 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966769,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-aver.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-aver-back.jpg"
-      ],
+      "images": ["/images/products/bgdia/pub0_img0.jpg", "/images/products/bgdia/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/baldurs-gate-descent-into-avernus",
       "wpn_url": "https://wpn.wizards.com/en/products/baldurs-gate-descent-into-avernus",
       "openlibrary_url": "https://openlibrary.org/books/OL29817921M",
@@ -34,10 +31,7 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407629394,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-aver.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-aver-back.jpg"
-      ],
+      "images": ["/images/products/bgdia/pub1_img0.jpg", "/images/products/bgdia/pub1_img1.jpg"],
       "spain_distr_url": "https://b2b.asmodee.es/juego/juego-de-rol/d-1-d-5-descenso-a-averno-eewcdd12",
       "amazon_link": "https://www.amazon.es/Edge-Entertaiment-Espa%C3%B1a-Descenso-Dungeons/dp/B08BP8TQX8"
     }

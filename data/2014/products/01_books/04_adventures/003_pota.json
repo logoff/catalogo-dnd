@@ -13,10 +13,7 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965786,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-princes.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-princes-back.jpg"
-      ],
+      "images": ["/images/products/pota/pub0_img0.jpg", "/images/products/pota/pub0_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/princes-of-the-apocalypse",
       "official_url": "https://dnd.wizards.com/products/princes-apocalypse",
       "openlibrary_url": "https://openlibrary.org/books/OL26806047M",

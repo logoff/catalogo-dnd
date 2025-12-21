@@ -12,36 +12,33 @@
       "authors": ["Mike Mearls", "Jeremy Crawford"],
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965595,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-box.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-box-back.jpg"
-      ],
+      "images": ["/images/products/lmop/pub0_img0.jpg", "/images/products/lmop/pub0_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/dungeons-and-dragons-starter-set",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Roleplaying/dp/0786965592",
       "sub_publications": [
         {
           "title": "Starter Set Rulebook",
           "pages": 32,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-rulebook.jpg"]
+          "images": ["/images/products/lmop/pub0_sub0_img0.jpg"]
         },
         {
           "title": "Lost Mine of Phandelver",
           "pages": 64,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-lostmine.jpg"]
+          "images": ["/images/products/lmop/pub0_sub1_img0.jpg"]
         },
         {
           "title": "Pre-generated character sheets",
           "images": [
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg1.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg2.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg3.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg4.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-pg5.jpg"
+            "/images/products/lmop/pub0_sub2_img0.jpg",
+            "/images/products/lmop/pub0_sub2_img1.jpg",
+            "/images/products/lmop/pub0_sub2_img2.jpg",
+            "/images/products/lmop/pub0_sub2_img3.jpg",
+            "/images/products/lmop/pub0_sub2_img4.jpg"
           ]
         },
         {
           "title": "6 game dice",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-starter-dice.jpg"]
+          "images": ["/images/products/lmop/pub0_sub3_img0.jpg"]
         }
       ]
     },
@@ -56,34 +53,31 @@
       "authors": ["Mike Mearls", "Jeremy Crawford"],
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407617551,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-back.jpg"
-      ],
+      "images": ["/images/products/lmop/pub1_img0.jpg", "/images/products/lmop/pub1_img1.jpg"],
       "sub_publications": [
         {
           "title": "Caja de Inicio: Reglamento",
           "pages": 32,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-book1.jpg"]
+          "images": ["/images/products/lmop/pub1_sub0_img0.jpg"]
         },
         {
           "title": "La Mina Perdida de Phandelver",
           "pages": 64,
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-book2.jpg"]
+          "images": ["/images/products/lmop/pub1_sub1_img0.jpg"]
         },
         {
           "title": "Aventureros pregenerados",
           "images": [
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-p1.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-p2.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-p3.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-p4.jpg",
-            "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-p5.jpg"
+            "/images/products/lmop/pub1_sub2_img0.jpg",
+            "/images/products/lmop/pub1_sub2_img1.jpg",
+            "/images/products/lmop/pub1_sub2_img2.jpg",
+            "/images/products/lmop/pub1_sub2_img3.jpg",
+            "/images/products/lmop/pub1_sub2_img4.jpg"
           ]
         },
         {
           "title": "6 dados",
-          "images": ["https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-caja-dice.jpg"]
+          "images": ["/images/products/lmop/pub1_sub3_img0.jpg"]
         }
       ]
     }

@@ -13,10 +13,7 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965984,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-curse.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-curse-back.jpg"
-      ],
+      "images": ["/images/products/cos/pub0_img0.jpg", "/images/products/cos/pub0_img1.jpg"],
       "wpn_url": "https://wpn.wizards.com/en/products/curse-of-strahd",
       "openlibrary_url": "https://openlibrary.org/books/OL26806048M",
       "amazon_link": "https://www.amazon.es/Curse-Strahd-Dungeons-Sourcebook-Supplement/dp/0786965983"
@@ -33,10 +30,7 @@
       "pages": 256,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407625631,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mal.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-mal-back.jpg"
-      ],
+      "images": ["/images/products/cos/pub1_img0.jpg", "/images/products/cos/pub1_img1.jpg"],
       "amazon_link": "https://www.amazon.es/Edge-Entertainment-Maldici%C3%B3n-Asmodee-EEWCDD07/dp/B07QH1YRRD"
     },
     {
@@ -51,10 +45,7 @@
       "pages": 256,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967919,
-      "images": [
-        "https://freakelitex.com/wp-content/uploads/2022/11/La-Maldicion-de-Strahd-ya-en-espanol-1-1.jpg",
-        "https://freakelitex.com/wp-content/uploads/2022/12/Resena-de-La-Maldicion-de-Strahd-en-espanol-4.jpg"
-      ],
+      "images": ["/images/products/cos/pub2_img0.jpg", "/images/products/cos/pub2_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/curse-strahd-revamped",
       "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-la-maldici%c3%b3n-de-strahd-eewcdd07",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Maldici%C3%B3n-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967919"

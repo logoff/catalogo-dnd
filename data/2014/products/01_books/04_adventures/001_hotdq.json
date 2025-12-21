@@ -13,10 +13,7 @@
       "pages": 96,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965649,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-hoard.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-hoard-back.jpg"
-      ],
+      "images": ["/images/products/hotdq/pub0_img0.jpg", "/images/products/hotdq/pub0_img1.jpg"],
       "openlibrary_url": "https://openlibrary.org/books/OL26806045M",
       "amazon_link": "https://www.amazon.es/Tyranny-Dragons-Hoard-Dragon-Adventure/dp/0786965649"
     }

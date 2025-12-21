@@ -13,10 +13,7 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966110,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-xan.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-xan-back.jpg"
-      ],
+      "images": ["/images/products/xge/pub0_img0.jpg", "/images/products/xge/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/xanathars-guide-everything",
       "wpn_url": "https://wpn.wizards.com/en/products/xanathars-guide-to-everything",
       "openlibrary_url": "https://openlibrary.org/books/OL26806050M",
@@ -34,10 +31,7 @@
       "pages": 192,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407625648,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-xan.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-hb-xan-back.jpg"
-      ],
+      "images": ["/images/products/xge/pub1_img0.jpg", "/images/products/xge/pub1_img1.jpg"],
       "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-gu%c3%ada-del-xanathar-para-todo-eewcdd10",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Gu%C3%ADa-Monstruos-EEWCDD13/dp/B08L9SD9DY"
     },
@@ -53,10 +47,7 @@
       "pages": 192,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967841,
-      "images": [
-        "https://m.media-amazon.com/images/I/81SPb+HTRJL.jpg",
-        "https://m.media-amazon.com/images/I/71p9xb5nNAL.jpg"
-      ],
+      "images": ["/images/products/xge/pub2_img0.jpg", "/images/products/xge/pub2_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/xanathars-guide-everything",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Xanathar-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967846"
     }

@@ -13,10 +13,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967292,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-fiz.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-acc-fiz-back.jpg"
-      ],
+      "images": ["/images/products/ftd/pub0_img0.jpg", "/images/products/ftd/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/treasury-dragons",
       "wpn_url": "https://wpn.wizards.com/en/products/fizbans-treasury-of-dragons-",
       "openlibrary_url": "https://openlibrary.org/books/OL34240880M",
@@ -34,10 +31,7 @@
       "pages": 224,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968855,
-      "images": [
-        "https://freakelitex.com/wp-content/uploads/2023/05/Dungeons-and-Dragons-El-tesoro-de-los-dragones-de-Fizban-ya-disponible.jpg",
-        "https://freakelitex.com/wp-content/uploads/2023/05/Dungeons-and-Dragons-El-tesoro-de-los-dragones-de-Fizban-ya-disponible-3.jpg"
-      ],
+      "images": ["/images/products/ftd/pub1_img0.jpg", "/images/products/ftd/pub1_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/treasury-dragons",
       "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-el-tesoro-de-los-dragones-de-fizban-c92741050",
       "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-Versi%C3%B3n/dp/0786968850"

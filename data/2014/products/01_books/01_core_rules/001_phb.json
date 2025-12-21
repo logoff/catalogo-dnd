@@ -13,10 +13,7 @@
       "pages": 320,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786965601,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-phb.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-phb-back.jpg"
-      ],
+      "images": ["/images/products/phb/pub0_img0.jpg", "/images/products/phb/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/rpg_playershandbook",
       "wpn_url": "https://wpn.wizards.com/en/products/players-handbook",
       "openlibrary_url": "https://openlibrary.org/books/OL26629984M",
@@ -34,10 +31,7 @@
       "pages": 320,
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 9788416357604,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdj.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/in/sp/sp-5e-core-mdj-back.jpg"
-      ],
+      "images": ["/images/products/phb/pub1_img0.jpg", "/images/products/phb/pub1_img1.jpg"],
       "openlibrary_url": "https://openlibrary.org/books/OL47565740M"
     },
     {
@@ -52,7 +46,7 @@
       "pages": 320,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967490,
-      "images": ["https://m.media-amazon.com/images/I/81ulHuhmnyL._AC_SL1500_.jpg"],
+      "images": ["/images/products/phb/pub2_img0.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/rpg_playershandbook",
       "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-manual-del-jugador-a92171050",
       "amazon_link": "https://www.amazon.es/Players-Handbook-Dungeons-Dragons-Wizards/dp/0786967498"

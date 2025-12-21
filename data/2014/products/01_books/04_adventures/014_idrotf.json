@@ -13,10 +13,7 @@
       "pages": 320,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786966981,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-rime.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-rime-back.jpg"
-      ],
+      "images": ["/images/products/idrotf/pub0_img0.jpg", "/images/products/idrotf/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/icewind-dale-rime-frostmaiden",
       "wpn_url": "https://wpn.wizards.com/en/products/icewind-dale-rime-of-the-frostmaiden",
       "openlibrary_url": "https://openlibrary.org/books/OL36000508M",

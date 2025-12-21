@@ -13,10 +13,7 @@
       "pages": 252,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967278,
-      "images": [
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-wbtw.jpg",
-        "https://proxy.logoff.cat/www.tsrarchive.com/5e/5e-adv-hb-wbtw-back.jpg"
-      ],
+      "images": ["/images/products/wbtw/pub0_img0.jpg", "/images/products/wbtw/pub0_img1.jpg"],
       "official_url": "https://dnd.wizards.com/products/wild-beyond-witchlight",
       "wpn_url": "https://wpn.wizards.com/en/products/the-wild-beyond-the-witchlight-a-feywild-adventure",
       "openlibrary_url": "https://openlibrary.org/books/OL33924484M",
@@ -34,10 +31,7 @@
       "pages": 252,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786968909,
-      "images": [
-        "https://m.media-amazon.com/images/I/71dkUbVJTPL._SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/71vQOdryCPL._SL1500_.jpg"
-      ],
+      "images": ["/images/products/wbtw/pub1_img0.jpg", "/images/products/wbtw/pub1_img1.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/wild-beyond-witchlight",
       "spain_distr_url": "https://b2b.asmodee.es/d-1-d-5-las-tierras-m%c3%a1s-all%c3%a1-de-brujaluz-c92761050",
       "amazon_link": "https://www.amazon.es/Wild-Beyond-Witchlight-Adventure-aventura/dp/0786968907"
