@@ -8,19 +8,19 @@ Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**, que ofrece
 
 ### Requisitos
 
-* [Python](https://www.python.org/) 3.10+
-* [Poetry](https://python-poetry.org/)
-* [GNU Make](https://www.gnu.org/software/make/)
+* [Python](https://www.python.org/) 3.13
+* [uv](https://docs.astral.sh/uv/)
+* [just](https://just.systems/)
 * [Docker](https://www.docker.com/) (opcional)
 
 ## Construir y servir
 
 ```
-make docker-build
+just docker-build
 ```
 
 ```
-make docker-serve-site
+just docker-serve-site
 ```
 
 Abrir http://localhost:8000/.
