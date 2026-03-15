@@ -1,0 +1,25 @@
+{
+  "code": "RtHW",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "Ravenloft: The Horrors Within",
+      "date": "2026-06-16",
+      "publisher": "Wizards of the Coast",
+      "images": ["/images/products/2024/rthw/pub0_img0.png"]
+    },
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "Ravenloft: The Horrors Within (Alternate-Art Cover)",
+      "date": "2026-06-16",
+      "publisher": "Wizards of the Coast",
+      "images": ["/images/products/2024/rthw/pub1_img0.png"]
+    }
+  ]
+}

@@ -10,6 +10,8 @@ const subtypeTranslations: Record<PublicationType, Partial<Record<PublicationSub
     player_expansion: 'Expansión del jugador',
     dungeon_master_expansion: 'Expansión del Dungeon Master',
     adventure_anthology: 'Antología de aventuras',
+    gameplay_expansion: 'Expansión de juego',
+    adventure_expansion: 'Expansión de aventura',
   },
   boxed_set: {
     starter_set: 'Caja de inicio',
@@ -34,6 +36,8 @@ const standaloneSubtypeTranslations: Record<PublicationSubtype, string> = {
   player_expansion: 'Expansión del jugador',
   dungeon_master_expansion: 'Expansión del DM',
   adventure_anthology: 'Antología de aventuras',
+  gameplay_expansion: 'Expansión de juego',
+  adventure_expansion: 'Expansión de aventura',
   // Boxed sets
   starter_set: 'Caja de inicio',
   rules: 'Set de regalo',
@@ -95,7 +99,9 @@ export const categoryTranslations: Record<string, string> = {
   '02_rules_expansion': 'Expansiones del reglamento',
   '03_player_expansion': 'Expansiones del jugador',
   '04_dungeon_master_expansion': 'Expansiones del DM',
+  '05_gameplay_expansion': 'Expansiones de juego',
   '06_adventure_anthology': 'Antologías de aventuras',
+  '07_adventure_expansion': 'Expansiones de aventura',
   '02_accessories': 'Accesorios',
   '01_screens': 'Pantallas',
   '02_character_sheets': 'Hojas de personaje',

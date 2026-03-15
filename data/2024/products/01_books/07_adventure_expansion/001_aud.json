@@ -1,0 +1,15 @@
+{
+  "code": "AUD",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "Arcana Unleashed: Deadfall",
+      "date": "2026-09-16",
+      "publisher": "Wizards of the Coast",
+      "images": ["/images/products/2024/aud/pub0_img0.png"]
+    }
+  ]
+}

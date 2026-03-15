@@ -26,6 +26,8 @@ export const SUBTYPES_BY_TYPE = {
     'player_expansion',
     'dungeon_master_expansion',
     'adventure_anthology',
+    'gameplay_expansion',
+    'adventure_expansion',
   ],
   boxed_set: ['starter_set', 'rules', 'adventure_setting', 'others'],
   accessory: ['character_sheet', 'screen'],
