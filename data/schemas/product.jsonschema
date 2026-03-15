@@ -41,7 +41,8 @@
                         "core_rules", "supplemental_rules", "setting", "adventure",
                         "starter_set", "rules", "adventure_setting", "others",
                         "rules_expansion", "player_expansion", "dungeon_master_expansion",
-                        "adventure_anthology", "character_sheet", "screen"
+                        "adventure_anthology", "gameplay_expansion", "adventure_expansion",
+                        "character_sheet", "screen"
                     ]
                 },
                 "edition": {

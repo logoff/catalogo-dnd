@@ -98,7 +98,7 @@ export default function EditionPage({ edition }: EditionPageProps) {
   const editionDescription =
     edition === '5e'
       ? 'Todos los productos de la 5ª edición original de Dungeons & Dragons'
-      : 'Los nuevos productos de la edición 2024 de Dungeons & Dragons'
+      : 'Los nuevos productos de la edición 5.5 (2024) de Dungeons & Dragons'
 
   return (
     <>

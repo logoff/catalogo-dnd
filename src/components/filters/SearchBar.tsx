@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useProductStore } from '@/store/productStore'
@@ -9,11 +9,15 @@ export default function SearchBar() {
   const { searchQuery, setSearchQuery } = useProductStore()
   const [localQuery, setLocalQuery] = useState(searchQuery)
   const debouncedQuery = useDebounce(localQuery, 300)
+  const prevQuery = useRef(debouncedQuery)
 
   useEffect(() => {
+    if (debouncedQuery === prevQuery.current) return
+    prevQuery.current = debouncedQuery
+
     setSearchQuery(debouncedQuery)
     if (debouncedQuery && !window.location.pathname.endsWith('/catalogo')) {
-      navigate('/catalogo')
+      navigate(`/catalogo?q=${encodeURIComponent(debouncedQuery)}`)
     }
   }, [debouncedQuery, setSearchQuery, navigate])
 

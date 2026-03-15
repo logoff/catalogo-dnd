@@ -1,0 +1,15 @@
+{
+  "code": "AU",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "Arcana Unleashed",
+      "date": "2026-09-16",
+      "publisher": "Wizards of the Coast",
+      "images": ["/images/products/2024/au/pub0_img0.png"]
+    }
+  ]
+}

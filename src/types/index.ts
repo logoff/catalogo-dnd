@@ -11,6 +11,8 @@ export type PublicationSubtype =
   | 'player_expansion'
   | 'dungeon_master_expansion'
   | 'adventure_anthology'
+  | 'gameplay_expansion'
+  | 'adventure_expansion'
   // Boxed Sets
   | 'starter_set'
   | 'rules'

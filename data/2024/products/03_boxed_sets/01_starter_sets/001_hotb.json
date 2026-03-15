@@ -10,10 +10,24 @@
       "date": "2025-09-16",
       "item_code": "D47050000",
       "publisher": "Wizards of the Coast",
-      "isbn13": 9780786965595,
       "images": ["/images/products/2024/hotb/pub0_img0.png"],
       "wpn_url": "https://wpn.wizards.com/en/products/starter-set-heroes-of-the-borderlands",
       "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Inicio-Heroes-Borderlands/dp/B0FDJFR245/"
+    },
+    {
+      "type": "boxed_set",
+      "subtype": "starter_set",
+      "language": "castellano",
+      "edition": "2024",
+      "title": "Starter Set: Héroes de las Tierras Fronterizas",
+      "date": "2026-03-27",
+      "item_code": "D47051050",
+      "publisher": "Wizards of the Coast",
+      "images": [
+        "/images/products/2024/hotb/pub1_img0.jpg",
+        "/images/products/2024/hotb/pub1_img1.jpg"
+      ],
+      "amazon_link": "https://www.amazon.es/Caja-Inicio-H%C3%A9roes-Tierras-fronterizas/dp/B0GLQ676VQ"
     }
   ]
 }

@@ -29,14 +29,14 @@ export default function HomePage() {
           <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">Catálogo D&D 5E</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             Explora todos los productos oficiales de Dungeons & Dragons 5ª edición (2014) y la nueva
-            edición 2024.
+            edición 5.5 (2024).
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/2014" className="btn-primary">
+            <Link to="/2014" className="btn-secondary">
               Explorar 5E (2014)
             </Link>
             <Link to="/2024" className="btn-secondary">
-              Explorar 5E (2024)
+              Explorar 5.5E (2024)
             </Link>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function HomePage() {
             </div>
             <div className="flex items-center gap-2">
               <span className="font-display text-xl text-dnd-gold">{products2024.length}</span>
-              <span className="text-gray-400">de 5E (2024)</span>
+              <span className="text-gray-400">de 5.5E (2024)</span>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function HomePage() {
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">D&D 5E (2024)</h2>
+              <h2 className="font-display text-2xl text-dnd-gold">D&D 5.5E (2024)</h2>
               <Link to="/2024" className="text-dnd-gold hover:text-dnd-gold-light">
                 Ver todos &rarr;
               </Link>

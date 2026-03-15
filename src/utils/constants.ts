@@ -1,7 +1,7 @@
 export const BASE_PATH = import.meta.env.BASE_URL
 export const SITE_NAME = 'Catálogo D&D 5E'
 export const SITE_DESCRIPTION =
-  'Catálogo completo de productos Dungeons & Dragons 5ª edición y 2024'
+  'Catálogo completo de productos Dungeons & Dragons 5ª edición y 5.5 (2024)'
 export const SITE_URL = 'https://logoff.github.io/catalogo-dnd'
 
 export const PLACEHOLDER_IMAGE =
@@ -26,6 +26,8 @@ export const SUBTYPES_BY_TYPE = {
     'player_expansion',
     'dungeon_master_expansion',
     'adventure_anthology',
+    'gameplay_expansion',
+    'adventure_expansion',
   ],
   boxed_set: ['starter_set', 'rules', 'adventure_setting', 'others'],
   accessory: ['character_sheet', 'screen'],
