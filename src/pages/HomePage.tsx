@@ -32,7 +32,7 @@ export default function HomePage() {
             edición 5.5 (2024).
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/2014" className="btn-primary">
+            <Link to="/2014" className="btn-secondary">
               Explorar 5E (2014)
             </Link>
             <Link to="/2024" className="btn-secondary">
