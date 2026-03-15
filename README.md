@@ -1,10 +1,13 @@
-[![Deploy to GitHub Pages](https://github.com/logoff/catalogo-dnd/actions/workflows/deploy.yml/badge.svg)](https://github.com/logoff/catalogo-dnd/actions/workflows/deploy.yml)
-
-https://logoff.github.io/catalogo-dnd/
-
 # Catálogo Dungeons & Dragons
 
-Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**, que ofrece una lista completa de todos los libros y accesorios publicados en inglés y en castellano de Dungeons & Dragons de las ediciones 5E (2014) y 5E (2024).
+[![Deploy to GitHub Pages](https://github.com/logoff/catalogo-dnd/actions/workflows/deploy.yml/badge.svg)](https://github.com/logoff/catalogo-dnd/actions/workflows/deploy.yml)
+
+<https://logoff.github.io/catalogo-dnd/>
+
+Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**,
+que ofrece una lista completa de todos los libros y accesorios publicados
+en inglés y en castellano de Dungeons & Dragons de las ediciones
+5E (2014) y 5E (2024).
 
 ## Cómo poner en marcha el proyecto
 
@@ -16,19 +19,19 @@ Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**, que ofrece
 
 ### Desarrollo local
 
-```
+```sh
 just dev
 ```
 
-Abrir http://localhost:5173/.
+Abrir <http://localhost:5173/>.
 
 ### Con Docker
 
-```
+```sh
 just docker-run
 ```
 
-Abrir http://localhost:5173/.
+Abrir <http://localhost:5173/>.
 
 ## Comandos disponibles
 
