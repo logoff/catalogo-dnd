@@ -72,11 +72,11 @@ export function translateLanguage(language: Language): string {
 }
 
 export function translateEdition(edition: string): string {
-  return edition === '5e' ? '5E (2014)' : '5E (2024)'
+  return edition === '5e' ? '5E (2014)' : '5.5E (2024)'
 }
 
 export function translateEditionLong(edition: string): string {
-  return edition === '5e' ? 'D&D 5E (2014)' : 'D&D 5E (2024)'
+  return edition === '5e' ? 'D&D 5E (2014)' : 'D&D 5.5E (2024)'
 }
 
 // Category translations for navigation

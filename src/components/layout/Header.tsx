@@ -38,7 +38,7 @@ export default function Header() {
               5E (2014)
             </NavLink>
             <NavLink to="/2024" className={navLinkClass}>
-              5E (2024)
+              5.5E (2024)
             </NavLink>
           </nav>
 
@@ -78,7 +78,7 @@ export default function Header() {
                 5E (2014)
               </NavLink>
               <NavLink to="/2024" className={navLinkClass} onClick={() => setMobileMenuOpen(false)}>
-                5E (2024)
+                5.5E (2024)
               </NavLink>
             </nav>
           </div>

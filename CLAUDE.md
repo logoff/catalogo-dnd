@@ -6,7 +6,7 @@ para trabajar con el código de este repositorio.
 ## Resumen del proyecto
 
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
-para las ediciones 5E (2014) y 5E (2024). Se despliega en GitHub Pages
+para las ediciones 5E (2014) y 5.5E (2024). Se despliega en GitHub Pages
 en <https://logoff.github.io/catalogo-dnd/>.
 
 ## Comandos
