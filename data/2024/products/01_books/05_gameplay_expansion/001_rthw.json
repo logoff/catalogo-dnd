@@ -8,8 +8,12 @@
       "edition": "2024",
       "title": "Ravenloft: The Horrors Within",
       "date": "2026-06-16",
+      "item_code": "D6015000",
       "publisher": "Wizards of the Coast",
-      "images": ["/images/products/2024/rthw/pub0_img0.png"]
+      "isbn13": 9780786970025,
+      "images": ["/images/products/2024/rthw/pub0_img0.png"],
+      "official_url": "https://marketplace.dndbeyond.com/BB-Ravenloft-WK15/6015000",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Gameplay-Expansion/dp/0786970022"
     },
     {
       "type": "book",
@@ -19,7 +23,9 @@
       "title": "Ravenloft: The Horrors Within (Alternate-Art Cover)",
       "date": "2026-06-16",
       "publisher": "Wizards of the Coast",
-      "images": ["/images/products/2024/rthw/pub1_img0.png"]
+      "isbn13": 9780786970032,
+      "images": ["/images/products/2024/rthw/pub1_img0.png"],
+      "amazon_link": "https://www.amazon.com/Dungeons-Dragons-Ravenloft-Horrors-Within/dp/0786970030"
     }
   ]
 }
