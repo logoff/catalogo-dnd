@@ -1,0 +1,17 @@
+{
+  "code": "DDWoW",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "D&D: World of Warcraft",
+      "date": "2026-11-17",
+      "item_code": "D6051000",
+      "publisher": "Wizards of the Coast",
+      "images": ["/images/products/2024/ddwow/pub0_img0.png"],
+      "official_url": "https://marketplace.dndbeyond.com/root/DB6051000?pid=D6051000&Digital/Physical=Physical"
+    }
+  ]
+}
