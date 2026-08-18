@@ -12,6 +12,7 @@ const subtypeTranslations: Record<PublicationType, Partial<Record<PublicationSub
     adventure_anthology: 'Antología de aventuras',
     gameplay_expansion: 'Expansión de juego',
     adventure_expansion: 'Expansión de aventura',
+    setting_expansion: 'Expansión de escenario',
   },
   boxed_set: {
     starter_set: 'Caja de inicio',
@@ -22,6 +23,8 @@ const subtypeTranslations: Record<PublicationType, Partial<Record<PublicationSub
   accessory: {
     character_sheet: 'Hoja de personaje',
     screen: 'Pantalla del Dungeon Master',
+    map_pack: 'Pack de mapas',
+    card_deck: 'Baraja de cartas',
   },
 }
 
@@ -38,6 +41,7 @@ const standaloneSubtypeTranslations: Record<PublicationSubtype, string> = {
   adventure_anthology: 'Antología de aventuras',
   gameplay_expansion: 'Expansión de juego',
   adventure_expansion: 'Expansión de aventura',
+  setting_expansion: 'Expansión de escenario',
   // Boxed sets
   starter_set: 'Caja de inicio',
   rules: 'Set de regalo',
@@ -46,6 +50,8 @@ const standaloneSubtypeTranslations: Record<PublicationSubtype, string> = {
   // Accessories
   character_sheet: 'Hoja de personaje',
   screen: 'Pantalla del DM',
+  map_pack: 'Pack de mapas',
+  card_deck: 'Baraja de cartas',
 }
 
 const typeTranslations: Record<PublicationType, string> = {
@@ -102,9 +108,12 @@ export const categoryTranslations: Record<string, string> = {
   '05_gameplay_expansion': 'Expansiones de juego',
   '06_adventure_anthology': 'Antologías de aventuras',
   '07_adventure_expansion': 'Expansiones de aventura',
+  '08_setting_expansion': 'Expansiones de escenario',
   '02_accessories': 'Accesorios',
   '01_screens': 'Pantallas',
   '02_character_sheets': 'Hojas de personaje',
+  '03_map_packs': 'Packs de mapas',
+  '04_card_decks': 'Barajas de cartas',
   '03_boxed_sets': 'Cajas',
 }
 

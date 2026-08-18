@@ -28,9 +28,10 @@ export const SUBTYPES_BY_TYPE = {
     'adventure_anthology',
     'gameplay_expansion',
     'adventure_expansion',
+    'setting_expansion',
   ],
   boxed_set: ['starter_set', 'rules', 'adventure_setting', 'others'],
-  accessory: ['character_sheet', 'screen'],
+  accessory: ['character_sheet', 'screen', 'map_pack', 'card_deck'],
 } as const
 
 export const ALL_SUBTYPES = [
