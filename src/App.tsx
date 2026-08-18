@@ -12,13 +12,7 @@ function App() {
   const basename = BASE_PATH.endsWith('/') ? BASE_PATH.slice(0, -1) : BASE_PATH
 
   return (
-    <BrowserRouter
-      basename={basename}
-      future={{
-        v7_startTransition: true,
-        v7_relativeSplatPath: true,
-      }}
-    >
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
