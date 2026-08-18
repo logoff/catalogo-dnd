@@ -13,7 +13,21 @@
       "isbn13": 9780786970186,
       "images": ["/images/products/2024/aud/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/BB-2026-ArcanaUnleashed/6119000",
+      "wpn_url": "https://wpn.wizards.com/en/products/arcana-unleashed?product=7dKnVaoF4RM0f7LZvSzNkK",
       "amazon_link": "https://www.amazon.com/Dungeons-Dragons-Arcana-Unleashed-Adventure/dp/0786970189"
+    },
+    {
+      "type": "book",
+      "subtype": "adventure_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "Arcana Unleashed: Deadfall (Alternate-Art Cover)",
+      "date": "2026-09-15",
+      "item_code": "D6120000",
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970193,
+      "images": ["/images/products/2024/aud/pub1_img0.webp"],
+      "wpn_url": "https://wpn.wizards.com/en/products/arcana-unleashed?product=g8KW0nBYjZDXnR6MibbZq"
     }
   ]
 }
