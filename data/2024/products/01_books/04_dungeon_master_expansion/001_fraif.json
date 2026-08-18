@@ -11,7 +11,7 @@
       "item_code": "D47140000",
       "pages": 192,
       "publisher": "Wizards of the Coast",
-      "isbn13": 9780786969954,
+      "isbn13": 9780786969951,
       "images": ["/images/products/2024/fraif/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4714000?pid=DB4714000",
       "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-adventures-in-faerun?product=2vgmRvrwQA3RMZKw16bEB4",
@@ -27,10 +27,22 @@
       "item_code": "D47150000",
       "pages": 192,
       "publisher": "Wizards of the Coast",
-      "isbn13": 9780786969962,
+      "isbn13": 9780786969968,
       "images": ["/images/products/2024/fraif/pub1_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4714000?pid=DB4714000",
       "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-adventures-in-faerun?product=1nHGFKzApS8Iv0iaOb6Vvn"
+    },
+    {
+      "type": "book",
+      "subtype": "dungeon_master_expansion",
+      "language": "castellano",
+      "edition": "2024",
+      "title": "Reinos Olvidados: Aventuras en Faerûn",
+      "date": "2026-08-04",
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970315,
+      "images": ["/images/products/2024/fraif/pub2_img0.jpg"],
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Olvidados-Aventuras-Forgotten/dp/0786970316"
     }
   ]
 }
