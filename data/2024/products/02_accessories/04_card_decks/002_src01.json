@@ -1,0 +1,19 @@
+{
+  "code": "SRC01",
+  "publications": [
+    {
+      "type": "accessory",
+      "subtype": "card_deck",
+      "language": "english",
+      "edition": "2024",
+      "title": "Spell Reference Cards: Levels 0-1",
+      "date": "2026-08-18",
+      "item_code": "D6036000",
+      "publisher": "Wizards of the Coast",
+      "images": ["/images/products/2024/src01/pub0_img0.png"],
+      "official_url": "https://marketplace.dndbeyond.com/everything-else/D6036000?pid=D6036000",
+      "wpn_url": "https://wpn.wizards.com/en/products/dnd-reference-cards?product=WmAN5ugwS3ijxrSNbcR1Y",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Reference-Cards-Spells/dp/B0H37P3CJ1"
+    }
+  ]
+}

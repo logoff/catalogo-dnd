@@ -13,6 +13,7 @@ export type PublicationSubtype =
   | 'adventure_anthology'
   | 'gameplay_expansion'
   | 'adventure_expansion'
+  | 'setting_expansion'
   // Boxed Sets
   | 'starter_set'
   | 'rules'
@@ -21,6 +22,8 @@ export type PublicationSubtype =
   // Accessories (2024)
   | 'character_sheet'
   | 'screen'
+  | 'map_pack'
+  | 'card_deck'
 
 export type Edition = '5e' | '2024'
 

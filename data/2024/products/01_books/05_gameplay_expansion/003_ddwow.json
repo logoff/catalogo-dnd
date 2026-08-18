@@ -1,0 +1,45 @@
+{
+  "code": "DDWoW",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "D&D: World of Warcraft",
+      "date": "2026-11-17",
+      "item_code": "D6051000",
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970100,
+      "images": ["/images/products/2024/ddwow/pub0_img0.png"],
+      "official_url": "https://marketplace.dndbeyond.com/root/DB6051000?pid=D6051000&Digital/Physical=Physical",
+      "wpn_url": "https://wpn.wizards.com/en/products/dnd-world-of-warcraft?product=4x11WKrZ6UBfwA3SB9lUlm"
+    },
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "D&D: World of Warcraft (Alternate-Art Cover)",
+      "date": "2026-11-17",
+      "item_code": "D6052000",
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970117,
+      "images": ["/images/products/2024/ddwow/pub1_img0.webp"],
+      "wpn_url": "https://wpn.wizards.com/en/products/dnd-world-of-warcraft?product=5ZnISt82f6i8ZSn2EHnZ2L"
+    },
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "D&D: World of Warcraft (Collector's Edition)",
+      "date": "2026-11-17",
+      "item_code": "D6053000",
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970124,
+      "images": ["/images/products/2024/ddwow/pub2_img0.webp"],
+      "wpn_url": "https://wpn.wizards.com/en/products/dnd-world-of-warcraft?product=5FEwYqvXlvBRwnnRcnZKVh"
+    }
+  ]
+}

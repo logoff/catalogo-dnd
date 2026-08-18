@@ -7,9 +7,27 @@
       "language": "english",
       "edition": "2024",
       "title": "Arcana Unleashed",
-      "date": "2026-09-16",
+      "date": "2026-09-15",
+      "item_code": "D6031000",
       "publisher": "Wizards of the Coast",
-      "images": ["/images/products/2024/au/pub0_img0.png"]
+      "isbn13": 9780786970063,
+      "images": ["/images/products/2024/au/pub0_img0.png"],
+      "official_url": "https://marketplace.dndbeyond.com/BB-2026-ArcanaUnleashed/6031000",
+      "wpn_url": "https://wpn.wizards.com/en/products/arcana-unleashed?product=5xCcrKC5RniN95WKuA93VP",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Arcana-Unleashed-expansi%C3%B3n/dp/0786970065"
+    },
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "Arcana Unleashed (Alternate-Art Cover)",
+      "date": "2026-09-15",
+      "item_code": "D6032000",
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970070,
+      "images": ["/images/products/2024/au/pub1_img0.webp"],
+      "wpn_url": "https://wpn.wizards.com/en/products/arcana-unleashed?product=70N31PkgqWevk7Etwn2iiu"
     }
   ]
 }
