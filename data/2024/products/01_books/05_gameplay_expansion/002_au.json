@@ -7,9 +7,13 @@
       "language": "english",
       "edition": "2024",
       "title": "Arcana Unleashed",
-      "date": "2026-09-16",
+      "date": "2026-09-15",
+      "item_code": "D6031000",
       "publisher": "Wizards of the Coast",
-      "images": ["/images/products/2024/au/pub0_img0.png"]
+      "isbn13": 9780786970063,
+      "images": ["/images/products/2024/au/pub0_img0.png"],
+      "official_url": "https://marketplace.dndbeyond.com/BB-2026-ArcanaUnleashed/6031000",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Arcana-Unleashed-expansi%C3%B3n/dp/0786970065"
     }
   ]
 }
