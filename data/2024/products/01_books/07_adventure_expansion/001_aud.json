@@ -7,9 +7,13 @@
       "language": "english",
       "edition": "2024",
       "title": "Arcana Unleashed: Deadfall",
-      "date": "2026-09-16",
+      "date": "2026-09-15",
+      "item_code": "D6119000",
       "publisher": "Wizards of the Coast",
-      "images": ["/images/products/2024/aud/pub0_img0.png"]
+      "isbn13": 9780786970186,
+      "images": ["/images/products/2024/aud/pub0_img0.png"],
+      "official_url": "https://marketplace.dndbeyond.com/BB-2026-ArcanaUnleashed/6119000",
+      "amazon_link": "https://www.amazon.com/Dungeons-Dragons-Arcana-Unleashed-Adventure/dp/0786970189"
     }
   ]
 }
