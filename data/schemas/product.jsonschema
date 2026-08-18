@@ -42,7 +42,8 @@
                         "starter_set", "rules", "adventure_setting", "others",
                         "rules_expansion", "player_expansion", "dungeon_master_expansion",
                         "adventure_anthology", "gameplay_expansion", "adventure_expansion",
-                        "character_sheet", "screen"
+                        "setting_expansion", "character_sheet", "screen", "map_pack",
+                        "card_deck"
                     ]
                 },
                 "edition": {
