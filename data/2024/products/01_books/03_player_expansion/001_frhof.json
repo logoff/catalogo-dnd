@@ -11,7 +11,7 @@
       "item_code": "D47120000",
       "pages": 192,
       "publisher": "Wizards of the Coast",
-      "isbn13": 9780786969938,
+      "isbn13": 9780786969937,
       "images": ["/images/products/2024/frhof/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4712000?pid=D4712000",
       "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-heroes-of-faerun?product=2uGHrQNCJJ8zix9bKqhaAi",
@@ -27,10 +27,23 @@
       "item_code": "D47130000",
       "pages": 192,
       "publisher": "Wizards of the Coast",
-      "isbn13": 9780786969946,
+      "isbn13": 9780786969944,
       "images": ["/images/products/2024/frhof/pub1_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4712000?pid=D4712000",
-      "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-heroes-of-faerun?product=4ICmKQ2JF1ROFXoeZeOfpF"
+      "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-heroes-of-faerun?product=4ICmKQ2JF1ROFXoeZeOfpF",
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Forgotten-limitada-alternativa/dp/B0FZMGGWT4/"
+    },
+    {
+      "type": "book",
+      "subtype": "player_expansion",
+      "language": "castellano",
+      "edition": "2024",
+      "title": "Reinos Olvidados: Héroes de Faerûn",
+      "date": "2026-08-04",
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970278,
+      "images": ["/images/products/2024/frhof/pub2_img0.jpg"],
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Olvidados-Forgotten-Players/dp/0786970278"
     }
   ]
 }
