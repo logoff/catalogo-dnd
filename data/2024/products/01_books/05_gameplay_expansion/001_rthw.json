@@ -9,6 +9,7 @@
       "title": "Ravenloft: The Horrors Within",
       "date": "2026-06-16",
       "item_code": "D6015000",
+      "pages": 288,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786970025,
       "images": ["/images/products/2024/rthw/pub0_img0.png"],
@@ -23,11 +24,29 @@
       "edition": "2024",
       "title": "Ravenloft: The Horrors Within (Alternate-Art Cover)",
       "date": "2026-06-16",
+      "pages": 288,
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786970032,
       "images": ["/images/products/2024/rthw/pub1_img0.png"],
       "wpn_url": "https://wpn.wizards.com/en/products/ravenloft-the-horrors-within?product=QLavnhStHtjVstBFds5ay",
       "amazon_link": "https://www.amazon.com/Dungeons-Dragons-Ravenloft-Horrors-Within/dp/0786970030"
+    },
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "castellano",
+      "edition": "2024",
+      "title": "Ravenloft: El mal que habita dentro",
+      "date": "2026-10-20",
+      "item_code": "D60151050",
+      "pages": 288,
+      "publisher": "Wizards of the Coast",
+      "isbn13": 9780786970353,
+      "images": [
+        "/images/products/2024/rthw/pub2_img0.jpg",
+        "/images/products/2024/rthw/pub2_img1.jpg"
+      ],
+      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Horrors-expansi%C3%B3n/dp/0786970359"
     }
   ]
 }
