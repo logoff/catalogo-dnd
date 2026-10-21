@@ -144,7 +144,7 @@ function PublicationSection({ publication }: PublicationSectionProps) {
                     rel="noopener noreferrer"
                     className={`
                       group inline-flex items-center gap-2 px-4 py-2 rounded-lg
-                      bg-gradient-to-r ${link.color} ${link.hoverColor}
+                      bg-linear-to-r ${link.color} ${link.hoverColor}
                       text-white text-sm font-medium
                       shadow-md hover:shadow-lg
                       transform hover:scale-105 hover:-translate-y-0.5
@@ -162,7 +162,7 @@ function PublicationSection({ publication }: PublicationSectionProps) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group inline-flex items-center gap-2 px-4 py-2 rounded-lg
-                      bg-gradient-to-r from-[#131A22] to-[#232f3e]
+                      bg-linear-to-r from-[#131A22] to-[#232f3e]
                       hover:from-[#232f3e] hover:to-[#131A22]
                       text-white text-sm font-medium
                       shadow-md hover:shadow-lg

@@ -25,7 +25,7 @@ export default function ProductListItem({ product }: ProductListItemProps) {
         <LazyImage
           src={imageUrl}
           alt={product.primaryTitle}
-          containerClassName="w-20 h-28 flex-shrink-0 bg-dnd-stone-light rounded"
+          containerClassName="w-20 h-28 shrink-0 bg-dnd-stone-light rounded-sm"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
 

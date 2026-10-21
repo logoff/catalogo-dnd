@@ -1,8 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap')
+layer(base);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/forms';
+
+@theme {
+  --color-dnd-red: #e10303;
+  --color-dnd-red-light: #e61720;
+  --color-dnd-red-dark: #9e0b0f;
+
+  --color-dnd-gold: #c9a227;
+  --color-dnd-gold-light: #d4b94f;
+  --color-dnd-gold-dark: #a68b1f;
+
+  --color-dnd-stone: #2d2d2d;
+  --color-dnd-stone-light: #3d3d3d;
+  --color-dnd-stone-dark: #1a1a1a;
+
+  --color-language-english: #1e40af;
+  --color-language-castellano: #b91c1c;
+
+  --color-productType-book: #065f46;
+  --color-productType-boxed_set: #7c2d12;
+  --color-productType-accessory: #4338ca;
+
+  --font-display: Cinzel, Georgia, serif;
+  --font-body: Lato, system-ui, sans-serif;
+
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+
+  --animate-fade-in: fadeIn 0.3s ease-out;
+  --animate-slide-up: slideUp 0.4s ease-out;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+
+  /* Tailwind v4 ya no pone cursor: pointer en los botones; se mantiene el de v3 */
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility btn-primary {
+  @apply bg-dnd-red hover:bg-dnd-red-light text-white font-bold py-2 px-4 rounded-sm
+           transition-all duration-200 shadow-card hover:shadow-card-hover;
+}
+
+@utility btn-secondary {
+  @apply bg-dnd-stone hover:bg-dnd-stone-light text-gray-100 font-medium py-2 px-4 rounded-sm
+           border border-dnd-gold/30 hover:border-dnd-gold/50 transition-all duration-200;
+}
+
+@utility card-dnd {
+  @apply bg-dnd-stone rounded-lg border border-dnd-gold/20 shadow-card
+           hover:shadow-card-hover hover:border-dnd-gold/40
+           transition-all duration-300 overflow-hidden;
+}
+
+@utility badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+@utility badge-english {
+  @apply badge bg-language-english/20 text-blue-300 border border-language-english/40;
+}
+
+@utility badge-castellano {
+  @apply badge bg-language-castellano/20 text-red-300 border border-language-castellano/40;
+}
+
+@utility badge-book {
+  @apply badge bg-productType-book/20 text-emerald-300 border border-productType-book/40;
+}
+
+@utility badge-boxed-set {
+  @apply badge bg-productType-boxed_set/20 text-orange-300 border border-productType-boxed_set/40;
+}
+
+@utility badge-accessory {
+  @apply badge bg-productType-accessory/20 text-indigo-300 border border-productType-accessory/40;
+}
+
+@utility input-dnd {
+  @apply w-full px-4 py-2 bg-dnd-stone border border-dnd-gold/30 rounded-lg
+           text-gray-100 placeholder-gray-500
+           focus:outline-hidden focus:border-dnd-gold focus:ring-1 focus:ring-dnd-gold/50
+           transition-colors;
+}
 
 @layer base {
   body {
@@ -20,55 +141,6 @@
 
   a {
     @apply text-dnd-gold hover:text-dnd-gold-light transition-colors;
-  }
-}
-
-@layer components {
-  .btn-primary {
-    @apply bg-dnd-red hover:bg-dnd-red-light text-white font-bold py-2 px-4 rounded
-           transition-all duration-200 shadow-card hover:shadow-card-hover;
-  }
-
-  .btn-secondary {
-    @apply bg-dnd-stone hover:bg-dnd-stone-light text-gray-100 font-medium py-2 px-4 rounded
-           border border-dnd-gold/30 hover:border-dnd-gold/50 transition-all duration-200;
-  }
-
-  .card-dnd {
-    @apply bg-dnd-stone rounded-lg border border-dnd-gold/20 shadow-card
-           hover:shadow-card-hover hover:border-dnd-gold/40
-           transition-all duration-300 overflow-hidden;
-  }
-
-  .badge {
-    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
-  }
-
-  .badge-english {
-    @apply badge bg-language-english/20 text-blue-300 border border-language-english/40;
-  }
-
-  .badge-castellano {
-    @apply badge bg-language-castellano/20 text-red-300 border border-language-castellano/40;
-  }
-
-  .badge-book {
-    @apply badge bg-productType-book/20 text-emerald-300 border border-productType-book/40;
-  }
-
-  .badge-boxed-set {
-    @apply badge bg-productType-boxed_set/20 text-orange-300 border border-productType-boxed_set/40;
-  }
-
-  .badge-accessory {
-    @apply badge bg-productType-accessory/20 text-indigo-300 border border-productType-accessory/40;
-  }
-
-  .input-dnd {
-    @apply w-full px-4 py-2 bg-dnd-stone border border-dnd-gold/30 rounded-lg
-           text-gray-100 placeholder-gray-500
-           focus:outline-none focus:border-dnd-gold focus:ring-1 focus:ring-dnd-gold/50
-           transition-colors;
   }
 }
 

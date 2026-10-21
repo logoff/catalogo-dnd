@@ -1,11 +1,12 @@
 /// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig(({ command, isPreview }) => ({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
   // `vite preview` también usa command 'serve', pero sirve el build de producción
   base: command === 'serve' && !isPreview ? '/' : '/catalogo-dnd/',
   resolve: {

@@ -246,7 +246,7 @@ function FilterCheckbox({ label, checked, onChange }: FilterCheckboxProps) {
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        className="rounded border-dnd-gold/30 bg-dnd-stone text-dnd-red focus:ring-dnd-gold/50"
+        className="rounded-sm border-dnd-gold/30 bg-dnd-stone text-dnd-red focus:ring-dnd-gold/50"
       />
       <span className="text-sm text-gray-300 group-hover:text-white transition-colors">
         {label}

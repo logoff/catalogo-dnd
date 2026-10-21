@@ -68,7 +68,7 @@ export default function ImageLightbox({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-xs animate-fade-in"
       onClick={onClose}
     >
       {/* Close button */}

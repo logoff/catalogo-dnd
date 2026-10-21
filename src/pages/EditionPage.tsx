@@ -119,7 +119,7 @@ export default function EditionPage({ edition }: EditionPageProps) {
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar with filters */}
-          <aside className="lg:w-64 flex-shrink-0">
+          <aside className="lg:w-64 shrink-0">
             <div className="lg:sticky lg:top-24">
               <FilterPanel showEditionFilter={false} />
             </div>
