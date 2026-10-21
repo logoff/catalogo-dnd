@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet-async'
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from '@/utils/constants'
 
 interface MetaTagsProps {
@@ -16,8 +15,9 @@ export default function MetaTags({
 }: MetaTagsProps) {
   const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME
 
+  // React 19 lleva estas etiquetas al <head> del documento
   return (
-    <Helmet>
+    <>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
 
@@ -36,6 +36,6 @@ export default function MetaTags({
 
       {/* Canonical */}
       <link rel="canonical" href={url} />
-    </Helmet>
+    </>
   )
 }
