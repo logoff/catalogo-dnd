@@ -4,9 +4,10 @@ import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => ({
+export default defineConfig(({ command, isPreview }) => ({
   plugins: [react()],
-  base: command === 'serve' ? '/' : '/catalogo-dnd/',
+  // `vite preview` también usa command 'serve', pero sirve el build de producción
+  base: command === 'serve' && !isPreview ? '/' : '/catalogo-dnd/',
   resolve: {
     alias: {
       '@': resolve(import.meta.dirname, './src'),
