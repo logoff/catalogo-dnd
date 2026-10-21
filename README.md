@@ -43,8 +43,8 @@ Abrir <http://localhost:5173/>.
 
 ## Analítica
 
-El sitio publicado envía visitas a una instancia propia de
-[Umami](https://umami.is/). El script se añade en el build solo si
+El sitio publicado mide visitas con [Umami](https://umami.is/). El
+script se añade en el build solo si
 están definidas las variables `VITE_UMAMI_URL` y
 `VITE_UMAMI_WEBSITE_ID`. En el despliegue se leen de los secretos
 del repositorio `UMAMI_URL` y `UMAMI_WEBSITE_ID`. En desarrollo local
