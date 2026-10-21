@@ -26,11 +26,15 @@ export default function ImageLightbox({
   }, [images.length])
 
   // Reset index when opening with a new initial index
-  useEffect(() => {
+  const [prevOpen, setPrevOpen] = useState(isOpen)
+  const [prevInitialIndex, setPrevInitialIndex] = useState(initialIndex)
+  if (isOpen !== prevOpen || initialIndex !== prevInitialIndex) {
+    setPrevOpen(isOpen)
+    setPrevInitialIndex(initialIndex)
     if (isOpen) {
       setCurrentIndex(initialIndex)
     }
-  }, [isOpen, initialIndex])
+  }
 
   // Handle keyboard navigation
   useEffect(() => {
