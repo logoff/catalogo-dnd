@@ -40,3 +40,12 @@ Abrir <http://localhost:5173/>.
 - `just preview` - Previsualizar build
 - `just docker-run` - Ejecutar con Docker
 - `just deploy` - Publicar a GitHub Pages
+
+## Analítica
+
+El sitio publicado mide visitas con [Umami](https://umami.is/). El
+script se añade en el build solo si
+están definidas las variables `VITE_UMAMI_URL` y
+`VITE_UMAMI_WEBSITE_ID`. En el despliegue se leen de los secretos
+del repositorio `UMAMI_URL` y `UMAMI_WEBSITE_ID`. En desarrollo local
+no se envía nada.
