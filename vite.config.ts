@@ -9,16 +9,24 @@ export default defineConfig(({ command }) => ({
   base: command === 'serve' ? '/' : '/catalogo-dnd/',
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src'),
+      '@': resolve(import.meta.dirname, './src'),
     },
   },
   build: {
     outDir: 'dist',
-    rollupOptions: {
+    rolldownOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          ui: ['@heroicons/react', 'zustand'],
+        codeSplitting: {
+          groups: [
+            {
+              name: 'vendor',
+              test: /node_modules[\\/](react|react-dom|react-router|react-router-dom|scheduler|cookie|set-cookie-parser)[\\/]/,
+            },
+            {
+              name: 'ui',
+              test: /node_modules[\\/](@heroicons[\\/]react|zustand)[\\/]/,
+            },
+          ],
         },
       },
     },
