@@ -73,7 +73,10 @@ export default function ImageLightbox({
     >
       {/* Close button */}
       <button
-        onClick={onClose}
+        onClick={(e) => {
+          e.stopPropagation()
+          onClose()
+        }}
         className="absolute top-4 right-4 p-2 text-white/70 hover:text-white transition-colors z-10"
         aria-label="Cerrar"
       >
