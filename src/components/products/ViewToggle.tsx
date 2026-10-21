@@ -14,7 +14,7 @@ export default function ViewToggle({ view, onChange }: ViewToggleProps) {
       <button
         onClick={() => onChange('grid')}
         className={clsx(
-          'p-2 rounded transition-colors',
+          'p-2 rounded-sm transition-colors',
           view === 'grid' ? 'bg-dnd-gold text-dnd-stone-dark' : 'text-gray-400 hover:text-white'
         )}
         aria-label="Vista cuadrícula"
@@ -25,7 +25,7 @@ export default function ViewToggle({ view, onChange }: ViewToggleProps) {
       <button
         onClick={() => onChange('list')}
         className={clsx(
-          'p-2 rounded transition-colors',
+          'p-2 rounded-sm transition-colors',
           view === 'list' ? 'bg-dnd-gold text-dnd-stone-dark' : 'text-gray-400 hover:text-white'
         )}
         aria-label="Vista lista"

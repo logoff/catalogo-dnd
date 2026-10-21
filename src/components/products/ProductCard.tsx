@@ -29,7 +29,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <LazyImage
           src={imageUrl}
           alt={product.primaryTitle}
-          containerClassName="aspect-[3/4] bg-dnd-stone-light"
+          containerClassName="aspect-3/4 bg-dnd-stone-light"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
 
@@ -45,7 +45,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
 
           {/* Title - min 3 lines height */}
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light transition-colors line-clamp-3 min-h-[4.5rem]">
+          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light transition-colors line-clamp-3 min-h-18">
             {product.primaryTitle}
           </h3>
 

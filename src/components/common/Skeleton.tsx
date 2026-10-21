@@ -5,14 +5,14 @@ interface SkeletonProps {
 }
 
 export function Skeleton({ className }: SkeletonProps) {
-  return <div className={clsx('animate-pulse bg-dnd-stone-light rounded', className)} />
+  return <div className={clsx('animate-pulse bg-dnd-stone-light rounded-sm', className)} />
 }
 
 export function ProductCardSkeleton() {
   return (
     <div className="card-dnd">
       {/* Image */}
-      <Skeleton className="aspect-[3/4]" />
+      <Skeleton className="aspect-3/4" />
 
       {/* Content */}
       <div className="p-4">
@@ -38,7 +38,7 @@ export function ProductListItemSkeleton() {
   return (
     <div className="card-dnd flex gap-4">
       {/* Image */}
-      <Skeleton className="w-20 h-28 flex-shrink-0 rounded" />
+      <Skeleton className="w-20 h-28 shrink-0 rounded-sm" />
 
       {/* Content */}
       <div className="flex-1 py-1">

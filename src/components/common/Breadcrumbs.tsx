@@ -57,7 +57,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
           <li>
             <Link
               to="/"
-              className="flex items-center hover:text-dnd-gold transition-colors p-1 -m-1 rounded"
+              className="flex items-center hover:text-dnd-gold transition-colors p-1 -m-1 rounded-sm"
               aria-label="Inicio"
             >
               <HomeIcon className="h-4 w-4" />
@@ -67,7 +67,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
           {/* Collapsed items on mobile */}
           {showCollapsed && (
             <li className="flex items-center sm:hidden">
-              <ChevronRightIcon className="h-3 w-3 mx-1 flex-shrink-0" />
+              <ChevronRightIcon className="h-3 w-3 mx-1 shrink-0" />
               <span className="text-gray-500">…</span>
             </li>
           )}
@@ -82,7 +82,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
                 key={item.label}
                 className={`flex items-center ${isHiddenOnMobile ? 'hidden sm:flex' : 'flex'}`}
               >
-                <ChevronRightIcon className="h-3 w-3 mx-1 sm:mx-2 flex-shrink-0" />
+                <ChevronRightIcon className="h-3 w-3 mx-1 sm:mx-2 shrink-0" />
                 {item.to && !isLast ? (
                   <Link
                     to={item.to}

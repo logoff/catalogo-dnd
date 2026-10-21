@@ -34,7 +34,7 @@ export default function LazyImage({ src, alt, className, containerClassName }: L
     <div className={clsx('relative overflow-hidden bg-dnd-stone-light', containerClassName)}>
       {/* Placeholder con animación pulse */}
       {!loaded && (
-        <div className="absolute inset-0 bg-gradient-to-br from-dnd-stone-light to-dnd-stone animate-pulse" />
+        <div className="absolute inset-0 bg-linear-to-br from-dnd-stone-light to-dnd-stone animate-pulse" />
       )}
 
       <img

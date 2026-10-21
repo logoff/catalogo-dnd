@@ -19,7 +19,7 @@ export default function HomePage() {
       <MetaTags />
 
       {/* Hero section */}
-      <section className="relative bg-gradient-to-b from-dnd-stone to-dnd-stone-dark py-16 md:py-24">
+      <section className="relative bg-linear-to-b from-dnd-stone to-dnd-stone-dark py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <img
             src={getAssetPath('images/dungeons-and-dragons.png')}
