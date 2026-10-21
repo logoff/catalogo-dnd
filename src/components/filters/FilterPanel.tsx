@@ -54,35 +54,36 @@ export default function FilterPanel({ showEditionFilter = true }: FilterPanelPro
   return (
     <div className="card-dnd p-4">
       {/* Header - siempre visible, clickeable en móvil */}
-      <button
-        onClick={() => setIsExpanded(!isExpanded)}
-        className="flex items-center justify-between w-full lg:cursor-default"
-      >
-        <div className="flex items-center gap-2">
-          <FunnelIcon className="h-5 w-5 text-dnd-gold" />
-          <h3 className="font-display text-lg text-dnd-gold">Filtros</h3>
-          {activeCount > 0 && <span className="badge bg-dnd-red text-white">{activeCount}</span>}
-        </div>
-        <div className="flex items-center gap-2">
-          {activeCount > 0 && (
-            <button
-              onClick={(e) => {
-                e.stopPropagation()
-                clearFilters()
-              }}
-              className="text-sm text-gray-400 hover:text-white flex items-center gap-1"
-            >
-              <XMarkIcon className="h-4 w-4" />
-              <span className="hidden sm:inline">Limpiar</span>
-            </button>
-          )}
+      <div className="relative">
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          aria-expanded={isExpanded}
+          className="flex items-center justify-between w-full lg:cursor-default"
+        >
+          <div className="flex items-center gap-2">
+            <FunnelIcon className="h-5 w-5 text-dnd-gold" />
+            <h3 className="font-display text-lg text-dnd-gold">Filtros</h3>
+            {activeCount > 0 && <span className="badge bg-dnd-red text-white">{activeCount}</span>}
+          </div>
           <ChevronDownIcon
             className={`h-5 w-5 text-gray-400 transition-transform lg:hidden ${
               isExpanded ? 'rotate-180' : ''
             }`}
           />
-        </div>
-      </button>
+        </button>
+
+        {/* Fuera del botón de cabecera: un <button> no puede contener otro */}
+        {activeCount > 0 && (
+          <button
+            onClick={clearFilters}
+            aria-label="Limpiar filtros"
+            className="absolute top-1/2 -translate-y-1/2 right-7 lg:right-0 text-sm text-gray-400 hover:text-white flex items-center gap-1"
+          >
+            <XMarkIcon className="h-4 w-4" />
+            <span className="hidden sm:inline">Limpiar</span>
+          </button>
+        )}
+      </div>
 
       {/* Contenido de filtros - colapsable en móvil, siempre visible en desktop */}
       <div className="hidden lg:block mt-6 space-y-6">
