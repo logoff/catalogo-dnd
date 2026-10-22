@@ -59,13 +59,7 @@
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967537,
       "images": ["/images/products/2014/dmg/pub2_img0.jpg"],
-      "official_url": "https://dnd.wizards.com/es/products/dungeon-masters-guide",
-      "purchase_links": [
-        {
-          "store": "amazon",
-          "url": "https://www.amazon.es/dp/0786967536"
-        }
-      ]
+      "official_url": "https://dnd.wizards.com/es/products/dungeon-masters-guide"
     }
   ]
 }
