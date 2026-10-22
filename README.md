@@ -2,12 +2,12 @@
 
 [![Deploy](https://github.com/logoff/catalogo-dnd/actions/workflows/deploy.yml/badge.svg)](https://github.com/logoff/catalogo-dnd/actions/workflows/deploy.yml)
 
-<https://catalogodnd.es/>
-
 Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**,
 que ofrece una lista completa de todos los libros y accesorios publicados
 en inglés y en castellano de Dungeons & Dragons de las ediciones
 5E (2014) y 5.5E (2024).
+
+**🌐 Consulta el catálogo en [catalogodnd.es](https://catalogodnd.es/)**
 
 ## Cómo poner en marcha el proyecto
 
