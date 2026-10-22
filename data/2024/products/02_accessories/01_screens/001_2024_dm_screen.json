@@ -1,5 +1,6 @@
 {
   "code": "DMS",
+  "description": "La pantalla del Dungeon Master de 2024 tiene cuatro paneles: por fuera, una ilustración panorámica con todas las clases del juego; por dentro, tablas y reglas de consulta rápida revisadas para las reglas de 2024. Sirve para ocultar notas y tiradas y tener a mano lo que más se consulta durante la partida.\n\nEs útil para cualquier Dungeon Master que use los libros básicos de 2024. Solo está en inglés.",
   "publications": [
     {
       "type": "accessory",

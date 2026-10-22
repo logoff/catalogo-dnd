@@ -10,7 +10,7 @@ interface MetaTagsProps {
 export default function MetaTags({
   title,
   description = SITE_DESCRIPTION,
-  image = `${SITE_URL}/images/dungeons-and-dragons.png`,
+  image = `${SITE_URL}/images/og.png`,
   url = SITE_URL,
 }: MetaTagsProps) {
   const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME

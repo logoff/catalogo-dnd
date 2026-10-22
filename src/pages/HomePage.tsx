@@ -3,6 +3,7 @@ import MetaTags from '@/components/seo/MetaTags'
 import { useProductStore } from '@/store/productStore'
 import ProductGrid from '@/components/products/ProductGrid'
 import { getAssetPath } from '@/utils/constants'
+import { GuideCards } from './GuidesPage'
 
 export default function HomePage() {
   const products = useProductStore((state) => state.products)
@@ -21,11 +22,7 @@ export default function HomePage() {
       {/* Hero section */}
       <section className="relative bg-linear-to-b from-dnd-stone to-dnd-stone-dark py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <img
-            src={getAssetPath('images/dungeons-and-dragons.png')}
-            alt="Dungeons & Dragons"
-            className="h-24 md:h-32 mx-auto mb-6"
-          />
+          <img src={getAssetPath('images/logo.svg')} alt="" className="h-24 md:h-32 mx-auto mb-6" />
           <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">Catálogo D&D 5E</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             Explora todos los productos oficiales de Dungeons & Dragons 5ª edición (2014) y la nueva
@@ -59,6 +56,19 @@ export default function HomePage() {
               <span className="text-gray-400">de 5.5E (2024)</span>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Guides */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="font-display text-2xl text-dnd-gold">Guías</h2>
+            <Link to="/guias" className="text-dnd-gold hover:text-dnd-gold-light">
+              Ver todas &rarr;
+            </Link>
+          </div>
+          <GuideCards />
         </div>
       </section>
 

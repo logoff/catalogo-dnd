@@ -18,11 +18,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img
-              src={getAssetPath('images/dungeons-and-dragons.png')}
-              alt="D&D Logo"
-              className="h-10 w-auto"
-            />
+            <img src={getAssetPath('images/logo.svg')} alt="" className="h-10 w-auto" />
             <span className="font-display text-xl text-dnd-gold hidden sm:block">Catálogo D&D</span>
           </Link>
 
@@ -39,6 +35,9 @@ export default function Header() {
             </NavLink>
             <NavLink to="/2024" className={navLinkClass}>
               5.5E (2024)
+            </NavLink>
+            <NavLink to="/guias" className={navLinkClass}>
+              Guías
             </NavLink>
           </nav>
 
@@ -79,6 +78,13 @@ export default function Header() {
               </NavLink>
               <NavLink to="/2024" className={navLinkClass} onClick={() => setMobileMenuOpen(false)}>
                 5.5E (2024)
+              </NavLink>
+              <NavLink
+                to="/guias"
+                className={navLinkClass}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Guías
               </NavLink>
             </nav>
           </div>

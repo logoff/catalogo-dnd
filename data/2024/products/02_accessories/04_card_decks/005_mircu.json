@@ -1,5 +1,6 @@
 {
   "code": "MIRCU",
+  "description": "Baraja de referencia con objetos mágicos comunes y poco comunes de las reglas de 2024. Las cartas sirven para repartir tesoros en mesa y para que cada jugador tenga a mano lo que hace su objeto.\n\nForma parte de una línea de ocho barajas de referencia de conjuros, objetos mágicos y monstruos. Solo está en inglés.",
   "publications": [
     {
       "type": "accessory",

@@ -1,5 +1,6 @@
 {
   "code": "SRC01",
+  "description": "Baraja de referencia con los conjuros de nivel 0 (trucos) y nivel 1 de las reglas de 2024: treinta y cuatro trucos, sesenta y cuatro cartas de conjuros de nivel 1 y seis cartas en blanco para personalizar. Cada carta resume un conjuro para no tener que buscarlo en el libro durante la partida.\n\nForma parte de una línea de ocho barajas de referencia de conjuros, objetos mágicos y monstruos. Solo está en inglés.",
   "publications": [
     {
       "type": "accessory",

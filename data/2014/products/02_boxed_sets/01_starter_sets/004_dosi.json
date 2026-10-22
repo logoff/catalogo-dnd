@@ -1,5 +1,6 @@
 {
   "code": "DOSI",
+  "description": "La Caja de Inicio Los Dragones de la Isla de las Tempestades trae un reglamento básico, cinco personajes pregenerados, dados y una aventura para los niveles 1 a 3 ambientada en un santuario de dragones en una isla azotada por las tormentas. Es más corta que La Mina Perdida de Phandelver y está pensada para aprender a jugar en pocas sesiones.\n\nSalió en castellano casi a la vez que en inglés, en 2022, con la edición de Wizards of the Coast.",
   "publications": [
     {
       "type": "boxed_set",
@@ -87,7 +88,7 @@
           "title": "Personajes pregenerados (5)"
         },
         {
-          "title": "sados poliédricos (6)"
+          "title": "Dados poliédricos (6)"
         }
       ]
     }

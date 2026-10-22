@@ -1,5 +1,6 @@
 {
   "code": "SRC45",
+  "description": "Baraja de referencia con los conjuros de niveles 4 y 5 de las reglas de 2024. Cada carta resume un conjuro para consultarlo de un vistazo durante la partida.\n\nForma parte de una línea de ocho barajas de referencia de conjuros, objetos mágicos y monstruos. Solo está en inglés.",
   "publications": [
     {
       "type": "accessory",
