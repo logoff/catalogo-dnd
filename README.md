@@ -53,6 +53,22 @@ La antigua dirección `logoff.github.io/catalogo-dnd/` sirve una página
 que redirige cada ruta al dominio nuevo. Se publica ejecutando a mano
 el workflow _Redirección desde GitHub Pages_.
 
+## Enlaces de afiliado
+
+Los botones de compra llevan ID de afiliado solo si están definidas
+estas variables en el build. Si falta alguna, el enlace de esa tienda
+se publica sin afiliado:
+
+| Variable                                     | Uso                                             |
+| -------------------------------------------- | ----------------------------------------------- |
+| `VITE_AFFILIATE_AMAZON_TAG`                  | Tag de Amazon Afiliados                         |
+| `VITE_AFFILIATE_ADTRACTION_CHANNEL`          | ID de canal en Adtraction (común a sus tiendas) |
+| `VITE_AFFILIATE_GENERACION_X_PROGRAM`        | ID del programa de Generación X en Adtraction   |
+| `VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM` | ID del programa de Juegos de la Mesa Redonda    |
+
+En el despliegue se leen de los secretos del repositorio con el mismo
+nombre sin el prefijo `VITE_`. En local se pueden poner en `.env`.
+
 ## Analítica
 
 El sitio publicado mide visitas con [Umami](https://umami.is/). El
