@@ -13,7 +13,8 @@ export default function Footer() {
             </p>
             <p className="text-gray-500 text-xs mt-1">
               Algunos enlaces de compra son de afiliado: si compras a través de ellos, el catálogo
-              puede recibir una comisión sin coste para ti.{' '}
+              puede recibir una comisión sin coste para ti. Como Afiliado de Amazon, obtengo
+              ingresos por las compras adscritas que cumplen los requisitos aplicables.{' '}
               <Link to="/aviso-legal" className="underline hover:text-dnd-gold">
                 Aviso legal y privacidad
               </Link>

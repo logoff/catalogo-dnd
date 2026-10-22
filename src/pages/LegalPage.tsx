@@ -53,6 +53,10 @@ export default function LegalPage() {
             a mantener el catálogo.
           </p>
           <p>
+            Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los
+            requisitos aplicables.
+          </p>
+          <p>
             La participación en programas de afiliados no influye en el contenido: las descripciones
             y guías no son publicidad pagada, y ninguna tienda ni editorial revisa ni aprueba lo que
             se publica aquí.
