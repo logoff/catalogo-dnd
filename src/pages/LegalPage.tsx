@@ -77,30 +77,12 @@ export default function LegalPage() {
             Este sitio <strong>no pide ni guarda datos personales</strong>: no hay registro, ni
             formularios, ni comentarios.
           </p>
-          <ul>
-            <li>
-              <strong>Estadísticas de visitas.</strong> Se usa{' '}
-              <a href="https://umami.is/" target="_blank" rel="noopener noreferrer">
-                Umami
-              </a>
-              , alojado por el propio titular, que cuenta visitas de forma agregada y anónima. No
-              usa cookies, no guarda direcciones IP completas y no sigue tu actividad en otros
-              sitios.
-            </li>
-            <li>
-              <strong>Alojamiento.</strong> El sitio se sirve a través de Cloudflare, que como
-              cualquier servidor web procesa datos técnicos de la conexión (como la dirección IP)
-              para entregar las páginas y protegerlas frente a abusos.
-            </li>
-            <li>
-              <strong>Tiendas externas.</strong> Al pulsar un enlace de compra pasas a la web de la
-              tienda, que aplica su propia política de privacidad y de cookies.
-            </li>
-            <li>
-              <strong>Correo.</strong> Si escribes al correo de contacto, tu mensaje solo se usará
-              para responderte.
-            </li>
-          </ul>
+          <p>
+            Las visitas se cuentan de forma anónima y agregada, sin cookies y sin seguir tu
+            actividad en otros sitios. Al pulsar un enlace de compra pasas a la web de la tienda,
+            que aplica su propia política de privacidad. Si escribes al correo de contacto, tu
+            mensaje solo se usará para responderte.
+          </p>
 
           <h2>Cookies</h2>
           <p>
