@@ -59,8 +59,8 @@ export default function ProductDetailPage() {
         <div className="mb-8">
           <h1 className="font-display text-4xl text-dnd-gold mb-2">{product.primaryTitle}</h1>
           <p className="text-gray-400">
-            Código: {product.code} · {product.publications.length} edición
-            {product.publications.length !== 1 ? 'es' : ''}
+            Código: {product.code} · {product.publications.length}{' '}
+            {product.publications.length === 1 ? 'edición' : 'ediciones'}
           </p>
           {product.description && (
             <div className="mt-4 max-w-3xl space-y-3 text-gray-300 leading-relaxed">

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   GlobeAltIcon,
   BookOpenIcon,
@@ -138,7 +139,13 @@ function PublicationSection({ publication }: PublicationSectionProps) {
           {/* Purchase links */}
           {purchaseLinks.length > 0 && (
             <div className="pt-4">
-              <p className="font-semibold text-gray-100 mb-3">Dónde comprar</p>
+              <p className="font-semibold text-gray-100 mb-1">Dónde comprar</p>
+              <p className="text-xs text-gray-500 mb-3">
+                Enlaces de afiliado: el catálogo puede recibir una comisión sin coste para ti.{' '}
+                <Link to="/aviso-legal" className="underline hover:text-dnd-gold">
+                  Más información
+                </Link>
+              </p>
               <div className="flex flex-wrap gap-2">
                 {purchaseLinks.map((link) => (
                   <PurchaseButton key={link.url} link={link} />
