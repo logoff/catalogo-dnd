@@ -21,11 +21,7 @@ export default function HomePage() {
       {/* Hero section */}
       <section className="relative bg-linear-to-b from-dnd-stone to-dnd-stone-dark py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <img
-            src={getAssetPath('images/dungeons-and-dragons.png')}
-            alt="Dungeons & Dragons"
-            className="h-24 md:h-32 mx-auto mb-6"
-          />
+          <img src={getAssetPath('images/logo.svg')} alt="" className="h-24 md:h-32 mx-auto mb-6" />
           <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">Catálogo D&D 5E</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             Explora todos los productos oficiales de Dungeons & Dragons 5ª edición (2014) y la nueva
