@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
     <footer className="bg-dnd-stone-dark border-t border-dnd-gold/20 mt-auto">
@@ -8,6 +10,13 @@ export default function Footer() {
             <p className="text-gray-500 text-xs mt-1">
               Sitio no oficial, sin relación con Wizards of the Coast ni respaldado por ella.
               Dungeons & Dragons y D&D son marcas registradas de Wizards of the Coast LLC.
+            </p>
+            <p className="text-gray-500 text-xs mt-1">
+              Algunos enlaces de compra son de afiliado: si compras a través de ellos, el catálogo
+              puede recibir una comisión sin coste para ti.{' '}
+              <Link to="/aviso-legal" className="underline hover:text-dnd-gold">
+                Aviso legal y privacidad
+              </Link>
             </p>
           </div>
 

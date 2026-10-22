@@ -6,6 +6,7 @@ import EditionPage from './pages/EditionPage'
 import ProductDetailPage from './pages/ProductDetailPage'
 import NotFoundPage from './pages/NotFoundPage'
 import GuidesPage from './pages/GuidesPage'
+import LegalPage from './pages/LegalPage'
 import StartGuide from './pages/guides/StartGuide'
 import EditionsGuide from './pages/guides/EditionsGuide'
 import SpanishTimeline from './pages/guides/SpanishTimeline'
@@ -30,6 +31,7 @@ function App() {
           <Route path="guias/por-donde-empezar" element={<StartGuide />} />
           <Route path="guias/2014-vs-2024" element={<EditionsGuide />} />
           <Route path="guias/cronologia-castellano" element={<SpanishTimeline />} />
+          <Route path="aviso-legal" element={<LegalPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

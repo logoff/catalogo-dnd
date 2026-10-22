@@ -1,5 +1,7 @@
 import { describe, it, expect } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render as rtlRender, screen } from '@testing-library/react'
+import { MemoryRouter } from 'react-router-dom'
+import type { ReactElement } from 'react'
 import type { ProductWithMeta, Publication } from '@/types'
 import ProductDetail from './ProductDetail'
 
@@ -10,6 +12,8 @@ const publication: Publication = {
   title: "Player's Handbook",
   official_url: 'https://dnd.wizards.com/products/rpg_playershandbook',
 }
+
+const render = (ui: ReactElement) => rtlRender(<MemoryRouter>{ui}</MemoryRouter>)
 
 const product = (pub: Publication): ProductWithMeta => ({
   code: 'PHB',

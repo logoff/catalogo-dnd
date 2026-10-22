@@ -52,6 +52,7 @@ function generateSitemap() {
     { loc: '/guias/por-donde-empezar', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/2014-vs-2024', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/cronologia-castellano', priority: 0.8, changefreq: 'monthly', lastmod: today },
+    { loc: '/aviso-legal', priority: 0.3, changefreq: 'yearly', lastmod: today },
   ]
 
   // Product pages
