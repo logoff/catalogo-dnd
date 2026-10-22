@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/guildmasters-guide-ravnica",
       "wpn_url": "https://wpn.wizards.com/en/products/guildmasters-guide-to-ravnica",
       "openlibrary_url": "https://openlibrary.org/books/OL32208739M",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Guildmasters-Guide-Ravnica/dp/0786966599"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Guildmasters-Guide-Ravnica/dp/0786966599"
+        }
+      ]
     }
   ]
 }

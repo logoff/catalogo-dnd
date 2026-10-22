@@ -15,7 +15,12 @@
       "images": ["/images/products/2024/fraif/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/PROMOTION/D4714000?pid=DB4714000",
       "wpn_url": "https://wpn.wizards.com/en/products/forgotten-realms-adventures-in-faerun?product=2vgmRvrwQA3RMZKw16bEB4",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Forgotten-Realms-Adventures/dp/0786969954/"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Forgotten-Realms-Adventures/dp/0786969954/"
+        }
+      ]
     },
     {
       "type": "book",
@@ -42,7 +47,12 @@
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786970315,
       "images": ["/images/products/2024/fraif/pub2_img0.jpg"],
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Olvidados-Aventuras-Forgotten/dp/0786970316"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Olvidados-Aventuras-Forgotten/dp/0786970316"
+        }
+      ]
     }
   ]
 }

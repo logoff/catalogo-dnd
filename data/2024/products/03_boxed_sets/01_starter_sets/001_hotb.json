@@ -12,7 +12,12 @@
       "publisher": "Wizards of the Coast",
       "images": ["/images/products/2024/hotb/pub0_img0.png"],
       "wpn_url": "https://wpn.wizards.com/en/products/starter-set-heroes-of-the-borderlands",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Inicio-Heroes-Borderlands/dp/B0FDJFR245/"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Inicio-Heroes-Borderlands/dp/B0FDJFR245/"
+        }
+      ]
     },
     {
       "type": "boxed_set",
@@ -27,7 +32,12 @@
         "/images/products/2024/hotb/pub1_img0.jpg",
         "/images/products/2024/hotb/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Caja-Inicio-H%C3%A9roes-Tierras-fronterizas/dp/B0GLQ676VQ"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Caja-Inicio-H%C3%A9roes-Tierras-fronterizas/dp/B0GLQ676VQ"
+        }
+      ]
     }
   ]
 }

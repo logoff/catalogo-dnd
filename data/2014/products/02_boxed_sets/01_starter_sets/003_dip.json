@@ -19,7 +19,12 @@
       "official_url": "https://dnd.wizards.com/products/essentials-kit",
       "wpn_url": "https://wpn.wizards.com/en/products/dungeons-and-dragons-essentials-kit",
       "openlibrary_url": "https://openlibrary.org/books/OL32051179M",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-C70080000-Essentials-construcci%C3%B3n/dp/0786966831",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-C70080000-Essentials-construcci%C3%B3n/dp/0786966831"
+        }
+      ],
       "sub_publications": [
         {
           "title": "Starter Set Rulebook",
@@ -92,7 +97,12 @@
       ],
       "official_url": "https://dnd.wizards.com/es/products/essentials-kit",
       "openlibrary_url": "https://openlibrary.org/books/OL34193503M",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-C70080000-Essentials-construcci%C3%B3n/dp/0786967420",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-C70080000-Essentials-construcci%C3%B3n/dp/0786967420"
+        }
+      ],
       "sub_publications": [
         {
           "title": "Kit Esencial Reglamento",

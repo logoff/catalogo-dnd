@@ -17,7 +17,12 @@
       ],
       "official_url": "https://marketplace.dndbeyond.com/category/D3898000",
       "wpn_url": "https://wpn.wizards.com/en/products/2024-character-sheets",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Character-Sheets-Accessories/dp/0786969806/"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Character-Sheets-Accessories/dp/0786969806/"
+        }
+      ]
     }
   ]
 }

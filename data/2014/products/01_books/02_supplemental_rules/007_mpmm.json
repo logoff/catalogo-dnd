@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/monsters-of-the-multiverse",
       "wpn_url": "https://wpn.wizards.com/en/products/mordenkainen-presents-monsters-of-the-multiverse",
       "openlibrary_url": "https://openlibrary.org/books/OL37593203M",
-      "amazon_link": "https://www.amazon.es/Mordenkainen-Presents-Dungeons-Dragons-Collectif/dp/0786967870"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Mordenkainen-Presents-Dungeons-Dragons-Collectif/dp/0786967870"
+        }
+      ]
     },
     {
       "type": "book",
@@ -39,7 +44,12 @@
         "/images/products/2014/mpmm/pub1_img1.jpg"
       ],
       "official_url": "https://dnd.wizards.com/es/products/monsters-of-the-multiverse",
-      "amazon_link": "https://www.amazon.es/Mordenkainen-Presents-Dungeons-Dragons-Collectif/dp/0786968141"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Mordenkainen-Presents-Dungeons-Dragons-Collectif/dp/0786968141"
+        }
+      ]
     }
   ]
 }

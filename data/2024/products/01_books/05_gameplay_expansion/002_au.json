@@ -14,7 +14,12 @@
       "images": ["/images/products/2024/au/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/BB-2026-ArcanaUnleashed/6031000",
       "wpn_url": "https://wpn.wizards.com/en/products/arcana-unleashed?product=5xCcrKC5RniN95WKuA93VP",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Arcana-Unleashed-expansi%C3%B3n/dp/0786970065"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Arcana-Unleashed-expansi%C3%B3n/dp/0786970065"
+        }
+      ]
     },
     {
       "type": "book",

@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/journeys-through-radiant-citadel",
       "wpn_url": "https://wpn.wizards.com/en/products/journeys-through-the-radiant-citadel",
       "openlibrary_url": "https://openlibrary.org/books/OL37802724M",
-      "amazon_link": "https://www.amazon.es/Journeys-Through-Radiant-Aventuras-Dungeons/dp/0786967994"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Journeys-Through-Radiant-Aventuras-Dungeons/dp/0786967994"
+        }
+      ]
     },
     {
       "type": "book",
@@ -38,7 +43,12 @@
         "/images/products/2014/jttrc/pub1_img0.jpg",
         "/images/products/2014/jttrc/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Viajes-Ciudadela-Radiante-Versi%C3%B3n-Espa%C3%B1ol/dp/0786968036"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Viajes-Ciudadela-Radiante-Versi%C3%B3n-Espa%C3%B1ol/dp/0786968036"
+        }
+      ]
     }
   ]
 }

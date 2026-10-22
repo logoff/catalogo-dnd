@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/volos-guide-to-monsters",
       "wpn_url": "https://wpn.wizards.com/en/products/volos-guide-to-monsters-?product=51paqv55CAxi9KuiGh4VCl",
       "openlibrary_url": "https://openlibrary.org/books/OL27225183M/",
-      "amazon_link": "https://www.amazon.es/Volos-Guide-Monsters-Dungeons-Dragons/dp/0786966017"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Volos-Guide-Monsters-Dungeons-Dragons/dp/0786966017"
+        }
+      ]
     },
     {
       "type": "book",
@@ -38,7 +43,12 @@
         "/images/products/2014/vgm/pub1_img0.jpg",
         "/images/products/2014/vgm/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Gu%C3%ADa-Monstruos-EEWCDD13/dp/B08L9SD9DY"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Gu%C3%ADa-Monstruos-EEWCDD13/dp/B08L9SD9DY"
+        }
+      ]
     }
   ]
 }

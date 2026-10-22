@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/dungeon-masters-guide",
       "wpn_url": "https://wpn.wizards.com/en/products/dungeon-masters-guide",
       "openlibrary_url": "https://openlibrary.org/books/OL26631919M",
-      "amazon_link": "https://www.amazon.es/dp/0786965622"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786965622"
+        }
+      ]
     },
     {
       "type": "book",
@@ -54,7 +59,12 @@
       "isbn13": 9780786967537,
       "images": ["/images/products/2014/dmg/pub2_img0.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/dungeon-masters-guide",
-      "amazon_link": "https://www.amazon.es/dp/0786967536"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786967536"
+        }
+      ]
     }
   ]
 }

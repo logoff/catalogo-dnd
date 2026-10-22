@@ -41,7 +41,12 @@
       "official_url": "https://dnd.wizards.com/products/candlekeep-mysteries",
       "wpn_url": "https://wpn.wizards.com/en/products/candlekeep-mysteries",
       "openlibrary_url": "https://openlibrary.org/books/OL36356901M",
-      "amazon_link": "https://www.amazon.es/Candlekeep-Mysteries-Adventure-Book-Dungeons/dp/0786967226"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Candlekeep-Mysteries-Adventure-Book-Dungeons/dp/0786967226"
+        }
+      ]
     }
   ]
 }

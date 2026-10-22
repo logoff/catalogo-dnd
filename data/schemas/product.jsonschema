@@ -7,6 +7,9 @@
         "type": "string"
     },
     "properties": {
+        "description": {
+            "type": "string"
+        },
         "publications": {
             "type": "array",
             "items": {
@@ -90,9 +93,11 @@
                     "type": "string",
                     "format": "uri"
                 },
-                "amazon_link": {
-                    "type": "string",
-                    "format": "uri"
+                "purchase_links": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "/schemas/products#/$defs/purchase_link"
+                    }
                 },
                 "sub_publications": {
                     "type": "array",
@@ -110,6 +115,25 @@
                 "subtype",
                 "edition",
                 "title"
+            ]
+        },
+        "purchase_link": {
+            "title": "Purchase Link",
+            "type": "object",
+            "$id": "/schemas/purchase_link",
+            "properties": {
+                "store": {
+                    "type": "string",
+                    "enum": ["amazon", "generacion_x", "juegos_mesa_redonda"]
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            },
+            "required": [
+                "store",
+                "url"
             ]
         },
         "sub_publication": {

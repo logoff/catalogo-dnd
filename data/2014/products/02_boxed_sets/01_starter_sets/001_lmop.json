@@ -17,7 +17,12 @@
         "/images/products/2014/lmop/pub0_img1.jpg"
       ],
       "wpn_url": "https://wpn.wizards.com/en/products/dungeons-and-dragons-starter-set",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Roleplaying/dp/0786965592",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Roleplaying/dp/0786965592"
+        }
+      ],
       "sub_publications": [
         {
           "title": "Starter Set Rulebook",

@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/dragonlance",
       "wpn_url": "https://wpn.wizards.com/en/products/dragonlance-shadow-of-the-dragon-queen",
       "openlibrary_url": "https://openlibrary.org/books/OL39714757M",
-      "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/0786968281"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/0786968281"
+        }
+      ]
     },
     {
       "type": "book",
@@ -38,7 +43,12 @@
         "/images/products/2014/dsotdq/pub1_img0.jpg",
         "/images/products/2014/dsotdq/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/078696832X"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/078696832X"
+        }
+      ]
     }
   ]
 }

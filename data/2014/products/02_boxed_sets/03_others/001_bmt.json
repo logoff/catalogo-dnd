@@ -18,7 +18,12 @@
       ],
       "official_url": "https://dndstore.wizards.com/eu/product/865605/the-deck-of-many-things-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/the-deck-of-many-things",
-      "amazon_link": "https://www.amazon.es/Deck-Many-Things-expansi%C3%B3n-referencia/dp/0786969172",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Deck-Many-Things-expansi%C3%B3n-referencia/dp/0786969172"
+        }
+      ],
       "sub_publications": [
         {
           "title": "Outer box",

@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/monster-manual",
       "wpn_url": "https://wpn.wizards.com/en/products/monster-manual",
       "openlibrary_url": "https://openlibrary.org/books/OL26631912M",
-      "amazon_link": "https://www.amazon.es/Monster-Manual-Monstruos-Reglamento-Rulebooks/dp/0786965614"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Monster-Manual-Monstruos-Reglamento-Rulebooks/dp/0786965614"
+        }
+      ]
     },
     {
       "type": "book",
@@ -57,7 +62,12 @@
         "/images/products/2014/mm/pub2_img1.jpg"
       ],
       "official_url": "https://dnd.wizards.com/es/products/monster-manual",
-      "amazon_link": "https://www.amazon.es/dp/0786967587"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786967587"
+        }
+      ]
     }
   ]
 }

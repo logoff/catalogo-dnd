@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/rpg_playershandbook",
       "wpn_url": "https://wpn.wizards.com/en/products/players-handbook",
       "openlibrary_url": "https://openlibrary.org/books/OL26629984M",
-      "amazon_link": "https://www.amazon.es/Players-Handbook-Dungeons-Dragons-Wizards/dp/0786965606"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Players-Handbook-Dungeons-Dragons-Wizards/dp/0786965606"
+        }
+      ]
     },
     {
       "type": "book",
@@ -54,7 +59,12 @@
       "isbn13": 9780786967490,
       "images": ["/images/products/2014/phb/pub2_img0.jpg"],
       "official_url": "https://dnd.wizards.com/es/products/rpg_playershandbook",
-      "amazon_link": "https://www.amazon.es/Players-Handbook-Dungeons-Dragons-Wizards/dp/0786967498"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Players-Handbook-Dungeons-Dragons-Wizards/dp/0786967498"
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,12 @@
       "images": ["/images/products/2024/wtthc/pub0_img0.png"],
       "official_url": "https://dndstore.wizards.com/eu/product/1246480/welcome-to-the-hellfire-club",
       "wpn_url": "https://wpn.wizards.com/en/products/welcome-to-the-hellfire-club",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Stranger-Things-Aventuras/dp/B0FFKL233T"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Stranger-Things-Aventuras/dp/B0FFKL233T"
+        }
+      ]
     }
   ]
 }

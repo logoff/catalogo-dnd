@@ -19,7 +19,12 @@
       ],
       "wpn_url": "https://wpn.wizards.com/en/products/bigby-presents-glory-of-the-giants",
       "openlibrary_url": "https://openlibrary.org/books/OL48465341M",
-      "amazon_link": "https://www.amazon.es/Bigby-Presents-Dungeons-Dragons-Expansion/dp/0786968982"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Bigby-Presents-Dungeons-Dragons-Expansion/dp/0786968982"
+        }
+      ]
     },
     {
       "type": "book",
@@ -37,7 +42,12 @@
         "/images/products/2014/bpgg/pub1_img0.jpg",
         "/images/products/2014/bpgg/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Bigby-Presents-expansi%C3%B3n-Dungeons-Dragons/dp/0786969393"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Bigby-Presents-expansi%C3%B3n-Dungeons-Dragons/dp/0786969393"
+        }
+      ]
     }
   ]
 }
