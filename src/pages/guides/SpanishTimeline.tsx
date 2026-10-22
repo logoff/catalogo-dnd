@@ -1,40 +1,11 @@
 import { Link } from 'react-router-dom'
 import { getAllProducts } from '@/services/dataLoader'
-import { formatDate } from '@/utils/formatters'
 import GuideLayout from './GuideLayout'
-
-interface TimelineEntry {
-  date: string
-  title: string
-  publisher?: string
-  to: string
-}
-
-// Todas las publicaciones en castellano con fecha, ordenadas cronológicamente
-function getSpanishTimeline(): TimelineEntry[] {
-  return getAllProducts()
-    .flatMap((product) => {
-      const editionPath = product.primaryEdition === '5e' ? '2014' : '2024'
-      return product.publications
-        .filter((pub) => pub.language === 'castellano' && pub.date)
-        .map((pub) => ({
-          date: pub.date!,
-          title: pub.title,
-          publisher: pub.publisher,
-          to: `/producto/${editionPath}/${product.code.toLowerCase()}`,
-        }))
-    })
-    .sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title))
-}
+import Timeline from './Timeline'
 
 export default function SpanishTimeline() {
-  const timeline = getSpanishTimeline()
-  const byYear = new Map<string, TimelineEntry[]>()
-  for (const entry of timeline) {
-    const year = entry.date.slice(0, 4)
-    byYear.set(year, [...(byYear.get(year) ?? []), entry])
-  }
-  const spanishProducts = getAllProducts().filter((p) => p.languages.includes('castellano'))
+  const products = getAllProducts()
+  const spanishProducts = products.filter((p) => p.languages.includes('castellano'))
 
   return (
     <GuideLayout
@@ -50,24 +21,12 @@ export default function SpanishTimeline() {
         menos retraso.
       </p>
       <p>
-        De los {getAllProducts().length} productos del catálogo, {spanishProducts.length} tienen
-        edición en castellano. Muchos suplementos y ambientaciones de 2014 nunca se tradujeron.
+        De los {products.length} productos del catálogo, {spanishProducts.length} tienen edición en
+        castellano. Muchos suplementos y ambientaciones de 2014 nunca se tradujeron; puedes
+        consultarlos en la <Link to="/guias/cronologia-ingles">cronología en inglés</Link>.
       </p>
 
-      {[...byYear].map(([year, entries]) => (
-        <section key={year}>
-          <h2>{year}</h2>
-          <ul>
-            {entries.map((entry) => (
-              <li key={`${entry.date}-${entry.title}`}>
-                <span className="text-gray-400">{formatDate(entry.date)}</span>:{' '}
-                <Link to={entry.to}>{entry.title}</Link>
-                {entry.publisher && <span className="text-gray-400"> ({entry.publisher})</span>}
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+      <Timeline language="castellano" showPublisher />
     </GuideLayout>
   )
 }

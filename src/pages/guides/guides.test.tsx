@@ -6,11 +6,13 @@ import { getProductByCodeAndEdition } from '@/services/dataLoader'
 import StartGuide from './StartGuide'
 import EditionsGuide from './EditionsGuide'
 import SpanishTimeline from './SpanishTimeline'
+import EnglishTimeline from './EnglishTimeline'
 
 const guides: Array<[string, ComponentType]> = [
   ['Por dónde empezar', StartGuide],
   ['2014 frente a 2024', EditionsGuide],
   ['Cronología en castellano', SpanishTimeline],
+  ['Cronología en inglés', EnglishTimeline],
 ]
 
 describe.each(guides)('%s', (_, Guide) => {
@@ -41,5 +43,23 @@ describe('Cronología en castellano', () => {
     expect(screen.getByRole('heading', { name: '2017' })).toBeInTheDocument()
     expect(screen.getAllByText("Player's Handbook: Manual del Jugador").length).toBeGreaterThan(0)
     expect(screen.queryByText("Player's Handbook")).not.toBeInTheDocument()
+  })
+})
+
+describe('Cronología en inglés', () => {
+  it('lista las publicaciones en inglés, sin duplicados y con los anunciados aparte', () => {
+    render(
+      <MemoryRouter>
+        <EnglishTimeline />
+      </MemoryRouter>
+    )
+    expect(screen.getByRole('heading', { name: '2014' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Anunciados, sin fecha' })).toBeInTheDocument()
+    expect(screen.queryByText('Manual del Jugador')).not.toBeInTheDocument()
+
+    const monsterManual2025 = screen
+      .getAllByRole('link', { name: 'Monster Manual' })
+      .filter((link) => link.getAttribute('href') === '/producto/2024/mm')
+    expect(monsterManual2025).toHaveLength(1)
   })
 })
