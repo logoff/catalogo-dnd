@@ -6,8 +6,8 @@ para trabajar con el código de este repositorio.
 ## Resumen del proyecto
 
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
-para las ediciones 5E (2014) y 5.5E (2024). Se despliega en GitHub Pages
-en <https://logoff.github.io/catalogo-dnd/>.
+para las ediciones 5E (2014) y 5.5E (2024). Se despliega en Cloudflare Pages
+en <https://catalogodnd.es/>.
 
 ## Comandos
 
@@ -53,8 +53,8 @@ de producto).
 
 **Alias de ruta:** `@` apunta a `./src` (configurado en vite.config.ts).
 
-**Base path:** `/catalogo-dnd/` en producción, `/` en desarrollo
-(vite.config.ts).
+**Despliegue:** Cloudflare Pages (proyecto `catalogodnd`) en
+`catalogodnd.es`; el base path es `/` en todos los entornos.
 
 ## Pre-commit
 

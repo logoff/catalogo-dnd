@@ -96,7 +96,7 @@ docker-stop:
 
 # === Despliegue ===
 
-# Lanzar deploy a GitHub Pages (via GitHub Actions)
+# Lanzar deploy a Cloudflare Pages (via GitHub Actions)
 deploy:
     gh workflow run deploy.yml
     @echo "Deploy iniciado. Ver progreso en: https://github.com/logoff/catalogo-dnd/actions"

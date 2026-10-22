@@ -17,7 +17,7 @@ function umami(url?: string, websiteId?: string): Plugin {
             defer: true,
             src: `${url.replace(/\/$/, '')}/script.js`,
             'data-website-id': websiteId,
-            'data-domains': 'logoff.github.io',
+            'data-domains': 'catalogodnd.es',
           },
           injectTo: 'head',
         },
@@ -27,13 +27,11 @@ function umami(url?: string, websiteId?: string): Plugin {
 }
 
 // https://vite.dev/config/
-export default defineConfig(({ command, mode, isPreview }) => {
+export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_UMAMI_')
 
   return {
     plugins: [react(), tailwindcss(), umami(env.VITE_UMAMI_URL, env.VITE_UMAMI_WEBSITE_ID)],
-    // `vite preview` también usa command 'serve', pero sirve el build de producción
-    base: command === 'serve' && !isPreview ? '/' : '/catalogo-dnd/',
     resolve: {
       alias: {
         '@': resolve(import.meta.dirname, './src'),

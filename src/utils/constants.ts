@@ -2,7 +2,7 @@ export const BASE_PATH = import.meta.env.BASE_URL
 export const SITE_NAME = 'Catálogo D&D 5E'
 export const SITE_DESCRIPTION =
   'Catálogo completo de productos Dungeons & Dragons 5ª edición y 5.5 (2024)'
-export const SITE_URL = 'https://logoff.github.io/catalogo-dnd'
+export const SITE_URL = 'https://catalogodnd.es'
 
 export const PLACEHOLDER_IMAGE =
   'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/240px-Imagen_no_disponible.svg.png'
