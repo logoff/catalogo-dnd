@@ -46,6 +46,10 @@ jobs:
         env:
           VITE_UMAMI_URL: ${{ secrets.UMAMI_URL }}
           VITE_UMAMI_WEBSITE_ID: ${{ secrets.UMAMI_WEBSITE_ID }}
+          VITE_AFFILIATE_AMAZON_TAG: ${{ secrets.AFFILIATE_AMAZON_TAG }}
+          VITE_AFFILIATE_ADTRACTION_CHANNEL: ${{ secrets.AFFILIATE_ADTRACTION_CHANNEL }}
+          VITE_AFFILIATE_GENERACION_X_PROGRAM: ${{ secrets.AFFILIATE_GENERACION_X_PROGRAM }}
+          VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM: ${{ secrets.AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM }}
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
