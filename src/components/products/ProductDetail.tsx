@@ -24,17 +24,18 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   return (
     <div className="space-y-8">
       {product.publications.map((publication, index) => (
-        <PublicationSection key={index} publication={publication} />
+        <PublicationSection key={index} product={product} publication={publication} />
       ))}
     </div>
   )
 }
 
 interface PublicationSectionProps {
+  product: ProductWithMeta
   publication: Publication
 }
 
-function PublicationSection({ publication }: PublicationSectionProps) {
+function PublicationSection({ product, publication }: PublicationSectionProps) {
   const images = publication.images?.length ? publication.images : [PLACEHOLDER_IMAGE]
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(0)
@@ -148,7 +149,12 @@ function PublicationSection({ publication }: PublicationSectionProps) {
               </p>
               <div className="flex flex-wrap gap-2">
                 {purchaseLinks.map((link) => (
-                  <PurchaseButton key={link.url} link={link} />
+                  <PurchaseButton
+                    key={link.url}
+                    link={link}
+                    product={product}
+                    publication={publication}
+                  />
                 ))}
               </div>
             </div>
@@ -211,8 +217,15 @@ const buttonClasses = `
   transition-all duration-200
 `
 
-function PurchaseButton({ link }: { link: PurchaseLink }) {
+interface PurchaseButtonProps {
+  link: PurchaseLink
+  product: ProductWithMeta
+  publication: Publication
+}
+
+function PurchaseButton({ link, product, publication }: PurchaseButtonProps) {
   const { label, image, color } = STORES[link.store]
+  const edition = product.primaryEdition === '5e' ? '2014' : '2024'
 
   return (
     <a
@@ -220,6 +233,13 @@ function PurchaseButton({ link }: { link: PurchaseLink }) {
       target="_blank"
       rel="sponsored noopener noreferrer"
       className={`${buttonClasses} bg-linear-to-r ${color}`}
+      // Evento de Umami: clic en un enlace de compra, con la URL sin parámetros de afiliado
+      data-umami-event="comprar"
+      data-umami-event-tienda={link.store}
+      data-umami-event-producto={`${edition}/${product.code}`}
+      data-umami-event-publicacion={publication.title}
+      data-umami-event-idioma={publication.language}
+      data-umami-event-url={link.url}
     >
       {image ? (
         <img src={getAssetPath(image)} alt="" className="h-4" />

@@ -51,6 +51,11 @@ describe('ProductDetail', () => {
     const amazon = screen.getByRole('link', { name: 'Comprar en Amazon' })
     expect(amazon).toHaveAttribute('href', 'https://www.amazon.es/dp/0786965606')
     expect(amazon).toHaveAttribute('rel', 'sponsored noopener noreferrer')
+    expect(amazon).toHaveAttribute('data-umami-event', 'comprar')
+    expect(amazon).toHaveAttribute('data-umami-event-tienda', 'amazon')
+    expect(amazon).toHaveAttribute('data-umami-event-producto', '2014/PHB')
+    expect(amazon).toHaveAttribute('data-umami-event-publicacion', "Player's Handbook")
+    expect(amazon).toHaveAttribute('data-umami-event-url', 'https://www.amazon.es/dp/0786965606')
     expect(screen.getByRole('link', { name: /Comprar en Generación X/ })).toHaveAttribute(
       'href',
       'https://www.generacionx.es/phb'
