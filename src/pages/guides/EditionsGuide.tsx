@@ -6,7 +6,7 @@ const equivalences: Array<{ code2014: string; code2024: string; note: string }> 
   {
     code2014: 'MM',
     code2024: 'MM',
-    note: 'Bloques de estadísticas revisados, hábitats y tesoros.',
+    note: 'Perfiles revisados, hábitats y tesoros.',
   },
   { code2014: 'DOSI', code2024: 'HotB', note: 'La caja de inicio pasa a usar tableros y cartas.' },
   { code2014: 'VRGR', code2024: 'RtHW', note: 'Los Dominios del Terror, adaptados a 2024.' },
@@ -47,7 +47,7 @@ export default function EditionsGuide() {
       <h3>Reglas de juego</h3>
       <ul>
         <li>
-          Las <strong>maestrías de armas</strong> dan a cada arma un efecto especial que pueden usar
+          La <strong>maestría con armas</strong> da a cada arma un efecto especial que pueden usar
           las clases marciales, lo que hace el combate con armas más variado.
         </li>
         <li>
@@ -55,7 +55,7 @@ export default function EditionsGuide() {
           más contenidos.
         </li>
         <li>
-          El <strong>agotamiento</strong> se simplifica: cada nivel resta 2 a las pruebas con d20 y
+          El <strong>cansancio</strong> se simplifica: cada nivel resta 2 a las pruebas con d20 y
           reduce la velocidad.
         </li>
         <li>
@@ -70,7 +70,7 @@ export default function EditionsGuide() {
           <strong>bastiones</strong>, fortalezas que los personajes pueden construir y gestionar.
         </li>
         <li>
-          El Manual de Monstruos trae <strong>bloques de estadísticas</strong> más fáciles de usar,
+          El Manual de Monstruos trae <strong>perfiles</strong> de criaturas más fáciles de usar,
           con información de hábitat y tesoro.
         </li>
       </ul>
