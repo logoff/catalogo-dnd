@@ -25,9 +25,12 @@ resto son opcionales pero debes intentar cubrirlos todos.
 **Producto:**
 
 - **code** (R): Código corto en mayúsculas (ej. "PHB", "VGM", "HOTB")
-- **description**: Texto propio sobre el producto (de qué va, para quién
-  es, diferencias con otras ediciones). Los párrafos se separan con una
-  línea en blanco (`\n\n`). No lo inventes: pídeselo al usuario
+- **description** (R): Texto propio sobre el producto, dos párrafos
+  separados por una línea en blanco (`\n\n`): qué es y qué contiene, y
+  para quién es, con qué otros productos se relaciona y si está en
+  castellano. Basa los datos en la página oficial del producto, no los
+  inventes, y pide al usuario que revise el texto. Un test comprueba que
+  todos los productos la tengan
 
 **Por cada publicación** (puede haber varias: inglés, castellano,
 portada alternativa...):

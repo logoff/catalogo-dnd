@@ -3,6 +3,7 @@ import MetaTags from '@/components/seo/MetaTags'
 import { useProductStore } from '@/store/productStore'
 import ProductGrid from '@/components/products/ProductGrid'
 import { getAssetPath } from '@/utils/constants'
+import { GuideCards } from './GuidesPage'
 
 export default function HomePage() {
   const products = useProductStore((state) => state.products)
@@ -55,6 +56,19 @@ export default function HomePage() {
               <span className="text-gray-400">de 5.5E (2024)</span>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Guides */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="font-display text-2xl text-dnd-gold">Guías</h2>
+            <Link to="/guias" className="text-dnd-gold hover:text-dnd-gold-light">
+              Ver todas &rarr;
+            </Link>
+          </div>
+          <GuideCards />
         </div>
       </section>
 

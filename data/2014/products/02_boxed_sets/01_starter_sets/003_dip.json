@@ -1,5 +1,6 @@
 {
   "code": "DIP",
+  "description": "El Kit Esencial es una caja de inicio más completa que la original: incluye reglas para crear personajes desde cero, una pantalla del Dungeon Master, mapa, cartas y dados, y la aventura El Dragón del Pico Agujahelada para los niveles 1 a 6. También trae reglas para jugar con un único jugador y un Dungeon Master, con compañeros de apoyo.\n\nEs una de las mejores opciones para empezar si se quiere crear personajes propios en lugar de usar pregenerados. En castellano lo publicó Wizards of the Coast en 2021.",
   "publications": [
     {
       "type": "boxed_set",
@@ -110,7 +111,7 @@
           "images": ["/images/products/2014/dip/pub1_sub0_img0.jpg"]
         },
         {
-          "title": "El Drágon del Pico Agujahelada",
+          "title": "El Dragón del Pico Agujahelada",
           "pages": 68,
           "images": ["/images/products/2014/dip/pub1_sub1_img0.jpg"]
         },
