@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/treasury-dragons",
       "wpn_url": "https://wpn.wizards.com/en/products/fizbans-treasury-of-dragons-",
       "openlibrary_url": "https://openlibrary.org/books/OL34240880M",
-      "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-DDN/dp/0786967293"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-DDN/dp/0786967293"
+        }
+      ]
     },
     {
       "type": "book",
@@ -39,7 +44,12 @@
         "/images/products/2014/ftd/pub1_img1.jpg"
       ],
       "official_url": "https://dnd.wizards.com/es/products/treasury-dragons",
-      "amazon_link": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-Versi%C3%B3n/dp/0786968850"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-Versi%C3%B3n/dp/0786968850"
+        }
+      ]
     }
   ]
 }

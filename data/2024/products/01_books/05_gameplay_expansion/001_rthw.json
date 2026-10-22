@@ -15,7 +15,12 @@
       "images": ["/images/products/2024/rthw/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/BB-Ravenloft-WK15/6015000",
       "wpn_url": "https://wpn.wizards.com/en/products/ravenloft-the-horrors-within?product=1jxzeyz5rwu0CxzKD5D4WD",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Gameplay-Expansion/dp/0786970022"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Gameplay-Expansion/dp/0786970022"
+        }
+      ]
     },
     {
       "type": "book",
@@ -29,7 +34,12 @@
       "isbn13": 9780786970032,
       "images": ["/images/products/2024/rthw/pub1_img0.png"],
       "wpn_url": "https://wpn.wizards.com/en/products/ravenloft-the-horrors-within?product=QLavnhStHtjVstBFds5ay",
-      "amazon_link": "https://www.amazon.com/Dungeons-Dragons-Ravenloft-Horrors-Within/dp/0786970030"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.com/Dungeons-Dragons-Ravenloft-Horrors-Within/dp/0786970030"
+        }
+      ]
     },
     {
       "type": "book",
@@ -46,7 +56,12 @@
         "/images/products/2024/rthw/pub2_img0.jpg",
         "/images/products/2024/rthw/pub2_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Horrors-expansi%C3%B3n/dp/0786970359"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Horrors-expansi%C3%B3n/dp/0786970359"
+        }
+      ]
     }
   ]
 }

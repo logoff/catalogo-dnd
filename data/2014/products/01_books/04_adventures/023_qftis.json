@@ -19,7 +19,12 @@
       ],
       "official_url": "https://dndstore.wizards.com/eu/product/928659/quests-from-the-infinite-staircase-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/quests-from-the-infinite-staircase",
-      "amazon_link": "https://www.amazon.es/Infinite-Staircase-Dungeons-antolog%C3%ADa-aventuras/dp/0786969490"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Infinite-Staircase-Dungeons-antolog%C3%ADa-aventuras/dp/0786969490"
+        }
+      ]
     }
   ]
 }

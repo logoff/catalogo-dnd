@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/ghosts-saltmarsh",
       "wpn_url": "https://wpn.wizards.com/en/products/ghosts-of-saltmarsh?product=1tGXmqb8FzImxGmZckYC5k",
       "openlibrary_url": "https://openlibrary.org/books/OL28418506M",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Saltmarsh-Hardcover-Adventure/dp/0786966750"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Saltmarsh-Hardcover-Adventure/dp/0786966750"
+        }
+      ]
     },
     {
       "type": "book",
@@ -35,7 +40,12 @@
       "publisher": "Edge Entertainment / Gale Force Nine",
       "isbn13": 8435407631175,
       "images": ["/images/products/2014/gos/pub1_img0.jpg"],
-      "amazon_link": "https://www.amazon.es/Gale-Force-Nine-Fantasmas-Saltmarsh/dp/B09TBGGTC3"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Gale-Force-Nine-Fantasmas-Saltmarsh/dp/B09TBGGTC3"
+        }
+      ]
     }
   ]
 }

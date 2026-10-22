@@ -25,6 +25,9 @@ resto son opcionales pero debes intentar cubrirlos todos.
 **Producto:**
 
 - **code** (R): Código corto en mayúsculas (ej. "PHB", "VGM", "HOTB")
+- **description**: Texto propio sobre el producto (de qué va, para quién
+  es, diferencias con otras ediciones). Los párrafos se separan con una
+  línea en blanco (`\n\n`). No lo inventes: pídeselo al usuario
 
 **Por cada publicación** (puede haber varias: inglés, castellano,
 portada alternativa...):
@@ -50,7 +53,10 @@ portada alternativa...):
 - **official_url**: URL oficial del producto
 - **wpn_url**: URL de Wizards Play Network
 - **openlibrary_url**: URL de OpenLibrary
-- **amazon_link**: URL de Amazon
+- **purchase_links**: Array de `{ "store", "url" }` con la URL normal del
+  producto en cada tienda (sin parámetros de afiliado; se añaden en
+  `src/utils/stores.ts`). Tiendas: `amazon`, `generacion_x`,
+  `juegos_mesa_redonda`
 
 **Sub-publicaciones** (solo para boxed_set con componentes):
 
@@ -158,7 +164,7 @@ Usa 2 espacios de indentación. Asegúrate de que:
       ],
       "official_url": "https://marketplace.dndbeyond.com/core-rules/3709000",
       "wpn_url": "https://wpn.wizards.com/en/products/2024-players-handbook",
-      "amazon_link": "https://www.amazon.es/dp/0786969512"
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786969512" }]
     },
     {
       "type": "book",

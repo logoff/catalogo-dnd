@@ -29,6 +29,13 @@ export type Edition = '5e' | '2024'
 
 export type Language = 'english' | 'castellano'
 
+export type Store = 'amazon' | 'generacion_x' | 'juegos_mesa_redonda'
+
+export interface PurchaseLink {
+  store: Store
+  url: string
+}
+
 export interface SubPublication {
   title: string
   pages?: number
@@ -51,12 +58,13 @@ export interface Publication {
   official_url?: string
   wpn_url?: string
   openlibrary_url?: string
-  amazon_link?: string
+  purchase_links?: PurchaseLink[]
   sub_publications?: SubPublication[]
 }
 
 export interface Product {
   code: string
+  description?: string
   publications: Publication[]
 }
 

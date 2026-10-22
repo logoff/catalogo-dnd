@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/eberron",
       "wpn_url": "https://wpn.wizards.com/en/products/eberron-rising-from-the-last-war-",
       "openlibrary_url": "https://openlibrary.org/books/OL30671149M",
-      "amazon_link": "https://www.amazon.es/Eberron-Campaign-Setting-Adventure-Dungeons/dp/0786966890"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Eberron-Campaign-Setting-Adventure-Dungeons/dp/0786966890"
+        }
+      ]
     }
   ]
 }

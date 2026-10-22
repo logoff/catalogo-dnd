@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/icewind-dale-rime-frostmaiden",
       "wpn_url": "https://wpn.wizards.com/en/products/icewind-dale-rime-of-the-frostmaiden",
       "openlibrary_url": "https://openlibrary.org/books/OL36000508M",
-      "amazon_link": "https://www.amazon.es/Icewind-Dale-Frostmaiden-Adventure-Dungeons/dp/078696698X"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Icewind-Dale-Frostmaiden-Adventure-Dungeons/dp/078696698X"
+        }
+      ]
     }
   ]
 }

@@ -37,7 +37,12 @@
       ],
       "wpn_url": "https://wpn.wizards.com/en/products/tyranny-of-dragons",
       "openlibrary_url": "https://openlibrary.org/books/OL42717559M",
-      "amazon_link": "https://www.amazon.es/RPG-TYRANNY-DRAGONS-HC-Adventure/dp/0786968656"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/RPG-TYRANNY-DRAGONS-HC-Adventure/dp/0786968656"
+        }
+      ]
     }
   ]
 }

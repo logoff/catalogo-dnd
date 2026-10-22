@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/acquisitions-incorporated",
       "wpn_url": "https://wpn.wizards.com/en/products/acquisitions-incorporated",
       "openlibrary_url": "https://openlibrary.org/books/OL34402051M",
-      "amazon_link": "https://www.amazon.es/Dungeons-Acquisitions-Incorporated-Accessory-Hardcover/dp/0786966904"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Acquisitions-Incorporated-Accessory-Hardcover/dp/0786966904"
+        }
+      ]
     }
   ]
 }

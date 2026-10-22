@@ -19,7 +19,12 @@
       "official_url": "https://dnd.wizards.com/products/spelljammer",
       "wpn_url": "https://wpn.wizards.com/en/products/spelljammers-adventures-in-space",
       "openlibrary_url": "https://openlibrary.org/books/OL37928896M",
-      "amazon_link": "https://www.amazon.es/Spelljammer-Adventures-colecci%C3%B3n-escenario-Roleplaying/dp/0786968168",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Spelljammer-Adventures-colecci%C3%B3n-escenario-Roleplaying/dp/0786968168"
+        }
+      ],
       "sub_publications": [
         {
           "title": "Astral Adventurer's Guide",

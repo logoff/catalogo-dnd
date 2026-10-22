@@ -20,7 +20,12 @@
       "official_url": "https://dndstore.wizards.com/eu/product/820932/phandelver-and-below-the-shattered-obelisk-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/phandelver-and-below-the-shattered-obelisk",
       "openlibrary_url": "https://openlibrary.org/books/OL48980524M",
-      "amazon_link": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Adventure/dp/0786969008"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Adventure/dp/0786969008"
+        }
+      ]
     },
     {
       "type": "book",
@@ -38,7 +43,12 @@
         "/images/products/2014/pabtso/pub1_img0.jpg",
         "/images/products/2014/pabtso/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Dungeons/dp/0786969458"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Dungeons/dp/0786969458"
+        }
+      ]
     }
   ]
 }

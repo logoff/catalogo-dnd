@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/out-of-the-abyss",
       "wpn_url": "https://wpn.wizards.com/en/products/out-of-the-abyss",
       "openlibrary_url": "https://openlibrary.org/books/OL29720511M",
-      "amazon_link": "https://www.amazon.es/Abyss-Dungeons-Dragons-Wizards-Team/dp/0786965819"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Abyss-Dungeons-Dragons-Wizards-Team/dp/0786965819"
+        }
+      ]
     }
   ]
 }

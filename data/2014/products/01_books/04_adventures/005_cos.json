@@ -19,7 +19,12 @@
       ],
       "wpn_url": "https://wpn.wizards.com/en/products/curse-of-strahd",
       "openlibrary_url": "https://openlibrary.org/books/OL26806048M",
-      "amazon_link": "https://www.amazon.es/Curse-Strahd-Dungeons-Sourcebook-Supplement/dp/0786965983"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Curse-Strahd-Dungeons-Sourcebook-Supplement/dp/0786965983"
+        }
+      ]
     },
     {
       "type": "book",
@@ -37,7 +42,12 @@
         "/images/products/2014/cos/pub1_img0.jpg",
         "/images/products/2014/cos/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Edge-Entertainment-Maldici%C3%B3n-Asmodee-EEWCDD07/dp/B07QH1YRRD"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Edge-Entertainment-Maldici%C3%B3n-Asmodee-EEWCDD07/dp/B07QH1YRRD"
+        }
+      ]
     },
     {
       "type": "book",
@@ -56,7 +66,12 @@
         "/images/products/2014/cos/pub2_img1.jpg"
       ],
       "official_url": "https://dnd.wizards.com/es/products/curse-strahd-revamped",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Maldici%C3%B3n-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967919"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Maldici%C3%B3n-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967919"
+        }
+      ]
     }
   ]
 }

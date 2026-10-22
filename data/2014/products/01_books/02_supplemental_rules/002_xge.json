@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/xanathars-guide-everything",
       "wpn_url": "https://wpn.wizards.com/en/products/xanathars-guide-to-everything",
       "openlibrary_url": "https://openlibrary.org/books/OL26806050M",
-      "amazon_link": "https://www.amazon.es/Xanathars-Guide-Everything-Wizards-Team/dp/0786966114"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Xanathars-Guide-Everything-Wizards-Team/dp/0786966114"
+        }
+      ]
     },
     {
       "type": "book",
@@ -38,7 +43,12 @@
         "/images/products/2014/xge/pub1_img0.jpg",
         "/images/products/2014/xge/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Gu%C3%ADa-Monstruos-EEWCDD13/dp/B08L9SD9DY"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Gu%C3%ADa-Monstruos-EEWCDD13/dp/B08L9SD9DY"
+        }
+      ]
     },
     {
       "type": "book",
@@ -57,7 +67,12 @@
         "/images/products/2014/xge/pub2_img1.jpg"
       ],
       "official_url": "https://dnd.wizards.com/es/products/xanathars-guide-everything",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Xanathar-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967846"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Xanathar-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967846"
+        }
+      ]
     }
   ]
 }

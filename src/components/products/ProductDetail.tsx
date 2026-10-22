@@ -4,13 +4,15 @@ import {
   BookOpenIcon,
   ArrowTopRightOnSquareIcon,
   SparklesIcon,
+  ShoppingCartIcon,
 } from '@heroicons/react/24/outline'
-import type { ProductWithMeta, Publication, SubPublication } from '@/types'
+import type { ProductWithMeta, Publication, PurchaseLink, SubPublication } from '@/types'
 import { LanguageBadge, TypeBadge, EditionBadge } from '../common/Badge'
 import ImageLightbox from '../common/ImageLightbox'
 import { translateSubtype } from '@/utils/translations'
 import { formatDate, formatISBN } from '@/utils/formatters'
 import { PLACEHOLDER_IMAGE, getAssetPath } from '@/utils/constants'
+import { STORES, getPurchaseUrl } from '@/utils/stores'
 import LazyImage from '../common/LazyImage'
 
 interface ProductDetailProps {
@@ -72,6 +74,8 @@ function PublicationSection({ publication }: PublicationSectionProps) {
     hoverColor: string
   }>
 
+  const purchaseLinks = publication.purchase_links ?? []
+
   return (
     <div className="card-dnd p-6 animate-slide-up">
       {/* Title */}
@@ -131,8 +135,20 @@ function PublicationSection({ publication }: PublicationSectionProps) {
             <DataRow label="Código de artículo" value={publication.item_code} />
           )}
 
+          {/* Purchase links */}
+          {purchaseLinks.length > 0 && (
+            <div className="pt-4">
+              <p className="font-semibold text-gray-100 mb-3">Dónde comprar</p>
+              <div className="flex flex-wrap gap-2">
+                {purchaseLinks.map((link) => (
+                  <PurchaseButton key={link.url} link={link} />
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Links - styled cards */}
-          {(links.length > 0 || publication.amazon_link) && (
+          {links.length > 0 && (
             <div className="pt-4">
               <p className="font-semibold text-gray-100 mb-3">Enlaces externos</p>
               <div className="flex flex-wrap gap-2">
@@ -156,28 +172,6 @@ function PublicationSection({ publication }: PublicationSectionProps) {
                     <ArrowTopRightOnSquareIcon className="h-3 w-3 opacity-60 group-hover:opacity-100 transition-opacity" />
                   </a>
                 ))}
-                {publication.amazon_link && (
-                  <a
-                    href={publication.amazon_link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group inline-flex items-center gap-2 px-4 py-2 rounded-lg
-                      bg-linear-to-r from-[#131A22] to-[#232f3e]
-                      hover:from-[#232f3e] hover:to-[#131A22]
-                      text-white text-sm font-medium
-                      shadow-md hover:shadow-lg
-                      transform hover:scale-105 hover:-translate-y-0.5
-                      transition-all duration-200"
-                  >
-                    <img
-                      src={getAssetPath('images/disponible_en_amazon.png')}
-                      alt="Comprar en Amazon"
-                      className="h-4"
-                    />
-                    <span>Comprar en Amazon</span>
-                    <ArrowTopRightOnSquareIcon className="h-3 w-3 opacity-60 group-hover:opacity-100 transition-opacity" />
-                  </a>
-                )}
               </div>
             </div>
           )}
@@ -199,6 +193,35 @@ function PublicationSection({ publication }: PublicationSectionProps) {
         onClose={() => setLightboxOpen(false)}
       />
     </div>
+  )
+}
+
+const buttonClasses = `
+  group inline-flex items-center gap-2 px-4 py-2 rounded-lg
+  text-white text-sm font-medium
+  shadow-md hover:shadow-lg
+  transform hover:scale-105 hover:-translate-y-0.5
+  transition-all duration-200
+`
+
+function PurchaseButton({ link }: { link: PurchaseLink }) {
+  const { label, image, color } = STORES[link.store]
+
+  return (
+    <a
+      href={getPurchaseUrl(link.store, link.url)}
+      target="_blank"
+      rel="sponsored noopener noreferrer"
+      className={`${buttonClasses} bg-linear-to-r ${color}`}
+    >
+      {image ? (
+        <img src={getAssetPath(image)} alt="" className="h-4" />
+      ) : (
+        <ShoppingCartIcon className="h-4 w-4" />
+      )}
+      <span>Comprar en {label}</span>
+      <ArrowTopRightOnSquareIcon className="h-3 w-3 opacity-60 group-hover:opacity-100 transition-opacity" />
+    </a>
   )
 }
 

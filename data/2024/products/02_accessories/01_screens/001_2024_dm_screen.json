@@ -17,7 +17,12 @@
       ],
       "official_url": "https://marketplace.dndbeyond.com/category/D3897000",
       "wpn_url": "https://wpn.wizards.com/en/products/2024-dungeon-masters-screen",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Accssories/dp/0786969814/"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Accssories/dp/0786969814/"
+        }
+      ]
     }
   ]
 }

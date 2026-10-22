@@ -20,7 +20,12 @@
       "official_url": "https://dnd.wizards.com/products/mythic-odysseys-theros",
       "wpn_url": "https://wpn.wizards.com/en/products/mythic-odysseys-of-theros",
       "openlibrary_url": "https://openlibrary.org/books/OL36344975M",
-      "amazon_link": "https://www.amazon.es/MYTHIC-ODYSSEYS-THEROS-Dungeons-Dragons/dp/0786967013"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/MYTHIC-ODYSSEYS-THEROS-Dungeons-Dragons/dp/0786967013"
+        }
+      ]
     }
   ]
 }

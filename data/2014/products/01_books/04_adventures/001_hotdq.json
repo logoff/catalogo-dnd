@@ -18,7 +18,12 @@
         "/images/products/2014/hotdq/pub0_img1.jpg"
       ],
       "openlibrary_url": "https://openlibrary.org/books/OL26806045M",
-      "amazon_link": "https://www.amazon.es/Tyranny-Dragons-Hoard-Dragon-Adventure/dp/0786965649"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Tyranny-Dragons-Hoard-Dragon-Adventure/dp/0786965649"
+        }
+      ]
     }
   ]
 }

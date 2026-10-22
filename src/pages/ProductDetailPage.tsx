@@ -35,7 +35,10 @@ export default function ProductDetailPage() {
     <>
       <MetaTags
         title={product.primaryTitle}
-        description={`${product.primaryTitle} - ${editionLabel}. ${product.publications.length} ediciones disponibles.`}
+        description={
+          product.description ??
+          `${product.primaryTitle} - ${editionLabel}. ${product.publications.length} ediciones disponibles.`
+        }
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -59,6 +62,13 @@ export default function ProductDetailPage() {
             Código: {product.code} · {product.publications.length} edición
             {product.publications.length !== 1 ? 'es' : ''}
           </p>
+          {product.description && (
+            <div className="mt-4 max-w-3xl space-y-3 text-gray-300 leading-relaxed">
+              {product.description.split(/\n\s*\n/).map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Product details */}

@@ -16,7 +16,12 @@
       "official_url": "https://dndstore.wizards.com/eu/product/820945/planescape-adventures-in-the-multiverse-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/planescape-adventures-in-the-multiverse",
       "openlibrary_url": "https://openlibrary.org/books/OL49308962M",
-      "amazon_link": "https://www.amazon.es/RPG-PLANESCAPE-ADV-MULTIVERSE-Adventures/dp/0786969040",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/RPG-PLANESCAPE-ADV-MULTIVERSE-Adventures/dp/0786969040"
+        }
+      ],
       "sub_publications": [
         {
           "title": "Turn of Fortune's Wheel",

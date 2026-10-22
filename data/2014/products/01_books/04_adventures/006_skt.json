@@ -19,7 +19,12 @@
       ],
       "wpn_url": "https://wpn.wizards.com/en/products/storm-kings-thunder",
       "openlibrary_url": "https://openlibrary.org/books/OL26967452M",
-      "amazon_link": "https://www.amazon.es/STORM-KINGS-THUNDER-Dungeons-Dragons/dp/0786966009"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/STORM-KINGS-THUNDER-Dungeons-Dragons/dp/0786966009"
+        }
+      ]
     },
     {
       "type": "book",
@@ -37,7 +42,12 @@
         "/images/products/2014/skt/pub1_img0.jpg",
         "/images/products/2014/skt/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Tormenta-Asmodee-EEWCDD14/dp/B0925NT31Z"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Tormenta-Asmodee-EEWCDD14/dp/B0925NT31Z"
+        }
+      ]
     }
   ]
 }

@@ -19,7 +19,12 @@
       ],
       "official_url": "https://marketplace.dndbeyond.com/core-rules/3709000",
       "wpn_url": "https://wpn.wizards.com/en/products/2024-players-handbook?product=3KKHKAgA7Fjiwg3enZtstH",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Rulebook/dp/0786969512"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Rulebook/dp/0786969512"
+        }
+      ]
     },
     {
       "type": "book",
@@ -49,7 +54,12 @@
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786969685,
       "images": ["/images/products/2024/phb/pub2_img0.jpg"],
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Versi%C3%B3n/dp/0786969687"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Players-Handbook-Versi%C3%B3n/dp/0786969687"
+        }
+      ]
     }
   ]
 }

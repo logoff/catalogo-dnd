@@ -19,7 +19,12 @@
       ],
       "official_url": "https://dndstore.wizards.com/us/en/product/924703/vecna-eve-of-ruin-digital-plus-physical-bundle",
       "wpn_url": "https://wpn.wizards.com/en/products/vecna-eve-of-ruin",
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-Aventura-Versi%C3%B3n-Adventure/dp/0786969474"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-Aventura-Versi%C3%B3n-Adventure/dp/0786969474"
+        }
+      ]
     },
     {
       "type": "book",
@@ -37,7 +42,12 @@
         "/images/products/2014/veor/pub1_img0.jpg",
         "/images/products/2014/veor/pub1_img1.jpg"
       ],
-      "amazon_link": "https://www.amazon.es/Dungeons-Dragons-V%C3%ADspera-Destrucci%C3%B3n-aventura/dp/078696958X"
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/Dungeons-Dragons-V%C3%ADspera-Destrucci%C3%B3n-aventura/dp/078696958X"
+        }
+      ]
     }
   ]
 }
