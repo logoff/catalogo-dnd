@@ -6,7 +6,7 @@ import { dirname } from 'path'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-const SITE_URL = 'https://logoff.co/catalogo-dnd'
+const SITE_URL = 'https://catalogodnd.es'
 const DATA_DIR = join(__dirname, '..', 'data')
 const OUTPUT_DIR = join(__dirname, '..', 'dist')
 
