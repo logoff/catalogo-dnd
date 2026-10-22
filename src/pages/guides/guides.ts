@@ -21,4 +21,10 @@ export const GUIDES: Guide[] = [
     title: 'D&D en castellano: cronología',
     summary: 'Todo lo publicado en castellano de la quinta edición, por fecha y editorial.',
   },
+  {
+    slug: 'cronologia-ingles',
+    title: 'D&D en inglés: cronología',
+    summary:
+      'Todo lo publicado en inglés de la quinta edición, incluidas las novedades anunciadas.',
+  },
 ]
