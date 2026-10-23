@@ -100,3 +100,7 @@ docker-stop:
 deploy:
     gh workflow run deploy.yml
     @echo "Deploy iniciado. Ver progreso en: https://github.com/logoff/catalogo-dnd/actions"
+
+# Avisar a los buscadores de IndexNow (Bing...) de todas las URLs del sitemap publicado
+indexnow:
+    node scripts/indexnow.mjs
