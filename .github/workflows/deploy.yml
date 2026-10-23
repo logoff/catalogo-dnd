@@ -31,6 +31,9 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # Hace falta el commit anterior para ver qué ha cambiado
+          fetch-depth: 2
 
       - name: Setup Node.js
         uses: actions/setup-node@v7
@@ -57,3 +60,19 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist --project-name=catalogodnd --branch=main --commit-dirty=true
+
+      - name: Check content changes
+        id: content
+        if: github.event_name == 'push'
+        run: |
+          if git diff --quiet HEAD~1 HEAD -- data/ src/pages/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Avisa a Bing y al resto de buscadores de IndexNow; si falla, el despliegue ya está hecho
+      - name: Notify IndexNow
+        if: steps.content.outputs.changed == 'true'
+        continue-on-error: true
+        run: node scripts/indexnow.mjs
