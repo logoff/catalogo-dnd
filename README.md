@@ -40,6 +40,7 @@ Abrir <http://localhost:5173/>.
 - `just preview` - Previsualizar build
 - `just docker-run` - Ejecutar con Docker
 - `just deploy` - Publicar en Cloudflare Pages
+- `just indexnow` - Avisar a Bing y otros buscadores (IndexNow) de todas las URLs del sitemap
 
 ## Despliegue
 
