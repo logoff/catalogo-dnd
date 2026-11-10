@@ -7,12 +7,14 @@ import StartGuide from './StartGuide'
 import EditionsGuide from './EditionsGuide'
 import SpanishTimeline from './SpanishTimeline'
 import EnglishTimeline from './EnglishTimeline'
+import SpanishReleases from './SpanishReleases'
 
 const guides: Array<[string, ComponentType]> = [
   ['Por dónde empezar', StartGuide],
   ['2014 frente a 2024', EditionsGuide],
   ['Cronología en castellano', SpanishTimeline],
   ['Cronología en inglés', EnglishTimeline],
+  ['Cuándo sale en castellano', SpanishReleases],
 ]
 
 describe.each(guides)('%s', (_, Guide) => {
@@ -61,5 +63,22 @@ describe('Cronología en inglés', () => {
       .getAllByRole('link', { name: 'Monster Manual' })
       .filter((link) => link.getAttribute('href') === '/producto/2024/mm')
     expect(monsterManual2025).toHaveLength(1)
+  })
+})
+
+describe('Cuándo sale en castellano', () => {
+  it('muestra cada novedad con su fecha en castellano o como pendiente', () => {
+    render(
+      <MemoryRouter>
+        <SpanishReleases />
+      </MemoryRouter>
+    )
+    const row = (name: string) => screen.getByRole('link', { name }).closest('tr')!
+    expect(row("Player's Handbook")).toHaveTextContent('31 de marzo de 2025')
+    expect(row("Player's Handbook")).toHaveTextContent('Manual del Jugador')
+    expect(row('Stranger Things: Welcome to the Hellfire Club')).toHaveTextContent('Sin anunciar')
+    expect(
+      screen.queryByRole('link', { name: "2024 Dungeon Master's Screen" })
+    ).not.toBeInTheDocument()
   })
 })

@@ -53,6 +53,12 @@ function generateSitemap() {
     { loc: '/guias/2014-vs-2024', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/cronologia-castellano', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/cronologia-ingles', priority: 0.8, changefreq: 'monthly', lastmod: today },
+    {
+      loc: '/guias/cuando-sale-en-castellano',
+      priority: 0.9,
+      changefreq: 'weekly',
+      lastmod: today,
+    },
     { loc: '/aviso-legal', priority: 0.3, changefreq: 'yearly', lastmod: today },
   ]
 

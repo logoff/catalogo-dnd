@@ -11,6 +11,7 @@ import StartGuide from './pages/guides/StartGuide'
 import EditionsGuide from './pages/guides/EditionsGuide'
 import SpanishTimeline from './pages/guides/SpanishTimeline'
 import EnglishTimeline from './pages/guides/EnglishTimeline'
+import SpanishReleases from './pages/guides/SpanishReleases'
 
 // Rutas compartidas por el navegador (App) y el prerenderizado (entry-server)
 export default function AppRoutes() {
@@ -29,6 +30,7 @@ export default function AppRoutes() {
         <Route path="guias/2014-vs-2024" element={<EditionsGuide />} />
         <Route path="guias/cronologia-castellano" element={<SpanishTimeline />} />
         <Route path="guias/cronologia-ingles" element={<EnglishTimeline />} />
+        <Route path="guias/cuando-sale-en-castellano" element={<SpanishReleases />} />
         <Route path="aviso-legal" element={<LegalPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
