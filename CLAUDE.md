@@ -25,6 +25,9 @@ recetas disponibles.
 - `just format-check` — Comprobar formato con Prettier
 - `just check` — Todas las verificaciones (lint + format + typecheck
   y test)
+- `just novedades` — Lista las novedades de 2024 a vigilar (sin fecha,
+  fechas futuras, sin edición en castellano). La skill `novedades` parte
+  de aquí para buscar información nueva
 
 Ejecutar un test individual:
 `npx vitest run src/utils/imageResolver.test.ts`
