@@ -8,6 +8,8 @@ import EditionsGuide from './EditionsGuide'
 import SpanishTimeline from './SpanishTimeline'
 import EnglishTimeline from './EnglishTimeline'
 import SpanishReleases from './SpanishReleases'
+import EdgeWizardsGuide from './EdgeWizardsGuide'
+import { getEdgeEditions } from '@/utils/releases'
 
 const guides: Array<[string, ComponentType]> = [
   ['Por dónde empezar', StartGuide],
@@ -15,6 +17,7 @@ const guides: Array<[string, ComponentType]> = [
   ['Cronología en castellano', SpanishTimeline],
   ['Cronología en inglés', EnglishTimeline],
   ['Cuándo sale en castellano', SpanishReleases],
+  ['Edge o Wizards', EdgeWizardsGuide],
 ]
 
 describe.each(guides)('%s', (_, Guide) => {
@@ -80,5 +83,22 @@ describe('Cuándo sale en castellano', () => {
     expect(
       screen.queryByRole('link', { name: "2024 Dungeon Master's Screen" })
     ).not.toBeInTheDocument()
+  })
+})
+
+describe('Edge o Wizards', () => {
+  it('separa los títulos reeditados por Wizards de los que solo publicó Edge', () => {
+    const editions = getEdgeEditions()
+    const phb = editions.find((e) => e.product.code === 'PHB')
+    expect(phb?.wizards).toBeDefined()
+    expect(editions.find((e) => e.product.code === 'TOA')?.wizards).toBeUndefined()
+  })
+
+  // La guía explica cómo distinguir las ediciones por estos prefijos
+  it('los códigos de cada editorial siguen los prefijos que cuenta la guía', () => {
+    for (const { edge, wizards } of getEdgeEditions()) {
+      expect(String(edge.isbn13), edge.title).toMatch(/^(97884|8435407)/)
+      if (wizards) expect(String(wizards.isbn13), wizards.title).toMatch(/^97807869/)
+    }
   })
 })

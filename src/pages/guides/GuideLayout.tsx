@@ -8,13 +8,15 @@ import { getProductByCodeAndEdition } from '@/services/dataLoader'
 interface GuideLayoutProps {
   title: string
   description: string
+  // Imagen propia para la vista previa en redes; sin ella, la genérica del sitio
+  image?: string
   children: ReactNode
 }
 
-export default function GuideLayout({ title, description, children }: GuideLayoutProps) {
+export default function GuideLayout({ title, description, image, children }: GuideLayoutProps) {
   return (
     <>
-      <MetaTags title={title} description={description} />
+      <MetaTags title={title} description={description} image={image} />
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ label: 'Guías', to: '/guias' }, { label: title }]} />

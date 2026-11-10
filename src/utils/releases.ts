@@ -1,4 +1,5 @@
 import { differenceInCalendarMonths, parseISO } from 'date-fns'
+import { getProductsByEdition } from '@/services/dataLoader'
 import type { Language, ProductWithMeta, Publication } from '@/types'
 
 // Primera publicación en un idioma: la de fecha más temprana; las anunciadas sin fecha, al final
@@ -25,4 +26,24 @@ export function bilingualTitle(product: ProductWithMeta): string {
   if (!spanish || spanish === product.primaryTitle) return product.primaryTitle
   if (spanish.includes(product.primaryTitle)) return spanish
   return `${product.primaryTitle} (${spanish})`
+}
+
+const isEdge = (pub: Publication) => pub.publisher?.startsWith('Edge') ?? false
+const isWizards = (pub: Publication) => pub.publisher === 'Wizards of the Coast'
+
+export interface SpanishEditions {
+  product: ProductWithMeta
+  edge: Publication
+  wizards?: Publication
+}
+
+// Libros de 2014 que publicó Edge en castellano, con la reedición de Wizards si la hay
+export function getEdgeEditions(): SpanishEditions[] {
+  return getProductsByEdition('5e')
+    .flatMap((product) => {
+      const spanish = product.publications.filter((pub) => pub.language === 'castellano')
+      const edge = spanish.find(isEdge)
+      return edge ? [{ product, edge, wizards: spanish.find(isWizards) }] : []
+    })
+    .sort((a, b) => (a.edge.date ?? '').localeCompare(b.edge.date ?? ''))
 }
