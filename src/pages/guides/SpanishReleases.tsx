@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { getProductsByEdition } from '@/services/dataLoader'
+import { SITE_URL } from '@/utils/constants'
 import { formatDate } from '@/utils/formatters'
 import { firstPublication, translationDelay } from '@/utils/releases'
 import type { ProductWithMeta } from '@/types'
@@ -38,6 +39,7 @@ export default function SpanishReleases() {
     <GuideLayout
       title="¿Cuándo sale en castellano?"
       description="Fechas de salida de las novedades de D&D 2024 en inglés y en castellano, y cuánto suele tardar Wizards of the Coast en traducirlas."
+      image={`${SITE_URL}/images/og-cuando-sale.png`}
     >
       <p>
         Desde la revisión de 2024, <strong>Wizards of the Coast</strong> publica directamente en

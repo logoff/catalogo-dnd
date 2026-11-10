@@ -23,6 +23,12 @@ export const GUIDES: Guide[] = [
       'Qué cambia en la revisión de 2024, si es compatible y qué libros sustituyen a cuáles.',
   },
   {
+    slug: 'edge-o-wizards',
+    title: 'Edge o Wizards',
+    summary:
+      'Qué libros de 2014 publicó Edge en castellano, cuáles reeditó Wizards y cómo distinguirlos.',
+  },
+  {
     slug: 'cronologia-castellano',
     title: 'D&D en castellano: cronología',
     summary: 'Todo lo publicado en castellano de la quinta edición, por fecha y editorial.',
