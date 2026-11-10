@@ -1,3 +1,4 @@
 dist/
+dist-ssr/
 node_modules/
 *.min.js

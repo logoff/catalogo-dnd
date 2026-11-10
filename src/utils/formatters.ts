@@ -49,3 +49,12 @@ export function formatDateRange(dateRange: {
 
   return `${earliestYear}–${latestYear}`
 }
+
+const MAX_DESCRIPTION = 200
+
+// Buscadores y redes solo muestran unas pocas líneas: primer párrafo, cortado por palabras
+export function summarize(text: string): string {
+  const paragraph = text.trim().split(/\n/)[0].trim()
+  if (paragraph.length <= MAX_DESCRIPTION) return paragraph
+  return `${paragraph.slice(0, paragraph.lastIndexOf(' ', MAX_DESCRIPTION - 1))}…`
+}

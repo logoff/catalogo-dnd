@@ -1,4 +1,6 @@
 export const BASE_PATH = import.meta.env.BASE_URL
+// React Router quiere el base path sin la barra final
+export const ROUTER_BASENAME = BASE_PATH.endsWith('/') ? BASE_PATH.slice(0, -1) : BASE_PATH
 export const SITE_NAME = 'Catálogo D&D 5E'
 export const SITE_DESCRIPTION =
   'Catálogo completo de productos Dungeons & Dragons 5ª edición y 5.5 (2024)'

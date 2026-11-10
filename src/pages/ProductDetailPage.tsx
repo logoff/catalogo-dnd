@@ -5,6 +5,7 @@ import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductDetail from '@/components/products/ProductDetail'
 import { translateEditionLong } from '@/utils/translations'
+import { SITE_URL } from '@/utils/constants'
 import type { Edition } from '@/types'
 
 export default function ProductDetailPage() {
@@ -31,6 +32,12 @@ export default function ProductDetailPage() {
   const editionPath = edition === '5e' ? '2014' : '2024'
   const editionLabel = translateEditionLong(edition)
 
+  // Portada para la vista previa en redes: mejor la de la edición en castellano
+  const cover = [...product.publications]
+    .sort((a, b) => Number(b.language === 'castellano') - Number(a.language === 'castellano'))
+    .find((pub) => pub.images?.length)?.images?.[0]
+  const coverUrl = cover && (cover.startsWith('http') ? cover : `${SITE_URL}${cover}`)
+
   return (
     <>
       <MetaTags
@@ -39,6 +46,7 @@ export default function ProductDetailPage() {
           product.description ??
           `${product.primaryTitle} - ${editionLabel}. ${product.publications.length} ediciones disponibles.`
         }
+        image={coverUrl}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

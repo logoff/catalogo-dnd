@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ChevronRightIcon, HomeIcon } from '@heroicons/react/24/outline'
-import { BASE_PATH } from '@/utils/constants'
+import { BASE_PATH, SITE_URL } from '@/utils/constants'
 
 interface BreadcrumbItem {
   label: string
@@ -13,7 +13,7 @@ interface BreadcrumbsProps {
 
 function buildAbsoluteUrl(path: string): string {
   const base = BASE_PATH.endsWith('/') ? BASE_PATH.slice(0, -1) : BASE_PATH
-  return `${window.location.origin}${base}${path}`
+  return `${SITE_URL}${base}${path}`
 }
 
 export default function Breadcrumbs({ items }: BreadcrumbsProps) {
