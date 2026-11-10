@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import Header from './Header'
 import Footer from './Footer'
@@ -15,6 +15,11 @@ export default function Layout() {
   const loadProducts = useProductStore((state) => state.loadProducts)
   const location = useLocation()
 
+  // Antes que los useEffect de las páginas, para que los filtros de la URL (?view=) tengan prioridad
+  useLayoutEffect(() => {
+    useProductStore.persist.rehydrate()
+  }, [])
+
   useEffect(() => {
     loadProducts()
   }, [loadProducts])
@@ -23,7 +28,8 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col bg-dnd-stone-dark">
       <Header />
       <main className="flex-1">
-        <AnimatePresence mode="wait">
+        {/* Sin animación en la primera carga: el HTML prerenderizado debe verse desde el inicio */}
+        <AnimatePresence mode="wait" initial={false}>
           <motion.div
             key={location.pathname}
             initial="initial"

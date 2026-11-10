@@ -15,8 +15,8 @@ Se usa `just` como task runner. Ejecutar `just` para ver todas las
 recetas disponibles.
 
 - `just dev` — Servidor de desarrollo en <http://localhost:5173/>
-- `just build` — Build de producción (incluye comprobación TypeScript
-  y generación de sitemap)
+- `just build` — Build de producción (incluye comprobación TypeScript,
+  generación de sitemap y prerenderizado de cada página)
 - `just test` — Ejecutar tests (vitest)
 - `just test-watch` — Tests en modo watch
 - `just lint` — ESLint
@@ -52,6 +52,13 @@ de edición con categoría opcional), `/producto/:edition/:code` (detalle
 de producto).
 
 **Alias de ruta:** `@` apunta a `./src` (configurado en vite.config.ts).
+
+**Prerenderizado:** tras el build del cliente se hace un build de servidor
+de `src/entry-server.tsx` (en `dist-ssr/`) y `scripts/prerender.mjs`
+genera un HTML por cada URL del sitemap (`dist/producto/2014/phb.html`,
+etc.) con su contenido y sus etiquetas `<head>`. `main.tsx` hidrata ese
+HTML. Lo que pinte el primer render debe coincidir en servidor y
+navegador: nada de `window` ni `localStorage` durante el render.
 
 **Despliegue:** Cloudflare Pages (proyecto `catalogodnd`) en
 `catalogodnd.es`; el base path es `/` en todos los entornos.

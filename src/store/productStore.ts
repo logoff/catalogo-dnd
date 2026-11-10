@@ -46,8 +46,10 @@ interface ProductStore {
 export const useProductStore = create<ProductStore>()(
   persist(
     (set, get) => ({
-      products: [],
-      isLoaded: false,
+      // Los productos van en el bundle: forman parte del estado inicial, que es el que usa
+      // Zustand al prerenderizar y al hidratar, así el HTML ya sale con ellos
+      products: getAllProducts(),
+      isLoaded: true,
 
       // Initial filter state
       searchQuery: '',
@@ -198,6 +200,8 @@ export const useProductStore = create<ProductStore>()(
     {
       name: 'catalogo-dnd-preferences',
       partialize: (state) => ({ viewMode: state.viewMode }),
+      // Se recupera tras el primer render (Layout) para que coincida con el HTML prerenderizado
+      skipHydration: true,
     }
   )
 )
