@@ -104,3 +104,7 @@ deploy:
 # Avisar a los buscadores de IndexNow (Bing...) de todas las URLs del sitemap publicado
 indexnow:
     node scripts/indexnow.mjs
+
+# Listar las novedades de 2024 a vigilar (sin fecha, fechas futuras, sin castellano)
+novedades:
+    node scripts/novedades.mjs
