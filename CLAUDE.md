@@ -56,7 +56,9 @@ de producto).
 **Prerenderizado:** tras el build del cliente se hace un build de servidor
 de `src/entry-server.tsx` (en `dist-ssr/`) y `scripts/prerender.mjs`
 genera un HTML por cada URL del sitemap (`dist/producto/2014/phb.html`,
-etc.) con su contenido y sus etiquetas `<head>`. `main.tsx` hidrata ese
+etc.) con su contenido y sus etiquetas `<head>`. Las portadas que usan
+las fichas como `og:image` se convierten con `sharp` en vistas previas
+ligeras de 1200×630 (`dist/images/previews/`). `main.tsx` hidrata ese
 HTML. Lo que pinte el primer render debe coincidir en servidor y
 navegador: nada de `window` ni `localStorage` durante el render.
 
