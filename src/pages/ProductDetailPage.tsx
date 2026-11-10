@@ -6,7 +6,47 @@ import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductDetail from '@/components/products/ProductDetail'
 import { translateEditionLong } from '@/utils/translations'
 import { SITE_URL } from '@/utils/constants'
-import type { Edition } from '@/types'
+import { formatDate } from '@/utils/formatters'
+import { bilingualTitle, firstPublication } from '@/utils/releases'
+import type { Edition, ProductWithMeta, Publication } from '@/types'
+
+const releaseDate = (pub: Publication) => (pub.date ? formatDate(pub.date) : 'anunciado, sin fecha')
+
+// Cuándo salió (o sale) en cada idioma: es lo que más se busca de las novedades
+function ReleaseDates({ product }: { product: ProductWithMeta }) {
+  const english = firstPublication(product, 'english')
+  const spanish = firstPublication(product, 'castellano')
+  const is2024 = product.primaryEdition === '2024'
+
+  return (
+    <div className="mt-3 text-gray-300 space-y-1">
+      {english && (
+        <p>
+          <strong className="text-gray-100">En inglés:</strong> {releaseDate(english)}
+        </p>
+      )}
+      <p>
+        <strong className="text-gray-100">En castellano:</strong>{' '}
+        {spanish
+          ? `${releaseDate(spanish)} (${spanish.title})`
+          : is2024
+            ? 'sin anunciar todavía'
+            : 'no se ha publicado'}
+        {is2024 && (
+          <>
+            {' · '}
+            <Link
+              to="/guias/cuando-sale-en-castellano"
+              className="text-dnd-gold hover:text-dnd-gold-light underline underline-offset-2"
+            >
+              fechas de todas las novedades
+            </Link>
+          </>
+        )}
+      </p>
+    </div>
+  )
+}
 
 export default function ProductDetailPage() {
   const { code, edition: editionParam } = useParams<{ code: string; edition: string }>()
@@ -41,7 +81,7 @@ export default function ProductDetailPage() {
   return (
     <>
       <MetaTags
-        title={product.primaryTitle}
+        title={bilingualTitle(product)}
         description={
           product.description ??
           `${product.primaryTitle} - ${editionLabel}. ${product.publications.length} ediciones disponibles.`
@@ -70,6 +110,7 @@ export default function ProductDetailPage() {
             Código: {product.code} · {product.publications.length}{' '}
             {product.publications.length === 1 ? 'edición' : 'ediciones'}
           </p>
+          <ReleaseDates product={product} />
           {product.description && (
             <div className="mt-4 max-w-3xl space-y-3 text-gray-300 leading-relaxed">
               {product.description.split(/\n\s*\n/).map((paragraph, index) => (

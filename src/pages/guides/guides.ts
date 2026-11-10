@@ -6,6 +6,12 @@ export interface Guide {
 
 export const GUIDES: Guide[] = [
   {
+    slug: 'cuando-sale-en-castellano',
+    title: '¿Cuándo sale en castellano?',
+    summary:
+      'Fechas de las novedades de 2024 en inglés y en castellano, y cuánto tardan en traducirse.',
+  },
+  {
     slug: 'por-donde-empezar',
     title: 'Por dónde empezar',
     summary: 'Qué comprar para tu primera partida, tanto si vas a jugar como si vas a dirigir.',
