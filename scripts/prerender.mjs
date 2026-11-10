@@ -66,8 +66,12 @@ for (const path of paths) {
     `$1<meta property="og:image:width" content="${PREVIEW_WIDTH}"/><meta property="og:image:height" content="${PREVIEW_HEIGHT}"/>`
   )
 
-  // main.tsx las retira al arrancar y deja que React gestione las suyas
-  const headTags = head.replace(/<(title|meta|link)\b/g, '\n    <$1 data-static-meta')
+  // main.tsx las retira al arrancar y deja que React gestione las suyas. La marca va al final
+  // de cada etiqueta: WhatsApp ignora las <meta> cuyo primer atributo no es property o name
+  const headTags = head
+    .replace(/<title>/, '<title data-static-meta>')
+    .replace(/<(meta|link) ([^>]*?)\/>/g, '<$1 $2 data-static-meta/>')
+    .replace(/<(title|meta|link)\b/g, '\n    <$1')
 
   // Justo tras el charset: algunos lectores de vistas previas solo miran el principio del HTML
   const page = template
