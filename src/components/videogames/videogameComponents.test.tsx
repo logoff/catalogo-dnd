@@ -302,6 +302,20 @@ describe('logotipos de plataforma', () => {
     expect(notFree).toEqual([])
   })
 
+  // Algunos SVG de Commons salen de Illustrator con mapas de bits incrustados de decenas de MiB,
+  // y Cloudflare Pages rechaza el despliegue con archivos de más de 25 MiB
+  it('ningún logotipo pasa de 200 KB', () => {
+    const svgs = import.meta.glob<string>('/public/images/platforms/*.svg', {
+      query: '?raw',
+      import: 'default',
+      eager: true,
+    })
+    const tooBig = Object.entries(svgs)
+      .filter(([, svg]) => svg.length > 200 * 1024)
+      .map(([path]) => path)
+    expect(tooBig).toEqual([])
+  })
+
   it('muestra el logotipo si lo hay y el pictograma si no', () => {
     const { container, unmount } = render(<PlatformIcon platform="ps4" />)
     expect(container.querySelector('img')).toHaveAttribute('src', '/images/platforms/ps4.svg')
