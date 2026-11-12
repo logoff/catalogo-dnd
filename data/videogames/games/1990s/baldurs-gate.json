@@ -11,21 +11,53 @@
   "series": "Baldur's Gate",
   "status": "released",
   "expansions": [
-    { "title": "Tales of the Sword Coast", "date": "1999-04-30" },
-    { "title": "Siege of Dragonspear (Enhanced Edition)", "date": "2016-03-31" },
-    { "title": "Faces of Good and Evil (Enhanced Edition)", "date": "2018-04-14" },
-    { "title": "Reflections of Myth & Valor (Enhanced Edition)", "date": "2025-04-29" }
+    {
+      "title": "Tales of the Sword Coast",
+      "date": "1999-04-30"
+    },
+    {
+      "title": "Siege of Dragonspear (Enhanced Edition)",
+      "date": "2016-03-31"
+    },
+    {
+      "title": "Faces of Good and Evil (Enhanced Edition)",
+      "date": "2018-04-14"
+    },
+    {
+      "title": "Reflections of Myth & Valor (Enhanced Edition)",
+      "date": "2025-04-29"
+    }
   ],
   "releases": [
-    { "platform": "pc_windows", "date": "1998-12-21" },
-    { "platform": "mac", "date": "2000-07-17" },
+    {
+      "platform": "pc_windows",
+      "date": "1998-12-21"
+    },
+    {
+      "platform": "mac",
+      "date": "2000-07-17"
+    },
     {
       "platform": "pc_windows",
       "date": "2012-11-28",
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
       "publishers": ["Beamdog", "Atari"],
-      "spanish": { "interface": true, "subtitles": true, "audio": false }
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/baldurs_gate_enhanced_edition"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/228280/"
+        }
+      ]
     },
     {
       "platform": "ios",
@@ -40,7 +72,11 @@
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
       "publishers": ["Beamdog"],
-      "spanish": { "interface": true, "subtitles": true, "audio": false }
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
     },
     {
       "platform": "android",
@@ -55,7 +91,11 @@
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
       "publishers": ["Beamdog"],
-      "spanish": { "interface": true, "subtitles": true, "audio": false }
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
     },
     {
       "platform": "switch",

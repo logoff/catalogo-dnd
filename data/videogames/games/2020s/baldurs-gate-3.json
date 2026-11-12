@@ -14,16 +14,43 @@
     {
       "platform": "pc_windows",
       "date": "2023-08-03",
-      "spanish": { "interface": true, "subtitles": true, "audio": false }
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/baldurs_gate_iii"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1086940/"
+        }
+      ]
     },
-    { "platform": "ps5", "date": "2023-09-06" },
+    {
+      "platform": "ps5",
+      "date": "2023-09-06"
+    },
     {
       "platform": "mac",
       "date": "2023-09-22",
-      "spanish": { "interface": true, "subtitles": true, "audio": false }
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
     },
-    { "platform": "xbox_series", "date": "2023-12-07" },
-    { "platform": "linux", "date": "2025-09-23" }
+    {
+      "platform": "xbox_series",
+      "date": "2023-12-07"
+    },
+    {
+      "platform": "linux",
+      "date": "2025-09-23"
+    }
   ],
   "reviews": [
     {
@@ -42,5 +69,10 @@
   ],
   "images": ["/images/videogames/baldurs-gate-3/0.jpg"],
   "official_url": "https://baldursgate3.game",
-  "related_products": [{ "edition": "5e", "code": "BGDIA" }]
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "BGDIA"
+    }
+  ]
 }

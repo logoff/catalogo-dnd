@@ -11,12 +11,28 @@
   "series": "Gold Box",
   "status": "released",
   "releases": [
-    { "platform": "c64", "date": "1988-06" },
-    { "platform": "pc_dos", "date": "1988-06" },
-    { "platform": "apple_ii" },
-    { "platform": "mac", "date": "1989" },
-    { "platform": "amiga", "date": "1990" },
-    { "platform": "pc98" },
+    {
+      "platform": "c64",
+      "date": "1988-06"
+    },
+    {
+      "platform": "pc_dos",
+      "date": "1988-06"
+    },
+    {
+      "platform": "apple_ii"
+    },
+    {
+      "platform": "mac",
+      "date": "1989"
+    },
+    {
+      "platform": "amiga",
+      "date": "1990"
+    },
+    {
+      "platform": "pc98"
+    },
     {
       "platform": "nes",
       "date": "1992-04",
@@ -28,7 +44,21 @@
       "date": "2022-03-29",
       "edition": "Forgotten Realms: The Archives – Collection Two",
       "publishers": ["SNEG"],
-      "spanish": { "interface": false, "subtitles": false, "audio": false }
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_two"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1882280/"
+        }
+      ]
     }
   ],
   "images": ["/images/videogames/pool-of-radiance/0.png"]
