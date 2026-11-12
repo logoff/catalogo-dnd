@@ -85,7 +85,7 @@
 
 ## 7. GOG
 
-- [ ] 7.1 Solicitar el programa de GOG en Adtraction; verificar que
+- [x] 7.1 Solicitar el programa de GOG en Adtraction; verificar que
       aparece como solicitado en el panel
 - [x] 7.2 Rellenar los enlaces de GOG de todos los juegos inventariados
       que vende (con un script si hay product feed); verificar con los
@@ -119,7 +119,7 @@
       esquema; verificar dando de alta un juego del inventario con ella
 - [ ] 10.2 Ampliar la skill `novedades` y `scripts/novedades.mjs` a
       videojuegos anunciados o retirados; verificar con `just novedades`
-- [ ] 10.3 Actualizar `CLAUDE.md` y el README con la sección de
+- [x] 10.3 Actualizar `CLAUDE.md` y el README con la sección de
       videojuegos; verificar que markdownlint pasa
 
 ## Workflow follow-up

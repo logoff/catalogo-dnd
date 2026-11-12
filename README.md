@@ -5,7 +5,8 @@
 Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**,
 que ofrece una lista completa de todos los libros y accesorios publicados
 en inglés y en castellano de Dungeons & Dragons de las ediciones
-5E (2014) y 5.5E (2024).
+5E (2014) y 5.5E (2024), y de todos los videojuegos oficiales de D&D,
+con las plataformas, si están en castellano y dónde comprarlos.
 
 **🌐 Consulta el catálogo en [catalogodnd.es](https://catalogodnd.es/)**
 
@@ -66,6 +67,11 @@ se publica sin afiliado:
 | `VITE_AFFILIATE_ADTRACTION_CHANNEL`          | ID de canal en Adtraction (común a sus tiendas) |
 | `VITE_AFFILIATE_GENERACION_X_PROGRAM`        | ID del programa de Generación X en Adtraction   |
 | `VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM` | ID del programa de Juegos de la Mesa Redonda    |
+| `VITE_AFFILIATE_GOG_PROGRAM`                 | ID del programa de GOG en Adtraction            |
+| `VITE_AFFILIATE_INSTANT_GAMING_REFERRAL`     | Código de referido de Instant Gaming (`igr`)    |
+| `VITE_AFFILIATE_AWIN_PUBLISHER`              | ID de publisher en Awin (común a sus tiendas)   |
+| `VITE_AFFILIATE_ENEBA_PROGRAM`               | ID del anunciante Eneba en Awin                 |
+| `VITE_AFFILIATE_FANATICAL_PROGRAM`           | ID del anunciante Fanatical en Awin             |
 
 En el despliegue se leen de los secretos del repositorio con el mismo
 nombre sin el prefijo `VITE_`. En local se pueden poner en `.env`.
