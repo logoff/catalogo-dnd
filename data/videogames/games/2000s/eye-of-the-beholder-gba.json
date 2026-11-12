@@ -1,0 +1,20 @@
+{
+  "slug": "eye-of-the-beholder-gba",
+  "title": "Dungeons & Dragons: Eye of the Beholder",
+  "description": "Juego de Pronto Games para Game Boy Advance que reinventa el clásico de 1991. De nuevo el grupo baja a las alcantarillas de Aguasprofundas en busca del contemplador Xanathar, con exploración en primera persona, pero los combates pasan a ser tácticos por turnos y las reglas, las de la tercera edición de D&D.\n\nEs una curiosidad para quien quiera revivir Eye of the Beholder en una portátil. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Pronto Games"],
+  "publishers": ["Infogrames"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "ruleset": "3e",
+  "series": "Eye of the Beholder",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "game_boy_advance",
+      "date": "2002-11-08"
+    }
+  ],
+  "images": ["/images/videogames/eye-of-the-beholder-gba/0.jpg"]
+}

@@ -97,7 +97,7 @@
       marcarlo en el inventario
 - [x] 8.2 Lote años 90 (PC, consolas, recreativas); verificar con
       `just check` y marcarlo en el inventario
-- [ ] 8.3 Lote Infinity Engine, Neverwinter Nights y años 2000;
+- [x] 8.3 Lote Infinity Engine, Neverwinter Nights y años 2000;
       verificar con `just check` y marcarlo en el inventario
 - [ ] 8.4 Lote MMO, juegos online, móvil y navegador; verificar con
       `just check` y marcarlo en el inventario

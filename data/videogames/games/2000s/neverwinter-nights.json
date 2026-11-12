@@ -1,0 +1,155 @@
+{
+  "slug": "neverwinter-nights",
+  "title": "Neverwinter Nights",
+  "description": "Juego de rol de BioWare basado en las reglas de la tercera edición de D&D y ambientado en la ciudad de Neverwinter, en los Reinos Olvidados, asolada por una plaga. Además de su campaña para un jugador, incluía el editor Aurora para crear aventuras propias y la posibilidad de que un jugador hiciera de Dungeon Master en partidas en línea, lo que dio lugar a miles de módulos y servidores persistentes creados por aficionados.\n\nEs el juego más cercano a jugar una partida de D&D de mesa en el ordenador. Hoy se juega en la Enhanced Edition de Beamdog, que incluye las expansiones y los módulos premium y en PC tiene textos en castellano.",
+  "developers": ["BioWare"],
+  "publishers": ["Infogrames"],
+  "genres": ["rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "3e",
+  "series": "Neverwinter Nights",
+  "status": "released",
+  "expansions": [
+    {
+      "title": "Shadows of Undrentide",
+      "date": "2003-06"
+    },
+    {
+      "title": "Hordes of the Underdark",
+      "date": "2003-12-02"
+    },
+    {
+      "title": "Shadowguard (módulo premium)",
+      "date": "2004-11-10"
+    },
+    {
+      "title": "Witch's Wake (módulo premium)",
+      "date": "2004-11-10"
+    },
+    {
+      "title": "Kingmaker (módulo premium)",
+      "date": "2004-11-10"
+    },
+    {
+      "title": "Pirates of the Sword Coast (módulo premium)",
+      "date": "2005-09-20"
+    },
+    {
+      "title": "Infinite Dungeons (módulo premium)",
+      "date": "2006-05-26"
+    },
+    {
+      "title": "Wyvern Crown of Cormyr (módulo premium)",
+      "date": "2006-09-14"
+    },
+    {
+      "title": "Darkness Over Daggerford (Enhanced Edition)",
+      "date": "2018-06-01"
+    },
+    {
+      "title": "Tyrants of the Moonsea (Enhanced Edition)",
+      "date": "2019-09-24"
+    },
+    {
+      "title": "Dark Dreams of Furiae (Enhanced Edition)",
+      "date": "2020-03-24"
+    },
+    {
+      "title": "Doom of Icewind Dale (Enhanced Edition)",
+      "date": "2025-02-21"
+    }
+  ],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2002-06-18"
+    },
+    {
+      "platform": "linux",
+      "date": "2003-06-19"
+    },
+    {
+      "platform": "mac",
+      "date": "2003-07-30"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2018-03-27",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/neverwinter_nights_enhanced_edition_pack"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/704450/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2018-03-27",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
+    },
+    {
+      "platform": "linux",
+      "date": "2018-03-27",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
+    },
+    {
+      "platform": "switch",
+      "date": "2019-12",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "ps4",
+      "date": "2019-12",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2019-12",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 91,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/neverwinter-nights/",
+      "platform": "pc_windows"
+    }
+  ],
+  "official_url": "https://www.beamdog.com/games/neverwinter-nights-enhanced/",
+  "images": ["/images/videogames/neverwinter-nights/0.jpg"]
+}

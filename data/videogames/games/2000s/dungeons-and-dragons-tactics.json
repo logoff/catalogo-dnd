@@ -1,0 +1,18 @@
+{
+  "slug": "dungeons-and-dragons-tactics",
+  "title": "Dungeons & Dragons Tactics",
+  "description": "Juego de rol táctico de Kuju Entertainment para PSP basado en las reglas de la edición 3.5 de D&D. El jugador forma un grupo con las razas y clases del Manual del Jugador de esa edición y lo dirige en combates por turnos sobre una cuadrícula, con una fidelidad a las reglas de mesa poco habitual en una portátil.\n\nEs para quien quiera combates tácticos de D&D en una consola portátil. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Kuju Entertainment"],
+  "publishers": ["Atari"],
+  "genres": ["tactical_rpg"],
+  "modes": ["single", "multiplayer"],
+  "ruleset": "3_5",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "psp",
+      "date": "2007-08-14"
+    }
+  ],
+  "images": ["/images/videogames/dungeons-and-dragons-tactics/0.jpg"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "dungeons-and-dragons-heroes",
+  "title": "Dungeons & Dragons: Heroes",
+  "description": "Juego de acción y rol para Xbox de Atari, ambientado en Greyhawk. Cuatro héroes, un guerrero, un clérigo, un mago y un pícaro, luchan contra un poderoso hechicero, en combates en tiempo real en vista aérea que se pueden jugar en cooperativo con hasta cuatro jugadores.\n\nEs uno de los pocos juegos de Greyhawk y una alternativa a Dark Alliance para jugar en compañía. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Atari Interactive Hunt Valley Studio"],
+  "publishers": ["Atari"],
+  "genres": ["action_rpg"],
+  "modes": ["single", "coop"],
+  "setting": "greyhawk",
+  "ruleset": "3e",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "xbox",
+      "date": "2003-09-16"
+    }
+  ],
+  "images": ["/images/videogames/dungeons-and-dragons-heroes/0.jpg"]
+}

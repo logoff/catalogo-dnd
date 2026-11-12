@@ -1,0 +1,40 @@
+{
+  "slug": "pool-of-radiance-ruins-of-myth-drannor",
+  "title": "Pool of Radiance: Ruins of Myth Drannor",
+  "description": "Juego de rol de Stormfront Studios para Ubi Soft y primer videojuego con las reglas de la tercera edición de D&D, publicada un año antes. El grupo explora las ruinas de la ciudad élfica de Myth Drannor, en los Reinos Olvidados, para detener la corrupción de un nuevo estanque de radiancia, con combates tácticos por turnos y vista isométrica en 3D.\n\nRecoge el nombre de la serie Gold Box de los años 80, aunque es un juego nuevo. Volvió a la venta en noviembre de 2026 para Windows en GOG y Steam, con textos en castellano.",
+  "developers": ["Stormfront Studios"],
+  "publishers": ["Ubi Soft"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "3e",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2001-09-25"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2026-11-06",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/pool_of_radiance_ruins_of_myth_drannor"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4834760/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/pool-of-radiance-ruins-of-myth-drannor/0.png"]
+}

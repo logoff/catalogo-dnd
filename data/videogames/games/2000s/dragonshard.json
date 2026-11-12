@@ -1,0 +1,48 @@
+{
+  "slug": "dragonshard",
+  "title": "Dungeons & Dragons: Dragonshard",
+  "description": "Juego de estrategia en tiempo real de Liquid Entertainment ambientado en Eberron, con elementos de rol. Cada facción construye su base en la superficie y envía héroes y unidades a explorar las mazmorras del subsuelo en busca de experiencia y tesoros, en una mezcla de estrategia y aventura poco habitual.\n\nEs el único juego de estrategia de Eberron. Volvió a la venta en 2025 para Windows en GOG y Steam, en castellano con voces.",
+  "developers": ["Liquid Entertainment"],
+  "publishers": ["Atari"],
+  "genres": ["real_time_strategy", "rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "eberron",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2005-09-27"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2025-08-12",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_dragonshard"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3843540/"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 80,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-dragonshard/",
+      "platform": "pc_windows"
+    }
+  ],
+  "images": ["/images/videogames/dragonshard/0.png"]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "the-temple-of-elemental-evil",
+  "title": "The Temple of Elemental Evil",
+  "description": "Juego de rol de Troika Games que adapta la clásica aventura de Greyhawk del mismo nombre y fue el primer videojuego con las reglas de la edición 3.5 de D&D. El grupo empieza en la aldea de Hommlet y acaba descendiendo al templo que da nombre al juego, con combates tácticos por turnos que siguen las reglas de mesa con mucha fidelidad.\n\nEs uno de los juegos más fieles al D&D de mesa, muy apreciado por quien busque combates tácticos exigentes. Volvió a la venta en 2025 para Windows en GOG y Steam, solo en inglés.",
+  "developers": ["Troika Games"],
+  "publishers": ["Atari"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "greyhawk",
+  "ruleset": "3_5",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2003-09-16"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2025-12-10",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/the_temple_of_elemental_evil"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3843520/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/the-temple-of-elemental-evil/0.png"]
+}

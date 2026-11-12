@@ -1,0 +1,36 @@
+{
+  "slug": "icewind-dale-ii",
+  "title": "Icewind Dale II",
+  "description": "Continuación de Icewind Dale de Black Isle Studios y último juego con el Infinity Engine. Treinta años después del primero, una alianza de goblins y otras criaturas amenaza las Diez Ciudades del Valle del Viento Helado, y el grupo de seis aventureros creados por el jugador acude a defenderlas. Adapta el motor a las reglas de la tercera edición de D&D, con más razas, clases y dotes.\n\nEs el más táctico de los juegos del Infinity Engine, para quien disfrute creando y optimizando su grupo. No tuvo Enhanced Edition; hoy se vende para Windows en GOG como Icewind Dale 2 Complete.",
+  "developers": ["Black Isle Studios"],
+  "publishers": ["Interplay Entertainment"],
+  "genres": ["rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "3e",
+  "series": "Icewind Dale",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2002-08-27"
+    },
+    {
+      "platform": "pc_windows",
+      "edition": "Icewind Dale 2 Complete",
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/icewind_dale_2"
+        }
+      ]
+    }
+  ],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "IDROTF"
+    }
+  ],
+  "images": ["/images/videogames/icewind-dale-ii/0.jpg"]
+}

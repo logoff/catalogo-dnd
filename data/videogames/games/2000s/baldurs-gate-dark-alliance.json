@@ -1,0 +1,62 @@
+{
+  "slug": "baldurs-gate-dark-alliance",
+  "title": "Baldur's Gate: Dark Alliance",
+  "description": "Juego de rol de acción para consolas de Snowblind Studios, ambientado en la ciudad de Baldur's Gate y sus alrededores, en los Reinos Olvidados. A diferencia de los Baldur's Gate de PC, es un hack and slash en vista aérea: se elige entre tres personajes y se combate en tiempo real, solo o con un segundo jugador en la misma pantalla. Usa una versión simplificada de las reglas de la tercera edición de D&D.\n\nEs una buena opción para jugar en cooperativo de forma sencilla. Se relanzó en 2021 para consolas actuales y PC; en PC está en castellano con voces.",
+  "developers": ["Snowblind Studios"],
+  "publishers": ["Interplay Entertainment", "Black Isle Studios"],
+  "genres": ["action_rpg"],
+  "modes": ["single", "coop"],
+  "setting": "forgotten_realms",
+  "ruleset": "3e",
+  "series": "Dark Alliance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "ps2",
+      "date": "2001-12-04"
+    },
+    {
+      "platform": "xbox",
+      "date": "2002-10-22"
+    },
+    {
+      "platform": "gamecube",
+      "date": "2002-11-20"
+    },
+    {
+      "platform": "game_boy_advance",
+      "date": "2004-02-10"
+    },
+    {
+      "platform": "ps4",
+      "date": "2021-05-07",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2021-05-07",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2021-12-17",
+      "edition": "Relanzamiento",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/baldurs_gate_dark_alliance"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1695830/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/baldurs-gate-dark-alliance/0.jpg"]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "planescape-torment",
+  "title": "Planescape: Torment",
+  "description": "Juego de rol de Black Isle Studios con el Infinity Engine, ambientado en Planescape y su ciudad de Sigil, la Ciudad de las Puertas. El protagonista, el Sin Nombre, despierta en un depósito de cadáveres sin recuerdos y sin poder morir, y la historia gira en torno a descubrir quién fue. Da mucho más peso a los diálogos, la lectura y las decisiones que al combate, con las reglas de la segunda edición de AD&D.\n\nEstá considerado uno de los juegos de rol mejor escritos de la historia, ideal para quien disfrute de una buena historia. Hoy se juega en la Enhanced Edition de Beamdog, que en PC no tiene castellano oficial.",
+  "developers": ["Black Isle Studios"],
+  "publishers": ["Interplay Entertainment"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "planescape",
+  "ruleset": "adnd2",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "1999-12-10"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2017-04-11",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/planescape_torment_enhanced_edition"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/466300/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2017-04-11",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      }
+    },
+    {
+      "platform": "linux",
+      "date": "2017-04-11",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      }
+    },
+    {
+      "platform": "ios",
+      "date": "2017-04-11",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"]
+    },
+    {
+      "platform": "android",
+      "date": "2017-04-11",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"]
+    },
+    {
+      "platform": "switch",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "ps4",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 91,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/planescape-torment/",
+      "platform": "pc_windows"
+    },
+    {
+      "source": "metacritic",
+      "score": 85,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/planescape-torment-enhanced-edition/",
+      "platform": "pc_windows",
+      "edition": "Enhanced Edition"
+    }
+  ],
+  "official_url": "https://www.beamdog.com/games/planescape-torment-enhanced/",
+  "images": ["/images/videogames/planescape-torment/0.jpg"]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "neverwinter-nights-2",
+  "title": "Neverwinter Nights 2",
+  "description": "Continuación de Neverwinter Nights desarrollada por Obsidian Entertainment con las reglas de la edición 3.5 de D&D. El protagonista, un joven de la aldea de West Harbor, se ve arrastrado a la guerra contra el Rey de las Sombras tras un ataque que busca un fragmento de una espada de plata. Controla a un grupo de compañeros con combate en tiempo real con pausa, y como el primero incluye un editor para crear aventuras propias.\n\nLa expansión Mask of the Betrayer está considerada de lo mejor del juego. Hoy se juega en la Enhanced Edition de Aspyr (2025), que incluye las expansiones y en PC está en castellano con voces.",
+  "developers": ["Obsidian Entertainment"],
+  "publishers": ["Atari"],
+  "genres": ["rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "3_5",
+  "series": "Neverwinter Nights",
+  "status": "released",
+  "expansions": [
+    {
+      "title": "Mask of the Betrayer",
+      "date": "2007-09-27"
+    },
+    {
+      "title": "Storm of Zehir",
+      "date": "2008-11-18"
+    },
+    {
+      "title": "Mysteries of Westgate",
+      "date": "2009-04-29"
+    }
+  ],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2006-10-31"
+    },
+    {
+      "platform": "mac",
+      "date": "2008-02-26"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2025-07-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Aspyr"],
+      "publishers": ["Aspyr"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_neverwinter_nights_2_enhanced_edition"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2738630/"
+        }
+      ]
+    },
+    {
+      "platform": "switch",
+      "date": "2025-07-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Aspyr"],
+      "publishers": ["Aspyr"]
+    },
+    {
+      "platform": "ps5",
+      "date": "2025-07-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Aspyr"],
+      "publishers": ["Aspyr"]
+    },
+    {
+      "platform": "xbox_series",
+      "date": "2025-07-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Aspyr"],
+      "publishers": ["Aspyr"]
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 82,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/neverwinter-nights-2/",
+      "platform": "pc_windows"
+    }
+  ],
+  "images": ["/images/videogames/neverwinter-nights-2/0.jpg"]
+}

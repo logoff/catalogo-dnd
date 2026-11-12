@@ -1,0 +1,119 @@
+{
+  "slug": "baldurs-gate-ii",
+  "title": "Baldur's Gate II: Shadows of Amn",
+  "description": "Continuación de Baldur's Gate de BioWare, considerada uno de los mejores juegos de rol de la historia. El protagonista despierta prisionero del mago Jon Irenicus y la persecución lleva por la ciudad de Athkatla y el reino de Amn hasta la Infraoscuridad. Mantiene el Infinity Engine y las reglas de la segunda edición de AD&D, con personajes de nivel más alto, compañeros con historias y romances propios, y misiones secundarias por todas partes.\n\nSe puede continuar con el personaje del primer juego, y la saga se cierra en la expansión Throne of Bhaal. Hoy se juega en la Enhanced Edition de Beamdog, que incluye la expansión y en PC tiene textos en castellano, con voces en inglés.",
+  "developers": ["BioWare"],
+  "publishers": ["Black Isle Studios", "Interplay Entertainment"],
+  "genres": ["rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "adnd2",
+  "series": "Baldur's Gate",
+  "status": "released",
+  "expansions": [
+    {
+      "title": "Throne of Bhaal",
+      "date": "2001-06-21"
+    },
+    {
+      "title": "Reflections of Myth & Valor (Enhanced Edition)",
+      "date": "2025-04-29"
+    }
+  ],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2000-09-21"
+    },
+    {
+      "platform": "mac",
+      "date": "2001-10-15"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2013-11-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/baldurs_gate_2_enhanced_edition"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/257350/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2013-11-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
+    },
+    {
+      "platform": "linux",
+      "date": "2013-11-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
+    },
+    {
+      "platform": "switch",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "ps4",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 95,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-ii-shadows-of-amn/",
+      "platform": "pc_windows"
+    },
+    {
+      "source": "metacritic",
+      "score": 78,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-ii-enhanced-edition/",
+      "platform": "pc_windows",
+      "edition": "Enhanced Edition"
+    }
+  ],
+  "official_url": "https://www.beamdog.com/games/baldurs-gate-ii-enhanced/",
+  "images": ["/images/videogames/baldurs-gate-ii/0.png"]
+}
