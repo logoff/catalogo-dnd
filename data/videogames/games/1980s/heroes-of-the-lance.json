@@ -1,0 +1,83 @@
+{
+  "slug": "heroes-of-the-lance",
+  "title": "Heroes of the Lance",
+  "description": "Juego de acción de desplazamiento lateral basado en el primer módulo de Dragonlance. El jugador lleva a los compañeros de la saga, de uno en uno y cambiando entre ellos, por las ruinas de Xak Tsaroth para recuperar los Discos de Mishakal, custodiados por el dragón negro Khisanth. Cada personaje tiene sus propias habilidades y la muerte de uno obliga a seguir con el resto.\n\nEs más un arcade de su época que un juego de rol, pero recrea con fidelidad el inicio de las Crónicas de la Dragonlance. Tiene una secuela, Dragons of Flame. Hoy se vende para Windows dentro de la recopilación Silver Box Classics, solo en inglés.",
+  "developers": ["U.S. Gold"],
+  "publishers": ["Strategic Simulations", "U.S. Gold"],
+  "genres": ["action", "adventure"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "series": "Dragonlance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1988"
+    },
+    {
+      "platform": "amiga",
+      "date": "1988"
+    },
+    {
+      "platform": "atari_st",
+      "date": "1988"
+    },
+    {
+      "platform": "c64",
+      "date": "1988"
+    },
+    {
+      "platform": "amstrad_cpc",
+      "date": "1988"
+    },
+    {
+      "platform": "zx_spectrum",
+      "date": "1988"
+    },
+    {
+      "platform": "msx"
+    },
+    {
+      "platform": "fm_towns"
+    },
+    {
+      "platform": "pc88"
+    },
+    {
+      "platform": "pc98"
+    },
+    {
+      "platform": "nes",
+      "date": "1991-01",
+      "developers": ["Natsume"],
+      "publishers": ["FCI"]
+    },
+    {
+      "platform": "master_system",
+      "date": "1991-12",
+      "developers": ["Tiertex"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "edition": "Silver Box Classics",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/silver_box_classics"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2344020/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/heroes-of-the-lance/0.png"]
+}

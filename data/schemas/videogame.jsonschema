@@ -88,7 +88,7 @@
         },
         "platform": {
             "enum": [
-                "pc_windows", "pc_dos", "mac", "linux", "amiga", "atari_st", "c64", "apple_ii", "pc98",
+                "pc_windows", "pc_dos", "mac", "linux", "amiga", "atari_st", "c64", "apple_ii", "pc98", "pc88", "x68000", "fm_towns", "msx", "amstrad_cpc", "zx_spectrum", "aquarius",
                 "intellivision", "nes", "snes", "master_system", "genesis", "sega_cd", "saturn",
                 "turbografx_16", "3do", "playstation", "ps2", "ps3", "ps4", "ps5", "xbox", "xbox_360",
                 "xbox_one", "xbox_series", "gamecube", "wii_u", "switch", "switch_2",

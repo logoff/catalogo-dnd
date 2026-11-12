@@ -1,0 +1,18 @@
+{
+  "slug": "dragonstrike-nes",
+  "title": "DragonStrike (NES)",
+  "description": "Juego de NES que comparte nombre y portada con el simulador de vuelo DragonStrike, pero es otro juego: un matamarcianos de desplazamiento vertical visto desde arriba en el que el jugador controla a un dragón sin jinete a lo largo de catorce misiones, ambientadas en la Guerra de la Lanza de Dragonlance y con un final propio.\n\nEs una curiosidad para coleccionistas de NES y de juegos de Dragonlance. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Westwood Associates"],
+  "publishers": ["Pony Canyon"],
+  "genres": ["action"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "nes",
+      "date": "1992-08"
+    }
+  ],
+  "images": ["/images/videogames/dragonstrike-nes/0.png"]
+}

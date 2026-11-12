@@ -1,0 +1,44 @@
+{
+  "slug": "forgotten-realms-unlimited-adventures",
+  "title": "Forgotten Realms: Unlimited Adventures",
+  "description": "Herramienta para crear aventuras propias con el motor de la serie Gold Box. Permite diseñar mapas, encuentros, diálogos y monstruos, y jugarlos con las mismas reglas y combates tácticos por turnos que los juegos de SSI. Trae una aventura de ejemplo y durante años se usó para compartir módulos creados por aficionados.\n\nEs más interesante para quien quiera construir sus propias partidas que para quien busque una campaña cerrada. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Two, solo en inglés.",
+  "developers": ["MicroMagic"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1993-03-17"
+    },
+    {
+      "platform": "mac",
+      "date": "1993"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Forgotten Realms: The Archives – Collection Two",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_two"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1882280/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/forgotten-realms-unlimited-adventures/0.png"]
+}

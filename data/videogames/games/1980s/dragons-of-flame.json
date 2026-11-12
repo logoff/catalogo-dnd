@@ -1,0 +1,70 @@
+{
+  "slug": "dragons-of-flame",
+  "title": "Dragons of Flame",
+  "description": "Continuación de Heroes of the Lance, basada en el segundo módulo de Dragonlance. Los compañeros recorren el mapa de Abanasinia y se infiltran en la fortaleza de Pax Tharkas para liberar a los esclavos del ejército de los Señores de los Dragones, con secciones de acción de desplazamiento lateral parecidas a las del primer juego.\n\nComo su predecesor, es un arcade de su época que sigue de cerca la historia de las Crónicas de la Dragonlance. Hoy se vende para Windows dentro de la recopilación Silver Box Classics, solo en inglés.",
+  "developers": ["U.S. Gold"],
+  "publishers": ["Strategic Simulations", "U.S. Gold"],
+  "genres": ["action", "adventure"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "series": "Dragonlance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1989"
+    },
+    {
+      "platform": "amiga",
+      "date": "1989"
+    },
+    {
+      "platform": "atari_st",
+      "date": "1989"
+    },
+    {
+      "platform": "c64",
+      "date": "1989"
+    },
+    {
+      "platform": "amstrad_cpc",
+      "date": "1989"
+    },
+    {
+      "platform": "zx_spectrum",
+      "date": "1989"
+    },
+    {
+      "platform": "fm_towns"
+    },
+    {
+      "platform": "pc98"
+    },
+    {
+      "platform": "nes",
+      "developers": ["Atelier Double"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "edition": "Silver Box Classics",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/silver_box_classics"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2344020/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/dragons-of-flame/0.png"]
+}

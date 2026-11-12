@@ -93,7 +93,7 @@
 
 ## 8. Fichas completas
 
-- [ ] 8.1 Lote años 80 y Gold Box; verificar con `just check` y
+- [x] 8.1 Lote años 80 y Gold Box; verificar con `just check` y
       marcarlo en el inventario
 - [ ] 8.2 Lote años 90 (PC, consolas, recreativas); verificar con
       `just check` y marcarlo en el inventario

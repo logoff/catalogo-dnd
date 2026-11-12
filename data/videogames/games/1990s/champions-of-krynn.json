@@ -1,0 +1,55 @@
+{
+  "slug": "champions-of-krynn",
+  "title": "Champions of Krynn",
+  "description": "Primer juego de la serie Gold Box ambientado en Krynn, el mundo de Dragonlance, poco después de la Guerra de la Lanza. El grupo se une a las fuerzas que vigilan los restos del ejército de la Reina de la Oscuridad, y el juego adapta elementos propios del mundo, como las tres lunas que afectan a la magia o las órdenes de caballería. Mantiene la exploración en primera persona y los combates tácticos por turnos de la serie.\n\nAbre una trilogía que continúa en Death Knights of Krynn y The Dark Queen of Krynn, con importación del grupo entre juegos. Hoy se vende para Windows dentro de la recopilación Dungeons & Dragons: Krynn Series, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1990"
+    },
+    {
+      "platform": "c64",
+      "date": "1990"
+    },
+    {
+      "platform": "apple_ii"
+    },
+    {
+      "platform": "amiga",
+      "publishers": ["U.S. Gold"]
+    },
+    {
+      "platform": "pc98",
+      "publishers": ["Pony Canyon"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Dungeons & Dragons: Krynn Series",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_krynn_series"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904610/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/champions-of-krynn/0.png"]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "dragonstrike",
+  "title": "DragonStrike",
+  "description": "Simulador de vuelo de Westwood en el que el jugador monta un dragón metálico y combate con una lanza contra los dragones y criaturas de los ejércitos de la Reina de la Oscuridad durante la Guerra de la Lanza de Dragonlance. Se pilota en primera persona a lo largo de una serie de misiones, y el dragón y el equipo mejoran a medida que se avanza.\n\nEs una propuesta muy distinta a los juegos de rol de la época, para quien busque acción aérea en el mundo de Dragonlance. Hoy se vende para Windows en GOG y Steam, solo en inglés. La versión de NES es un juego diferente y tiene su propia ficha.",
+  "developers": ["Westwood Associates"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["flight_simulation"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1990"
+    },
+    {
+      "platform": "amiga",
+      "date": "1990"
+    },
+    {
+      "platform": "c64",
+      "date": "1990"
+    },
+    {
+      "platform": "pc98",
+      "date": "1992-03"
+    },
+    {
+      "platform": "x68000",
+      "date": "1992-03"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dragonstrike"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2350520/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/dragonstrike/0.png"]
+}

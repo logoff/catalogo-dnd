@@ -1,0 +1,48 @@
+{
+  "slug": "gateway-to-the-savage-frontier",
+  "title": "Gateway to the Savage Frontier",
+  "description": "Juego de la serie Gold Box ambientado en la Frontera Salvaje, la región del norte de los Reinos Olvidados entre Aguasprofundas y Luna Plateada. Lo desarrolló el estudio que más tarde sería Stormfront Studios, con el mismo motor que los juegos de SSI: exploración en primera persona y combates tácticos por turnos.\n\nAbre una pequeña saga propia, independiente de la de Pool of Radiance, que continúa en Treasures of the Savage Frontier. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Two, solo en inglés.",
+  "developers": ["Beyond Software"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1991"
+    },
+    {
+      "platform": "c64",
+      "date": "1991"
+    },
+    {
+      "platform": "amiga",
+      "date": "1991"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Forgotten Realms: The Archives – Collection Two",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_two"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1882280/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/gateway-to-the-savage-frontier/0.png"]
+}

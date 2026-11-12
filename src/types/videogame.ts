@@ -12,6 +12,13 @@ export type Platform =
   | 'c64'
   | 'apple_ii'
   | 'pc98'
+  | 'pc88'
+  | 'x68000'
+  | 'fm_towns'
+  | 'msx'
+  | 'amstrad_cpc'
+  | 'zx_spectrum'
+  | 'aquarius'
   // Consolas de sobremesa
   | 'intellivision'
   | 'nes'
