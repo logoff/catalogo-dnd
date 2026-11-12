@@ -1,65 +1,102 @@
-import {
-  ComputerDesktopIcon,
-  DevicePhoneMobileIcon,
-  GlobeAltIcon,
-} from '@heroicons/react/24/outline'
+import type { ReactNode } from 'react'
 import type { Platform } from '@/types/videogame'
-import { platformIcons } from '@/utils/platformIcons'
+import { platformKinds, type PlatformKind } from '@/utils/platformIcons'
 import { platformNames } from '@/utils/videogameTranslations'
-import { BRAND_PATHS } from './brandIcons'
 
 interface PlatformIconProps {
   platform: Platform
   className?: string
   // Texto accesible; por defecto, el nombre de la plataforma
   label?: string
+  // Solo decorativo, cuando el nombre ya aparece al lado como texto
+  decorative?: boolean
 }
 
-// Mando genérico para las consolas sin logotipo disponible (Nintendo, Xbox, 3DO…)
-function GamepadIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      className={className}
-    >
-      <path d="M7 7.5h10a4.5 4.5 0 0 1 4.4 5.5l-.9 4a2 2 0 0 1-3.4.9L15 15.5H9l-2.1 2.4a2 2 0 0 1-3.4-.9l-.9-4A4.5 4.5 0 0 1 7 7.5Z" />
-      <path d="M8 10.5v3M6.5 12h3" />
-      <circle cx="15.5" cy="11" r=".75" fill="currentColor" />
-      <circle cx="17" cy="13" r=".75" fill="currentColor" />
-    </svg>
-  )
+// Pictogramas propios de cada tipo de aparato, con el mismo trazo que los iconos de Heroicons
+const shapes: Record<PlatformKind, ReactNode> = {
+  computer: (
+    <>
+      <rect x="3" y="4" width="18" height="12" rx="1.5" />
+      <path d="M9 20h6M12 16v4" />
+    </>
+  ),
+  retro_computer: (
+    <>
+      <rect x="5" y="3" width="14" height="10" rx="1" />
+      <rect x="8" y="5.5" width="8" height="5" rx=".5" />
+      <path d="M3 16h18l-1.5 4.5h-15Z" />
+      <path d="M6.5 18.25h11" />
+    </>
+  ),
+  console: (
+    <>
+      <rect x="3" y="5" width="18" height="7" rx="1.5" />
+      <path d="M6.5 8.5h4" />
+      <circle cx="17" cy="8.5" r=".75" fill="currentColor" />
+      <path d="M12 12v2.5" />
+      <path d="M8.5 14.5h7a2.25 2.25 0 0 1 0 4.5h-7a2.25 2.25 0 0 1 0-4.5Z" />
+      <path d="M9 16.75h2M10 15.75v2" />
+    </>
+  ),
+  handheld: (
+    <>
+      <rect x="2.5" y="6.5" width="19" height="11" rx="3" />
+      <rect x="8" y="8.5" width="8" height="7" rx=".5" />
+      <path d="M4 12h2.5M5.25 10.75v2.5" />
+      <circle cx="18.5" cy="11" r=".75" fill="currentColor" />
+      <circle cx="19" cy="13.5" r=".75" fill="currentColor" />
+    </>
+  ),
+  arcade: (
+    <>
+      <path d="M7 2.5h10v6l1.5 3v10h-13v-10L7 8.5Z" />
+      <rect x="8.5" y="4" width="7" height="3.5" rx=".5" />
+      <path d="M5.5 14h13M10 14v-2" />
+      <circle cx="10" cy="11.5" r=".75" fill="currentColor" />
+      <circle cx="13.5" cy="12.5" r=".6" fill="currentColor" />
+      <circle cx="15.5" cy="12.5" r=".6" fill="currentColor" />
+    </>
+  ),
+  mobile: (
+    <>
+      <rect x="6.5" y="2.5" width="11" height="19" rx="2" />
+      <path d="M10.5 18.5h3" />
+    </>
+  ),
+  browser: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18M12 3c2.5 2.5 3.5 5.5 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-5.5-3.5-9s1-6.5 3.5-9Z" />
+    </>
+  ),
 }
 
-// Icono de una plataforma; el nombre va como texto accesible
+// Icono del tipo de aparato de una plataforma; el nombre va como texto accesible
 export default function PlatformIcon({
   platform,
   className = 'h-4 w-4',
   label,
+  decorative = false,
 }: PlatformIconProps) {
-  const icon = platformIcons[platform]
   const name = label ?? platformNames[platform]
+  const a11y = decorative
+    ? { 'aria-hidden': true }
+    : { role: 'img', 'aria-label': name, title: name }
 
   return (
-    <span role="img" aria-label={name} title={name} className="inline-flex shrink-0">
-      {icon.kind === 'brand' ? (
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>
-          <path d={BRAND_PATHS[icon.name]} />
-        </svg>
-      ) : icon.kind === 'computer' ? (
-        <ComputerDesktopIcon aria-hidden="true" className={className} />
-      ) : icon.kind === 'mobile' ? (
-        <DevicePhoneMobileIcon aria-hidden="true" className={className} />
-      ) : icon.kind === 'browser' ? (
-        <GlobeAltIcon aria-hidden="true" className={className} />
-      ) : (
-        <GamepadIcon className={className} />
-      )}
+    <span {...a11y} className="inline-flex shrink-0">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.5}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+        className={className}
+      >
+        {shapes[platformKinds[platform]]}
+      </svg>
     </span>
   )
 }

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import type { Platform, VideogameWithMeta } from '@/types/videogame'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import { platformNames } from '@/utils/videogameTranslations'
-import { platformIcons } from '@/utils/platformIcons'
+import { platformKinds } from '@/utils/platformIcons'
 import PlatformIcon from './PlatformIcon'
 import LazyImage from '../common/LazyImage'
 import SpanishBadge from './SpanishBadge'
@@ -13,12 +13,11 @@ interface VideogameCardProps {
   view?: 'grid' | 'list'
 }
 
-// Iconos de las plataformas: las que comparten icono se agrupan en uno con todos los nombres
+// Iconos de las plataformas: las del mismo tipo de aparato se agrupan en uno con todos los nombres
 function PlatformIcons({ game }: { game: VideogameWithMeta }) {
   const groups = new Map<string, Platform[]>()
   for (const platform of game.platforms) {
-    const spec = platformIcons[platform]
-    const key = spec.kind === 'brand' ? spec.name : spec.kind
+    const key = platformKinds[platform]
     groups.set(key, [...(groups.get(key) ?? []), platform])
   }
   return (

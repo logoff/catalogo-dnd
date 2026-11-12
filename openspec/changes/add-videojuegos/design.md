@@ -226,12 +226,16 @@ el nombre del paquete junto al botón.
 
 ### D10 · Iconos de plataforma
 
-Los logotipos salen de Simple Icons (CC0), copiando solo los trazados
-SVG necesarios a `src/components/videogames/platformIcons.ts` en lugar de
-añadir la dependencia. Simple Icons no incluye Windows, Xbox, Nintendo
-ni varios sistemas antiguos; para ellos se usa un icono genérico por
-tipo (ordenador, consola, móvil o navegador). El nombre de la plataforma
-acompaña siempre al icono o va como texto alternativo.
+Los iconos son pictogramas propios del tipo de aparato, no logotipos:
+ordenador actual, ordenador clásico, consola, portátil, recreativa, móvil
+y navegador (`src/utils/platformIcons.ts` y `PlatformIcon`). El nombre de
+la plataforma acompaña siempre al icono o va como texto alternativo, y en
+los filtros el icono es decorativo junto al nombre.
+
+_Alternativa descartada:_ logotipos de las marcas (Simple Icons, Font
+Awesome). Microsoft, Nintendo y Sony solo autorizan sus logotipos con
+licencia, y los propios proyectos de iconos los han ido retirando; con
+dibujos propios no hay ningún riesgo de marca.
 
 ## Risks / Trade-offs
 

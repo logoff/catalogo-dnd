@@ -55,12 +55,14 @@ export function FilterSection({
 
 interface FilterCheckboxProps {
   label: string
+  // Icono decorativo delante del nombre (por ejemplo, el de la plataforma)
+  icon?: React.ReactNode
   count: number
   checked: boolean
   onChange: () => void
 }
 
-export function FilterCheckbox({ label, count, checked, onChange }: FilterCheckboxProps) {
+export function FilterCheckbox({ label, icon, count, checked, onChange }: FilterCheckboxProps) {
   return (
     <div className="flex items-center gap-2">
       <label className="flex items-center gap-2 cursor-pointer group">
@@ -70,6 +72,7 @@ export function FilterCheckbox({ label, count, checked, onChange }: FilterCheckb
           onChange={onChange}
           className="rounded-sm border-dnd-gold/30 bg-dnd-stone text-dnd-red focus:ring-dnd-gold/50"
         />
+        {icon}
         <span className="text-sm text-gray-300 group-hover:text-white transition-colors">
           {label}
         </span>

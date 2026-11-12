@@ -21,6 +21,7 @@ import {
   spanishSummaryNames,
 } from '@/utils/videogameTranslations'
 import { FilterCheckbox, FilterSection } from '../filters/FilterControls'
+import PlatformIcon from './PlatformIcon'
 
 const SPANISH_OPTIONS: SpanishFilter[] = ['full', 'text', 'none']
 
@@ -195,6 +196,9 @@ function FilterContent() {
             <FilterCheckbox
               key={platform}
               label={platformNames[platform]}
+              icon={
+                <PlatformIcon platform={platform} decorative className="h-4 w-4 text-gray-400" />
+              }
               count={counts.platforms[platform] ?? 0}
               checked={platforms.includes(platform)}
               onChange={() => state.togglePlatform(platform)}

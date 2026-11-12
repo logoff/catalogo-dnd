@@ -55,6 +55,14 @@ describe('VideogamesPage', () => {
     expect(titles().every((title) => byTitle(title!).decade === 2020)).toBe(true)
   })
 
+  it('el filtro de plataforma lleva icono y la casilla se nombra solo por la plataforma', () => {
+    renderPage()
+    fireEvent.click(screen.getAllByRole('button', { name: /^Plataforma/ })[0])
+    const windows = checkbox('Windows')
+    expect(windows.closest('label')?.querySelector('svg')).not.toBeNull()
+    expect(screen.getAllByRole('checkbox', { name: 'Windows' }).length).toBeGreaterThan(0)
+  })
+
   it('busca por título sin tildes', () => {
     renderPage()
     fireEvent.change(screen.getAllByLabelText('Buscar por título')[0], {
