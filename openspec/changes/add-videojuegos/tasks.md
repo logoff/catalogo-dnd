@@ -87,7 +87,7 @@
 
 - [ ] 7.1 Solicitar el programa de GOG en Adtraction; verificar que
       aparece como solicitado en el panel
-- [ ] 7.2 Rellenar los enlaces de GOG de todos los juegos inventariados
+- [x] 7.2 Rellenar los enlaces de GOG de todos los juegos inventariados
       que vende (con un script si hay product feed); verificar con los
       tests de datos y comprobando una muestra de enlaces
 
@@ -101,7 +101,7 @@
       verificar con `just check` y marcarlo en el inventario
 - [ ] 8.4 Lote MMO, juegos online, móvil y navegador; verificar con
       `just check` y marcarlo en el inventario
-- [ ] 8.5 Lote años 2010 y 2020; verificar con `just check` y que el
+- [x] 8.5 Lote años 2010 y 2020; verificar con `just check` y que el
       inventario no tenga pendientes
 
 ## 9. Más tiendas

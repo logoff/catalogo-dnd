@@ -1,0 +1,30 @@
+{
+  "slug": "tales-from-candlekeep-tomb-of-annihilation",
+  "title": "Tales from Candlekeep: Tomb of Annihilation",
+  "description": "Adaptación digital de BKOM Studios del juego de mesa Tomb of Annihilation de la serie D&D Adventure System, ambientado en la selva de Chult de los Reinos Olvidados. Los héroes exploran por turnos una mazmorra que se va formando con losetas, combaten con tiradas de dado y avanzan en una campaña de escenarios, como en el juego de mesa.\n\nEs para quien disfrute de los juegos de mesa cooperativos de mazmorras. Se retiró de Steam el 20 de mayo de 2022 por el fin de la licencia, así que hoy no se puede comprar. Comparte selva y villanos con la aventura Tomb of Annihilation.",
+  "developers": ["BKOM Studios"],
+  "publishers": ["BKOM Studios"],
+  "genres": ["board_game", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2017-10-11",
+      "delisted": true
+    },
+    {
+      "platform": "mac",
+      "date": "2017-10-11",
+      "delisted": true
+    }
+  ],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "TOA"
+    }
+  ],
+  "images": ["/images/videogames/tales-from-candlekeep-tomb-of-annihilation/0.jpg"]
+}
