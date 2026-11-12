@@ -59,7 +59,7 @@ describe('VideogamesPage', () => {
     renderPage()
     fireEvent.click(screen.getAllByRole('button', { name: /^Plataforma/ })[0])
     const windows = checkbox('Windows')
-    expect(windows.closest('label')?.querySelector('svg')).not.toBeNull()
+    expect(windows.closest('label')?.querySelector('img, svg')).not.toBeNull()
     expect(screen.getAllByRole('checkbox', { name: 'Windows' }).length).toBeGreaterThan(0)
   })
 

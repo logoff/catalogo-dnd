@@ -5,6 +5,7 @@ export type Platform =
   | 'pc_windows'
   | 'pc_dos'
   | 'mac'
+  | 'mac_classic'
   | 'linux'
   // Ordenadores domésticos
   | 'amiga'

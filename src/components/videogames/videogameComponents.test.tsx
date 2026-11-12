@@ -6,6 +6,8 @@ import ReviewScore from './ReviewScore'
 import ReleaseTable from './ReleaseTable'
 import PurchaseByPlatform from './PurchaseByPlatform'
 import PlatformIcon from './PlatformIcon'
+import { PLATFORMS_WITH_LOGO } from '@/utils/platformLogos'
+import logoSourcesRaw from '/public/images/platforms/sources.json?raw'
 import type { Platform } from '@/types/videogame'
 import { describeSpanish, formatPartialDate, platformNames } from '@/utils/videogameTranslations'
 
@@ -273,5 +275,39 @@ describe('PlatformIcon', () => {
       expect(screen.getByRole('img', { name: platformNames[platform] })).toBeInTheDocument()
       unmount()
     }
+  })
+})
+
+describe('logotipos de plataforma', () => {
+  const logoSources = JSON.parse(logoSourcesRaw) as Record<string, { license: string }>
+  const files = Object.keys(import.meta.glob('/public/images/platforms/*.svg')).map((path) =>
+    path.replace('/public/images/platforms/', '').replace('.svg', '')
+  )
+
+  it('cada plataforma con logotipo tiene su archivo y su procedencia en Commons', () => {
+    const missing = [...PLATFORMS_WITH_LOGO].filter(
+      (platform) => !files.includes(platform) || !(platform in logoSources)
+    )
+    expect(missing).toEqual([])
+  })
+
+  it('no hay logotipos sin usar', () => {
+    expect(files.filter((file) => !PLATFORMS_WITH_LOGO.has(file as Platform))).toEqual([])
+  })
+
+  it('todos los logotipos tienen licencia libre', () => {
+    const notFree = Object.entries(logoSources)
+      .filter(([, source]) => !['Public domain', 'CC0'].includes(source.license))
+      .map(([platform]) => platform)
+    expect(notFree).toEqual([])
+  })
+
+  it('muestra el logotipo si lo hay y el pictograma si no', () => {
+    const { container, unmount } = render(<PlatformIcon platform="ps4" />)
+    expect(container.querySelector('img')).toHaveAttribute('src', '/images/platforms/ps4.svg')
+    unmount()
+    const arcade = render(<PlatformIcon platform="arcade" />)
+    expect(arcade.container.querySelector('img')).toBeNull()
+    expect(arcade.container.querySelector('svg')).not.toBeNull()
   })
 })

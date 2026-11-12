@@ -196,9 +196,7 @@ function FilterContent() {
             <FilterCheckbox
               key={platform}
               label={platformNames[platform]}
-              icon={
-                <PlatformIcon platform={platform} decorative className="h-4 w-4 text-gray-400" />
-              }
+              icon={<PlatformIcon platform={platform} decorative />}
               count={counts.platforms[platform] ?? 0}
               checked={platforms.includes(platform)}
               onChange={() => state.togglePlatform(platform)}

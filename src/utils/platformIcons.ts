@@ -8,6 +8,7 @@ export type PlatformKind =
 export const platformKinds: Record<Platform, PlatformKind> = {
   pc_windows: 'computer',
   mac: 'computer',
+  mac_classic: 'retro_computer',
   linux: 'computer',
   pc_dos: 'retro_computer',
   amiga: 'retro_computer',

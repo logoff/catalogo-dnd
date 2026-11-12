@@ -78,9 +78,18 @@ export default function LegalPage() {
           </p>
           <p>
             Los nombres, logotipos y portadas de los videojuegos son de sus desarrolladoras y
-            editoras; se muestran solo para identificarlos. Los iconos de plataforma son dibujos
-            propios del tipo de aparato, no logotipos de sus fabricantes. Las notas de cada ficha
-            son de los medios que se citan, con enlace a la fuente; aquí solo se recoge la cifra.
+            editoras; se muestran solo para identificarlos. Las notas de cada ficha son de los
+            medios que se citan, con enlace a la fuente; aquí solo se recoge la cifra.
+          </p>
+          <p>
+            Los logotipos de consolas, ordenadores y sistemas (PlayStation, Xbox, Nintendo, Sega,
+            Windows, macOS y otros) son marcas de sus respectivos propietarios. Se usan solo para
+            indicar en qué plataformas está disponible cada juego, sin que eso suponga ninguna
+            relación con esas empresas ni su respaldo, como uso referencial de la marca (artículo 14
+            del Reglamento (UE) 2017/1001). Las imágenes proceden de{' '}
+            <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>, donde figuran en dominio
+            público o con licencia CC0. Cuando una plataforma no tiene logotipo disponible se
+            muestra un dibujo propio del tipo de aparato.
           </p>
           <p>
             Los textos propios del catálogo (descripciones y guías) y el código del sitio son de su

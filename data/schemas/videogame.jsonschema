@@ -191,6 +191,7 @@
                 "pc_windows",
                 "pc_dos",
                 "mac",
+                "mac_classic",
                 "linux",
                 "amiga",
                 "atari_st",

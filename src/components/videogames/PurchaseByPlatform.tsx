@@ -149,7 +149,7 @@ export default function PurchaseByPlatform({ slug, releases }: PurchaseByPlatfor
       {[...groups.entries()].map(([platform, offers]) => (
         <section key={platform} aria-label={platformNames[platform]} className="space-y-3">
           <h3 className="flex items-center gap-2 font-semibold text-gray-100">
-            <PlatformIcon platform={platform} className="h-5 w-5 text-gray-300" />
+            <PlatformIcon platform={platform} size="md" className="text-gray-300" />
             {platformNames[platform]}
           </h3>
           {offers.map((offer, index) =>

@@ -4,6 +4,7 @@ import type { Platform, VideogameWithMeta } from '@/types/videogame'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import { platformNames } from '@/utils/videogameTranslations'
 import { platformKinds } from '@/utils/platformIcons'
+import { logoKey, platformLogo } from '@/utils/platformLogos'
 import PlatformIcon from './PlatformIcon'
 import LazyImage from '../common/LazyImage'
 import SpanishBadge from './SpanishBadge'
@@ -13,22 +14,35 @@ interface VideogameCardProps {
   view?: 'grid' | 'list'
 }
 
-// Iconos de las plataformas: las del mismo tipo de aparato se agrupan en uno con todos los nombres
+// Iconos de las plataformas: las que comparten icono se agrupan en uno con todos los nombres
+// Como mucho cuatro iconos en la tarjeta; el resto se resume en «+N» con los nombres en el tooltip
+const MAX_ICONS = 4
+
 function PlatformIcons({ game }: { game: VideogameWithMeta }) {
   const groups = new Map<string, Platform[]>()
   for (const platform of game.platforms) {
-    const key = platformKinds[platform]
+    // Mismo logotipo (p. ej. NEC para PC-88 y PC-98) o, sin logotipo, mismo tipo de aparato
+    const key = platformLogo(platform) ? logoKey(platform) : platformKinds[platform]
     groups.set(key, [...(groups.get(key) ?? []), platform])
   }
+  const all = [...groups.values()]
+  const shown = all.length > MAX_ICONS ? all.slice(0, MAX_ICONS - 1) : all
+  const rest = all.slice(shown.length).flat()
+
   return (
     <span className="flex flex-wrap items-center gap-1.5 text-gray-400">
-      {[...groups.values()].map((platforms) => (
+      {shown.map((platforms) => (
         <PlatformIcon
           key={platforms[0]}
           platform={platforms[0]}
           label={platforms.map((p) => platformNames[p]).join(', ')}
         />
       ))}
+      {rest.length > 0 && (
+        <span className="text-xs" title={rest.map((p) => platformNames[p]).join(', ')}>
+          +{rest.length}
+        </span>
+      )}
     </span>
   )
 }

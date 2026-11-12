@@ -226,16 +226,23 @@ el nombre del paquete junto al botón.
 
 ### D10 · Iconos de plataforma
 
-Los iconos son pictogramas propios del tipo de aparato, no logotipos:
-ordenador actual, ordenador clásico, consola, portátil, recreativa, móvil
-y navegador (`src/utils/platformIcons.ts` y `PlatformIcon`). El nombre de
-la plataforma acompaña siempre al icono o va como texto alternativo, y en
-los filtros el icono es decorativo junto al nombre.
+Cada plataforma muestra su logotipo, con sus colores, sacado de
+Wikimedia Commons (solo archivos en dominio público o CC0, que no tienen
+derechos de autor) en `public/images/platforms/<plataforma>.svg`, con la
+procedencia y la licencia de cada uno en `sources.json`. Se muestran
+sobre una pastilla clara porque muchos son negros. El uso es
+referencial: identificar en qué plataforma está el juego (artículo 14 del
+Reglamento (UE) 2017/1001), y así se explica en la página legal.
 
-_Alternativa descartada:_ logotipos de las marcas (Simple Icons, Font
-Awesome). Microsoft, Nintendo y Sony solo autorizan sus logotipos con
-licencia, y los propios proyectos de iconos los han ido retirando; con
-dibujos propios no hay ningún riesgo de marca.
+Las plataformas sin logotipo (recreativa, móvil genérico y navegador)
+usan un pictograma propio de su tipo de aparato. El nombre de la
+plataforma acompaña siempre al icono o va como texto alternativo, y en
+los filtros el icono es decorativo junto al nombre. Mac se divide en Mac
+OS clásico (hasta 2001) y macOS, cada uno con su logotipo.
+
+_Alternativas descartadas:_ librerías de iconos (Simple Icons, Font
+Awesome), que han retirado buena parte de las marcas de consolas, y
+pictogramas genéricos para todo, que no permiten reconocer cada consola.
 
 ## Risks / Trade-offs
 

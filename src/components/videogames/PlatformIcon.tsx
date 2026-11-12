@@ -2,9 +2,14 @@ import type { ReactNode } from 'react'
 import type { Platform } from '@/types/videogame'
 import { platformKinds, type PlatformKind } from '@/utils/platformIcons'
 import { platformNames } from '@/utils/videogameTranslations'
+import { platformLogo } from '@/utils/platformLogos'
+import { getAssetPath } from '@/utils/constants'
 
 interface PlatformIconProps {
   platform: Platform
+  // sm para tablas, filtros y tarjetas; md para las cabeceras de «Dónde comprar»
+  size?: 'sm' | 'md'
+  // Color del pictograma cuando no hay logotipo
   className?: string
   // Texto accesible; por defecto, el nombre de la plataforma
   label?: string
@@ -71,10 +76,17 @@ const shapes: Record<PlatformKind, ReactNode> = {
   ),
 }
 
-// Icono del tipo de aparato de una plataforma; el nombre va como texto accesible
+const SIZES = {
+  sm: { pictogram: 'h-4 w-4', chip: 'h-5 px-1', logo: 'h-3.5 max-w-16' },
+  md: { pictogram: 'h-5 w-5', chip: 'h-6 px-1.5', logo: 'h-4 max-w-20' },
+}
+
+// Logotipo de la plataforma sobre una pastilla clara (muchos son negros y no se verían sobre el
+// fondo oscuro) o, si no hay logotipo, el pictograma de su tipo de aparato
 export default function PlatformIcon({
   platform,
-  className = 'h-4 w-4',
+  size = 'sm',
+  className = 'text-gray-400',
   label,
   decorative = false,
 }: PlatformIconProps) {
@@ -82,6 +94,19 @@ export default function PlatformIcon({
   const a11y = decorative
     ? { 'aria-hidden': true }
     : { role: 'img', 'aria-label': name, title: name }
+  const logo = platformLogo(platform)
+  const sizes = SIZES[size]
+
+  if (logo) {
+    return (
+      <span
+        {...a11y}
+        className={`inline-flex shrink-0 items-center justify-center rounded bg-white ${sizes.chip}`}
+      >
+        <img src={getAssetPath(logo)} alt="" className={`w-auto object-contain ${sizes.logo}`} />
+      </span>
+    )
+  }
 
   return (
     <span {...a11y} className="inline-flex shrink-0">
@@ -93,7 +118,7 @@ export default function PlatformIcon({
         strokeLinecap="round"
         strokeLinejoin="round"
         aria-hidden="true"
-        className={className}
+        className={`${sizes.pictogram} ${className}`}
       >
         {shapes[platformKinds[platform]]}
       </svg>

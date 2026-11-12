@@ -31,18 +31,20 @@ su ficha.
 - **WHEN** un juego no tiene notas
 - **THEN** la tarjeta se muestra sin el bloque de nota
 
-#### Scenario: Iconos sin logotipos de marca
+#### Scenario: Logotipo de la plataforma
 
-- **WHEN** se muestra el icono de una plataforma
-- **THEN** es un dibujo de su tipo de aparato (ordenador, ordenador
-  clásico, consola, portátil, recreativa, móvil o navegador) y no el
-  logotipo de la marca
+- **WHEN** una plataforma tiene logotipo libre en Wikimedia Commons
+- **THEN** se muestra ese logotipo con sus colores
+
+#### Scenario: Plataforma sin logotipo
+
+- **WHEN** una plataforma no tiene logotipo disponible
+- **THEN** se muestra un pictograma de su tipo de aparato
 
 #### Scenario: Iconos en el filtro de plataforma
 
 - **WHEN** el visitante despliega el filtro de plataforma
-- **THEN** cada opción muestra el icono de su tipo de aparato junto al
-  nombre
+- **THEN** cada opción muestra el icono de la plataforma junto al nombre
 
 ### Requirement: Filtros
 

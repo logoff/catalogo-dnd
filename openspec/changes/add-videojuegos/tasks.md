@@ -132,8 +132,8 @@
       Dark Sun Series, Ravenloft Series, Silver Box Classics, Chronicles
       of Mystara y el pack de Baldur's Gate I y II de Xbox One; verificar
       con `just check`
-- [x] 11.3 Crear los iconos de plataforma (pictogramas propios por tipo de
-      aparato, también en el filtro);
+- [x] 11.3 Crear los iconos de plataforma (logotipos de Wikimedia Commons y
+      pictogramas propios donde no hay, también en el filtro);
       verificar con un test que todas las plataformas tienen icono
 - [x] 11.4 Rehacer «Dónde comprar» por plataforma y versión, con icono,
       año e idioma y el bloque de recopilación; verificar con tests de

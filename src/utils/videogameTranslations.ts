@@ -15,7 +15,8 @@ import { formatDate } from './formatters'
 export const platformNames: Record<Platform, string> = {
   pc_windows: 'Windows',
   pc_dos: 'MS-DOS',
-  mac: 'Mac',
+  mac: 'macOS',
+  mac_classic: 'Mac OS clásico',
   linux: 'Linux',
   amiga: 'Amiga',
   atari_st: 'Atari ST',

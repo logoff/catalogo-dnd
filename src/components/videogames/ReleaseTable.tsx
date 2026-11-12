@@ -41,7 +41,7 @@ export default function ReleaseTable({ releases }: ReleaseTableProps) {
             <tr key={index} className="border-b border-dnd-gold/10">
               <td className="py-2 pr-4">
                 <span className="inline-flex items-center gap-2">
-                  <PlatformIcon platform={release.platform} className="h-4 w-4 text-gray-400" />
+                  <PlatformIcon platform={release.platform} />
                   {platformNames[release.platform]}
                 </span>
               </td>
