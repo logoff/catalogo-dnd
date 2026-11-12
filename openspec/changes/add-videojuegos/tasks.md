@@ -73,13 +73,13 @@
 
 ## 6. Integración en el sitio
 
-- [ ] 6.1 Enlazar la sección desde la cabecera y la portada, y ajustar
+- [x] 6.1 Enlazar la sección desde la cabecera y la portada, y ajustar
       los textos generales (portada, `<head>` por defecto) para incluir
       videojuegos; verificar en `just dev` y con los tests de las
       páginas afectadas
-- [ ] 6.2 Ampliar la página legal (afiliados de tiendas de videojuegos,
+- [x] 6.2 Ampliar la página legal (afiliados de tiendas de videojuegos,
       marcas de las editoras); verificar en `just dev`
-- [ ] 6.3 Comprobar que el catálogo de libros no cambia; verificar que
+- [x] 6.3 Comprobar que el catálogo de libros no cambia; verificar que
       `/catalogo` solo lista libros, cajas y accesorios y que
       `just check` pasa
 
