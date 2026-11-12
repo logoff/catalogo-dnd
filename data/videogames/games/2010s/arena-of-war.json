@@ -1,0 +1,22 @@
+{
+  "slug": "arena-of-war",
+  "title": "Dungeons & Dragons: Arena of War",
+  "description": "Juego gratuito para móviles de DeNA ambientado en los Reinos Olvidados, con combates por turnos en vista isométrica entre un grupo de héroes y los enemigos de cada arena, apuntando los ataques con un sistema de tirachinas. El jugador reclutaba personajes, aceptaba misiones y los mejoraba entre combates.\n\nFue el primer juego gratuito de D&D para móviles. Cerró en 2014, así que hoy solo tiene interés histórico.",
+  "developers": ["DeNA Santiago"],
+  "publishers": ["DeNA"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "shut_down",
+  "releases": [
+    {
+      "platform": "android",
+      "date": "2013-07-02"
+    },
+    {
+      "platform": "ios",
+      "date": "2013-10-18"
+    }
+  ],
+  "images": ["/images/videogames/arena-of-war/0.jpg"]
+}

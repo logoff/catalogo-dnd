@@ -1,0 +1,19 @@
+{
+  "slug": "heroes-of-neverwinter",
+  "title": "Dungeons & Dragons: Heroes of Neverwinter",
+  "description": "Juego de rol para Facebook de Liquid Entertainment y Atari, basado en las reglas de la cuarta edición de D&D y ambientado en los alrededores de Neverwinter, en los Reinos Olvidados. El jugador creaba un personaje, reclutaba a los de sus amigos para formar grupo y recorría decenas de mazmorras con combates tácticos por turnos sobre una cuadrícula.\n\nEra gratuito, con compras dentro del juego. Cerró a finales de 2012, así que hoy solo tiene interés histórico.",
+  "developers": ["Liquid Entertainment"],
+  "publishers": ["Atari", "Six Waves"],
+  "genres": ["tactical_rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "4e",
+  "status": "shut_down",
+  "releases": [
+    {
+      "platform": "browser",
+      "date": "2011-10"
+    }
+  ],
+  "images": ["/images/videogames/heroes-of-neverwinter/0.jpg"]
+}

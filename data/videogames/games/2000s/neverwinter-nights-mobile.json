@@ -1,0 +1,19 @@
+{
+  "slug": "neverwinter-nights-mobile",
+  "title": "Neverwinter Nights: Mobile",
+  "description": "Juego de rol para teléfonos móviles de 2004 que adaptaba Neverwinter Nights a las pantallas de la época, con vista aérea, las reglas de la tercera edición de D&D y la ambientación de los Reinos Olvidados. Era un juego para un jugador, pero descargaba parte de su contenido a través de la red de datos del teléfono, así que necesitaba cobertura para jugarse.\n\nEs una rareza de los primeros juegos para móvil con licencia de D&D. Dejó de estar disponible hace años, así que hoy solo tiene interés histórico.",
+  "developers": ["Floodgate Entertainment"],
+  "publishers": ["JAMDAT Mobile"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "ruleset": "3e",
+  "status": "shut_down",
+  "releases": [
+    {
+      "platform": "mobile_phone",
+      "date": "2004"
+    }
+  ],
+  "images": ["/images/videogames/neverwinter-nights-mobile/0.jpg"]
+}

@@ -99,7 +99,7 @@
       `just check` y marcarlo en el inventario
 - [x] 8.3 Lote Infinity Engine, Neverwinter Nights y años 2000;
       verificar con `just check` y marcarlo en el inventario
-- [ ] 8.4 Lote MMO, juegos online, móvil y navegador; verificar con
+- [x] 8.4 Lote MMO, juegos online, móvil y navegador; verificar con
       `just check` y marcarlo en el inventario
 - [x] 8.5 Lote años 2010 y 2020; verificar con `just check` y que el
       inventario no tenga pendientes

@@ -1,0 +1,22 @@
+{
+  "slug": "warriors-of-waterdeep",
+  "title": "Warriors of Waterdeep",
+  "description": "Juego de rol gratuito para móviles de Ludia, en colaboración con Wizards of the Coast, ambientado en Aguasprofundas y sus alrededores, en los Reinos Olvidados. El jugador formaba grupos de héroes de distintas clases y los llevaba por mazmorras con combates por turnos, con monstruos sacados del Manual de Monstruos.\n\nEra gratuito, con compras dentro del juego. Cerró a finales de 2022, así que hoy solo tiene interés histórico.",
+  "developers": ["Ludia"],
+  "publishers": ["Ludia"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "shut_down",
+  "releases": [
+    {
+      "platform": "ios",
+      "date": "2019-05-29"
+    },
+    {
+      "platform": "android",
+      "date": "2019-05-29"
+    }
+  ],
+  "images": ["/images/videogames/warriors-of-waterdeep/0.jpg"]
+}

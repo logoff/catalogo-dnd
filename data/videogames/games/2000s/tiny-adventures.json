@@ -1,0 +1,18 @@
+{
+  "slug": "tiny-adventures",
+  "title": "Dungeons & Dragons: Tiny Adventures",
+  "description": "Aplicación de Facebook de Wizards of the Coast lanzada en 2008 para dar a conocer la cuarta edición de D&D. El jugador creaba un personaje con las razas y clases del nuevo Manual del Jugador y lo enviaba a aventuras que se resolvían solas con tiradas de dado, preparándolo con equipo y pociones para mejorar sus posibilidades.\n\nFue uno de los primeros juegos sociales de la marca. Cerró en 2010 y hoy solo tiene interés histórico.",
+  "developers": ["Wizards of the Coast"],
+  "publishers": ["Wizards of the Coast"],
+  "genres": ["idle", "rpg"],
+  "modes": ["single"],
+  "ruleset": "4e",
+  "status": "shut_down",
+  "releases": [
+    {
+      "platform": "browser",
+      "date": "2008-08-19"
+    }
+  ],
+  "images": ["/images/videogames/tiny-adventures/0.jpg"]
+}
