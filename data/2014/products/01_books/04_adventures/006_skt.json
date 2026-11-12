@@ -47,6 +47,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Tormenta-Asmodee-EEWCDD14/dp/B0925NT31Z"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11007-dungeons-and-dragons-el-trueno-del-rey-de-la-tormenta-8435407626188.html"
         }
       ]
     }

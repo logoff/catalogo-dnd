@@ -45,6 +45,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Gale-Force-Nine-Fantasmas-Saltmarsh/dp/B09TBGGTC3"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11352-dungeons-and-dragons-fantasmas-de-saltmarsh-8435407631175.html"
         }
       ]
     }

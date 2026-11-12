@@ -58,6 +58,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Olvidados-Forgotten-Players/dp/0786970278"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19215-dungeons-and-dragons-reinos-olvidados-heroes-de-faerun--guia-del-jugador-9780786970278.html"
         }
       ]
     }

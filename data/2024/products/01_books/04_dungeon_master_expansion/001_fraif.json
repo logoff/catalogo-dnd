@@ -52,6 +52,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Olvidados-Aventuras-Forgotten/dp/0786970316"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19216-dungeons-and-dragons-reinos-olvidados-aventuras-en-faerun--guia-de-campaña-9780786970315.html"
         }
       ]
     }

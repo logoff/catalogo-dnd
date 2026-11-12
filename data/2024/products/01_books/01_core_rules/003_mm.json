@@ -65,6 +65,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Monster-Versi%C3%B3n-Espa%C3%B1ol/dp/0786969733"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17936-dungeons-and-dragons-monster-manual-nueva-edicion-castellano-9780786969739.html"
         }
       ]
     }

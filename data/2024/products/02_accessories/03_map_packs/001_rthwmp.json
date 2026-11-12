@@ -19,6 +19,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Horrors-Accesorios/dp/0786970057/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19059-dungeons-and-dragons-ravenloft-horror-within-map-pack-9780786970056.html"
         }
       ]
     }

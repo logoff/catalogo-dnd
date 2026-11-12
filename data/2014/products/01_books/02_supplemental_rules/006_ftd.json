@@ -49,6 +49,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Fizbans-Treasury-Dragons-Dungeons-Versi%C3%B3n/dp/0786968850"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14613-dungeons-and-dragons-el-tesoro-de-los-dragones-de-fizban-castellano-9780786968855.html"
         }
       ]
     }

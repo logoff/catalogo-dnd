@@ -49,6 +49,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/aventura-Dungeons-Dragons-Versi%C3%B3n-Espa%C3%B1ol/dp/0786969318"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15814-dungeons-and-dragons-las-llaves-de-la-camara-de-oro-9780786969319.html"
         }
       ]
     }

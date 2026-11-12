@@ -49,6 +49,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Mordenkainen-Presents-Dungeons-Dragons-Collectif/dp/0786968141"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13294-dungeons-and-dragons-monstruos-del-multiverso--9780786968145.html"
         }
       ]
     }

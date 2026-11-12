@@ -47,6 +47,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Edge-Entertainment-Aventurero-Espa%C3%B1ol-EEWCDD06/dp/B07N89FY95"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7262-dungeons-and-dragons-la-guia-del-aventurero-de-la-costa-de-la-espada-8435407624894.html"
         }
       ]
     }

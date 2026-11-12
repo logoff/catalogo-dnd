@@ -102,6 +102,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-C70080000-Essentials-construcci%C3%B3n/dp/0786967420"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11603-dungeons-and-dragons-kit-esencial-9780786967421.html"
         }
       ],
       "sub_publications": [

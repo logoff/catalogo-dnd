@@ -48,6 +48,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Viajes-Ciudadela-Radiante-Versi%C3%B3n-Espa%C3%B1ol/dp/0786968036"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15139-dungeons-and-dragons-viajes-por-la-ciudadela-radiante-9780786968039.html"
         }
       ]
     }

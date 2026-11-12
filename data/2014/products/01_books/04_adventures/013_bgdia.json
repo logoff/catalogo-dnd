@@ -48,6 +48,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Edge-Entertaiment-Espa%C3%B1a-Descenso-Dungeons/dp/B08BP8TQX8"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/9614-dungeons-and-dragons-descenso-a-averno-8435407629394.html"
         }
       ]
     }

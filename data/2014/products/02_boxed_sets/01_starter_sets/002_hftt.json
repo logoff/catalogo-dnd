@@ -70,6 +70,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Hasbro-Dungeons-Castellano-Multicolor-5010993642595/dp/B07R5V57XD"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7891-dungeons-and-dragons-starter-set-caja-de-inicio-edicion-stranger-things-castellano-5010993642595.html"
         }
       ],
       "sub_publications": [

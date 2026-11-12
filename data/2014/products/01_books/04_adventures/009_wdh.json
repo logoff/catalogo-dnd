@@ -48,6 +48,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Golpe-Dragones-EEWCDD08/dp/B07WL5542G"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7911-dungeons-and-dragons-waterdeep-el-golpe-de-los-dragones-8435407624900.html"
         }
       ]
     }

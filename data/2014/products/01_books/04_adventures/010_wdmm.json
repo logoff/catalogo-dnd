@@ -43,6 +43,12 @@
       "images": [
         "/images/products/2014/wdmm/pub1_img0.jpg",
         "/images/products/2014/wdmm/pub1_img1.jpg"
+      ],
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/9005-dungeons-and-dragons-waterdeep-la-mazmorra-del-mago-loco-8435407624917.html"
+        }
       ]
     }
   ]

@@ -48,6 +48,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dragonlance-aventura-Dungeons-Dragons-Versi%C3%B3n/dp/078696832X"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15149-dungeons-and-dragons-la-sombra-de-la-reina-de-los-dragones-9780786968329.html"
         }
       ]
     }

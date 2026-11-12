@@ -59,6 +59,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Dungeon-Masters-Versi%C3%B3n/dp/0786969784"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17382-dungeons-and-dragons-players-handbook-manual-del-jugador-nueva-edicion-castellano-9780786969784.html"
         }
       ]
     }
