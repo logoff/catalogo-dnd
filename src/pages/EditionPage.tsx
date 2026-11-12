@@ -7,6 +7,7 @@ import FilterPanel from '@/components/filters/FilterPanel'
 import ViewToggle from '@/components/products/ViewToggle'
 import { translateEditionLong } from '@/utils/translations'
 import { useUrlFilters } from '@/hooks/useUrlFilters'
+import { filterProducts } from '@/utils/productFilters'
 import type { Edition } from '@/types'
 
 interface EditionPageProps {
@@ -25,46 +26,20 @@ export default function EditionPage({ edition }: EditionPageProps) {
   const viewMode = useProductStore((state) => state.viewMode)
   const setViewMode = useProductStore((state) => state.setViewMode)
 
+  const editionProducts = useMemo(
+    () => products.filter((p) => p.primaryEdition === edition),
+    [products, edition]
+  )
+
   // Filter products by this edition and apply other filters
   const filteredProducts = useMemo(() => {
-    let result = products.filter((p) => p.primaryEdition === edition)
-
-    // Full-text search
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase()
-      result = result.filter((product) => {
-        const searchableText = [
-          product.code,
-          product.primaryTitle,
-          ...product.publications.flatMap((p) => [
-            p.title,
-            ...(p.authors || []),
-            p.isbn13?.toString(),
-            p.publisher,
-          ]),
-        ]
-          .filter(Boolean)
-          .join(' ')
-          .toLowerCase()
-
-        return searchableText.includes(query)
-      })
-    }
-
-    // Filter by type
-    if (types.length > 0) {
-      result = result.filter((p) => p.publications.some((pub) => types.includes(pub.type)))
-    }
-
-    // Filter by subtype
-    if (subtypes.length > 0) {
-      result = result.filter((p) => p.publications.some((pub) => subtypes.includes(pub.subtype)))
-    }
-
-    // Filter by language
-    if (languages.length > 0) {
-      result = result.filter((p) => p.languages.some((lang) => languages.includes(lang)))
-    }
+    const result = filterProducts(editionProducts, {
+      searchQuery,
+      editions: [],
+      types,
+      subtypes,
+      languages,
+    })
 
     // Sort
     const { field, direction } = sortOption
@@ -90,9 +65,7 @@ export default function EditionPage({ edition }: EditionPageProps) {
     })
 
     return result
-  }, [products, edition, searchQuery, types, subtypes, languages, sortOption])
-
-  const editionProducts = products.filter((p) => p.primaryEdition === edition)
+  }, [editionProducts, searchQuery, types, subtypes, languages, sortOption])
 
   const editionTitle = translateEditionLong(edition)
   const editionDescription =
@@ -121,7 +94,7 @@ export default function EditionPage({ edition }: EditionPageProps) {
           {/* Sidebar with filters */}
           <aside className="lg:w-64 shrink-0">
             <div className="lg:sticky lg:top-24">
-              <FilterPanel showEditionFilter={false} />
+              <FilterPanel edition={edition} />
             </div>
           </aside>
 
