@@ -160,6 +160,23 @@ que tiene relación, y cada enlace MUST apuntar a una ficha existente.
 - **WHEN** un juego apunta a un código de libro que no existe
 - **THEN** los tests del proyecto fallan
 
+### Requirement: Recopilaciones definidas una vez
+
+Cada recopilación SHALL definirse una sola vez con su título, los juegos
+del catálogo que incluye y sus enlaces de compra por plataforma, y cada
+lanzamiento de un juego vendido en ella MUST referenciarla. Todos los
+juegos de una recopilación MUST existir en el catálogo.
+
+#### Scenario: Recopilación con un juego inexistente
+
+- **WHEN** una recopilación incluye un juego que no tiene ficha
+- **THEN** los tests del proyecto fallan
+
+#### Scenario: Lanzamiento que referencia una recopilación inexistente
+
+- **WHEN** un lanzamiento apunta a una recopilación que no existe
+- **THEN** los tests del proyecto fallan
+
 ### Requirement: Inventario maestro
 
 El proyecto SHALL mantener un inventario con todos los juegos oficiales

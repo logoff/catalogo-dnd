@@ -41,10 +41,12 @@ cuando se conozcan.
 - **WHEN** un campo no tiene dato
 - **THEN** la ficha lo omite, sin mostrar etiquetas vacías
 
-### Requirement: Tabla de lanzamientos
+### Requirement: Tabla de ediciones
 
-La ficha SHALL listar todos los lanzamientos con su plataforma, fecha,
-edición y castellano (textos, subtítulos y voces).
+La ficha SHALL tener una sección «Ediciones» que liste todas las
+versiones del juego con el icono y el nombre de la plataforma, la fecha,
+la versión (original, edición mejorada, relanzamiento o recopilación) y
+el idioma (textos, subtítulos y voces).
 
 #### Scenario: Juego en varias plataformas
 
@@ -55,6 +57,11 @@ edición y castellano (textos, subtítulos y voces).
 
 - **WHEN** un lanzamiento no tiene castellano oficial
 - **THEN** la fila indica «Solo en inglés»
+
+#### Scenario: Versión dentro de una recopilación
+
+- **WHEN** una versión se vende dentro de una recopilación
+- **THEN** la columna de versión indica el nombre de la recopilación
 
 ### Requirement: Resumen de castellano
 

@@ -208,6 +208,31 @@ párrafos de descripción, imágenes existentes, URLs sin afiliado, slugs
 Tests de componentes para el resumen de castellano, la agrupación por
 plataforma, los filtros y el orden por nota.
 
+### D9 · Recopilaciones
+
+Las recopilaciones (The Archives, Krynn Series, Silver Box Classics,
+Chronicles of Mystara…) se definen en `data/videogames/bundles/<id>.json`
+con su título, los slugs de los juegos que incluyen y, por plataforma,
+la fecha, la editora y los enlaces de compra. El lanzamiento de cada
+juego vendido en ella lleva `bundle: "<id>"` en lugar de `edition` y
+`purchase_links`, pero conserva su propio `spanish`, porque el idioma
+puede variar entre los juegos de un mismo paquete. Así los enlaces se
+escriben una vez y el loader puede decir en qué recopilaciones está cada
+juego.
+
+_Alternativa descartada:_ seguir repitiendo los enlaces en cada juego
+con el nombre del paquete como edición. Duplica datos y obliga a mostrar
+el nombre del paquete junto al botón.
+
+### D10 · Iconos de plataforma
+
+Los logotipos salen de Simple Icons (CC0), copiando solo los trazados
+SVG necesarios a `src/components/videogames/platformIcons.ts` en lugar de
+añadir la dependencia. Simple Icons no incluye Windows, Xbox, Nintendo
+ni varios sistemas antiguos; para ellos se usa un icono genérico por
+tipo (ordenador, consola, móvil o navegador). El nombre de la plataforma
+acompaña siempre al icono o va como texto alternativo.
+
 ## Risks / Trade-offs
 
 - [Mucho trabajo de investigación en juegos antiguos con datos escasos]

@@ -10,14 +10,42 @@ preparado para añadir más tiendas.
 
 ### Requirement: Enlaces agrupados por plataforma
 
-La ficha SHALL agrupar los enlaces de compra por plataforma y mostrar en
-cada grupo el castellano de esa versión.
+La ficha SHALL agrupar los enlaces de compra por plataforma, con el icono
+y el nombre de la plataforma, y dentro de cada plataforma por versión,
+indicando la versión, su año y su idioma. La versión MUST NOT mostrarse
+pegada a los botones de compra.
 
 #### Scenario: Juego en PC y consola
 
 - **WHEN** un juego se vende en GOG para PC y en una tienda de consola
 - **THEN** la ficha muestra un grupo PC con GOG y un grupo de la consola
-  con su tienda, cada uno con su castellano
+  con su tienda, cada uno con su icono, su versión, su año y su idioma
+
+#### Scenario: Versión sin fecha
+
+- **WHEN** una versión a la venta no tiene fecha
+- **THEN** su línea se muestra sin año
+
+### Requirement: Recopilaciones
+
+Cuando un juego se vende dentro de una recopilación, la ficha SHALL
+mostrarlo en un bloque propio con el nombre y el año de la recopilación,
+los demás juegos del catálogo que incluye enlazados a sus fichas y los
+botones de compra de la recopilación.
+
+#### Scenario: Juego vendido en una recopilación
+
+- **WHEN** un juego solo se vende dentro de Forgotten Realms: The
+  Archives – Collection Two
+- **THEN** la ficha indica que se vende en esa recopilación, enlaza a
+  los otros juegos que incluye y muestra sus botones de compra
+
+#### Scenario: Juego suelto y en recopilación
+
+- **WHEN** un juego se vende suelto y también dentro de una recopilación
+  en la misma plataforma
+- **THEN** primero aparecen los botones del juego suelto y después el
+  bloque de la recopilación
 
 ### Requirement: Juego no disponible
 

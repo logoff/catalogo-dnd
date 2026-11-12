@@ -22,13 +22,20 @@ en el sitemap.
 ### Requirement: Contenido de cada tarjeta
 
 Cada juego del listado SHALL mostrar la portada, el título, el año del
-primer lanzamiento, sus plataformas, el resumen de castellano y su mejor
-nota, y enlazar a su ficha.
+primer lanzamiento, los iconos de sus plataformas con el nombre como
+texto alternativo, el resumen de castellano y su mejor nota, y enlazar a
+su ficha.
 
 #### Scenario: Juego sin notas
 
 - **WHEN** un juego no tiene notas
 - **THEN** la tarjeta se muestra sin el bloque de nota
+
+#### Scenario: Plataforma sin logotipo
+
+- **WHEN** una plataforma no tiene logotipo disponible
+- **THEN** se muestra un icono genérico de su tipo (ordenador, consola,
+  móvil o navegador)
 
 ### Requirement: Filtros
 

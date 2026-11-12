@@ -122,6 +122,27 @@
 - [x] 10.3 Actualizar `CLAUDE.md` y el README con la sección de
       videojuegos; verificar que markdownlint pasa
 
+## 11. Recopilaciones, iconos y ediciones
+
+- [ ] 11.1 Añadir el esquema, los tipos y el loader de recopilaciones
+      (`data/videogames/bundles/`) y la referencia `bundle` en los
+      lanzamientos; verificar con tests de datos (juegos y recopilaciones
+      existentes en ambos sentidos)
+- [ ] 11.2 Pasar a recopilaciones The Archives 1, 2 y 3, Krynn Series,
+      Dark Sun Series, Ravenloft Series, Silver Box Classics, Chronicles
+      of Mystara y el pack de Baldur's Gate I y II de Xbox One; verificar
+      con `just check`
+- [ ] 11.3 Crear los iconos de plataforma (Simple Icons y genéricos);
+      verificar con un test que todas las plataformas tienen icono
+- [ ] 11.4 Rehacer «Dónde comprar» por plataforma y versión, con icono,
+      año e idioma y el bloque de recopilación; verificar con tests de
+      componentes
+- [ ] 11.5 Renombrar «Lanzamientos» a «Ediciones», con iconos y columna
+      «Versión», y poner iconos en las tarjetas; verificar con tests y en
+      `just dev`
+- [ ] 11.6 Mencionar los logotipos de plataforma en la página legal;
+      verificar en `just dev`
+
 ## Workflow follow-up
 
 - Archivar la change con `/opsx:archive` cuando todas las tareas estén
