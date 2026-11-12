@@ -39,8 +39,9 @@ export function adtractionAffiliate(
   channelId?: string
 ): StoreConfig['affiliate'] {
   if (!programId || !channelId) return undefined
+  // Dominio genérico de Adtraction: redirige al dominio de seguimiento propio de cada tienda
   return (url) =>
-    `https://go.adtraction.com/t/t?${new URLSearchParams({ a: programId, as: channelId, t: '2', tk: '1', url })}`
+    `https://track.adtraction.com/t/t?${new URLSearchParams({ a: programId, as: channelId, t: '2', tk: '1', url })}`
 }
 
 export const STORES: Record<Store, StoreConfig> = {

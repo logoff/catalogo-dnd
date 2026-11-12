@@ -27,7 +27,7 @@ describe('stores', () => {
     expect(adtractionAffiliate('123')).toBeUndefined()
     expect(adtractionAffiliate(undefined, '456')).toBeUndefined()
     expect(adtractionAffiliate('123', '456')!('https://www.generacionx.es/phb?x=1')).toBe(
-      'https://go.adtraction.com/t/t?a=123&as=456&t=2&tk=1&url=https%3A%2F%2Fwww.generacionx.es%2Fphb%3Fx%3D1'
+      'https://track.adtraction.com/t/t?a=123&as=456&t=2&tk=1&url=https%3A%2F%2Fwww.generacionx.es%2Fphb%3Fx%3D1'
     )
   })
 
@@ -51,7 +51,7 @@ describe('stores', () => {
     vi.resetModules()
     const { getPurchaseUrl: purchaseUrl } = await import('./stores')
     expect(purchaseUrl('gog', 'https://www.gog.com/en/game/baldurs_gate_iii')).toBe(
-      'https://go.adtraction.com/t/t?a=123&as=456&t=2&tk=1&url=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fbaldurs_gate_iii'
+      'https://track.adtraction.com/t/t?a=123&as=456&t=2&tk=1&url=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fbaldurs_gate_iii'
     )
     vi.unstubAllEnvs()
   })
