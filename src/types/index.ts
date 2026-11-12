@@ -30,7 +30,14 @@ export type Edition = '5e' | '2024'
 export type Language = 'english' | 'castellano'
 
 export type Store =
-  'amazon' | 'generacion_x' | 'juegos_mesa_redonda' | 'gog' | 'steam' | 'instant_gaming'
+  | 'amazon'
+  | 'generacion_x'
+  | 'juegos_mesa_redonda'
+  | 'gog'
+  | 'steam'
+  | 'instant_gaming'
+  | 'eneba'
+  | 'fanatical'
 
 export interface PurchaseLink {
   store: Store
