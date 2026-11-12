@@ -1,0 +1,22 @@
+{
+  "slug": "birthright",
+  "title": "Birthright: The Gorgon's Alliance",
+  "description": "Juego de estrategia por turnos de Synergistic Software y Sierra ambientado en Cerilia, el escenario Birthright, donde los gobernantes llevan en la sangre el poder de dioses muertos. El jugador gobierna un reino: administra territorios, diplomacia y ejércitos, y además dirige a sus héroes en aventuras y batallas para frenar la alianza del Gorgón.\n\nEs el único videojuego de Birthright y una mezcla poco habitual de gestión de reino, estrategia y rol. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Synergistic Software"],
+  "publishers": ["Sierra On-Line"],
+  "genres": ["strategy", "rpg"],
+  "modes": ["single"],
+  "setting": "birthright",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1997-07-31"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "1997-07-31"
+    }
+  ],
+  "images": ["/images/videogames/birthright/0.png"]
+}

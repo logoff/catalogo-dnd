@@ -1,0 +1,35 @@
+{
+  "slug": "fantasy-empires",
+  "title": "Fantasy Empires",
+  "description": "Juego de estrategia de Silicon Knights ambientado en Mystara, con un Dungeon Master que comenta la partida. Cada jugador gobierna un imperio en el mapa, recluta ejércitos y héroes y conquista territorios; las batallas y las incursiones en mazmorras se resuelven en escenas de acción aparte.\n\nAdmite varios jugadores y es una rareza dentro de los juegos de D&D de su época. Hoy se vende para Windows en Steam, solo en inglés.",
+  "developers": ["Silicon Knights"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["strategy"],
+  "modes": ["single", "multiplayer"],
+  "setting": "mystara",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1993"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2350530/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/fantasy-empires/0.png"]
+}

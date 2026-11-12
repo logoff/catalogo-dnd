@@ -1,0 +1,41 @@
+{
+  "slug": "dark-sun-shattered-lands",
+  "title": "Dark Sun: Shattered Lands",
+  "description": "Juego de rol de SSI ambientado en Athas, el mundo desértico de Sol Oscuro, donde la magia ha arrasado la tierra y los reyes hechiceros gobiernan con mano de hierro. El grupo de cuatro gladiadores empieza como esclavos en una arena y tiene que escapar y unir a los pueblos libres contra un rey hechicero. Usa una vista aérea con combates tácticos por turnos y fue de los primeros juegos de SSI en abandonar el motor Gold Box.\n\nEs una buena puerta de entrada a uno de los mundos más originales de AD&D. Continúa en Dark Sun: Wake of the Ravager. Hoy se vende para Windows dentro de la recopilación Dungeons & Dragons: Dark Sun Series, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "dark_sun",
+  "ruleset": "adnd2",
+  "series": "Dark Sun",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1993-04"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Dungeons & Dragons: Dark Sun Series",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_dark_sun_series"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904580/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/dark-sun-shattered-lands/0.png"]
+}

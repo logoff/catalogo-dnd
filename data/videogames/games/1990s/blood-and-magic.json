@@ -1,0 +1,18 @@
+{
+  "slug": "blood-and-magic",
+  "title": "Blood & Magic",
+  "description": "Juego de estrategia en tiempo real de Tachyon Studios ambientado en los Reinos Olvidados. En lugar de recolectar recursos de la forma habitual, el jugador crea gólems básicos que después transforma en distintas unidades, y dirige a uno de los bandos en campañas de batallas por distintas regiones de los Reinos Olvidados.\n\nEs uno de los pocos juegos de estrategia en tiempo real de D&D, de la época de Warcraft II. No se ha vuelto a publicar en tiendas digitales, así que solo se encuentra de segunda mano.",
+  "developers": ["Tachyon Studios"],
+  "publishers": ["Interplay Productions"],
+  "genres": ["real_time_strategy"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1996-11-26"
+    }
+  ],
+  "images": ["/images/videogames/blood-and-magic/0.png"]
+}

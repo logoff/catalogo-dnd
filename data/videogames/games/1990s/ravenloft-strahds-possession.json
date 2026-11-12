@@ -1,0 +1,54 @@
+{
+  "slug": "ravenloft-strahds-possession",
+  "title": "Ravenloft: Strahd's Possession",
+  "description": "Juego de rol en primera persona de DreamForge que lleva a dos aventureros de los Reinos Olvidados al dominio de Barovia, en Ravenloft, gobernado por el vampiro Strahd von Zarovich. Explora el pueblo, el bosque y el castillo con un tono de terror gótico poco habitual en los juegos de la época, combates en tiempo real y gráficos detallados.\n\nInteresará a quien conozca la aventura La maldición de Strahd. Continúa en Ravenloft: Stone Prophet. Hoy se vende para Windows dentro de la recopilación Dungeons & Dragons: Ravenloft Series, solo en inglés.",
+  "developers": ["DreamForge Intertainment"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "ravenloft",
+  "series": "Ravenloft",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1994"
+    },
+    {
+      "platform": "fm_towns",
+      "date": "1995"
+    },
+    {
+      "platform": "pc98",
+      "date": "1995"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Dungeons & Dragons: Ravenloft Series",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_ravenloft_series"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904560/"
+        }
+      ]
+    }
+  ],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "COS"
+    }
+  ],
+  "images": ["/images/videogames/ravenloft-strahds-possession/0.png"]
+}

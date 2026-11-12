@@ -1,0 +1,41 @@
+{
+  "slug": "dark-sun-wake-of-the-ravager",
+  "title": "Dark Sun: Wake of the Ravager",
+  "description": "Continuación de Dark Sun: Shattered Lands, de nuevo en el mundo desértico de Athas. El grupo, que puede importarse del primer juego, se enfrenta a una amenaza que despierta en el desierto, con la misma vista aérea, combates tácticos por turnos y un mundo más amplio.\n\nCierra la pareja de juegos de Sol Oscuro de SSI. Hoy se vende para Windows dentro de la recopilación Dungeons & Dragons: Dark Sun Series, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "dark_sun",
+  "ruleset": "adnd2",
+  "series": "Dark Sun",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1994"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Dungeons & Dragons: Dark Sun Series",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_dark_sun_series"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904580/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/dark-sun-wake-of-the-ravager/0.png"]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "tower-of-doom",
+  "title": "Dungeons & Dragons: Tower of Doom",
+  "description": "Beat 'em up de Capcom para recreativas ambientado en Mystara. Hasta cuatro jugadores eligen entre guerrero, clérigo, elfo y enano y se abren paso a golpes por un reino invadido, con elementos de rol poco habituales en el género: objetos, magia, experiencia y caminos alternativos en el mapa.\n\nEs uno de los mejores juegos de D&D para jugar en compañía. Su continuación es Shadow over Mystara, y los dos se reeditaron juntos en Chronicles of Mystara, que hoy se vende en Steam con textos en castellano.",
+  "developers": ["Capcom"],
+  "publishers": ["Capcom"],
+  "genres": ["beat_em_up", "action_rpg"],
+  "modes": ["single", "coop"],
+  "setting": "mystara",
+  "series": "Mystara (Capcom)",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "arcade",
+      "date": "1994"
+    },
+    {
+      "platform": "saturn",
+      "date": "1999-03-04",
+      "edition": "Dungeons & Dragons Collection"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2013-06-18",
+      "edition": "Chronicles of Mystara",
+      "developers": ["Iron Galaxy Studios"],
+      "spanish": {
+        "interface": true,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/229480/"
+        }
+      ]
+    },
+    {
+      "platform": "ps3",
+      "date": "2013-06",
+      "edition": "Chronicles of Mystara",
+      "developers": ["Iron Galaxy Studios"]
+    },
+    {
+      "platform": "xbox_360",
+      "date": "2013-06",
+      "edition": "Chronicles of Mystara",
+      "developers": ["Iron Galaxy Studios"]
+    },
+    {
+      "platform": "wii_u",
+      "date": "2013-06",
+      "edition": "Chronicles of Mystara",
+      "developers": ["Iron Galaxy Studios"]
+    }
+  ],
+  "images": ["/images/videogames/tower-of-doom/0.png"]
+}

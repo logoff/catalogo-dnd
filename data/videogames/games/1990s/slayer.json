@@ -1,0 +1,17 @@
+{
+  "slug": "slayer",
+  "title": "Advanced Dungeons & Dragons: Slayer",
+  "description": "Juego de rol de acción en primera persona para 3DO con mazmorras generadas al azar. Un personaje recorre niveles en 3D, combate en tiempo real y recoge objetos, y se pueden ajustar parámetros de la mazmorra para que cada partida sea distinta.\n\nEs uno de los pocos juegos de D&D para la consola 3DO; su sucesor espiritual es DeathKeep. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Lion Entertainment"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["action_rpg", "roguelike"],
+  "modes": ["single"],
+  "status": "released",
+  "releases": [
+    {
+      "platform": "3do",
+      "date": "1994"
+    }
+  ],
+  "images": ["/images/videogames/slayer/0.jpg"]
+}

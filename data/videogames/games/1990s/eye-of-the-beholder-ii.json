@@ -1,0 +1,54 @@
+{
+  "slug": "eye-of-the-beholder-ii",
+  "title": "Eye of the Beholder II: The Legend of Darkmoon",
+  "description": "Continuación de Eye of the Beholder, de nuevo con exploración en primera persona y combates en tiempo real. El archimago Khelben pide al grupo que investigue el templo de Darkmoon, cerca de Aguasprofundas, y lo que empieza como una visita discreta acaba en un descenso por las torres y catacumbas de un culto. Amplía al primer juego con exteriores, más diálogos y personajes que se unen al grupo.\n\nSe puede importar el grupo de Eye of the Beholder, y la serie termina en Eye of the Beholder III. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection One, que en Steam figura con textos en castellano.",
+  "developers": ["Westwood Associates"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "ruleset": "adnd2",
+  "series": "Eye of the Beholder",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1991"
+    },
+    {
+      "platform": "amiga",
+      "date": "1992"
+    },
+    {
+      "platform": "fm_towns",
+      "date": "1993"
+    },
+    {
+      "platform": "pc98",
+      "date": "1993",
+      "publishers": ["Capcom"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Forgotten Realms: The Archives – Collection One",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": true,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_one"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1882240/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/eye-of-the-beholder-ii/0.png"]
+}

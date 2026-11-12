@@ -1,0 +1,45 @@
+{
+  "slug": "menzoberranzan",
+  "title": "Menzoberranzan",
+  "description": "Juego de rol en primera persona de DreamForge ambientado en la Infraoscuridad de los Reinos Olvidados. Los elfos oscuros han secuestrado a los habitantes de una aldea y el grupo los sigue hasta la ciudad drow de Menzoberranzan, en una aventura que usa el mismo motor que Ravenloft: Strahd's Possession.\n\nInteresará a quien conozca la ciudad por las novelas de Drizzt Do'Urden. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Three, sin castellano.",
+  "developers": ["DreamForge Intertainment"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1994"
+    },
+    {
+      "platform": "pc98"
+    },
+    {
+      "platform": "fm_towns"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Forgotten Realms: The Archives – Collection Three",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_three"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904530/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/menzoberranzan/0.png"]
+}

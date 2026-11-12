@@ -95,7 +95,7 @@
 
 - [x] 8.1 Lote años 80 y Gold Box; verificar con `just check` y
       marcarlo en el inventario
-- [ ] 8.2 Lote años 90 (PC, consolas, recreativas); verificar con
+- [x] 8.2 Lote años 90 (PC, consolas, recreativas); verificar con
       `just check` y marcarlo en el inventario
 - [ ] 8.3 Lote Infinity Engine, Neverwinter Nights y años 2000;
       verificar con `just check` y marcarlo en el inventario

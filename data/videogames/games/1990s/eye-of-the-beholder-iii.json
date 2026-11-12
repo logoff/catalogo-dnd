@@ -1,0 +1,49 @@
+{
+  "slug": "eye-of-the-beholder-iii",
+  "title": "Eye of the Beholder III: Assault on Myth Drannor",
+  "description": "Tercera parte de la serie, desarrollada por la propia SSI en lugar de Westwood. El grupo viaja a las ruinas de la ciudad élfica de Myth Drannor para recuperar un artefacto, con la misma exploración en primera persona y combates en tiempo real de las entregas anteriores, ahora con más exteriores.\n\nCierra la trilogía de Eye of the Beholder y permite importar el grupo del segundo juego. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection One, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "ruleset": "adnd2",
+  "series": "Eye of the Beholder",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1993"
+    },
+    {
+      "platform": "pc98",
+      "date": "1994"
+    },
+    {
+      "platform": "fm_towns",
+      "date": "1995"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Forgotten Realms: The Archives – Collection One",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_one"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1882240/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/eye-of-the-beholder-iii/0.png"]
+}

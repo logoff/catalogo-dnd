@@ -1,0 +1,39 @@
+{
+  "slug": "spelljammer",
+  "title": "Spelljammer: Pirates of Realmspace",
+  "description": "Juego de rol de SSI ambientado en Spelljammer, el escenario de D&D en el que barcos voladores viajan por el espacio entre mundos. El jugador capitanea un barco por el Espacio de los Reinos: comercia, acepta misiones, combate contra otras naves y aborda barcos enemigos, con combates tácticos de la tripulación en cubierta.\n\nEs el único videojuego de Spelljammer y una rareza para quien sienta curiosidad por el escenario, que volvió en 2022 en la quinta edición. Hoy se vende para Windows en GOG y Steam, solo en inglés.",
+  "developers": ["Cybertech"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "simulation"],
+  "modes": ["single"],
+  "setting": "spelljammer",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1992"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/spelljammer_pirates_of_realmspace"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2350550/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/spelljammer/0.png"]
+}
