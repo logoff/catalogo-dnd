@@ -62,6 +62,8 @@ export default defineConfig(({ mode }) => {
       setupFiles: ['./src/test/setup.ts'],
       // Los worktrees de .claude/ son copias del repositorio con sus propias dependencias
       exclude: ['**/node_modules/**', '**/dist/**', '.claude/**'],
+      // La caché de módulos no detecta los JSON nuevos que recoge import.meta.glob en data/
+      fsModuleCache: false,
       // Los tests no deben depender de los IDs de afiliado que haya en el .env local
       env: {
         VITE_AFFILIATE_AMAZON_TAG: '',

@@ -14,6 +14,8 @@ const cards = () =>
     .filter((link) => link.getAttribute('href')?.startsWith('/videojuego/'))
 const titles = () => cards().map((card) => within(card).getByRole('heading').textContent)
 
+const byTitle = (title: string) => initialState.videogames.find((g) => g.title === title)!
+
 const renderPage = () =>
   render(
     <MemoryRouter>
@@ -28,7 +30,9 @@ describe('VideogamesPage', () => {
     renderPage()
     const total = initialState.videogames.length
     expect(screen.getByText(`${total} de ${total} videojuegos`)).toBeInTheDocument()
-    expect(titles()).toEqual(['Pool of Radiance', "Baldur's Gate", "Baldur's Gate 3"])
+    expect(cards()).toHaveLength(total)
+    const dates = titles().map((title) => byTitle(title!).firstReleaseDate ?? '9999')
+    expect(dates).toEqual([...dates].sort())
   })
 
   it('cada tarjeta enlaza a su ficha y muestra año, castellano y nota', () => {
@@ -42,11 +46,13 @@ describe('VideogamesPage', () => {
   it('filtra por castellano y por década', () => {
     renderPage()
     fireEvent.click(checkbox('Solo en inglés'))
-    expect(titles()).toEqual(['Pool of Radiance'])
+    expect(titles()).toContain('Pool of Radiance')
+    expect(titles().every((title) => byTitle(title!).spanishSummary === 'none')).toBe(true)
 
     fireEvent.click(checkbox('Solo en inglés'))
     fireEvent.click(checkbox('Años 20'))
-    expect(titles()).toEqual(["Baldur's Gate 3"])
+    expect(titles()).toContain("Baldur's Gate 3")
+    expect(titles().every((title) => byTitle(title!).decade === 2020)).toBe(true)
   })
 
   it('busca por título sin tildes', () => {
@@ -54,7 +60,8 @@ describe('VideogamesPage', () => {
     fireEvent.change(screen.getAllByLabelText('Buscar por título')[0], {
       target: { value: 'POOL' },
     })
-    expect(titles()).toEqual(['Pool of Radiance'])
+    expect(titles()).toContain('Pool of Radiance')
+    expect(titles().every((title) => /pool/i.test(title!))).toBe(true)
   })
 
   it('ordena por nota con los juegos sin nota al final', () => {
@@ -62,7 +69,11 @@ describe('VideogamesPage', () => {
     fireEvent.change(screen.getAllByLabelText('Ordenar por')[0], {
       target: { value: 'score-desc' },
     })
-    expect(titles()).toEqual(["Baldur's Gate 3", "Baldur's Gate", 'Pool of Radiance'])
+    const scores = titles().map((title) => byTitle(title!).bestScore)
+    const rated = scores.filter((score) => score !== null)
+    expect(rated).toEqual([...rated].sort((a, b) => b - a))
+    expect(scores.slice(rated.length).every((score) => score === null)).toBe(true)
+    expect(titles()[0]).toBe("Baldur's Gate 3")
   })
 
   it('sin resultados lo dice y permite quitar los filtros', () => {

@@ -14,10 +14,11 @@ describe('acceso a los videojuegos', () => {
     const links = screen.getAllByRole('link', { name: /Videojuegos|Ver todos/ })
     expect(links.some((link) => link.getAttribute('href') === '/videojuegos')).toBe(true)
     expect(screen.getByRole('heading', { name: 'Videojuegos' })).toBeInTheDocument()
-    expect(screen.getByRole('link', { name: /Baldur's Gate 3/ })).toHaveAttribute(
-      'href',
-      '/videojuego/baldurs-gate-3'
-    )
+    const gameLinks = screen
+      .getAllByRole('link')
+      .filter((link) => link.getAttribute('href')?.startsWith('/videojuego/'))
+    expect(gameLinks.length).toBeGreaterThan(0)
+    expect(gameLinks.length).toBeLessThanOrEqual(4)
   })
 
   it('la cabecera enlaza a la sección', () => {
