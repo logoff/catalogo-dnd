@@ -106,14 +106,28 @@
       "date": "2019-10-15",
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
-      "publishers": ["Skybound Games"]
+      "publishers": ["Skybound Games"],
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07TRNVLGB",
+          "format": "physical"
+        }
+      ]
     },
     {
       "platform": "ps4",
       "date": "2019-10-15",
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
-      "publishers": ["Skybound Games"]
+      "publishers": ["Skybound Games"],
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07SRDJBT9",
+          "format": "physical"
+        }
+      ]
     },
     {
       "platform": "xbox_one",
@@ -125,6 +139,11 @@
         {
           "store": "instant_gaming",
           "url": "https://www.instant-gaming.com/es/12443-comprar-xbox-one-baldur-s-gate-and-baldur-s-gate-ii-enhanced-editions-xbox-one-microsoft-store/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07SSD8V81",
+          "format": "physical"
         }
       ]
     }
