@@ -63,8 +63,10 @@ function generateSitemap() {
     { loc: '/aviso-legal', priority: 0.3, changefreq: 'yearly', lastmod: today },
   ]
 
-  // Product pages
-  const productFiles = getProductFiles(DATA_DIR)
+  // Product pages (solo los libros: data/videogames tiene sus propias páginas)
+  const productFiles = ['2014', '2024'].flatMap((edition) =>
+    getProductFiles(join(DATA_DIR, edition))
+  )
   for (const file of productFiles) {
     const edition = extractEditionFromPath(file)
     const code = extractCodeFromFile(file)
@@ -74,6 +76,12 @@ function generateSitemap() {
       changefreq: 'monthly',
       lastmod: today,
     })
+  }
+
+  // Videogame pages
+  for (const file of getProductFiles(join(DATA_DIR, 'videogames', 'games'))) {
+    const { slug } = JSON.parse(readFileSync(file, 'utf-8'))
+    urls.push({ loc: `/videojuego/${slug}`, priority: 0.7, changefreq: 'monthly', lastmod: today })
   }
 
   // Generate XML

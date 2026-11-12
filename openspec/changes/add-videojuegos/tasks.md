@@ -54,7 +54,7 @@
       libros relacionados, aviso de juego cerrado, 404 con slug
       inexistente); verificar con tests de página y viendo las fichas
       piloto en `just dev`
-- [ ] 4.4 Añadir las fichas a `generate-sitemap.mjs`, metadatos `<head>`,
+- [x] 4.4 Añadir las fichas a `generate-sitemap.mjs`, metadatos `<head>`,
       `og:image` y vistas previas de 1200×630; verificar con `just build`
       que existe `dist/videojuego/baldurs-gate-3.html` con contenido y
       metadatos
