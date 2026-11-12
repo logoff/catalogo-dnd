@@ -51,6 +51,19 @@ export const STORES: Record<Store, StoreConfig> = {
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL
     ),
   },
+  gog: {
+    label: 'GOG',
+    color: 'from-purple-700 to-purple-900 hover:from-purple-600 hover:to-purple-800',
+    affiliate: adtractionAffiliate(
+      env.VITE_AFFILIATE_GOG_PROGRAM,
+      env.VITE_AFFILIATE_ADTRACTION_CHANNEL
+    ),
+  },
+  // Steam no tiene programa de afiliados: se enlaza sin comisión
+  steam: {
+    label: 'Steam',
+    color: 'from-[#1b2838] to-[#2a475e] hover:from-[#2a475e] hover:to-[#1b2838]',
+  },
 }
 
 export function withParam(url: string, name: string, value: string): string {

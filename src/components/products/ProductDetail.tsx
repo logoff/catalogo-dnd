@@ -5,16 +5,15 @@ import {
   BookOpenIcon,
   ArrowTopRightOnSquareIcon,
   SparklesIcon,
-  ShoppingCartIcon,
 } from '@heroicons/react/24/outline'
-import type { ProductWithMeta, Publication, PurchaseLink, SubPublication } from '@/types'
+import type { ProductWithMeta, Publication, SubPublication } from '@/types'
 import { LanguageBadge, TypeBadge, EditionBadge } from '../common/Badge'
 import ImageLightbox from '../common/ImageLightbox'
 import { translateSubtype } from '@/utils/translations'
 import { formatDate, formatISBN } from '@/utils/formatters'
-import { PLACEHOLDER_IMAGE, getAssetPath } from '@/utils/constants'
-import { STORES, getPurchaseUrl } from '@/utils/stores'
+import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import LazyImage from '../common/LazyImage'
+import PurchaseButton from '../common/PurchaseButton'
 
 interface ProductDetailProps {
   product: ProductWithMeta
@@ -151,9 +150,13 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
                 {purchaseLinks.map((link) => (
                   <PurchaseButton
                     key={link.url}
-                    link={link}
-                    product={product}
-                    publication={publication}
+                    store={link.store}
+                    url={link.url}
+                    tracking={{
+                      producto: `${product.primaryEdition === '5e' ? '2014' : '2024'}/${product.code}`,
+                      publicacion: publication.title,
+                      idioma: publication.language,
+                    }}
                   />
                 ))}
               </div>
@@ -206,49 +209,6 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
         onClose={() => setLightboxOpen(false)}
       />
     </div>
-  )
-}
-
-const buttonClasses = `
-  group inline-flex items-center gap-2 px-4 py-2 rounded-lg
-  text-white text-sm font-medium
-  shadow-md hover:shadow-lg
-  transform hover:scale-105 hover:-translate-y-0.5
-  transition-all duration-200
-`
-
-interface PurchaseButtonProps {
-  link: PurchaseLink
-  product: ProductWithMeta
-  publication: Publication
-}
-
-function PurchaseButton({ link, product, publication }: PurchaseButtonProps) {
-  const { label, image, color } = STORES[link.store]
-  const edition = product.primaryEdition === '5e' ? '2014' : '2024'
-
-  return (
-    <a
-      href={getPurchaseUrl(link.store, link.url)}
-      target="_blank"
-      rel="sponsored noopener noreferrer"
-      className={`${buttonClasses} bg-linear-to-r ${color}`}
-      // Evento de Umami: clic en un enlace de compra, con la URL sin parámetros de afiliado
-      data-umami-event="comprar"
-      data-umami-event-tienda={link.store}
-      data-umami-event-producto={`${edition}/${product.code}`}
-      data-umami-event-publicacion={publication.title}
-      data-umami-event-idioma={publication.language}
-      data-umami-event-url={link.url}
-    >
-      {image ? (
-        <img src={getAssetPath(image)} alt="" className="h-4" />
-      ) : (
-        <ShoppingCartIcon className="h-4 w-4" />
-      )}
-      <span>Comprar en {label}</span>
-      <ArrowTopRightOnSquareIcon className="h-3 w-3 opacity-60 group-hover:opacity-100 transition-opacity" />
-    </a>
   )
 }
 
