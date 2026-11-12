@@ -73,6 +73,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Starter-Set-Stormwreck/dp/0786967978"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13435-dungeons-and-dragons-caja-de-inicio-los-dragones-de-la-isla-de-las-tempestades-5010994207175.html"
         }
       ],
       "sub_publications": [

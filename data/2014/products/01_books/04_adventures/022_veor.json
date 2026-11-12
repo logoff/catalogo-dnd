@@ -47,6 +47,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-V%C3%ADspera-Destrucci%C3%B3n-aventura/dp/078696958X"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16478-dungeons-and-dragons-vecna-vispera-de-la-destruccion-9780786969586.html"
         }
       ]
     }

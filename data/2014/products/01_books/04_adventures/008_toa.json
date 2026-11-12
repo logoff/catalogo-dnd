@@ -42,6 +42,12 @@
       "images": [
         "/images/products/2014/toa/pub1_img0.jpg",
         "/images/products/2014/toa/pub1_img1.jpg"
+      ],
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6561-dungeons-and-dragons-la-tumba-de-la-aniquilacion-edicion-española-9788416357864.html"
+        }
       ]
     }
   ]

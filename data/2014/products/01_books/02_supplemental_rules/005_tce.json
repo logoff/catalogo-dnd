@@ -49,6 +49,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Caldero-expansi%C3%B3n-reglamento/dp/078696779X"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13140-dungeons-and-dragons-el-caldero-de-tasha-para-todo-9780786967797.html"
         }
       ]
     }

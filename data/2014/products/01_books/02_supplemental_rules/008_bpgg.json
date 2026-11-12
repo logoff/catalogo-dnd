@@ -47,6 +47,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Bigby-Presents-expansi%C3%B3n-Dungeons-Dragons/dp/0786969393"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16037-dungeons-and-dragons-gloria-de-los-gigantes-9780786969395.html"
         }
       ]
     }

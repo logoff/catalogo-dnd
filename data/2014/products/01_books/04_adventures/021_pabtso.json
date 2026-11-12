@@ -48,6 +48,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Phandelver-Below-Shattered-aventura-Dungeons/dp/0786969458"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16292-dungeons-and-dragons-phandelver-y-mas-alla-el-obelisco-despedazado-9780786969456.html"
         }
       ]
     }

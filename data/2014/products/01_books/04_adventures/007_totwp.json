@@ -47,6 +47,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Edge-Entertainement-Dungeons-Dragons-Bostezante/dp/B086PVR1HK"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/9725-dungeons-and-dragons-cuentos-del-portal-bostezante-8435407626164.html"
         }
       ]
     }

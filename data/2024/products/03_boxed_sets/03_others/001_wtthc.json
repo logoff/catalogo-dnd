@@ -18,6 +18,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Stranger-Things-Aventuras/dp/B0FFKL233T"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17982-dungeons-and-dragons-welcome-to-the-hellfire-club-starter-set--0195166293103.html"
         }
       ]
     }

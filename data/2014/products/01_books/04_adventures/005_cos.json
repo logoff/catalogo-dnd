@@ -65,6 +65,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Maldici%C3%B3n-Versi%C3%B3n-Espa%C3%B1ol/dp/0786967919"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7711-dungeons-and-dragons-la-maldicion-de-strahd-9780786967919.html"
         }
       ]
     }

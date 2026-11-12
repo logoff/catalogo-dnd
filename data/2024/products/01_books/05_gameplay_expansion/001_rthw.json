@@ -61,6 +61,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Ravenloft-Horrors-expansi%C3%B3n/dp/0786970359"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19479-dungeons-and-dragons-ravenloft--el-mal-que-habita-dentro-9780786970353.html"
         }
       ]
     }

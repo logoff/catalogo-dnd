@@ -44,6 +44,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/RPG-VAN-RICHTENS-GUIDE-RAVENLOFT/dp/0786968621"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/12981-dungeons-and-dragons-guia-de-van-richten-para-ravenloft-9780786968626.html"
         }
       ]
     }

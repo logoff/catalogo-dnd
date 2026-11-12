@@ -17,6 +17,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Dungeons-Dragons-Inicio-Heroes-Borderlands/dp/B0FDJFR245/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17949-dungeons-and-dragons-heroes-of-the-borderlands-starter-set-0195166293110.html"
         }
       ]
     },
@@ -37,6 +41,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Caja-Inicio-H%C3%A9roes-Tierras-fronterizas/dp/B0GLQ676VQ"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18597-dungeons-and-dragons-heroes-de-las-tierras-fronterizas-caja-de-inicio-5010996391728.html"
         }
       ]
     }

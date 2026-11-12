@@ -49,6 +49,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Wild-Beyond-Witchlight-Adventure-aventura/dp/0786968907"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14245-dungeons-and-dragons-las-tierras-mas-alla-de-brujaluz-9780786968909.html"
         }
       ]
     }
