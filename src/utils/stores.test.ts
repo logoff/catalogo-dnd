@@ -1,5 +1,11 @@
 import { describe, it, expect, vi } from 'vitest'
-import { adtractionAffiliate, amazonAffiliate, getPurchaseUrl, withParam } from './stores'
+import {
+  adtractionAffiliate,
+  amazonAffiliate,
+  getPurchaseUrl,
+  instantGamingAffiliate,
+  withParam,
+} from './stores'
 
 const url = 'https://www.amazon.es/dp/0786965606'
 
@@ -47,6 +53,13 @@ describe('stores', () => {
       'https://go.adtraction.com/t/t?a=123&as=456&t=2&tk=1&url=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fbaldurs_gate_iii'
     )
     vi.unstubAllEnvs()
+  })
+
+  it('Instant Gaming añade el código de referido', () => {
+    const url = 'https://www.instant-gaming.com/es/12345-comprar-baldurs-gate-3-pc-steam/'
+    expect(instantGamingAffiliate()).toBeUndefined()
+    expect(getPurchaseUrl('instant_gaming', url)).toBe(url)
+    expect(instantGamingAffiliate('gamer-prueba')!(url)).toBe(`${url}?igr=gamer-prueba`)
   })
 
   it('withParam respeta los parámetros existentes', () => {

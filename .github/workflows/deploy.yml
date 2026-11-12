@@ -54,6 +54,7 @@ jobs:
           VITE_AFFILIATE_GENERACION_X_PROGRAM: ${{ secrets.AFFILIATE_GENERACION_X_PROGRAM }}
           VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM: ${{ secrets.AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM }}
           VITE_AFFILIATE_GOG_PROGRAM: ${{ secrets.AFFILIATE_GOG_PROGRAM }}
+          VITE_AFFILIATE_INSTANT_GAMING_REFERRAL: ${{ secrets.AFFILIATE_INSTANT_GAMING_REFERRAL }}
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4

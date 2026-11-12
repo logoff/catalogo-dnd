@@ -6,4 +6,5 @@ interface ImportMetaEnv {
   readonly VITE_AFFILIATE_GENERACION_X_PROGRAM?: string
   readonly VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM?: string
   readonly VITE_AFFILIATE_GOG_PROGRAM?: string
+  readonly VITE_AFFILIATE_INSTANT_GAMING_REFERRAL?: string
 }

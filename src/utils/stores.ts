@@ -19,6 +19,11 @@ export function amazonAffiliate(tag?: string): StoreConfig['affiliate'] {
   return tag ? (url) => withParam(url, 'tag', tag) : undefined
 }
 
+// Instant Gaming: programa propio, basta con añadir el código de referido a cualquier URL
+export function instantGamingAffiliate(referral?: string): StoreConfig['affiliate'] {
+  return referral ? (url) => withParam(url, 'igr', referral) : undefined
+}
+
 export function adtractionAffiliate(
   programId?: string,
   channelId?: string
@@ -63,6 +68,11 @@ export const STORES: Record<Store, StoreConfig> = {
   steam: {
     label: 'Steam',
     color: 'from-[#1b2838] to-[#2a475e] hover:from-[#2a475e] hover:to-[#1b2838]',
+  },
+  instant_gaming: {
+    label: 'Instant Gaming',
+    color: 'from-orange-600 to-orange-800 hover:from-orange-500 hover:to-orange-700',
+    affiliate: instantGamingAffiliate(env.VITE_AFFILIATE_INSTANT_GAMING_REFERRAL),
   },
 }
 
