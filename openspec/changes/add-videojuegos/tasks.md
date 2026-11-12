@@ -65,9 +65,9 @@
       `localStorage` en el primer render); verificar con tests
       unitarios de cada filtro, combinaciones, orden por nota (sin nota
       al final) y búsqueda sin tildes
-- [ ] 5.2 Crear `VideogameCard`, el panel de filtros y `VideogamesPage`
+- [x] 5.2 Crear `VideogameCard`, el panel de filtros y `VideogamesPage`
       en `/videojuegos`; verificar con tests de página y en `just dev`
-- [ ] 5.3 Añadir `/videojuegos` al sitemap y al prerenderizado;
+- [x] 5.3 Añadir `/videojuegos` al sitemap y al prerenderizado;
       verificar con `just build` que existe `dist/videojuegos.html`
       con los juegos
 

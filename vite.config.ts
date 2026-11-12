@@ -60,12 +60,15 @@ export default defineConfig(({ mode }) => {
       globals: true,
       environment: 'jsdom',
       setupFiles: ['./src/test/setup.ts'],
+      // Los worktrees de .claude/ son copias del repositorio con sus propias dependencias
+      exclude: ['**/node_modules/**', '**/dist/**', '.claude/**'],
       // Los tests no deben depender de los IDs de afiliado que haya en el .env local
       env: {
         VITE_AFFILIATE_AMAZON_TAG: '',
         VITE_AFFILIATE_ADTRACTION_CHANNEL: '',
         VITE_AFFILIATE_GENERACION_X_PROGRAM: '',
         VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM: '',
+        VITE_AFFILIATE_GOG_PROGRAM: '',
       },
     },
   }

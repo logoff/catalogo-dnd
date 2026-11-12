@@ -134,16 +134,16 @@ se reutilizan tal cual.
 
 Tiendas candidatas, según el usuario:
 
-| Prioridad    | Tienda                                                                 | Uso                         | Afiliación (verificado el 2026-11-12)                                                                                        |
-| ------------ | ---------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Principal    | GOG                                                                    | Digital PC                  | Adtraction, 6 % en España (visto en el panel)                                                                                |
-| Principal    | Amazon                                                                 | Digital y físico (consolas) | Amazon Afiliados, ya integrado                                                                                               |
-| Principal    | Humble Bundle                                                          | Digital PC                  | Humble Partner, en CJ Affiliate; comisión según directorios entre el 4 % y el 15 %, sin fuente oficial                       |
-| Principal    | Eneba                                                                  | Claves digitales            | Programa propio y en redes (Awin, Daisycon); 2–5 % según directorios                                                         |
-| Principal    | Instant Gaming                                                         | Claves digitales            | Programa propio con enlaces de referido (`igr`); condiciones sin confirmar                                                   |
-| Opcional     | Green Man Gaming                                                       | Digital PC                  | Programa propio: hasta un 5 % por venta, 10 % en packs (su página de afiliados); red no confirmada (Impact, CJ o FlexOffers) |
-| Opcional     | Fanatical                                                              | Digital PC                  | CJ Affiliate para webs; hasta un 5 % según directorios                                                                       |
-| Sin afiliado | Steam, Epic Games Store, PlayStation Store, Nintendo eShop, Xbox Store | Digital                     | Sin programa útil para una web; enlace limpio                                                                                |
+| Prioridad    | Tienda                                                                 | Uso                         | Afiliación (verificado el 2026-11-12)                                                                                                    |
+| ------------ | ---------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Principal    | GOG                                                                    | Digital PC                  | Adtraction, 6 % en España (visto en el panel)                                                                                            |
+| Principal    | Amazon                                                                 | Digital y físico (consolas) | Amazon Afiliados, ya integrado                                                                                                           |
+| Principal    | Humble Bundle                                                          | Digital PC                  | Programa de afiliados en Impact (verificación de la web en curso); comisión según directorios entre el 4 % y el 15 %, sin fuente oficial |
+| Principal    | Eneba                                                                  | Claves digitales            | Programa propio y en redes (Awin, Daisycon); 2–5 % según directorios                                                                     |
+| Principal    | Instant Gaming                                                         | Claves digitales            | Programa propio con enlaces de referido (`igr`); condiciones sin confirmar                                                               |
+| Opcional     | Green Man Gaming                                                       | Digital PC                  | Programa propio: hasta un 5 % por venta, 10 % en packs (su página de afiliados); red no confirmada (Impact, CJ o FlexOffers)             |
+| Opcional     | Fanatical                                                              | Digital PC                  | CJ Affiliate para webs; hasta un 5 % según directorios                                                                                   |
+| Sin afiliado | Steam, Epic Games Store, PlayStation Store, Nintendo eShop, Xbox Store | Digital                     | Sin programa útil para una web; enlace limpio                                                                                            |
 
 Las cifras de directorios son orientativas: las condiciones reales se ven
 al solicitar cada programa, y se apuntan aquí entonces.

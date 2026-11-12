@@ -79,6 +79,7 @@ function generateSitemap() {
   }
 
   // Videogame pages
+  urls.push({ loc: '/videojuegos', priority: 0.9, changefreq: 'weekly', lastmod: today })
   for (const file of getProductFiles(join(DATA_DIR, 'videogames', 'games'))) {
     const { slug } = JSON.parse(readFileSync(file, 'utf-8'))
     urls.push({ loc: `/videojuego/${slug}`, priority: 0.7, changefreq: 'monthly', lastmod: today })
