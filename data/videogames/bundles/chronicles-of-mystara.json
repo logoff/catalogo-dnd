@@ -1,0 +1,37 @@
+{
+  "id": "chronicles-of-mystara",
+  "title": "Dungeons & Dragons: Chronicles of Mystara",
+  "games": ["tower-of-doom", "shadow-over-mystara"],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2013-06-18",
+      "publishers": ["Capcom"],
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/229480/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/5432-comprar-steam-dungeons-dragons-chronicles-of-mystara-pc-juego-steam/"
+        }
+      ]
+    },
+    {
+      "platform": "ps3",
+      "date": "2013-06",
+      "publishers": ["Capcom"]
+    },
+    {
+      "platform": "xbox_360",
+      "date": "2013-06",
+      "publishers": ["Capcom"]
+    },
+    {
+      "platform": "wii_u",
+      "date": "2013-06",
+      "publishers": ["Capcom"]
+    }
+  ]
+}

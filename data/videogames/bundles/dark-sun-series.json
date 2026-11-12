@@ -1,0 +1,22 @@
+{
+  "id": "dark-sun-series",
+  "title": "Dungeons & Dragons: Dark Sun Series",
+  "games": ["dark-sun-shattered-lands", "dark-sun-wake-of-the-ravager"],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "publishers": ["SNEG"],
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_dark_sun_series"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904580/"
+        }
+      ]
+    }
+  ]
+}

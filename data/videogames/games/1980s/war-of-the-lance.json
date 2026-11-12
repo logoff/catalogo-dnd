@@ -24,23 +24,12 @@
     {
       "platform": "pc_windows",
       "date": "2023-03-27",
-      "edition": "Silver Box Classics",
-      "publishers": ["SNEG"],
       "spanish": {
         "interface": false,
         "subtitles": false,
         "audio": false
       },
-      "purchase_links": [
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/es/game/silver_box_classics"
-        },
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/2344020/"
-        }
-      ]
+      "bundle": "silver-box-classics"
     }
   ],
   "images": ["/images/videogames/war-of-the-lance/0.png"]

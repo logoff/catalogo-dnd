@@ -42,23 +42,12 @@
     {
       "platform": "pc_windows",
       "date": "2022-03-29",
-      "edition": "Forgotten Realms: The Archives – Collection Two",
-      "publishers": ["SNEG"],
       "spanish": {
         "interface": false,
         "subtitles": false,
         "audio": false
       },
-      "purchase_links": [
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_two"
-        },
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/1882280/"
-        }
-      ]
+      "bundle": "forgotten-realms-archives-2"
     }
   ],
   "images": ["/images/videogames/pool-of-radiance/0.png"]

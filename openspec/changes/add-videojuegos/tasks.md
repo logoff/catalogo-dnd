@@ -124,11 +124,11 @@
 
 ## 11. Recopilaciones, iconos y ediciones
 
-- [ ] 11.1 Añadir el esquema, los tipos y el loader de recopilaciones
+- [x] 11.1 Añadir el esquema, los tipos y el loader de recopilaciones
       (`data/videogames/bundles/`) y la referencia `bundle` en los
       lanzamientos; verificar con tests de datos (juegos y recopilaciones
       existentes en ambos sentidos)
-- [ ] 11.2 Pasar a recopilaciones The Archives 1, 2 y 3, Krynn Series,
+- [x] 11.2 Pasar a recopilaciones The Archives 1, 2 y 3, Krynn Series,
       Dark Sun Series, Ravenloft Series, Silver Box Classics, Chronicles
       of Mystara y el pack de Baldur's Gate I y II de Xbox One; verificar
       con `just check`

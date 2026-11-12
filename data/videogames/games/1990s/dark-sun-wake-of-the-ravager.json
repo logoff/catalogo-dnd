@@ -18,23 +18,12 @@
     {
       "platform": "pc_windows",
       "date": "2022-03-29",
-      "edition": "Dungeons & Dragons: Dark Sun Series",
-      "publishers": ["SNEG"],
       "spanish": {
         "interface": false,
         "subtitles": false,
         "audio": false
       },
-      "purchase_links": [
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/es/game/dungeons_dragons_dark_sun_series"
-        },
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/1904580/"
-        }
-      ]
+      "bundle": "dark-sun-series"
     }
   ],
   "images": ["/images/videogames/dark-sun-wake-of-the-ravager/0.png"]

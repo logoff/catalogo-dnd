@@ -68,7 +68,8 @@ const gameSections = [
   ['Videojuegos anunciados', (g) => g.status === 'announced'],
   [
     'Videojuegos a la venta sin dato de castellano (figuran como solo en inglés)',
-    (g) => g.releases.some((r) => r.purchase_links?.length && !r.delisted && !r.spanish),
+    (g) =>
+      g.releases.some((r) => (r.purchase_links?.length || r.bundle) && !r.delisted && !r.spanish),
   ],
 ]
 

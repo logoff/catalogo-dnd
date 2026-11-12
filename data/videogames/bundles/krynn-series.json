@@ -1,0 +1,22 @@
+{
+  "id": "krynn-series",
+  "title": "Dungeons & Dragons: Krynn Series",
+  "games": ["champions-of-krynn", "death-knights-of-krynn", "the-dark-queen-of-krynn"],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "publishers": ["SNEG"],
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_krynn_series"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904610/"
+        }
+      ]
+    }
+  ]
+}

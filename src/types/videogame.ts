@@ -119,6 +119,8 @@ export interface GameRelease {
   // ISO truncada a la precisión conocida: YYYY, YYYY-MM o YYYY-MM-DD
   date?: string
   edition?: string
+  // Se vende dentro de una recopilación (id de data/videogames/bundles); sus enlaces están allí
+  bundle?: string
   // Solo si difieren de las del juego
   developers?: string[]
   publishers?: string[]
@@ -161,6 +163,22 @@ export interface Videogame {
   images?: string[]
   official_url?: string
   related_products?: { edition: Edition; code: string }[]
+}
+
+export interface BundleRelease {
+  platform: Platform
+  date?: string
+  publishers?: string[]
+  purchase_links?: VideogamePurchaseLink[]
+  delisted?: boolean
+}
+
+// Recopilación que se vende como un solo producto con varios juegos del catálogo
+export interface VideogameBundle {
+  id: string
+  title: string
+  games: string[]
+  releases: BundleRelease[]
 }
 
 // full: con voces; text: textos o subtítulos; none: solo en inglés (también si no hay dato)

@@ -1,7 +1,9 @@
 import type {
+  BundleRelease,
   Platform,
   SpanishSummary,
   Videogame,
+  VideogameBundle,
   VideogameWithMeta,
   GameRelease,
 } from '@/types/videogame'
@@ -11,6 +13,31 @@ const videogameModules = import.meta.glob<Videogame>('/data/videogames/games/**/
   eager: true,
   import: 'default',
 })
+
+// Recopilaciones: un JSON por paquete, con sus juegos y sus enlaces de compra
+const bundleModules = import.meta.glob<VideogameBundle>('/data/videogames/bundles/*.json', {
+  eager: true,
+  import: 'default',
+})
+
+const bundlesById = new Map(Object.values(bundleModules).map((bundle) => [bundle.id, bundle]))
+
+export function getBundle(id: string): VideogameBundle | undefined {
+  return bundlesById.get(id)
+}
+
+// Versión de la recopilación en la plataforma de un lanzamiento
+export function getBundleRelease(release: GameRelease): BundleRelease | undefined {
+  if (!release.bundle) return undefined
+  return getBundle(release.bundle)?.releases.find((r) => r.platform === release.platform)
+}
+
+// Enlaces de compra vigentes de un lanzamiento: los suyos o los de su recopilación
+export function purchaseLinksOf(release: GameRelease) {
+  const source = release.bundle ? getBundleRelease(release) : release
+  if (!source || release.delisted || source.delisted) return []
+  return source.purchase_links ?? []
+}
 
 function spanishLevel(release: GameRelease): SpanishSummary {
   const { spanish } = release
@@ -40,9 +67,7 @@ export function enrichVideogame(game: Videogame): VideogameWithMeta {
   const scores = (game.reviews ?? []).map((r) => Math.round((r.score / r.scale) * 100))
   const bestScore = scores.length > 0 ? Math.max(...scores) : null
 
-  const availableToBuy = game.releases.some(
-    (r) => !r.delisted && (r.purchase_links?.length ?? 0) > 0
-  )
+  const availableToBuy = game.releases.some((r) => purchaseLinksOf(r).length > 0)
 
   return {
     ...game,
@@ -78,4 +103,8 @@ export function getVideogameBySlug(slug: string): VideogameWithMeta | undefined 
 // Rutas de los JSON, para los tests de datos
 export function getVideogameFiles(): Record<string, Videogame> {
   return videogameModules
+}
+
+export function getBundleFiles(): Record<string, VideogameBundle> {
+  return bundleModules
 }

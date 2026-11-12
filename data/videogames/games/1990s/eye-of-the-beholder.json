@@ -37,23 +37,12 @@
     {
       "platform": "pc_windows",
       "date": "2022-03-29",
-      "edition": "Forgotten Realms: The Archives – Collection One",
-      "publishers": ["SNEG"],
       "spanish": {
         "interface": true,
         "subtitles": false,
         "audio": false
       },
-      "purchase_links": [
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/es/game/forgotten_realms_the_archives_collection_one"
-        },
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/1882240/"
-        }
-      ]
+      "bundle": "forgotten-realms-archives-1"
     }
   ],
   "images": ["/images/videogames/eye-of-the-beholder/0.jpg"]

@@ -22,41 +22,31 @@
     {
       "platform": "pc_windows",
       "date": "2013-06-18",
-      "edition": "Chronicles of Mystara",
       "developers": ["Iron Galaxy Studios"],
       "spanish": {
         "interface": true,
         "subtitles": false,
         "audio": false
       },
-      "purchase_links": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/229480/"
-        },
-        {
-          "store": "instant_gaming",
-          "url": "https://www.instant-gaming.com/es/5432-comprar-steam-dungeons-dragons-chronicles-of-mystara-pc-juego-steam/"
-        }
-      ]
+      "bundle": "chronicles-of-mystara"
     },
     {
       "platform": "ps3",
       "date": "2013-06",
-      "edition": "Chronicles of Mystara",
-      "developers": ["Iron Galaxy Studios"]
+      "developers": ["Iron Galaxy Studios"],
+      "bundle": "chronicles-of-mystara"
     },
     {
       "platform": "xbox_360",
       "date": "2013-06",
-      "edition": "Chronicles of Mystara",
-      "developers": ["Iron Galaxy Studios"]
+      "developers": ["Iron Galaxy Studios"],
+      "bundle": "chronicles-of-mystara"
     },
     {
       "platform": "wii_u",
       "date": "2013-06",
-      "edition": "Chronicles of Mystara",
-      "developers": ["Iron Galaxy Studios"]
+      "developers": ["Iron Galaxy Studios"],
+      "bundle": "chronicles-of-mystara"
     }
   ],
   "images": ["/images/videogames/tower-of-doom/0.png"]

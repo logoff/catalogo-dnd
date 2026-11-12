@@ -2,14 +2,21 @@ import { describe, it, expect } from 'vitest'
 import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 import schemaSource from '/data/schemas/videogame.jsonschema?raw'
+import bundleSchemaSource from '/data/schemas/videogame-bundle.jsonschema?raw'
 import inventory from '/data/videogames/inventory.md?raw'
 import type { Videogame } from '@/types/videogame'
 import { getAllProducts } from './dataLoader'
-import { enrichVideogame, getAllVideogames, getVideogameFiles } from './videogameLoader'
+import {
+  enrichVideogame,
+  getAllVideogames,
+  getBundleFiles,
+  getVideogameFiles,
+} from './videogameLoader'
 
 const ajv = new Ajv({ allErrors: true })
 addFormats(ajv)
 const validate = ajv.compile(JSON.parse(schemaSource))
+const validateBundle = ajv.compile(JSON.parse(bundleSchemaSource))
 
 // Imágenes de public/ con la ruta que usan los JSON (/images/…)
 const publicImages = new Set(
@@ -180,7 +187,11 @@ describe('datos de videojuegos', () => {
 
   it('los enlaces de compra no llevan parámetros de afiliado', () => {
     const AFFILIATE_PARAMS = ['tag', 'aff', 'affiliate', 'ref', 'a', 'as', 'igr', 'partner']
-    const withAffiliate = games.flatMap((g) =>
+    const sources = [
+      ...games.map((g) => ({ id: g.slug, releases: g.releases })),
+      ...Object.values(getBundleFiles()),
+    ]
+    const withAffiliate = sources.flatMap((g) =>
       g.releases
         .flatMap((r) => r.purchase_links ?? [])
         .filter((link) => {
@@ -190,7 +201,7 @@ describe('datos de videojuegos', () => {
             AFFILIATE_PARAMS.some((param) => url.searchParams.has(param))
           )
         })
-        .map((link) => `${g.slug}: ${link.url}`)
+        .map((link) => `${g.id}: ${link.url}`)
     )
     expect(withAffiliate).toEqual([])
   })
@@ -205,6 +216,67 @@ describe('datos de videojuegos', () => {
         .map((rel) => `${g.slug}: ${rel.edition}/${rel.code}`)
     )
     expect(missing).toEqual([])
+  })
+
+  describe('recopilaciones', () => {
+    const bundleFiles = getBundleFiles()
+    const bundles = Object.values(bundleFiles)
+    const slugs = games.map((g) => g.slug)
+
+    it('cumplen el esquema y el nombre del archivo es su id', () => {
+      const errors = Object.entries(bundleFiles).flatMap(([path, bundle]) => [
+        ...(validateBundle(bundle) ? [] : [`${path}: ${ajv.errorsText(validateBundle.errors)}`]),
+        ...(path.endsWith(`/${bundle.id}.json`) ? [] : [`${path}: no coincide con ${bundle.id}`]),
+      ])
+      expect(errors).toEqual([])
+    })
+
+    it('un juego que solo se vende en recopilación cuenta como a la venta', () => {
+      expect(games.find((g) => g.slug === 'pool-of-radiance')?.availableToBuy).toBe(true)
+    })
+
+    it('solo incluyen juegos del catálogo', () => {
+      const missing = bundles.flatMap((b) =>
+        b.games.filter((slug) => !slugs.includes(slug)).map((slug) => `${b.id}: ${slug}`)
+      )
+      expect(missing).toEqual([])
+    })
+
+    it('cada lanzamiento en recopilación apunta a una que existe en esa plataforma', () => {
+      const broken = games.flatMap((g) =>
+        g.releases
+          .filter((r) => r.bundle)
+          .filter((r) => {
+            const bundle = bundles.find((b) => b.id === r.bundle)
+            return (
+              !bundle ||
+              !bundle.games.includes(g.slug) ||
+              !bundle.releases.some((br) => br.platform === r.platform)
+            )
+          })
+          .map((r) => `${g.slug}: ${r.bundle} (${r.platform})`)
+      )
+      expect(broken).toEqual([])
+    })
+
+    it('cada juego de una recopilación tiene un lanzamiento que la referencia', () => {
+      const orphan = bundles.flatMap((b) =>
+        b.games
+          .filter((slug) => {
+            const game = games.find((g) => g.slug === slug)
+            return game && !game.releases.some((r) => r.bundle === b.id)
+          })
+          .map((slug) => `${b.id}: ${slug}`)
+      )
+      expect(orphan).toEqual([])
+    })
+
+    it('los lanzamientos en recopilación no repiten sus enlaces de compra', () => {
+      const duplicated = games.flatMap((g) =>
+        g.releases.filter((r) => r.bundle && r.purchase_links).map(() => g.slug)
+      )
+      expect(duplicated).toEqual([])
+    })
   })
 
   describe('inventario', () => {
