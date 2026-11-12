@@ -19,6 +19,21 @@ export function amazonAffiliate(tag?: string): StoreConfig['affiliate'] {
   return tag ? (url) => withParam(url, 'tag', tag) : undefined
 }
 
+// Awin: el ID del anunciante (programa) y el del publisher son necesarios
+export function awinAffiliate(
+  advertiserId?: string,
+  publisherId?: string
+): StoreConfig['affiliate'] {
+  if (!advertiserId || !publisherId) return undefined
+  return (url) =>
+    `https://www.awin1.com/cread.php?${new URLSearchParams({ awinmid: advertiserId, awinaffid: publisherId, ued: url })}`
+}
+
+// Instant Gaming: programa propio, basta con añadir el código de referido a cualquier URL
+export function instantGamingAffiliate(referral?: string): StoreConfig['affiliate'] {
+  return referral ? (url) => withParam(url, 'igr', referral) : undefined
+}
+
 export function adtractionAffiliate(
   programId?: string,
   channelId?: string
@@ -49,6 +64,37 @@ export const STORES: Record<Store, StoreConfig> = {
     affiliate: adtractionAffiliate(
       env.VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM,
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL
+    ),
+  },
+  gog: {
+    label: 'GOG',
+    color: 'from-purple-700 to-purple-900 hover:from-purple-600 hover:to-purple-800',
+    affiliate: adtractionAffiliate(
+      env.VITE_AFFILIATE_GOG_PROGRAM,
+      env.VITE_AFFILIATE_ADTRACTION_CHANNEL
+    ),
+  },
+  // Steam no tiene programa de afiliados: se enlaza sin comisión
+  steam: {
+    label: 'Steam',
+    color: 'from-[#1b2838] to-[#2a475e] hover:from-[#2a475e] hover:to-[#1b2838]',
+  },
+  instant_gaming: {
+    label: 'Instant Gaming',
+    color: 'from-orange-600 to-orange-800 hover:from-orange-500 hover:to-orange-700',
+    affiliate: instantGamingAffiliate(env.VITE_AFFILIATE_INSTANT_GAMING_REFERRAL),
+  },
+  eneba: {
+    label: 'Eneba',
+    color: 'from-violet-700 to-violet-900 hover:from-violet-600 hover:to-violet-800',
+    affiliate: awinAffiliate(env.VITE_AFFILIATE_ENEBA_PROGRAM, env.VITE_AFFILIATE_AWIN_PUBLISHER),
+  },
+  fanatical: {
+    label: 'Fanatical',
+    color: 'from-red-700 to-red-900 hover:from-red-600 hover:to-red-800',
+    affiliate: awinAffiliate(
+      env.VITE_AFFILIATE_FANATICAL_PROGRAM,
+      env.VITE_AFFILIATE_AWIN_PUBLISHER
     ),
   },
 }

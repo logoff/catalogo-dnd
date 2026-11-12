@@ -1,0 +1,53 @@
+{
+  "slug": "shadow-over-mystara",
+  "title": "Dungeons & Dragons: Shadow over Mystara",
+  "description": "Continuación de Tower of Doom, también de Capcom para recreativas. Añade a los cuatro héroes del original un ladrón y un mago, amplía los objetos, los conjuros y los caminos alternativos, y permite partidas de hasta cuatro jugadores en cooperativo contra la hechicera Synn y sus aliados.\n\nEstá considerado uno de los grandes beat 'em up de Capcom. Se reeditó junto a Tower of Doom en Chronicles of Mystara, que hoy se vende en Steam con textos en castellano.",
+  "developers": ["Capcom"],
+  "publishers": ["Capcom"],
+  "genres": ["beat_em_up", "action_rpg"],
+  "modes": ["single", "coop"],
+  "setting": "mystara",
+  "series": "Mystara (Capcom)",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "arcade",
+      "date": "1996-02"
+    },
+    {
+      "platform": "saturn",
+      "date": "1999-03-04",
+      "edition": "Dungeons & Dragons Collection"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2013-06-18",
+      "developers": ["Iron Galaxy Studios"],
+      "spanish": {
+        "interface": true,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "chronicles-of-mystara"
+    },
+    {
+      "platform": "ps3",
+      "date": "2013-06",
+      "developers": ["Iron Galaxy Studios"],
+      "bundle": "chronicles-of-mystara"
+    },
+    {
+      "platform": "xbox_360",
+      "date": "2013-06",
+      "developers": ["Iron Galaxy Studios"],
+      "bundle": "chronicles-of-mystara"
+    },
+    {
+      "platform": "wii_u",
+      "date": "2013-06",
+      "developers": ["Iron Galaxy Studios"],
+      "bundle": "chronicles-of-mystara"
+    }
+  ],
+  "images": ["/images/videogames/shadow-over-mystara/0.png"]
+}

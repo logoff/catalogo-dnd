@@ -60,12 +60,21 @@ export default defineConfig(({ mode }) => {
       globals: true,
       environment: 'jsdom',
       setupFiles: ['./src/test/setup.ts'],
+      // Los worktrees de .claude/ son copias del repositorio con sus propias dependencias
+      exclude: ['**/node_modules/**', '**/dist/**', '.claude/**'],
+      // La caché de módulos no detecta los JSON nuevos que recoge import.meta.glob en data/
+      fsModuleCache: false,
       // Los tests no deben depender de los IDs de afiliado que haya en el .env local
       env: {
         VITE_AFFILIATE_AMAZON_TAG: '',
         VITE_AFFILIATE_ADTRACTION_CHANNEL: '',
         VITE_AFFILIATE_GENERACION_X_PROGRAM: '',
         VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM: '',
+        VITE_AFFILIATE_GOG_PROGRAM: '',
+        VITE_AFFILIATE_INSTANT_GAMING_REFERRAL: '',
+        VITE_AFFILIATE_AWIN_PUBLISHER: '',
+        VITE_AFFILIATE_ENEBA_PROGRAM: '',
+        VITE_AFFILIATE_FANATICAL_PROGRAM: '',
       },
     },
   }

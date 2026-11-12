@@ -1,0 +1,37 @@
+{
+  "slug": "the-dark-queen-of-krynn",
+  "title": "The Dark Queen of Krynn",
+  "description": "Último juego de la trilogía de Krynn de la serie Gold Box, en el mundo de Dragonlance. El grupo se enfrenta a un nuevo plan de Takhisis, la Reina de la Oscuridad, en una aventura que lleva más allá de los territorios conocidos de las dos entregas anteriores. Lo desarrolló MicroMagic y mantiene la exploración en primera persona y los combates tácticos por turnos.\n\nEs el cierre de la saga que empieza en Champions of Krynn y sigue en Death Knights of Krynn, con importación del grupo. Hoy se vende para Windows dentro de la recopilación Dungeons & Dragons: Krynn Series, solo en inglés.",
+  "developers": ["MicroMagic"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1992"
+    },
+    {
+      "platform": "amiga",
+      "date": "1992"
+    },
+    {
+      "platform": "mac_classic",
+      "date": "1992"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "krynn-series"
+    }
+  ],
+  "images": ["/images/videogames/the-dark-queen-of-krynn/0.png"]
+}

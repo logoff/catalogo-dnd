@@ -36,6 +36,9 @@ export default function Header() {
             <NavLink to="/2024" className={navLinkClass}>
               5.5E (2024)
             </NavLink>
+            <NavLink to="/videojuegos" className={navLinkClass}>
+              Videojuegos
+            </NavLink>
             <NavLink to="/guias" className={navLinkClass}>
               Guías
             </NavLink>
@@ -78,6 +81,13 @@ export default function Header() {
               </NavLink>
               <NavLink to="/2024" className={navLinkClass} onClick={() => setMobileMenuOpen(false)}>
                 5.5E (2024)
+              </NavLink>
+              <NavLink
+                to="/videojuegos"
+                className={navLinkClass}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Videojuegos
               </NavLink>
               <NavLink
                 to="/guias"

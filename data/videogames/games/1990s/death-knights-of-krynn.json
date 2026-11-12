@@ -1,0 +1,39 @@
+{
+  "slug": "death-knights-of-krynn",
+  "title": "Death Knights of Krynn",
+  "description": "Segundo juego de la trilogía de Krynn de la serie Gold Box, en el mundo de Dragonlance. Un año después de los sucesos de Champions of Krynn, un caballero de la muerte y sus huestes de no muertos amenazan la región, y el grupo vuelve a la acción con la exploración en primera persona y los combates tácticos por turnos de la serie.\n\nPermite importar el grupo de Champions of Krynn y continúa en The Dark Queen of Krynn. Hoy se vende para Windows dentro de la recopilación Dungeons & Dragons: Krynn Series, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1991"
+    },
+    {
+      "platform": "c64",
+      "date": "1991"
+    },
+    {
+      "platform": "amiga"
+    },
+    {
+      "platform": "pc98"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "krynn-series"
+    }
+  ],
+  "images": ["/images/videogames/death-knights-of-krynn/0.png"]
+}

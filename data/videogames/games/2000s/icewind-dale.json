@@ -1,0 +1,143 @@
+{
+  "slug": "icewind-dale",
+  "title": "Icewind Dale",
+  "description": "Juego de rol de Black Isle Studios con el Infinity Engine de Baldur's Gate, ambientado en el Valle del Viento Helado, en el norte de los Reinos Olvidados. Un grupo de hasta seis aventureros creados por el jugador acude a las Diez Ciudades para investigar una amenaza que llega de las montañas. Más centrado en el combate y la exploración de mazmorras que en los diálogos, usa las reglas de la segunda edición de AD&D con combate en tiempo real con pausa.\n\nEs ideal para quien disfrutó de Baldur's Gate y quiere más combates tácticos con un grupo propio. Hoy se juega en la Enhanced Edition de Beamdog, que incluye las expansiones y en PC está en castellano con voces. Comparte región con la aventura Icewind Dale: Rime of the Frostmaiden.",
+  "developers": ["Black Isle Studios"],
+  "publishers": ["Interplay Entertainment"],
+  "genres": ["rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "adnd2",
+  "series": "Icewind Dale",
+  "status": "released",
+  "expansions": [
+    {
+      "title": "Heart of Winter",
+      "date": "2001-02-21"
+    },
+    {
+      "title": "Trials of the Luremaster",
+      "date": "2001-09-07"
+    }
+  ],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2000-06-29"
+    },
+    {
+      "platform": "mac",
+      "date": "2002-03-26"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2014-10-30",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/icewind_dale_enhanced_edition"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/321800/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/2825-comprar-steam-icewind-dale-enhanced-edition-enhanced-edition-pc-mac-juego-steam/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2014-10-30",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      }
+    },
+    {
+      "platform": "linux",
+      "date": "2014-10-30",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      }
+    },
+    {
+      "platform": "switch",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"],
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07SLN8VXT",
+          "format": "physical"
+        }
+      ]
+    },
+    {
+      "platform": "ps4",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"],
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07SMSM3QB",
+          "format": "physical"
+        }
+      ]
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 87,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/icewind-dale/",
+      "platform": "pc_windows"
+    },
+    {
+      "source": "metacritic",
+      "score": 80,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/icewind-dale-enhanced-edition/",
+      "platform": "pc_windows",
+      "edition": "Enhanced Edition"
+    }
+  ],
+  "official_url": "https://www.beamdog.com/games/icewind-dale-enhanced/",
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "IDROTF"
+    }
+  ],
+  "images": ["/images/videogames/icewind-dale/0.jpg"]
+}

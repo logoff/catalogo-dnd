@@ -1,6 +1,6 @@
 ---
 name: novedades
-description: Poner al día las fechas de las novedades de D&D en inglés y, sobre todo, en castellano. Usa esta skill cuando el usuario pida revisar novedades, lanzamientos, fechas en castellano o si ha salido algo nuevo.
+description: Poner al día las fechas de las novedades de D&D en inglés y, sobre todo, en castellano, y los videojuegos anunciados o retirados. Usa esta skill cuando el usuario pida revisar novedades, lanzamientos, fechas en castellano, videojuegos nuevos o si ha salido algo nuevo.
 argument-hint: "[título o código concreto, opcional]"
 ---
 
@@ -21,6 +21,9 @@ Ejecuta `just novedades`. Lista, para la línea 2024:
 - libros, cajas y accesorios sin edición en castellano.
 
 Además, busca productos anunciados que **aún no estén en el catálogo**.
+
+También lista los **videojuegos** anunciados y los que se venden con el
+castellano sin dato, que figuran como solo en inglés (ver el apartado 7).
 
 ## 2. Inglés
 
@@ -94,3 +97,23 @@ a partir de los datos.
 
 Cuando entre una fecha en castellano nueva, recuérdale al usuario que es
 buen momento para volver a compartir la guía.
+
+## 7. Videojuegos
+
+- **Anunciados**: comprueba en su página de Steam o en la web oficial si
+  la fecha se ha concretado o movido, y si ya han salido (entonces pasan
+  a `status: "released"` con su fecha y sus enlaces de compra).
+- **Nuevos**: busca anuncios de videojuegos oficiales de D&D (noticias de
+  Wizards of the Coast, D&D Beyond, la búsqueda de Steam y GOG con
+  «Dungeons & Dragons» y los mundos de campaña). Si entran en el alcance,
+  añádelos al inventario y créalos con la skill `add-videogame`.
+- **Retiradas**: cuando un juego se retira de la venta (suele pasar al
+  acabar la licencia), marca sus lanzamientos con `delisted: true` y
+  quita la mención a dónde se vende de la descripción. Comprueba con
+  `curl` que los enlaces de compra siguen respondiendo.
+- **Castellano**: los que se venden sin dato figuran como solo en inglés;
+  comprueba si en realidad tienen castellano en la tabla de
+  idiomas de Steam (un `*` indica voces) o la ficha de GOG.
+
+Igual que con los libros, presenta lo encontrado al usuario antes de
+cambiar los datos.

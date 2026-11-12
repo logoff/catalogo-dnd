@@ -6,8 +6,9 @@ para trabajar con el código de este repositorio.
 ## Resumen del proyecto
 
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
-para las ediciones 5E (2014) y 5.5E (2024). Se despliega en Cloudflare Pages
-en <https://catalogodnd.es/>.
+para las ediciones 5E (2014) y 5.5E (2024), y de todos los videojuegos
+oficiales de D&D. Se despliega en Cloudflare Pages en
+<https://catalogodnd.es/>.
 
 ## Comandos
 
@@ -50,9 +51,28 @@ y un array de `publications` — múltiples ediciones/idiomas/portadas
 del mismo producto. Tipos de publicación: `book`, `boxed_set`,
 `accessory`. Ediciones: `5e` (2014) y `2024`.
 
+**Videojuegos:** cada juego es un JSON en
+`data/videogames/games/<década>/<slug>.json` (esquema
+`data/schemas/videogame.jsonschema`) con sus lanzamientos por plataforma
+y edición, el castellano de cada uno (solo si está confirmado; sin dato
+cuenta como solo en inglés), notas y enlaces de compra.
+`videogameLoader.ts` los enriquece en `VideogameWithMeta`.
+`data/videogames/inventory.md` es la lista maestra: un test exige que
+cada ficha esté en ella y al revés. Para dar de alta juegos, usar la
+skill `add-videogame`.
+
 **Rutas:** `/catalogo` (catálogo completo), `/2014` y `/2024` (páginas
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
-de producto).
+de producto), `/videojuegos` (listado) y `/videojuego/:slug` (ficha).
+
+**Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
+cada tienda (Amazon, Adtraction, Awin, Instant Gaming); los JSON guardan
+siempre la URL limpia y los IDs llegan por variables `VITE_AFFILIATE_*`
+(ver README).
+
+**Planificación:** las funcionalidades grandes se planifican con
+OpenSpec en `openspec/` (`/opsx:propose`, `/opsx:apply`,
+`/opsx:archive`).
 
 **Alias de ruta:** `@` apunta a `./src` (configurado en vite.config.ts).
 

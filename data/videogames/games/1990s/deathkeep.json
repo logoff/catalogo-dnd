@@ -1,0 +1,42 @@
+{
+  "slug": "deathkeep",
+  "title": "DeathKeep",
+  "description": "Juego de acción y rol en primera persona de Lion Entertainment para 3DO y Windows, en la línea de Slayer. Un único héroe, a elegir entre varias razas, explora las mazmorras de una fortaleza en 3D, combate en tiempo real y recoge armas, armaduras y objetos mágicos.\n\nEs un juego de acción sencillo más que un juego de rol profundo. Hoy se vende para Windows en GOG y Steam, solo en inglés.",
+  "developers": ["Lion Entertainment"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["action_rpg"],
+  "modes": ["single"],
+  "status": "released",
+  "releases": [
+    {
+      "platform": "3do",
+      "date": "1996"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "1996"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/deathkeep"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2350540/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/deathkeep/0.jpg"]
+}

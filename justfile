@@ -72,12 +72,15 @@ docker-build:
         .
 
 # Ejecutar servidor de desarrollo con Docker (construye imagen si es necesario)
+# El volumen anónimo en /app/node_modules evita que el node_modules del host (con binarios
+# nativos de otro sistema) tape el de la imagen
 docker-run: docker-build
     docker container run \
         -it \
         --rm \
         -p 5173:5173 \
         -v $(pwd):/app \
+        -v /app/node_modules \
         {{ image_name }}
 
 # Ejecutar en background
@@ -86,6 +89,7 @@ docker-run-detached: docker-build
         -d \
         -p 5173:5173 \
         -v $(pwd):/app \
+        -v /app/node_modules \
         --name catalogo-dnd \
         {{ image_name }}
 

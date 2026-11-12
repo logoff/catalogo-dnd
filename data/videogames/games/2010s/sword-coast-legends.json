@@ -1,0 +1,40 @@
+{
+  "slug": "sword-coast-legends",
+  "title": "Sword Coast Legends",
+  "description": "Juego de rol de n-Space para Digital Extremes ambientado en la Costa de la Espada de los Reinos Olvidados e inspirado en las reglas de la quinta edición de D&D. Además de su campaña, con un grupo de compañeros y combate en tiempo real con pausa, tenía un modo en el que un jugador hacía de Dungeon Master y montaba aventuras para sus amigos.\n\nSe retiró de la venta en 2016, poco después de salir en consolas, así que hoy no se puede comprar en tiendas digitales.",
+  "developers": ["n-Space"],
+  "publishers": ["Digital Extremes"],
+  "genres": ["rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "5e",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2015-10-20",
+      "delisted": true
+    },
+    {
+      "platform": "mac",
+      "date": "2015-10-20",
+      "delisted": true
+    },
+    {
+      "platform": "linux",
+      "date": "2015-10-20",
+      "delisted": true
+    },
+    {
+      "platform": "ps4",
+      "date": "2016-07-19",
+      "delisted": true
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2016-07-19",
+      "delisted": true
+    }
+  ],
+  "images": ["/images/videogames/sword-coast-legends/0.jpg"]
+}

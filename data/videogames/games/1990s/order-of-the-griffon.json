@@ -1,0 +1,18 @@
+{
+  "slug": "order-of-the-griffon",
+  "title": "Dungeons & Dragons: Order of the Griffon",
+  "description": "Juego de rol de Westwood para TurboGrafx-16 ambientado en Mystara, el mundo de las cajas básicas de D&D. Recuerda a la serie Gold Box: un grupo de cuatro personajes explora en primera persona y lucha en combates tácticos por turnos en una vista aérea.\n\nEs uno de los pocos juegos de rol occidentales de la consola de NEC y una curiosidad para coleccionistas. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Westwood Associates"],
+  "publishers": ["Turbo Technologies", "Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "mystara",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "turbografx_16",
+      "date": "1992-10-20"
+    }
+  ],
+  "images": ["/images/videogames/order-of-the-griffon/0.png"]
+}

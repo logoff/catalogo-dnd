@@ -1,0 +1,94 @@
+{
+  "slug": "baldurs-gate-3",
+  "title": "Baldur's Gate 3",
+  "description": "Juego de rol de Larian Studios basado en las reglas de la quinta edición de D&D. Un grupo de aventureros con un renacuajo de azotamentes en la cabeza busca la forma de librarse de él antes de transformarse, en un viaje que va de la Costa de la Espada hasta la propia ciudad de Baldur's Gate. Los combates son por turnos y aprovechan el terreno, la altura y los conjuros; casi todo se resuelve con tiradas de dado, y las decisiones cambian la historia y a los compañeros.\n\nGanó el premio al juego del año en The Game Awards 2023 y es una buena entrada tanto para quien ya juega al rol de mesa como para quien no. Se puede jugar solo o en cooperativo, en PC, Mac, PlayStation 5 y Xbox Series. En PC tiene textos y subtítulos en castellano, con voces en inglés. Su historia continúa los sucesos de la aventura Baldur's Gate: Descent into Avernus.",
+  "developers": ["Larian Studios"],
+  "publishers": ["Larian Studios"],
+  "genres": ["rpg"],
+  "modes": ["single", "coop"],
+  "setting": "forgotten_realms",
+  "ruleset": "5e",
+  "series": "Baldur's Gate",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2023-08-03",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/baldurs_gate_iii"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1086940/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/4804-comprar-gog-com-baldur-s-gate-3-pc-juego-gog-com/"
+        }
+      ]
+    },
+    {
+      "platform": "ps5",
+      "date": "2023-09-06",
+      "purchase_links": [
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/16179-comprar-playstation-store-baldur-s-gate-3-playstation-5-juego-playstation-store/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2023-09-22",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
+    },
+    {
+      "platform": "xbox_series",
+      "date": "2023-12-07",
+      "purchase_links": [
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/16316-comprar-xbox-series-x-s-baldur-s-gate-3-xbox-series-x-s-microsoft-store/"
+        }
+      ]
+    },
+    {
+      "platform": "linux",
+      "date": "2025-09-23"
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 96,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-3/",
+      "platform": "pc_windows"
+    },
+    {
+      "source": "opencritic",
+      "score": 96,
+      "scale": 100,
+      "url": "https://opencritic.com/game/9136/baldurs-gate-3"
+    }
+  ],
+  "images": ["/images/videogames/baldurs-gate-3/0.jpg"],
+  "official_url": "https://baldursgate3.game",
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "BGDIA"
+    }
+  ]
+}

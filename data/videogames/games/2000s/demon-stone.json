@@ -1,0 +1,49 @@
+{
+  "slug": "demon-stone",
+  "title": "Forgotten Realms: Demon Stone",
+  "description": "Juego de acción de Stormfront Studios ambientado en los Reinos Olvidados, con una historia escrita por R. A. Salvatore. Un guerrero, un hechicero y una pícara quedan unidos por la liberación accidental de dos seres atrapados en una piedra, y el jugador cambia entre los tres en combates en tiempo real a lo largo de una campaña lineal y muy cinematográfica.\n\nEs más un juego de acción que de rol, pensado para partidas cortas. Volvió a la venta en 2025 para Windows en GOG y Steam, en castellano con voces.",
+  "developers": ["Stormfront Studios"],
+  "publishers": ["Atari"],
+  "genres": ["action"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "ps2",
+      "date": "2004-09-14"
+    },
+    {
+      "platform": "xbox"
+    },
+    {
+      "platform": "pc_windows"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2025-08-12",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/forgotten_realms_demon_stone"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3843530/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/20084-comprar-steam-forgotten-realms-demon-stone-pc-steam/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/demon-stone/0.png"]
+}

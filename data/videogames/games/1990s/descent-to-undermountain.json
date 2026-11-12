@@ -1,0 +1,22 @@
+{
+  "slug": "descent-to-undermountain",
+  "title": "Descent to Undermountain",
+  "description": "Juego de rol de acción en primera persona de Interplay, construido sobre el motor 3D del juego de naves Descent. El personaje baja a Undermountain, el enorme laberinto que se extiende bajo Aguasprofundas, en los Reinos Olvidados, combatiendo en tiempo real a lo largo de sus niveles.\n\nEs una curiosidad de la época en que los juegos de D&D se pasaban al 3D, publicado el mismo año que Baldur's Gate. No se ha vuelto a publicar en tiendas digitales, así que solo se encuentra de segunda mano.",
+  "developers": ["Interplay"],
+  "publishers": ["Interplay"],
+  "genres": ["action_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1998"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "1998"
+    }
+  ],
+  "images": ["/images/videogames/descent-to-undermountain/0.png"]
+}

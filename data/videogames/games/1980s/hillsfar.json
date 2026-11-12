@@ -1,0 +1,53 @@
+{
+  "slug": "hillsfar",
+  "title": "Hillsfar",
+  "description": "Aventura de acción de Westwood para SSI ambientada en la ciudad de Hillsfar, en los Reinos Olvidados. En lugar de largos combates por turnos, el personaje recorre la ciudad y sus alrededores superando pruebas de habilidad: tiro con arco, carreras a caballo, forzar cerraduras, laberintos y combates en la arena. Se puede crear un personaje nuevo o importar uno de Pool of Radiance.\n\nEs una rareza dentro de los primeros juegos de AD&D, más cercana a una colección de minijuegos que a un juego de rol clásico. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Two, solo en inglés.",
+  "developers": ["Westwood Associates"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["action", "adventure"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1989"
+    },
+    {
+      "platform": "c64",
+      "date": "1989"
+    },
+    {
+      "platform": "amiga",
+      "publishers": ["U.S. Gold"]
+    },
+    {
+      "platform": "atari_st"
+    },
+    {
+      "platform": "nes",
+      "developers": ["Crosstalk"],
+      "publishers": ["FCI"]
+    },
+    {
+      "platform": "pc88",
+      "publishers": ["Pony Canyon"]
+    },
+    {
+      "platform": "pc98",
+      "developers": ["Opera House"],
+      "publishers": ["Pony Canyon"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "forgotten-realms-archives-2"
+    }
+  ],
+  "images": ["/images/videogames/hillsfar/0.png"]
+}

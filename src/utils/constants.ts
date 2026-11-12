@@ -3,7 +3,7 @@ export const BASE_PATH = import.meta.env.BASE_URL
 export const ROUTER_BASENAME = BASE_PATH.endsWith('/') ? BASE_PATH.slice(0, -1) : BASE_PATH
 export const SITE_NAME = 'Catálogo D&D 5E'
 export const SITE_DESCRIPTION =
-  'Catálogo completo de productos Dungeons & Dragons 5ª edición y 5.5 (2024)'
+  'Catálogo completo de productos Dungeons & Dragons 5ª edición y 5.5 (2024), y de los videojuegos oficiales de D&D'
 export const SITE_URL = 'https://catalogodnd.es'
 export const OWNER_NAME = 'Julio Carlos Barrera Juez'
 export const CONTACT_EMAIL = 'hola@catalogodnd.es'

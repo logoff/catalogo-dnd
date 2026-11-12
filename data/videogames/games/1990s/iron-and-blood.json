@@ -1,0 +1,23 @@
+{
+  "slug": "iron-and-blood",
+  "title": "Iron & Blood: Warriors of Ravenloft",
+  "description": "Juego de lucha en 3D ambientado en el mundo de terror gótico de Ravenloft. Los combatientes, entre ellos criaturas y personajes de los dominios del mundo, se enfrentan en duelos uno contra uno y en modos para varios jugadores.\n\nEs el único juego de lucha de la marca D&D y una curiosidad de los primeros años de PlayStation. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Take-Two Interactive"],
+  "publishers": ["Acclaim Entertainment"],
+  "genres": ["action"],
+  "modes": ["single", "multiplayer"],
+  "setting": "ravenloft",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "playstation",
+      "date": "1996-10-03"
+    },
+    {
+      "platform": "pc_dos",
+      "date": "1997-01-07",
+      "publishers": ["Take-Two Interactive"]
+    }
+  ],
+  "images": ["/images/videogames/iron-and-blood/0.png"]
+}

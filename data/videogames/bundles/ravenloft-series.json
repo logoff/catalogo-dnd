@@ -1,0 +1,22 @@
+{
+  "id": "ravenloft-series",
+  "title": "Dungeons & Dragons: Ravenloft Series",
+  "games": ["ravenloft-strahds-possession", "ravenloft-stone-prophet"],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "publishers": ["SNEG"],
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dungeons_dragons_ravenloft_series"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904560/"
+        }
+      ]
+    }
+  ]
+}

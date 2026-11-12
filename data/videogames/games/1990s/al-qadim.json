@@ -1,0 +1,39 @@
+{
+  "slug": "al-qadim",
+  "title": "Al-Qadim: The Genie's Curse",
+  "description": "Juego de rol de acción de Cyberlore ambientado en Zakhara, la tierra de inspiración árabe del escenario Al-Qadim. Un joven aprendiz de corsario tiene que limpiar el honor de su familia, caída en desgracia por una maldición relacionada con un genio, en una aventura con combates en tiempo real, puzles y diálogos.\n\nEs el único videojuego de Al-Qadim, más ligero y accesible que otros juegos de rol de SSI. Hoy se vende para Windows en GOG y Steam; en Steam figura con textos en castellano.",
+  "developers": ["Cyberlore Studios"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["action_rpg"],
+  "modes": ["single"],
+  "setting": "al_qadim",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1994"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "edition": "Relanzamiento digital",
+      "publishers": ["SNEG"],
+      "spanish": {
+        "interface": true,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/alqadim_the_genies_curse"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1904640/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/al-qadim/0.png"]
+}

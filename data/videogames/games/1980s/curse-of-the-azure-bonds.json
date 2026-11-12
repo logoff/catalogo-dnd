@@ -1,0 +1,49 @@
+{
+  "slug": "curse-of-the-azure-bonds",
+  "title": "Curse of the Azure Bonds",
+  "description": "Segundo juego de la serie Gold Box y continuación de Pool of Radiance. El grupo despierta con unos misteriosos símbolos azules grabados en el brazo, unos vínculos mágicos que permiten a distintos poderes de los Reinos Olvidados controlarlo, y la aventura consiste en descubrir quién está detrás de cada uno y romperlos. Se basa en la novela Azure Bonds y mantiene la exploración en primera persona y los combates tácticos por turnos.\n\nPermite importar el grupo de Pool of Radiance y continuar la campaña, que sigue en Secret of the Silver Blades y Pools of Darkness. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Two, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1989"
+    },
+    {
+      "platform": "c64",
+      "date": "1989"
+    },
+    {
+      "platform": "apple_ii"
+    },
+    {
+      "platform": "amiga",
+      "publishers": ["U.S. Gold"]
+    },
+    {
+      "platform": "atari_st"
+    },
+    {
+      "platform": "mac_classic"
+    },
+    {
+      "platform": "pc98"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "forgotten-realms-archives-2"
+    }
+  ],
+  "images": ["/images/videogames/curse-of-the-azure-bonds/0.png"]
+}

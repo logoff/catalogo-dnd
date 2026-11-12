@@ -1,0 +1,18 @@
+{
+  "slug": "dark-sun-online",
+  "title": "Dark Sun Online: Crimson Sands",
+  "description": "Juego de rol en línea de SSI ambientado en Athas, el mundo de Sol Oscuro, que funcionaba en la red de juegos TEN (Total Entertainment Network). Reutilizaba el estilo de los Dark Sun de un jugador y permitía explorar el desierto y combatir con otros jugadores conectados.\n\nFue uno de los primeros juegos de rol multijugador en internet. Está cerrado desde hace décadas: hoy solo tiene interés histórico y no se puede jugar ni comprar.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations", "Total Entertainment Network"],
+  "genres": ["mmo", "rpg"],
+  "modes": ["multiplayer"],
+  "setting": "dark_sun",
+  "status": "shut_down",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "1996-10-02"
+    }
+  ],
+  "images": ["/images/videogames/dark-sun-online/0.jpg"]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "warriors-of-the-eternal-sun",
+  "title": "Dungeons & Dragons: Warriors of the Eternal Sun",
+  "description": "Juego de rol de Westwood para Mega Drive ambientado en Mystara. En plena guerra contra los goblins, el castillo del duque Barrik es transportado a un valle cerrado por acantilados bajo un sol rojo que nunca se pone, y el grupo tiene que explorar ese mundo desconocido, con sus tribus y ruinas, para descubrir qué ha pasado. Combina un mapa en vista aérea con mazmorras en primera persona.\n\nEs uno de los pocos juegos de rol de D&D para la consola de Sega. No se ha vuelto a publicar, así que solo se encuentra de segunda mano.",
+  "developers": ["Westwood Associates"],
+  "publishers": ["Sega"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "mystara",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "genesis",
+      "date": "1992-08"
+    }
+  ],
+  "images": ["/images/videogames/warriors-of-the-eternal-sun/0.jpg"]
+}

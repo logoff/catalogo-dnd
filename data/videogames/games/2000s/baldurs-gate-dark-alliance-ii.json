@@ -1,0 +1,79 @@
+{
+  "slug": "baldurs-gate-dark-alliance-ii",
+  "title": "Baldur's Gate: Dark Alliance II",
+  "description": "Continuación de Baldur's Gate: Dark Alliance, desarrollada por Black Isle Studios. Retoma la historia en la ciudad de Baldur's Gate con cinco personajes nuevos a elegir y mantiene el hack and slash en vista aérea, con más objetos, un sistema de fabricación de armas y cooperativo para dos jugadores en la misma pantalla.\n\nEs para quien disfrutó del primero y quiere más acción sencilla en compañía. Se relanzó en 2022 para consolas actuales y PC; en PC está en castellano con voces.",
+  "developers": ["Black Isle Studios"],
+  "publishers": ["Interplay Entertainment"],
+  "genres": ["action_rpg"],
+  "modes": ["single", "coop"],
+  "setting": "forgotten_realms",
+  "ruleset": "3e",
+  "series": "Dark Alliance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "ps2",
+      "date": "2004-01-20"
+    },
+    {
+      "platform": "xbox",
+      "date": "2004-01-20"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/baldurs_gate_dark_alliance_ii"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1889930/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "linux",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "switch",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "ps4",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "ps5",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento"
+    },
+    {
+      "platform": "xbox_series",
+      "date": "2022-07-20",
+      "edition": "Relanzamiento"
+    }
+  ],
+  "images": ["/images/videogames/baldurs-gate-dark-alliance-ii/0.jpg"]
+}

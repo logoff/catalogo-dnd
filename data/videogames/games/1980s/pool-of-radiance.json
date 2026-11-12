@@ -1,0 +1,54 @@
+{
+  "slug": "pool-of-radiance",
+  "title": "Pool of Radiance",
+  "description": "Primer juego de la serie Gold Box de SSI y el primer videojuego de rol con licencia oficial de Advanced Dungeons & Dragons. Ambientado en los Reinos Olvidados, la aventura empieza en la ciudad de Phlan, que hay que recuperar barrio a barrio de las criaturas que la ocupan. Se crea un grupo de hasta seis personajes con las reglas de la primera edición de AD&D, se explora en primera persona y los combates son tácticos, por turnos y sobre una cuadrícula vista desde arriba.\n\nEs un clásico para quien quiera conocer el origen del rol por ordenador con D&D y no le asuste una interfaz de finales de los ochenta. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Two, solo en inglés. Los personajes se pueden importar en su secuela, Curse of the Azure Bonds, y de ahí a Secret of the Silver Blades y Pools of Darkness.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "ruleset": "adnd1",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "c64",
+      "date": "1988-06"
+    },
+    {
+      "platform": "pc_dos",
+      "date": "1988-06"
+    },
+    {
+      "platform": "apple_ii"
+    },
+    {
+      "platform": "mac_classic",
+      "date": "1989"
+    },
+    {
+      "platform": "amiga",
+      "date": "1990"
+    },
+    {
+      "platform": "pc98"
+    },
+    {
+      "platform": "nes",
+      "date": "1992-04",
+      "developers": ["Marionette"],
+      "publishers": ["FCI"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "forgotten-realms-archives-2"
+    }
+  ],
+  "images": ["/images/videogames/pool-of-radiance/0.png"]
+}

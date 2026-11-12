@@ -33,6 +33,7 @@ async function previewImage(imageUrl) {
   const source = join(DIST_DIR, imageUrl.replace(SITE_URL, ''))
   const previewPath = imageUrl
     .replace(`${SITE_URL}/images/products/`, '/images/previews/')
+    .replace(`${SITE_URL}/images/videogames/`, '/images/previews/videogames/')
     .replace(/\.\w+$/, '.jpg')
   const target = join(DIST_DIR, previewPath)
 
@@ -57,7 +58,10 @@ for (const path of paths) {
 
   // Las portadas originales pueden pesar varios MB: se sustituyen por su vista previa
   const image = head.match(/property="og:image" content="([^"]+)"/)?.[1]
-  if (image?.startsWith(`${SITE_URL}/images/products/`)) {
+  if (
+    image?.startsWith(`${SITE_URL}/images/products/`) ||
+    image?.startsWith(`${SITE_URL}/images/videogames/`)
+  ) {
     head = head.replaceAll(image, await previewImage(image))
   }
   // Con el tamaño declarado, WhatsApp y otras redes muestran la tarjeta grande

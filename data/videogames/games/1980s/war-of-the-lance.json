@@ -1,0 +1,36 @@
+{
+  "slug": "war-of-the-lance",
+  "title": "War of the Lance",
+  "description": "Juego de estrategia de SSI que recrea la Guerra de la Lanza en el continente de Ansalon, el conflicto de fondo de las Crónicas de la Dragonlance. El jugador dirige a las fuerzas de los Hombres Libres contra los ejércitos de los Señores de los Dragones: mueve ejércitos por el mapa, busca aliados entre los reinos y libra batallas.\n\nEs un wargame más que un juego de rol, pensado para quien disfrute de la estrategia por turnos y conozca el mundo de Dragonlance. Admite partidas de dos jugadores. Hoy se vende para Windows dentro de la recopilación Silver Box Classics, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["strategy"],
+  "modes": ["single", "multiplayer"],
+  "setting": "dragonlance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1989"
+    },
+    {
+      "platform": "c64",
+      "date": "1989"
+    },
+    {
+      "platform": "apple_ii",
+      "date": "1989"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "silver-box-classics"
+    }
+  ],
+  "images": ["/images/videogames/war-of-the-lance/0.png"]
+}

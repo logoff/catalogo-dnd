@@ -1,0 +1,18 @@
+{
+  "id": "baldurs-gate-1-2-enhanced-xbox",
+  "title": "Baldur's Gate and Baldur's Gate II: Enhanced Editions",
+  "games": ["baldurs-gate", "baldurs-gate-ii"],
+  "releases": [
+    {
+      "platform": "xbox_one",
+      "date": "2019-10-15",
+      "publishers": ["Skybound Games"],
+      "purchase_links": [
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/12443-comprar-xbox-one-baldur-s-gate-and-baldur-s-gate-ii-enhanced-editions-xbox-one-microsoft-store/"
+        }
+      ]
+    }
+  ]
+}

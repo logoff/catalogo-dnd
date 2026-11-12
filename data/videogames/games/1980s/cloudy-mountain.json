@@ -1,0 +1,17 @@
+{
+  "slug": "cloudy-mountain",
+  "title": "Advanced Dungeons & Dragons: Cloudy Mountain",
+  "description": "Uno de los primeros videojuegos con licencia de Advanced Dungeons & Dragons, publicado por Mattel para Intellivision. El jugador guía a un grupo de aventureros por un mapa de montañas y ríos y explora cuevas generadas al azar en busca de las piezas de una corona perdida en Cloudy Mountain, luchando con flechas contra los monstruos que las habitan.\n\nTiene poco que ver con las reglas o los mundos de D&D, pero es una pieza histórica: el comienzo de los videojuegos de la marca. No se ha vuelto a publicar de forma oficial, así que solo se encuentra de segunda mano.",
+  "developers": ["Mattel Electronics"],
+  "publishers": ["Mattel Electronics"],
+  "genres": ["action", "adventure"],
+  "modes": ["single"],
+  "status": "released",
+  "releases": [
+    {
+      "platform": "intellivision",
+      "date": "1982-08-16"
+    }
+  ],
+  "images": ["/images/videogames/cloudy-mountain/0.png"]
+}

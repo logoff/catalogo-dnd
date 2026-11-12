@@ -1,0 +1,31 @@
+{
+  "slug": "warlock-dungeons-and-dragons",
+  "title": "Warlock: Dungeons & Dragons",
+  "description": "Juego de acción de Invoke Studios, el antiguo Tuque Games, publicado por Wizards of the Coast. El protagonista es un brujo que obtiene su poder de un pacto, en una aventura de acción en tercera persona con combates en tiempo real. Está anunciado para 2027 en PC, PlayStation 5 y Xbox Series.\n\nEsta ficha se completará cuando salga. Según su página de Steam, tendrá castellano con voces.",
+  "developers": ["Invoke Studios"],
+  "publishers": ["Wizards of the Coast"],
+  "genres": ["action"],
+  "modes": ["single"],
+  "setting": "ravenloft",
+  "status": "announced",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2027",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": true
+      }
+    },
+    {
+      "platform": "ps5",
+      "date": "2027"
+    },
+    {
+      "platform": "xbox_series",
+      "date": "2027"
+    }
+  ],
+  "images": ["/images/videogames/warlock-dungeons-and-dragons/0.jpg"]
+}

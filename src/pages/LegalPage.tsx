@@ -40,21 +40,28 @@ export default function LegalPage() {
           <h2>Qué es este sitio</h2>
           <p>
             Un catálogo informativo de los libros, cajas y accesorios de la quinta edición de
-            Dungeons & Dragons publicados en inglés y en castellano. Es un sitio{' '}
-            <strong>no oficial</strong>, sin relación con Wizards of the Coast ni respaldado por
-            ella. No vende ningún producto: los enlaces de compra llevan a tiendas externas.
+            Dungeons & Dragons publicados en inglés y en castellano, y de los videojuegos oficiales
+            de D&D. Es un sitio <strong>no oficial</strong>, sin relación con Wizards of the Coast
+            ni respaldado por ella. No vende ningún producto: los enlaces de compra llevan a tiendas
+            externas.
           </p>
 
           <h2>Enlaces de afiliado</h2>
           <p>
-            Algunos enlaces de la sección «Dónde comprar» son <strong>enlaces de afiliado</strong>.
-            Si compras a través de ellos, la tienda puede pagar una pequeña comisión al titular de
-            este sitio, <strong>sin ningún coste adicional para ti</strong>. Esas comisiones ayudan
-            a mantener el catálogo.
+            Algunos enlaces de la sección «Dónde comprar» de libros y videojuegos son{' '}
+            <strong>enlaces de afiliado</strong>. Si compras a través de ellos, la tienda puede
+            pagar una pequeña comisión al titular de este sitio,{' '}
+            <strong>sin ningún coste adicional para ti</strong>. Esas comisiones ayudan a mantener
+            el catálogo.
           </p>
           <p>
             Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los
             requisitos aplicables.
+          </p>
+          <p>
+            Las fichas de videojuegos enlazan también a tiendas sin programa de afiliados, como
+            Steam, porque son útiles para elegir dónde comprar; esos enlaces no generan ninguna
+            comisión.
           </p>
           <p>
             La participación en programas de afiliados no influye en el contenido: las descripciones
@@ -68,6 +75,21 @@ export default function LegalPage() {
             personajes son marcas de Wizards of the Coast LLC. Las imágenes de las portadas
             pertenecen a sus respectivos titulares y se muestran únicamente para identificar cada
             producto.
+          </p>
+          <p>
+            Los nombres, logotipos y portadas de los videojuegos son de sus desarrolladoras y
+            editoras; se muestran solo para identificarlos. Las notas de cada ficha son de los
+            medios que se citan, con enlace a la fuente; aquí solo se recoge la cifra.
+          </p>
+          <p>
+            Los logotipos de consolas, ordenadores y sistemas (PlayStation, Xbox, Nintendo, Sega,
+            Windows, macOS y otros) son marcas de sus respectivos propietarios. Se usan solo para
+            indicar en qué plataformas está disponible cada juego, sin que eso suponga ninguna
+            relación con esas empresas ni su respaldo, como uso referencial de la marca (artículo 14
+            del Reglamento (UE) 2017/1001). Las imágenes proceden de{' '}
+            <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>, donde figuran en dominio
+            público o con licencia CC0. Cuando una plataforma no tiene logotipo disponible se
+            muestra un dibujo propio del tipo de aparato.
           </p>
           <p>
             Los textos propios del catálogo (descripciones y guías) y el código del sitio son de su

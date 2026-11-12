@@ -1,0 +1,260 @@
+{
+  "pc_windows": {
+    "file": "Windows logo - 2021.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Windows_logo_-_2021.svg",
+    "license": "Public domain"
+  },
+  "mac": {
+    "file": "MacOS logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/MacOS_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:MacOS_logo.svg",
+    "license": "Public domain"
+  },
+  "mac_classic": {
+    "file": "Mac OS wordmark logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mac_OS_wordmark_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mac_OS_wordmark_logo.svg",
+    "license": "Public domain"
+  },
+  "linux": {
+    "file": "Linux tux circle logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Linux_tux_circle_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Linux_tux_circle_logo.svg",
+    "license": "CC0"
+  },
+  "pc_dos": {
+    "file": "MS-DOS logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/MS-DOS_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:MS-DOS_logo.svg",
+    "license": "Public domain"
+  },
+  "amiga": {
+    "file": "Amiga Logo 1985.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Amiga_Logo_1985.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Amiga_Logo_1985.svg",
+    "license": "Public domain"
+  },
+  "atari_st": {
+    "file": "AtariFuji.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/AtariFuji.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:AtariFuji.svg",
+    "license": "CC0"
+  },
+  "c64": {
+    "file": "Commodore 64 logo-5.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Commodore_64_logo-5.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Commodore_64_logo-5.svg",
+    "license": "Public domain"
+  },
+  "apple_ii": {
+    "file": "Apple Computer Logo rainbow.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Computer_Logo_rainbow.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Apple_Computer_Logo_rainbow.svg",
+    "license": "Public domain"
+  },
+  "pc98": {
+    "file": "NEC logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/NEC_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:NEC_logo.svg",
+    "license": "Public domain"
+  },
+  "pc88": {
+    "file": "NEC logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/NEC_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:NEC_logo.svg",
+    "license": "Public domain"
+  },
+  "turbografx_16": {
+    "file": "NEC logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/NEC_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:NEC_logo.svg",
+    "license": "Public domain"
+  },
+  "x68000": {
+    "file": "Logo of the Sharp Corporation.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Logo_of_the_Sharp_Corporation.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Sharp_Corporation.svg",
+    "license": "Public domain"
+  },
+  "fm_towns": {
+    "file": "FM TOWNS logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/FM_TOWNS_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:FM_TOWNS_logo.svg",
+    "license": "Public domain"
+  },
+  "msx": {
+    "file": "MSX-Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/MSX-Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:MSX-Logo.svg",
+    "license": "Public domain"
+  },
+  "amstrad_cpc": {
+    "file": "Amstrad CPC logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Amstrad_CPC_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Amstrad_CPC_logo.svg",
+    "license": "Public domain"
+  },
+  "zx_spectrum": {
+    "file": "Sinclair.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sinclair.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sinclair.svg",
+    "license": "Public domain"
+  },
+  "aquarius": {
+    "file": "Mattel Aquarius logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Mattel_Aquarius_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Mattel_Aquarius_logo.svg",
+    "license": "Public domain"
+  },
+  "intellivision": {
+    "file": "Intellivision-logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Intellivision-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Intellivision-logo.svg",
+    "license": "Public domain"
+  },
+  "nes": {
+    "file": "NES logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/NES_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:NES_logo.svg",
+    "license": "Public domain"
+  },
+  "snes": {
+    "file": "Super Nintendo Entertainment System logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Super_Nintendo_Entertainment_System_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Super_Nintendo_Entertainment_System_logo.svg",
+    "license": "Public domain"
+  },
+  "master_system": {
+    "file": "Master System Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Master_System_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Master_System_Logo.svg",
+    "license": "Public domain"
+  },
+  "genesis": {
+    "file": "MegaDriveJPLogo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/MegaDriveJPLogo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:MegaDriveJPLogo.svg",
+    "license": "Public domain"
+  },
+  "sega_cd": {
+    "file": "Sega CD Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sega_CD_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sega_CD_Logo.svg",
+    "license": "Public domain"
+  },
+  "saturn": {
+    "file": "Sega Saturn USA logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sega_Saturn_USA_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Sega_Saturn_USA_logo.svg",
+    "license": "Public domain"
+  },
+  "3do": {
+    "file": "3DO Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/3DO_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:3DO_Logo.svg",
+    "license": "Public domain"
+  },
+  "playstation": {
+    "file": "Playstation logo colour.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Playstation_logo_colour.svg",
+    "license": "Public domain"
+  },
+  "ps2": {
+    "file": "PlayStation 2 logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/PlayStation_2_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:PlayStation_2_logo.svg",
+    "license": "Public domain"
+  },
+  "ps3": {
+    "file": "PlayStation 3 logo (2009).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/PlayStation_3_logo_%282009%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:PlayStation_3_logo_(2009).svg",
+    "license": "Public domain"
+  },
+  "ps4": {
+    "file": "PlayStation 4 logo and wordmark.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/PlayStation_4_logo_and_wordmark.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:PlayStation_4_logo_and_wordmark.svg",
+    "license": "Public domain"
+  },
+  "ps5": {
+    "file": "PlayStation 5 logo and wordmark.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/PlayStation_5_logo_and_wordmark.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:PlayStation_5_logo_and_wordmark.svg",
+    "license": "Public domain"
+  },
+  "psp": {
+    "file": "PSP Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/PSP_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:PSP_Logo.svg",
+    "license": "Public domain"
+  },
+  "xbox": {
+    "file": "Xbox Logo 2001.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Xbox_Logo_2001.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Xbox_Logo_2001.svg",
+    "license": "Public domain"
+  },
+  "xbox_360": {
+    "file": "Xbox 360 wordmark.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Xbox_360_wordmark.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Xbox_360_wordmark.svg",
+    "license": "Public domain"
+  },
+  "xbox_one": {
+    "file": "Xbox One logo wordmark.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Xbox_One_logo_wordmark.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Xbox_One_logo_wordmark.svg",
+    "license": "Public domain"
+  },
+  "xbox_series": {
+    "file": "Xbox Series X S color.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Xbox_Series_X_S_color.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X_S_color.svg",
+    "license": "Public domain"
+  },
+  "gamecube": {
+    "file": "Nintendo GameCube Official Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Nintendo_GameCube_Official_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Nintendo_GameCube_Official_Logo.svg",
+    "license": "Public domain"
+  },
+  "wii_u": {
+    "file": "WiiU.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/WiiU.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:WiiU.svg",
+    "license": "Public domain"
+  },
+  "switch": {
+    "file": "Nintendo Switch logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Nintendo_Switch_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_logo.svg",
+    "license": "Public domain"
+  },
+  "switch_2": {
+    "file": "Nintendo Switch 2 logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Nintendo_Switch_2_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_logo.svg",
+    "license": "Public domain"
+  },
+  "game_boy_advance": {
+    "file": "Game Boy Advance logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Game_Boy_Advance_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Game_Boy_Advance_logo.svg",
+    "license": "Public domain"
+  },
+  "ios": {
+    "file": "App Store (iOS).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:App_Store_(iOS).svg",
+    "license": "Public domain"
+  },
+  "android": {
+    "file": "Android logo (2019-2023).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Android_logo_%282019-2023%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page": "https://commons.wikimedia.org/wiki/File:Android_logo_(2019-2023).svg",
+    "license": "Public domain"
+  }
+}

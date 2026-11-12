@@ -1,0 +1,29 @@
+{
+  "slug": "ravenloft-stone-prophet",
+  "title": "Ravenloft: Stone Prophet",
+  "description": "Segundo juego de Ravenloft de DreamForge, ambientado en Har'Akir, un dominio desértico de inspiración egipcia gobernado por momias y sacerdotes. Mantiene la exploración en primera persona y los combates en tiempo real de Strahd's Possession, con un entorno más abierto de tumbas, pirámides y oasis.\n\nHoy se vende para Windows dentro de la recopilación Dungeons & Dragons: Ravenloft Series, solo en inglés.",
+  "developers": ["DreamForge Intertainment"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "setting": "ravenloft",
+  "series": "Ravenloft",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1995"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "ravenloft-series"
+    }
+  ],
+  "images": ["/images/videogames/ravenloft-stone-prophet/0.png"]
+}

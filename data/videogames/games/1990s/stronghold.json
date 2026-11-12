@@ -1,0 +1,38 @@
+{
+  "slug": "stronghold",
+  "title": "Stronghold",
+  "description": "Juego de construcción y gestión de un reino de Stormfront para SSI. El jugador funda una fortaleza, atrae pobladores de distintas razas y clases de D&D, construye edificios y defiende el territorio de los monstruos, en una mezcla de constructor de ciudades y estrategia en tiempo real.\n\nNo tiene relación con la saga Stronghold de Firefly Studios. Hoy se vende para Windows en GOG con el nombre D&D Stronghold: Kingdom Simulator, solo en inglés.",
+  "developers": ["Stormfront Studios"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["management", "strategy"],
+  "modes": ["single"],
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1993"
+    },
+    {
+      "platform": "fm_towns"
+    },
+    {
+      "platform": "pc98"
+    },
+    {
+      "platform": "pc_windows",
+      "edition": "D&D Stronghold: Kingdom Simulator",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/dd_stronghold_kingdom_simulator"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/videogames/stronghold/0.png"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "treasure-of-tarmin",
+  "title": "Advanced Dungeons & Dragons: Treasure of Tarmin",
+  "description": "Segundo juego de Mattel con licencia de Advanced Dungeons & Dragons para Intellivision. A diferencia de Cloudy Mountain, es una exploración de mazmorras en primera persona: el jugador baja por niveles de un laberinto, recoge armas, armaduras y objetos mágicos, y combate monstruos en busca del tesoro de Tarmin, guardado por un minotauro.\n\nEs uno de los primeros dungeon crawlers en primera persona de consola y una curiosidad histórica para quien quiera conocer los orígenes de los videojuegos de D&D. Solo se encuentra de segunda mano.",
+  "developers": ["APh Technological Consulting"],
+  "publishers": ["Mattel Electronics"],
+  "genres": ["rpg"],
+  "modes": ["single"],
+  "status": "released",
+  "releases": [
+    {
+      "platform": "intellivision",
+      "date": "1983-10"
+    },
+    {
+      "platform": "aquarius"
+    }
+  ],
+  "images": ["/images/videogames/treasure-of-tarmin/0.jpg"]
+}

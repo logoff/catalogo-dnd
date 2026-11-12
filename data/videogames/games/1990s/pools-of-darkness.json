@@ -1,0 +1,44 @@
+{
+  "slug": "pools-of-darkness",
+  "title": "Pools of Darkness",
+  "description": "Cuarto y último juego de la campaña de Pool of Radiance en la serie Gold Box. El dios Bane arranca regiones enteras de los Reinos Olvidados y el grupo, ya de nivel muy alto, tiene que viajar por otros planos de existencia para enfrentarse a sus servidores. Conserva la exploración en primera persona y los combates tácticos por turnos de la serie.\n\nEs el cierre natural para quien haya jugado Pool of Radiance, Curse of the Azure Bonds y Secret of the Silver Blades, porque permite importar el grupo de este último. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Two, solo en inglés.",
+  "developers": ["Strategic Simulations"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1991"
+    },
+    {
+      "platform": "amiga",
+      "date": "1992",
+      "developers": ["MicroMagic"]
+    },
+    {
+      "platform": "mac_classic",
+      "date": "1992"
+    },
+    {
+      "platform": "pc98",
+      "date": "1993-03-19",
+      "developers": ["Marionette"],
+      "publishers": ["Pony Canyon"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "forgotten-realms-archives-2"
+    }
+  ],
+  "images": ["/images/videogames/pools-of-darkness/0.png"]
+}

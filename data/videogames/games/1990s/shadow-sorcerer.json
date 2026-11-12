@@ -1,0 +1,37 @@
+{
+  "slug": "shadow-sorcerer",
+  "title": "Shadow Sorcerer",
+  "description": "Juego de U.S. Gold que continúa la historia de Dragons of Flame en el mundo de Dragonlance. Tras la huida de Pax Tharkas, el jugador lleva a un pequeño grupo de compañeros que debe guiar a cientos de refugiados a un lugar seguro, mezclando exploración del mapa, gestión del grupo y combates en tiempo real en una vista isométrica.\n\nCierra la trilogía de acción de Dragonlance de U.S. Gold que empieza con Heroes of the Lance. Hoy se vende para Windows dentro de la recopilación Silver Box Classics, solo en inglés.",
+  "developers": ["U.S. Gold"],
+  "publishers": ["Strategic Simulations", "U.S. Gold"],
+  "genres": ["rpg", "strategy"],
+  "modes": ["single"],
+  "setting": "dragonlance",
+  "series": "Dragonlance",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1991"
+    },
+    {
+      "platform": "amiga",
+      "date": "1991"
+    },
+    {
+      "platform": "atari_st",
+      "date": "1991"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "silver-box-classics"
+    }
+  ],
+  "images": ["/images/videogames/shadow-sorcerer/0.png"]
+}

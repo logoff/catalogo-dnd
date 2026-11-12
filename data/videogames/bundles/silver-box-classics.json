@@ -1,0 +1,22 @@
+{
+  "id": "silver-box-classics",
+  "title": "Silver Box Classics",
+  "games": ["heroes-of-the-lance", "dragons-of-flame", "war-of-the-lance", "shadow-sorcerer"],
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2023-03-27",
+      "publishers": ["SNEG"],
+      "purchase_links": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/es/game/silver_box_classics"
+        },
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2344020/"
+        }
+      ]
+    }
+  ]
+}

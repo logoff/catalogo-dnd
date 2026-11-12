@@ -1,0 +1,22 @@
+{
+  "slug": "long-rest-tavern",
+  "title": "Dungeons & Dragons: Long Rest Tavern",
+  "description": "Juego de gestión de Homo Ludens publicado por Dotemu, en el que el jugador regenta una taberna en un mundo de D&D y atiende a los aventureros que descansan entre misión y misión. Está anunciado para 2027 en PC.\n\nEsta ficha se completará cuando salga. Según su página de Steam, tendrá textos en castellano.",
+  "developers": ["Homo Ludens"],
+  "publishers": ["Dotemu"],
+  "genres": ["management", "simulation"],
+  "modes": ["single"],
+  "status": "announced",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2027",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
+    }
+  ],
+  "images": ["/images/videogames/long-rest-tavern/0.jpg"]
+}

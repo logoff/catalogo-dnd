@@ -1,0 +1,20 @@
+{
+  "slug": "neverwinter-nights-aol",
+  "title": "Neverwinter Nights (AOL)",
+  "description": "Juego de rol en línea de SSI y Stormfront para el servicio America Online, considerado el primer juego de rol multijugador masivo con gráficos. Usaba el motor de la serie Gold Box y permitía a decenas de jugadores explorar juntos la región de Neverwinter, en los Reinos Olvidados, formar grupos y combatir por turnos. Se pagaba por horas de conexión a AOL.\n\nCerró en 1997 y no tiene relación con el Neverwinter Nights de BioWare de 2002, aunque comparte nombre y ciudad. Hoy solo tiene interés histórico: no se puede jugar ni comprar.",
+  "developers": ["Beyond Software"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["mmo", "rpg"],
+  "modes": ["multiplayer"],
+  "setting": "forgotten_realms",
+  "series": "Gold Box",
+  "status": "shut_down",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1991",
+      "publishers": ["America Online"]
+    }
+  ],
+  "images": ["/images/videogames/neverwinter-nights-aol/0.png"]
+}

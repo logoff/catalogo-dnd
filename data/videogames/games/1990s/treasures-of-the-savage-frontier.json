@@ -1,0 +1,33 @@
+{
+  "slug": "treasures-of-the-savage-frontier",
+  "title": "Treasures of the Savage Frontier",
+  "description": "Continuación de Gateway to the Savage Frontier en la serie Gold Box, de nuevo en la Frontera Salvaje del norte de los Reinos Olvidados. El grupo puede importarse del juego anterior y la aventura mantiene la exploración en primera persona y los combates tácticos por turnos del motor de SSI.\n\nEs uno de los últimos juegos Gold Box y cierra la pequeña saga de la Frontera Salvaje. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Two, solo en inglés.",
+  "developers": ["Beyond Software"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "tactical_rpg"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "series": "Gold Box",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1992"
+    },
+    {
+      "platform": "amiga",
+      "date": "1992"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "forgotten-realms-archives-2"
+    }
+  ],
+  "images": ["/images/videogames/treasures-of-the-savage-frontier/0.png"]
+}

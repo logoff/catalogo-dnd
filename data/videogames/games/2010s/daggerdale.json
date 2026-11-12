@@ -1,0 +1,47 @@
+{
+  "slug": "daggerdale",
+  "title": "Dungeons & Dragons: Daggerdale",
+  "description": "Juego de rol de acción descargable de Bedlam Games ambientado en Daggerdale, en los Valles de los Reinos Olvidados, y basado en las reglas de la cuarta edición de D&D. Hasta cuatro jugadores eligen entre cuatro héroes y combaten en tiempo real contra las fuerzas de un mago que quiere apoderarse de la región, en la línea de Dark Alliance.\n\nEs un hack and slash sencillo y de alcance modesto, pensado para jugar en cooperativo. Se vende para Windows en Steam, con textos en castellano.",
+  "developers": ["Bedlam Games"],
+  "publishers": ["Atari"],
+  "genres": ["action_rpg"],
+  "modes": ["single", "coop"],
+  "setting": "forgotten_realms",
+  "ruleset": "4e",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2011-05-25",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/99100/"
+        }
+      ]
+    },
+    {
+      "platform": "xbox_360",
+      "date": "2011-05-25"
+    },
+    {
+      "platform": "ps3",
+      "date": "2012-05-22"
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 49,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-daggerdale/",
+      "platform": "pc_windows"
+    }
+  ],
+  "images": ["/images/videogames/daggerdale/0.png"]
+}

@@ -9,6 +9,13 @@ describe('datos de productos', () => {
     expect(withoutDescription).toEqual([])
   })
 
+  it('el catálogo de libros no incluye los videojuegos', () => {
+    const notProducts = getAllProducts()
+      .filter((p) => !Array.isArray(p.publications) || p.publications.length === 0)
+      .map((p) => p.code ?? p.slug)
+    expect(notProducts).toEqual([])
+  })
+
   it('todos los ISBN-13 tienen un dígito de control válido', () => {
     const isValidIsbn13 = (isbn: number) => {
       const digits = String(isbn)

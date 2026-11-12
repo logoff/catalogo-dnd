@@ -1,0 +1,33 @@
+{
+  "slug": "dungeon-hack",
+  "title": "Dungeon Hack",
+  "description": "Exploración de mazmorras en primera persona de DreamForge con niveles generados al azar en cada partida. Un único personaje desciende por una mazmorra de los Reinos Olvidados, y se pueden configurar la dificultad, el tamaño de los niveles y si la muerte es definitiva, al estilo de los roguelike.\n\nEs una buena opción para quien busque partidas cortas y rejugables con el sabor de Eye of the Beholder. Hoy se vende para Windows dentro de la recopilación Forgotten Realms: The Archives – Collection Three, sin castellano.",
+  "developers": ["DreamForge Intertainment"],
+  "publishers": ["Strategic Simulations"],
+  "genres": ["rpg", "roguelike"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_dos",
+      "date": "1993"
+    },
+    {
+      "platform": "pc98",
+      "developers": ["Cybelle"],
+      "publishers": ["Right Stuff"]
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2022-03-29",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "bundle": "forgotten-realms-archives-3"
+    }
+  ],
+  "images": ["/images/videogames/dungeon-hack/0.png"]
+}
