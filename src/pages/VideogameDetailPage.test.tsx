@@ -22,7 +22,7 @@ describe('VideogameDetailPage', () => {
     expect(screen.getAllByText('Larian Studios', { selector: 'dd' })).toHaveLength(2)
     expect(screen.getByText('Reinos Olvidados')).toBeInTheDocument()
     expect(screen.getByText('Textos en castellano')).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: 'Lanzamientos' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Ediciones' })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'Notas' })).toBeInTheDocument()
   })
 

@@ -78,8 +78,9 @@ export default function LegalPage() {
           </p>
           <p>
             Los nombres, logotipos y portadas de los videojuegos son de sus desarrolladoras y
-            editoras. Las notas de cada ficha son de los medios que se citan, con enlace a la
-            fuente; aquí solo se recoge la cifra.
+            editoras, y los logotipos de las plataformas (de Simple Icons) son de sus fabricantes;
+            se muestran solo para identificarlos. Las notas de cada ficha son de los medios que se
+            citan, con enlace a la fuente; aquí solo se recoge la cifra.
           </p>
           <p>
             Los textos propios del catálogo (descripciones y guías) y el código del sitio son de su

@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import type { VideogameWithMeta } from '@/types/videogame'
+import type { Platform, VideogameWithMeta } from '@/types/videogame'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import { platformNames } from '@/utils/videogameTranslations'
+import { platformIcons } from '@/utils/platformIcons'
+import PlatformIcon from './PlatformIcon'
 import LazyImage from '../common/LazyImage'
 import SpanishBadge from './SpanishBadge'
 
@@ -11,12 +13,25 @@ interface VideogameCardProps {
   view?: 'grid' | 'list'
 }
 
-// Las tres primeras plataformas y cuántas más hay, para que la tarjeta no crezca
-function platformSummary(game: VideogameWithMeta): string {
-  const names = game.platforms.map((p) => platformNames[p])
-  return names.length > 3
-    ? `${names.slice(0, 3).join(', ')} y ${names.length - 3} más`
-    : names.join(', ')
+// Iconos de las plataformas: las que comparten icono se agrupan en uno con todos los nombres
+function PlatformIcons({ game }: { game: VideogameWithMeta }) {
+  const groups = new Map<string, Platform[]>()
+  for (const platform of game.platforms) {
+    const spec = platformIcons[platform]
+    const key = spec.kind === 'brand' ? spec.name : spec.kind
+    groups.set(key, [...(groups.get(key) ?? []), platform])
+  }
+  return (
+    <span className="flex flex-wrap items-center gap-1.5 text-gray-400">
+      {[...groups.values()].map((platforms) => (
+        <PlatformIcon
+          key={platforms[0]}
+          platform={platforms[0]}
+          label={platforms.map((p) => platformNames[p]).join(', ')}
+        />
+      ))}
+    </span>
+  )
 }
 
 export default function VideogameCard({ game, view = 'grid' }: VideogameCardProps) {
@@ -36,9 +51,9 @@ export default function VideogameCard({ game, view = 'grid' }: VideogameCardProp
           <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light truncate">
             {game.title}
           </h3>
-          <p className="text-sm text-gray-400">
-            {year} · {platformSummary(game)}
-          </p>
+          <div className="flex items-center gap-2 text-sm text-gray-400">
+            {year} <PlatformIcons game={game} />
+          </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             <SpanishBadge summary={game.spanishSummary} />
             {game.bestScore !== null && (
@@ -68,7 +83,9 @@ export default function VideogameCard({ game, view = 'grid' }: VideogameCardProp
           </h3>
           <div className="mt-auto pt-2 text-sm">
             <p className="text-gray-400">{year}</p>
-            <p className="text-xs text-gray-500 mt-1">{platformSummary(game)}</p>
+            <div className="mt-1">
+              <PlatformIcons game={game} />
+            </div>
             {game.bestScore !== null && (
               <p className="text-xs text-gray-300 mt-1">
                 Nota: <span className="text-dnd-gold">{game.bestScore}</span>/100

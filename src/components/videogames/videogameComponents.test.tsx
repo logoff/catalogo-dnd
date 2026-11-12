@@ -5,7 +5,9 @@ import SpanishBadge from './SpanishBadge'
 import ReviewScore from './ReviewScore'
 import ReleaseTable from './ReleaseTable'
 import PurchaseByPlatform from './PurchaseByPlatform'
-import { describeSpanish, formatPartialDate } from '@/utils/videogameTranslations'
+import PlatformIcon from './PlatformIcon'
+import type { Platform } from '@/types/videogame'
+import { describeSpanish, formatPartialDate, platformNames } from '@/utils/videogameTranslations'
 
 describe('SpanishBadge', () => {
   it.each([
@@ -104,6 +106,22 @@ describe('ReleaseTable', () => {
   })
 })
 
+describe('ReleaseTable con recopilaciones', () => {
+  it('la versión indica la recopilación en la que se vende', () => {
+    render(
+      <ReleaseTable
+        releases={[
+          { platform: 'pc_windows', date: '2022-03-29', bundle: 'forgotten-realms-archives-2' },
+        ]}
+      />
+    )
+    expect(
+      screen.getByText('En Forgotten Realms: The Archives – Collection Two')
+    ).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: 'Windows' })).toBeInTheDocument()
+  })
+})
+
 describe('PurchaseByPlatform', () => {
   const renderLinks = (releases: Parameters<typeof PurchaseByPlatform>[0]['releases']) =>
     render(
@@ -132,7 +150,7 @@ describe('PurchaseByPlatform', () => {
 
     const ps4 = screen.getByRole('region', { name: 'PlayStation 4' })
     expect(within(ps4).getByText(/Solo en inglés/)).toBeInTheDocument()
-    expect(within(ps4).getByText('edición física')).toBeInTheDocument()
+    expect(within(ps4).getByText(/Edición física/)).toBeInTheDocument()
   })
 
   it('ordena las tiendas siempre igual, sin importar el orden de los datos', () => {
@@ -166,6 +184,74 @@ describe('PurchaseByPlatform', () => {
     expect(link).toHaveAttribute('data-umami-event-url', 'https://www.gog.com/en/game/juego')
   })
 
+  it('muestra la versión y su año encima de los botones, no pegados a ellos', () => {
+    renderLinks([
+      {
+        platform: 'pc_windows',
+        date: '2012-11-28',
+        edition: 'Enhanced Edition',
+        spanish: { interface: true, subtitles: true, audio: false },
+        purchase_links: [{ store: 'gog', url: 'https://www.gog.com/en/game/juego' }],
+      },
+    ])
+    expect(
+      screen.getByText('Enhanced Edition · 2012 · Textos y subtítulos en castellano')
+    ).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: 'Comprar en GOG' })).toHaveTextContent(
+      /^Comprar en GOG$/
+    )
+  })
+
+  it('cada plataforma lleva su icono con el nombre accesible', () => {
+    renderLinks([
+      {
+        platform: 'ps4',
+        purchase_links: [{ store: 'amazon', url: 'https://www.amazon.es/dp/X' }],
+      },
+    ])
+    const ps4 = screen.getByRole('region', { name: 'PlayStation 4' })
+    expect(within(ps4).getByRole('img', { name: 'PlayStation 4' })).toBeInTheDocument()
+  })
+
+  it('muestra las recopilaciones en un bloque propio con los demás juegos', () => {
+    renderLinks([
+      { platform: 'pc_dos', date: '1988-06' },
+      {
+        platform: 'pc_windows',
+        date: '2022-03-29',
+        bundle: 'forgotten-realms-archives-2',
+        spanish: { interface: false, subtitles: false, audio: false },
+      },
+    ])
+    const pc = screen.getByRole('region', { name: 'Windows' })
+    expect(within(pc).getByText(/Se vende en la recopilación/)).toBeInTheDocument()
+    expect(
+      within(pc).getByText('Forgotten Realms: The Archives – Collection Two')
+    ).toBeInTheDocument()
+    expect(within(pc).getByRole('link', { name: 'Hillsfar' })).toHaveAttribute(
+      'href',
+      '/videojuego/hillsfar'
+    )
+    expect(within(pc).getByRole('link', { name: 'Comprar en GOG' })).toBeInTheDocument()
+  })
+
+  it('pone lo que se vende suelto antes que las recopilaciones', () => {
+    renderLinks([
+      { platform: 'xbox_one', date: '2019-10-15', bundle: 'baldurs-gate-1-2-enhanced-xbox' },
+      {
+        platform: 'xbox_one',
+        date: '2019-10-15',
+        edition: 'Enhanced Edition',
+        purchase_links: [
+          { store: 'amazon', url: 'https://www.amazon.es/dp/X', format: 'physical' },
+        ],
+      },
+    ])
+    const xbox = screen.getByRole('region', { name: 'Xbox One' })
+    const text = xbox.textContent ?? ''
+    expect(text.indexOf('Edición física')).toBeLessThan(text.indexOf('Se vende en la recopilación'))
+  })
+
   it('sin enlaces vigentes indica que no está a la venta', () => {
     renderLinks([
       {
@@ -177,5 +263,15 @@ describe('PurchaseByPlatform', () => {
     ])
     expect(screen.getByText('No disponible a la venta.')).toBeInTheDocument()
     expect(screen.queryByRole('link', { name: /^Comprar en/ })).not.toBeInTheDocument()
+  })
+})
+
+describe('PlatformIcon', () => {
+  it('todas las plataformas tienen icono con su nombre', () => {
+    for (const platform of Object.keys(platformNames) as Platform[]) {
+      const { unmount } = render(<PlatformIcon platform={platform} />)
+      expect(screen.getByRole('img', { name: platformNames[platform] })).toBeInTheDocument()
+      unmount()
+    }
   })
 })

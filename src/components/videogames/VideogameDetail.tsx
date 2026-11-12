@@ -123,7 +123,7 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
         <PurchaseByPlatform slug={game.slug} releases={game.releases} />
       </Section>
 
-      <Section title="Lanzamientos">
+      <Section title="Ediciones">
         <ReleaseTable releases={game.releases} />
       </Section>
 
