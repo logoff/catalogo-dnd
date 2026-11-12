@@ -1,4 +1,4 @@
-import { Outlet, useLocation } from 'react-router-dom'
+import { useLocation, useOutlet } from 'react-router-dom'
 import { useEffect, useLayoutEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import Header from './Header'
@@ -14,6 +14,7 @@ const pageVariants = {
 export default function Layout() {
   const loadProducts = useProductStore((state) => state.loadProducts)
   const location = useLocation()
+  const outlet = useOutlet()
 
   // Antes que los useEffect de las páginas, para que los filtros de la URL (?view=) tengan prioridad
   useLayoutEffect(() => {
@@ -38,7 +39,9 @@ export default function Layout() {
             variants={pageVariants}
             transition={{ duration: 0.2, ease: 'easeOut' }}
           >
-            <Outlet />
+            {/* El elemento de la ruta, no <Outlet />: así la página que sale conserva su
+                contenido mientras se desvanece en vez de pintar ya la nueva */}
+            {outlet}
           </motion.div>
         </AnimatePresence>
       </main>
