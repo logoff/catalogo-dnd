@@ -20,6 +20,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/3124340/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/20747-comprar-steam-demeo-x-dungeons-dragons-battlemarked-pc-steam/"
         }
       ]
     },

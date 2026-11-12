@@ -33,6 +33,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/466300/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/8481-comprar-steam-planescape-torment-enhanced-edition-pc-mac-steam/"
         }
       ]
     },

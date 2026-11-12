@@ -48,6 +48,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/257350/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/2415-comprar-steam-baldur-s-gate-ii-enhanced-edition-pc-mac-steam/"
         }
       ]
     },
@@ -94,7 +98,13 @@
       "date": "2019-10-15",
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
-      "publishers": ["Skybound Games"]
+      "publishers": ["Skybound Games"],
+      "purchase_links": [
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/12443-comprar-xbox-one-baldur-s-gate-and-baldur-s-gate-ii-enhanced-editions-xbox-one-microsoft-store/"
+        }
+      ]
     }
   ],
   "reviews": [

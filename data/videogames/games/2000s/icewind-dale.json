@@ -48,6 +48,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/321800/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/2825-comprar-steam-icewind-dale-enhanced-edition-enhanced-edition-pc-mac-juego-steam/"
         }
       ]
     },

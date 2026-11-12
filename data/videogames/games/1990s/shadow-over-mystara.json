@@ -33,6 +33,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/229480/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/5432-comprar-steam-dungeons-dragons-chronicles-of-mystara-pc-juego-steam/"
         }
       ]
     },

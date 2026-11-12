@@ -32,6 +32,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/3843520/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/20498-comprar-steam-the-temple-of-elemental-evil-pc-steam/"
         }
       ]
     }

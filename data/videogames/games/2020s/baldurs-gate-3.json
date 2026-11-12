@@ -27,12 +27,22 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/1086940/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/4804-comprar-gog-com-baldur-s-gate-3-pc-juego-gog-com/"
         }
       ]
     },
     {
       "platform": "ps5",
-      "date": "2023-09-06"
+      "date": "2023-09-06",
+      "purchase_links": [
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/16179-comprar-playstation-store-baldur-s-gate-3-playstation-5-juego-playstation-store/"
+        }
+      ]
     },
     {
       "platform": "mac",
@@ -45,7 +55,13 @@
     },
     {
       "platform": "xbox_series",
-      "date": "2023-12-07"
+      "date": "2023-12-07",
+      "purchase_links": [
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/16316-comprar-xbox-series-x-s-baldur-s-gate-3-xbox-series-x-s-microsoft-store/"
+        }
+      ]
     },
     {
       "platform": "linux",

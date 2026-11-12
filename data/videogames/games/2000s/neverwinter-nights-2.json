@@ -52,6 +52,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/2738630/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/19575-comprar-steam-dungeons-dragons-neverwinter-nights-2-enhanced-edition-pc-steam/"
         }
       ]
     },

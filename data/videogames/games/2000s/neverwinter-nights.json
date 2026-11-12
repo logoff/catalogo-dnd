@@ -92,6 +92,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/704450/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/3581-comprar-steam-neverwinter-nights-enhanced-edition-pc-mac-steam/"
         }
       ]
     },
@@ -138,7 +142,13 @@
       "date": "2019-12",
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
-      "publishers": ["Skybound Games"]
+      "publishers": ["Skybound Games"],
+      "purchase_links": [
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/12405-comprar-xbox-one-neverwinter-nights-enhanced-edition-xbox-one-microsoft-store/"
+        }
+      ]
     }
   ],
   "reviews": [

@@ -37,6 +37,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/3843530/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/20084-comprar-steam-forgotten-realms-demon-stone-pc-steam/"
         }
       ]
     }

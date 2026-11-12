@@ -32,6 +32,10 @@
         {
           "store": "steam",
           "url": "https://store.steampowered.com/app/4834760/"
+        },
+        {
+          "store": "instant_gaming",
+          "url": "https://www.instant-gaming.com/es/24532-comprar-steam-pool-of-radiance-ruins-of-myth-drannor-pc-steam/"
         }
       ]
     }
