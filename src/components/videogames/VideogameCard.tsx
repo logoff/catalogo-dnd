@@ -15,8 +15,8 @@ interface VideogameCardProps {
 }
 
 // Iconos de las plataformas: las que comparten icono se agrupan en uno con todos los nombres
-// Como mucho cuatro iconos en la tarjeta; el resto se resume en «+N» con los nombres en el tooltip
-const MAX_ICONS = 4
+// Caben tres pastillas por fila: si hay más plataformas, dos y «+N» con los nombres en el tooltip
+const MAX_ICONS = 3
 
 function PlatformIcons({ game }: { game: VideogameWithMeta }) {
   const groups = new Map<string, Platform[]>()

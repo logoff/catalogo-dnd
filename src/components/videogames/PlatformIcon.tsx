@@ -76,9 +76,11 @@ const shapes: Record<PlatformKind, ReactNode> = {
   ),
 }
 
+// Todas las pastillas miden lo mismo: el logotipo se encaja y se centra dentro, sea cuadrado o
+// alargado, para que las filas queden alineadas
 const SIZES = {
-  sm: { pictogram: 'h-4 w-4', chip: 'h-5 px-1', logo: 'h-3.5 max-w-16' },
-  md: { pictogram: 'h-5 w-5', chip: 'h-6 px-1.5', logo: 'h-4 max-w-20' },
+  sm: { pictogram: 'h-4 w-4', chip: 'h-5 w-14 px-1', logo: 'h-3.5', slot: 'h-5 w-14' },
+  md: { pictogram: 'h-5 w-5', chip: 'h-6 w-16 px-1.5', logo: 'h-4', slot: 'h-6 w-16' },
 }
 
 // Logotipo de la plataforma sobre una pastilla clara (muchos son negros y no se verían sobre el
@@ -103,13 +105,14 @@ export default function PlatformIcon({
         {...a11y}
         className={`inline-flex shrink-0 items-center justify-center rounded bg-white ${sizes.chip}`}
       >
-        <img src={getAssetPath(logo)} alt="" className={`w-auto object-contain ${sizes.logo}`} />
+        <img src={getAssetPath(logo)} alt="" className={`w-full object-contain ${sizes.logo}`} />
       </span>
     )
   }
 
+  // Mismo hueco que las pastillas, para que el nombre quede alineado en tablas y filtros
   return (
-    <span {...a11y} className="inline-flex shrink-0">
+    <span {...a11y} className={`inline-flex shrink-0 items-center justify-center ${sizes.slot}`}>
       <svg
         viewBox="0 0 24 24"
         fill="none"
