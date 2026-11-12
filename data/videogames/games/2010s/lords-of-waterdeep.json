@@ -1,0 +1,54 @@
+{
+  "slug": "lords-of-waterdeep",
+  "title": "D&D Lords of Waterdeep",
+  "description": "Adaptación digital de Playdek del juego de mesa Lords of Waterdeep, ambientado en la ciudad de Aguasprofundas, en los Reinos Olvidados. Cada jugador es uno de los señores enmascarados de la ciudad y, en lugar de bajar a mazmorras, recluta aventureros y los envía a cumplir misiones para ganar influencia, en un juego de colocación de trabajadores.\n\nEs para quien disfrute de los juegos de mesa de estrategia; se puede jugar contra la máquina o en línea. Incluye como expansiones Undermountain y Skullport. Se vende para Windows en Steam, solo en inglés.",
+  "developers": ["Playdek"],
+  "publishers": ["Playdek"],
+  "genres": ["board_game", "strategy"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "expansions": [
+    {
+      "title": "Undermountain"
+    },
+    {
+      "title": "Skullport"
+    }
+  ],
+  "releases": [
+    {
+      "platform": "ios",
+      "date": "2013-11-21"
+    },
+    {
+      "platform": "android",
+      "date": "2017-09-01"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2017-09-01",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/644390/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2017-09-01",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      }
+    }
+  ],
+  "images": ["/images/videogames/lords-of-waterdeep/0.jpg"]
+}

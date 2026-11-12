@@ -1,0 +1,34 @@
+{
+  "slug": "dungeons-and-dragons-online",
+  "title": "Dungeons & Dragons Online",
+  "description": "Juego de rol multijugador masivo de Turbine, hoy desarrollado por Standing Stone Games, ambientado en el continente de Xen'drik del mundo de Eberron y ampliado después con zonas de los Reinos Olvidados y Ravenloft. Basado en las reglas de la edición 3.5 de D&D, se centra en mazmorras para grupos con trampas, puzles y un narrador que hace de Dungeon Master.\n\nSigue activo y se puede jugar gratis, con contenido de pago. Es para quien busque un MMO con reglas muy cercanas al D&D de mesa. Se descarga en Steam para Windows; no tiene castellano.",
+  "developers": ["Turbine", "Standing Stone Games"],
+  "publishers": ["Daybreak Game Company"],
+  "genres": ["mmo", "rpg"],
+  "modes": ["multiplayer"],
+  "setting": "eberron",
+  "ruleset": "3_5",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2006-02-28",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/206480/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2012-06-25"
+    }
+  ],
+  "images": ["/images/videogames/dungeons-and-dragons-online/0.jpg"]
+}

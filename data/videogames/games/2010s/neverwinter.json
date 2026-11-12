@@ -1,0 +1,46 @@
+{
+  "slug": "neverwinter",
+  "title": "Neverwinter",
+  "description": "Juego de rol multijugador masivo de Cryptic Studios ambientado en la ciudad de Neverwinter y sus alrededores, en los Reinos Olvidados. Es gratuito, con combate de acción en tiempo real, mazmorras para grupos, campañas que se amplían con módulos periódicos y una herramienta para que los jugadores creen sus propias aventuras.\n\nEs la forma más sencilla de jugar hoy a un mundo de D&D en línea con otras personas, en PC y consolas. Se puede descargar gratis en Steam para Windows; no tiene castellano.",
+  "developers": ["Cryptic Studios"],
+  "publishers": ["Arc Games"],
+  "genres": ["mmo", "action_rpg"],
+  "modes": ["multiplayer"],
+  "setting": "forgotten_realms",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2013-06-20",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/109600/"
+        }
+      ]
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2015-03-31"
+    },
+    {
+      "platform": "ps4",
+      "date": "2016-07-19"
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 74,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/neverwinter/",
+      "platform": "pc_windows"
+    }
+  ],
+  "images": ["/images/videogames/neverwinter/0.jpg"]
+}

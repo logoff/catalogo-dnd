@@ -1,0 +1,46 @@
+{
+  "slug": "dungeons-and-dragons-dark-alliance",
+  "title": "Dungeons & Dragons: Dark Alliance",
+  "description": "Juego de acción y rol de Tuque Games, publicado por Wizards of the Coast, ambientado en el Valle del Viento Helado de los Reinos Olvidados. El jugador lleva a Drizzt Do'Urden o a uno de sus compañeros (Bruenor, Catti-brie o Wulfgar) en combates en tiempo real en tercera persona, solo o en cooperativo con hasta cuatro jugadores.\n\nRecoge el nombre de los Dark Alliance de los 2000, pero es un juego distinto. Se retiró de la venta el 24 de febrero de 2025 y sus servidores cerraron ese día: quien ya lo tenga solo puede jugarlo en solitario.",
+  "developers": ["Tuque Games"],
+  "publishers": ["Wizards of the Coast"],
+  "genres": ["action_rpg"],
+  "modes": ["single", "coop"],
+  "setting": "forgotten_realms",
+  "ruleset": "5e",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2021-06-22",
+      "delisted": true
+    },
+    {
+      "platform": "ps4",
+      "date": "2021-06-22",
+      "delisted": true
+    },
+    {
+      "platform": "ps5",
+      "date": "2021-06-22",
+      "delisted": true
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2021-06-22",
+      "delisted": true
+    },
+    {
+      "platform": "xbox_series",
+      "date": "2021-06-22",
+      "delisted": true
+    }
+  ],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "IDROTF"
+    }
+  ],
+  "images": ["/images/videogames/dungeons-and-dragons-dark-alliance/0.jpg"]
+}

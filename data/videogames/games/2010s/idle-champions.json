@@ -1,0 +1,55 @@
+{
+  "slug": "idle-champions",
+  "title": "Idle Champions of the Forgotten Realms",
+  "description": "Juego gratuito de tipo idle de Codename Entertainment ambientado en los Reinos Olvidados. El jugador coloca en formación a campeones de D&D, desde personajes de las novelas y los videojuegos hasta los de series de partidas como Acquisitions Incorporated, que avanzan y combaten solos mientras se mejoran entre partida y partida.\n\nEs un juego para ratos sueltos más que un juego de rol, con eventos que siguen las aventuras publicadas de la quinta edición. Se puede descargar gratis en Steam, en PC, consolas y móviles; en Steam tiene textos en español de Latinoamérica.",
+  "developers": ["Codename Entertainment"],
+  "publishers": ["Codename Entertainment"],
+  "genres": ["idle"],
+  "modes": ["single"],
+  "setting": "forgotten_realms",
+  "ruleset": "5e",
+  "status": "released",
+  "releases": [
+    {
+      "platform": "ios",
+      "date": "2018-05-17"
+    },
+    {
+      "platform": "android",
+      "date": "2018-05-17"
+    },
+    {
+      "platform": "ps4",
+      "date": "2018-12-11"
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2018-12-14"
+    },
+    {
+      "platform": "pc_windows",
+      "date": "2020-03-25",
+      "spanish": {
+        "interface": true,
+        "subtitles": false,
+        "audio": false,
+        "note": "Español de Latinoamérica"
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/627690/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2020-03-25"
+    },
+    {
+      "platform": "switch",
+      "date": "2020-05-07"
+    }
+  ],
+  "images": ["/images/videogames/idle-champions/0.jpg"]
+}

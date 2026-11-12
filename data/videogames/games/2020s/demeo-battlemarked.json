@@ -1,0 +1,54 @@
+{
+  "slug": "demeo-battlemarked",
+  "title": "Demeo x Dungeons & Dragons: Battlemarked",
+  "description": "Juego de Resolution Games que lleva su exploración de mazmorras cooperativa, Demeo, a un mundo de D&D. Los jugadores mueven sus figuras por tableros de mazmorra por turnos, con cartas de habilidad y tiradas de dado, en partidas pensadas para jugar en grupo como si fuera una partida de mesa.\n\nEs una buena opción para un grupo que quiera algo parecido a una partida de D&D sin necesitar Dungeon Master. Se vende para Windows en Steam, con textos en castellano, y también salió en PlayStation 5 y Switch 2.",
+  "developers": ["Resolution Games"],
+  "publishers": ["Resolution Games"],
+  "genres": ["tactical_rpg", "board_game"],
+  "modes": ["single", "coop"],
+  "status": "released",
+  "releases": [
+    {
+      "platform": "pc_windows",
+      "date": "2025-11-20",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
+      "purchase_links": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3124340/"
+        }
+      ]
+    },
+    {
+      "platform": "mac",
+      "date": "2025-11-20",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
+    },
+    {
+      "platform": "ps5",
+      "date": "2025-11-20"
+    },
+    {
+      "platform": "switch_2",
+      "date": "2026-06-16"
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 80,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/demeo-x-dungeons-dragons-battlemarked/",
+      "platform": "pc_windows"
+    }
+  ],
+  "images": ["/images/videogames/demeo-battlemarked/0.jpg"]
+}
