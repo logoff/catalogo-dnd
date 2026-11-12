@@ -10,6 +10,8 @@ const initialState = useProductStore.getState()
 const checkbox = (label: string) => screen.getAllByLabelText(label)[0] as HTMLInputElement
 const header = () => screen.getByRole('heading', { name: 'Filtros' }).closest('button')!
 const clearButton = () => screen.queryByRole('button', { name: 'Limpiar filtros' })
+const categoriesToggle = () => screen.getAllByRole('button', { name: /^Categoría/ })[0]
+const openCategories = () => fireEvent.click(categoriesToggle())
 
 describe('FilterPanel', () => {
   beforeEach(() => {
@@ -66,7 +68,7 @@ describe('FilterPanel', () => {
       render(<FilterPanel />)
       fireEvent.click(checkbox('Castellano'))
       fireEvent.click(clearButton()!)
-      expect(screen.getByRole('button', { expanded: false })).toBeInTheDocument()
+      expect(header()).toHaveAttribute('aria-expanded', 'false')
     })
 
     it('no está dentro del botón de cabecera', () => {
@@ -79,7 +81,7 @@ describe('FilterPanel', () => {
 
   it('la cabecera despliega y pliega el panel en móvil', () => {
     render(<FilterPanel />)
-    const toggle = screen.getByRole('button', { expanded: false })
+    const toggle = header()
     expect(screen.getAllByLabelText('Castellano')).toHaveLength(1)
 
     fireEvent.click(toggle)
@@ -90,17 +92,81 @@ describe('FilterPanel', () => {
     expect(toggle).toHaveAttribute('aria-expanded', 'false')
   })
 
-  it('oculta el filtro de edición si se pide', () => {
-    render(<FilterPanel showEditionFilter={false} />)
+  it('en una página de edición oculta el filtro de edición', () => {
+    render(<FilterPanel edition="2024" />)
     expect(screen.queryByLabelText('5E (2014)')).not.toBeInTheDocument()
     expect(checkbox('Libro')).toBeInTheDocument()
   })
 
-  it('las categorías se limitan a los tipos seleccionados', () => {
-    render(<FilterPanel />)
-    expect(screen.queryAllByLabelText('Aventura')).not.toHaveLength(0)
+  describe('sección de categorías', () => {
+    it('sale plegada y se despliega con su título', () => {
+      render(<FilterPanel />)
+      expect(categoriesToggle()).toHaveAttribute('aria-expanded', 'false')
+      expect(screen.queryByLabelText('Aventura')).not.toBeInTheDocument()
 
-    fireEvent.click(checkbox('Accesorio'))
-    expect(screen.queryAllByLabelText('Aventura')).toHaveLength(0)
+      openCategories()
+      expect(categoriesToggle()).toHaveAttribute('aria-expanded', 'true')
+      expect(checkbox('Aventura')).toBeInTheDocument()
+
+      openCategories()
+      expect(screen.queryByLabelText('Aventura')).not.toBeInTheDocument()
+    })
+
+    it('plegada indica cuántas categorías hay marcadas', () => {
+      useProductStore.setState({ subtypes: ['adventure', 'setting'] })
+      render(<FilterPanel />)
+      expect(within(categoriesToggle()).getByText('2')).toBeInTheDocument()
+    })
+
+    it('se limita a los tipos seleccionados', () => {
+      render(<FilterPanel />)
+      openCategories()
+      expect(screen.queryAllByLabelText('Aventura')).not.toHaveLength(0)
+
+      fireEvent.click(checkbox('Accesorio'))
+      expect(screen.queryAllByLabelText('Aventura')).toHaveLength(0)
+    })
+  })
+
+  describe('opciones sin resultados', () => {
+    it('no muestra categorías que no tiene ningún producto', () => {
+      render(<FilterPanel />)
+      openCategories()
+      expect(screen.queryByLabelText('Set de regalo')).not.toBeInTheDocument()
+    })
+
+    it('al marcar 5.5E (2024) desaparecen las categorías solo de 2014', () => {
+      render(<FilterPanel />)
+      openCategories()
+      expect(checkbox('Escenario de campaña')).toBeInTheDocument()
+
+      fireEvent.click(checkbox('5.5E (2024)'))
+      expect(screen.queryByLabelText('Escenario de campaña')).not.toBeInTheDocument()
+      expect(checkbox('Pantalla del DM')).toBeInTheDocument()
+    })
+
+    it('en la página de 2024 solo hay categorías de 2024', () => {
+      render(<FilterPanel edition="2024" />)
+      openCategories()
+      expect(screen.queryByLabelText('Aventura')).not.toBeInTheDocument()
+      expect(checkbox('Antología de aventuras')).toBeInTheDocument()
+    })
+
+    it('oculta una edición sin resultados para la categoría marcada', () => {
+      render(<FilterPanel />)
+      openCategories()
+      fireEvent.click(checkbox('Escenario de campaña'))
+      expect(screen.queryByLabelText('5.5E (2024)')).not.toBeInTheDocument()
+    })
+
+    it('mantiene visibles las opciones marcadas aunque se queden sin resultados', () => {
+      // Combinación imposible, como la que puede llegar en la URL
+      useProductStore.setState({ editions: ['2024'], subtypes: ['setting'] })
+      render(<FilterPanel />)
+      openCategories()
+
+      expect(checkbox('5.5E (2024)')).toBeChecked()
+      expect(checkbox('Escenario de campaña')).toBeChecked()
+    })
   })
 })

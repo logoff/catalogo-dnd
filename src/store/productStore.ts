@@ -9,6 +9,7 @@ import type {
   SortOption,
 } from '@/types'
 import { getAllProducts } from '@/services/dataLoader'
+import { filterProducts } from '@/utils/productFilters'
 
 type ViewMode = 'grid' | 'list'
 
@@ -112,53 +113,7 @@ export const useProductStore = create<ProductStore>()(
 
       getFilteredProducts: () => {
         const state = get()
-        let result = [...state.products]
-
-        // Full-text search
-        if (state.searchQuery.trim()) {
-          const query = state.searchQuery.toLowerCase()
-          result = result.filter((product) => {
-            const searchableText = [
-              product.code,
-              product.primaryTitle,
-              ...product.publications.flatMap((p) => [
-                p.title,
-                ...(p.authors || []),
-                p.isbn13?.toString(),
-                p.publisher,
-              ]),
-            ]
-              .filter(Boolean)
-              .join(' ')
-              .toLowerCase()
-
-            return searchableText.includes(query)
-          })
-        }
-
-        // Filter by edition
-        if (state.editions.length > 0) {
-          result = result.filter((p) => state.editions.includes(p.primaryEdition))
-        }
-
-        // Filter by type
-        if (state.types.length > 0) {
-          result = result.filter((p) =>
-            p.publications.some((pub) => state.types.includes(pub.type))
-          )
-        }
-
-        // Filter by subtype
-        if (state.subtypes.length > 0) {
-          result = result.filter((p) =>
-            p.publications.some((pub) => state.subtypes.includes(pub.subtype))
-          )
-        }
-
-        // Filter by language
-        if (state.languages.length > 0) {
-          result = result.filter((p) => p.languages.some((lang) => state.languages.includes(lang)))
-        }
+        const result = filterProducts(state.products, state)
 
         // Sort
         const { field, direction } = state.sortOption

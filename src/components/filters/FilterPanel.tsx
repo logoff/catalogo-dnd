@@ -8,17 +8,21 @@ import {
   translateEdition,
   translateSubtypeStandalone,
 } from '@/utils/translations'
-import { EDITIONS, TYPES, LANGUAGES, SUBTYPES_BY_TYPE } from '@/utils/constants'
+import { EDITIONS, TYPES, LANGUAGES, ALL_SUBTYPES } from '@/utils/constants'
+import { getFacetCounts, type FacetCounts } from '@/utils/productFilters'
 import type { Edition, PublicationType, PublicationSubtype, Language } from '@/types'
 import SortSelect from './SortSelect'
 
 interface FilterPanelProps {
-  showEditionFilter?: boolean
+  // En las páginas de edición: los filtros se limitan a esa edición y no se muestra su filtro
+  edition?: Edition
 }
 
-export default function FilterPanel({ showEditionFilter = true }: FilterPanelProps) {
+export default function FilterPanel({ edition }: FilterPanelProps) {
   const [isExpanded, setIsExpanded] = useState(false)
   const {
+    products,
+    searchQuery,
     editions,
     types,
     subtypes,
@@ -31,23 +35,17 @@ export default function FilterPanel({ showEditionFilter = true }: FilterPanelPro
     getActiveFilterCount,
   } = useProductStore()
 
-  // Determina qué subtipos mostrar según los tipos seleccionados
-  const availableSubtypes = useMemo(() => {
-    if (types.length === 0) {
-      // Si no hay tipos seleccionados, mostrar todos los subtipos
-      return [
-        ...SUBTYPES_BY_TYPE.book,
-        ...SUBTYPES_BY_TYPE.boxed_set,
-        ...SUBTYPES_BY_TYPE.accessory,
-      ]
-    }
-    // Si hay tipos seleccionados, mostrar solo subtipos de esos tipos
-    const result: string[] = []
-    if (types.includes('book')) result.push(...SUBTYPES_BY_TYPE.book)
-    if (types.includes('boxed_set')) result.push(...SUBTYPES_BY_TYPE.boxed_set)
-    if (types.includes('accessory')) result.push(...SUBTYPES_BY_TYPE.accessory)
-    return result
-  }, [types])
+  // Resultados que daría cada opción con el resto de filtros activos
+  const counts = useMemo(() => {
+    const scope = edition ? products.filter((p) => p.primaryEdition === edition) : products
+    return getFacetCounts(scope, {
+      searchQuery,
+      editions: edition ? [] : editions,
+      types,
+      subtypes,
+      languages,
+    })
+  }, [products, edition, searchQuery, editions, types, subtypes, languages])
 
   const activeCount = getActiveFilterCount()
 
@@ -88,12 +86,12 @@ export default function FilterPanel({ showEditionFilter = true }: FilterPanelPro
       {/* Contenido de filtros - colapsable en móvil, siempre visible en desktop */}
       <div className="hidden lg:block mt-6 space-y-6">
         <FilterContent
-          showEditionFilter={showEditionFilter}
+          showEditionFilter={!edition}
           editions={editions}
           types={types}
           subtypes={subtypes}
           languages={languages}
-          availableSubtypes={availableSubtypes}
+          counts={counts}
           toggleEdition={toggleEdition}
           toggleType={toggleType}
           toggleSubtype={toggleSubtype}
@@ -113,12 +111,12 @@ export default function FilterPanel({ showEditionFilter = true }: FilterPanelPro
           >
             <div className="mt-6 space-y-6">
               <FilterContent
-                showEditionFilter={showEditionFilter}
+                showEditionFilter={!edition}
                 editions={editions}
                 types={types}
                 subtypes={subtypes}
                 languages={languages}
-                availableSubtypes={availableSubtypes}
+                counts={counts}
                 toggleEdition={toggleEdition}
                 toggleType={toggleType}
                 toggleSubtype={toggleSubtype}
@@ -138,7 +136,7 @@ interface FilterContentProps {
   types: PublicationType[]
   subtypes: PublicationSubtype[]
   languages: Language[]
-  availableSubtypes: string[]
+  counts: FacetCounts
   toggleEdition: (edition: Edition) => void
   toggleType: (type: PublicationType) => void
   toggleSubtype: (subtype: PublicationSubtype) => void
@@ -151,65 +149,85 @@ function FilterContent({
   types,
   subtypes,
   languages,
-  availableSubtypes,
+  counts,
   toggleEdition,
   toggleType,
   toggleSubtype,
   toggleLanguage,
 }: FilterContentProps) {
+  // Se ocultan las opciones sin resultados, salvo las ya marcadas para poder desmarcarlas
+  const visible = <T extends string>(
+    options: readonly T[],
+    selected: T[],
+    facet: Partial<Record<T, number>>
+  ) => options.filter((option) => (facet[option] ?? 0) > 0 || selected.includes(option))
+
+  const visibleEditions = visible(EDITIONS, editions, counts.editions)
+  const visibleTypes = visible(TYPES, types, counts.types)
+  const visibleSubtypes = visible(ALL_SUBTYPES, subtypes, counts.subtypes)
+  const visibleLanguages = visible(LANGUAGES, languages, counts.languages)
+
   return (
     <>
       {/* Edition filter */}
-      {showEditionFilter && (
+      {showEditionFilter && visibleEditions.length > 0 && (
         <FilterSection title="Edición">
-          {EDITIONS.map((edition) => (
+          {visibleEditions.map((edition) => (
             <FilterCheckbox
               key={edition}
               label={translateEdition(edition)}
-              checked={editions.includes(edition as Edition)}
-              onChange={() => toggleEdition(edition as Edition)}
+              count={counts.editions[edition] ?? 0}
+              checked={editions.includes(edition)}
+              onChange={() => toggleEdition(edition)}
             />
           ))}
         </FilterSection>
       )}
 
       {/* Type filter */}
-      <FilterSection title="Tipo">
-        {TYPES.map((type) => (
-          <FilterCheckbox
-            key={type}
-            label={translateType(type)}
-            checked={types.includes(type as PublicationType)}
-            onChange={() => toggleType(type as PublicationType)}
-          />
-        ))}
-      </FilterSection>
+      {visibleTypes.length > 0 && (
+        <FilterSection title="Tipo">
+          {visibleTypes.map((type) => (
+            <FilterCheckbox
+              key={type}
+              label={translateType(type)}
+              count={counts.types[type] ?? 0}
+              checked={types.includes(type)}
+              onChange={() => toggleType(type)}
+            />
+          ))}
+        </FilterSection>
+      )}
 
       {/* Subtype filter */}
-      {availableSubtypes.length > 0 && (
-        <FilterSection title="Categoría">
-          {availableSubtypes.map((subtype) => (
+      {visibleSubtypes.length > 0 && (
+        <FilterSection title="Categoría" collapsible selectedCount={subtypes.length}>
+          {visibleSubtypes.map((subtype) => (
             <FilterCheckbox
               key={subtype}
-              label={translateSubtypeStandalone(subtype as PublicationSubtype)}
-              checked={subtypes.includes(subtype as PublicationSubtype)}
-              onChange={() => toggleSubtype(subtype as PublicationSubtype)}
+              label={translateSubtypeStandalone(subtype)}
+              count={counts.subtypes[subtype] ?? 0}
+              checked={subtypes.includes(subtype)}
+              onChange={() => toggleSubtype(subtype)}
             />
           ))}
         </FilterSection>
       )}
 
       {/* Language filter */}
-      <FilterSection title="Idioma">
-        {LANGUAGES.map((lang) => (
-          <FilterCheckbox
-            key={lang}
-            label={translateLanguage(lang)}
-            checked={languages.includes(lang as Language)}
-            onChange={() => toggleLanguage(lang as Language)}
-          />
-        ))}
-      </FilterSection>
+      {visibleLanguages.length > 0 && (
+        <FilterSection title="Idioma">
+          {visibleLanguages.map((lang) => (
+            <FilterCheckbox
+              key={lang}
+              label={translateLanguage(lang)}
+              count={counts.languages[lang] ?? 0}
+              checked={languages.includes(lang)}
+              onChange={() => toggleLanguage(lang)}
+            />
+          ))}
+        </FilterSection>
+      )}
 
       {/* Sort */}
       <FilterSection title="Ordenar por">
@@ -222,35 +240,78 @@ function FilterContent({
 interface FilterSectionProps {
   title: string
   children: React.ReactNode
+  // Sale plegada y se despliega con su título
+  collapsible?: boolean
+  // Opciones marcadas, para que se vean aunque la sección esté plegada
+  selectedCount?: number
 }
 
-function FilterSection({ title, children }: FilterSectionProps) {
+function FilterSection({
+  title,
+  children,
+  collapsible = false,
+  selectedCount = 0,
+}: FilterSectionProps) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  if (!collapsible) {
+    return (
+      <div>
+        <h4 className="text-sm font-semibold text-gray-300 mb-2">{title}</h4>
+        <div className="space-y-2">{children}</div>
+      </div>
+    )
+  }
+
   return (
     <div>
-      <h4 className="text-sm font-semibold text-gray-300 mb-2">{title}</h4>
-      <div className="space-y-2">{children}</div>
+      <h4 className="text-sm font-semibold text-gray-300 mb-2">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
+          className="flex items-center gap-2 w-full hover:text-white transition-colors"
+        >
+          {title}
+          {selectedCount > 0 && (
+            <span className="badge bg-dnd-red text-white" aria-label={`${selectedCount} marcadas`}>
+              {selectedCount}
+            </span>
+          )}
+          <ChevronDownIcon
+            className={`ml-auto h-4 w-4 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+          />
+        </button>
+      </h4>
+      {isOpen && <div className="space-y-2">{children}</div>}
     </div>
   )
 }
 
 interface FilterCheckboxProps {
   label: string
+  count: number
   checked: boolean
   onChange: () => void
 }
 
-function FilterCheckbox({ label, checked, onChange }: FilterCheckboxProps) {
+function FilterCheckbox({ label, count, checked, onChange }: FilterCheckboxProps) {
   return (
-    <label className="flex items-center gap-2 cursor-pointer group">
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={onChange}
-        className="rounded-sm border-dnd-gold/30 bg-dnd-stone text-dnd-red focus:ring-dnd-gold/50"
-      />
-      <span className="text-sm text-gray-300 group-hover:text-white transition-colors">
-        {label}
+    <div className="flex items-center gap-2">
+      <label className="flex items-center gap-2 cursor-pointer group">
+        <input
+          type="checkbox"
+          checked={checked}
+          onChange={onChange}
+          className="rounded-sm border-dnd-gold/30 bg-dnd-stone text-dnd-red focus:ring-dnd-gold/50"
+        />
+        <span className="text-sm text-gray-300 group-hover:text-white transition-colors">
+          {label}
+        </span>
+      </label>
+      {/* Fuera de la etiqueta para que el nombre de la casilla sea solo la opción */}
+      <span aria-hidden="true" className="ml-auto text-xs text-gray-500">
+        {count}
       </span>
-    </label>
+    </div>
   )
 }
