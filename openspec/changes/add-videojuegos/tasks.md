@@ -16,7 +16,7 @@
 - [x] 2.2 Crear `src/types/videogame.ts` y `src/services/videogameLoader.ts`
       con los campos derivados; verificar con tests unitarios de
       `firstReleaseDate`, `decade`, `spanishSummary` (incluido
-      «desconocido»), `bestScore` y `availableToBuy`
+      sin dato = solo en inglés), `bestScore` y `availableToBuy`
 - [x] 2.3 Añadir los tests de datos de D8 (esquema, descripción de dos
       párrafos, imágenes existentes, URLs sin afiliado, slugs únicos,
       libros relacionados y coherencia con el inventario); verificar que
@@ -44,7 +44,7 @@
 
 - [x] 4.1 Crear `SpanishBadge`, `ReviewScore` y `ReleaseTable`; verificar
       con tests de componentes los casos «con voces», «textos», «solo en
-      inglés» y «desconocido»
+      inglés» (también sin dato)
 - [x] 4.2 Crear `PurchaseByPlatform` (orden estable según `STORES`,
       edición física, «No disponible a la venta»); verificar
       con tests de componentes los escenarios del spec

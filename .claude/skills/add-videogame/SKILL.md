@@ -21,9 +21,10 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
 
 - **Nada inventado.** Cada dato sale de una fuente que se pueda citar.
   Si no se encuentra, el campo se omite.
-- **Castellano por lanzamiento.** `spanish` solo se pone si hay fuente:
-  todo a `false` significa «solo en inglés» y la ausencia significa
-  «sin confirmar». Una traducción de fans va en `note` y nunca cuenta.
+- **Castellano por lanzamiento.** `spanish` solo se pone cuando una
+  fuente confirma el castellano. Sin ese dato, o con todo a `false`, el
+  lanzamiento figura como «solo en inglés»: no hay estado «sin
+  confirmar». Una traducción de fans va en `note` y nunca cuenta.
 - **Ediciones y DLC dentro del juego.** Enhanced/Definitive Edition y
   relanzamientos son lanzamientos con `edition`; las expansiones van en
   `expansions`, salvo las que se vendieron como juego independiente.

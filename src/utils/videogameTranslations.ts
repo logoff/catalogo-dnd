@@ -128,7 +128,6 @@ export const spanishSummaryNames: Record<SpanishSummary, string> = {
   full: 'En castellano',
   text: 'Textos en castellano',
   none: 'Solo en inglés',
-  unknown: 'Castellano sin confirmar',
 }
 
 // Fechas con la precisión que se conozca: «1988», «junio de 1988» o «28 de noviembre de 2012»
@@ -142,7 +141,7 @@ export function formatPartialDate(date: string): string {
 
 // Detalle de un lanzamiento: qué partes están en castellano
 export function describeSpanish(spanish?: SpanishSupport): string {
-  if (!spanish) return 'Sin confirmar'
+  if (!spanish) return 'Solo en inglés'
   const parts = [
     spanish.interface && 'textos',
     spanish.subtitles && 'subtítulos',
@@ -151,5 +150,6 @@ export function describeSpanish(spanish?: SpanishSupport): string {
   if (parts.length === 0) return 'Solo en inglés'
   const list =
     parts.length === 1 ? parts[0] : `${parts.slice(0, -1).join(', ')} y ${parts[parts.length - 1]}`
-  return list.charAt(0).toUpperCase() + list.slice(1)
+  // Frase completa, para que se entienda sin etiqueta delante
+  return `${list.charAt(0).toUpperCase()}${list.slice(1)} en castellano`
 }

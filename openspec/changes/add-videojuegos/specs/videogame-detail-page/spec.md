@@ -59,8 +59,9 @@ edición y castellano (textos, subtítulos y voces).
 ### Requirement: Resumen de castellano
 
 La ficha SHALL mostrar un resumen visible del mejor castellano
-disponible: en castellano (con voces), textos en castellano, solo en
-inglés o desconocido.
+disponible: en castellano (con voces), textos en castellano o solo en
+inglés. El castellano que no está confirmado se muestra como solo en
+inglés.
 
 #### Scenario: Castellano solo en una edición
 

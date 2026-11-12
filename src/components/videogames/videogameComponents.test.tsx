@@ -12,7 +12,6 @@ describe('SpanishBadge', () => {
     ['full', 'En castellano'],
     ['text', 'Textos en castellano'],
     ['none', 'Solo en inglés'],
-    ['unknown', 'Castellano sin confirmar'],
   ] as const)('%s → %s', (summary, label) => {
     render(<SpanishBadge summary={summary} />)
     expect(screen.getByText(label)).toBeInTheDocument()
@@ -22,16 +21,18 @@ describe('SpanishBadge', () => {
 describe('describeSpanish', () => {
   it('detalla las partes traducidas', () => {
     expect(describeSpanish({ interface: true, subtitles: true, audio: true })).toBe(
-      'Textos, subtítulos y voces'
+      'Textos, subtítulos y voces en castellano'
     )
     expect(describeSpanish({ interface: true, subtitles: true, audio: false })).toBe(
-      'Textos y subtítulos'
+      'Textos y subtítulos en castellano'
     )
-    expect(describeSpanish({ interface: false, subtitles: true, audio: false })).toBe('Subtítulos')
+    expect(describeSpanish({ interface: false, subtitles: true, audio: false })).toBe(
+      'Subtítulos en castellano'
+    )
     expect(describeSpanish({ interface: false, subtitles: false, audio: false })).toBe(
       'Solo en inglés'
     )
-    expect(describeSpanish(undefined)).toBe('Sin confirmar')
+    expect(describeSpanish(undefined)).toBe('Solo en inglés')
   })
 })
 
@@ -97,9 +98,9 @@ describe('ReleaseTable', () => {
     expect(within(rows[0]).getByText('Original')).toBeInTheDocument()
     expect(within(rows[0]).getByText('Solo en inglés')).toBeInTheDocument()
     expect(within(rows[1]).getByText('Enhanced Edition')).toBeInTheDocument()
-    expect(within(rows[1]).getByText('Textos y subtítulos')).toBeInTheDocument()
+    expect(within(rows[1]).getByText('Textos y subtítulos en castellano')).toBeInTheDocument()
     expect(within(rows[2]).getByText('Apple II')).toBeInTheDocument()
-    expect(within(rows[2]).getByText('Sin confirmar')).toBeInTheDocument()
+    expect(within(rows[2]).getByText('Solo en inglés')).toBeInTheDocument()
   })
 })
 
@@ -126,11 +127,11 @@ describe('PurchaseByPlatform', () => {
       },
     ])
     const pc = screen.getByRole('region', { name: 'Windows' })
-    expect(within(pc).getByText(/Textos y subtítulos/)).toBeInTheDocument()
+    expect(within(pc).getByText(/Textos y subtítulos en castellano/)).toBeInTheDocument()
     expect(within(pc).getByRole('link', { name: 'Comprar en GOG' })).toBeInTheDocument()
 
     const ps4 = screen.getByRole('region', { name: 'PlayStation 4' })
-    expect(within(ps4).getByText(/Sin confirmar/)).toBeInTheDocument()
+    expect(within(ps4).getByText(/Solo en inglés/)).toBeInTheDocument()
     expect(within(ps4).getByText('edición física')).toBeInTheDocument()
   })
 

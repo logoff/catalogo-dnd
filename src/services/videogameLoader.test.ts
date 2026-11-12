@@ -79,12 +79,12 @@ describe('enrichVideogame', () => {
       enrichVideogame({ ...minimalGame, releases: [{ platform: 'pc_windows', spanish }] })
         .spanishSummary
 
-    it('distingue voces, textos, solo inglés y desconocido', () => {
+    it('distingue voces, textos y solo inglés, y sin dato cuenta como solo inglés', () => {
       expect(withSpanish({ interface: true, subtitles: true, audio: true })).toBe('full')
       expect(withSpanish({ interface: true, subtitles: true, audio: false })).toBe('text')
       expect(withSpanish({ interface: false, subtitles: true, audio: false })).toBe('text')
       expect(withSpanish({ interface: false, subtitles: false, audio: false })).toBe('none')
-      expect(withSpanish(undefined)).toBe('unknown')
+      expect(withSpanish(undefined)).toBe('none')
     })
 
     it('una traducción de fans no cuenta como castellano', () => {

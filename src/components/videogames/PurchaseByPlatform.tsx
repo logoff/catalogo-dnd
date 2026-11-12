@@ -58,7 +58,7 @@ export default function PurchaseByPlatform({ slug, releases }: PurchaseByPlatfor
         <section key={group.platform} aria-label={platformNames[group.platform]}>
           <h3 className="font-semibold text-gray-100">
             {platformNames[group.platform]}{' '}
-            <span className="text-sm font-normal text-gray-400">· Castellano: {group.spanish}</span>
+            <span className="text-sm font-normal text-gray-400">· {group.spanish}</span>
           </h3>
           <div className="mt-2 flex flex-wrap gap-2">
             {group.links.map((link) => (

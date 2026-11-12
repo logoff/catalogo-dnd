@@ -96,8 +96,11 @@ describe('filterVideogames', () => {
       'Tower of Doom',
     ])
     expect(slugs(filterVideogames(games, { ...none, genres: ['action'] }))).toEqual(['Warlock'])
+    // Sin castellano confirmado cuenta como solo en inglés
     expect(slugs(filterVideogames(games, { ...none, spanish: ['none'] }))).toEqual([
       'Pool of Radiance',
+      'Tower of Doom',
+      'Warlock',
     ])
   })
 

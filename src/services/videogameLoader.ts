@@ -14,14 +14,15 @@ const videogameModules = import.meta.glob<Videogame>('/data/videogames/games/**/
 
 function spanishLevel(release: GameRelease): SpanishSummary {
   const { spanish } = release
-  if (!spanish) return 'unknown'
+  // Sin castellano confirmado, el lanzamiento cuenta como solo en inglés
+  if (!spanish) return 'none'
   if (spanish.audio) return 'full'
   if (spanish.interface || spanish.subtitles) return 'text'
   return 'none'
 }
 
-// De mejor a peor; «desconocido» solo gana si no hay ningún dato
-const SPANISH_RANK: SpanishSummary[] = ['full', 'text', 'none', 'unknown']
+// De mejor a peor
+const SPANISH_RANK: SpanishSummary[] = ['full', 'text', 'none']
 
 export function enrichVideogame(game: Videogame): VideogameWithMeta {
   // Las fechas ISO truncadas se ordenan bien como texto
@@ -34,7 +35,7 @@ export function enrichVideogame(game: Videogame): VideogameWithMeta {
   const platforms = [...new Set(game.releases.map((r) => r.platform))] as Platform[]
 
   const levels = game.releases.map(spanishLevel)
-  const spanishSummary = SPANISH_RANK.find((level) => levels.includes(level)) ?? 'unknown'
+  const spanishSummary = SPANISH_RANK.find((level) => levels.includes(level)) ?? 'none'
 
   const scores = (game.reviews ?? []).map((r) => Math.round((r.score / r.scale) * 100))
   const bestScore = scores.length > 0 ? Math.max(...scores) : null

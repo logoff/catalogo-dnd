@@ -95,10 +95,10 @@ como nota y nunca cuenta como castellano.
 - **THEN** se menciona como nota, pero el lanzamiento sigue sin contar
   como traducido
 
-#### Scenario: Castellano desconocido
+#### Scenario: Castellano sin confirmar
 
-- **WHEN** no hay fuente fiable sobre el idioma de un lanzamiento
-- **THEN** consta como desconocido, no como «solo en inglés»
+- **WHEN** no hay fuente fiable que confirme castellano en un lanzamiento
+- **THEN** el lanzamiento consta como solo en inglés
 
 ### Requirement: Notas de medios
 

@@ -23,7 +23,7 @@ Ejecuta `just novedades`. Lista, para la línea 2024:
 Además, busca productos anunciados que **aún no estén en el catálogo**.
 
 También lista los **videojuegos** anunciados y los que se venden con el
-castellano sin confirmar (ver el apartado 7).
+castellano sin dato, que figuran como solo en inglés (ver el apartado 7).
 
 ## 2. Inglés
 
@@ -111,7 +111,8 @@ buen momento para volver a compartir la guía.
   acabar la licencia), marca sus lanzamientos con `delisted: true` y
   quita la mención a dónde se vende de la descripción. Comprueba con
   `curl` que los enlaces de compra siguen respondiendo.
-- **Castellano**: para los que salen sin confirmar, mira la tabla de
+- **Castellano**: los que se venden sin dato figuran como solo en inglés;
+  comprueba si en realidad tienen castellano en la tabla de
   idiomas de Steam (un `*` indica voces) o la ficha de GOG.
 
 Igual que con los libros, presenta lo encontrado al usuario antes de

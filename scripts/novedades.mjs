@@ -1,6 +1,6 @@
 // Lista lo que hay que vigilar de las novedades de 2024: anunciados sin fecha, fechas futuras
 // (pueden moverse) y libros y cajas que aún no tienen edición en castellano. También los
-// videojuegos anunciados y los que se venden con el castellano sin confirmar.
+// videojuegos anunciados y los que se venden sin dato de castellano (figuran como solo en inglés).
 // Lo usa la skill `novedades` como punto de partida para buscar información nueva.
 import { readFileSync, readdirSync, statSync } from 'fs'
 import { join, dirname, relative } from 'path'
@@ -67,7 +67,7 @@ const videogames = walk(VIDEOGAMES_DIR).map((file) => ({
 const gameSections = [
   ['Videojuegos anunciados', (g) => g.status === 'announced'],
   [
-    'Videojuegos a la venta con el castellano sin confirmar',
+    'Videojuegos a la venta sin dato de castellano (figuran como solo en inglés)',
     (g) => g.releases.some((r) => r.purchase_links?.length && !r.delisted && !r.spanish),
   ],
 ]

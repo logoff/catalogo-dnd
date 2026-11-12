@@ -79,7 +79,7 @@ interface GameRelease {
   edition?: string // «Enhanced Edition»…
   developers?: string[] // solo si difiere del juego
   publishers?: string[]
-  spanish?: SpanishSupport // ausente = desconocido
+  spanish?: SpanishSupport // solo con castellano confirmado; ausente = solo en inglés
   purchase_links?: PurchaseLink[]
   delisted?: boolean
 }
@@ -101,14 +101,15 @@ interface Review {
 }
 ```
 
-Se distingue «desconocido» (sin `spanish`) de «solo en inglés» (todo a
-`false`), como pide el spec. Las fechas parciales se guardan como
+Solo se guarda `spanish` cuando hay fuente que confirme el castellano;
+sin ese dato, el lanzamiento cuenta como solo en inglés, igual que con
+todo a `false`. No existe un estado «sin confirmar». Las fechas parciales se guardan como
 cadenas ISO truncadas y se ordenan como texto, que funciona porque el
 formato es de mayor a menor.
 
 Campos derivados (`VideogameWithMeta`): `firstReleaseDate`, `decade`,
 `platforms`, `spanishSummary` (`full` con voces, `text` si solo tiene
-textos o subtítulos, `none`, `unknown`), `bestScore` (normalizada a 100)
+textos o subtítulos, `none`), `bestScore` (normalizada a 100)
 y `availableToBuy`.
 
 _Alternativa descartada:_ un juego por plataforma. Repetiría la
@@ -211,8 +212,9 @@ plataforma, los filtros y el orden por nota.
 
 - [Mucho trabajo de investigación en juegos antiguos con datos escasos]
   → Campos opcionales, fichas mínimas válidas y lotes por épocas.
-- [Castellano de juegos antiguos difícil de comprobar] → El valor
-  «desconocido» evita afirmar sin fuente.
+- [Castellano de juegos antiguos difícil de comprobar] → Sin fuente que
+  lo confirme, el juego figura como solo en inglés; `just novedades`
+  lista los que se venden sin dato para revisarlos.
 - [Sin MobyGames como fuente de notas, muchos juegos de los 80 y 90 se
   quedan sin nota] → Se acepta: el listado los pone al final al ordenar
   por nota.

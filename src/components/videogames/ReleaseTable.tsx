@@ -24,7 +24,7 @@ export default function ReleaseTable({ releases }: ReleaseTableProps) {
               Edición
             </th>
             <th scope="col" className="py-2 font-semibold">
-              Castellano
+              Idioma
             </th>
           </tr>
         </thead>

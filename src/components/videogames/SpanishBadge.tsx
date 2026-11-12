@@ -13,7 +13,6 @@ export default function SpanishBadge({ summary }: SpanishBadgeProps) {
       className={clsx('badge', {
         'badge-castellano': summary === 'full' || summary === 'text',
         'badge-english': summary === 'none',
-        'bg-gray-500/20 text-gray-300 border border-gray-500/40': summary === 'unknown',
       })}
     >
       {spanishSummaryNames[summary]}

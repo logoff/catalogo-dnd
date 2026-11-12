@@ -122,7 +122,7 @@ export interface GameRelease {
   // Solo si difieren de las del juego
   developers?: string[]
   publishers?: string[]
-  // Sin dato = castellano desconocido; todo a false = solo en inglés
+  // Solo se rellena con castellano confirmado; sin dato, el lanzamiento cuenta como solo en inglés
   spanish?: SpanishSupport
   purchase_links?: VideogamePurchaseLink[]
   delisted?: boolean
@@ -163,8 +163,8 @@ export interface Videogame {
   related_products?: { edition: Edition; code: string }[]
 }
 
-// full: con voces; text: textos o subtítulos; none: solo en inglés; unknown: sin datos
-export type SpanishSummary = 'full' | 'text' | 'none' | 'unknown'
+// full: con voces; text: textos o subtítulos; none: solo en inglés (también si no hay dato)
+export type SpanishSummary = 'full' | 'text' | 'none'
 
 export interface VideogameWithMeta extends Videogame {
   firstReleaseDate: string | null

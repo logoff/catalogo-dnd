@@ -54,8 +54,8 @@ del mismo producto. Tipos de publicación: `book`, `boxed_set`,
 **Videojuegos:** cada juego es un JSON en
 `data/videogames/games/<década>/<slug>.json` (esquema
 `data/schemas/videogame.jsonschema`) con sus lanzamientos por plataforma
-y edición, el castellano de cada uno (sin dato = sin confirmar; todo a
-`false` = solo en inglés), notas y enlaces de compra.
+y edición, el castellano de cada uno (solo si está confirmado; sin dato
+cuenta como solo en inglés), notas y enlaces de compra.
 `videogameLoader.ts` los enriquece en `VideogameWithMeta`.
 `data/videogames/inventory.md` es la lista maestra: un test exige que
 cada ficha esté en ella y al revés. Para dar de alta juegos, usar la
