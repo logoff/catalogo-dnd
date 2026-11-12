@@ -61,7 +61,7 @@
 
 ## 5. Listado
 
-- [ ] 5.1 Crear `videogameStore` con filtros, orden y búsqueda (sin
+- [x] 5.1 Crear `videogameStore` con filtros, orden y búsqueda (sin
       `localStorage` en el primer render); verificar con tests
       unitarios de cada filtro, combinaciones, orden por nota (sin nota
       al final) y búsqueda sin tildes
