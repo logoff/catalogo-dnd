@@ -117,7 +117,7 @@
 
 - [x] 10.1 Crear la skill `add-videogame` a partir de los campos del
       esquema; verificar dando de alta un juego del inventario con ella
-- [ ] 10.2 Ampliar la skill `novedades` y `scripts/novedades.mjs` a
+- [x] 10.2 Ampliar la skill `novedades` y `scripts/novedades.mjs` a
       videojuegos anunciados o retirados; verificar con `just novedades`
 - [x] 10.3 Actualizar `CLAUDE.md` y el README con la sección de
       videojuegos; verificar que markdownlint pasa
