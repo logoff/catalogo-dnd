@@ -45,11 +45,11 @@
 - [x] 4.1 Crear `SpanishBadge`, `ReviewScore` y `ReleaseTable`; verificar
       con tests de componentes los casos «con voces», «textos», «solo en
       inglés» y «desconocido»
-- [ ] 4.2 Crear `PurchaseByPlatform` (orden estable según `STORES`,
+- [x] 4.2 Crear `PurchaseByPlatform` (orden estable según `STORES`,
       edición física, «No disponible a la venta»); verificar
       con tests de componentes los escenarios del spec
       `videogame-purchase-links`
-- [ ] 4.3 Crear `VideogameDetail` y `VideogameDetailPage` en
+- [x] 4.3 Crear `VideogameDetail` y `VideogameDetailPage` en
       `/videojuego/:slug` (datos principales, descripción, expansiones,
       libros relacionados, aviso de juego cerrado, 404 con slug
       inexistente); verificar con tests de página y viendo las fichas

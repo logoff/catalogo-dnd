@@ -1,8 +1,10 @@
 import { describe, it, expect } from 'vitest'
 import { render, screen, within } from '@testing-library/react'
+import { MemoryRouter } from 'react-router-dom'
 import SpanishBadge from './SpanishBadge'
 import ReviewScore from './ReviewScore'
 import ReleaseTable from './ReleaseTable'
+import PurchaseByPlatform from './PurchaseByPlatform'
 import { describeSpanish, formatPartialDate } from '@/utils/videogameTranslations'
 
 describe('SpanishBadge', () => {
@@ -98,5 +100,81 @@ describe('ReleaseTable', () => {
     expect(within(rows[1]).getByText('Textos y subtítulos')).toBeInTheDocument()
     expect(within(rows[2]).getByText('Apple II')).toBeInTheDocument()
     expect(within(rows[2]).getByText('Sin confirmar')).toBeInTheDocument()
+  })
+})
+
+describe('PurchaseByPlatform', () => {
+  const renderLinks = (releases: Parameters<typeof PurchaseByPlatform>[0]['releases']) =>
+    render(
+      <MemoryRouter>
+        <PurchaseByPlatform slug="juego" releases={releases} />
+      </MemoryRouter>
+    )
+
+  it('agrupa por plataforma con el castellano de cada versión', () => {
+    renderLinks([
+      {
+        platform: 'pc_windows',
+        spanish: { interface: true, subtitles: true, audio: false },
+        purchase_links: [{ store: 'gog', url: 'https://www.gog.com/en/game/juego' }],
+      },
+      {
+        platform: 'ps4',
+        purchase_links: [
+          { store: 'amazon', url: 'https://www.amazon.es/dp/X', format: 'physical' },
+        ],
+      },
+    ])
+    const pc = screen.getByRole('region', { name: 'Windows' })
+    expect(within(pc).getByText(/Textos y subtítulos/)).toBeInTheDocument()
+    expect(within(pc).getByRole('link', { name: 'Comprar en GOG' })).toBeInTheDocument()
+
+    const ps4 = screen.getByRole('region', { name: 'PlayStation 4' })
+    expect(within(ps4).getByText(/Sin confirmar/)).toBeInTheDocument()
+    expect(within(ps4).getByText('edición física')).toBeInTheDocument()
+  })
+
+  it('ordena las tiendas siempre igual, sin importar el orden de los datos', () => {
+    renderLinks([
+      {
+        platform: 'pc_windows',
+        purchase_links: [
+          { store: 'steam', url: 'https://store.steampowered.com/app/1/' },
+          { store: 'gog', url: 'https://www.gog.com/en/game/juego' },
+        ],
+      },
+    ])
+    const names = screen
+      .getAllByRole('link', { name: /^Comprar en/ })
+      .map((link) => link.textContent)
+    expect(names).toEqual(['Comprar en GOG', 'Comprar en Steam'])
+  })
+
+  it('marca los clics para la analítica con el juego y la plataforma', () => {
+    renderLinks([
+      {
+        platform: 'pc_windows',
+        purchase_links: [{ store: 'gog', url: 'https://www.gog.com/en/game/juego' }],
+      },
+    ])
+    const link = screen.getByRole('link', { name: 'Comprar en GOG' })
+    expect(link).toHaveAttribute('rel', 'sponsored noopener noreferrer')
+    expect(link).toHaveAttribute('data-umami-event', 'comprar')
+    expect(link).toHaveAttribute('data-umami-event-videojuego', 'juego')
+    expect(link).toHaveAttribute('data-umami-event-plataforma', 'pc_windows')
+    expect(link).toHaveAttribute('data-umami-event-url', 'https://www.gog.com/en/game/juego')
+  })
+
+  it('sin enlaces vigentes indica que no está a la venta', () => {
+    renderLinks([
+      {
+        platform: 'pc_windows',
+        delisted: true,
+        purchase_links: [{ store: 'steam', url: 'https://store.steampowered.com/app/1/' }],
+      },
+      { platform: 'pc_dos' },
+    ])
+    expect(screen.getByText('No disponible a la venta.')).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: /^Comprar en/ })).not.toBeInTheDocument()
   })
 })

@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'
 import CatalogPage from './pages/CatalogPage'
 import EditionPage from './pages/EditionPage'
 import ProductDetailPage from './pages/ProductDetailPage'
+import VideogameDetailPage from './pages/VideogameDetailPage'
 import NotFoundPage from './pages/NotFoundPage'
 import GuidesPage from './pages/GuidesPage'
 import LegalPage from './pages/LegalPage'
@@ -26,6 +27,7 @@ export default function AppRoutes() {
         <Route path="2024" element={<EditionPage edition="2024" />} />
         <Route path="2024/:category" element={<EditionPage edition="2024" />} />
         <Route path="producto/:edition/:code" element={<ProductDetailPage />} />
+        <Route path="videojuego/:slug" element={<VideogameDetailPage />} />
         <Route path="guias" element={<GuidesPage />} />
         <Route path="guias/por-donde-empezar" element={<StartGuide />} />
         <Route path="guias/2014-vs-2024" element={<EditionsGuide />} />
