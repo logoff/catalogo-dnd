@@ -1,0 +1,101 @@
+{
+  "slug": "baldurs-gate",
+  "title": "Baldur's Gate",
+  "description": "Juego de rol de BioWare que relanzó el género en ordenador a finales de los noventa. Ambientado en la Costa de la Espada de los Reinos Olvidados, sigue a un huérfano criado en la fortaleza de Candlekeep que se ve envuelto en una crisis del hierro y en el misterio de su propio origen. Usa las reglas de la segunda edición de AD&D con combate en tiempo real que se puede pausar, y estrenó el Infinity Engine que luego usarían Icewind Dale y Planescape: Torment.\n\nEs la puerta de entrada a la saga que continúan Baldur's Gate II y Baldur's Gate 3. Hoy se juega en la Enhanced Edition de Beamdog, que incluye la expansión Tales of the Sword Coast, corrige errores, añade personajes y se vende para PC, Mac, Linux, móviles y consolas. En PC tiene textos en castellano, pero las voces siguen en inglés.",
+  "developers": ["BioWare"],
+  "publishers": ["Black Isle Studios", "Interplay Entertainment"],
+  "genres": ["rpg"],
+  "modes": ["single", "multiplayer"],
+  "setting": "forgotten_realms",
+  "ruleset": "adnd2",
+  "series": "Baldur's Gate",
+  "status": "released",
+  "expansions": [
+    { "title": "Tales of the Sword Coast", "date": "1999-04-30" },
+    { "title": "Siege of Dragonspear (Enhanced Edition)", "date": "2016-03-31" },
+    { "title": "Faces of Good and Evil (Enhanced Edition)", "date": "2018-04-14" },
+    { "title": "Reflections of Myth & Valor (Enhanced Edition)", "date": "2025-04-29" }
+  ],
+  "releases": [
+    { "platform": "pc_windows", "date": "1998-12-21" },
+    { "platform": "mac", "date": "2000-07-17" },
+    {
+      "platform": "pc_windows",
+      "date": "2012-11-28",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog", "Atari"],
+      "spanish": { "interface": true, "subtitles": true, "audio": false }
+    },
+    {
+      "platform": "ios",
+      "date": "2012-12-07",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"]
+    },
+    {
+      "platform": "mac",
+      "date": "2013-02-22",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": { "interface": true, "subtitles": true, "audio": false }
+    },
+    {
+      "platform": "android",
+      "date": "2014-04-17",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"]
+    },
+    {
+      "platform": "linux",
+      "date": "2014-11-27",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Beamdog"],
+      "spanish": { "interface": true, "subtitles": true, "audio": false }
+    },
+    {
+      "platform": "switch",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "ps4",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    },
+    {
+      "platform": "xbox_one",
+      "date": "2019-10-15",
+      "edition": "Enhanced Edition",
+      "developers": ["Beamdog"],
+      "publishers": ["Skybound Games"]
+    }
+  ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 91,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate/",
+      "platform": "pc_windows"
+    },
+    {
+      "source": "metacritic",
+      "score": 78,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-enhanced-edition/",
+      "platform": "pc_windows",
+      "edition": "Enhanced Edition"
+    }
+  ],
+  "images": ["/images/videogames/baldurs-gate/0.png", "/images/videogames/baldurs-gate/1.jpg"],
+  "official_url": "https://www.beamdog.com/games/baldurs-gate-enhanced/"
+}
