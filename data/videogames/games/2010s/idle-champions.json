@@ -60,5 +60,27 @@
       "channel": "Codename Entertainment",
       "date": "2020-06-17"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/idle-champions/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/627690/"
+    },
+    {
+      "image": "/images/videogames/idle-champions/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/627690/"
+    },
+    {
+      "image": "/images/videogames/idle-champions/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/627690/"
+    },
+    {
+      "image": "/images/videogames/idle-champions/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/627690/"
+    },
+    {
+      "image": "/images/videogames/idle-champions/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/627690/"
+    }
   ]
 }

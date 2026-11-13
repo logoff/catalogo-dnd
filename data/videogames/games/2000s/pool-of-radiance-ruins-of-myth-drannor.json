@@ -49,5 +49,31 @@
       "channel": "SNEG",
       "date": "2026-11-06"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/pool-of-radiance-ruins-of-myth-drannor/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/4834760/"
+    },
+    {
+      "image": "/images/videogames/pool-of-radiance-ruins-of-myth-drannor/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/4834760/"
+    },
+    {
+      "image": "/images/videogames/pool-of-radiance-ruins-of-myth-drannor/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/4834760/"
+    },
+    {
+      "image": "/images/videogames/pool-of-radiance-ruins-of-myth-drannor/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/4834760/"
+    },
+    {
+      "image": "/images/videogames/pool-of-radiance-ruins-of-myth-drannor/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/4834760/"
+    },
+    {
+      "image": "/images/videogames/pool-of-radiance-ruins-of-myth-drannor/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/4834760/"
+    }
   ]
 }

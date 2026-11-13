@@ -99,5 +99,31 @@
       "channel": "Aspyr",
       "date": "2025-07-15"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/neverwinter-nights-2/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2738630/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights-2/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2738630/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights-2/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2738630/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights-2/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2738630/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights-2/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2738630/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights-2/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/2738630/"
+    }
   ]
 }

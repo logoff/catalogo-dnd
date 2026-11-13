@@ -84,5 +84,31 @@
       "channel": "InterplayGames",
       "date": "2022-07-11"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance-ii/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1889930/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance-ii/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1889930/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance-ii/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1889930/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance-ii/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1889930/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance-ii/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/1889930/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance-ii/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/1889930/"
+    }
   ]
 }

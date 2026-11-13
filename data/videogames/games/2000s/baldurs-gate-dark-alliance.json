@@ -67,5 +67,31 @@
       "channel": "InterplayGames",
       "date": "2021-05-07"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1695830/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1695830/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1695830/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1695830/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/1695830/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-dark-alliance/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/1695830/"
+    }
   ]
 }

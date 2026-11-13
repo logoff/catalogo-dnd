@@ -38,5 +38,31 @@
       ]
     }
   ],
-  "images": ["/images/videogames/deathkeep/0.jpg"]
+  "images": ["/images/videogames/deathkeep/0.jpg"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/deathkeep/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2350540/"
+    },
+    {
+      "image": "/images/videogames/deathkeep/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2350540/"
+    },
+    {
+      "image": "/images/videogames/deathkeep/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2350540/"
+    },
+    {
+      "image": "/images/videogames/deathkeep/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2350540/"
+    },
+    {
+      "image": "/images/videogames/deathkeep/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2350540/"
+    },
+    {
+      "image": "/images/videogames/deathkeep/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/2350540/"
+    }
+  ]
 }

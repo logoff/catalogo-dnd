@@ -26,5 +26,31 @@
       "code": "TOA"
     }
   ],
-  "images": ["/images/videogames/tales-from-candlekeep-tomb-of-annihilation/0.jpg"]
+  "images": ["/images/videogames/tales-from-candlekeep-tomb-of-annihilation/0.jpg"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/tales-from-candlekeep-tomb-of-annihilation/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/663380/"
+    },
+    {
+      "image": "/images/videogames/tales-from-candlekeep-tomb-of-annihilation/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/663380/"
+    },
+    {
+      "image": "/images/videogames/tales-from-candlekeep-tomb-of-annihilation/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/663380/"
+    },
+    {
+      "image": "/images/videogames/tales-from-candlekeep-tomb-of-annihilation/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/663380/"
+    },
+    {
+      "image": "/images/videogames/tales-from-candlekeep-tomb-of-annihilation/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/663380/"
+    },
+    {
+      "image": "/images/videogames/tales-from-candlekeep-tomb-of-annihilation/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/663380/"
+    }
+  ]
 }

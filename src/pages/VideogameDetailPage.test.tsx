@@ -76,6 +76,27 @@ describe('VideogameDetail', () => {
     expect(screen.queryByRole('heading', { name: 'Notas' })).not.toBeInTheDocument()
     expect(screen.queryByRole('heading', { name: 'Libros relacionados' })).not.toBeInTheDocument()
     expect(screen.queryByRole('heading', { name: 'Vídeos' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('heading', { name: 'Capturas' })).not.toBeInTheDocument()
+  })
+
+  it('muestra las capturas tras los vídeos y antes de las ediciones', () => {
+    render(
+      <MemoryRouter>
+        <VideogameDetail
+          game={enrichVideogame({
+            ...base,
+            screenshots: [1, 2].map((n) => ({
+              image: `/images/videogames/juego/screenshot-${n}.webp`,
+              source: 'https://www.gog.com/en/game/juego',
+            })),
+          })}
+        />
+      </MemoryRouter>
+    )
+    expect(screen.getByAltText('Juego: captura 1 de 2')).toBeInTheDocument()
+    expect(screen.getByAltText('Juego: captura 2 de 2')).toBeInTheDocument()
+    const headings = screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)
+    expect(headings.indexOf('Capturas')).toBe(headings.indexOf('Ediciones') - 1)
   })
 
   it('muestra los vídeos en el orden de los datos, con su título y su canal', () => {

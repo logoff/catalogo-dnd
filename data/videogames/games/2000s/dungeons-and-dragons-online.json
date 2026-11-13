@@ -39,5 +39,31 @@
       "channel": "Dungeons & Dragons Online",
       "date": "2026-02-25"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/dungeons-and-dragons-online/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/206480/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-online/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/206480/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-online/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/206480/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-online/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/206480/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-online/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/206480/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-online/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/206480/"
+    }
   ]
 }

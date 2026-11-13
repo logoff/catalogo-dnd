@@ -183,5 +183,31 @@
       "date": "2016-03-31"
     }
   ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/baldurs-gate/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/228280/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/228280/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/228280/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/228280/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/228280/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/228280/"
+    }
+  ],
   "official_url": "https://www.beamdog.com/games/baldurs-gate-enhanced/"
 }

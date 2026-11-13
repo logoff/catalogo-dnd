@@ -35,5 +35,31 @@
       ]
     }
   ],
-  "images": ["/images/videogames/al-qadim/0.png"]
+  "images": ["/images/videogames/al-qadim/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/al-qadim/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1904640/"
+    },
+    {
+      "image": "/images/videogames/al-qadim/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1904640/"
+    },
+    {
+      "image": "/images/videogames/al-qadim/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1904640/"
+    },
+    {
+      "image": "/images/videogames/al-qadim/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1904640/"
+    },
+    {
+      "image": "/images/videogames/al-qadim/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/1904640/"
+    },
+    {
+      "image": "/images/videogames/al-qadim/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/1904640/"
+    }
+  ]
 }

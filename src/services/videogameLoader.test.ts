@@ -84,6 +84,31 @@ describe('esquema de videojuego', () => {
       expect(validate({ ...minimalGame, videos: Array(4).fill(video) })).toBe(false)
     })
   })
+
+  describe('capturas', () => {
+    const screenshot = {
+      image: '/images/videogames/juego/screenshot-1.webp',
+      source: 'https://store.steampowered.com/app/1086940/',
+    }
+
+    it('acepta una captura con su imagen y su fuente', () => {
+      expect(validate({ ...minimalGame, screenshots: [screenshot] })).toBe(true)
+    })
+
+    it('rechaza una captura sin fuente o que no es un WebP de capturas', () => {
+      expect(validate({ ...minimalGame, screenshots: [{ image: screenshot.image }] })).toBe(false)
+      expect(
+        validate({
+          ...minimalGame,
+          screenshots: [{ ...screenshot, image: '/images/videogames/juego/0.jpg' }],
+        })
+      ).toBe(false)
+    })
+
+    it('rechaza más de seis capturas', () => {
+      expect(validate({ ...minimalGame, screenshots: Array(7).fill(screenshot) })).toBe(false)
+    })
+  })
 })
 
 describe('enrichVideogame', () => {
@@ -113,6 +138,17 @@ describe('enrichVideogame', () => {
       { ...video, thumbnail: '/images/videogames/juego/video-1T22wNvoNiU.jpg' },
     ])
     expect(enrichVideogame(minimalGame).videos).toEqual([])
+  })
+
+  it('deriva la miniatura de cada captura y deja la lista vacía si no hay', () => {
+    const screenshot = {
+      image: '/images/videogames/juego/screenshot-2.webp',
+      source: 'https://www.gog.com/en/game/juego',
+    }
+    expect(enrichVideogame({ ...minimalGame, screenshots: [screenshot] }).screenshots).toEqual([
+      { ...screenshot, thumbnail: '/images/videogames/juego/screenshot-2-thumb.webp' },
+    ])
+    expect(enrichVideogame(minimalGame).screenshots).toEqual([])
   })
 
   it('ordena bien las fechas parciales', () => {
@@ -261,6 +297,41 @@ describe('datos de videojuegos', () => {
         'juego: vídeo repetido xxxxxxxxxxx',
         'juego: falta la miniatura /images/videogames/juego/video-xxxxxxxxxxx.jpg',
         'juego: falta la miniatura /images/videogames/juego/video-xxxxxxxxxxx.jpg',
+      ])
+    })
+  })
+
+  describe('capturas', () => {
+    // Capturas repetidas en un juego e imágenes ampliadas o miniaturas que no están en public/
+    const screenshotProblems = (list: VideogameWithMeta[]) =>
+      list.flatMap((g) => {
+        const images = g.screenshots.map((s) => s.image)
+        const repeated = images
+          .filter((image, i) => images.indexOf(image) !== i)
+          .map((image) => `${g.slug}: captura repetida ${image}`)
+        const missing = g.screenshots
+          .flatMap((s) => [s.image, s.thumbnail])
+          .filter((path) => !publicImages.has(path))
+          .map((path) => `${g.slug}: falta ${path}`)
+        return [...repeated, ...missing]
+      })
+
+    it('no se repiten en un juego y todas tienen su imagen y su miniatura locales', () => {
+      expect(screenshotProblems(games)).toEqual([])
+    })
+
+    it('la comprobación detecta capturas repetidas e imágenes que faltan', () => {
+      const screenshot = {
+        image: '/images/videogames/juego/screenshot-1.webp',
+        source: 'https://store.steampowered.com/app/1/',
+      }
+      const game = enrichVideogame({ ...minimalGame, screenshots: [screenshot, screenshot] })
+      expect(screenshotProblems([game])).toEqual([
+        'juego: captura repetida /images/videogames/juego/screenshot-1.webp',
+        'juego: falta /images/videogames/juego/screenshot-1.webp',
+        'juego: falta /images/videogames/juego/screenshot-1-thumb.webp',
+        'juego: falta /images/videogames/juego/screenshot-1.webp',
+        'juego: falta /images/videogames/juego/screenshot-1-thumb.webp',
       ])
     })
   })

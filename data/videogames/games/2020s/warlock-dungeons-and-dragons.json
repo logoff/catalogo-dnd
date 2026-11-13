@@ -43,5 +43,19 @@
       "channel": "PlayStation",
       "date": "2026-08-25"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/warlock-dungeons-and-dragons/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/3714800/"
+    },
+    {
+      "image": "/images/videogames/warlock-dungeons-and-dragons/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/3714800/"
+    },
+    {
+      "image": "/images/videogames/warlock-dungeons-and-dragons/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/3714800/"
+    }
   ]
 }

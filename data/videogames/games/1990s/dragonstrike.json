@@ -51,5 +51,31 @@
       ]
     }
   ],
-  "images": ["/images/videogames/dragonstrike/0.png"]
+  "images": ["/images/videogames/dragonstrike/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/dragonstrike/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2350520/"
+    },
+    {
+      "image": "/images/videogames/dragonstrike/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2350520/"
+    },
+    {
+      "image": "/images/videogames/dragonstrike/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2350520/"
+    },
+    {
+      "image": "/images/videogames/dragonstrike/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2350520/"
+    },
+    {
+      "image": "/images/videogames/dragonstrike/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2350520/"
+    },
+    {
+      "image": "/images/videogames/dragonstrike/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/2350520/"
+    }
+  ]
 }

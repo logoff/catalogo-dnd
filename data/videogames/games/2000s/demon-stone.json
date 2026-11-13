@@ -54,5 +54,31 @@
       "channel": "SNEG",
       "date": "2025-08-12"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/demon-stone/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/3843530/"
+    },
+    {
+      "image": "/images/videogames/demon-stone/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/3843530/"
+    },
+    {
+      "image": "/images/videogames/demon-stone/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/3843530/"
+    },
+    {
+      "image": "/images/videogames/demon-stone/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/3843530/"
+    },
+    {
+      "image": "/images/videogames/demon-stone/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/3843530/"
+    },
+    {
+      "image": "/images/videogames/demon-stone/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/3843530/"
+    }
   ]
 }

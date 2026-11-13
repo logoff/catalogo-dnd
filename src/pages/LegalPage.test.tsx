@@ -14,4 +14,15 @@ describe('LegalPage', () => {
       'tu navegador se conecta con YouTube'
     )
   })
+
+  it('menciona las capturas de los videojuegos y su origen oficial', () => {
+    render(
+      <MemoryRouter>
+        <LegalPage />
+      </MemoryRouter>
+    )
+    expect(screen.getByText(/capturas de los videojuegos/)).toHaveTextContent(
+      'proceden de sus canales oficiales'
+    )
+  })
 })

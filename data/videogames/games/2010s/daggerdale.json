@@ -43,5 +43,31 @@
       "platform": "pc_windows"
     }
   ],
-  "images": ["/images/videogames/daggerdale/0.png"]
+  "images": ["/images/videogames/daggerdale/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/daggerdale/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/99100/"
+    },
+    {
+      "image": "/images/videogames/daggerdale/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/99100/"
+    },
+    {
+      "image": "/images/videogames/daggerdale/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/99100/"
+    },
+    {
+      "image": "/images/videogames/daggerdale/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/99100/"
+    },
+    {
+      "image": "/images/videogames/daggerdale/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/99100/"
+    },
+    {
+      "image": "/images/videogames/daggerdale/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/99100/"
+    }
+  ]
 }

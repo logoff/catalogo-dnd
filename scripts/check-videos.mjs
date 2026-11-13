@@ -1,7 +1,7 @@
 // Comprueba con el oEmbed de YouTube (sin clave de API) que los vídeos de las fichas siguen
 // disponibles, se pueden empotrar y son del canal anotado. Solo avisa: termina siempre con
 // código 0 para no bloquear la build. En GitHub Actions los avisos salen como anotaciones.
-import { allVideos } from './videos.mjs'
+import { allVideos } from './videogames.mjs'
 
 const inActions = process.env.GITHUB_ACTIONS === 'true'
 

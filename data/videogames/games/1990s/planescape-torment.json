@@ -141,5 +141,31 @@
       "channel": "Beamdog",
       "date": "2017-03-28"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/planescape-torment/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/466300/"
+    },
+    {
+      "image": "/images/videogames/planescape-torment/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/466300/"
+    },
+    {
+      "image": "/images/videogames/planescape-torment/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/466300/"
+    },
+    {
+      "image": "/images/videogames/planescape-torment/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/466300/"
+    },
+    {
+      "image": "/images/videogames/planescape-torment/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/466300/"
+    },
+    {
+      "image": "/images/videogames/planescape-torment/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/466300/"
+    }
   ]
 }

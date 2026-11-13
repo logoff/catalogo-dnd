@@ -70,5 +70,31 @@
       "channel": "PlayStation",
       "date": "2026-09-22"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/demeo-battlemarked/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/3124340/"
+    },
+    {
+      "image": "/images/videogames/demeo-battlemarked/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/3124340/"
+    },
+    {
+      "image": "/images/videogames/demeo-battlemarked/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/3124340/"
+    },
+    {
+      "image": "/images/videogames/demeo-battlemarked/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/3124340/"
+    },
+    {
+      "image": "/images/videogames/demeo-battlemarked/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/3124340/"
+    },
+    {
+      "image": "/images/videogames/demeo-battlemarked/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/3124340/"
+    }
   ]
 }

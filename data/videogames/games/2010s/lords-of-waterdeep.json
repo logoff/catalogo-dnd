@@ -50,5 +50,27 @@
       }
     }
   ],
-  "images": ["/images/videogames/lords-of-waterdeep/0.jpg"]
+  "images": ["/images/videogames/lords-of-waterdeep/0.jpg"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/lords-of-waterdeep/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/644390/"
+    },
+    {
+      "image": "/images/videogames/lords-of-waterdeep/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/644390/"
+    },
+    {
+      "image": "/images/videogames/lords-of-waterdeep/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/644390/"
+    },
+    {
+      "image": "/images/videogames/lords-of-waterdeep/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/644390/"
+    },
+    {
+      "image": "/images/videogames/lords-of-waterdeep/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/644390/"
+    }
+  ]
 }

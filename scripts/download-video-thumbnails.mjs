@@ -3,7 +3,7 @@
 // La ficha sirve siempre la copia local: así no pide nada a YouTube antes de reproducir.
 import { existsSync, mkdirSync, writeFileSync } from 'fs'
 import { dirname, relative } from 'path'
-import { ROOT, allVideos, thumbnailPath } from './videos.mjs'
+import { ROOT, allVideos, thumbnailPath } from './videogames.mjs'
 
 // maxresdefault (1280×720) no existe en todos los vídeos; hqdefault (480×360) sí
 const SIZES = ['maxresdefault', 'hqdefault']

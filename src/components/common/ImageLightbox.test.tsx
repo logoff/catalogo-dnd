@@ -67,6 +67,22 @@ describe('ImageLightbox', () => {
     })
   })
 
+  describe('textos alternativos', () => {
+    it('usa los textos recibidos en la imagen y en las miniaturas', () => {
+      renderLightbox({
+        alts: ['Juego: captura 1 de 3', 'Juego: captura 2 de 3', 'Juego: captura 3 de 3'],
+        initialIndex: 1,
+      })
+      expect(screen.getAllByAltText('Juego: captura 2 de 3')).toHaveLength(2)
+      expect(screen.queryByAltText(/^Imagen \d+$/)).toBeNull()
+    })
+
+    it('sin textos sigue usando «Imagen N»', () => {
+      renderLightbox({ initialIndex: 2 })
+      expect(mainImageAlt()).toBe('Imagen 3')
+    })
+  })
+
   describe('cierre', () => {
     it('se cierra con Escape', () => {
       const { onClose } = renderLightbox()

@@ -154,6 +154,13 @@
                 "$ref": "#/$defs/video"
             }
         },
+        "screenshots": {
+            "type": "array",
+            "maxItems": 6,
+            "items": {
+                "$ref": "#/$defs/screenshot"
+            }
+        },
         "official_url": {
             "type": "string",
             "format": "uri"
@@ -297,6 +304,24 @@
                 "bundle": {
                     "type": "string",
                     "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+                }
+            }
+        },
+        "screenshot": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "image",
+                "source"
+            ],
+            "properties": {
+                "image": {
+                    "type": "string",
+                    "pattern": "^/images/videogames/[a-z0-9-]+/screenshot-\\d+\\.webp$"
+                },
+                "source": {
+                    "type": "string",
+                    "format": "uri"
                 }
             }
         },

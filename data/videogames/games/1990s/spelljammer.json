@@ -35,5 +35,31 @@
       ]
     }
   ],
-  "images": ["/images/videogames/spelljammer/0.png"]
+  "images": ["/images/videogames/spelljammer/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/spelljammer/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2350550/"
+    },
+    {
+      "image": "/images/videogames/spelljammer/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2350550/"
+    },
+    {
+      "image": "/images/videogames/spelljammer/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2350550/"
+    },
+    {
+      "image": "/images/videogames/spelljammer/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2350550/"
+    },
+    {
+      "image": "/images/videogames/spelljammer/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2350550/"
+    },
+    {
+      "image": "/images/videogames/spelljammer/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/2350550/"
+    }
+  ]
 }

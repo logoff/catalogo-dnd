@@ -19,6 +19,7 @@ import ReleaseTable from './ReleaseTable'
 import ReviewScore from './ReviewScore'
 import PurchaseByPlatform from './PurchaseByPlatform'
 import YouTubeVideo from './YouTubeVideo'
+import ScreenshotGallery from './ScreenshotGallery'
 
 interface VideogameDetailProps {
   game: VideogameWithMeta
@@ -136,6 +137,12 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
               <YouTubeVideo key={video.youtube} video={video} />
             ))}
           </div>
+        </Section>
+      )}
+
+      {game.screenshots.length > 0 && (
+        <Section title="Capturas">
+          <ScreenshotGallery title={game.title} screenshots={game.screenshots} />
         </Section>
       )}
 

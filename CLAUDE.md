@@ -33,6 +33,9 @@ recetas disponibles.
   vídeos de los videojuegos
 - `just check-videos` — Avisa de vídeos retirados, no empotrables o de
   otro canal (en Actions, sin bloquear)
+- `just screenshots <slug> --steam` — Descarga capturas oficiales de un
+  videojuego, las convierte a WebP y las anota en su ficha (`--source
+<página> <url>…` para GOG, webs oficiales o kits de prensa)
 
 Ejecutar un test individual:
 `npx vitest run src/utils/imageResolver.test.ts`
@@ -66,6 +69,8 @@ la editora, la desarrolladora, una plataforma o Wizards; su miniatura se
 guarda en `public/images/videogames/<slug>/video-<id>.jpg` y el
 reproductor de `youtube-nocookie.com` solo se carga al pulsar
 (`YouTubeVideo.tsx`), para no contactar con YouTube antes.
+También hasta seis capturas oficiales (`screenshots`, con su página de
+origen) en WebP con miniatura `-thumb.webp`, en `ScreenshotGallery.tsx`.
 `data/videogames/inventory.md` es la lista maestra: un test exige que
 cada ficha esté en ella y al revés. Para dar de alta juegos, usar la
 skill `add-videogame`.
