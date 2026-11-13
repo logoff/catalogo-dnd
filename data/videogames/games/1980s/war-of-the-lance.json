@@ -32,5 +32,27 @@
       "bundle": "silver-box-classics"
     }
   ],
-  "images": ["/images/videogames/war-of-the-lance/0.png"]
+  "images": ["/images/videogames/war-of-the-lance/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/war-of-the-lance/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/war-of-the-lance/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/war-of-the-lance/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/war-of-the-lance/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/war-of-the-lance/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    }
+  ]
 }

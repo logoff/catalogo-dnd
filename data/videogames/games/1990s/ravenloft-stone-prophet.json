@@ -25,5 +25,31 @@
       "bundle": "ravenloft-series"
     }
   ],
-  "images": ["/images/videogames/ravenloft-stone-prophet/0.png"]
+  "images": ["/images/videogames/ravenloft-stone-prophet/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/ravenloft-stone-prophet/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-stone-prophet/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-stone-prophet/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-stone-prophet/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-stone-prophet/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-stone-prophet/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    }
+  ]
 }

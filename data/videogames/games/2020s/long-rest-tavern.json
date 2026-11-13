@@ -27,5 +27,31 @@
       "channel": "Dotemu",
       "date": "2026-08-26"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/long-rest-tavern/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2837690/"
+    },
+    {
+      "image": "/images/videogames/long-rest-tavern/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2837690/"
+    },
+    {
+      "image": "/images/videogames/long-rest-tavern/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2837690/"
+    },
+    {
+      "image": "/images/videogames/long-rest-tavern/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2837690/"
+    },
+    {
+      "image": "/images/videogames/long-rest-tavern/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2837690/"
+    },
+    {
+      "image": "/images/videogames/long-rest-tavern/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/2837690/"
+    }
   ]
 }

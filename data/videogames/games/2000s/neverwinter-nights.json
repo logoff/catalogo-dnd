@@ -182,5 +182,31 @@
       "channel": "Beamdog",
       "date": "2018-12-04"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/neverwinter-nights/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/704450/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/704450/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/704450/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/704450/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/704450/"
+    },
+    {
+      "image": "/images/videogames/neverwinter-nights/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/704450/"
+    }
   ]
 }

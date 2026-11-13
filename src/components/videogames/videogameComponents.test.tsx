@@ -7,9 +7,10 @@ import ReleaseTable from './ReleaseTable'
 import PurchaseByPlatform from './PurchaseByPlatform'
 import PlatformIcon from './PlatformIcon'
 import YouTubeVideo from './YouTubeVideo'
+import ScreenshotGallery from './ScreenshotGallery'
 import { PLATFORMS_WITH_LOGO } from '@/utils/platformLogos'
 import logoSourcesRaw from '/public/images/platforms/sources.json?raw'
-import type { Platform, VideoWithMeta } from '@/types/videogame'
+import type { Platform, ScreenshotWithMeta, VideoWithMeta } from '@/types/videogame'
 import { describeSpanish, formatPartialDate, platformNames } from '@/utils/videogameTranslations'
 
 describe('SpanishBadge', () => {
@@ -372,5 +373,38 @@ describe('YouTubeVideo', () => {
     const { container } = render(<YouTubeVideo video={video} />)
     fireEvent.keyDown(screen.getByRole('link', { name: /Reproducir/ }), { key })
     expect(container.querySelector('iframe')).not.toBeNull()
+  })
+})
+
+describe('ScreenshotGallery', () => {
+  const screenshots: ScreenshotWithMeta[] = [1, 2, 3, 4].map((n) => ({
+    image: `/images/videogames/juego/screenshot-${n}.webp`,
+    thumbnail: `/images/videogames/juego/screenshot-${n}-thumb.webp`,
+    source: 'https://store.steampowered.com/app/1/',
+  }))
+
+  it('pinta las miniaturas en orden, con texto alternativo que nombra el juego', () => {
+    render(<ScreenshotGallery title="Juego" screenshots={screenshots} />)
+    const images = screenshots.map((_, i) => screen.getByAltText(`Juego: captura ${i + 1} de 4`))
+    expect(images.map((img) => img.getAttribute('src'))).toEqual(
+      screenshots.map((s) => s.thumbnail)
+    )
+  })
+
+  it('al pulsar una miniatura abre esa captura ampliada y navega con el teclado', () => {
+    render(<ScreenshotGallery title="Juego" screenshots={screenshots} />)
+    fireEvent.click(screen.getByRole('button', { name: 'Juego: captura 3 de 4' }))
+    const dialogImage = () =>
+      screen
+        .getAllByRole('img')
+        .find((img) => img.getAttribute('src')?.match(/screenshot-\d\.webp$/))
+    expect(dialogImage()).toHaveAttribute('src', screenshots[2].image)
+    expect(dialogImage()).toHaveAttribute('alt', 'Juego: captura 3 de 4')
+
+    fireEvent.keyDown(document, { key: 'ArrowRight' })
+    expect(dialogImage()).toHaveAttribute('src', screenshots[3].image)
+
+    fireEvent.keyDown(document, { key: 'Escape' })
+    expect(dialogImage()).toBeUndefined()
   })
 })

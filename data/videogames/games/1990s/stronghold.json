@@ -34,5 +34,31 @@
       ]
     }
   ],
-  "images": ["/images/videogames/stronghold/0.png"]
+  "images": ["/images/videogames/stronghold/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/stronghold/screenshot-1.webp",
+      "source": "https://www.gog.com/es/game/dd_stronghold_kingdom_simulator"
+    },
+    {
+      "image": "/images/videogames/stronghold/screenshot-2.webp",
+      "source": "https://www.gog.com/es/game/dd_stronghold_kingdom_simulator"
+    },
+    {
+      "image": "/images/videogames/stronghold/screenshot-3.webp",
+      "source": "https://www.gog.com/es/game/dd_stronghold_kingdom_simulator"
+    },
+    {
+      "image": "/images/videogames/stronghold/screenshot-4.webp",
+      "source": "https://www.gog.com/es/game/dd_stronghold_kingdom_simulator"
+    },
+    {
+      "image": "/images/videogames/stronghold/screenshot-5.webp",
+      "source": "https://www.gog.com/es/game/dd_stronghold_kingdom_simulator"
+    },
+    {
+      "image": "/images/videogames/stronghold/screenshot-6.webp",
+      "source": "https://www.gog.com/es/game/dd_stronghold_kingdom_simulator"
+    }
+  ]
 }

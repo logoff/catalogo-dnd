@@ -120,3 +120,7 @@ video-thumbnails:
 # Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube (solo avisa)
 check-videos:
     node scripts/check-videos.mjs
+
+# Descargar capturas oficiales de un videojuego: just screenshots <slug> --steam | --source <página> <url>...
+screenshots slug +args:
+    node scripts/download-screenshots.mjs {{slug}} {{args}}

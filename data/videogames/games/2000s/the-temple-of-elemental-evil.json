@@ -49,5 +49,31 @@
       "channel": "SNEG",
       "date": "2025-11-27"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/the-temple-of-elemental-evil/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/3843520/"
+    },
+    {
+      "image": "/images/videogames/the-temple-of-elemental-evil/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/3843520/"
+    },
+    {
+      "image": "/images/videogames/the-temple-of-elemental-evil/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/3843520/"
+    },
+    {
+      "image": "/images/videogames/the-temple-of-elemental-evil/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/3843520/"
+    },
+    {
+      "image": "/images/videogames/the-temple-of-elemental-evil/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/3843520/"
+    },
+    {
+      "image": "/images/videogames/the-temple-of-elemental-evil/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/3843520/"
+    }
   ]
 }

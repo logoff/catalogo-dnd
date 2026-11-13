@@ -44,6 +44,7 @@ Abrir <http://localhost:5173/>.
 - `just indexnow` - Avisar a Bing y otros buscadores (IndexNow) de todas las URLs del sitemap
 - `just video-thumbnails` - Descargar las miniaturas que falten de los vídeos de los videojuegos
 - `just check-videos` - Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube
+- `just screenshots <slug> --steam` - Descargar las capturas oficiales de un videojuego desde Steam (o `--source <página> <url>…` para otras fuentes)
 
 ## Vídeos de los videojuegos
 
@@ -58,6 +59,16 @@ reproductor de `youtube-nocookie.com` hasta que se pulsa reproducir.
 `just check-videos` consulta el oEmbed de YouTube y avisa de los vídeos
 retirados, no empotrables o de otro canal. En GitHub Actions se ejecuta
 en cada PR y deja anotaciones, pero nunca hace fallar la build.
+
+## Capturas de los videojuegos
+
+Las fichas pueden llevar hasta seis capturas oficiales en el campo
+`screenshots`, cada una con su imagen y la página de donde sale (Steam,
+GOG, web oficial o kit de prensa). `just screenshots` las descarga, las
+convierte con `sharp` a WebP en dos tamaños
+(`public/images/videogames/<slug>/screenshot-N.webp` y
+`screenshot-N-thumb.webp`) y las añade a la ficha. La ficha muestra las
+miniaturas y abre la captura ampliada en el visor.
 
 ## Despliegue
 

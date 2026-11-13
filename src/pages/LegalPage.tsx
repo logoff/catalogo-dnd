@@ -77,9 +77,11 @@ export default function LegalPage() {
             producto.
           </p>
           <p>
-            Los nombres, logotipos y portadas de los videojuegos son de sus desarrolladoras y
-            editoras; se muestran solo para identificarlos. Las notas de cada ficha son de los
-            medios que se citan, con enlace a la fuente; aquí solo se recoge la cifra.
+            Los nombres, logotipos, portadas y capturas de los videojuegos son de sus
+            desarrolladoras y editoras. Las capturas proceden de sus canales oficiales (tiendas,
+            webs y kits de prensa) y, como el resto, se muestran solo para dar a conocer cada juego.
+            Las notas de cada ficha son de los medios que se citan, con enlace a la fuente; aquí
+            solo se recoge la cifra.
           </p>
           <p>
             Los logotipos de consolas, ordenadores y sistemas (PlayStation, Xbox, Nintendo, Sega,

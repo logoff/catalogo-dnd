@@ -4,6 +4,8 @@ import { resolveImageSrc } from '@/utils/imageResolver'
 
 interface ImageLightboxProps {
   images: string[]
+  // Texto alternativo de cada imagen; sin él, «Imagen N»
+  alts?: string[]
   initialIndex?: number
   isOpen: boolean
   onClose: () => void
@@ -11,6 +13,7 @@ interface ImageLightboxProps {
 
 export default function ImageLightbox({
   images,
+  alts,
   initialIndex = 0,
   isOpen,
   onClose,
@@ -111,7 +114,7 @@ export default function ImageLightbox({
       >
         <img
           src={resolveImageSrc(images[currentIndex])}
-          alt={`Imagen ${currentIndex + 1}`}
+          alt={alts?.[currentIndex] ?? `Imagen ${currentIndex + 1}`}
           className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
         />
       </div>
@@ -148,7 +151,7 @@ export default function ImageLightbox({
             >
               <img
                 src={resolveImageSrc(img)}
-                alt={`Miniatura ${index + 1}`}
+                alt={alts?.[index] ?? `Miniatura ${index + 1}`}
                 className="w-full h-full object-cover"
               />
             </button>

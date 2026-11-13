@@ -51,5 +51,31 @@
       "channel": "PlayStation",
       "date": "2016-07-19"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/neverwinter/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/109600/"
+    },
+    {
+      "image": "/images/videogames/neverwinter/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/109600/"
+    },
+    {
+      "image": "/images/videogames/neverwinter/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/109600/"
+    },
+    {
+      "image": "/images/videogames/neverwinter/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/109600/"
+    },
+    {
+      "image": "/images/videogames/neverwinter/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/109600/"
+    },
+    {
+      "image": "/images/videogames/neverwinter/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/109600/"
+    }
   ]
 }

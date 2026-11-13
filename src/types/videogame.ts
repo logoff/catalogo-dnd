@@ -149,6 +149,13 @@ export interface Video {
   date: string
 }
 
+// Captura oficial (Steam, GOG, web oficial o kit de prensa), guardada en WebP en el sitio
+export interface Screenshot {
+  image: string
+  // Página oficial de donde sale
+  source: string
+}
+
 export interface Expansion {
   title: string
   date?: string
@@ -172,6 +179,7 @@ export interface Videogame {
   reviews?: Review[]
   images?: string[]
   videos?: Video[]
+  screenshots?: Screenshot[]
   official_url?: string
   related_products?: { edition: Edition; code: string }[]
 }
@@ -200,8 +208,13 @@ export interface VideoWithMeta extends Video {
   thumbnail: string
 }
 
+export interface ScreenshotWithMeta extends Screenshot {
+  thumbnail: string
+}
+
 export interface VideogameWithMeta extends Videogame {
   videos: VideoWithMeta[]
+  screenshots: ScreenshotWithMeta[]
   firstReleaseDate: string | null
   decade: number | null
   platforms: Platform[]

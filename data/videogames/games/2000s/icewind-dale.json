@@ -148,5 +148,31 @@
       "channel": "Beamdog",
       "date": "2014-09-05"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/icewind-dale/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/321800/"
+    },
+    {
+      "image": "/images/videogames/icewind-dale/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/321800/"
+    },
+    {
+      "image": "/images/videogames/icewind-dale/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/321800/"
+    },
+    {
+      "image": "/images/videogames/icewind-dale/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/321800/"
+    },
+    {
+      "image": "/images/videogames/icewind-dale/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/321800/"
+    },
+    {
+      "image": "/images/videogames/icewind-dale/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/321800/"
+    }
   ]
 }

@@ -58,5 +58,27 @@
       "channel": "XBOX",
       "date": "2021-03-16"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/dungeons-and-dragons-dark-alliance/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/623280/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-dark-alliance/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/623280/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-dark-alliance/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/623280/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-dark-alliance/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/623280/"
+    },
+    {
+      "image": "/images/videogames/dungeons-and-dragons-dark-alliance/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/623280/"
+    }
   ]
 }

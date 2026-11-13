@@ -32,5 +32,31 @@
       "code": "IDROTF"
     }
   ],
-  "images": ["/images/videogames/icewind-dale-ii/0.jpg"]
+  "images": ["/images/videogames/icewind-dale-ii/0.jpg"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/icewind-dale-ii/screenshot-1.webp",
+      "source": "https://www.gog.com/es/game/icewind_dale_2"
+    },
+    {
+      "image": "/images/videogames/icewind-dale-ii/screenshot-2.webp",
+      "source": "https://www.gog.com/es/game/icewind_dale_2"
+    },
+    {
+      "image": "/images/videogames/icewind-dale-ii/screenshot-3.webp",
+      "source": "https://www.gog.com/es/game/icewind_dale_2"
+    },
+    {
+      "image": "/images/videogames/icewind-dale-ii/screenshot-4.webp",
+      "source": "https://www.gog.com/es/game/icewind_dale_2"
+    },
+    {
+      "image": "/images/videogames/icewind-dale-ii/screenshot-5.webp",
+      "source": "https://www.gog.com/es/game/icewind_dale_2"
+    },
+    {
+      "image": "/images/videogames/icewind-dale-ii/screenshot-6.webp",
+      "source": "https://www.gog.com/es/game/icewind_dale_2"
+    }
+  ]
 }

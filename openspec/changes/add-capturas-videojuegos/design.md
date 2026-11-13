@@ -115,7 +115,8 @@ Componente nuevo `ScreenshotGallery` en `src/components/videogames/`:
 ```
 
 - Cada miniatura es un `<button>` con la imagen dentro (`loading="lazy"`,
-  relación 16:9 con `object-cover`), así que se activa con ratón,
+  relación 16:9 con `object-contain` sobre fondo negro, para no recortar
+  las capturas 4:3 de los juegos antiguos), así que se activa con ratón,
   Enter o espacio sin código extra.
 - Texto alternativo: «<título del juego>: captura N de M», igual en la
   miniatura y en el visor.

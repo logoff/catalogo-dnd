@@ -33,5 +33,19 @@
       "bundle": "krynn-series"
     }
   ],
-  "images": ["/images/videogames/the-dark-queen-of-krynn/0.png"]
+  "images": ["/images/videogames/the-dark-queen-of-krynn/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/the-dark-queen-of-krynn/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    },
+    {
+      "image": "/images/videogames/the-dark-queen-of-krynn/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    },
+    {
+      "image": "/images/videogames/the-dark-queen-of-krynn/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    }
+  ]
 }

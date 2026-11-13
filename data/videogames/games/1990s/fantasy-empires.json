@@ -31,5 +31,31 @@
       ]
     }
   ],
-  "images": ["/images/videogames/fantasy-empires/0.png"]
+  "images": ["/images/videogames/fantasy-empires/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/fantasy-empires/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2350530/"
+    },
+    {
+      "image": "/images/videogames/fantasy-empires/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2350530/"
+    },
+    {
+      "image": "/images/videogames/fantasy-empires/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2350530/"
+    },
+    {
+      "image": "/images/videogames/fantasy-empires/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2350530/"
+    },
+    {
+      "image": "/images/videogames/fantasy-empires/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2350530/"
+    },
+    {
+      "image": "/images/videogames/fantasy-empires/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/2350530/"
+    }
+  ]
 }

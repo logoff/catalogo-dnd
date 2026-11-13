@@ -1,5 +1,4 @@
-// Vídeos de las fichas de videojuegos, para los scripts que descargan sus miniaturas y
-// comprueban que siguen disponibles en YouTube
+// Lectura de las fichas de videojuegos para los scripts de vídeos y capturas
 import { readFileSync, readdirSync, statSync } from 'fs'
 import { join, dirname, relative } from 'path'
 import { fileURLToPath } from 'url'
@@ -18,6 +17,11 @@ function walk(dir) {
 // Misma ruta que videoThumbnail() en src/services/videogameLoader.ts
 export function thumbnailPath(slug, youtube) {
   return join(ROOT, 'public', 'images', 'videogames', slug, `video-${youtube}.jpg`)
+}
+
+// Ruta del JSON de un juego a partir de su slug
+export function gameFile(slug) {
+  return walk(VIDEOGAMES_DIR).find((file) => file.endsWith(`/${slug}.json`))
 }
 
 export function allVideos() {

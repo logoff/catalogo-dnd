@@ -133,5 +133,31 @@
       "channel": "Beamdog",
       "date": "2013-11-13"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/baldurs-gate-ii/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/257350/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-ii/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/257350/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-ii/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/257350/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-ii/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/257350/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-ii/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/257350/"
+    },
+    {
+      "image": "/images/videogames/baldurs-gate-ii/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/257350/"
+    }
   ]
 }

@@ -35,5 +35,27 @@
       "bundle": "krynn-series"
     }
   ],
-  "images": ["/images/videogames/death-knights-of-krynn/0.png"]
+  "images": ["/images/videogames/death-knights-of-krynn/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/death-knights-of-krynn/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    },
+    {
+      "image": "/images/videogames/death-knights-of-krynn/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    },
+    {
+      "image": "/images/videogames/death-knights-of-krynn/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    },
+    {
+      "image": "/images/videogames/death-knights-of-krynn/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    },
+    {
+      "image": "/images/videogames/death-knights-of-krynn/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/1904610/"
+    }
+  ]
 }

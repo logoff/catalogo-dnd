@@ -12,6 +12,11 @@ export function videoThumbnail(slug: string, youtube: string): string {
   return `/images/videogames/${slug}/video-${youtube}.jpg`
 }
 
+// La miniatura de una captura va junto a ella: screenshot-1.webp → screenshot-1-thumb.webp
+export function screenshotThumbnail(image: string): string {
+  return image.replace(/\.webp$/, '-thumb.webp')
+}
+
 // Todos los JSON de videojuegos, importados en tiempo de build
 const videogameModules = import.meta.glob<Videogame>('/data/videogames/games/**/*.json', {
   eager: true,
@@ -78,6 +83,10 @@ export function enrichVideogame(game: Videogame): VideogameWithMeta {
     videos: (game.videos ?? []).map((video) => ({
       ...video,
       thumbnail: videoThumbnail(game.slug, video.youtube),
+    })),
+    screenshots: (game.screenshots ?? []).map((screenshot) => ({
+      ...screenshot,
+      thumbnail: screenshotThumbnail(screenshot.image),
     })),
     firstReleaseDate,
     decade: firstReleaseDate ? Math.floor(Number(firstReleaseDate.slice(0, 4)) / 10) * 10 : null,

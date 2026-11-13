@@ -42,6 +42,12 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
   vídeo oficial, el juego no lleva `videos`. Como mucho tres: el tráiler
   principal y, si los hay, el de anuncio, el de lanzamiento o el de una
   expansión.
+- **Capturas solo de fuentes oficiales:** la página del juego en Steam o
+  GOG, su web oficial o el kit de prensa de la editora o la
+  desarrolladora. Nada de capturas de usuarios, medios, MobyGames ni
+  wikis. Si no hay ninguna fuente oficial, el juego no lleva
+  `screenshots`. Como mucho seis, y solo capturas reales del juego, no
+  arte promocional ni logotipos.
 
 ## Fuentes recomendadas
 
@@ -53,6 +59,7 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
 | Dónde se vende | API de GOG `https://catalog.gog.com/v1/catalog?query=like:<título>&countryCode=ES` y búsqueda de Steam `https://store.steampowered.com/api/storesearch/?term=<título>&cc=ES` |
 | Notas | Metacritic, OpenCritic y los medios admitidos |
 | Portada | Imagen de la infobox de Wikipedia (API `prop=imageinfo`) o `library_600x900.jpg` de Steam |
+| Capturas | Página de Steam (`just screenshots <slug> --steam` las toma de su API) o capturas de la ficha de GOG, la web oficial o el kit de prensa |
 | Vídeos | Canal de YouTube de la editora o la desarrolladora (enlazado desde la web oficial), nota de prensa del lanzamiento y página de Steam; canal y título exactos con `https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=<id>` (`author_name`, `title`) y fecha en la página del vídeo (`"uploadDate"`) |
 
 ## Pasos
@@ -75,14 +82,21 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
    slug, en kebab-case. Esquema: `data/schemas/videogame.jsonschema`.
    Campos obligatorios: `slug`, `title`, `description`, `developers`,
    `publishers`, `genres` y `releases`.
-6. **Descripción propia de dos párrafos** separados por `\n\n`: qué es
+6. **Añadir capturas** con el JSON ya escrito. Si tiene enlace a Steam,
+   `just screenshots <slug> --steam` descarga las seis primeras de su
+   página; si no, `just screenshots <slug> --source <página oficial>
+   <url imagen>…` con las que elijas. El script las convierte a WebP
+   (ampliada y miniatura) y las anota en `screenshots` con su fuente.
+   Revisa las imágenes y quita las que no sean capturas del juego
+   (borra la entrada y sus dos archivos).
+7. **Descripción propia de dos párrafos** separados por `\n\n`: qué es
    el juego y en qué mundo y reglas se basa; para quién es, cómo se
    juega hoy y si está en castellano. Sin copiar textos de tiendas ni
    reseñas. Pide al usuario que la revise.
-7. **Marcar la ficha en el inventario**: cambia `pendiente` por el slug
+8. **Marcar la ficha en el inventario**: cambia `pendiente` por el slug
    en la columna «Ficha».
-8. **Verificar** con `just check` (los tests validan el esquema, la
-   descripción, las imágenes, las miniaturas de los vídeos, las URLs y
+9. **Verificar** con `just check` (los tests validan el esquema, la
+   descripción, las imágenes, las miniaturas de los vídeos, las capturas, las URLs y
    la coherencia con el inventario) y, si hace falta, mira la ficha con `just dev` en
    `/videojuego/<slug>`.
 
@@ -91,5 +105,5 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
 `data/videogames/games/2020s/baldurs-gate-3.json` es la ficha de
 referencia: lanzamientos por plataforma con su castellano, notas con
 plataforma, enlaces de compra en el lanzamiento de PC, tráiler de
-lanzamiento del canal de Larian (`videos`) y libro relacionado
-(`related_products`).
+lanzamiento del canal de Larian (`videos`), capturas de Steam
+(`screenshots`) y libro relacionado (`related_products`).

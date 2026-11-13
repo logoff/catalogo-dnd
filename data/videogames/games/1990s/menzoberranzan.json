@@ -30,5 +30,23 @@
       "bundle": "forgotten-realms-archives-3"
     }
   ],
-  "images": ["/images/videogames/menzoberranzan/0.png"]
+  "images": ["/images/videogames/menzoberranzan/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/menzoberranzan/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/menzoberranzan/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/menzoberranzan/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/menzoberranzan/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    }
+  ]
 }

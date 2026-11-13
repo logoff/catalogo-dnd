@@ -33,5 +33,27 @@
       "bundle": "silver-box-classics"
     }
   ],
-  "images": ["/images/videogames/shadow-sorcerer/0.png"]
+  "images": ["/images/videogames/shadow-sorcerer/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/shadow-sorcerer/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/shadow-sorcerer/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/shadow-sorcerer/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/shadow-sorcerer/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/shadow-sorcerer/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    }
+  ]
 }
