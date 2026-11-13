@@ -90,7 +90,9 @@ al dar de alta el artículo.)
   - `games`: `board_game`, `card_game`.
     El esquema valida la pareja grupo y tipo con `if`/`then`.
 - `editions`: `language` opcional (`english` o `castellano`), porque una
-  figura no tiene idioma; `title`, `publisher` y `date` solo si cambian
+  figura no tiene idioma; en las ediciones en castellano, `spain`
+  (obligatorio) indica si se publicó en España (`true`) o solo fuera,
+  como las de DK en español para Estados Unidos (`false`); `title`, `publisher` y `date` solo si cambian
   respecto al artículo; `isbn13` o `ean` cuando existan;
   `purchase_links` con el mismo formato que los libros.
 - `source`: página oficial del fabricante o de Wizards que confirma la
@@ -104,14 +106,19 @@ torno a plataformas y lanzamientos).
 
 ### Campos derivados
 
-`merchandiseLoader.ts` añade a cada artículo `year`, `hasSpanish` (alguna
-edición en castellano) y `availableToBuy` (alguna edición con enlace),
+`merchandiseLoader.ts` añade a cada artículo `year`, `spanish`
+(`spain` si alguna edición en castellano se publicó en España,
+`elsewhere` si solo las hay fuera, `none` si no hay) y `availableToBuy`
+(alguna edición con enlace),
 y los ordena por fecha descendente con los que no tienen fecha al final.
 
 ### Listado y filtros
 
+- Todo lo que sale con licencia entra en la sección aunque solo se venda
+  en inglés, para que se vea qué llega a España y qué no.
 - `MerchandisePage` con el mismo esqueleto que `VideogamesPage`: barra
-  de búsqueda, panel de filtros (grupo, tipo, castellano, a la venta),
+  de búsqueda, panel de filtros (grupo, tipo, castellano publicado en
+  España, a la venta),
   selector de orden y rejilla de `MerchandiseCard`.
 - Búsqueda sin tildes reutilizando la normalización que ya usa el
   listado de videojuegos.
@@ -123,9 +130,9 @@ y los ordena por fecha descendente con los que no tienen fecha al final.
 `MerchandiseDetail` con la cabecera de imágenes y datos de
 `VideogameDetail`, una sección «Dónde comprar» con una fila por edición
 (idioma, título y `PurchaseButton` por enlace) y una sección
-«Relacionado» con enlaces a libros y videojuegos. Los botones llevan los
-datos de Umami de los demás botones de compra, con
-`data-umami-event-section="merchandising"`.
+«Relacionado» con enlaces a libros y videojuegos. Los botones llevan los datos de Umami de los demás botones de compra, con
+`data-umami-event-merchandising` (el slug) y `data-umami-event-idioma`, como
+hace `videojuego` en las fichas de videojuegos.
 
 ### Navegación y textos
 
@@ -139,7 +146,8 @@ datos de Umami de los demás botones de compra, con
 ### Inventario y skill
 
 - `data/merchandising/inventory.md`: tabla con grupo, título, fabricante,
-  año, si hay edición en castellano, fuente y ficha (slug o
+  año, si hay edición en castellano y si se publicó en España, fuente y
+  ficha (slug o
   «pendiente»), igual que el de videojuegos. Un test exige que cada
   ficha esté en el inventario y al revés.
 - Fuentes para el inventario: la página de productos con licencia de
@@ -157,6 +165,9 @@ son los más numerosos y los que más cambian.
 
 ## Risks / Trade-offs
 
+- [Líneas de miniaturas con decenas de sets, como Icons of the Realms]
+  → Una sola ficha para toda la línea, con los sets en la descripción y
+  enlaces de compra a los más representativos.
 - [El inventario de figuras puede ser enorme (cada ola de Funko o de
   miniaturas)] → Una ficha por línea o set reconocible, no por cada
   variante; el inventario se revisa con el usuario antes de cargarlo.

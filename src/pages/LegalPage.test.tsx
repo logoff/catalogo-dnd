@@ -25,4 +25,15 @@ describe('LegalPage', () => {
       'proceden de sus canales oficiales'
     )
   })
+
+  it('menciona los productos de merchandising con licencia', () => {
+    render(
+      <MemoryRouter>
+        <LegalPage />
+      </MemoryRouter>
+    )
+    expect(screen.getByText(/productos de merchandising/)).toHaveTextContent(
+      'licencia oficial de Dungeons & Dragons'
+    )
+  })
 })

@@ -75,9 +75,21 @@ origen) en WebP con miniatura `-thumb.webp`, en `ScreenshotGallery.tsx`.
 cada ficha esté en ella y al revés. Para dar de alta juegos, usar la
 skill `add-videogame`.
 
+**Merchandising:** productos con licencia oficial de D&D desde 2014 que
+no son de reglas (libros licenciados, figuras y juguetes, juegos de mesa
+y cartas). Cada artículo es un JSON en
+`data/merchandising/items/<grupo>/<slug>.json` (esquema
+`data/schemas/merchandise.jsonschema`) con sus ediciones por idioma; las
+de castellano indican si salieron en España (`spain`).
+`merchandiseLoader.ts` los enriquece en `MerchandiseWithMeta`.
+`data/merchandising/inventory.md` es la lista maestra (un test exige que
+cada ficha esté en ella y al revés). Para dar de alta artículos, usar la
+skill `add-merchandise`.
+
 **Rutas:** `/catalogo` (catálogo completo), `/2014` y `/2024` (páginas
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
-de producto), `/videojuegos` (listado) y `/videojuego/:slug` (ficha).
+de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandising`
+(listado) y `/merchandising/:slug` (ficha).
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
 cada tienda (Amazon, Adtraction, Awin, Instant Gaming); los JSON guardan

@@ -5,8 +5,10 @@
 Te encuentras en el repositorio del **Catálogo Dungeons & Dragons**,
 que ofrece una lista completa de todos los libros y accesorios publicados
 en inglés y en castellano de Dungeons & Dragons de las ediciones
-5E (2014) y 5.5E (2024), y de todos los videojuegos oficiales de D&D,
-con las plataformas, si están en castellano y dónde comprarlos.
+5E (2014) y 5.5E (2024), de todos los videojuegos oficiales de D&D,
+con las plataformas, si están en castellano y dónde comprarlos, y del
+merchandising con licencia oficial (libros de cocina y de arte, figuras,
+LEGO y juegos de mesa).
 
 **🌐 Consulta el catálogo en [catalogodnd.es](https://catalogodnd.es/)**
 
@@ -81,6 +83,16 @@ workflow necesita los secretos del repositorio `CLOUDFLARE_API_TOKEN`
 La antigua dirección `logoff.github.io/catalogo-dnd/` sirve una página
 que redirige cada ruta al dominio nuevo. Se publica ejecutando a mano
 el workflow _Redirección desde GitHub Pages_.
+
+## Merchandising
+
+La sección `/merchandising` reúne productos con licencia oficial de D&D
+desde 2014 que no son de reglas: libros licenciados, figuras y juguetes,
+y juegos de mesa y cartas. Cada artículo es un JSON en
+`data/merchandising/items/<grupo>/<slug>.json` con sus ediciones por
+idioma; las ediciones en castellano indican si se publicaron en España.
+La lista maestra es `data/merchandising/inventory.md`, y la skill
+`add-merchandise` explica cómo dar de alta artículos.
 
 ## Enlaces de afiliado
 

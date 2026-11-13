@@ -39,6 +39,9 @@ export default function Header() {
             <NavLink to="/videojuegos" className={navLinkClass}>
               Videojuegos
             </NavLink>
+            <NavLink to="/merchandising" className={navLinkClass}>
+              Merchandising
+            </NavLink>
             <NavLink to="/guias" className={navLinkClass}>
               Guías
             </NavLink>
@@ -88,6 +91,13 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Videojuegos
+              </NavLink>
+              <NavLink
+                to="/merchandising"
+                className={navLinkClass}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Merchandising
               </NavLink>
               <NavLink
                 to="/guias"

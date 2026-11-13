@@ -34,6 +34,7 @@ async function previewImage(imageUrl) {
   const previewPath = imageUrl
     .replace(`${SITE_URL}/images/products/`, '/images/previews/')
     .replace(`${SITE_URL}/images/videogames/`, '/images/previews/videogames/')
+    .replace(`${SITE_URL}/images/merchandising/`, '/images/previews/merchandising/')
     .replace(/\.\w+$/, '.jpg')
   const target = join(DIST_DIR, previewPath)
 
@@ -60,7 +61,8 @@ for (const path of paths) {
   const image = head.match(/property="og:image" content="([^"]+)"/)?.[1]
   if (
     image?.startsWith(`${SITE_URL}/images/products/`) ||
-    image?.startsWith(`${SITE_URL}/images/videogames/`)
+    image?.startsWith(`${SITE_URL}/images/videogames/`) ||
+    image?.startsWith(`${SITE_URL}/images/merchandising/`)
   ) {
     head = head.replaceAll(image, await previewImage(image))
   }
