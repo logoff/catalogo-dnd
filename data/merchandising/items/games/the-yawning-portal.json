@@ -1,0 +1,28 @@
+{
+  "slug": "the-yawning-portal",
+  "title": "Dungeons & Dragons: The Yawning Portal",
+  "title_es": "El Portal Bostezante",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "Hasbro",
+  "date": "2023",
+  "description": "Juego de estrategia ambientado en la taberna del Portal Bostezante, en Waterdeep, en el que hay que atender a una clientela de criaturas hambrientas que comen sin medida.\n\nEs un juego de mesa ligero para grupos y familias aficionados a D&D. Hasbro lo vende en España en castellano con el título El Portal Bostezante.",
+  "source": "https://hasbropulse.com/collections/all-products/products/dungeons-dragons-the-yawning-portal",
+  "editions": [
+    {
+      "language": "english"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons: El Portal Bostezante",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BGM3PC7Q/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/the-yawning-portal/0.jpg"]
+}

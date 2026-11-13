@@ -1,0 +1,16 @@
+{
+  "slug": "trivial-pursuit-dungeons-and-dragons",
+  "title": "Trivial Pursuit: Dungeons & Dragons Ultimate Edition",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "The Op",
+  "date": "2022-11",
+  "description": "Trivial Pursuit con 1800 preguntas sobre Dungeons & Dragons repartidas en seis categorías, como monstruos, historia o cosmología, con tablero completo y fichas esculpidas con forma de criaturas del juego.\n\nEs para grupos que llevan años jugando a D&D y quieren medir quién sabe más del juego. Solo se vende en inglés.",
+  "source": "https://theop.games/products/trivial-pursuit-dungeon-dragons-ultimate",
+  "editions": [
+    {
+      "language": "english"
+    }
+  ],
+  "images": ["/images/merchandising/trivial-pursuit-dungeons-and-dragons/0.jpg"]
+}

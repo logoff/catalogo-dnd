@@ -1,0 +1,16 @@
+{
+  "slug": "yahtzee-dungeons-and-dragons",
+  "title": "Yahtzee: Dungeons & Dragons",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "The Op",
+  "date": "2022-09-22",
+  "description": "Yahtzee con las reglas de siempre y temática de D&D: el cubilete es una torre de dados con textura de escamas de dragón en la que caben dados de d4 a d20, y los dados de seis caras llevan monstruos como el contemplador o el desollador mental en lugar de puntos.\n\nEs un regalo sencillo para jugadores de D&D, y la torre de dados sirve después en la mesa de rol. Solo se vende en inglés.",
+  "source": "https://theop.games/blogs/theop/yahtzee-dungeons-and-dragons-available-now",
+  "editions": [
+    {
+      "language": "english"
+    }
+  ],
+  "images": ["/images/merchandising/yahtzee-dungeons-and-dragons/0.jpg"]
+}

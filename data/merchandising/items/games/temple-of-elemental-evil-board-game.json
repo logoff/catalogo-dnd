@@ -1,0 +1,22 @@
+{
+  "slug": "temple-of-elemental-evil-board-game",
+  "title": "Temple of Elemental Evil Board Game",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "WizKids",
+  "date": "2015-02",
+  "description": "Juego de mesa cooperativo de exploración de mazmorras del D&D Adventure System, para jugar en solitario o con hasta cinco jugadores. Cada misión se juega en una hora o menos, y su contenido se puede combinar con el de los demás juegos de la serie.\n\nEs para quien quiere la sensación de una partida de D&D sin director de juego, con monstruos que se mueven solos. Solo se vende en inglés.",
+  "source": "https://wizkids.com/?p=2388",
+  "editions": [
+    {
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00TLRT3YC/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/temple-of-elemental-evil-board-game/0.jpg"]
+}
