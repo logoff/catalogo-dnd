@@ -1,0 +1,26 @@
+{
+  "slug": "official-baldurs-gate-3-coloring-book",
+  "title": "The Official Baldur's Gate 3 Coloring Book",
+  "group": "books",
+  "kind": "craft_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-08-12",
+  "description": "Libro oficial para colorear dedicado al videojuego Baldur's Gate 3, con láminas de sus personajes y escenarios.\n\nEs para quien ha jugado a Baldur's Gate 3 y quiere un recuerdo distinto del juego. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780593840009",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-08-12",
+      "isbn13": 9780593840009,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593840003/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/official-baldurs-gate-3-coloring-book/0.jpg"],
+  "related_videogames": ["baldurs-gate-3"]
+}

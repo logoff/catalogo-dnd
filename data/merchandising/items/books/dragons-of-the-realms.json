@@ -1,0 +1,25 @@
+{
+  "slug": "dragons-of-the-realms",
+  "title": "Dragons of the Realms: An Official Dungeons & Dragons Coloring Book",
+  "group": "books",
+  "kind": "craft_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2025-10-14",
+  "description": "Libro oficial para colorear dedicado sobre todo a los dragones de Dungeons & Dragons, con láminas de línea para colorear.\n\nEs un regalo sencillo para quien disfruta coloreando y conoce el juego, sin necesidad de saber las reglas. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780593838181",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2025-10-14",
+      "isbn13": 9780593838181,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593838181/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dragons-of-the-realms/0.jpg"]
+}

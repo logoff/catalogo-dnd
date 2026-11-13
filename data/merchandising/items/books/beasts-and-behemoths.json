@@ -1,0 +1,33 @@
+{
+  "slug": "beasts-and-behemoths",
+  "title": "Beasts & Behemoths: A Young Adventurer's Guide",
+  "title_es": "Bestias & Colosos",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2020-10-20",
+  "description": "Guía ilustrada de las bestias y criaturas gigantescas de Dungeons & Dragons, de animales mágicos a colosos, con fichas que explican dónde viven y cómo comportarse ante ellas.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Está en castellano en Minotauro con el título Bestias & Colosos.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984858788",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2020-10-20",
+      "isbn13": 9781984858788,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984858785/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Bestias & Colosos",
+      "publisher": "Minotauro",
+      "date": "2025-02-12"
+    }
+  ],
+  "images": ["/images/merchandising/beasts-and-behemoths/0.jpg"]
+}

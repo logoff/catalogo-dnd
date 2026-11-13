@@ -1,0 +1,25 @@
+{
+  "slug": "warriors-and-wizards-compendium",
+  "title": "The Warriors & Wizards Compendium: A Young Adventurer's Guide",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2025-11-05",
+  "description": "Volumen recopilatorio de las guías para jóvenes aventureros dedicado a guerreros y magos, que reúne en un solo libro material de varias guías de la serie.\n\nEs para lectores de ocho a doce años que quieren crear personajes con todo el material en un solo libro. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780593839706",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2025-11-05",
+      "isbn13": 9780593839706,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593839706/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/warriors-and-wizards-compendium/0.jpg"]
+}

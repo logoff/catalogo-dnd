@@ -1,0 +1,43 @@
+{
+  "slug": "dragons-and-treasures",
+  "title": "Dragons & Treasures: A Young Adventurer's Guide",
+  "title_es": "Dragones & Tesoros",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2022-11-01",
+  "description": "Guía ilustrada de los dragones de Dungeons & Dragons y de los tesoros y objetos mágicos que guardan en sus guaridas.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Está en castellano en Minotauro.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984858801",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2022-11-01",
+      "isbn13": 9781984858801,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984858807/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Dragones & Tesoros",
+      "publisher": "Minotauro",
+      "date": "2025-02-12",
+      "isbn13": 9788445019054,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445019058/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/dragons-and-treasures/0.jpg",
+    "/images/merchandising/dragons-and-treasures/1.jpg"
+  ]
+}

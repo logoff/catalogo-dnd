@@ -84,6 +84,11 @@ export default function LegalPage() {
             solo se recoge la cifra.
           </p>
           <p>
+            Los nombres e imágenes de los productos de merchandising (libros, figuras, juguetes y
+            juegos de mesa) son de sus fabricantes y de Wizards of the Coast, que los publican con
+            licencia oficial de Dungeons & Dragons; se muestran solo para identificarlos.
+          </p>
+          <p>
             Los logotipos de consolas, ordenadores y sistemas (PlayStation, Xbox, Nintendo, Sega,
             Windows, macOS y otros) son marcas de sus respectivos propietarios. Se usan solo para
             indicar en qué plataformas está disponible cada juego, sin que eso suponga ninguna

@@ -22,7 +22,8 @@ artículos de la sección, prerenderizada e incluida en el sitemap.
 
 Cada artículo del listado SHALL mostrar su imagen principal, su título,
 su tipo, el año de salida si se conoce y una marca si tiene edición en
-castellano, y enlazar a su ficha.
+castellano, distinta según se haya publicado en España o solo fuera, y
+enlazar a su ficha.
 
 #### Scenario: Artículo sin fecha
 
@@ -31,13 +32,20 @@ castellano, y enlazar a su ficha.
 
 #### Scenario: Libro con edición en castellano
 
-- **WHEN** un libro tiene edición en castellano
+- **WHEN** un libro tiene edición en castellano publicada en España
 - **THEN** su tarjeta lo indica
+
+#### Scenario: Edición en español fuera de España
+
+- **WHEN** la única edición en español de un libro se publicó fuera de
+  España
+- **THEN** su tarjeta indica que hay edición en español pero no en España
 
 ### Requirement: Filtros
 
 El listado SHALL permitir filtrar por grupo, por tipo, por artículos con
-edición en castellano y por artículos a la venta, y combinar los filtros.
+edición en castellano publicada en España y por artículos a la venta, y
+combinar los filtros.
 
 #### Scenario: Filtrar por grupo
 

@@ -1,0 +1,40 @@
+{
+  "slug": "heroes-feast",
+  "title": "Heroes' Feast: The Official D&D Cookbook",
+  "title_es": "Festín de héroes",
+  "group": "books",
+  "kind": "cookbook",
+  "manufacturer": "Ten Speed Press",
+  "date": "2020-10-27",
+  "description": "El libro de cocina oficial de Dungeons & Dragons: unas ochenta recetas inspiradas en las razas y los lugares de los Reinos Olvidados, desde el pan élfico y las raciones de hierro hasta guisos de taberna, postres y bebidas, con ilustraciones y textos de ambientación entre plato y plato.\n\nEs un regalo pensado para grupos que quieren cocinar algo temático para la partida y para quien colecciona libros de D&D aunque no juegue. Está en castellano en Minotauro con el título Festín de héroes.",
+  "source": "https://www.planetadelibros.com/libro-festin-de-heroes/340092",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2020-10-27",
+      "isbn13": 9781984858900,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984858904/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Festín de héroes: El libro de cocina oficial de D&D",
+      "publisher": "Minotauro",
+      "date": "2021-11-24",
+      "isbn13": 9788445012000,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445012002/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/heroes-feast/0.jpg", "/images/merchandising/heroes-feast/1.jpg"]
+}

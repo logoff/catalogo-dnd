@@ -1,0 +1,25 @@
+{
+  "slug": "places-and-portals",
+  "title": "Places & Portals: A Young Adventurer's Guide",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-09-19",
+  "description": "Guía ilustrada de lugares del multiverso de Dungeons & Dragons y de los portales que llevan de un mundo a otro.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984861849",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-09-19",
+      "isbn13": 9781984861849,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984861840/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/places-and-portals/0.jpg"]
+}

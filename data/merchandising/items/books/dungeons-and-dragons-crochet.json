@@ -1,0 +1,25 @@
+{
+  "slug": "dungeons-and-dragons-crochet",
+  "title": "Dungeons & Dragons Crochet: A Book of Many Patterns",
+  "group": "books",
+  "kind": "craft_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-03-31",
+  "description": "Libro oficial de patrones de crochet con veinte proyectos inspirados en el multiverso de Dungeons & Dragons, firmados por varias diseñadoras, con las instrucciones de cada pieza.\n\nEs para quien hace ganchillo y juega a D&D, o para regalar a alguien del grupo que teje. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780593836767",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-03-31",
+      "isbn13": 9780593836767,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593836766/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeons-and-dragons-crochet/0.jpg"]
+}

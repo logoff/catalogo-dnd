@@ -1,0 +1,25 @@
+{
+  "slug": "characters-and-quests",
+  "title": "Characters & Quests: A Young Adventurer's Workbook",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-09-26",
+  "description": "Cuaderno de actividades de la serie de guías para jóvenes aventureros para crear un héroe de Dungeons & Dragons y escribir sus aventuras, con ejercicios para inventar personajes, lugares y misiones.\n\nEs para lectores de ocho a doce años que prefieren escribir y dibujar a leer. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780593577707",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-09-26",
+      "isbn13": 9780593577707,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593577701/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/characters-and-quests/0.jpg"]
+}

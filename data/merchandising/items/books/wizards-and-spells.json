@@ -1,0 +1,43 @@
+{
+  "slug": "wizards-and-spells",
+  "title": "Wizards & Spells: A Young Adventurer's Guide",
+  "title_es": "Magos & Conjuros",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2020-03-10",
+  "description": "Guía ilustrada de las clases que usan magia en Dungeons & Dragons y de sus conjuros más conocidos, con ideas para crear personajes lanzadores de hechizos.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Está en castellano en Minotauro.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984856463",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2020-03-10",
+      "isbn13": 9781984856463,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984856464/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Magos & Conjuros",
+      "publisher": "Minotauro",
+      "date": "2021-05-05",
+      "isbn13": 9788445009253,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445009257/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/wizards-and-spells/0.jpg",
+    "/images/merchandising/wizards-and-spells/1.jpg"
+  ]
+}

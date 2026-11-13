@@ -74,13 +74,21 @@ castellano.
 Un artículo SHALL poder tener varias ediciones, cada una con su idioma
 (inglés o castellano), su título, su editorial si cambia, su fecha y sus
 enlaces de compra. Solo SHALL constar una edición en castellano cuando
-una fuente la confirme.
+una fuente la confirme, y cada edición en castellano SHALL indicar si se
+publicó en España o solo fuera de España.
 
 #### Scenario: Libro traducido
 
 - **WHEN** un libro licenciado tiene edición en inglés y en castellano
 - **THEN** el artículo tiene dos ediciones, una por idioma, con su
   título y sus enlaces de compra
+
+#### Scenario: Edición en español solo para América
+
+- **WHEN** un libro tiene edición en español publicada en Estados Unidos
+  y no en España
+- **THEN** la edición consta en castellano con la indicación de que no
+  se publicó en España
 
 #### Scenario: Juguete sin idioma
 

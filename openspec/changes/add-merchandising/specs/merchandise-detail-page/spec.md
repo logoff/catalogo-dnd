@@ -37,8 +37,8 @@ datos que no se conozcan.
 
 ### Requirement: Ediciones y compra
 
-La ficha SHALL mostrar cada edición con su idioma, su título y sus
-botones de compra, con el afiliado de cada tienda cuando esté
+La ficha SHALL mostrar cada edición con su idioma, si es en castellano
+si se publicó en España, su título y sus botones de compra, con el afiliado de cada tienda cuando esté
 configurado, y avisar cuando un artículo no tenga ningún enlace de
 compra.
 
@@ -47,6 +47,12 @@ compra.
 - **WHEN** un libro tiene edición en inglés y en castellano
 - **THEN** la ficha muestra las dos con sus títulos y sus botones de
   compra
+
+#### Scenario: Edición en español no publicada en España
+
+- **WHEN** un libro solo tiene edición en español fuera de España
+- **THEN** la ficha muestra esa edición indicando que no se publicó en
+  España, con su enlace de compra si se vende en las tiendas del sitio
 
 #### Scenario: Artículo sin enlaces
 

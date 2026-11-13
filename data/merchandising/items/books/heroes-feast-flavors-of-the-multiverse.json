@@ -1,0 +1,43 @@
+{
+  "slug": "heroes-feast-flavors-of-the-multiverse",
+  "title": "Heroes' Feast: Flavors of the Multiverse",
+  "title_es": "Festín de héroes: Sabores del multiverso",
+  "group": "books",
+  "kind": "cookbook",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-11-07",
+  "description": "Segundo libro de cocina oficial de Dungeons & Dragons, con setenta y seis recetas que viajan más allá de los Reinos Olvidados: platos inspirados en los distintos planos del multiverso de D&D, con textos de ambientación entre receta y receta.\n\nEs la continuación natural de Heroes' Feast para quien ya lo tiene, y funciona igual de bien por sí solo como regalo para el grupo de juego. Está en castellano en Minotauro con el título Festín de héroes: Sabores del multiverso.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984861313",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-11-07",
+      "isbn13": 9781984861313,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/198486131X/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Festín de héroes: Sabores del multiverso",
+      "publisher": "Minotauro",
+      "date": "2025-01-29",
+      "isbn13": 9788445019047,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/844501904X/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/heroes-feast-flavors-of-the-multiverse/0.jpg",
+    "/images/merchandising/heroes-feast-flavors-of-the-multiverse/1.jpg"
+  ]
+}

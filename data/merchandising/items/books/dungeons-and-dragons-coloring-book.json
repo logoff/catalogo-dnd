@@ -1,0 +1,25 @@
+{
+  "slug": "dungeons-and-dragons-coloring-book",
+  "title": "The Dungeons & Dragons Coloring Book: 80 Adventurous Line Drawings",
+  "group": "books",
+  "kind": "craft_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-09-05",
+  "description": "Libro oficial para colorear con ochenta láminas de línea de personajes, monstruos y escenas de Dungeons & Dragons.\n\nEs un regalo sencillo para quien colorea y conoce el juego, y también para jugadores jóvenes. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984862198",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-09-05",
+      "isbn13": 9781984862198,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984862197/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeons-and-dragons-coloring-book/0.jpg"]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "art-and-arcana",
+  "title": "Dungeons & Dragons Art & Arcana: A Visual History",
+  "group": "books",
+  "kind": "art_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2018-10-23",
+  "description": "Historia visual de Dungeons & Dragons desde sus orígenes, contada a través del arte de los libros, las cajas, las revistas y los productos de cada edición, con ilustraciones originales, bocetos y material de archivo.\n\nEs un libro de mesa para quien quiere conocer la historia del juego y su estética a lo largo de las décadas. Solo está en inglés; tiene una edición especial en caja con reproducciones de material de época.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780399580949",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2018-10-23",
+      "isbn13": 9780399580949,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0399580948/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/art-and-arcana/0.jpg"]
+}

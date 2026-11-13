@@ -1,0 +1,25 @@
+{
+  "slug": "lore-and-legends",
+  "title": "Dungeons & Dragons Lore & Legends: A Visual Celebration of the Fifth Edition",
+  "group": "books",
+  "kind": "art_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-10-03",
+  "description": "Repaso visual de la quinta edición de Dungeons & Dragons con más de novecientas ilustraciones, fotografías y piezas promocionales de sus libros, aventuras y productos, publicado para el décimo aniversario de la edición.\n\nEs la continuación de Art & Arcana y está pensado para quien ha jugado a la quinta edición y quiere repasar su arte. Solo está en inglés; tiene una edición especial en caja.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984859686",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-10-03",
+      "isbn13": 9781984859686,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984859684/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/lore-and-legends/0.jpg"]
+}

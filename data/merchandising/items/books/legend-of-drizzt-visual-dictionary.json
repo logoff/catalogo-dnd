@@ -1,0 +1,51 @@
+{
+  "slug": "legend-of-drizzt-visual-dictionary",
+  "title": "Dungeons & Dragons: The Legend of Drizzt Visual Dictionary",
+  "title_es": "La leyenda de Drizzt: Diccionario visual",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "DK",
+  "date": "2023-03-16",
+  "description": "Diccionario visual de DK sobre Drizzt Do'Urden y su mundo, con anotaciones, diagramas e ilustraciones de los lugares, personajes y objetos de las novelas de R. A. Salvatore en los Reinos Olvidados, prologado por el propio autor.\n\nEs para lectores de las novelas de Drizzt y para quien juega en los Reinos Olvidados. Hay edición en castellano de DK que se vende en España, además de una edición en español para América.",
+  "source": "https://dk.com/uk/book/9780241632376-dungeons-and-dragons-the-legend-of-drizzt-visual-dictionary",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "DK",
+      "date": "2023-03-16",
+      "isbn13": 9780241409411,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0241409411/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons: La leyenda de Drizzt. Diccionario visual",
+      "publisher": "DK",
+      "date": "2023-10-19",
+      "isbn13": 9780241637050,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0241637058/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": false,
+      "title": "Dungeons & Dragons: La leyenda de Drizzt (The Legend of Drizzt)",
+      "publisher": "DK",
+      "date": "2023-11-07",
+      "isbn13": 9780744089011
+    }
+  ],
+  "images": [
+    "/images/merchandising/legend-of-drizzt-visual-dictionary/0.jpg",
+    "/images/merchandising/legend-of-drizzt-visual-dictionary/1.jpg"
+  ]
+}

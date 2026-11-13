@@ -85,6 +85,18 @@ function generateSitemap() {
     urls.push({ loc: `/videojuego/${slug}`, priority: 0.7, changefreq: 'monthly', lastmod: today })
   }
 
+  // Merchandising pages
+  urls.push({ loc: '/merchandising', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  for (const file of getProductFiles(join(DATA_DIR, 'merchandising', 'items'))) {
+    const { slug } = JSON.parse(readFileSync(file, 'utf-8'))
+    urls.push({
+      loc: `/merchandising/${slug}`,
+      priority: 0.6,
+      changefreq: 'monthly',
+      lastmod: today,
+    })
+  }
+
   // Generate XML
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

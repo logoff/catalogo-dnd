@@ -1,0 +1,40 @@
+{
+  "slug": "worlds-and-realms",
+  "title": "Dungeons & Dragons Worlds & Realms: Adventures from Greyhawk to Faerûn and Beyond",
+  "title_es": "Mundos y reinos",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2024-10-29",
+  "description": "Libro ilustrado que recorre los mundos de campaña de Dungeons & Dragons, de Greyhawk y los Reinos Olvidados a otros escenarios del multiverso, con su historia, sus lugares y sus personajes más conocidos.\n\nEs una buena puerta de entrada a los mundos del juego para quien quiere conocerlos o elegir escenario para su campaña. Está en castellano en Montena.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780593835500",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2024-10-29",
+      "isbn13": 9780593835500,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593835506/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Mundos y reinos: Aventuras desde Greyhawk hasta Faerûn y más allá",
+      "publisher": "Montena",
+      "date": "2025-03-06",
+      "isbn13": 9788410396623,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8410396629/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/worlds-and-realms/0.jpg"]
+}
