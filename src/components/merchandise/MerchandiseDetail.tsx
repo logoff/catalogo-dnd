@@ -145,6 +145,24 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
         )}
       </Section>
 
+      {item.expansions && item.expansions.length > 0 && (
+        <Section title="Expansiones">
+          <ul className="space-y-1 text-gray-300">
+            {item.expansions.map((expansion) => (
+              <li key={expansion.title}>
+                {expansion.title}
+                {expansion.date && (
+                  <span className="text-sm text-gray-400">
+                    {' '}
+                    ({formatPartialDate(expansion.date)})
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
+
       {(relatedProducts.length > 0 || relatedGames.length > 0) && (
         <Section title="Relacionado">
           <ul className="space-y-1">

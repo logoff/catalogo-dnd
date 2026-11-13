@@ -44,6 +44,8 @@ export interface Merchandise {
   source: string
   editions: MerchandiseEdition[]
   images: string[]
+  // Expansiones que se venden aparte pero se recogen en la misma ficha
+  expansions?: { title: string; date?: string }[]
   related_products?: { edition: Edition; code: string }[]
   related_videogames?: string[]
 }

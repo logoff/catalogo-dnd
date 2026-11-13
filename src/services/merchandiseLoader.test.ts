@@ -69,6 +69,16 @@ describe('esquema de merchandising', () => {
     )
   })
 
+  it('admite expansiones con título y fecha opcional, y rechaza las que no tienen título', () => {
+    expect(
+      validate({
+        ...minimalItem,
+        expansions: [{ title: 'Expansión', date: '2018' }, { title: 'Otra' }],
+      })
+    ).toBe(true)
+    expect(validate({ ...minimalItem, expansions: [{ date: '2018' }] })).toBe(false)
+  })
+
   it('solo admite tiendas conocidas en los enlaces de compra', () => {
     const edition = (store: string) => ({
       language: 'english',

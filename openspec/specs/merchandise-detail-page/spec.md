@@ -60,6 +60,21 @@ compra.
 - **THEN** la ficha indica que no está a la venta en las tiendas del
   sitio
 
+### Requirement: Expansiones
+
+La ficha SHALL mostrar una sección «Expansiones» con el título y el año
+de cada expansión del artículo, y SHALL omitirla si no tiene ninguna.
+
+#### Scenario: Juego con expansiones
+
+- **WHEN** un juego lista sus expansiones
+- **THEN** la ficha las muestra con su título y su año
+
+#### Scenario: Artículo sin expansiones
+
+- **WHEN** un artículo no tiene expansiones
+- **THEN** la ficha no muestra la sección «Expansiones»
+
 ### Requirement: Contenido relacionado
 
 La ficha SHALL enlazar a los libros y videojuegos del catálogo con los

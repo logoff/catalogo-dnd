@@ -80,6 +80,25 @@
                 "pattern": "^/images/merchandising/"
             }
         },
+        "expansions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "title"
+                ],
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+                    "date": {
+                        "$ref": "#/$defs/partialDate"
+                    }
+                }
+            }
+        },
         "related_products": {
             "type": "array",
             "items": {

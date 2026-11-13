@@ -78,6 +78,7 @@ describe('MerchandiseDetail', () => {
     expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
     expect(screen.queryByText('Salida:')).not.toBeInTheDocument()
     expect(screen.queryByRole('heading', { name: 'Relacionado' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('heading', { name: 'Expansiones' })).not.toBeInTheDocument()
   })
 
   it('enlaza a la fuente oficial y a los libros y videojuegos relacionados', () => {
@@ -96,6 +97,13 @@ describe('MerchandiseDetail', () => {
     expect(
       screen.getAllByRole('link').some((a) => a.getAttribute('href')?.startsWith('/producto/2024/'))
     ).toBe(true)
+  })
+
+  it('lista las expansiones con su año y omite la sección si no hay', () => {
+    renderItem({ expansions: [{ title: 'Moonshae Storms', date: '2018' }, { title: 'Sin fecha' }] })
+    expect(screen.getByRole('heading', { name: 'Expansiones' })).toBeInTheDocument()
+    expect(screen.getByText('Moonshae Storms')).toHaveTextContent('Moonshae Storms (2018)')
+    expect(screen.getByText('Sin fecha')).toBeInTheDocument()
   })
 
   it('abre las imágenes en el visor', () => {
