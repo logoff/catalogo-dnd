@@ -23,8 +23,8 @@ programa de GOG en Adtraction, con un 6 % por venta en España.
   sitemap como el resto del sitio.
 - Enlaces de compra por plataforma, empezando por GOG con afiliado de
   Adtraction, Amazon (digital y físico) y Humble Bundle; Fanatical y
-  Green Man Gaming si sus condiciones convencen; Instant Gaming y Eneba
-  como una tienda más; Steam sin afiliado.
+  Green Man Gaming si sus condiciones convencen; Instant Gaming como una
+  tienda más; Steam sin afiliado.
 - Inventario maestro de juegos oficiales para medir lo que falta.
 - Herramientas de mantenimiento: skill `add-videogame` y vigilancia de
   lanzamientos en `novedades`.

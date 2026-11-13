@@ -64,11 +64,11 @@ describe('stores', () => {
   })
 
   it('Awin necesita anunciante y publisher, y codifica la URL de destino', () => {
-    const eneba = 'https://www.eneba.com/es/steam-baldurs-gate-3-pc-steam-key-global'
-    expect(awinAffiliate('20385')).toBeUndefined()
-    expect(getPurchaseUrl('eneba', eneba)).toBe(eneba)
-    expect(awinAffiliate('20385', '3153372')!(eneba)).toBe(
-      `https://www.awin1.com/cread.php?awinmid=20385&awinaffid=3153372&ued=${encodeURIComponent(eneba)}`
+    const fanatical = 'https://www.fanatical.com/es/game/baldurs-gate-3'
+    expect(awinAffiliate('118821')).toBeUndefined()
+    expect(getPurchaseUrl('fanatical', fanatical)).toBe(fanatical)
+    expect(awinAffiliate('118821', '3153372')!(fanatical)).toBe(
+      `https://www.awin1.com/cread.php?awinmid=118821&awinaffid=3153372&ued=${encodeURIComponent(fanatical)}`
     )
   })
 

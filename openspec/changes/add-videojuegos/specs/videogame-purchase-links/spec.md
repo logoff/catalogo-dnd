@@ -100,12 +100,12 @@ afiliado; el afiliado se añade solo al generar el sitio.
 ### Requirement: Todas las tiendas en igualdad
 
 La ficha SHALL mostrar todas las tiendas de una plataforma, incluidas las
-de claves como Instant Gaming o Eneba, con el mismo tratamiento y en un
+de claves como Instant Gaming, con el mismo tratamiento y en un
 orden fijo que no dependa del tipo de tienda, para que el lector elija.
 
 #### Scenario: Juego en GOG y en tiendas de claves
 
-- **WHEN** un juego tiene enlace a GOG, Instant Gaming y Eneba
+- **WHEN** un juego tiene enlace a GOG, Instant Gaming y Fanatical
 - **THEN** los tres botones aparecen en el grupo de PC con el mismo
   formato
 

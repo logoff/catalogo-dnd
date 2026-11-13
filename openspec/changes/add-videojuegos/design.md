@@ -140,11 +140,11 @@ Tiendas candidatas, según el usuario:
 | Principal    | GOG                                                                    | Digital PC                  | Adtraction, 6 % en España (visto en el panel)                                                                                            |
 | Principal    | Amazon                                                                 | Digital y físico (consolas) | Amazon Afiliados, ya integrado                                                                                                           |
 | Principal    | Humble Bundle                                                          | Digital PC                  | Programa de afiliados en Impact (verificación de la web en curso); comisión según directorios entre el 4 % y el 15 %, sin fuente oficial |
-| Principal    | Eneba                                                                  | Claves digitales            | Programa propio y en redes (Awin, Daisycon); 2–5 % según directorios                                                                     |
 | Principal    | Instant Gaming                                                         | Claves digitales            | Programa propio con enlaces de referido (`igr`); condiciones sin confirmar                                                               |
 | Opcional     | Green Man Gaming                                                       | Digital PC                  | Programa propio: hasta un 5 % por venta, 10 % en packs (su página de afiliados); red no confirmada (Impact, CJ o FlexOffers)             |
 | Opcional     | Fanatical                                                              | Digital PC                  | CJ Affiliate para webs; hasta un 5 % según directorios                                                                                   |
 | Sin afiliado | Steam, Epic Games Store, PlayStation Store, Nintendo eShop, Xbox Store | Digital                     | Sin programa útil para una web; enlace limpio                                                                                            |
+| Descartada   | Eneba                                                                  | Claves digitales            | Solicitud rechazada el 2026-11-13: exige 50.000 visitas al mes; se retoma al llegar a esa cifra                                          |
 
 Las cifras de directorios son orientativas: las condiciones reales se ven
 al solicitar cada programa, y se apuntan aquí entonces.
@@ -272,7 +272,7 @@ datos pueden quedarse en el repositorio sin efecto.
 ## Open Questions
 
 - Condiciones reales de los programas de Humble, Fanatical, Green Man
-  Gaming, Instant Gaming y Eneba, y de las redes Impact, Partnerize,
+  Gaming e Instant Gaming, y de las redes Impact, Partnerize,
   Admitad y Awin (comisión, aprobación, mercado España). Se resuelve en
   la tarea de verificación y solo añade entradas a `STORES`.
 - Epic Games Store y Steam quedan como enlaces sin afiliado, salvo que
