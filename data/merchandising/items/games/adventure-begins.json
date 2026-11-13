@@ -5,7 +5,7 @@
   "kind": "board_game",
   "manufacturer": "Hasbro",
   "date": "2020-10-01",
-  "description": "Juego de mesa cooperativo para dos a cuatro jugadores en el que los héroes recorren las tierras de Neverwinter enfrentándose a monstruos. Trae cuatro miniaturas de plástico para los personajes y está pensado como primer contacto con el mundo de D&D.\n\nEs para familias y jugadores a partir de diez años que quieren probar el ambiente de D&D antes de dar el salto al juego de rol. Solo se vende en inglés.",
+  "description": "Juego de mesa cooperativo para dos a cuatro jugadores en el que los héroes recorren las tierras de Neverwinter enfrentándose a monstruos. Trae cuatro miniaturas de plástico para los personajes y está pensado como primer contacto con el mundo de D&D.\n\nEs para familias y jugadores a partir de diez años que quieren probar el ambiente de D&D antes de dar el salto al juego de rol. Hasbro lo vende en España en castellano con el título Comienza la aventura.",
   "source": "https://consumercare.hasbro.com/product/dungeons-and-dragons-adventure-begins-cooperative-fantasy-board-game/3195B75A-7048-4325-8B60-0028E29FF764",
   "editions": [
     {
@@ -16,7 +16,23 @@
           "url": "https://www.amazon.es/dp/B083YL5VCY/"
         }
       ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons: Comienza la aventura",
+      "ean": "5010993732111",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08321CFTB/"
+        }
+      ]
     }
   ],
-  "images": ["/images/merchandising/adventure-begins/0.jpg"]
+  "images": [
+    "/images/merchandising/adventure-begins/0.jpg",
+    "/images/merchandising/adventure-begins/1.jpg",
+    "/images/merchandising/adventure-begins/2.jpg"
+  ]
 }
