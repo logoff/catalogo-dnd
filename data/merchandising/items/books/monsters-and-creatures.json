@@ -1,0 +1,43 @@
+{
+  "slug": "monsters-and-creatures",
+  "title": "Monsters & Creatures: A Young Adventurer's Guide",
+  "title_es": "Monstruos & Criaturas: Guía del joven aventurero",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2019-07-16",
+  "description": "Guía ilustrada de los monstruos más conocidos de Dungeons & Dragons, con una ficha por criatura que explica dónde vive, cómo es y cómo enfrentarse a ella.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Está en castellano en Minotauro.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984856401",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2019-07-16",
+      "isbn13": 9781984856401,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984856405/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Monstruos & Criaturas",
+      "publisher": "Minotauro",
+      "date": "2020-10-20",
+      "isbn13": 9788445009222,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445009222/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/monsters-and-creatures/0.jpg",
+    "/images/merchandising/monsters-and-creatures/1.jpg"
+  ]
+}

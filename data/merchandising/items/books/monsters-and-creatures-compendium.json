@@ -1,0 +1,43 @@
+{
+  "slug": "monsters-and-creatures-compendium",
+  "title": "The Monsters & Creatures Compendium: A Young Adventurer's Guide",
+  "title_es": "Compendio de monstruos & criaturas",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-08-22",
+  "description": "Volumen recopilatorio de las guías para jóvenes aventureros dedicado a monstruos y criaturas, que reúne en un solo libro las fichas de varias guías de la serie.\n\nEs para lectores de ocho a doce años que prefieren tener todos los monstruos juntos o no tienen las guías sueltas. Está en castellano en Minotauro.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984862471",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-08-22",
+      "isbn13": 9781984862471,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984862472/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Compendio de monstruos & criaturas",
+      "publisher": "Minotauro",
+      "date": "2026-09-23",
+      "isbn13": 9788445022696,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445022695/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/monsters-and-creatures-compendium/0.jpg",
+    "/images/merchandising/monsters-and-creatures-compendium/1.jpg"
+  ]
+}

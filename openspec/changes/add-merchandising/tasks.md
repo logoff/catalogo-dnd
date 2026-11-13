@@ -25,7 +25,7 @@
       existentes, URLs sin afiliado, libros y videojuegos relacionados
       existentes, coherencia con el inventario); verificar que
       `just test` pasa
-- [ ] 2.4 Crear tres fichas piloto, una por grupo, con imágenes en
+- [x] 2.4 Crear tres fichas piloto, una por grupo, con imágenes en
       `public/images/merchandising/`; verificar que validan y que
       cubren ediciones por idioma y relaciones
 
@@ -71,7 +71,7 @@
 
 ## 7. Carga de artículos
 
-- [ ] 7.1 Lote de libros licenciados del inventario; verificar con
+- [x] 7.1 Lote de libros licenciados del inventario; verificar con
       `just check` y que el inventario no tiene libros pendientes
 - [ ] 7.2 Lote de juegos de mesa y cartas; verificar igual que 7.1
 - [ ] 7.3 Lote de figuras y juguetes; verificar con `just check` y que el

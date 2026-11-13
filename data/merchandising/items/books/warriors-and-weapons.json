@@ -1,0 +1,43 @@
+{
+  "slug": "warriors-and-weapons",
+  "title": "Warriors & Weapons: A Young Adventurer's Guide",
+  "title_es": "Guerreros & Armas: Guía del joven aventurero",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2019-07-16",
+  "description": "Guía ilustrada de los tipos de guerrero de Dungeons & Dragons y de sus armas y armaduras, con ejemplos para imaginar y crear personajes combatientes.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Está en castellano en Minotauro.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984856425",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2019-07-16",
+      "isbn13": 9781984856425,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984856421/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Guerreros & Armas",
+      "publisher": "Minotauro",
+      "date": "2020-10-20",
+      "isbn13": 9788445009239,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445009230/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/warriors-and-weapons/0.jpg",
+    "/images/merchandising/warriors-and-weapons/1.jpg"
+  ]
+}

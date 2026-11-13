@@ -1,0 +1,25 @@
+{
+  "slug": "pop-manga-coloring-book",
+  "title": "Dungeons & Dragons Pop Manga Coloring Book",
+  "group": "books",
+  "kind": "craft_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-10-27",
+  "description": "Libro oficial para colorear con láminas de personajes y criaturas de Dungeons & Dragons dibujados en estilo manga por Camilla d'Errico.\n\nEs para quien disfruta coloreando y le gusta el manga, conozca o no el juego. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9780593839461",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-10-27",
+      "isbn13": 9780593839461,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593839463/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/pop-manga-coloring-book/0.jpg"]
+}

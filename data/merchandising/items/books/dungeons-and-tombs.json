@@ -1,0 +1,43 @@
+{
+  "slug": "dungeons-and-tombs",
+  "title": "Dungeons & Tombs: A Young Adventurer's Guide",
+  "title_es": "Mazmorras & Tumbas",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2019-11-26",
+  "description": "Guía ilustrada de algunas de las mazmorras y tumbas más famosas de Dungeons & Dragons, con sus trampas, sus habitantes y los tesoros que guardan.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Está en castellano en Minotauro.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984856449",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2019-11-26",
+      "isbn13": 9781984856449,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984856448/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. Mazmorras & Tumbas",
+      "publisher": "Minotauro",
+      "date": "2021-05-05",
+      "isbn13": 9788445009246,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445009249/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/dungeons-and-tombs/0.jpg",
+    "/images/merchandising/dungeons-and-tombs/1.jpg"
+  ]
+}

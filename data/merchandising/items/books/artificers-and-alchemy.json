@@ -1,0 +1,25 @@
+{
+  "slug": "artificers-and-alchemy",
+  "title": "Artificers & Alchemy: A Young Adventurer's Guide",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2024-04-16",
+  "description": "Guía ilustrada de los artífices, la alquimia y los inventos mágicos de Dungeons & Dragons.\n\nForma parte de las guías para jóvenes aventureros de Jim Zub, pensadas para lectores de ocho a doce años que empiezan con D&D o quieren saber más del juego. Solo está en inglés.",
+  "source": "https://penguinrandomhouse.com/books/isbn/9781984862204",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2024-04-16",
+      "isbn13": 9781984862204,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984862200/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/artificers-and-alchemy/0.jpg"]
+}

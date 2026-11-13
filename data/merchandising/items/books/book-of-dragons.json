@@ -1,0 +1,43 @@
+{
+  "slug": "book-of-dragons",
+  "title": "Dungeons & Dragons: The Book of Dragons",
+  "title_es": "El libro de los dragones",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "DK",
+  "date": "2025-08-07",
+  "description": "Libro ilustrado de DK dedicado a los dragones de Dungeons & Dragons.\n\nEs para quien quiere saber más de las criaturas que dan nombre al juego, sin necesidad de conocer las reglas. Hay edición en castellano de DK que se vende en España.",
+  "source": "https://dk.com/products/9780241741597-dungeons-dragons-the-book-of-dragons",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "DK",
+      "date": "2025-08-07",
+      "isbn13": 9780241741597,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0241741599/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons. El libro de los dragones",
+      "publisher": "DK",
+      "date": "2026-11-12",
+      "isbn13": 9780241838099,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0241838096/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/book-of-dragons/0.jpg",
+    "/images/merchandising/book-of-dragons/1.jpg"
+  ]
+}
