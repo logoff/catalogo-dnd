@@ -101,6 +101,22 @@ publicó en España o solo fuera de España.
 - **WHEN** un artículo no tiene texto, como una figura
 - **THEN** tiene una sola edición sin idioma
 
+### Requirement: Expansiones en la ficha del juego
+
+Cuando un juego tiene muchas expansiones o está descatalogado, sus
+expansiones SHALL poder listarse en su propia ficha en lugar de tener
+ficha aparte, cada una con su título y, si se conoce, su fecha.
+
+#### Scenario: Juego descatalogado con muchas expansiones
+
+- **WHEN** un juego de cartas tiene once expansiones y ya no se vende
+- **THEN** su ficha las lista con su título y su año, sin fichas aparte
+
+#### Scenario: Expansión sin título
+
+- **WHEN** una expansión listada no tiene título
+- **THEN** los tests del proyecto fallan
+
 ### Requirement: Descripción propia
 
 Cada artículo SHALL tener una descripción propia en castellano de dos
