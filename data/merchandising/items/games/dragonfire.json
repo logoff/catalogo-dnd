@@ -1,0 +1,16 @@
+{
+  "slug": "dragonfire",
+  "title": "Dragonfire",
+  "group": "games",
+  "kind": "card_game",
+  "manufacturer": "Catalyst Game Labs",
+  "date": "2017",
+  "description": "Juego cooperativo de construcción de mazos para dos a seis jugadores basado en el motor de Shadowrun: Crossfire, en el que cada uno lleva a un clérigo, un pícaro, un guerrero o un mago que empieza en la Costa de la Espada y viaja por los Reinos Olvidados, de Baldur's Gate a Neverwinter y Waterdeep, subiendo de nivel entre aventuras.\n\nEs para grupos que quieren una campaña de cartas con progreso de personajes en partidas de una hora a hora y media. Tuvo muchas expansiones (aventuras, personajes y mazos de objetos mágicos); solo se vendió en inglés y está descatalogado.",
+  "source": "https://dnd-support.wizards.com/hc/en-us/articles/360001012946-Dragonfire-Deckbuilding-Game",
+  "editions": [
+    {
+      "language": "english"
+    }
+  ],
+  "images": ["/images/merchandising/dragonfire/0.jpg", "/images/merchandising/dragonfire/1.jpg"]
+}

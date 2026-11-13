@@ -73,7 +73,7 @@
 
 - [x] 7.1 Lote de libros licenciados del inventario; verificar con
       `just check` y que el inventario no tiene libros pendientes
-- [ ] 7.2 Lote de juegos de mesa y cartas; verificar igual que 7.1
+- [x] 7.2 Lote de juegos de mesa y cartas; verificar igual que 7.1
 - [x] 7.3 Lote de figuras y juguetes; verificar con `just check` y que el
       inventario no tiene pendientes
 
