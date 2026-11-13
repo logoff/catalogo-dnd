@@ -70,7 +70,6 @@ se publica sin afiliado:
 | `VITE_AFFILIATE_GOG_PROGRAM`                 | ID del programa de GOG en Adtraction            |
 | `VITE_AFFILIATE_INSTANT_GAMING_REFERRAL`     | Código de referido de Instant Gaming (`igr`)    |
 | `VITE_AFFILIATE_AWIN_PUBLISHER`              | ID de publisher en Awin (común a sus tiendas)   |
-| `VITE_AFFILIATE_ENEBA_PROGRAM`               | ID del anunciante Eneba en Awin                 |
 | `VITE_AFFILIATE_FANATICAL_PROGRAM`           | ID del anunciante Fanatical en Awin             |
 
 En el despliegue se leen de los secretos del repositorio con el mismo

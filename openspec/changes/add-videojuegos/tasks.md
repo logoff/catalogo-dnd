@@ -106,8 +106,8 @@
 
 ## 9. Más tiendas
 
-- [ ] 9.1 Añadir Amazon (digital y físico), Humble Bundle, Instant
-      Gaming y Eneba a los juegos que corresponda; verificar con los
+- [ ] 9.1 Añadir Amazon (digital y físico), Humble Bundle e Instant
+      Gaming a los juegos que corresponda; verificar con los
       tests de datos
 - [ ] 9.2 Añadir las tiendas opcionales que hayan pasado la
       verificación 3.1; verificar que aparecen en una ficha en el orden

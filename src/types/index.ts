@@ -36,7 +36,6 @@ export type Store =
   | 'gog'
   | 'steam'
   | 'instant_gaming'
-  | 'eneba'
   | 'fanatical'
 
 export interface PurchaseLink {

@@ -85,11 +85,6 @@ export const STORES: Record<Store, StoreConfig> = {
     color: 'from-orange-600 to-orange-800 hover:from-orange-500 hover:to-orange-700',
     affiliate: instantGamingAffiliate(env.VITE_AFFILIATE_INSTANT_GAMING_REFERRAL),
   },
-  eneba: {
-    label: 'Eneba',
-    color: 'from-violet-700 to-violet-900 hover:from-violet-600 hover:to-violet-800',
-    affiliate: awinAffiliate(env.VITE_AFFILIATE_ENEBA_PROGRAM, env.VITE_AFFILIATE_AWIN_PUBLISHER),
-  },
   fanatical: {
     label: 'Fanatical',
     color: 'from-red-700 to-red-900 hover:from-red-600 hover:to-red-800',
