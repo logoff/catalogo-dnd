@@ -167,5 +167,21 @@
     }
   ],
   "images": ["/images/videogames/baldurs-gate/0.png", "/images/videogames/baldurs-gate/1.jpg"],
+  "videos": [
+    {
+      "youtube": "86NLGVQ6Iaw",
+      "kind": "trailer",
+      "title": "Baldur's Gate: Enhanced Edition Gameplay Trailer",
+      "channel": "Beamdog",
+      "date": "2012-11-22"
+    },
+    {
+      "youtube": "lmjVSdfSdhY",
+      "kind": "expansion",
+      "title": "Baldur's Gate: Siege of Dragonspear - Launch Trailer",
+      "channel": "Beamdog",
+      "date": "2016-03-31"
+    }
+  ],
   "official_url": "https://www.beamdog.com/games/baldurs-gate-enhanced/"
 }

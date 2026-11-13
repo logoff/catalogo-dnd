@@ -42,6 +42,22 @@ Abrir <http://localhost:5173/>.
 - `just docker-run` - Ejecutar con Docker
 - `just deploy` - Publicar en Cloudflare Pages
 - `just indexnow` - Avisar a Bing y otros buscadores (IndexNow) de todas las URLs del sitemap
+- `just video-thumbnails` - Descargar las miniaturas que falten de los vídeos de los videojuegos
+- `just check-videos` - Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube
+
+## Vídeos de los videojuegos
+
+Las fichas de videojuegos pueden llevar hasta tres vídeos oficiales de
+YouTube en el campo `videos` (identificador, tipo, título, canal y
+fecha). Solo entran vídeos de la editora, la desarrolladora, una
+plataforma o Wizards of the Coast. Cada vídeo tiene su miniatura en
+`public/images/videogames/<slug>/video-<id>.jpg`, que se descarga con
+`just video-thumbnails`: la ficha muestra esa copia local y no carga el
+reproductor de `youtube-nocookie.com` hasta que se pulsa reproducir.
+
+`just check-videos` consulta el oEmbed de YouTube y avisa de los vídeos
+retirados, no empotrables o de otro canal. En GitHub Actions se ejecuta
+en cada PR y deja anotaciones, pero nunca hace fallar la build.
 
 ## Despliegue
 

@@ -54,5 +54,21 @@
       "platform": "pc_windows"
     }
   ],
-  "images": ["/images/videogames/demeo-battlemarked/0.jpg"]
+  "images": ["/images/videogames/demeo-battlemarked/0.jpg"],
+  "videos": [
+    {
+      "youtube": "PEU74DKkvDA",
+      "kind": "launch",
+      "title": "Demeo x Dungeons & Dragons: Battlemarked | Launch Trailer",
+      "channel": "Resolution Games",
+      "date": "2025-11-20"
+    },
+    {
+      "youtube": "TLZy3OnJaUQ",
+      "kind": "expansion",
+      "title": "Demeo x Dungeons & Dragons: Battlemarked - Campaign III: Twilight's End Launch Trailer | PS5 Games",
+      "channel": "PlayStation",
+      "date": "2026-09-22"
+    }
+  ]
 }

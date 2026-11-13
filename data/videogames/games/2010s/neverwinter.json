@@ -42,5 +42,14 @@
       "platform": "pc_windows"
     }
   ],
-  "images": ["/images/videogames/neverwinter/0.jpg"]
+  "images": ["/images/videogames/neverwinter/0.jpg"],
+  "videos": [
+    {
+      "youtube": "mhhhbdEdlOk",
+      "kind": "launch",
+      "title": "Neverwinter - Official Launch Trailer | PS4",
+      "channel": "PlayStation",
+      "date": "2016-07-19"
+    }
+  ]
 }

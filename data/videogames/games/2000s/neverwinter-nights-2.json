@@ -90,5 +90,14 @@
       "platform": "pc_windows"
     }
   ],
-  "images": ["/images/videogames/neverwinter-nights-2/0.jpg"]
+  "images": ["/images/videogames/neverwinter-nights-2/0.jpg"],
+  "videos": [
+    {
+      "youtube": "2N_7XaKuFLA",
+      "kind": "launch",
+      "title": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition - Launch Trailer",
+      "channel": "Aspyr",
+      "date": "2025-07-15"
+    }
+  ]
 }

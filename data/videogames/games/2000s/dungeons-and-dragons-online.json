@@ -30,5 +30,14 @@
       "date": "2012-06-25"
     }
   ],
-  "images": ["/images/videogames/dungeons-and-dragons-online/0.jpg"]
+  "images": ["/images/videogames/dungeons-and-dragons-online/0.jpg"],
+  "videos": [
+    {
+      "youtube": "IxLKsvx4weM",
+      "kind": "trailer",
+      "title": "Natural 20: DDO's 20th Anniversary Trailer - Dungeons & Dragons Online",
+      "channel": "Dungeons & Dragons Online",
+      "date": "2026-02-25"
+    }
+  ]
 }

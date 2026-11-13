@@ -24,6 +24,7 @@ Además, busca productos anunciados que **aún no estén en el catálogo**.
 
 También lista los **videojuegos** anunciados y los que se venden con el
 castellano sin dato, que figuran como solo en inglés (ver el apartado 7).
+Para los vídeos de las fichas, ejecuta también `just check-videos`.
 
 ## 2. Inglés
 
@@ -114,6 +115,12 @@ buen momento para volver a compartir la guía.
 - **Castellano**: los que se venden sin dato figuran como solo en inglés;
   comprueba si en realidad tienen castellano en la tabla de
   idiomas de Steam (un `*` indica voces) o la ficha de GOG.
+- **Vídeos**: ejecuta `just check-videos` y, si avisa de un vídeo
+  retirado, no empotrable o de otro canal, busca otro oficial o quítalo
+  de la ficha junto con su miniatura. Para los anunciados y los
+  publicados en el último año, mira en el canal de la editora o la
+  desarrolladora si hay un tráiler nuevo (anuncio, lanzamiento o
+  expansión) y añádelo con las reglas de la skill `add-videogame`.
 
 Igual que con los libros, presenta lo encontrado al usuario antes de
 cambiar los datos.

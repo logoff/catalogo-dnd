@@ -36,5 +36,14 @@
       "delisted": true
     }
   ],
-  "images": ["/images/videogames/sword-coast-legends/0.jpg"]
+  "images": ["/images/videogames/sword-coast-legends/0.jpg"],
+  "videos": [
+    {
+      "youtube": "OMDcIvKqwl8",
+      "kind": "trailer",
+      "title": "Sword Coast Legends - Gameplay Trailer | PS4",
+      "channel": "PlayStation",
+      "date": "2016-06-13"
+    }
+  ]
 }

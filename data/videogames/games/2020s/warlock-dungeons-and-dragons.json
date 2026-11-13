@@ -27,5 +27,21 @@
       "date": "2027"
     }
   ],
-  "images": ["/images/videogames/warlock-dungeons-and-dragons/0.jpg"]
+  "images": ["/images/videogames/warlock-dungeons-and-dragons/0.jpg"],
+  "videos": [
+    {
+      "youtube": "lz1Kif2w4Cs",
+      "kind": "announcement",
+      "title": "WARLOCK - Teaser Trailer",
+      "channel": "XBOX",
+      "date": "2025-12-11"
+    },
+    {
+      "youtube": "TXbhRjSxycs",
+      "kind": "trailer",
+      "title": "Warlock: Dungeons & Dragons - Gameplay Reveal | PS5 Games",
+      "channel": "PlayStation",
+      "date": "2026-08-25"
+    }
+  ]
 }

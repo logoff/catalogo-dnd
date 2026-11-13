@@ -40,5 +40,14 @@
       ]
     }
   ],
-  "images": ["/images/videogames/the-temple-of-elemental-evil/0.png"]
+  "images": ["/images/videogames/the-temple-of-elemental-evil/0.png"],
+  "videos": [
+    {
+      "youtube": "RheqpBNB7Ss",
+      "kind": "launch",
+      "title": "The Temple of Elemental Evil - Re-Launch Trailer",
+      "channel": "SNEG",
+      "date": "2025-11-27"
+    }
+  ]
 }

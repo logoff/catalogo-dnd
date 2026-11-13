@@ -4,7 +4,7 @@ import addFormats from 'ajv-formats'
 import schemaSource from '/data/schemas/videogame.jsonschema?raw'
 import bundleSchemaSource from '/data/schemas/videogame-bundle.jsonschema?raw'
 import inventory from '/data/videogames/inventory.md?raw'
-import type { Videogame } from '@/types/videogame'
+import type { Videogame, VideogameWithMeta } from '@/types/videogame'
 import { getAllProducts } from './dataLoader'
 import {
   enrichVideogame,
@@ -53,6 +53,37 @@ describe('esquema de videojuego', () => {
       expect(validate({ ...minimalGame, releases: [{ platform: 'c64', date }] })).toBe(true)
     }
   })
+
+  describe('vídeos', () => {
+    const video = {
+      youtube: '1T22wNvoNiU',
+      kind: 'trailer',
+      title: 'Official Launch Trailer',
+      channel: 'Larian Studios',
+      date: '2023-08-03',
+    }
+
+    it('acepta un vídeo con todos sus datos', () => {
+      expect(validate({ ...minimalGame, videos: [video] })).toBe(true)
+    })
+
+    it('rechaza un vídeo sin canal, con un identificador que no es de YouTube o sin fecha completa', () => {
+      const withoutChannel: Partial<typeof video> = { ...video }
+      delete withoutChannel.channel
+      expect(validate({ ...minimalGame, videos: [withoutChannel] })).toBe(false)
+      expect(
+        validate({
+          ...minimalGame,
+          videos: [{ ...video, youtube: 'https://youtu.be/1T22wNvoNiU' }],
+        })
+      ).toBe(false)
+      expect(validate({ ...minimalGame, videos: [{ ...video, date: '2023-08' }] })).toBe(false)
+    })
+
+    it('rechaza más de tres vídeos', () => {
+      expect(validate({ ...minimalGame, videos: Array(4).fill(video) })).toBe(false)
+    })
+  })
 })
 
 describe('enrichVideogame', () => {
@@ -68,6 +99,20 @@ describe('enrichVideogame', () => {
     expect(game.firstReleaseDate).toBe('1998-12-21')
     expect(game.decade).toBe(1990)
     expect(game.platforms).toEqual(['mac', 'pc_windows'])
+  })
+
+  it('deriva la miniatura local de cada vídeo y deja la lista vacía si no hay', () => {
+    const video = {
+      youtube: '1T22wNvoNiU',
+      kind: 'trailer' as const,
+      title: 'Tráiler',
+      channel: 'Larian Studios',
+      date: '2023-08-03',
+    }
+    expect(enrichVideogame({ ...minimalGame, videos: [video] }).videos).toEqual([
+      { ...video, thumbnail: '/images/videogames/juego/video-1T22wNvoNiU.jpg' },
+    ])
+    expect(enrichVideogame(minimalGame).videos).toEqual([])
   })
 
   it('ordena bien las fechas parciales', () => {
@@ -183,6 +228,41 @@ describe('datos de videojuegos', () => {
       return g.images.filter((img) => !publicImages.has(img)).map((img) => `${g.slug}: ${img}`)
     })
     expect(problems).toEqual([])
+  })
+
+  describe('vídeos', () => {
+    // Vídeos repetidos en un juego y miniaturas que no están en public/
+    const videoProblems = (list: VideogameWithMeta[]) =>
+      list.flatMap((g) => {
+        const ids = g.videos.map((v) => v.youtube)
+        const repeated = ids
+          .filter((id, i) => ids.indexOf(id) !== i)
+          .map((id) => `${g.slug}: vídeo repetido ${id}`)
+        const missing = g.videos
+          .filter((v) => !publicImages.has(v.thumbnail))
+          .map((v) => `${g.slug}: falta la miniatura ${v.thumbnail}`)
+        return [...repeated, ...missing]
+      })
+
+    it('no se repiten en un juego y todos tienen su miniatura local', () => {
+      expect(videoProblems(games)).toEqual([])
+    })
+
+    it('la comprobación detecta vídeos repetidos y miniaturas que faltan', () => {
+      const video = {
+        youtube: 'xxxxxxxxxxx',
+        kind: 'trailer' as const,
+        title: 'Tráiler',
+        channel: 'Editora',
+        date: '2020-01-01',
+      }
+      const game = enrichVideogame({ ...minimalGame, videos: [video, video] })
+      expect(videoProblems([game])).toEqual([
+        'juego: vídeo repetido xxxxxxxxxxx',
+        'juego: falta la miniatura /images/videogames/juego/video-xxxxxxxxxxx.jpg',
+        'juego: falta la miniatura /images/videogames/juego/video-xxxxxxxxxxx.jpg',
+      ])
+    })
   })
 
   it('los enlaces de compra no llevan parámetros de afiliado', () => {

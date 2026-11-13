@@ -112,3 +112,11 @@ indexnow:
 # Listar las novedades de 2024 a vigilar (sin fecha, fechas futuras, sin castellano)
 novedades:
     node scripts/novedades.mjs
+
+# Descargar las miniaturas que falten de los vídeos de los videojuegos
+video-thumbnails:
+    node scripts/download-video-thumbnails.mjs
+
+# Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube (solo avisa)
+check-videos:
+    node scripts/check-videos.mjs

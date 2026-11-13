@@ -40,5 +40,14 @@
       ]
     }
   ],
-  "images": ["/images/videogames/pool-of-radiance-ruins-of-myth-drannor/0.png"]
+  "images": ["/images/videogames/pool-of-radiance-ruins-of-myth-drannor/0.png"],
+  "videos": [
+    {
+      "youtube": "4OKxhvqQwS4",
+      "kind": "launch",
+      "title": "Pool of Radiance: Ruins of Myth Drannor - Release Trailer",
+      "channel": "SNEG",
+      "date": "2026-11-06"
+    }
+  ]
 }

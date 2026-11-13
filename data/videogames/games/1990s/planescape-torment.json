@@ -132,5 +132,14 @@
     }
   ],
   "official_url": "https://www.beamdog.com/games/planescape-torment-enhanced/",
-  "images": ["/images/videogames/planescape-torment/0.jpg"]
+  "images": ["/images/videogames/planescape-torment/0.jpg"],
+  "videos": [
+    {
+      "youtube": "G2wXLCIpFRg",
+      "kind": "launch",
+      "title": "Planescape: Torment: Enhanced Edition Launch Trailer",
+      "channel": "Beamdog",
+      "date": "2017-03-28"
+    }
+  ]
 }

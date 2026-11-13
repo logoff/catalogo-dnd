@@ -18,5 +18,14 @@
       }
     }
   ],
-  "images": ["/images/videogames/long-rest-tavern/0.jpg"]
+  "images": ["/images/videogames/long-rest-tavern/0.jpg"],
+  "videos": [
+    {
+      "youtube": "P2eSIp9QjRw",
+      "kind": "announcement",
+      "title": "Dungeons & Dragons: Long Rest Tavern | Reveal Trailer",
+      "channel": "Dotemu",
+      "date": "2026-08-26"
+    }
+  ]
 }

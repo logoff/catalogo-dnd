@@ -173,5 +173,14 @@
     }
   ],
   "official_url": "https://www.beamdog.com/games/neverwinter-nights-enhanced/",
-  "images": ["/images/videogames/neverwinter-nights/0.jpg"]
+  "images": ["/images/videogames/neverwinter-nights/0.jpg"],
+  "videos": [
+    {
+      "youtube": "5qAYBJ-boEE",
+      "kind": "trailer",
+      "title": "Neverwinter Nights: Enhanced Edition Google Play Trailer",
+      "channel": "Beamdog",
+      "date": "2018-12-04"
+    }
+  ]
 }

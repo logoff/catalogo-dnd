@@ -45,5 +45,14 @@
       ]
     }
   ],
-  "images": ["/images/videogames/demon-stone/0.png"]
+  "images": ["/images/videogames/demon-stone/0.png"],
+  "videos": [
+    {
+      "youtube": "4yaHVxCxHvE",
+      "kind": "launch",
+      "title": "Forgotten Realms: Demon Stone Re-Launch Trailer",
+      "channel": "SNEG",
+      "date": "2025-08-12"
+    }
+  ]
 }

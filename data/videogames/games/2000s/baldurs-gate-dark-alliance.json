@@ -58,5 +58,14 @@
       ]
     }
   ],
-  "images": ["/images/videogames/baldurs-gate-dark-alliance/0.jpg"]
+  "images": ["/images/videogames/baldurs-gate-dark-alliance/0.jpg"],
+  "videos": [
+    {
+      "youtube": "cPNg8AFYLXM",
+      "kind": "launch",
+      "title": "Baldurs Gate Dark Alliance - Console Launch Trailer",
+      "channel": "InterplayGames",
+      "date": "2021-05-07"
+    }
+  ]
 }
