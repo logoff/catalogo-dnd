@@ -1,0 +1,21 @@
+{
+  "slug": "funko-pop-honor-among-thieves",
+  "title": "Funko Pop! Dungeons & Dragons: Honor Among Thieves",
+  "title_es": "Funko Pop! Dungeons & Dragons: Honor entre ladrones",
+  "group": "figures",
+  "kind": "funko",
+  "manufacturer": "Funko",
+  "description": "Figuras Funko Pop! de los protagonistas de la película Dungeons & Dragons: Honor entre ladrones, como Edgin, Holga, Simon y Doric, que se venden sueltas y en lotes.\n\nSon para quien disfrutó de la película y colecciona Funko.",
+  "source": "https://www.amazon.es/dp/B0BVWKWTKR/",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BVWKWTKR/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/funko-pop-honor-among-thieves/0.jpg"]
+}

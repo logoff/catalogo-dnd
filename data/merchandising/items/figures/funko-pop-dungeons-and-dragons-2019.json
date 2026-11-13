@@ -1,0 +1,21 @@
+{
+  "slug": "funko-pop-dungeons-and-dragons-2019",
+  "title": "Funko Pop! Games: Dungeons & Dragons (Asmodeus, Mind Flayer, Minsc & Boo)",
+  "group": "figures",
+  "kind": "funko",
+  "manufacturer": "Funko",
+  "description": "Primera ola de figuras Funko Pop! de Dungeons & Dragons, con Asmodeus, señor de los Nueve Infiernos, un desollador mental de la Infraoscuridad y el explorador Minsc con su hámster espacial gigante en miniatura, Boo, de Baldur's Gate.\n\nSon para coleccionistas de Funko y jugadores de D&D; se venden sueltas.",
+  "source": "https://funko.com/funko-blog-products/coming-soon-pop-games-dungeons-dragons.html",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07TS8NWT1/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/funko-pop-dungeons-and-dragons-2019/0.jpg"],
+  "related_videogames": ["baldurs-gate"]
+}

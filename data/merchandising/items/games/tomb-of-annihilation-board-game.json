@@ -1,0 +1,16 @@
+{
+  "slug": "tomb-of-annihilation-board-game",
+  "title": "Tomb of Annihilation Adventure System Board Game",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "WizKids",
+  "date": "2017",
+  "description": "Juego de mesa cooperativo del D&D Adventure System en el que los jugadores exploran las selvas de Chult y la Tumba de los Nueve Dioses para luchar contra monstruos, superar trampas y encontrar tesoros, en solitario o con hasta cinco jugadores.\n\nSalió en edición normal, con miniaturas de un color, y en edición premium, con miniaturas pintadas, y se combina con los demás juegos de la serie. Solo se vende en inglés.",
+  "source": "https://wizkids.com/2017/06/15/wizkids-announces-new-dungeons-dragons-tomb-of-annihilation-product-lines-coming-soon/",
+  "editions": [
+    {
+      "language": "english"
+    }
+  ],
+  "images": ["/images/merchandising/tomb-of-annihilation-board-game/0.jpg"]
+}

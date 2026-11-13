@@ -1,0 +1,22 @@
+{
+  "slug": "rock-paper-wizard",
+  "title": "Rock Paper Wizard",
+  "group": "games",
+  "kind": "card_game",
+  "manufacturer": "WizKids",
+  "date": "2017-01",
+  "description": "Juego de cartas para fiestas de tres a seis jugadores: los magos de un grupo de aventureros se pelean por el tesoro de un dragón lanzándose conjuros con gestos al estilo de piedra, papel o tijera. Gana quien primero reúne veinticinco monedas de oro.\n\nEs para grupos grandes que quieren partidas rápidas y ruidosas, de una media hora. Solo se vende en inglés.",
+  "source": "https://wizkids.com/rock-paper-wizard/",
+  "editions": [
+    {
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01LW2INHK/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/rock-paper-wizard/0.jpg"]
+}
