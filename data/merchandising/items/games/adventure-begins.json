@@ -21,7 +21,13 @@
       "language": "castellano",
       "spain": true,
       "title": "Dungeons & Dragons: Comienza la aventura",
-      "ean": "5010993732111"
+      "ean": "5010993732111",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08321CFTB/"
+        }
+      ]
     }
   ],
   "images": [
