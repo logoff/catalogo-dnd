@@ -20,8 +20,13 @@
     {
       "language": "castellano",
       "spain": true,
-      "title": "Dungeons & Dragons: Comienza la aventura"
+      "title": "Dungeons & Dragons: Comienza la aventura",
+      "ean": "5010993732111"
     }
   ],
-  "images": ["/images/merchandising/adventure-begins/0.jpg"]
+  "images": [
+    "/images/merchandising/adventure-begins/0.jpg",
+    "/images/merchandising/adventure-begins/1.jpg",
+    "/images/merchandising/adventure-begins/2.jpg"
+  ]
 }
