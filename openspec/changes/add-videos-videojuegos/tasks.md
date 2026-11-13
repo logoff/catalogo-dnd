@@ -56,7 +56,7 @@
       formato `::warning` en Actions, código de salida siempre 0);
       verificar con la ficha piloto y con un identificador inventado en
       una ficha temporal
-- [ ] 4.2 Añadir el paso `just check-videos` (o su comando `npm`) a
+- [x] 4.2 Añadir el paso `just check-videos` (o su comando `npm`) a
       `.github/workflows/test.yml` con `continue-on-error: true`;
       verificar en la PR que aparece la anotación con un vídeo
       inexistente y que el workflow termina en verde
