@@ -139,5 +139,14 @@
       "code": "IDROTF"
     }
   ],
-  "images": ["/images/videogames/icewind-dale/0.jpg"]
+  "images": ["/images/videogames/icewind-dale/0.jpg"],
+  "videos": [
+    {
+      "youtube": "w17vHsQz5oM",
+      "kind": "announcement",
+      "title": "Icewind Dale: Enhanced Edition Announcement Trailer",
+      "channel": "Beamdog",
+      "date": "2014-09-05"
+    }
+  ]
 }

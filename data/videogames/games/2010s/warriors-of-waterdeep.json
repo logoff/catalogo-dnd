@@ -18,5 +18,14 @@
       "date": "2019-05-29"
     }
   ],
-  "images": ["/images/videogames/warriors-of-waterdeep/0.jpg"]
+  "images": ["/images/videogames/warriors-of-waterdeep/0.jpg"],
+  "videos": [
+    {
+      "youtube": "_ZltNockynI",
+      "kind": "trailer",
+      "title": "Warriors of Waterdeep - Dungeons & Dragons | Official Trailer",
+      "channel": "Ludia Games",
+      "date": "2019-05-30"
+    }
+  ]
 }

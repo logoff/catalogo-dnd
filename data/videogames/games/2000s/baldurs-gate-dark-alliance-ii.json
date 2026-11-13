@@ -75,5 +75,14 @@
       "edition": "Relanzamiento"
     }
   ],
-  "images": ["/images/videogames/baldurs-gate-dark-alliance-ii/0.jpg"]
+  "images": ["/images/videogames/baldurs-gate-dark-alliance-ii/0.jpg"],
+  "videos": [
+    {
+      "youtube": "UM95ngzoqrU",
+      "kind": "trailer",
+      "title": "Baldur's Gate: Dark Alliance II Trailer",
+      "channel": "InterplayGames",
+      "date": "2022-07-11"
+    }
+  ]
 }

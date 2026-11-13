@@ -75,5 +75,64 @@ describe('VideogameDetail', () => {
     expect(screen.queryByText('Reglas:')).not.toBeInTheDocument()
     expect(screen.queryByRole('heading', { name: 'Notas' })).not.toBeInTheDocument()
     expect(screen.queryByRole('heading', { name: 'Libros relacionados' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('heading', { name: 'Vídeos' })).not.toBeInTheDocument()
+  })
+
+  it('muestra los vídeos en el orden de los datos, con su título y su canal', () => {
+    const video = { kind: 'trailer' as const, channel: 'Editora', date: '2020-01-01' }
+    render(
+      <MemoryRouter>
+        <VideogameDetail
+          game={enrichVideogame({
+            ...base,
+            videos: [
+              { ...video, youtube: 'aaaaaaaaaaa', title: 'Anuncio' },
+              { ...video, youtube: 'bbbbbbbbbbb', title: 'Tráiler de lanzamiento' },
+            ],
+          })}
+        />
+      </MemoryRouter>
+    )
+    expect(screen.getByRole('heading', { name: 'Vídeos' })).toBeInTheDocument()
+    expect(
+      screen.getAllByRole('link', { name: /^Reproducir/ }).map((a) => a.getAttribute('aria-label'))
+    ).toEqual(['Reproducir «Anuncio»', 'Reproducir «Tráiler de lanzamiento»'])
+    expect(screen.getAllByText('· Editora')).toHaveLength(2)
+  })
+
+  it('incluye un VideoObject por vídeo en los datos estructurados', () => {
+    const { container } = render(
+      <MemoryRouter>
+        <VideogameDetail
+          game={enrichVideogame({
+            ...base,
+            videos: [
+              {
+                youtube: 'aaaaaaaaaaa',
+                kind: 'trailer',
+                title: 'Tráiler',
+                channel: 'Editora',
+                date: '2020-01-01',
+              },
+            ],
+          })}
+        />
+      </MemoryRouter>
+    )
+    const objects = [...container.querySelectorAll('script[type="application/ld+json"]')]
+      .flatMap((script) => JSON.parse(script.textContent ?? '[]'))
+      .filter((data) => data['@type'] === 'VideoObject')
+    expect(objects).toEqual([
+      {
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        name: 'Tráiler',
+        description: 'Vídeo oficial de Juego, publicado por Editora.',
+        thumbnailUrl: 'https://catalogodnd.es/images/videogames/juego/video-aaaaaaaaaaa.jpg',
+        uploadDate: '2020-01-01',
+        contentUrl: 'https://www.youtube.com/watch?v=aaaaaaaaaaa',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/aaaaaaaaaaa',
+      },
+    ])
   })
 })

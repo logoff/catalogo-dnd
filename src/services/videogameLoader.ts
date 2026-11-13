@@ -8,6 +8,10 @@ import type {
   GameRelease,
 } from '@/types/videogame'
 
+export function videoThumbnail(slug: string, youtube: string): string {
+  return `/images/videogames/${slug}/video-${youtube}.jpg`
+}
+
 // Todos los JSON de videojuegos, importados en tiempo de build
 const videogameModules = import.meta.glob<Videogame>('/data/videogames/games/**/*.json', {
   eager: true,
@@ -71,6 +75,10 @@ export function enrichVideogame(game: Videogame): VideogameWithMeta {
 
   return {
     ...game,
+    videos: (game.videos ?? []).map((video) => ({
+      ...video,
+      thumbnail: videoThumbnail(game.slug, video.youtube),
+    })),
     firstReleaseDate,
     decade: firstReleaseDate ? Math.floor(Number(firstReleaseDate.slice(0, 4)) / 10) * 10 : null,
     platforms,

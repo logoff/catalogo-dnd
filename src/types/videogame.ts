@@ -140,6 +140,15 @@ export interface Review {
   edition?: string
 }
 
+// Vídeo oficial de YouTube: solo de la editora, la desarrolladora, una plataforma o Wizards
+export interface Video {
+  youtube: string
+  kind: 'trailer' | 'announcement' | 'launch' | 'expansion'
+  title: string
+  channel: string
+  date: string
+}
+
 export interface Expansion {
   title: string
   date?: string
@@ -162,6 +171,7 @@ export interface Videogame {
   releases: GameRelease[]
   reviews?: Review[]
   images?: string[]
+  videos?: Video[]
   official_url?: string
   related_products?: { edition: Edition; code: string }[]
 }
@@ -185,7 +195,13 @@ export interface VideogameBundle {
 // full: con voces; text: textos o subtítulos; none: solo en inglés (también si no hay dato)
 export type SpanishSummary = 'full' | 'text' | 'none'
 
+export interface VideoWithMeta extends Video {
+  // Miniatura local, para no pedir nada a YouTube antes de reproducir
+  thumbnail: string
+}
+
 export interface VideogameWithMeta extends Videogame {
+  videos: VideoWithMeta[]
   firstReleaseDate: string | null
   decade: number | null
   platforms: Platform[]

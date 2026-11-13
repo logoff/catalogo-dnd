@@ -29,6 +29,10 @@ recetas disponibles.
 - `just novedades` — Lista las novedades de 2024 a vigilar (sin fecha,
   fechas futuras, sin edición en castellano). La skill `novedades` parte
   de aquí para buscar información nueva
+- `just video-thumbnails` — Descarga las miniaturas que falten de los
+  vídeos de los videojuegos
+- `just check-videos` — Avisa de vídeos retirados, no empotrables o de
+  otro canal (en Actions, sin bloquear)
 
 Ejecutar un test individual:
 `npx vitest run src/utils/imageResolver.test.ts`
@@ -57,6 +61,11 @@ del mismo producto. Tipos de publicación: `book`, `boxed_set`,
 y edición, el castellano de cada uno (solo si está confirmado; sin dato
 cuenta como solo en inglés), notas y enlaces de compra.
 `videogameLoader.ts` los enriquece en `VideogameWithMeta`.
+Pueden llevar hasta tres vídeos oficiales de YouTube (`videos`), solo de
+la editora, la desarrolladora, una plataforma o Wizards; su miniatura se
+guarda en `public/images/videogames/<slug>/video-<id>.jpg` y el
+reproductor de `youtube-nocookie.com` solo se carga al pulsar
+(`YouTubeVideo.tsx`), para no contactar con YouTube antes.
 `data/videogames/inventory.md` es la lista maestra: un test exige que
 cada ficha esté en ella y al revés. Para dar de alta juegos, usar la
 skill `add-videogame`.

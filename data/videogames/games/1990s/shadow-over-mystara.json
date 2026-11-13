@@ -49,5 +49,14 @@
       "bundle": "chronicles-of-mystara"
     }
   ],
-  "images": ["/images/videogames/shadow-over-mystara/0.png"]
+  "images": ["/images/videogames/shadow-over-mystara/0.png"],
+  "videos": [
+    {
+      "youtube": "WvesFTv3Zs4",
+      "kind": "launch",
+      "title": "Dungeons & Dragons: Chronicles of Mystara launch trailer",
+      "channel": "Official Capcom Europe",
+      "date": "2013-06-18"
+    }
+  ]
 }

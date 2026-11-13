@@ -35,6 +35,13 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
 - **URLs de compra limpias**, sin parámetros de afiliado: el afiliado se
   añade en el build (`src/utils/stores.ts`). No enlazar a tiendas que no
   estén en el enum `store` del esquema.
+- **Vídeos solo de canales oficiales:** la editora, la desarrolladora,
+  una plataforma donde salió (PlayStation, Xbox, Nintendo) o Wizards of
+  the Coast / D&D. Nada de medios (GameSpot, IGN…), creadores de
+  contenido ni fans, aunque suban el mismo tráiler. Si no hay ningún
+  vídeo oficial, el juego no lleva `videos`. Como mucho tres: el tráiler
+  principal y, si los hay, el de anuncio, el de lanzamiento o el de una
+  expansión.
 
 ## Fuentes recomendadas
 
@@ -46,6 +53,7 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
 | Dónde se vende | API de GOG `https://catalog.gog.com/v1/catalog?query=like:<título>&countryCode=ES` y búsqueda de Steam `https://store.steampowered.com/api/storesearch/?term=<título>&cc=ES` |
 | Notas | Metacritic, OpenCritic y los medios admitidos |
 | Portada | Imagen de la infobox de Wikipedia (API `prop=imageinfo`) o `library_600x900.jpg` de Steam |
+| Vídeos | Canal de YouTube de la editora o la desarrolladora (enlazado desde la web oficial), nota de prensa del lanzamiento y página de Steam; canal y título exactos con `https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=<id>` (`author_name`, `title`) y fecha en la página del vídeo (`"uploadDate"`) |
 
 ## Pasos
 
@@ -55,25 +63,33 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
    que las URLs de tienda responden.
 3. **Descargar la portada** en `public/images/videogames/<slug>/0.<ext>`
    (la portada primero; más imágenes con `1`, `2`…).
-4. **Escribir el JSON** en `data/videogames/games/<década>s/<slug>.json`
+4. **Buscar vídeos oficiales** según las reglas de arriba. Cada uno va en
+   `videos` con `youtube` (el identificador de 11 caracteres, no la URL),
+   `kind` (`trailer`, `announcement`, `launch` o `expansion`), `title`
+   (el título original), `channel` (igual que el `author_name` del
+   oEmbed) y `date` (`AAAA-MM-DD`). Después, `just video-thumbnails`
+   descarga sus miniaturas y `just check-videos` comprueba que se pueden
+   empotrar y que el canal coincide.
+5. **Escribir el JSON** en `data/videogames/games/<década>s/<slug>.json`
    (por ejemplo `1990s/baldurs-gate.json`). El nombre del archivo es el
    slug, en kebab-case. Esquema: `data/schemas/videogame.jsonschema`.
    Campos obligatorios: `slug`, `title`, `description`, `developers`,
    `publishers`, `genres` y `releases`.
-5. **Descripción propia de dos párrafos** separados por `\n\n`: qué es
+6. **Descripción propia de dos párrafos** separados por `\n\n`: qué es
    el juego y en qué mundo y reglas se basa; para quién es, cómo se
    juega hoy y si está en castellano. Sin copiar textos de tiendas ni
    reseñas. Pide al usuario que la revise.
-6. **Marcar la ficha en el inventario**: cambia `pendiente` por el slug
+7. **Marcar la ficha en el inventario**: cambia `pendiente` por el slug
    en la columna «Ficha».
-7. **Verificar** con `just check` (los tests validan el esquema, la
-   descripción, las imágenes, las URLs y la coherencia con el
-   inventario) y, si hace falta, mira la ficha con `just dev` en
+8. **Verificar** con `just check` (los tests validan el esquema, la
+   descripción, las imágenes, las miniaturas de los vídeos, las URLs y
+   la coherencia con el inventario) y, si hace falta, mira la ficha con `just dev` en
    `/videojuego/<slug>`.
 
 ## Ejemplo
 
 `data/videogames/games/2020s/baldurs-gate-3.json` es la ficha de
 referencia: lanzamientos por plataforma con su castellano, notas con
-plataforma, enlaces de compra en el lanzamiento de PC y libro
-relacionado (`related_products`).
+plataforma, enlaces de compra en el lanzamiento de PC, tráiler de
+lanzamiento del canal de Larian (`videos`) y libro relacionado
+(`related_products`).

@@ -51,5 +51,14 @@
       "date": "2020-05-07"
     }
   ],
-  "images": ["/images/videogames/idle-champions/0.jpg"]
+  "images": ["/images/videogames/idle-champions/0.jpg"],
+  "videos": [
+    {
+      "youtube": "fhve2PxtYQY",
+      "kind": "trailer",
+      "title": "Idle Champions of the Forgotten Realms Trailer",
+      "channel": "Codename Entertainment",
+      "date": "2020-06-17"
+    }
+  ]
 }

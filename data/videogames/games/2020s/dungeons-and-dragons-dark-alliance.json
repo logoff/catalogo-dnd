@@ -42,5 +42,21 @@
       "code": "IDROTF"
     }
   ],
-  "images": ["/images/videogames/dungeons-and-dragons-dark-alliance/0.jpg"]
+  "images": ["/images/videogames/dungeons-and-dragons-dark-alliance/0.jpg"],
+  "videos": [
+    {
+      "youtube": "U0-LoGYnm1w",
+      "kind": "launch",
+      "title": "Dark Alliance – Official Launch Cinematic Trailer",
+      "channel": "XBOX",
+      "date": "2021-06-21"
+    },
+    {
+      "youtube": "a9ma-sdzeAI",
+      "kind": "trailer",
+      "title": "Dark Alliance – Official Gameplay Trailer",
+      "channel": "XBOX",
+      "date": "2021-03-16"
+    }
+  ]
 }

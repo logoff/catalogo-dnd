@@ -15,5 +15,14 @@
       "date": "2011-10"
     }
   ],
-  "images": ["/images/videogames/heroes-of-neverwinter/0.jpg"]
+  "images": ["/images/videogames/heroes-of-neverwinter/0.jpg"],
+  "videos": [
+    {
+      "youtube": "ZGdQ7tDCDhI",
+      "kind": "trailer",
+      "title": "Heroes of Neverwinter Trailer",
+      "channel": "Atari",
+      "date": "2011-10-06"
+    }
+  ]
 }

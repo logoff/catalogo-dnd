@@ -11,12 +11,14 @@ import {
   rulesetNames,
   settingNames,
 } from '@/utils/videogameTranslations'
+import { videoStructuredData } from '@/utils/youtube'
 import ImageLightbox from '../common/ImageLightbox'
 import LazyImage from '../common/LazyImage'
 import SpanishBadge from './SpanishBadge'
 import ReleaseTable from './ReleaseTable'
 import ReviewScore from './ReviewScore'
 import PurchaseByPlatform from './PurchaseByPlatform'
+import YouTubeVideo from './YouTubeVideo'
 
 interface VideogameDetailProps {
   game: VideogameWithMeta
@@ -122,6 +124,20 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
       <Section title="Dónde comprar">
         <PurchaseByPlatform slug={game.slug} releases={game.releases} />
       </Section>
+
+      {game.videos.length > 0 && (
+        <Section title="Vídeos">
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(videoStructuredData(game)) }}
+          />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {game.videos.map((video) => (
+              <YouTubeVideo key={video.youtube} video={video} />
+            ))}
+          </div>
+        </Section>
+      )}
 
       <Section title="Ediciones">
         <ReleaseTable releases={game.releases} />

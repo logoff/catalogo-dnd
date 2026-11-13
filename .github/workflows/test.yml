@@ -26,3 +26,8 @@ jobs:
 
       - name: Run tests
         run: npm run test
+
+      # Solo avisa de vídeos retirados, no empotrables o de otro canal; nunca hace fallar la build
+      - name: Check videos
+        run: node scripts/check-videos.mjs
+        continue-on-error: true

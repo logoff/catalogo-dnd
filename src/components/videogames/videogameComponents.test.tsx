@@ -1,14 +1,15 @@
 import { describe, it, expect } from 'vitest'
-import { render, screen, within } from '@testing-library/react'
+import { fireEvent, render, screen, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import SpanishBadge from './SpanishBadge'
 import ReviewScore from './ReviewScore'
 import ReleaseTable from './ReleaseTable'
 import PurchaseByPlatform from './PurchaseByPlatform'
 import PlatformIcon from './PlatformIcon'
+import YouTubeVideo from './YouTubeVideo'
 import { PLATFORMS_WITH_LOGO } from '@/utils/platformLogos'
 import logoSourcesRaw from '/public/images/platforms/sources.json?raw'
-import type { Platform } from '@/types/videogame'
+import type { Platform, VideoWithMeta } from '@/types/videogame'
 import { describeSpanish, formatPartialDate, platformNames } from '@/utils/videogameTranslations'
 
 describe('SpanishBadge', () => {
@@ -323,5 +324,53 @@ describe('logotipos de plataforma', () => {
     const arcade = render(<PlatformIcon platform="arcade" />)
     expect(arcade.container.querySelector('img')).toBeNull()
     expect(arcade.container.querySelector('svg')).not.toBeNull()
+  })
+})
+
+describe('YouTubeVideo', () => {
+  const video: VideoWithMeta = {
+    youtube: 'XuCfkgaaa08',
+    kind: 'launch',
+    title: "Baldur's Gate 3: Launch Trailer",
+    channel: 'Larian Studios',
+    date: '2023-08-03',
+    thumbnail: '/images/videogames/baldurs-gate-3/video-XuCfkgaaa08.jpg',
+  }
+
+  it('antes de reproducir solo muestra la miniatura local, sin nada de YouTube cargado', () => {
+    const { container } = render(<YouTubeVideo video={video} />)
+    expect(container.querySelector('iframe')).toBeNull()
+    expect(container.innerHTML).not.toMatch(/ytimg|youtube-nocookie|googlevideo/)
+    expect(container.querySelector('img')).toHaveAttribute('src', video.thumbnail)
+    expect(screen.getByText(video.title)).toBeInTheDocument()
+    expect(screen.getByText(/Larian Studios/)).toBeInTheDocument()
+  })
+
+  it('sin JavaScript, la miniatura enlaza al vídeo en YouTube', () => {
+    render(<YouTubeVideo video={video} />)
+    expect(screen.getByRole('link', { name: /Reproducir/ })).toHaveAttribute(
+      'href',
+      'https://www.youtube.com/watch?v=XuCfkgaaa08'
+    )
+  })
+
+  it('al pulsar carga el reproductor de youtube-nocookie y le pasa el foco', () => {
+    const { container } = render(<YouTubeVideo video={video} />)
+    fireEvent.click(screen.getByRole('link', { name: /Reproducir/ }))
+    const iframe = container.querySelector('iframe')
+    expect(iframe).toHaveAttribute(
+      'src',
+      'https://www.youtube-nocookie.com/embed/XuCfkgaaa08?autoplay=1'
+    )
+    expect(iframe).toHaveAttribute('title', video.title)
+    expect(iframe).toHaveAttribute('referrerpolicy', 'strict-origin-when-cross-origin')
+    expect(iframe).toHaveFocus()
+    expect(screen.queryByRole('link', { name: /Reproducir/ })).toBeNull()
+  })
+
+  it.each(['Enter', ' '])('también se reproduce con el teclado (%j)', (key) => {
+    const { container } = render(<YouTubeVideo video={video} />)
+    fireEvent.keyDown(screen.getByRole('link', { name: /Reproducir/ }), { key })
+    expect(container.querySelector('iframe')).not.toBeNull()
   })
 })

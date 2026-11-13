@@ -44,5 +44,21 @@
       "platform": "pc_windows"
     }
   ],
-  "images": ["/images/videogames/dragonshard/0.png"]
+  "images": ["/images/videogames/dragonshard/0.png"],
+  "videos": [
+    {
+      "youtube": "jQK_0x2LyjQ",
+      "kind": "trailer",
+      "title": "Dragonshard Trailer",
+      "channel": "Liquid Entertainment",
+      "date": "2015-04-29"
+    },
+    {
+      "youtube": "SQE6IWuUM-w",
+      "kind": "launch",
+      "title": "Dungeons & Dragons: Dragonshard Re-Launch Trailer",
+      "channel": "SNEG",
+      "date": "2025-08-12"
+    }
+  ]
 }

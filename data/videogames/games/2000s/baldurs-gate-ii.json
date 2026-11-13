@@ -124,5 +124,14 @@
     }
   ],
   "official_url": "https://www.beamdog.com/games/baldurs-gate-ii-enhanced/",
-  "images": ["/images/videogames/baldurs-gate-ii/0.png"]
+  "images": ["/images/videogames/baldurs-gate-ii/0.png"],
+  "videos": [
+    {
+      "youtube": "tONHtATupkw",
+      "kind": "launch",
+      "title": "Baldur's Gate II: Enhanced Edition Launch Trailer",
+      "channel": "Beamdog",
+      "date": "2013-11-13"
+    }
+  ]
 }

@@ -109,6 +109,12 @@ export default function LegalPage() {
             que aplica su propia política de privacidad. Si escribes al correo de contacto, tu
             mensaje solo se usará para responderte.
           </p>
+          <p>
+            Las fichas de videojuegos pueden incluir vídeos oficiales de YouTube. El sitio no carga
+            nada de YouTube por su cuenta: solo ves una imagen guardada aquí. Al pulsar reproducir,
+            tu navegador se conecta con YouTube en su modo de privacidad mejorada, y se aplica la
+            política de privacidad de Google.
+          </p>
 
           <h2>Cookies</h2>
           <p>
