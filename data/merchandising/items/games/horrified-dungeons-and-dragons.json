@@ -1,0 +1,22 @@
+{
+  "slug": "horrified-dungeons-and-dragons",
+  "title": "Horrified: Dungeons & Dragons",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "Ravensburger",
+  "date": "2025-08-01",
+  "description": "Juego de mesa cooperativo de la serie Horrified para uno a cinco jugadores, que se enfrentan juntos a monstruos clásicos de Dungeons & Dragons. Es compatible con los otros juegos de la serie Horrified, y tiene una continuación independiente ambientada en Ravenloft.\n\nEs para grupos que prefieren jugar juntos contra el tablero, a partir de diez años. Solo se vende en inglés.",
+  "source": "https://www.ravensburger.us/en-US/products/games/horrified-board-games",
+  "editions": [
+    {
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0F3JYL8M6/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/horrified-dungeons-and-dragons/0.jpg"]
+}

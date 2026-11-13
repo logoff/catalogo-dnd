@@ -1,0 +1,16 @@
+{
+  "slug": "onslaught",
+  "title": "Dungeons & Dragons: Onslaught",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "WizKids",
+  "date": "2023",
+  "description": "Juego de escaramuzas con miniaturas para dos jugadores: cada uno dirige una facción de aventureros que se enfrenta a la otra en el tablero. La caja básica trae veintiuna miniaturas pintadas, un tablero de doble cara y elementos de escenografía, y tiene expansiones con nuevas facciones.\n\nEs para jugadores de juegos de miniaturas y para quien quiere combates tácticos de D&D en partidas de hora y media. Solo se vende en inglés.",
+  "source": "https://wizkids.com/dd-onslaught/",
+  "editions": [
+    {
+      "language": "english"
+    }
+  ],
+  "images": ["/images/merchandising/onslaught/0.jpg"]
+}

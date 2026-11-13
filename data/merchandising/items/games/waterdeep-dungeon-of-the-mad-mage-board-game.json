@@ -1,0 +1,22 @@
+{
+  "slug": "waterdeep-dungeon-of-the-mad-mage-board-game",
+  "title": "Waterdeep: Dungeon of the Mad Mage Board Game",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "WizKids",
+  "date": "2019",
+  "description": "Juego de mesa cooperativo del D&D Adventure System ambientado en la mazmorra del Mago Loco bajo Waterdeep, para uno a cinco jugadores. Salió en edición normal y en edición premium, y se puede combinar con los demás juegos de la serie.\n\nEs para grupos que quieren explorar mazmorras en partidas de una hora sin director de juego. Solo se vende en inglés.",
+  "source": "https://wizkids.com/?p=9844",
+  "editions": [
+    {
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07D5NKSPD/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/waterdeep-dungeon-of-the-mad-mage-board-game/0.jpg"]
+}
