@@ -1,0 +1,27 @@
+{
+  "slug": "golden-archive",
+  "title": "Hasbro Dungeons & Dragons Golden Archive",
+  "group": "figures",
+  "kind": "figure",
+  "manufacturer": "Hasbro",
+  "description": "Línea de figuras de acción coleccionables de Hasbro a escala de seis pulgadas, con personajes y monstruos clásicos de Dungeons & Dragons: entre ellas, Drizzt Do'Urden con sus cimitarras Centella y Muerte Helada, publicado para el aniversario de las novelas de R. A. Salvatore, y Xanathar con su pez Sylgar.\n\nEs para coleccionistas de figuras y lectores de las novelas de los Reinos Olvidados. La línea incluye también figuras de la película Honor entre ladrones.",
+  "source": "https://hasbropulse.com/products/dungeons-dragons-golden-archive-drizzt",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BDHW8MGW/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CM6XBF1L/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/golden-archive/0.jpg",
+    "/images/merchandising/golden-archive/1.jpg"
+  ]
+}

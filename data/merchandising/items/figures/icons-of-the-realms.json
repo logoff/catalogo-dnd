@@ -1,0 +1,27 @@
+{
+  "slug": "icons-of-the-realms",
+  "title": "WizKids D&D Icons of the Realms",
+  "group": "figures",
+  "kind": "collectible_miniature",
+  "manufacturer": "WizKids",
+  "description": "Línea de miniaturas prepintadas de Dungeons & Dragons de WizKids, con decenas de sets dedicados a aventuras, mundos y bestiarios del juego: el de Dragonlance fue el vigesimoquinto, y la Monster Manual Collection 1 reúne cuarenta y siete monstruos del Manual de monstruos de 2024. Muchos sets se venden en sobres sorpresa y otros en cajas de figuras concretas.\n\nSon para quien juega con miniaturas sobre el mapa y quiere figuras ya pintadas. Se agrupan en una sola ficha; en Amazon se venden sets sueltos.",
+  "source": "https://wizkids.com/?p=30325",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07ZP84B9R/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0D8CPG9BG/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/icons-of-the-realms/0.jpg",
+    "/images/merchandising/icons-of-the-realms/1.jpg"
+  ]
+}
