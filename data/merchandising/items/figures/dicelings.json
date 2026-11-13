@@ -1,0 +1,20 @@
+{
+  "slug": "dicelings",
+  "title": "Hasbro Dungeons & Dragons Dicelings",
+  "group": "figures",
+  "kind": "figure",
+  "manufacturer": "Hasbro",
+  "description": "Figuras coleccionables de Hasbro que se transforman de un dado grande en un monstruo de Dungeons & Dragons, como el contemplador, el oso lechuza o el mimeto, al estilo de los juguetes transformables.\n\nSon un regalo pequeño para jugadores de D&D y sirven de adorno en la mesa de juego.",
+  "source": "https://shop.hasbro.com/product/dungeons-and-dragons-honor-among-thieves-dandd-dicelings-owlbear-collectible-action-figure/7EFC77B6-76BD-4D4A-93AC-9B9A48A2BE7D",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B5JQCY2Z/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dicelings/0.jpg"]
+}
