@@ -58,7 +58,7 @@
       sigue mostrando solo libros
 - [x] 5.2 Añadir la mención de los productos licenciados a la página
       legal; verificar con un test
-- [ ] 5.3 Comprobar en `just dev` el listado y una ficha en escritorio y
+- [x] 5.3 Comprobar en `just dev` el listado y una ficha en escritorio y
       en móvil, y que los botones de compra llevan el afiliado
 
 ## 6. Herramientas y documentación
