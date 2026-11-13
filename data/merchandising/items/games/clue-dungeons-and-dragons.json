@@ -1,0 +1,22 @@
+{
+  "slug": "clue-dungeons-and-dragons",
+  "title": "Clue: Dungeons & Dragons",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "The Op",
+  "date": "2019",
+  "description": "Versión de Cluedo con temática de Dungeons & Dragons publicada por The Op, en la que el misterio se resuelve con elementos del juego de rol en lugar de los de la mansión clásica.\n\nEs para partidas familiares con fans de D&D que ya conocen Cluedo. Solo se vende en inglés.",
+  "source": "https://theop.games/blogs/theop/trivial-pursuit-dungeons-and-dragons-available-now",
+  "editions": [
+    {
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07WCQQSRJ/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/clue-dungeons-and-dragons/0.jpg"]
+}

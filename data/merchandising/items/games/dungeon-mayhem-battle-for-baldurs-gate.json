@@ -1,0 +1,17 @@
+{
+  "slug": "dungeon-mayhem-battle-for-baldurs-gate",
+  "title": "Dungeon Mayhem: Battle for Baldur's Gate",
+  "group": "games",
+  "kind": "card_game",
+  "manufacturer": "Wizards of the Coast",
+  "date": "2019-09-17",
+  "description": "Primera expansión de Dungeon Mayhem, con dos mazos nuevos de personajes de Baldur's Gate: el explorador Minsc con su hámster espacial gigante en miniatura, Boo, y la druida cambiaformas Jaheira, con ilustraciones de Jake Parker.\n\nSe juega con el juego básico o mezclando mazos de otras cajas, y es para grupos que ya tienen Dungeon Mayhem y quieren más personajes. Solo se vende en inglés.",
+  "source": "https://wpn.wizards.com/en/products/dungeon-mayhem-battle-for-baldurs-gate",
+  "editions": [
+    {
+      "language": "english"
+    }
+  ],
+  "images": ["/images/merchandising/dungeon-mayhem-battle-for-baldurs-gate/0.png"],
+  "related_videogames": ["baldurs-gate"]
+}

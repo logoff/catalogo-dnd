@@ -61,13 +61,19 @@ cartas.
 
 Cada artículo SHALL guardar su título original, el fabricante o la
 editorial que tiene la licencia, la fecha de salida si se conoce y una
-fuente oficial que confirme la licencia, y MAY guardar el título en
-castellano.
+fuente: la página oficial del fabricante o de Wizards, o, solo si no
+existe, la ficha del producto con licencia en un distribuidor o en
+Amazon. MAY guardar el título en castellano.
 
 #### Scenario: Artículo sin fuente de la licencia
 
-- **WHEN** un artículo no indica una fuente oficial
+- **WHEN** un artículo no indica ninguna fuente
 - **THEN** los tests del proyecto fallan
+
+#### Scenario: Producto descatalogado sin página oficial
+
+- **WHEN** el fabricante ya no tiene página del producto ni archivada
+- **THEN** la fuente puede ser su ficha en Amazon o en un distribuidor
 
 ### Requirement: Ediciones por idioma
 

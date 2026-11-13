@@ -95,8 +95,11 @@ al dar de alta el artículo.)
   como las de DK en español para Estados Unidos (`false`); `title`, `publisher` y `date` solo si cambian
   respecto al artículo; `isbn13` o `ean` cuando existan;
   `purchase_links` con el mismo formato que los libros.
-- `source`: página oficial del fabricante o de Wizards que confirma la
-  licencia (obligatorio).
+- `source` (obligatorio): página oficial del fabricante o de Wizards que
+  confirma la licencia, también en su copia del Internet Archive si el
+  producto está descatalogado; solo si no existe ninguna, la ficha del
+  producto en Amazon o en un distribuidor (decisión del usuario al
+  cargar los juegos y las figuras).
 - `related_products` con el mismo formato que en videojuegos y
   `related_videogames` con slugs.
 
