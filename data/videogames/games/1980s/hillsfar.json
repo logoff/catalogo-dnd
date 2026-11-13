@@ -49,5 +49,15 @@
       "bundle": "forgotten-realms-archives-2"
     }
   ],
-  "images": ["/images/videogames/hillsfar/0.png"]
+  "images": ["/images/videogames/hillsfar/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/hillsfar/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1882280/"
+    },
+    {
+      "image": "/images/videogames/hillsfar/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1882280/"
+    }
+  ]
 }

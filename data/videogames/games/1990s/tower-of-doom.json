@@ -58,5 +58,15 @@
       "channel": "Official Capcom Europe",
       "date": "2013-06-18"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/tower-of-doom/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    },
+    {
+      "image": "/images/videogames/tower-of-doom/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    }
   ]
 }

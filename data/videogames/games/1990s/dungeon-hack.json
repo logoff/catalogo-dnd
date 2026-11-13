@@ -29,5 +29,31 @@
       "bundle": "forgotten-realms-archives-3"
     }
   ],
-  "images": ["/images/videogames/dungeon-hack/0.png"]
+  "images": ["/images/videogames/dungeon-hack/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/dungeon-hack/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/dungeon-hack/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/dungeon-hack/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/dungeon-hack/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/dungeon-hack/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    },
+    {
+      "image": "/images/videogames/dungeon-hack/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/1904530/"
+    }
+  ]
 }

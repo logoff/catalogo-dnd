@@ -55,5 +55,19 @@
       "bundle": "silver-box-classics"
     }
   ],
-  "images": ["/images/videogames/dragons-of-flame/0.png"]
+  "images": ["/images/videogames/dragons-of-flame/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/dragons-of-flame/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/dragons-of-flame/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    },
+    {
+      "image": "/images/videogames/dragons-of-flame/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/2344020/"
+    }
+  ]
 }

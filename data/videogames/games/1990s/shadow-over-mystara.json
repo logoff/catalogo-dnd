@@ -58,5 +58,31 @@
       "channel": "Official Capcom Europe",
       "date": "2013-06-18"
     }
+  ],
+  "screenshots": [
+    {
+      "image": "/images/videogames/shadow-over-mystara/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    },
+    {
+      "image": "/images/videogames/shadow-over-mystara/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    },
+    {
+      "image": "/images/videogames/shadow-over-mystara/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    },
+    {
+      "image": "/images/videogames/shadow-over-mystara/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    },
+    {
+      "image": "/images/videogames/shadow-over-mystara/screenshot-5.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    },
+    {
+      "image": "/images/videogames/shadow-over-mystara/screenshot-6.webp",
+      "source": "https://store.steampowered.com/app/229480/"
+    }
   ]
 }

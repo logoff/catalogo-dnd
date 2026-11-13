@@ -34,5 +34,23 @@
       "bundle": "forgotten-realms-archives-1"
     }
   ],
-  "images": ["/images/videogames/eye-of-the-beholder-iii/0.png"]
+  "images": ["/images/videogames/eye-of-the-beholder-iii/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/eye-of-the-beholder-iii/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1882240/"
+    },
+    {
+      "image": "/images/videogames/eye-of-the-beholder-iii/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1882240/"
+    },
+    {
+      "image": "/images/videogames/eye-of-the-beholder-iii/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1882240/"
+    },
+    {
+      "image": "/images/videogames/eye-of-the-beholder-iii/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1882240/"
+    }
+  ]
 }

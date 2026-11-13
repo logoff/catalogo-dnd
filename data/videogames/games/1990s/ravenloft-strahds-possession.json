@@ -39,5 +39,23 @@
       "code": "COS"
     }
   ],
-  "images": ["/images/videogames/ravenloft-strahds-possession/0.png"]
+  "images": ["/images/videogames/ravenloft-strahds-possession/0.png"],
+  "screenshots": [
+    {
+      "image": "/images/videogames/ravenloft-strahds-possession/screenshot-1.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-strahds-possession/screenshot-2.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-strahds-possession/screenshot-3.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    },
+    {
+      "image": "/images/videogames/ravenloft-strahds-possession/screenshot-4.webp",
+      "source": "https://store.steampowered.com/app/1904560/"
+    }
+  ]
 }
