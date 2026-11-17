@@ -1,0 +1,33 @@
+{
+  "slug": "the-god-catcher",
+  "title": "The God Catcher",
+  "authors": ["Erin M. Evans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-waterdeep", "number": 5 },
+  "date": "2010-02",
+  "description": "Tennora daría cualquier cosa por ser maga, y una extraña mujer que dice ser un dragón le promete conseguirlo a cambio de ayuda para recuperar su verdadera forma.\n\nPrimera novela de Erin M. Evans, dentro de la serie Ed Greenwood Presents Waterdeep.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1070984",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-02",
+      "format": "mass_market",
+      "isbn13": 9780786954865,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?305571",
+      "cover": "/images/novels/the-god-catcher/9780786954865.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-22",
+      "format": "ebook",
+      "isbn13": 9780786956333,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483459",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0035J5DG4/" }]
+    }
+  ]
+}

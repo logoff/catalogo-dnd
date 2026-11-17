@@ -1,0 +1,30 @@
+{
+  "slug": "heir-of-kayolin",
+  "title": "Heir of Kayolin",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-dwarf-home", "number": 2 },
+  "date": "2008-10",
+  "description": "Thorbardin sigue cerrada al mundo y sumida en una guerra civil. Brandon Bluestone vuelve a Kayolin y descubre que es un fugitivo, y con la ayuda de una sacerdotisa enana intenta abrir camino a un futuro de paz para los enanos.\n\nEs la segunda novela de Dwarf Home. No se ha publicado en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10",
+      "isbn13": 9780786950034,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786950034&type=ISBN",
+      "cover": "/images/novels/heir-of-kayolin/9780786950034.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0076Q1GSG/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1GSG/" }]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "thieves-of-blood",
+  "title": "Thieves of Blood",
+  "authors": ["Tim Waggoner"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-blade-of-the-flame", "number": 1 },
+  "date": "2006-05",
+  "description": "Diran, antiguo asesino convertido en sacerdote tras una experiencia espiritual, solo quiere paz, pero en una ciudad portuaria su pasado lo alcanza.\n\nPrimera novela de la trilogía The Blade of the Flame, de Tim Waggoner.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1356785",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-05",
+      "format": "mass_market",
+      "isbn13": 9780786940059,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83034",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940050/" }],
+      "cover": "/images/novels/thieves-of-blood/9780786940059.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0036S4AYU/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4AYU/" }]
+    }
+  ]
+}

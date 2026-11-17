@@ -1,0 +1,24 @@
+{
+  "slug": "the-maelstroms-eye",
+  "title": "The Maelstrom's Eye",
+  "authors": ["Roger E. Moore"],
+  "setting": "spelljammer",
+  "kind": "novel",
+  "series": { "id": "spelljammer-cloakmaster", "number": 3 },
+  "date": "1992-05",
+  "description": "La búsqueda de la verdad sobre su capa lleva a Teldin Moore hasta un fal, una babosa genial, y lo atrapa entre las fuerzas de los scro y un behemot.\n\nTercera novela del ciclo del Cloakmaster, de Roger E. Moore.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?16159",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-05",
+      "format": "mass_market",
+      "isbn13": 9781560763444,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31656",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560763442/" }],
+      "cover": "/images/novels/the-maelstroms-eye/9781560763444.webp"
+    }
+  ]
+}

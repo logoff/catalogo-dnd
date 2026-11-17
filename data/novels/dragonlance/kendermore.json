@@ -1,0 +1,108 @@
+{
+  "slug": "kendermore",
+  "title": "Kendermore",
+  "authors": ["Mary Kirchoff"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-preludes", "number": 2 },
+  "date": "1989-08",
+  "description": "Una cazarrecompensas enana se presenta en Solace con un encargo del Consejo de Kendermore: llevar de vuelta a Tasslehoff Burrfoot para que cumpla un compromiso de matrimonio pactado cuando era niño. Para asegurarse de que obedece, el Consejo ha encarcelado a su querido tío Saltatrampas.\n\nEs la segunda novela de Preludes y una de las más divertidas de Dragonlance, con el humor de los kender en primer plano. En castellano se tituló El país de los kenders.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17091",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-08",
+      "format": "mass_market",
+      "isbn13": 9780880387545,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11178",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880387548/" }],
+      "cover": "/images/novels/kendermore/9780880387545.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-12",
+      "format": "mass_market",
+      "isbn13": 9780140126327,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11177"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-04",
+      "format": "mass_market",
+      "isbn13": 9780786929474,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?19368",
+      "cover": "/images/novels/kendermore/9780786929474.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-29",
+      "format": "ebook",
+      "isbn13": 9780786963300,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465436",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEJDI/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El país de los kenders",
+      "publisher": "Timun Mas",
+      "date": "1991",
+      "format": "hardcover",
+      "isbn13": 9788477225492,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/22",
+      "cover": "/images/novels/kendermore/9788477225492.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El país de los kenders",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030469,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12369",
+      "cover": "/images/novels/kendermore/9788448030469.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El país de los kenders",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "mass_market",
+      "isbn13": 9788448033743,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12370",
+      "cover": "/images/novels/kendermore/9788448033743.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El país de los kenders",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448720940,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24237",
+      "cover": "/images/novels/kendermore/9788448720940.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El país de los kenders",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005368,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36638",
+      "cover": "/images/novels/kendermore/9788448005368.webp"
+    }
+  ]
+}

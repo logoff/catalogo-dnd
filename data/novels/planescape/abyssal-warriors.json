@@ -1,0 +1,24 @@
+{
+  "slug": "abyssal-warriors",
+  "title": "Abyssal Warriors",
+  "authors": ["J. Robert King"],
+  "setting": "planescape",
+  "kind": "novel",
+  "series": { "id": "planescape-blood-wars", "number": 2 },
+  "date": "1996-06",
+  "description": "La Guerra de Sangre se extiende por los planos y Aereas y Nina acaban en bandos opuestos: él en Sigil, ella al frente de un ejército abisal.\n\nSegunda novela de la trilogía Blood Wars.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17111",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-06",
+      "format": "mass_market",
+      "isbn13": 9780786905010,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?26218",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905018/" }],
+      "cover": "/images/novels/abyssal-warriors/9780786905010.webp"
+    }
+  ]
+}

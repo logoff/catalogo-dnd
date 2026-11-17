@@ -1,0 +1,66 @@
+{
+  "slug": "elminster-in-myth-drannor",
+  "title": "Elminster in Myth Drannor",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-elminster", "number": 2 },
+  "date": "1997-11",
+  "description": "El joven mago Elminster viaja a la ciudad élfica de Cormanthor, más tarde conocida como Myth Drannor, para continuar su aprendizaje.\n\nSegunda novela de la serie de Elminster.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?6289",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-11",
+      "format": "hardcover",
+      "isbn13": 9780786906611,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?12100",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786906618/" }],
+      "cover": "/images/novels/elminster-in-myth-drannor/9780786906611.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-12",
+      "format": "mass_market",
+      "isbn13": 9780786911905,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?12101",
+      "cover": "/images/novels/elminster-in-myth-drannor/9780786911905.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-12",
+      "format": "ebook",
+      "isbn13": 9780786959679,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474023",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00513F92U/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Elminster en Myth Drannor",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448037192,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/216",
+      "cover": "/images/novels/elminster-in-myth-drannor/9788448037192.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Elminster en Myth Drannor",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722531,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24083",
+      "cover": "/images/novels/elminster-in-myth-drannor/9788448722531.webp"
+    }
+  ]
+}

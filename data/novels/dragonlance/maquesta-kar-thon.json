@@ -1,0 +1,24 @@
+{
+  "slug": "maquesta-kar-thon",
+  "title": "Maquesta Kar-Thon",
+  "authors": ["Tina Daniell"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-warriors", "number": 2 },
+  "date": "1995-07",
+  "description": "Con dieciocho años, Maquesta Kar-Thon toma el mando del Perechon para salvar a su padre, envenenado por un señor minotauro que solo le dará el antídoto si le captura un temible monstruo marino. La acompañan un minotauro renegado y un guerrero de las sombras, y por el camino la esperan piratas y criaturas del Mar Sangriento.\n\nEs la segunda novela de la serie Warriors y cuenta la juventud de la capitana que los Compañeros conocen en las Crónicas de la Dragonlance. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?29543",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-07",
+      "format": "mass_market",
+      "isbn13": 9780786901340,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?21413",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901349/" }],
+      "cover": "/images/novels/maquesta-kar-thon/9780786901340.webp"
+    }
+  ]
+}

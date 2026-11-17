@@ -1,0 +1,23 @@
+{
+  "slug": "the-orb-of-xoriat",
+  "title": "The Orb of Xoriat",
+  "authors": ["Edward Bolme"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-war-torn", "number": 2 },
+  "date": "2005-10",
+  "description": "Teron, un monje entrenado para la guerra y último de su orden, busca un arma poderosa que podría volver a desatar la guerra.\n\nNovela de la serie The War-Torn, de Edward Bolme.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?904488",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-10",
+      "format": "mass_market",
+      "isbn13": 9780786938193,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?72829",
+      "cover": "/images/novels/the-orb-of-xoriat/9780786938193.webp"
+    }
+  ]
+}

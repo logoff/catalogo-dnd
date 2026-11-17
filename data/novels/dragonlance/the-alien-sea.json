@@ -1,0 +1,34 @@
+{
+  "slug": "the-alien-sea",
+  "title": "The Alien Sea",
+  "authors": ["Lucien Soulban"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-champions", "number": 2 },
+  "date": "2006-08",
+  "description": "Un veneno se extiende por los océanos de Krynn desde la Grieta del Mundo y los dos pueblos de elfos marinos, dargonestis y dimernestis, se reúnen en un cónclave para afrontar la crisis, que pronto es atacado por no muertos.\n\nEs una novela de la serie Champions, de historias independientes situadas tras La guerra de los espíritus. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?182775",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-08",
+      "format": "mass_market",
+      "isbn13": 9780786940820,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83898",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940824/" }],
+      "cover": "/images/novels/the-alien-sea/9780786940820.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-30",
+      "format": "ebook",
+      "isbn13": 9780786964789,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457046",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT180/" }]
+    }
+  ]
+}

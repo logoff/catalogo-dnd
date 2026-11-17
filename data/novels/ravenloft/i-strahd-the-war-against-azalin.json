@@ -1,0 +1,24 @@
+{
+  "slug": "i-strahd-the-war-against-azalin",
+  "title": "I, Strahd: The War Against Azalin",
+  "authors": ["P. N. Elrod"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "series": { "id": "ravenloft-i-strahd", "number": 2 },
+  "date": "1998-06",
+  "description": "Siglos después, el cazador de monstruos Van Richten lee las memorias de Strahd, que narran su enfrentamiento con Azalin, el liche señor de Darkon.\n\nSegunda novela de I, Strahd, de P. N. Elrod.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?29081",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-06",
+      "format": "mass_market",
+      "isbn13": 9780786907540,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?17690",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786907541/" }],
+      "cover": "/images/novels/i-strahd-the-war-against-azalin/9780786907540.webp"
+    }
+  ]
+}

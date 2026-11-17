@@ -1,0 +1,56 @@
+{
+  "slug": "swords-of-eveningstar",
+  "title": "Swords of Eveningstar",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-knights-of-myth-drannor", "number": 1 },
+  "date": "2006-08",
+  "description": "Las aventuras de juventud de Florin, Islif y Jhessail, que luchan por hacerse un nombre en Cormyr y defenderlo frente a un mal más astuto de lo que imaginan.\n\nPrimera novela de la trilogía de los Caballeros de Myth Drannor, de Ed Greenwood.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?182776",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-08",
+      "format": "hardcover",
+      "isbn13": 9780786940226,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83899",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940220/" }],
+      "cover": "/images/novels/swords-of-eveningstar/9780786940226.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-06",
+      "format": "mass_market",
+      "isbn13": 9780786942725,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?99501",
+      "cover": "/images/novels/swords-of-eveningstar/9780786942725.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-22",
+      "format": "ebook",
+      "isbn13": 9780786961719,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476271",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PRCC5O/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Espadas de la noche",
+      "publisher": "Timun Mas",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448036447,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/19849",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448036441/" }],
+      "cover": "/images/novels/swords-of-eveningstar/9788448036447.webp"
+    }
+  ]
+}

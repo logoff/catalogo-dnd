@@ -1,0 +1,34 @@
+{
+  "slug": "the-howling-delve",
+  "title": "The Howling Delve",
+  "authors": ["Jaleigh Johnson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-dungeons", "number": 2 },
+  "date": "2007-07",
+  "description": "Una maga huérfana vuelve a su hogar y lo encuentra convertido en una mazmorra, con su maestro desaparecido y unos ladrones que no la dejan salir.\n\nNovela de la serie The Dungeons, de Jaleigh Johnson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1107173",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-07",
+      "format": "mass_market",
+      "isbn13": 9780786942787,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?314748",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942789/" }],
+      "cover": "/images/novels/the-howling-delve/9780786942787.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-08-28",
+      "format": "ebook",
+      "isbn13": 9780786963850,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?771133",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADBYLS/" }]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "amber-and-blood",
+  "title": "Amber and Blood",
+  "authors": ["Margaret Weis"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-dark-disciple",
+    "number": 3
+  },
+  "date": "2008-05",
+  "description": "La revelación de la verdadera naturaleza de Mina sacude a dioses y mortales, y tanto la Luz como la Oscuridad quieren tenerla de su lado.\n\nEs la novela que cierra La discípula oscura y la historia de Mina. Se publicó en castellano como Ámbar y sangre.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?829003",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-05-06",
+      "format": "hardcover",
+      "isbn13": 9780786950010,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250014",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786950013/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-blood/9780786950010.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11-04",
+      "format": "mass_market",
+      "isbn13": 9780786950669,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261381",
+      "cover": "/images/novels/amber-and-blood/9780786950669.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-13",
+      "format": "ebook",
+      "isbn13": 9780786954537,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474911",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004EWEUVA/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ambar y sangre",
+      "publisher": "Timun Mas",
+      "date": "2009",
+      "format": "hardcover",
+      "isbn13": 9788448036928,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/27030",
+      "cover": "/images/novels/amber-and-blood/9788448036928.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ambar y sangre",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038762,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33319",
+      "cover": "/images/novels/amber-and-blood/9788448038762.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ambar y sangre",
+      "publisher": "Minotauro",
+      "date": "2025-05-14",
+      "format": "paperback",
+      "isbn13": 9788445011522,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78812",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011529/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-discipula-oscura-n-03-03-cmbar-y-sangre/9788445011522/16775842"
+        }
+      ],
+      "cover": "/images/novels/amber-and-blood/9788445011522.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ambar y sangre",
+      "publisher": "Minotauro",
+      "date": "2025-05-14",
+      "format": "ebook",
+      "isbn13": 9788445020708,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78813",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0F2DPQX71/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-blood/9788445020708.webp"
+    }
+  ]
+}

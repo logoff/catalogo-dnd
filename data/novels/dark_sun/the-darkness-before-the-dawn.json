@@ -1,0 +1,34 @@
+{
+  "slug": "the-darkness-before-the-dawn",
+  "title": "The Darkness Before the Dawn",
+  "authors": ["Ryan Hughes"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-chronicles-of-athas", "number": 2 },
+  "date": "1995-02",
+  "description": "El semielfo Jedra y la ex templaria Kayan buscan un maestro para desarrollar sus poderes psiónicos y acaban obligados a luchar a muerte en los juegos de gladiadores.\n\nNovela de las Crónicas de Athas, de Ryan Hughes.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?5041",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-02",
+      "format": "mass_market",
+      "isbn13": 9780786901043,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8959",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901047/" }],
+      "cover": "/images/novels/the-darkness-before-the-dawn/9780786901043.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9780099540410,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38024",
+      "cover": "/images/novels/the-darkness-before-the-dawn/9780099540410.webp"
+    }
+  ]
+}

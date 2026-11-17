@@ -1,0 +1,44 @@
+{
+  "slug": "city-of-fire",
+  "title": "City of Fire",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 4 },
+  "date": "2002-11",
+  "description": "Un paladín caído y un ejército de gnolls buscan una reliquia guardada en las cámaras de la Ciudad de Fuego, y cuatro aventureros deben detenerlos.\n\nNovela de la serie Iconics (T. H. Lain).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24299",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-09",
+      "format": "mass_market",
+      "isbn13": 9780786928545,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7189",
+      "cover": "/images/novels/city-of-fire/9780786928545.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-06-25",
+      "format": "ebook",
+      "isbn13": 9780786965021,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458554",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONWMK/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ciudad del fuego",
+      "publisher": "Devir",
+      "date": "2003",
+      "format": "mass_market",
+      "isbn13": 9788496262270,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11363",
+      "cover": "/images/novels/city-of-fire/9788496262270.webp"
+    }
+  ]
+}

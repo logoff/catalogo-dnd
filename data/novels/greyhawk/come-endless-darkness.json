@@ -1,0 +1,24 @@
+{
+  "slug": "come-endless-darkness",
+  "title": "Come Endless Darkness",
+  "authors": ["Gary Gygax"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-gord-the-rogue", "number": 5 },
+  "date": "1988-03",
+  "description": "Gord y sus compañeros entran en un mundo mágico gobernado por Tharizdun, el responsable de la muerte de sus padres.\n\nNovela de Gord el Pícaro, publicada por New Infinities después de que Gary Gygax dejara TSR.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17903",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "New Infinities Productions",
+      "date": "1988-03",
+      "format": "mass_market",
+      "isbn13": 9780441114467,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7575",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0441114466/" }],
+      "cover": "/images/novels/come-endless-darkness/9780441114467.webp"
+    }
+  ]
+}

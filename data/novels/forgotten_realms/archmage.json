@@ -1,0 +1,89 @@
+{
+  "slug": "archmage",
+  "title": "Archmage",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-homecoming",
+    "number": 1
+  },
+  "date": "2015-09",
+  "description": "Tras la guerra de las Marcas Argénteas, Drizzt vive un breve periodo de paz. En Menzoberranzan, el archimago Gromph Baenre lleva a cabo un ritual peligroso que abre la Antípoda Oscura a los príncipes demonio del Abismo.\n\nPrimera novela de la trilogía La vuelta a casa.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1888983",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-09-01",
+      "format": "hardcover",
+      "isbn13": 9780786965755,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?529386",
+      "cover": "/images/novels/archmage/9780786965755.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-09-01",
+      "format": "ebook",
+      "isbn13": 9780786965854,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?548720",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00R047Y7G/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2017-02-07",
+      "format": "mass_market",
+      "isbn13": 9780786966134,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?612574",
+      "cover": "/images/novels/archmage/9780786966134.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Archimago",
+      "publisher": "Minotauro",
+      "date": "2023-05-03",
+      "format": "hardcover",
+      "isbn13": 9788445014660,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/77345",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014668/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-vuelta-a-casa-n-01-03-archimago/9788445014660/13477637"
+        }
+      ],
+      "cover": "/images/novels/archmage/9788445014660.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Archimago",
+      "publisher": "Minotauro",
+      "date": "2023-05-03",
+      "format": "ebook",
+      "isbn13": 9788445015483,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78833",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BT218YND/"
+        }
+      ],
+      "cover": "/images/novels/archmage/9788445015483.webp"
+    }
+  ]
+}

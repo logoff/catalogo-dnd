@@ -1,0 +1,23 @@
+{
+  "slug": "wizards-tale",
+  "title": "Wizard's Tale",
+  "authors": ["Michael Andrews"],
+  "setting": "mystara",
+  "kind": "middle_grade",
+  "series": { "id": "mystara-dragonstrike", "number": 1 },
+  "date": "1993",
+  "description": "Relato vinculado a Dragon Strike, el juego introductorio de TSR, contado desde el punto de vista del mago del grupo.\n\nNovela breve de Michael Andrews (1993), número 1 de la serie de cuatro cuadernillos ilustrados de 31 páginas.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993",
+      "isbn13": 9781560768968,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9781560768968&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768967/" }],
+      "cover": "/images/novels/wizards-tale/9781560768968.webp"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "tales-of-uncle-trapspringer",
+  "title": "Tales of Uncle Trapspringer",
+  "authors": ["Dixie Lee McKeone"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-lost-legends", "number": 3 },
+  "date": "1997-11",
+  "description": "El joven Saltatrampas Fargo, el tío más famoso de todos los kender, sale de viaje con la curiosidad como única guía y se cruza con dos gullys ladrones y una criatura diabólica extraviada, en una aventura que podría salvar Krynn.\n\nEs la tercera novela de Lost Legends, una comedia sobre el tío del que tanto habla Tasslehoff en las Crónicas. Se publicó en castellano como Historias del Tío Saltatrampas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?10549",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-11",
+      "format": "mass_market",
+      "isbn13": 9780786907755,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?34405",
+      "cover": "/images/novels/tales-of-uncle-trapspringer/9780786907755.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Historias del Tío Saltatrampas",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448039462,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1053",
+      "cover": "/images/novels/tales-of-uncle-trapspringer/9788448039462.webp"
+    }
+  ]
+}

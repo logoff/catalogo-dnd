@@ -1,0 +1,34 @@
+{
+  "slug": "unholy",
+  "title": "Unholy",
+  "authors": ["Richard Lee Byers"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-haunted-lands", "number": 3 },
+  "date": "2009-03",
+  "description": "Un poderoso hechicero no muerto reina en Thay, y los magos exiliados ven cómo el nuevo rey prepara un gran ritual que no pueden permitir que complete.\n\nCierra la trilogía de las Tierras Embrujadas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1151018",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-02-03",
+      "format": "mass_market",
+      "isbn13": 9780786950218,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?326651",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786950218/" }],
+      "cover": "/images/novels/unholy/9780786950218.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-13",
+      "format": "ebook",
+      "isbn13": 9780786955916,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483452",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001NLKT06/" }]
+    }
+  ]
+}

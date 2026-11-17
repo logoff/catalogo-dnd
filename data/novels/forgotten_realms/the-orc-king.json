@@ -1,0 +1,125 @@
+{
+  "slug": "the-orc-king",
+  "title": "The Orc King",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-transitions",
+    "number": 1
+  },
+  "date": "2007-09",
+  "description": "Obould ha fundado el reino de Muchasflechas, y la paz entre orcos y enanos es frágil: muchos clanes orcos y muchos enanos de Mithril Hall quieren volver a la guerra. Drizzt se enfrenta a la idea de que un rey orco pueda ser algo más que una bestia.\n\nPrimera novela de la trilogía Transiciones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?390171",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-10",
+      "format": "hardcover",
+      "isbn13": 9780786943401,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?148691",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786943408/"
+        }
+      ],
+      "cover": "/images/novels/the-orc-king/9780786943401.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-07-01",
+      "format": "mass_market",
+      "isbn13": 9780786950461,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250283",
+      "cover": "/images/novels/the-orc-king/9780786950461.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10-07",
+      "format": "ebook",
+      "isbn13": 9780786952649,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?489518",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0013TTKUI/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11-04",
+      "format": "paperback",
+      "isbn13": 9780786949120,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261389",
+      "cover": "/images/novels/the-orc-king/9780786949120.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-07-14",
+      "format": "paperback",
+      "isbn13": 9798217298792,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1114405"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey orco",
+      "publisher": "Timun Mas",
+      "date": "2009",
+      "format": "hardcover",
+      "isbn13": 9788448037949,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24426",
+      "cover": "/images/novels/the-orc-king/9788448037949.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey orco",
+      "publisher": "Minotauro",
+      "date": "2025-02-05",
+      "format": "ebook",
+      "isbn13": 9788445020173,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78824",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DQCYXLJ7/"
+        }
+      ],
+      "cover": "/images/novels/the-orc-king/9788445020173.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey orco",
+      "publisher": "Minotauro",
+      "date": "2025-02-05",
+      "format": "paperback",
+      "isbn13": 9788445010846,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/76532",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010840/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-transiciones-n-01-03-el-rey-orco/9788445010846/16541242"
+        }
+      ],
+      "cover": "/images/novels/the-orc-king/9788445010846.webp"
+    }
+  ]
+}

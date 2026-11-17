@@ -1,0 +1,55 @@
+{
+  "slug": "empire-of-blood",
+  "title": "Empire of Blood",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-minotaur-wars", "number": 3 },
+  "date": "2005-05",
+  "description": "Mientras sus ejércitos conquistan Silvanesti, un nuevo emperador minotauro, cruel y respaldado por fanáticos, sube al trono. La guerra por el alma del imperio llega a su desenlace.\n\nEs la novela que cierra The Minotaur Wars. Se publicó en castellano como Imperio sangriento.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?168017",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-05-25",
+      "format": "hardcover",
+      "isbn13": 9780786937332,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69152",
+      "cover": "/images/novels/empire-of-blood/9780786937332.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-03",
+      "format": "mass_market",
+      "isbn13": 9780786939787,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?81944",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786939788/" }],
+      "cover": "/images/novels/empire-of-blood/9780786939787.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-20",
+      "format": "ebook",
+      "isbn13": 9780786961870,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476865",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFBYV4/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Imperio sangriento",
+      "publisher": "Timun Mas",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448033606,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15654",
+      "cover": "/images/novels/empire-of-blood/9788448033606.webp"
+    }
+  ]
+}

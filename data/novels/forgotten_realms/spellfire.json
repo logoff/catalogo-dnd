@@ -1,0 +1,85 @@
+{
+  "slug": "spellfire",
+  "title": "Spellfire",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-shandril", "number": 1 },
+  "date": "1988-07",
+  "description": "Shandril, una joven pinche de cocina huérfana, descubre que posee el fuego mágico, el poder más codiciado de Faerûn, capaz de derribar a un dragón o curar a un guerrero. Con la ayuda de un joven mago, de los Caballeros de Myth Drannor y de Elminster, huye de los hechiceros que quieren arrebatárselo.\n\nPrimera novela de la saga de Shandril, de Ed Greenwood, el creador de los Reinos Olvidados.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17972",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1988-07",
+      "format": "mass_market",
+      "isbn13": 9780880385879,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?287034",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880385871/" }],
+      "cover": "/images/novels/spellfire/9780880385879.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-05",
+      "format": "mass_market",
+      "isbn13": 9780140121292,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14330"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-04",
+      "format": "paperback",
+      "isbn13": 9780786918744,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31646",
+      "cover": "/images/novels/spellfire/9780786918744.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-02",
+      "format": "mass_market",
+      "isbn13": 9780786935994,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68646",
+      "cover": "/images/novels/spellfire/9780786935994.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-15",
+      "format": "ebook",
+      "isbn13": 9780786961733,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476325"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Fuego mágico",
+      "publisher": "Timun Mas",
+      "date": "1991",
+      "format": "mass_market",
+      "isbn13": 9788477224075,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477224072/" }],
+      "cover": "/images/novels/spellfire/9788477224075.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Fuego mágico",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725556,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37043",
+      "cover": "/images/novels/spellfire/9788448725556.webp"
+    }
+  ]
+}

@@ -1,0 +1,1919 @@
+[
+  {
+    "id": "the-magic-of-krynn",
+    "title": "The Magic of Krynn",
+    "title_es": "La magia de Krynn",
+    "settings": ["dragonlance"],
+    "description": "Primera antología de relatos de la Dragonlance, editada por Margaret Weis y Tracy Hickman, con historias de los Héroes de la Lanza y de otros habitantes de Krynn escritas por varios autores.\n\nAbre los Cuentos de la Dragonlance (Tales I) y completa las Crónicas y las Leyendas con episodios que las novelas dejan fuera.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?157975",
+    "series": ["dragonlance-chronicles", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1987-03",
+        "format": "mass_market",
+        "isbn13": 9780880384544,
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9780880384544.webp"
+      },
+      {
+        "language": "english",
+        "country": "uk",
+        "publisher": "Penguin Books",
+        "date": "1988-03",
+        "format": "mass_market",
+        "isbn13": 9780140106947,
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9780140106947.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-02",
+        "format": "mass_market",
+        "isbn13": 9780786935932,
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9780786935932.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La magia de Krynn",
+        "publisher": "Timun Mas",
+        "date": "1992",
+        "format": "hardcover",
+        "isbn13": 9788477229063,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/17353",
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9788477229063.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La magia de Krynn",
+        "publisher": "Timun Mas",
+        "date": "1996",
+        "format": "mass_market",
+        "isbn13": 9788448030575,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/298",
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9788448030575.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La magia de Krynn",
+        "publisher": "Altaya",
+        "date": "2007",
+        "format": "hardcover",
+        "isbn13": 9788448722463,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24324",
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9788448722463.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La magia de Krynn",
+        "publisher": "Timun Mas",
+        "date": "2012",
+        "format": "paperback",
+        "isbn13": 9788448003906,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/35702",
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9788448003906.webp",
+        "purchase_links": [
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-la-magia-de-krynn-cuentos-de-la-dragonlance/9788448003906/1956953"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La magia de Krynn",
+        "publisher": "Minotauro",
+        "date": "2025-06",
+        "format": "ebook",
+        "isbn13": 9788445019740,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/80230",
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9788445019740.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0FBMBMD7R/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/ebook-cuentos-de-la-dragonlance-n-01-06-la-magia-de-krynn-ebook/9788445019740/17037908"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La magia de Krynn",
+        "publisher": "Minotauro",
+        "date": "2025-06-11",
+        "format": "paperback",
+        "isbn13": 9788445011225,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/77326",
+        "cover": "/images/novels/anthologies/the-magic-of-krynn/9788445011225.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8445011227/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-cuentos-de-la-dragonlance-n-01-06-la-magia-de-krynn/9788445011225/16834246"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kender-gully-dwarves-and-gnomes",
+    "title": "Kender, Gully Dwarves, and Gnomes",
+    "title_es": "Kenders, enanos y gnomos",
+    "settings": ["dragonlance"],
+    "description": "Antología de relatos protagonizados por las razas más pintorescas de Krynn: kenders, enanos gully y gnomos, con historias de humor y de aventuras de varios autores.\n\nSegundo volumen de los Cuentos de la Dragonlance (Tales I), ambientado en la época de las Crónicas y las Leyendas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?158152",
+    "series": ["dragonlance-chronicles", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1987-07",
+        "format": "mass_market",
+        "isbn13": 9780880383820,
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9780880383820.webp"
+      },
+      {
+        "language": "english",
+        "country": "uk",
+        "publisher": "Penguin Books",
+        "date": "1988-05",
+        "format": "mass_market",
+        "isbn13": 9780140106954,
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9780140106954.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-04",
+        "format": "mass_market",
+        "isbn13": 9780786936342,
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9780786936342.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786936347/"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Kenders, enanos y gnomos",
+        "publisher": "Timun Mas",
+        "date": "1992",
+        "format": "hardcover",
+        "isbn13": 9788477229070,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/17285",
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9788477229070.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Kenders, enanos y gnomos",
+        "publisher": "Timun Mas",
+        "date": "1996",
+        "format": "mass_market",
+        "isbn13": 9788448030582,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/300",
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9788448030582.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Kenders, enanos y gnomos",
+        "publisher": "Altaya",
+        "date": "2007",
+        "format": "hardcover",
+        "isbn13": 9788448722791,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24340",
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9788448722791.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Kenders, enanos y gnomos",
+        "publisher": "Timun Mas",
+        "date": "2012",
+        "format": "paperback",
+        "isbn13": 9788448004033,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/35703",
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9788448004033.webp",
+        "purchase_links": [
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-kenders-enanos-y-gnomos/9788448004033/1956955"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Kenders, enanos y gnomos",
+        "publisher": "Minotauro",
+        "date": "2025-07",
+        "format": "ebook",
+        "isbn13": 9788445020814,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/80222",
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9788445020814.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0F87K1MS2/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/ebook-cuentos-de-la-dragonlance-n-02-06-kenders-enanos-y-gnomos-ebook/9788445020814/16970562"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Kenders, enanos y gnomos",
+        "publisher": "Minotauro",
+        "date": "2025-07-02",
+        "format": "paperback",
+        "isbn13": 9788445011270,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/77327",
+        "cover": "/images/novels/anthologies/kender-gully-dwarves-and-gnomes/9788445011270.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8445011278/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-cuentos-de-la-dragonlance-n-02-06-kenders-enanos-y-gnomos/9788445011270/16953149"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "love-and-war",
+    "title": "Love and War",
+    "title_es": "Historias de Ansalon",
+    "settings": ["dragonlance"],
+    "description": "Antología de relatos de amor y de guerra en Ansalon, editada por Margaret Weis y Tracy Hickman, con historias de Caramon, Tika y otros personajes de la saga.\n\nCierra los Cuentos de la Dragonlance (Tales I), alrededor de las Crónicas y las Leyendas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?169117",
+    "series": ["dragonlance-chronicles", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1987-10",
+        "format": "mass_market",
+        "isbn13": 9780880385190,
+        "cover": "/images/novels/anthologies/love-and-war/9780880385190.webp"
+      },
+      {
+        "language": "english",
+        "country": "uk",
+        "publisher": "Penguin Books",
+        "date": "1988-07",
+        "format": "mass_market",
+        "isbn13": 9780140106961,
+        "cover": "/images/novels/anthologies/love-and-war/9780140106961.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-05-31",
+        "format": "paperback",
+        "isbn13": 9780786937707,
+        "cover": "/images/novels/anthologies/love-and-war/9780786937707.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/078693770X/"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Historias de Ansalon",
+        "publisher": "Timun Mas",
+        "date": "1993",
+        "format": "hardcover",
+        "isbn13": 9788477229087,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/301",
+        "cover": "/images/novels/anthologies/love-and-war/9788477229087.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Historias de Ansalon",
+        "publisher": "Timun Mas",
+        "date": "1997",
+        "format": "mass_market",
+        "isbn13": 9788448030599,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/17190",
+        "cover": "/images/novels/anthologies/love-and-war/9788448030599.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Historias de Ansalon",
+        "publisher": "Altaya",
+        "date": "2008",
+        "format": "hardcover",
+        "isbn13": 9788448722821,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24473",
+        "cover": "/images/novels/anthologies/love-and-war/9788448722821.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Historias de Ansalon",
+        "publisher": "Timun Mas",
+        "date": "2012",
+        "format": "paperback",
+        "isbn13": 9788448004040,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/35704",
+        "cover": "/images/novels/anthologies/love-and-war/9788448004040.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8448004043/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-historias-de-ansalon/9788448004040/1956956"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Historias de Ansalon",
+        "publisher": "Minotauro",
+        "date": "2025-09",
+        "format": "ebook",
+        "isbn13": 9788445021118,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/80210",
+        "cover": "/images/novels/anthologies/love-and-war/9788445021118.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0FGQNC38P/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/ebook-cuentos-de-la-dragonlance-n-03-06-historias-de-ansalon-ebook/9788445021118/17139213"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Historias de Ansalon",
+        "publisher": "Minotauro",
+        "date": "2025-09-03",
+        "format": "paperback",
+        "isbn13": 9788445011331,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/77328",
+        "cover": "/images/novels/anthologies/love-and-war/9788445011331.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8445011332/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-cuentos-de-la-dragonlance-n-03-06-historias-de-ansalon/9788445011331/17086580"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-reign-of-istar",
+    "title": "The Reign of Istar",
+    "title_es": "El reino de Istar",
+    "settings": ["dragonlance"],
+    "description": "Relatos ambientados en el apogeo del imperio de Istar y del Príncipe de los Sacerdotes, en los años previos al Cataclismo.\n\nAbre los Cuentos de la Dragonlance II (Tales II) y acompaña a las Leyendas y a la trilogía del Príncipe de los Sacerdotes.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?32120",
+    "series": ["dragonlance-kingpriest", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1992-04",
+        "format": "mass_market",
+        "isbn13": 9781560763260,
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9781560763260.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-09",
+        "format": "mass_market",
+        "isbn13": 9780786937790,
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9780786937790.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786937793/"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El reino de Istar",
+        "publisher": "Timun Mas",
+        "date": "1993",
+        "format": "hardcover",
+        "isbn13": 9788448030131,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/17903",
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9788448030131.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El reino de Istar",
+        "publisher": "Timun Mas",
+        "date": "1997",
+        "format": "mass_market",
+        "isbn13": 9788448030926,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/551",
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9788448030926.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El reino de Istar",
+        "publisher": "Altaya",
+        "date": "2008",
+        "format": "hardcover",
+        "isbn13": 9788448722845,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24443",
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9788448722845.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El reino de Istar",
+        "publisher": "Timun Mas",
+        "date": "2012",
+        "format": "paperback",
+        "isbn13": 9788448004729,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/35705",
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9788448004729.webp",
+        "purchase_links": [
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-el-reino-de-istar/9788448004729/989002"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El reino de Istar",
+        "publisher": "Minotauro",
+        "date": "2025-11",
+        "format": "ebook",
+        "isbn13": 9788445021392,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/80173",
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9788445021392.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0FT73B98B/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/ebook-cuentos-de-la-dragonlance-n-04-06-el-reino-de-istar-ebook/9788445021392/17507274"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El reino de Istar",
+        "publisher": "Minotauro",
+        "date": "2025-11-19",
+        "format": "paperback",
+        "isbn13": 9788445011348,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/78651",
+        "cover": "/images/novels/anthologies/the-reign-of-istar/9788445011348.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8445011340/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-cuentos-de-la-dragonlance-n-04-06-el-reino-de-istar/9788445011348/17422379"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-cataclysm",
+    "title": "The Cataclysm",
+    "title_es": "El cataclismo",
+    "settings": ["dragonlance"],
+    "description": "Relatos sobre el Cataclismo, la montaña de fuego que los dioses arrojaron sobre Istar, y sobre los años de caos que le siguieron en Ansalon.\n\nSegundo volumen de los Cuentos de la Dragonlance II (Tales II), entre la caída de Istar y la Guerra de la Lanza.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?31309",
+    "series": ["dragonlance-legends", "dragonlance-kingpriest"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1992-07",
+        "format": "mass_market",
+        "isbn13": 9781560764304,
+        "cover": "/images/novels/anthologies/the-cataclysm/9781560764304.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-10",
+        "format": "mass_market",
+        "isbn13": 9780786937752,
+        "cover": "/images/novels/anthologies/the-cataclysm/9780786937752.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El cataclismo",
+        "publisher": "Timun Mas",
+        "date": "1993",
+        "format": "hardcover",
+        "isbn13": 9788448030148,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/9915",
+        "cover": "/images/novels/anthologies/the-cataclysm/9788448030148.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El cataclismo",
+        "publisher": "Timun Mas",
+        "date": "1997",
+        "format": "mass_market",
+        "isbn13": 9788448030933,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/23",
+        "cover": "/images/novels/anthologies/the-cataclysm/9788448030933.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El cataclismo",
+        "publisher": "Altaya",
+        "date": "2008",
+        "format": "hardcover",
+        "isbn13": 9788448723446,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24347",
+        "cover": "/images/novels/anthologies/the-cataclysm/9788448723446.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El cataclismo",
+        "publisher": "Timun Mas",
+        "date": "2012",
+        "format": "paperback",
+        "isbn13": 9788448004781,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/35706",
+        "cover": "/images/novels/anthologies/the-cataclysm/9788448004781.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8448004787/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-el-cataclismo/9788448004781/989004"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El cataclismo",
+        "publisher": "Minotauro",
+        "date": "2026-01-21",
+        "format": "paperback",
+        "isbn13": 9788445011355,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/83975",
+        "cover": "/images/novels/anthologies/the-cataclysm/9788445011355.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8445011359/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-cuentos-de-la-dragonlance-n-05-06-el-cataclismo/9788445011355/17648282"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El cataclismo",
+        "publisher": "Minotauro",
+        "date": "2026-01-21",
+        "format": "ebook",
+        "isbn13": 9788445022177,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/83976",
+        "cover": "/images/novels/anthologies/the-cataclysm/9788445022177.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0G61DGYSK/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/ebook-cuentos-de-la-dragonlance-n-05-06-el-cataclismo-ebook/9788445022177/17816232"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-war-of-the-lance",
+    "title": "The War of the Lance",
+    "title_es": "La guerra de la lanza",
+    "settings": ["dragonlance"],
+    "description": "Relatos ambientados durante la Guerra de la Lanza, con personajes de las Crónicas y otros héroes y villanos de la contienda.\n\nCierra los Cuentos de la Dragonlance II (Tales II) y acompaña a las Crónicas y las Crónicas perdidas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?32432",
+    "series": ["dragonlance-chronicles", "dragonlance-lost-chronicles"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1992-11",
+        "format": "mass_market",
+        "isbn13": 9781560764311,
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9781560764311.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-12",
+        "format": "mass_market",
+        "isbn13": 9780786937776,
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9780786937776.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786937777/"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La guerra de la lanza",
+        "publisher": "Timun Mas",
+        "date": "1994",
+        "format": "hardcover",
+        "isbn13": 9788448030155,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24",
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9788448030155.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La guerra de la lanza",
+        "publisher": "Timun Mas",
+        "date": "1997",
+        "format": "mass_market",
+        "isbn13": 9788448030940,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/17115",
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9788448030940.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La guerra de la lanza",
+        "publisher": "Altaya",
+        "date": "2008",
+        "format": "hardcover",
+        "isbn13": 9788448723460,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24491",
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9788448723460.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La guerra de la lanza",
+        "publisher": "Timun Mas",
+        "date": "2012",
+        "format": "paperback",
+        "isbn13": 9788448004958,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/35707",
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9788448004958.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8448004957/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-la-guerra-de-la-lanza/9788448004958/1956959"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La guerra de la lanza",
+        "publisher": "Minotauro",
+        "date": "2026-04-15",
+        "format": "paperback",
+        "isbn13": 9788445011362,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/83977",
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9788445011362.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8445011367/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-cuentos-de-la-dragonlance-n-06-06-la-guerra-de-la-lanza/9788445011362/17936921"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La guerra de la lanza",
+        "publisher": "Minotauro",
+        "date": "2026-04-15",
+        "format": "ebook",
+        "isbn13": 9788445022603,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/83978",
+        "cover": "/images/novels/anthologies/the-war-of-the-lance/9788445022603.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0GQLQWMCD/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/ebook-cuentos-de-la-dragonlance-n-06-06-la-guerra-de-la-lanza-ebook/9788445022603/18000449"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-second-generation",
+    "title": "The Second Generation",
+    "title_es": "La segunda generación",
+    "settings": ["dragonlance"],
+    "description": "Relatos de Margaret Weis y Tracy Hickman sobre los hijos de los Héroes de la Lanza, que toman el relevo de sus padres años después de la guerra.\n\nContinúa las Crónicas y las Leyendas y presenta a los héroes jóvenes de La Guerra de Caos.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?4215",
+    "series": ["dragonlance-chronicles", "dragonlance-legends", "dragonlance-chaos-war"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1994",
+        "format": "hardcover",
+        "isbn13": 9780099453819
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1994-02",
+        "format": "hardcover",
+        "isbn13": 9781560768227,
+        "cover": "/images/novels/anthologies/the-second-generation/9781560768227.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1995-02",
+        "format": "mass_market",
+        "isbn13": 9780786902606,
+        "cover": "/images/novels/anthologies/the-second-generation/9780786902606.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2001-02",
+        "format": "mass_market",
+        "isbn13": 9780786926947,
+        "cover": "/images/novels/anthologies/the-second-generation/9780786926947.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786926945/"
+          }
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2012-04-10",
+        "format": "ebook",
+        "isbn13": 9780786962907,
+        "cover": "/images/novels/anthologies/the-second-generation/9780786962907.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0086O1ZOM/"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La segunda generación",
+        "publisher": "Timun Mas",
+        "date": "2002",
+        "format": "mass_market",
+        "isbn13": 9788448039547,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/6418",
+        "cover": "/images/novels/anthologies/the-second-generation/9788448039547.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La segunda generación",
+        "publisher": "Altaya",
+        "date": "2007",
+        "format": "hardcover",
+        "isbn13": 9788448720964,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24239",
+        "cover": "/images/novels/anthologies/the-second-generation/9788448720964.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La segunda generación",
+        "publisher": "Minotauro",
+        "date": "2022-11-16",
+        "format": "paperback",
+        "isbn13": 9788445011416,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/85096",
+        "cover": "/images/novels/anthologies/the-second-generation/9788445011416.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/8445011413/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-la-segunda-generacion-dragonlance/9788445011416/13292308"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La segunda generación",
+        "publisher": "Minotauro",
+        "date": "2022-11-16",
+        "format": "ebook",
+        "isbn13": 9788445014516,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/85097",
+        "cover": "/images/novels/anthologies/the-second-generation/9788445014516.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B0BJ7CWDM2/"
+          },
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/ebook-la-segunda-generacion-ebook/9788445014516/13297623"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-dragons-of-krynn",
+    "title": "The Dragons of Krynn",
+    "title_es": "Los dragones de Krynn",
+    "settings": ["dragonlance"],
+    "description": "Antología de relatos protagonizados por los dragones de Krynn, cromáticos y metálicos, de varios autores de la Dragonlance.\n\nPrimera de las antologías de dragones de la saga, ligada al mundo de las Crónicas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?31464",
+    "series": ["dragonlance-chronicles"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1994-03",
+        "format": "mass_market",
+        "isbn13": 9781560768302,
+        "cover": "/images/novels/anthologies/the-dragons-of-krynn/9781560768302.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Los dragones de Krynn",
+        "publisher": "Timun Mas",
+        "date": "1999",
+        "format": "mass_market",
+        "isbn13": 9788448039257,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/329",
+        "cover": "/images/novels/anthologies/the-dragons-of-krynn/9788448039257.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Los dragones de Krynn",
+        "publisher": "Altaya",
+        "date": "2007",
+        "format": "hardcover",
+        "isbn13": 9788448722418,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24321",
+        "cover": "/images/novels/anthologies/the-dragons-of-krynn/9788448722418.webp"
+      }
+    ]
+  },
+  {
+    "id": "the-dragons-at-war",
+    "title": "The Dragons at War",
+    "title_es": "Los dragones en guerra",
+    "settings": ["dragonlance"],
+    "description": "Relatos sobre los dragones que combatieron en la Guerra de la Lanza, contados desde el bando de la luz y desde el de la Reina de la Oscuridad.\n\nSegunda antología de dragones de la Dragonlance, ambientada en la época de las Crónicas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?28268",
+    "series": ["dragonlance-chronicles"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1996-05",
+        "format": "paperback",
+        "isbn13": 9780786904914,
+        "cover": "/images/novels/anthologies/the-dragons-at-war/9780786904914.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Los dragones en guerra",
+        "publisher": "Timun Mas",
+        "date": "1999",
+        "format": "mass_market",
+        "isbn13": 9788448039240,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/328",
+        "cover": "/images/novels/anthologies/the-dragons-at-war/9788448039240.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Los dragones en guerra",
+        "publisher": "Altaya",
+        "date": "2008",
+        "format": "hardcover",
+        "isbn13": 9788448723477,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24495",
+        "cover": "/images/novels/anthologies/the-dragons-at-war/9788448723477.webp"
+      }
+    ]
+  },
+  {
+    "id": "the-dragons-of-chaos",
+    "title": "The Dragons of Chaos",
+    "title_es": "Los dragones de Caos",
+    "settings": ["dragonlance"],
+    "description": "Relatos de dragones ambientados en la Guerra de Caos, cuando el padre de los dioses amenaza con destruir Krynn.\n\nTercera antología de dragones de la saga, compañera de la serie de La Guerra de Caos.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?35188",
+    "series": ["dragonlance-chaos-war"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1997-12",
+        "format": "paperback",
+        "isbn13": 9780786906819,
+        "cover": "/images/novels/anthologies/the-dragons-of-chaos/9780786906819.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Los dragones de Caos",
+        "publisher": "Timun Mas",
+        "date": "2000",
+        "format": "mass_market",
+        "isbn13": 9788448039271,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/331",
+        "cover": "/images/novels/anthologies/the-dragons-of-chaos/9788448039271.webp"
+      }
+    ]
+  },
+  {
+    "id": "relics-and-omens",
+    "title": "Relics and Omens",
+    "title_es": "La huella de los dioses",
+    "settings": ["dragonlance"],
+    "description": "Relatos de la Quinta Era de Krynn, tras la marcha de los dioses, cuando los grandes dragones se reparten Ansalon.\n\nPrimera de las antologías de la Quinta Era, junto a la trilogía Dragones de una nueva era.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?35251",
+    "series": ["dragonlance-dragons-of-a-new-age"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1998-04",
+        "format": "paperback",
+        "isbn13": 9780786911691,
+        "cover": "/images/novels/anthologies/relics-and-omens/9780786911691.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La huella de los dioses",
+        "publisher": "Timun Mas",
+        "date": "2000",
+        "format": "mass_market",
+        "isbn13": 9788448039356,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/416",
+        "cover": "/images/novels/anthologies/relics-and-omens/9788448039356.webp"
+      }
+    ]
+  },
+  {
+    "id": "heroes-and-fools",
+    "title": "Heroes and Fools",
+    "title_es": "Cuentos de la quinta era",
+    "settings": ["dragonlance"],
+    "description": "Relatos de héroes y de necios en la Quinta Era de Krynn, de varios autores de la Dragonlance.\n\nSegunda antología de la Quinta Era, junto a la trilogía Dragones de una nueva era.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?26210",
+    "series": ["dragonlance-dragons-of-a-new-age"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1999-07",
+        "format": "mass_market",
+        "isbn13": 9780786913466,
+        "cover": "/images/novels/anthologies/heroes-and-fools/9780786913466.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Cuentos de la quinta era",
+        "publisher": "Timun Mas",
+        "date": "2001",
+        "format": "mass_market",
+        "isbn13": 9788448039417,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/1043",
+        "cover": "/images/novels/anthologies/heroes-and-fools/9788448039417.webp"
+      }
+    ]
+  },
+  {
+    "id": "rebels-and-tyrants",
+    "title": "Rebels and Tyrants",
+    "title_es": "Los dominios del dragón",
+    "settings": ["dragonlance"],
+    "description": "Relatos sobre la resistencia contra los grandes dragones y los Caballeros de Takhisis en la Quinta Era.\n\nTercera antología de la Quinta Era, junto a la trilogía Dragones de una nueva era.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?26432",
+    "series": ["dragonlance-dragons-of-a-new-age"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2000-04",
+        "format": "mass_market",
+        "isbn13": 9780786916764,
+        "cover": "/images/novels/anthologies/rebels-and-tyrants/9780786916764.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786916761/"
+          }
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Los dominios del dragón",
+        "publisher": "Timun Mas",
+        "date": "2001",
+        "format": "mass_market",
+        "isbn13": 9788448039455,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/1050",
+        "cover": "/images/novels/anthologies/rebels-and-tyrants/9788448039455.webp"
+      }
+    ]
+  },
+  {
+    "id": "the-best-of-tales",
+    "title": "The Best of Tales",
+    "settings": ["dragonlance"],
+    "description": "Selección de los mejores relatos de las primeras antologías de la Dragonlance, elegidos por Margaret Weis y Tracy Hickman.\n\nRecoge historias de los Cuentos I y II, alrededor de las Crónicas y las Leyendas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?26604",
+    "series": ["dragonlance-chronicles", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2000-02",
+        "format": "mass_market",
+        "isbn13": 9780786915675,
+        "cover": "/images/novels/anthologies/the-best-of-tales/9780786915675.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786915676/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-search-for-magic",
+    "title": "The Search for Magic: Tales from the War of Souls",
+    "settings": ["dragonlance"],
+    "description": "Relatos ambientados en los inicios de la Guerra de las Almas, cuando los habitantes de Krynn buscan una magia nueva tras la marcha de los dioses.\n\nAcompaña a la trilogía de La Guerra de las Almas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?25139",
+    "series": ["dragonlance-war-of-souls"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2001-10",
+        "format": "mass_market",
+        "isbn13": 9780786918997,
+        "cover": "/images/novels/anthologies/the-search-for-magic/9780786918997.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786918993/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-best-of-tales-volume-two",
+    "title": "The Best of Tales, Volume Two",
+    "settings": ["dragonlance"],
+    "description": "Segunda selección de los mejores relatos de las antologías clásicas de la Dragonlance.\n\nRecoge historias de los Cuentos y de las antologías de dragones, alrededor de las Crónicas y las Leyendas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?837008",
+    "series": ["dragonlance-chronicles", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2002-01",
+        "format": "mass_market",
+        "isbn13": 9780786927005,
+        "cover": "/images/novels/anthologies/the-best-of-tales-volume-two/9780786927005.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2002-01",
+        "format": "mass_market",
+        "isbn13": 9780786927265
+      }
+    ]
+  },
+  {
+    "id": "the-players-of-gilean",
+    "title": "The Players of Gilean: Tales from the World of Krynn",
+    "settings": ["dragonlance"],
+    "description": "Relatos unidos por un libro mágico de Gilean, dios de la neutralidad, que lleva a sus portadores a distintas épocas de Krynn.\n\nPublicada tras La Guerra de las Almas, a la que acompaña.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?24145",
+    "series": ["dragonlance-war-of-souls"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2003-02",
+        "format": "mass_market",
+        "isbn13": 9780786929207,
+        "cover": "/images/novels/anthologies/the-players-of-gilean/9780786929207.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786929200/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-search-for-power",
+    "title": "The Search for Power: Dragons from the War of Souls",
+    "settings": ["dragonlance"],
+    "description": "Relatos de dragones ambientados en la Guerra de las Almas, editados por Margaret Weis.\n\nCompañera de la trilogía de La Guerra de las Almas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?1354186",
+    "series": ["dragonlance-war-of-souls"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2004-05",
+        "format": "mass_market",
+        "isbn13": 9780786931934,
+        "cover": "/images/novels/anthologies/the-search-for-power/9780786931934.webp"
+      }
+    ]
+  },
+  {
+    "id": "dragons-in-the-archives",
+    "title": "Dragons in the Archives: The Best of Weis and Hickman Anthology",
+    "settings": ["dragonlance"],
+    "description": "Recopilación de los relatos de Margaret Weis y Tracy Hickman publicados en las antologías de la Dragonlance, con comentarios de los autores.\n\nReúne historias complementarias de las Crónicas y las Leyendas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?1354169",
+    "series": ["dragonlance-chronicles", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2004-11",
+        "format": "mass_market",
+        "isbn13": 9780786936694,
+        "cover": "/images/novels/anthologies/dragons-in-the-archives/9780786936694.webp"
+      }
+    ]
+  },
+  {
+    "id": "dragons-of-time",
+    "title": "Dragons of Time",
+    "settings": ["dragonlance"],
+    "description": "Relatos de dragones de distintas épocas de la historia de Krynn, de autores nuevos y veteranos de la Dragonlance.\n\nUna de las últimas antologías de la saga, ligada al mundo de las Crónicas y las Leyendas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?215871",
+    "series": ["dragonlance-chronicles", "dragonlance-legends"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2007-04",
+        "format": "mass_market",
+        "isbn13": 9780786942954,
+        "cover": "/images/novels/anthologies/dragons-of-time/9780786942954.webp"
+      }
+    ]
+  },
+  {
+    "id": "dragons-worlds-afire",
+    "title": "Dragons: Worlds Afire",
+    "settings": ["dragonlance", "eberron", "forgotten_realms"],
+    "description": "Cuatro novelas cortas de dragones de R. A. Salvatore (Reinos Olvidados), Margaret Weis y Tracy Hickman (Dragonlance), Keith Baker (Eberron) y Scott McGough (Magic: The Gathering).\n\nAntología de varios mundos que reúne a los autores insignia de cada uno.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?182126",
+    "series": ["dragonlance-chronicles", "eberron-dreaming-dark", "fr-icewind-dale"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2006-06-13",
+        "format": "hardcover",
+        "isbn13": 9780786941667,
+        "cover": "/images/novels/anthologies/dragons-worlds-afire/9780786941667.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786941669/"
+          }
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2008-07",
+        "format": "paperback",
+        "isbn13": 9780786949762,
+        "cover": "/images/novels/anthologies/dragons-worlds-afire/9780786949762.webp"
+      }
+    ]
+  },
+  {
+    "id": "night-arrant",
+    "title": "Night Arrant",
+    "settings": ["greyhawk"],
+    "description": "Relatos de Gary Gygax sobre las correrías de Gord el pícaro por las calles de la Ciudad Libre de Greyhawk.\n\nSe sitúa entre las novelas de Gord el pícaro.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?37932",
+    "series": ["greyhawk-gord-the-rogue"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Ace Books",
+        "date": "1987-09",
+        "format": "mass_market",
+        "isbn13": 9780441298631,
+        "cover": "/images/novels/anthologies/night-arrant/9780441298631.webp"
+      }
+    ]
+  },
+  {
+    "id": "tales-of-ravenloft",
+    "title": "Tales of Ravenloft",
+    "settings": ["ravenloft"],
+    "description": "Antología de relatos de terror gótico en el Semiplano del Pavor, con historias de Van Richten, Strahd y otros habitantes de Ravenloft.\n\nAcompaña a las novelas de Ravenloft, como Yo, Strahd.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?31071",
+    "series": ["ravenloft-i-strahd", "ravenloft-black-rose"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1994-09",
+        "format": "mass_market",
+        "isbn13": 9781560769316,
+        "cover": "/images/novels/anthologies/tales-of-ravenloft/9781560769316.webp"
+      }
+    ]
+  },
+  {
+    "id": "realms-of-valor",
+    "title": "Realms of Valor",
+    "settings": ["forgotten_realms"],
+    "description": "Primera antología de los Reinos Olvidados, editada por James Lowder, con relatos de valor de Ed Greenwood (Elminster), R. A. Salvatore (Drizzt) y otros autores.\n\nAbre la serie de antologías «Realms of…» de los Reinos.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?34875",
+    "series": ["fr-elminster", "fr-icewind-dale"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1993-02",
+        "format": "mass_market",
+        "isbn13": 9781560765578,
+        "cover": "/images/novels/anthologies/realms-of-valor/9781560765578.webp"
+      }
+    ]
+  },
+  {
+    "id": "realms-of-infamy",
+    "title": "Realms of Infamy",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos de villanos de los Reinos Olvidados, de Ed Greenwood, Elaine Cunningham, R. A. Salvatore y otros autores.\n\nSegunda antología «Realms of…» de los Reinos.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?30259",
+    "series": ["fr-songs-and-swords"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1994-12",
+        "format": "mass_market",
+        "isbn13": 9781560769118,
+        "cover": "/images/novels/anthologies/realms-of-infamy/9781560769118.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1995",
+        "format": "paperback",
+        "isbn13": 9780099456414
+      }
+    ]
+  },
+  {
+    "id": "realms-of-magic",
+    "title": "Realms of Magic",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos sobre la magia de los Reinos Olvidados, entre ellos el origen de Guenhwyvar, de R. A. Salvatore, y una historia de Liriel, de Elaine Cunningham.\n\nTercera antología «Realms of…» de los Reinos.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?30260",
+    "series": ["fr-dark-elf", "fr-starlight-and-shadows"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1995-12",
+        "format": "mass_market",
+        "isbn13": 9780786903030,
+        "cover": "/images/novels/anthologies/realms-of-magic/9780786903030.webp"
+      }
+    ]
+  },
+  {
+    "id": "realms-of-the-underdark",
+    "title": "Realms of the Underdark",
+    "settings": ["forgotten_realms"],
+    "description": "Novelas cortas ambientadas en la Infraoscuridad de los Reinos Olvidados, de Mark Anthony, Ed Greenwood, Elaine Cunningham y otros autores.\n\nIncluye avances de novelas de Drizzt y de Liriel Baenre.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?30261",
+    "series": ["fr-starlight-and-shadows", "fr-legacy-of-the-drow"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1996-04",
+        "format": "mass_market",
+        "isbn13": 9780786904877,
+        "cover": "/images/novels/anthologies/realms-of-the-underdark/9780786904877.webp"
+      }
+    ]
+  },
+  {
+    "id": "realms-of-the-arcane",
+    "title": "Realms of the Arcane",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos sobre artefactos y secretos arcanos de los Reinos Olvidados, entre ellos uno de la caída de Netheril.\n\nAntología «Realms of…» de los Reinos publicada en 1997.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?932219",
+    "series": ["fr-netheril"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1997-11",
+        "format": "paperback",
+        "isbn13": 9780786906475,
+        "cover": "/images/novels/anthologies/realms-of-the-arcane/9780786906475.webp"
+      }
+    ]
+  },
+  {
+    "id": "realms-of-mystery",
+    "title": "Realms of Mystery",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos de misterio e investigación en los Reinos Olvidados, de Elaine Cunningham, Ed Greenwood y otros autores.\n\nAcompaña a la serie de novelas de misterio de los Reinos.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?35252",
+    "series": ["fr-mysteries"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "TSR",
+        "date": "1998-06",
+        "format": "paperback",
+        "isbn13": 9780786911714,
+        "cover": "/images/novels/anthologies/realms-of-mystery/9780786911714.webp"
+      }
+    ]
+  },
+  {
+    "id": "silverfall",
+    "title": "Silverfall: Stories of the Seven Sisters",
+    "settings": ["forgotten_realms"],
+    "description": "Siete novelas cortas de Ed Greenwood, una por cada una de las Siete Hermanas, las hijas de Mystra.\n\nSe cruza con las historias de Elminster, su mentor y aliado.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?157830",
+    "series": ["fr-elminster"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "1999-08",
+        "format": "paperback",
+        "isbn13": 9780786913657,
+        "cover": "/images/novels/anthologies/silverfall/9780786913657.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005",
+        "format": "mass_market",
+        "isbn13": 9780786935727
+      }
+    ]
+  },
+  {
+    "id": "realms-of-the-deep",
+    "title": "Realms of the Deep",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos de la guerra contra los sahuagin en el Mar de las Estrellas Fugaces.\n\nCompañera de la trilogía La amenaza del mar.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?26431",
+    "series": ["fr-threat-from-the-sea", "fr-counselors-and-kings"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2000-03",
+        "format": "mass_market",
+        "isbn13": 9780786915682,
+        "cover": "/images/novels/anthologies/realms-of-the-deep/9780786915682.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786915684/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-halls-of-stormweather",
+    "title": "The Halls of Stormweather",
+    "title_es": "El palacio de las tempestades",
+    "settings": ["forgotten_realms"],
+    "description": "Siete relatos enlazados sobre la familia Uskevren de Sembia, cada uno de un autor distinto.\n\nAbre la serie de Sembia, a la que presenta.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?26692",
+    "series": ["fr-sembia"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2000-07",
+        "format": "mass_market",
+        "isbn13": 9780786915606,
+        "cover": "/images/novels/anthologies/the-halls-of-stormweather/9780786915606.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786915609/"
+          }
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2007-02-13",
+        "format": "mass_market",
+        "isbn13": 9780786942442,
+        "cover": "/images/novels/anthologies/the-halls-of-stormweather/9780786942442.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El palacio de las tempestades",
+        "publisher": "Timun Mas",
+        "date": "2010",
+        "format": "hardcover",
+        "isbn13": 9788448038458,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/29791",
+        "cover": "/images/novels/anthologies/the-halls-of-stormweather/9788448038458.webp",
+        "purchase_links": [
+          {
+            "store": "casa_del_libro",
+            "url": "https://www.casadellibro.com/libro-el-palacio-de-las-tempestades-sembia-n-1/9788448038458/1701574"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "realms-of-shadow",
+    "title": "Realms of Shadow",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos sobre la sombra en la historia de los Reinos Olvidados, desde Netheril hasta el regreso de los archimagos.\n\nAcompaña a la serie El retorno de los archimagos y a las historias de Erevis Cale.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?36555",
+    "series": ["fr-return-of-the-archwizards", "fr-erevis-cale"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2002-04",
+        "format": "mass_market",
+        "isbn13": 9780786927166,
+        "cover": "/images/novels/anthologies/realms-of-shadow/9780786927166.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/078692716X/"
+          }
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2002-04",
+        "format": "mass_market",
+        "isbn13": 9780786927340
+      }
+    ]
+  },
+  {
+    "id": "the-best-of-the-realms",
+    "title": "The Best of the Realms",
+    "settings": ["forgotten_realms"],
+    "description": "Selección de los mejores relatos de las antologías de los Reinos Olvidados, elegidos por R. A. Salvatore.\n\nPrimera de las antologías «The Best of the Realms».",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?24252",
+    "series": ["fr-starlight-and-shadows", "fr-elminster", "fr-threat-from-the-sea"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2003-11",
+        "format": "mass_market",
+        "isbn13": 9780786930241,
+        "cover": "/images/novels/anthologies/the-best-of-the-realms/9780786930241.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786930241/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "realms-of-the-dragons",
+    "title": "Realms of the Dragons",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos de dragones de los Reinos Olvidados, de R. A. Salvatore, Elaine Cunningham, Richard Lee Byers y otros autores.\n\nAcompaña a la trilogía El año de los dragones rebeldes.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?624897",
+    "series": ["fr-year-of-rogue-dragons", "fr-rogues"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2004-10",
+        "format": "mass_market",
+        "isbn13": 9780786933945,
+        "cover": "/images/novels/anthologies/realms-of-the-dragons/9780786933945.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786933941/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "realms-of-the-dragons-ii",
+    "title": "Realms of the Dragons II",
+    "settings": ["forgotten_realms"],
+    "description": "Segunda antología de dragones de los Reinos Olvidados, con autores nuevos de la línea.\n\nContinuación de Realms of the Dragons.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?870397",
+    "series": ["fr-year-of-rogue-dragons"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-05",
+        "format": "mass_market",
+        "isbn13": 9780786938087,
+        "cover": "/images/novels/anthologies/realms-of-the-dragons-ii/9780786938087.webp"
+      }
+    ]
+  },
+  {
+    "id": "the-best-of-the-realms-ii",
+    "title": "The Best of the Realms II: The Stories of Ed Greenwood",
+    "settings": ["forgotten_realms"],
+    "description": "Recopilación de relatos de Ed Greenwood, el creador de los Reinos Olvidados, con comentarios del autor.\n\nSegunda de las antologías «The Best of the Realms».",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?397191",
+    "series": ["fr-elminster", "fr-threat-from-the-sea"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2005-07",
+        "format": "mass_market",
+        "isbn13": 9780786937608,
+        "cover": "/images/novels/anthologies/the-best-of-the-realms-ii/9780786937608.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786937602/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "realms-of-the-elves",
+    "title": "Realms of the Elves",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos sobre los elfos de los Reinos Olvidados, de R. A. Salvatore, Ed Greenwood, Richard Baker y otros autores.\n\nAcompaña a la trilogía El último mythal.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?180618",
+    "series": ["fr-last-mythal"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2006-02-07",
+        "format": "mass_market",
+        "isbn13": 9780786939800,
+        "cover": "/images/novels/anthologies/realms-of-the-elves/9780786939800.webp"
+      }
+    ]
+  },
+  {
+    "id": "tales-of-the-last-war",
+    "title": "Tales of the Last War",
+    "settings": ["eberron"],
+    "description": "Relatos de la Última Guerra de Eberron, el conflicto que destruyó Cyre, de Keith Baker, Tim Waggoner y otros autores.\n\nPrimera antología de Eberron, ligada a sus primeras series de novelas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?181191",
+    "series": ["eberron-dreaming-dark", "eberron-blade-of-the-flame", "eberron-war-torn"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2006-04",
+        "format": "mass_market",
+        "isbn13": 9780786939862,
+        "cover": "/images/novels/anthologies/tales-of-the-last-war/9780786939862.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786939869/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-best-of-the-realms-iii",
+    "title": "The Best of the Realms III: The Stories of Elaine Cunningham",
+    "settings": ["forgotten_realms"],
+    "description": "Recopilación de relatos de Elaine Cunningham, con historias de Liriel, Danilo, Arilyn y Elaith.\n\nTercera de las antologías «The Best of the Realms».",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?1100058",
+    "series": ["fr-starlight-and-shadows", "fr-songs-and-swords", "fr-threat-from-the-sea"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2007-05",
+        "format": "mass_market",
+        "isbn13": 9780786942886,
+        "cover": "/images/novels/anthologies/the-best-of-the-realms-iii/9780786942886.webp"
+      }
+    ]
+  },
+  {
+    "id": "realms-of-war",
+    "title": "Realms of War",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos sobre las grandes guerras de la historia de los Reinos Olvidados, de Paul S. Kemp, R. A. Salvatore y otros autores.\n\nAcompaña a la trilogía La guerra del crepúsculo.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?776193",
+    "series": ["fr-twilight-war"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2008-01",
+        "format": "mass_market",
+        "isbn13": 9780786949342,
+        "cover": "/images/novels/anthologies/realms-of-war/9780786949342.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786949341/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "realms-of-the-dead",
+    "title": "Realms of the Dead",
+    "settings": ["forgotten_realms"],
+    "description": "Relatos sobre los muertos vivientes de los Reinos Olvidados, de R. A. Salvatore, Ed Greenwood, Erin M. Evans y otros autores.\n\nAcompaña a la trilogía Las tierras embrujadas.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?1062336",
+    "series": ["fr-haunted-lands"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2010-01-05",
+        "format": "mass_market",
+        "isbn13": 9780786953639,
+        "cover": "/images/novels/anthologies/realms-of-the-dead/9780786953639.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786953632/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-collected-stories-the-legend-of-drizzt",
+    "title": "The Collected Stories: The Legend of Drizzt",
+    "settings": ["forgotten_realms"],
+    "description": "Todos los relatos de R. A. Salvatore sobre Drizzt Do'Urden y sus compañeros publicados hasta 2011, con comentarios del autor.\n\nComplementa toda la Leyenda de Drizzt, desde La trilogía del elfo oscuro hasta Transiciones.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?1215210",
+    "series": [
+      "fr-icewind-dale",
+      "fr-dark-elf",
+      "fr-legacy-of-the-drow",
+      "fr-paths-of-darkness",
+      "fr-hunters-blades",
+      "fr-transitions"
+    ],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2011-02",
+        "format": "mass_market",
+        "isbn13": 9780786957385,
+        "cover": "/images/novels/anthologies/the-collected-stories-the-legend-of-drizzt/9780786957385.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786957387/"
+          }
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2011-09-13",
+        "format": "ebook",
+        "isbn13": 9780786961450,
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B005GLS7SU/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "untold-adventures",
+    "title": "Untold Adventures",
+    "settings": ["generic", "forgotten_realms", "eberron", "dark_sun"],
+    "description": "Relatos de autores invitados de fantasía y ciencia ficción, como Alan Dean Foster, Kevin J. Anderson o Mike Resnick, en los Reinos Olvidados, Eberron, Dark Sun y el mundo genérico de D&D.\n\nAntología de varios mundos de la época de la cuarta edición.",
+    "source": "https://www.isfdb.org/cgi-bin/title.cgi?1273088",
+    "series": ["generic-iconics"],
+    "editions": [
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2011-06-07",
+        "format": "mass_market",
+        "isbn13": 9780786958375,
+        "cover": "/images/novels/anthologies/untold-adventures/9780786958375.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0786958375/"
+          }
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "publisher": "Wizards of the Coast",
+        "date": "2011-06-07",
+        "format": "ebook",
+        "isbn13": 9780786959341,
+        "cover": "/images/novels/anthologies/untold-adventures/9780786959341.webp",
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/B004ZZOBFG/"
+          }
+        ]
+      }
+    ]
+  }
+]

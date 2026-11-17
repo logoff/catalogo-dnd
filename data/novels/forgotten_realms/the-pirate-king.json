@@ -1,0 +1,115 @@
+{
+  "slug": "the-pirate-king",
+  "title": "The Pirate King",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-transitions",
+    "number": 2
+  },
+  "date": "2008-10",
+  "description": "Drizzt vuelve a Luskan con el capitán Deudermont, decidido a librar la ciudad de la Hermandad Arcana y de los piratas que la controlan. La lucha por la Torre de Huéspedes de lo Arcano cambiará la ciudad, y la Costa de la Espada, para siempre.\n\nSegunda novela de Transiciones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?859752",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10-07",
+      "format": "hardcover",
+      "isbn13": 9780786949649,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?257014",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786949643/"
+        }
+      ],
+      "cover": "/images/novels/the-pirate-king/9780786949649.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10-07",
+      "format": "ebook",
+      "isbn13": 9780786952656,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?489519",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0015DYJ1C/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-07-07",
+      "format": "mass_market",
+      "isbn13": 9780786951444,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?275091",
+      "cover": "/images/novels/the-pirate-king/9780786951444.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-07-14",
+      "format": "paperback",
+      "isbn13": 9798217298808,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1114378"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey pirata",
+      "publisher": "Timun Mas",
+      "date": "2009",
+      "format": "hardcover",
+      "isbn13": 9788448037956,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/26998",
+      "cover": "/images/novels/the-pirate-king/9788448037956.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey pirata",
+      "publisher": "Minotauro",
+      "date": "2025-03-12",
+      "format": "ebook",
+      "isbn13": 9788445020388,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78825",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DTZ5YDQ9/"
+        }
+      ],
+      "cover": "/images/novels/the-pirate-king/9788445020388.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey pirata",
+      "publisher": "Minotauro",
+      "date": "2025-03-12",
+      "format": "paperback",
+      "isbn13": 9788445010853,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/76533",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010859/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-transiciones-n-02-03-el-rey-pirata/9788445010853/16605830"
+        }
+      ],
+      "cover": "/images/novels/the-pirate-king/9788445010853.webp"
+    }
+  ]
+}

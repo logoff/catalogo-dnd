@@ -1,0 +1,46 @@
+{
+  "slug": "sacrifice-of-the-widow",
+  "title": "Sacrifice of the Widow",
+  "authors": ["Lisa Smedman"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-lady-penitent", "number": 1 },
+  "date": "2007-02",
+  "description": "Halisstra Melarn, convertida al culto de Eilistraee, fue enviada al Abismo para matar a la diosa demoníaca a la que antes adoraba, pero acabó transformada en una criatura sometida a su antigua señora. Lolth no solo ha sobrevivido a su Silencio: ha cambiado.\n\nPrimera novela de la trilogía de la Dama Penitente, de Lisa Smedman, continuación de La guerra de la Reina Araña.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?197546",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-02",
+      "format": "mass_market",
+      "isbn13": 9780786942503,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89380",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942509/" }],
+      "cover": "/images/novels/sacrifice-of-the-widow/9780786942503.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-27",
+      "format": "ebook",
+      "isbn13": 9780786956876,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482368",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B000SEH42U/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El sacrificio de la viuda",
+      "publisher": "Timun Mas",
+      "date": "2009",
+      "format": "hardcover",
+      "isbn13": 9788448037970,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24425",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037979/" }],
+      "cover": "/images/novels/sacrifice-of-the-widow/9788448037970.webp"
+    }
+  ]
+}

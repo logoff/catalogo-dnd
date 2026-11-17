@@ -1,0 +1,22 @@
+{
+  "slug": "mithras-court-a-novel-of-the-mists",
+  "title": "Mithras Court: A Novel of the Mists",
+  "authors": ["David A. Page"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "2008-11",
+  "description": "Lewis Beckford busca en los bajos fondos de Londres al asesino de su esposa. Cuando por fin lo encuentra, el metro los lleva a la estación de Mithras Court, un lugar que no figura en ningún mapa mortal.\n\nNovela de Ravenloft de David A. Page.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11",
+      "isbn13": 9780786950683,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786950683&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786950684/" }],
+      "cover": "/images/novels/mithras-court-a-novel-of-the-mists/9780786950683.webp"
+    }
+  ]
+}

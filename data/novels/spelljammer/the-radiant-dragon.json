@@ -1,0 +1,23 @@
+{
+  "slug": "the-radiant-dragon",
+  "title": "The Radiant Dragon",
+  "authors": ["Elaine Cunningham"],
+  "setting": "spelljammer",
+  "kind": "novel",
+  "series": { "id": "spelljammer-cloakmaster", "number": 4 },
+  "date": "1992-11",
+  "description": "Teldin Moore busca la gran nave Spelljammer mientras los elfos le piden ayuda en la segunda Guerra Inhumana.\n\nCuarta novela del ciclo del Cloakmaster, de Elaine Cunningham.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19093",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-11",
+      "format": "mass_market",
+      "isbn13": 9781560763468,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31657",
+      "cover": "/images/novels/the-radiant-dragon/9781560763468.webp"
+    }
+  ]
+}

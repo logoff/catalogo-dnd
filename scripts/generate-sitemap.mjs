@@ -97,6 +97,14 @@ function generateSitemap() {
     })
   }
 
+  // Novel pages (data/novels/<mundo>/<slug>.json; series.json está en la raíz y no es una novela)
+  urls.push({ loc: '/novelas', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  const novelsDir = join(DATA_DIR, 'novels')
+  for (const file of getProductFiles(novelsDir).filter((f) => dirname(f) !== novelsDir)) {
+    const { slug } = JSON.parse(readFileSync(file, 'utf-8'))
+    urls.push({ loc: `/novela/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
+  }
+
   // Generate XML
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

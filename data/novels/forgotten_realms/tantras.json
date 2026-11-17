@@ -1,0 +1,65 @@
+{
+  "slug": "tantras",
+  "title": "Tantras",
+  "authors": ["Richard Awlinson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-avatar", "number": 2 },
+  "date": "1989-06",
+  "description": "Elminster, el viejo sabio de Valle Sombrío, parece haber muerto, y Medianoche y Adon son juzgados por su asesinato. Mientras tanto, Bane y sus aliados buscan las Tablas del Destino, y una mujer es lo único que se interpone entre Faerûn y el desastre.\n\nSegunda novela de la serie de los Avatares.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?16291",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-06",
+      "format": "mass_market",
+      "isbn13": 9780880387484,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14341",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880387483/" }],
+      "cover": "/images/novels/tantras/9780880387484.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-11",
+      "format": "mass_market",
+      "isbn13": 9780140126297,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14339",
+      "cover": "/images/novels/tantras/9780140126297.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Tantras",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "mass_market",
+      "isbn13": 9788477227229,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/206",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477227225/" }],
+      "cover": "/images/novels/tantras/9788477227229.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Tantras",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726546,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36940",
+      "cover": "/images/novels/tantras/9788448726546.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B005UFN548/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN548/" }]
+    }
+  ]
+}

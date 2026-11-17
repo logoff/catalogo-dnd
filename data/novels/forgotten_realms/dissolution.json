@@ -1,0 +1,117 @@
+{
+  "slug": "dissolution",
+  "title": "Dissolution",
+  "authors": ["Richard Lee Byers"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-war-of-the-spider-queen",
+    "number": 1
+  },
+  "date": "2002-07",
+  "description": "Mientras su mundo cambia, cuatro elfos oscuros luchan contra enemigos distintos, pero sus caminos los llevan al descubrimiento más aterrador de la historia drow: Lolth ha guardado silencio.\n\nPrimera novela de La guerra de la Reina Araña, serie supervisada por R. A. Salvatore; esta entrega es de Richard Lee Byers.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24036",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-07",
+      "format": "hardcover",
+      "isbn13": 9780786927142,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?10252",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786927143/"
+        }
+      ],
+      "cover": "/images/novels/dissolution/9780786927142.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-08",
+      "format": "mass_market",
+      "isbn13": 9780786929443,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?10251",
+      "cover": "/images/novels/dissolution/9780786929443.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-25",
+      "format": "ebook",
+      "isbn13": 9780786956753,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482353",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0036S4CD4/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Desintegración",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "hardcover",
+      "isbn13": 9788448037512,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/8677",
+      "cover": "/images/novels/dissolution/9788448037512.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Desintegración",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726140,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36932",
+      "cover": "/images/novels/dissolution/9788448726140.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Desintegración",
+      "publisher": "Minotauro",
+      "date": "2026-04-08",
+      "format": "paperback",
+      "isbn13": 9788445011317,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/80979",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011316/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-guerra-de-la-reina-arana-n-01-06-desintegracion/9788445011317/17936920"
+        }
+      ],
+      "cover": "/images/novels/dissolution/9788445011317.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Desintegración",
+      "publisher": "Minotauro",
+      "date": "2026-04-08",
+      "format": "ebook",
+      "isbn13": 9788445022597,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/80980",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GQLS83TK/"
+        }
+      ],
+      "cover": "/images/novels/dissolution/9788445022597.webp"
+    }
+  ]
+}

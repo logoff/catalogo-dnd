@@ -1,0 +1,106 @@
+{
+  "slug": "the-companions-salvatore",
+  "title": "The Companions",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-sundering",
+    "number": 1
+  },
+  "date": "2013-08",
+  "description": "Los dioses conceden una segunda vida a Catti-brie, Regis y Bruenor, que renacen en distintos lugares de Faerûn y crecen con el recuerdo de quienes fueron. Deben llegar a la cima de Kelvin, en el valle del Viento Helado, en el momento señalado para reencontrarse con Drizzt.\n\nAbre la serie multiautor The Sundering, con la que los Reinos Olvidados pasan de la cuarta a la quinta edición de D&D.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1611650",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-08-06",
+      "format": "hardcover",
+      "isbn13": 9780786963713,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?421196",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786963719/"
+        }
+      ],
+      "cover": "/images/novels/the-companions-salvatore/9780786963713.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-08-06",
+      "format": "ebook",
+      "isbn13": 9780786964352,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?459622",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00BE24W0W/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-02-04",
+      "format": "mass_market",
+      "isbn13": 9780786965229,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?435345",
+      "cover": "/images/novels/the-companions-salvatore/9780786965229.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los compañeros",
+      "publisher": "Timun Mas",
+      "date": "2014-01",
+      "format": "ebook",
+      "isbn13": 9788448018740,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/52903",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00IEI98US/"
+        }
+      ],
+      "cover": "/images/novels/the-companions-salvatore/9788448018740.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los compañeros",
+      "publisher": "Timun Mas",
+      "date": "2014-01",
+      "format": "paperback",
+      "isbn13": 9788448018634,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/48089",
+      "cover": "/images/novels/the-companions-salvatore/9788448018634.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los compañeros",
+      "publisher": "Minotauro",
+      "date": "2026-10-14",
+      "format": "paperback",
+      "isbn13": 9788445022702,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84021",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445022709/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-los-companeros/9788445022702/18312331"
+        }
+      ],
+      "cover": "/images/novels/the-companions-salvatore/9788445022702.webp"
+    }
+  ]
+}

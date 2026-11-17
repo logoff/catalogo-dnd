@@ -1,0 +1,31 @@
+{
+  "slug": "destiny",
+  "title": "Destiny",
+  "authors": ["Paul B. Thompson", "Tonya C. Cook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-elven-exiles", "number": 3 },
+  "date": "2007-09",
+  "description": "Los últimos elfos libres de Ansalon se reúnen en el valle maldito de Inath-Wakenti, donde Gilthas quiere fundar un nuevo hogar y Porthios prefiere lanzar una cruzada para recuperar las tierras perdidas, mientras fantasmas y un hechicero proscrito acechan.\n\nEs la novela que cierra The Elven Exiles. No se ha publicado en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-09",
+      "isbn13": 9780786942732,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786942732&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942738/" }],
+      "cover": "/images/novels/destiny/9780786942732.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B007SGYJ3I/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007SGYJ3I/" }]
+    }
+  ]
+}

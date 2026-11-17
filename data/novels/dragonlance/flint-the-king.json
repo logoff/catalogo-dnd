@@ -1,0 +1,108 @@
+{
+  "slug": "flint-the-king",
+  "title": "Flint the King",
+  "authors": ["Mary Kirchoff", "Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-preludes-ii", "number": 2 },
+  "date": "1990-05",
+  "description": "Flint Fireforge vuelve a su pueblo natal, cerca de Solace, y lo encuentra en plena prosperidad. Cuando descubre de dónde sale tanta riqueza, acaba arrojado a un foso, rescatado por enanos gullys y metido en un aprieto que no esperaba: convertirse en su rey.\n\nEs la segunda novela de Preludes II, con el enano de los Compañeros como protagonista y mucho humor gully. Se publicó en castellano como Flint, rey de los gullys.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12968",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-05",
+      "format": "mass_market",
+      "isbn13": 9780880389112,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11171",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389117/" }],
+      "cover": "/images/novels/flint-the-king/9780880389112.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-12",
+      "format": "mass_market",
+      "isbn13": 9780140143690,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11170"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-11",
+      "format": "mass_market",
+      "isbn13": 9780786930210,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14001",
+      "cover": "/images/novels/flint-the-king/9780786930210.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-06-05",
+      "format": "ebook",
+      "isbn13": 9780786963331,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465986",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG4DV2/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Flint, rey de los gullys",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "hardcover",
+      "isbn13": 9788477227182,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/17012",
+      "cover": "/images/novels/flint-the-king/9788477227182.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Flint, rey de los gullys",
+      "publisher": "Timun Mas",
+      "date": "1996-10",
+      "format": "mass_market",
+      "isbn13": 9788448030506,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/49",
+      "cover": "/images/novels/flint-the-king/9788448030506.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Flint, rey de los gullys",
+      "publisher": "Timun Mas",
+      "date": "2006-03",
+      "format": "mass_market",
+      "isbn13": 9788448035280,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24507",
+      "cover": "/images/novels/flint-the-king/9788448035280.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Flint, rey de los gullys",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721336,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24267",
+      "cover": "/images/novels/flint-the-king/9788448721336.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Flint, rey de los gullys",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005399,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36641",
+      "cover": "/images/novels/flint-the-king/9788448005399.webp"
+    }
+  ]
+}

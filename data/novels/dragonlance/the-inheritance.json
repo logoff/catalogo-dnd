@@ -1,0 +1,23 @@
+{
+  "slug": "the-inheritance",
+  "title": "The Inheritance",
+  "authors": ["Nancy Varian Berberick"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "date": "2001-05",
+  "description": "Una princesa elfa es secuestrada por una banda de forajidos y, mientras espera que su esposo la rescate, se enamora del jefe de sus captores. De esa relación nacerá uno de los grandes héroes de Krynn: Tanis el Semielfo.\n\nEs una novela de la línea Dragonlance Classics que cuenta el origen de Tanis y se puede leer de forma independiente. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25116",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-05",
+      "format": "mass_market",
+      "isbn13": 9780786918614,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?42060",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786918616/" }],
+      "cover": "/images/novels/the-inheritance/9780786918614.webp"
+    }
+  ]
+}

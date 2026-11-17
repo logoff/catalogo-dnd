@@ -1,0 +1,107 @@
+{
+  "slug": "brothers-majere",
+  "title": "Brothers Majere",
+  "authors": ["Kevin T. Stein"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-preludes", "number": 3 },
+  "date": "1989-12",
+  "description": "Caramon y Raistlin Majere, acompañados por un kender, aceptan un trabajo aparentemente sencillo en la ciudad de Mereklar: averiguar adónde han ido todos sus gatos. Lo que parecía una tarea menor esconde una cadena de asesinatos y algo mucho más oscuro.\n\nEs la tercera novela de Preludes y muestra a los gemelos antes de la Guerra de la Lanza, cuando Raistlin todavía estaba lejos de ser el mago temido de las Crónicas. Se publicó en castellano como Los hermanos Majere.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?14639",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-12",
+      "format": "mass_market",
+      "isbn13": 9780880387767,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?286803",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880387769/" }],
+      "cover": "/images/novels/brothers-majere/9780880387767.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-03",
+      "format": "mass_market",
+      "isbn13": 9780140126334,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?323266",
+      "cover": "/images/novels/brothers-majere/9780140126334.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-06",
+      "format": "mass_market",
+      "isbn13": 9780786929719,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?5606",
+      "cover": "/images/novels/brothers-majere/9780786929719.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los hermanos Majere",
+      "publisher": "Timun Mas",
+      "date": "1991",
+      "format": "hardcover",
+      "isbn13": 9788477225508,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12667",
+      "cover": "/images/novels/brothers-majere/9788477225508.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los hermanos Majere",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030476,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/295",
+      "cover": "/images/novels/brothers-majere/9788448030476.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los hermanos Majere",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "mass_market",
+      "isbn13": 9788448033750,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12372",
+      "cover": "/images/novels/brothers-majere/9788448033750.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los hermanos Majere",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721275,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24241",
+      "cover": "/images/novels/brothers-majere/9788448721275.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los hermanos Majere",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005375,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36639",
+      "cover": "/images/novels/brothers-majere/9788448005375.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00AGV8YNS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00AGV8YNS/" }]
+    }
+  ]
+}

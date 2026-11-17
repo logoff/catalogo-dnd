@@ -1,0 +1,23 @@
+{
+  "slug": "the-crimson-talisman",
+  "title": "The Crimson Talisman",
+  "authors": ["Adrian Cole"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-war-torn", "number": 1 },
+  "date": "2005-05",
+  "description": "Una aventura en el Eberron posterior a la Última Guerra, protagonizada por almas marcadas por el conflicto.\n\nPrimera novela de la serie The War-Torn, de Adrian Cole.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?921586",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-05",
+      "format": "mass_market",
+      "isbn13": 9780786937394,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69172",
+      "cover": "/images/novels/the-crimson-talisman/9780786937394.webp"
+    }
+  ]
+}

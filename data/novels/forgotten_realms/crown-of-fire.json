@@ -1,0 +1,52 @@
+{
+  "slug": "crown-of-fire",
+  "title": "Crown of Fire",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-shandril", "number": 2 },
+  "date": "1994-04",
+  "description": "Shandril, antes una humilde pinche de cocina, es ahora una de las magas más poderosas del mundo, y los Zhentarim y el Culto del Dragón quieren su fuego mágico. Con la ayuda de Elminster, de los Caballeros de Myth Drannor y de un enano tozudo, debe huir para sobrevivir.\n\nSegunda novela de la saga de Shandril, de Ed Greenwood.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17974",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-04",
+      "format": "mass_market",
+      "isbn13": 9781560768395,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14280",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768398/" }],
+      "cover": "/images/novels/crown-of-fire/9781560768395.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-06",
+      "format": "paperback",
+      "isbn13": 9780786927494,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8325",
+      "cover": "/images/novels/crown-of-fire/9780786927494.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-03",
+      "format": "mass_market",
+      "isbn13": 9780786936199,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?152451",
+      "cover": "/images/novels/crown-of-fire/9780786936199.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B005PRCG46/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PRCG46/" }]
+    }
+  ]
+}

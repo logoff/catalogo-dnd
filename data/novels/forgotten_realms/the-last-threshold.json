@@ -1,0 +1,115 @@
+{
+  "slug": "the-last-threshold",
+  "title": "The Last Threshold",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-neverwinter",
+    "number": 4
+  },
+  "date": "2013-03",
+  "description": "Drizzt, Dahlia y Entreri viajan por Faerûn mientras el drow Tiago Baenre recluta a Bregan D'aerthe para cazar a Drizzt. Cansado de dudas y mentiras, el elfo oscuro emprende el camino hacia el valle del Viento Helado, el único lugar al que ha llamado hogar.\n\nCierra la saga Neverwinter.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1553399",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-03-05",
+      "format": "hardcover",
+      "isbn13": 9780786963645,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?408822",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786963646/"
+        }
+      ],
+      "cover": "/images/novels/the-last-threshold/9780786963645.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-03",
+      "format": "mass_market",
+      "isbn13": 9780786963744,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?423500",
+      "cover": "/images/novels/the-last-threshold/9780786963744.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-03-05",
+      "format": "ebook",
+      "isbn13": 9780786964291,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?456360",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00A1M5EH6/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-11-10",
+      "format": "paperback",
+      "isbn13": 9798217298853,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1130847"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El último umbral",
+      "publisher": "Timun Mas",
+      "date": "2013-11",
+      "format": "hardcover",
+      "isbn13": 9788448016630,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/47516",
+      "cover": "/images/novels/the-last-threshold/9788448016630.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El último umbral",
+      "publisher": "Timun Mas",
+      "date": "2013-11",
+      "format": "ebook",
+      "isbn13": 9788448018603,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/52902",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00IEI991Q/"
+        }
+      ],
+      "cover": "/images/novels/the-last-threshold/9788448018603.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El último umbral",
+      "publisher": "Minotauro",
+      "date": "2025-09-03",
+      "format": "paperback",
+      "isbn13": 9788445010860,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84030",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010867/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-neverwinter-n-04-04-el-ultimo-umbral/9788445010860/17086579"
+        }
+      ],
+      "cover": "/images/novels/the-last-threshold/9788445010860.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "bertrems-guide-to-the-war-of-souls-volume-one",
+  "title": "Bertrem's Guide to the War of Souls, Volume One",
+  "authors": ["Mary H. Herbert", "Nancy Varian Berberick", "John Grubber"],
+  "setting": "dragonlance",
+  "kind": "fiction_guide",
+  "series": { "id": "dragonlance-bertrems-guides", "number": 2 },
+  "date": "2001-09",
+  "description": "Mientras la Guerra de los Espíritus asola Ansalon, Bertrem recopila testimonios de la vida cotidiana de la gente común que sufre las consecuencias del conflicto.\n\nEs el primer volumen de la guía narrativa sobre La guerra de los espíritus, con textos de varios autores. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1663358",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-09",
+      "format": "mass_market",
+      "isbn13": 9780786918829,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4065",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786918829/" }],
+      "cover": "/images/novels/bertrems-guide-to-the-war-of-souls-volume-one/9780786918829.webp"
+    }
+  ]
+}

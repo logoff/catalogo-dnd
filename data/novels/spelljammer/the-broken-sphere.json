@@ -1,0 +1,24 @@
+{
+  "slug": "the-broken-sphere",
+  "title": "The Broken Sphere",
+  "authors": ["Nigel Findley"],
+  "setting": "spelljammer",
+  "kind": "novel",
+  "series": { "id": "spelljammer-cloakmaster", "number": 5 },
+  "date": "1993-05",
+  "description": "Teldin Moore por fin encuentra la gran nave Spelljammer, pero hacerse con ella resulta difícil.\n\nQuinta novela del ciclo del Cloakmaster, de Nigel Findley.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18471",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-05",
+      "format": "mass_market",
+      "isbn13": 9781560765967,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31655",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560765968/" }],
+      "cover": "/images/novels/the-broken-sphere/9781560765967.webp"
+    }
+  ]
+}

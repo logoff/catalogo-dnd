@@ -1,0 +1,54 @@
+{
+  "slug": "the-medusa-plague",
+  "title": "The Medusa Plague",
+  "authors": ["Mary Kirchoff"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-defenders-of-magic", "number": 2 },
+  "date": "1994-10",
+  "description": "Una plaga misteriosa convierte en piedra a los habitantes de la aldea de los DiThon y todos culpan al desaparecido Guerrand. Su sobrino Bram, un herbolario con talento para la magia, sale en su busca sin saber que eso pone en peligro a toda la hechicería.\n\nEs la segunda novela de Defenders of Magic. En castellano se tituló La plaga de la medusa.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17088",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9780099456018,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?44012"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-10",
+      "format": "mass_market",
+      "isbn13": 9781560769057,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11211",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/156076905X/" }],
+      "cover": "/images/novels/the-medusa-plague/9781560769057.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-17",
+      "format": "ebook",
+      "isbn13": 9780786963492,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466520",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RHDC7W/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La plaga de la medusa",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788448034443,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23325",
+      "cover": "/images/novels/the-medusa-plague/9788448034443.webp"
+    }
+  ]
+}

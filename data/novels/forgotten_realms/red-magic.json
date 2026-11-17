@@ -1,0 +1,24 @@
+{
+  "slug": "red-magic",
+  "title": "Red Magic",
+  "authors": ["Jean Rabe"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-harpers", "number": 2 },
+  "date": "1991-12",
+  "description": "Cuando un ambicioso Mago Rojo se hace con el control de Thay, los Arpistas envían a una consejera de su organización para trabajar con sus agentes humanos y centauros.\n\nNovela de la serie de los Arpistas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15556",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-12",
+      "format": "mass_market",
+      "isbn13": 9781560761181,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14316",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560761180/" }],
+      "cover": "/images/novels/red-magic/9781560761181.webp"
+    }
+  ]
+}

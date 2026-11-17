@@ -1,0 +1,33 @@
+{
+  "slug": "the-ruin",
+  "title": "The Ruin",
+  "authors": ["Richard Lee Byers"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-year-of-rogue-dragons", "number": 3 },
+  "date": "2006-05",
+  "description": "La locura se apodera de todo, Sammaster está cerca de la victoria y Dorn y los dragones renegados deben encontrar el origen de una maldición milenaria antes de que la Furia arrase el mundo.\n\nCierra la trilogía del Año de los Dragones Furiosos.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?181708",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-05",
+      "format": "mass_market",
+      "isbn13": 9780786940035,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?82831",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940034/" }],
+      "cover": "/images/novels/the-ruin/9780786940035.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-04-02",
+      "format": "ebook",
+      "isbn13": 9780786956982,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481695"
+    }
+  ]
+}

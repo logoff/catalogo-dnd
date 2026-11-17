@@ -1,0 +1,33 @@
+{
+  "slug": "oath-of-vigilance",
+  "title": "Oath of Vigilance",
+  "authors": ["James Wyatt"],
+  "setting": "nerath",
+  "kind": "novel",
+  "series": { "id": "nerath-abyssal-plague", "number": 2 },
+  "date": "2011-08",
+  "description": "La plaga abisal sigue extendiéndose.\n\nNovela de la serie The Abyssal Plague, de James Wyatt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1297778",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-08-02",
+      "format": "mass_market",
+      "isbn13": 9780786958160,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?355342",
+      "cover": "/images/novels/oath-of-vigilance/9780786958160.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-08-02",
+      "format": "ebook",
+      "isbn13": 9780786959327,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474398",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKRP4/" }]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "dragons-of-winter-night",
+  "title": "Dragons of Winter Night",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-chronicles",
+    "number": 2
+  },
+  "date": "1985-04",
+  "description": "Los Compañeros se han separado y la guerra se extiende por Ansalon. Mientras unos buscan refugio entre los elfos y los Caballeros de Solamnia, divididos y desconfiados, otros siguen la pista de los legendarios orbes de los dragones y de las dragonlances, las armas con las que el héroe Huma derrotó a los dragones siglos atrás.\n\nEs la segunda novela de las Crónicas de la Dragonlance y conviene leerla justo después de El retorno de los dragones: amplía el mapa de Krynn, da más peso a los caballeros solámnicos y a los elfos de Qualinesti y Silvanesti, y prepara el desenlace de la trilogía.",
+  "source": "https://www.penguinrandomhouse.com/books/777486/dragonlance-chronicles-by-margaret-weis-tracy-hickman/9780593977156/",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1985-04",
+      "format": "mass_market",
+      "isbn13": 9780880381741,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11147",
+      "cover": "/images/novels/dragons-of-winter-night/9780880381741.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1986-08",
+      "format": "mass_market",
+      "isbn13": 9780140087192,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11265",
+      "cover": "/images/novels/dragons-of-winter-night/9780140087192.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9780786916092,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11266",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786916095/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-winter-night/9780786916092.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-07",
+      "format": "hardcover",
+      "isbn13": 9780786930678,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11252",
+      "cover": "/images/novels/dragons-of-winter-night/9780786930678.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-12-21",
+      "format": "ebook",
+      "isbn13": 9780786954384,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?477477",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004G8P1J2/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-winter-night/9780786954384.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Timun Mas",
+      "date": "1987",
+      "format": "hardcover",
+      "isbn13": 9788477220626,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3144",
+      "cover": "/images/novels/dragons-of-winter-night/9788477220626.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Círculo de Lectores",
+      "date": "1988",
+      "format": "hardcover",
+      "isbn13": 9788422623212,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/18158",
+      "cover": "/images/novels/dragons-of-winter-night/9788422623212.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788477228899,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/16",
+      "cover": "/images/novels/dragons-of-winter-night/9788477228899.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "format": "mass_market",
+      "isbn13": 9788448033378,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11950",
+      "cover": "/images/novels/dragons-of-winter-night/9788448033378.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Planeta DeAgostini",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788467413694,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15641",
+      "cover": "/images/novels/dragons-of-winter-night/9788467413694.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448720957,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24238",
+      "cover": "/images/novels/dragons-of-winter-night/9788448720957.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "ebook",
+      "isbn13": 9788448008093,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39025",
+      "cover": "/images/novels/dragons-of-winter-night/9788448008093.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448038946,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/34692",
+      "cover": "/images/novels/dragons-of-winter-night/9788448038946.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011102,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71842",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011103/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cronicas-de-la-dragonlance-n-02-03-la-tumba-de-huma/9788445011102/12966278"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-winter-night/9788445011102.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tumba de Huma",
+      "publisher": "Minotauro",
+      "date": "2022-06-22",
+      "format": "ebook",
+      "isbn13": 9788445013663,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83973",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B2ZXRGM2/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-winter-night/9788445013663.webp"
+    }
+  ],
+  "related_videogames": ["dragons-of-flame"]
+}

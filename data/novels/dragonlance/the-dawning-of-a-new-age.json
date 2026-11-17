@@ -1,0 +1,66 @@
+{
+  "slug": "the-dawning-of-a-new-age",
+  "title": "The Dawning of a New Age",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-dragons-of-a-new-age", "number": 1 },
+  "date": "1996-09",
+  "description": "Terminado el Verano del Caos, los dioses han abandonado Krynn y unos dragones enormes, más poderosos que nunca, se reparten Ansalon. Goldmoon busca nuevos héroes para enfrentarse a ellos y encuentra a Dhamon Grimwulf, un hombre atormentado por su pasado.\n\nEs la primera novela de la trilogía Dragons of a New Age, que abre la Quinta Era de Dragonlance tras Dragons of Summer Flame. En castellano se publicó como El amanecer de una nueva era.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12036",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-09",
+      "format": "mass_market",
+      "isbn13": 9780786906161,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38048",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786906162/" }],
+      "cover": "/images/novels/the-dawning-of-a-new-age/9780786906161.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-06",
+      "format": "mass_market",
+      "isbn13": 9780786928422,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38049",
+      "cover": "/images/novels/the-dawning-of-a-new-age/9780786928422.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El amanecer de una nueva era",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "format": "mass_market",
+      "isbn13": 9788448039080,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/48",
+      "cover": "/images/novels/the-dawning-of-a-new-age/9788448039080.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El amanecer de una nueva era",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "isbn13": 9788448034306,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/13643",
+      "cover": "/images/novels/the-dawning-of-a-new-age/9788448034306.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El amanecer de una nueva era",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721824,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24278",
+      "cover": "/images/novels/the-dawning-of-a-new-age/9788448721824.webp"
+    }
+  ]
+}

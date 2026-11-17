@@ -1,0 +1,23 @@
+{
+  "slug": "dragon-sword",
+  "title": "Dragon Sword",
+  "authors": ["Ree Soesbee"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-new-adventures", "number": 5 },
+  "date": "2005-01",
+  "description": "Los jóvenes compañeros de la serie continúan sus aventuras en la época dorada de Krynn, en una historia pensada para lectores a partir de unos diez años.\n\nEs la quinta novela de Dragonlance: The New Adventures, la serie juvenil de Mirrorstone con protagonistas nuevos. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?157833",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2005-01",
+      "format": "mass_market",
+      "isbn13": 9780786935789,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68494",
+      "cover": "/images/novels/dragon-sword/9780786935789.webp"
+    }
+  ]
+}

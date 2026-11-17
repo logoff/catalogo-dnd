@@ -1,0 +1,56 @@
+{
+  "slug": "the-day-of-the-tempest",
+  "title": "The Day of the Tempest",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-dragons-of-a-new-age", "number": 2 },
+  "date": "1997-08",
+  "description": "Los grandes dragones transforman la tierra con su magia y reúnen ejércitos, y hasta los Caballeros de Takhisis se ponen de su parte. Un grupo de héroes intenta resistir en la hora más oscura de Ansalon.\n\nEs la segunda novela de Dragons of a New Age. Se publicó en castellano como El dragón azul.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12037",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-08",
+      "format": "mass_market",
+      "isbn13": 9780786906680,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38086",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786906685/" }],
+      "cover": "/images/novels/the-day-of-the-tempest/9780786906680.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-08",
+      "format": "mass_market",
+      "isbn13": 9780786928576,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38087",
+      "cover": "/images/novels/the-day-of-the-tempest/9780786928576.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El dragón azul",
+      "publisher": "Timun Mas",
+      "date": "1998",
+      "format": "mass_market",
+      "isbn13": 9788448031268,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/552",
+      "cover": "/images/novels/the-day-of-the-tempest/9788448031268.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El dragón azul",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721848,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24279",
+      "cover": "/images/novels/the-day-of-the-tempest/9788448721848.webp"
+    }
+  ]
+}

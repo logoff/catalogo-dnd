@@ -1,0 +1,21 @@
+{
+  "slug": "fire-and-dust",
+  "title": "Fire and Dust",
+  "authors": ["James Alan Gardner"],
+  "setting": "planescape",
+  "kind": "novel",
+  "date": "1996",
+  "description": "Alguien pone bombas en las sedes de las facciones de Sigil. Britlin Cavendish, artista, espadachín y sensato, entra en un equipo de varias facciones que sigue la pista desde el Plano del Polvo hasta Carceri y Plague-Mort.\n\nNovela de Planescape que nunca llegó a publicarse en inglés; su autor permite leerla gratis en internet y salió traducida al polaco en 1998.",
+  "source": "https://wings.planewalker.com/local.html",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "James Alan Gardner",
+      "date": "1995",
+      "format": "web",
+      "url": "https://wings.planewalker.com/local.html",
+      "source": "https://wings.planewalker.com/local.html"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "the-binding-stone",
+  "title": "The Binding Stone",
+  "authors": ["Don Bassingthwaite"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-dragon-below", "number": 1 },
+  "date": "2005-08",
+  "description": "Una aventura oscura que explora regiones de Eberron hasta entonces inéditas en las novelas, con las razas creadas para el mundo.\n\nPrimera novela de la trilogía The Dragon Below, de Don Bassingthwaite.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?903353",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-08",
+      "format": "mass_market",
+      "isbn13": 9780786937844,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?72019",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078693784X/" }],
+      "cover": "/images/novels/the-binding-stone/9780786937844.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0036S4BIA/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4BIA/" }]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "sanctuary",
+  "title": "Sanctuary",
+  "authors": ["Paul B. Thompson", "Tonya C. Cook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-elven-exiles", "number": 1 },
+  "date": "2005-10",
+  "description": "La guerra ha empujado a las naciones élficas al exilio en el desierto de Khur, donde tendrán que superar peligros extraordinarios y traiciones para encontrar un nuevo hogar.\n\nEs la primera novela de The Elven Exiles, la trilogía de dos de los autores de The Elven Nations que continúa la historia de los elfos tras La guerra de los espíritus. No se ha publicado en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-10",
+      "isbn13": 9780786938179,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786938179&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078693817X/" }],
+      "cover": "/images/novels/sanctuary/9780786938179.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B008ADC4C6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADC4C6/" }]
+    }
+  ]
+}

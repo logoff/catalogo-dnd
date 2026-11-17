@@ -1,0 +1,34 @@
+{
+  "slug": "dangerous-games",
+  "title": "Dangerous Games",
+  "authors": ["Clayton Emery"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-netheril", "number": 2 },
+  "date": "1996-11",
+  "description": "En Netheril, donde las ciudadelas flotan y los magos juegan a ser dioses, el bárbaro Sunbright Steelshanks se ve atrapado en una partida mortal.\n\nSegunda novela de la trilogía de Netheril.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18591",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-11",
+      "format": "mass_market",
+      "isbn13": 9780786905249,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14274",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905247/" }],
+      "cover": "/images/novels/dangerous-games/9780786905249.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-11",
+      "format": "ebook",
+      "isbn13": 9780786963928,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467753",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFHPW/" }]
+    }
+  ]
+}

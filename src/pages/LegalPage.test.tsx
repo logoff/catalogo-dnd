@@ -36,4 +36,15 @@ describe('LegalPage', () => {
       'licencia oficial de Dungeons & Dragons'
     )
   })
+
+  it('menciona los títulos y las portadas de las novelas', () => {
+    render(
+      <MemoryRouter>
+        <LegalPage />
+      </MemoryRouter>
+    )
+    expect(screen.getByText(/portadas de las novelas/)).toHaveTextContent(
+      'para identificar cada obra y cada edición'
+    )
+  })
 })

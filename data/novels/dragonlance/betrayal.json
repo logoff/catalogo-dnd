@@ -1,0 +1,101 @@
+{
+  "slug": "betrayal",
+  "title": "Betrayal",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-dhamon-saga",
+    "number": 2
+  },
+  "date": "2002-04",
+  "description": "Dhamon y su banda de mercenarios ponen la vista en un tesoro olvidado bajo una pradera, una fortuna que las leyendas describen como increíble. Pero entre ladrones todo tiene un precio, y el suyo puede ser muy alto.\n\nEs la segunda novela de The Dhamon Saga. Se publicó en castellano como Traición.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24253",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-06",
+      "format": "hardcover",
+      "isbn13": 9780786918607,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4233",
+      "cover": "/images/novels/betrayal/9780786918607.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-04",
+      "format": "mass_market",
+      "isbn13": 9780786927180,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4232",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786927186/"
+        }
+      ],
+      "cover": "/images/novels/betrayal/9780786927180.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Traición",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "isbn13": 9788448032791,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/6992",
+      "cover": "/images/novels/betrayal/9788448032791.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Traición",
+      "publisher": "Planeta DeAgostini",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788467425215,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/22662",
+      "cover": "/images/novels/betrayal/9788467425215.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Traición",
+      "publisher": "Minotauro",
+      "date": "2026-09-09",
+      "format": "paperback",
+      "isbn13": 9788445011546,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/82088",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011545/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-saga-de-dhamon-n-02-03-traicion/9788445011546/18275398"
+        }
+      ],
+      "cover": "/images/novels/betrayal/9788445011546.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Traición",
+      "publisher": "Minotauro",
+      "date": "2026-09-09",
+      "format": "ebook",
+      "isbn13": 9788445022818,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/82089",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0H5QK8C13/"
+        }
+      ],
+      "cover": "/images/novels/betrayal/9788445022818.webp"
+    }
+  ]
+}

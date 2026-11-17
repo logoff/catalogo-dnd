@@ -1,0 +1,78 @@
+{
+  "slug": "silver-shadows",
+  "title": "Silver Shadows",
+  "authors": ["Elaine Cunningham"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-songs-and-swords", "number": 3 },
+  "date": "1996-06",
+  "description": "Arilyn Hojaluna recibe el encargo de salvar a un grupo de elfos salvajes de la extinción, una misión que se convierte en una lucha personal.\n\nTercera novela de las aventuras de Arilyn y Danilo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19095",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-06",
+      "format": "mass_market",
+      "isbn13": 9780786904983,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14324",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786904984/" }],
+      "cover": "/images/novels/silver-shadows/9780786904983.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-01",
+      "format": "mass_market",
+      "isbn13": 9780786917990,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?230213",
+      "cover": "/images/novels/silver-shadows/9780786917990.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-20",
+      "format": "ebook",
+      "isbn13": 9780786959723,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475026",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZNN3M/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Sombras de plata",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "mass_market",
+      "isbn13": 9788448037307,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2169",
+      "cover": "/images/novels/silver-shadows/9788448037307.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Sombras de plata",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723828,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36956",
+      "cover": "/images/novels/silver-shadows/9788448723828.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Sombras de plata",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038809,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33637",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038800/" }],
+      "cover": "/images/novels/silver-shadows/9788448038809.webp"
+    }
+  ]
+}

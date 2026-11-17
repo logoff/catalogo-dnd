@@ -1,0 +1,55 @@
+{
+  "slug": "the-dragons",
+  "title": "The Dragons",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-lost-histories", "number": 6 },
+  "date": "1996-10",
+  "description": "Dos grandes dragones, uno dorado y otro plateado, han crecido en un mundo de sabiduría y fe, mientras una hembra de dragón rojo hereda el legado de traición y conquista de la Reina de la Oscuridad. Su guerra decidirá el destino de Krynn.\n\nEs la novela que cierra The Lost Histories y está dedicada a las guerras de dragones de los tiempos antiguos. En castellano se tituló Los dragones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12963",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-10",
+      "format": "mass_market",
+      "isbn13": 9780786905133,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11206",
+      "cover": "/images/novels/the-dragons/9780786905133.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-13",
+      "format": "ebook",
+      "isbn13": 9780786962754,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038468",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1GE0/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los dragones",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448039318,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/418",
+      "cover": "/images/novels/the-dragons/9788448039318.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los dragones",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722807,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24349",
+      "cover": "/images/novels/the-dragons/9788448722807.webp"
+    }
+  ]
+}

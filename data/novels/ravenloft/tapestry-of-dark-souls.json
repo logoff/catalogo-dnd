@@ -1,0 +1,53 @@
+{
+  "slug": "tapestry-of-dark-souls",
+  "title": "Tapestry of Dark Souls",
+  "authors": ["Elaine Bergstrom"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1993-03",
+  "description": "Jonathan debe destruir el Tapiz de las Almas, en el que están atrapados los peores males de Ravenloft, antes de que lo condene a la oscuridad eterna.\n\nNovela de Ravenloft de Elaine Bergstrom.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13767",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-03",
+      "format": "paperback",
+      "isbn13": 9781560765714,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27427"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-06",
+      "format": "paperback",
+      "isbn13": 9780786943678,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?311300",
+      "cover": "/images/novels/tapestry-of-dark-souls/9780786943678.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-16",
+      "format": "ebook",
+      "isbn13": 9780786964703,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457007",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BO4GE9M/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El tapiz de las almas negras",
+      "publisher": "Timun Mas",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9788448041540,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3415",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448041542/" }],
+      "cover": "/images/novels/tapestry-of-dark-souls/9788448041540.webp"
+    }
+  ]
+}

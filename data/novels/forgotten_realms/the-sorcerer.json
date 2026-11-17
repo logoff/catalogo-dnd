@@ -1,0 +1,56 @@
+{
+  "slug": "the-sorcerer",
+  "title": "The Sorcerer",
+  "authors": ["Troy Denning"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-return-of-the-archwizards", "number": 3 },
+  "date": "2002-11",
+  "description": "En las ruinas de Tilverton acechan los demonios, las alianzas se rompen en Evereska y Cormyr, y en el desierto de Anauroch se levanta un imperio de oscuridad.\n\nCierra la trilogía El retorno de los archimagos.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24597",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-11",
+      "format": "mass_market",
+      "isbn13": 9780786927951,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31266",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078692795X/" }],
+      "cover": "/images/novels/the-sorcerer/9780786927951.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-26",
+      "format": "ebook",
+      "isbn13": 9780786959730,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474033",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZMZTU/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El hechicero",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788448037710,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/22859",
+      "cover": "/images/novels/the-sorcerer/9788448037710.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El hechicero",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726584,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40990",
+      "cover": "/images/novels/the-sorcerer/9788448726584.webp"
+    }
+  ]
+}

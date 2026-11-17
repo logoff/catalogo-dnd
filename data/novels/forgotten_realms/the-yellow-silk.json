@@ -1,0 +1,34 @@
+{
+  "slug": "the-yellow-silk",
+  "title": "The Yellow Silk",
+  "authors": ["Don Bassingthwaite"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-rogues", "number": 4 },
+  "date": "2004-02",
+  "description": "Un mentiroso compulsivo y contador de historias se mete en toda clase de peligros por culpa de sus fanfarronadas.\n\nCierra la serie The Rogues, de Don Bassingthwaite.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?32520",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-02",
+      "format": "mass_market",
+      "isbn13": 9780786931521,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?50852",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786931523/" }],
+      "cover": "/images/novels/the-yellow-silk/9780786931521.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-04-01",
+      "format": "ebook",
+      "isbn13": 9780786957019,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481730",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4BNA/" }]
+    }
+  ]
+}

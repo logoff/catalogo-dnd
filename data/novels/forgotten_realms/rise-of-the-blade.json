@@ -1,0 +1,25 @@
+{
+  "slug": "rise-of-the-blade",
+  "title": "Rise of the Blade",
+  "authors": ["Charles Alexander Moffat"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-harpers",
+    "number": 11
+  },
+  "date": "1998",
+  "description": "Novela escrita para la serie de los Arpistas y prevista para 1998, que nunca llegó a la imprenta: la serie se canceló cuando Wizards of the Coast compró TSR.\n\nSu autor la publicó gratis en su web tal como quedó tras la primera corrección, por lo que no tiene edición impresa.",
+  "source": "http://www.candlekeep.com/bookshelf/novels/rotb.htm",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Charles Alexander Moffat",
+      "date": "1998",
+      "format": "web",
+      "url": "https://www.lilithgallery.com/novels/forgottenrealms_riseoftheblade.html",
+      "source": "http://www.candlekeep.com/bookshelf/novels/rotb.htm"
+    }
+  ]
+}

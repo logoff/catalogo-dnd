@@ -1,0 +1,116 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "/schemas/novel-series",
+    "title": "NovelSeries",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+            "id",
+            "title",
+            "setting"
+        ],
+        "properties": {
+            "id": {
+                "$ref": "/schemas/novel#/$defs/slug"
+            },
+            "title": {
+                "type": "string",
+                "minLength": 1
+            },
+            "title_es": {
+                "type": "string",
+                "minLength": 1
+            },
+            "setting": {
+                "$ref": "/schemas/novel#/$defs/setting"
+            },
+            "collections": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/$defs/collection"
+                }
+            }
+        }
+    },
+    "$defs": {
+        "collection": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "language",
+                "title",
+                "publisher",
+                "novels"
+            ],
+            "properties": {
+                "language": {
+                    "enum": [
+                        "english",
+                        "castellano"
+                    ]
+                },
+                "country": {
+                    "enum": [
+                        "us",
+                        "uk",
+                        "ca",
+                        "au"
+                    ]
+                },
+                "spain": {
+                    "type": "boolean"
+                },
+                "title": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "publisher": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "date": {
+                    "$ref": "/schemas/novel#/$defs/partialDate"
+                },
+                "format": {
+                    "enum": [
+                        "hardcover",
+                        "paperback",
+                        "mass_market",
+                        "ebook"
+                    ]
+                },
+                "isbn13": {
+                    "$ref": "/schemas/novel#/$defs/isbn13"
+                },
+                "cover": {
+                    "$ref": "/schemas/novel#/$defs/cover"
+                },
+                "source": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "novels": {
+                    "type": "array",
+                    "minItems": 2,
+                    "uniqueItems": true,
+                    "items": {
+                        "$ref": "/schemas/novel#/$defs/slug"
+                    }
+                },
+                "purchase_links": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "/schemas/novel#/$defs/purchaseLink"
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "/schemas/novel#/$defs/languageFlags"
+                }
+            ]
+        }
+    }
+}

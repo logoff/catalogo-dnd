@@ -1,0 +1,55 @@
+{
+  "slug": "the-obsidian-oracle",
+  "title": "The Obsidian Oracle",
+  "authors": ["Troy Denning"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-prism-pentad", "number": 4 },
+  "date": "1993-06",
+  "description": "Para cumplir su sueño de convertirse en rey hechicero, Tithian, el nuevo señor de Tyr, se adentra en el desierto en busca de un antiguo oráculo.\n\nNovela del Pentad del Prisma, de Troy Denning.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18896",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-06",
+      "format": "mass_market",
+      "isbn13": 9781560766032,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8961",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766034/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-04",
+      "format": "paperback",
+      "isbn13": 9780786950607,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?274019",
+      "cover": "/images/novels/the-obsidian-oracle/9780786950607.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-27",
+      "format": "ebook",
+      "isbn13": 9780786961184,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474998",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005DXOQ1I/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El oráculo de obsidiana",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788448038007,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1048",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038002/" }],
+      "cover": "/images/novels/the-obsidian-oracle/9788448038007.webp"
+    }
+  ]
+}

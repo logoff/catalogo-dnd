@@ -1,0 +1,34 @@
+{
+  "slug": "all-shadows-fled",
+  "title": "All Shadows Fled",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-shadow-of-the-avatar", "number": 3 },
+  "date": "1995-10",
+  "description": "Los Señores de las Sombras huyen, pero no renuncian a sus sueños de conquista, y Elminster, Khelben y Alustriel deben acabar con ellos para siempre.\n\nCierra la trilogía de la Sombra de los Avatares.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17975",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-10",
+      "format": "mass_market",
+      "isbn13": 9780786903023,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14272",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786903023/" }],
+      "cover": "/images/novels/all-shadows-fled/9780786903023.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-08",
+      "format": "ebook",
+      "isbn13": 9780786961665,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476314",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R81ZYA/" }]
+    }
+  ]
+}

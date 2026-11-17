@@ -1,0 +1,44 @@
+{
+  "slug": "dungeons-and-dragons-honor-among-thieves",
+  "title": "Dungeons & Dragons: Honor Among Thieves",
+  "authors": ["David Lewman"],
+  "setting": "forgotten_realms",
+  "kind": "middle_grade",
+  "series": { "id": "fr-honor-among-thieves", "number": 1 },
+  "date": "2023-02",
+  "description": "Adaptación juvenil de la película Dungeons & Dragons: Honor entre ladrones (2023), con ilustraciones a color de la película.\n\nNovelización para lectores jóvenes.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3146985",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House",
+      "date": "2023-02-28",
+      "format": "hardcover",
+      "isbn13": 9780593647974,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?936298",
+      "cover": "/images/novels/dungeons-and-dragons-honor-among-thieves/9780593647974.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House",
+      "date": "2023-02-28",
+      "format": "paperback",
+      "isbn13": 9780593647950,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?936297",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0593647955/" }],
+      "cover": "/images/novels/dungeons-and-dragons-honor-among-thieves/9780593647950.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House",
+      "date": "2023-02-28",
+      "format": "ebook",
+      "isbn13": 9780593647967,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?936301",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0BHKTKL4P/" }]
+    }
+  ]
+}

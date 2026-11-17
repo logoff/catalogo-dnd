@@ -1,0 +1,126 @@
+{
+  "slug": "dragons-of-deceit",
+  "title": "Dragons of Deceit",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-destinies",
+    "number": 1
+  },
+  "date": "2022-08",
+  "description": "Destina Rosethorn, hija de un caballero de Solamnia, pierde a su padre en la Guerra de la Lanza y, con él, todo su futuro. Decidida a cambiar el pasado, busca el Ingenio para Viajar en el Tiempo, y para usarlo necesita a quien lo tuvo por última vez: el kender Tasslehoff Burrfoot.\n\nEs la primera novela de la trilogía Destinos, con la que Weis y Hickman volvieron a Dragonlance en 2022, ya con Random House. Recupera a los Compañeros de las Crónicas y juega con los viajes en el tiempo de las Leyendas, así que se disfruta más conociendo esas dos trilogías.",
+  "source": "https://www.penguinrandomhouse.com/books/isbn/9781984819321",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2022-08-02",
+      "format": "hardcover",
+      "isbn13": 9781984819321,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?908077",
+      "cover": "/images/novels/dragons-of-deceit/9781984819321.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2022-08-02",
+      "format": "ebook",
+      "isbn13": 9781984819338,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?953339",
+      "cover": "/images/novels/dragons-of-deceit/9781984819338.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Del Rey (UK)",
+      "date": "2022-08-02",
+      "format": "hardcover",
+      "isbn13": 9781529150414,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?953509",
+      "cover": "/images/novels/dragons-of-deceit/9781529150414.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Cornerstone Digital",
+      "date": "2022-08-02",
+      "format": "ebook",
+      "isbn13": 9781473599413,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?953513",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09KX8WJ55/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-deceit/9781473599413.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2023-05-09",
+      "format": "paperback",
+      "isbn13": 9781984819390,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?942437",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984819399/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-deceit/9781984819390.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Del Rey (UK)",
+      "date": "2023-05-11",
+      "format": "hardcover",
+      "isbn13": 9781529150438,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?953512",
+      "cover": "/images/novels/dragons-of-deceit/9781529150438.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Hija del Destino",
+      "publisher": "Minotauro",
+      "date": "2023-04-12",
+      "format": "hardcover",
+      "isbn13": 9788445014653,
+      "source": "https://www.planetadelibros.com/libro-destinos-n-0103-hija-del-destino/363783",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/844501465X/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-destinos-n-01-03-hija-del-destino/9788445014653/13525935"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-deceit/9788445014653.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Hija del Destino",
+      "publisher": "Minotauro",
+      "date": "2023-04-12",
+      "format": "ebook",
+      "isbn13": 9788445015629,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/77334",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BXY3RJ5T/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-deceit/9788445015629.webp"
+    }
+  ]
+}

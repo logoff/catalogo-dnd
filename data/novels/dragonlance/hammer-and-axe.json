@@ -1,0 +1,56 @@
+{
+  "slug": "hammer-and-axe",
+  "title": "Hammer and Axe",
+  "authors": ["Dan Parkinson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-dwarven-nations", "number": 2 },
+  "date": "1993-07",
+  "description": "Tras noventa años de trabajo, Thorbardin está casi terminada. Pero la amenaza de los humanos de Ergoth y las guerras entre humanos y elfos arrastran a los clanes enanos a conflictos que no buscaban.\n\nEs la segunda novela de The Dwarven Nations. En castellano se tituló El reino de los thanes.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15817",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-07",
+      "format": "mass_market",
+      "isbn13": 9781560766278,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11189",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766271/" }],
+      "cover": "/images/novels/hammer-and-axe/9781560766278.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-24",
+      "format": "ebook",
+      "isbn13": 9780786963539,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466519",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFJ3C/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El reino de los thanes",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030346,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/259",
+      "cover": "/images/novels/hammer-and-axe/9788448030346.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El reino de los Thanes",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722401,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24325",
+      "cover": "/images/novels/hammer-and-axe/9788448722401.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "summerhill-hounds",
+  "title": "Summerhill Hounds",
+  "authors": ["J Robert King"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-first-quest", "number": 6 },
+  "date": "1995-11",
+  "description": "Una aventura de la serie First Quest, pensada como puerta de entrada a Dungeons & Dragons.\n\nNovela de J. Robert King.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17112",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-11",
+      "format": "mass_market",
+      "isbn13": 9780786901968,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?13834",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901969/" }],
+      "cover": "/images/novels/summerhill-hounds/9780786901968.webp"
+    }
+  ]
+}

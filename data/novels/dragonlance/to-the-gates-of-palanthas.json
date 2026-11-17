@@ -1,0 +1,24 @@
+{
+  "slug": "to-the-gates-of-palanthas",
+  "title": "To the Gates of Palanthas",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-young-adult-chronicles", "number": 4 },
+  "date": "2003-10",
+  "description": "Adaptación para lectores jóvenes de la segunda mitad de La tumba de Huma.\n\nEs el cuarto de los seis volúmenes que adaptan las Crónicas de la Dragonlance para lectores jóvenes. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24752",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "paperback",
+      "isbn13": 9780786930968,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?48685",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786930969/" }],
+      "cover": "/images/novels/to-the-gates-of-palanthas/9780786930968.webp"
+    }
+  ]
+}

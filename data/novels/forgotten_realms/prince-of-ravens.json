@@ -1,0 +1,23 @@
+{
+  "slug": "prince-of-ravens",
+  "title": "Prince of Ravens",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2012-07",
+  "description": "Novela de Richard Baker publicada solo en formato digital.\n\nNo tiene edición en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2977959",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-03",
+      "format": "ebook",
+      "isbn13": 9780786961313,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?877797",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN5SO/" }],
+      "cover": "/images/novels/prince-of-ravens/9780786961313.webp"
+    }
+  ]
+}

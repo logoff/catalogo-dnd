@@ -1,0 +1,34 @@
+{
+  "slug": "the-price-of-power",
+  "title": "The Price of Power",
+  "authors": ["Rose Estes"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-adventures", "number": 2 },
+  "date": "1987-08",
+  "description": "Mika busca el Cetro Dorado de los Dioses Antiguos, que le dará el poder para cumplir la misión de su vida, sin saber el precio que conlleva.\n\nNovela de la serie Greyhawk Adventures, de Rose Estes.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13109",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1987-08",
+      "format": "mass_market",
+      "isbn13": 9780880384582,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?16040",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880384581/" }],
+      "cover": "/images/novels/the-price-of-power/9780880384582.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1988-11",
+      "format": "mass_market",
+      "isbn13": 9780140111408,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?15904",
+      "cover": "/images/novels/the-price-of-power/9780140111408.webp"
+    }
+  ]
+}

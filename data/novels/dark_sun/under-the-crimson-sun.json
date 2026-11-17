@@ -1,0 +1,32 @@
+{
+  "slug": "under-the-crimson-sun",
+  "title": "Under the Crimson Sun",
+  "authors": ["Keith R. A. DeCandido"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "date": "2011-06",
+  "description": "Tharizdun, el Dios Encadenado, ha liberado el Voidharrow, un líquido que convierte a quienes lo tocan en criaturas demoníacas. La plaga abisal llega a Athas.\n\nNovela de Dark Sun de la serie The Abyssal Plague, de Keith R. A. DeCandido.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1272878",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-06-07",
+      "isbn13": 9780786957972,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?350191",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786957972/" }],
+      "cover": "/images/novels/under-the-crimson-sun/9780786957972.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-06-07",
+      "format": "ebook",
+      "isbn13": 9780786959181,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?473544",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004LGTSCA/" }]
+    }
+  ]
+}

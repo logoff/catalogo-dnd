@@ -1,0 +1,65 @@
+{
+  "slug": "viperhand",
+  "title": "Viperhand",
+  "authors": ["Douglas Niles"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-maztica", "number": 2 },
+  "date": "1990-08",
+  "description": "Los seguidores del dios Helm continúan su invasión del imperio de Maztica y golpean el corazón de su capital, pero sus enemigos empiezan a usar contra ellos su propia magia.\n\nSegunda novela de la trilogía de Maztica.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12950",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-08",
+      "format": "mass_market",
+      "isbn13": 9780880389075,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?275058",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389079/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-03",
+      "format": "mass_market",
+      "isbn13": 9780140143737,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14365"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-04",
+      "format": "ebook",
+      "isbn13": 9780786963898,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467749",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008EDNPEI/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Erixitl de Palul",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788448037024,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/240",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037022/" }],
+      "cover": "/images/novels/viperhand/9788448037024.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Erixitl de Palul",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725563,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36936",
+      "cover": "/images/novels/viperhand/9788448725563.webp"
+    }
+  ]
+}

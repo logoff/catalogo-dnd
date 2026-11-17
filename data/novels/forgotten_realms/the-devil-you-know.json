@@ -1,0 +1,41 @@
+{
+  "slug": "the-devil-you-know",
+  "title": "The Devil You Know",
+  "authors": ["Erin M. Evans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-brimstone-angels", "number": 5 },
+  "date": "2016-10",
+  "description": "Farideh, elegida del dios rey de los Infiernos, se enfrenta a una batalla entre el bien y el mal que sacudirá los Nueve Infiernos.\n\nCierra la serie Brimstone Angels, de Erin M. Evans.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2054058",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2016-10-04",
+      "format": "hardcover",
+      "isbn13": 9780786965946,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?585117",
+      "cover": "/images/novels/the-devil-you-know/9780786965946.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2017-09-05",
+      "format": "mass_market",
+      "isbn13": 9780786966172,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?629992",
+      "cover": "/images/novels/the-devil-you-know/9780786966172.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B01EE08NQE/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B01EE08NQE/" }]
+    }
+  ]
+}

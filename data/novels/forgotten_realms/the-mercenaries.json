@@ -1,0 +1,24 @@
+{
+  "slug": "the-mercenaries",
+  "title": "The Mercenaries",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-double-diamond-triangle", "number": 2 },
+  "date": "1998-01",
+  "description": "Entrega de la saga del Triángulo del Doble Diamante, de Ed Greenwood.\n\nUna serie de nueve novelas breves que TSR publicó mes a mes en 1998.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?83843",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-01",
+      "format": "mass_market",
+      "isbn13": 9780786908660,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14353",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786908661/" }],
+      "cover": "/images/novels/the-mercenaries/9780786908660.webp"
+    }
+  ]
+}

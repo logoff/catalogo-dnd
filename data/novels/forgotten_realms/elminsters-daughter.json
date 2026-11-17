@@ -1,0 +1,44 @@
+{
+  "slug": "elminsters-daughter",
+  "title": "Elminster's Daughter",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-elminster", "number": 5 },
+  "date": "2004-05",
+  "description": "Una nueva etapa en la vida del mago Elminster, ahora a través de una joven que resulta ser su hija.\n\nNovela de la serie de Elminster, de Ed Greenwood.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?28392",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-05",
+      "format": "hardcover",
+      "isbn13": 9780786931996,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?12102",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078693199X/" }],
+      "cover": "/images/novels/elminsters-daughter/9780786931996.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-06",
+      "format": "mass_market",
+      "isbn13": 9780786937684,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69785",
+      "cover": "/images/novels/elminsters-daughter/9780786937684.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-01",
+      "format": "ebook",
+      "isbn13": 9780786961597,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476230",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PRDH9E/" }]
+    }
+  ]
+}

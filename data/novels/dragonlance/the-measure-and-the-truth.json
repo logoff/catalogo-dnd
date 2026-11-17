@@ -1,0 +1,45 @@
+{
+  "slug": "the-measure-and-the-truth",
+  "title": "The Measure and the Truth",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-rise-of-solamnia", "number": 3 },
+  "date": "2007-01",
+  "description": "Un nuevo imperio solámnico resurge de las cenizas de la guerra bajo el mando de un único hombre, caballero, guerrero y dictador, mientras un viejo enemigo vuelve más poderoso que nunca.\n\nEs la novela que cierra El despertar de Solamnia. En castellano se publicó como La medida y la verdad.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?219821",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-01",
+      "format": "mass_market",
+      "isbn13": 9780786942473,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?95801",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942479/" }],
+      "cover": "/images/novels/the-measure-and-the-truth/9780786942473.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-06",
+      "format": "ebook",
+      "isbn13": 9780786962723,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038461",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1GLI/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La medida y la verdad",
+      "publisher": "Timun Mas",
+      "date": "2009",
+      "format": "hardcover",
+      "isbn13": 9788448044084,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24598",
+      "cover": "/images/novels/the-measure-and-the-truth/9788448044084.webp"
+    }
+  ]
+}

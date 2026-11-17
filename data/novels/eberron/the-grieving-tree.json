@@ -1,0 +1,32 @@
+{
+  "slug": "the-grieving-tree",
+  "title": "The Grieving Tree",
+  "authors": ["Don Bassingthwaite"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-dragon-below", "number": 2 },
+  "date": "2006-03",
+  "description": "Una guerrera renegada, un místico exiliado y un soldado mago huyen de enemigos que quieren controlarlos, robarles o matarlos, y su única esperanza puede ser un antiguo artefacto maligno: el Árbol Doliente.\n\nSegunda novela de la trilogía The Dragon Below.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?905465",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-03",
+      "format": "mass_market",
+      "isbn13": 9780786939855,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?81930",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786939850/" }],
+      "cover": "/images/novels/the-grieving-tree/9780786939855.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0036S4EEG/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EEG/" }]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "dungeons-and-dragons-a-goblin-problem",
+  "title": "Dungeons & Dragons: A Goblin Problem",
+  "authors": ["Diane Walker"],
+  "setting": "forgotten_realms",
+  "kind": "middle_grade",
+  "date": "2022-05",
+  "description": "Disfrazada de minotauro, Zelli Stormclash intenta pasar desapercibida en la Academia de las Mazmorras, hasta que unos abusones se cruzan en su camino.\n\nLibro ilustrado para primeros lectores con los personajes de Dungeon Academy.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3011299",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "HarperCollins",
+      "date": "2022-05-17",
+      "format": "paperback",
+      "isbn13": 9780063039186,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?890977",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0063039184/" }],
+      "cover": "/images/novels/dungeons-and-dragons-a-goblin-problem/9780063039186.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "HarperCollins",
+      "date": "2022-05-17",
+      "format": "ebook",
+      "isbn13": 9780063039193,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?890978",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B093ZYH1Y6/" }]
+    }
+  ]
+}

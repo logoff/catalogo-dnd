@@ -1,0 +1,24 @@
+{
+  "slug": "dragonlord-of-mystara",
+  "title": "Dragonlord of Mystara",
+  "authors": ["Thorarinn Gunnarsson"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-dragonlord", "number": 1 },
+  "date": "1994-07",
+  "description": "Mientras los dragones arrasan las tierras que serán Glantri, un joven poco prometedor, una espadachina, su compañero enano y un narrador y profeta salen a defender su mundo.\n\nPrimera novela de las crónicas del Señor de los Dragones, de Thorarinn Gunnarsson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17916",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-07",
+      "format": "mass_market",
+      "isbn13": 9781560769064,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11219",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560769068/" }],
+      "cover": "/images/novels/dragonlord-of-mystara/9781560769064.webp"
+    }
+  ]
+}

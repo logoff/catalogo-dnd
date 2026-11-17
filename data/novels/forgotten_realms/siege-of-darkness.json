@@ -1,0 +1,157 @@
+{
+  "slug": "siege-of-darkness",
+  "title": "Siege of Darkness",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-legacy-of-the-drow",
+    "number": 3
+  },
+  "date": "1994-08",
+  "description": "La Época de Tumultos trastoca la magia en Faerûn, y en Menzoberranzan la matrona Baenre aprovecha la confusión para preparar un ataque contra Mithril Hall. Bruenor organiza la defensa del reino enano mientras Drizzt intenta adelantarse a la guerra que se avecina.\n\nTercera novela de El legado del drow.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12394",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-08",
+      "format": "hardcover",
+      "isbn13": 9781560768883,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14323",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1560768886/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-08",
+      "format": "paperback",
+      "isbn13": 9780786901647,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14322",
+      "cover": "/images/novels/siege-of-darkness/9780786901647.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-11",
+      "format": "hardcover",
+      "isbn13": 9780786940219,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?356953",
+      "cover": "/images/novels/siege-of-darkness/9780786940219.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-06-03",
+      "format": "mass_market",
+      "isbn13": 9780786948697,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250213",
+      "cover": "/images/novels/siege-of-darkness/9780786948697.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954094,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486735",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B001ANUP7O/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-01-07",
+      "format": "paperback",
+      "isbn13": 9780593873144,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1036593",
+      "cover": "/images/novels/siege-of-darkness/9780593873144.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cerco de oscuridad",
+      "publisher": "Timun Mas",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9788448037154,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/247",
+      "cover": "/images/novels/siege-of-darkness/9788448037154.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cerco de oscuridad",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724450,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38268",
+      "cover": "/images/novels/siege-of-darkness/9788448724450.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cerco de oscuridad",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005771,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37454",
+      "cover": "/images/novels/siege-of-darkness/9788448005771.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cerco de oscuridad",
+      "publisher": "Timun Mas",
+      "date": "2013",
+      "format": "ebook",
+      "isbn13": 9788448008376,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39239",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00B03MI06/"
+        }
+      ],
+      "cover": "/images/novels/siege-of-darkness/9788448008376.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cerco de oscuridad",
+      "publisher": "Minotauro",
+      "date": "2023-02-08",
+      "format": "paperback",
+      "isbn13": 9788445011195,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/74330",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011197/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-legado-del-drow-cerco-de-oscuridad/9788445011195/13430009"
+        }
+      ],
+      "cover": "/images/novels/siege-of-darkness/9788445011195.webp"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "king-of-the-dead",
+  "title": "King of the Dead",
+  "authors": ["Gene DeWeese"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1996-03",
+  "description": "La historia de Firan Zal'honan, el mago que se convirtió en Azalin, el liche Rey de los Muertos, incapaz de ser libre o de devolver la vida a su hijo.\n\nNovela de Ravenloft de Gene DeWeese.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18856",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-03",
+      "format": "mass_market",
+      "isbn13": 9780786904839,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27423",
+      "cover": "/images/novels/king-of-the-dead/9780786904839.webp"
+    }
+  ]
+}

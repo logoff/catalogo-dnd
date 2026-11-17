@@ -1,0 +1,35 @@
+{
+  "slug": "heart-of-midnight",
+  "title": "Heart of Midnight",
+  "authors": ["J. Robert King"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1992-12",
+  "description": "Casimir abraza sus poderes malignos para librarse de la maldición de licantropía de su monstruoso padre y evitar su propia muerte.\n\nNovela de Ravenloft de J. Robert King.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17109",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-12",
+      "format": "mass_market",
+      "isbn13": 9781560763550,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27420",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560763558/" }],
+      "cover": "/images/novels/heart-of-midnight/9781560763550.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Corazón de medianoche",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9788448041533,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3414",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448041534/" }],
+      "cover": "/images/novels/heart-of-midnight/9788448041533.webp"
+    }
+  ]
+}

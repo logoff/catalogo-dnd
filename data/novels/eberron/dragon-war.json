@@ -1,0 +1,44 @@
+{
+  "slug": "dragon-war",
+  "title": "Dragon War",
+  "authors": ["James Wyatt"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-draconic-prophecies", "number": 3 },
+  "date": "2009-08",
+  "description": "La Profecía Dracónica llega a su desenlace.\n\nCierra la trilogía The Draconic Prophecies, de James Wyatt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1075818",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-08-04",
+      "format": "hardcover",
+      "isbn13": 9780786951222,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?348465",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786951222/" }],
+      "cover": "/images/novels/dragon-war/9780786951222.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-12-22",
+      "format": "ebook",
+      "isbn13": 9780786955817,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483789",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0031M7T26/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-02",
+      "format": "mass_market",
+      "isbn13": 9780786954827,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?307105",
+      "cover": "/images/novels/dragon-war/9780786954827.webp"
+    }
+  ]
+}

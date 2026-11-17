@@ -1,0 +1,56 @@
+{
+  "slug": "the-golden-orb",
+  "title": "The Golden Orb",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-icewall", "number": 2 },
+  "date": "2002-02",
+  "description": "En una fortaleza al borde del glaciar, el elfo Kerrick vive entre los humanos y les enseña lo que sabe. Pero los ogros, siempre cerca, han creado un arma terrible: una magia destructiva encerrada en una esfera dorada.\n\nEs la segunda novela de The Icewall. Se publicó en castellano como La esfera dorada.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?23049",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-02",
+      "format": "mass_market",
+      "isbn13": 9780786926923,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?40839",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786926929/" }],
+      "cover": "/images/novels/the-golden-orb/9780786926923.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-13",
+      "format": "ebook",
+      "isbn13": 9780786962761,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038402",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076PGLBO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La esfera dorada",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "mass_market",
+      "isbn13": 9788448032838,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11188",
+      "cover": "/images/novels/the-golden-orb/9788448032838.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La esfera dorada",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723507,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24441",
+      "cover": "/images/novels/the-golden-orb/9788448723507.webp"
+    }
+  ]
+}

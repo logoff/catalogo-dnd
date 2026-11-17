@@ -1,0 +1,123 @@
+{
+  "slug": "rise-of-the-king",
+  "title": "Rise of the King",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-companions-codex",
+    "number": 2
+  },
+  "date": "2014-09",
+  "description": "Los drows y los orcos de Muchasflechas atacan a los reinos enanos de las Marcas Argénteas, y Bruenor vuelve a ponerse al frente de los suyos. Drizzt y los Compañeros se ven arrastrados a una guerra que se extiende por todo el norte.\n\nSegunda novela de El códice de los Compañeros.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1760624",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-09-30",
+      "format": "hardcover",
+      "isbn13": 9780786965151,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464878",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786965150/"
+        }
+      ],
+      "cover": "/images/novels/rise-of-the-king/9780786965151.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-09-30",
+      "format": "ebook",
+      "isbn13": 9780786965519,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465110",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00IBYYVOS/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-02-03",
+      "format": "mass_market",
+      "isbn13": 9780786965687,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?496166",
+      "cover": "/images/novels/rise-of-the-king/9780786965687.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La llegada del rey",
+      "publisher": "Timun Mas",
+      "date": "2017-04-11",
+      "format": "paperback",
+      "isbn13": 9788445004470,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/59372",
+      "cover": "/images/novels/rise-of-the-king/9788445004470.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-llegada-del-rey-el-codice-de-los-companeros-libro-2/9788445004470/5185709"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La llegada del rey",
+      "publisher": "Timun Mas",
+      "date": "2017-04-11",
+      "format": "ebook",
+      "isbn13": 9788445004524,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/59373",
+      "cover": "/images/novels/rise-of-the-king/9788445004524.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La llegada del rey",
+      "publisher": "Minotauro",
+      "date": "2026-02-11",
+      "format": "ebook",
+      "isbn13": 9788445022245,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83984",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0G8FL56S8/"
+        }
+      ],
+      "cover": "/images/novels/rise-of-the-king/9788445022245.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La llegada del rey",
+      "publisher": "Minotauro",
+      "date": "2026-02-11",
+      "format": "paperback",
+      "isbn13": 9788445010938,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/79655",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/844501093X/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-codice-de-los-companeros-n-02-03-la-llegada-del-rey/9788445010938/17782271"
+        }
+      ],
+      "cover": "/images/novels/rise-of-the-king/9788445010938.webp"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "warriors-tale",
+  "title": "Warrior's Tale",
+  "authors": ["Michael Andrews"],
+  "setting": "mystara",
+  "kind": "middle_grade",
+  "series": { "id": "mystara-dragonstrike", "number": 3 },
+  "date": "1993",
+  "description": "Relato vinculado a Dragon Strike, el juego introductorio de TSR, contado desde el punto de vista del guerrero del grupo.\n\nNovela breve de Michael Andrews (1993), número 3 de la serie de cuatro cuadernillos ilustrados de 31 páginas.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993",
+      "isbn13": 9781560769194,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9781560769194&type=ISBN",
+      "cover": "/images/novels/warriors-tale/9781560769194.webp"
+    }
+  ]
+}

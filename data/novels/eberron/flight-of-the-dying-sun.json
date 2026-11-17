@@ -1,0 +1,31 @@
+{
+  "slug": "flight-of-the-dying-sun",
+  "title": "Flight of the Dying Sun",
+  "authors": ["Rich Wulf"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-heirs-of-ash", "number": 2 },
+  "date": "2007-02",
+  "description": "Los herederos de Ashrem encuentran pistas del Legado, desaparecido el Día del Luto, y emprenden una peligrosa búsqueda.\n\nSegunda novela de la trilogía Heirs of Ash.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1146151",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-02",
+      "format": "mass_market",
+      "isbn13": 9780786943166,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?96671",
+      "cover": "/images/novels/flight-of-the-dying-sun/9780786943166.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00BE24VX0/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24VX0/" }]
+    }
+  ]
+}

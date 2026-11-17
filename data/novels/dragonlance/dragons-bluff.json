@@ -1,0 +1,33 @@
+{
+  "slug": "dragons-bluff",
+  "title": "Dragon's Bluff",
+  "authors": ["Mary H. Herbert"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-crossroads", "number": 3 },
+  "date": "2001-07",
+  "description": "El joven mago Ulin Majere y su compañero de viaje llegan a la ciudad portuaria de Flotsam para identificar a la víctima de un asesinato y acaban atrapados en una conspiración en la que intervienen ladrones, Caballeros de Neraka y un dragón rojo que aterroriza la ciudad.\n\nEs una novela independiente de la serie Crossroads, situada en la Quinta Era. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24888",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-07",
+      "format": "mass_market",
+      "isbn13": 9780786918775,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11069",
+      "cover": "/images/novels/dragons-bluff/9780786918775.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-05-21",
+      "format": "ebook",
+      "isbn13": 9780786964895,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457828",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24VPI/" }]
+    }
+  ]
+}

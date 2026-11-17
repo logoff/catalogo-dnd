@@ -1,0 +1,23 @@
+{
+  "slug": "suitors-duel",
+  "title": "Suitors Duel",
+  "authors": ["Douglas Niles"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-first-quest", "number": 5 },
+  "date": "1995-08",
+  "description": "Una aventura de la serie First Quest, pensada como puerta de entrada a Dungeons & Dragons.\n\nNovela de Douglas Niles.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12958",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-08",
+      "format": "mass_market",
+      "isbn13": 9781560769224,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?13833",
+      "cover": "/images/novels/suitors-duel/9781560769224.webp"
+    }
+  ]
+}

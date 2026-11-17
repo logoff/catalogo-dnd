@@ -1,0 +1,35 @@
+{
+  "slug": "city-of-the-lost",
+  "title": "City of the Lost",
+  "authors": ["Mary H. Herbert"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-linsha", "number": 1 },
+  "date": "2003-08",
+  "description": "La dama de la Rosa Linsha Majere guarda un secreto que le ha confiado un poderoso dragón señor. Cuando una tormenta mágica rompe el equilibrio de poder en Ansalon, tendrá que arriesgarlo todo para salvar la ciudad.\n\nEs la primera novela de la trilogía The Linsha, nieta de Caramon Majere, que continúa El círculo clandestino. En castellano se publicó como La ciudad de lo perdido.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24035",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-08",
+      "format": "mass_market",
+      "isbn13": 9780786929863,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7233",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786929863/" }],
+      "cover": "/images/novels/city-of-the-lost/9780786929863.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La ciudad de lo perdido",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788448034993,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23774",
+      "cover": "/images/novels/city-of-the-lost/9788448034993.webp"
+    }
+  ]
+}

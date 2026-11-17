@@ -1,0 +1,56 @@
+{
+  "slug": "winterheim",
+  "title": "Winterheim",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-icewall", "number": 3 },
+  "date": "2003-01",
+  "description": "El rey de los montañeses está prisionero en Winterheim, la plaza fuerte de los ogros, y un grupo de los suyos se dispone a rescatarlo, mientras dentro el rey ogro se enfrenta a traiciones y revueltas.\n\nEs la novela que cierra The Icewall. En castellano se publicó como Winterheim.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24140",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-01",
+      "format": "mass_market",
+      "isbn13": 9780786929115,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?54923",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786929111/" }],
+      "cover": "/images/novels/winterheim/9780786929115.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-13",
+      "format": "ebook",
+      "isbn13": 9780786962785,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038404",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1JJ2/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Winterheim",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "mass_market",
+      "isbn13": 9788448032845,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11187",
+      "cover": "/images/novels/winterheim/9788448032845.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Winterheim",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723521,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24348",
+      "cover": "/images/novels/winterheim/9788448723521.webp"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "timeless",
+  "title": "Timeless",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-generations",
+    "number": 1
+  },
+  "date": "2018-09",
+  "description": "En el pasado, en Menzoberranzan, el joven maestro de armas Zaknafein forja su amistad con Jarlaxle. En el presente, Zaknafein vuelve a la vida y descubre un mundo nuevo junto a su hijo Drizzt.\n\nPrimera novela de la trilogía Generaciones, la primera de Salvatore con Harper Voyager.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2406124",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2018-09-04",
+      "format": "hardcover",
+      "isbn13": 9780062688590,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?675698",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0062688596/"
+        }
+      ],
+      "cover": "/images/novels/timeless/9780062688590.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2018-09-04",
+      "format": "ebook",
+      "isbn13": 9780062688583,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?685844",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0756F453K/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2019-06",
+      "format": "mass_market",
+      "isbn13": 9780062688606,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?707530",
+      "cover": "/images/novels/timeless/9780062688606.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2024-12-03",
+      "format": "paperback",
+      "isbn13": 9780063391055,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1032103",
+      "cover": "/images/novels/timeless/9780063391055.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Intemporal",
+      "publisher": "Minotauro",
+      "date": "2025-05-21",
+      "format": "paperback",
+      "isbn13": 9788445014691,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/76886",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014692/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-generaciones-n-01-03-intemporal/9788445014691/16685016"
+        }
+      ],
+      "cover": "/images/novels/timeless/9788445014691.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Intemporal",
+      "publisher": "Minotauro",
+      "date": "2025-05-21",
+      "format": "ebook",
+      "isbn13": 9788445020579,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78803",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DXHPSCG9/"
+        }
+      ],
+      "cover": "/images/novels/timeless/9788445020579.webp"
+    }
+  ]
+}

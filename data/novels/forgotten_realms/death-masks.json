@@ -1,0 +1,43 @@
+{
+  "slug": "death-masks",
+  "title": "Death Masks",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2016-06",
+  "description": "Cuatro señores enmascarados de Aguas Profundas han sido asesinados, y Elminster se ve envuelto en un misterio criminal en la Ciudad del Esplendor.\n\nNovela de Ed Greenwood que combina aventura e investigación.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2004306",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2016-06-07",
+      "format": "hardcover",
+      "isbn13": 9780786965939,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?570275",
+      "cover": "/images/novels/death-masks/9780786965939.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2016-06-07",
+      "format": "ebook",
+      "isbn13": 9780786966066,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?578578",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B01BRFKMJ0/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2017-05-02",
+      "format": "mass_market",
+      "isbn13": 9780786966165,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?624331",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786966165/" }],
+      "cover": "/images/novels/death-masks/9780786966165.webp"
+    }
+  ]
+}

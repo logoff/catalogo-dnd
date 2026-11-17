@@ -1,0 +1,56 @@
+{
+  "slug": "draconian-measures",
+  "title": "Draconian Measures",
+  "authors": ["Don Perrin", "Margaret Weis"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-kangs-regiment", "number": 2 },
+  "date": "2000-11",
+  "description": "El regimiento de ingenieros draconianos de Enanos y draconianos busca un refugio seguro para su preciada carga de jóvenes draconianas. Pero algunos de los hombres del comandante Kang desaparecen sin explicación, y tendrá que recurrir a medidas drásticas.\n\nEs la segunda novela de Kang's Regiment, de Don Perrin y Margaret Weis. Se publicó en castellano como Medidas draconianas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26079",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-11",
+      "format": "mass_market",
+      "isbn13": 9780786916788,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?10864",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786916788/" }],
+      "cover": "/images/novels/draconian-measures/9780786916788.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-01-03",
+      "format": "ebook",
+      "isbn13": 9780786962020,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?463132",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6GU6/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Medidas draconianas",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "mass_market",
+      "isbn13": 9788448039493,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2162",
+      "cover": "/images/novels/draconian-measures/9788448039493.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Medidas draconianas",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722449,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24323",
+      "cover": "/images/novels/draconian-measures/9788448722449.webp"
+    }
+  ]
+}

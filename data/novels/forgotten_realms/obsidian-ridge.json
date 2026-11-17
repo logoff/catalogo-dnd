@@ -1,0 +1,33 @@
+{
+  "slug": "obsidian-ridge",
+  "title": "Obsidian Ridge",
+  "authors": ["Jess Lebow"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-citadels", "number": 2 },
+  "date": "2008-04",
+  "description": "La legendaria fortaleza de Obsidian Ridge aparece sobre el reino de Erlkazar guiada por un mago loco que exige casarse con la princesa.\n\nNovela de la serie The Citadels, de Jess Lebow.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?828960",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-04-01",
+      "format": "mass_market",
+      "isbn13": 9780786947850,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?249971",
+      "cover": "/images/novels/obsidian-ridge/9780786947850.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-08-07",
+      "format": "ebook",
+      "isbn13": 9780786963706,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467153",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007SGTV0E/" }]
+    }
+  ]
+}

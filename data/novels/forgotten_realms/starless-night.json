@@ -1,0 +1,157 @@
+{
+  "slug": "starless-night",
+  "title": "Starless Night",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-legacy-of-the-drow",
+    "number": 2
+  },
+  "date": "1993-08",
+  "description": "Convencido de que su presencia pone en peligro a sus amigos, Drizzt regresa solo a Menzoberranzan para acabar con la amenaza de los drows. Catti-brie, decidida a no dejarlo solo, lo sigue a la Antípoda Oscura con la ayuda de un aliado poco fiable: el mercenario Jarlaxle.\n\nSegunda novela de El legado del drow.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12393",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-08",
+      "format": "hardcover",
+      "isbn13": 9781560766537,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14333",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1560766530/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-08",
+      "format": "mass_market",
+      "isbn13": 9781560768807,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14332",
+      "cover": "/images/novels/starless-night/9781560768807.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-06",
+      "format": "hardcover",
+      "isbn13": 9780786940233,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83444",
+      "cover": "/images/novels/starless-night/9780786940233.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-05-06",
+      "format": "mass_market",
+      "isbn13": 9780786948611,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250071",
+      "cover": "/images/novels/starless-night/9780786948611.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954087,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486737",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0017SWRQO/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-01-07",
+      "format": "paperback",
+      "isbn13": 9780593873137,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1036594",
+      "cover": "/images/novels/starless-night/9780593873137.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Noche sin estrellas",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9788448037147,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/246",
+      "cover": "/images/novels/starless-night/9788448037147.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Noche sin estrellas",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723910,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/29635",
+      "cover": "/images/novels/starless-night/9788448723910.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Noche sin estrellas",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005764,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37451",
+      "cover": "/images/novels/starless-night/9788448005764.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Noche sin estrellas",
+      "publisher": "Timun Mas",
+      "date": "2013",
+      "format": "ebook",
+      "isbn13": 9788448008369,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39236",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00B2KBGEG/"
+        }
+      ],
+      "cover": "/images/novels/starless-night/9788448008369.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Noche sin estrellas",
+      "publisher": "Minotauro",
+      "date": "2023-01-18",
+      "format": "paperback",
+      "isbn13": 9788445011133,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/74331",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011138/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-legado-del-drow-n-02-04-noche-sin-estrellas/9788445011133/13303823"
+        }
+      ],
+      "cover": "/images/novels/starless-night/9788445011133.webp"
+    }
+  ]
+}

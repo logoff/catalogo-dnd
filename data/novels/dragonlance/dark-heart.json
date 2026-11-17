@@ -1,0 +1,78 @@
+{
+  "slug": "dark-heart",
+  "title": "Dark Heart",
+  "authors": ["Tina Daniell"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-meetings", "number": 3 },
+  "date": "1992-01",
+  "description": "La historia de Kitiara Uth Matar desde su juventud: el nacimiento de sus hermanastros gemelos, Caramon y Raistlin, el papel que tuvo en su crianza y la fascinación por la espada y el poder que la acabaría llevando por el camino de la oscuridad.\n\nEs la tercera novela de Meetings Sextet y una de las pocas centradas en Kitiara, uno de los personajes más complejos de Dragonlance. En castellano se publicó como Kitiara Uth Matar.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19029",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-01",
+      "format": "mass_market",
+      "isbn13": 9781560761167,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11183",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560761164/" }],
+      "cover": "/images/novels/dark-heart/9781560761167.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-22",
+      "format": "ebook",
+      "isbn13": 9780786963249,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465420",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG3XZO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kitiara Uth Matar",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "hardcover",
+      "isbn13": 9788477229124,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/17292",
+      "cover": "/images/novels/dark-heart/9788477229124.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kitiara Uth Matar",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "format": "mass_market",
+      "isbn13": 9788448031022,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/25",
+      "cover": "/images/novels/dark-heart/9788448031022.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kitiara Uth Matar",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722395,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24318",
+      "cover": "/images/novels/dark-heart/9788448722395.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kitiara Uth Matar",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006839,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37819",
+      "cover": "/images/novels/dark-heart/9788448006839.webp"
+    }
+  ]
+}

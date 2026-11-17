@@ -1,0 +1,34 @@
+{
+  "slug": "the-black-wing",
+  "title": "The Black Wing",
+  "authors": ["Mary Kirchoff"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-villains", "number": 2 },
+  "date": "1993-09",
+  "description": "Veintiséis años antes de enfrentarse a los Compañeros, Khisanth, una hembra de dragón negro, despierta en Xak Tsaroth de un sueño de siglos. El mundo que conocía ha cambiado tras el Cataclismo y tiene que aprender qué significa ser un dragón cuando todos temen a su especie.\n\nEs la segunda novela de Villains y cuenta el origen del dragón de El retorno de los dragones. Se publicó en castellano como El ala negra.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17089",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-09",
+      "format": "mass_market",
+      "isbn13": 9781560766506,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11202",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766506/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El ala negra",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448039202,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/324",
+      "cover": "/images/novels/the-black-wing/9788448039202.webp"
+    }
+  ]
+}

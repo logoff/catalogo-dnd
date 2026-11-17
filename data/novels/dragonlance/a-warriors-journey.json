@@ -1,0 +1,24 @@
+{
+  "slug": "a-warriors-journey",
+  "title": "A Warrior's Journey",
+  "authors": ["Paul B. Thompson", "Tonya C. Cook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-ergoth", "number": 1 },
+  "date": "2003-05",
+  "description": "Mientras dos dinastías imperiales se disputan Ansalon en una época de señores de la guerra y magos corruptos, un joven campesino se convierte en un guerrero extraordinario del que dependerá el destino de Krynn.\n\nEs la primera novela de la trilogía The Ergoth, ambientada en la historia antigua del imperio de Ergoth. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24013",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-05",
+      "format": "mass_market",
+      "isbn13": 9780786929658,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?53892",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786929650/" }],
+      "cover": "/images/novels/a-warriors-journey/9780786929658.webp"
+    }
+  ]
+}

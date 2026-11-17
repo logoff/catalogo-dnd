@@ -1,0 +1,22 @@
+{
+  "slug": "shadowborn",
+  "title": "Shadowborn",
+  "authors": ["William W. Connors", "Carrie Bebris"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1998-03",
+  "description": "Novela de Ravenloft de William W. Connors y Carrie Bebris.\n\nNo tiene edición en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1663705",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-03",
+      "format": "paperback",
+      "isbn13": 9780786907663,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29932",
+      "cover": "/images/novels/shadowborn/9780786907663.webp"
+    }
+  ]
+}

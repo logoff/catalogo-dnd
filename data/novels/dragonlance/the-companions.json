@@ -1,0 +1,78 @@
+{
+  "slug": "the-companions",
+  "title": "The Companions",
+  "authors": ["Tina Daniell"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-meetings", "number": 6 },
+  "date": "1993-01",
+  "description": "Caramon, Sturm y Tasslehoff se embarcan en un encargo de Raistlin, pero un vendaval mágico los lleva al Mar Sangriento. Mientras, Raistlin convence a Flint y Tanis para viajar a Mithas, el reino de los minotauros, en una misión que pondrá a prueba a todo el grupo.\n\nEs la novela que cierra Encuentros y reúne por fin a todos los Compañeros antes de los años de separación. Se publicó en castellano como Mithas y Karthay.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19028",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-01",
+      "format": "mass_market",
+      "isbn13": 9781560763406,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11203",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/156076340X/" }],
+      "cover": "/images/novels/the-companions/9781560763406.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-29",
+      "format": "ebook",
+      "isbn13": 9780786963287,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?969327",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C8XKZO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Mithas y Karthay",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "format": "hardcover",
+      "isbn13": 9788477229155,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/288",
+      "cover": "/images/novels/the-companions/9788477229155.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Mithas y Karthay",
+      "publisher": "Timun Mas",
+      "date": "1998-04",
+      "format": "mass_market",
+      "isbn13": 9788448031053,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/5844",
+      "cover": "/images/novels/the-companions/9788448031053.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Mithas y Karthay",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722784,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24339",
+      "cover": "/images/novels/the-companions/9788448722784.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Mithas y Karthay",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006884,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37822",
+      "cover": "/images/novels/the-companions/9788448006884.webp"
+    }
+  ]
+}

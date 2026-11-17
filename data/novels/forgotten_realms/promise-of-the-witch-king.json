@@ -1,0 +1,135 @@
+{
+  "slug": "promise-of-the-witch-king",
+  "title": "Promise of the Witch-King",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-sellswords",
+    "number": 2
+  },
+  "date": "2005-10",
+  "description": "Entreri y Jarlaxle huyen al norte, hacia las Tierras de Piedra de Sangre, al servicio de dos dragonas de cobre. Allí se ven envueltos en el legado del rey brujo Zhengyi, cuyo poder sigue vivo en una tierra arrasada.\n\nSegunda novela de Los mercenarios.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3536431",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-10-05",
+      "format": "hardcover",
+      "isbn13": 9780786938230,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?72782",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786938234/"
+        }
+      ],
+      "cover": "/images/novels/promise-of-the-witch-king/9780786938230.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-09",
+      "format": "mass_market",
+      "isbn13": 9780786940738,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?85802",
+      "cover": "/images/novels/promise-of-the-witch-king/9780786940738.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-12-02",
+      "format": "paperback",
+      "isbn13": 9798217093311,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1079255"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La promesa del rey brujo",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788448037727,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23785",
+      "cover": "/images/novels/promise-of-the-witch-king/9788448037727.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La promesa del rey brujo",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726645,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38280",
+      "cover": "/images/novels/promise-of-the-witch-king/9788448726645.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La promesa del rey brujo",
+      "publisher": "Timun Mas",
+      "date": "2010",
+      "format": "mass_market",
+      "isbn13": 9788448038557,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/31645",
+      "cover": "/images/novels/promise-of-the-witch-king/9788448038557.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La promesa del rey brujo",
+      "publisher": "Minotauro",
+      "date": "2024-06-12",
+      "format": "ebook",
+      "isbn13": 9788445016312,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78848",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0D69Y6J1X/"
+        }
+      ],
+      "cover": "/images/novels/promise-of-the-witch-king/9788445016312.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La promesa del rey brujo",
+      "publisher": "Minotauro",
+      "date": "2024-06-12",
+      "format": "paperback",
+      "isbn13": 9788445011300,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78847",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011308/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-los-mercenarios-n-02-03-la-promesa-del-rey-brujo/9788445011300/15965600"
+        }
+      ],
+      "cover": "/images/novels/promise-of-the-witch-king/9788445011300.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B000S1LBHW/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B000S1LBHW/"
+        }
+      ]
+    }
+  ]
+}

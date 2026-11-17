@@ -1,0 +1,23 @@
+{
+  "slug": "blades-of-the-tiger",
+  "title": "Blades of the Tiger",
+  "authors": ["Chris Pierson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-taladas", "number": 1 },
+  "date": "2005-04",
+  "description": "La historia sale por primera vez de Ansalon y viaja a Taladas, el continente al otro lado del mundo de Krynn, donde jefes bárbaros y hechiceros sedientos de poder se disputan unas tierras que ninguna novela había explorado.\n\nEs la primera novela de The Taladas Chronicles, de Chris Pierson, ambientada tras La guerra de los espíritus. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?158118",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-04",
+      "format": "mass_market",
+      "isbn13": 9780786935697,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68779",
+      "cover": "/images/novels/blades-of-the-tiger/9780786935697.webp"
+    }
+  ]
+}

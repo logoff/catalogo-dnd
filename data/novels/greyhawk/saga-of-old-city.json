@@ -1,0 +1,24 @@
+{
+  "slug": "saga-of-old-city",
+  "title": "Saga of Old City",
+  "authors": ["Gary Gygax"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-gord-the-rogue", "number": 1 },
+  "date": "1985-10",
+  "description": "Gord, un huérfano de los barrios bajos de la Ciudad Libre de Greyhawk, se abre camino como ladrón y aventurero.\n\nPrimera novela de Gord el Pícaro, de Gary Gygax, el cocreador de Dungeons & Dragons.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?831474",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1985-10",
+      "format": "mass_market",
+      "isbn13": 9780880382571,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250895",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880382570/" }],
+      "cover": "/images/novels/saga-of-old-city/9780880382571.webp"
+    }
+  ]
+}

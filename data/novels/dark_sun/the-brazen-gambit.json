@@ -1,0 +1,24 @@
+{
+  "slug": "the-brazen-gambit",
+  "title": "The Brazen Gambit",
+  "authors": ["Lynn Abbey"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-chronicles-of-athas", "number": 1 },
+  "date": "1994-07",
+  "description": "Desplazado por una conspiración palaciega, un templario se exilia de la corte y se une a una banda de clérigos proscritos que podría estar ligada a la Alianza Velada.\n\nPrimera novela de las Crónicas de Athas, de Lynn Abbey.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?5040",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-07",
+      "format": "mass_market",
+      "isbn13": 9781560768722,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8954",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/156076872X/" }],
+      "cover": "/images/novels/the-brazen-gambit/9781560768722.webp"
+    }
+  ]
+}

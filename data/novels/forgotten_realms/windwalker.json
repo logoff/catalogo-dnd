@@ -1,0 +1,44 @@
+{
+  "slug": "windwalker",
+  "title": "Windwalker",
+  "authors": ["Elaine Cunningham"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-starlight-and-shadows", "number": 3 },
+  "date": "2003-04",
+  "description": "Liriel Baenre, exiliada de Menzoberranzan, sigue viajando con su compañero humano, mientras un viejo enemigo continúa su venganza.\n\nCierra la serie Starlight & Shadows, de Elaine Cunningham.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24010",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-04",
+      "format": "hardcover",
+      "isbn13": 9780786929689,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?54827",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786929685/" }],
+      "cover": "/images/novels/windwalker/9780786929689.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-04",
+      "format": "mass_market",
+      "isbn13": 9780786931842,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?54828",
+      "cover": "/images/novels/windwalker/9780786931842.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-08-23",
+      "format": "ebook",
+      "isbn13": 9780786960217,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474377",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0058Z4NW8/" }]
+    }
+  ]
+}

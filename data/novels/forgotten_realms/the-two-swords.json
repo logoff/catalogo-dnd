@@ -1,0 +1,126 @@
+{
+  "slug": "the-two-swords",
+  "title": "The Two Swords",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-hunters-blades",
+    "number": 3
+  },
+  "date": "2004-10",
+  "description": "Drizzt acompaña a la elfa Innovindil en busca de su pegaso robado mientras el ejército de Obould cerca Mithril Hall. Bruenor, que ha sobrevivido, debe decidir cómo defender a su clan frente a un rey orco que no se comporta como los demás.\n\nCierra la trilogía Las espadas del cazador.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?153215",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-10",
+      "format": "hardcover",
+      "isbn13": 9780786933600,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?63999",
+      "cover": "/images/novels/the-two-swords/9780786933600.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-09",
+      "format": "mass_market",
+      "isbn13": 9780786937905,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71951",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786937904/"
+        }
+      ],
+      "cover": "/images/novels/the-two-swords/9780786937905.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954162,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486747",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002DNZGEM/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-03-17",
+      "format": "paperback",
+      "isbn13": 9798217298761,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1094008"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las dos espadas",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788448037673,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15053",
+      "cover": "/images/novels/the-two-swords/9788448037673.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las dos espadas",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726119,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40999",
+      "cover": "/images/novels/the-two-swords/9788448726119.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las dos espadas",
+      "publisher": "Minotauro",
+      "date": "2025-01-08",
+      "format": "paperback",
+      "isbn13": 9788445010976,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78831",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010972/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-las-espadas-del-cazador-n-03-03-las-dos-espadas/9788445010976/16465941"
+        }
+      ],
+      "cover": "/images/novels/the-two-swords/9788445010976.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las dos espadas",
+      "publisher": "Minotauro",
+      "date": "2025-01-08",
+      "format": "ebook",
+      "isbn13": 9788445019993,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78832",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DP14NCHC/"
+        }
+      ],
+      "cover": "/images/novels/the-two-swords/9788445019993.webp"
+    }
+  ]
+}

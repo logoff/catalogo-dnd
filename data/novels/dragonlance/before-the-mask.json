@@ -1,0 +1,35 @@
+{
+  "slug": "before-the-mask",
+  "title": "Before the Mask",
+  "authors": ["Michael Williams", "Teri Williams"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-villains", "number": 1 },
+  "date": "1993-04",
+  "description": "En una noche de tormenta, en las montañas de Khalkist, nace Verminaard. Crece sin afecto, se aleja de los suyos y entabla una relación siniestra con una voz maligna que habita en un arma terrible, el primer paso hacia el Señor de los Dragones de las Crónicas.\n\nEs la primera novela de la serie Villains, dedicada a los grandes enemigos de la Guerra de la Lanza. En castellano se publicó como Verminaard, señor de Nidus.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13959",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-04",
+      "format": "paperback",
+      "isbn13": 9781560765837,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11182",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560765836/" }],
+      "cover": "/images/novels/before-the-mask/9781560765837.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Verminaard, señor de Nidus",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448039264,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/330",
+      "cover": "/images/novels/before-the-mask/9788448039264.webp"
+    }
+  ]
+}

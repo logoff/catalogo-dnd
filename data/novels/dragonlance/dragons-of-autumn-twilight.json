@@ -1,0 +1,239 @@
+{
+  "slug": "dragons-of-autumn-twilight",
+  "title": "Dragons of Autumn Twilight",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-chronicles",
+    "number": 1
+  },
+  "date": "1984-04",
+  "description": "Tras cinco años separados, un grupo de viejos amigos se reúne en la posada El Último Hogar, en Solace: el semielfo Tanis, el enano Flint, el kender Tasslehoff, los gemelos Caramon y Raistlin y el caballero Sturm. La llegada de una sacerdotisa bárbara con una vara de cristal azul los arrastra a una huida a través de Krynn, un mundo que lleva siglos sin dioses verdaderos y donde vuelven a verse dragones al servicio de un ejército invasor.\n\nEs la primera novela de las Crónicas de la Dragonlance y el origen de todo el mundo de Dragonlance: nació a la vez que la serie de módulos de AD&D de TSR y se ha reeditado sin parar desde 1984. Es el punto de partida recomendado para leer Dragonlance y una de las novelas de fantasía basadas en un juego de rol más vendidas.",
+  "source": "https://www.penguinrandomhouse.com/books/777486/dragonlance-chronicles-by-margaret-weis-tracy-hickman/9780593977156/",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1984-04",
+      "format": "mass_market",
+      "isbn13": 9780880381734,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11146",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9780880381734.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "isbn13": 9780394727929,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?80014",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9780394727929.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1986-07",
+      "format": "mass_market",
+      "isbn13": 9780140087185,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?204125",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9780140087185.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Guild Publishing",
+      "date": "1989",
+      "format": "mass_market",
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?189397"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-02",
+      "format": "mass_market",
+      "isbn13": 9780786915743,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11255",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786915749/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-autumn-twilight/9780786915743.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-01",
+      "format": "hardcover",
+      "isbn13": 9780786930647,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11254",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9780786930647.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-12-21",
+      "format": "ebook",
+      "isbn13": 9780786954377,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?477475",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004G606K8/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-autumn-twilight/9780786954377.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Timun Mas",
+      "date": "1986",
+      "format": "hardcover",
+      "isbn13": 9788471768773,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/8",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8471768771/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788471768773.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Círculo de Lectores",
+      "date": "1987",
+      "format": "hardcover",
+      "isbn13": 9788422623205,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/17922",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788422623205.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788477228882,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3142",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788477228882.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "format": "mass_market",
+      "isbn13": 9788448033361,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11948",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788448033361.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Planeta DeAgostini",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788467419542,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15640",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788467419542.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448720841,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/14676",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788448720841.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "ebook",
+      "isbn13": 9788448008086,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39024",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00DD3241E/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788448008086.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448038939,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/34691",
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788448038939.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011041,
+      "source": "https://www.planetadelibros.com/libro-cronicas-de-la-dragonlance-n-0103-el-retorno-de-los-dragones/299122",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011049/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cronicas-de-la-dragonlance-n-01-03-el-retorno-de-los-dragones/9788445011041/12966277"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788445011041.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El retorno de los dragones",
+      "publisher": "Minotauro",
+      "date": "2024-07",
+      "format": "paperback",
+      "isbn13": 9788445014585,
+      "source": "https://www.planetadelibros.com/libro-cts-cronicas-de-la-dragonlance-n-01-el-retorno-de-los-dragones/363776",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014587/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cts-cronicas-de-la-dragonlance-n-01-el-retorno-de-los-dragones/9788445014585/13658324"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-autumn-twilight/9788445014585.webp"
+    }
+  ],
+  "related_videogames": ["heroes-of-the-lance"]
+}

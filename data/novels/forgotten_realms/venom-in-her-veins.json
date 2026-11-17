@@ -1,0 +1,33 @@
+{
+  "slug": "venom-in-her-veins",
+  "title": "Venom in Her Veins",
+  "authors": ["Tim Pratt"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2012-03",
+  "description": "Zaltys, una joven cazadora de las selvas del sur, descubre durante una expedición familiar una verdad enterrada que la convierte en hija de una profecía.\n\nNovela independiente de Tim Pratt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1375847",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-06",
+      "format": "mass_market",
+      "isbn13": 9780786959846,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?373163",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786959843/" }],
+      "cover": "/images/novels/venom-in-her-veins/9780786959846.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-06",
+      "format": "ebook",
+      "isbn13": 9780786959969,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464229",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0055PKE7Y/" }]
+    }
+  ]
+}

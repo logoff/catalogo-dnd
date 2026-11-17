@@ -1,0 +1,66 @@
+{
+  "slug": "death-of-the-dragon",
+  "title": "Death of the Dragon",
+  "authors": ["Ed Greenwood", "Troy Denning"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-cormyr-saga", "number": 3 },
+  "date": "2000-08",
+  "description": "El rey Azoun debe defender Cormyr del ataque de un dragón terrible y de una serie de enemigos misteriosos.\n\nCierra la saga de Cormyr, de Ed Greenwood y Jeff Grubb.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24874",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-08",
+      "format": "hardcover",
+      "isbn13": 9780786916375,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?9528",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786916370/" }],
+      "cover": "/images/novels/death-of-the-dragon/9780786916375.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-05",
+      "format": "mass_market",
+      "isbn13": 9780786918638,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?9527",
+      "cover": "/images/novels/death-of-the-dragon/9780786918638.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-01-17",
+      "format": "ebook",
+      "isbn13": 9780786962099,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?463150",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6HUA/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La muerte del dragón",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "hardcover",
+      "isbn13": 9788448037338,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2168",
+      "cover": "/images/novels/death-of-the-dragon/9788448037338.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La muerte del dragón",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724436,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40285",
+      "cover": "/images/novels/death-of-the-dragon/9788448724436.webp"
+    }
+  ]
+}

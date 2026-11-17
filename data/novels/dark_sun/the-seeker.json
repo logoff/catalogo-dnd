@@ -1,0 +1,43 @@
+{
+  "slug": "the-seeker",
+  "title": "The Seeker",
+  "authors": ["Simon Hawke"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-tribe-of-one", "number": 2 },
+  "date": "1994-04",
+  "description": "Sorak busca al Sabio, la figura que podría explicarle su naturaleza.\n\nSegunda novela de la trilogía Tribe of One.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?5038",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-04",
+      "format": "mass_market",
+      "isbn13": 9781560767015,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8964",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560767014/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9780099454519,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?46815"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El peregrino",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "isbn13": 9788448038045,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/562",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038045/" }],
+      "cover": "/images/novels/the-seeker/9788448038045.webp"
+    }
+  ]
+}

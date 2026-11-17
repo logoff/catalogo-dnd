@@ -1,0 +1,55 @@
+{
+  "slug": "the-crimson-legion",
+  "title": "The Crimson Legion",
+  "authors": ["Troy Denning"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-prism-pentad", "number": 2 },
+  "date": "1992-04",
+  "description": "Con una milicia de nobles, templarios y esclavos, el gladiador Rikus debe salvar la ciudad libre de Tyr de los ejércitos de Urik.\n\nNovela del Pentad del Prisma, de Troy Denning.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18897",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-04",
+      "format": "mass_market",
+      "isbn13": 9781560762607,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?218853",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560762608/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11",
+      "format": "paperback",
+      "isbn13": 9780786950584,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261427",
+      "cover": "/images/novels/the-crimson-legion/9780786950584.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-27",
+      "format": "ebook",
+      "isbn13": 9780786961269,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475000",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005D7VO4Q/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La legión roja",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788477228844,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1046",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477228841/" }],
+      "cover": "/images/novels/the-crimson-legion/9788477228844.webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "the-nether-scroll",
+  "title": "The Nether Scroll",
+  "authors": ["Lynn Abbey"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-lost-empires", "number": 4 },
+  "date": "2000-09",
+  "description": "Cuando su maestra es asesinada y su hijo tomado como rehén, el joven aprendiz de mago Druhallen y sus compañeros se adentran en las ruinas de Dekanter en busca de un artefacto perdido.\n\nNovela de la serie Lost Empires, de Lynn Abbey.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26754",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-09",
+      "format": "mass_market",
+      "isbn13": 9780786915668,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?44556",
+      "cover": "/images/novels/the-nether-scroll/9780786915668.webp"
+    }
+  ]
+}

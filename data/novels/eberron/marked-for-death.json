@@ -1,0 +1,32 @@
+{
+  "slug": "marked-for-death",
+  "title": "Marked for Death",
+  "authors": ["Matt Forbeck"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-lost-mark", "number": 1 },
+  "date": "2005-03",
+  "description": "Una joven marcada por un poder dracónico se convierte en presa en un mundo recién salido de la Última Guerra.\n\nPrimera novela de la trilogía The Lost Mark, de Matt Forbeck.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?969084",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-03",
+      "format": "mass_market",
+      "isbn13": 9780786936106,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68700",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078693610X/" }],
+      "cover": "/images/novels/marked-for-death/9780786936106.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00BO4GEEM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BO4GEEM/" }]
+    }
+  ]
+}

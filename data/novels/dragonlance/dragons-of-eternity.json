@@ -1,0 +1,126 @@
+{
+  "slug": "dragons-of-eternity",
+  "title": "Dragons of Eternity",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-destinies",
+    "number": 3
+  },
+  "date": "2024-08",
+  "description": "Con el pasado de Krynn alterado y el futuro en suspenso, Destina y los héroes que la acompañan tienen una última oportunidad para devolver el tiempo a su cauce, mientras fuerzas que se benefician del caos intentan impedirlo.\n\nEs la novela que cierra la trilogía Destinos y, con ella, el regreso de Weis y Hickman a los personajes clásicos de Dragonlance. Se lee después de Dragones del Destino.",
+  "source": "https://www.penguinrandomhouse.com/books/isbn/9781984819420",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-08-06",
+      "format": "hardcover",
+      "isbn13": 9781984819420,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1012933",
+      "cover": "/images/novels/dragons-of-eternity/9781984819420.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-08-06",
+      "format": "ebook",
+      "isbn13": 9781984819437,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1061442",
+      "cover": "/images/novels/dragons-of-eternity/9781984819437.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Del Rey (UK)",
+      "date": "2024-08-06",
+      "format": "hardcover",
+      "isbn13": 9781529101775,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1061447",
+      "cover": "/images/novels/dragons-of-eternity/9781529101775.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2024-08-06",
+      "format": "ebook",
+      "isbn13": 9781804946954,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1061446",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CMH4C2Q7/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-eternity/9781804946954.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-03-04",
+      "format": "paperback",
+      "isbn13": 9781984819444,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1041406",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984819445/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-eternity/9781984819444.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2025-05-01",
+      "format": "paperback",
+      "isbn13": 9781804946947,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1061445",
+      "cover": "/images/novels/dragons-of-eternity/9781804946947.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dragones de la Eternidad",
+      "publisher": "Minotauro",
+      "date": "2025-10-29",
+      "format": "hardcover",
+      "isbn13": 9788445018965,
+      "source": "https://www.planetadelibros.com/libro-destinos-n-0303-dragones-de-la-eternidad/404238",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445018965/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-destinos-n-03-03-dragones-de-la-eternidad/9788445018965/17135251"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-eternity/9788445018965.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dragones de la Eternidad",
+      "publisher": "Minotauro",
+      "date": "2025-10-29",
+      "format": "ebook",
+      "isbn13": 9788445021231,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78570",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FH9RKZCL/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-eternity/9788445021231.webp"
+    }
+  ]
+}

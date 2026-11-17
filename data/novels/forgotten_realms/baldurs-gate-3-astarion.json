@@ -1,0 +1,78 @@
+{
+  "slug": "baldurs-gate-3-astarion",
+  "title": "Baldur's Gate 3: Astarion",
+  "authors": ["T. Kingfisher"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2026-09",
+  "description": "Astarion Ancunin iba a ser magistrado, no un vampiro engendro al servicio del cruel señor vampiro Cazador Szarr. Ahora intentará librarse de siglos de servidumbre o morir, por segunda vez, en el intento.\n\nNovela de T. Kingfisher basada en el personaje del videojuego Baldur's Gate 3.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3657975",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-09-29",
+      "format": "hardcover",
+      "isbn13": 9798217298594,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1123462",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GRRNMFM9/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Titan Books",
+      "date": "2026-10-01",
+      "format": "hardcover",
+      "isbn13": 9781835419588,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1129549",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1835419585/"
+        }
+      ],
+      "cover": "/images/novels/baldurs-gate-3-astarion/9781835419588.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Baldur's Gate 3: Astarion",
+      "publisher": "Minotauro",
+      "date": "2026-11-25",
+      "format": "hardcover",
+      "isbn13": 9788445022979,
+      "source": "https://www.amazon.es/dp/8445022970/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445022970/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-baldur-s-gate-3-astarion/9788445022979/18585912"
+        }
+      ],
+      "cover": "/images/novels/baldurs-gate-3-astarion/9788445022979.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0GT7DC2BM/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GT7DC2BM/"
+        }
+      ],
+      "date": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "amber-and-ashes",
+  "title": "Amber and Ashes",
+  "authors": ["Margaret Weis"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-dark-disciple",
+    "number": 1
+  },
+  "date": "2004-08",
+  "description": "Acabada la Guerra de los Espíritus, los dioses han vuelto y compiten por la supremacía. Ante la tumba de la Reina de la Oscuridad, la guerrera Mina cree que su vida ha terminado, hasta que aparece Chemosh, el dios de la muerte, con otros planes para ella.\n\nEs la primera novela de La discípula oscura, la trilogía de Margaret Weis que continúa la historia de Mina tras La guerra de los espíritus. Se publicó en castellano como Ámbar y cenizas, reeditada por Minotauro en 2025.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?152998",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-08",
+      "format": "hardcover",
+      "isbn13": 9780786932573,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?63671",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786932570/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-ashes/9780786932573.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-07",
+      "format": "mass_market",
+      "isbn13": 9780786937424,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?70013",
+      "cover": "/images/novels/amber-and-ashes/9780786937424.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-13",
+      "format": "ebook",
+      "isbn13": 9780786954513,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474912",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004FGMD1E/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y cenizas",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788448034221,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/22868",
+      "cover": "/images/novels/amber-and-ashes/9788448034221.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y cenizas",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038748,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33317",
+      "cover": "/images/novels/amber-and-ashes/9788448038748.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y cenizas",
+      "publisher": "Minotauro",
+      "date": "2025-03-12",
+      "format": "ebook",
+      "isbn13": 9788445020371,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78809",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DTZ5BCDQ/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-ashes/9788445020371.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y cenizas",
+      "publisher": "Minotauro",
+      "date": "2025-03-12",
+      "format": "paperback",
+      "isbn13": 9788445011508,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/76535",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011502/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-discipula-oscura-n-01-03-ambar-y-cenizas/9788445011508/16605831"
+        }
+      ],
+      "cover": "/images/novels/amber-and-ashes/9788445011508.webp"
+    }
+  ]
+}

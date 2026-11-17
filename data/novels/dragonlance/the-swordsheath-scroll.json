@@ -1,0 +1,55 @@
+{
+  "slug": "the-swordsheath-scroll",
+  "title": "The Swordsheath Scroll",
+  "authors": ["Dan Parkinson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-dwarven-nations", "number": 3 },
+  "date": "1993-12",
+  "description": "La Guerra de Kinslayer termina sin un claro vencedor y Thorbardin se alía con los elfos de Qualinesti para construir Pax Tharkas. De ese tiempo de cambios surge un nuevo líder enano, Derkin, llamado a unir a su pueblo.\n\nEs la novela que cierra The Dwarven Nations y enlaza con la historia de The Elven Nations. Se publicó en castellano como Derkin, el primer rey.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15814",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-12",
+      "format": "mass_market",
+      "isbn13": 9781560766865,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11214",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766867/" }],
+      "cover": "/images/novels/the-swordsheath-scroll/9781560766865.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-24",
+      "format": "ebook",
+      "isbn13": 9780786963546,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466523"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Derkin, el primer rey",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030353,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/258",
+      "cover": "/images/novels/the-swordsheath-scroll/9788448030353.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Derkin, el primer rey",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448722432,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24444",
+      "cover": "/images/novels/the-swordsheath-scroll/9788448722432.webp"
+    }
+  ]
+}

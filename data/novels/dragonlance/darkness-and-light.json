@@ -1,0 +1,97 @@
+{
+  "slug": "darkness-and-light",
+  "title": "Darkness and Light",
+  "authors": ["Paul B. Thompson", "Tonya R. Carter"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-preludes", "number": 1 },
+  "date": "1989-04",
+  "description": "Los Compañeros se despiden en El Último Hogar antes de separarse durante cinco años. Sturm Brightblade parte en busca de su padre y Kitiara lo acompaña, pero su viaje los lleva muy lejos de lo previsto: a la luna roja, Lunitari, donde los gnomos y la magia les reservan sorpresas.\n\nEs la primera novela de Preludes, la serie que cuenta qué hicieron los héroes de las Crónicas en los años anteriores a la Guerra de la Lanza. Se publicó en castellano como El guardián de Lunitari.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1008703",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-04",
+      "format": "mass_market",
+      "isbn13": 9780880387224,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11176",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/088038722X/" }],
+      "cover": "/images/novels/darkness-and-light/9780880387224.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-09",
+      "format": "mass_market",
+      "isbn13": 9780140126310,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11175",
+      "cover": "/images/novels/darkness-and-light/9780140126310.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El guardián de Lunitari",
+      "publisher": "Timun Mas",
+      "date": "1990",
+      "format": "hardcover",
+      "isbn13": 9788477225485,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/21",
+      "cover": "/images/novels/darkness-and-light/9788477225485.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El guardián de Lunitari",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030452,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/9917",
+      "cover": "/images/novels/darkness-and-light/9788448030452.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El guardián de Lunitari",
+      "publisher": "Timun Mas",
+      "date": "2004-12",
+      "format": "mass_market",
+      "isbn13": 9788448033736,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12368",
+      "cover": "/images/novels/darkness-and-light/9788448033736.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El guardián de Lunitari",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448720865,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24234",
+      "cover": "/images/novels/darkness-and-light/9788448720865.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El guardián de Lunitari",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005351,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36637",
+      "cover": "/images/novels/darkness-and-light/9788448005351.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00AGV8YLA/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00AGV8YLA/" }]
+    }
+  ]
+}

@@ -8,6 +8,8 @@ import VideogameDetailPage from './pages/VideogameDetailPage'
 import VideogamesPage from './pages/VideogamesPage'
 import MerchandisePage from './pages/MerchandisePage'
 import MerchandiseDetailPage from './pages/MerchandiseDetailPage'
+import NovelsPage from './pages/NovelsPage'
+import NovelDetailPage from './pages/NovelDetailPage'
 import NotFoundPage from './pages/NotFoundPage'
 import GuidesPage from './pages/GuidesPage'
 import LegalPage from './pages/LegalPage'
@@ -34,6 +36,8 @@ export default function AppRoutes() {
         <Route path="videojuego/:slug" element={<VideogameDetailPage />} />
         <Route path="merchandising" element={<MerchandisePage />} />
         <Route path="merchandising/:slug" element={<MerchandiseDetailPage />} />
+        <Route path="novelas" element={<NovelsPage />} />
+        <Route path="novela/:slug" element={<NovelDetailPage />} />
         <Route path="guias" element={<GuidesPage />} />
         <Route path="guias/por-donde-empezar" element={<StartGuide />} />
         <Route path="guias/2014-vs-2024" element={<EditionsGuide />} />

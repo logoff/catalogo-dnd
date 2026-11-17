@@ -1,0 +1,32 @@
+{
+  "slug": "night-of-the-long-shadows",
+  "title": "Night of the Long Shadows",
+  "authors": ["Paul Crilley"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-abraxis-wren", "number": 1 },
+  "date": "2007-05",
+  "description": "Durante las Noches de las Sombras Largas, cuando las fuerzas oscuras ganan poder, uno de los inquisitivos más famosos de Sharn investiga un asesinato en la Universidad de Morgrave.\n\nPrimera novela de las crónicas de Abraxis Wren, de Paul Crilley, dentro de la serie The Inquisitives.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1100038",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-06",
+      "format": "mass_market",
+      "isbn13": 9780786942701,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?97701",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942703/" }],
+      "cover": "/images/novels/night-of-the-long-shadows/9780786942701.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0034184T6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034184T6/" }]
+    }
+  ]
+}

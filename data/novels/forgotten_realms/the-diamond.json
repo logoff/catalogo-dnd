@@ -1,0 +1,23 @@
+{
+  "slug": "the-diamond",
+  "title": "The Diamond",
+  "authors": ["J. Robert King", "Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-double-diamond-triangle", "number": 9 },
+  "date": "1998-07",
+  "description": "Última entrega de la saga del Triángulo del Doble Diamante.\n\nUna serie de nueve novelas breves que TSR publicó mes a mes entre enero y julio de 1998.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?83846",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-07",
+      "format": "mass_market",
+      "isbn13": 9780786908721,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14346",
+      "cover": "/images/novels/the-diamond/9780786908721.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-lioness",
+  "title": "The Lioness",
+  "authors": ["Nancy Varian Berberick"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-age-of-mortals", "number": 2 },
+  "date": "2002-08",
+  "description": "En Qualinesti, sometida al dragón verde Beryl y a los Caballeros Oscuros, surge una heroína: Kerianseray, una kagonesti al frente de un grupo de rebeldes, la proscrita del rey y a la vez su amante y su arma secreta.\n\nEs una novela de la serie Age of Mortals y cuenta la historia de La Leona, personaje importante de La guerra de los espíritus. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24707",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-08",
+      "format": "mass_market",
+      "isbn13": 9780786927524,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43132",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786927526/" }],
+      "cover": "/images/novels/the-lioness/9780786927524.webp"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "temple-hill",
+  "title": "Temple Hill",
+  "authors": ["Drew Karpyshyn"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-cities", "number": 2 },
+  "date": "2001-09",
+  "description": "La ladrona Lhasha Moonsliver contrata como guardaespaldas al borracho del pueblo y se enfrenta con él al gremio de ladrones y al Culto del Dragón.\n\nNovela de la serie The Cities, de Drew Karpyshyn.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25068",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-09",
+      "format": "mass_market",
+      "isbn13": 9780786918713,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?34708",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786918713/" }],
+      "cover": "/images/novels/temple-hill/9780786918713.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-08-21",
+      "format": "ebook",
+      "isbn13": 9780786963836,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467161",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEK3W/" }]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "tears-of-the-night-sky",
+  "title": "Tears of the Night Sky",
+  "authors": ["Linda P. Baker", "Nancy Varian Berberick"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-chaos-war", "number": 2 },
+  "date": "1998-10",
+  "description": "Crysania, gran sacerdotisa de Paladine, siente que su comunión con su dios se debilita. Una piedra misteriosa la obliga a emprender un viaje hacia el templo de Neraka en el verano más caluroso de Krynn, con unos compañeros inesperados, entre ellos el elfo oscuro Dalamar.\n\nEs una novela de la serie The Chaos War y recupera a dos personajes de las Leyendas de la Dragonlance. Se publicó en castellano como Las lágrimas de Paladine.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?529721",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-10",
+      "format": "mass_market",
+      "isbn13": 9780786911851,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?180317",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786911859/" }],
+      "cover": "/images/novels/tears-of-the-night-sky/9780786911851.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las lágrimas de Paladine",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448039332,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/419",
+      "cover": "/images/novels/tears-of-the-night-sky/9788448039332.webp"
+    }
+  ]
+}

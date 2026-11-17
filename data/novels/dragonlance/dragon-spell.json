@@ -1,0 +1,24 @@
+{
+  "slug": "dragon-spell",
+  "title": "Dragon Spell",
+  "authors": ["Jeff Sampson"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-new-adventures", "number": 8 },
+  "date": "2005-07",
+  "description": "Los jóvenes compañeros de la serie continúan sus aventuras en la época dorada de Krynn, en una historia pensada para lectores a partir de unos diez años.\n\nEs la octava novela de Dragonlance: The New Adventures, la serie juvenil de Mirrorstone con protagonistas nuevos, que continúa después en varias trilogías con los mismos personajes. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?168645",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-07",
+      "format": "paperback",
+      "isbn13": 9780786937448,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69780",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786937440/" }],
+      "cover": "/images/novels/dragon-spell/9780786937448.webp"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "stormlight",
+  "title": "Stormlight",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-harpers", "number": 10 },
+  "date": "1996-10",
+  "description": "Una magia extraña y letal se ha desatado en la fortaleza de Firefall, en Cormyr, y ni los Magos de Guerra saben detenerla. Le toca a Storm Mano de Plata, la barda de Valle Sombrío, salvar el mundo una vez más.\n\nNovela de la serie de los Arpistas, de Ed Greenwood.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17971",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-10",
+      "format": "mass_market",
+      "isbn13": 9780786905201,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14334",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905204/" }],
+      "cover": "/images/novels/stormlight/9780786905201.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-15",
+      "format": "ebook",
+      "isbn13": 9780786961740,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476326",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R81YJQ/" }]
+    }
+  ]
+}

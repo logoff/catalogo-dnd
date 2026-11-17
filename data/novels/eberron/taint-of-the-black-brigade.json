@@ -1,0 +1,34 @@
+{
+  "slug": "taint-of-the-black-brigade",
+  "title": "Taint of the Black Brigade",
+  "authors": ["Paul Crilley"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-abraxis-wren", "number": 2 },
+  "date": "2010-08",
+  "description": "Nuevo caso del inquisitivo Abraxis Wren en Sharn.\n\nSegunda novela de las crónicas de Abraxis Wren, de Paul Crilley.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1139006",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08-03",
+      "format": "mass_market",
+      "isbn13": 9780786955077,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?323653",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786955074/" }],
+      "cover": "/images/novels/taint-of-the-black-brigade/9780786955077.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08-03",
+      "format": "ebook",
+      "isbn13": 9780786957545,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?479391",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYP8S/" }]
+    }
+  ]
+}

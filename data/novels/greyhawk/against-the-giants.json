@@ -1,0 +1,35 @@
+{
+  "slug": "against-the-giants",
+  "title": "Against the Giants",
+  "authors": ["Ru Emerson"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-classics", "number": 1 },
+  "date": "1999-07",
+  "description": "Tras el incendio de una aldea, el rey de Keoland envía a un veterano guerrero al frente de un grupo de aventureros a atacar la guarida de los gigantes.\n\nNovelización de un módulo clásico de D&D, de Ru Emerson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25875",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-07",
+      "format": "mass_market",
+      "isbn13": 9780786913794,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1777",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786913797/" }],
+      "cover": "/images/novels/against-the-giants/9780786913794.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Contra los gigantes",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496262454,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11558",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8496262456/" }],
+      "cover": "/images/novels/against-the-giants/9788496262454.webp"
+    }
+  ]
+}

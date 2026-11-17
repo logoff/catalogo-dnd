@@ -1,0 +1,33 @@
+{
+  "slug": "downshadow",
+  "title": "Downshadow",
+  "authors": ["Erik Scott de Bie"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-waterdeep", "number": 3 },
+  "date": "2009-04",
+  "description": "Guardia de día y justiciero de noche, Shadowbane se encuentra con una joven perseguida que guarda un gran poder mágico. Cuando sus amigos empiezan a morir, tendrá que elegir entre la venganza y la justicia.\n\nNovela de la serie Ed Greenwood Presents Waterdeep, de Erik Scott de Bie.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1258494",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-04",
+      "format": "mass_market",
+      "isbn13": 9780786951284,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?347009",
+      "cover": "/images/novels/downshadow/9780786951284.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-12-22",
+      "format": "ebook",
+      "isbn13": 9780786955855,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483788",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001NLL64O/" }]
+    }
+  ]
+}

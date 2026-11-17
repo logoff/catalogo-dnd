@@ -1,0 +1,24 @@
+{
+  "slug": "son-of-dawn",
+  "title": "Son of Dawn",
+  "authors": ["Dixie Lee McKeone"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-first-quest", "number": 4 },
+  "date": "1995-05",
+  "description": "El huérfano Davonin deja la Isla del Amanecer y conoce a dos niños de la realeza de los elfos de las sombras cuyo regreso a casa podría evitar una guerra.\n\nNovela de la serie First Quest, de Dixie Lee McKeone.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?16374",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-05",
+      "format": "mass_market",
+      "isbn13": 9781560768845,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?13832",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768843/" }],
+      "cover": "/images/novels/son-of-dawn/9781560768845.webp"
+    }
+  ]
+}

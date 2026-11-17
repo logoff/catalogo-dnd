@@ -1,0 +1,139 @@
+{
+  "slug": "dragons-of-a-vanished-moon",
+  "title": "Dragons of a Vanished Moon",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-war-of-souls",
+    "number": 3
+  },
+  "date": "2002-06",
+  "description": "La verdad sobre el Dios Único sale por fin a la luz y la guerra llega a su punto decisivo. Los héroes que han sobrevivido, junto a viejos conocidos de las Crónicas, deben enfrentarse a una amenaza que pone en peligro no solo a Ansalon, sino el equilibrio entre los dioses y el mundo.\n\nEs la novela que cierra La guerra de los espíritus y la etapa de la Quinta Era de Dragonlance. Resuelve los misterios que arrastra la trilogía desde Los caballeros de Neraka y deja Krynn en la situación de las novelas posteriores.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24148",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-06",
+      "format": "hardcover",
+      "isbn13": 9780786927401,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11250",
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9780786927401.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-03",
+      "format": "mass_market",
+      "isbn13": 9780786929504,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11251",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786929502/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9780786929504.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-24",
+      "format": "ebook",
+      "isbn13": 9780786954506,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472864",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004J4WMLI/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9780786954506.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El nombre del Único",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "isbn13": 9788448032210,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/8338",
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9788448032210.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El nombre del Único",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "mass_market",
+      "isbn13": 9788448035334,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23114",
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9788448035334.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El nombre del Único",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721817,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24277",
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9788448721817.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El nombre del Único",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038885,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33991",
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9788448038885.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El nombre del Único",
+      "publisher": "Minotauro",
+      "date": "2024",
+      "format": "paperback",
+      "isbn13": 9788445011485,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78856",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011480/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-guerra-de-los-espiritus-n-03-03-el-nombre-del-unico/9788445011485/16150965"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9788445011485.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El nombre del Único",
+      "publisher": "Minotauro",
+      "date": "2024-09-18",
+      "format": "ebook",
+      "isbn13": 9788445018484,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78857",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0D7HYQJ5R/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-vanished-moon/9788445018484.webp"
+    }
+  ]
+}

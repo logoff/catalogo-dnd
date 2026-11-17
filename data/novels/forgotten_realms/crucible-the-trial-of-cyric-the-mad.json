@@ -1,0 +1,44 @@
+{
+  "slug": "crucible-the-trial-of-cyric-the-mad",
+  "title": "Crucible: The Trial of Cyric the Mad",
+  "authors": ["Troy Denning"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-avatar", "number": 5 },
+  "date": "1998-02",
+  "description": "Cyric el Loco, que traicionó a Medianoche y a Kelemvor y ascendió a la divinidad, extiende sus mentiras e intrigas por todo Faerûn. Señor del Asesinato y Príncipe de las Mentiras, se enfrenta ahora al juicio de los demás dioses.\n\nCierra la serie de los Avatares.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24314",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-02",
+      "format": "mass_market",
+      "isbn13": 9780786907243,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8341",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078690724X/" }],
+      "cover": "/images/novels/crucible-the-trial-of-cyric-the-mad/9780786907243.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-11",
+      "format": "mass_market",
+      "isbn13": 9780786931170,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8339",
+      "cover": "/images/novels/crucible-the-trial-of-cyric-the-mad/9780786931170.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-01-10",
+      "format": "ebook",
+      "isbn13": 9780786962037,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?463128",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6H9Q/" }]
+    }
+  ]
+}

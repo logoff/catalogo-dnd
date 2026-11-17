@@ -1,0 +1,33 @@
+{
+  "slug": "the-fate-of-thorbardin",
+  "title": "The Fate of Thorbardin",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-dwarf-home", "number": 3 },
+  "date": "2010-01",
+  "description": "Brandon Bluestone ha limpiado el nombre de su familia y unido a los enanos, y ahora encabeza un ejército hacia las puertas de Thorbardin, sellada por orden de un rey loco.\n\nEs la novela que cierra Dwarf Home. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1062372",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-05",
+      "format": "mass_market",
+      "isbn13": 9780786951505,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?303331",
+      "cover": "/images/novels/the-fate-of-thorbardin/9780786951505.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-20",
+      "format": "ebook",
+      "isbn13": 9780786956418,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483457",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00357PU6Y/" }]
+    }
+  ]
+}

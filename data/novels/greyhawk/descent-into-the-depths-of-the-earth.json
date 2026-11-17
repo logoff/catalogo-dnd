@@ -1,0 +1,34 @@
+{
+  "slug": "descent-into-the-depths-of-the-earth",
+  "title": "Descent into the Depths of the Earth",
+  "authors": ["Paul Kidd"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-classics", "number": 3 },
+  "date": "2000-06",
+  "description": "El explorador conocido como el Justicar y la hada Escalla, recién salidos de White Plume Mountain, se ven arrastrados a las intrigas de la corte feérica y a las profundidades de la tierra, entre hobgoblins y drows.\n\nNovelización de un módulo clásico de D&D, de Paul Kidd.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26052",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-06",
+      "format": "mass_market",
+      "isbn13": 9780786916351,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?9939",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786916354/" }],
+      "cover": "/images/novels/descent-into-the-depths-of-the-earth/9780786916351.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Descenso a las profundidades de la tierra",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496262652,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/19047",
+      "cover": "/images/novels/descent-into-the-depths-of-the-earth/9788496262652.webp"
+    }
+  ]
+}

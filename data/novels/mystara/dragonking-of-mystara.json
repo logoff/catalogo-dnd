@@ -1,0 +1,24 @@
+{
+  "slug": "dragonking-of-mystara",
+  "title": "Dragonking of Mystara",
+  "authors": ["Thorarinn Gunnarsson"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-dragonlord", "number": 2 },
+  "date": "1995-07",
+  "description": "Tras una paz precaria con los dragones, Thelvyn Ojos de Zorro descubre que pretenden usarlo como arma contra sus enemigos, lo que podría desatar otra guerra.\n\nSegunda novela de las crónicas del Señor de los Dragones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17917",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-07",
+      "format": "mass_market",
+      "isbn13": 9780786901531,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11142",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901535/" }],
+      "cover": "/images/novels/dragonking-of-mystara/9780786901531.webp"
+    }
+  ]
+}

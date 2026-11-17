@@ -1,0 +1,35 @@
+{
+  "slug": "baldurs-gate-2-shadows-of-amn",
+  "title": "Baldur's Gate 2: Shadows of Amn",
+  "authors": ["Philip Athans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-baldurs-gate", "number": 2 },
+  "date": "2000-09",
+  "description": "Los seguidores de Bhaal ganan fuerza, y Abdel y sus amigos tratan de impedir que resuciten a su dios.\n\nNovelización del videojuego Baldur's Gate II: Shadows of Amn, de BioWare.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25905",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-09",
+      "format": "mass_market",
+      "isbn13": 9780786915699,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?3556",
+      "cover": "/images/novels/baldurs-gate-2-shadows-of-amn/9780786915699.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La puerta de Baldur II: Sombras de Amn",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448037314,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1055",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037316/" }],
+      "cover": "/images/novels/baldurs-gate-2-shadows-of-amn/9788448037314.webp"
+    }
+  ]
+}

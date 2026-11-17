@@ -1,0 +1,44 @@
+{
+  "slug": "the-reaver",
+  "title": "The Reaver",
+  "authors": ["Richard Lee Byers"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sundering", "number": 4 },
+  "date": "2014-02",
+  "description": "Una lluvia incesante azota el Mar de las Estrellas Caídas, y el saqueador Anton Marivaldi se ve envuelto en la lucha por la región.\n\nCuarta novela de la serie The Sundering, de Richard Lee Byers.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1678579",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-02-04",
+      "format": "hardcover",
+      "isbn13": 9780786964581,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?436282",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786964588/" }],
+      "cover": "/images/novels/the-reaver/9780786964581.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-02-11",
+      "format": "ebook",
+      "isbn13": 9780786965472,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?443398",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00EGMB6BU/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-07-01",
+      "format": "mass_market",
+      "isbn13": 9780786965427,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?450091",
+      "cover": "/images/novels/the-reaver/9780786965427.webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "the-crystal-chalice",
+  "title": "The Crystal Chalice",
+  "authors": ["Ree Soesbee"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-elidor", "number": 2 },
+  "date": "2006-03",
+  "description": "Una maldición amenaza la vida de Vael y Elidor busca en la ciudad perdida de Taeloc un cáliz de cristal que podría salvarla, aunque para encontrarlo tenga que aliarse con unos mercenarios poco fiables.\n\nEs la segunda novela de The Elidor Trilogy, de la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?180691",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2006-03",
+      "format": "mass_market",
+      "isbn13": 9780786939947,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?81814",
+      "cover": "/images/novels/the-crystal-chalice/9780786939947.webp"
+    }
+  ]
+}

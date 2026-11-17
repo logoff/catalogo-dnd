@@ -1,0 +1,34 @@
+{
+  "slug": "the-eye-of-the-chained-god",
+  "title": "The Eye of the Chained God",
+  "authors": ["Don Bassingthwaite"],
+  "setting": "nerath",
+  "kind": "novel",
+  "series": { "id": "nerath-abyssal-plague", "number": 3 },
+  "date": "2012-04",
+  "description": "La plaga abisal llega a su desenlace.\n\nCierra la serie The Abyssal Plague, de Don Bassingthwaite.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1392220",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-03",
+      "format": "mass_market",
+      "isbn13": 9780786959839,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?377903",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786959835/" }],
+      "cover": "/images/novels/the-eye-of-the-chained-god/9780786959839.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-03",
+      "format": "ebook",
+      "isbn13": 9780786959983,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464628",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005C5PLKM/" }]
+    }
+  ]
+}

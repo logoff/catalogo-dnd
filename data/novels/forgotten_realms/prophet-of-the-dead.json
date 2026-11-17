@@ -1,0 +1,33 @@
+{
+  "slug": "prophet-of-the-dead",
+  "title": "Prophet of the Dead",
+  "authors": ["Richard Lee Byers"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-brotherhood-of-the-griffon", "number": 5 },
+  "date": "2013-02",
+  "description": "La Hermandad del Grifo se enfrenta a una amenaza de muertos vivientes en el desenlace de sus aventuras.\n\nCierra la serie de la Hermandad del Grifo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1536129",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-02-05",
+      "format": "mass_market",
+      "isbn13": 9780786963614,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?405956",
+      "cover": "/images/novels/prophet-of-the-dead/9780786963614.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-02-05",
+      "format": "ebook",
+      "isbn13": 9780786964055,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?455884",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00A1M5EBW/" }]
+    }
+  ]
+}

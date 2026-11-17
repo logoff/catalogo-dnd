@@ -1,0 +1,32 @@
+{
+  "slug": "the-shield-of-weeping-ghosts",
+  "title": "The Shield of Weeping Ghosts",
+  "authors": ["James P. Davis"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-citadels", "number": 3 },
+  "date": "2008-05",
+  "description": "Unos guerreros de Rashemen escoltan a un mago exiliado hasta una ciudadela en ruinas, donde una tribu bárbara intenta desvelar el arma que la destruyó hace dos mil años.\n\nNovela de la serie The Citadels, de James P. Davis.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?829063",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-05",
+      "format": "mass_market",
+      "isbn13": 9780786948772,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250062",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786948779/" }],
+      "cover": "/images/novels/the-shield-of-weeping-ghosts/9780786948772.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B008ADEIRA/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEIRA/" }]
+    }
+  ]
+}

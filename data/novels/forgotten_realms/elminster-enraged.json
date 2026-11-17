@@ -1,0 +1,43 @@
+{
+  "slug": "elminster-enraged",
+  "title": "Elminster Enraged",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sage-of-shadowdale", "number": 3 },
+  "date": "2012-08",
+  "description": "Elminster, reducido a cenizas tras su enfrentamiento con Manshoon, ocupa el cuerpo de una elfa oscura para cumplir las órdenes de Mystra y evitar que despierten los primordiales.\n\nTercera novela de la serie del Sabio de Valle Sombrío.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1470878",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-04",
+      "format": "hardcover",
+      "isbn13": 9780786960293,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?393605",
+      "cover": "/images/novels/elminster-enraged/9780786960293.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-04",
+      "format": "ebook",
+      "isbn13": 9780786961276,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467743",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007JCD6EE/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-05-07",
+      "format": "mass_market",
+      "isbn13": 9780786963638,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?413339",
+      "cover": "/images/novels/elminster-enraged/9780786963638.webp"
+    }
+  ]
+}

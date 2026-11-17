@@ -1,0 +1,32 @@
+{
+  "slug": "forge-of-the-mindslayers",
+  "title": "Forge of the Mindslayers",
+  "authors": ["Tim Waggoner"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-blade-of-the-flame", "number": 2 },
+  "date": "2007-03",
+  "description": "Unos piratas secuestran a la antigua amante de Diran Bastiaan, que parte con su compañero semiorco Ghaji por los Principados de Lhazaar para rescatarla.\n\nSegunda novela de la trilogía The Blade of the Flame.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1142837",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-03",
+      "format": "mass_market",
+      "isbn13": 9780786943135,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?98511",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786943130/" }],
+      "cover": "/images/novels/forge-of-the-mindslayers/9780786943135.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B000SEH44S/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B000SEH44S/" }]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "the-rebellion",
+  "title": "The Rebellion",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-stonetellers", "number": 1 },
+  "date": "2007-08",
+  "description": "Una serie de terremotos sacude un campamento minero de los Caballeros Oscuros y los esclavos goblins y hobgoblins aprovechan para rebelarse. Entre ellos surge un líder, Direfang, un capataz hobgoblin marcado por años de servidumbre.\n\nEs la primera novela de The Stonetellers, la trilogía de Jean Rabe sobre la lucha de los goblins por su libertad. No se ha publicado en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-08",
+      "isbn13": 9780786942800,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786942800&type=ISBN",
+      "cover": "/images/novels/the-rebellion/9780786942800.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0034184SM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034184SM/" }]
+    }
+  ]
+}

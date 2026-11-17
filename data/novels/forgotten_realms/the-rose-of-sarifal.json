@@ -1,0 +1,41 @@
+{
+  "slug": "the-rose-of-sarifal",
+  "title": "The Rose of Sarifal",
+  "authors": ["Paulina Claiborne"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2012-05",
+  "description": "En las islas Moonshae, la princesa conocida como la Rosa de Sarifal fue ocultada de su tía, que la quería muerta. Años después, la reina de la isla de Gwynneth recibe noticias de que sigue viva.\n\nNovela independiente de Paulina Claiborne.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1406619",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05",
+      "isbn13": 9780786930265,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786930265&type=ISBN",
+      "cover": "/images/novels/the-rose-of-sarifal/9780786930265.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-01",
+      "format": "mass_market",
+      "isbn13": 9780786960262,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?385579",
+      "cover": "/images/novels/the-rose-of-sarifal/9780786960262.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-01",
+      "format": "ebook",
+      "isbn13": 9780786961320,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465429",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B006NPFFHY/" }]
+    }
+  ]
+}

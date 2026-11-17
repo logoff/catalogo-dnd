@@ -1,0 +1,44 @@
+{
+  "slug": "ashes-of-the-tyrant",
+  "title": "Ashes of the Tyrant",
+  "authors": ["Erin M. Evans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-brimstone-angels", "number": 4 },
+  "date": "2015-12",
+  "description": "Mehen, el padre adoptivo de Farideh, es llamado por el clan que lo expulsó, y Farideh y Havilar lo acompañan a un misterio de asesinatos entre los dracónidos.\n\nNovela de la serie Brimstone Angels.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1928297",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-12-29",
+      "format": "hardcover",
+      "isbn13": 9780786965731,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?545273",
+      "cover": "/images/novels/ashes-of-the-tyrant/9780786965731.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-12-29",
+      "format": "ebook",
+      "isbn13": 9780786965830,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?549471",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00SPV9B1A/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2016-11-08",
+      "format": "mass_market",
+      "isbn13": 9780786965908,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?604056",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786965908/" }],
+      "cover": "/images/novels/ashes-of-the-tyrant/9780786965908.webp"
+    }
+  ]
+}

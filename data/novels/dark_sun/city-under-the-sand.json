@@ -1,0 +1,32 @@
+{
+  "slug": "city-under-the-sand",
+  "title": "City Under the Sand",
+  "authors": ["Jeff Mariotte"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "date": "2010-10",
+  "description": "Aric, un semielfo con un raro talento psiónico, se ve envuelto en la búsqueda de un arsenal perdido en un mundo dominado por reyes hechiceros y el desierto.\n\nNovela de Dark Sun de Jeff Mariotte.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1155559",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "mass_market",
+      "isbn13": 9780786956234,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?327892",
+      "cover": "/images/novels/city-under-the-sand/9780786956234.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "ebook",
+      "isbn13": 9780786958061,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478489",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYOUW/" }]
+    }
+  ]
+}

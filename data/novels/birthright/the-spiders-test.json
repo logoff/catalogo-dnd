@@ -1,0 +1,23 @@
+{
+  "slug": "the-spiders-test",
+  "title": "The Spider's Test",
+  "authors": ["Dixie Lee McKeone"],
+  "setting": "birthright",
+  "kind": "novel",
+  "date": "1996-09",
+  "description": "Una aventura en la tierra de Cerilia.\n\nNovela de Birthright de Dixie Lee McKeone.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?918914",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-09",
+      "format": "mass_market",
+      "isbn13": 9780786905126,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?271655",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905123/" }],
+      "cover": "/images/novels/the-spiders-test/9780786905126.webp"
+    }
+  ]
+}

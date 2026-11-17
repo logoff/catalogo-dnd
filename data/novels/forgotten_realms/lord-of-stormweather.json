@@ -1,0 +1,42 @@
+{
+  "slug": "lord-of-stormweather",
+  "title": "Lord of Stormweather",
+  "authors": ["Dave Gross"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sembia", "number": 5 },
+  "date": "2002-11",
+  "description": "Tras un ataque mágico contra las torres de Stormweather, Tamlin, heredero de los Uskevren, se ve obligado a ponerse al frente de la familia y se convierte en el blanco de quienes ansían la herencia.\n\nNovela de la serie Sembia, de Dave Gross.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24152",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-03",
+      "format": "mass_market",
+      "isbn13": 9780786929320,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14304",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786929324/" }],
+      "cover": "/images/novels/lord-of-stormweather/9780786929320.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-02",
+      "format": "mass_market",
+      "isbn13": 9780786947867,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?240201",
+      "cover": "/images/novels/lord-of-stormweather/9780786947867.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0076Q1G4U/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1G4U/" }]
+    }
+  ]
+}

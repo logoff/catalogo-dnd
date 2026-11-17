@@ -57,6 +57,7 @@ jobs:
           VITE_AFFILIATE_INSTANT_GAMING_REFERRAL: ${{ secrets.AFFILIATE_INSTANT_GAMING_REFERRAL }}
           VITE_AFFILIATE_AWIN_PUBLISHER: ${{ secrets.AFFILIATE_AWIN_PUBLISHER }}
           VITE_AFFILIATE_FANATICAL_PROGRAM: ${{ secrets.AFFILIATE_FANATICAL_PROGRAM }}
+          VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM: ${{ secrets.AFFILIATE_CASA_DEL_LIBRO_PROGRAM }}
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4

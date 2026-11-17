@@ -1,0 +1,156 @@
+{
+  "slug": "servant-of-the-shard",
+  "title": "Servant of the Shard",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-sellswords",
+    "number": 1
+  },
+  "date": "2000-10",
+  "description": "Artemis Entreri domina las calles de Calimport, pero su socio, el drow Jarlaxle, está cada vez más influido por la Piedra de Cristal. Cuando los propios mercenarios de Bregan D'aerthe se vuelven contra su jefe, el asesino y el drow tendrán que confiar el uno en el otro.\n\nAbre la serie de Los mercenarios, protagonizada por Entreri y Jarlaxle.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25042",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-10",
+      "format": "hardcover",
+      "isbn13": 9780786916573,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29643",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786916575/"
+        }
+      ],
+      "cover": "/images/novels/servant-of-the-shard/9780786916573.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-07",
+      "format": "mass_market",
+      "isbn13": 9780786918782,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29644",
+      "cover": "/images/novels/servant-of-the-shard/9780786918782.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-06",
+      "format": "mass_market",
+      "isbn13": 9780786939503,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69854",
+      "cover": "/images/novels/servant-of-the-shard/9780786939503.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-12-02",
+      "format": "paperback",
+      "isbn13": 9798217093304,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1078980"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El siervo de la piedra",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "hardcover",
+      "isbn13": 9788448037352,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1657",
+      "cover": "/images/novels/servant-of-the-shard/9788448037352.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El siervo de la piedra",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725044,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40970",
+      "cover": "/images/novels/servant-of-the-shard/9788448725044.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El siervo de la piedra",
+      "publisher": "Timun Mas",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448037802,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24410",
+      "cover": "/images/novels/servant-of-the-shard/9788448037802.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El siervo de la piedra",
+      "publisher": "Timun Mas",
+      "date": "2010",
+      "format": "mass_market",
+      "isbn13": 9788448038540,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/31646",
+      "cover": "/images/novels/servant-of-the-shard/9788448038540.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El siervo de la piedra",
+      "publisher": "Minotauro",
+      "date": "2024-04-03",
+      "format": "paperback",
+      "isbn13": 9788445011232,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78845",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011235/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-los-mercenarios-n-01-03-el-siervo-de-la-piedra/9788445011232/13658320"
+        }
+      ],
+      "cover": "/images/novels/servant-of-the-shard/9788445011232.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El siervo de la piedra",
+      "publisher": "Minotauro",
+      "date": "2024-04-03",
+      "format": "ebook",
+      "isbn13": 9788445016084,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78846",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0C5DJ38SL/"
+        }
+      ],
+      "cover": "/images/novels/servant-of-the-shard/9788445016084.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B000SEH40M/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B000SEH40M/"
+        }
+      ]
+    }
+  ]
+}

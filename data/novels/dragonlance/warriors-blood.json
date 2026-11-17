@@ -1,0 +1,24 @@
+{
+  "slug": "warriors-blood",
+  "title": "Warrior's Blood",
+  "authors": ["Stephen D. Sullivan"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-goodlund", "number": 2 },
+  "date": "2007-05",
+  "description": "En los desiertos del norte de Solamnia, Catriona sufre la traición de un amigo y el cautiverio, pero también vive un reencuentro largamente esperado.\n\nEs la segunda novela de The Goodlund Trilogy, de la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?197912",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2007-05",
+      "format": "paperback",
+      "isbn13": 9780786943005,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89674",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786943009/" }],
+      "cover": "/images/novels/warriors-blood/9780786943005.webp"
+    }
+  ]
+}

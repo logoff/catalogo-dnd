@@ -1,0 +1,24 @@
+{
+  "slug": "the-ebony-eye",
+  "title": "The Ebony Eye",
+  "authors": ["Jeff Sampson"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-suncatcher", "number": 2 },
+  "date": "2007-03",
+  "description": "Sindri descubre que sus amigos le han mentido y que el cazador que juró apresarlo es ahora un verdadero amigo. En un laberinto mecánico tendrá que aprender en quién puede confiar.\n\nEs la segunda novela de The Suncatcher Trilogy, de la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?197634",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2007-03",
+      "format": "paperback",
+      "isbn13": 9780786942558,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89468",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078694255X/" }],
+      "cover": "/images/novels/the-ebony-eye/9780786942558.webp"
+    }
+  ]
+}

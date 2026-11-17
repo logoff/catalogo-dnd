@@ -1,0 +1,24 @@
+{
+  "slug": "a-dawn-of-dragons",
+  "title": "A Dawn of Dragons",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-young-adult-chronicles", "number": 6 },
+  "date": "2004-03",
+  "description": "Adaptación para lectores jóvenes de la segunda mitad de La reina de la oscuridad, el final de la Guerra de la Lanza.\n\nEs el último de los seis volúmenes que adaptan las Crónicas de la Dragonlance para lectores jóvenes. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?27003",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-03",
+      "format": "paperback",
+      "isbn13": 9780786931026,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?446",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786931027/" }],
+      "cover": "/images/novels/a-dawn-of-dragons/9780786931026.webp"
+    }
+  ]
+}

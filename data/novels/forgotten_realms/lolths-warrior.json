@@ -1,0 +1,44 @@
+{
+  "slug": "lolths-warrior",
+  "title": "Lolth's Warrior",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-way-of-the-drow", "number": 3 },
+  "date": "2023-08",
+  "description": "Menzoberranzan vive una revuelta contra el poder de Lolth, alimentada por la leyenda de Drizzt Do'Urden. El elfo oscuro ya no puede quedarse al margen de la lucha que decidirá el futuro de su pueblo.\n\nCierra la trilogía The Way of the Drow.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3201978",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2023-08-15",
+      "format": "hardcover",
+      "isbn13": 9780063029873,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?958649",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0063029871/" }],
+      "cover": "/images/novels/lolths-warrior/9780063029873.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2023-08-15",
+      "format": "ebook",
+      "isbn13": 9780063029897,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1028863",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0BM9X81YZ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2024-05-07",
+      "format": "paperback",
+      "isbn13": 9780063086012,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1000117",
+      "cover": "/images/novels/lolths-warrior/9780063086012.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "artifact-of-evil",
+  "title": "Artifact of Evil",
+  "authors": ["Gary Gygax"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-gord-the-rogue", "number": 2 },
+  "date": "1986-02",
+  "description": "Gord pasa de sus humildes orígenes a la fama y la fortuna en las tierras de Greyhawk.\n\nSegunda novela de Gord el Pícaro, de Gary Gygax.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17899",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1986-02",
+      "format": "mass_market",
+      "isbn13": 9780880382793,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?16044",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880382791/" }],
+      "cover": "/images/novels/artifact-of-evil/9780880382793.webp"
+    }
+  ]
+}

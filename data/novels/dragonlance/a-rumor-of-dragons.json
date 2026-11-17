@@ -1,0 +1,24 @@
+{
+  "slug": "a-rumor-of-dragons",
+  "title": "A Rumor of Dragons",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-young-adult-chronicles", "number": 1 },
+  "date": "2003-06",
+  "description": "Adaptación para lectores jóvenes de la primera mitad de El retorno de los dragones: los Compañeros se reencuentran en Solace y emprenden la huida que da comienzo a la Guerra de la Lanza.\n\nEs el primero de los seis volúmenes que adaptan las Crónicas de la Dragonlance para lectores a partir de unos diez años, con ilustraciones nuevas. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24019",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-06",
+      "format": "paperback",
+      "isbn13": 9780786930876,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1073",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078693087X/" }],
+      "cover": "/images/novels/a-rumor-of-dragons/9780786930876.webp"
+    }
+  ]
+}

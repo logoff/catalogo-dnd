@@ -1,0 +1,62 @@
+{
+  "slug": "memorys-wake",
+  "title": "Memory's Wake",
+  "authors": ["Django Wexler"],
+  "setting": "spelljammer",
+  "kind": "novel",
+  "date": "2024-06",
+  "description": "En el inmenso vacío del Espacio Fracturado, acosado por saqueadores y aberraciones monstruosas, solo cuenta el poder. Axia intenta sobrevivir en él.\n\nNovela de Spelljammer de Django Wexler.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3330511",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-06-04",
+      "format": "hardcover",
+      "isbn13": 9780593723210,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1014341",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/059372321X/" }],
+      "cover": "/images/novels/memorys-wake/9780593723210.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-06-04",
+      "format": "ebook",
+      "isbn13": 9780593723227,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1050862",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0CW1B6571/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2024-06-04",
+      "format": "ebook",
+      "isbn13": 9781804952481,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1050874"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-03-04",
+      "format": "paperback",
+      "isbn13": 9780593723234,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1041664",
+      "cover": "/images/novels/memorys-wake/9780593723234.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2025-03-06",
+      "format": "paperback",
+      "isbn13": 9781804952474,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1050873",
+      "cover": "/images/novels/memorys-wake/9781804952474.webp"
+    }
+  ]
+}

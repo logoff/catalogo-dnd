@@ -1,0 +1,109 @@
+{
+  "slug": "charons-claw",
+  "title": "Charon's Claw",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-neverwinter",
+    "number": 3
+  },
+  "date": "2012-08",
+  "description": "Dahlia solo piensa en vengarse del noble shadovar Herzgo Alegni. Artemis Entreri, esclavo de la espada Garra de Charon, se une a ella, y Drizzt descubre que su nueva compañera y su viejo enemigo tienen más en común de lo que creía.\n\nTercera novela de la saga Neverwinter.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1456964",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-08-07",
+      "format": "hardcover",
+      "isbn13": 9780786962235,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?390228",
+      "cover": "/images/novels/charons-claw/9780786962235.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-08-07",
+      "format": "ebook",
+      "isbn13": 9780786961429,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467139",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0078XCSRA/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-02-05",
+      "format": "mass_market",
+      "isbn13": 9780786963621,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?408820",
+      "cover": "/images/novels/charons-claw/9780786963621.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-11-10",
+      "format": "paperback",
+      "isbn13": 9798217298846,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1130844"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La garra de Charon",
+      "publisher": "Timun Mas",
+      "date": "2013",
+      "format": "hardcover",
+      "isbn13": 9788448008048,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39542",
+      "cover": "/images/novels/charons-claw/9788448008048.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La garra de Charon",
+      "publisher": "Timun Mas",
+      "date": "2013",
+      "format": "ebook",
+      "isbn13": 9788448015862,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/47036",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00DV4B8BC/"
+        }
+      ],
+      "cover": "/images/novels/charons-claw/9788448015862.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La garra de Charon",
+      "publisher": "Minotauro",
+      "date": "2025-07-02",
+      "format": "paperback",
+      "isbn13": 9788445010921,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84031",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010921/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-neverwinter-n-03-04-la-garra-de-charon/9788445010921/16953148"
+        }
+      ],
+      "cover": "/images/novels/charons-claw/9788445010921.webp"
+    }
+  ]
+}

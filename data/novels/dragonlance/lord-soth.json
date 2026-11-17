@@ -1,0 +1,45 @@
+{
+  "slug": "lord-soth",
+  "title": "Lord Soth",
+  "authors": ["Edo Van Belkom"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-warriors", "number": 6 },
+  "date": "1996-12",
+  "description": "Lord Soth llegó a lo más alto de los Caballeros de Solamnia con un corazón que parecía puro. Esta novela cuenta cómo cayó: unos dicen que por orgullo, otros por lujuria o por codicia, y solo él conoce la verdad.\n\nEs la sexta novela de la serie Warriors y está dedicada al caballero de la muerte más famoso de Dragonlance, que también protagoniza novelas de Ravenloft. Se publicó en castellano como Lord Soth.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?29459",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-12",
+      "format": "mass_market",
+      "isbn13": 9780786905195,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?585457",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905190/" }],
+      "cover": "/images/novels/lord-soth/9780786905195.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-06-19",
+      "format": "ebook",
+      "isbn13": 9780786963416,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466002",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG4FOW/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Lord Soth",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448039370,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/634",
+      "cover": "/images/novels/lord-soth/9788448039370.webp"
+    }
+  ]
+}

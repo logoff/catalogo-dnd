@@ -1,0 +1,23 @@
+{
+  "slug": "war",
+  "title": "War",
+  "authors": ["Simon Hawke"],
+  "setting": "birthright",
+  "kind": "novel",
+  "date": "1996-05",
+  "description": "Los aspirantes al trono de Anuire se enfrentan y el reino cae en la anarquía.\n\nNovela de Birthright de Simon Hawke, continuación de The Iron Throne.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?994557",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-05",
+      "format": "hardcover",
+      "isbn13": 9780786904952,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4569",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078690495X/" }],
+      "cover": "/images/novels/war/9780786904952.webp"
+    }
+  ]
+}

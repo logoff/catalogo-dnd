@@ -1,0 +1,55 @@
+{
+  "slug": "tides-of-blood",
+  "title": "Tides of Blood",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-minotaur-wars", "number": 2 },
+  "date": "2004-04",
+  "description": "El imperio minotauro se alía con los ogros, invade el continente y esclaviza a otras razas, mientras la rebelión crece y un ilustre esclavo minotauro escapa del reino de los ogros.\n\nEs la segunda novela de The Minotaur Wars. En castellano se publicó como Marea sangrienta.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?32580",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-04",
+      "format": "hardcover",
+      "isbn13": 9780786932511,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?51356",
+      "cover": "/images/novels/tides-of-blood/9780786932511.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-04",
+      "format": "mass_market",
+      "isbn13": 9780786936373,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68778",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786936371/" }],
+      "cover": "/images/novels/tides-of-blood/9780786936373.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-20",
+      "format": "ebook",
+      "isbn13": 9780786961948,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476876",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFBXJ2/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Marea sangrienta",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788448033590,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23329",
+      "cover": "/images/novels/tides-of-blood/9788448033590.webp"
+    }
+  ]
+}

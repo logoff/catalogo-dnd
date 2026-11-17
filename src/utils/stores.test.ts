@@ -72,6 +72,12 @@ describe('stores', () => {
     )
   })
 
+  it('Casa del Libro va por Awin y sin IDs se enlaza tal cual', () => {
+    const url =
+      'https://www.casadellibro.com/libro-el-retorno-de-los-dragones/9788445011041/13093434'
+    expect(getPurchaseUrl('casa_del_libro', url)).toBe(url)
+  })
+
   it('withParam respeta los parámetros existentes', () => {
     expect(withParam(`${url}?ref=x`, 'tag', 'a')).toBe(`${url}?ref=x&tag=a`)
   })

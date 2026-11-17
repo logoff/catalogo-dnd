@@ -1,0 +1,148 @@
+{
+  "slug": "dragons-of-a-lost-star",
+  "title": "Dragons of a Lost Star",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-war-of-souls",
+    "number": 2
+  },
+  "date": "2001-04",
+  "description": "Mina avanza al frente de los Caballeros de Neraka y su fe en el Dios Único se extiende por Ansalon, mientras los dragones señores ven amenazado su dominio. Los elfos de Qualinesti y Silvanesti, Goldmoon y los pocos que sospechan de dónde viene el poder de Mina se enfrentan a una guerra que pone en juego el destino de las almas de los muertos.\n\nEs la segunda novela de La guerra de los espíritus y se lee a continuación de Los caballeros de Neraka. Es la parte de la trilogía con más peso para las naciones élficas y prepara el desenlace de la Quinta Era.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24359",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-04",
+      "format": "hardcover",
+      "isbn13": 9780786918171,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11247",
+      "cover": "/images/novels/dragons-of-a-lost-star/9780786918171.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-04",
+      "format": "hardcover",
+      "isbn13": 9780786926107,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11246"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-03",
+      "format": "mass_market",
+      "isbn13": 9780786927067,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11248",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786927062/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-lost-star/9780786927067.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-24",
+      "format": "ebook",
+      "isbn13": 9780786954490,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472870",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004J4WK1A/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-lost-star/9780786954490.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El río de los muertos",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "isbn13": 9788448032203,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2160",
+      "cover": "/images/novels/dragons-of-a-lost-star/9788448032203.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El río de los muertos",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "mass_market",
+      "isbn13": 9788448035327,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23115",
+      "cover": "/images/novels/dragons-of-a-lost-star/9788448035327.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El río de los muertos",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721794,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24275",
+      "cover": "/images/novels/dragons-of-a-lost-star/9788448721794.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El río de los muertos",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038878,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33990",
+      "cover": "/images/novels/dragons-of-a-lost-star/9788448038878.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El río de los muertos",
+      "publisher": "Minotauro",
+      "date": "2024",
+      "format": "paperback",
+      "isbn13": 9788445011478,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78853",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011472/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-guerra-de-los-espiritus-n-02-03-el-rio-de-los-muertos/9788445011478/13658321"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-lost-star/9788445011478.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El río de los muertos",
+      "publisher": "Minotauro",
+      "date": "2024-07-03",
+      "format": "ebook",
+      "isbn13": 9788445015933,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78855",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CXLTCK5N/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-lost-star/9788445015933.webp"
+    }
+  ]
+}

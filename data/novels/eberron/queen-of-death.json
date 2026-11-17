@@ -1,0 +1,24 @@
+{
+  "slug": "queen-of-death",
+  "title": "Queen of Death",
+  "authors": ["Matt Forbeck"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-lost-mark", "number": 3 },
+  "date": "2006-10",
+  "description": "Perseguidos por la Tierra Doliente, capturados en Karrnath y atacados en la guarida de un dragón, los aventureros deciden llevar la lucha al enemigo, y una joven debe aceptar su destino.\n\nCierra la trilogía The Lost Mark.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?338641",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-10",
+      "format": "mass_market",
+      "isbn13": 9780786940127,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?88082",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940123/" }],
+      "cover": "/images/novels/queen-of-death/9780786940127.webp"
+    }
+  ]
+}

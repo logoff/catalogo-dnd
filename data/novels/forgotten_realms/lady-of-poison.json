@@ -1,0 +1,34 @@
+{
+  "slug": "lady-of-poison",
+  "title": "Lady of Poison",
+  "authors": ["Bruce R. Cordell"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-priests", "number": 1 },
+  "date": "2004-07",
+  "description": "Novela de la serie The Priests, aventuras independientes protagonizadas por clérigos de distintos dioses.\n\nPrimera entrega de la serie, de Bruce R. Cordell.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?29354",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-07",
+      "format": "mass_market",
+      "isbn13": 9780786931613,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?19843",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786931612/" }],
+      "cover": "/images/novels/lady-of-poison/9780786931613.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-25",
+      "format": "ebook",
+      "isbn13": 9780786956838,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482363",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S49JQ/" }]
+    }
+  ]
+}

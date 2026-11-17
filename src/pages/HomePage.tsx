@@ -8,6 +8,8 @@ import { useVideogameStore } from '@/store/videogameStore'
 import VideogameCard from '@/components/videogames/VideogameCard'
 import { useMerchandiseStore } from '@/store/merchandiseStore'
 import MerchandiseCard from '@/components/merchandise/MerchandiseCard'
+import NovelCard from '@/components/novels/NovelCard'
+import novelsLatest from 'virtual:novels-latest'
 
 export default function HomePage() {
   const products = useProductStore((state) => state.products)
@@ -41,7 +43,8 @@ export default function HomePage() {
           <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">Catálogo D&D 5E</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             Explora todos los productos oficiales de Dungeons & Dragons 5ª edición (2014) y la nueva
-            edición 5.5 (2024), los videojuegos oficiales y el merchandising con licencia de D&D.
+            edición 5.5 (2024), los videojuegos oficiales, el merchandising con licencia y las
+            novelas de D&D.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/2014" className="btn-secondary">
@@ -55,6 +58,9 @@ export default function HomePage() {
             </Link>
             <Link to="/merchandising" className="btn-secondary">
               Merchandising
+            </Link>
+            <Link to="/novelas" className="btn-secondary">
+              Novelas
             </Link>
           </div>
         </div>
@@ -83,6 +89,10 @@ export default function HomePage() {
             <div className="flex items-center gap-2">
               <span className="font-display text-xl text-dnd-gold">{merchandise.length}</span>
               <span className="text-gray-400">de merchandising</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-display text-xl text-dnd-gold">{novelsLatest.total}</span>
+              <span className="text-gray-400">novelas</span>
             </div>
           </div>
         </div>
@@ -163,6 +173,25 @@ export default function HomePage() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
               {latestMerchandise.map((item) => (
                 <MerchandiseCard key={item.slug} item={item} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Novelas */}
+      {novelsLatest.latest.length > 0 && (
+        <section className="py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="font-display text-2xl text-dnd-gold">Novelas</h2>
+              <Link to="/novelas" className="text-dnd-gold hover:text-dnd-gold-light">
+                Ver todas &rarr;
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
+              {novelsLatest.latest.map((novel) => (
+                <NovelCard key={novel.slug} novel={novel} series={novelsLatest.series} />
               ))}
             </div>
           </div>

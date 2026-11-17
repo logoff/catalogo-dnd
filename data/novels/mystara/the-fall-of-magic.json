@@ -1,0 +1,43 @@
+{
+  "slug": "the-fall-of-magic",
+  "title": "The Fall of Magic",
+  "authors": ["D. J. Heinrich"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-penhaligon", "number": 3 },
+  "date": "1993-10",
+  "description": "Los caballeros de Penhaligon intentan por última vez detener a los ejércitos que han entrado en Mystara a través de un artefacto que está agotando la magia del mundo.\n\nCierra la trilogía de Penhaligon.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17690",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-10",
+      "format": "mass_market",
+      "isbn13": 9781560766636,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11649",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766638/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9780099317616,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38185"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El ocaso de la magia",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "isbn13": 9788448036034,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/993",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448036034/" }],
+      "cover": "/images/novels/the-fall-of-magic/9788448036034.webp"
+    }
+  ]
+}

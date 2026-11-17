@@ -1,0 +1,43 @@
+{
+  "slug": "the-finest-edge-of-twilight",
+  "title": "The Finest Edge of Twilight",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2025-10",
+  "description": "Breezy Do'Urden, hija de Drizzt y Catti-brie, se ha entrenado durante años en el combate, la magia y la Senda de las Sombras, y quiere demostrar que es más que la hija de dos héroes. Mientras ella se prepara en el Monasterio de la Rosa Amarilla, Dahlia Sin'felle busca recuperar el poder a través del vampirismo.\n\nAbre una nueva serie de R. A. Salvatore publicada por Random House Worlds.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3510844",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-10-07",
+      "format": "hardcover",
+      "isbn13": 9780593875261,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1071903",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0593875265/" }],
+      "cover": "/images/novels/the-finest-edge-of-twilight/9780593875261.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-10-07",
+      "format": "ebook",
+      "isbn13": 9780593875278,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1115494",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0F23G6WFJ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-07-07",
+      "format": "paperback",
+      "isbn13": 9780593875285,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1114403",
+      "cover": "/images/novels/the-finest-edge-of-twilight/9780593875285.webp"
+    }
+  ]
+}

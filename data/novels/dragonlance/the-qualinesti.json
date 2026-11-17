@@ -1,0 +1,55 @@
+{
+  "slug": "the-qualinesti",
+  "title": "The Qualinesti",
+  "authors": ["Paul B. Thompson", "Tonya R. Carter"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-elven-nations", "number": 3 },
+  "date": "1991-11",
+  "description": "Kith-Kanan se convierte en el primer Orador de los Soles de los elfos de Qualinesti y su reinado logra grandes triunfos, como el pacto con los enanos de Thorbardin para levantar Pax Tharkas. Pero los recuerdos del pasado, los problemas en su familia y la conducta de su heredero ensombrecen su éxito.\n\nEs la tercera novela de The Elven Nations y cuenta la fundación de Qualinost. En castellano se publicó como Los qualinestis.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?32097",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-11",
+      "format": "mass_market",
+      "isbn13": 9781560761143,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?45747",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560761148/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-05-07",
+      "format": "ebook",
+      "isbn13": 9780786964833,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?930469",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24VKS/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los qualinestis",
+      "publisher": "Timun Mas",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9788448030230,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24508",
+      "cover": "/images/novels/the-qualinesti/9788448030230.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los qualinestis",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448032661,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/257",
+      "cover": "/images/novels/the-qualinesti/9788448032661.webp"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "war-of-the-twins",
+  "title": "War of the Twins",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-legends",
+    "number": 2
+  },
+  "date": "1986-05",
+  "description": "Tras el Cataclismo, Raistlin y Crysania buscan el Portal que lleva al Abismo, el reino de la Reina de la Oscuridad, mientras Caramon descubre hasta dónde está dispuesto a llegar su hermano. El viaje los lleva a las tierras de los enanos, en plena guerra entre los enanos de Thorbardin y los que quedaron fuera de sus puertas.\n\nEs la segunda novela de las Leyendas de la Dragonlance. Narra la Guerra de Puerta de Enanos, un episodio clave de la historia de Krynn, y profundiza en la relación entre los gemelos Majere, el núcleo de la trilogía.",
+  "source": "https://www.penguinrandomhouse.com/books/isbn/9798217094592",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1986-05",
+      "format": "mass_market",
+      "isbn13": 9780880382663,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11166",
+      "cover": "/images/novels/war-of-the-twins/9780880382663.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1987",
+      "format": "mass_market",
+      "isbn13": 9780140101102,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11165",
+      "cover": "/images/novels/war-of-the-twins/9780140101102.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-02",
+      "format": "paperback",
+      "isbn13": 9780786902637,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11218",
+      "cover": "/images/novels/war-of-the-twins/9780786902637.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-02",
+      "format": "mass_market",
+      "isbn13": 9780786918058,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?53747",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786918055/"
+        }
+      ],
+      "cover": "/images/novels/war-of-the-twins/9780786918058.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-06",
+      "format": "hardcover",
+      "isbn13": 9780786932177,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?53746",
+      "cover": "/images/novels/war-of-the-twins/9780786932177.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-24",
+      "format": "ebook",
+      "isbn13": 9780786954421,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472885",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004J4WLCI/"
+        }
+      ],
+      "cover": "/images/novels/war-of-the-twins/9780786954421.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los enanos",
+      "publisher": "Timun Mas",
+      "date": "1988",
+      "format": "hardcover",
+      "isbn13": 9788477221869,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15",
+      "cover": "/images/novels/war-of-the-twins/9788477221869.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los enanos",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9788448030308,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3207",
+      "cover": "/images/novels/war-of-the-twins/9788448030308.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los enanos",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "isbn13": 9788448033712,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12364",
+      "cover": "/images/novels/war-of-the-twins/9788448033712.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los enanos",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448720858,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24513",
+      "cover": "/images/novels/war-of-the-twins/9788448720858.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los enanos",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448001179,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/35440",
+      "cover": "/images/novels/war-of-the-twins/9788448001179.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los enanos",
+      "publisher": "Minotauro",
+      "date": "2022-09-21",
+      "format": "paperback",
+      "isbn13": 9788445011126,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84017",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/844501112X/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-leyendas-de-la-dragonlance-n-02-03-la-guerra-de-los-enanos/9788445011126/13069892"
+        }
+      ],
+      "cover": "/images/novels/war-of-the-twins/9788445011126.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los enanos",
+      "publisher": "Minotauro",
+      "date": "2022-09-21",
+      "format": "ebook",
+      "isbn13": 9788445014066,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84018",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B88P29RT/"
+        }
+      ],
+      "cover": "/images/novels/war-of-the-twins/9788445014066.webp"
+    }
+  ]
+}

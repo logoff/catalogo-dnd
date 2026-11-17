@@ -1,0 +1,44 @@
+{
+  "slug": "dragon-forge",
+  "title": "Dragon Forge",
+  "authors": ["James Wyatt"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-draconic-prophecies", "number": 2 },
+  "date": "2008-06",
+  "description": "Continúa la historia de Gaven y la Profecía Dracónica.\n\nSegunda novela de la trilogía The Draconic Prophecies, de James Wyatt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?829316",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-06-03",
+      "format": "hardcover",
+      "isbn13": 9780786948703,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250211",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786948701/" }],
+      "cover": "/images/novels/dragon-forge/9780786948703.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-04-07",
+      "format": "mass_market",
+      "isbn13": 9780786951055,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?348467",
+      "cover": "/images/novels/dragon-forge/9780786951055.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-14",
+      "format": "ebook",
+      "isbn13": 9780786955800,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483444",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034DGPL8/" }]
+    }
+  ]
+}

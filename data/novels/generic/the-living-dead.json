@@ -1,0 +1,34 @@
+{
+  "slug": "the-living-dead",
+  "title": "The Living Dead",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 2 },
+  "date": "2002-08",
+  "description": "Unas partidas de caza de una aldea élfica desaparecen, y lo mismo ocurre en un asentamiento enano al otro lado de las montañas. Cada pueblo culpa al otro, y solo un grupo de héroes puede descubrir quién mueve los hilos.\n\nNovela de la serie Iconics (T. H. Lain).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24710",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-05",
+      "format": "mass_market",
+      "isbn13": 9780786928484,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43207",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786928484/" }],
+      "cover": "/images/novels/the-living-dead/9780786928484.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-06-25",
+      "format": "ebook",
+      "isbn13": 9780786965052,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458557",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONWX4/" }]
+    }
+  ]
+}

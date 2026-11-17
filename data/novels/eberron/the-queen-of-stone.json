@@ -1,0 +1,34 @@
+{
+  "slug": "the-queen-of-stone",
+  "title": "The Queen of Stone",
+  "authors": ["Keith Baker"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-thorn-of-breland", "number": 1 },
+  "date": "2008-11",
+  "description": "Thorn, agente de los Faroles Oscuros al servicio de la corona de Breland, recibe una nueva misión.\n\nPrimera novela de la trilogía Thorn of Breland, de Keith Baker.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?876608",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11",
+      "format": "mass_market",
+      "isbn13": 9780786950096,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261415",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786950099/" }],
+      "cover": "/images/novels/the-queen-of-stone/9780786950096.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-06",
+      "format": "ebook",
+      "isbn13": 9780786956500,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483468",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00333FGIW/" }]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "dark-knight-of-karameikos",
+  "title": "Dark Knight of Karameikos",
+  "authors": ["Timothy Brown"],
+  "setting": "mystara",
+  "kind": "novel",
+  "date": "1995-10",
+  "description": "Confundido con un forajido, Grygory, un caballero al servicio de un señor de Karameikos, acaba en prisión, donde se hace amigo de un ladrón y encuentra aliados para enfrentarse al caballero oscuro.\n\nNovela de Mystara de Timothy Brown.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1040477",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-10",
+      "format": "mass_market",
+      "isbn13": 9780786903078,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?298640",
+      "cover": "/images/novels/dark-knight-of-karameikos/9780786903078.webp"
+    }
+  ]
+}

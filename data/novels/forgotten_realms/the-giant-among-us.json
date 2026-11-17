@@ -1,0 +1,43 @@
+{
+  "slug": "the-giant-among-us",
+  "title": "The Giant Among Us",
+  "authors": ["Troy Denning"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-twilight-giants", "number": 2 },
+  "date": "1995-02",
+  "description": "Brianna de Hartwick y sus protectores, perseguidos por los ogros y los gigantes de dos cabezas, sufren las consecuencias de antiguos pactos.\n\nSegunda novela de la trilogía de los Gigantes del Crepúsculo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18892",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-02",
+      "format": "mass_market",
+      "isbn13": 9780786900985,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14349",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786900989/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-07",
+      "format": "mass_market",
+      "isbn13": 9780786937585,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69875",
+      "cover": "/images/novels/the-giant-among-us/9780786937585.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-10-18",
+      "format": "ebook",
+      "isbn13": 9780786961559,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475679",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005K98QZM/" }]
+    }
+  ]
+}

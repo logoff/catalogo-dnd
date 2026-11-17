@@ -1,0 +1,79 @@
+{
+  "slug": "maestro",
+  "title": "Maestro",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-homecoming",
+    "number": 2
+  },
+  "date": "2016-04",
+  "description": "Los demonios campan por la Antípoda Oscura y Drizzt vuelve a Menzoberranzan, la ciudad de la que huyó de joven. Mientras Catti-brie y Gromph buscan cómo contener al primordial de Gauntlgrym, Jarlaxle mueve los hilos de todos.\n\nSegunda novela de La vuelta a casa.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1978954",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2016-04-05",
+      "format": "hardcover",
+      "isbn13": 9780786965915,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?562124",
+      "cover": "/images/novels/maestro/9780786965915.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2016-04-05",
+      "format": "ebook",
+      "isbn13": 9780786966028,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?568978",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01BRFKMGI/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Maestro",
+      "publisher": "Minotauro",
+      "date": "2023-07-12",
+      "format": "hardcover",
+      "isbn13": 9788445014677,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/77346",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014676/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-vuelta-a-casa-n-02-03-maestro/9788445014677/13658326"
+        }
+      ],
+      "cover": "/images/novels/maestro/9788445014677.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Maestro",
+      "publisher": "Minotauro",
+      "date": "2023-07-12",
+      "format": "ebook",
+      "isbn13": 9788445015988,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78834",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0C5DGK5L2/"
+        }
+      ],
+      "cover": "/images/novels/maestro/9788445015988.webp"
+    }
+  ]
+}

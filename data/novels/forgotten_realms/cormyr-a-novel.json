@@ -1,0 +1,65 @@
+{
+  "slug": "cormyr-a-novel",
+  "title": "Cormyr: A Novel",
+  "authors": ["Ed Greenwood", "Jeff Grubb"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-cormyr-saga", "number": 1 },
+  "date": "1996-07",
+  "description": "El rey Azoun IV de Cormyr yace víctima de una enfermedad mortal y hay quien duda de la lealtad de su mago consejero, Vangerdahast. Toda la historia del reino se despliega en paralelo.\n\nPrimera novela de la saga de Cormyr, de Ed Greenwood y Jeff Grubb.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?404781",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-07",
+      "format": "hardcover",
+      "isbn13": 9780786905034,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?184657",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905034/" }],
+      "cover": "/images/novels/cormyr-a-novel/9780786905034.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-04",
+      "format": "mass_market",
+      "isbn13": 9780786907106,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8003",
+      "cover": "/images/novels/cormyr-a-novel/9780786907106.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cormyr",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "hardcover",
+      "isbn13": 9788448037277,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1007",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037278/" }],
+      "cover": "/images/novels/cormyr-a-novel/9788448037277.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cormyr",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723842,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/32569",
+      "cover": "/images/novels/cormyr-a-novel/9788448723842.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0060B6IMC/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6IMC/" }]
+    }
+  ]
+}

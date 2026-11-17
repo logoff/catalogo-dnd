@@ -1,0 +1,167 @@
+{
+  "slug": "the-halflings-gem",
+  "title": "The Halfling's Gem",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-icewind-dale",
+    "number": 3
+  },
+  "date": "1990-01",
+  "description": "Artemis Entreri ha secuestrado a Regis y lo lleva a Calimport para entregarlo al bajá Pook. Drizzt, oculto tras una máscara mágica que disimula su raza, y Wulfgar viajan hacia el sur por la Costa de la Espada para rescatar a su amigo, sin saber si Bruenor y Catti-brie siguen con vida.\n\nCierra la trilogía del valle del Viento Helado. Fue el primer libro de Salvatore que entró en la lista de más vendidos de The New York Times.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12808",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-01",
+      "format": "mass_market",
+      "isbn13": 9780880389013,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?319197",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/088038901X/"
+        }
+      ],
+      "cover": "/images/novels/the-halflings-gem/9780880389013.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-05",
+      "format": "mass_market",
+      "isbn13": 9780140127881,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14350"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-11",
+      "format": "hardcover",
+      "isbn13": 9780786938254,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?72994",
+      "cover": "/images/novels/the-halflings-gem/9780786938254.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-08",
+      "format": "mass_market",
+      "isbn13": 9780786942893,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?148071",
+      "cover": "/images/novels/the-halflings-gem/9780786942893.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954063,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486732",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002DNZGJ2/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-09-24",
+      "format": "paperback",
+      "isbn13": 9780593873113,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1016912",
+      "cover": "/images/novels/the-halflings-gem/9780593873113.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La gema del halfling",
+      "publisher": "Timun Mas",
+      "date": "1991",
+      "format": "mass_market",
+      "isbn13": 9788477225768,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/97",
+      "cover": "/images/novels/the-halflings-gem/9788477225768.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La gema del halfling",
+      "publisher": "Timun Mas",
+      "date": "2007",
+      "isbn13": 9788448037871,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15804",
+      "cover": "/images/novels/the-halflings-gem/9788448037871.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La gema del Halfling",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723835,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37057",
+      "cover": "/images/novels/the-halflings-gem/9788448723835.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La gema del halfling",
+      "publisher": "Timun Mas",
+      "date": "2013",
+      "format": "ebook",
+      "isbn13": 9788448008383,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/47235",
+      "cover": "/images/novels/the-halflings-gem/9788448008383.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La gema del halfling",
+      "publisher": "Minotauro",
+      "date": "2022-10-05",
+      "format": "paperback",
+      "isbn13": 9788445011188,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84002",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011189/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-valle-del-viento-helado-n-03-03-la-gema-del-halfling/9788445011188/13214260"
+        }
+      ],
+      "cover": "/images/novels/the-halflings-gem/9788445011188.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La gema del halfling",
+      "publisher": "Minotauro",
+      "date": "2022-10-05",
+      "format": "ebook",
+      "isbn13": 9788445014172,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84003",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B6CJ23BW/"
+        }
+      ],
+      "cover": "/images/novels/the-halflings-gem/9788445014172.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "wizards-betrayal",
+  "title": "Wizard's Betrayal",
+  "authors": ["Jeff Sampson"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-trinistyr", "number": 2 },
+  "date": "2006-01",
+  "description": "Un mapa antiguo revela otro secreto familiar: para recuperar la magia de su familia y el poder sanador del Trinistyr, Nearra debe revivir el sufrimiento de otros dos magos traicionados por su antepasado. Su viaje la lleva a Tarsis, vigilada de cerca por dos magos elfos y un clérigo oscuro.\n\nEs la segunda novela de The Trinistyr Trilogy, de la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?179684",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2006-01-10",
+      "format": "mass_market",
+      "isbn13": 9780786939930,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?80809",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786939931/" }],
+      "cover": "/images/novels/wizards-betrayal/9780786939930.webp"
+    }
+  ]
+}

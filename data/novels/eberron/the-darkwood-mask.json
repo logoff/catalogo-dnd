@@ -1,0 +1,34 @@
+{
+  "slug": "the-darkwood-mask",
+  "title": "The Darkwood Mask",
+  "authors": ["Jeff LaSala"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-inquisitives", "number": 3 },
+  "date": "2008-03",
+  "description": "Un diplomático ha sido asesinado y un inocente acusado. Una joven inquisitiva recibe el caso, pero la corrupción y el poder se interponen.\n\nCierra la serie The Inquisitives, de Jeff LaSala.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?881909",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-03-04",
+      "format": "mass_market",
+      "isbn13": 9780786949700,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?241421",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786949708/" }],
+      "cover": "/images/novels/the-darkwood-mask/9780786949700.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-20",
+      "format": "ebook",
+      "isbn13": 9780786962808,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464225",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007369ZSW/" }]
+    }
+  ]
+}

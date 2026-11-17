@@ -1,0 +1,24 @@
+{
+  "slug": "the-broken-blade",
+  "title": "The Broken Blade",
+  "authors": ["Simon Hawke"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-chronicles-of-athas", "number": 3 },
+  "date": "1995-05",
+  "description": "Sorak busca a la Alianza Velada en Altaruk con su amada Ryana y con Galdra, la legendaria espada de los reyes elfos.\n\nNovela de las Crónicas de Athas, de Simon Hawke.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?5042",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-05",
+      "format": "mass_market",
+      "isbn13": 9780786901371,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8956",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901373/" }],
+      "cover": "/images/novels/the-broken-blade/9780786901371.webp"
+    }
+  ]
+}

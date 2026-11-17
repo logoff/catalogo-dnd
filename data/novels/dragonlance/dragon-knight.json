@@ -1,0 +1,24 @@
+{
+  "slug": "dragon-knight",
+  "title": "Dragon Knight",
+  "authors": ["Dan Willis"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-new-adventures", "number": 7 },
+  "date": "2005-05",
+  "description": "Los jóvenes compañeros de la serie continúan sus aventuras en la época dorada de Krynn, en una historia pensada para lectores a partir de unos diez años.\n\nEs la séptima novela de Dragonlance: The New Adventures, la serie juvenil de Mirrorstone con protagonistas nuevos. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?167822",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2005-05",
+      "format": "paperback",
+      "isbn13": 9780786937356,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68957",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786937351/" }],
+      "cover": "/images/novels/dragon-knight/9780786937356.webp"
+    }
+  ]
+}

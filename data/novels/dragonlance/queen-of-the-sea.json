@@ -1,0 +1,24 @@
+{
+  "slug": "queen-of-the-sea",
+  "title": "Queen of the Sea",
+  "authors": ["Ree Soesbee"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-elements", "number": 2 },
+  "date": "2007-07",
+  "description": "Una tempestad amenaza Palanthas y el Cónclave vuelve a enviar a Nearra en busca de la Reina del Mar y del Pilar del Agua, mientras la Cábala Creciente trama sus planes y su hermana Jirah sirve a un dios desconocido.\n\nEs la segunda novela de The Elements Trilogy, de la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1111859",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2007-07-10",
+      "format": "paperback",
+      "isbn13": 9780786942817,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?316465",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942819/" }],
+      "cover": "/images/novels/queen-of-the-sea/9780786942817.webp"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "song-of-the-saurials",
+  "title": "Song of the Saurials",
+  "authors": ["Kate Novak", "Jeff Grubb"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-finders-stone", "number": 3 },
+  "date": "1991-03",
+  "description": "Alias, Dragonbait y Olive Ruskettle vuelven a reunirse en una aventura que lleva a Dragonbait de regreso al mundo de los saurios.\n\nCierra la trilogía de la Piedra del Buscador, de Kate Novak y Jeff Grubb.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15928",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-03",
+      "format": "mass_market",
+      "isbn13": 9781560760603,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14329"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-09",
+      "format": "mass_market",
+      "isbn13": 9780140159660,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14328"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-22",
+      "format": "ebook",
+      "isbn13": 9780786963263,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465430",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG4LPA/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El cántico de los saurios",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "mass_market",
+      "isbn13": 9788477228813,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/238",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477228817/" }],
+      "cover": "/images/novels/song-of-the-saurials/9788477228813.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El cántico de los saurios",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726133,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36934",
+      "cover": "/images/novels/song-of-the-saurials/9788448726133.webp"
+    }
+  ]
+}

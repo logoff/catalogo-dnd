@@ -1,0 +1,55 @@
+{
+  "slug": "the-amber-enchantress",
+  "title": "The Amber Enchantress",
+  "authors": ["Troy Denning"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-prism-pentad", "number": 3 },
+  "date": "1992-10",
+  "description": "Amada por Rikus y por Agis, Sadira duda entre el poder oscuro de la hechicería y la magia que protege la frágil ecología de Athas.\n\nNovela del Pentad del Prisma, de Troy Denning.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18899",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-10",
+      "format": "mass_market",
+      "isbn13": 9781560762362,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8953",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560762365/" }],
+      "cover": "/images/novels/the-amber-enchantress/9781560762362.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-01-06",
+      "format": "paperback",
+      "isbn13": 9780786950591,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261589",
+      "cover": "/images/novels/the-amber-enchantress/9780786950591.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-27",
+      "format": "ebook",
+      "isbn13": 9780786961160,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474970",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005DXOREY/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La hechicera Sadira",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788477228851,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1047",
+      "cover": "/images/novels/the-amber-enchantress/9788477228851.webp"
+    }
+  ]
+}

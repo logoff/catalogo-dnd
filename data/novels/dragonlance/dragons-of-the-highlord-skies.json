@@ -1,0 +1,118 @@
+{
+  "slug": "dragons-of-the-highlord-skies",
+  "title": "Dragons of the Highlord Skies",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-lost-chronicles",
+    "number": 2
+  },
+  "date": "2007-07",
+  "description": "Mientras la guerra contra los Señores de los Dragones se extiende, Laurana se convierte en la líder que los ejércitos de Solamnia necesitan y Kitiara, la Señora del Dragón Azul, mueve sus propias piezas entre las intrigas de los suyos. Un orbe de los dragones y el regreso de los dragones del bien están en el centro de la historia.\n\nEs la segunda novela de Las crónicas perdidas y transcurre durante los hechos de La tumba de Huma, con Laurana y Kitiara como protagonistas. Completa uno de los huecos más comentados de las Crónicas originales.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?386361",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-07",
+      "format": "hardcover",
+      "isbn13": 9780786943333,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?146891",
+      "cover": "/images/novels/dragons-of-the-highlord-skies/9780786943333.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-01",
+      "format": "mass_market",
+      "isbn13": 9780786948604,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?239641",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786948604/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-highlord-skies/9780786948604.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-07-07",
+      "format": "ebook",
+      "isbn13": 9780786954452,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486362",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002FQOI2S/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-highlord-skies/9780786954452.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El orbe de los dragones",
+      "publisher": "Timun Mas",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448036492,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24848",
+      "cover": "/images/novels/dragons-of-the-highlord-skies/9788448036492.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El orbe de los dragones",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006907,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38449",
+      "cover": "/images/novels/dragons-of-the-highlord-skies/9788448006907.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El orbe de los dragones",
+      "publisher": "Minotauro",
+      "date": "2023-04-12",
+      "format": "paperback",
+      "isbn13": 9788445011447,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/74334",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011448/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cronicas-perdidas-n-02-03-el-orbe-de-los-dragones/9788445011447/13525933"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-highlord-skies/9788445011447.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El orbe de los dragones",
+      "publisher": "Minotauro",
+      "date": "2023-04-12",
+      "format": "ebook",
+      "isbn13": 9788445015612,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/80168",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BXY75FLV/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-highlord-skies/9788445015612.webp"
+    }
+  ]
+}

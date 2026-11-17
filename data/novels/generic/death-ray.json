@@ -1,0 +1,43 @@
+{
+  "slug": "death-ray",
+  "title": "Death Ray",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 10 },
+  "date": "2003-12",
+  "description": "Regdar, oficial de la Guardia Ducal de Nueva Koratia, investiga la muerte de los pretendientes de la hija del duque, asesinados por una fuerza invisible.\n\nÚltima novela de la serie Iconics (T. H. Lain).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1071764",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "mass_market",
+      "isbn13": 9780786930302,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?305882",
+      "cover": "/images/novels/death-ray/9780786930302.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-06-18",
+      "format": "ebook",
+      "isbn13": 9780786965038,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458555",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONWOI/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rayo mortal",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496262812,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/13942",
+      "cover": "/images/novels/death-ray/9788496262812.webp"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-fire-rose",
+  "title": "The Fire Rose",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-ogre-titans", "number": 2 },
+  "date": "2008-12",
+  "description": "Golgren, ya Gran Khan de los ogros, tiene que abandonarlo todo para buscar la Rosa de Fuego, un artefacto que podría salvar o destruir su imperio y que los Titanes también ansían.\n\nEs la segunda novela de The Ogre Titans. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?876811",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-12-02",
+      "format": "mass_market",
+      "isbn13": 9780786949687,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261537",
+      "cover": "/images/novels/the-fire-rose/9780786949687.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-06",
+      "format": "ebook",
+      "isbn13": 9780786956425,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483465",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001FA0J3C/" }]
+    }
+  ]
+}

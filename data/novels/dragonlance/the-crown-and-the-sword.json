@@ -1,0 +1,45 @@
+{
+  "slug": "the-crown-and-the-sword",
+  "title": "The Crown and the Sword",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-rise-of-solamnia", "number": 2 },
+  "date": "2006-06",
+  "description": "Libre de una terrible acusación, sir Jaymes Markham ha levantado un ejército de caballeros solámnicos y libera el oeste del país de las hordas bárbaras, mientras la ciudad de Solanthus sufre un duro asedio.\n\nEs la segunda novela de El despertar de Solamnia. Se publicó en castellano como La corona y la espada.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?182109",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-06",
+      "format": "mass_market",
+      "isbn13": 9780786937882,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83232",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786937882/" }],
+      "cover": "/images/novels/the-crown-and-the-sword/9780786937882.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-06",
+      "format": "ebook",
+      "isbn13": 9780786962709,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038459",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076PGL9G/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La corona y la espada",
+      "publisher": "Timun Mas",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448044077,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24597",
+      "cover": "/images/novels/the-crown-and-the-sword/9788448044077.webp"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-fractured-sky",
+  "title": "The Fractured Sky",
+  "authors": ["Thomas M. Reid"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-empyrean-odyssey", "number": 2 },
+  "date": "2008-11",
+  "description": "Kaanyr Vhok llega por fin al corazón de Celestia con Aliisza, solo para descubrir que la Casa de la Tríada se desmorona y que tendrá que ayudar a salvarla.\n\nSegunda novela de la trilogía Empyrean Odyssey.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?876581",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11-04",
+      "format": "mass_market",
+      "isbn13": 9780786948079,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261388",
+      "cover": "/images/novels/the-fractured-sky/9780786948079.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-12",
+      "format": "ebook",
+      "isbn13": 9780786956173,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483458",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001ANYCTQ/" }]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-shard-axe",
+  "title": "The Shard Axe",
+  "authors": ["Marsheila Rockwell"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-shard-axe", "number": 1 },
+  "date": "2011-09",
+  "description": "Novela de Eberron de Marsheila Rockwell.\n\nNo tiene edición en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1311804",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-06",
+      "format": "mass_market",
+      "isbn13": 9780786958597,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?357973",
+      "cover": "/images/novels/the-shard-axe/9780786958597.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-06",
+      "format": "ebook",
+      "isbn13": 9780786959334,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474999",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKTHK/" }]
+    }
+  ]
+}

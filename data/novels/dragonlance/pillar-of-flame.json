@@ -1,0 +1,24 @@
+{
+  "slug": "pillar-of-flame",
+  "title": "Pillar of Flame",
+  "authors": ["Ree Soesbee"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-elements", "number": 1 },
+  "date": "2007-01",
+  "description": "Todos los fuegos de Kenderhome se han apagado y el Cónclave de Hechiceros encarga a Nearra, que aún no es maga, restaurar la magia del fuego en Krynn.\n\nEs la primera novela de The Elements Trilogy, que continúa la historia de Nearra en la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?197521",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2007-01",
+      "format": "paperback",
+      "isbn13": 9780786942480,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89355",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942487/" }],
+      "cover": "/images/novels/pillar-of-flame/9780786942480.webp"
+    }
+  ]
+}

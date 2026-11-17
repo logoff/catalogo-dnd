@@ -1,0 +1,117 @@
+{
+  "slug": "condemnation",
+  "title": "Condemnation",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-war-of-the-spider-queen",
+    "number": 3
+  },
+  "date": "2003-05",
+  "description": "La guerra civil entre los drows se extiende por la Antípoda Oscura.\n\nTercera novela de La guerra de la Reina Araña, de Richard Baker.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24011",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-05",
+      "format": "hardcover",
+      "isbn13": 9780786928248,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7845",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786928247/"
+        }
+      ],
+      "cover": "/images/novels/condemnation/9780786928248.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-05",
+      "format": "mass_market",
+      "isbn13": 9780786932023,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7846",
+      "cover": "/images/novels/condemnation/9780786932023.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-18",
+      "format": "ebook",
+      "isbn13": 9780786956715,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482349",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0036S4DV0/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Condenación",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "hardcover",
+      "isbn13": 9788448037536,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/13399",
+      "cover": "/images/novels/condemnation/9788448037536.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Condenación",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726560,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/41000",
+      "cover": "/images/novels/condemnation/9788448726560.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Condenación",
+      "publisher": "Minotauro",
+      "date": "2026-11-18",
+      "format": "paperback",
+      "isbn13": 9788445010808,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/87637",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010808/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-guerra-de-la-reina-arana-n-03-06-condenacion/9788445010808/18585902"
+        }
+      ],
+      "cover": "/images/novels/condemnation/9788445010808.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Condenación",
+      "publisher": "Minotauro",
+      "date": "2026-11-18",
+      "format": "ebook",
+      "isbn13": 9788445023051,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/87638",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0HKS3P24P/"
+        }
+      ],
+      "cover": "/images/novels/condemnation/9788445023051.webp"
+    }
+  ]
+}

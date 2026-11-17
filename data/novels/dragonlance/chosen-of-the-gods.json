@@ -1,0 +1,24 @@
+{
+  "slug": "chosen-of-the-gods",
+  "title": "Chosen of the Gods",
+  "authors": ["Chris Pierson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-kingpriest", "number": 1 },
+  "date": "2001-11",
+  "description": "La muerte del Príncipe de los Sacerdotes de Istar desata una lucha feroz por su sucesión entre aspirantes y verdaderos creyentes, en el imperio más poderoso de Krynn antes del Cataclismo.\n\nEs la primera novela de la trilogía The Kingpriest, que cuenta el ascenso del Príncipe de los Sacerdotes cuya soberbia provocaría el Cataclismo. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24857",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-11",
+      "format": "mass_market",
+      "isbn13": 9780786919024,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?6965",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786919027/" }],
+      "cover": "/images/novels/chosen-of-the-gods/9780786919024.webp"
+    }
+  ]
+}

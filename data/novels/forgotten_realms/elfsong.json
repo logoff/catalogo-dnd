@@ -1,0 +1,78 @@
+{
+  "slug": "elfsong",
+  "title": "Elfsong",
+  "authors": ["Elaine Cunningham"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-songs-and-swords", "number": 2 },
+  "date": "1994-01",
+  "description": "Danilo Thann y Arilyn Hojaluna vuelven a trabajar juntos en Aguas Profundas.\n\nSegunda novela de las aventuras de Arilyn y Danilo, de Elaine Cunningham.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19096",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-01",
+      "format": "mass_market",
+      "isbn13": 9781560766797,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14292",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766794/" }],
+      "cover": "/images/novels/elfsong/9781560766797.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-04",
+      "format": "mass_market",
+      "isbn13": 9780786916610,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?230209",
+      "cover": "/images/novels/elfsong/9780786916610.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-20",
+      "format": "ebook",
+      "isbn13": 9780786959686,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475052",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZOCLO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Canción élfica",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "mass_market",
+      "isbn13": 9788448037291,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1863",
+      "cover": "/images/novels/elfsong/9788448037291.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Canción élfica",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723651,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24081",
+      "cover": "/images/novels/elfsong/9788448723651.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Canción élfica",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038793,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33636",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038797/" }],
+      "cover": "/images/novels/elfsong/9788448038793.webp"
+    }
+  ]
+}

@@ -6,8 +6,9 @@ para trabajar con el código de este repositorio.
 ## Resumen del proyecto
 
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
-para las ediciones 5E (2014) y 5.5E (2024), y de todos los videojuegos
-oficiales de D&D. Se despliega en Cloudflare Pages en
+para las ediciones 5E (2014) y 5.5E (2024), de todos los videojuegos
+oficiales de D&D, del merchandising con licencia y de las novelas
+oficiales. Se despliega en Cloudflare Pages en
 <https://catalogodnd.es/>.
 
 ## Comandos
@@ -33,6 +34,10 @@ recetas disponibles.
   vídeos de los videojuegos
 - `just check-videos` — Avisa de vídeos retirados, no empotrables o de
   otro canal (en Actions, sin bloquear)
+- `just novel-covers <slug> <isbn>=<url>…` — Descarga las portadas de las
+  ediciones de una novela, las convierte a WebP con miniatura y las anota
+  en su ficha (`--openlibrary` para las que falten, `--series <id>` para
+  los recopilatorios)
 - `just screenshots <slug> --steam` — Descarga capturas oficiales de un
   videojuego, las convierte a WebP y las anota en su ficha (`--source
 <página> <url>…` para GOG, webs oficiales o kits de prensa)
@@ -86,10 +91,30 @@ de castellano indican si salieron en España (`spain`).
 cada ficha esté en ella y al revés). Para dar de alta artículos, usar la
 skill `add-merchandise`.
 
+**Novelas:** todas las novelas oficiales de D&D en inglés (desde 1978)
+con todas sus ediciones en inglés y en castellano. Cada novela es un JSON
+en `data/novels/<mundo>/<slug>.json` (esquema
+`data/schemas/novel.jsonschema`); las series y sus recopilatorios
+(volúmenes con varias novelas, que se guardan una sola vez) están en
+`data/novels/series.json`. Las antologías de relatos no tienen ficha:
+están en `data/novels/anthologies.json` (esquema
+`novel-anthology.jsonschema`) y se muestran en las fichas de las novelas
+de las series o novelas con las que se relacionan. Son cientos de fichas,
+así que sus datos no van en el bundle principal: un plugin de `vite.config.ts` genera
+`virtual:novels-index` (índice ligero del listado, en un trozo aparte) y
+`virtual:novels-latest` (total y últimas, para la portada); cada ficha y
+`series.json` son trozos aparte. Las páginas leen de la caché síncrona de
+`novelLoader.ts` (`useNovelIndex`, `useNovel`); `entry-server.tsx` la
+llena entera y `main.tsx` precarga lo de la ruta antes de hidratar.
+`data/novels/inventory.md` es la lista maestra (un test exige que cada
+ficha esté en ella y al revés). Para dar de alta novelas, usar la skill
+`add-novel`.
+
 **Rutas:** `/catalogo` (catálogo completo), `/2014` y `/2024` (páginas
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
 de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandising`
-(listado) y `/merchandising/:slug` (ficha).
+(listado), `/merchandising/:slug` (ficha), `/novelas` (listado, con
+`?mundo=` y `?serie=`) y `/novela/:slug` (ficha).
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
 cada tienda (Amazon, Adtraction, Awin, Instant Gaming); los JSON guardan

@@ -1,0 +1,45 @@
+{
+  "slug": "knights-of-the-rose",
+  "title": "Knights of the Rose",
+  "authors": ["Roland Green"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-warriors", "number": 5 },
+  "date": "1996-07",
+  "description": "Tras la Corona y la Espada, sir Pirvan aspira a la Orden de la Rosa, la más alta de los Caballeros de Solamnia, en un tiempo en que muchos caballeros se han vuelto corruptos y egoístas.\n\nEs la quinta novela de la serie Warriors y la tercera de sir Pirvan. En castellano se publicó como Sir Pirvan Wayward.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18007",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-07",
+      "format": "mass_market",
+      "isbn13": 9780786905027,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11193",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905026/" }],
+      "cover": "/images/novels/knights-of-the-rose/9780786905027.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-06-19",
+      "format": "ebook",
+      "isbn13": 9780786963409,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465965",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RHD614/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Sir Pirvan Wayward",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "mass_market",
+      "isbn13": 9788448032418,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2438",
+      "cover": "/images/novels/knights-of-the-rose/9788448032418.webp"
+    }
+  ]
+}

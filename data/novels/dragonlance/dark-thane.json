@@ -1,0 +1,23 @@
+{
+  "slug": "dark-thane",
+  "title": "Dark Thane",
+  "authors": ["Jeff Crook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-age-of-mortals", "number": 3 },
+  "date": "2003-11",
+  "description": "Cuarenta años después de la Guerra de Caos, la guerra vuelve a Thorbardin y su joven líder, Tarn Bellowsgranite, rompe con la tradición para tender la mano a viejos enemigos, mientras un sacerdote y una hechicera conspiran contra él.\n\nEs una novela de la serie Age of Mortals sobre los enanos de Krynn. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24326",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-11",
+      "format": "mass_market",
+      "isbn13": 9780786929412,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8978",
+      "cover": "/images/novels/dark-thane/9780786929412.webp"
+    }
+  ]
+}

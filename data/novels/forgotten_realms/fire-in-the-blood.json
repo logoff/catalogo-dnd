@@ -1,0 +1,44 @@
+{
+  "slug": "fire-in-the-blood",
+  "title": "Fire in the Blood",
+  "authors": ["Erin M. Evans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-brimstone-angels", "number": 3 },
+  "date": "2014-10",
+  "description": "La joven bruja Farideh cae en plena lucha por el trono de Cormyr mientras la guerra de la Fractura arrasa Faerûn.\n\nNovela de la serie Brimstone Angels, continuación de The Adversary.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1765903",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-10-14",
+      "format": "hardcover",
+      "isbn13": 9780786965298,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?471695",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786965290/" }],
+      "cover": "/images/novels/fire-in-the-blood/9780786965298.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-10-14",
+      "format": "ebook",
+      "isbn13": 9780786965526,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?518045",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00JTA9YNQ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-08-04",
+      "format": "mass_market",
+      "isbn13": 9780786965694,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?521191",
+      "cover": "/images/novels/fire-in-the-blood/9780786965694.webp"
+    }
+  ]
+}

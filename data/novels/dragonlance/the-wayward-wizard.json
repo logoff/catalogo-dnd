@@ -1,0 +1,23 @@
+{
+  "slug": "the-wayward-wizard",
+  "title": "The Wayward Wizard",
+  "authors": ["Jeff Sampson"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-suncatcher", "number": 1 },
+  "date": "2006-09",
+  "description": "Todo el mundo sabe que los kender no pueden usar la magia, pero Sindri Suncatcher, aprendiz del mago de la Túnica Negra Maddoc, sí. Hasta que un desconocido interrumpe su entrenamiento y empiezan a perseguirlo monstruos extraños.\n\nEs la primera novela de The Suncatcher Trilogy, que continúa la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?184684",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2006-09-12",
+      "format": "mass_market",
+      "isbn13": 9780786941636,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?85763",
+      "cover": "/images/novels/the-wayward-wizard/9780786941636.webp"
+    }
+  ]
+}

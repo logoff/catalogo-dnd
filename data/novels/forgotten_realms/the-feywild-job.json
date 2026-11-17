@@ -1,0 +1,43 @@
+{
+  "slug": "the-feywild-job",
+  "title": "The Feywild Job",
+  "authors": ["C. L. Polk"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2026-06",
+  "description": "Novela de C. L. Polk ambientada en el Feywild, el reino de las hadas de Dungeons & Dragons.\n\nPublicada por Random House Worlds en 2026.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3623480",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-06-30",
+      "format": "hardcover",
+      "isbn13": 9780593599792,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1113153",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0593599799/" }],
+      "cover": "/images/novels/the-feywild-job/9780593599792.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Titan Books",
+      "date": "2026-06-30",
+      "format": "paperback",
+      "isbn13": 9781807590178,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1115381",
+      "cover": "/images/novels/the-feywild-job/9781807590178.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Titan Books",
+      "date": "2026-06-30",
+      "format": "ebook",
+      "isbn13": 9781807590185,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1116759",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0GSSQPHQR/" }]
+    }
+  ]
+}

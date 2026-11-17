@@ -1,0 +1,45 @@
+{
+  "slug": "spectre-of-the-black-rose",
+  "title": "Spectre of the Black Rose",
+  "authors": ["James Lowder", "Voronica Whitney-Robinson"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "series": { "id": "ravenloft-black-rose", "number": 2 },
+  "date": "1999-03",
+  "description": "Las facciones luchan por el control de Sithicus mientras Lord Soth intenta conservar su dominio, y corre el rumor de que la Rosa Blanca vaga por la tierra: ¿ha vuelto Kitiara?\n\nContinuación de Knight of the Black Rose, de James Lowder y Voronica Whitney-Robinson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?22825",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-03",
+      "format": "mass_market",
+      "isbn13": 9780786913336,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31592",
+      "cover": "/images/novels/spectre-of-the-black-rose/9780786913336.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-06-19",
+      "format": "ebook",
+      "isbn13": 9780786963430,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466004",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007UTAHQG/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El espectro de la Rosa Negra",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "format": "hardcover",
+      "isbn13": 9788448040116,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/9189",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448040112/" }],
+      "cover": "/images/novels/spectre-of-the-black-rose/9788448040116.webp"
+    }
+  ]
+}

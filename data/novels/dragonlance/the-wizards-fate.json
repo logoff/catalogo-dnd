@@ -1,0 +1,33 @@
+{
+  "slug": "the-wizards-fate",
+  "title": "The Wizard's Fate",
+  "authors": ["Paul B. Thompson", "Tonya C. Cook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-ergoth", "number": 2 },
+  "date": "2004-02",
+  "description": "Lord Tolandruth, al frente de los ejércitos de Ergoth, vuelve a Daltigoth tras la muerte del emperador para evitar una guerra civil, reencontrarse con la mujer que ama y vengarse del mago que provocó su destierro.\n\nEs la segunda novela de la trilogía The Ergoth. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?32485",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-02",
+      "format": "mass_market",
+      "isbn13": 9780786932146,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?50295",
+      "cover": "/images/novels/the-wizards-fate/9780786932146.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-05-21",
+      "format": "ebook",
+      "isbn13": 9780786964871,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?961132",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24VTY/" }]
+    }
+  ]
+}

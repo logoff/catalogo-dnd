@@ -1,0 +1,22 @@
+{
+  "slug": "tower-of-doom",
+  "title": "Tower of Doom",
+  "authors": ["Mark Anthony"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1994-11",
+  "description": "Novela de Ravenloft de Mark Anthony.\n\nNo tiene edición en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18416",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-11",
+      "format": "paperback",
+      "isbn13": 9780786900626,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?52080",
+      "cover": "/images/novels/tower-of-doom/9780786900626.webp"
+    }
+  ]
+}

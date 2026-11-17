@@ -1,0 +1,34 @@
+{
+  "slug": "return-of-the-damned",
+  "title": "Return of the Damned",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 9 },
+  "date": "2003-10",
+  "description": "El guerrero y el mago de las reglas de la tercera edición se reencuentran.\n\nNovela de la serie Iconics (T. H. Lain).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1071763",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "mass_market",
+      "isbn13": 9780786930036,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?305881",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786930039/" }],
+      "cover": "/images/novels/return-of-the-damned/9780786930036.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-07-02",
+      "format": "ebook",
+      "isbn13": 9780786965076,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?459156",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CQZ5M28/" }]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "sacred-fire",
+  "title": "Sacred Fire",
+  "authors": ["Chris Pierson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-kingpriest", "number": 3 },
+  "date": "2003-12",
+  "description": "Cuando Beldinas parece a punto de vencer en su larga guerra contra el mal, regresa su antiguo campeón, Cathan, en busca del sentido de una visión oscura de un martillo en llamas.\n\nEs la novela que cierra The Kingpriest, en vísperas del Cataclismo. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24561",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-12",
+      "format": "mass_market",
+      "isbn13": 9780786930364,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?28711",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786930365/" }],
+      "cover": "/images/novels/sacred-fire/9780786930364.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-06-11",
+      "format": "ebook",
+      "isbn13": 9780786964987,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458545",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONXL0/" }]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "the-doom-brigade",
+  "title": "The Doom Brigade",
+  "authors": ["Margaret Weis", "Don Perrin"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-kangs-regiment", "number": 1 },
+  "date": "1996-11",
+  "description": "En plena Guerra de Caos, un grupo de draconianos que lleva treinta años enfrentado a los enanos de las colinas se ve obligado a aliarse con ellos contra un enemigo común. Al frente de los draconianos está el comandante Kang, un bozak tan disciplinado como pragmático.\n\nEs la primera novela de Kang's Regiment, escrita por Margaret Weis y Don Perrin, y transcurre durante los hechos de Dragons of Summer Flame. Se publicó en castellano como Enanos y draconianos.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?9770",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-11",
+      "format": "hardcover",
+      "isbn13": 9780786905263,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38560",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905263/" }],
+      "cover": "/images/novels/the-doom-brigade/9780786905263.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-03",
+      "format": "mass_market",
+      "isbn13": 9780786907854,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38561",
+      "cover": "/images/novels/the-doom-brigade/9780786907854.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-01-03",
+      "format": "ebook",
+      "isbn13": 9780786962013,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?463131",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6I40/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Enanos y draconianos",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "format": "paperback",
+      "isbn13": 9788448039073,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/554",
+      "cover": "/images/novels/the-doom-brigade/9788448039073.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Enanos y draconianos",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721800,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24276",
+      "cover": "/images/novels/the-doom-brigade/9788448721800.webp"
+    }
+  ]
+}

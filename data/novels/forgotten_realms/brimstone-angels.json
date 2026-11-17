@@ -1,0 +1,33 @@
+{
+  "slug": "brimstone-angels",
+  "title": "Brimstone Angels",
+  "authors": ["Erin M. Evans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-brimstone-angels", "number": 1 },
+  "date": "2011-11",
+  "description": "Farideh y Havilar, dos gemelas tiflin, acaban metidas en asuntos infernales cuando una de ellas sella un pacto con un diablo.\n\nPrimera novela de la serie Brimstone Angels, de Erin M. Evans.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1573854",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-01",
+      "format": "mass_market",
+      "isbn13": 9780786958467,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?361600",
+      "cover": "/images/novels/brimstone-angels/9780786958467.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-01",
+      "format": "ebook",
+      "isbn13": 9780786959419,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476315",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKRPE/" }]
+    }
+  ]
+}

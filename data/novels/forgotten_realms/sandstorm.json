@@ -1,0 +1,32 @@
+{
+  "slug": "sandstorm",
+  "title": "Sandstorm",
+  "authors": ["Christopher Rowe"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2011-03",
+  "description": "Los genasi dominan casi todo Calimshan para sus amos djinn. En la Isla de los Libres, Cephas, un genasi sin recuerdos, lucha en los juegos de los esclavos huidos, hasta que un circo de inadaptados lo libera.\n\nNovela independiente de Christopher Rowe.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1220068",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-03-01",
+      "format": "mass_market",
+      "isbn13": 9780786957422,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?340188",
+      "cover": "/images/novels/sandstorm/9780786957422.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-03-01",
+      "format": "ebook",
+      "isbn13": 9780786958962,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?471496",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004HFRMDW/" }]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "the-chaos-curse",
+  "title": "The Chaos Curse",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-cleric-quintet", "number": 5 },
+  "date": "1994-06",
+  "description": "De vuelta en la Biblioteca Edificante, Cadderly descubre que la vida de su compañera Danica y la propia biblioteca peligran, y debe acabar para siempre con la maldición del caos.\n\nCierra el Quinteto del Clérigo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12810",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-06",
+      "format": "mass_market",
+      "isbn13": 9781560768609,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14343",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768606/" }],
+      "cover": "/images/novels/the-chaos-curse/9781560768609.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-07",
+      "format": "mass_market",
+      "isbn13": 9780786916085,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?36986",
+      "cover": "/images/novels/the-chaos-curse/9780786916085.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-09",
+      "format": "mass_market",
+      "isbn13": 9780786953295,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?292861",
+      "cover": "/images/novels/the-chaos-curse/9780786953295.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-09-22",
+      "format": "ebook",
+      "isbn13": 9780786954360,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?485472",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B002PYFWDY/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La maldición del caos",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "isbn13": 9788448037451,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/9190",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037456/" }],
+      "cover": "/images/novels/the-chaos-curse/9788448037451.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La maldición del caos",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725013,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40997",
+      "cover": "/images/novels/the-chaos-curse/9788448725013.webp"
+    }
+  ]
+}

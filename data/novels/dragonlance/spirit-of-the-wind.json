@@ -1,0 +1,46 @@
+{
+  "slug": "spirit-of-the-wind",
+  "title": "Spirit of the Wind",
+  "authors": ["Chris Pierson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-bridges-of-time", "number": 1 },
+  "date": "1998-07",
+  "description": "Un año después de la Guerra de Caos, la hembra de dragón rojo Malystryx amenaza Kendermore. Dos kender viajan a Abanasinia en busca de héroes, y el anciano Riverwind, jefe de los que-shu, acepta su última misión.\n\nEs la primera novela de Bridges of Time, una serie que enlaza Dragons of Summer Flame con La guerra de los espíritus. En castellano se publicó como El asedio de Kendermore.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?30742",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-07",
+      "format": "mass_market",
+      "isbn13": 9780786911745,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31767",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786911743/" }],
+      "cover": "/images/novels/spirit-of-the-wind/9780786911745.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El asedio de Kendermore",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448031428,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/53",
+      "cover": "/images/novels/spirit-of-the-wind/9788448031428.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El asedio de Kendermore",
+      "publisher": "Planeta DeAgostini",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788467429725,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24590",
+      "cover": "/images/novels/spirit-of-the-wind/9788467429725.webp"
+    }
+  ]
+}

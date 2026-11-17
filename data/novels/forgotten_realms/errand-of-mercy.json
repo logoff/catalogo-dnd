@@ -1,0 +1,23 @@
+{
+  "slug": "errand-of-mercy",
+  "title": "Errand of Mercy",
+  "authors": ["Roger E. Moore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-double-diamond-triangle", "number": 4 },
+  "date": "1998-02",
+  "description": "Entrega de la saga del Triángulo del Doble Diamante.\n\nUna serie de nueve novelas breves que TSR publicó mes a mes en 1998.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?83845",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-02",
+      "format": "mass_market",
+      "isbn13": 9780786908677,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14293",
+      "cover": "/images/novels/errand-of-mercy/9780786908677.webp"
+    }
+  ]
+}

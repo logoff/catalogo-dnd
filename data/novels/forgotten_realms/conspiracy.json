@@ -1,0 +1,24 @@
+{
+  "slug": "conspiracy",
+  "title": "Conspiracy",
+  "authors": ["J. Robert King"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-double-diamond-triangle", "number": 6 },
+  "date": "1998-04",
+  "description": "Entrega de la saga del Triángulo del Doble Diamante.\n\nUna serie de nueve novelas breves que TSR publicó mes a mes en 1998.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?84699",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-04",
+      "format": "mass_market",
+      "isbn13": 9780786908691,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14279",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786908696/" }],
+      "cover": "/images/novels/conspiracy/9780786908691.webp"
+    }
+  ]
+}
