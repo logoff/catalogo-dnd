@@ -8,6 +8,9 @@
 //     Las de Open Library para las ediciones con ISBN que aún no tienen portada.
 //   node scripts/download-novel-covers.mjs --series <id> <isbn>=<url>...
 //     Portadas de los recopilatorios de una serie (data/novels/series.json).
+//   node scripts/download-novel-covers.mjs --anthology <id> <clave>=<url>...
+//     Portadas de las ediciones de una antología (data/novels/anthologies.json), en
+//     public/images/novels/anthologies/<id>/.
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'fs'
 import { dirname, join, relative } from 'path'
 import { fileURLToPath } from 'url'
@@ -26,7 +29,7 @@ function fail(message) {
 }
 
 const USAGE =
-  'Uso: just novel-covers <slug> <isbn>=<url>... | <slug> --openlibrary | --series <id> <isbn>=<url>...'
+  'Uso: just novel-covers <slug> <isbn>=<url>... | <slug> --openlibrary | --series <id> <isbn>=<url>... | --anthology <id> <clave>=<url>...'
 
 function novelFile(slug) {
   for (const setting of readdirSync(NOVELS_DIR, { withFileTypes: true })) {
@@ -111,6 +114,18 @@ if (first === '--series') {
     join(ROOT, 'public', 'images', 'novels', id)
   )
   await save(seriesFile, allSeries)
+} else if (first === '--anthology') {
+  const [id, ...args] = rest
+  const anthologiesFile = join(NOVELS_DIR, 'anthologies.json')
+  const anthologies = JSON.parse(readFileSync(anthologiesFile, 'utf-8'))
+  const anthology = anthologies.find((a) => a.id === id)
+  if (!anthology) fail(`no existe la antología ${id}`)
+  await applyCovers(
+    anthology.editions,
+    parsePairs(args),
+    join(ROOT, 'public', 'images', 'novels', 'anthologies', id)
+  )
+  await save(anthologiesFile, anthologies)
 } else {
   const file = novelFile(first)
   if (!file) fail(`no existe la novela ${first}`)

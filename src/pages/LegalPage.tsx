@@ -89,8 +89,8 @@ export default function LegalPage() {
             licencia oficial de Dungeons & Dragons; se muestran solo para identificarlos.
           </p>
           <p>
-            Los títulos y las portadas de las novelas son de sus editoriales y de Wizards of the
-            Coast; se muestran solo para identificar cada obra y cada edición.
+            Los títulos y las portadas de las novelas y antologías son de sus editoriales y de
+            Wizards of the Coast; se muestran solo para identificar cada obra y cada edición.
           </p>
           <p>
             Los logotipos de consolas, ordenadores y sistemas (PlayStation, Xbox, Nintendo, Sega,

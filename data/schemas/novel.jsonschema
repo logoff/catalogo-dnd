@@ -295,7 +295,7 @@
         },
         "cover": {
             "type": "string",
-            "pattern": "^/images/novels/[a-z0-9-]+/[a-z0-9-]+\\.webp$"
+            "pattern": "^/images/novels/(anthologies/)?[a-z0-9-]+/[a-z0-9-]+\\.webp$"
         },
         "purchaseLink": {
             "type": "object",

@@ -96,8 +96,11 @@ con todas sus ediciones en inglés y en castellano. Cada novela es un JSON
 en `data/novels/<mundo>/<slug>.json` (esquema
 `data/schemas/novel.jsonschema`); las series y sus recopilatorios
 (volúmenes con varias novelas, que se guardan una sola vez) están en
-`data/novels/series.json`. Son cientos de fichas, así que sus datos no van
-en el bundle principal: un plugin de `vite.config.ts` genera
+`data/novels/series.json`. Las antologías de relatos no tienen ficha:
+están en `data/novels/anthologies.json` (esquema
+`novel-anthology.jsonschema`) y se muestran en las fichas de las novelas
+de las series o novelas con las que se relacionan. Son cientos de fichas,
+así que sus datos no van en el bundle principal: un plugin de `vite.config.ts` genera
 `virtual:novels-index` (índice ligero del listado, en un trozo aparte) y
 `virtual:novels-latest` (total y últimas, para la portada); cada ficha y
 `series.json` son trozos aparte. Las páginas leen de la caché síncrona de

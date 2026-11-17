@@ -1,5 +1,5 @@
-import type { Novel, NovelIndex, NovelSeries, NovelWithMeta } from '@/types/novel'
-import { collectionsIn, enrichNovel } from '@/utils/novels'
+import type { Novel, NovelAnthology, NovelIndex, NovelSeries, NovelWithMeta } from '@/types/novel'
+import { anthologiesFor, collectionsIn, enrichNovel } from '@/utils/novels'
 
 // Los datos de novelas no van en el bundle principal (ver design.md, «Peso»): el índice del
 // listado, las series y cada novela son trozos aparte. El servidor los carga todos antes de pintar
@@ -34,6 +34,30 @@ export function getAllSeries(): NovelSeries[] {
 
 export function getSeries(id: string): NovelSeries | undefined {
   return cachedSeries?.find((series) => series.id === id)
+}
+
+// Las antologías, como las series, solo las necesita la ficha
+const anthologyModules = import.meta.glob<NovelAnthology[]>('/data/novels/anthologies.json', {
+  import: 'default',
+})
+
+let cachedAnthologies: NovelAnthology[] | null = null
+
+export function setAnthologies(anthologies: NovelAnthology[]) {
+  cachedAnthologies = anthologies
+}
+
+export async function loadAnthologies(): Promise<NovelAnthology[]> {
+  if (!cachedAnthologies) {
+    const [load] = Object.values(anthologyModules)
+    setAnthologies(load ? await load() : [])
+  }
+  return cachedAnthologies!
+}
+
+// Antologías de una novela; solo después de loadAnthologies (o de setAnthologies en el servidor)
+export function getAnthologiesFor(novel: Novel): NovelAnthology[] {
+  return anthologiesFor(cachedAnthologies ?? [], novel)
 }
 
 let cachedIndex: NovelIndex | null = null
@@ -74,7 +98,7 @@ export async function loadNovel(slug: string): Promise<NovelWithMeta | undefined
   if (cached) return cached
   const load = moduleFor(slug)
   if (!load) return undefined
-  const [novel] = await Promise.all([load(), loadSeries()])
+  const [novel] = await Promise.all([load(), loadSeries(), loadAnthologies()])
   return cacheNovel(novel)
 }
 

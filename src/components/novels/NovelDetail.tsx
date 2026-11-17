@@ -11,7 +11,7 @@ import type {
 import { getProductByCodeAndEdition } from '@/services/dataLoader'
 import { getVideogameBySlug } from '@/services/videogameLoader'
 import { getMerchandiseBySlug } from '@/services/merchandiseLoader'
-import { getAllSeries } from '@/services/novelLoader'
+import { getAllSeries, getAnthologiesFor } from '@/services/novelLoader'
 import { collectionsIn, mainCover, thumbnailOf } from '@/utils/novels'
 import {
   countryNames,
@@ -49,11 +49,36 @@ function placeOf(edition: NovelEdition | NovelCollection): string | null {
 }
 
 export default function NovelDetail({ novel, index }: NovelDetailProps) {
+  const collections = collectionsIn(getAllSeries(), novel.slug).sort(byDateDesc)
+  // Antologías: primero las traducidas y, dentro de eso, por fecha de publicación. De cada una
+  // se ven las ediciones a la venta (o, si no hay, la más reciente, en castellano si la hay) y
+  // el resto queda plegado
+  const anthologies = getAnthologiesFor(novel)
+    .map((a) => {
+      const editions = [...a.editions].sort(
+        (x, y) =>
+          Number(y.language === 'castellano') - Number(x.language === 'castellano') ||
+          byDateDesc(x, y)
+      )
+      const forSale = editions.filter((e) => (e.purchase_links ?? []).length > 0)
+      const shown = forSale.length > 0 ? forSale : editions.slice(0, 1)
+      const firstDate = a.editions.map((e) => e.date ?? '9999').sort()[0]
+      return { ...a, firstDate, shown, folded: editions.filter((e) => !shown.includes(e)) }
+    })
+    .sort(
+      (a, b) =>
+        Number(!!b.title_es) - Number(!!a.title_es) || a.firstDate.localeCompare(b.firstDate)
+    )
+
   // Portadas de todas las ediciones, la principal primero, para el visor
   const cover = mainCover(novel)
   const covers = [
-    ...(cover ? [cover] : []),
-    ...novel.editions.map((e) => e.cover).filter((c): c is string => !!c && c !== cover),
+    ...new Set([
+      ...(cover ? [cover] : []),
+      ...[...novel.editions, ...collections, ...anthologies.flatMap((a) => a.editions)]
+        .map((e) => e.cover)
+        .filter((c): c is string => !!c),
+    ]),
   ]
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const openCover = (image: string) => setLightboxIndex(covers.indexOf(image))
@@ -68,7 +93,6 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
   const previous = position > 0 ? seriesNovels[position - 1] : undefined
   const next = position >= 0 ? seriesNovels[position + 1] : undefined
 
-  const collections = collectionsIn(getAllSeries(), novel.slug).sort(byDateDesc)
   const editionsIn = (language: NovelLanguage) =>
     novel.editions.filter((e) => e.language === language).sort(byDateDesc)
   const spanishEditions = editionsIn('castellano')
@@ -201,6 +225,62 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
                 onOpenCover={openCover}
                 note={`Incluye ${c.novels.length} novelas`}
               />
+            ))}
+          </ul>
+        </Section>
+      )}
+
+      {anthologies.length > 0 && (
+        <Section title="Antologías">
+          <p className="mb-5 text-sm text-gray-400">
+            Libros de relatos de varios autores relacionados con esta novela o su serie.
+          </p>
+          <ul className="space-y-8">
+            {anthologies.map((anthology) => (
+              <li key={anthology.id} className="space-y-3">
+                <div>
+                  <h3 className="font-display text-xl text-gray-100">
+                    {anthology.title_es ?? anthology.title}
+                  </h3>
+                  {anthology.title_es && anthology.title_es !== anthology.title && (
+                    <p className="text-sm text-gray-400">{anthology.title}</p>
+                  )}
+                </div>
+                <p className="max-w-3xl text-gray-300">
+                  {anthology.description.split(/\n\s*\n/)[0]}
+                </p>
+                <ul className="space-y-5">
+                  {anthology.shown.map((e, i) => (
+                    <EditionRow
+                      key={i}
+                      edition={e}
+                      fallbackTitle={anthology.title}
+                      slug={novel.slug}
+                      onOpenCover={openCover}
+                    />
+                  ))}
+                </ul>
+                {anthology.folded.length > 0 && (
+                  <details className="group">
+                    <summary className="cursor-pointer text-sm text-gray-400 hover:text-dnd-gold">
+                      {anthology.folded.length === 1
+                        ? 'Otra edición'
+                        : `Otras ${anthology.folded.length} ediciones`}
+                    </summary>
+                    <ul className="mt-4 space-y-5">
+                      {anthology.folded.map((e, i) => (
+                        <EditionRow
+                          key={i}
+                          edition={e}
+                          fallbackTitle={anthology.title}
+                          slug={novel.slug}
+                          onOpenCover={openCover}
+                        />
+                      ))}
+                    </ul>
+                  </details>
+                )}
+              </li>
             ))}
           </ul>
         </Section>

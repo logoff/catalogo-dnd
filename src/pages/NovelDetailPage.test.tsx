@@ -1,9 +1,9 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import { render, screen, fireEvent, within } from '@testing-library/react'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
-import type { Novel, NovelEdition, NovelSeries } from '@/types/novel'
+import type { Novel, NovelAnthology, NovelEdition, NovelSeries } from '@/types/novel'
 import { buildNovelIndex } from '@/utils/novels'
-import { cacheNovel, setNovelIndex, setSeries } from '@/services/novelLoader'
+import { cacheNovel, setAnthologies, setNovelIndex, setSeries } from '@/services/novelLoader'
 import { getAllVideogames } from '@/services/videogameLoader'
 import NovelDetailPage from './NovelDetailPage'
 
@@ -85,6 +85,31 @@ const series: NovelSeries[] = [
   },
 ]
 
+const anthologies: NovelAnthology[] = [
+  {
+    id: 'tales-of-the-lance',
+    title: 'The Magic of Krynn',
+    title_es: 'La magia de Krynn',
+    settings: ['dragonlance'],
+    description: 'Relatos de la Dragonlance de varios autores.\n\nPrimera de las antologías.',
+    source: 'https://example.com/antologia',
+    series: ['chronicles'],
+    editions: [
+      { language: 'english', country: 'us', publisher: 'TSR', date: '1987-03' },
+      spanish('Timun Mas', '1990', { title: 'La magia de Krynn', purchase_links: link }),
+    ],
+  },
+  {
+    id: 'huma-tales',
+    title: 'Tales of Huma',
+    settings: ['dragonlance'],
+    description: 'Relatos sobre Huma.\n\nSolo ligada a una novela.',
+    source: 'https://example.com/huma',
+    novels: ['the-legend-of-huma'],
+    editions: [{ language: 'english', country: 'us', publisher: 'TSR', date: '1990' }],
+  },
+]
+
 const renderPage = (slug: string) =>
   render(
     <MemoryRouter initialEntries={[`/novela/${slug}`]}>
@@ -100,6 +125,7 @@ const section = (name: string) =>
 describe('NovelDetailPage', () => {
   beforeEach(() => {
     setSeries(series)
+    setAnthologies(anthologies)
     setNovelIndex(buildNovelIndex(novels, series))
     novels.forEach(cacheNovel)
   })
@@ -139,6 +165,36 @@ describe('NovelDetailPage', () => {
     expect(
       within(section('Recopilatorios')).getByText('Crónicas de la Dragonlance (estuche)')
     ).toBeInTheDocument()
+  })
+
+  it('muestra las antologías de la serie, con el título en castellano y la edición traducida primero', () => {
+    renderPage('dragons-of-winter-night')
+    const block = section('Antologías')
+    expect(within(block).getByRole('heading', { name: 'La magia de Krynn' })).toBeInTheDocument()
+    expect(within(block).getAllByText('The Magic of Krynn').length).toBeGreaterThan(0)
+    expect(
+      within(block).getByText('Relatos de la Dragonlance de varios autores.')
+    ).toBeInTheDocument()
+    const rows = within(block)
+      .getAllByRole('listitem')
+      .filter((li) => li.querySelector('a, button'))
+    expect(rows[0]).toHaveTextContent('Timun Mas')
+    expect(within(rows[0]).getByRole('link', { name: /Amazon/ })).toBeInTheDocument()
+    expect(within(block).getByText('Otra edición')).toBeInTheDocument()
+    expect(within(block).queryByText('Tales of Huma')).toBeNull()
+  })
+
+  it('muestra las antologías ligadas a la propia novela', () => {
+    renderPage('the-legend-of-huma')
+    expect(
+      within(section('Antologías')).getByRole('heading', { name: 'Tales of Huma' })
+    ).toBeInTheDocument()
+  })
+
+  it('omite la sección de antologías si no hay ninguna', () => {
+    setAnthologies([])
+    renderPage('the-legend-of-huma')
+    expect(screen.queryByRole('heading', { name: 'Antologías' })).toBeNull()
   })
 
   it('lista la serie con la novela actual destacada y la anterior y la siguiente', () => {

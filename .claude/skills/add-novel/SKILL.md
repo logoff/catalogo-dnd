@@ -34,7 +34,17 @@ haya archivado el cambio, en `openspec/changes/add-novelas/specs/`).
   (Turtleback, Tandem…).
 - **Recopilatorios** (varias novelas en un volumen o en estuche): una sola
   vez, en `collections` de su serie en `data/novels/series.json`, nunca
-  como edición de cada novela.
+  como edición de cada novela. También los de castellano: Tercera Fundación
+  los registra como ficha propia cuyo contenido enumera las novelas (o como
+  edición de cada novela con el mismo ISBN); `tf_collections.py <salida>`
+  busca las fichas cuyo contenido corresponde a dos o más novelas.
+- **Antologías** (relatos de varios autores): sin ficha propia, en
+  `data/novels/anthologies.json` (esquema `novel-anthology.jsonschema`),
+  con sus ediciones en los dos idiomas y las series (`series`) o novelas
+  (`novels`) en cuyas fichas aparecen. La serie de cada relato sale del
+  contenido de la antología en ISFDB; si solo son del mundo en general, se
+  relaciona con las series de los personajes que protagonizan los relatos.
+  Cada una figura en la sección «Antologías» del inventario.
 - **ISBN siempre en ISBN-13** (`isbn10To13` de `src/utils/isbn.ts`
   convierte los antiguos; los tests comprueban el dígito de control y
   que no se repitan).
@@ -102,6 +112,16 @@ repositorio y, a diferencia del scratchpad, no se borra):
    propio si choca con otro mundo, `skip`…).
 6. `build_lot.py <raíz> <setting> <dir>` escribe fichas, series y
    recopilatorios; `dl_covers.py <dir>` (desde la raíz) baja las portadas.
+
+Para las antologías, `build_anthologies.py <dir>` escribe
+`anthologies.json` desde `meta.py` (id, mundos, series y descripción),
+`isfdb.txt` (`título@@id@@fecha~editorial~isbn~formato~portada;…`),
+`tf_anth.json` (de `tf_anthologies.py`), `amazon.json` y `cdl.json`, y deja
+en `covers.json` los pares para
+`just novel-covers --anthology <id> <clave>=<url>` (portadas en
+`public/images/novels/anthologies/<id>/`). ISFDB no deja descargar sus
+imágenes desde fuera del navegador: usa la de Amazon
+(`https://m.media-amazon.com/images/P/<isbn10>.01.L.jpg`) o la de Open Library.
 
 ## Trucos aprendidos en los lotes
 

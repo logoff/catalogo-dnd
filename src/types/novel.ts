@@ -88,6 +88,20 @@ export interface NovelSeries {
   collections?: NovelCollection[]
 }
 
+// Antología de relatos: sin ficha propia, se muestra en las novelas de sus series o en las
+// novelas que indica
+export interface NovelAnthology {
+  id: string
+  title: string
+  title_es?: string
+  settings: NovelSetting[]
+  description: string
+  source: string
+  series?: string[]
+  novels?: string[]
+  editions: NovelEdition[]
+}
+
 // spain: alguna edición en castellano publicada en España; elsewhere: solo fuera; none: ninguna
 export type NovelSpanish = 'spain' | 'elsewhere' | 'none'
 

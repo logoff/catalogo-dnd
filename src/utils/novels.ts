@@ -2,6 +2,7 @@
 // Vite que genera el índice del listado en Node (por eso las importaciones son relativas)
 import type {
   Novel,
+  NovelAnthology,
   NovelCollection,
   NovelEdition,
   NovelIndex,
@@ -16,6 +17,15 @@ import { normalize } from './videogameFilters.ts'
 export function collectionsIn(series: NovelSeries[], slug: string): NovelCollection[] {
   return series.flatMap((s) =>
     (s.collections ?? []).filter((collection) => collection.novels.includes(slug))
+  )
+}
+
+// Antologías relacionadas con una novela: por su serie o por la propia novela
+export function anthologiesFor(anthologies: NovelAnthology[], novel: Novel): NovelAnthology[] {
+  return anthologies.filter(
+    (anthology) =>
+      anthology.novels?.includes(novel.slug) ||
+      (novel.series && anthology.series?.includes(novel.series.id))
   )
 }
 

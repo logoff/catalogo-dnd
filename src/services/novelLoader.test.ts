@@ -3,14 +3,15 @@ import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 import novelSchemaSource from '/data/schemas/novel.jsonschema?raw'
 import seriesSchemaSource from '/data/schemas/novel-series.jsonschema?raw'
+import anthologySchemaSource from '/data/schemas/novel-anthology.jsonschema?raw'
 import inventory from '/data/novels/inventory.md?raw'
-import type { Novel, NovelCollection, NovelSeries } from '@/types/novel'
+import type { Novel, NovelAnthology, NovelCollection, NovelSeries } from '@/types/novel'
 import { isValidIsbn13 } from '@/utils/isbn'
 import { getAllProducts } from './dataLoader'
 import { getAllVideogames } from './videogameLoader'
 import { getAllMerchandise } from './merchandiseLoader'
 import novelsIndex from 'virtual:novels-index'
-import { compareByDate, enrichNovel, mainCover } from '@/utils/novels'
+import { anthologiesFor, compareByDate, enrichNovel, mainCover } from '@/utils/novels'
 import { getCachedNovel, getNovelIndex, loadNovel, preloadNovelRoute } from './novelLoader'
 
 const ajv = new Ajv({ allErrors: true })
@@ -19,6 +20,13 @@ const novelSchema = JSON.parse(novelSchemaSource)
 ajv.addSchema(novelSchema)
 const validate = ajv.getSchema(novelSchema.$id)!
 const validateSeries = ajv.compile(JSON.parse(seriesSchemaSource))
+const validateAnthologies = ajv.compile(JSON.parse(anthologySchemaSource))
+const allAnthologies = Object.values(
+  import.meta.glob<NovelAnthology[]>('/data/novels/anthologies.json', {
+    eager: true,
+    import: 'default',
+  })
+)[0]
 const allSeries = Object.values(
   import.meta.glob<NovelSeries[]>('/data/novels/series.json', { eager: true, import: 'default' })
 )[0]
@@ -134,6 +142,39 @@ describe('esquema de series', () => {
       false
     )
     expect(validateSeries([{ ...series, setting: 'krynn' }])).toBe(false)
+  })
+})
+
+describe('esquema de antologías', () => {
+  const anthology: NovelAnthology = {
+    id: 'cuentos',
+    title: 'Tales',
+    settings: ['dragonlance'],
+    description: 'Relatos de varios autores ambientados en Krynn.\n\nDónde encaja.',
+    source: 'https://example.com/tales',
+    series: ['cronicas'],
+    editions: [{ language: 'english', country: 'us', publisher: 'TSR', isbn13: 9780880383820 }],
+  }
+
+  it('acepta una antología y exige edición en inglés y una serie o novela relacionada', () => {
+    expect(validateAnthologies([anthology]), ajv.errorsText(validateAnthologies.errors)).toBe(true)
+    const spanishOnly = { ...anthology, editions: [spanishEdition] }
+    expect(validateAnthologies([spanishOnly])).toBe(false)
+    const unrelated = { ...anthology, series: undefined }
+    expect(validateAnthologies([JSON.parse(JSON.stringify(unrelated))])).toBe(false)
+    expect(validateAnthologies([{ ...anthology, settings: ['krynn'] }])).toBe(false)
+  })
+
+  it('anthologiesFor devuelve las de la serie de la novela y las que la nombran', () => {
+    const bySeries = { ...anthology, id: 'serie', series: ['cronicas'] }
+    const byNovel = { ...anthology, id: 'novela', series: undefined, novels: ['novela'] }
+    const other = { ...anthology, id: 'otra', series: ['leyendas'] }
+    const novel = { ...minimalNovel, series: { id: 'cronicas', number: 1 } }
+    expect(anthologiesFor([bySeries, byNovel, other], novel).map((a) => a.id)).toEqual([
+      'serie',
+      'novela',
+    ])
+    expect(anthologiesFor([bySeries, other], minimalNovel)).toEqual([])
   })
 })
 
@@ -411,6 +452,87 @@ describe('datos de novelas', () => {
 
     it('cada entrada con ficha en el inventario tiene su JSON', () => {
       expect(inventorySlugs.filter((slug) => !slugs.includes(slug))).toEqual([])
+    })
+  })
+
+  describe('antologías', () => {
+    const editions = allAnthologies.flatMap((a) => a.editions.map((e) => ({ owner: a.id, ...e })))
+
+    it('cumplen el esquema, sus ids no se repiten y no chocan con los slugs de novelas', () => {
+      expect(validateAnthologies(allAnthologies), ajv.errorsText(validateAnthologies.errors)).toBe(
+        true
+      )
+      const ids = allAnthologies.map((a) => a.id)
+      expect(ids.filter((id, i) => ids.indexOf(id) !== i)).toEqual([])
+      expect(ids.filter((id) => slugs.includes(id))).toEqual([])
+    })
+
+    it('las series y novelas relacionadas existen', () => {
+      const seriesIds = allSeries.map((s) => s.id)
+      const missing = allAnthologies.flatMap((a) => [
+        ...(a.series ?? []).filter((id) => !seriesIds.includes(id)).map((id) => `${a.id}: ${id}`),
+        ...(a.novels ?? []).filter((slug) => !slugs.includes(slug)).map((s) => `${a.id}: ${s}`),
+      ])
+      expect(missing).toEqual([])
+    })
+
+    it('cada antología aparece en la ficha de al menos una novela', () => {
+      const orphans = allAnthologies.filter(
+        (a) => !novels.some((novel) => anthologiesFor([a], novel).length > 0)
+      )
+      expect(orphans.map((a) => a.id)).toEqual([])
+    })
+
+    it('tienen una descripción de dos párrafos', () => {
+      const wrong = allAnthologies.filter(
+        (a) => a.description.split('\n\n').filter((p) => p.trim()).length !== 2
+      )
+      expect(wrong.map((a) => a.id)).toEqual([])
+    })
+
+    it('sus ISBN son válidos y no se repiten, tampoco con los de las novelas', () => {
+      const own = editions.filter((e) => e.isbn13 !== undefined)
+      expect(
+        own.filter((e) => !isValidIsbn13(e.isbn13!)).map((e) => `${e.owner}: ${e.isbn13}`)
+      ).toEqual([])
+      const novelIsbns = new Set(novels.flatMap((n) => n.editions.map((e) => e.isbn13)))
+      const values = own.map((e) => e.isbn13)
+      expect(
+        own
+          .filter((e, i) => values.indexOf(e.isbn13) !== i || novelIsbns.has(e.isbn13))
+          .map((e) => `${e.owner}: ${e.isbn13}`)
+      ).toEqual([])
+    })
+
+    it('las portadas existen, cada antología tiene una y las URLs de compra están limpias', () => {
+      expect(
+        editions.filter((e) => e.cover && !publicImages.has(e.cover)).map((e) => e.cover)
+      ).toEqual([])
+      const withoutCover = allAnthologies.filter((a) => !a.editions.some((e) => e.cover))
+      expect(withoutCover.map((a) => a.id)).toEqual([])
+      const dirty = editions
+        .flatMap((e) => e.purchase_links ?? [])
+        .filter((link) => new URL(link.url).search !== '')
+      expect(dirty.map((link) => link.url)).toEqual([])
+    })
+
+    it('coinciden con la sección «Antologías» del inventario', () => {
+      const section = inventory.split(/^## /m).find((s) => s.startsWith('Antologías'))!
+      const rows = section
+        .split('\n')
+        .filter(
+          (line) => line.startsWith('| ') && !line.startsWith('| Mundo') && !line.startsWith('| -')
+        )
+      const idIndex = section
+        .split('\n')
+        .find((line) => line.startsWith('| Mundo'))!
+        .split('|')
+        .map((cell) => cell.trim())
+        .indexOf('Id')
+      const inventoryIds = rows.map((line) => line.split('|').map((cell) => cell.trim())[idIndex])
+      const ids = allAnthologies.map((a) => a.id)
+      expect(ids.filter((id) => !inventoryIds.includes(id))).toEqual([])
+      expect(inventoryIds.filter((id) => id !== 'pendiente' && !ids.includes(id))).toEqual([])
     })
   })
 })

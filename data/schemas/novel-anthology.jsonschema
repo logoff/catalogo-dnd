@@ -1,0 +1,94 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "/schemas/novel-anthology",
+    "title": "NovelAnthologies",
+    "description": "Antologías oficiales de relatos de D&D. No tienen ficha propia: se muestran en las fichas de las novelas de las series o novelas con las que se relacionan.",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+            "id",
+            "title",
+            "settings",
+            "description",
+            "source",
+            "editions"
+        ],
+        "anyOf": [
+            {
+                "required": [
+                    "series"
+                ]
+            },
+            {
+                "required": [
+                    "novels"
+                ]
+            }
+        ],
+        "properties": {
+            "id": {
+                "$ref": "/schemas/novel#/$defs/slug"
+            },
+            "title": {
+                "type": "string",
+                "minLength": 1
+            },
+            "title_es": {
+                "type": "string",
+                "minLength": 1
+            },
+            "settings": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                    "$ref": "/schemas/novel#/$defs/setting"
+                }
+            },
+            "description": {
+                "type": "string",
+                "minLength": 40
+            },
+            "source": {
+                "type": "string",
+                "format": "uri"
+            },
+            "series": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                    "$ref": "/schemas/novel#/$defs/slug"
+                }
+            },
+            "novels": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                    "$ref": "/schemas/novel#/$defs/slug"
+                }
+            },
+            "editions": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                    "$ref": "/schemas/novel#/$defs/edition"
+                },
+                "contains": {
+                    "type": "object",
+                    "properties": {
+                        "language": {
+                            "const": "english"
+                        }
+                    },
+                    "required": [
+                        "language"
+                    ]
+                }
+            }
+        }
+    }
+}

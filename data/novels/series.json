@@ -493,7 +493,25 @@
   {
     "id": "dragonlance-dragons-of-a-new-age",
     "title": "Dragons of a New Age",
-    "setting": "dragonlance"
+    "setting": "dragonlance",
+    "collections": [
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Quinta era",
+        "publisher": "Timun Mas",
+        "date": "2009",
+        "format": "hardcover",
+        "isbn13": 9788448038229,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/28403",
+        "novels": [
+          "the-dawning-of-a-new-age",
+          "the-day-of-the-tempest",
+          "the-eve-of-the-maelstrom"
+        ],
+        "cover": "/images/novels/dragonlance-dragons-of-a-new-age/9788448038229.webp"
+      }
+    ]
   },
   {
     "id": "dragonlance-chaos-war",
@@ -835,6 +853,17 @@
         "isbn13": 9780786965373,
         "source": "https://www.isfdb.org/cgi-bin/pl.cgi?434168",
         "novels": ["exile", "homeland", "sojourn"]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "El elfo oscuro",
+        "publisher": "Timun Mas",
+        "date": "2000",
+        "isbn13": 9788448037246,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/924",
+        "novels": ["exile", "homeland", "sojourn"],
+        "cover": "/images/novels/fr-dark-elf/9788448037246.webp"
       }
     ]
   },
@@ -1903,7 +1932,19 @@
   {
     "id": "dark-sun-tribe-of-one",
     "title": "Tribe of One",
-    "setting": "dark_sun"
+    "setting": "dark_sun",
+    "collections": [
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La tribu de Uno",
+        "publisher": "Timun Mas",
+        "date": "2000",
+        "isbn13": 9788448032067,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/951",
+        "novels": ["the-nomad", "the-outcast", "the-seeker"]
+      }
+    ]
   },
   {
     "id": "dark-sun-chronicles-of-athas",
