@@ -1,0 +1,25 @@
+{
+  "slug": "dungeons-illustrated-maps",
+  "title": "Dungeons! Illustrated Maps of Classic Dungeons & Dragons Adventures",
+  "group": "books",
+  "kind": "art_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2027-04-27",
+  "description": "Libro de arte de Jason Bradley Thompson con sus mapas ilustrados de aventuras clásicas de Dungeons & Dragons, que muestran de un vistazo el recorrido de cada mazmorra con sus monstruos y trampas.\n\nEs para veteranos con nostalgia de los módulos clásicos y para directores de juego que buscan inspiración. Sale en abril de 2027 y solo en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/796932/dungeons-dungeons-and-dragons-by-jason-bradley-thompson-official-dungeons-and-dragons-licensed/9780593838839/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2027-04-27",
+      "isbn13": 9780593838839,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593838831/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeons-illustrated-maps/0.jpg"]
+}

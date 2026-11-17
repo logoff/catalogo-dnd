@@ -1,0 +1,25 @@
+{
+  "slug": "fiends-and-foes",
+  "title": "Dungeons & Dragons Fiends & Foes: Beasts, Villains, and Monstrosities from Across the Planes",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-11-24",
+  "description": "Libro ilustrado de Erin M. Evans sobre los grandes villanos, monstruos y antihéroes del multiverso de D&D, como Tiamat, Vecna o Strahd, con su historia y su papel en las aventuras y las novelas.\n\nEs para jugadores y directores de juego que buscan trasfondo para sus partidas, y para lectores de las novelas de Evans. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/796944/dungeons-and-dragons-fiends-and-foes-by-erin-m-evans-official-dungeons-and-dragons-licensed/9780593838877/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-11-24",
+      "isbn13": 9780593838877,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593838874/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/fiends-and-foes/0.jpg"]
+}
