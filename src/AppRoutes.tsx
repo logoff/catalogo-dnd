@@ -19,6 +19,9 @@ import SpanishTimeline from './pages/guides/SpanishTimeline'
 import EnglishTimeline from './pages/guides/EnglishTimeline'
 import SpanishReleases from './pages/guides/SpanishReleases'
 import EdgeWizardsGuide from './pages/guides/EdgeWizardsGuide'
+import DrizztReadingOrder from './pages/guides/DrizztReadingOrder'
+import DragonlanceReadingOrder from './pages/guides/DragonlanceReadingOrder'
+import SpanishNovelsGuide from './pages/guides/SpanishNovelsGuide'
 
 // Rutas compartidas por el navegador (App) y el prerenderizado (entry-server)
 export default function AppRoutes() {
@@ -45,6 +48,9 @@ export default function AppRoutes() {
         <Route path="guias/cronologia-ingles" element={<EnglishTimeline />} />
         <Route path="guias/cuando-sale-en-castellano" element={<SpanishReleases />} />
         <Route path="guias/edge-o-wizards" element={<EdgeWizardsGuide />} />
+        <Route path="guias/orden-de-lectura-drizzt" element={<DrizztReadingOrder />} />
+        <Route path="guias/orden-de-lectura-dragonlance" element={<DragonlanceReadingOrder />} />
+        <Route path="guias/novelas-en-castellano" element={<SpanishNovelsGuide />} />
         <Route path="aviso-legal" element={<LegalPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>

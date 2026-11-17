@@ -60,6 +60,14 @@ function generateSitemap() {
       lastmod: today,
     },
     { loc: '/guias/edge-o-wizards', priority: 0.8, changefreq: 'monthly', lastmod: today },
+    { loc: '/guias/orden-de-lectura-drizzt', priority: 0.8, changefreq: 'monthly', lastmod: today },
+    {
+      loc: '/guias/orden-de-lectura-dragonlance',
+      priority: 0.8,
+      changefreq: 'monthly',
+      lastmod: today,
+    },
+    { loc: '/guias/novelas-en-castellano', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/aviso-legal', priority: 0.3, changefreq: 'yearly', lastmod: today },
   ]
 

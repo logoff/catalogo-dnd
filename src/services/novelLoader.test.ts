@@ -435,6 +435,12 @@ describe('datos de novelas', () => {
     expect(await loadNovel('no-existe')).toBeUndefined()
   })
 
+  it('preloadNovelRoute carga el índice en las guías de novelas', async () => {
+    await preloadNovelRoute('/guias/orden-de-lectura-drizzt')
+    await preloadNovelRoute('/guias/novelas-en-castellano')
+    expect(getNovelIndex()?.novels.length).toBe(novels.length)
+  })
+
   it('preloadNovelRoute deja en la caché el índice y la novela de la ficha', async () => {
     const [first] = novels
     await preloadNovelRoute(`/novela/${first.slug}`)
