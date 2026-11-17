@@ -37,6 +37,11 @@
     {
       "platform": "ps5",
       "date": "2023-09-06",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
       "purchase_links": [
         {
           "store": "instant_gaming",
@@ -56,6 +61,11 @@
     {
       "platform": "xbox_series",
       "date": "2023-12-07",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
       "purchase_links": [
         {
           "store": "instant_gaming",
@@ -65,7 +75,12 @@
     },
     {
       "platform": "linux",
-      "date": "2025-09-23"
+      "date": "2025-09-23",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      }
     }
   ],
   "reviews": [
