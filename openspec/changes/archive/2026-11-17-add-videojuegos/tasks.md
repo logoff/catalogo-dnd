@@ -106,12 +106,15 @@
 
 ## 9. Más tiendas
 
-- [ ] 9.1 Añadir Amazon (digital y físico), Humble Bundle e Instant
+- [x] 9.1 Añadir Amazon (digital y físico), Humble Bundle e Instant
       Gaming a los juegos que corresponda; verificar con los
-      tests de datos
-- [ ] 9.2 Añadir las tiendas opcionales que hayan pasado la
+      tests de datos. Hecho con Amazon e Instant Gaming (el cambio
+      `add-audiolibros-y-enlaces` revisó los que faltaban); Humble Bundle
+      rechazó la afiliación el 2026-11-13 y no se enlaza
+- [x] 9.2 Añadir las tiendas opcionales que hayan pasado la
       verificación 3.1; verificar que aparecen en una ficha en el orden
-      de `STORES`
+      de `STORES`. Green Man Gaming y Eneba rechazaron la afiliación;
+      Fanatical sigue sin aprobar y entrará, si llega, en un cambio aparte
 
 ## 10. Mantenimiento
 
