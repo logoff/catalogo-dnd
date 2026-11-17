@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?17690",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786907541/" }],
       "cover": "/images/novels/i-strahd-the-war-against-azalin/9780786907540.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Boehmer"],
+      "duration": 734,
+      "source": "https://www.amazon.es/dp/B08BXDQGD6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08BXDQGD6/" }],
+      "cover": "/images/novels/i-strahd-the-war-against-azalin/english-2013-audiobook.webp"
     }
   ]
 }

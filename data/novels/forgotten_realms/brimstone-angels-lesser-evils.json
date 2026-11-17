@@ -29,6 +29,18 @@
       "isbn13": 9780786961368,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?470050",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007WN65IY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Dina Pearlman"],
+      "duration": 958,
+      "source": "https://www.amazon.es/dp/B08863JHBF/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08863JHBF/" }],
+      "cover": "/images/novels/brimstone-angels-lesser-evils/english-2013-audiobook.webp"
     }
   ]
 }

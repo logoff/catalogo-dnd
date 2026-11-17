@@ -28,6 +28,18 @@
       "isbn13": 9780786959358,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?529966",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKRLS/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Rupert Degas"],
+      "duration": 647,
+      "source": "https://www.amazon.es/dp/B08C9SN7PR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08C9SN7PR/" }],
+      "cover": "/images/novels/shadowbane/english-2013-audiobook.webp"
     }
   ]
 }
