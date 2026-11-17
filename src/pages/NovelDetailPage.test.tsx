@@ -256,6 +256,44 @@ describe('NovelDetailPage', () => {
     expect(screen.getAllByText('En castellano').length).toBeGreaterThan(0)
   })
 
+  it('publica los datos estructurados del libro con su serie y sus ediciones', () => {
+    const { container } = renderPage('dragons-of-winter-night')
+    const book = [...container.querySelectorAll('script[type="application/ld+json"]')]
+      .map((script) => JSON.parse(script.textContent ?? '{}'))
+      .find((data) => data['@type'] === 'Book')
+    expect(book).toMatchObject({
+      name: 'Dragons of Winter Night',
+      alternateName: 'La tumba de Huma',
+      url: 'https://catalogodnd.es/novela/dragons-of-winter-night',
+      author: [
+        { '@type': 'Person', name: 'Margaret Weis' },
+        { '@type': 'Person', name: 'Tracy Hickman' },
+      ],
+      isPartOf: { '@type': 'BookSeries', name: 'Crónicas de la Dragonlance' },
+      position: 2,
+    })
+    expect(book.workExample).toContainEqual(
+      expect.objectContaining({
+        isbn: '9780880381741',
+        inLanguage: 'en',
+        bookFormat: 'https://schema.org/Paperback',
+      })
+    )
+    expect(book.workExample).toContainEqual(
+      expect.objectContaining({
+        bookFormat: 'https://schema.org/AudiobookFormat',
+        readBy: [{ '@type': 'Person', name: 'Sandra Narradora' }],
+      })
+    )
+    expect(book.workExample).toContainEqual(
+      expect.objectContaining({
+        name: 'La tumba de Huma',
+        inLanguage: 'es',
+        publisher: { '@type': 'Organization', name: 'Minotauro' },
+      })
+    )
+  })
+
   it('muestra la página de no encontrado si el slug no existe', async () => {
     renderPage('no-existe')
     expect(await screen.findByText(/no encontrad/i)).toBeInTheDocument()

@@ -5,6 +5,7 @@ import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import NovelDetail from '@/components/novels/NovelDetail'
 import { mainCover } from '@/utils/novels'
+import { novelStructuredData } from '@/utils/novelStructuredData'
 import { SITE_URL } from '@/utils/constants'
 import NotFoundPage from './NotFoundPage'
 
@@ -31,6 +32,14 @@ export default function NovelDetailPage() {
         title={novel.titleEs ?? novel.title}
         description={novel.description}
         image={cover ? `${SITE_URL}${cover}` : undefined}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          // Sin «<» literal, para que un texto no pueda cerrar la etiqueta
+          __html: JSON.stringify(novelStructuredData(novel, index)).replace(/</g, '\\u003c'),
+        }}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
