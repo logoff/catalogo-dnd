@@ -29,6 +29,18 @@
       "isbn13": 9780786961740,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476326",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R81YJQ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Marty Moran"],
+      "duration": 594,
+      "source": "https://www.amazon.es/dp/B07ZHSWYRB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07ZHSWYRB/" }],
+      "cover": "/images/novels/stormlight/english-2013-audiobook.webp"
     }
   ]
 }

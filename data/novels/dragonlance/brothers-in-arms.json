@@ -73,6 +73,18 @@
       "isbn13": 9788448005184,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36229",
       "cover": "/images/novels/brothers-in-arms/9788448005184.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Chris Sorensen"],
+      "duration": 1063,
+      "source": "https://www.amazon.es/dp/B0818HN7XS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0818HN7XS/" }],
+      "cover": "/images/novels/brothers-in-arms/english-2013-audiobook.webp"
     }
   ]
 }

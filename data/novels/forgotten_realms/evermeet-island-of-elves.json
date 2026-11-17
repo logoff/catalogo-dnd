@@ -59,6 +59,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0060B6I86/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6I86/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Kirby Heyborne"],
+      "duration": 1094,
+      "source": "https://www.amazon.es/dp/B08QSG4KMQ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSG4KMQ/" }],
+      "cover": "/images/novels/evermeet-island-of-elves/english-2013-audiobook.webp"
     }
   ]
 }

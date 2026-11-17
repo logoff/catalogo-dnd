@@ -59,7 +59,10 @@ portada alternativa...):
 - **purchase_links**: Array de `{ "store", "url" }` con la URL normal del
   producto en cada tienda (sin parámetros de afiliado; se añaden en
   `src/utils/stores.ts`). Tiendas: `amazon`, `generacion_x`,
-  `juegos_mesa_redonda`
+  `juegos_mesa_redonda` y `casa_del_libro` (ediciones en castellano,
+  siempre detrás de Amazon). `just affiliate-coverage` lista las fichas sin enlace a las tiendas
+  aceptadas; lo que se revisa y no está a la venta va con su motivo en
+  `data/affiliate-exceptions.json`.
 
 **Sub-publicaciones** (solo para boxed_set con componentes):
 

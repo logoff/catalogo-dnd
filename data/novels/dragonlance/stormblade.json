@@ -82,6 +82,18 @@
       "isbn13": 9788448005825,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36975",
       "cover": "/images/novels/stormblade/9788448005825.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Richard Topol"],
+      "duration": 650,
+      "source": "https://www.amazon.es/dp/B08QTQGPPS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTQGPPS/" }],
+      "cover": "/images/novels/stormblade/english-2013-audiobook.webp"
     }
   ]
 }

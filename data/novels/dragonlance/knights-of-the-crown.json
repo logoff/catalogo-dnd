@@ -40,6 +40,18 @@
       "isbn13": 9788448032395,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/1650",
       "cover": "/images/novels/knights-of-the-crown/9788448032395.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Zach Villa"],
+      "duration": 613,
+      "source": "https://www.amazon.es/dp/B08QSFSWG2/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSFSWG2/" }],
+      "cover": "/images/novels/knights-of-the-crown/english-2013-audiobook.webp"
     }
   ]
 }

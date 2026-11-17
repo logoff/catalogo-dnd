@@ -29,6 +29,18 @@
       "isbn13": 9780786956838,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482363",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S49JQ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Jean Brassard"],
+      "duration": 633,
+      "source": "https://www.amazon.es/dp/B08QTQSVV5/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTQSVV5/" }],
+      "cover": "/images/novels/lady-of-poison/english-2013-audiobook.webp"
     }
   ]
 }

@@ -51,6 +51,18 @@
       "isbn13": 9788448035204,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/58106",
       "cover": "/images/novels/the-clandestine-circle/9788448035204.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-14",
+      "format": "audiobook",
+      "narrators": ["Dina Pearlman"],
+      "duration": 640,
+      "source": "https://www.amazon.es/dp/B08QVLJNTL/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVLJNTL/" }],
+      "cover": "/images/novels/the-clandestine-circle/english-2013-audiobook.webp"
     }
   ]
 }

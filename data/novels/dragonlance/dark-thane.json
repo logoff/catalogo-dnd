@@ -18,6 +18,18 @@
       "isbn13": 9780786929412,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8978",
       "cover": "/images/novels/dark-thane/9780786929412.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-12",
+      "format": "audiobook",
+      "narrators": ["Pat Young"],
+      "duration": 583,
+      "source": "https://www.amazon.es/dp/B08FZXCV15/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08FZXCV15/" }],
+      "cover": "/images/novels/dark-thane/english-2013-audiobook.webp"
     }
   ]
 }

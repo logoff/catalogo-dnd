@@ -29,6 +29,18 @@
       "isbn13": 9780786964789,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457046",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT180/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Dennis Holland"],
+      "duration": 609,
+      "source": "https://www.amazon.es/dp/B08QTY6PT1/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTY6PT1/" }],
+      "cover": "/images/novels/the-alien-sea/english-2013-audiobook.webp"
     }
   ]
 }

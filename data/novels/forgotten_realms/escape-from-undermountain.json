@@ -29,6 +29,18 @@
       "isbn13": 9780786964116,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468427",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C8ZRUU/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["David Heath"],
+      "duration": 504,
+      "source": "https://www.amazon.es/dp/B08FSLB8NR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08FSLB8NR/" }],
+      "cover": "/images/novels/escape-from-undermountain/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786964819,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457836",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24W3E/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-03",
+      "format": "audiobook",
+      "narrators": ["Dennis Holland"],
+      "duration": 523,
+      "source": "https://www.amazon.es/dp/B08L78H4TR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08L78H4TR/" }],
+      "cover": "/images/novels/protecting-palanthas/english-2013-audiobook.webp"
     }
   ]
 }

@@ -28,6 +28,18 @@
       "isbn13": 9780786958122,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?477483",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYPB0/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 753,
+      "source": "https://www.amazon.es/dp/B08QSL3Z2B/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSL3Z2B/" }],
+      "cover": "/images/novels/the-hand-of-the-hunter/english-2013-audiobook.webp"
     }
   ]
 }

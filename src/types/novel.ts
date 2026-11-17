@@ -25,7 +25,8 @@ export type NovelKind =
   | 'fiction_guide'
 
 // web: publicada solo en la web de Wizards o de su autor, sin ISBN ni enlaces de compra
-export type NovelFormat = 'hardcover' | 'paperback' | 'mass_market' | 'ebook' | 'web'
+// audiobook: solo los que se venden en Amazon.es (Audible)
+export type NovelFormat = 'hardcover' | 'paperback' | 'mass_market' | 'ebook' | 'web' | 'audiobook'
 
 export type NovelLanguage = 'english' | 'castellano'
 
@@ -43,6 +44,9 @@ export interface NovelEdition {
   date?: string
   // Sin formato cuando las fuentes no lo indican
   format?: NovelFormat
+  // Solo en audiolibros: narradores y duración en minutos
+  narrators?: string[]
+  duration?: number
   isbn13?: number
   cover?: string
   // Fuente de la edición, cuando no es la misma que la de la novela
@@ -74,9 +78,12 @@ export interface Novel {
 }
 
 // Volumen que reúne varias novelas: se guarda una vez, en su serie
-export interface NovelCollection extends Omit<NovelEdition, 'url' | 'format'> {
+export interface NovelCollection extends Omit<
+  NovelEdition,
+  'url' | 'format' | 'narrators' | 'duration'
+> {
   title: string
-  format?: Exclude<NovelFormat, 'web'>
+  format?: Exclude<NovelFormat, 'web' | 'audiobook'>
   novels: string[]
 }
 

@@ -50,6 +50,18 @@
       "isbn13": 9788448038359,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/28318",
       "cover": "/images/novels/corsair/9788448038359.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["J. P. Linton"],
+      "duration": 838,
+      "source": "https://www.amazon.es/dp/B08QV6GDXT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV6GDXT/" }],
+      "cover": "/images/novels/corsair/english-2013-audiobook.webp"
     }
   ]
 }

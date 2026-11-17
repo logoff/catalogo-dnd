@@ -162,6 +162,23 @@
         }
       ],
       "cover": "/images/novels/the-halflings-gem/9788445014172.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-06-04",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 681,
+      "source": "https://www.amazon.es/dp/B08978YQS3/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08978YQS3/"
+        }
+      ],
+      "cover": "/images/novels/the-halflings-gem/english-2013-audiobook.webp"
     }
   ]
 }

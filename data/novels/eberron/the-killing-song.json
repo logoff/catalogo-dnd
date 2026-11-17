@@ -29,6 +29,18 @@
       "isbn13": 9780786956654,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481678",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B000SEH7UY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Adam Epstein"],
+      "duration": 912,
+      "source": "https://www.amazon.es/dp/B085LYT37X/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B085LYT37X/" }],
+      "cover": "/images/novels/the-killing-song/english-2013-audiobook.webp"
     }
   ]
 }

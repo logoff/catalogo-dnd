@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71820",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786937947/" }],
       "cover": "/images/novels/wizards-curse/9780786937943.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Leslie Bellair"],
+      "duration": 410,
+      "source": "https://www.amazon.es/dp/B08644Z569/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08644Z569/" }],
+      "cover": "/images/novels/wizards-curse/english-2013-audiobook.webp"
     }
   ]
 }

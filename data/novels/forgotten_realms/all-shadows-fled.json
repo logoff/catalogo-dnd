@@ -29,6 +29,18 @@
       "isbn13": 9780786961665,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476314",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R81ZYA/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Todd McLaren"],
+      "duration": 677,
+      "source": "https://www.amazon.es/dp/B07ZS7J2ZK/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07ZS7J2ZK/" }],
+      "cover": "/images/novels/all-shadows-fled/english-2013-audiobook.webp"
     }
   ]
 }

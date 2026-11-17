@@ -29,6 +29,18 @@
       "isbn13": 9780786957576,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481034",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003MZ0XIY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 609,
+      "source": "https://www.amazon.es/dp/B08QV8Y1MN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV8Y1MN/" }],
+      "cover": "/images/novels/circle-of-skulls/english-2013-audiobook.webp"
     }
   ]
 }

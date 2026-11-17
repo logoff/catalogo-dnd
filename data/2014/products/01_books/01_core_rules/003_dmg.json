@@ -44,7 +44,13 @@
         "/images/products/2014/dmg/pub1_img0.jpg",
         "/images/products/2014/dmg/pub1_img1.jpg"
       ],
-      "openlibrary_url": "https://openlibrary.org/books/OL47567567M"
+      "openlibrary_url": "https://openlibrary.org/books/OL47567567M",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeon-master39-s-guide/9788416357659/9614696"
+        }
+      ]
     },
     {
       "type": "book",
@@ -59,7 +65,13 @@
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786967537,
       "images": ["/images/products/2014/dmg/pub2_img0.jpg"],
-      "official_url": "https://dnd.wizards.com/es/products/dungeon-masters-guide"
+      "official_url": "https://dnd.wizards.com/es/products/dungeon-masters-guide",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeon-master39-s-guide-guia-del-dungeon-master-de-dungeons/9780786967537/12603231"
+        }
+      ]
     }
   ]
 }

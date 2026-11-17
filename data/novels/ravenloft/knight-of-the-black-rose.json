@@ -49,6 +49,18 @@
       "isbn13": 9788448040109,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/9188",
       "cover": "/images/novels/knight-of-the-black-rose/9788448040109.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Danny Campbell"],
+      "duration": 631,
+      "source": "https://www.amazon.es/dp/B08QV7QJ94/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV7QJ94/" }],
+      "cover": "/images/novels/knight-of-the-black-rose/english-2013-audiobook.webp"
     }
   ]
 }

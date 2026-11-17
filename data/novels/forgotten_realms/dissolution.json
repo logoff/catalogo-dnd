@@ -112,6 +112,23 @@
         }
       ],
       "cover": "/images/novels/dissolution/9788445022597.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Rosalyn Landor"],
+      "duration": 851,
+      "source": "https://www.amazon.es/dp/B08DKL3S9V/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08DKL3S9V/"
+        }
+      ],
+      "cover": "/images/novels/dissolution/english-2013-audiobook.webp"
     }
   ]
 }

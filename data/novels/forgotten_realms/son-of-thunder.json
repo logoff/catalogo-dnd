@@ -27,6 +27,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B008ADBZBC/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADBZBC/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 667,
+      "source": "https://www.amazon.es/dp/B08QTWDXJD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTWDXJD/" }],
+      "cover": "/images/novels/son-of-thunder/english-2013-audiobook.webp"
     }
   ]
 }

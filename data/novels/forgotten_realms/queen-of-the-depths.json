@@ -28,6 +28,18 @@
       "isbn13": 9780786964253,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469542",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFHJI/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Jean Brassard"],
+      "duration": 620,
+      "source": "https://www.amazon.es/dp/B08QSJNCYB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSJNCYB/" }],
+      "cover": "/images/novels/queen-of-the-depths/english-2013-audiobook.webp"
     }
   ]
 }

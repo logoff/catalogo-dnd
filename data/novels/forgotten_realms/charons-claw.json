@@ -104,6 +104,23 @@
         }
       ],
       "cover": "/images/novels/charons-claw/9788445010921.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-26",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 908,
+      "source": "https://www.amazon.es/dp/B0874GQY7R/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0874GQY7R/"
+        }
+      ],
+      "cover": "/images/novels/charons-claw/english-2013-audiobook.webp"
     }
   ]
 }

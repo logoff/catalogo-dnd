@@ -109,6 +109,23 @@
         }
       ],
       "cover": "/images/novels/the-ghost-king/9788445010839.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Audio",
+      "date": "2009-10-07",
+      "format": "audiobook",
+      "narrators": ["Mark Bramhall"],
+      "duration": 753,
+      "source": "https://www.amazon.es/dp/B08512MKKC/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08512MKKC/"
+        }
+      ],
+      "cover": "/images/novels/the-ghost-king/english-2009-audiobook.webp"
     }
   ]
 }

@@ -26,6 +26,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B00C4B24DO/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00C4B24DO/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Marcella Rose Sciotto"],
+      "duration": 624,
+      "source": "https://www.amazon.es/dp/B082FTHN5W/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B082FTHN5W/" }],
+      "cover": "/images/novels/voyage-of-the-mourning-dawn/english-2013-audiobook.webp"
     }
   ]
 }

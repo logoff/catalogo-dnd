@@ -29,6 +29,18 @@
       "isbn13": 9780786957521,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478908",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYP60/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 662,
+      "source": "https://www.amazon.es/dp/B08QV6C488/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV6C488/" }],
+      "cover": "/images/novels/the-captive-flame/english-2013-audiobook.webp"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?38948",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786933240/" }],
       "cover": "/images/novels/the-dying-kingdom/9780786933242.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-09",
+      "format": "audiobook",
+      "narrators": ["Casey Holloway"],
+      "duration": 460,
+      "source": "https://www.amazon.es/dp/B086451MK4/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B086451MK4/" }],
+      "cover": "/images/novels/the-dying-kingdom/english-2013-audiobook.webp"
     }
   ]
 }

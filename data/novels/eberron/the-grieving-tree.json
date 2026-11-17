@@ -27,6 +27,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0036S4EEG/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EEG/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Adam Epstein"],
+      "duration": 955,
+      "source": "https://www.amazon.es/dp/B0821XX129/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0821XX129/" }],
+      "cover": "/images/novels/the-grieving-tree/english-2013-audiobook.webp"
     }
   ]
 }

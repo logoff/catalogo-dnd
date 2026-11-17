@@ -18,6 +18,18 @@
       "isbn13": 9780786939947,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?81814",
       "cover": "/images/novels/the-crystal-chalice/9780786939947.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Daniel May"],
+      "duration": 489,
+      "source": "https://www.amazon.es/dp/B08QVKF8MJ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVKF8MJ/" }],
+      "cover": "/images/novels/the-crystal-chalice/english-2013-audiobook.webp"
     }
   ]
 }

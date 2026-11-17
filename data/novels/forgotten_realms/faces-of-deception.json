@@ -29,6 +29,18 @@
       "isbn13": 9780786962051,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?463148",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6HP0/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Brian Troxell"],
+      "duration": 614,
+      "source": "https://www.amazon.es/dp/B08QVDZX7J/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVDZX7J/" }],
+      "cover": "/images/novels/faces-of-deception/english-2013-audiobook.webp"
     }
   ]
 }

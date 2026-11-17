@@ -38,6 +38,18 @@
       "isbn13": 9780786957996,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?350192",
       "cover": "/images/novels/elminster-must-die/9780786957996.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Michael McConnohie"],
+      "duration": 860,
+      "source": "https://www.amazon.es/dp/B0875MK3SQ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0875MK3SQ/" }],
+      "cover": "/images/novels/elminster-must-die/english-2013-audiobook.webp"
     }
   ]
 }

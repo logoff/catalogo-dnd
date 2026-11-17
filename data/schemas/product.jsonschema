@@ -124,7 +124,7 @@
             "properties": {
                 "store": {
                     "type": "string",
-                    "enum": ["amazon", "generacion_x", "juegos_mesa_redonda"]
+                    "enum": ["amazon", "generacion_x", "juegos_mesa_redonda", "casa_del_libro"]
                 },
                 "url": {
                     "type": "string",

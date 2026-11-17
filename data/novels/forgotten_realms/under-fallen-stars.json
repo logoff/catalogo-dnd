@@ -29,6 +29,18 @@
       "isbn13": 9780786963980,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467759",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C90ZTM/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-11",
+      "format": "audiobook",
+      "narrators": ["Ralph Lister"],
+      "duration": 756,
+      "source": "https://www.amazon.es/dp/B08QVCK9PH/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVCK9PH/" }],
+      "cover": "/images/novels/under-fallen-stars/english-2013-audiobook.webp"
     }
   ]
 }

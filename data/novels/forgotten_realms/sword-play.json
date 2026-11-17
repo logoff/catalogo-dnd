@@ -29,6 +29,18 @@
       "isbn13": 9780786963959,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467758",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADBY4A/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Malcom Hillgartner"],
+      "duration": 587,
+      "source": "https://www.amazon.es/dp/B08QTRPZTY/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTRPZTY/" }],
+      "cover": "/images/novels/sword-play/english-2013-audiobook.webp"
     }
   ]
 }

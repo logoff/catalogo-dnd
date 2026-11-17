@@ -83,6 +83,18 @@
       "isbn13": 9788448005160,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36231",
       "cover": "/images/novels/the-soulforge/9788448005160.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Chris Sorensen"],
+      "duration": 1028,
+      "source": "https://www.amazon.es/dp/B095JMS73T/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B095JMS73T/" }],
+      "cover": "/images/novels/the-soulforge/english-2013-audiobook.webp"
     }
   ]
 }

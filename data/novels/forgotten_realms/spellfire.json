@@ -80,6 +80,18 @@
       "isbn13": 9788448725556,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/37043",
       "cover": "/images/novels/spellfire/9788448725556.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-07",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 1034,
+      "source": "https://www.amazon.es/dp/B08QTZQ2FB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTZQ2FB/" }],
+      "cover": "/images/novels/spellfire/english-2013-audiobook.webp"
     }
   ]
 }

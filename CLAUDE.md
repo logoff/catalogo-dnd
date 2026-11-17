@@ -32,6 +32,8 @@ recetas disponibles.
   de aquí para buscar información nueva
 - `just video-thumbnails` — Descarga las miniaturas que falten de los
   vídeos de los videojuegos
+- `just affiliate-coverage` — Lista las fichas sin enlace a las tiendas
+  de afiliados aceptadas (excepciones en `data/affiliate-exceptions.json`)
 - `just check-videos` — Avisa de vídeos retirados, no empotrables o de
   otro canal (en Actions, sin bloquear)
 - `just novel-covers <slug> <isbn>=<url>…` — Descarga las portadas de las

@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?6965",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786919027/" }],
       "cover": "/images/novels/chosen-of-the-gods/9780786919024.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Kevin Stillwell"],
+      "duration": 811,
+      "source": "https://www.amazon.es/dp/B08QVDW12N/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVDW12N/" }],
+      "cover": "/images/novels/chosen-of-the-gods/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786963904,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467750",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEIAW/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Jean Brassard"],
+      "duration": 638,
+      "source": "https://www.amazon.es/dp/B08QV6M5ZP/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV6M5ZP/" }],
+      "cover": "/images/novels/the-alabaster-staff/english-2013-audiobook.webp"
     }
   ]
 }

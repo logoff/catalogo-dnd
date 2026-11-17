@@ -28,6 +28,18 @@
       "isbn13": 9780786959969,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464229",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0055PKE7Y/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["T. David Rutherford"],
+      "duration": 430,
+      "source": "https://www.amazon.es/dp/B08QTGQKDR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTGQKDR/" }],
+      "cover": "/images/novels/venom-in-her-veins/english-2013-audiobook.webp"
     }
   ]
 }

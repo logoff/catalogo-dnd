@@ -60,6 +60,18 @@
       "isbn13": 9788448724757,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23265",
       "cover": "/images/novels/crusade/9788448724757.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-17",
+      "format": "audiobook",
+      "narrators": ["Robin Bloodworth"],
+      "duration": 757,
+      "source": "https://www.amazon.es/dp/B088Q4L4FZ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B088Q4L4FZ/" }],
+      "cover": "/images/novels/crusade/english-2013-audiobook.webp"
     }
   ]
 }

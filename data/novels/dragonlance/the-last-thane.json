@@ -40,6 +40,18 @@
       "isbn13": 9788448039189,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/52",
       "cover": "/images/novels/the-last-thane/9788448039189.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Clinton Wade"],
+      "duration": 524,
+      "source": "https://www.amazon.es/dp/B08QSHSDBM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSHSDBM/" }],
+      "cover": "/images/novels/the-last-thane/english-2013-audiobook.webp"
     }
   ]
 }

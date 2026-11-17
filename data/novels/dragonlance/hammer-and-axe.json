@@ -51,6 +51,18 @@
       "isbn13": 9788448722401,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24325",
       "cover": "/images/novels/hammer-and-axe/9788448722401.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Allen O'Reilly"],
+      "duration": 486,
+      "source": "https://www.amazon.es/dp/B08QTP9PJ1/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTP9PJ1/" }],
+      "cover": "/images/novels/hammer-and-axe/english-2013-audiobook.webp"
     }
   ]
 }

@@ -40,6 +40,18 @@
       "isbn13": 9788448039370,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/634",
       "cover": "/images/novels/lord-soth/9788448039370.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-15",
+      "format": "audiobook",
+      "narrators": ["Zach Villa"],
+      "duration": 526,
+      "source": "https://www.amazon.es/dp/B0851VTQCJ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0851VTQCJ/" }],
+      "cover": "/images/novels/lord-soth/english-2013-audiobook.webp"
     }
   ]
 }

@@ -51,6 +51,18 @@
       "isbn13": 9788448721848,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24279",
       "cover": "/images/novels/the-day-of-the-tempest/9788448721848.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Josh Clark"],
+      "duration": 597,
+      "source": "https://www.amazon.es/dp/B08QV5RHNY/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV5RHNY/" }],
+      "cover": "/images/novels/the-day-of-the-tempest/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786962808,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464225",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007369ZSW/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Steve West"],
+      "duration": 816,
+      "source": "https://www.amazon.es/dp/B08QTW38VD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTW38VD/" }],
+      "cover": "/images/novels/the-darkwood-mask/english-2013-audiobook.webp"
     }
   ]
 }

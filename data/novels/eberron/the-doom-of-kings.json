@@ -28,6 +28,18 @@
       "isbn13": 9780786956487,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483464",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0015DWMMK/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Robin Sachs"],
+      "duration": 840,
+      "source": "https://www.amazon.es/dp/B08QVCKB23/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVCKB23/" }],
+      "cover": "/images/novels/the-doom-of-kings/english-2013-audiobook.webp"
     }
   ]
 }

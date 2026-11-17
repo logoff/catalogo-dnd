@@ -49,6 +49,18 @@
       "isbn13": 9780063086005,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?942341",
       "cover": "/images/novels/glaciers-edge/9780063086005.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2022-08-09",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 823,
+      "source": "https://www.amazon.es/dp/B09M99VVF6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B09M99VVF6/" }],
+      "cover": "/images/novels/glaciers-edge/english-2022-audiobook.webp"
     }
   ]
 }

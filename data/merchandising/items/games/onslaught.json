@@ -9,7 +9,13 @@
   "source": "https://wizkids.com/dd-onslaught/",
   "editions": [
     {
-      "language": "english"
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B8TM3X9T/"
+        }
+      ]
     }
   ],
   "images": ["/images/merchandising/onslaught/0.jpg"]

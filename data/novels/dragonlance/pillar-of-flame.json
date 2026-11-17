@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89355",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942487/" }],
       "cover": "/images/novels/pillar-of-flame/9780786942480.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Christine Williams"],
+      "duration": 470,
+      "source": "https://www.amazon.es/dp/B08QSH31N1/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSH31N1/" }],
+      "cover": "/images/novels/pillar-of-flame/english-2013-audiobook.webp"
     }
   ]
 }

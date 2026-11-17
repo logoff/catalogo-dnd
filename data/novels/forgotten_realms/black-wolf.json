@@ -37,6 +37,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0076PGHRM/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076PGHRM/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["Jeremy Arthur"],
+      "duration": 560,
+      "source": "https://www.amazon.es/dp/B08QTVJGTC/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTVJGTC/" }],
+      "cover": "/images/novels/black-wolf/english-2013-audiobook.webp"
     }
   ]
 }

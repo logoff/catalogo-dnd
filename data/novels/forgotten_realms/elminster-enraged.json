@@ -38,6 +38,18 @@
       "isbn13": 9780786963638,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?413339",
       "cover": "/images/novels/elminster-enraged/9780786963638.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Michael McConnohie"],
+      "duration": 736,
+      "source": "https://www.amazon.es/dp/B08B11H1K8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08B11H1K8/" }],
+      "cover": "/images/novels/elminster-enraged/english-2013-audiobook.webp"
     }
   ]
 }

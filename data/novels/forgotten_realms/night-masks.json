@@ -79,6 +79,18 @@
       "isbn13": 9788448724474,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/40996",
       "cover": "/images/novels/night-masks/9788448724474.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-08-27",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 592,
+      "source": "https://www.amazon.es/dp/B083855MZM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B083855MZM/" }],
+      "cover": "/images/novels/night-masks/english-2013-audiobook.webp"
     }
   ]
 }

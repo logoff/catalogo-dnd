@@ -73,6 +73,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/33638",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038819/" }],
       "cover": "/images/novels/thornhold/9788448038816.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Eric Michael Summerer"],
+      "duration": 860,
+      "source": "https://www.amazon.es/dp/B08QSGCKCL/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSGCKCL/" }],
+      "cover": "/images/novels/thornhold/english-2013-audiobook.webp"
     }
   ]
 }

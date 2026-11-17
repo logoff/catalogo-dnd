@@ -32,6 +32,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/8445009222/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeons-amp-dragons-monstruos-amp-criaturas/9788445009222/11667789"
         }
       ]
     }

@@ -29,6 +29,18 @@
       "isbn13": 9780786956937,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481693",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4DWY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Jean Brassard"],
+      "duration": 605,
+      "source": "https://www.amazon.es/dp/B08QVHBV8F/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVHBV8F/" }],
+      "cover": "/images/novels/the-black-bouquet/english-2013-audiobook.webp"
     }
   ]
 }

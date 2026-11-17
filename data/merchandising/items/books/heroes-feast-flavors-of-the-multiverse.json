@@ -32,6 +32,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/844501904X/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-festin-de-heroes-sabores-del-multiverso/9788445019047/16465948"
         }
       ]
     }

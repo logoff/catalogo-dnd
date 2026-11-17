@@ -29,6 +29,18 @@
       "isbn13": 9780786963836,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467161",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEK3W/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Nicole Greevy"],
+      "duration": 590,
+      "source": "https://www.amazon.es/dp/B08QTTRCXY/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTTRCXY/" }],
+      "cover": "/images/novels/temple-hill/english-2013-audiobook.webp"
     }
   ]
 }

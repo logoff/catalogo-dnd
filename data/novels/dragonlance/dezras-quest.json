@@ -51,6 +51,18 @@
       "isbn13": 9788467429855,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24587",
       "cover": "/images/novels/dezras-quest/9788467429855.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ramon De Ocampo"],
+      "duration": 705,
+      "source": "https://www.amazon.es/dp/B08QV77XL2/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV77XL2/" }],
+      "cover": "/images/novels/dezras-quest/english-2013-audiobook.webp"
     }
   ]
 }

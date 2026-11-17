@@ -29,6 +29,18 @@
       "isbn13": 9780786957545,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?479391",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYP8S/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Kate Reading"],
+      "duration": 569,
+      "source": "https://www.amazon.es/dp/B08QV3CM1R/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV3CM1R/" }],
+      "cover": "/images/novels/taint-of-the-black-brigade/english-2013-audiobook.webp"
     }
   ]
 }

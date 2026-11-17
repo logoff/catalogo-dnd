@@ -73,6 +73,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/33634",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038789/" }],
       "cover": "/images/novels/elfshadow/9788448038786.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Eric Michael Summerer"],
+      "duration": 692,
+      "source": "https://www.amazon.es/dp/B08HGLNWKB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08HGLNWKB/" }],
+      "cover": "/images/novels/elfshadow/english-2013-audiobook.webp"
     }
   ]
 }

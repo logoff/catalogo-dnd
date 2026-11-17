@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43132",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786927526/" }],
       "cover": "/images/novels/the-lioness/9780786927524.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Pat Young"],
+      "duration": 602,
+      "source": "https://www.amazon.es/dp/B088T6419Z/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B088T6419Z/" }],
+      "cover": "/images/novels/the-lioness/english-2013-audiobook.webp"
     }
   ]
 }

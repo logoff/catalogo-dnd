@@ -47,6 +47,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B005PRCG46/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PRCG46/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-12",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 892,
+      "source": "https://www.amazon.es/dp/B08QSHXZKN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSHXZKN/" }],
+      "cover": "/images/novels/crown-of-fire/english-2013-audiobook.webp"
     }
   ]
 }

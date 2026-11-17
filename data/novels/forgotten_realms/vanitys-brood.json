@@ -29,6 +29,18 @@
       "isbn13": 9780786957033,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481698",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EQ4/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 579,
+      "source": "https://www.amazon.es/dp/B08QTJDJWK/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTJDJWK/" }],
+      "cover": "/images/novels/vanitys-brood/english-2013-audiobook.webp"
     }
   ]
 }

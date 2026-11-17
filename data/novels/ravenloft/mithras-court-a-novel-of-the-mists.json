@@ -17,6 +17,18 @@
       "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786950683&type=ISBN",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786950684/" }],
       "cover": "/images/novels/mithras-court-a-novel-of-the-mists/9780786950683.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Tavia Gilbert"],
+      "duration": 728,
+      "source": "https://www.amazon.es/dp/B08QTYQTKK/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTYQTKK/" }],
+      "cover": "/images/novels/mithras-court-a-novel-of-the-mists/english-2013-audiobook.webp"
     }
   ]
 }

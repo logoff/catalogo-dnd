@@ -29,6 +29,18 @@
       "isbn13": 9780786956463,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?546439",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0015DWKX6/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["James Langton"],
+      "duration": 537,
+      "source": "https://www.amazon.es/dp/B08QVC8JTR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVC8JTR/" }],
+      "cover": "/images/novels/the-sellsword/english-2013-audiobook.webp"
     }
   ]
 }

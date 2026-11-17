@@ -50,6 +50,18 @@
       "isbn13": 9788467425246,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24565",
       "cover": "/images/novels/redemption/9788467425246.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Sam Riegel"],
+      "duration": 627,
+      "source": "https://www.amazon.es/dp/B088TDY73P/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B088TDY73P/" }],
+      "cover": "/images/novels/redemption/english-2013-audiobook.webp"
     }
   ]
 }

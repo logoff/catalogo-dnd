@@ -29,6 +29,18 @@
       "isbn13": 9780786962280,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476874",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFHDLE/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 599,
+      "source": "https://www.amazon.es/dp/B08L788SMN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08L788SMN/" }],
+      "cover": "/images/novels/plague-of-spells/english-2013-audiobook.webp"
     }
   ]
 }

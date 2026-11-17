@@ -61,6 +61,18 @@
       "isbn13": 9788448032654,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/5040",
       "cover": "/images/novels/the-kinslayer-wars/9788448032654.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-22",
+      "format": "audiobook",
+      "narrators": ["Steve Coulter"],
+      "duration": 629,
+      "source": "https://www.amazon.es/dp/B08QSMQV6L/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSMQV6L/" }],
+      "cover": "/images/novels/the-kinslayer-wars/english-2013-audiobook.webp"
     }
   ]
 }

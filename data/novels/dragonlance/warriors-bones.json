@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?220169",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942681/" }],
       "cover": "/images/novels/warriors-bones/9780786942688.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Christine Williams"],
+      "duration": 479,
+      "source": "https://www.amazon.es/dp/B08QSHS61T/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSHS61T/" }],
+      "cover": "/images/novels/warriors-bones/english-2013-audiobook.webp"
     }
   ]
 }

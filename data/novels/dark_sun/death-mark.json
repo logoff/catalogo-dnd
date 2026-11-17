@@ -28,6 +28,18 @@
       "isbn13": 9780786959402,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476864",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKU1A/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["Nicholas Tecosky"],
+      "duration": 618,
+      "source": "https://www.amazon.es/dp/B08QV89S2V/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV89S2V/" }],
+      "cover": "/images/novels/death-mark/english-2013-audiobook.webp"
     }
   ]
 }

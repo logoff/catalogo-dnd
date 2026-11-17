@@ -30,6 +30,18 @@
       "isbn13": 9788448034993,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23774",
       "cover": "/images/novels/city-of-the-lost/9788448034993.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Hillary Huber"],
+      "duration": 560,
+      "source": "https://www.amazon.es/dp/B08QV6QPBH/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV6QPBH/" }],
+      "cover": "/images/novels/city-of-the-lost/english-2013-audiobook.webp"
     }
   ]
 }

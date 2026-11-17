@@ -120,6 +120,23 @@
         }
       ],
       "cover": "/images/novels/the-lone-drow/9788445019320.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2014-05-06",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 862,
+      "source": "https://www.amazon.es/dp/B081PLQHZN/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081PLQHZN/"
+        }
+      ],
+      "cover": "/images/novels/the-lone-drow/english-2014-audiobook.webp"
     }
   ]
 }

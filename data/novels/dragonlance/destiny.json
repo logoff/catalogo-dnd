@@ -26,6 +26,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B007SGYJ3I/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007SGYJ3I/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ax Norman"],
+      "duration": 625,
+      "source": "https://www.amazon.es/dp/B08QVK1NG7/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVK1NG7/" }],
+      "cover": "/images/novels/destiny/english-2013-audiobook.webp"
     }
   ]
 }

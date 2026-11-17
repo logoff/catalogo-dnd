@@ -49,6 +49,18 @@
       "isbn13": 9788448034443,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23325",
       "cover": "/images/novels/the-medusa-plague/9788448034443.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["JP Linton"],
+      "duration": 602,
+      "source": "https://www.amazon.es/dp/B08QSMVGNG/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSMVGNG/" }],
+      "cover": "/images/novels/the-medusa-plague/english-2013-audiobook.webp"
     }
   ]
 }

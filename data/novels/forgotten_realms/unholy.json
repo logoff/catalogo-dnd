@@ -29,6 +29,18 @@
       "isbn13": 9780786955916,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483452",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001NLKT06/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-21",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 633,
+      "source": "https://www.amazon.es/dp/B07ZXNFL5N/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07ZXNFL5N/" }],
+      "cover": "/images/novels/unholy/english-2013-audiobook.webp"
     }
   ]
 }

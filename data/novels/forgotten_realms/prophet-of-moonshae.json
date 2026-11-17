@@ -29,6 +29,18 @@
       "isbn13": 9780786961894,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476273",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R83PNO/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Karen White"],
+      "duration": 808,
+      "source": "https://www.amazon.es/dp/B08QVCG73L/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVCG73L/" }],
+      "cover": "/images/novels/prophet-of-moonshae/english-2013-audiobook.webp"
     }
   ]
 }

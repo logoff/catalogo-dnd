@@ -39,6 +39,18 @@
       "isbn13": 9788496262546,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/13940",
       "cover": "/images/novels/plague-of-ice/9788496262546.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-04-05",
+      "format": "audiobook",
+      "narrators": ["Dolph Amick"],
+      "duration": 327,
+      "source": "https://www.amazon.es/dp/B0834JVP35/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0834JVP35/" }],
+      "cover": "/images/novels/plague-of-ice/english-2013-audiobook.webp"
     }
   ]
 }

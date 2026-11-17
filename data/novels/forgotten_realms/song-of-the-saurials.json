@@ -59,6 +59,18 @@
       "isbn13": 9788448726133,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36934",
       "cover": "/images/novels/song-of-the-saurials/9788448726133.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-17",
+      "format": "audiobook",
+      "narrators": ["Kristin Kalbli"],
+      "duration": 711,
+      "source": "https://www.amazon.es/dp/B08QSLSG76/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSLSG76/" }],
+      "cover": "/images/novels/song-of-the-saurials/english-2013-audiobook.webp"
     }
   ]
 }

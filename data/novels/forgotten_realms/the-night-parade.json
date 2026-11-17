@@ -29,6 +29,18 @@
       "isbn13": 9780786962938,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464668",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076PGM9U/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Marty Moran"],
+      "duration": 678,
+      "source": "https://www.amazon.es/dp/B087CFNF7G/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B087CFNF7G/" }],
+      "cover": "/images/novels/the-night-parade/english-2013-audiobook.webp"
     }
   ]
 }

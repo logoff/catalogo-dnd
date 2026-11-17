@@ -28,6 +28,18 @@
       "isbn13": 9780786957057,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481700",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S49FK/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 570,
+      "source": "https://www.amazon.es/dp/B08QTRCQQ9/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTRCQQ9/" }],
+      "cover": "/images/novels/vipers-kiss/english-2013-audiobook.webp"
     }
   ]
 }

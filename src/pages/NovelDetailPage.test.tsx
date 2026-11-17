@@ -54,6 +54,16 @@ const novels = [
       spanish('Planeta DeAgostini', '2005'),
       spanish('Minotauro', '2022-06', { purchase_links: link }),
       spanish('Editorial de fuera', '1990', { spain: false }),
+      {
+        language: 'english',
+        country: 'us',
+        publisher: 'Audible Studios',
+        date: '2015-03',
+        format: 'audiobook',
+        narrators: ['Sandra Narradora'],
+        duration: 812,
+        purchase_links: [{ store: 'amazon', url: 'https://www.amazon.es/dp/B0ABCDEFGH/' }],
+      },
     ],
     related_videogames: [game.slug],
   }),
@@ -143,6 +153,16 @@ describe('NovelDetailPage', () => {
     )
   })
 
+  it('muestra el audiolibro con su narrador, su duración y el botón de Audible', () => {
+    renderPage('dragons-of-winter-night')
+    const row = within(section('Ediciones en inglés'))
+      .getAllByRole('listitem')
+      .find((li) => li.textContent?.includes('Audiolibro'))!
+    expect(row).toHaveTextContent('Narrado por Sandra Narradora')
+    expect(row).toHaveTextContent('13 h 32 min')
+    expect(within(row).getByRole('link', { name: /Amazon Audible/ })).toBeInTheDocument()
+  })
+
   it('agrupa las ediciones por idioma, de la más reciente a la más antigua', () => {
     renderPage('dragons-of-winter-night')
     const spanishRows = within(section('Ediciones en castellano')).getAllByRole('listitem')
@@ -155,9 +175,10 @@ describe('NovelDetailPage', () => {
     expect(spanishRows[2]).toHaveTextContent('Fuera de España')
     expect(within(spanishRows[0]).getByRole('link', { name: /Amazon/ })).toBeInTheDocument()
     const englishRows = within(section('Ediciones en inglés')).getAllByRole('listitem')
-    expect(englishRows[0]).toHaveTextContent('Penguin Books')
-    expect(englishRows[0]).toHaveTextContent('Reino Unido')
-    expect(englishRows[1]).toHaveTextContent('ISBN 978-0880381741')
+    expect(englishRows[0]).toHaveTextContent('Audiolibro')
+    expect(englishRows[1]).toHaveTextContent('Penguin Books')
+    expect(englishRows[1]).toHaveTextContent('Reino Unido')
+    expect(englishRows[2]).toHaveTextContent('ISBN 978-0880381741')
   })
 
   it('muestra los recopilatorios que incluyen la novela', () => {

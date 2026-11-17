@@ -29,6 +29,18 @@
       "isbn13": 9780786956340,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483460",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034184S2/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Gayle Hendrix"],
+      "duration": 639,
+      "source": "https://www.amazon.es/dp/B08QSJ7WQX/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSJ7WQX/" }],
+      "cover": "/images/novels/the-gossamer-plain/english-2013-audiobook.webp"
     }
   ]
 }

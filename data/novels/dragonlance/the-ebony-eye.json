@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89468",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078694255X/" }],
       "cover": "/images/novels/the-ebony-eye/9780786942558.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Jeremy Arthur"],
+      "duration": 408,
+      "source": "https://www.amazon.es/dp/B08QV7KYSN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV7KYSN/" }],
+      "cover": "/images/novels/the-ebony-eye/english-2013-audiobook.webp"
     }
   ]
 }

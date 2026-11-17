@@ -38,6 +38,18 @@
       "isbn13": 9788496262355,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/11836",
       "cover": "/images/novels/treacherys-wake/9788496262355.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-16",
+      "format": "audiobook",
+      "narrators": ["Dolph Amick"],
+      "duration": 307,
+      "source": "https://www.amazon.es/dp/B0893PL1F5/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0893PL1F5/" }],
+      "cover": "/images/novels/treacherys-wake/english-2013-audiobook.webp"
     }
   ]
 }

@@ -39,6 +39,18 @@
       "isbn13": 9780786956869,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482367",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S49H8/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Rosalyn Landor"],
+      "duration": 746,
+      "source": "https://www.amazon.es/dp/B08DHS6JXH/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08DHS6JXH/" }],
+      "cover": "/images/novels/resurrection/english-2013-audiobook.webp"
     }
   ]
 }

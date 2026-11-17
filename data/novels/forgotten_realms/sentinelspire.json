@@ -28,6 +28,18 @@
       "isbn13": 9780786963775,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467164",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0086O20QY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Nicole Greevy"],
+      "duration": 776,
+      "source": "https://www.amazon.es/dp/B08QSH2T1M/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSH2T1M/" }],
+      "cover": "/images/novels/sentinelspire/english-2013-audiobook.webp"
     }
   ]
 }

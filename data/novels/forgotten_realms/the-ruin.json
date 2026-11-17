@@ -28,6 +28,18 @@
       "format": "ebook",
       "isbn13": 9780786956982,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481695"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Melissa Reizian Frank"],
+      "duration": 702,
+      "source": "https://www.amazon.es/dp/B08QSNY2HL/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSNY2HL/" }],
+      "cover": "/images/novels/the-ruin/english-2013-audiobook.webp"
     }
   ]
 }

@@ -69,11 +69,19 @@ export function enrichNovel(novel: Novel, collections: NovelCollection[]): Novel
 }
 
 // Portada que representa a la novela: la de la edición en castellano más reciente que la
-// tenga y, si no, la de la inglesa más reciente
+// tenga y, si no, la de la inglesa más reciente; la de un audiolibro, solo si no hay otra
 export function mainCover(novel: Novel): string | null {
-  const withCover = (language: NovelEdition['language']) =>
-    novel.editions.filter((e) => e.language === language && e.cover).sort(byDateDesc)[0]?.cover
-  return withCover('castellano') ?? withCover('english') ?? null
+  const withCover = (language: NovelEdition['language'], audiobook = false) =>
+    novel.editions
+      .filter((e) => e.language === language && e.cover && (e.format === 'audiobook') === audiobook)
+      .sort(byDateDesc)[0]?.cover
+  return (
+    withCover('castellano') ??
+    withCover('english') ??
+    withCover('castellano', true) ??
+    withCover('english', true) ??
+    null
+  )
 }
 
 export function thumbnailOf(cover: string): string {

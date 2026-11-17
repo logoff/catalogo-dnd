@@ -143,6 +143,23 @@
         }
       ],
       "cover": "/images/novels/dragons-of-a-lost-star/9788445015933.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-03",
+      "format": "audiobook",
+      "narrators": ["Marieve Herington"],
+      "duration": 1092,
+      "source": "https://www.amazon.es/dp/B087F41VL1/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B087F41VL1/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-lost-star/english-2013-audiobook.webp"
     }
   ]
 }

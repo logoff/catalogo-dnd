@@ -39,6 +39,18 @@
       "isbn13": 9780786965410,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?437744",
       "cover": "/images/novels/the-godborn/9780786965410.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-10-01",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 866,
+      "source": "https://www.amazon.es/dp/B08QV1YV9Z/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV1YV9Z/" }],
+      "cover": "/images/novels/the-godborn/english-2013-audiobook.webp"
     }
   ]
 }

@@ -28,6 +28,18 @@
       "isbn13": 9780786955923,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?546133",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001NLKY0G/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["James Langton"],
+      "duration": 614,
+      "source": "https://www.amazon.es/dp/B08QVNBTZ2/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVNBTZ2/" }],
+      "cover": "/images/novels/renegade-wizards/english-2013-audiobook.webp"
     }
   ]
 }

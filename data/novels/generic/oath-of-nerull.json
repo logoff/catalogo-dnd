@@ -40,6 +40,18 @@
       "isbn13": 9788493318420,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/11362",
       "cover": "/images/novels/oath-of-nerull/9788493318420.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Dolph Amick"],
+      "duration": 333,
+      "source": "https://www.amazon.es/dp/B086ZCN63P/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B086ZCN63P/" }],
+      "cover": "/images/novels/oath-of-nerull/english-2013-audiobook.webp"
     }
   ]
 }

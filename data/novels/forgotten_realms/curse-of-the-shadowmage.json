@@ -28,6 +28,18 @@
       "isbn13": 9780786964260,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469531",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFGEY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-05-21",
+      "format": "audiobook",
+      "narrators": ["Marty Moran"],
+      "duration": 542,
+      "source": "https://www.amazon.es/dp/B08QTSZHLW/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTSZHLW/" }],
+      "cover": "/images/novels/curse-of-the-shadowmage/english-2013-audiobook.webp"
     }
   ]
 }

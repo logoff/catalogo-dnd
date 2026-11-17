@@ -135,6 +135,23 @@
         }
       ],
       "cover": "/images/novels/dragons-of-a-fallen-sun/9788445015834.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Marieve Herington"],
+      "duration": 1349,
+      "source": "https://www.amazon.es/dp/B081NZ2VWZ/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081NZ2VWZ/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-fallen-sun/english-2013-audiobook.webp"
     }
   ]
 }

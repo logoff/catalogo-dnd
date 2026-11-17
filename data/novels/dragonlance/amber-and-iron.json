@@ -112,6 +112,23 @@
         }
       ],
       "cover": "/images/novels/amber-and-iron/9788445020555.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Leslie Bellair"],
+      "duration": 539,
+      "source": "https://www.amazon.es/dp/B08QTXR259/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08QTXR259/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-iron/english-2013-audiobook.webp"
     }
   ]
 }

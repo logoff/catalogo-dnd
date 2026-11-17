@@ -29,6 +29,18 @@
       "isbn13": 9780786956357,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483799",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001FA0JC8/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 641,
+      "source": "https://www.amazon.es/dp/B08QV2TJVT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV2TJVT/" }],
+      "cover": "/images/novels/mistshore/english-2013-audiobook.webp"
     }
   ]
 }

@@ -101,6 +101,23 @@
         }
       ],
       "cover": "/images/novels/insurrection/9788445022825.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Rosalyn Landor"],
+      "duration": 726,
+      "source": "https://www.amazon.es/dp/B08H4R7Y4D/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08H4R7Y4D/"
+        }
+      ],
+      "cover": "/images/novels/insurrection/english-2013-audiobook.webp"
     }
   ]
 }

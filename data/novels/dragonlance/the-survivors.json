@@ -29,6 +29,18 @@
       "isbn13": 9780786956470,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483471",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001FA0J0K/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["James Langton"],
+      "duration": 584,
+      "source": "https://www.amazon.es/dp/B08HMD6PZ8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08HMD6PZ8/" }],
+      "cover": "/images/novels/the-survivors/english-2013-audiobook.webp"
     }
   ]
 }

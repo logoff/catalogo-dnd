@@ -28,6 +28,18 @@
       "isbn13": 9780786964277,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469532",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEELA/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Chris Snelgrove"],
+      "duration": 504,
+      "source": "https://www.amazon.es/dp/B0837C3JFS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0837C3JFS/" }],
+      "cover": "/images/novels/the-glass-prison/english-2013-audiobook.webp"
     }
   ]
 }

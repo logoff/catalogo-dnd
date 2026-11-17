@@ -39,7 +39,8 @@ fuente, omitiendo los datos que no se conozcan.
 La ficha SHALL mostrar las ediciones agrupadas por idioma, primero las de
 castellano, cada una con título, editorial, año, formato, ISBN, portada
 si la tiene y botones de compra con el afiliado de cada tienda cuando
-esté configurado.
+esté configurado. Los audiolibros SHALL mostrarse en su idioma, con su
+narrador y su duración si se conoce.
 
 #### Scenario: Novela con tres ediciones en castellano
 
@@ -50,6 +51,13 @@ esté configurado.
 
 - **WHEN** una edición ebook se vende en Amazon como Kindle
 - **THEN** su botón de compra indica que es la versión Kindle
+
+#### Scenario: Audiolibro
+
+- **WHEN** una novela tiene un audiolibro en inglés
+- **THEN** la ficha lo muestra entre las ediciones en inglés con el
+  formato «Audiolibro», el narrador y un botón de compra que indica que
+  es el audiolibro
 
 #### Scenario: Novela con muchas ediciones en inglés
 

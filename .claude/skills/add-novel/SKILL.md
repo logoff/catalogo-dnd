@@ -83,6 +83,15 @@ haya archivado el cambio, en `openspec/changes/add-novelas/specs/`).
   la ficha Kindle como `source`. Las ediciones ebook antiguas que ya no
   tienen ficha Kindle propia (las sustituyó una reedición) se quedan sin
   enlace. La web muestra estos botones como «Comprar en Amazon Kindle».
+- **Audiolibros**: busca en Amazon.es en la categoría Audible
+  (`/s?k=<título> <autor>&i=audible`) y abre la ficha: «Detalles del
+  producto» da narrador, duración, fecha, editorial, idioma y ASIN. Solo
+  versiones íntegras a la venta en Amazon.es; van como edición con
+  `format: "audiobook"`, `narrators`, `duration` (minutos) y el enlace de
+  Amazon con el ASIN. La web los muestra como «Comprar en Amazon Audible».
+- `just affiliate-coverage` lista las fichas sin enlace a las tiendas
+  aceptadas; lo que se revisa y no está a la venta va con su motivo en
+  `data/affiliate-exceptions.json`.
 - **Tercera Fundación** responde a `curl`; busca la obra con
   `https://tercerafundacion.net/biblioteca/buscar/?q=<título>`, abre su
   ficha (`/biblioteca/ver/ficha/<id>`) y lista las ediciones con

@@ -25,6 +25,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0076Q1GSG/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1GSG/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ax Norman"],
+      "duration": 600,
+      "source": "https://www.amazon.es/dp/B08KH4PXZD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08KH4PXZD/" }],
+      "cover": "/images/novels/heir-of-kayolin/english-2013-audiobook.webp"
     }
   ]
 }

@@ -93,6 +93,18 @@
       "isbn13": 9788448005832,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36976",
       "cover": "/images/novels/weasels-luck/9788448005832.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["Richard Topol"],
+      "duration": 657,
+      "source": "https://www.amazon.es/dp/B08QSK97ZB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSK97ZB/" }],
+      "cover": "/images/novels/weasels-luck/english-2013-audiobook.webp"
     }
   ]
 }

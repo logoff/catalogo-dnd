@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?53892",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786929650/" }],
       "cover": "/images/novels/a-warriors-journey/9780786929658.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Dennis Holland"],
+      "duration": 817,
+      "source": "https://www.amazon.es/dp/B08QHCY1NB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QHCY1NB/" }],
+      "cover": "/images/novels/a-warriors-journey/english-2013-audiobook.webp"
     }
   ]
 }

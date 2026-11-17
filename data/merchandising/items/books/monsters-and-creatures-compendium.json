@@ -32,6 +32,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/8445022695/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeons-amp-dragons-compendio-de-monstruos-amp-criaturas/9788445022696/18275403"
         }
       ]
     }

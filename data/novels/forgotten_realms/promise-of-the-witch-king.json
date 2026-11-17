@@ -130,6 +130,23 @@
           "url": "https://www.amazon.es/dp/B000S1LBHW/"
         }
       ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2014-03-18",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 742,
+      "source": "https://www.amazon.es/dp/B081PK8B48/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081PK8B48/"
+        }
+      ],
+      "cover": "/images/novels/promise-of-the-witch-king/english-2014-audiobook.webp"
     }
   ]
 }

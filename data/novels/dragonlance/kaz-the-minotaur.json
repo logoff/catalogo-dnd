@@ -70,6 +70,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0076Q1EVK/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1EVK/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-07",
+      "format": "audiobook",
+      "narrators": ["Richard Topol"],
+      "duration": 522,
+      "source": "https://www.amazon.es/dp/B08QSHV83X/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSHV83X/" }],
+      "cover": "/images/novels/kaz-the-minotaur/english-2013-audiobook.webp"
     }
   ]
 }

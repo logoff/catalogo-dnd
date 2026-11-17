@@ -27,6 +27,18 @@
       "isbn13": 9780786959181,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?473544",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004LGTSCA/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Nicholas Tecosky"],
+      "duration": 407,
+      "source": "https://www.amazon.es/dp/B08QSMZHK1/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSMZHK1/" }],
+      "cover": "/images/novels/under-the-crimson-sun/english-2013-audiobook.webp"
     }
   ]
 }

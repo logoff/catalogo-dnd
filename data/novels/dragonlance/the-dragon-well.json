@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?63550",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786933542/" }],
       "cover": "/images/novels/the-dragon-well/9780786933549.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Casey Holloway"],
+      "duration": 442,
+      "source": "https://www.amazon.es/dp/B08643XR1F/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08643XR1F/" }],
+      "cover": "/images/novels/the-dragon-well/english-2013-audiobook.webp"
     }
   ]
 }

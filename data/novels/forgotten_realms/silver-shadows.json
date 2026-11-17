@@ -73,6 +73,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/33637",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038800/" }],
       "cover": "/images/novels/silver-shadows/9788448038809.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Eric Michael Summerer"],
+      "duration": 800,
+      "source": "https://www.amazon.es/dp/B08QTP1BC7/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTP1BC7/" }],
+      "cover": "/images/novels/silver-shadows/english-2013-audiobook.webp"
     }
   ]
 }

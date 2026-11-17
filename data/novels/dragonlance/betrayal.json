@@ -96,6 +96,23 @@
         }
       ],
       "cover": "/images/novels/betrayal/9788445022818.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Sam Riegel"],
+      "duration": 596,
+      "source": "https://www.amazon.es/dp/B085PZTVZH/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B085PZTVZH/"
+        }
+      ],
+      "cover": "/images/novels/betrayal/english-2013-audiobook.webp"
     }
   ]
 }

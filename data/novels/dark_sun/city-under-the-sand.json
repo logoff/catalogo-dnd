@@ -27,6 +27,18 @@
       "isbn13": 9780786958061,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478489",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYOUW/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Nicholas Tecosky"],
+      "duration": 694,
+      "source": "https://www.amazon.es/dp/B08QSLC1LW/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSLC1LW/" }],
+      "cover": "/images/novels/city-under-the-sand/english-2013-audiobook.webp"
     }
   ]
 }

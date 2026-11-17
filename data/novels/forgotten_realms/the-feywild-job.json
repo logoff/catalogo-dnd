@@ -38,6 +38,18 @@
       "isbn13": 9781807590185,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1116759",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0GSSQPHQR/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Audio",
+      "date": "2026-06-30",
+      "format": "audiobook",
+      "narrators": ["Vico Ortiz"],
+      "duration": 875,
+      "source": "https://www.amazon.es/dp/B0G4ZVNBJQ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0G4ZVNBJQ/" }],
+      "cover": "/images/novels/the-feywild-job/english-2026-audiobook.webp"
     }
   ]
 }

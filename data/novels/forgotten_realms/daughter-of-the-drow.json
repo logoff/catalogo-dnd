@@ -71,6 +71,18 @@
       "isbn13": 9788448725020,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36938",
       "cover": "/images/novels/daughter-of-the-drow/9788448725020.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 913,
+      "source": "https://www.amazon.es/dp/B08QVHWTN9/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVHWTN9/" }],
+      "cover": "/images/novels/daughter-of-the-drow/english-2013-audiobook.webp"
     }
   ]
 }

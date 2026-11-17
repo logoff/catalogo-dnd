@@ -18,6 +18,18 @@
       "isbn13": 9780786938193,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?72829",
       "cover": "/images/novels/the-orb-of-xoriat/9780786938193.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Fleet Cooper"],
+      "duration": 690,
+      "source": "https://www.amazon.es/dp/B08NNHN8VG/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08NNHN8VG/" }],
+      "cover": "/images/novels/the-orb-of-xoriat/english-2013-audiobook.webp"
     }
   ]
 }

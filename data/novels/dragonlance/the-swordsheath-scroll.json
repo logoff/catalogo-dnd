@@ -50,6 +50,18 @@
       "isbn13": 9788448722432,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24444",
       "cover": "/images/novels/the-swordsheath-scroll/9788448722432.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Allen O'Reilly"],
+      "duration": 478,
+      "source": "https://www.amazon.es/dp/B08QV472KT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV472KT/" }],
+      "cover": "/images/novels/the-swordsheath-scroll/english-2013-audiobook.webp"
     }
   ]
 }

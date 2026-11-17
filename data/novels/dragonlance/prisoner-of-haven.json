@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?26721",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786933275/" }],
       "cover": "/images/novels/prisoner-of-haven/9780786933273.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["Pat Young"],
+      "duration": 591,
+      "source": "https://www.amazon.es/dp/B088T5CHPG/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B088T5CHPG/" }],
+      "cover": "/images/novels/prisoner-of-haven/english-2013-audiobook.webp"
     }
   ]
 }

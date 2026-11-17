@@ -112,6 +112,23 @@
         }
       ],
       "cover": "/images/novels/condemnation/9788445023051.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Rosalyn Landor"],
+      "duration": 843,
+      "source": "https://www.amazon.es/dp/B08QV1Q5Y9/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08QV1Q5Y9/"
+        }
+      ],
+      "cover": "/images/novels/condemnation/english-2013-audiobook.webp"
     }
   ]
 }

@@ -73,6 +73,18 @@
       "isbn13": 9788448006860,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/37820",
       "cover": "/images/novels/the-oath-and-the-measure/9788448006860.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Kevin Stillwell"],
+      "duration": 657,
+      "source": "https://www.amazon.es/dp/B0842FC2PD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0842FC2PD/" }],
+      "cover": "/images/novels/the-oath-and-the-measure/english-2013-audiobook.webp"
     }
   ]
 }

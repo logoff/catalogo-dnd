@@ -36,6 +36,18 @@
       "isbn13": 9780786961320,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465429",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B006NPFFHY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Suzy Harbulak"],
+      "duration": 695,
+      "source": "https://www.amazon.es/dp/B08QV28BJ1/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV28BJ1/" }],
+      "cover": "/images/novels/the-rose-of-sarifal/english-2013-audiobook.webp"
     }
   ]
 }

@@ -28,6 +28,18 @@
       "isbn13": 9780786955855,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483788",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001NLL64O/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 708,
+      "source": "https://www.amazon.es/dp/B08QVC69VT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVC69VT/" }],
+      "cover": "/images/novels/downshadow/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786963843,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467157",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C90YWA/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 647,
+      "source": "https://www.amazon.es/dp/B08B12FF73/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08B12FF73/" }],
+      "cover": "/images/novels/crypt-of-the-moaning-diamond/english-2013-audiobook.webp"
     }
   ]
 }

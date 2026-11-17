@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89226",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786941871/" }],
       "cover": "/images/novels/warriors-heart/9780786941872.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Christine Williams"],
+      "duration": 452,
+      "source": "https://www.amazon.es/dp/B08QTVSKTP/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTVSKTP/" }],
+      "cover": "/images/novels/warriors-heart/english-2013-audiobook.webp"
     }
   ]
 }

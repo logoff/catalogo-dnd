@@ -38,6 +38,18 @@
       "isbn13": 9780786961559,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475679",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005K98QZM/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Bruce Miles"],
+      "duration": 541,
+      "source": "https://www.amazon.es/dp/B08QVGMKW4/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVGMKW4/" }],
+      "cover": "/images/novels/the-giant-among-us/english-2013-audiobook.webp"
     }
   ]
 }

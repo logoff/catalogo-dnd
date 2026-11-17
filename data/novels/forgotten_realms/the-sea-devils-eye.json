@@ -28,6 +28,18 @@
       "isbn13": 9780786963973,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?511479",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C90X44/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-22",
+      "format": "audiobook",
+      "narrators": ["Ralph Lister"],
+      "duration": 797,
+      "source": "https://www.amazon.es/dp/B08QVDW2DP/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVDW2DP/" }],
+      "cover": "/images/novels/the-sea-devils-eye/english-2013-audiobook.webp"
     }
   ]
 }

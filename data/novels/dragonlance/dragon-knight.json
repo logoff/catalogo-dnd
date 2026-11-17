@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68957",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786937351/" }],
       "cover": "/images/novels/dragon-knight/9780786937356.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-03",
+      "format": "audiobook",
+      "narrators": ["Eliza Foss"],
+      "duration": 472,
+      "source": "https://www.amazon.es/dp/B08644TJ57/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08644TJ57/" }],
+      "cover": "/images/novels/dragon-knight/english-2013-audiobook.webp"
     }
   ]
 }

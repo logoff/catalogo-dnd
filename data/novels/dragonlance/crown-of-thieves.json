@@ -18,6 +18,18 @@
       "isbn13": 9780786938339,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?73021",
       "cover": "/images/novels/crown-of-thieves/9780786938339.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Daniel May"],
+      "duration": 486,
+      "source": "https://www.amazon.es/dp/B0863RHP39/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0863RHP39/" }],
+      "cover": "/images/novels/crown-of-thieves/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786961931,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476322",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R8357K/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-07",
+      "format": "audiobook",
+      "narrators": ["Karen White"],
+      "duration": 739,
+      "source": "https://www.amazon.es/dp/B0875GW4FP/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0875GW4FP/" }],
+      "cover": "/images/novels/the-druid-queen/english-2013-audiobook.webp"
     }
   ]
 }

@@ -51,6 +51,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/28401",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448036468/" }],
       "cover": "/images/novels/the-sword-never-sleeps/9788448036461.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 792,
+      "source": "https://www.amazon.es/dp/B08QSLSRX2/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSLSRX2/" }],
+      "cover": "/images/novels/the-sword-never-sleeps/english-2013-audiobook.webp"
     }
   ]
 }

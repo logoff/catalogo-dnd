@@ -29,6 +29,18 @@
       "isbn13": 9780786964031,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468432",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFHW0/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-27",
+      "format": "audiobook",
+      "narrators": ["Marty Moran"],
+      "duration": 612,
+      "source": "https://www.amazon.es/dp/B08QTWGNWT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTWGNWT/" }],
+      "cover": "/images/novels/soldiers-of-ice/english-2013-audiobook.webp"
     }
   ]
 }

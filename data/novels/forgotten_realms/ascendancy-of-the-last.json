@@ -38,6 +38,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0013TRQTU/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0013TRQTU/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 751,
+      "source": "https://www.amazon.es/dp/B08B16N8HZ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08B16N8HZ/" }],
+      "cover": "/images/novels/ascendancy-of-the-last/english-2013-audiobook.webp"
     }
   ]
 }

@@ -26,6 +26,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B008ADC2NC/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADC2NC/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 655,
+      "source": "https://www.amazon.es/dp/B08QVB9ZF8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVB9ZF8/" }],
+      "cover": "/images/novels/stardeep/english-2013-audiobook.webp"
     }
   ]
 }

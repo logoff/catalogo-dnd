@@ -39,6 +39,18 @@
       "isbn13": 9780786961597,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476230",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PRDH9E/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-22",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 755,
+      "source": "https://www.amazon.es/dp/B08HKPSWKZ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08HKPSWKZ/" }],
+      "cover": "/images/novels/elminsters-daughter/english-2013-audiobook.webp"
     }
   ]
 }

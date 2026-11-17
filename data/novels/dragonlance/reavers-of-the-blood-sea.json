@@ -49,6 +49,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B007RHD934/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RHD934/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-23",
+      "format": "audiobook",
+      "narrators": ["Clinton Wade"],
+      "duration": 712,
+      "source": "https://www.amazon.es/dp/B08QTT6SMC/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTT6SMC/" }],
+      "cover": "/images/novels/reavers-of-the-blood-sea/english-2013-audiobook.webp"
     }
   ]
 }

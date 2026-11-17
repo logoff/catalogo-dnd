@@ -18,6 +18,18 @@
       "isbn13": 9780786915668,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?44556",
       "cover": "/images/novels/the-nether-scroll/9780786915668.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-11",
+      "format": "audiobook",
+      "narrators": ["Brian Troxell"],
+      "duration": 636,
+      "source": "https://www.amazon.es/dp/B08QV3RGT6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV3RGT6/" }],
+      "cover": "/images/novels/the-nether-scroll/english-2013-audiobook.webp"
     }
   ]
 }

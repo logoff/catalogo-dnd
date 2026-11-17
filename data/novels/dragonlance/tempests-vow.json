@@ -18,6 +18,18 @@
       "isbn13": 9780786947966,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?316315",
       "cover": "/images/novels/tempests-vow/9780786947966.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Christine Williams"],
+      "duration": 468,
+      "source": "https://www.amazon.es/dp/B08QV12SQP/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV12SQP/" }],
+      "cover": "/images/novels/tempests-vow/english-2013-audiobook.webp"
     }
   ]
 }

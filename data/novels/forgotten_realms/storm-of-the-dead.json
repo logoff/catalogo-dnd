@@ -40,6 +40,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/25945",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037987/" }],
       "cover": "/images/novels/storm-of-the-dead/9788448037987.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 745,
+      "source": "https://www.amazon.es/dp/B08B1471M9/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08B1471M9/" }],
+      "cover": "/images/novels/storm-of-the-dead/english-2013-audiobook.webp"
     }
   ]
 }

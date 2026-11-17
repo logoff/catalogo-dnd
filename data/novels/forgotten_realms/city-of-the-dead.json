@@ -29,6 +29,18 @@
       "isbn13": 9780786955831,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483787",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0031O401W/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 591,
+      "source": "https://www.amazon.es/dp/B08QTWBLYD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTWBLYD/" }],
+      "cover": "/images/novels/city-of-the-dead/english-2013-audiobook.webp"
     }
   ]
 }
