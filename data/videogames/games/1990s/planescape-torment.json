@@ -81,6 +81,11 @@
     {
       "platform": "switch",
       "date": "2019-10-15",
+      "spanish": {
+        "interface": true,
+        "subtitles": true,
+        "audio": false
+      },
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
       "publishers": ["Skybound Games"],
@@ -95,6 +100,12 @@
     {
       "platform": "ps4",
       "date": "2019-10-15",
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false,
+        "note": "Solo en inglés en la PlayStation Store española"
+      },
       "edition": "Enhanced Edition",
       "developers": ["Beamdog"],
       "publishers": ["Skybound Games"],
