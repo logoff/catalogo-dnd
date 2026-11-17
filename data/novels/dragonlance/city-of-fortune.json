@@ -1,0 +1,24 @@
+{
+  "slug": "city-of-fortune",
+  "title": "City of Fortune",
+  "authors": ["Ree Soesbee"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-elidor", "number": 3 },
+  "date": "2006-07",
+  "description": "Traicionado en Taeloc, Elidor sigue la pista del cáliz hasta la ciudad de Gwynneth, en Ergoth del Norte, donde no sabe en quién puede confiar.\n\nEs la novela que cierra The Elidor Trilogy, de la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?182208",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2006-07",
+      "format": "mass_market",
+      "isbn13": 9780786940264,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83331",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940263/" }],
+      "cover": "/images/novels/city-of-fortune/9780786940264.webp"
+    }
+  ]
+}

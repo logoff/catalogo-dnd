@@ -1,0 +1,117 @@
+{
+  "slug": "amber-and-iron",
+  "title": "Amber and Iron",
+  "authors": ["Margaret Weis"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-dark-disciple",
+    "number": 2
+  },
+  "date": "2006-02",
+  "description": "Un grupo de aventureros se une para evitar una invasión, mientras Mina escapa para emprender una búsqueda propia y los dioses descubren que también pueden ser sorprendidos.\n\nEs la segunda novela de La discípula oscura. En castellano se publicó como Ámbar y hierro.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?170797",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-02",
+      "format": "hardcover",
+      "isbn13": 9780786937967,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71923",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786937963/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-iron/9780786937967.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-11",
+      "format": "mass_market",
+      "isbn13": 9780786940868,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?324518",
+      "cover": "/images/novels/amber-and-iron/9780786940868.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-13",
+      "format": "ebook",
+      "isbn13": 9780786954520,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474910",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004EWEVZU/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y hierro",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788448035372,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/22871",
+      "cover": "/images/novels/amber-and-iron/9788448035372.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y hierro",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038755,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33318",
+      "cover": "/images/novels/amber-and-iron/9788448038755.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y hierro",
+      "publisher": "Minotauro",
+      "date": "2025-04-09",
+      "format": "paperback",
+      "isbn13": 9788445011515,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78810",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011510/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-discipula-oscura-n-02-03-cmbar-y-hierro/9788445011515/16685008"
+        }
+      ],
+      "cover": "/images/novels/amber-and-iron/9788445011515.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ámbar y hierro",
+      "publisher": "Minotauro",
+      "date": "2025-04-09",
+      "format": "ebook",
+      "isbn13": 9788445020555,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78811",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DXGXJ562/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-iron/9788445020555.webp"
+    }
+  ]
+}

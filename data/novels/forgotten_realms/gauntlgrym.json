@@ -1,0 +1,115 @@
+{
+  "slug": "gauntlgrym",
+  "title": "Gauntlgrym",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-neverwinter",
+    "number": 1
+  },
+  "date": "2010-10",
+  "description": "Décadas después de la plaga de conjuros, Drizzt y un Bruenor anciano buscan Gauntlgrym, la legendaria ciudad de los enanos Delzoun. Jarlaxle y el enano Athrogate llegan antes y desatan sin querer al primordial de fuego atrapado bajo la ciudad, con consecuencias terribles para Neverwinter.\n\nPrimera novela de la saga Neverwinter.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1155712",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "hardcover",
+      "isbn13": 9780786955008,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?327976",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786955007/"
+        }
+      ],
+      "cover": "/images/novels/gauntlgrym/9780786955008.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "ebook",
+      "isbn13": 9780786958047,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478524",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B003WUYOTI/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-05",
+      "format": "mass_market",
+      "isbn13": 9780786958023,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?353061",
+      "cover": "/images/novels/gauntlgrym/9780786958023.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-11-10",
+      "format": "paperback",
+      "isbn13": 9798217298822,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1130845"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Gauntlgrym",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "hardcover",
+      "isbn13": 9788448038632,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/32422",
+      "cover": "/images/novels/gauntlgrym/9788448038632.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Gauntlgrym",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "ebook",
+      "isbn13": 9788448015992,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/47035",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00DV4B8TE/"
+        }
+      ],
+      "cover": "/images/novels/gauntlgrym/9788448015992.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Gauntlgrym",
+      "publisher": "Minotauro",
+      "date": "2025-05-14",
+      "format": "paperback",
+      "isbn13": 9788445010891,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101961",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010891/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-neverwinter-n-01-04-gauntlgrym/9788445010891/16775841"
+        }
+      ],
+      "cover": "/images/novels/gauntlgrym/9788445010891.webp"
+    }
+  ]
+}

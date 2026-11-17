@@ -1,0 +1,56 @@
+{
+  "slug": "swords-of-dragonfire",
+  "title": "Swords of Dragonfire",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-knights-of-myth-drannor", "number": 2 },
+  "date": "2007-08",
+  "description": "Recién nombrados caballeros, las Espadas de Eveningstar se alejan de su hogar en Espar hacia ciudades brillantes con bajos fondos oscuros.\n\nSegunda novela de la trilogía de los Caballeros de Myth Drannor.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?389411",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-08",
+      "format": "hardcover",
+      "isbn13": 9780786943395,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?147931",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786943394/" }],
+      "cover": "/images/novels/swords-of-dragonfire/9780786943395.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-04",
+      "format": "mass_market",
+      "isbn13": 9780786948628,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?249974",
+      "cover": "/images/novels/swords-of-dragonfire/9780786948628.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-22",
+      "format": "ebook",
+      "isbn13": 9780786961702,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476277",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PRF4JK/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Espadas de fuego de dragón",
+      "publisher": "Timun Mas",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448036454,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/19898",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/844803645X/" }],
+      "cover": "/images/novels/swords-of-dragonfire/9788448036454.webp"
+    }
+  ]
+}

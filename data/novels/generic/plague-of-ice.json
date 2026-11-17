@@ -1,0 +1,44 @@
+{
+  "slug": "plague-of-ice",
+  "title": "Plague of Ice",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 7 },
+  "date": "2003-05",
+  "description": "El guerrero y el pícaro de las reglas de la tercera edición vuelven a la acción.\n\nNovela de la serie Iconics (T. H. Lain).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24012",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-05",
+      "format": "mass_market",
+      "isbn13": 9780786929535,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?26198",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786929537/" }],
+      "cover": "/images/novels/plague-of-ice/9780786929535.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-07-02",
+      "format": "ebook",
+      "isbn13": 9780786965069,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?459155",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CQZ5LLK/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La plaga del hielo",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496262546,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/13940",
+      "cover": "/images/novels/plague-of-ice/9788496262546.webp"
+    }
+  ]
+}

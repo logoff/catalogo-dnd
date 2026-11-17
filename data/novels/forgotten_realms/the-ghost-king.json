@@ -1,0 +1,114 @@
+{
+  "slug": "the-ghost-king",
+  "title": "The Ghost King",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-transitions",
+    "number": 3
+  },
+  "date": "2009-10",
+  "description": "La plaga de conjuros arrasa Faerûn y la magia se vuelve impredecible. Catti-brie cae víctima de ella, y Drizzt busca la ayuda del clérigo Cadderly mientras reaparece una amenaza que creía destruida: Crenshinibon.\n\nCierra Transiciones y lleva a Drizzt a la cuarta edición de los Reinos Olvidados.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1017359",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-10-05",
+      "format": "ebook",
+      "isbn13": 9780786954179,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?484882",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002RLBKO0/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-10-06",
+      "format": "hardcover",
+      "isbn13": 9780786952335,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?293018",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786952334/"
+        }
+      ],
+      "cover": "/images/novels/the-ghost-king/9780786952335.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-07-06",
+      "format": "mass_market",
+      "isbn13": 9780786954995,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?346688",
+      "cover": "/images/novels/the-ghost-king/9780786954995.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-07-14",
+      "format": "paperback",
+      "isbn13": 9798217298815,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1114404"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey fantasma",
+      "publisher": "Timun Mas",
+      "date": "2010",
+      "isbn13": 9788448037963,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/28641",
+      "cover": "/images/novels/the-ghost-king/9788448037963.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey fantasma",
+      "publisher": "Minotauro",
+      "date": "2025-04-09",
+      "format": "ebook",
+      "isbn13": 9788445020548,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78826",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DXKGVGQY/"
+        }
+      ],
+      "cover": "/images/novels/the-ghost-king/9788445020548.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El rey fantasma",
+      "publisher": "Minotauro",
+      "date": "2025-04-09",
+      "format": "paperback",
+      "isbn13": 9788445010839,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/76534",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010832/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-transiciones-n-03-03-el-rey-fantasma/9788445010839/16667528"
+        }
+      ],
+      "cover": "/images/novels/the-ghost-king/9788445010839.webp"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-fall-of-highwatch",
+  "title": "The Fall of Highwatch",
+  "authors": ["Mark Sehestedt"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-chosen-of-nendawen", "number": 1 },
+  "date": "2009-11",
+  "description": "Hweilan, última de la casa de Highwatch y de un linaje de licántropos, escapa de su tío, que ha matado a su familia y liberado un mal terrible para resucitar a su esposa.\n\nPrimera novela de la trilogía de los Elegidos de Nendawen, de Mark Sehestedt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1166153",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-11-03",
+      "format": "mass_market",
+      "isbn13": 9780786951437,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?330027",
+      "cover": "/images/novels/the-fall-of-highwatch/9780786951437.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-06",
+      "format": "ebook",
+      "isbn13": 9780786956166,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483456",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00333FGJG/" }]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "the-tyranny-of-ghosts",
+  "title": "The Tyranny of Ghosts",
+  "authors": ["Don Bassingthwaite"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-legacy-of-dhakaan", "number": 3 },
+  "date": "2010-06",
+  "description": "El legado de Dhakaan llega a su desenlace.\n\nCierra la trilogía The Legacy of Dhakaan, de Don Bassingthwaite.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1122289",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-06-01",
+      "format": "mass_market",
+      "isbn13": 9780786955060,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?318711",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786955066/" }],
+      "cover": "/images/novels/the-tyranny-of-ghosts/9780786955060.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B003O2SQNE/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003O2SQNE/" }]
+    }
+  ]
+}

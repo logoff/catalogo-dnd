@@ -1,0 +1,34 @@
+{
+  "slug": "unbroken-chain-the-darker-road",
+  "title": "Unbroken Chain: The Darker Road",
+  "authors": ["Jaleigh Johnson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-unbroken-chain", "number": 2 },
+  "date": "2011-07",
+  "description": "Las pesadillas de la bruja Ilvani atraen a criaturas de sombra a Ikemmu, y Ashok las sigue hasta Rashemen, donde las brujas enmascaradas sufren ataques parecidos.\n\nContinuación de Unbroken Chain, de Jaleigh Johnson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1490006",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-05",
+      "format": "mass_market",
+      "isbn13": 9780786955336,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?353066",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786955333/" }],
+      "cover": "/images/novels/unbroken-chain-the-darker-road/9780786955336.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-05",
+      "format": "ebook",
+      "isbn13": 9780786959198,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?823106",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004LROUJK/" }]
+    }
+  ]
+}

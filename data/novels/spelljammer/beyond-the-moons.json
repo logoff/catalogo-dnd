@@ -1,0 +1,23 @@
+{
+  "slug": "beyond-the-moons",
+  "title": "Beyond the Moons",
+  "authors": ["David Cook"],
+  "setting": "spelljammer",
+  "kind": "novel",
+  "series": { "id": "spelljammer-cloakmaster", "number": 1 },
+  "date": "1991-07",
+  "description": "Teldin Moore, un granjero, recibe de un extraterrestre moribundo una capa mágica que todas las razas del espacio quieren, y se ve obligado a huir hacia las estrellas.\n\nPrimera novela del ciclo del Cloakmaster, de Spelljammer, escrita por David Cook.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19274",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-07",
+      "format": "mass_market",
+      "isbn13": 9781560761532,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31653",
+      "cover": "/images/novels/beyond-the-moons/9781560761532.webp"
+    }
+  ]
+}

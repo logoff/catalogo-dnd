@@ -1,0 +1,33 @@
+{
+  "slug": "curse-of-the-shadowmage",
+  "title": "Curse of the Shadowmage",
+  "authors": ["Mark Anthony"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-harpers", "number": 8 },
+  "date": "1995-11",
+  "description": "Mari Al'Marin y Caledan se enfrentan al legado del Rey de las Sombras, que vuelve a amenazar Faerûn.\n\nNovela de la serie de los Arpistas, continuación de Crypt of the Shadowking.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2834",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-11",
+      "format": "mass_market",
+      "isbn13": 9780786901913,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8465",
+      "cover": "/images/novels/curse-of-the-shadowmage/9780786901913.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-11-27",
+      "format": "ebook",
+      "isbn13": 9780786964260,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469531",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFGEY/" }]
+    }
+  ]
+}

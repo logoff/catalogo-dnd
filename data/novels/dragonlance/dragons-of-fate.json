@@ -1,0 +1,126 @@
+{
+  "slug": "dragons-of-fate",
+  "title": "Dragons of Fate",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-destinies",
+    "number": 2
+  },
+  "date": "2023-08",
+  "description": "El intento de Destina de cambiar el pasado ha tenido consecuencias que nadie esperaba, y el río del tiempo amenaza con desbordarse. Tasslehoff, Caramon y otros viejos conocidos se ven arrastrados a distintas épocas de Krynn para intentar reparar el daño antes de que sea irreversible.\n\nEs la segunda novela de la trilogía Destinos y continúa directamente Hija del Destino. Visita momentos clave de la historia de Dragonlance, por lo que está pensada sobre todo para quien ya conoce las Crónicas y las Leyendas.",
+  "source": "https://www.penguinrandomhouse.com/books/isbn/9781984819383",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2023-08-01",
+      "format": "hardcover",
+      "isbn13": 9781984819383,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?958391",
+      "cover": "/images/novels/dragons-of-fate/9781984819383.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2023-08-01",
+      "format": "ebook",
+      "isbn13": 9781984819406,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1029085",
+      "cover": "/images/novels/dragons-of-fate/9781984819406.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Del Rey (UK)",
+      "date": "2023-08-01",
+      "format": "hardcover",
+      "isbn13": 9781529101652,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?961450",
+      "cover": "/images/novels/dragons-of-fate/9781529101652.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2023-08-01",
+      "format": "ebook",
+      "isbn13": 9781804946923,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?960625",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BWR3KBY8/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-fate/9781804946923.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-03-05",
+      "format": "paperback",
+      "isbn13": 9781984819413,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?991726",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984819410/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-fate/9781984819413.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2024-03-07",
+      "format": "paperback",
+      "isbn13": 9781804946930,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1029087",
+      "cover": "/images/novels/dragons-of-fate/9781804946930.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dragones del Destino",
+      "publisher": "Minotauro",
+      "date": "2025-05-28",
+      "format": "hardcover",
+      "isbn13": 9788445018859,
+      "source": "https://www.planetadelibros.com/libro-destinos-n-0203-dragones-del-destino/404226",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/844501885X/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-destinos-n-02-03-dragones-del-destino/9788445018859/16685059"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-fate/9788445018859.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dragones del Destino",
+      "publisher": "Minotauro",
+      "date": "2025-05-28",
+      "format": "ebook",
+      "isbn13": 9788445020593,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/77336",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DXGM4JSS/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-fate/9788445020593.webp"
+    }
+  ]
+}

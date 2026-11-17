@@ -1,0 +1,43 @@
+{
+  "slug": "elminster-must-die",
+  "title": "Elminster Must Die",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sage-of-shadowdale", "number": 1 },
+  "date": "2010-08",
+  "description": "Tras el asesinato de la diosa de la magia, Elminster, antes el mago más poderoso del mundo, es ahora un anciano cansado.\n\nPrimera novela de la serie del Sabio de Valle Sombrío, de Ed Greenwood, y primera aparición de Elminster en la cuarta edición.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1750968",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08",
+      "isbn13": 9780786951932,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786951932&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786951931/" }],
+      "cover": "/images/novels/elminster-must-die/9780786951932.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "ebook",
+      "isbn13": 9780786957651,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478500",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0045EOIWI/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-06-07",
+      "format": "mass_market",
+      "isbn13": 9780786957996,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?350192",
+      "cover": "/images/novels/elminster-must-die/9780786957996.webp"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "sword-of-the-gods",
+  "title": "Sword of the Gods",
+  "authors": ["Bruce R. Cordell"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-abyssal-plague", "number": 1 },
+  "date": "2011-04",
+  "description": "Demascus despierta rodeado de cadáveres, sin memoria, y descubre que la Cábala de la Tormenta de Fuego y su líder demoníaco sí lo recuerdan a él.\n\nNovela de la serie The Abyssal Plague, de Bruce R. Cordell.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1236306",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-04-05",
+      "format": "mass_market",
+      "isbn13": 9780786957392,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?343287",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786957395/" }],
+      "cover": "/images/novels/sword-of-the-gods/9780786957392.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-04-05",
+      "format": "ebook",
+      "isbn13": 9780786958979,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472275",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004HFRJIA/" }]
+    }
+  ]
+}

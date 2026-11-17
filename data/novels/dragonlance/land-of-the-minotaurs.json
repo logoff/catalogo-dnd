@@ -1,0 +1,45 @@
+{
+  "slug": "land-of-the-minotaurs",
+  "title": "Land of the Minotaurs",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-lost-histories", "number": 4 },
+  "date": "1996-01",
+  "description": "Los minotauros se consideran hijos del destino y futuros dueños del mundo, pero su mayor enemigo puede ser su propia arrogancia. El campeón exiliado Kaz tiene que descubrir el terrible secreto de su imperio antes de que arrastre a toda su raza.\n\nEs la cuarta novela de The Lost Histories, escrita por el autor de La leyenda de Huma. En castellano se publicó como Los hijos de Sargas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?6298",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-01",
+      "format": "mass_market",
+      "isbn13": 9780786904723,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?19913",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786904720/" }],
+      "cover": "/images/novels/land-of-the-minotaurs/9780786904723.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-17",
+      "format": "ebook",
+      "isbn13": 9780786962952,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464692",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076PGKOC/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los hijos de Sargas",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448039219,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/325",
+      "cover": "/images/novels/land-of-the-minotaurs/9788448039219.webp"
+    }
+  ]
+}

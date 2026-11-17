@@ -1,0 +1,42 @@
+{
+  "slug": "the-sentinel",
+  "title": "The Sentinel",
+  "authors": ["Troy Denning"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sundering", "number": 5 },
+  "date": "2014-04",
+  "description": "Kleef Kenric, un paladín amargado fiel al dios olvidado de su familia, descubre que este lo ha bendecido con dones divinos y debe impedir que el mal aproveche el caos.\n\nQuinta novela de la serie The Sundering, de Troy Denning.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1708494",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-04-01",
+      "format": "hardcover",
+      "isbn13": 9780786964598,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?441120",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786964596/" }],
+      "cover": "/images/novels/the-sentinel/9780786964598.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-10-07",
+      "format": "mass_market",
+      "isbn13": 9780786965434,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469498",
+      "cover": "/images/novels/the-sentinel/9780786965434.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00FO5W6VW/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00FO5W6VW/" }]
+    }
+  ]
+}

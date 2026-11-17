@@ -37,6 +37,7 @@ export type Store =
   | 'steam'
   | 'instant_gaming'
   | 'fanatical'
+  | 'casa_del_libro'
 
 export interface PurchaseLink {
   store: Store

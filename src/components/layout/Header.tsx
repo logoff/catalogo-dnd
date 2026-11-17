@@ -17,7 +17,6 @@ interface NavGroup {
 }
 
 // Libros y accesorios de rol primero; luego las secciones de lo demás.
-// Cuando lleguen las novelas, tendrán su propia entrada aquí.
 const roleplayGroup: NavGroup = {
   label: 'Juego de rol',
   items: [
@@ -32,6 +31,7 @@ const roleplayGroup: NavGroup = {
 const sectionLinks: NavItem[] = [
   { to: '/videojuegos', label: 'Videojuegos' },
   { to: '/merchandising', label: 'Merchandising' },
+  { to: '/novelas', label: 'Novelas' },
 ]
 
 function isGroupActive(group: NavGroup, pathname: string) {

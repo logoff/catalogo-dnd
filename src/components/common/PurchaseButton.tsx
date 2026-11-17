@@ -17,10 +17,12 @@ interface PurchaseButtonProps {
   url: string
   // Datos extra del evento de Umami (data-umami-event-<clave>)
   tracking: Record<string, string | undefined>
+  // Variante de la tienda que se añade al nombre, como «Kindle» en los ebooks de Amazon
+  variant?: string
 }
 
 // Botón de compra compartido por libros y videojuegos
-export default function PurchaseButton({ store, url, tracking }: PurchaseButtonProps) {
+export default function PurchaseButton({ store, url, tracking, variant }: PurchaseButtonProps) {
   const { label, image, color } = STORES[store]
   const trackingAttributes = Object.fromEntries(
     Object.entries(tracking).map(([key, value]) => [`data-umami-event-${key}`, value])
@@ -43,7 +45,10 @@ export default function PurchaseButton({ store, url, tracking }: PurchaseButtonP
       ) : (
         <ShoppingCartIcon className="h-4 w-4" />
       )}
-      <span>Comprar en {label}</span>
+      <span>
+        Comprar en {label}
+        {variant && ` ${variant}`}
+      </span>
       <ArrowTopRightOnSquareIcon className="h-3 w-3 opacity-60 group-hover:opacity-100 transition-opacity" />
     </a>
   )

@@ -1,0 +1,24 @@
+{
+  "slug": "dragon-day",
+  "title": "Dragon Day",
+  "authors": ["Stan Brown"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-new-adventures", "number": 6 },
+  "date": "2005-03",
+  "description": "Los jóvenes compañeros de la serie continúan sus aventuras en la época dorada de Krynn, en una historia pensada para lectores a partir de unos diez años.\n\nEs la sexta novela de Dragonlance: The New Adventures, la serie juvenil de Mirrorstone con protagonistas nuevos. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?158047",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-03",
+      "format": "paperback",
+      "isbn13": 9780786936229,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68708",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786936223/" }],
+      "cover": "/images/novels/dragon-day/9780786936229.webp"
+    }
+  ]
+}

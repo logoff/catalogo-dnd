@@ -1,0 +1,24 @@
+{
+  "slug": "planar-powers",
+  "title": "Planar Powers",
+  "authors": ["J. Robert King"],
+  "setting": "planescape",
+  "kind": "novel",
+  "series": { "id": "planescape-blood-wars", "number": 3 },
+  "date": "1997-07",
+  "description": "La Guerra de Sangre entre los demonios y los diablos llega a su desenlace.\n\nCierra la trilogía Blood Wars, de J. Robert King.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?625449",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-07",
+      "format": "mass_market",
+      "isbn13": 9780786905324,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?199257",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905328/" }],
+      "cover": "/images/novels/planar-powers/9780786905324.webp"
+    }
+  ]
+}

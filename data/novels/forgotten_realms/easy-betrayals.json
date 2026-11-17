@@ -1,0 +1,24 @@
+{
+  "slug": "easy-betrayals",
+  "title": "Easy Betrayals",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-double-diamond-triangle", "number": 8 },
+  "date": "1998-06",
+  "description": "Entrega de la saga del Triángulo del Doble Diamante, de Richard Baker.\n\nUna serie de nueve novelas breves que TSR publicó mes a mes en 1998.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?84700",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-06",
+      "format": "mass_market",
+      "isbn13": 9780786908714,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14290",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786908718/" }],
+      "cover": "/images/novels/easy-betrayals/9780786908714.webp"
+    }
+  ]
+}

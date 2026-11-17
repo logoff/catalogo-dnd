@@ -1,0 +1,185 @@
+{
+  "slug": "homeland",
+  "title": "Homeland",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-dark-elf",
+    "number": 1
+  },
+  "date": "1990-08",
+  "description": "En Menzoberranzan, la ciudad de los elfos oscuros en la Antípoda Oscura, nace Drizzt, tercer hijo de la matrona Malicia Do'Urden. Educado en una sociedad cruel consagrada a Lolth, la Reina Araña, el joven solo encuentra un apoyo en su padre, el maestro de armas Zaknafein, que le enseña a manejar la espada y comparte su rechazo por las costumbres de su pueblo.\n\nPrecuela de la trilogía del valle del Viento Helado y primera novela de la trilogía del Elfo Oscuro, que cuenta los orígenes de Drizzt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12815",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-08",
+      "format": "mass_market",
+      "isbn13": 9780880389051,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14299",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0880389052/"
+        }
+      ],
+      "cover": "/images/novels/homeland/9780880389051.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-12",
+      "format": "mass_market",
+      "isbn13": 9780140143720,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14298"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-03",
+      "format": "hardcover",
+      "isbn13": 9780786931231,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?17213",
+      "cover": "/images/novels/homeland/9780786931231.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-12",
+      "format": "mass_market",
+      "isbn13": 9780786939534,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?73011",
+      "cover": "/images/novels/homeland/9780786939534.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954018,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486733",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002DOSBMK/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-05-21",
+      "format": "paperback",
+      "isbn13": 9780593873069,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1000119",
+      "cover": "/images/novels/homeland/9780593873069.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La morada",
+      "publisher": "Timun Mas",
+      "date": "1998",
+      "format": "mass_market",
+      "isbn13": 9788448037093,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/242",
+      "cover": "/images/novels/homeland/9788448037093.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La morada",
+      "publisher": "Círculo de Lectores",
+      "date": "2003",
+      "format": "hardcover",
+      "isbn13": 9788467200447,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15261",
+      "cover": "/images/novels/homeland/9788467200447.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La morada",
+      "publisher": "Planeta DeAgostini",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788467418675,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15605",
+      "cover": "/images/novels/homeland/9788467418675.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La morada",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722500,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24085",
+      "cover": "/images/novels/homeland/9788448722500.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La morada",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "ebook",
+      "isbn13": 9788448008116,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39030",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00D8IVXB6/"
+        }
+      ],
+      "cover": "/images/novels/homeland/9788448008116.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La morada",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011072,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71835",
+      "cover": "/images/novels/homeland/9788445011072.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-elfo-oscuro-n-01-03-la-morada/9788445011072/12966280"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La morada",
+      "publisher": "Minotauro",
+      "date": "2024-07-03",
+      "format": "paperback",
+      "isbn13": 9788445014592,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/81615",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014595/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cts-elfo-oscuro-la-morada-n-01/9788445014592/13658325"
+        }
+      ],
+      "cover": "/images/novels/homeland/9788445014592.webp"
+    }
+  ]
+}

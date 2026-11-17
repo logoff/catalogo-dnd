@@ -1,0 +1,22 @@
+{
+  "slug": "torment",
+  "title": "Torment",
+  "authors": ["Ray Vallese", "Valerie Vallese"],
+  "setting": "planescape",
+  "kind": "novel",
+  "date": "1999-11",
+  "description": "Un héroe sin memoria busca su verdadera identidad por los planos en plena Guerra de Sangre, acompañado de una calavera flotante, un excéntrico y una súcubo.\n\nNovelización del videojuego Planescape: Torment, de Ray y Valerie Vallese.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26892",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "1999-11",
+      "format": "mass_market",
+      "isbn13": 9780786915279,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?52036",
+      "cover": "/images/novels/torment/9780786915279.webp"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "thornhold",
+  "title": "Thornhold",
+  "authors": ["Elaine Cunningham"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-songs-and-swords", "number": 4 },
+  "date": "1998-08",
+  "description": "Danilo Thann y los Arpistas vuelven a la Costa de la Espada, donde la fortaleza de Thornhold está en el centro de una nueva intriga.\n\nCuarta novela de las aventuras de Arilyn y Danilo, de Elaine Cunningham.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19598",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-08",
+      "format": "mass_market",
+      "isbn13": 9780786911776,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?51154",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786911778/" }],
+      "cover": "/images/novels/thornhold/9780786911776.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-02",
+      "format": "mass_market",
+      "isbn13": 9780786918089,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?51153",
+      "cover": "/images/novels/thornhold/9780786918089.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-27",
+      "format": "ebook",
+      "isbn13": 9780786961924,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476875",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN4RQ/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El bastión del espino",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448037475,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/6994",
+      "cover": "/images/novels/thornhold/9788448037475.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El bastión del espino",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723859,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36957",
+      "cover": "/images/novels/thornhold/9788448723859.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El bastión del espino",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038816,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33638",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038819/" }],
+      "cover": "/images/novels/thornhold/9788448038816.webp"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "bound-by-iron",
+  "title": "Bound by Iron",
+  "authors": ["Edward Bolme"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-inquisitives", "number": 1 },
+  "date": "2007-04",
+  "description": "El cadáver de un soldado condecorado que se creía muerto décadas atrás aparece asesinado en las costas de Karrnath, y una soldado se une a un narrador para desvelar su pasado.\n\nNovela de la serie The Inquisitives, la versión de Eberron de la novela de detectives, de Edward Bolme.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1096829",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-04",
+      "format": "mass_market",
+      "isbn13": 9780786942640,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?93881",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942649/" }],
+      "cover": "/images/novels/bound-by-iron/9780786942640.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0076Q1ENI/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1ENI/" }]
+    }
+  ]
+}

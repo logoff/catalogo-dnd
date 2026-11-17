@@ -1,0 +1,24 @@
+{
+  "slug": "the-paladins",
+  "title": "The Paladins",
+  "authors": ["James M. Ward", "David Wise"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-double-diamond-triangle", "number": 3 },
+  "date": "1998-01",
+  "description": "Entrega de la saga del Triángulo del Doble Diamante, de James M. Ward.\n\nUna serie de nueve novelas breves que TSR publicó mes a mes en 1998.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?83958",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-01",
+      "format": "mass_market",
+      "isbn13": 9780786908653,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14357",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786908653/" }],
+      "cover": "/images/novels/the-paladins/9780786908653.webp"
+    }
+  ]
+}

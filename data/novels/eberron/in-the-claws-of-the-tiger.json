@@ -1,0 +1,32 @@
+{
+  "slug": "in-the-claws-of-the-tiger",
+  "title": "In the Claws of the Tiger",
+  "authors": ["James Wyatt"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-war-torn", "number": 3 },
+  "date": "2006-07",
+  "description": "Janik apenas sobrevivió a su última expedición a Xen'drik. Envuelto en un complot de la Garra Esmeralda y la Iglesia de la Llama de Plata, su única esperanza es volver al continente que casi acaba con él.\n\nNovela de la serie The War-Torn, de James Wyatt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1356902",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-07",
+      "format": "mass_market",
+      "isbn13": 9780786940158,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83478",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940158/" }],
+      "cover": "/images/novels/in-the-claws-of-the-tiger/9780786940158.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0036S4EJG/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EJG/" }]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "death-of-a-darklord",
+  "title": "Death of a Darklord",
+  "authors": ["Laurell K. Hamilton"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1995-06",
+  "description": "Una conspiración pretende asesinar a los tiranos de Kartakass, pero puede desatar un desastre que cambie para siempre las tierras de las nieblas.\n\nNovela de Ravenloft de Laurell K. Hamilton.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17840",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-06",
+      "format": "mass_market",
+      "isbn13": 9780786901128,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27418",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901128/" }],
+      "cover": "/images/novels/death-of-a-darklord/9780786901128.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-07",
+      "format": "paperback",
+      "isbn13": 9780786941223,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83449",
+      "cover": "/images/novels/death-of-a-darklord/9780786941223.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-09",
+      "format": "mass_market",
+      "isbn13": 9780786947348,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?313647",
+      "cover": "/images/novels/death-of-a-darklord/9780786947348.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-31",
+      "format": "ebook",
+      "isbn13": 9780786959570,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472898",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00513E44E/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El corazón del mal",
+      "publisher": "Timun Mas",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448036133,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15884",
+      "cover": "/images/novels/death-of-a-darklord/9788448036133.webp"
+    }
+  ]
+}

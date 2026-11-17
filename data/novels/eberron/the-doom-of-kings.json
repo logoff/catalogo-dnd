@@ -1,0 +1,33 @@
+{
+  "slug": "the-doom-of-kings",
+  "title": "The Doom of Kings",
+  "authors": ["Don Bassingthwaite"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-legacy-of-dhakaan", "number": 1 },
+  "date": "2008-08",
+  "description": "Los goblinoides de Darguun recuerdan el antiguo imperio de Dhakaan y algunos sueñan con restaurarlo.\n\nPrimera novela de la trilogía The Legacy of Dhakaan, de Don Bassingthwaite.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?829539",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-08",
+      "format": "mass_market",
+      "isbn13": 9780786949182,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250382",
+      "cover": "/images/novels/the-doom-of-kings/9780786949182.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-20",
+      "format": "ebook",
+      "isbn13": 9780786956487,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483464",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0015DWMMK/" }]
+    }
+  ]
+}

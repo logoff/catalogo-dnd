@@ -1,0 +1,22 @@
+{
+  "slug": "carnival-of-fear",
+  "title": "Carnival of Fear",
+  "authors": ["J. Robert King"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1993-07",
+  "description": "En la tierra de I'Morai, tres artistas de un circo investigan una muerte en el paseo de atracciones y destapan una conspiración que lleva a más asesinatos.\n\nNovela de Ravenloft de J. Robert King.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17110",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-07",
+      "format": "mass_market",
+      "isbn13": 9781560766285,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27416",
+      "cover": "/images/novels/carnival-of-fear/9781560766285.webp"
+    }
+  ]
+}

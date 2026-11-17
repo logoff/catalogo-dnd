@@ -1,0 +1,167 @@
+{
+  "slug": "streams-of-silver",
+  "title": "Streams of Silver",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-icewind-dale",
+    "number": 2
+  },
+  "date": "1989-01",
+  "description": "Bruenor quiere recuperar Mithril Hall, el hogar perdido de su clan, y parte hacia el sur con Drizzt, Wulfgar y Regis. Por el camino, el elfo oscuro se topa una y otra vez con el rechazo de quienes ven en él a un drow, mientras Regis huye de Artemis Entreri, un asesino enviado por el bajá Pook de Calimport para recuperar un rubí robado.\n\nSegunda novela de la trilogía del valle del Viento Helado; en ella aparece por primera vez Entreri, el gran rival de Drizzt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12811",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-01",
+      "format": "mass_market",
+      "isbn13": 9780880386722,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?86289",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/088038672X/"
+        }
+      ],
+      "cover": "/images/novels/streams-of-silver/9780880386722.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-04",
+      "format": "mass_market",
+      "isbn13": 9780140123630,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14335"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-07",
+      "format": "hardcover",
+      "isbn13": 9780786937622,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71522",
+      "cover": "/images/novels/streams-of-silver/9780786937622.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-05",
+      "format": "mass_market",
+      "isbn13": 9780786942657,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?97791",
+      "cover": "/images/novels/streams-of-silver/9780786942657.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954056,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486738",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002DO17Q2/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-09-24",
+      "format": "paperback",
+      "isbn13": 9780593873106,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1016910",
+      "cover": "/images/novels/streams-of-silver/9780593873106.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ríos de plata",
+      "publisher": "Timun Mas",
+      "date": "1990",
+      "format": "mass_market",
+      "isbn13": 9788477225751,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/99",
+      "cover": "/images/novels/streams-of-silver/9788477225751.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ríos de plata",
+      "publisher": "Timun Mas",
+      "date": "2007",
+      "isbn13": 9788448037864,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15802",
+      "cover": "/images/novels/streams-of-silver/9788448037864.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ríos de plata",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723675,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38266",
+      "cover": "/images/novels/streams-of-silver/9788448723675.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ríos de plata",
+      "publisher": "Timun Mas",
+      "date": "2013",
+      "format": "ebook",
+      "isbn13": 9788448008345,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/47236",
+      "cover": "/images/novels/streams-of-silver/9788448008345.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ríos de plata",
+      "publisher": "Minotauro",
+      "date": "2022-09",
+      "format": "paperback",
+      "isbn13": 9788445011140,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71830",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011146/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-valle-del-viento-helado-n-02-03-rios-de-plata/9788445011140/13069893"
+        }
+      ],
+      "cover": "/images/novels/streams-of-silver/9788445011140.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ríos de plata",
+      "publisher": "Minotauro",
+      "date": "2022-09-21",
+      "format": "ebook",
+      "isbn13": 9788445014073,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84001",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B47CTLRV/"
+        }
+      ],
+      "cover": "/images/novels/streams-of-silver/9788445014073.webp"
+    }
+  ]
+}

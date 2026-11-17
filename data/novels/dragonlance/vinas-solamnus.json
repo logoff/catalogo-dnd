@@ -1,0 +1,46 @@
+{
+  "slug": "vinas-solamnus",
+  "title": "Vinas Solamnus",
+  "authors": ["J. Robert King"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-lost-legends", "number": 1 },
+  "date": "1997-08",
+  "description": "Antes de ser el fundador de los Caballeros de Solamnia y el autor del Código y la Medida, Vinas Solamnus fue soldado, noble, clérigo, rebelde y conquistador. Esta es la historia de sus primeros años y de las pruebas que lo convirtieron en leyenda.\n\nEs la primera novela de Lost Legends, una serie sobre personajes legendarios de la historia de Krynn. Se publicó en castellano como Vinas Solamnus, el primer caballero.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?32810",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-08",
+      "format": "mass_market",
+      "isbn13": 9780786907878,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?53338",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786907878/" }],
+      "cover": "/images/novels/vinas-solamnus/9780786907878.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Vinas Solamnus, el primer caballero",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448039127,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/51",
+      "cover": "/images/novels/vinas-solamnus/9788448039127.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Vinas Solamnus, el primer caballero",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721862,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24281",
+      "cover": "/images/novels/vinas-solamnus/9788448721862.webp"
+    }
+  ]
+}

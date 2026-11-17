@@ -1,0 +1,23 @@
+{
+  "slug": "elfs-tale",
+  "title": "Elf's Tale",
+  "authors": ["Michael Andrews"],
+  "setting": "mystara",
+  "kind": "middle_grade",
+  "series": { "id": "mystara-dragonstrike", "number": 4 },
+  "date": "1993",
+  "description": "Relato vinculado a Dragon Strike, el juego introductorio de TSR, contado desde el punto de vista de la elfa del grupo.\n\nNovela breve de Michael Andrews (1993), número 4 de la serie de cuatro cuadernillos ilustrados de 31 páginas.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993",
+      "isbn13": 9781560769200,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9781560769200&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560769203/" }],
+      "cover": "/images/novels/elfs-tale/9781560769200.webp"
+    }
+  ]
+}

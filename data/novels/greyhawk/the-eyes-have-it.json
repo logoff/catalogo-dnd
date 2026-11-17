@@ -1,0 +1,24 @@
+{
+  "slug": "the-eyes-have-it",
+  "title": "The Eyes Have It",
+  "authors": ["Rose Estes"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-adventures", "number": 5 },
+  "date": "1989-08",
+  "description": "Cuando desaparece el místico Ojo de Tiros, Askar debe encontrarlo antes de que una banda mágica en torno a su cuello lo mate.\n\nNovela de la serie Greyhawk Adventures, de Rose Estes.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13106",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-08",
+      "format": "mass_market",
+      "isbn13": 9780880387552,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?16046",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880387556/" }],
+      "cover": "/images/novels/the-eyes-have-it/9780880387552.webp"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "master-wolf",
+  "title": "Master Wolf",
+  "authors": ["Rose Estes"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-adventures", "number": 1 },
+  "date": "1987-03",
+  "description": "Vintuk, el más fuerte y orgulloso de los Nómadas Lobo, emprende un viaje que lo lleva al centro de un plan maligno.\n\nNovela de la serie Greyhawk Adventures, de Rose Estes.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13110",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1987-03",
+      "format": "mass_market",
+      "isbn13": 9780880384575,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?197025",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880384573/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1988-10",
+      "format": "mass_market",
+      "isbn13": 9780140111392,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?16039",
+      "cover": "/images/novels/master-wolf/9780140111392.webp"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "savage-caves",
+  "title": "Savage Caves",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 1 },
+  "date": "2002-06",
+  "description": "Los personajes icónicos de las reglas de la tercera edición de D&D viven su primera aventura.\n\nPrimera novela de la serie Iconics, firmada con el seudónimo colectivo T. H. Lain.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24734",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-07",
+      "format": "mass_market",
+      "isbn13": 9780786928453,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?46499",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078692845X/" }],
+      "cover": "/images/novels/savage-caves/9780786928453.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-07-02",
+      "format": "ebook",
+      "isbn13": 9780786965083,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?459158",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CQZ5M3W/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las cuevas salvajes",
+      "publisher": "Devir",
+      "date": "2003-10",
+      "format": "mass_market",
+      "isbn13": 9788493318413,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/10358",
+      "cover": "/images/novels/savage-caves/9788493318413.webp"
+    }
+  ]
+}

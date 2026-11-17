@@ -1,0 +1,78 @@
+{
+  "slug": "steel-and-stone",
+  "title": "Steel and Stone",
+  "authors": ["Ellen Porath"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-meetings", "number": 5 },
+  "date": "1992-09",
+  "description": "La relación entre Kitiara y Tanis el Semielfo empieza con choques constantes y no se vuelve más fácil con el tiempo. Juntos se enfrentan a peligros y enemigos que pondrán a prueba lo que sienten el uno por el otro.\n\nEs la quinta novela de Meetings Sextet y explica una relación clave para entender las Crónicas de la Dragonlance. En castellano se tituló Pedernal y acero.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15636",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-09",
+      "format": "mass_market",
+      "isbn13": 9781560763390,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?287797",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560763396/" }],
+      "cover": "/images/novels/steel-and-stone/9781560763390.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-29",
+      "format": "ebook",
+      "isbn13": 9780786963270,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465438",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG4LX2/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Pedernal y acero",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "format": "hardcover",
+      "isbn13": 9788477229148,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/17717",
+      "cover": "/images/novels/steel-and-stone/9788477229148.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Pedernal y acero",
+      "publisher": "Timun Mas",
+      "date": "1998",
+      "format": "mass_market",
+      "isbn13": 9788448031046,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/50",
+      "cover": "/images/novels/steel-and-stone/9788448031046.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Pedernal y acero",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722456,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24322",
+      "cover": "/images/novels/steel-and-stone/9788448722456.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Pedernal y acero",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006877,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37821",
+      "cover": "/images/novels/steel-and-stone/9788448006877.webp"
+    }
+  ]
+}

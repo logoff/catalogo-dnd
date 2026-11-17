@@ -1,0 +1,123 @@
+{
+  "slug": "night-of-the-hunter",
+  "title": "Night of the Hunter",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-companions-codex",
+    "number": 1
+  },
+  "date": "2014-01",
+  "description": "Reunidos los Compañeros del Salón, Drizzt y sus amigos bajan a Gauntlgrym para liberar a Thibbledorf Pwent, el leal enano de Bruenor convertido en vampiro. En Menzoberranzan, la casa Baenre prepara su propia guerra.\n\nPrimera novela de El códice de los Compañeros.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1695676",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-03-11",
+      "format": "hardcover",
+      "isbn13": 9780786965113,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?438475",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786965118/"
+        }
+      ],
+      "cover": "/images/novels/night-of-the-hunter/9780786965113.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-03-11",
+      "format": "ebook",
+      "isbn13": 9780786965502,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?442339",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00F1W08CC/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-09-02",
+      "format": "mass_market",
+      "isbn13": 9780786965175,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483110",
+      "cover": "/images/novels/night-of-the-hunter/9780786965175.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La noche del cazador",
+      "publisher": "Timun Mas",
+      "date": "2017-01-24",
+      "format": "paperback",
+      "isbn13": 9788445004302,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/59370",
+      "cover": "/images/novels/night-of-the-hunter/9788445004302.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-noche-del-cazador/9788445004302/4761976"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La noche del cazador",
+      "publisher": "Timun Mas",
+      "date": "2017-01-24",
+      "format": "ebook",
+      "isbn13": 9788445004371,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/59371",
+      "cover": "/images/novels/night-of-the-hunter/9788445004371.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La noche del cazador",
+      "publisher": "Minotauro",
+      "date": "2026-01-21",
+      "format": "ebook",
+      "isbn13": 9788445022221,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83983",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0G8FLN3NK/"
+        }
+      ],
+      "cover": "/images/novels/night-of-the-hunter/9788445022221.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La noche del cazador",
+      "publisher": "Minotauro",
+      "date": "2026-01-21",
+      "format": "paperback",
+      "isbn13": 9788445010952,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/79656",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010956/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-codice-de-los-companeros-n-01-03-la-noche-del-cazador/9788445010952/17648281"
+        }
+      ],
+      "cover": "/images/novels/night-of-the-hunter/9788445010952.webp"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "the-shadowmask",
+  "title": "The Shadowmask",
+  "authors": ["R. A. Salvatore", "Geno Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-stone-of-tymora", "number": 2 },
+  "date": "2009-11",
+  "description": "Robado por un hechicero enmascarado y dado por muerto, Maimun se niega a renunciar a la magia que le pertenece y emprende una persecución por mar junto a Drizzt y la tripulación del capitán Deudermont.\n\nSegunda novela de la trilogía Stone of Tymora.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1017621",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2009-11-10",
+      "format": "hardcover",
+      "isbn13": 9780786951475,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?293166",
+      "cover": "/images/novels/the-shadowmask/9780786951475.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2010-01-14",
+      "format": "ebook",
+      "isbn13": 9780786955954,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483702",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034DGPKE/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2010-10-12",
+      "isbn13": 9780786955015,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?318710",
+      "cover": "/images/novels/the-shadowmask/9780786955015.webp"
+    }
+  ]
+}

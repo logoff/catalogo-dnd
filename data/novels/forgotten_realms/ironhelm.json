@@ -1,0 +1,65 @@
+{
+  "slug": "ironhelm",
+  "title": "Ironhelm",
+  "authors": ["Douglas Niles"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-maztica", "number": 1 },
+  "date": "1990-03",
+  "description": "Erix, una esclava, es la única testigo de la llegada de una expedición de exploradores y mercenarios que, bajo el estandarte de su dios Helm, están decididos a conquistar el continente de Maztica.\n\nPrimera novela de la trilogía de Maztica, de Douglas Niles.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12954",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-03",
+      "format": "mass_market",
+      "isbn13": 9780880389037,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14303",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389036/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-10",
+      "format": "mass_market",
+      "isbn13": 9780140143669,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14302"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-04",
+      "format": "ebook",
+      "isbn13": 9780786963881,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467748",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008EDL9SM/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Yelmos de hierro",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788448037017,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/239",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037014/" }],
+      "cover": "/images/novels/ironhelm/9788448037017.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Yelmos de hierro",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725037,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36931",
+      "cover": "/images/novels/ironhelm/9788448725037.webp"
+    }
+  ]
+}

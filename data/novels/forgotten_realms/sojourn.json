@@ -1,0 +1,178 @@
+{
+  "slug": "sojourn",
+  "title": "Sojourn",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-dark-elf",
+    "number": 3
+  },
+  "date": "1991-05",
+  "description": "Drizzt sale por fin a la superficie, donde descubre el sol, las estaciones y la desconfianza de unos pueblos que solo ven en él a un drow. Acusado de una matanza que no cometió, encuentra refugio con Montolio, un viejo explorador ciego que le enseña el oficio y la fe en Mielikki.\n\nCierra la trilogía del Elfo Oscuro y enlaza con la llegada de Drizzt al valle del Viento Helado.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12812",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-05",
+      "format": "mass_market",
+      "isbn13": 9781560760474,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14326",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1560760478/"
+        }
+      ],
+      "cover": "/images/novels/sojourn/9781560760474.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-12",
+      "format": "mass_market",
+      "isbn13": 9780140143997,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14325"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-12",
+      "format": "hardcover",
+      "isbn13": 9780786930814,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67616",
+      "cover": "/images/novels/sojourn/9780786930814.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-06",
+      "format": "mass_market",
+      "isbn13": 9780786940073,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?441391",
+      "cover": "/images/novels/sojourn/9780786940073.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954032,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486736",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002DMZ9QI/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-05-21",
+      "format": "paperback",
+      "isbn13": 9780593873083,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1000120",
+      "cover": "/images/novels/sojourn/9780593873083.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El refugio",
+      "publisher": "Timun Mas",
+      "date": "1998",
+      "isbn13": 9788448037116,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/245",
+      "cover": "/images/novels/sojourn/9788448037116.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El refugio",
+      "publisher": "Círculo de Lectores",
+      "date": "2003",
+      "format": "hardcover",
+      "isbn13": 9788467200461,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15263",
+      "cover": "/images/novels/sojourn/9788467200461.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El refugio",
+      "publisher": "Planeta DeAgostini",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788467418750,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15604",
+      "cover": "/images/novels/sojourn/9788467418750.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El refugio",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723637,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/31115",
+      "cover": "/images/novels/sojourn/9788448723637.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El refugio",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "ebook",
+      "isbn13": 9788448008130,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39029",
+      "cover": "/images/novels/sojourn/9788448008130.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El refugio",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011157,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71837",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011154/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-elfo-oscuro-n-03-03-el-refugio/9788445011157/12966282"
+        }
+      ],
+      "cover": "/images/novels/sojourn/9788445011157.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El refugio",
+      "publisher": "Minotauro",
+      "date": "2022-06-22",
+      "format": "ebook",
+      "isbn13": 9788445013670,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101948",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09ZWY1N5Z/"
+        }
+      ],
+      "cover": "/images/novels/sojourn/9788445013670.webp"
+    }
+  ]
+}

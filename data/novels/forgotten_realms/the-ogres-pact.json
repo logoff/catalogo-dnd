@@ -1,0 +1,53 @@
+{
+  "slug": "the-ogres-pact",
+  "title": "The Ogre's Pact",
+  "authors": ["Troy Denning"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-twilight-giants", "number": 1 },
+  "date": "1994-09",
+  "description": "Un joven campesino rescata a una princesa de un gigante, solo para descubrir que el verdadero problema es el padre de ella.\n\nPrimera novela de la trilogía de los Gigantes del Crepúsculo, de Troy Denning.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18891",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-09",
+      "format": "mass_market",
+      "isbn13": 9781560768913,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14356",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768916/" }],
+      "cover": "/images/novels/the-ogres-pact/9781560768913.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9780099455714,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?44830"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-05",
+      "format": "mass_market",
+      "isbn13": 9780786937318,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68974",
+      "cover": "/images/novels/the-ogres-pact/9780786937318.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-10-18",
+      "format": "ebook",
+      "isbn13": 9780786961580,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475682",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005JSUUQM/" }]
+    }
+  ]
+}

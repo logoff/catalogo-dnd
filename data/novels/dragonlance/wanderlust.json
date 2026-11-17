@@ -1,0 +1,78 @@
+{
+  "slug": "wanderlust",
+  "title": "Wanderlust",
+  "authors": ["Mary Kirchoff", "Steve Winter"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-meetings", "number": 2 },
+  "date": "1991-09",
+  "description": "Durante la Feria de la Primavera de Solace, Tasslehoff Burrfoot se queda, como buen kender, con un brazalete que no es suyo. Así conoce a Tanis y a Flint, y así los tres acaban metidos en un asunto que afecta al destino de los elfos marinos dargonestis.\n\nEs la segunda novela de Meetings Sextet y cuenta el primer encuentro de Tasslehoff con sus futuros compañeros. Se publicó en castellano como El incorregible Tas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17086",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-09",
+      "format": "mass_market",
+      "isbn13": 9781560761150,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11217",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560761156/" }],
+      "cover": "/images/novels/wanderlust/9781560761150.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-15",
+      "format": "ebook",
+      "isbn13": 9780786963225,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465431",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEGYK/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El incorregible Tas",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "hardcover",
+      "isbn13": 9788477229117,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/548",
+      "cover": "/images/novels/wanderlust/9788477229117.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El incorregible Tas",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "format": "mass_market",
+      "isbn13": 9788448031015,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/5842",
+      "cover": "/images/novels/wanderlust/9788448031015.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El incorregible Tas",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722364,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24283",
+      "cover": "/images/novels/wanderlust/9788448722364.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El incorregible Tas",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006822,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37818",
+      "cover": "/images/novels/wanderlust/9788448006822.webp"
+    }
+  ]
+}

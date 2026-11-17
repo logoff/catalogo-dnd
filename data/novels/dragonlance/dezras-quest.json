@@ -1,0 +1,56 @@
+{
+  "slug": "dezras-quest",
+  "title": "Dezra's Quest",
+  "authors": ["Chris Pierson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-bridges-of-time", "number": 5 },
+  "date": "1999-06",
+  "description": "Diez años después del Verano del Caos, las tribus de centauros del Bosque Oscuro están divididas por un jefe enloquecido y una presencia oscura. Un joven guerrero centauro pide ayuda en Solace y la encuentra en Caramon Majere y en su impetuosa hija Dezra.\n\nEs la novela que cierra Bridges of Time. En castellano se publicó como La misión de Dezra.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?185296",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-06",
+      "format": "mass_market",
+      "isbn13": 9780786913688,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?86376",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786913681/" }],
+      "cover": "/images/novels/dezras-quest/9780786913688.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-06-04",
+      "format": "ebook",
+      "isbn13": 9780786964956,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458538",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONX38/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La misión de Dezra",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448032050,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/969",
+      "cover": "/images/novels/dezras-quest/9788448032050.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La misión de Dezra",
+      "publisher": "Planeta DeAgostini",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788467429855,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24587",
+      "cover": "/images/novels/dezras-quest/9788467429855.webp"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "the-sentinels",
+  "title": "The Sentinels",
+  "authors": ["R. A. Salvatore", "Geno Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-stone-of-tymora", "number": 3 },
+  "date": "2011-08",
+  "description": "Maimun sabe que debe destruir la piedra que lo ha obligado a huir toda su vida, y viaja a la Torre del Crepúsculo para pedir ayuda al mago Malchor Harpell.\n\nCierra la trilogía Stone of Tymora.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1171685",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2010-11-09",
+      "format": "hardcover",
+      "isbn13": 9780786955053,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?331197",
+      "cover": "/images/novels/the-sentinels/9780786955053.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2010-11-09",
+      "format": "ebook",
+      "isbn13": 9780786958092,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478344",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYOWK/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2011-08-09",
+      "format": "paperback",
+      "isbn13": 9780786957859,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?355317",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786957859/" }],
+      "cover": "/images/novels/the-sentinels/9780786957859.webp"
+    }
+  ]
+}

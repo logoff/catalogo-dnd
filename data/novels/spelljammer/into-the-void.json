@@ -1,0 +1,24 @@
+{
+  "slug": "into-the-void",
+  "title": "Into the Void",
+  "authors": ["Nigel Findley"],
+  "setting": "spelljammer",
+  "kind": "novel",
+  "series": { "id": "spelljammer-cloakmaster", "number": 2 },
+  "date": "1991-09",
+  "description": "Teldin Moore sigue huyendo por el espacio en busca del secreto de su capa.\n\nSegunda novela del ciclo del Cloakmaster, de Nigel Findley.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18472",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-10",
+      "format": "mass_market",
+      "isbn13": 9781560761549,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?31654",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560761547/" }],
+      "cover": "/images/novels/into-the-void/9781560761549.webp"
+    }
+  ]
+}

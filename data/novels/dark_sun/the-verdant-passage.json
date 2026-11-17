@@ -1,0 +1,54 @@
+{
+  "slug": "the-verdant-passage",
+  "title": "The Verdant Passage",
+  "authors": ["Troy Denning"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-prism-pentad", "number": 1 },
+  "date": "1991-10",
+  "description": "En Tyr, ciudad gobernada por el rey hechicero Kalak, el gladiador Rikus, la esclava Sadira y el noble Agis se unen para derrocar al tirano.\n\nPrimera novela del Pentad del Prisma y de Dark Sun, de Troy Denning.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18895",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-10",
+      "format": "mass_market",
+      "isbn13": 9781560761211,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8965",
+      "cover": "/images/novels/the-verdant-passage/9781560761211.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-09",
+      "format": "paperback",
+      "isbn13": 9780786950577,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?259882",
+      "cover": "/images/novels/the-verdant-passage/9780786950577.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-27",
+      "format": "ebook",
+      "isbn13": 9780786961023,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474971",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005D7VELY/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El zigurat de Kalak",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "isbn13": 9788477228837,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1045",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477228833/" }],
+      "cover": "/images/novels/the-verdant-passage/9788477228837.webp"
+    }
+  ]
+}

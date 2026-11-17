@@ -1,0 +1,23 @@
+{
+  "slug": "the-black-vessel",
+  "title": "The Black Vessel",
+  "authors": ["Morris Simon"],
+  "setting": "mystara",
+  "kind": "novel",
+  "date": "1996-08",
+  "description": "Una aventura en el mundo de Mystara.\n\nNovela de Morris Simon.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?14866",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-08",
+      "format": "mass_market",
+      "isbn13": 9780786905072,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?23272",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905077/" }],
+      "cover": "/images/novels/the-black-vessel/9780786905072.webp"
+    }
+  ]
+}

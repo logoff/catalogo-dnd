@@ -1,0 +1,98 @@
+{
+  "slug": "weasels-luck",
+  "title": "Weasel's Luck",
+  "authors": ["Michael Williams"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-heroes", "number": 3 },
+  "date": "1988-12",
+  "description": "Galen Pathwarden, al que todos llaman la Comadreja, no quiere saber nada de aventuras ni de heroísmos. Por eso es una ironía que acabe como escudero de sir Bayard Brightblade, un caballero de Solamnia empeñado en un torneo a muerte, y enredado en una maldición antigua y en las trampas de un ilusionista conocido como el Escorpión.\n\nEs la tercera novela de la serie Heroes, con más humor que sus compañeras y un antihéroe muy distinto de los caballeros habituales. En castellano se tituló El caballero de Solamnia.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13960",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1988-12",
+      "format": "mass_market",
+      "isbn13": 9780880386258,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11162",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880386258/" }],
+      "cover": "/images/novels/weasels-luck/9780880386258.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-08",
+      "format": "mass_market",
+      "isbn13": 9780140116496,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11161",
+      "cover": "/images/novels/weasels-luck/9780140116496.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-05",
+      "format": "mass_market",
+      "isbn13": 9780786931811,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?54070",
+      "cover": "/images/novels/weasels-luck/9780786931811.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-24",
+      "format": "ebook",
+      "isbn13": 9780786963133,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464705",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1JBK/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero de Solamnia",
+      "publisher": "Timun Mas",
+      "date": "1990",
+      "format": "hardcover",
+      "isbn13": 9788477223030,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/9408",
+      "cover": "/images/novels/weasels-luck/9788477223030.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero de Solamnia",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030438,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/294",
+      "cover": "/images/novels/weasels-luck/9788448030438.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero de Solamnia",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448720971,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24240",
+      "cover": "/images/novels/weasels-luck/9788448720971.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero de Solamnia",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005832,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36976",
+      "cover": "/images/novels/weasels-luck/9788448005832.webp"
+    }
+  ]
+}

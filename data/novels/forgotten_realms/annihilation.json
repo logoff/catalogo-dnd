@@ -1,0 +1,67 @@
+{
+  "slug": "annihilation",
+  "title": "Annihilation",
+  "authors": ["Philip Athans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-war-of-the-spider-queen", "number": 5 },
+  "date": "2004-07",
+  "description": "Una guerra civil devastadora amenaza la civilización drow.\n\nQuinta novela de La guerra de la Reina Araña, de Philip Athans.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?27231",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-07",
+      "format": "hardcover",
+      "isbn13": 9780786932375,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?2785",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786932376/" }],
+      "cover": "/images/novels/annihilation/9780786932375.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-08",
+      "format": "mass_market",
+      "isbn13": 9780786937523,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71788",
+      "cover": "/images/novels/annihilation/9780786937523.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-18",
+      "format": "ebook",
+      "isbn13": 9780786956692,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482348",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EQE/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Aniquilación",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788448037550,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15055",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037553/" }],
+      "cover": "/images/novels/annihilation/9788448037550.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Aniquilación",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726614,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/41002",
+      "cover": "/images/novels/annihilation/9788448726614.webp"
+    }
+  ]
+}

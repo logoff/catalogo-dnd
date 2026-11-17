@@ -1,0 +1,103 @@
+{
+  "slug": "boundless",
+  "title": "Boundless",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-generations",
+    "number": 2
+  },
+  "date": "2019-09",
+  "description": "Zaknafein intenta adaptarse a un mundo en el que su hijo tiene por amigos a enanos, humanos y elfos, y por esposa a una humana. Mientras tanto, una matrona de Menzoberranzan trama su ascenso y la amenaza de los demonios no ha desaparecido.\n\nSegunda novela de Generaciones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2592654",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2019-09-10",
+      "format": "hardcover",
+      "isbn13": 9780062688637,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?726113",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0062688634/"
+        }
+      ],
+      "cover": "/images/novels/boundless/9780062688637.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2019-09-10",
+      "format": "paperback",
+      "isbn13": 9780062967121,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?740047",
+      "cover": "/images/novels/boundless/9780062967121.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2020-06-23",
+      "format": "paperback",
+      "isbn13": 9780063055292,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?778537",
+      "cover": "/images/novels/boundless/9780063055292.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ilimitado",
+      "publisher": "Minotauro",
+      "date": "2025-07-16",
+      "format": "paperback",
+      "isbn13": 9788445014707,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/76928",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014706/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-generaciones-n-02-03-ilimitado/9788445014707/16953150"
+        }
+      ],
+      "cover": "/images/novels/boundless/9788445014707.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Ilimitado",
+      "publisher": "Minotauro",
+      "date": "2025-07-16",
+      "format": "ebook",
+      "isbn13": 9788445020883,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78804",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0F87VJH8Y/"
+        }
+      ],
+      "cover": "/images/novels/boundless/9788445020883.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B07H4ZMYXX/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07H4ZMYXX/"
+        }
+      ]
+    }
+  ]
+}

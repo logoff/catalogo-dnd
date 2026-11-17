@@ -1,0 +1,64 @@
+{
+  "slug": "evermeet-island-of-elves",
+  "title": "Evermeet: Island of Elves",
+  "authors": ["Elaine Cunningham"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "1998-04",
+  "description": "La historia de la isla élfica de Siempre Unidos, desde sus orígenes, a través de las generaciones.\n\nNovela independiente de Elaine Cunningham.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26124",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-04",
+      "format": "hardcover",
+      "isbn13": 9780786907137,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?12668",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786907134/" }],
+      "cover": "/images/novels/evermeet-island-of-elves/9780786907137.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-03",
+      "format": "mass_market",
+      "isbn13": 9780786913541,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?164531",
+      "cover": "/images/novels/evermeet-island-of-elves/9780786913541.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Siempre Unidos, la isla de los elfos",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448037253,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/633",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037251/" }],
+      "cover": "/images/novels/evermeet-island-of-elves/9788448037253.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Siempre Unidos, la isla de los elfos",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723682,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/28834",
+      "cover": "/images/novels/evermeet-island-of-elves/9788448723682.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0060B6I86/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6I86/" }]
+    }
+  ]
+}

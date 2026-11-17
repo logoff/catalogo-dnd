@@ -1,0 +1,77 @@
+{
+  "slug": "darkwalker-on-moonshae",
+  "title": "Darkwalker on Moonshae",
+  "authors": ["Douglas Niles"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-moonshae", "number": 1 },
+  "date": "1987-05",
+  "description": "Tristan Kendrick, heredero de los Altos Reyes de las islas Moonshae, debe reunir a enanos, halflings, caballeros, bardos y druidas para frenar a las criaturas malignas que invaden su tierra, sometida al poder oscuro de Bhaal.\n\nPrimera novela de la trilogía de Moonshae y debut de Douglas Niles en los Reinos Olvidados; fue la primera novela publicada del mundo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12957",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1987-05",
+      "format": "mass_market",
+      "isbn13": 9780880384513,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14271",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880384514/" }],
+      "cover": "/images/novels/darkwalker-on-moonshae/9780880384513.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1988-06",
+      "format": "mass_market",
+      "isbn13": 9780140111361,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?9129",
+      "cover": "/images/novels/darkwalker-on-moonshae/9780140111361.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-09",
+      "format": "mass_market",
+      "isbn13": 9780786935604,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?63710",
+      "cover": "/images/novels/darkwalker-on-moonshae/9780786935604.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-31",
+      "format": "ebook",
+      "isbn13": 9780786959587,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472868",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKTGQ/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El pozo de las tinieblas",
+      "publisher": "Timun Mas",
+      "date": "1989",
+      "format": "mass_market",
+      "isbn13": 9788477224068,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/234",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477224064/" }],
+      "cover": "/images/novels/darkwalker-on-moonshae/9788477224068.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El pozo de las tinieblas",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725839,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40969",
+      "cover": "/images/novels/darkwalker-on-moonshae/9788448725839.webp"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "the-survivors",
+  "title": "The Survivors",
+  "authors": ["Dan Willis"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-anvil-of-time", "number": 2 },
+  "date": "2008-11",
+  "description": "Un encuentro casual en una taberna se convierte en el aviso de un apocalipsis inminente, y el enano Bradok Axeblade guía a los suyos por las profundidades en busca de un refugio en un mundo desconocido: la superficie.\n\nEs la segunda novela de The Anvil of Time, de historias independientes. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?876598",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11-04",
+      "format": "mass_market",
+      "isbn13": 9780786947232,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261405",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786947233/" }],
+      "cover": "/images/novels/the-survivors/9780786947232.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-12",
+      "format": "ebook",
+      "isbn13": 9780786956470,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483471",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001FA0J0K/" }]
+    }
+  ]
+}

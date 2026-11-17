@@ -1,0 +1,85 @@
+{
+  "slug": "riverwind-the-plainsman",
+  "title": "Riverwind the Plainsman",
+  "authors": ["Paul B. Thompson", "Tonya R. Carter"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-preludes-ii", "number": 1 },
+  "date": "1990-01",
+  "description": "Para poder casarse con Goldmoon, Riverwind recibe de los ancianos de los que-shu una misión casi imposible: traer una prueba de que los dioses verdaderos existen. Su búsqueda lo lleva, junto a un excéntrico adivino, a un mundo dominado por la hechicería.\n\nEs la primera novela de Preludes II y cuenta el pasado de dos de los personajes centrales de las Crónicas de la Dragonlance. En castellano se publicó como La misión de Riverwind.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?14400",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-01",
+      "format": "mass_market",
+      "isbn13": 9780880389099,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?290470",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389095/" }],
+      "cover": "/images/novels/riverwind-the-plainsman/9780880389099.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-09",
+      "format": "mass_market",
+      "isbn13": 9780140143645,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11169"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La misión de Riverwind",
+      "publisher": "Timun Mas",
+      "date": "1991",
+      "format": "hardcover",
+      "isbn13": 9788477227175,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/9475",
+      "cover": "/images/novels/riverwind-the-plainsman/9788477227175.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La misión de Riverwind",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030490,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/13230",
+      "cover": "/images/novels/riverwind-the-plainsman/9788448030490.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La misión de Riverwind",
+      "publisher": "Timun Mas",
+      "date": "2006-03",
+      "format": "paperback",
+      "isbn13": 9788448005382,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36640",
+      "cover": "/images/novels/riverwind-the-plainsman/9788448005382.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La misión de Riverwind",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721305,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24264",
+      "cover": "/images/novels/riverwind-the-plainsman/9788448721305.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B007RHD9EI/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RHD9EI/" }]
+    }
+  ]
+}

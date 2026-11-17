@@ -1,0 +1,24 @@
+{
+  "slug": "conundrum",
+  "title": "Conundrum",
+  "authors": ["Jeff Crook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-age-of-mortals", "number": 1 },
+  "date": "2001-12",
+  "description": "El submarino gnomo Indestructible zarpa de la isla de Sancrist con nueve semanas de retraso y una misión legendaria: navegar bajo el continente de Ansalon para averiguar por qué flotan las rocas muy grandes. Entre su tripulación está Conundrum, el gnomo que luego aparece en La guerra de los espíritus.\n\nEs una novela de la serie Age of Mortals, ambientada en la Quinta Era, con el humor de los gnomos como protagonista. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24865",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-12",
+      "format": "mass_market",
+      "isbn13": 9780786919499,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7965",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786919493/" }],
+      "cover": "/images/novels/conundrum/9780786919499.webp"
+    }
+  ]
+}

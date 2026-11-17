@@ -1,0 +1,45 @@
+{
+  "slug": "knights-of-the-crown",
+  "title": "Knights of the Crown",
+  "authors": ["Roland Green"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-warriors", "number": 1 },
+  "date": "1995-03",
+  "description": "Pirvan empezó como ladrón de conjuros en las calles, muy lejos de cualquier ideal caballeresco. Esta es la historia de cómo llegó a ingresar en la Orden de la Corona de los Caballeros de Solamnia, la primera de sus tres órdenes, cuya virtud es la lealtad.\n\nEs la primera novela de la serie Warriors, dedicada a guerreros y caballeros de la historia de Krynn, y la primera de las cuatro de Roland Green sobre sir Pirvan. En castellano se publicó como Pirvan el ladrón.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?4402",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-03",
+      "format": "mass_market",
+      "isbn13": 9780786901081,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11192",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078690108X/" }],
+      "cover": "/images/novels/knights-of-the-crown/9780786901081.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-27",
+      "format": "ebook",
+      "isbn13": 9780786962846,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464227",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076PGKLA/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Pirvan el ladrón",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448032395,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1650",
+      "cover": "/images/novels/knights-of-the-crown/9788448032395.webp"
+    }
+  ]
+}

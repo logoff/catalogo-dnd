@@ -1,0 +1,23 @@
+{
+  "slug": "night-of-the-dragons",
+  "title": "Night of the Dragons",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-young-adult-chronicles", "number": 2 },
+  "date": "2003-06",
+  "description": "Adaptación para lectores jóvenes de la segunda mitad de El retorno de los dragones.\n\nEs el segundo de los seis volúmenes que adaptan las Crónicas de la Dragonlance para lectores jóvenes. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24018",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-06",
+      "format": "paperback",
+      "isbn13": 9780786930906,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?24012",
+      "cover": "/images/novels/night-of-the-dragons/9780786930906.webp"
+    }
+  ]
+}

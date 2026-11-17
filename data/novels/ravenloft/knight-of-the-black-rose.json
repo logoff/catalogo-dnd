@@ -1,0 +1,54 @@
+{
+  "slug": "knight-of-the-black-rose",
+  "title": "Knight of the Black Rose",
+  "authors": ["James Lowder"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "series": { "id": "ravenloft-black-rose", "number": 1 },
+  "date": "1991-12",
+  "description": "Lord Soth, el caballero de la muerte de Krynn, es arrastrado por los Poderes Oscuros a Barovia, donde se enfrenta a los esbirros del conde Strahd von Zarovich con una prisionera vistani y un fantasma poco fiable como únicos aliados.\n\nNovela de James Lowder que lleva a Lord Soth de Dragonlance a Ravenloft.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?9937",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-12",
+      "format": "mass_market",
+      "isbn13": 9781560761563,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?19652",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560761563/" }],
+      "cover": "/images/novels/knight-of-the-black-rose/9781560761563.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-06-19",
+      "format": "ebook",
+      "isbn13": 9780786963423,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465964",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEHHG/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero de la rosa negra",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "isbn13": 9788448041519,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3412",
+      "cover": "/images/novels/knight-of-the-black-rose/9788448041519.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero de la rosa negra",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "isbn13": 9788448040109,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/9188",
+      "cover": "/images/novels/knight-of-the-black-rose/9788448040109.webp"
+    }
+  ]
+}

@@ -93,6 +93,14 @@ export const STORES: Record<Store, StoreConfig> = {
       env.VITE_AFFILIATE_AWIN_PUBLISHER
     ),
   },
+  casa_del_libro: {
+    label: 'Casa del Libro',
+    color: 'from-[#005b56] to-[#00403c] hover:from-[#00706a] hover:to-[#005b56]',
+    affiliate: awinAffiliate(
+      env.VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM,
+      env.VITE_AFFILIATE_AWIN_PUBLISHER
+    ),
+  },
 }
 
 export function withParam(url: string, name: string, value: string): string {

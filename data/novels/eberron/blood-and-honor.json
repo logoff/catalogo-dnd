@@ -1,0 +1,24 @@
+{
+  "slug": "blood-and-honor",
+  "title": "Blood and Honor",
+  "authors": ["Graeme Davis"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-war-torn", "number": 4 },
+  "date": "2006-09",
+  "description": "En Karrnath, la hija de una familia noble ha desaparecido, una antigua casa ha caído en desgracia e incluso los muertos desaparecen. Un exiliado deshonrado podría ser el único capaz de salvarlos.\n\nCierra la serie The War-Torn, de Graeme Davis.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?337321",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-09-12",
+      "format": "mass_market",
+      "isbn13": 9780786940691,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?85823",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940697/" }],
+      "cover": "/images/novels/blood-and-honor/9780786940691.webp"
+    }
+  ]
+}

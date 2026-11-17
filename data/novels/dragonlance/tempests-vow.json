@@ -1,0 +1,23 @@
+{
+  "slug": "tempests-vow",
+  "title": "Tempest's Vow",
+  "authors": ["Ree Soesbee"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-elements", "number": 3 },
+  "date": "2008-04",
+  "description": "Alguien ha interrumpido la Prueba de Alta Hechicería de Nearra y ha robado un fragmento del Pilar del Aire. Ella y sus amigos tendrán que resolver el misterio y enfrentarse a la Cábala.\n\nEs la novela que cierra The Elements Trilogy y la historia de Nearra en la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1111619",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2008-04",
+      "format": "paperback",
+      "isbn13": 9780786947966,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?316315",
+      "cover": "/images/novels/tempests-vow/9780786947966.webp"
+    }
+  ]
+}

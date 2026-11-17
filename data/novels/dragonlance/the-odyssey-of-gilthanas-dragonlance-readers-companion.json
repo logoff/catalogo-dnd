@@ -1,0 +1,23 @@
+{
+  "slug": "the-odyssey-of-gilthanas-dragonlance-readers-companion",
+  "title": "The Odyssey of Gilthanas: Dragonlance Reader's Companion",
+  "authors": ["Douglas Niles", "Steve Miller", "Stan!"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "date": "1999-08",
+  "description": "Gilthanas, el hermano de Laurana, emprende un viaje por Krynn en la Quinta Era cuya historia se va contando junto con información sobre el mundo de Dragonlance, a medio camino entre novela y libro de consulta para lectores.\n\nSe publicó como compañero para lectores de la saga y no se ha traducido al castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?691841",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-08",
+      "format": "mass_market",
+      "isbn13": 9780786914463,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?44811",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786914467/" }],
+      "cover": "/images/novels/the-odyssey-of-gilthanas-dragonlance-readers-companion/9780786914463.webp"
+    }
+  ]
+}

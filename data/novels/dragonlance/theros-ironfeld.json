@@ -1,0 +1,45 @@
+{
+  "slug": "theros-ironfeld",
+  "title": "Theros Ironfeld",
+  "authors": ["Don Perrin"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-warriors", "number": 4 },
+  "date": "1996-03",
+  "description": "De niño, Theros se ofreció como esclavo en un barco de guerra minotauro para huir de su aldea. Creció entre gladiadores y soldados hasta que una crisis de conciencia lo llevó a abandonar la guerra y seguir a Paladine, el camino que lo convertiría en el herrero del Brazo de Plata de las Crónicas.\n\nEs la cuarta novela de la serie Warriors. Se publicó en castellano como Theros Ironfeld.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15738",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-03",
+      "format": "mass_market",
+      "isbn13": 9780786904815,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11215",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078690481X/" }],
+      "cover": "/images/novels/theros-ironfeld/9780786904815.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-06-12",
+      "format": "ebook",
+      "isbn13": 9780786963386,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466005",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFI8I/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Theros Ironfeld",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448039226,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/326",
+      "cover": "/images/novels/theros-ironfeld/9788448039226.webp"
+    }
+  ]
+}

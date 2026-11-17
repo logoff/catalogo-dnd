@@ -1,0 +1,44 @@
+{
+  "slug": "the-herald",
+  "title": "The Herald",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sundering", "number": 6 },
+  "date": "2014-06",
+  "description": "Elminster lucha por el futuro de Faerûn mientras los agentes de los shadovar buscan en Candelero los secretos arcanos para su guerra.\n\nCierra la serie The Sundering, de Ed Greenwood.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1724997",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-06-03",
+      "format": "hardcover",
+      "isbn13": 9780786964604,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?445690",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078696460X/" }],
+      "cover": "/images/novels/the-herald/9780786964604.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-06-03",
+      "format": "ebook",
+      "isbn13": 9780786965496,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?446364",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00H6J6KQQ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-12-02",
+      "format": "mass_market",
+      "isbn13": 9780786965465,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?501362",
+      "cover": "/images/novels/the-herald/9780786965465.webp"
+    }
+  ]
+}

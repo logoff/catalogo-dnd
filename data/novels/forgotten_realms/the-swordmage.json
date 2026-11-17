@@ -1,0 +1,55 @@
+{
+  "slug": "the-swordmage",
+  "title": "The Swordmage",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-blades-of-the-moonsea", "number": 1 },
+  "date": "2008-05",
+  "description": "La plaga de conjuros ha transformado los Reinos, y Geran Hulmaster, un espadachín mago, regresa a su ciudad natal en un mundo nuevo.\n\nPrimera novela de la trilogía de las Espadas del Mar de la Luna, de Richard Baker, la primera ambientada por completo en la cuarta edición.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?908718",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-05-06",
+      "format": "hardcover",
+      "isbn13": 9780786947881,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250099",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786947888/" }],
+      "cover": "/images/novels/the-swordmage/9780786947881.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-12-02",
+      "format": "mass_market",
+      "isbn13": 9780786950225,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?261567",
+      "cover": "/images/novels/the-swordmage/9780786950225.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-20",
+      "format": "ebook",
+      "isbn13": 9780786956364,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483461"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mago de la espada",
+      "publisher": "Timun Mas",
+      "date": "2009",
+      "format": "hardcover",
+      "isbn13": 9788448038090,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/28319",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038096/" }],
+      "cover": "/images/novels/the-swordmage/9788448038090.webp"
+    }
+  ]
+}

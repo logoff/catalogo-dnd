@@ -1,0 +1,24 @@
+{
+  "slug": "the-siege-of-mt-nevermind",
+  "title": "The Siege of Mt. Nevermind",
+  "authors": ["Fergus Ryan"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-chaos-war", "number": 5 },
+  "date": "1999-09",
+  "description": "Condenada a trabajar en las profundidades del Monte Nevermind, la joven gnoma Innova descubre una máquina que hace funcionar toda la montaña como un reloj. Justo entonces, un comandante de los Caballeros de Takhisis recibe la orden de conquistar el hogar de los gnomos.\n\nEs la novela más humorística de la serie The Chaos War, protagonizada por los gnomos y sus inventos. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?628045",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-09",
+      "format": "mass_market",
+      "isbn13": 9780786913817,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?200001",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786913819/" }],
+      "cover": "/images/novels/the-siege-of-mt-nevermind/9780786913817.webp"
+    }
+  ]
+}

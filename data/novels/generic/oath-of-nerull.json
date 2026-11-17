@@ -1,0 +1,45 @@
+{
+  "slug": "oath-of-nerull",
+  "title": "Oath of Nerull",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 3 },
+  "date": "2002-09",
+  "description": "Los personajes icónicos de la tercera edición se enfrentan a los seguidores de Nerull, el dios de la muerte.\n\nNovela de la serie Iconics (T. H. Lain).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24523",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-09",
+      "format": "mass_market",
+      "isbn13": 9780786928514,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?24656",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786928514/" }],
+      "cover": "/images/novels/oath-of-nerull/9780786928514.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-06-25",
+      "format": "ebook",
+      "isbn13": 9780786965045,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458559",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONWPM/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Juramento a Nerull",
+      "publisher": "Devir",
+      "date": "2003-10",
+      "format": "mass_market",
+      "isbn13": 9788493318420,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11362",
+      "cover": "/images/novels/oath-of-nerull/9788493318420.webp"
+    }
+  ]
+}

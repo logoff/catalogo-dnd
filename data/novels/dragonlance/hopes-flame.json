@@ -1,0 +1,24 @@
+{
+  "slug": "hopes-flame",
+  "title": "Hope's Flame",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-young-adult-chronicles", "number": 5 },
+  "date": "2003-12",
+  "description": "Adaptación para lectores jóvenes de la primera mitad de La reina de la oscuridad.\n\nEs el quinto de los seis volúmenes que adaptan las Crónicas de la Dragonlance para lectores jóvenes. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?29028",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-01",
+      "format": "paperback",
+      "isbn13": 9780786930999,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?17263",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786930993/" }],
+      "cover": "/images/novels/hopes-flame/9780786930999.webp"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "murder-in-cormyr",
+  "title": "Murder in Cormyr",
+  "authors": ["Chet Williamson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-mysteries", "number": 1 },
+  "date": "1996-03",
+  "description": "Benelaius, retirado del Colegio de Magos de Guerra, vive tranquilo en Cormyr hasta que él y su ayudante Jasper tienen que investigar el asesinato de un mensajero del rey Azoun.\n\nNovela de misterio de los Reinos Olvidados.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?8883",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-03",
+      "format": "hardcover",
+      "isbn13": 9780786904860,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14305",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786904860/" }],
+      "cover": "/images/novels/murder-in-cormyr/9780786904860.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "1998-07",
+      "format": "mass_market",
+      "isbn13": 9780786911738,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?23112",
+      "cover": "/images/novels/murder-in-cormyr/9780786911738.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-11-06",
+      "format": "ebook",
+      "isbn13": 9780786964178,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469536",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00A5MRB6O/" }]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-nightmare-lands",
+  "title": "The Nightmare Lands",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-young-adult-chronicles", "number": 3 },
+  "date": "2003-10",
+  "description": "Adaptación para lectores jóvenes de la primera mitad de La tumba de Huma.\n\nEs el tercero de los seis volúmenes que adaptan las Crónicas de la Dragonlance para lectores jóvenes. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24519",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "paperback",
+      "isbn13": 9780786930937,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?24218",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786930934/" }],
+      "cover": "/images/novels/the-nightmare-lands/9780786930937.webp"
+    }
+  ]
+}

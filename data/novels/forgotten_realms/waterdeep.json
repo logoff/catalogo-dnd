@@ -1,0 +1,64 @@
+{
+  "slug": "waterdeep",
+  "title": "Waterdeep",
+  "authors": ["Richard Awlinson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-avatar", "number": 3 },
+  "date": "1989-08",
+  "description": "En las calles de Aguas Profundas, los avatares de los dioses buscan las Tablas del Destino. Cyric y Myrkul, el dios de la muerte, conspiran para capturar a Medianoche y usar las Tablas para sus fines, mientras se decide el destino del mundo y nace un nuevo panteón.\n\nCierra la trilogía original de los Avatares.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?188526",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-08",
+      "format": "mass_market",
+      "isbn13": 9780880387590,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?179577",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880387599/" }],
+      "cover": "/images/novels/waterdeep/9780880387590.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-02",
+      "format": "mass_market",
+      "isbn13": 9780140126303,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?185897"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Aguas Profundas",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "mass_market",
+      "isbn13": 9788477227236,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/219",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477227233/" }],
+      "cover": "/images/novels/waterdeep/9788477227236.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Aguas Profundas",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726577,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40988",
+      "cover": "/images/novels/waterdeep/9788448726577.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B005UFN50C/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN50C/" }]
+    }
+  ]
+}

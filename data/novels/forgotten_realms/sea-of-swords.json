@@ -1,0 +1,157 @@
+{
+  "slug": "sea-of-swords",
+  "title": "Sea of Swords",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-paths-of-darkness",
+    "number": 3
+  },
+  "date": "2001-10",
+  "description": "Cuando aparece la marca de Aegis-fang, el martillo de Wulfgar, en la espalda de un forajido, Drizzt y sus compañeros salen en busca del bárbaro. Él, mientras tanto, navega con el capitán Deudermont tras la pista de la pirata Sheila Kree, que tiene ahora el martillo.\n\nCierra Sendas de tinieblas y reúne de nuevo a los Compañeros del Salón.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24576",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-10",
+      "format": "hardcover",
+      "isbn13": 9780786918980,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29332",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786918985/"
+        }
+      ],
+      "cover": "/images/novels/sea-of-swords/9780786918980.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-08",
+      "format": "mass_market",
+      "isbn13": 9780786927722,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29333",
+      "cover": "/images/novels/sea-of-swords/9780786927722.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-03-04",
+      "format": "hardcover",
+      "isbn13": 9780786947874,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?241469",
+      "cover": "/images/novels/sea-of-swords/9780786947874.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-02",
+      "format": "mass_market",
+      "isbn13": 9780786951215,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?274558",
+      "cover": "/images/novels/sea-of-swords/9780786951215.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954131,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486743",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002D9ZLI2/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-08-19",
+      "format": "paperback",
+      "isbn13": 9798217092741,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1063683"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mar de las espadas",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "format": "hardcover",
+      "isbn13": 9788448037482,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/6372",
+      "cover": "/images/novels/sea-of-swords/9788448037482.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mar de las espadas",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725570,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40971",
+      "cover": "/images/novels/sea-of-swords/9788448725570.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mar de las espadas",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005801,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37449",
+      "cover": "/images/novels/sea-of-swords/9788448005801.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mar de las espadas",
+      "publisher": "Minotauro",
+      "date": "2023-06-07",
+      "format": "paperback",
+      "isbn13": 9788445010822,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101967",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010824/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-sendas-de-tinieblas-n-03-03-el-mar-de-las-espadas/9788445010822/13608317"
+        }
+      ],
+      "cover": "/images/novels/sea-of-swords/9788445010822.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mar de las espadas",
+      "publisher": "Minotauro",
+      "date": "2023-06-07",
+      "format": "ebook",
+      "isbn13": 9788445015841,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101968",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0C37GNMVS/"
+        }
+      ],
+      "cover": "/images/novels/sea-of-swords/9788445015841.webp"
+    }
+  ]
+}

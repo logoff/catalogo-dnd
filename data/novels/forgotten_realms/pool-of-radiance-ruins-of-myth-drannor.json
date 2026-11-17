@@ -1,0 +1,23 @@
+{
+  "slug": "pool-of-radiance-ruins-of-myth-drannor",
+  "title": "Pool of Radiance: Ruins of Myth Drannor",
+  "authors": ["Carrie A. Bebris"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2001-08",
+  "description": "Un dracolich y su reina hechicera se apoderan del mythal que protegía la antigua capital élfica, y cuatro héroes tienen la clave para salvar Faerûn.\n\nNovelización del videojuego Pool of Radiance: Ruins of Myth Drannor (2001).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?799033",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-11",
+      "format": "mass_market",
+      "isbn13": 9780786913879,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?26423",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786913878/" }],
+      "cover": "/images/novels/pool-of-radiance-ruins-of-myth-drannor/9780786913879.webp"
+    }
+  ]
+}

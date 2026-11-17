@@ -1,0 +1,96 @@
+{
+  "slug": "the-legend-of-huma",
+  "title": "The Legend of Huma",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-heroes", "number": 1 },
+  "date": "1988-03",
+  "description": "Siglos antes de la Guerra de la Lanza, la Reina de la Oscuridad ha desatado a sus dragones sobre Krynn y los Caballeros de Solamnia retroceden. Huma, un caballero de origen humilde, emprende un viaje en busca de un arma capaz de cambiar el curso de la guerra, acompañado por el minotauro Kaz y guiado por una misteriosa mujer.\n\nEs la historia del héroe legendario al que tantas veces se cita en las Crónicas de la Dragonlance y abre la serie Heroes. Fue la primera novela de Dragonlance no firmada por Weis y Hickman que entró en la lista de más vendidos de The New York Times, y en castellano se publicó como La leyenda de Huma.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17070",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1988-03",
+      "format": "mass_market",
+      "isbn13": 9780880385480,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11160",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880385480/" }],
+      "cover": "/images/novels/the-legend-of-huma/9780880385480.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-04",
+      "format": "mass_market",
+      "isbn13": 9780140116472,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11159",
+      "cover": "/images/novels/the-legend-of-huma/9780140116472.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-01",
+      "format": "mass_market",
+      "isbn13": 9780786931378,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43008",
+      "cover": "/images/novels/the-legend-of-huma/9780786931378.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La leyenda de Huma",
+      "publisher": "Timun Mas",
+      "date": "1989",
+      "format": "hardcover",
+      "isbn13": 9788477223016,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/19",
+      "cover": "/images/novels/the-legend-of-huma/9788477223016.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La leyenda de Huma",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030414,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/5839",
+      "cover": "/images/novels/the-legend-of-huma/9788448030414.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La leyenda de Huma",
+      "publisher": "Altaya",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788448720834,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/14673",
+      "cover": "/images/novels/the-legend-of-huma/9788448720834.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La leyenda de Huma",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005818,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36974",
+      "cover": "/images/novels/the-legend-of-huma/9788448005818.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0076Q1H62/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1H62/" }]
+    }
+  ]
+}

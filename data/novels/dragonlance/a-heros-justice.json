@@ -1,0 +1,23 @@
+{
+  "slug": "a-heros-justice",
+  "title": "A Hero's Justice",
+  "authors": ["Paul B. Thompson", "Tonya C. Cook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-ergoth", "number": 3 },
+  "date": "2004-12",
+  "description": "La historia de Tolandruth llega a su desenlace en una época violenta del imperio de Ergoth que ninguna otra serie de Dragonlance había contado.\n\nEs la novela que cierra la trilogía The Ergoth. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?156713",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-12",
+      "format": "mass_market",
+      "isbn13": 9780786933976,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67386",
+      "cover": "/images/novels/a-heros-justice/9780786933976.webp"
+    }
+  ]
+}

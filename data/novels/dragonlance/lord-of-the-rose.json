@@ -1,0 +1,33 @@
+{
+  "slug": "lord-of-the-rose",
+  "title": "Lord of the Rose",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-rise-of-solamnia", "number": 1 },
+  "date": "2005-03",
+  "description": "Tras la Guerra de los Espíritus, Solamnia está dividida y amenazada. Un caballero acusado de un crimen terrible empieza a reunir a su alrededor a quienes quieren devolver al país su grandeza.\n\nEs la primera novela de El despertar de Solamnia, la trilogía de Douglas Niles sobre la Solamnia de la posguerra. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?158041",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-03",
+      "format": "mass_market",
+      "isbn13": 9780786931460,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68702",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786931469/" }],
+      "cover": "/images/novels/lord-of-the-rose/9780786931460.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-06",
+      "format": "ebook",
+      "isbn13": 9780786962716,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038457"
+    }
+  ]
+}

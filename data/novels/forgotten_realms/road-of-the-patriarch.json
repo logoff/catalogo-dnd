@@ -1,0 +1,137 @@
+{
+  "slug": "road-of-the-patriarch",
+  "title": "Road of the Patriarch",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-sellswords",
+    "number": 3
+  },
+  "date": "2006-10",
+  "description": "Jarlaxle se ha propuesto convertirse en el gobernante de Vaasa, y Entreri, a su pesar, lo acompaña mientras las dragonas Ilnezhara y Tazmikella mueven sus propias piezas. El asesino empieza a hacerse preguntas sobre su pasado en Calimport.\n\nCierra la trilogía de Los mercenarios.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?185220",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-10-10",
+      "format": "hardcover",
+      "isbn13": 9780786940752,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?86286",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786940751/"
+        }
+      ],
+      "cover": "/images/novels/road-of-the-patriarch/9780786940752.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-07",
+      "format": "mass_market",
+      "isbn13": 9780786942770,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?146371",
+      "cover": "/images/novels/road-of-the-patriarch/9780786942770.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10-07",
+      "format": "ebook",
+      "isbn13": 9780786952632,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?489520",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B001NBEWJU/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-12-02",
+      "format": "paperback",
+      "isbn13": 9798217093328,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1078981"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El camino del patriarca",
+      "publisher": "Timun Mas",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448037826,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15143",
+      "cover": "/images/novels/road-of-the-patriarch/9788448037826.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El camino del patriarca",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726652,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38272",
+      "cover": "/images/novels/road-of-the-patriarch/9788448726652.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El camino del patriarca",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038564,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/35875",
+      "cover": "/images/novels/road-of-the-patriarch/9788448038564.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El camino del patriarca",
+      "publisher": "Minotauro",
+      "date": "2024-09-18",
+      "format": "paperback",
+      "isbn13": 9788445010815,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78849",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010816/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-los-mercenarios-n-3-03-el-camino-del-patriarca/9788445010815/16157757"
+        }
+      ],
+      "cover": "/images/novels/road-of-the-patriarch/9788445010815.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El camino del patriarca",
+      "publisher": "Minotauro",
+      "date": "2024-09-18",
+      "format": "ebook",
+      "isbn13": 9788445018491,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78850",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0D7HXM356/"
+        }
+      ],
+      "cover": "/images/novels/road-of-the-patriarch/9788445018491.webp"
+    }
+  ]
+}

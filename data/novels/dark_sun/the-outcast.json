@@ -1,0 +1,33 @@
+{
+  "slug": "the-outcast",
+  "title": "The Outcast",
+  "authors": ["Simon Hawke"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-tribe-of-one", "number": 1 },
+  "date": "1993-12",
+  "description": "Sorak, un elfling que alberga muchas personalidades distintas, es expulsado y vaga por los desiertos de Athas.\n\nPrimera novela de la trilogía Tribe of One, de Simon Hawke.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?5037",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-12",
+      "format": "mass_market",
+      "isbn13": 9781560766766,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8962"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El desterrado",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "isbn13": 9788448038038,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/560",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038037/" }],
+      "cover": "/images/novels/the-outcast/9788448038038.webp"
+    }
+  ]
+}

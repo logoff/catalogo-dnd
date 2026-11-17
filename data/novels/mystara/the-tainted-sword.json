@@ -1,0 +1,35 @@
+{
+  "slug": "the-tainted-sword",
+  "title": "The Tainted Sword",
+  "authors": ["D. J. Heinrich"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-penhaligon", "number": 1 },
+  "date": "1992-10",
+  "description": "Un caballero envejecido acoge a una huérfana que se ha proclamado su escudera y a un joven que sueña con ser mago, y juntos se enfrentan a un dragón decidido a destruir el buen nombre del caballero.\n\nPrimera novela de la trilogía de Penhaligon, de D. J. Heinrich.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17689",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-10",
+      "format": "mass_market",
+      "isbn13": 9781560763956,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11651",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560763957/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La espada sin honor",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788448036010,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/991",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448036018/" }],
+      "cover": "/images/novels/the-tainted-sword/9788448036010.webp"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "ravenloft-heir-of-strahd",
+  "title": "Ravenloft: Heir of Strahd",
+  "authors": ["Delilah S. Dawson"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "2025-05",
+  "description": "Un grupo de aventureros se abre paso por los Dominios del Pavor, gobernados por señores oscuros, y se enfrenta al temible conde Strahd von Zarovich.\n\nNovela de Delilah S. Dawson publicada por Random House Worlds.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3568496",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-05-13",
+      "format": "hardcover",
+      "isbn13": 9780593599778,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1097094",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0593599772/" }],
+      "cover": "/images/novels/ravenloft-heir-of-strahd/9780593599778.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-05-13",
+      "format": "ebook",
+      "isbn13": 9780593599785,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1097102",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0DBPMJGDB/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-02-10",
+      "format": "paperback",
+      "isbn13": 9780593725672,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1091319",
+      "cover": "/images/novels/ravenloft-heir-of-strahd/9780593725672.webp"
+    }
+  ]
+}

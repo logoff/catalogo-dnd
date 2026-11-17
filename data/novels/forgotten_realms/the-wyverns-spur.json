@@ -1,0 +1,63 @@
+{
+  "slug": "the-wyverns-spur",
+  "title": "The Wyvern's Spur",
+  "authors": ["Kate Novak", "Jeff Grubb"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-finders-stone", "number": 2 },
+  "date": "1990-02",
+  "description": "Cuando roban la reliquia familiar de los Wyvernspur, Giogi, el bufón de la familia, debe recuperarla con la ayuda de la barda Olive Ruskettle y de la maga Cat, aunque él mismo podría convertirse en su próxima víctima.\n\nSegunda novela de la trilogía de la Piedra del Buscador.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15927",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-02",
+      "format": "mass_market",
+      "isbn13": 9780880389020,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?218869",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389028/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-09",
+      "format": "mass_market",
+      "isbn13": 9780140143652,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14363"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El espolón del Wyvern",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "mass_market",
+      "isbn13": 9788477228806,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/237",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477228809/" }],
+      "cover": "/images/novels/the-wyverns-spur/9788477228806.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El espolón del Wyvern",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725877,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36935",
+      "cover": "/images/novels/the-wyverns-spur/9788448725877.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B008ADFFY0/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFFY0/" }]
+    }
+  ]
+}

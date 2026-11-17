@@ -1,0 +1,180 @@
+{
+  "slug": "time-of-the-twins",
+  "title": "Time of the Twins",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-legends",
+    "number": 1
+  },
+  "date": "1986-02",
+  "description": "Dos años después de la Guerra de la Lanza, Caramon Majere ha caído en la bebida mientras su gemelo Raistlin, convertido en el mago más poderoso de Krynn, prepara un plan para desafiar a los propios dioses. Cuando Crysania, una sacerdotisa de Paladine, decide seguir a Raistlin para salvarlo, Caramon la acompaña en un viaje en el tiempo hasta Istar, la ciudad más rica del mundo, en vísperas del Cataclismo.\n\nEs la primera novela de las Leyendas de la Dragonlance, la trilogía que continúa directamente las Crónicas y se centra en los gemelos Majere. Se lee justo después de La reina de la oscuridad y muestra el Krynn anterior al Cataclismo, del que en las Crónicas solo se hablaba como leyenda.",
+  "source": "https://www.penguinrandomhouse.com/books/isbn/9798217094592",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1986-02",
+      "format": "mass_market",
+      "isbn13": 9780880382656,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11164",
+      "cover": "/images/novels/time-of-the-twins/9780880382656.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1987-03",
+      "format": "mass_market",
+      "isbn13": 9780140101096,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11163",
+      "cover": "/images/novels/time-of-the-twins/9780140101096.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-02",
+      "format": "mass_market",
+      "isbn13": 9780786902620,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?303269",
+      "cover": "/images/novels/time-of-the-twins/9780786902620.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-02",
+      "format": "mass_market",
+      "isbn13": 9780786918041,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?51500",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786918047/"
+        }
+      ],
+      "cover": "/images/novels/time-of-the-twins/9780786918041.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-03",
+      "format": "hardcover",
+      "isbn13": 9780786931583,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?51498",
+      "cover": "/images/novels/time-of-the-twins/9780786931583.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-24",
+      "format": "ebook",
+      "isbn13": 9780786954414,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472882",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004J4WLZK/"
+        }
+      ],
+      "cover": "/images/novels/time-of-the-twins/9780786954414.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El templo de Istar",
+      "publisher": "Timun Mas",
+      "date": "1988",
+      "format": "hardcover",
+      "isbn13": 9788477221852,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/17",
+      "cover": "/images/novels/time-of-the-twins/9788477221852.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El templo de Istar",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9788448030292,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3206",
+      "cover": "/images/novels/time-of-the-twins/9788448030292.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El templo de Istar",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "mass_market",
+      "isbn13": 9788448033705,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12361",
+      "cover": "/images/novels/time-of-the-twins/9788448033705.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El templo de Istar",
+      "publisher": "Altaya",
+      "date": "2005-11",
+      "format": "hardcover",
+      "isbn13": 9788448717049,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/14675",
+      "cover": "/images/novels/time-of-the-twins/9788448717049.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El templo de Istar",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448001162,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/35438",
+      "cover": "/images/novels/time-of-the-twins/9788448001162.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El templo de Istar",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011058,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71840",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011057/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-leyendas-de-la-dragonlance-n-01-03-el-templo-de-istar/9788445011058/13022031"
+        }
+      ],
+      "cover": "/images/novels/time-of-the-twins/9788445011058.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El templo de Istar",
+      "publisher": "Minotauro",
+      "date": "2022-06-29",
+      "format": "ebook",
+      "isbn13": 9788445008737,
+      "source": "https://www.amazon.es/dp/B0B2YN6ZY7/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B2YN6ZY7/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "midnights-mask",
+  "title": "Midnight's Mask",
+  "authors": ["Paul S. Kemp"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-erevis-cale", "number": 3 },
+  "date": "2005-11",
+  "description": "Cada vez más atrapado al servicio de Mask, Cale podría perderse en las sombras para siempre.\n\nCierra la trilogía de Erevis Cale.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?171871",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-11",
+      "format": "mass_market",
+      "isbn13": 9780786936434,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?72997",
+      "cover": "/images/novels/midnights-mask/9780786936434.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-26",
+      "format": "ebook",
+      "isbn13": 9780786956852,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482365",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4CK2/" }]
+    }
+  ]
+}

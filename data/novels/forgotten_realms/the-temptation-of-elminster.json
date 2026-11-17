@@ -1,0 +1,77 @@
+{
+  "slug": "the-temptation-of-elminster",
+  "title": "The Temptation of Elminster",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-elminster", "number": 3 },
+  "date": "1998-12",
+  "description": "Con Myth Drannor en ruinas, Elminster sale de una tumba oscura para dirigir un enfrentamiento que decidirá el futuro de los Reinos y tomar la decisión más importante de su vida.\n\nTercera novela de la serie de Elminster.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26835",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-12",
+      "format": "hardcover",
+      "isbn13": 9780786911899,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?48403",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786911891/" }],
+      "cover": "/images/novels/the-temptation-of-elminster/9780786911899.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-11",
+      "format": "mass_market",
+      "isbn13": 9780786914272,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?48402",
+      "cover": "/images/novels/the-temptation-of-elminster/9780786914272.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-26",
+      "format": "ebook",
+      "isbn13": 9780786959716,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474035",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZN008/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tentación de Elminster",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448037215,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/235",
+      "cover": "/images/novels/the-temptation-of-elminster/9788448037215.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tentación de Elminster",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "mass_market",
+      "isbn13": 9788448037741,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/18915",
+      "cover": "/images/novels/the-temptation-of-elminster/9788448037741.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La tentación de Elminster",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723668,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38267",
+      "cover": "/images/novels/the-temptation-of-elminster/9788448723668.webp"
+    }
+  ]
+}

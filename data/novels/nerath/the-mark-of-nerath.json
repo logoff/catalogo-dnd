@@ -1,0 +1,32 @@
+{
+  "slug": "the-mark-of-nerath",
+  "title": "The Mark of Nerath",
+  "authors": ["Bill Slavicsek"],
+  "setting": "nerath",
+  "kind": "novel",
+  "date": "2010-08",
+  "description": "Una aventura en Nerath, el mundo de los Puntos de Luz de la cuarta edición.\n\nNovela de Bill Slavicsek.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1138993",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08-03",
+      "format": "mass_market",
+      "isbn13": 9780786956227,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?323638",
+      "cover": "/images/novels/the-mark-of-nerath/9780786956227.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "ebook",
+      "isbn13": 9780786957620,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478492",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0045EOIWS/" }]
+    }
+  ]
+}

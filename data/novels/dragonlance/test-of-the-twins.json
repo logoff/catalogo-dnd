@@ -1,0 +1,180 @@
+{
+  "slug": "test-of-the-twins",
+  "title": "Test of the Twins",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-legends",
+    "number": 3
+  },
+  "date": "1986-08",
+  "description": "Raistlin está a punto de cruzar el Portal para enfrentarse a Takhisis en su propio reino, y Caramon, que ya no es el hermano que lo seguía a todas partes, tendrá que decidir qué hacer para detenerlo. Mientras tanto, en el presente de Krynn, las consecuencias de lo que ocurra en el Abismo amenazan a todo el mundo.\n\nEs la novela que cierra las Leyendas de la Dragonlance y, con ellas, la historia de los gemelos Majere iniciada en las Crónicas. Junto a esas dos trilogías forma el núcleo clásico de Dragonlance que suele recomendarse leer antes que cualquier otra serie.",
+  "source": "https://www.penguinrandomhouse.com/books/isbn/9798217094592",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1986-08",
+      "format": "mass_market",
+      "isbn13": 9780880382670,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11168",
+      "cover": "/images/novels/test-of-the-twins/9780880382670.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1987",
+      "format": "mass_market",
+      "isbn13": 9780140101119,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?450960",
+      "cover": "/images/novels/test-of-the-twins/9780140101119.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-02",
+      "format": "mass_market",
+      "isbn13": 9780786902644,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11201",
+      "cover": "/images/novels/test-of-the-twins/9780786902644.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-02",
+      "format": "mass_market",
+      "isbn13": 9780786918065,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?34863",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786918063/"
+        }
+      ],
+      "cover": "/images/novels/test-of-the-twins/9780786918065.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-11",
+      "format": "hardcover",
+      "isbn13": 9780786933884,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67378",
+      "cover": "/images/novels/test-of-the-twins/9780786933884.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-24",
+      "format": "ebook",
+      "isbn13": 9780786954438,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472874",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004J4WKI8/"
+        }
+      ],
+      "cover": "/images/novels/test-of-the-twins/9780786954438.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El umbral del poder",
+      "publisher": "Timun Mas",
+      "date": "1988",
+      "format": "hardcover",
+      "isbn13": 9788477221876,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/18",
+      "cover": "/images/novels/test-of-the-twins/9788477221876.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El umbral del poder",
+      "publisher": "Timun Mas",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9788448030315,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3208",
+      "cover": "/images/novels/test-of-the-twins/9788448030315.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El umbral del poder",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "isbn13": 9788448033729,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12366",
+      "cover": "/images/novels/test-of-the-twins/9788448033729.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El umbral del poder",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448720872,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24235",
+      "cover": "/images/novels/test-of-the-twins/9788448720872.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El umbral del poder",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448000523,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/35439",
+      "cover": "/images/novels/test-of-the-twins/9788448000523.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El umbral del poder",
+      "publisher": "Minotauro",
+      "date": "2022-10-05",
+      "format": "paperback",
+      "isbn13": 9788445011171,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84019",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011170/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-leyendas-de-la-dragonlance-n-03-03-el-umbral-del-poder/9788445011171/13214268"
+        }
+      ],
+      "cover": "/images/novels/test-of-the-twins/9788445011171.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El umbral del poder",
+      "publisher": "Minotauro",
+      "date": "2022-10-05",
+      "format": "ebook",
+      "isbn13": 9788445014189,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84020",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BD9CDC8F/"
+        }
+      ],
+      "cover": "/images/novels/test-of-the-twins/9788445014189.webp"
+    }
+  ]
+}

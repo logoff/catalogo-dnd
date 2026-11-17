@@ -1,0 +1,24 @@
+{
+  "slug": "warriors-heart",
+  "title": "Warrior's Heart",
+  "authors": ["Stephen D. Sullivan"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-goodlund", "number": 1 },
+  "date": "2006-11",
+  "description": "Catriona Goodlund nació para ser guerrera. Tras años en el camino hacia la caballería, vuelve a su pueblo natal y lo encuentra destruido, y tendrá que elegir entre la venganza y la redención.\n\nEs la primera novela de The Goodlund Trilogy, que continúa la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?197392",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2006-11",
+      "format": "paperback",
+      "isbn13": 9780786941872,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89226",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786941871/" }],
+      "cover": "/images/novels/warriors-heart/9780786941872.webp"
+    }
+  ]
+}

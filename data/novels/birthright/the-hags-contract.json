@@ -1,0 +1,22 @@
+{
+  "slug": "the-hags-contract",
+  "title": "The Hag's Contract",
+  "authors": ["John Betancourt"],
+  "setting": "birthright",
+  "kind": "novel",
+  "date": "1996-06",
+  "description": "El legendario rey pirata Ulrich sella un pacto con la Bruja para librar su reino de las tribus de orogs y goblins, y obtiene más de lo que esperaba.\n\nNovela de Birthright de John Betancourt.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?9259",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-06",
+      "format": "mass_market",
+      "isbn13": 9780786904969,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4567",
+      "cover": "/images/novels/the-hags-contract/9780786904969.webp"
+    }
+  ]
+}

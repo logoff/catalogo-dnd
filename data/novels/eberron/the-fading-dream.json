@@ -1,0 +1,33 @@
+{
+  "slug": "the-fading-dream",
+  "title": "The Fading Dream",
+  "authors": ["Keith Baker"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-thorn-of-breland", "number": 3 },
+  "date": "2010-10",
+  "description": "Las aventuras de Thorn llegan a su desenlace.\n\nCierra la trilogía Thorn of Breland, de Keith Baker.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1155560",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "mass_market",
+      "isbn13": 9780786956241,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?327893",
+      "cover": "/images/novels/the-fading-dream/9780786956241.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-12",
+      "format": "ebook",
+      "isbn13": 9780786958078,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478497",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYOL6/" }]
+    }
+  ]
+}

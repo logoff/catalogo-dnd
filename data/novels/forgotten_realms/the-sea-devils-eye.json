@@ -1,0 +1,33 @@
+{
+  "slug": "the-sea-devils-eye",
+  "title": "The Sea Devil's Eye",
+  "authors": ["Mel Odom"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-threat-from-the-sea", "number": 3 },
+  "date": "2000-05",
+  "description": "Iakhovas ha causado más destrucción que nadie desde la Época de Tumultos, pero su verdadero objetivo seguía siendo un misterio, hasta ahora.\n\nCierra la trilogía de la Amenaza del Mar.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26484",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-05",
+      "format": "mass_market",
+      "isbn13": 9780786916382,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29318",
+      "cover": "/images/novels/the-sea-devils-eye/9780786916382.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-18",
+      "format": "ebook",
+      "isbn13": 9780786963973,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?511479",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C90X44/" }]
+    }
+  ]
+}

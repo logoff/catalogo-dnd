@@ -1,0 +1,65 @@
+{
+  "slug": "crusade",
+  "title": "Crusade",
+  "authors": ["James Lowder"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-empires", "number": 3 },
+  "date": "1991-01",
+  "description": "El rey Azoun de Cormyr reúne un ejército para enfrentarse a las hordas bárbaras que amenazan los reinos occidentales, aunque su ataque podría costarle la vida a su querida hija.\n\nCierra la trilogía del Imperio, de James Lowder.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?9934",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-01",
+      "format": "mass_market",
+      "isbn13": 9780880389082,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8350",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389087/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-06",
+      "format": "mass_market",
+      "isbn13": 9780140143775,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8351"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-25",
+      "format": "ebook",
+      "isbn13": 9780786963997,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467752",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFIL0/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cruzada",
+      "publisher": "Timun Mas",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9788448037079,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/212",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037073/" }],
+      "cover": "/images/novels/crusade/9788448037079.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Cruzada",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724757,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23265",
+      "cover": "/images/novels/crusade/9788448724757.webp"
+    }
+  ]
+}

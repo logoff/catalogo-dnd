@@ -1,0 +1,23 @@
+{
+  "slug": "the-left-hand-of-death",
+  "title": "The Left Hand of Death",
+  "authors": ["Parker Dewolf"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-lanternlight-files", "number": 1 },
+  "date": "2007-07",
+  "description": "Un pago que acaba en asesinato deja a un buscavidas de los bajos fondos de Sharn con una extraña reliquia que todos quieren, mientras una mujer misteriosa le encarga encontrar un artefacto capaz de poner el mundo de rodillas.\n\nPrimera novela de The Lanternlight Files, de Parker DeWolf.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?386461",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-07",
+      "format": "mass_market",
+      "isbn13": 9780786947133,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?146991",
+      "cover": "/images/novels/the-left-hand-of-death/9780786947133.webp"
+    }
+  ]
+}

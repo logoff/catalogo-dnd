@@ -1,0 +1,42 @@
+{
+  "slug": "the-nomad",
+  "title": "The Nomad",
+  "authors": ["Simon Hawke"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-tribe-of-one", "number": 3 },
+  "date": "1994-10",
+  "description": "Tras encontrar al Sabio, que le explica por qué está dividido en tantos seres, Sorak reúne a todos los miembros de su tribu interior y declara la guerra a los males de Athas.\n\nCierra la trilogía Tribe of One.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?5039",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-10",
+      "format": "mass_market",
+      "isbn13": 9781560767022,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8960"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "mass_market",
+      "isbn13": 9780099456117,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?44735"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El nómada",
+      "publisher": "Timun Mas",
+      "date": "1998",
+      "isbn13": 9788448038052,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/561",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038053/" }],
+      "cover": "/images/novels/the-nomad/9788448038052.webp"
+    }
+  ]
+}

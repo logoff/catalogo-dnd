@@ -1,0 +1,205 @@
+{
+  "slug": "dragons-of-spring-dawning",
+  "title": "Dragons of Spring Dawning",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-chronicles",
+    "number": 3
+  },
+  "date": "1985-09",
+  "description": "Con los ejércitos de los Señores de los Dragones avanzando y los Compañeros dispersos por todo Ansalon, cada uno tiene que enfrentarse a sus propias lealtades. La guerra se decide en torno a Neraka, el corazón del poder de Takhisis, la Reina de la Oscuridad, y a las decisiones de Tanis, Raistlin y Kitiara.\n\nEs la novela que cierra las Crónicas de la Dragonlance. Tras ella, la historia de los gemelos Majere continúa en las Leyendas de la Dragonlance, y la propia guerra se completa con la trilogía The Lost Chronicles, escrita por los mismos autores dos décadas después.",
+  "source": "https://www.penguinrandomhouse.com/books/777486/dragonlance-chronicles-by-margaret-weis-tracy-hickman/9780593977156/",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1985-09",
+      "format": "mass_market",
+      "isbn13": 9780880381758,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?287796",
+      "cover": "/images/novels/dragons-of-spring-dawning/9780880381758.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1986-10",
+      "format": "mass_market",
+      "isbn13": 9780140087208,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11260",
+      "cover": "/images/novels/dragons-of-spring-dawning/9780140087208.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9780786915897,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11261",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786915897/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-spring-dawning/9780786915897.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-11",
+      "format": "hardcover",
+      "isbn13": 9780786930708,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11249",
+      "cover": "/images/novels/dragons-of-spring-dawning/9780786930708.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-12-21",
+      "format": "ebook",
+      "isbn13": 9780786954391,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?477476",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004G5ZYLK/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-spring-dawning/9780786954391.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Timun Mas",
+      "date": "1987",
+      "format": "hardcover",
+      "isbn13": 9788477221043,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/287",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788477221043.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Círculo de Lectores",
+      "date": "1988",
+      "format": "hardcover",
+      "isbn13": 9788422623229,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/17901",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788422623229.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788477228905,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3143",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788477228905.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "format": "mass_market",
+      "isbn13": 9788448033385,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11949",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788448033385.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Planeta DeAgostini",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788467418699,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24358",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788467418699.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721367,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24270",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788448721367.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "ebook",
+      "isbn13": 9788448008109,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39026",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788448008109.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448038953,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/34693",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788448038953.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "ebook",
+      "isbn13": 9788445013687,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/80285",
+      "cover": "/images/novels/dragons-of-spring-dawning/9788445013687.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B2ZYXQK7/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina de la oscuridad",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011164,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71843",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011162/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cronicas-de-la-dragonlance-n-03-03-la-reina-de-la-oscuridad/9788445011164/12966279"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-spring-dawning/9788445011164.webp"
+    }
+  ],
+  "related_videogames": ["war-of-the-lance"]
+}

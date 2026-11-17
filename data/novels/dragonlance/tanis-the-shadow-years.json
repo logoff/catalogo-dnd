@@ -1,0 +1,88 @@
+{
+  "slug": "tanis-the-shadow-years",
+  "title": "Tanis, the Shadow Years",
+  "authors": ["Barbara Siegel", "Scott Siegel"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-preludes-ii", "number": 3 },
+  "date": "1990-11",
+  "description": "Durante los cinco años en que los Compañeros estuvieron separados, Tanis el Semielfo vivió su propia aventura lejos de Solace, en busca de respuestas sobre sus orígenes y sobre su lugar entre humanos y elfos.\n\nEs la tercera novela de Preludes II y cubre los años de Tanis que las Crónicas solo mencionan de pasada. En castellano se publicó como Tanis el semielfo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12701",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-11",
+      "format": "mass_market",
+      "isbn13": 9780880389136,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11172",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389133/" }],
+      "cover": "/images/novels/tanis-the-shadow-years/9780880389136.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-04",
+      "format": "mass_market",
+      "isbn13": 9780140143744,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11173",
+      "cover": "/images/novels/tanis-the-shadow-years/9780140143744.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-12",
+      "format": "mass_market",
+      "isbn13": 9780786930395,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?34491",
+      "cover": "/images/novels/tanis-the-shadow-years/9780786930395.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Tanis el semielfo",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "hardcover",
+      "isbn13": 9788477227199,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/297",
+      "cover": "/images/novels/tanis-the-shadow-years/9788477227199.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Tanis el semielfo",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448030513,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/5039",
+      "cover": "/images/novels/tanis-the-shadow-years/9788448030513.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Tanis el semielfo",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721787,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24271",
+      "cover": "/images/novels/tanis-the-shadow-years/9788448721787.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Tanis el semielfo",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005405,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36642",
+      "cover": "/images/novels/tanis-the-shadow-years/9788448005405.webp"
+    }
+  ]
+}

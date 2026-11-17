@@ -1,0 +1,34 @@
+{
+  "slug": "the-veiled-dragon",
+  "title": "The Veiled Dragon",
+  "authors": ["Troy Denning"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-harpers", "number": 9 },
+  "date": "1996-03",
+  "description": "Para salvar la vida de la Señora de Elversult, Ruha, bruja bedine y agente de los Arpistas, se infiltra en el palacio de un príncipe de Shou y descubre una conspiración que une a la casa real oriental con el Culto del Dragón.\n\nNovela de la serie de los Arpistas, de Troy Denning.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18889",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-03",
+      "format": "mass_market",
+      "isbn13": 9780786904822,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14362",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786904828/" }],
+      "cover": "/images/novels/the-veiled-dragon/9780786904822.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-10-25",
+      "format": "ebook",
+      "isbn13": 9780786961528,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475690",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005K98R3I/" }]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "the-spine-of-the-world",
+  "title": "The Spine of the World",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-paths-of-darkness",
+    "number": 2
+  },
+  "date": "1999-09",
+  "description": "Wulfgar ha abandonado a sus amigos y malvive en los bajos fondos de Luskan, entre peleas de taberna y alcohol. Una acusación injusta lo obliga a huir, y su camino hacia la redención lo lleva hasta las cumbres de la Columna del Mundo.\n\nSegunda novela de Sendas de tinieblas, centrada en Wulfgar.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26818",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-09",
+      "format": "hardcover",
+      "isbn13": 9780786914180,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?47678",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786914181/"
+        }
+      ],
+      "cover": "/images/novels/the-spine-of-the-world/9780786914180.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-06",
+      "format": "mass_market",
+      "isbn13": 9780786914043,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?47679",
+      "cover": "/images/novels/the-spine-of-the-world/9780786914043.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-11-27",
+      "format": "hardcover",
+      "isbn13": 9780786943418,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?220145",
+      "cover": "/images/novels/the-spine-of-the-world/9780786943418.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-04-07",
+      "format": "mass_market",
+      "isbn13": 9780786951079,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?274014",
+      "cover": "/images/novels/the-spine-of-the-world/9780786951079.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954728,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486745",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002E58OE8/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-08-19",
+      "format": "paperback",
+      "isbn13": 9798217092734,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1063685"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La columna del mundo",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448037239,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/625",
+      "cover": "/images/novels/the-spine-of-the-world/9788448037239.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La columna del mundo",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725006,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40973",
+      "cover": "/images/novels/the-spine-of-the-world/9788448725006.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La columna del mundo",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448038960,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37452",
+      "cover": "/images/novels/the-spine-of-the-world/9788448038960.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La columna del mundo",
+      "publisher": "Minotauro",
+      "date": "2023-05-03",
+      "format": "paperback",
+      "isbn13": 9788445011287,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101965",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011286/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-sendas-de-tinieblas-n-02-03-la-columna-del-mundo/9788445011287/13562349"
+        }
+      ],
+      "cover": "/images/novels/the-spine-of-the-world/9788445011287.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La columna del mundo",
+      "publisher": "Minotauro",
+      "date": "2023-05-03",
+      "format": "ebook",
+      "isbn13": 9788445015704,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101966",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BYK2QL7M/"
+        }
+      ],
+      "cover": "/images/novels/the-spine-of-the-world/9788445015704.webp"
+    }
+  ]
+}

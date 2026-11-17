@@ -1,0 +1,32 @@
+{
+  "slug": "the-black-talon",
+  "title": "The Black Talon",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-ogre-titans", "number": 1 },
+  "date": "2007-12",
+  "description": "Con un enemigo en el trono de los minotauros, el semiogro Golgren vuelve a su reino y consolida su poder por medios brutales, mientras una élite de hechiceros ogros, los Titanes, se convierte en su gran rival.\n\nEs la primera novela de The Ogre Titans, de Richard A. Knaak, continuación de The Minotaur Wars. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1108518",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-12",
+      "format": "mass_market",
+      "isbn13": 9780786942992,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?220165",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942991/" }],
+      "cover": "/images/novels/the-black-talon/9780786942992.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0034N7JO0/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034N7JO0/" }]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "son-of-khyber",
+  "title": "Son of Khyber",
+  "authors": ["Keith Baker"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-thorn-of-breland", "number": 2 },
+  "date": "2009-11",
+  "description": "Thorn continúa sus misiones al servicio de Breland.\n\nSegunda novela de la trilogía Thorn of Breland, de Keith Baker.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1155563",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-11",
+      "format": "mass_market",
+      "isbn13": 9780786952342,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?327895",
+      "cover": "/images/novels/son-of-khyber/9780786952342.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-14",
+      "format": "ebook",
+      "isbn13": 9780786956517,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483470",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034DGPJK/" }]
+    }
+  ]
+}

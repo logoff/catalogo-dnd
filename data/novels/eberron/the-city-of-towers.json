@@ -1,0 +1,44 @@
+{
+  "slug": "the-city-of-towers",
+  "title": "The City of Towers",
+  "authors": ["Keith Baker"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-dreaming-dark", "number": 1 },
+  "date": "2005-02",
+  "description": "Terminada la Última Guerra, un grupo de veteranos sin rumbo llega a Sharn, la Ciudad de las Torres, donde se ven envueltos en una conspiración que amenaza toda Khorvaire.\n\nPrimera novela de Eberron y de la trilogía The Dreaming Dark, escrita por Keith Baker, el creador del mundo, cuya propuesta se eligió entre más de 11 000.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?903239",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-02",
+      "format": "mass_market",
+      "isbn13": 9780786935840,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68589",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786935847/" }],
+      "cover": "/images/novels/the-city-of-towers/9780786935840.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La ciudad de las torres",
+      "publisher": "Timun Mas",
+      "date": "2008",
+      "format": "paperback",
+      "isbn13": 9788448036515,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/20144",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448036514/" }],
+      "cover": "/images/novels/the-city-of-towers/9788448036515.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0036S4B4Y/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4B4Y/" }]
+    }
+  ]
+}

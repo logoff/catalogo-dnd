@@ -1,0 +1,23 @@
+{
+  "slug": "the-great-white-wyrm",
+  "title": "The Great White Wyrm",
+  "authors": ["Peter Archer"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-champions", "number": 3 },
+  "date": "2007-03",
+  "description": "Un hombre se obsesiona con un dragón blanco poderoso y terrible y lo persigue sin que nada ni nadie lo detenga.\n\nEs una novela de la serie Champions, de historias independientes situadas tras La guerra de los espíritus. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?222781",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-03",
+      "format": "mass_market",
+      "isbn13": 9780786942602,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?98571",
+      "cover": "/images/novels/the-great-white-wyrm/9780786942602.webp"
+    }
+  ]
+}

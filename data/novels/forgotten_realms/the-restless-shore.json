@@ -1,0 +1,33 @@
+{
+  "slug": "the-restless-shore",
+  "title": "The Restless Shore",
+  "authors": ["James P. Davis"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-wilds", "number": 2 },
+  "date": "2009-05",
+  "description": "Un siglo después de que la plaga de conjuros secara el lago Akanamere, una joven genasi debe adentrarse en sus tierras de pesadilla para rescatar a su hermana de unos fanáticos.\n\nNovela de la serie The Wilds, de James P. Davis.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1022192",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-05",
+      "format": "mass_market",
+      "isbn13": 9780786951314,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?294683",
+      "cover": "/images/novels/the-restless-shore/9780786951314.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-20",
+      "format": "ebook",
+      "isbn13": 9780786955879,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483447",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00357PU3M/" }]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "star-of-cursrah",
+  "title": "Star of Cursrah",
+  "authors": ["Clayton Emery"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-lost-empires", "number": 3 },
+  "date": "1999-02",
+  "description": "Entre las ruinas de una ciudad muerta cuyos gobernantes se niegan a morir despierta el Protector, y dos grupos de jóvenes, en dos épocas distintas, descubren un destino terrible del que no pueden escapar.\n\nNovela de la serie Lost Empires, de Clayton Emery.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26540",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-02",
+      "format": "mass_market",
+      "isbn13": 9780786913220,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?32039",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786913223/" }],
+      "cover": "/images/novels/star-of-cursrah/9780786913220.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-10-09",
+      "format": "ebook",
+      "isbn13": 9780786964079,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468424",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C8ZR28/" }]
+    }
+  ]
+}

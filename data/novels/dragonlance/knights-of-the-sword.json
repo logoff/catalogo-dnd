@@ -1,0 +1,45 @@
+{
+  "slug": "knights-of-the-sword",
+  "title": "Knights of the Sword",
+  "authors": ["Roland Green"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-warriors", "number": 3 },
+  "date": "1995-12",
+  "description": "Sir Pirvan, el antiguo ladrón, avanza en los Caballeros de Solamnia hasta la Orden de la Espada, la del valor, mientras se convierte en mentor de otro gran caballero.\n\nEs la tercera novela de la serie Warriors y continúa Pirvan el ladrón. En castellano se tituló Pirvan el caballero.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?4396",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-12",
+      "format": "mass_market",
+      "isbn13": 9780786902026,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11194",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786902027/" }],
+      "cover": "/images/novels/knights-of-the-sword/9780786902026.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-06-12",
+      "format": "ebook",
+      "isbn13": 9780786963379,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465995",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RHD6BO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Pirvan el caballero",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448032388,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1757",
+      "cover": "/images/novels/knights-of-the-sword/9788448032388.webp"
+    }
+  ]
+}

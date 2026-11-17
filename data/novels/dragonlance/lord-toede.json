@@ -1,0 +1,34 @@
+{
+  "slug": "lord-toede",
+  "title": "Lord Toede",
+  "authors": ["Jeff Grubb"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-villains", "number": 5 },
+  "date": "1994-07",
+  "description": "Dos poderes oscuros devuelven la vida a Toede, el pomposo y cobarde Señor del Dragón de Flotsam, para comprobar si alguien innoble puede llegar a ser noble. Lo que sigue es una sucesión de muertes, resurrecciones y desastres.\n\nEs la quinta novela de Villains y la más humorística de la serie. En castellano se publicó como Lord Toede.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17933",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-07",
+      "format": "mass_market",
+      "isbn13": 9781560768708,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11195",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768703/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Lord Toede",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448039363,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/636",
+      "cover": "/images/novels/lord-toede/9788448039363.webp"
+    }
+  ]
+}

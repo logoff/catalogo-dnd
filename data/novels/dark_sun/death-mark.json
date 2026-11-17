@@ -1,0 +1,33 @@
+{
+  "slug": "death-mark",
+  "title": "Death Mark",
+  "authors": ["Robert J. Schwalb"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "date": "2011-12",
+  "description": "Muerto el rey Kalak de Tyr, todos miran a las valiosas minas de hierro de la ciudad, y Hamanu de Urik reúne sus ejércitos para aplastar la rebelión.\n\nNovela de Dark Sun de Robert J. Schwalb.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1327019",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-06",
+      "format": "paperback",
+      "isbn13": 9780786958405,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?361604",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786958405/" }],
+      "cover": "/images/novels/death-mark/9780786958405.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-06",
+      "format": "ebook",
+      "isbn13": 9780786959402,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476864",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKU1A/" }]
+    }
+  ]
+}

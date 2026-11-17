@@ -1,0 +1,64 @@
+{
+  "slug": "shadowdale",
+  "title": "Shadowdale",
+  "authors": ["Richard Awlinson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-avatar", "number": 1 },
+  "date": "1989-04",
+  "description": "Los dioses han sido expulsados de los cielos y vagan por Faerûn con forma mortal. Cuatro compañeros, últimos supervivientes de la Compañía del Lince, se hacen con un misterioso amuleto y deben huir de Bane, el dios del asesinato, mientras la magia enloquece por todo el mundo.\n\nPrimera novela de la serie de los Avatares, que narra la Época de Tumultos que cambió los Reinos Olvidados.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?16292",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-04",
+      "format": "mass_market",
+      "isbn13": 9780880387309,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14317",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880387300/" }],
+      "cover": "/images/novels/shadowdale/9780880387309.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989",
+      "format": "mass_market",
+      "isbn13": 9780140126280,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14319"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las tablas del destino",
+      "publisher": "Timun Mas",
+      "date": "1991",
+      "format": "mass_market",
+      "isbn13": 9788477227212,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/210",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477227217/" }],
+      "cover": "/images/novels/shadowdale/9788477227212.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las tablas del destino",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726157,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36929",
+      "cover": "/images/novels/shadowdale/9788448726157.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B005UFN5M0/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN5M0/" }]
+    }
+  ]
+}

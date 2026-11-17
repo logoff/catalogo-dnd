@@ -1,0 +1,34 @@
+{
+  "slug": "the-thieves-guild",
+  "title": "The Thieves' Guild",
+  "authors": ["Jeff Crook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-crossroads", "number": 2 },
+  "date": "2000-12",
+  "description": "En Palanthas, gobernada por los Caballeros de Neraka, el Gremio de los Ladrones que estos aplastaron vuelve a organizarse para recuperar su poder y su riqueza.\n\nEs una novela independiente de la serie Crossroads. Se publicó en castellano como El gremio de los ladrones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26838",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-12",
+      "format": "mass_market",
+      "isbn13": 9780786916818,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?48467",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786916818/" }],
+      "cover": "/images/novels/the-thieves-guild/9780786916818.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El gremio de los ladrones",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "isbn13": 9788448032715,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/10089",
+      "cover": "/images/novels/the-thieves-guild/9788448032715.webp"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "key-of-stars",
+  "title": "Key of Stars",
+  "authors": ["Bruce R. Cordell"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-abolethic-sovereignty", "number": 3 },
+  "date": "2010-09",
+  "description": "Con la mente destrozada, Raidon Kane tiene una última oportunidad de frustrar los planes de la Soberanía Abolética si encuentra la Llave de las Estrellas.\n\nCierra la trilogía de la Soberanía Abolética.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1143014",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-09-07",
+      "format": "mass_market",
+      "isbn13": 9780786956289,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?324918",
+      "cover": "/images/novels/key-of-stars/9780786956289.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10-05",
+      "format": "ebook",
+      "isbn13": 9780786957644,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478521",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0045EOIW8/" }]
+    }
+  ]
+}

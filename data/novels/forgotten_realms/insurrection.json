@@ -1,0 +1,106 @@
+{
+  "slug": "insurrection",
+  "title": "Insurrection",
+  "authors": ["Thomas M. Reid"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-war-of-the-spider-queen",
+    "number": 2
+  },
+  "date": "2002-12",
+  "description": "Quenthel Baenre, la sacerdotisa más poderosa de Lolth en Menzoberranzan, encabeza una expedición a la ciudad de Ched Nasad para averiguar el alcance del silencio de la Reina Araña.\n\nSegunda novela de La guerra de la Reina Araña, de Thomas M. Reid.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24347",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-12",
+      "format": "hardcover",
+      "isbn13": 9780786927869,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?18323",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786927860/"
+        }
+      ],
+      "cover": "/images/novels/insurrection/9780786927869.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-12",
+      "format": "mass_market",
+      "isbn13": 9780786930333,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?18321",
+      "cover": "/images/novels/insurrection/9780786930333.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-25",
+      "format": "ebook",
+      "isbn13": 9780786956821,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482361",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0036S4EFU/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Insurrección",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "hardcover",
+      "isbn13": 9788448037529,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/10587",
+      "cover": "/images/novels/insurrection/9788448037529.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Insurrección",
+      "publisher": "Minotauro",
+      "date": "2026-09-16",
+      "format": "paperback",
+      "isbn13": 9788445010907,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/81971",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010905/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-guerra-de-la-reina-arana-n-02-06-insurreccion/9788445010907/18275397"
+        }
+      ],
+      "cover": "/images/novels/insurrection/9788445010907.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Insurrección",
+      "publisher": "Minotauro",
+      "date": "2026-09-16",
+      "format": "ebook",
+      "isbn13": 9788445022825,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/81972",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0H5QKMQK8/"
+        }
+      ],
+      "cover": "/images/novels/insurrection/9788445022825.webp"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "hand-of-fire",
+  "title": "Hand of Fire",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-shandril", "number": 3 },
+  "date": "2002-09",
+  "description": "Shandril Shessair recorre Faerûn buscando un lugar donde esconderse, perseguida por más magos, guerreros y sacerdotes malvados de los que puede contar, todos decididos a apoderarse de su fuego mágico.\n\nCierra la saga de Shandril, escrita por Ed Greenwood más de una década después de las dos primeras novelas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24424",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-09",
+      "format": "paperback",
+      "isbn13": 9780786927609,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?16321",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786927607/" }],
+      "cover": "/images/novels/hand-of-fire/9780786927609.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-04",
+      "format": "mass_market",
+      "isbn13": 9780786936465,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68801",
+      "cover": "/images/novels/hand-of-fire/9780786936465.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-15",
+      "format": "ebook",
+      "isbn13": 9780786961689,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476317",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PREIDI/" }]
+    }
+  ]
+}

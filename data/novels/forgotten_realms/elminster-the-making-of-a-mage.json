@@ -1,0 +1,73 @@
+{
+  "slug": "elminster-the-making-of-a-mage",
+  "title": "Elminster: The Making of a Mage",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-elminster", "number": 1 },
+  "date": "1994-12",
+  "description": "Los primeros años de Elminster, el gran mago de los Reinos: un muchacho que tuvo que superar la desgracia y sus propias carencias para convertirse en el hechicero más poderoso de Faerûn.\n\nPrimera novela de la serie de Elminster, de Ed Greenwood.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?6288",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-12",
+      "format": "hardcover",
+      "isbn13": 9781560769361,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43664",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/156076936X/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-02-16",
+      "format": "paperback",
+      "isbn13": 9780099456513,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?290536"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-12",
+      "format": "mass_market",
+      "isbn13": 9780786902033,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43663",
+      "cover": "/images/novels/elminster-the-making-of-a-mage/9780786902033.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Elminster. La forja de un mago",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448037178,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/233",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037170/" }],
+      "cover": "/images/novels/elminster-the-making-of-a-mage/9788448037178.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Elminster. La forja de un mago",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722494,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24084",
+      "cover": "/images/novels/elminster-the-making-of-a-mage/9788448722494.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00513DGXY/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00513DGXY/" }]
+    }
+  ]
+}

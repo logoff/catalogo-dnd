@@ -1,0 +1,31 @@
+{
+  "slug": "voyage-of-the-mourning-dawn",
+  "title": "Voyage of the Mourning Dawn",
+  "authors": ["Rich Wulf"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-heirs-of-ash", "number": 1 },
+  "date": "2006-06",
+  "description": "Una joven ladrona callejera se embarca en el aeronave Mourning Dawn en busca de una superarma perdida en los últimos días de la Última Guerra.\n\nPrimera novela de la trilogía Heirs of Ash, de Rich Wulf.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1134455",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-06",
+      "format": "mass_market",
+      "isbn13": 9780786940066,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83258",
+      "cover": "/images/novels/voyage-of-the-mourning-dawn/9780786940066.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00C4B24DO/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00C4B24DO/" }]
+    }
+  ]
+}

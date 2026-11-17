@@ -1,0 +1,118 @@
+{
+  "slug": "dragons-of-the-hourglass-mage",
+  "title": "Dragons of the Hourglass Mage",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-lost-chronicles",
+    "number": 3
+  },
+  "date": "2009-08",
+  "description": "Separado de sus compañeros, Raistlin Majere viaja por su cuenta durante la Guerra de la Lanza y acaba en el corazón del poder de la Reina de la Oscuridad, donde tendrá que elegir entre la ambición que lo consume y los pocos lazos que le quedan. Por el camino se cruza con aliados y enemigos que marcarán su futuro.\n\nEs la novela que cierra Las crónicas perdidas y está dedicada por entero a Raistlin, el personaje más popular de Dragonlance. Cubre lo que hace el mago entre La tumba de Huma y La reina de la oscuridad.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1016981",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-08-04",
+      "format": "hardcover",
+      "isbn13": 9780786949168,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?292817",
+      "cover": "/images/novels/dragons-of-the-hourglass-mage/9780786949168.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-08-04",
+      "format": "ebook",
+      "isbn13": 9780786954469,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486367",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0013TX8BA/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-hourglass-mage/9780786954469.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-05-04",
+      "format": "mass_market",
+      "isbn13": 9780786954834,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?315645",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786954833/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-hourglass-mage/9780786954834.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La torre de Wayreth",
+      "publisher": "Timun Mas",
+      "date": "2010",
+      "format": "hardcover",
+      "isbn13": 9788448036911,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/29610",
+      "cover": "/images/novels/dragons-of-the-hourglass-mage/9788448036911.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La torre de Wayreth",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006914,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38450",
+      "cover": "/images/novels/dragons-of-the-hourglass-mage/9788448006914.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La torre de Wayreth",
+      "publisher": "Minotauro",
+      "date": "2023-05-03",
+      "format": "paperback",
+      "isbn13": 9788445011454,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/74335",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011456/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cronicas-perdidas-n-03-03-la-torre-de-wayreth/9788445011454/13562350"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-hourglass-mage/9788445011454.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La torre de Wayreth",
+      "publisher": "Minotauro",
+      "date": "2023-05-03",
+      "format": "ebook",
+      "isbn13": 9788445015711,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/80308",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BZQ349B3/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-the-hourglass-mage/9788445015711.webp"
+    }
+  ]
+}

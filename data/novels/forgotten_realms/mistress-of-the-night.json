@@ -1,0 +1,33 @@
+{
+  "slug": "mistress-of-the-night",
+  "title": "Mistress of the Night",
+  "authors": ["Dave Gross", "Don Bassingthwaite"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-priests", "number": 2 },
+  "date": "2004-12",
+  "description": "Novela de la serie The Priests, aventuras independientes de clérigos, cada una dedicada a un dios distinto.\n\nSegunda entrega de la serie, de Dave Gross.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?156719",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-12",
+      "format": "mass_market",
+      "isbn13": 9780786933464,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67392",
+      "cover": "/images/novels/mistress-of-the-night/9780786933464.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-11-20",
+      "format": "ebook",
+      "isbn13": 9780786964246,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469535",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEI52/" }]
+    }
+  ]
+}

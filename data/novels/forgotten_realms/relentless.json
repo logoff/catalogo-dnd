@@ -1,0 +1,105 @@
+{
+  "slug": "relentless",
+  "title": "Relentless",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-generations",
+    "number": 3
+  },
+  "date": "2020-07",
+  "description": "Zaknafein y Jarlaxle quedan atrapados en una situación desesperada en Gauntlgrym, rodeados de demonios y drows. Drizzt, Catti-brie y sus amigos deberán darlo todo para salvarlos.\n\nCierra la trilogía Generaciones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2747031",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2020-07-28",
+      "format": "hardcover",
+      "isbn13": 9780062688675,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?782596",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0062688677/"
+        }
+      ],
+      "cover": "/images/novels/relentless/9780062688675.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2020-07-28",
+      "format": "paperback",
+      "isbn13": 9780063055506,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?782600",
+      "cover": "/images/novels/relentless/9780063055506.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2020-07-28",
+      "format": "ebook",
+      "isbn13": 9780062688668,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?790100",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07ZNZMJZD/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2021-07-06",
+      "format": "paperback",
+      "isbn13": 9780063085879,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?840065",
+      "cover": "/images/novels/relentless/9780063085879.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Implacable",
+      "publisher": "Minotauro",
+      "date": "2026-06",
+      "format": "ebook",
+      "isbn13": 9788445022689,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/81645",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GXJQTWWG/"
+        }
+      ],
+      "cover": "/images/novels/relentless/9788445022689.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Implacable",
+      "publisher": "Minotauro",
+      "date": "2026-06-25",
+      "format": "paperback",
+      "isbn13": 9788445017364,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/80910",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445017365/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-generaciones-n-03-03-implacable/9788445017364/18067502"
+        }
+      ],
+      "cover": "/images/novels/relentless/9788445017364.webp"
+    }
+  ]
+}

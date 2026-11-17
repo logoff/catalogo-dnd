@@ -1,0 +1,31 @@
+{
+  "slug": "rise-of-the-seventh-moon",
+  "title": "Rise of the Seventh Moon",
+  "authors": ["Rich Wulf"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-heirs-of-ash", "number": 3 },
+  "date": "2007-10",
+  "description": "Encontrado el Legado de Ashrem, sus herederos luchan por controlarlo mientras los grandes dragones de Argonnessen entran en la contienda.\n\nCierra la trilogía Heirs of Ash.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1146152",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-11",
+      "format": "mass_market",
+      "isbn13": 9780786943425,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?284491",
+      "cover": "/images/novels/rise-of-the-seventh-moon/9780786943425.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B00BE24VY4/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24VY4/" }]
+    }
+  ]
+}

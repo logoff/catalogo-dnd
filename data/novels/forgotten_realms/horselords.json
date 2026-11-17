@@ -1,0 +1,65 @@
+{
+  "slug": "horselords",
+  "title": "Horselords",
+  "authors": ["David Cook"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-empires", "number": 1 },
+  "date": "1990-04",
+  "description": "Durante siglos, los pueblos civilizados de oriente y occidente han despreciado a los nómadas de las tierras centrales como bárbaros, pero ahora estos se alzan con fuerza suficiente para desafiar al mundo.\n\nPrimera novela de la trilogía del Imperio, de David Cook.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19276",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-04",
+      "format": "mass_market",
+      "isbn13": 9780880389044,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?319196",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389044/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1990-11",
+      "format": "mass_market",
+      "isbn13": 9780140143676,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14300"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-25",
+      "format": "ebook",
+      "isbn13": 9780786964017,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467756",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADC25U/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los señores de la estepa",
+      "publisher": "Timun Mas",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9788448037055,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/213",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037057/" }],
+      "cover": "/images/novels/horselords/9788448037055.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los señores de la estepa",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724467,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23263",
+      "cover": "/images/novels/horselords/9788448724467.webp"
+    }
+  ]
+}

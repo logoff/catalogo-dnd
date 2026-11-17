@@ -1,0 +1,24 @@
+{
+  "slug": "city-of-hawks",
+  "title": "City of Hawks",
+  "authors": ["Gary Gygax"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-gord-the-rogue", "number": 4 },
+  "date": "1987-11",
+  "description": "Nueva aventura de Gord el Pícaro.\n\nNovela de Gary Gygax publicada por New Infinities.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17904",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "New Infinities Productions",
+      "date": "1987-11",
+      "format": "mass_market",
+      "isbn13": 9780441106363,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7199",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0441106366/" }],
+      "cover": "/images/novels/city-of-hawks/9780441106363.webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "skein-of-shadows",
+  "title": "Skein of Shadows",
+  "authors": ["Marsheila Rockwell"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-shard-axe", "number": 2 },
+  "date": "2012-07",
+  "description": "Continuación de The Shard Axe, publicada solo en formato digital.\n\nNovela de Marsheila Rockwell.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1684141",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-03",
+      "format": "ebook",
+      "isbn13": 9780786961399,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466513",
+      "cover": "/images/novels/skein-of-shadows/9780786961399.webp"
+    }
+  ]
+}

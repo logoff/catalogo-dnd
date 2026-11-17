@@ -1,0 +1,112 @@
+{
+  "slug": "the-road-to-neverwinter",
+  "title": "The Road to Neverwinter",
+  "authors": ["Jaleigh Johnson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-honor-among-thieves",
+    "number": 3
+  },
+  "date": "2023-02",
+  "description": "La vida del bardo Edgin es un desastre, hasta que un encuentro con la bárbara Holga le obliga a replantearse sus decisiones. Precuela de la película Honor entre ladrones que cuenta cómo se formó el grupo.\n\nNovela de Jaleigh Johnson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3146984",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2023-02-28",
+      "format": "hardcover",
+      "isbn13": 9780593598139,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?936296",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/059359813X/"
+        }
+      ],
+      "cover": "/images/novels/the-road-to-neverwinter/9780593598139.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2023-02-28",
+      "format": "ebook",
+      "isbn13": 9780593598146,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?936299"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Del Rey (UK)",
+      "date": "2023-02-28",
+      "format": "hardcover",
+      "isbn13": 9781529911374,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1003278",
+      "cover": "/images/novels/the-road-to-neverwinter/9781529911374.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2023-02-28",
+      "format": "ebook",
+      "isbn13": 9781804945742,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1003285"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2023-11-07",
+      "format": "paperback",
+      "isbn13": 9780593598153,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?982707",
+      "cover": "/images/novels/the-road-to-neverwinter/9780593598153.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "2024-02-01",
+      "format": "paperback",
+      "isbn13": 9781804945759,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1003279",
+      "cover": "/images/novels/the-road-to-neverwinter/9781804945759.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El camino a Neverwinter",
+      "publisher": "Minotauro",
+      "date": "2023-03-08",
+      "format": "ebook",
+      "isbn13": 9788445015520,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83981",
+      "cover": "/images/novels/the-road-to-neverwinter/9788445015520.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El camino a Neverwinter",
+      "publisher": "Minotauro",
+      "date": "2023-03",
+      "format": "paperback",
+      "isbn13": 9788445014936,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/73822",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014935/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeons-amp-dragons-honor-entre-ladrones-el-camino-a-neverwinter/9788445014936/13477641"
+        }
+      ],
+      "cover": "/images/novels/the-road-to-neverwinter/9788445014936.webp"
+    }
+  ]
+}

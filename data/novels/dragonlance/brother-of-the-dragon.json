@@ -1,0 +1,44 @@
+{
+  "slug": "brother-of-the-dragon",
+  "title": "Brother of the Dragon",
+  "authors": ["Tonya C. Cook", "Paul B. Thompson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-barbarians", "number": 2 },
+  "date": "2001-08",
+  "description": "Doce años después, el poblado de Yala-tene se ha convertido en una ciudad próspera, hasta que un sacerdote ambicioso del culto del dragón y una horda de guerreros bárbaros amenazan su paz.\n\nEs la segunda novela de The Barbarians. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24848",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-08",
+      "format": "mass_market",
+      "isbn13": 9780786918737,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?5579",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078691873X/" }],
+      "cover": "/images/novels/brother-of-the-dragon/9780786918737.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-08-01",
+      "format": "paperback",
+      "isbn13": 9780786926282,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?5578",
+      "cover": "/images/novels/brother-of-the-dragon/9780786926282.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-10",
+      "format": "ebook",
+      "isbn13": 9780786963447,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466515",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG3WIW/" }]
+    }
+  ]
+}

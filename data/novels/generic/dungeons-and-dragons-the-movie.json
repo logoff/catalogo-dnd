@@ -1,0 +1,23 @@
+{
+  "slug": "dungeons-and-dragons-the-movie",
+  "title": "Dungeons & Dragons: The Movie",
+  "authors": ["Neal Barrett Jr."],
+  "setting": "generic",
+  "kind": "novel",
+  "date": "2000-11",
+  "description": "El imperio de Izmer está en crisis, y su joven emperatriz se une a dos ladrones, una exploradora elfa, una aprendiz de hechicera y un enano para salvar el trono de un mago ambicioso.\n\nNovelización de la película Dungeons & Dragons (2000).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?726521",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-11",
+      "format": "mass_market",
+      "isbn13": 9780786914395,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?226873",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786914394/" }],
+      "cover": "/images/novels/dungeons-and-dragons-the-movie/9780786914395.webp"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "dalamar-the-dark",
+  "title": "Dalamar the Dark",
+  "authors": ["Nancy Varian Berberick"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "date": "2000-01",
+  "description": "Dalamar Argénteo lleva la magia en la sangre, pero es solo un criado en la casa de un noble elfo de Silvanesti y se le niega el Supremo Arte. Mientras la guerra amenaza las fronteras, buscará su propio camino para aprender, aunque lo lleve por senderos oscuros.\n\nEs la historia del joven elfo oscuro que se convierte en aprendiz de Raistlin en las Leyendas de la Dragonlance. Se publicó en castellano como Dalamar el Oscuro.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?27963",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-01",
+      "format": "mass_market",
+      "isbn13": 9780786915651,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8604",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078691565X/" }],
+      "cover": "/images/novels/dalamar-the-dark/9780786915651.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dalamar el Oscuro",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448039486,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1809",
+      "cover": "/images/novels/dalamar-the-dark/9788448039486.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dalamar el Oscuro",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448722852,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24442",
+      "cover": "/images/novels/dalamar-the-dark/9788448722852.webp"
+    }
+  ]
+}

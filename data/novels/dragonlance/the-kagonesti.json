@@ -1,0 +1,34 @@
+{
+  "slug": "the-kagonesti",
+  "title": "The Kagonesti",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-lost-histories", "number": 1 },
+  "date": "1995-01",
+  "description": "En la Era de la Luz, mientras los elfos de Silvanos levantan sus ciudades de cristal, el elfo salvaje Kaganos sabe que su tribu nunca dejará los bosques. A lo largo de los siglos, los kagonestis se enfrentan a los humanos y a los servidores de la Reina de la Oscuridad para no desaparecer.\n\nEs la primera novela de The Lost Histories, la serie sobre el origen de pueblos poco conocidos de Krynn. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12961",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-01",
+      "format": "mass_market",
+      "isbn13": 9780786900916,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11210",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786900911/" }],
+      "cover": "/images/novels/the-kagonesti/9780786900916.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-06",
+      "format": "ebook",
+      "isbn13": 9780786961955,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038465",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN5OI/" }]
+    }
+  ]
+}

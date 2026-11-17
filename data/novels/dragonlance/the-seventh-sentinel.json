@@ -1,0 +1,44 @@
+{
+  "slug": "the-seventh-sentinel",
+  "title": "The Seventh Sentinel",
+  "authors": ["Mary Kirchoff"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-defenders-of-magic", "number": 3 },
+  "date": "1995-08",
+  "description": "Guerrand y Bram DiThon se enfrentan a Lyim, el antiguo amigo de Guerrand convertido en mago renegado, que quiere destruir la magia porque cree que lo ha traicionado. La clave está en la herencia de un joven señor ligado a un pueblo feérico.\n\nEs la novela que cierra Defenders of Magic. Se publicó en castellano como El séptimo centinela.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17087",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-08",
+      "format": "mass_market",
+      "isbn13": 9780786901173,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11213",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901179/" }],
+      "cover": "/images/novels/the-seventh-sentinel/9780786901173.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-17",
+      "format": "ebook",
+      "isbn13": 9780786963515,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466522",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RHDDH6/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El séptimo centinela",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "isbn13": 9788448034450,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23326",
+      "cover": "/images/novels/the-seventh-sentinel/9788448034450.webp"
+    }
+  ]
+}

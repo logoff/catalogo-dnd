@@ -1,0 +1,115 @@
+{
+  "slug": "neverwinter",
+  "title": "Neverwinter",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-neverwinter",
+    "number": 2
+  },
+  "date": "2011-10",
+  "description": "Solo por primera vez en un siglo, Drizzt viaja con Dahlia, una elfa de oscuros secretos, que quiere vengarse de los responsables de la destrucción de Neverwinter. Sus métodos lo obligan a replantearse la frontera entre el bien y el mal.\n\nSegunda novela de la saga Neverwinter.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1323092",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-10-04",
+      "format": "hardcover",
+      "isbn13": 9780786958429,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?360394",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786958421/"
+        }
+      ],
+      "cover": "/images/novels/neverwinter/9780786958429.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-10-04",
+      "format": "ebook",
+      "isbn13": 9780786959396,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475684",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004Y1Q762/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-03",
+      "format": "mass_market",
+      "isbn13": 9780786960279,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?387770",
+      "cover": "/images/novels/neverwinter/9780786960279.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-11-10",
+      "format": "paperback",
+      "isbn13": 9798217298839,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1130846"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Neverwinter",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "hardcover",
+      "isbn13": 9788448005139,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36021",
+      "cover": "/images/novels/neverwinter/9788448005139.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Neverwinter",
+      "publisher": "Timun Mas",
+      "date": "2013",
+      "format": "ebook",
+      "isbn13": 9788448015855,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/47529",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00FL4ER4K/"
+        }
+      ],
+      "cover": "/images/novels/neverwinter/9788448015855.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Neverwinter",
+      "publisher": "Minotauro",
+      "date": "2025-06-04",
+      "format": "paperback",
+      "isbn13": 9788445011010,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101962",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011014/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-neverwinter-n-02-04-neverwinter/9788445011010/16834245"
+        }
+      ],
+      "cover": "/images/novels/neverwinter/9788445011010.webp"
+    }
+  ]
+}

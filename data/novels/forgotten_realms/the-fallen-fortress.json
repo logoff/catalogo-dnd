@@ -1,0 +1,77 @@
+{
+  "slug": "the-fallen-fortress",
+  "title": "The Fallen Fortress",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-cleric-quintet", "number": 4 },
+  "date": "1993-06",
+  "description": "Para evitar una guerra entre Carradoon, el bosque de Shilmista y los demonios del castillo Trinity, Cadderly libra con su magia una batalla más pequeña.\n\nCuarta novela del Quinteto del Clérigo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12809",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-06",
+      "format": "paperback",
+      "isbn13": 9781560764199,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14348",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560764198/" }],
+      "cover": "/images/novels/the-fallen-fortress/9781560764199.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-06",
+      "format": "mass_market",
+      "isbn13": 9780786916078,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?39551",
+      "cover": "/images/novels/the-fallen-fortress/9780786916078.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-08",
+      "format": "mass_market",
+      "isbn13": 9780786953288,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?292809",
+      "cover": "/images/novels/the-fallen-fortress/9780786953288.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-09-22",
+      "format": "ebook",
+      "isbn13": 9780786954353,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?485473",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B002PYFVRQ/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La fortaleza perdida",
+      "publisher": "Timun Mas",
+      "date": "2003",
+      "format": "mass_market",
+      "isbn13": 9788448037444,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/8678",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037448/" }],
+      "cover": "/images/novels/the-fallen-fortress/9788448037444.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La fortaleza perdida",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724733,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37055",
+      "cover": "/images/novels/the-fallen-fortress/9788448724733.webp"
+    }
+  ]
+}

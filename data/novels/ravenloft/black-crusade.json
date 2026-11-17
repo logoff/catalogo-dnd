@@ -1,0 +1,20 @@
+{
+  "slug": "black-crusade",
+  "title": "Black Crusade",
+  "authors": ["Ari Marmell"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "description": "Mientras Jerusalén cae ante la Primera Cruzada, un caballero francés encuentra un grimorio que empuja a sus víctimas a la herejía. El libro arde, pero es arrastrado a Ravenloft, y el caballero lo sigue, eligiendo la venganza antes que la cordura.\n\nNovela de Ari Marmell pensada como primera de la línea Ravenloft: Dominion. Al cancelarse la línea, se publicó gratis por entregas en la web de Wizards of the Coast.",
+  "source": "https://mouseferatu.com/?p=1079",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009",
+      "format": "web",
+      "url": "https://mouseferatu.com/?p=1079",
+      "source": "https://mouseferatu.com/?p=1079"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "cloak-of-shadows",
+  "title": "Cloak of Shadows",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-shadow-of-the-avatar", "number": 2 },
+  "date": "1995-06",
+  "description": "Mientras los dioses guerrean durante la Época de Tumultos, los Señores de las Sombras aprovechan para extender su poder con un manto mágico que los hace invisibles a la magia de sus rivales.\n\nSegunda novela de la trilogía de la Sombra de los Avatares.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?27804",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-06",
+      "format": "mass_market",
+      "isbn13": 9780786903016,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?7345",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786903015/" }],
+      "cover": "/images/novels/cloak-of-shadows/9780786903016.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-08",
+      "format": "ebook",
+      "isbn13": 9780786961672,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476316",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R820SA/" }]
+    }
+  ]
+}

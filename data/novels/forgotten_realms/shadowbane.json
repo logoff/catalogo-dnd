@@ -1,0 +1,33 @@
+{
+  "slug": "shadowbane",
+  "title": "Shadowbane",
+  "authors": ["Erik Scott de Bie"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-abyssal-plague", "number": 2 },
+  "date": "2011-09",
+  "description": "Luskan está peor que nunca: un barco llega a la costa cargado de cadáveres y la gente enloquece. Aguas Profundas ha puesto la ciudad en cuarentena, pero Myrin se ha colado dentro.\n\nNovela de la serie The Abyssal Plague, de Erik Scott de Bie, continuación de Downshadow.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1315182",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-06",
+      "format": "mass_market",
+      "isbn13": 9780786958559,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?358686",
+      "cover": "/images/novels/shadowbane/9780786958559.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09-27",
+      "format": "ebook",
+      "isbn13": 9780786959358,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?529966",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKRLS/" }]
+    }
+  ]
+}

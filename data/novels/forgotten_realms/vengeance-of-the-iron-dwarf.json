@@ -1,0 +1,117 @@
+{
+  "slug": "vengeance-of-the-iron-dwarf",
+  "title": "Vengeance of the Iron Dwarf",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-companions-codex",
+    "number": 3
+  },
+  "date": "2015-03",
+  "description": "La guerra en las Marcas Argénteas llega a su punto culminante: orcos, gigantes de escarcha y drows cercan las ciudadelas enanas, y Bruenor busca su venganza.\n\nCierra El códice de los Compañeros.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1817582",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-03-03",
+      "format": "hardcover",
+      "isbn13": 9780786965700,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?500203",
+      "cover": "/images/novels/vengeance-of-the-iron-dwarf/9780786965700.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-03-03",
+      "format": "ebook",
+      "isbn13": 9780786965823,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?509866",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00QDYVA1U/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2015-08-04",
+      "format": "mass_market",
+      "isbn13": 9780786965724,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?521199",
+      "cover": "/images/novels/vengeance-of-the-iron-dwarf/9780786965724.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La venganza del enano de hierro",
+      "publisher": "Timun Mas",
+      "date": "2018-01-09",
+      "format": "paperback",
+      "isbn13": 9788445005002,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/62173",
+      "cover": "/images/novels/vengeance-of-the-iron-dwarf/9788445005002.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-venganza-del-enano-de-hierro-dungeons-amp-dragons/9788445005002/6037317"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La venganza del enano de hierro",
+      "publisher": "Timun Mas",
+      "date": "2018-01-09",
+      "format": "ebook",
+      "isbn13": 9788445005156,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/62174",
+      "cover": "/images/novels/vengeance-of-the-iron-dwarf/9788445005156.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La venganza del enano de hierro",
+      "publisher": "Minotauro",
+      "date": "2026-04-01",
+      "format": "paperback",
+      "isbn13": 9788445010969,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83985",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010964/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-codice-de-los-companeros-n-03-03-la-venganza-del-enano-de-hie-rro/9788445010969/17936919"
+        }
+      ],
+      "cover": "/images/novels/vengeance-of-the-iron-dwarf/9788445010969.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La venganza del enano de hierro",
+      "publisher": "Minotauro",
+      "date": "2026-04-01",
+      "format": "ebook",
+      "isbn13": 9788445022627,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83986",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0HDLJR93N/"
+        }
+      ],
+      "cover": "/images/novels/vengeance-of-the-iron-dwarf/9788445022627.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-wayward-knights",
+  "title": "The Wayward Knights",
+  "authors": ["Roland Green"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-warriors", "number": 7 },
+  "date": "1997-09",
+  "description": "A punto de retirarse, sir Pirvan vuelve a responder a la llamada del deber, y los únicos aliados con los que puede contar son los Caballeros Errantes, la orden de antiguos inadaptados que él mismo reclutó años atrás.\n\nEs la novela que cierra la serie Warriors y la historia de sir Pirvan. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?196720",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-09",
+      "format": "mass_market",
+      "isbn13": 9780786906963,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?49740",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786906960/" }],
+      "cover": "/images/novels/the-wayward-knights/9780786906963.webp"
+    }
+  ]
+}

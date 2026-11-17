@@ -1,0 +1,44 @@
+{
+  "slug": "the-sundered-arms",
+  "title": "The Sundered Arms",
+  "authors": ["T. H. Lain"],
+  "setting": "generic",
+  "kind": "novel",
+  "series": { "id": "generic-iconics", "number": 8 },
+  "date": "2003-07",
+  "description": "El pícaro de las reglas de la tercera edición protagoniza una nueva aventura.\n\nNovela de la serie Iconics (T. H. Lain).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24026",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-07",
+      "format": "mass_market",
+      "isbn13": 9780786929740,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?33770",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078692974X/" }],
+      "cover": "/images/novels/the-sundered-arms/9780786929740.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-07-09",
+      "format": "ebook",
+      "isbn13": 9780786965090,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?459159",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CQZ5M2S/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las armas rotas",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496262669,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12752",
+      "cover": "/images/novels/the-sundered-arms/9788496262669.webp"
+    }
+  ]
+}

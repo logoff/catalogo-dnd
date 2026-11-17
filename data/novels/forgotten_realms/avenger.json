@@ -1,0 +1,56 @@
+{
+  "slug": "avenger",
+  "title": "Avenger",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-blades-of-the-moonsea", "number": 3 },
+  "date": "2010-03",
+  "description": "Geran rompe su exilio para buscar en las calles de Hulburg a quien dañó a su familia, mientras sus enemigos se multiplican.\n\nCierra la trilogía de las Espadas del Mar de la Luna.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1075814",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-02",
+      "format": "hardcover",
+      "isbn13": 9780786953936,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?307100",
+      "cover": "/images/novels/avenger/9780786953936.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-05-19",
+      "format": "ebook",
+      "isbn13": 9780786957514,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481032",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003MZ0XIO/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-11-02",
+      "format": "mass_market",
+      "isbn13": 9780786955756,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?331192",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786955759/" }],
+      "cover": "/images/novels/avenger/9780786955756.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Vengador",
+      "publisher": "Timun Mas",
+      "date": "2010",
+      "format": "hardcover",
+      "isbn13": 9788448038533,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/31647",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038533/" }],
+      "cover": "/images/novels/avenger/9788448038533.webp"
+    }
+  ]
+}

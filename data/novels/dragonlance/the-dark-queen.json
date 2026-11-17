@@ -1,0 +1,44 @@
+{
+  "slug": "the-dark-queen",
+  "title": "The Dark Queen",
+  "authors": ["Michael Williams", "Teri Williams"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-villains", "number": 6 },
+  "date": "1994-12",
+  "description": "Desde su prisión en el Abismo, Takhisis ve cómo un rebelde del desierto ataca Istar y pone en peligro sus planes para volver a Krynn. Para impedirlo moverá todos sus hilos, y unos pocos mortales tendrán que hacerle frente.\n\nEs la novela que cierra Villains, dedicada a la gran villana de Dragonlance, la Reina de la Oscuridad. Se publicó en castellano como Takhisis.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13958",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-12",
+      "format": "mass_market",
+      "isbn13": 9781560769255,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11205",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560769254/" }],
+      "cover": "/images/novels/the-dark-queen/9781560769255.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9780099456612,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37942"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Takhisis",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448039233,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/327",
+      "cover": "/images/novels/the-dark-queen/9788448039233.webp"
+    }
+  ]
+}

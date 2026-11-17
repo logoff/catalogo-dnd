@@ -1,0 +1,157 @@
+{
+  "slug": "the-silent-blade",
+  "title": "The Silent Blade",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-paths-of-darkness",
+    "number": 1
+  },
+  "date": "1998-10",
+  "description": "Wulfgar ha vuelto del Abismo, pero las torturas de Errtu lo han cambiado. Mientras Drizzt y sus amigos buscan la manera de destruir la Piedra de Cristal, Artemis Entreri se hace con el control de las calles de Calimport con la ayuda de Jarlaxle y sus mercenarios drows.\n\nPrimera novela de Sendas de tinieblas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?19400",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-10",
+      "format": "hardcover",
+      "isbn13": 9780786911806,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?47214",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786911808/"
+        }
+      ],
+      "cover": "/images/novels/the-silent-blade/9780786911806.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-06",
+      "format": "mass_market",
+      "isbn13": 9780786913886,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?219149",
+      "cover": "/images/novels/the-silent-blade/9780786913886.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-06",
+      "format": "hardcover",
+      "isbn13": 9780786943364,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?99671",
+      "cover": "/images/novels/the-silent-blade/9780786943364.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-02-03",
+      "format": "mass_market",
+      "isbn13": 9780786950546,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?273610",
+      "cover": "/images/novels/the-silent-blade/9780786950546.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954117,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486744",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B001NLL4NW/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2025-08-19",
+      "format": "paperback",
+      "isbn13": 9798217092727,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1063684"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El estigma de Errtu",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448037208,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1959",
+      "cover": "/images/novels/the-silent-blade/9788448037208.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El estigma de Errtu",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "format": "mass_market",
+      "isbn13": 9788448034009,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12838",
+      "cover": "/images/novels/the-silent-blade/9788448034009.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El estigma de Errtu",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724740,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40972",
+      "cover": "/images/novels/the-silent-blade/9788448724740.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El estigma de Errtu",
+      "publisher": "Minotauro",
+      "date": "2023-04-12",
+      "format": "paperback",
+      "isbn13": 9788445011218,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101963",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011219/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-sendas-de-tinieblas-n-01-03-el-estigma-de-errtu/9788445011218/13525932"
+        }
+      ],
+      "cover": "/images/novels/the-silent-blade/9788445011218.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El estigma de Errtu",
+      "publisher": "Minotauro",
+      "date": "2023-04-12",
+      "format": "ebook",
+      "isbn13": 9788445015605,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101964",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BVZXZVZ3/"
+        }
+      ],
+      "cover": "/images/novels/the-silent-blade/9788445015605.webp"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "white-plume-mountain",
+  "title": "White Plume Mountain",
+  "authors": ["Paul Kidd"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-classics", "number": 2 },
+  "date": "1999-10",
+  "description": "Un explorador implacable, una piel de perro infernal pirómana y una hada entrometida deben recuperar tres armas de poder de la peligrosa White Plume Mountain.\n\nNovelización de un módulo clásico de D&D, de Paul Kidd.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26943",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-10",
+      "format": "mass_market",
+      "isbn13": 9780786914241,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?54556",
+      "cover": "/images/novels/white-plume-mountain/9780786914241.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-23",
+      "format": "ebook",
+      "isbn13": 9780786964758,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457047",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT126/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La montaña del penacho blanco",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496262638,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/11364",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8496262634/" }],
+      "cover": "/images/novels/white-plume-mountain/9788496262638.webp"
+    }
+  ]
+}

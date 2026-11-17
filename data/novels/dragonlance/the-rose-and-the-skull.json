@@ -1,0 +1,46 @@
+{
+  "slug": "the-rose-and-the-skull",
+  "title": "The Rose and the Skull",
+  "authors": ["Jeff Crook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-bridges-of-time", "number": 4 },
+  "date": "1999-03",
+  "description": "Los debilitados Caballeros de Solamnia renuevan su alianza con sus viejos enemigos, los Caballeros de Takhisis, frente a los grandes dragones. Pero la muerte repentina de su Gran Maestre pone en peligro la propia existencia de la orden.\n\nEs la cuarta novela de Bridges of Time. Se publicó en castellano como La rosa y la calavera.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26782",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-03",
+      "format": "mass_market",
+      "isbn13": 9780786913367,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?46356",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786913363/" }],
+      "cover": "/images/novels/the-rose-and-the-skull/9780786913367.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La rosa y la calavera",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448032043,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/627",
+      "cover": "/images/novels/the-rose-and-the-skull/9788448032043.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La rosa y la calavera",
+      "publisher": "Planeta DeAgostini",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788467429831,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24588",
+      "cover": "/images/novels/the-rose-and-the-skull/9788467429831.webp"
+    }
+  ]
+}

@@ -1,0 +1,1933 @@
+[
+  {
+    "id": "dragonlance-chronicles",
+    "title": "Dragonlance Chronicles",
+    "title_es": "Crónicas de la Dragonlance",
+    "setting": "dragonlance",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Chronicles",
+        "publisher": "TSR",
+        "format": "paperback",
+        "date": "1988-03",
+        "isbn13": 9780880386524,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?80004",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ],
+        "cover": "/images/novels/dragonlance-chronicles/9780880386524.webp"
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Chronicles",
+        "publisher": "TSR",
+        "format": "hardcover",
+        "date": "1988-03",
+        "isbn13": 9780880385435,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?351591",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "uk",
+        "title": "Dragonlance Chronicles: Collectors Edition",
+        "publisher": "Penguin Books",
+        "format": "paperback",
+        "date": "1988-11",
+        "isbn13": 9780140115406,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?359452",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Annotated Chronicles",
+        "publisher": "TSR",
+        "format": "hardcover",
+        "date": "1999-11",
+        "isbn13": 9780786915262,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?35213",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Annotated Chronicles",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2002-10",
+        "isbn13": 9780786918706,
+        "source": "https://www.isfdb.org/cgi-bin/title.cgi?4209",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Chronicles Trilogy Gift Set",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2001",
+        "isbn13": 9780786926817,
+        "source": "https://www.isfdb.org/cgi-bin/title.cgi?4209",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Chronicles",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-07-06",
+        "isbn13": 9780786955534,
+        "source": "https://www.isfdb.org/cgi-bin/title.cgi?4209",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Chronicles",
+        "publisher": "Random House Worlds",
+        "format": "hardcover",
+        "date": "2025-02-04",
+        "isbn13": 9780593977156,
+        "source": "https://www.penguinrandomhouse.com/books/777486/dragonlance-chronicles-by-margaret-weis-tracy-hickman/9780593977156/",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ],
+        "purchase_links": [
+          {
+            "store": "amazon",
+            "url": "https://www.amazon.es/dp/0593977157/"
+          }
+        ],
+        "cover": "/images/novels/dragonlance-chronicles/9780593977156.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Crónicas de la Dragonlance (estuche)",
+        "publisher": "Timun Mas",
+        "format": "mass_market",
+        "date": "1999",
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/81599",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Crónicas de la Dragonlance",
+        "publisher": "Timun Mas",
+        "format": "hardcover",
+        "date": "2002",
+        "isbn13": 9788448032135,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/6138",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Crónicas de la Dragonlance",
+        "publisher": "Círculo de Lectores",
+        "format": "hardcover",
+        "date": "2004",
+        "isbn13": 9788467204513,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/21581",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Crónicas de la Dragonlance",
+        "publisher": "Timun Mas",
+        "format": "hardcover",
+        "date": "2007",
+        "isbn13": 9788448036164,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24478",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ],
+        "cover": "/images/novels/dragonlance-chronicles/9788448036164.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Crónicas de la Dragonlance (estuche)",
+        "publisher": "Timun Mas",
+        "format": "paperback",
+        "date": "2012",
+        "isbn13": 9788448033354,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/81604",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ],
+        "cover": "/images/novels/dragonlance-chronicles/9788448033354.webp"
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Omnibus Crónicas de la Dragonlance. Edición especial",
+        "publisher": "Minotauro",
+        "format": "hardcover",
+        "date": "2024-07-10",
+        "isbn13": 9788445017173,
+        "source": "https://www.planetadelibros.com/libro-omnibus-cronicas-de-la-dragonlance-edicion-especial/386334",
+        "novels": [
+          "dragons-of-autumn-twilight",
+          "dragons-of-winter-night",
+          "dragons-of-spring-dawning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dragonlance-legends",
+    "title": "Dragonlance Legends",
+    "title_es": "Leyendas de la Dragonlance",
+    "setting": "dragonlance",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Legends (estuche)",
+        "publisher": "TSR",
+        "format": "mass_market",
+        "date": "1986-09-01",
+        "isbn13": 9780880383035,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?80016",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Legends Collector's Edition",
+        "publisher": "TSR",
+        "format": "paperback",
+        "date": "1988",
+        "isbn13": 9780880386531,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?330250",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Legends Collector's Edition",
+        "publisher": "TSR",
+        "format": "hardcover",
+        "date": "1988-10",
+        "isbn13": 9780880386104,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?351592",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "uk",
+        "title": "Dragonlance Legends Collector's Edition",
+        "publisher": "Penguin Books",
+        "format": "paperback",
+        "date": "1989-09",
+        "isbn13": 9780140126983,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?321306",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Legends Trilogy Gift Set",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2002",
+        "isbn13": 9780786927661,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?20165",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Annotated Legends",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2003-09",
+        "isbn13": 9780786929924,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?35219",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Annotated Legends",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2005-09",
+        "isbn13": 9780786939749,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71955",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Legends",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2011-09-06",
+        "isbn13": 9780786958399,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?358092",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Dragonlance Legends",
+        "publisher": "Random House Worlds",
+        "format": "hardcover",
+        "date": "2026-02-10",
+        "isbn13": 9798217094592,
+        "source": "https://www.penguinrandomhouse.com/books/isbn/9798217094592",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Leyendas de la Dragonlance",
+        "publisher": "Timun Mas",
+        "date": "2001",
+        "isbn13": 9788448032227,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/5038",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Leyendas anotadas de la Dragonlance",
+        "publisher": "Timun Mas",
+        "format": "hardcover",
+        "date": "2005",
+        "isbn13": 9788448034337,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/23328",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "Leyendas anotadas de la Dragonlance",
+        "publisher": "Círculo de Lectores",
+        "format": "hardcover",
+        "date": "2005",
+        "isbn13": 9788467212754,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/35635",
+        "novels": ["time-of-the-twins", "war-of-the-twins", "test-of-the-twins"]
+      }
+    ]
+  },
+  {
+    "id": "dragonlance-war-of-souls",
+    "title": "The War of Souls",
+    "title_es": "La guerra de los espíritus",
+    "setting": "dragonlance",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "War of Souls Gift Set",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2003",
+        "isbn13": 9780786930029,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?53730",
+        "novels": [
+          "dragons-of-a-fallen-sun",
+          "dragons-of-a-lost-star",
+          "dragons-of-a-vanished-moon"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The War of Souls",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-11-02",
+        "isbn13": 9780786957156,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?331203",
+        "novels": [
+          "dragons-of-a-fallen-sun",
+          "dragons-of-a-lost-star",
+          "dragons-of-a-vanished-moon"
+        ]
+      },
+      {
+        "language": "castellano",
+        "spain": true,
+        "title": "La guerra de los espíritus",
+        "publisher": "Timun Mas",
+        "format": "hardcover",
+        "date": "2009",
+        "isbn13": 9788448036973,
+        "source": "https://tercerafundacion.net/biblioteca/ver/libro/24477",
+        "novels": [
+          "dragons-of-a-fallen-sun",
+          "dragons-of-a-lost-star",
+          "dragons-of-a-vanished-moon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dragonlance-lost-chronicles",
+    "title": "The Lost Chronicles",
+    "title_es": "Crónicas perdidas",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-destinies",
+    "title": "Dragonlance Destinies",
+    "title_es": "Destinos",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-war-wizard",
+    "title": "Dragonlance: War Wizard",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-heroes",
+    "title": "Dragonlance Heroes",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-heroes-ii",
+    "title": "Dragonlance Heroes II",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-preludes",
+    "title": "Dragonlance Preludes",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-preludes-ii",
+    "title": "Dragonlance Preludes II",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-elven-nations",
+    "title": "The Elven Nations Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-meetings",
+    "title": "The Meetings Sextet",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-dwarven-nations",
+    "title": "The Dwarven Nations Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-villains",
+    "title": "Dragonlance Villains",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-defenders-of-magic",
+    "title": "Defenders of Magic",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-lost-histories",
+    "title": "The Lost Histories",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-warriors",
+    "title": "Dragonlance Warriors",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-dragons-of-a-new-age",
+    "title": "Dragons of a New Age",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-chaos-war",
+    "title": "The Chaos War",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-kangs-regiment",
+    "title": "Kang's Regiment",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-lost-legends",
+    "title": "Lost Legends",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-raistlin-chronicles",
+    "title": "The Raistlin Chronicles",
+    "setting": "dragonlance",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Raistlin Chronicles",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-03-02",
+        "isbn13": 9780786953943,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?307075",
+        "novels": ["brothers-in-arms", "the-soulforge"]
+      }
+    ]
+  },
+  {
+    "id": "dragonlance-bridges-of-time",
+    "title": "Bridges of Time",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-dhamon-saga",
+    "title": "The Dhamon Saga",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-crossroads",
+    "title": "Crossroads",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-barbarians",
+    "title": "The Barbarians",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-bertrems-guides",
+    "title": "Bertrem's Guides",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-icewall",
+    "title": "The Icewall Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-kingpriest",
+    "title": "The Kingpriest Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-age-of-mortals",
+    "title": "Age of Mortals",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-ergoth",
+    "title": "The Ergoth Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-young-adult-chronicles",
+    "title": "Dragonlance Chronicles (Young Readers)",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-minotaur-wars",
+    "title": "The Minotaur Wars",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-linsha",
+    "title": "The Linsha Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-new-adventures",
+    "title": "Dragonlance: The New Adventures",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-dark-disciple",
+    "title": "The Dark Disciple",
+    "title_es": "La discípula oscura",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-rise-of-solamnia",
+    "title": "The Rise of Solamnia",
+    "title_es": "El despertar de Solamnia",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-taladas",
+    "title": "The Taladas Chronicles",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-elven-exiles",
+    "title": "The Elven Exiles",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-trinistyr",
+    "title": "The Trinistyr Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-elidor",
+    "title": "The Elidor Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-champions",
+    "title": "Champions",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-suncatcher",
+    "title": "The Suncatcher Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-goodlund",
+    "title": "The Goodlund Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-elements",
+    "title": "The Elements Trilogy",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-stonetellers",
+    "title": "The Stonetellers",
+    "setting": "dragonlance",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Stonetellers: A Dragonlance Omnibus",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2011-01-04",
+        "isbn13": 9780786957675,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?337860",
+        "novels": ["death-march", "goblin-nation"]
+      }
+    ]
+  },
+  {
+    "id": "dragonlance-dwarf-home",
+    "title": "Dwarf Home",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "dragonlance-ogre-titans",
+    "title": "The Ogre Titans",
+    "setting": "dragonlance",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Ogre Titans: A Dragonlance Trilogy",
+        "publisher": "Wizards of the Coast",
+        "date": "2011-07-05",
+        "isbn13": 9780786958030,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?353600",
+        "novels": ["the-fire-rose", "the-gargoyle-king"]
+      }
+    ]
+  },
+  {
+    "id": "dragonlance-anvil-of-time",
+    "title": "The Anvil of Time",
+    "setting": "dragonlance"
+  },
+  {
+    "id": "fr-icewind-dale",
+    "title": "The Icewind Dale Trilogy",
+    "title_es": "El valle del Viento Helado",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Icewind Dale Trilogy: Collector's Edition",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2000-01",
+        "isbn13": 9780786915576,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?240401",
+        "novels": ["streams-of-silver", "the-crystal-shard", "the-halflings-gem"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Icewind Dale Trilogy: Collector's Edition",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2001-02",
+        "isbn13": 9780786918119,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?41901",
+        "novels": ["streams-of-silver", "the-crystal-shard", "the-halflings-gem"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Icewind Dale Trilogy",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2002",
+        "isbn13": 9780786927203,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?17748",
+        "novels": ["streams-of-silver", "the-crystal-shard", "the-halflings-gem"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book II",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2008-03",
+        "isbn13": 9780786948383,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?356401",
+        "novels": ["streams-of-silver", "the-crystal-shard", "the-halflings-gem"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book II",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-05-04",
+        "isbn13": 9780786954872,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?315647",
+        "novels": ["streams-of-silver", "the-crystal-shard", "the-halflings-gem"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt: Book II",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2013-10-01",
+        "isbn13": 9780786965380,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?434419",
+        "novels": ["streams-of-silver", "the-crystal-shard", "the-halflings-gem"]
+      }
+    ]
+  },
+  {
+    "id": "fr-dark-elf",
+    "title": "The Dark Elf Trilogy",
+    "title_es": "Elfo oscuro",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Dark Elf Trilogy",
+        "publisher": "TSR",
+        "format": "hardcover",
+        "date": "1998-07",
+        "isbn13": 9780786911769,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14345",
+        "novels": ["exile", "homeland", "sojourn"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Dark Elf Trilogy",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2000-02",
+        "isbn13": 9780786915880,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?240397",
+        "novels": ["exile", "homeland", "sojourn"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Dark Elf Trilogy Gift Set",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2001",
+        "isbn13": 9780786926831,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37895",
+        "novels": ["exile", "homeland", "sojourn"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book I",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2008-02-05",
+        "isbn13": 9780786948376,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?407191",
+        "novels": ["exile", "homeland", "sojourn"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book I",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-01-05",
+        "isbn13": 9780786953707,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?303357",
+        "novels": ["exile", "homeland", "sojourn"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt: Book I",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2013-09-03",
+        "isbn13": 9780786965373,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?434168",
+        "novels": ["exile", "homeland", "sojourn"]
+      }
+    ]
+  },
+  {
+    "id": "fr-legacy-of-the-drow",
+    "title": "Legacy of the Drow",
+    "title_es": "El legado del drow",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Legacy of the Drow",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2001-01",
+        "isbn13": 9780786918003,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?20113",
+        "novels": ["passage-to-dawn", "siege-of-darkness", "starless-night", "the-legacy"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Legacy of the Drow Gift Set",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2003",
+        "isbn13": 9780786930012,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?20114",
+        "novels": ["passage-to-dawn", "siege-of-darkness", "starless-night", "the-legacy"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Legacy of the Drow: Collector's Edition",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2003-01",
+        "isbn13": 9780786929085,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?20112",
+        "novels": ["passage-to-dawn", "siege-of-darkness", "starless-night", "the-legacy"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Boxed Set, Books VII-X",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2008-10-07",
+        "isbn13": 9780786949670,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?260655",
+        "novels": ["passage-to-dawn", "siege-of-darkness", "starless-night", "the-legacy"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book III",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2009-01-06",
+        "isbn13": 9780786950041,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?534514",
+        "novels": ["passage-to-dawn", "siege-of-darkness", "starless-night", "the-legacy"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book III",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-09-07",
+        "isbn13": 9780786955732,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?324919",
+        "novels": ["passage-to-dawn", "siege-of-darkness", "starless-night", "the-legacy"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt: Book III",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2013-11-05",
+        "isbn13": 9780786965397,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?428867",
+        "novels": ["passage-to-dawn", "siege-of-darkness", "starless-night", "the-legacy"]
+      }
+    ]
+  },
+  {
+    "id": "fr-paths-of-darkness",
+    "title": "Paths of Darkness",
+    "title_es": "Sendas de tinieblas",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Paths of Darkness",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2004-02",
+        "isbn13": 9780786931552,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?25717",
+        "novels": [
+          "sea-of-swords",
+          "servant-of-the-shard",
+          "the-silent-blade",
+          "the-spine-of-the-world"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Paths of Darkness",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2004-08",
+        "isbn13": 9780786933495,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?63294",
+        "novels": [
+          "sea-of-swords",
+          "servant-of-the-shard",
+          "the-silent-blade",
+          "the-spine-of-the-world"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Paths of Darkness",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2005-09",
+        "isbn13": 9780786939954,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71943",
+        "novels": [
+          "sea-of-swords",
+          "servant-of-the-shard",
+          "the-silent-blade",
+          "the-spine-of-the-world"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book IV",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2010-09-10",
+        "isbn13": 9780786953950,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?306890",
+        "novels": ["sea-of-swords", "the-silent-blade", "the-spine-of-the-world"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt Collector's Edition, Book IV",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2011-05",
+        "isbn13": 9780786957415,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?347547",
+        "novels": ["sea-of-swords", "the-silent-blade", "the-spine-of-the-world"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Legend of Drizzt 25th Anniversary Edition, Book IV",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2013-12-03",
+        "isbn13": 9780786965403,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?431189",
+        "novels": ["sea-of-swords", "the-silent-blade", "the-spine-of-the-world"]
+      }
+    ]
+  },
+  {
+    "id": "fr-sellswords",
+    "title": "The Sellswords",
+    "title_es": "Los mercenarios",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Sellswords Gift Set",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2008-09-02",
+        "isbn13": 9780786949106,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?259788",
+        "novels": ["promise-of-the-witch-king", "road-of-the-patriarch", "servant-of-the-shard"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Sellswords",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-12",
+        "isbn13": 9780786957163,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?332839",
+        "novels": ["promise-of-the-witch-king", "road-of-the-patriarch", "servant-of-the-shard"]
+      }
+    ]
+  },
+  {
+    "id": "fr-hunters-blades",
+    "title": "The Hunter's Blades",
+    "title_es": "Las espadas del cazador",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Hunter's Blades Collector's Edition",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2007-01",
+        "isbn13": 9780786943159,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?95731",
+        "novels": ["the-lone-drow", "the-thousand-orcs", "the-two-swords"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Hunter's Blades Trilogy",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2007-08",
+        "isbn13": 9780786947270,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?148191",
+        "novels": ["the-lone-drow", "the-thousand-orcs", "the-two-swords"]
+      }
+    ]
+  },
+  {
+    "id": "fr-transitions",
+    "title": "Transitions",
+    "title_es": "Transiciones",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Transitions Boxed Set",
+        "publisher": "Wizards of the Coast",
+        "date": "2011-10-04",
+        "isbn13": 9780786958610,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?360396",
+        "novels": ["the-ghost-king", "the-orc-king", "the-pirate-king"]
+      }
+    ]
+  },
+  {
+    "id": "fr-neverwinter",
+    "title": "The Neverwinter Saga",
+    "title_es": "Neverwinter",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-sundering",
+    "title": "The Sundering",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-companions-codex",
+    "title": "Companions Codex",
+    "title_es": "El códice de los Compañeros",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-homecoming",
+    "title": "Homecoming",
+    "title_es": "La vuelta a casa",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-generations",
+    "title": "Generations",
+    "title_es": "Generaciones",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-way-of-the-drow",
+    "title": "The Way of the Drow",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-moonshae",
+    "title": "The Moonshae Trilogy",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Moonshae Trilogy",
+        "publisher": "TSR",
+        "format": "mass_market",
+        "date": "1989-12",
+        "isbn13": 9780880389242,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?319309",
+        "novels": ["black-wizards", "darkwalker-on-moonshae", "darkwell"]
+      }
+    ]
+  },
+  {
+    "id": "fr-druidhome",
+    "title": "The Druidhome Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-shandril",
+    "title": "Shandril's Saga",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-finders-stone",
+    "title": "The Finder's Stone Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-avatar",
+    "title": "The Avatar Series",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-pools",
+    "title": "The Pools",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-maztica",
+    "title": "The Maztica Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-empires",
+    "title": "The Empires Trilogy",
+    "title_es": "Trilogía del Imperio",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-harpers",
+    "title": "The Harpers",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-cleric-quintet",
+    "title": "The Cleric Quintet",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Cleric Quintet",
+        "publisher": "TSR",
+        "format": "hardcover",
+        "date": "1999-01",
+        "isbn13": 9780786913138,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37226",
+        "novels": [
+          "canticle",
+          "in-sylvan-shadows",
+          "night-masks",
+          "the-chaos-curse",
+          "the-fallen-fortress"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Cleric Quintet Collector's Edition",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2002-01",
+        "isbn13": 9780786926909,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37227",
+        "novels": [
+          "canticle",
+          "in-sylvan-shadows",
+          "night-masks",
+          "the-chaos-curse",
+          "the-fallen-fortress"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Cleric Quintet",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2011-06-07",
+        "isbn13": 9780786958177,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?350388",
+        "novels": [
+          "canticle",
+          "in-sylvan-shadows",
+          "night-masks",
+          "the-chaos-curse",
+          "the-fallen-fortress"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fr-songs-and-swords",
+    "title": "Songs & Swords",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-twilight-giants",
+    "title": "The Twilight Giants Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-elminster",
+    "title": "The Elminster Series",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Annotated Elminster",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2007-12",
+        "isbn13": 9780786947997,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?252626",
+        "novels": [
+          "elminster-in-myth-drannor",
+          "elminster-the-making-of-a-mage",
+          "the-temptation-of-elminster"
+        ]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Elminster Ascending",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-11-02",
+        "isbn13": 9780786956180,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?331195",
+        "novels": [
+          "elminster-in-myth-drannor",
+          "elminster-the-making-of-a-mage",
+          "the-temptation-of-elminster"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fr-shadow-of-the-avatar",
+    "title": "The Shadow of the Avatar Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-nobles",
+    "title": "The Nobles",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-starlight-and-shadows",
+    "title": "Starlight & Shadows",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Starlight & Shadows",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2005-08-30",
+        "isbn13": 9780786938162,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?72102",
+        "novels": ["daughter-of-the-drow", "tangled-webs", "windwalker"]
+      }
+    ]
+  },
+  {
+    "id": "fr-mysteries",
+    "title": "Forgotten Realms Mysteries",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-netheril",
+    "title": "The Netheril Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-cormyr-saga",
+    "title": "The Cormyr Saga",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-lost-gods",
+    "title": "The Lost Gods",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-double-diamond-triangle",
+    "title": "The Double Diamond Triangle Saga",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-lost-empires",
+    "title": "Lost Empires",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-threat-from-the-sea",
+    "title": "The Threat from the Sea",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Threat from the Sea Trilogy",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2009-04-07",
+        "isbn13": 9780786950553,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?279496",
+        "novels": ["rising-tide", "the-sea-devils-eye", "under-fallen-stars"]
+      }
+    ]
+  },
+  {
+    "id": "fr-baldurs-gate",
+    "title": "Baldur's Gate",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-counselors-and-kings",
+    "title": "Counselors & Kings",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-cities",
+    "title": "The Cities",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-return-of-the-archwizards",
+    "title": "Return of the Archwizards",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Return of the Archwizards",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2009-12-01",
+        "isbn13": 9780786953653,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?322054",
+        "novels": ["the-siege", "the-sorcerer", "the-summoning"]
+      }
+    ]
+  },
+  {
+    "id": "fr-sembia",
+    "title": "Sembia: Gateway to the Realms",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-war-of-the-spider-queen",
+    "title": "War of the Spider Queen",
+    "title_es": "La guerra de la Reina Araña",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "War of the Spider Queen Gift Set, Part I",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2006-09-19",
+        "isbn13": 9780786941865,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?280179",
+        "novels": ["condemnation", "dissolution", "insurrection"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "R. A. Salvatore's War of the Spider Queen, Volume I",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2012-04-03",
+        "isbn13": 9780786959860,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?373128",
+        "novels": ["condemnation", "dissolution", "insurrection"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "War of the Spider Queen Gift Set, Part II",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2006-09-01",
+        "isbn13": 9780786943074,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?85409",
+        "novels": ["annihilation", "extinction"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "R. A. Salvatore's War of the Spider Queen, Volume II",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2012-05-01",
+        "isbn13": 9780786960286,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?381677",
+        "novels": ["annihilation", "extinction"]
+      }
+    ]
+  },
+  {
+    "id": "fr-erevis-cale",
+    "title": "The Erevis Cale Trilogy",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Erevis Cale Trilogy",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-06",
+        "isbn13": 9780786954988,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?318709",
+        "novels": ["dawn-of-night", "midnights-mask", "twilight-falling"]
+      }
+    ]
+  },
+  {
+    "id": "fr-rogues",
+    "title": "The Rogues",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-scions-of-arrabar",
+    "title": "The Scions of Arrabar Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-house-of-serpents",
+    "title": "House of Serpents",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "House of Serpents",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2009-10",
+        "isbn13": 9780786953646,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?293042",
+        "novels": ["vanitys-brood", "venoms-taste", "vipers-kiss"]
+      }
+    ]
+  },
+  {
+    "id": "fr-year-of-rogue-dragons",
+    "title": "The Year of Rogue Dragons",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Year of Rogue Dragons",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2010-10",
+        "isbn13": 9780786955749,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?327902",
+        "novels": ["the-rage", "the-rite", "the-ruin"]
+      }
+    ]
+  },
+  {
+    "id": "fr-priests",
+    "title": "The Priests",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-last-mythal",
+    "title": "The Last Mythal",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Last Mythal Gift Set",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2007-09-25",
+        "isbn13": 9780786947126,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?148871",
+        "novels": ["farthest-reach", "final-gate", "forsaken-house"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Last Mythal: A Forgotten Realms Trilogy",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2011-08-02",
+        "isbn13": 9780786958139,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?355341",
+        "novels": ["farthest-reach", "final-gate", "forsaken-house"]
+      }
+    ]
+  },
+  {
+    "id": "fr-fighters",
+    "title": "The Fighters",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-watercourse",
+    "title": "The Watercourse Trilogy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-wizards",
+    "title": "The Wizards",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-knights-of-myth-drannor",
+    "title": "The Knights of Myth Drannor",
+    "title_es": "Los caballeros de Myth Drannor",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-twilight-war",
+    "title": "The Twilight War",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-lady-penitent",
+    "title": "The Lady Penitent",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Lady Penitent: A Forgotten Realms Omnibus",
+        "publisher": "Wizards of the Coast",
+        "date": "2011-04-05",
+        "isbn13": 9780786957408,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?344135",
+        "novels": ["ascendancy-of-the-last", "sacrifice-of-the-widow", "storm-of-the-dead"]
+      }
+    ]
+  },
+  {
+    "id": "fr-dungeons",
+    "title": "The Dungeons",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-haunted-lands",
+    "title": "The Haunted Lands",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Haunted Lands Omnibus",
+        "publisher": "Wizards of the Coast",
+        "date": "2012-02-07",
+        "isbn13": 9780786959853,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?370346",
+        "novels": ["unclean", "undead", "unholy"]
+      }
+    ]
+  },
+  {
+    "id": "fr-empyrean-odyssey",
+    "title": "The Empyrean Odyssey",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Empyrean Odyssey",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2011-03-01",
+        "isbn13": 9780786957682,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?338681",
+        "novels": ["the-crystal-mountain", "the-fractured-sky", "the-gossamer-plain"]
+      }
+    ]
+  },
+  {
+    "id": "fr-citadels",
+    "title": "The Citadels",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-blades-of-the-moonsea",
+    "title": "Blades of the Moonsea",
+    "title_es": "Espadas del mar de la luna",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Blades of the Moonsea: Omnibus",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2012-08-07",
+        "isbn13": 9780786960316,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?390231",
+        "novels": ["avenger", "corsair", "the-swordmage"]
+      }
+    ]
+  },
+  {
+    "id": "fr-stone-of-tymora",
+    "title": "Stone of Tymora",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Stone of Tymora",
+        "publisher": "Wizards of the Coast",
+        "format": "hardcover",
+        "date": "2012-10-02",
+        "isbn13": 9780786962242,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?397573",
+        "novels": ["the-sentinels", "the-shadowmask", "the-stowaway"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Stone of Tymora",
+        "publisher": "Wizards of the Coast",
+        "format": "mass_market",
+        "date": "2013-07-02",
+        "isbn13": 9780786963720,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?418014",
+        "novels": ["the-sentinels", "the-shadowmask", "the-stowaway"]
+      }
+    ]
+  },
+  {
+    "id": "fr-waterdeep",
+    "title": "Ed Greenwood Presents Waterdeep",
+    "setting": "forgotten_realms",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Ed Greenwood Presents Waterdeep, Book I",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2011-07-05",
+        "isbn13": 9780786958184,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?353069",
+        "novels": ["blackstaff-tower", "downshadow", "mistshore"]
+      },
+      {
+        "language": "english",
+        "country": "us",
+        "title": "Ed Greenwood Presents Waterdeep, Book II",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2011-12-06",
+        "isbn13": 9780786958511,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?363305",
+        "novels": ["circle-of-skulls", "city-of-the-dead", "the-god-catcher"]
+      }
+    ]
+  },
+  {
+    "id": "fr-abolethic-sovereignty",
+    "title": "Abolethic Sovereignty",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-wilds",
+    "title": "The Wilds",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-abyssal-plague",
+    "title": "The Abyssal Plague",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-chosen-of-nendawen",
+    "title": "The Chosen of Nendawen",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-brotherhood-of-the-griffon",
+    "title": "The Brotherhood of the Griffon",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-sage-of-shadowdale",
+    "title": "The Sage of Shadowdale",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-unbroken-chain",
+    "title": "Unbroken Chain",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-brimstone-angels",
+    "title": "Brimstone Angels",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-dungeon-academy",
+    "title": "Dungeon Academy",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-honor-among-thieves",
+    "title": "Honor Among Thieves",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "fr-fallbacks",
+    "title": "The Fallbacks",
+    "setting": "forgotten_realms"
+  },
+  {
+    "id": "eberron-dreaming-dark",
+    "title": "The Dreaming Dark",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-lost-mark",
+    "title": "The Lost Mark",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-war-torn",
+    "title": "The War-Torn",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-dragon-below",
+    "title": "The Dragon Below",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-blade-of-the-flame",
+    "title": "The Blade of the Flame",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-heirs-of-ash",
+    "title": "Heirs of Ash",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-inquisitives",
+    "title": "The Inquisitives",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-abraxis-wren",
+    "title": "The Abraxis Wren Chronicles",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-lanternlight-files",
+    "title": "The Lanternlight Files",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-draconic-prophecies",
+    "title": "The Draconic Prophecies",
+    "setting": "eberron",
+    "collections": [
+      {
+        "language": "english",
+        "country": "us",
+        "title": "The Draconic Prophecies Omnibus",
+        "publisher": "Wizards of the Coast",
+        "format": "paperback",
+        "date": "2011-11-01",
+        "isbn13": 9780786958634,
+        "source": "https://www.isfdb.org/cgi-bin/pl.cgi?362011",
+        "novels": ["dragon-forge", "dragon-war"]
+      }
+    ]
+  },
+  {
+    "id": "eberron-legacy-of-dhakaan",
+    "title": "The Legacy of Dhakaan",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-thorn-of-breland",
+    "title": "Thorn of Breland",
+    "setting": "eberron"
+  },
+  {
+    "id": "eberron-shard-axe",
+    "title": "The Shard Axe",
+    "setting": "eberron"
+  },
+  {
+    "id": "ravenloft-i-strahd",
+    "title": "I, Strahd",
+    "setting": "ravenloft"
+  },
+  {
+    "id": "ravenloft-black-rose",
+    "title": "Lord Soth in Ravenloft",
+    "setting": "ravenloft"
+  },
+  {
+    "id": "greyhawk-gord-the-rogue",
+    "title": "Gord the Rogue",
+    "setting": "greyhawk"
+  },
+  {
+    "id": "greyhawk-adventures",
+    "title": "Greyhawk Adventures",
+    "setting": "greyhawk"
+  },
+  {
+    "id": "greyhawk-classics",
+    "title": "Greyhawk Classics",
+    "setting": "greyhawk"
+  },
+  {
+    "id": "mystara-penhaligon",
+    "title": "The Penhaligon Trilogy",
+    "setting": "mystara"
+  },
+  {
+    "id": "mystara-dragonstrike",
+    "title": "Dragon Strike",
+    "setting": "mystara"
+  },
+  {
+    "id": "mystara-dragonlord",
+    "title": "The Dragonlord Chronicles",
+    "setting": "mystara"
+  },
+  {
+    "id": "mystara-first-quest",
+    "title": "First Quest",
+    "setting": "mystara"
+  },
+  {
+    "id": "dark-sun-prism-pentad",
+    "title": "The Prism Pentad",
+    "setting": "dark_sun"
+  },
+  {
+    "id": "dark-sun-tribe-of-one",
+    "title": "Tribe of One",
+    "setting": "dark_sun"
+  },
+  {
+    "id": "dark-sun-chronicles-of-athas",
+    "title": "Chronicles of Athas",
+    "setting": "dark_sun"
+  },
+  {
+    "id": "spelljammer-cloakmaster",
+    "title": "The Cloakmaster Cycle",
+    "setting": "spelljammer"
+  },
+  {
+    "id": "planescape-blood-wars",
+    "title": "The Blood Wars Trilogy",
+    "setting": "planescape"
+  },
+  {
+    "id": "nerath-abyssal-plague",
+    "title": "The Abyssal Plague",
+    "setting": "nerath"
+  },
+  {
+    "id": "generic-iconics",
+    "title": "Iconics",
+    "setting": "generic"
+  }
+]

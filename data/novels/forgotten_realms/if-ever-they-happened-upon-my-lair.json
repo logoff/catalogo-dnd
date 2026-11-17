@@ -1,0 +1,22 @@
+{
+  "slug": "if-ever-they-happened-upon-my-lair",
+  "title": "If Ever They Happened Upon My Lair",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "short_story",
+  "date": "2012-09",
+  "description": "Relato breve de R. A. Salvatore de la Leyenda de Drizzt, escrito para la antología Dragons: Worlds Afire.\n\nSe publicó después como ebook suelto. No tiene edición en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09",
+      "format": "ebook",
+      "isbn13": 9780786964307,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786964307&type=ISBN",
+      "cover": "/images/novels/if-ever-they-happened-upon-my-lair/9780786964307.webp"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "in-sylvan-shadows",
+  "title": "In Sylvan Shadows",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-cleric-quintet", "number": 2 },
+  "date": "1992-04",
+  "description": "Cadderly parte a salvar a los elfos del bosque de Shilmista, y ni sus poderosos compañeros pueden protegerlo de las pruebas de valor que le esperan.\n\nSegunda novela del Quinteto del Clérigo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12814",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-04",
+      "format": "paperback",
+      "isbn13": 9781560763215,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14301",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560763213/" }],
+      "cover": "/images/novels/in-sylvan-shadows/9781560763215.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-03",
+      "format": "mass_market",
+      "isbn13": 9780786916054,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?17998",
+      "cover": "/images/novels/in-sylvan-shadows/9780786916054.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-03",
+      "format": "paperback",
+      "isbn13": 9780786950539,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?273971"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-03",
+      "format": "mass_market",
+      "isbn13": 9780786953264,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?278964",
+      "cover": "/images/novels/in-sylvan-shadows/9780786953264.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-08-16",
+      "format": "ebook",
+      "isbn13": 9780786954339,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474466",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005899HMA/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "En los bosques silvanos",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "mass_market",
+      "isbn13": 9788448037420,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2538",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037421/" }],
+      "cover": "/images/novels/in-sylvan-shadows/9788448037420.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "En los bosques silvanos",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724443,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37052",
+      "cover": "/images/novels/in-sylvan-shadows/9788448724443.webp"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "unbroken-chain",
+  "title": "Unbroken Chain",
+  "authors": ["Jaleigh Johnson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-unbroken-chain", "number": 1 },
+  "date": "2010-07",
+  "description": "Ashok, un shadar-kai del Páramo Sombrío, llega a Ikemmu, una ciudad de los suyos que ha aprendido a canalizar su ansia de peligro, con la intención de descubrir sus debilidades, pero la ciudad acaba atrapándolo.\n\nPrimera novela de Jaleigh Johnson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1132321",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-07-06",
+      "format": "mass_market",
+      "isbn13": 9780786956265,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?321333",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786956267/" }],
+      "cover": "/images/novels/unbroken-chain/9780786956265.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-05",
+      "format": "ebook",
+      "isbn13": 9780786957606,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474019",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00523N7RS/" }]
+    }
+  ]
+}

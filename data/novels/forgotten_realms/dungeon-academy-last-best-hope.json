@@ -1,0 +1,32 @@
+{
+  "slug": "dungeon-academy-last-best-hope",
+  "title": "Dungeon Academy: Last Best Hope",
+  "authors": ["Madeleine Roux"],
+  "setting": "forgotten_realms",
+  "kind": "middle_grade",
+  "series": { "id": "fr-dungeon-academy", "number": 3 },
+  "date": "2024-05",
+  "description": "Zelli y el Club del Peligro quieren salvar a su amigo Bauble de las garras de Elgred Morbide, pero la batalla final por la Academia ya ha empezado.\n\nCierra la serie Dungeon Academy, de Madeleine Roux.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3325810",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "HarperCollins",
+      "date": "2024-05-07",
+      "format": "hardcover",
+      "isbn13": 9780063039162,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1011853",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0063039168/" }],
+      "cover": "/images/novels/dungeon-academy-last-best-hope/9780063039162.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "HarperCollins",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0C1Y1XB2X/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0C1Y1XB2X/" }]
+    }
+  ]
+}

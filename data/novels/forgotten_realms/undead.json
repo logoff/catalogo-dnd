@@ -1,0 +1,32 @@
+{
+  "slug": "undead",
+  "title": "Undead",
+  "authors": ["Richard Lee Byers"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-haunted-lands", "number": 2 },
+  "date": "2008-04",
+  "description": "Los ejércitos de muertos vivientes marchan al son del nigromante, y los vivos de Thay deben unirse antes de pasar a engrosar sus filas.\n\nSegunda novela de la trilogía de las Tierras Embrujadas.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?880532",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-03-04",
+      "format": "mass_market",
+      "isbn13": 9780786947836,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?241485",
+      "cover": "/images/novels/undead/9780786947836.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-20",
+      "format": "ebook",
+      "isbn13": 9780786955909,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483451"
+    }
+  ]
+}

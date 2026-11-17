@@ -1,0 +1,76 @@
+{
+  "slug": "darkwell",
+  "title": "Darkwell",
+  "authors": ["Douglas Niles"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-moonshae", "number": 3 },
+  "date": "1989-02",
+  "description": "De regreso en Corwell, Tristan y Robyn descubren que los poderes de Bhaal dominan la isla: sus amigos druidas están convertidos en piedra y el Pozo Lunar se ha transformado en un pozo de tinieblas.\n\nCierra la trilogía de Moonshae.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12956",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1989-02",
+      "format": "mass_market",
+      "isbn13": 9780880387170,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?301494",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880387173/" }],
+      "cover": "/images/novels/darkwell/9780880387170.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-07",
+      "format": "mass_market",
+      "isbn13": 9780140126358,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14284"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-12",
+      "format": "mass_market",
+      "isbn13": 9780786935666,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67405",
+      "cover": "/images/novels/darkwell/9780786935666.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-07-19",
+      "format": "ebook",
+      "isbn13": 9780786959747,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474022",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZN08U/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La venganza de Bhaal",
+      "publisher": "Timun Mas",
+      "date": "1990",
+      "format": "mass_market",
+      "isbn13": 9788477224877,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/100",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477224870/" }],
+      "cover": "/images/novels/darkwell/9788477224877.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La venganza de Bhaal",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726126,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38270",
+      "cover": "/images/novels/darkwell/9788448726126.webp"
+    }
+  ]
+}

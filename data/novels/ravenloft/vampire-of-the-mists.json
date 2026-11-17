@@ -1,0 +1,64 @@
+{
+  "slug": "vampire-of-the-mists",
+  "title": "Vampire of the Mists",
+  "authors": ["Christie Golden"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1991-09",
+  "description": "Jander Sunstar, un vampiro elfo, llega a las tierras de Barovia en busca de venganza contra Strahd.\n\nPrimera novela de Ravenloft y debut de Christie Golden.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18111",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-09",
+      "format": "mass_market",
+      "isbn13": 9781560761556,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27429",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560761555/" }],
+      "cover": "/images/novels/vampire-of-the-mists/9781560761556.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-09",
+      "format": "paperback",
+      "isbn13": 9780786941247,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?85862",
+      "cover": "/images/novels/vampire-of-the-mists/9780786941247.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-06",
+      "format": "mass_market",
+      "isbn13": 9780786948710,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?268847",
+      "cover": "/images/novels/vampire-of-the-mists/9780786948710.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-13",
+      "format": "ebook",
+      "isbn13": 9780786961863,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476824"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El vampiro de las nieblas",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788448041502,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/3411",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/844804150X/" }],
+      "cover": "/images/novels/vampire-of-the-mists/9788448041502.webp"
+    }
+  ]
+}

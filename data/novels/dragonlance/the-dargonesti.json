@@ -1,0 +1,33 @@
+{
+  "slug": "the-dargonesti",
+  "title": "The Dargonesti",
+  "authors": ["Paul B. Thompson", "Tonya Cook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-lost-histories", "number": 3 },
+  "date": "1995-10",
+  "description": "Kana, nieta del elfo Kith-Kanan, y su compañero gnomo son capturados por los dargonestis, los elfos marinos, cuyo extraordinario líder acabará enamorándose de ella.\n\nEs la tercera novela de The Lost Histories y explora el mundo submarino de Krynn. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?31409",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "mass_market",
+      "isbn13": 9780786901821,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37840",
+      "cover": "/images/novels/the-dargonesti/9780786901821.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-06",
+      "format": "ebook",
+      "isbn13": 9780786961986,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?961136",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN57K/" }]
+    }
+  ]
+}

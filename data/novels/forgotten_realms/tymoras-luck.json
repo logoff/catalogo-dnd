@@ -1,0 +1,34 @@
+{
+  "slug": "tymoras-luck",
+  "title": "Tymora's Luck",
+  "authors": ["Kate Novak", "Jeff Grubb"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-lost-gods", "number": 2 },
+  "date": "1997-12",
+  "description": "Antes de la Era del Amanecer, los dioses dividieron a Tyche, la diosa de la suerte, en dos: Tymora, la Señora de la Fortuna, y Beshaba, la Señora de la Desgracia. Ahora alguien pretende reunirlas para recrear a Tyche, sin importarle las consecuencias.\n\nNovela de Kate Novak y Jeff Grubb, continuación de Finder's Bane.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?32719",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-12",
+      "format": "mass_market",
+      "isbn13": 9780786907267,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?52654",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786907266/" }],
+      "cover": "/images/novels/tymoras-luck/9780786907267.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-10-23",
+      "format": "ebook",
+      "isbn13": 9780786964123,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468423",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADC1NI/" }]
+    }
+  ]
+}

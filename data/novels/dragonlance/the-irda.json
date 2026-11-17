@@ -1,0 +1,32 @@
+{
+  "slug": "the-irda",
+  "title": "The Irda",
+  "authors": ["Linda P. Baker"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-lost-histories", "number": 2 },
+  "date": "1995-06",
+  "description": "La historia de los irda, los altos ogros, antepasados legendarios de los ogros de Krynn, cuya avanzada civilización desapareció de forma misteriosa.\n\nEs la segunda novela de The Lost Histories. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?877905",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-06",
+      "format": "mass_market",
+      "isbn13": 9780786901388,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11208",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901381/" }],
+      "cover": "/images/novels/the-irda/9780786901388.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B005UFN4SU/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN4SU/" }]
+    }
+  ]
+}

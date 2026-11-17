@@ -1,0 +1,34 @@
+{
+  "slug": "divine-hammer",
+  "title": "Divine Hammer",
+  "authors": ["Chris Pierson"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-kingpriest", "number": 2 },
+  "date": "2002-10",
+  "description": "Veinte años después de su llegada al trono, el Príncipe de los Sacerdotes Beldinas gobierna Istar en su máximo esplendor. Pero una hechicería maligna amenaza la paz y su lugarteniente más leal, Cathan, encabeza a los Caballeros del Martillo Divino para erradicarla.\n\nEs la segunda novela de The Kingpriest. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24349",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-10",
+      "format": "mass_market",
+      "isbn13": 9780786928071,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?256389",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786928077/" }],
+      "cover": "/images/novels/divine-hammer/9780786928071.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-06-11",
+      "format": "ebook",
+      "isbn13": 9780786964970,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458539",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00C4B24ES/" }]
+    }
+  ]
+}

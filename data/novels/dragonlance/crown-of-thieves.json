@@ -1,0 +1,23 @@
+{
+  "slug": "crown-of-thieves",
+  "title": "Crown of Thieves",
+  "authors": ["Ree Soesbee"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-elidor", "number": 1 },
+  "date": "2005-11",
+  "description": "El ladrón elfo Elidor vuelve para enfrentarse a un rey no muerto y a los demonios de su propio pasado.\n\nEs la primera novela de The Elidor Trilogy, que continúa la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?171895",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-11",
+      "format": "paperback",
+      "isbn13": 9780786938339,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?73021",
+      "cover": "/images/novels/crown-of-thieves/9780786938339.webp"
+    }
+  ]
+}

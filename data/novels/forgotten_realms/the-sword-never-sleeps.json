@@ -1,0 +1,56 @@
+{
+  "slug": "the-sword-never-sleeps",
+  "title": "The Sword Never Sleeps",
+  "authors": ["Ed Greenwood"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-knights-of-myth-drannor", "number": 3 },
+  "date": "2008-11",
+  "description": "Los Caballeros de Myth Drannor han frustrado un complot contra el mago real, pero aún tienen que demostrar que son verdaderos héroes.\n\nCierra la trilogía de los Caballeros de Myth Drannor.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?829538",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11-04",
+      "format": "hardcover",
+      "isbn13": 9780786949144,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250381",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786949147/" }],
+      "cover": "/images/novels/the-sword-never-sleeps/9780786949144.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-05-05",
+      "format": "mass_market",
+      "isbn13": 9780786950157,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?274532",
+      "cover": "/images/novels/the-sword-never-sleeps/9780786950157.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11-22",
+      "format": "ebook",
+      "isbn13": 9780786961696,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476267",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005PRE6DK/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La espada nunca duerme",
+      "publisher": "Timun Mas",
+      "date": "2009",
+      "format": "hardcover",
+      "isbn13": 9788448036461,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/28401",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448036468/" }],
+      "cover": "/images/novels/the-sword-never-sleeps/9788448036461.webp"
+    }
+  ]
+}

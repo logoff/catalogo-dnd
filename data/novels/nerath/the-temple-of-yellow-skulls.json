@@ -1,0 +1,34 @@
+{
+  "slug": "the-temple-of-yellow-skulls",
+  "title": "The Temple of Yellow Skulls",
+  "authors": ["Don Bassingthwaite"],
+  "setting": "nerath",
+  "kind": "novel",
+  "series": { "id": "nerath-abyssal-plague", "number": 1 },
+  "date": "2011-03",
+  "description": "Tharizdun ha liberado el Voidharrow y la plaga abisal empieza a extenderse por el mundo de Nerath.\n\nPrimera novela de la serie The Abyssal Plague, de Don Bassingthwaite.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1220069",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-03",
+      "format": "mass_market",
+      "isbn13": 9780786957491,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?340189",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786957492/" }],
+      "cover": "/images/novels/the-temple-of-yellow-skulls/9780786957491.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-03-01",
+      "format": "ebook",
+      "isbn13": 9780786958986,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?471498",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004LGTS34/" }]
+    }
+  ]
+}

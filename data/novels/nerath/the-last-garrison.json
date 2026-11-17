@@ -1,0 +1,33 @@
+{
+  "slug": "the-last-garrison",
+  "title": "The Last Garrison",
+  "authors": ["Matthew Beard"],
+  "setting": "nerath",
+  "kind": "novel",
+  "date": "2011",
+  "description": "Una aventura en Nerath, el mundo de los Puntos de Luz de la cuarta edición.\n\nNovela de Matthew Beard.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1334466",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-06",
+      "format": "mass_market",
+      "isbn13": 9780786957934,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?363306",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078695793X/" }],
+      "cover": "/images/novels/the-last-garrison/9780786957934.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-06",
+      "format": "ebook",
+      "isbn13": 9780786959426,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476869",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZN0V2/" }]
+    }
+  ]
+}

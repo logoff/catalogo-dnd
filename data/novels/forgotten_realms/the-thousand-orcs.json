@@ -1,0 +1,125 @@
+{
+  "slug": "the-thousand-orcs",
+  "title": "The Thousand Orcs",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-hunters-blades",
+    "number": 1
+  },
+  "date": "2002-10",
+  "description": "Bruenor viaja hacia Mithril Hall con Drizzt, Catti-brie, Wulfgar y Regis cuando una horda de orcos y gigantes de escarcha, reunida por el rey Obould Muchasflechas, arrasa el norte. Los compañeros acaban separados y Drizzt queda convencido de que ha perdido a sus amigos.\n\nPrimera novela de la trilogía Las espadas del cazador.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24034",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-10",
+      "format": "hardcover",
+      "isbn13": 9780786928040,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?48516",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786928042/"
+        }
+      ],
+      "cover": "/images/novels/the-thousand-orcs/9780786928040.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-07",
+      "format": "mass_market",
+      "isbn13": 9780786929801,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?51178",
+      "cover": "/images/novels/the-thousand-orcs/9780786929801.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954148,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486746",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002DNZG10/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-03-17",
+      "format": "paperback",
+      "isbn13": 9798217298747,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1094007"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los mil orcos",
+      "publisher": "Timun Mas",
+      "date": "2004",
+      "isbn13": 9788448037628,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/12955",
+      "cover": "/images/novels/the-thousand-orcs/9788448037628.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los mil orcos",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725594,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36930",
+      "cover": "/images/novels/the-thousand-orcs/9788448725594.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los mil orcos",
+      "publisher": "Minotauro",
+      "date": "2024-10-23",
+      "format": "paperback",
+      "isbn13": 9788445010983,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78827",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010980/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-las-espadas-del-cazador-n-01-03-los-mil-orcos/9788445010983/16200059"
+        }
+      ],
+      "cover": "/images/novels/the-thousand-orcs/9788445010983.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los mil orcos",
+      "publisher": "Minotauro",
+      "date": "2024-10-23",
+      "format": "ebook",
+      "isbn13": 9788445019221,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78828",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0D9B26W2Y/"
+        }
+      ],
+      "cover": "/images/novels/the-thousand-orcs/9788445019221.webp"
+    }
+  ]
+}

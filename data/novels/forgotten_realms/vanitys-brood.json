@@ -1,0 +1,34 @@
+{
+  "slug": "vanitys-brood",
+  "title": "Vanity's Brood",
+  "authors": ["Lisa Smedman"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-house-of-serpents", "number": 3 },
+  "date": "2006-03",
+  "description": "Una sacerdotisa de enorme poder convence a una tribu yuan-ti de las selvas de Chult para que sirva al culto de Sseth, el dios de los hombres serpiente.\n\nCierra la trilogía House of Serpents.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?180798",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-03",
+      "format": "mass_market",
+      "isbn13": 9780786939824,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?81921",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786939826/" }],
+      "cover": "/images/novels/vanitys-brood/9780786939824.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-04-02",
+      "format": "ebook",
+      "isbn13": 9780786957033,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481698",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EQ4/" }]
+    }
+  ]
+}

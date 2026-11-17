@@ -1,0 +1,67 @@
+{
+  "slug": "prince-of-lies",
+  "title": "Prince of Lies",
+  "authors": ["James Lowder"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-avatar", "number": 4 },
+  "date": "1993-08",
+  "description": "La Época de Tumultos ha terminado y los dioses han vuelto a su lugar. El alma de Kelemvor, antiguo amante de la diosa de la magia, se oculta del dios loco Cyric, que no está dispuesto a renunciar a su venganza.\n\nCuarta novela de la serie de los Avatares.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?9936",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-08",
+      "format": "mass_market",
+      "isbn13": 9781560766261,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?26677",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766263/" }],
+      "cover": "/images/novels/prince-of-lies/9781560766261.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-09",
+      "format": "mass_market",
+      "isbn13": 9780786931149,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?26678",
+      "cover": "/images/novels/prince-of-lies/9780786931149.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-01-17",
+      "format": "ebook",
+      "isbn13": 9780786962105,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?463145",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6H7I/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El príncipe de las mentiras",
+      "publisher": "Timun Mas",
+      "date": "2007",
+      "format": "mass_market",
+      "isbn13": 9788448037796,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15051",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037790/" }],
+      "cover": "/images/novels/prince-of-lies/9788448037796.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El príncipe de las mentiras",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726607,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37111",
+      "cover": "/images/novels/prince-of-lies/9788448726607.webp"
+    }
+  ]
+}

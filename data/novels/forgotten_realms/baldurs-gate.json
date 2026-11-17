@@ -1,0 +1,47 @@
+{
+  "slug": "baldurs-gate",
+  "title": "Baldur's Gate",
+  "authors": ["Philip Athans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-baldurs-gate", "number": 1 },
+  "date": "1999-07",
+  "description": "Alguien sabotea las minas de hierro de la Costa de la Espada, empujando a los reinos a la guerra, y un joven mercenario descubre un secreto inimaginable sobre su origen.\n\nNovelización del videojuego Baldur's Gate, de BioWare.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25906",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-07",
+      "format": "mass_market",
+      "isbn13": 9780786915255,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?3558",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786915250/" }],
+      "cover": "/images/novels/baldurs-gate/9780786915255.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Puerta de Baldur",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448037222,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/194",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037227/" }],
+      "cover": "/images/novels/baldurs-gate/9788448037222.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Puerta de Baldur",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448726669,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38271",
+      "cover": "/images/novels/baldurs-gate/9788448726669.webp"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "the-adversary",
+  "title": "The Adversary",
+  "authors": ["Erin M. Evans"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sundering", "number": 3 },
+  "date": "2013-12",
+  "description": "La joven bruja Farideh, atada por un pacto con un diablo, se ve arrastrada a la política infernal en plena Fractura.\n\nTercera novela de la serie The Sundering, de Erin M. Evans.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1657367",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-12-03",
+      "format": "hardcover",
+      "isbn13": 9780786963751,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?431448",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786963751/" }],
+      "cover": "/images/novels/the-adversary/9780786963751.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-12-03",
+      "format": "ebook",
+      "isbn13": 9780786964376,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?440099",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00DACWB16/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2014-05-06",
+      "format": "mass_market",
+      "isbn13": 9780786965366,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?441857",
+      "cover": "/images/novels/the-adversary/9780786965366.webp"
+    }
+  ]
+}

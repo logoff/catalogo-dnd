@@ -1,0 +1,34 @@
+{
+  "slug": "protecting-palanthas",
+  "title": "Protecting Palanthas",
+  "authors": ["Douglas W. Clark"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-champions", "number": 4 },
+  "date": "2007-10",
+  "description": "En Palanthas, adonde ha ido a pedir ayuda a los Caballeros de Solamnia, Gerard se ve obligado a aliarse con su viejo enemigo, el minotauro Galdar, para recuperar un cofre robado antes de que su contenido se libere sobre Krynn.\n\nEs una novela de la serie Champions y continúa la historia de Gerard. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?825917",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-11",
+      "format": "mass_market",
+      "isbn13": 9780786948086,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?248852",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786948086/" }],
+      "cover": "/images/novels/protecting-palanthas/9780786948086.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-05-07",
+      "format": "ebook",
+      "isbn13": 9780786964819,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457836",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24W3E/" }]
+    }
+  ]
+}

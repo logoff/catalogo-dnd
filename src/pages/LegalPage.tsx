@@ -89,6 +89,10 @@ export default function LegalPage() {
             licencia oficial de Dungeons & Dragons; se muestran solo para identificarlos.
           </p>
           <p>
+            Los títulos y las portadas de las novelas son de sus editoriales y de Wizards of the
+            Coast; se muestran solo para identificar cada obra y cada edición.
+          </p>
+          <p>
             Los logotipos de consolas, ordenadores y sistemas (PlayStation, Xbox, Nintendo, Sega,
             Windows, macOS y otros) son marcas de sus respectivos propietarios. Se usan solo para
             indicar en qué plataformas está disponible cada juego, sin que eso suponga ninguna

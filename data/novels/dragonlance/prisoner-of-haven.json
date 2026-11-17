@@ -1,0 +1,24 @@
+{
+  "slug": "prisoner-of-haven",
+  "title": "Prisoner of Haven",
+  "authors": ["Nancy Varian Berberick"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-age-of-mortals", "number": 4 },
+  "date": "2004-06",
+  "description": "Cuando la ciudad de Haven cae en manos de las fuerzas de un dragón señor, Usha y Dezra Majere quedan atrapadas dentro y se unen a la lucha por liberarla mientras intentan superar sus propias diferencias.\n\nEs una novela de la serie Age of Mortals. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?30158",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-06",
+      "format": "mass_market",
+      "isbn13": 9780786933273,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?26721",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786933275/" }],
+      "cover": "/images/novels/prisoner-of-haven/9780786933273.webp"
+    }
+  ]
+}

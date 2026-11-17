@@ -1,0 +1,34 @@
+{
+  "slug": "alliances",
+  "title": "Alliances",
+  "authors": ["Paul B. Thompson", "Tonya C. Cook"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-elven-exiles", "number": 2 },
+  "date": "2006-10",
+  "description": "Mientras los elfos exiliados luchan por sobrevivir en Khur, los que quedaron en Qualinesti sufren persecución y esclavitud, hasta que aparece un misterioso rebelde enmascarado. Kerianseray, la Leona, se ve transportada por arte de magia de vuelta a su antigua patria.\n\nEs la segunda novela de The Elven Exiles. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?194284",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-10",
+      "format": "mass_market",
+      "isbn13": 9780786940769,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?88071",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078694076X/" }],
+      "cover": "/images/novels/alliances/9780786940769.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-07-31",
+      "format": "ebook",
+      "isbn13": 9780786963652,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466514",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007UI2B2A/" }]
+    }
+  ]
+}

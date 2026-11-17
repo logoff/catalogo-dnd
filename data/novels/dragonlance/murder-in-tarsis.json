@@ -1,0 +1,52 @@
+{
+  "slug": "murder-in-tarsis",
+  "title": "Murder in Tarsis",
+  "authors": ["John Maddox Roberts"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "date": "1996-06",
+  "description": "Cuando el señor de Tarsis se enfrenta a un asesinato con consecuencias políticas, no le queda más remedio que confiar la investigación a tres de los habitantes más prescindibles de la ciudad: un mercenario, un poeta asesino y una ladrona.\n\nEs una novela de misterio ambientada en Krynn, publicada en la línea Dragonlance Classics, que se puede leer sin conocer otras. En castellano se publicó como Asesinato en Tarsis.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15372",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-06",
+      "format": "hardcover",
+      "isbn13": 9780786905003,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11196"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-10",
+      "format": "mass_market",
+      "isbn13": 9780786915873,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?23117",
+      "cover": "/images/novels/murder-in-tarsis/9780786915873.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-11-06",
+      "format": "ebook",
+      "isbn13": 9780786964192,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?469539",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00A5MRB6E/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Asesinato en Tarsis",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448039424,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1013",
+      "cover": "/images/novels/murder-in-tarsis/9788448039424.webp"
+    }
+  ]
+}

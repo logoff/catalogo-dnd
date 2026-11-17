@@ -1,0 +1,43 @@
+{
+  "slug": "ascendancy-of-the-last",
+  "title": "Ascendancy of the Last",
+  "authors": ["Lisa Smedman"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-lady-penitent", "number": 3 },
+  "date": "2008-06",
+  "description": "Lolth despierta con un plan demasiado ambicioso incluso para ella, y necesitará la ayuda de la drow que ya la traicionó una vez: la Dama Penitente.\n\nCierra la trilogía de la Dama Penitente, que cambió para siempre los Reinos Olvidados.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?829261",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-06-03",
+      "format": "mass_market",
+      "isbn13": 9780786948642,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250179",
+      "cover": "/images/novels/ascendancy-of-the-last/9780786948642.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La ascensión de los condenados",
+      "publisher": "Timun Mas",
+      "date": "2010",
+      "format": "hardcover",
+      "isbn13": 9788448038328,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/27934",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038320/" }],
+      "cover": "/images/novels/ascendancy-of-the-last/9788448038328.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0013TRQTU/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0013TRQTU/" }]
+    }
+  ]
+}

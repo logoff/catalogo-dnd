@@ -1,0 +1,23 @@
+{
+  "slug": "greatheart",
+  "title": "Greatheart",
+  "authors": ["Dixie Lee McKeone"],
+  "setting": "birthright",
+  "kind": "novel",
+  "date": "1996-02",
+  "description": "En los bosques de Sielwode, los elfos se enfrentan a los humanos que amenazan sus arboledas sagradas y a los muertos vivientes del Mundo de las Sombras.\n\nNovela de Birthright de Dixie Lee McKeone.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?16375",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-02",
+      "format": "mass_market",
+      "isbn13": 9780786904808,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4565",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786904801/" }],
+      "cover": "/images/novels/greatheart/9780786904808.webp"
+    }
+  ]
+}

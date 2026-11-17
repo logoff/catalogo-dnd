@@ -1,0 +1,24 @@
+{
+  "slug": "wizards-curse",
+  "title": "Wizard's Curse",
+  "authors": ["Christina Woods"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-trinistyr", "number": 1 },
+  "date": "2005-10",
+  "description": "Nearra viaja hasta el Muro de Hielo para romper una maldición que pesa sobre su familia, pero allí la esperan enemigos que no esperaba.\n\nEs la primera novela de The Trinistyr Trilogy, que continúa la serie juvenil Dragonlance: The New Adventures con la maga Nearra como protagonista. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?170694",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-09",
+      "format": "paperback",
+      "isbn13": 9780786937943,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?71820",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786937947/" }],
+      "cover": "/images/novels/wizards-curse/9780786937943.webp"
+    }
+  ]
+}

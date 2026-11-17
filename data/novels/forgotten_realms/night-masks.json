@@ -1,0 +1,84 @@
+{
+  "slug": "night-masks",
+  "title": "Night Masks",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-cleric-quintet", "number": 3 },
+  "date": "1992-08",
+  "description": "Cadderly busca refugio en la ciudad de Carradoon y se encuentra asediado por los asesinos de las Máscaras Nocturnas.\n\nTercera novela del Quinteto del Clérigo.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12813",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-08",
+      "format": "paperback",
+      "isbn13": 9781560763284,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14307",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560763280/" }],
+      "cover": "/images/novels/night-masks/9781560763284.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-05",
+      "format": "mass_market",
+      "isbn13": 9780786916061,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?23972",
+      "cover": "/images/novels/night-masks/9780786916061.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-05",
+      "format": "paperback",
+      "isbn13": 9780786951062,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?274537"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-05",
+      "format": "mass_market",
+      "isbn13": 9780786953271,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?288495",
+      "cover": "/images/novels/night-masks/9780786953271.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-08-16",
+      "format": "ebook",
+      "isbn13": 9780786954346,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474468",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005899I0Q/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Máscaras de la noche",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "isbn13": 9788448037437,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/5919",
+      "cover": "/images/novels/night-masks/9788448037437.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Máscaras de la noche",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448724474,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/40996",
+      "cover": "/images/novels/night-masks/9788448724474.webp"
+    }
+  ]
+}

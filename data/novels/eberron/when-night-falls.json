@@ -1,0 +1,24 @@
+{
+  "slug": "when-night-falls",
+  "title": "When Night Falls",
+  "authors": ["Parker Dewolf"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-lanternlight-files", "number": 2 },
+  "date": "2008-10",
+  "description": "Ulther Whitsun, un apañador que trabaja solo por dinero, acaba en medio de una revolución en Sharn, donde no elegir bando podría costarle la vida.\n\nSegunda novela de The Lanternlight Files, de Parker DeWolf.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?829391",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10",
+      "format": "mass_market",
+      "isbn13": 9780786947928,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?250286",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786947926/" }],
+      "cover": "/images/novels/when-night-falls/9780786947928.webp"
+    }
+  ]
+}

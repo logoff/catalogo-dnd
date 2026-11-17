@@ -1,0 +1,54 @@
+{
+  "slug": "reavers-of-the-blood-sea",
+  "title": "Reavers of the Blood Sea",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-chaos-war", "number": 4 },
+  "date": "1999-05",
+  "description": "Los minotauros, entregados por su dios a los Caballeros de Takhisis, se ven obligados a luchar a su lado cuando los ejércitos de Caos invaden Ansalon. El guerrero Aryx tiene que unir a su pueblo y a sus enemigos para sobrevivir.\n\nEs una novela de la serie The Chaos War sobre los minotauros de Krynn. Se publicó en castellano como Monstruos del Mar Sangriento.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?168593",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-05",
+      "format": "mass_market",
+      "isbn13": 9780786913459,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69728",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786913452/" }],
+      "cover": "/images/novels/reavers-of-the-blood-sea/9780786913459.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Monstruos del Mar Sangriento",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448039431,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1009",
+      "cover": "/images/novels/reavers-of-the-blood-sea/9788448039431.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Monstruos del Mar Sangriento",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723491,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24440",
+      "cover": "/images/novels/reavers-of-the-blood-sea/9788448723491.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B007RHD934/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RHD934/" }]
+    }
+  ]
+}

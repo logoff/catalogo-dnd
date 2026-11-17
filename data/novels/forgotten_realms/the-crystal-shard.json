@@ -1,0 +1,168 @@
+{
+  "slug": "the-crystal-shard",
+  "title": "The Crystal Shard",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-icewind-dale",
+    "number": 1
+  },
+  "date": "1988-01",
+  "description": "Akar Kessell, un aprendiz de mago mediocre, encuentra enterrada en la nieve Crenshinibon, la Piedra de Cristal, un artefacto antiguo con voluntad propia que lo empuja a reunir un ejército de goblins, orcos y gigantes para conquistar Diez Ciudades, en el valle del Viento Helado. Frente a él solo están el enano Bruenor Battlehammer, el joven bárbaro Wulfgar, el halfling Regis y un elfo oscuro que ha renegado de los suyos: Drizzt Do'Urden.\n\nFue la primera novela de R. A. Salvatore y la primera aparición de Drizzt, que se convertiría en el personaje más popular de los Reinos Olvidados. Abre la trilogía del valle del Viento Helado.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12821",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1988-01",
+      "format": "mass_market",
+      "isbn13": 9780880385350,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37691",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0880385359/"
+        }
+      ],
+      "cover": "/images/novels/the-crystal-shard/9780880385350.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1988-08",
+      "format": "mass_market",
+      "isbn13": 9780140111378,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37690",
+      "cover": "/images/novels/the-crystal-shard/9780140111378.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-04",
+      "format": "hardcover",
+      "isbn13": 9780786936137,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68782",
+      "cover": "/images/novels/the-crystal-shard/9780786936137.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-01",
+      "format": "mass_market",
+      "isbn13": 9780786942466,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?95481",
+      "cover": "/images/novels/the-crystal-shard/9780786942466.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954049,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486730",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B000SEIJNI/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-09-24",
+      "format": "paperback",
+      "isbn13": 9780593873090,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1016911",
+      "cover": "/images/novels/the-crystal-shard/9780593873090.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La piedra de cristal",
+      "publisher": "Timun Mas",
+      "date": "1990",
+      "format": "mass_market",
+      "isbn13": 9788477224457,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/249",
+      "cover": "/images/novels/the-crystal-shard/9788477224457.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La piedra de cristal",
+      "publisher": "Timun Mas",
+      "date": "2007",
+      "isbn13": 9788448037857,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15803",
+      "cover": "/images/novels/the-crystal-shard/9788448037857.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La piedra de cristal",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723644,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24082",
+      "cover": "/images/novels/the-crystal-shard/9788448723644.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La piedra de cristal",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "ebook",
+      "isbn13": 9788448008147,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/39031",
+      "cover": "/images/novels/the-crystal-shard/9788448008147.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La piedra de cristal",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011089,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71834",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011081/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-valle-del-viento-helado-n-01-03-la-piedra-de-cristal/9788445011089/13022032"
+        }
+      ],
+      "cover": "/images/novels/the-crystal-shard/9788445011089.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La piedra de cristal",
+      "publisher": "Minotauro",
+      "date": "2022-06-29",
+      "format": "ebook",
+      "isbn13": 9788445013861,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/84000",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B1LCG42H/"
+        }
+      ],
+      "cover": "/images/novels/the-crystal-shard/9788445013861.webp"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "emperor-of-ansalon",
+  "title": "Emperor of Ansalon",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-villains", "number": 3 },
+  "date": "1993-12",
+  "description": "Ariakas, guerrero, mago y noble, ha llegado a Emperador de Ansalon con la ayuda de Takhisis, la Reina de la Oscuridad. Pero su ambición tiene un límite peligroso: el de su propia señora.\n\nEs la tercera novela de Villains y retrata al gran comandante de los ejércitos de los Dragones. En castellano se tituló Emperador de Ansalon.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12964",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-12",
+      "format": "mass_market",
+      "isbn13": 9781560766803,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11186",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766808/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Emperador de Ansalon",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448039295,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/333",
+      "cover": "/images/novels/emperor-of-ansalon/9788448039295.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Emperador de Ansalon",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723514,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24351",
+      "cover": "/images/novels/emperor-of-ansalon/9788448723514.webp"
+    }
+  ]
+}

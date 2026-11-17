@@ -1,0 +1,22 @@
+{
+  "slug": "lord-of-the-necropolis",
+  "title": "Lord of the Necropolis",
+  "authors": ["Gene DeWeese"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1997-10",
+  "description": "Continúa la historia de Azalin, el Rey de los Muertos.\n\nNovela de Ravenloft de Gene DeWeese, continuación de King of the Dead.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?10037",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1997-10",
+      "format": "mass_market",
+      "isbn13": 9780786906604,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27424",
+      "cover": "/images/novels/lord-of-the-necropolis/9780786906604.webp"
+    }
+  ]
+}

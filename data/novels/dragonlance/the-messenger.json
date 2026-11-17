@@ -1,0 +1,56 @@
+{
+  "slug": "the-messenger",
+  "title": "The Messenger",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-icewall", "number": 1 },
+  "date": "2001-02",
+  "description": "Kerrick, un elfo de Silvanesti exiliado en el Muro de Hielo, encuentra allí a unos pobladores bárbaros que resisten a los restos de un imperio ogro decidido a dominar de nuevo las planicies heladas.\n\nEs la primera novela de la trilogía The Icewall. En castellano se publicó como El mensajero.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?31941",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-02",
+      "format": "mass_market",
+      "isbn13": 9780786915712,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?44095",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786915714/" }],
+      "cover": "/images/novels/the-messenger/9780786915712.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-03-13",
+      "format": "ebook",
+      "isbn13": 9780786962778,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038399",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1HP8/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mensajero",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "mass_market",
+      "isbn13": 9788448032821,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2119",
+      "cover": "/images/novels/the-messenger/9788448032821.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El mensajero",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723484,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24350",
+      "cover": "/images/novels/the-messenger/9788448723484.webp"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "i-strahd-the-memoirs-of-a-vampire",
+  "title": "I, Strahd: The Memoirs of a Vampire",
+  "authors": ["P. N. Elrod"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "series": { "id": "ravenloft-i-strahd", "number": 1 },
+  "date": "1993-09",
+  "description": "Strahd von Zarovich, conquistador de Barovia, cuenta en primera persona cómo, celoso del amor entre su hermano Sergei y la joven Tatyana, sella un pacto con la muerte que lo convierte en vampiro.\n\nPrimera novela de I, Strahd, de P. N. Elrod; las memorias del villano más famoso de Ravenloft.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?954028",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-09",
+      "isbn13": 9781560766704,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9781560766704&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560766700/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-11",
+      "format": "paperback",
+      "isbn13": 9780786941230,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?278088",
+      "cover": "/images/novels/i-strahd-the-memoirs-of-a-vampire/9780786941230.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-16",
+      "format": "ebook",
+      "isbn13": 9780786964727,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457039",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT0W2/" }]
+    }
+  ]
+}

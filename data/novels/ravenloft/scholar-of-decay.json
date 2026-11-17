@@ -1,0 +1,54 @@
+{
+  "slug": "scholar-of-decay",
+  "title": "Scholar of Decay",
+  "authors": ["Tanya Huff"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1995-12",
+  "description": "En busca de un libro de conjuros oculto, el erudito Aurek Nuiken y su hermano Dmitri exploran la ciudad subterránea de Richemulot, entre hombres rata y su propia rivalidad.\n\nNovela de Ravenloft de Tanya Huff.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?7505",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-12",
+      "format": "mass_market",
+      "isbn13": 9780786902064,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27426",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078690206X/" }],
+      "cover": "/images/novels/scholar-of-decay/9780786902064.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-10",
+      "format": "paperback",
+      "isbn13": 9780786947003,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?314556",
+      "cover": "/images/novels/scholar-of-decay/9780786947003.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-23",
+      "format": "ebook",
+      "isbn13": 9780786964734,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457044",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT10I/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La venganza de Aurek",
+      "publisher": "Timun Mas",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448036751,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23364",
+      "cover": "/images/novels/scholar-of-decay/9788448036751.webp"
+    }
+  ]
+}

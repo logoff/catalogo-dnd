@@ -1,0 +1,45 @@
+{
+  "slug": "the-last-thane",
+  "title": "The Last Thane",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-chaos-war", "number": 1 },
+  "date": "1998-06",
+  "description": "El ejército de los hylars ha marchado contra los Caballeros de Takhisis y los clanes de enanos oscuros de Thorbardin ven llegada su oportunidad. Asediados en su propia fortaleza, los hylars luchan por sobrevivir mientras las fuerzas de Caos se suman a la batalla.\n\nEs una de las novelas de la serie The Chaos War, que cuenta lo que ocurrió en distintos rincones de Krynn durante Dragons of Summer Flame. En castellano se publicó como El último thane.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?31807",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-06",
+      "format": "mass_market",
+      "isbn13": 9780786911721,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?42879",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786911727/" }],
+      "cover": "/images/novels/the-last-thane/9780786911721.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-03",
+      "format": "ebook",
+      "isbn13": 9780786962860,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038392",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1H26/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El último Thane",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448039189,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/52",
+      "cover": "/images/novels/the-last-thane/9788448039189.webp"
+    }
+  ]
+}

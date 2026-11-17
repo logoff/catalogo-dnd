@@ -8,7 +8,8 @@ en inglés y en castellano de Dungeons & Dragons de las ediciones
 5E (2014) y 5.5E (2024), de todos los videojuegos oficiales de D&D,
 con las plataformas, si están en castellano y dónde comprarlos, y del
 merchandising con licencia oficial (libros de cocina y de arte, figuras,
-LEGO y juegos de mesa).
+LEGO y juegos de mesa) y de las novelas oficiales de D&D en inglés con
+todas sus ediciones en castellano.
 
 **🌐 Consulta el catálogo en [catalogodnd.es](https://catalogodnd.es/)**
 
@@ -94,6 +95,16 @@ idioma; las ediciones en castellano indican si se publicaron en España.
 La lista maestra es `data/merchandising/inventory.md`, y la skill
 `add-merchandise` explica cómo dar de alta artículos.
 
+## Novelas
+
+La sección `/novelas` reúne todas las novelas oficiales de D&D en inglés
+(Dragonlance, Reinos Olvidados, Eberron…) con todas sus ediciones en
+inglés y en castellano. Cada novela es un JSON en
+`data/novels/<mundo>/<slug>.json`; las series y sus recopilatorios están
+en `data/novels/series.json`. La lista maestra es
+`data/novels/inventory.md`, la skill `add-novel` explica cómo dar de alta
+novelas y `just novel-covers` descarga y convierte sus portadas.
+
 ## Enlaces de afiliado
 
 Los botones de compra llevan ID de afiliado solo si están definidas
@@ -110,6 +121,7 @@ se publica sin afiliado:
 | `VITE_AFFILIATE_INSTANT_GAMING_REFERRAL`     | Código de referido de Instant Gaming (`igr`)    |
 | `VITE_AFFILIATE_AWIN_PUBLISHER`              | ID de publisher en Awin (común a sus tiendas)   |
 | `VITE_AFFILIATE_FANATICAL_PROGRAM`           | ID del anunciante Fanatical en Awin             |
+| `VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM`      | ID del anunciante Casa del Libro en Awin        |
 
 En el despliegue se leen de los secretos del repositorio con el mismo
 nombre sin el prefijo `VITE_`. En local se pueden poner en `.env`.

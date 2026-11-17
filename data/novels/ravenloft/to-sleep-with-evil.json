@@ -1,0 +1,43 @@
+{
+  "slug": "to-sleep-with-evil",
+  "title": "To Sleep with Evil",
+  "authors": ["Andria Cardarelle"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1996-09",
+  "description": "Novela de Ravenloft de Andria Cardarelle.\n\nNo tiene edición en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?23111",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-09",
+      "format": "mass_market",
+      "isbn13": 9780786905157,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?51812",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786905158/" }],
+      "cover": "/images/novels/to-sleep-with-evil/9780786905157.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-03",
+      "format": "paperback",
+      "isbn13": 9780786943173,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?312237",
+      "cover": "/images/novels/to-sleep-with-evil/9780786943173.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-16",
+      "format": "ebook",
+      "isbn13": 9780786964710,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457023",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT0O0/" }]
+    }
+  ]
+}

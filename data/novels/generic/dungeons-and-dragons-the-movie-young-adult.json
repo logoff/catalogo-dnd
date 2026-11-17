@@ -1,0 +1,23 @@
+{
+  "slug": "dungeons-and-dragons-the-movie-young-adult",
+  "title": "Dungeons & Dragons: The Movie (A D&D Young Adult Novel)",
+  "authors": ["Steve Atley"],
+  "setting": "generic",
+  "kind": "young_adult",
+  "date": "2000-11",
+  "description": "La joven emperatriz de Izmer se une a dos ladrones, una exploradora elfa, una aprendiz de hechicera y un enano para salvar el trono de un mago malvado.\n\nAdaptación juvenil de la película Dungeons & Dragons (2000).",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26101",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-12",
+      "format": "paperback",
+      "isbn13": 9780786917853,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11650",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786917857/" }],
+      "cover": "/images/novels/dungeons-and-dragons-the-movie-young-adult/9780786917853.webp"
+    }
+  ]
+}

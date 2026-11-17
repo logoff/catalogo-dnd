@@ -1,0 +1,24 @@
+{
+  "slug": "pawns-prevail",
+  "title": "Pawns Prevail",
+  "authors": ["Douglas Niles"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-first-quest", "number": 3 },
+  "date": "1995-05",
+  "description": "Una aventura de la serie First Quest, pensada como puerta de entrada a Dungeons & Dragons.\n\nNovela de Douglas Niles.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12959",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-05",
+      "format": "mass_market",
+      "isbn13": 9781560768548,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?13830",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768541/" }],
+      "cover": "/images/novels/pawns-prevail/9781560768548.webp"
+    }
+  ]
+}

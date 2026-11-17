@@ -1,0 +1,189 @@
+{
+  "slug": "exile",
+  "title": "Exile",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-dark-elf",
+    "number": 2
+  },
+  "date": "1990-12",
+  "description": "Drizzt ha abandonado Menzoberranzan y sobrevive en los túneles de la Antípoda Oscura con la única compañía de la pantera mágica Guenhwyvar. Su familia lo persigue para recuperar el favor de Lolth, y en su huida encuentra aliados inesperados entre los svirfneblin, los gnomos de las profundidades.\n\nSegunda novela de la trilogía del Elfo Oscuro.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12816",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-12",
+      "format": "mass_market",
+      "isbn13": 9780880389204,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14296",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0880389206/"
+        }
+      ],
+      "cover": "/images/novels/exile/9780880389204.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-03",
+      "format": "mass_market",
+      "isbn13": 9780140143768,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14295"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-06",
+      "format": "hardcover",
+      "isbn13": 9780786931262,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?12739",
+      "cover": "/images/novels/exile/9780786931262.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-03",
+      "format": "mass_market",
+      "isbn13": 9780786939831,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?81965",
+      "cover": "/images/novels/exile/9780786939831.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954025,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486731",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002CCNA1K/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2024-05-21",
+      "format": "paperback",
+      "isbn13": 9780593873076,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1000118",
+      "cover": "/images/novels/exile/9780593873076.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448037109,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/243",
+      "cover": "/images/novels/exile/9788448037109.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Círculo de Lectores",
+      "date": "2003",
+      "format": "hardcover",
+      "isbn13": 9788467200454,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15262",
+      "cover": "/images/novels/exile/9788467200454.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Planeta DeAgostini",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9788467418712,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24359",
+      "cover": "/images/novels/exile/9788467418712.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722524,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24086",
+      "cover": "/images/novels/exile/9788448722524.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "isbn13": 9788448037772,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/46751",
+      "cover": "/images/novels/exile/9788448037772.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Timun Mas",
+      "date": "2012-11-27",
+      "format": "ebook",
+      "isbn13": 9788448008123,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101949",
+      "cover": "/images/novels/exile/9788448008123.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Minotauro",
+      "date": "2022-06",
+      "format": "paperback",
+      "isbn13": 9788445011096,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/71836",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/844501109X/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-elfo-oscuro-n-02-03-el-exilio/9788445011096/12966281"
+        }
+      ],
+      "cover": "/images/novels/exile/9788445011096.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El exilio",
+      "publisher": "Minotauro",
+      "date": "2022-06-22",
+      "format": "ebook",
+      "isbn13": 9788445013656,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/101947",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09ZWV2KGB/"
+        }
+      ],
+      "cover": "/images/novels/exile/9788445013656.webp"
+    }
+  ]
+}

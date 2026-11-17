@@ -1,0 +1,65 @@
+{
+  "slug": "azure-bonds",
+  "title": "Azure Bonds",
+  "authors": ["Kate Novak", "Jeff Grubb"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-finders-stone", "number": 1 },
+  "date": "1988-10",
+  "description": "Alias despierta sin recuerdos en una posada con unos extraños tatuajes azules en el brazo que la obligan a obedecer a desconocidos. Con la ayuda del paladín saurio Dragonbait y de la barda halfling Olive Ruskettle, intenta descubrir quién la ha marcado y por qué.\n\nPrimera novela de la trilogía de la Piedra del Buscador, de Kate Novak y Jeff Grubb, adaptada después al videojuego Curse of the Azure Bonds.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?15929",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1988-10",
+      "format": "mass_market",
+      "isbn13": 9780880386128,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14277",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880386126/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1989-03",
+      "format": "mass_market",
+      "isbn13": 9780140121308,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14276"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-24",
+      "format": "ebook",
+      "isbn13": 9780786963140,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464700",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1E24/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El tatuaje azul",
+      "publisher": "Timun Mas",
+      "date": "1989",
+      "format": "mass_market",
+      "isbn13": 9788477224235,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/236",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477224234/" }],
+      "cover": "/images/novels/azure-bonds/9788477224235.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El tatuaje azul",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725846,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36939",
+      "cover": "/images/novels/azure-bonds/9788448725846.webp"
+    }
+  ]
+}

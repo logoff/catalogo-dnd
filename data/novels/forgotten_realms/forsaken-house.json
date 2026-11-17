@@ -1,0 +1,34 @@
+{
+  "slug": "forsaken-house",
+  "title": "Forsaken House",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-last-mythal", "number": 1 },
+  "date": "2004-08",
+  "description": "Araevin, un mago elfo de Evereska, arriesga la vida y la razón para enfrentarse a la Casa Dlardrageth, una antigua estirpe de elfos del sol con sangre demoníaca que ha jurado vengarse de los reinos élficos.\n\nPrimera novela de la trilogía del Último Mythal, de Richard Baker.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?28661",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-08",
+      "format": "mass_market",
+      "isbn13": 9780786932603,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14375",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786932600/" }],
+      "cover": "/images/novels/forsaken-house/9780786932603.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-25",
+      "format": "ebook",
+      "isbn13": 9780786956791,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482358",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EN2/" }]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "corsair",
+  "title": "Corsair",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-blades-of-the-moonsea", "number": 2 },
+  "date": "2009-03",
+  "description": "Cuando los piratas amenazan su hogar, Geran recibe el encargo de encontrar su base y detenerlos, pero los piratas buscan algo más que botín.\n\nSegunda novela de la trilogía de las Espadas del Mar de la Luna.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1075816",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-03-03",
+      "format": "hardcover",
+      "isbn13": 9780786951154,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?307103",
+      "cover": "/images/novels/corsair/9780786951154.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-11-03",
+      "format": "mass_market",
+      "isbn13": 9780786953073,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?330028",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786953071/" }],
+      "cover": "/images/novels/corsair/9780786953073.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-06",
+      "format": "ebook",
+      "isbn13": 9780786956159,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483454",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00333FGK0/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Corsario",
+      "publisher": "Timun Mas",
+      "date": "2010",
+      "format": "hardcover",
+      "isbn13": 9788448038359,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/28318",
+      "cover": "/images/novels/corsair/9788448038359.webp"
+    }
+  ]
+}

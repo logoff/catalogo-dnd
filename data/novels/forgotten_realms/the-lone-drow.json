@@ -1,0 +1,125 @@
+{
+  "slug": "the-lone-drow",
+  "title": "The Lone Drow",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": {
+    "id": "fr-hunters-blades",
+    "number": 2
+  },
+  "date": "2003-10",
+  "description": "Convencido de que sus amigos han muerto, Drizzt se convierte en el Cazador y libra una guerra solitaria contra el ejército de Obould. Mientras, en Mithril Hall, los enanos se preparan para resistir el asedio de los orcos.\n\nSegunda novela de Las espadas del cazador.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24712",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "hardcover",
+      "isbn13": 9780786930128,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43231",
+      "cover": "/images/novels/the-lone-drow/9780786930128.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-06",
+      "format": "mass_market",
+      "isbn13": 9780786932283,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?43230",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786932287/"
+        }
+      ],
+      "cover": "/images/novels/the-lone-drow/9780786932283.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06-23",
+      "format": "ebook",
+      "isbn13": 9780786954155,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?486741",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B002DNZFZ2/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Worlds",
+      "date": "2026-03-17",
+      "format": "paperback",
+      "isbn13": 9798217298754,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1094006"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los senderos de la muerte",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "isbn13": 9788448037635,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15052",
+      "cover": "/images/novels/the-lone-drow/9788448037635.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los senderos de la muerte",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725853,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36933",
+      "cover": "/images/novels/the-lone-drow/9788448725853.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los senderos de la muerte",
+      "publisher": "Minotauro",
+      "date": "2024-11-13",
+      "format": "paperback",
+      "isbn13": 9788445010990,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78829",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445010999/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-las-espadas-del-cazador-n-02-03-los-senderos-de-la-muerte/9788445010990/16300985"
+        }
+      ],
+      "cover": "/images/novels/the-lone-drow/9788445010990.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los senderos de la muerte",
+      "publisher": "Minotauro",
+      "date": "2024-11-13",
+      "format": "ebook",
+      "isbn13": 9788445019320,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78830",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DGPY2V3W/"
+        }
+      ],
+      "cover": "/images/novels/the-lone-drow/9788445019320.webp"
+    }
+  ]
+}

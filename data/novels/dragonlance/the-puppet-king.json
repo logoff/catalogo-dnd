@@ -1,0 +1,56 @@
+{
+  "slug": "the-puppet-king",
+  "title": "The Puppet King",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-chaos-war", "number": 3 },
+  "date": "1999-02",
+  "description": "Porthios, proscrito por los senadores élficos, regresa para encabezar una rebelión contra su sobrino Gilthas, el joven Orador de los Soles de Qualinesti, mientras los dragones verdes y los Caballeros de Takhisis amenazan a los elfos.\n\nEs una novela de la serie The Chaos War, llena de intrigas élficas. En castellano se tituló Gilthas, orador de los soles.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26770",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1999-02",
+      "format": "mass_market",
+      "isbn13": 9780786913244,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?45718",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078691324X/" }],
+      "cover": "/images/novels/the-puppet-king/9780786913244.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-10",
+      "format": "ebook",
+      "isbn13": 9780786962921,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038390",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1HYO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Gilthas, orador de los soles",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448039288,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/332",
+      "cover": "/images/novels/the-puppet-king/9788448039288.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Gilthas, orador de los soles",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448721992,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24439",
+      "cover": "/images/novels/the-puppet-king/9788448721992.webp"
+    }
+  ]
+}

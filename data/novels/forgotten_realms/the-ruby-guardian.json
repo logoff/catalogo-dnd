@@ -1,0 +1,34 @@
+{
+  "slug": "the-ruby-guardian",
+  "title": "The Ruby Guardian",
+  "authors": ["Thomas M. Reid"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-scions-of-arrabar", "number": 2 },
+  "date": "2004-11",
+  "description": "Continúan las intrigas políticas de la sociedad mercenaria de Arrabar.\n\nSegunda novela de la trilogía de los Herederos de Arrabar.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?156711",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-11",
+      "format": "mass_market",
+      "isbn13": 9780786933822,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67384",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786933828/" }],
+      "cover": "/images/novels/the-ruby-guardian/9780786933822.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-04-02",
+      "format": "ebook",
+      "isbn13": 9780786956975,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481614",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4BLC/" }]
+    }
+  ]
+}

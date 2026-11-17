@@ -1,0 +1,101 @@
+{
+  "slug": "downfall",
+  "title": "Downfall",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-dhamon-saga",
+    "number": 1
+  },
+  "date": "2000-05",
+  "description": "Dhamon Grimwulf, el antiguo héroe, se ha hundido en una vida de crimen. Mientras los dragones señores de la Quinta Era consolidan su poder, sus viejos amigos Rig y Fiona vuelven a necesitarlo, y él tendrá que encontrar fuerzas para redimirse.\n\nEs la primera novela de The Dhamon Saga, que continúa la trilogía Dragons of a New Age. Se publicó en castellano como El héroe caído.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24885",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-05",
+      "format": "hardcover",
+      "isbn13": 9780786915729,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?238933",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786915722/"
+        }
+      ],
+      "cover": "/images/novels/downfall/9780786915729.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-03",
+      "format": "mass_market",
+      "isbn13": 9780786918140,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?10792",
+      "cover": "/images/novels/downfall/9780786918140.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El héroe caído",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "isbn13": 9788448032784,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2161",
+      "cover": "/images/novels/downfall/9788448032784.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El héroe caído",
+      "publisher": "Planeta DeAgostini",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788467425185,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/15571",
+      "cover": "/images/novels/downfall/9788467425185.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El héroe caído",
+      "publisher": "Minotauro",
+      "date": "2026-03-04",
+      "format": "paperback",
+      "isbn13": 9788445011539,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/79700",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011537/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-heroe-caido-la-saga-de-dhamon-1/9788445011539/17848158"
+        }
+      ],
+      "cover": "/images/novels/downfall/9788445011539.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El héroe caído",
+      "publisher": "Minotauro",
+      "date": "2026-03-04",
+      "format": "ebook",
+      "isbn13": 9788445022207,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/82090",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GMGHS13G/"
+        }
+      ],
+      "cover": "/images/novels/downfall/9788445022207.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "wizards-return",
+  "title": "Wizard's Return",
+  "authors": ["Dan Willis"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-trinistyr", "number": 3 },
+  "date": "2006-05",
+  "description": "Nearra intenta por fin recuperar su magia en el desenlace de la trilogía.\n\nEs la novela que cierra The Trinistyr Trilogy, de la serie juvenil Dragonlance: The New Adventures. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?181385",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2006-05",
+      "format": "paperback",
+      "isbn13": 9780786940257,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?82508",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940255/" }],
+      "cover": "/images/novels/wizards-return/9780786940257.webp"
+    }
+  ]
+}

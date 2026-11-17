@@ -1,0 +1,24 @@
+{
+  "slug": "rogues-to-riches",
+  "title": "Rogues to Riches",
+  "authors": ["J. Robert King"],
+  "setting": "mystara",
+  "kind": "novel",
+  "series": { "id": "mystara-first-quest", "number": 1 },
+  "date": "1995-02",
+  "description": "Dos ladrones roban una rosa a dos paladines sin saber que está maldita, y deben completar una peligrosa misión para librarse de la maldición sin que los paladines los atrapen.\n\nNovela de la serie First Quest, de J. Robert King.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?7115",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-02",
+      "format": "mass_market",
+      "isbn13": 9781560768258,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?28461",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768258/" }],
+      "cover": "/images/novels/rogues-to-riches/9781560768258.webp"
+    }
+  ]
+}

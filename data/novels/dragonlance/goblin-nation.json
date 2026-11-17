@@ -1,0 +1,33 @@
+{
+  "slug": "goblin-nation",
+  "title": "Goblin Nation",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-stonetellers", "number": 3 },
+  "date": "2009-10",
+  "description": "El ejército de Direfang llega al bosque de Qualinesti, lejos de los Caballeros Oscuros pero no a salvo, y arriesga todo en un último intento de fundar una patria propia.\n\nEs la novela que cierra The Stonetellers. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1017367",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-10-06",
+      "format": "mass_market",
+      "isbn13": 9780786951536,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?293022",
+      "cover": "/images/novels/goblin-nation/9780786951536.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01-13",
+      "format": "ebook",
+      "isbn13": 9780786956449,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483467",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034184RS/" }]
+    }
+  ]
+}

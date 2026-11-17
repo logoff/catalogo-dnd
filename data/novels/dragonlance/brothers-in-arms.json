@@ -1,0 +1,78 @@
+{
+  "slug": "brothers-in-arms",
+  "title": "Brothers in Arms",
+  "authors": ["Margaret Weis", "Don Perrin"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-raistlin-chronicles", "number": 2 },
+  "date": "1999-08",
+  "description": "Recién superada la Prueba, Raistlin y Caramon se enrolan como mercenarios y acaban en el asedio de la ciudad de Última Esperanza, donde Raistlin tendrá que renunciar a sus ideales para salvarse y salvar a su hermano. Al mismo tiempo, Kitiara inicia su ascenso como futura Señora del Dragón.\n\nEs la segunda novela de The Raistlin Chronicles y continúa Raistlin, crisol de la magia. Se publicó en castellano como Raistlin, el túnica roja.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25933",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "1999-08",
+      "format": "mass_market",
+      "isbn13": 9780786914296,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?225037",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786914297/" }],
+      "cover": "/images/novels/brothers-in-arms/9780786914296.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-10-11",
+      "format": "ebook",
+      "isbn13": 9780786961658,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475697",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005K98QCA/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Raistlin, el túnica roja",
+      "publisher": "Timun Mas",
+      "date": "2000",
+      "format": "mass_market",
+      "isbn13": 9788448031909,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/947",
+      "cover": "/images/novels/brothers-in-arms/9788448031909.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Raistlin, el túnica roja",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "format": "mass_market",
+      "isbn13": 9788448033514,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/19922",
+      "cover": "/images/novels/brothers-in-arms/9788448033514.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Raistlin, el túnica roja",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448723453,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24492",
+      "cover": "/images/novels/brothers-in-arms/9788448723453.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Raistlin, el túnica roja",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448005184,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/36229",
+      "cover": "/images/novels/brothers-in-arms/9788448005184.webp"
+    }
+  ]
+}

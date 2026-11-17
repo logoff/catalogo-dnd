@@ -1,0 +1,31 @@
+{
+  "slug": "legacy-of-wolves",
+  "title": "Legacy of Wolves",
+  "authors": ["Marsheila Rockwell"],
+  "setting": "eberron",
+  "kind": "novel",
+  "series": { "id": "eberron-inquisitives", "number": 2 },
+  "date": "2007-06",
+  "description": "Una serie de asesinatos sacude Aruldusk, y los agentes que envían la Iglesia y la Corona tendrán que colaborar para atrapar a los culpables.\n\nNovela de la serie The Inquisitives, de Marsheila Rockwell.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1105100",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-06",
+      "format": "mass_market",
+      "isbn13": 9780786942930,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?99561",
+      "cover": "/images/novels/legacy-of-wolves/9780786942930.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B007SX5V4W/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007SX5V4W/" }]
+    }
+  ]
+}

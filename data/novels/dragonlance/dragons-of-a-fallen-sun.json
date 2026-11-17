@@ -1,0 +1,140 @@
+{
+  "slug": "dragons-of-a-fallen-sun",
+  "title": "Dragons of a Fallen Sun",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": {
+    "id": "dragonlance-war-of-souls",
+    "number": 1
+  },
+  "date": "2000-03",
+  "description": "Tras la Guerra de Caos, los dioses han abandonado Krynn y enormes dragones señores dominan Ansalon. En plena tormenta aparece Mina, una joven sin pasado que habla en nombre de un misterioso Dios Único y arrastra a su causa a los Caballeros de Neraka con milagros que nadie sabe explicar. A su paso coinciden un joven caballero solámnico, un elfo exiliado y una anciana Goldmoon.\n\nEs la primera novela de La guerra de los espíritus, la trilogía de la Quinta Era con la que Weis y Hickman volvieron a la historia principal de Dragonlance. Continúa Dragons of Summer Flame y recupera a personajes clásicos como Goldmoon, Tasslehoff o Dalamar.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26089",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-03",
+      "format": "hardcover",
+      "isbn13": 9780786915644,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11244",
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9780786915644.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-01",
+      "format": "mass_market",
+      "isbn13": 9780786918072,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11245",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786918071/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9780786918072.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-24",
+      "format": "ebook",
+      "isbn13": 9780786954483,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472867",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004J4WN6M/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9780786954483.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Neraka",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "hardcover",
+      "isbn13": 9788448032197,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1012",
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9788448032197.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Neraka",
+      "publisher": "Timun Mas",
+      "date": "2006",
+      "format": "mass_market",
+      "isbn13": 9788448035310,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23116",
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9788448035310.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Neraka",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721343,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24268",
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9788448721343.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Neraka",
+      "publisher": "Timun Mas",
+      "date": "2011",
+      "format": "paperback",
+      "isbn13": 9788448038861,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/33989",
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9788448038861.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Neraka",
+      "publisher": "Minotauro",
+      "date": "2024",
+      "format": "paperback",
+      "isbn13": 9788445011461,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78851",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011464/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-guerra-de-los-espiritus-n-01-03-los-caballeros-de-neraka/9788445011461/13608318"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9788445011461.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Neraka",
+      "publisher": "Minotauro",
+      "date": "2024-06-12",
+      "format": "ebook",
+      "isbn13": 9788445015834,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/78852",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CPFZ1NNG/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-a-fallen-sun/9788445015834.webp"
+    }
+  ]
+}

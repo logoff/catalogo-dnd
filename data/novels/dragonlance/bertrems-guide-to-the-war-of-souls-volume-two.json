@@ -1,0 +1,23 @@
+{
+  "slug": "bertrems-guide-to-the-war-of-souls-volume-two",
+  "title": "Bertrem's Guide to the War of Souls, Volume Two",
+  "authors": ["Mary H. Herbert", "Don Perrin", "Stan Brown"],
+  "setting": "dragonlance",
+  "kind": "fiction_guide",
+  "series": { "id": "dragonlance-bertrems-guides", "number": 3 },
+  "date": "2002-11",
+  "description": "Una segunda colección de cartas, informes, relatos y ensayos sobre la vida diaria en Krynn durante la Guerra de los Espíritus, reunida por el bibliotecario Bertrem.\n\nEs el segundo volumen de la guía narrativa sobre La guerra de los espíritus. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1664440",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-11",
+      "format": "mass_market",
+      "isbn13": 9780786928163,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4064",
+      "cover": "/images/novels/bertrems-guide-to-the-war-of-souls-volume-two/9780786928163.webp"
+    }
+  ]
+}

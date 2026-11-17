@@ -1,0 +1,32 @@
+{
+  "slug": "dawnbringer",
+  "title": "Dawnbringer",
+  "authors": ["Samantha Henderson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2011-05",
+  "description": "Dos ángeles encarnados son enviados a proteger a dos amantes de casas mercantes rivales, mientras el odio se extiende hasta corromperlo todo.\n\nNovela independiente de Samantha Henderson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?1262066",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-03",
+      "format": "mass_market",
+      "isbn13": 9780786957941,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?347546",
+      "cover": "/images/novels/dawnbringer/9780786957941.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05-03",
+      "format": "ebook",
+      "isbn13": 9780786959174,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?472875",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004LGTS84/" }]
+    }
+  ]
+}

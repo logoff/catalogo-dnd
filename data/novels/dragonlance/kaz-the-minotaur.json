@@ -1,0 +1,75 @@
+{
+  "slug": "kaz-the-minotaur",
+  "title": "Kaz the Minotaur",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-heroes-ii", "number": 1 },
+  "date": "1990-04",
+  "description": "Tras la muerte de Huma y la derrota de la Reina de la Oscuridad, el minotauro Kaz, su compañero de armas, vuelve a ser un proscrito. Perseguido por los suyos y por quienes no se fían de su raza, emprende un viaje en el que descubre que el mal no ha desaparecido de Krynn.\n\nEs la primera novela de Heroes II y continúa directamente La leyenda de Huma, del mismo autor. Se publicó en castellano como Kaz, el minotauro.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_fiction",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-04",
+      "isbn13": 9780880389105,
+      "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780880389105&type=ISBN",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389109/" }],
+      "cover": "/images/novels/kaz-the-minotaur/9780880389105.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kaz, el minotauro",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "hardcover",
+      "isbn13": 9788477229179,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/4456",
+      "cover": "/images/novels/kaz-the-minotaur/9788477229179.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kaz, el minotauro",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "format": "mass_market",
+      "isbn13": 9788448030964,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/571",
+      "cover": "/images/novels/kaz-the-minotaur/9788448030964.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kaz, el minotauro",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721299,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24263",
+      "cover": "/images/novels/kaz-the-minotaur/9788448721299.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Kaz, el minotauro",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006785,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37815",
+      "cover": "/images/novels/kaz-the-minotaur/9788448006785.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B0076Q1EVK/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1EVK/" }]
+    }
+  ]
+}

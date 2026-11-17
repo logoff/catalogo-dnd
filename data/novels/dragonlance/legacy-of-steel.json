@@ -1,0 +1,46 @@
+{
+  "slug": "legacy-of-steel",
+  "title": "Legacy of Steel",
+  "authors": ["Mary H. Herbert"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-bridges-of-time", "number": 2 },
+  "date": "1998-11",
+  "description": "Tres años después del Verano del Caos, Sara Dunstan, madre adoptiva de Steel Brightblade, viaja a Neraka con un dragón azul para comprobar si los Caballeros de Takhisis se están reorganizando, y lo que descubre la lleva hasta la Tumba de los Últimos Héroes.\n\nEs la segunda novela de Bridges of Time. Se publicó en castellano como El legado de Steel.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?29389",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-11",
+      "format": "mass_market",
+      "isbn13": 9780786911875,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?20108",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786911875/" }],
+      "cover": "/images/novels/legacy-of-steel/9780786911875.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El legado de Steel",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448031435,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/322",
+      "cover": "/images/novels/legacy-of-steel/9788448031435.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El legado de Steel",
+      "publisher": "Planeta DeAgostini",
+      "date": "2006",
+      "format": "hardcover",
+      "isbn13": 9788467429794,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24589",
+      "cover": "/images/novels/legacy-of-steel/9788467429794.webp"
+    }
+  ]
+}

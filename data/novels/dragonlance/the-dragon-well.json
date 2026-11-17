@@ -1,0 +1,24 @@
+{
+  "slug": "the-dragon-well",
+  "title": "The Dragon Well",
+  "authors": ["Dan Willis"],
+  "setting": "dragonlance",
+  "kind": "young_adult",
+  "series": { "id": "dragonlance-new-adventures", "number": 3 },
+  "date": "2004-09",
+  "description": "Los jóvenes compañeros de la serie continúan sus aventuras en la época dorada de Krynn, en una historia pensada para lectores a partir de unos diez años.\n\nEs la tercera novela de Dragonlance: The New Adventures, la serie juvenil de Mirrorstone con protagonistas nuevos. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?152877",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Mirrorstone",
+      "date": "2004-09",
+      "format": "paperback",
+      "isbn13": 9780786933549,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?63550",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786933542/" }],
+      "cover": "/images/novels/the-dragon-well/9780786933549.webp"
+    }
+  ]
+}

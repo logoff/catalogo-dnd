@@ -1,0 +1,66 @@
+{
+  "slug": "the-kinslayer-wars",
+  "title": "The Kinslayer Wars",
+  "authors": ["Douglas Niles"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-elven-nations", "number": 2 },
+  "date": "1991-08",
+  "description": "Kith-Kanan se enamora de una mujer humana mientras su gemelo Sithas, que gobierna Silvanesti, declara la guerra a los humanos de Ergoth. Atrapado entre su amor y la lealtad a su pueblo, Kith-Kanan combate en la Guerra de Kinslayer, que cambiará para siempre a los elfos.\n\nEs la segunda novela de The Elven Nations y narra la guerra que da origen a Qualinesti. En castellano se tituló Las guerras de Kinslayer.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12962",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-08",
+      "format": "mass_market",
+      "isbn13": 9781560761136,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11209",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/156076113X/" }],
+      "cover": "/images/novels/the-kinslayer-wars/9781560761136.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-11",
+      "format": "mass_market",
+      "isbn13": 9780786933709,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67399",
+      "cover": "/images/novels/the-kinslayer-wars/9780786933709.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-09",
+      "format": "ebook",
+      "isbn13": 9780786964697,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?526401",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT0JU/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las guerras de Kinslayer",
+      "publisher": "Timun Mas",
+      "date": "1991",
+      "format": "mass_market",
+      "isbn13": 9788448030223,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/1703",
+      "cover": "/images/novels/the-kinslayer-wars/9788448030223.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Las guerras de Kinslayer",
+      "publisher": "Timun Mas",
+      "date": "2001",
+      "format": "mass_market",
+      "isbn13": 9788448032654,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/5040",
+      "cover": "/images/novels/the-kinslayer-wars/9788448032654.webp"
+    }
+  ]
+}

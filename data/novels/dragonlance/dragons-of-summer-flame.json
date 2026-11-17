@@ -1,0 +1,238 @@
+{
+  "slug": "dragons-of-summer-flame",
+  "title": "Dragons of Summer Flame",
+  "title_es": "Los caballeros de Takhisis / La guerra de los dioses",
+  "authors": ["Margaret Weis", "Tracy Hickman"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "date": "1995-11",
+  "description": "Treinta años después de la Guerra de la Lanza, los hijos de los héroes han crecido: Palin Majere, sobrino de Raistlin, aspira a ser mago, y Steel Brightblade, hijo de Sturm y de Kitiara, sirve en los Caballeros de Takhisis, una nueva orden que lanza una invasión sobre Ansalon. Cuando una fuerza más antigua que los propios dioses despierta, enemigos de siempre tienen que unirse para que el mundo sobreviva.\n\nEs la novela con la que Weis y Hickman cerraron la Cuarta Era de Krynn con la Guerra de Caos, que cambió para siempre el mundo de Dragonlance. En castellano se publicó partida en dos tomos, Los caballeros de Takhisis y La guerra de los dioses, y también completa en un solo volumen, El ocaso de los dragones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?9769",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-11",
+      "format": "hardcover",
+      "isbn13": 9780786901890,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11262",
+      "cover": "/images/novels/dragons-of-summer-flame/9780786901890.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-11",
+      "format": "paperback",
+      "isbn13": 9780786905232,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11185"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-02",
+      "format": "mass_market",
+      "isbn13": 9780786927081,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11263",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786927089/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-summer-flame/9780786927081.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-10-11",
+      "format": "ebook",
+      "isbn13": 9780786954407,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475685",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B004J4WMPE/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-summer-flame/9780786954407.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Takhisis",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448039035,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/46",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448039035.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los dioses",
+      "publisher": "Timun Mas",
+      "date": "1996",
+      "format": "mass_market",
+      "isbn13": 9788448039042,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/47",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448039042.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El ocaso de los dragones",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "isbn13": 9788448031794,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/950",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448031794.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Takhisis",
+      "publisher": "Timun Mas",
+      "date": "2004-10",
+      "format": "mass_market",
+      "isbn13": 9788448033989,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/64854",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448033989.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los dioses",
+      "publisher": "Timun Mas",
+      "date": "2004-10",
+      "format": "mass_market",
+      "isbn13": 9788448033996,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/64851",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448033996.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Takhisis",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721282,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24242",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448721282.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los dioses",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721312,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24265",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448721312.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Takhisis",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448003647,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/35694",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448003647.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los dioses",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448003890,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/35693",
+      "cover": "/images/novels/dragons-of-summer-flame/9788448003890.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Takhisis",
+      "publisher": "Minotauro",
+      "date": "2023-01-18",
+      "format": "paperback",
+      "isbn13": 9788445011423,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83991",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445011421/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-ocaso-de-los-dragones-n-01-02-los-caballeros-de-takhisis/9788445011423/13303824"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-summer-flame/9788445011423.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los caballeros de Takhisis",
+      "publisher": "Minotauro",
+      "date": "2023-01-18",
+      "format": "ebook",
+      "isbn13": 9788445015315,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83992",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BQJR8PD2/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-summer-flame/9788445015315.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los dioses",
+      "publisher": "Minotauro",
+      "date": "2023-02-08",
+      "format": "paperback",
+      "isbn13": 9788445014646,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83993",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8445014641/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-ocaso-de-los-dragones-la-guerra-de-los-dioses/9788445014646/13430014"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-summer-flame/9788445014646.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La guerra de los dioses",
+      "publisher": "Minotauro",
+      "date": "2023-02-08",
+      "format": "ebook",
+      "isbn13": 9788445015377,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/83994",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BS1K1HD5/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-summer-flame/9788445015377.webp"
+    }
+  ]
+}

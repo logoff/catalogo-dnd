@@ -1,0 +1,65 @@
+{
+  "slug": "feathered-dragon",
+  "title": "Feathered Dragon",
+  "authors": ["Douglas Niles"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-maztica", "number": 3 },
+  "date": "1991-04",
+  "description": "La guerra entre los invasores y los pueblos de Maztica llega a su desenlace.\n\nCierra la trilogía de Maztica, de Douglas Niles.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12955",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-04",
+      "format": "mass_market",
+      "isbn13": 9781560760450,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?13413",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560760451/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-07",
+      "format": "mass_market",
+      "isbn13": 9780140145243,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14297"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-09-04",
+      "format": "ebook",
+      "isbn13": 9780786963874,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467745",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B009U9S51S/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Qotal y Zaltec",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "mass_market",
+      "isbn13": 9788448037031,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/241",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037030/" }],
+      "cover": "/images/novels/feathered-dragon/9788448037031.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Qotal y Zaltec",
+      "publisher": "Altaya",
+      "date": "2008",
+      "format": "hardcover",
+      "isbn13": 9788448725587,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/38269",
+      "cover": "/images/novels/feathered-dragon/9788448725587.webp"
+    }
+  ]
+}

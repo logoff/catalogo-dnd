@@ -1,0 +1,32 @@
+{
+  "slug": "mordenheim",
+  "title": "Mordenheim",
+  "authors": ["Chet Williamson"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1994-05",
+  "description": "Dos jóvenes nigromantes ayudan al doctor Victor Mordenheim a devolver la vida a su esposa muerta, pero su creación anterior está decidida a impedirlo.\n\nNovela de Ravenloft de Chet Williamson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13943",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-05",
+      "format": "paperback",
+      "isbn13": 9781560768524,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27425",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768525/" }],
+      "cover": "/images/novels/mordenheim/9781560768524.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "isbn13": 9780099454618,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?22796"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "spider-and-stone",
+  "title": "Spider and Stone",
+  "authors": ["Jaleigh Johnson"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "date": "2012-11",
+  "description": "Novela de Jaleigh Johnson publicada solo en formato digital.\n\nNo tiene edición en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2721689",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-11-06",
+      "format": "ebook",
+      "isbn13": 9780786964666,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?771132",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B009MY9QXM/" }],
+      "cover": "/images/novels/spider-and-stone/9780786964666.webp"
+    }
+  ]
+}

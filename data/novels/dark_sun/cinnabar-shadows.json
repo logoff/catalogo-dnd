@@ -1,0 +1,24 @@
+{
+  "slug": "cinnabar-shadows",
+  "title": "Cinnabar Shadows",
+  "authors": ["Lynn Abbey"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-chronicles-of-athas", "number": 4 },
+  "date": "1995-07",
+  "description": "Huida de la esclavitud, Maribe vive escondida bajo la ciudad hasta que el rey Hamanu la obliga a buscar a un alquimista cuyas ideas amenazan la estabilidad de Urik.\n\nNovela de las Crónicas de Athas, de Lynn Abbey.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2811",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-07",
+      "format": "mass_market",
+      "isbn13": 9780786901814,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8951",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786901810/" }],
+      "cover": "/images/novels/cinnabar-shadows/9780786901814.webp"
+    }
+  ]
+}

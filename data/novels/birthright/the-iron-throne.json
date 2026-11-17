@@ -1,0 +1,23 @@
+{
+  "slug": "the-iron-throne",
+  "title": "The Iron Throne",
+  "authors": ["Simon Hawke"],
+  "setting": "birthright",
+  "kind": "novel",
+  "date": "1995-08",
+  "description": "La lucha por el Trono de Hierro de Anuire, en la tierra de Cerilia.\n\nPrimera novela de Birthright, de Simon Hawke.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?2876",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-08",
+      "format": "mass_market",
+      "isbn13": 9780786903573,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?4568",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786903570/" }],
+      "cover": "/images/novels/the-iron-throne/9780786903573.webp"
+    }
+  ]
+}

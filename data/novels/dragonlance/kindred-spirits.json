@@ -1,0 +1,78 @@
+{
+  "slug": "kindred-spirits",
+  "title": "Kindred Spirits",
+  "authors": ["Mark Anthony", "Ellen Porath"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-meetings", "number": 1 },
+  "date": "1991-04",
+  "description": "Flint Fireforge recibe una invitación del Orador de los Soles y viaja a la ciudad élfica de Qualinost, donde conoce a un joven semielfo llamado Tanis. Cuando empiezan a aparecer nobles elfos asesinados y Tanis es acusado, los dos tendrán que demostrar su inocencia.\n\nEs la primera novela de Meetings Sextet, la serie que cuenta cómo se conocieron los Compañeros de las Crónicas. En castellano se publicó como Qualinost.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18419",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1991-04",
+      "format": "paperback",
+      "isbn13": 9781560760696,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11191",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560760699/" }],
+      "cover": "/images/novels/kindred-spirits/9781560760696.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-15",
+      "format": "ebook",
+      "isbn13": 9780786963218,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465427",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFJR8/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Qualinost",
+      "publisher": "Timun Mas",
+      "date": "1992",
+      "format": "hardcover",
+      "isbn13": 9788477229100,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24509",
+      "cover": "/images/novels/kindred-spirits/9788477229100.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Qualinost",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "format": "mass_market",
+      "isbn13": 9788448031008,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/549",
+      "cover": "/images/novels/kindred-spirits/9788448031008.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Qualinost",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721855,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24280",
+      "cover": "/images/novels/kindred-spirits/9788448721855.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Qualinost",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006815,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37817",
+      "cover": "/images/novels/kindred-spirits/9788448006815.webp"
+    }
+  ]
+}

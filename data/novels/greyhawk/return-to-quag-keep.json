@@ -1,0 +1,51 @@
+{
+  "slug": "return-to-quag-keep",
+  "title": "Return to Quag Keep",
+  "authors": ["Andre Norton", "Jean Rabe"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "date": "2005-11",
+  "description": "Treinta años después de Quag Keep, sus aventureros vuelven a Greyhawk.\n\nContinuación de Quag Keep, escrita por Andre Norton y completada por Jean Rabe tras la muerte de Norton.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?179656",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Tor",
+      "date": "2006-01",
+      "format": "hardcover",
+      "isbn13": 9780765312983,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?80781",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0765312980/" }],
+      "cover": "/images/novels/return-to-quag-keep/9780765312983.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Tor",
+      "date": "2008-01",
+      "format": "mass_market",
+      "isbn13": 9780765351524,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?239677",
+      "cover": "/images/novels/return-to-quag-keep/9780765351524.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Worldbuilders Press",
+      "date": "2018-03-06",
+      "format": "paperback",
+      "isbn13": 9781680680218,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?657767",
+      "cover": "/images/novels/return-to-quag-keep/9781680680218.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B072BWFSQB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B072BWFSQB/" }]
+    }
+  ]
+}

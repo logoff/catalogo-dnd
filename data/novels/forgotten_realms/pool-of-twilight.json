@@ -1,0 +1,35 @@
+{
+  "slug": "pool-of-twilight",
+  "title": "Pool of Twilight",
+  "authors": ["James M. Ward", "Anne K. Brown"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-pools", "number": 3 },
+  "date": "1993-11",
+  "description": "Un joven paladín busca el martillo sagrado de la iglesia de Tyr, desaparecido cuando el dios Bane, que lo había robado, fue destruido.\n\nCierra la serie de los Estanques.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?14141",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1993-11",
+      "format": "mass_market",
+      "isbn13": 9781560765820,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?14311",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560765828/" }],
+      "cover": "/images/novels/pool-of-twilight/9781560765820.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04-03",
+      "format": "ebook",
+      "isbn13": 9780786962884,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464667",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1EFG/" }],
+      "cover": "/images/novels/pool-of-twilight/9780786962884.webp"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "the-clandestine-circle",
+  "title": "The Clandestine Circle",
+  "authors": ["Mary H. Herbert"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-crossroads", "number": 1 },
+  "date": "2000-07",
+  "description": "Linsha Majere, dama de la Orden de la Rosa, se infiltra en la guardia del misterioso gobernador de Sanction por encargo del Círculo Clandestino de Solamnia. Pronto descubre que en la ciudad, amenazada por un volcán y una peste, no solo el gobernador necesita protección.\n\nEs una novela de la serie Crossroads, de historias independientes situadas en la Quinta Era, y la primera aparición de Linsha, que luego tendría su propia trilogía. En castellano se publicó como El círculo clandestino.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26627",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-07",
+      "format": "mass_market",
+      "isbn13": 9780786916108,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37200",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786916109/" }],
+      "cover": "/images/novels/the-clandestine-circle/9780786916108.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-05-21",
+      "format": "ebook",
+      "isbn13": 9780786964888,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457829",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BE24VR6/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El círculo clandestino",
+      "publisher": "Timun Mas",
+      "date": "2002",
+      "format": "mass_market",
+      "isbn13": 9788448032708,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/2120",
+      "cover": "/images/novels/the-clandestine-circle/9788448032708.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El círculo clandestino",
+      "publisher": "Timun Mas",
+      "date": "2005",
+      "format": "mass_market",
+      "isbn13": 9788448035204,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/58106",
+      "cover": "/images/novels/the-clandestine-circle/9788448035204.webp"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "baroness-of-blood",
+  "title": "Baroness of Blood",
+  "authors": ["Elaine Bergstrom"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1995-03",
+  "description": "Tras ver cómo un conquistador decapita a su padre, una joven baronesa jura venganza y, mientras gana posición en la corte del nuevo señor, trama sus planes como vampiro de almas.\n\nNovela de Ravenloft de Elaine Bergstrom.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?8906",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1995-03",
+      "format": "mass_market",
+      "isbn13": 9780786901463,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27415",
+      "cover": "/images/novels/baroness-of-blood/9780786901463.webp"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "queen-of-the-demonweb-pits",
+  "title": "Queen of the Demonweb Pits",
+  "authors": ["Paul Kidd"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-classics", "number": 5 },
+  "date": "2001-10",
+  "description": "El Justicar y Escalla se enfrentan a la reina del laberinto demoníaco.\n\nNovelización de un módulo clásico de D&D, de Paul Kidd.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?25008",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-10",
+      "format": "mass_market",
+      "isbn13": 9780786919031,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27125",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786919035/" }],
+      "cover": "/images/novels/queen-of-the-demonweb-pits/9780786919031.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2013-04-23",
+      "format": "ebook",
+      "isbn13": 9780786964741,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?457045",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00BABT0UO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La reina del laberinto demoníaco",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496422124,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23213",
+      "cover": "/images/novels/queen-of-the-demonweb-pits/9788496422124.webp"
+    }
+  ]
+}

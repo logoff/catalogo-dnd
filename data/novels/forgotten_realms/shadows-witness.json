@@ -1,0 +1,33 @@
+{
+  "slug": "shadows-witness",
+  "title": "Shadow's Witness",
+  "authors": ["Paul S. Kemp"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-sembia", "number": 1 },
+  "date": "2000-11",
+  "description": "Cuando un mal terrible se desata en Selgaunt, Cale, el leal mayordomo de la familia Uskevren, descubre que sus lazos con los bajos fondos han puesto en peligro a la familia y debe demostrar su lealtad.\n\nPrimera novela de Paul S. Kemp y presentación de Erevis Cale, dentro de la serie Sembia.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26493",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-11",
+      "format": "mass_market",
+      "isbn13": 9780786916771,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29928",
+      "cover": "/images/novels/shadows-witness/9780786916771.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-04",
+      "format": "mass_market",
+      "isbn13": 9780786942596,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?92421",
+      "cover": "/images/novels/shadows-witness/9780786942596.webp"
+    }
+  ]
+}

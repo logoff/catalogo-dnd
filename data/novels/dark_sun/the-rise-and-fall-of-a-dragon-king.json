@@ -1,0 +1,24 @@
+{
+  "slug": "the-rise-and-fall-of-a-dragon-king",
+  "title": "The Rise and Fall of a Dragon King",
+  "authors": ["Lynn Abbey"],
+  "setting": "dark_sun",
+  "kind": "novel",
+  "series": { "id": "dark-sun-chronicles-of-athas", "number": 5 },
+  "date": "1996-03",
+  "description": "Hamanu, el temido rey hechicero de Urik, se une a un plan para evitar su propia corrupción que podría destruir toda la ciudad.\n\nCierra las Crónicas de Athas, de Lynn Abbey.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?8679",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1996-03",
+      "format": "mass_market",
+      "isbn13": 9780786904761,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?8963",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786904763/" }],
+      "cover": "/images/novels/the-rise-and-fall-of-a-dragon-king/9780786904761.webp"
+    }
+  ]
+}

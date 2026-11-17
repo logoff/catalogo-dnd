@@ -1,0 +1,34 @@
+{
+  "slug": "final-gate",
+  "title": "Final Gate",
+  "authors": ["Richard Baker"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-last-mythal", "number": 3 },
+  "date": "2006-06",
+  "description": "En manos de un alto mago elfo, los mythals son la mayor fuente de poder mágico de Faerûn; en manos de una princesa demoníaca de una era olvidada, son el arma más poderosa imaginable.\n\nCierra la trilogía del Último Mythal.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?181977",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-06",
+      "format": "mass_market",
+      "isbn13": 9780786940028,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83100",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940026/" }],
+      "cover": "/images/novels/final-gate/9780786940028.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03-25",
+      "format": "ebook",
+      "isbn13": 9780786956784,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482356",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4CIY/" }]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-enemy-within",
+  "title": "The Enemy Within",
+  "authors": ["Christie Golden"],
+  "setting": "ravenloft",
+  "kind": "novel",
+  "date": "1994-02",
+  "description": "Sir Tristan Hiregaard, aterrado por sus transformaciones periódicas en Malken, un monstruo que dirige un imperio criminal, decide destruir su lado maligno.\n\nNovela de Ravenloft de Christie Golden.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?18112",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1994-02",
+      "format": "mass_market",
+      "isbn13": 9781560768876,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?27428",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560768878/" }],
+      "cover": "/images/novels/the-enemy-within/9781560768876.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12-13",
+      "format": "ebook",
+      "isbn13": 9780786961818,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476867",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN5IO/" }]
+    }
+  ]
+}

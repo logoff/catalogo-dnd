@@ -1,0 +1,24 @@
+{
+  "slug": "bertrems-guide-to-the-age-of-mortals-everyday-life-in-krynn-of-the-fifth-age",
+  "title": "Bertrem's Guide to the Age of Mortals: Everyday Life in Krynn of the Fifth Age",
+  "authors": ["Nancy Varian Berberick", "Steven Stan! Brown", "Paul B. Thompson"],
+  "setting": "dragonlance",
+  "kind": "fiction_guide",
+  "series": { "id": "dragonlance-bertrems-guides", "number": 1 },
+  "date": "2000-10",
+  "description": "Bertrem, de la Orden de los Estetas y guardián de la Gran Biblioteca de Palanthas, reúne datos, rumores, historias y cotilleos de todo Krynn en la Quinta Era: qué aprenden los niños kender, qué desayunan los enanos de Thorbardin o cómo eligen alcalde en Solace.\n\nEs una guía narrativa con relatos de varios autores, entre la novela y el libro de consulta. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?727797",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-10",
+      "format": "mass_market",
+      "isbn13": 9780786914371,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?227385",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786914378/" }],
+      "cover": "/images/novels/bertrems-guide-to-the-age-of-mortals-everyday-life-in-krynn-of-the-fifth-age/9780786914371.webp"
+    }
+  ]
+}

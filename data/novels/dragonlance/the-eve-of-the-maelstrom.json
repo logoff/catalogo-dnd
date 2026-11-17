@@ -1,0 +1,56 @@
+{
+  "slug": "the-eve-of-the-maelstrom",
+  "title": "The Eve of the Maelstrom",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-dragons-of-a-new-age", "number": 3 },
+  "date": "1998-02",
+  "description": "Malystryx, la hembra de dragón rojo, y Khellendros, el azul, luchan por hacerse con el control definitivo de Ansalon. Mientras tanto, un grupo de héroes de distintas razas trata de liberar sus tierras del dominio de los dragones.\n\nEs la novela que cierra Dragons of a New Age; la historia de Dhamon continúa en The Dhamon Saga. En castellano se tituló Conjuro de dragones.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?12038",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1998-02",
+      "format": "mass_market",
+      "isbn13": 9780786907496,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?39304",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786907495/" }],
+      "cover": "/images/novels/the-eve-of-the-maelstrom/9780786907496.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-11",
+      "format": "mass_market",
+      "isbn13": 9780786928606,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?39305",
+      "cover": "/images/novels/the-eve-of-the-maelstrom/9780786928606.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Conjuro de dragones",
+      "publisher": "Timun Mas",
+      "date": "1999",
+      "format": "mass_market",
+      "isbn13": 9788448031275,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/553",
+      "cover": "/images/novels/the-eve-of-the-maelstrom/9788448031275.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Conjuro de dragones",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721879,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24282",
+      "cover": "/images/novels/the-eve-of-the-maelstrom/9788448721879.webp"
+    }
+  ]
+}

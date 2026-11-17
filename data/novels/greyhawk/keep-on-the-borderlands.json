@@ -1,0 +1,33 @@
+{
+  "slug": "keep-on-the-borderlands",
+  "title": "Keep on the Borderlands",
+  "authors": ["Ru Emerson"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-classics", "number": 6 },
+  "date": "2001-11",
+  "description": "Aventureros en la fortaleza de la frontera, en las tierras salvajes de Greyhawk.\n\nNovelización de un módulo clásico de D&D, de Ru Emerson.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?24951",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-11",
+      "format": "mass_market",
+      "isbn13": 9780786918812,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?19322",
+      "cover": "/images/novels/keep-on-the-borderlands/9780786918812.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "La fortaleza de la frontera",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496422087,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/23212",
+      "cover": "/images/novels/keep-on-the-borderlands/9788496422087.webp"
+    }
+  ]
+}

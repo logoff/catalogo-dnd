@@ -1,0 +1,31 @@
+{
+  "slug": "the-citadel",
+  "title": "The Citadel",
+  "authors": ["Richard A. Knaak"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "date": "2000-08",
+  "description": "Un mago de túnica roja, un clérigo, un antiguo guerrero y un kender intentan detener una ciudadela voladora, el arma definitiva de los Señores de los Dragones, inventada por un mago malvado para dominar Krynn.\n\nEs una novela de la línea Dragonlance Classics ambientada durante la Guerra de la Lanza y que no exige haber leído otras. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?26626",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-08",
+      "format": "mass_market",
+      "isbn13": 9780786916832,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?37141",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786916834/" }],
+      "cover": "/images/novels/the-citadel/9780786916832.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "format": "ebook",
+      "source": "https://www.amazon.es/dp/B007RG4NDA/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG4NDA/" }]
+    }
+  ]
+}

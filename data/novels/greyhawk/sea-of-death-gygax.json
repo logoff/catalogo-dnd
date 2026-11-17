@@ -1,0 +1,24 @@
+{
+  "slug": "sea-of-death-gygax",
+  "title": "Sea of Death",
+  "authors": ["Gary Gygax"],
+  "setting": "greyhawk",
+  "kind": "novel",
+  "series": { "id": "greyhawk-gord-the-rogue", "number": 3 },
+  "date": "1987-06",
+  "description": "Nueva aventura de Gord el Pícaro.\n\nNovela de Gary Gygax publicada por New Infinities tras su salida de TSR.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?17898",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "New Infinities Productions",
+      "date": "1987-06",
+      "format": "mass_market",
+      "isbn13": 9780441756766,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?29323",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/044175676X/" }],
+      "cover": "/images/novels/sea-of-death-gygax/9780441756766.webp"
+    }
+  ]
+}

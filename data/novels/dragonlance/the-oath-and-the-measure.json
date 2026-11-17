@@ -1,0 +1,78 @@
+{
+  "slug": "the-oath-and-the-measure",
+  "title": "The Oath and the Measure",
+  "authors": ["Michael Williams"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-meetings", "number": 4 },
+  "date": "1992-05",
+  "description": "Sturm Brightblade acude a una ceremonia solámnica que se ve interrumpida por un desafío misterioso. Al aceptarlo, emprende un viaje en el que pondrá a prueba el Código y la Medida que tanto venera, con Caramon y Raistlin a su lado.\n\nEs la cuarta novela de Meetings Sextet y retrata la formación del caballero más idealista de los Compañeros. Se publicó en castellano como El código y la medida.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13957",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1992-05",
+      "format": "mass_market",
+      "isbn13": 9781560763369,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11212",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1560763361/" }],
+      "cover": "/images/novels/the-oath-and-the-measure/9781560763369.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-22",
+      "format": "ebook",
+      "isbn13": 9780786963256,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1099249",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG4HKO/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El código y la medida",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "hardcover",
+      "isbn13": 9788477229131,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/547",
+      "cover": "/images/novels/the-oath-and-the-measure/9788477229131.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El código y la medida",
+      "publisher": "Timun Mas",
+      "date": "1998",
+      "format": "mass_market",
+      "isbn13": 9788448031039,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/5843",
+      "cover": "/images/novels/the-oath-and-the-measure/9788448031039.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El código y la medida",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448722425,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24320",
+      "cover": "/images/novels/the-oath-and-the-measure/9788448722425.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El código y la medida",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006860,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37820",
+      "cover": "/images/novels/the-oath-and-the-measure/9788448006860.webp"
+    }
+  ]
+}

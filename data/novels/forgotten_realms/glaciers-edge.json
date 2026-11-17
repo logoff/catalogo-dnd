@@ -1,0 +1,54 @@
+{
+  "slug": "glaciers-edge",
+  "title": "Glacier's Edge",
+  "authors": ["R. A. Salvatore"],
+  "setting": "forgotten_realms",
+  "kind": "novel",
+  "series": { "id": "fr-way-of-the-drow", "number": 2 },
+  "date": "2022-08",
+  "description": "Atrapados en el hielo del norte, entre los aevendrow, unos elfos oscuros muy distintos a los de Menzoberranzan, Catti-brie, Entreri y Zaknafein esperan ayuda. Jarlaxle, el único que ha escapado, debe reunir un grupo capaz de rescatarlos.\n\nSegunda novela de The Way of the Drow.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?3061491",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2022-08-09",
+      "format": "hardcover",
+      "isbn13": 9780063029828,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?908080",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0063029820/" }],
+      "cover": "/images/novels/glaciers-edge/9780063029828.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2022-08-09",
+      "format": "paperback",
+      "isbn13": 9780063286658,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?908083",
+      "cover": "/images/novels/glaciers-edge/9780063286658.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2022-08-09",
+      "format": "ebook",
+      "isbn13": 9780063029842,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?953086",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B09L8CSRGY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2023-05-16",
+      "format": "paperback",
+      "isbn13": 9780063086005,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?942341",
+      "cover": "/images/novels/glaciers-edge/9780063086005.webp"
+    }
+  ]
+}

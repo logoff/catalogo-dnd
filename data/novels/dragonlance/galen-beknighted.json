@@ -1,0 +1,98 @@
+{
+  "slug": "galen-beknighted",
+  "title": "Galen Beknighted",
+  "authors": ["Michael Williams"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-heroes-ii", "number": 3 },
+  "date": "1990-12",
+  "description": "Ser armado caballero apenas ha cambiado a Galen, la Comadreja, que sigue prefiriendo salvar el pellejo a correr riesgos. Pero cuando su hermano Brithelm desaparece, no le queda más remedio que bajar a las profundidades de la tierra para buscarlo.\n\nEs la tercera novela de Heroes II y continúa la historia de El caballero de Solamnia. Se publicó en castellano como El caballero Galen.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?13961",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "TSR",
+      "date": "1990-12",
+      "format": "mass_market",
+      "isbn13": 9780880389211,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11154",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0880389214/" }],
+      "cover": "/images/novels/galen-beknighted/9780880389211.webp"
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Penguin Books",
+      "date": "1991-05",
+      "format": "mass_market",
+      "isbn13": 9780140143751,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?11155",
+      "cover": "/images/novels/galen-beknighted/9780140143751.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-12",
+      "format": "mass_market",
+      "isbn13": 9780786934003,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?67401",
+      "cover": "/images/novels/galen-beknighted/9780786934003.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05-01",
+      "format": "ebook",
+      "isbn13": 9780786963164,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?465423",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007RG4E3E/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero Galen",
+      "publisher": "Timun Mas",
+      "date": "1993",
+      "format": "hardcover",
+      "isbn13": 9788477229193,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/16521",
+      "cover": "/images/novels/galen-beknighted/9788477229193.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero Galen",
+      "publisher": "Timun Mas",
+      "date": "1997",
+      "format": "mass_market",
+      "isbn13": 9788448030988,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/573",
+      "cover": "/images/novels/galen-beknighted/9788448030988.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero Galen",
+      "publisher": "Altaya",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9788448721350,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/24269",
+      "cover": "/images/novels/galen-beknighted/9788448721350.webp"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "El caballero Galen",
+      "publisher": "Timun Mas",
+      "date": "2012",
+      "format": "paperback",
+      "isbn13": 9788448006808,
+      "source": "https://tercerafundacion.net/biblioteca/ver/libro/37816",
+      "cover": "/images/novels/galen-beknighted/9788448006808.webp"
+    }
+  ]
+}

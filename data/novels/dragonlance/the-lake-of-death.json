@@ -1,0 +1,24 @@
+{
+  "slug": "the-lake-of-death",
+  "title": "The Lake of Death",
+  "authors": ["Jean Rabe"],
+  "setting": "dragonlance",
+  "kind": "novel",
+  "series": { "id": "dragonlance-age-of-mortals", "number": 6 },
+  "date": "2004-10",
+  "description": "Maldito con la forma de un dragón de las sombras, Dhamon Grimwulf lo arriesga todo para recuperar su humanidad, en un viaje que lo lleva del pantano de la dragona Sable a las ruinas de Qualinost y le reúne con Feril, la druida kagonesti a la que amó.\n\nEs una novela de la serie Age of Mortals que continúa la historia de The Dhamon Saga. No se ha publicado en castellano.",
+  "source": "https://www.isfdb.org/cgi-bin/title.cgi?153349",
+  "editions": [
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-10",
+      "format": "mass_market",
+      "isbn13": 9780786933648,
+      "source": "https://www.isfdb.org/cgi-bin/pl.cgi?64022",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/078693364X/" }],
+      "cover": "/images/novels/the-lake-of-death/9780786933648.webp"
+    }
+  ]
+}
