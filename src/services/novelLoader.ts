@@ -108,7 +108,10 @@ export async function preloadNovelRoute(pathname: string): Promise<void> {
   const detail = pathname.match(/^\/novela\/([^/]+)\/?$/)
   if (detail) {
     await Promise.all([loadNovelIndex(), loadNovel(decodeURIComponent(detail[1]))])
-  } else if (/^\/novelas\/?$/.test(pathname)) {
+  } else if (
+    /^\/novelas\/?$/.test(pathname) ||
+    /^\/guias\/(orden-de-lectura-[^/]+|novelas-en-castellano)\/?$/.test(pathname)
+  ) {
     await loadNovelIndex()
   }
 }

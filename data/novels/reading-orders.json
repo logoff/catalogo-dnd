@@ -1,0 +1,24 @@
+{
+  "drizzt": [
+    { "series": "fr-dark-elf" },
+    { "series": "fr-icewind-dale" },
+    { "series": "fr-legacy-of-the-drow" },
+    { "series": "fr-paths-of-darkness" },
+    { "series": "fr-hunters-blades" },
+    { "series": "fr-transitions" },
+    { "series": "fr-neverwinter" },
+    { "title": "The Sundering", "novels": ["the-companions-salvatore"] },
+    { "series": "fr-companions-codex" },
+    { "series": "fr-homecoming" },
+    { "series": "fr-generations" },
+    { "series": "fr-way-of-the-drow" }
+  ],
+  "dragonlance": [
+    { "series": "dragonlance-chronicles" },
+    { "series": "dragonlance-legends" },
+    { "title": "La guerra de Caos", "novels": ["dragons-of-summer-flame"] },
+    { "series": "dragonlance-war-of-souls" },
+    { "series": "dragonlance-lost-chronicles" },
+    { "series": "dragonlance-destinies" }
+  ]
+}

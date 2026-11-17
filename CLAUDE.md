@@ -111,6 +111,10 @@ llena entera y `main.tsx` precarga lo de la ruta antes de hidratar.
 `data/novels/inventory.md` es la lista maestra (un test exige que cada
 ficha esté en ella y al revés). Para dar de alta novelas, usar la skill
 `add-novel`.
+Las guías de orden de lectura (`/guias/orden-de-lectura-*`) y la de
+novelas en castellano se generan desde el índice; el orden de cada una
+está en `data/novels/reading-orders.json` (series enteras o novelas
+sueltas).
 
 **Rutas:** `/catalogo` (catálogo completo), `/2014` y `/2024` (páginas
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
