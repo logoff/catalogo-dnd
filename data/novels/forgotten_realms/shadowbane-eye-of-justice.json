@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?527492",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007JCC1EU/" }],
       "cover": "/images/novels/shadowbane-eye-of-justice/9780786961351.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Rupert Degas"],
+      "duration": 657,
+      "source": "https://www.amazon.es/dp/B08C9SGSPV/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08C9SGSPV/" }],
+      "cover": "/images/novels/shadowbane-eye-of-justice/english-2013-audiobook.webp"
     }
   ]
 }

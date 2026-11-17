@@ -29,6 +29,18 @@
       "isbn13": 9780786959198,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?823106",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004LROUJK/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["John Bell"],
+      "duration": 519,
+      "source": "https://www.amazon.es/dp/B08QV5GPKH/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV5GPKH/" }],
+      "cover": "/images/novels/unbroken-chain-the-darker-road/english-2013-audiobook.webp"
     }
   ]
 }

@@ -28,6 +28,18 @@
       "isbn13": 9780786959419,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476315",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKRPE/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Dina Pearlman"],
+      "duration": 836,
+      "source": "https://www.amazon.es/dp/B087P1HRVX/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B087P1HRVX/" }],
+      "cover": "/images/novels/brimstone-angels/english-2013-audiobook.webp"
     }
   ]
 }
