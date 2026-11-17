@@ -39,6 +39,18 @@
       "isbn13": 9780786965465,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?501362",
       "cover": "/images/novels/the-herald/9780786965465.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2014-06-03",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 698,
+      "source": "https://www.amazon.es/dp/B08HCV2N31/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08HCV2N31/" }],
+      "cover": "/images/novels/the-herald/english-2014-audiobook.webp"
     }
   ]
 }

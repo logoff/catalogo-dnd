@@ -40,6 +40,18 @@
       "isbn13": 9788448044077,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24597",
       "cover": "/images/novels/the-crown-and-the-sword/9788448044077.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-11",
+      "format": "audiobook",
+      "narrators": ["Chris Sorensen"],
+      "duration": 753,
+      "source": "https://www.amazon.es/dp/B084S258W1/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B084S258W1/" }],
+      "cover": "/images/novels/the-crown-and-the-sword/english-2013-audiobook.webp"
     }
   ]
 }

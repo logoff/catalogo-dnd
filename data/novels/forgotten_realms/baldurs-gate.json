@@ -42,6 +42,18 @@
       "isbn13": 9788448726669,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/38271",
       "cover": "/images/novels/baldurs-gate/9788448726669.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Fleet Cooper"],
+      "duration": 544,
+      "source": "https://www.amazon.es/dp/B07Z8L4R22/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07Z8L4R22/" }],
+      "cover": "/images/novels/baldurs-gate/english-2013-audiobook.webp"
     }
   ]
 }

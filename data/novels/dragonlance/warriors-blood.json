@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?89674",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786943009/" }],
       "cover": "/images/novels/warriors-blood/9780786943005.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Christine Williams"],
+      "duration": 461,
+      "source": "https://www.amazon.es/dp/B08QTPY7RT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTPY7RT/" }],
+      "cover": "/images/novels/warriors-blood/english-2013-audiobook.webp"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?83331",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940263/" }],
       "cover": "/images/novels/city-of-fortune/9780786940264.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-12",
+      "format": "audiobook",
+      "narrators": ["Daniel May"],
+      "duration": 474,
+      "source": "https://www.amazon.es/dp/B08QVDHB8C/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVDHB8C/" }],
+      "cover": "/images/novels/city-of-fortune/english-2013-audiobook.webp"
     }
   ]
 }

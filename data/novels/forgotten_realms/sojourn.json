@@ -173,6 +173,23 @@
         }
       ],
       "cover": "/images/novels/sojourn/9788445013670.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-04-23",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 614,
+      "source": "https://www.amazon.es/dp/B081PKGMLL/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081PKGMLL/"
+        }
+      ],
+      "cover": "/images/novels/sojourn/english-2013-audiobook.webp"
     }
   ]
 }

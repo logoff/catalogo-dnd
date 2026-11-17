@@ -49,6 +49,18 @@
       "isbn13": 9788448036751,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23364",
       "cover": "/images/novels/scholar-of-decay/9788448036751.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-22",
+      "format": "audiobook",
+      "narrators": ["Nick Sullivan"],
+      "duration": 592,
+      "source": "https://www.amazon.es/dp/B0849RRXP4/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0849RRXP4/" }],
+      "cover": "/images/novels/scholar-of-decay/english-2013-audiobook.webp"
     }
   ]
 }

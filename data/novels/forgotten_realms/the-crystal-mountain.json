@@ -29,6 +29,18 @@
       "isbn13": 9780786955848,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483443",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034DGPK4/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Gayle Hendrix"],
+      "duration": 565,
+      "source": "https://www.amazon.es/dp/B08QTXB5RN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTXB5RN/" }],
+      "cover": "/images/novels/the-crystal-mountain/english-2013-audiobook.webp"
     }
   ]
 }

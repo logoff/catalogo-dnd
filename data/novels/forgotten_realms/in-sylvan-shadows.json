@@ -81,6 +81,18 @@
       "isbn13": 9788448724443,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/37052",
       "cover": "/images/novels/in-sylvan-shadows/9788448724443.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-08-27",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 631,
+      "source": "https://www.amazon.es/dp/B08385NWNH/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08385NWNH/" }],
+      "cover": "/images/novels/in-sylvan-shadows/english-2013-audiobook.webp"
     }
   ]
 }

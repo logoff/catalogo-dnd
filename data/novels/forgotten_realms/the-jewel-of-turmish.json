@@ -29,6 +29,18 @@
       "isbn13": 9780786963829,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467154",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFG8K/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Nicole Greevy"],
+      "duration": 648,
+      "source": "https://www.amazon.es/dp/B08QV8QW56/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV8QW56/" }],
+      "cover": "/images/novels/the-jewel-of-turmish/english-2013-audiobook.webp"
     }
   ]
 }

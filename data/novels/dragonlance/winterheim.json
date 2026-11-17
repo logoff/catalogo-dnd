@@ -51,6 +51,18 @@
       "isbn13": 9788448723521,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24348",
       "cover": "/images/novels/winterheim/9788448723521.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ax Norman"],
+      "duration": 557,
+      "source": "https://www.amazon.es/dp/B08QVDXNMN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVDXNMN/" }],
+      "cover": "/images/novels/winterheim/english-2013-audiobook.webp"
     }
   ]
 }

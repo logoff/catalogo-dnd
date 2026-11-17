@@ -50,6 +50,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/1048",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038002/" }],
       "cover": "/images/novels/the-obsidian-oracle/9788448038007.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ray Porter"],
+      "duration": 567,
+      "source": "https://www.amazon.es/dp/B089LNTVFZ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B089LNTVFZ/" }],
+      "cover": "/images/novels/the-obsidian-oracle/english-2013-audiobook.webp"
     }
   ]
 }

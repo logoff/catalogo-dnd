@@ -76,6 +76,22 @@ describe('esquema de novelas', () => {
     expect(validate(minimalNovel)).toBe(true)
   })
 
+  it('acepta audiolibros con narrador y duración, pero no esos campos en otros formatos', () => {
+    const audiobook = {
+      language: 'english' as const,
+      country: 'us' as const,
+      publisher: 'Audible Studios',
+      format: 'audiobook' as const,
+      narrators: ['Narradora'],
+      duration: 812,
+      purchase_links: [{ store: 'amazon' as const, url: 'https://www.amazon.es/dp/B0ABCDEFGH/' }],
+    }
+    const withAudiobook = { ...minimalNovel, editions: [...minimalNovel.editions, audiobook] }
+    expect(validate(withAudiobook), ajv.errorsText(validate.errors)).toBe(true)
+    const narratedPaperback = { ...minimalNovel.editions[0], narrators: ['Narradora'] }
+    expect(validate({ ...minimalNovel, editions: [narratedPaperback] })).toBe(false)
+  })
+
   it('rechaza un mundo desconocido, una novela sin edición inglesa o sin fuente y campos desconocidos', () => {
     expect(validate({ ...minimalNovel, setting: 'krynn' })).toBe(false)
     expect(validate({ ...minimalNovel, editions: [spanishEdition] })).toBe(false)
@@ -250,6 +266,23 @@ describe('mainCover', () => {
     expect(mainCover(novel)).toBe(cover('es-2022'))
     expect(mainCover({ ...novel, editions: [novel.editions[0]] })).toBe(cover('en'))
     expect(mainCover(minimalNovel)).toBeNull()
+  })
+
+  it('usa la portada de un audiolibro solo si no hay otra', () => {
+    const [english] = minimalNovel.editions
+    const cover = (name: string) => `/images/novels/novela/${name}.webp`
+    const audiobook = {
+      ...english,
+      date: '2020',
+      format: 'audiobook' as const,
+      cover: cover('audio'),
+    }
+    const novel = {
+      ...minimalNovel,
+      editions: [{ ...english, date: '1990', cover: cover('en') }, audiobook],
+    }
+    expect(mainCover(novel)).toBe(cover('en'))
+    expect(mainCover({ ...minimalNovel, editions: [english, audiobook] })).toBe(cover('audio'))
   })
 })
 

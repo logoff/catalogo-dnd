@@ -29,6 +29,18 @@
       "isbn13": 9780786961672,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476316",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R820SA/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Todd McLaren"],
+      "duration": 722,
+      "source": "https://www.amazon.es/dp/B08QVNV2SL/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVNV2SL/" }],
+      "cover": "/images/novels/cloak-of-shadows/english-2013-audiobook.webp"
     }
   ]
 }

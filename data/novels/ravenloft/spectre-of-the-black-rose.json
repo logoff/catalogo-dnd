@@ -40,6 +40,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/9189",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448040112/" }],
       "cover": "/images/novels/spectre-of-the-black-rose/9788448040116.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Danny Campbell"],
+      "duration": 531,
+      "source": "https://www.amazon.es/dp/B07ZPKPP48/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07ZPKPP48/" }],
+      "cover": "/images/novels/spectre-of-the-black-rose/english-2013-audiobook.webp"
     }
   ]
 }

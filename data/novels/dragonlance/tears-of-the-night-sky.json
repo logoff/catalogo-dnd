@@ -30,6 +30,18 @@
       "isbn13": 9788448039332,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/419",
       "cover": "/images/novels/tears-of-the-night-sky/9788448039332.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Clinton Wade"],
+      "duration": 570,
+      "source": "https://www.amazon.es/dp/B088NNSCPN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B088NNSCPN/" }],
+      "cover": "/images/novels/tears-of-the-night-sky/english-2013-audiobook.webp"
     }
   ]
 }

@@ -60,6 +60,18 @@
       "isbn13": 9788448725563,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36936",
       "cover": "/images/novels/viperhand/9788448725563.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Lincoln Hoppe"],
+      "duration": 765,
+      "source": "https://www.amazon.es/dp/B082LVWD6J/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B082LVWD6J/" }],
+      "cover": "/images/novels/viperhand/english-2013-audiobook.webp"
     }
   ]
 }

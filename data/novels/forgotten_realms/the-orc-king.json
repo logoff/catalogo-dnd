@@ -120,6 +120,23 @@
         }
       ],
       "cover": "/images/novels/the-orc-king/9788445010846.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Audio",
+      "date": "2009-09-29",
+      "format": "audiobook",
+      "narrators": ["Mark Bramhall"],
+      "duration": 911,
+      "source": "https://www.amazon.es/dp/B08513581F/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08513581F/"
+        }
+      ],
+      "cover": "/images/novels/the-orc-king/english-2009-audiobook.webp"
     }
   ]
 }

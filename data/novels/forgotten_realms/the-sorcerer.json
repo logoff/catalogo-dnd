@@ -51,6 +51,18 @@
       "isbn13": 9788448726584,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/40990",
       "cover": "/images/novels/the-sorcerer/9788448726584.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-09",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 657,
+      "source": "https://www.amazon.es/dp/B08QV657DF/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV657DF/" }],
+      "cover": "/images/novels/the-sorcerer/english-2013-audiobook.webp"
     }
   ]
 }

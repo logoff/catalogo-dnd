@@ -27,6 +27,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0036S4BIA/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4BIA/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Adam Epstein"],
+      "duration": 827,
+      "source": "https://www.amazon.es/dp/B081TQFZMH/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B081TQFZMH/" }],
+      "cover": "/images/novels/the-binding-stone/english-2013-audiobook.webp"
     }
   ]
 }

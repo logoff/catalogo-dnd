@@ -27,6 +27,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B008ADC06Q/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADC06Q/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Bruce Miles"],
+      "duration": 627,
+      "source": "https://www.amazon.es/dp/B08QVHR9BZ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVHR9BZ/" }],
+      "cover": "/images/novels/bloodwalk/english-2013-audiobook.webp"
     }
   ]
 }

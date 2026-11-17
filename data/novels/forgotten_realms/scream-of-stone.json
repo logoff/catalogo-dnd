@@ -29,6 +29,18 @@
       "isbn13": 9780786956883,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481683",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4A7C/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Joey Pepin"],
+      "duration": 530,
+      "source": "https://www.amazon.es/dp/B08QV7XHM8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV7XHM8/" }],
+      "cover": "/images/novels/scream-of-stone/english-2013-audiobook.webp"
     }
   ]
 }

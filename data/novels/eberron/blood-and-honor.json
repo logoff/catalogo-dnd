@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?85823",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786940697/" }],
       "cover": "/images/novels/blood-and-honor/9780786940691.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-14",
+      "format": "audiobook",
+      "narrators": ["Fleet Cooper"],
+      "duration": 596,
+      "source": "https://www.amazon.es/dp/B08QTYGWGQ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTYGWGQ/" }],
+      "cover": "/images/novels/blood-and-honor/english-2013-audiobook.webp"
     }
   ]
 }

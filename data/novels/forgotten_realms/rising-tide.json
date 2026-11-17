@@ -29,6 +29,18 @@
       "isbn13": 9780786963966,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?456359",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFGV2/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ralph Lister"],
+      "duration": 712,
+      "source": "https://www.amazon.es/dp/B08QVCCBQL/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVCCBQL/" }],
+      "cover": "/images/novels/rising-tide/english-2013-audiobook.webp"
     }
   ]
 }

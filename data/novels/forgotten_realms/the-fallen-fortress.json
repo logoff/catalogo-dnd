@@ -72,6 +72,18 @@
       "isbn13": 9788448724733,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/37055",
       "cover": "/images/novels/the-fallen-fortress/9788448724733.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-08-27",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 580,
+      "source": "https://www.amazon.es/dp/B08QV8XCK8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV8XCK8/" }],
+      "cover": "/images/novels/the-fallen-fortress/english-2013-audiobook.webp"
     }
   ]
 }

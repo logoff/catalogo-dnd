@@ -152,6 +152,23 @@
         }
       ],
       "cover": "/images/novels/sea-of-swords/9788445015841.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2014-01-07",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 727,
+      "source": "https://www.amazon.es/dp/B088DNKJX2/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B088DNKJX2/"
+        }
+      ],
+      "cover": "/images/novels/sea-of-swords/english-2014-audiobook.webp"
     }
   ]
 }

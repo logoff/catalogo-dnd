@@ -29,6 +29,18 @@
       "isbn13": 9780786963935,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467757",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFH0C/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-20",
+      "format": "audiobook",
+      "narrators": ["Malcom Hillgartner"],
+      "duration": 600,
+      "source": "https://www.amazon.es/dp/B08QTZ5QPW/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTZ5QPW/" }],
+      "cover": "/images/novels/mortal-consequences/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786956999,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481608",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4CFC/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Erin Jones"],
+      "duration": 556,
+      "source": "https://www.amazon.es/dp/B08QVP8HVV/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVP8HVV/" }],
+      "cover": "/images/novels/the-sapphire-crescent/english-2013-audiobook.webp"
     }
   ]
 }

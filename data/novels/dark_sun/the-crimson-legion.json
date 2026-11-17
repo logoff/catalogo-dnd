@@ -50,6 +50,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/1046",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477228841/" }],
       "cover": "/images/novels/the-crimson-legion/9788477228844.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ray Porter"],
+      "duration": 610,
+      "source": "https://www.amazon.es/dp/B081J1SVZK/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B081J1SVZK/" }],
+      "cover": "/images/novels/the-crimson-legion/english-2013-audiobook.webp"
     }
   ]
 }

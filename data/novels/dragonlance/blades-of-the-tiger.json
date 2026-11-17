@@ -18,6 +18,18 @@
       "isbn13": 9780786935697,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68779",
       "cover": "/images/novels/blades-of-the-tiger/9780786935697.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Elisa Carlson"],
+      "duration": 868,
+      "source": "https://www.amazon.es/dp/B08HYD5TTD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08HYD5TTD/" }],
+      "cover": "/images/novels/blades-of-the-tiger/english-2013-audiobook.webp"
     }
   ]
 }

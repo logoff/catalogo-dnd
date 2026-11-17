@@ -386,11 +386,21 @@ interface EditionRowProps {
   note?: string
 }
 
+function formatDuration(minutes: number): string {
+  const hours = Math.floor(minutes / 60)
+  return hours > 0 ? `${hours} h ${minutes % 60} min` : `${minutes} min`
+}
+
 function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: EditionRowProps) {
+  const audiobook = edition.format === 'audiobook'
+  const narrators = 'narrators' in edition ? edition.narrators : undefined
+  const duration = 'duration' in edition ? edition.duration : undefined
   const details = [
     edition.publisher,
     edition.date && formatPartialDate(edition.date),
     edition.format && formatNames[edition.format],
+    narrators && `Narrado por ${narrators.join(', ')}`,
+    duration && formatDuration(duration),
     placeOf(edition),
     edition.isbn13 && `ISBN ${formatIsbn(edition.isbn13)}`,
     note,
@@ -409,7 +419,7 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
           <LazyImage
             src={thumbnailOf(edition.cover)}
             alt=""
-            containerClassName="w-16 aspect-[2/3] rounded"
+            containerClassName={`w-16 rounded ${audiobook ? 'aspect-square' : 'aspect-[2/3]'}`}
             className="w-full h-full object-cover rounded"
           />
         </button>
@@ -428,7 +438,13 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
                 url={link.url}
                 tracking={{ novela: slug, idioma: edition.language, formato: edition.format }}
                 variant={
-                  link.store === 'amazon' && edition.format === 'ebook' ? 'Kindle' : undefined
+                  link.store !== 'amazon'
+                    ? undefined
+                    : edition.format === 'ebook'
+                      ? 'Kindle'
+                      : audiobook
+                        ? 'Audible'
+                        : undefined
                 }
               />
             ))}

@@ -29,6 +29,18 @@
       "isbn13": 9780786956784,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482356",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4CIY/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 664,
+      "source": "https://www.amazon.es/dp/B081QYH5VW/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B081QYH5VW/" }],
+      "cover": "/images/novels/final-gate/english-2013-audiobook.webp"
     }
   ]
 }

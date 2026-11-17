@@ -40,6 +40,18 @@
       "isbn13": 9788448722852,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24442",
       "cover": "/images/novels/dalamar-the-dark/9788448722852.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Donald Corren"],
+      "duration": 696,
+      "source": "https://www.amazon.es/dp/B08QV46KQ8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV46KQ8/" }],
+      "cover": "/images/novels/dalamar-the-dark/english-2013-audiobook.webp"
     }
   ]
 }

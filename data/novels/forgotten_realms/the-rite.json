@@ -29,6 +29,18 @@
       "isbn13": 9780786956968,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481694",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4CL6/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Melissa Reizian Frank"],
+      "duration": 674,
+      "source": "https://www.amazon.es/dp/B08QTTPH3R/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTTPH3R/" }],
+      "cover": "/images/novels/the-rite/english-2013-audiobook.webp"
     }
   ]
 }

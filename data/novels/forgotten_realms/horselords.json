@@ -60,6 +60,18 @@
       "isbn13": 9788448724467,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23263",
       "cover": "/images/novels/horselords/9788448724467.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Robin Bloodworth"],
+      "duration": 718,
+      "source": "https://www.amazon.es/dp/B08QTLX48H/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTLX48H/" }],
+      "cover": "/images/novels/horselords/english-2013-audiobook.webp"
     }
   ]
 }

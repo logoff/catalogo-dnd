@@ -92,6 +92,18 @@
       "isbn13": 9788448006792,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/37814",
       "cover": "/images/novels/the-gates-of-thorbardin/9788448006792.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-22",
+      "format": "audiobook",
+      "narrators": ["Richard Topol"],
+      "duration": 522,
+      "source": "https://www.amazon.es/dp/B08QVH3C8Q/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVH3C8Q/" }],
+      "cover": "/images/novels/the-gates-of-thorbardin/english-2013-audiobook.webp"
     }
   ]
 }

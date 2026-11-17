@@ -17,6 +17,18 @@
       "isbn13": 9780786964307,
       "source": "https://www.isfdb.org/cgi-bin/se.cgi?arg=9780786964307&type=ISBN",
       "cover": "/images/novels/if-ever-they-happened-upon-my-lair/9780786964307.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2014-08-11",
+      "format": "audiobook",
+      "narrators": ["Wil Wheaton"],
+      "duration": 104,
+      "source": "https://www.amazon.es/dp/B08B12QQGB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08B12QQGB/" }],
+      "cover": "/images/novels/if-ever-they-happened-upon-my-lair/english-2014-audiobook.webp"
     }
   ]
 }

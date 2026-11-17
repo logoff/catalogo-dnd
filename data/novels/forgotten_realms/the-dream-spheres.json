@@ -63,6 +63,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/33639",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038827/" }],
       "cover": "/images/novels/the-dream-spheres/9788448038823.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-07",
+      "format": "audiobook",
+      "narrators": ["Eric Michael Summerer"],
+      "duration": 786,
+      "source": "https://www.amazon.es/dp/B07YXJD1DT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07YXJD1DT/" }],
+      "cover": "/images/novels/the-dream-spheres/english-2013-audiobook.webp"
     }
   ]
 }

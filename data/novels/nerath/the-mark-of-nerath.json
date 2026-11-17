@@ -27,6 +27,18 @@
       "isbn13": 9780786957620,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478492",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0045EOIWS/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-06-04",
+      "format": "audiobook",
+      "narrators": ["Dolph Amick"],
+      "duration": 597,
+      "source": "https://www.amazon.es/dp/B08QV5M9N8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV5M9N8/" }],
+      "cover": "/images/novels/the-mark-of-nerath/english-2013-audiobook.webp"
     }
   ]
 }

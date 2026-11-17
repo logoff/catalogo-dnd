@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?80809",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786939931/" }],
       "cover": "/images/novels/wizards-betrayal/9780786939930.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Leslie Bellair"],
+      "duration": 413,
+      "source": "https://www.amazon.es/dp/B08QTP1MQQ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTP1MQQ/" }],
+      "cover": "/images/novels/wizards-betrayal/english-2013-audiobook.webp"
     }
   ]
 }

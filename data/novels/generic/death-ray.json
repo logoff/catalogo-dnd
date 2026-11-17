@@ -38,6 +38,18 @@
       "isbn13": 9788496262812,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/13942",
       "cover": "/images/novels/death-ray/9788496262812.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-05-01",
+      "format": "audiobook",
+      "narrators": ["Dolph Amick"],
+      "duration": 322,
+      "source": "https://www.amazon.es/dp/B0863S2VCB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0863S2VCB/" }],
+      "cover": "/images/novels/death-ray/english-2013-audiobook.webp"
     }
   ]
 }

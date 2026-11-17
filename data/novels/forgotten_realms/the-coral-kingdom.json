@@ -29,6 +29,18 @@
       "isbn13": 9780786961856,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476320",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005R834D0/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Karen White"],
+      "duration": 672,
+      "source": "https://www.amazon.es/dp/B08QV42GBN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV42GBN/" }],
+      "cover": "/images/novels/the-coral-kingdom/english-2013-audiobook.webp"
     }
   ]
 }

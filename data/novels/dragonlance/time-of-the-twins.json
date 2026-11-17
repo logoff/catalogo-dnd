@@ -175,6 +175,23 @@
           "url": "https://www.amazon.es/dp/B0B2YN6ZY7/"
         }
       ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ax Norman"],
+      "duration": 912,
+      "source": "https://www.amazon.es/dp/B081PM89TT/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081PM89TT/"
+        }
+      ],
+      "cover": "/images/novels/time-of-the-twins/english-2013-audiobook.webp"
     }
   ]
 }

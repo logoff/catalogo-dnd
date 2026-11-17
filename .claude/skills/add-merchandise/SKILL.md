@@ -46,7 +46,10 @@ entra según el alcance de `merchandise-records` (spec en
   sola ficha con los sets en la descripción.
 - **URLs de compra limpias**, sin parámetros de afiliado (el afiliado se
   añade en el build) y solo a tiendas del esquema: `amazon`,
-  `generacion_x` y `juegos_mesa_redonda`. En Amazon, la forma
+  `generacion_x`, `juegos_mesa_redonda` y `casa_del_libro` (libros y
+  juegos en castellano, detrás de Amazon). `just affiliate-coverage` lista las fichas sin enlace a las tiendas
+  aceptadas; lo que se revisa y no está a la venta va con su motivo en
+  `data/affiliate-exceptions.json`. En Amazon, la forma
   `https://www.amazon.es/dp/<código>/`; en libros el código es el
   ISBN-10.
 

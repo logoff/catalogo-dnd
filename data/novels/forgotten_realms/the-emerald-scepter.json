@@ -29,6 +29,18 @@
       "isbn13": 9780786956944,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481609",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EBO/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Erin Jones"],
+      "duration": 517,
+      "source": "https://www.amazon.es/dp/B08QSG2YMF/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSG2YMF/" }],
+      "cover": "/images/novels/the-emerald-scepter/english-2013-audiobook.webp"
     }
   ]
 }

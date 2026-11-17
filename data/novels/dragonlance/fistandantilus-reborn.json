@@ -51,6 +51,18 @@
       "isbn13": 9788448722388,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24317",
       "cover": "/images/novels/fistandantilus-reborn/9788448722388.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Liam O'Brien"],
+      "duration": 562,
+      "source": "https://www.amazon.es/dp/B08QV23FTG/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV23FTG/" }],
+      "cover": "/images/novels/fistandantilus-reborn/english-2013-audiobook.webp"
     }
   ]
 }

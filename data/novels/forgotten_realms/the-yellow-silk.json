@@ -29,6 +29,18 @@
       "isbn13": 9780786957019,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481730",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4BNA/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Jean Brassard"],
+      "duration": 623,
+      "source": "https://www.amazon.es/dp/B08QV62MDS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV62MDS/" }],
+      "cover": "/images/novels/the-yellow-silk/english-2013-audiobook.webp"
     }
   ]
 }

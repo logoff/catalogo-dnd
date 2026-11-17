@@ -32,6 +32,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/0241838096/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeons-amp-dragons-el-libro-de-los-dragones/9780241838099/18406855"
         }
       ]
     }

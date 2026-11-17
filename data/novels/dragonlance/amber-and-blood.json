@@ -112,6 +112,23 @@
         }
       ],
       "cover": "/images/novels/amber-and-blood/9788445020708.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Leslie Bellair"],
+      "duration": 454,
+      "source": "https://www.amazon.es/dp/B08QSM75ZC/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08QSM75ZC/"
+        }
+      ],
+      "cover": "/images/novels/amber-and-blood/english-2013-audiobook.webp"
     }
   ]
 }

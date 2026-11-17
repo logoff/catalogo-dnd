@@ -40,6 +40,18 @@
       "isbn13": 9788448034436,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23324",
       "cover": "/images/novels/night-of-the-eye/9788448034436.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["J. P. Linton"],
+      "duration": 622,
+      "source": "https://www.amazon.es/dp/B08QTZRYHZ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTZRYHZ/" }],
+      "cover": "/images/novels/night-of-the-eye/english-2013-audiobook.webp"
     }
   ]
 }

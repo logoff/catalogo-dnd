@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?316465",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786942819/" }],
       "cover": "/images/novels/queen-of-the-sea/9780786942817.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Christine Williams"],
+      "duration": 463,
+      "source": "https://www.amazon.es/dp/B08QV19R69/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV19R69/" }],
+      "cover": "/images/novels/queen-of-the-sea/english-2013-audiobook.webp"
     }
   ]
 }

@@ -39,6 +39,18 @@
       "isbn13": 9780786965762,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?565561",
       "cover": "/images/novels/spellstorm/9780786965762.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2015-06-02",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 674,
+      "source": "https://www.amazon.es/dp/B08HSX3CW1/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08HSX3CW1/" }],
+      "cover": "/images/novels/spellstorm/english-2015-audiobook.webp"
     }
   ]
 }

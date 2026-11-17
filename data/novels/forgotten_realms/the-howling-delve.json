@@ -29,6 +29,18 @@
       "isbn13": 9780786963850,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?771133",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADBYLS/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 694,
+      "source": "https://www.amazon.es/dp/B08QV6C4PT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV6C4PT/" }],
+      "cover": "/images/novels/the-howling-delve/english-2013-audiobook.webp"
     }
   ]
 }

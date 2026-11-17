@@ -91,6 +91,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0076Q1H62/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1H62/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Richard Topol"],
+      "duration": 734,
+      "source": "https://www.amazon.es/dp/B08QG7YH85/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QG7YH85/" }],
+      "cover": "/images/novels/the-legend-of-huma/english-2013-audiobook.webp"
     }
   ]
 }

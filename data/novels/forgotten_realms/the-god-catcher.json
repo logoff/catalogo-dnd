@@ -28,6 +28,18 @@
       "isbn13": 9780786956333,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483459",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0035J5DG4/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 652,
+      "source": "https://www.amazon.es/dp/B0829J4BMW/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0829J4BMW/" }],
+      "cover": "/images/novels/the-god-catcher/english-2013-audiobook.webp"
     }
   ]
 }

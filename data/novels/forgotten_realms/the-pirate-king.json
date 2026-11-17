@@ -110,6 +110,23 @@
         }
       ],
       "cover": "/images/novels/the-pirate-king/9788445010853.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Audio",
+      "date": "2009-09-27",
+      "format": "audiobook",
+      "narrators": ["Mark Bramhall"],
+      "duration": 829,
+      "source": "https://www.amazon.es/dp/B08512TLH7/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08512TLH7/"
+        }
+      ],
+      "cover": "/images/novels/the-pirate-king/english-2009-audiobook.webp"
     }
   ]
 }

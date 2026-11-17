@@ -28,6 +28,18 @@
       "isbn13": 9780786958078,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?478497",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYOL6/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Bernadette Dunne"],
+      "duration": 516,
+      "source": "https://www.amazon.es/dp/B081LPHC95/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B081LPHC95/" }],
+      "cover": "/images/novels/the-fading-dream/english-2013-audiobook.webp"
     }
   ]
 }

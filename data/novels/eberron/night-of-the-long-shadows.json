@@ -27,6 +27,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0034184T6/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034184T6/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Steve West"],
+      "duration": 607,
+      "source": "https://www.amazon.es/dp/B08QVFQ8KM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVFQ8KM/" }],
+      "cover": "/images/novels/night-of-the-long-shadows/english-2013-audiobook.webp"
     }
   ]
 }

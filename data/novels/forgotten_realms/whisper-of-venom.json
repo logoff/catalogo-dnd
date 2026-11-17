@@ -29,6 +29,18 @@
       "isbn13": 9780786958085,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?477913",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYONO/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 683,
+      "source": "https://www.amazon.es/dp/B08QTS8HW4/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTS8HW4/" }],
+      "cover": "/images/novels/whisper-of-venom/english-2013-audiobook.webp"
     }
   ]
 }

@@ -103,6 +103,18 @@
       "isbn13": 9788448005368,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36638",
       "cover": "/images/novels/kendermore/9788448005368.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Boehmer"],
+      "duration": 676,
+      "source": "https://www.amazon.es/dp/B084D3DYPJ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B084D3DYPJ/" }],
+      "cover": "/images/novels/kendermore/english-2013-audiobook.webp"
     }
   ]
 }

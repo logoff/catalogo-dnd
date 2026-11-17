@@ -29,6 +29,18 @@
       "isbn13": 9780786956135,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483795",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0017SWTIK/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["James Patrick Cronin"],
+      "duration": 671,
+      "source": "https://www.amazon.es/dp/B08DT8T9WT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08DT8T9WT/" }],
+      "cover": "/images/novels/blackstaff-tower/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786964123,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468423",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADC1NI/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Nicole Greevy"],
+      "duration": 648,
+      "source": "https://www.amazon.es/dp/B08QV5H2DL/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV5H2DL/" }],
+      "cover": "/images/novels/tymoras-luck/english-2013-audiobook.webp"
     }
   ]
 }

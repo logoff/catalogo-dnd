@@ -73,6 +73,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/33636",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448038797/" }],
       "cover": "/images/novels/elfsong/9788448038793.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Eric Michael Summerer"],
+      "duration": 602,
+      "source": "https://www.amazon.es/dp/B08QV36XRX/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV36XRX/" }],
+      "cover": "/images/novels/elfsong/english-2013-audiobook.webp"
     }
   ]
 }

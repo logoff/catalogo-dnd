@@ -26,6 +26,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B008ADEJ2O/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADEJ2O/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-31",
+      "format": "audiobook",
+      "narrators": ["Jean Brassard"],
+      "duration": 548,
+      "source": "https://www.amazon.es/dp/B08QVBJWLY/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVBJWLY/" }],
+      "cover": "/images/novels/maiden-of-pain/english-2013-audiobook.webp"
     }
   ]
 }

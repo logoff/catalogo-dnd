@@ -50,6 +50,18 @@
       "isbn13": 9788477228851,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/1047",
       "cover": "/images/novels/the-amber-enchantress/9788477228851.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ray Porter"],
+      "duration": 554,
+      "source": "https://www.amazon.es/dp/B08QVBQCYH/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVBQCYH/" }],
+      "cover": "/images/novels/the-amber-enchantress/english-2013-audiobook.webp"
     }
   ]
 }

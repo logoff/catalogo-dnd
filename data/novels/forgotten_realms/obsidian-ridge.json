@@ -28,6 +28,18 @@
       "isbn13": 9780786963706,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467153",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007SGTV0E/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Nicole Greevy"],
+      "duration": 624,
+      "source": "https://www.amazon.es/dp/B08QSFLG1N/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSFLG1N/" }],
+      "cover": "/images/novels/obsidian-ridge/english-2013-audiobook.webp"
     }
   ]
 }

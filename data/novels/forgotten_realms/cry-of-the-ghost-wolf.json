@@ -29,6 +29,18 @@
       "isbn13": 9780786959433,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1057851",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZP6RI/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 793,
+      "source": "https://www.amazon.es/dp/B08QVLRY78/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVLRY78/" }],
+      "cover": "/images/novels/cry-of-the-ghost-wolf/english-2013-audiobook.webp"
     }
   ]
 }

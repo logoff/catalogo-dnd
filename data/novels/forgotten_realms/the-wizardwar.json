@@ -29,6 +29,18 @@
       "isbn13": 9780786961887,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476862",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN52U/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-04-16",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 649,
+      "source": "https://www.amazon.es/dp/B08QSG4NW9/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSG4NW9/" }],
+      "cover": "/images/novels/the-wizardwar/english-2013-audiobook.webp"
     }
   ]
 }

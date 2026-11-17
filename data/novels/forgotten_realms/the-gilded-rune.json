@@ -27,6 +27,18 @@
       "isbn13": 9780786961290,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?466510",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076PGL78/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Duane Stephens"],
+      "duration": 521,
+      "source": "https://www.amazon.es/dp/B08QSJCXRM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSJCXRM/" }],
+      "cover": "/images/novels/the-gilded-rune/english-2013-audiobook.webp"
     }
   ]
 }

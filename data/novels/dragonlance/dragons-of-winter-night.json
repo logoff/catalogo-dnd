@@ -199,6 +199,23 @@
         }
       ],
       "cover": "/images/novels/dragons-of-winter-night/9788445013663.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-07",
+      "format": "audiobook",
+      "narrators": ["Paul Boehmer"],
+      "duration": 1072,
+      "source": "https://www.amazon.es/dp/B0875Q637W/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0875Q637W/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-winter-night/english-2013-audiobook.webp"
     }
   ],
   "related_videogames": ["dragons-of-flame"]

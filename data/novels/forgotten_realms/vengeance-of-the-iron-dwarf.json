@@ -112,6 +112,23 @@
         }
       ],
       "cover": "/images/novels/vengeance-of-the-iron-dwarf/9788445022627.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2015-03-03",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 805,
+      "source": "https://www.amazon.es/dp/B081PGJ576/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081PGJ576/"
+        }
+      ],
+      "cover": "/images/novels/vengeance-of-the-iron-dwarf/english-2015-audiobook.webp"
     }
   ]
 }

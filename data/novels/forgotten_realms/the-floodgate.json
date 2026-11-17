@@ -29,6 +29,18 @@
       "isbn13": 9780786961900,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?476871",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005UFN5BQ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-04-01",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 624,
+      "source": "https://www.amazon.es/dp/B08QTYV17Q/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTYV17Q/" }],
+      "cover": "/images/novels/the-floodgate/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786964024,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468429",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFJ9Q/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 571,
+      "source": "https://www.amazon.es/dp/B088YXB6HD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B088YXB6HD/" }],
+      "cover": "/images/novels/master-of-chains/english-2013-audiobook.webp"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?49740",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786906960/" }],
       "cover": "/images/novels/the-wayward-knights/9780786906963.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-04-10",
+      "format": "audiobook",
+      "narrators": ["Zach Villa"],
+      "duration": 608,
+      "source": "https://www.amazon.es/dp/B08GF7RYMV/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08GF7RYMV/" }],
+      "cover": "/images/novels/the-wayward-knights/english-2013-audiobook.webp"
     }
   ]
 }

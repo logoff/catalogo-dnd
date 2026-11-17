@@ -18,6 +18,18 @@
       "isbn13": 9780786935789,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68494",
       "cover": "/images/novels/dragon-sword/9780786935789.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Eliza Foss"],
+      "duration": 494,
+      "source": "https://www.amazon.es/dp/B08QSGJS87/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSGJS87/" }],
+      "cover": "/images/novels/dragon-sword/english-2013-audiobook.webp"
     }
   ]
 }

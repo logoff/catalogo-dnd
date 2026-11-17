@@ -29,6 +29,18 @@
       "isbn13": 9780786957026,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481682",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S0F7G/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["John Pruden"],
+      "duration": 644,
+      "source": "https://www.amazon.es/dp/B08432RQWY/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08432RQWY/" }],
+      "cover": "/images/novels/twilight-falling/english-2013-audiobook.webp"
     }
   ]
 }

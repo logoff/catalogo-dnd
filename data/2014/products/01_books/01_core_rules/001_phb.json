@@ -44,7 +44,13 @@
         "/images/products/2014/phb/pub1_img0.jpg",
         "/images/products/2014/phb/pub1_img1.jpg"
       ],
-      "openlibrary_url": "https://openlibrary.org/books/OL47565740M"
+      "openlibrary_url": "https://openlibrary.org/books/OL47565740M",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeons-amp-dragons-manual-del-jugador-5-edicion/9788416357604/6002968"
+        }
+      ]
     },
     {
       "type": "book",
@@ -64,6 +70,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/Players-Handbook-Dungeons-Dragons-Wizards/dp/0786967498"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-dungeons-amp-dragons-player39-s-handbook-5-edicion-sp-hasbro/9780786967490/12603233"
         }
       ]
     }

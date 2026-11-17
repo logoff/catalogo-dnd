@@ -100,6 +100,23 @@
         }
       ],
       "cover": "/images/novels/relentless/9788445017364.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2020-07-28",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 909,
+      "source": "https://www.amazon.es/dp/B07ZTTMBFJ/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07ZTTMBFJ/"
+        }
+      ],
+      "cover": "/images/novels/relentless/english-2020-audiobook.webp"
     }
   ]
 }

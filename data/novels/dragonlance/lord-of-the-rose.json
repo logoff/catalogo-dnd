@@ -28,6 +28,18 @@
       "format": "ebook",
       "isbn13": 9780786962716,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?1038457"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Chris Sorensen"],
+      "duration": 849,
+      "source": "https://www.amazon.es/dp/B08QTSTJV4/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTSTJV4/" }],
+      "cover": "/images/novels/lord-of-the-rose/english-2013-audiobook.webp"
     }
   ]
 }

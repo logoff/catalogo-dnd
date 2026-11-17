@@ -73,6 +73,23 @@
         }
       ],
       "date": "2026-09-29"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Audio",
+      "date": "2026-09-29",
+      "format": "audiobook",
+      "narrators": ["Neil Newbon"],
+      "duration": 601,
+      "source": "https://www.amazon.es/dp/B0GTD4ZDNC/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GTD4ZDNC/"
+        }
+      ],
+      "cover": "/images/novels/baldurs-gate-3-astarion/english-2026-audiobook.webp"
     }
   ]
 }

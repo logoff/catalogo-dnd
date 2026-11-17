@@ -60,6 +60,18 @@
       "isbn13": 9788448725587,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/38269",
       "cover": "/images/novels/feathered-dragon/9788448725587.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-03",
+      "format": "audiobook",
+      "narrators": ["Lincoln Hoppe"],
+      "duration": 784,
+      "source": "https://www.amazon.es/dp/B085PW3K1D/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B085PW3K1D/" }],
+      "cover": "/images/novels/feathered-dragon/english-2013-audiobook.webp"
     }
   ]
 }

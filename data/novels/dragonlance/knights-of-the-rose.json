@@ -40,6 +40,18 @@
       "isbn13": 9788448032418,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/2438",
       "cover": "/images/novels/knights-of-the-rose/9788448032418.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["Zach Villa"],
+      "duration": 584,
+      "source": "https://www.amazon.es/dp/B08QTLQ4HT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTLQ4HT/" }],
+      "cover": "/images/novels/knights-of-the-rose/english-2013-audiobook.webp"
     }
   ]
 }

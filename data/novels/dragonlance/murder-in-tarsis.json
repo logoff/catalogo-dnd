@@ -47,6 +47,18 @@
       "isbn13": 9788448039424,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/1013",
       "cover": "/images/novels/murder-in-tarsis/9788448039424.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Donald Corren"],
+      "duration": 487,
+      "source": "https://www.amazon.es/dp/B08BR6S8MM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08BR6S8MM/" }],
+      "cover": "/images/novels/murder-in-tarsis/english-2013-audiobook.webp"
     }
   ]
 }

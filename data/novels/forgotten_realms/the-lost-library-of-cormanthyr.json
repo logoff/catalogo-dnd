@@ -29,6 +29,18 @@
       "isbn13": 9780786964062,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468444",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADC2R8/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Brian Troxell"],
+      "duration": 661,
+      "source": "https://www.amazon.es/dp/B0838R9DTR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0838R9DTR/" }],
+      "cover": "/images/novels/the-lost-library-of-cormanthyr/english-2013-audiobook.webp"
     }
   ]
 }

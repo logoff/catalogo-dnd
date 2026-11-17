@@ -175,6 +175,23 @@
         }
       ],
       "cover": "/images/novels/test-of-the-twins/9788445014189.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ax Norman"],
+      "duration": 630,
+      "source": "https://www.amazon.es/dp/B08HN8DV4D/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08HN8DV4D/"
+        }
+      ],
+      "cover": "/images/novels/test-of-the-twins/english-2013-audiobook.webp"
     }
   ]
 }

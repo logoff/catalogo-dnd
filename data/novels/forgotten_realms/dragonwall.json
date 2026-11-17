@@ -61,6 +61,18 @@
       "isbn13": 9788448724726,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23264",
       "cover": "/images/novels/dragonwall/9788448724726.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Robin Bloodworth"],
+      "duration": 686,
+      "source": "https://www.amazon.es/dp/B081XHKZ8N/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B081XHKZ8N/" }],
+      "cover": "/images/novels/dragonwall/english-2013-audiobook.webp"
     }
   ]
 }

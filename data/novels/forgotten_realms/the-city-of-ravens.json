@@ -28,6 +28,18 @@
       "isbn13": 9780786963812,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467152",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFI92/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Nicole Greevy"],
+      "duration": 682,
+      "source": "https://www.amazon.es/dp/B089NFCNBX/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B089NFCNBX/" }],
+      "cover": "/images/novels/the-city-of-ravens/english-2013-audiobook.webp"
     }
   ]
 }

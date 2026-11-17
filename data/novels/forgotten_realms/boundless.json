@@ -98,6 +98,23 @@
           "url": "https://www.amazon.es/dp/B07H4ZMYXX/"
         }
       ]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Harper Voyager",
+      "date": "2019-09-10",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 783,
+      "source": "https://www.amazon.es/dp/B07YYHY8BB/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07YYHY8BB/"
+        }
+      ],
+      "cover": "/images/novels/boundless/english-2019-audiobook.webp"
     }
   ]
 }

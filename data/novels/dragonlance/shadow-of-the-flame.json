@@ -29,6 +29,18 @@
       "isbn13": 9780786964994,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458560",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONXMO/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-13",
+      "format": "audiobook",
+      "narrators": ["Elisa Carlson"],
+      "duration": 807,
+      "source": "https://www.amazon.es/dp/B08QRTSR1S/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QRTSR1S/" }],
+      "cover": "/images/novels/shadow-of-the-flame/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786956951,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481680",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4BKI/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Melissa Reizian Frank"],
+      "duration": 695,
+      "source": "https://www.amazon.es/dp/B08QSD284L/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSD284L/" }],
+      "cover": "/images/novels/the-rage/english-2013-audiobook.webp"
     }
   ]
 }

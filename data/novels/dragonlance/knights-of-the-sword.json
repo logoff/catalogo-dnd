@@ -40,6 +40,18 @@
       "isbn13": 9788448032388,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/1757",
       "cover": "/images/novels/knights-of-the-sword/9788448032388.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Zach Villa"],
+      "duration": 576,
+      "source": "https://www.amazon.es/dp/B08QVCLGDM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVCLGDM/" }],
+      "cover": "/images/novels/knights-of-the-sword/english-2013-audiobook.webp"
     }
   ]
 }

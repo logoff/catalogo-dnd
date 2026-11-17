@@ -121,6 +121,23 @@
         }
       ],
       "cover": "/images/novels/dragons-of-eternity/9788445021231.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Random House Audio",
+      "date": "2024-08-06",
+      "format": "audiobook",
+      "narrators": ["Kirsten Potter"],
+      "duration": 776,
+      "source": "https://www.amazon.es/dp/B0CNFHD2QS/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CNFHD2QS/"
+        }
+      ],
+      "cover": "/images/novels/dragons-of-eternity/english-2024-audiobook.webp"
     }
   ]
 }

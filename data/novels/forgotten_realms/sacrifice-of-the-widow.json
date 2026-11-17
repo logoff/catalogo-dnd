@@ -41,6 +41,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24425",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037979/" }],
       "cover": "/images/novels/sacrifice-of-the-widow/9788448037970.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-09",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 738,
+      "source": "https://www.amazon.es/dp/B08QVG8LXW/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVG8LXW/" }],
+      "cover": "/images/novels/sacrifice-of-the-widow/english-2013-audiobook.webp"
     }
   ]
 }

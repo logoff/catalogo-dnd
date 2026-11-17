@@ -19,6 +19,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?68708",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786936223/" }],
       "cover": "/images/novels/dragon-day/9780786936229.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Eliza Foss"],
+      "duration": 484,
+      "source": "https://www.amazon.es/dp/B08QVQTCFR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVQTCFR/" }],
+      "cover": "/images/novels/dragon-day/english-2013-audiobook.webp"
     }
   ]
 }

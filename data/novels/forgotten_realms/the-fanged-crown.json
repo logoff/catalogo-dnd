@@ -29,6 +29,18 @@
       "isbn13": 9780786955862,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483445",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B001NLKWQ2/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Neal Rohrer"],
+      "duration": 562,
+      "source": "https://www.amazon.es/dp/B08QVL4PX3/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVL4PX3/" }],
+      "cover": "/images/novels/the-fanged-crown/english-2013-audiobook.webp"
     }
   ]
 }

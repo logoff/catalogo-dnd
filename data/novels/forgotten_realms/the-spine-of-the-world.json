@@ -152,6 +152,23 @@
         }
       ],
       "cover": "/images/novels/the-spine-of-the-world/9788445015704.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2014-01-07",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 785,
+      "source": "https://www.amazon.es/dp/B0888DV485/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0888DV485/"
+        }
+      ],
+      "cover": "/images/novels/the-spine-of-the-world/english-2014-audiobook.webp"
     }
   ]
 }

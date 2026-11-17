@@ -29,6 +29,18 @@
       "isbn13": 9780786956395,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483455",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0017SWQ0Q/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Boehmer"],
+      "duration": 714,
+      "source": "https://www.amazon.es/dp/B08QSM1CLJ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSM1CLJ/" }],
+      "cover": "/images/novels/death-march/english-2013-audiobook.webp"
     }
   ]
 }

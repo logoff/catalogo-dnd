@@ -29,6 +29,18 @@
       "isbn13": 9780786963928,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467753",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFHPW/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Malcom Hillgartner"],
+      "duration": 603,
+      "source": "https://www.amazon.es/dp/B085HKVJGN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B085HKVJGN/" }],
+      "cover": "/images/novels/dangerous-games/english-2013-audiobook.webp"
     }
   ]
 }

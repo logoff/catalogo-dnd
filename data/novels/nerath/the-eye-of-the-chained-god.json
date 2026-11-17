@@ -29,6 +29,18 @@
       "isbn13": 9780786959983,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?464628",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005C5PLKM/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Michael McConnohie"],
+      "duration": 642,
+      "source": "https://www.amazon.es/dp/B08QVLYQFM/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVLYQFM/" }],
+      "cover": "/images/novels/the-eye-of-the-chained-god/english-2013-audiobook.webp"
     }
   ]
 }

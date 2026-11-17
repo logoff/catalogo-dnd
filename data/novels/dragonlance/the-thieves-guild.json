@@ -29,6 +29,18 @@
       "isbn13": 9788448032715,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/10089",
       "cover": "/images/novels/the-thieves-guild/9788448032715.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-29",
+      "format": "audiobook",
+      "narrators": ["Dina Pearlman"],
+      "duration": 665,
+      "source": "https://www.amazon.es/dp/B08QTV66ZD/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTV66ZD/" }],
+      "cover": "/images/novels/the-thieves-guild/english-2013-audiobook.webp"
     }
   ]
 }

@@ -37,6 +37,7 @@ export const formatNames: Record<NovelFormat, string> = {
   mass_market: 'Bolsillo',
   ebook: 'Ebook',
   web: 'Web',
+  audiobook: 'Audiolibro',
 }
 
 export const countryNames: Record<NovelCountry, string> = {

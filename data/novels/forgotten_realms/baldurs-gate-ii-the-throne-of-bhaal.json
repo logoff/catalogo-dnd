@@ -30,6 +30,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/6993",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8448037464/" }],
       "cover": "/images/novels/baldurs-gate-ii-the-throne-of-bhaal/9788448037468.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-17",
+      "format": "audiobook",
+      "narrators": ["Fleet Cooper"],
+      "duration": 553,
+      "source": "https://www.amazon.es/dp/B08L9ZLB73/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08L9ZLB73/" }],
+      "cover": "/images/novels/baldurs-gate-ii-the-throne-of-bhaal/english-2013-audiobook.webp"
     }
   ]
 }

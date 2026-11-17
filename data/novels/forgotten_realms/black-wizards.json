@@ -70,6 +70,18 @@
       "isbn13": 9788448725860,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36937",
       "cover": "/images/novels/black-wizards/9788448725860.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Dara Rosenberg"],
+      "duration": 949,
+      "source": "https://www.amazon.es/dp/B083GCWKVP/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B083GCWKVP/" }],
+      "cover": "/images/novels/black-wizards/english-2013-audiobook.webp"
     }
   ]
 }

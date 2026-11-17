@@ -30,6 +30,18 @@
       "isbn13": 9788448035587,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/23776",
       "cover": "/images/novels/return-of-the-exile/9788448035587.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-01",
+      "format": "audiobook",
+      "narrators": ["Hillary Huber"],
+      "duration": 595,
+      "source": "https://www.amazon.es/dp/B08DTCPW4F/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08DTCPW4F/" }],
+      "cover": "/images/novels/return-of-the-exile/english-2013-audiobook.webp"
     }
   ]
 }

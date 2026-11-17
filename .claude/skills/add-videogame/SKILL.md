@@ -34,7 +34,11 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
   MobyGames no es fuente de notas.
 - **URLs de compra limpias**, sin parámetros de afiliado: el afiliado se
   añade en el build (`src/utils/stores.ts`). No enlazar a tiendas que no
-  estén en el enum `store` del esquema.
+  estén en el enum `store` del esquema. Si el juego se vende en Steam o
+  GOG, busca también su clave en Instant Gaming (solo si está en stock).
+  `just affiliate-coverage` lista las fichas sin enlace a las tiendas
+  aceptadas; lo que se revisa y no está a la venta va con su motivo en
+  `data/affiliate-exceptions.json`.
 - **Vídeos solo de canales oficiales:** la editora, la desarrolladora,
   una plataforma donde salió (PlayStation, Xbox, Nintendo) o Wizards of
   the Coast / D&D. Nada de medios (GameSpot, IGN…), creadores de

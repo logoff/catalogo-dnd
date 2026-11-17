@@ -13,7 +13,8 @@
       "publisher": "Wizards of the Coast",
       "isbn13": 9780786970223,
       "images": ["/images/products/2024/ddwowdms/pub0_img0.png"],
-      "wpn_url": "https://wpn.wizards.com/en/products/dnd-world-of-warcraft?product=1di1xjxgywd5jwbLLkfE5O"
+      "wpn_url": "https://wpn.wizards.com/en/products/dnd-world-of-warcraft?product=1di1xjxgywd5jwbLLkfE5O",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786970227/" }]
     }
   ]
 }

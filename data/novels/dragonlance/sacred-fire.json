@@ -29,6 +29,18 @@
       "isbn13": 9780786964987,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?458545",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CCONXL0/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-02",
+      "format": "audiobook",
+      "narrators": ["Kevin Stillwell"],
+      "duration": 775,
+      "source": "https://www.amazon.es/dp/B08QVSTJHS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVSTJHS/" }],
+      "cover": "/images/novels/sacred-fire/english-2013-audiobook.webp"
     }
   ]
 }

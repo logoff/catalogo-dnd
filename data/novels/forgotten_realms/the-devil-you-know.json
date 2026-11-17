@@ -36,6 +36,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B01EE08NQE/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B01EE08NQE/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2016-10-25",
+      "format": "audiobook",
+      "narrators": ["Dina Pearlman"],
+      "duration": 1239,
+      "source": "https://www.amazon.es/dp/B09871DGN9/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B09871DGN9/" }],
+      "cover": "/images/novels/the-devil-you-know/english-2016-audiobook.webp"
     }
   ]
 }

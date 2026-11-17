@@ -41,6 +41,18 @@
       "isbn13": 9788467429794,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24589",
       "cover": "/images/novels/legacy-of-steel/9788467429794.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Abby Craden"],
+      "duration": 586,
+      "source": "https://www.amazon.es/dp/B08QVNJRVY/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVNJRVY/" }],
+      "cover": "/images/novels/legacy-of-steel/english-2013-audiobook.webp"
     }
   ]
 }

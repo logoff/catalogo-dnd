@@ -71,6 +71,18 @@
       "isbn13": 9788448725013,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/40997",
       "cover": "/images/novels/the-chaos-curse/9788448725013.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-08-27",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 496,
+      "source": "https://www.amazon.es/dp/B083859M75/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B083859M75/" }],
+      "cover": "/images/novels/the-chaos-curse/english-2013-audiobook.webp"
     }
   ]
 }

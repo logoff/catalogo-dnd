@@ -27,6 +27,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B008ADFH9S/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008ADFH9S/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 530,
+      "source": "https://www.amazon.es/dp/B08QV1HDDF/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV1HDDF/" }],
+      "cover": "/images/novels/bladesinger/english-2013-audiobook.webp"
     }
   ]
 }

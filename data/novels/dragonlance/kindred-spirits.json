@@ -73,6 +73,18 @@
       "isbn13": 9788448006815,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/37817",
       "cover": "/images/novels/kindred-spirits/9788448006815.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Kevin Stillwell"],
+      "duration": 737,
+      "source": "https://www.amazon.es/dp/B08QSM87W8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSM87W8/" }],
+      "cover": "/images/novels/kindred-spirits/english-2013-audiobook.webp"
     }
   ]
 }

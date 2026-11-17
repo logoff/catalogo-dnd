@@ -117,6 +117,10 @@ novedades:
 video-thumbnails:
     node scripts/download-video-thumbnails.mjs
 
+# Listar las fichas sin enlace a las tiendas de afiliados aceptadas
+affiliate-coverage:
+    node scripts/affiliate-coverage.mjs
+
 # Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube (solo avisa)
 check-videos:
     node scripts/check-videos.mjs

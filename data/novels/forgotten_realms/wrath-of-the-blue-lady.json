@@ -29,6 +29,18 @@
       "isbn13": 9780786956401,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483462",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0034184TG/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Neal Rohrer"],
+      "duration": 601,
+      "source": "https://www.amazon.es/dp/B09HGY9BZ8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B09HGY9BZ8/" }],
+      "cover": "/images/novels/wrath-of-the-blue-lady/english-2013-audiobook.webp"
     }
   ]
 }

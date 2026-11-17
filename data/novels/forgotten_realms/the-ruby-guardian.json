@@ -29,6 +29,18 @@
       "isbn13": 9780786956975,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481614",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4BLC/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Erin Jones"],
+      "duration": 533,
+      "source": "https://www.amazon.es/dp/B08QTQLW99/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTQLW99/" }],
+      "cover": "/images/novels/the-ruby-guardian/english-2013-audiobook.webp"
     }
   ]
 }

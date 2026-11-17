@@ -51,6 +51,18 @@
       "isbn13": 9788448032647,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/8468",
       "cover": "/images/novels/firstborn/9788448032647.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Steve Coulter"],
+      "duration": 622,
+      "source": "https://www.amazon.es/dp/B08QSJMN3P/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSJMN3P/" }],
+      "cover": "/images/novels/firstborn/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786956791,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482358",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EN2/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-29",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 709,
+      "source": "https://www.amazon.es/dp/B081QZ53PQ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B081QZ53PQ/" }],
+      "cover": "/images/novels/forsaken-house/english-2013-audiobook.webp"
     }
   ]
 }

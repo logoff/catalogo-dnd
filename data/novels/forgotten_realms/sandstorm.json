@@ -27,6 +27,18 @@
       "isbn13": 9780786958962,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?471496",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004HFRMDW/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Christopher Robin Miller"],
+      "duration": 500,
+      "source": "https://www.amazon.es/dp/B08QVK82QT/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVK82QT/" }],
+      "cover": "/images/novels/sandstorm/english-2013-audiobook.webp"
     }
   ]
 }

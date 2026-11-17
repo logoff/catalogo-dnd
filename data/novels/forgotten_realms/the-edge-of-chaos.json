@@ -29,6 +29,18 @@
       "isbn13": 9780786955886,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?483790",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0031O402G/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Neal Rohrer"],
+      "duration": 623,
+      "source": "https://www.amazon.es/dp/B08QV7Q62B/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV7Q62B/" }],
+      "cover": "/images/novels/the-edge-of-chaos/english-2013-audiobook.webp"
     }
   ]
 }

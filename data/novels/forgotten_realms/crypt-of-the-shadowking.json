@@ -29,6 +29,18 @@
       "isbn13": 9780786963683,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?467166",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B007UT8KXI/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-22",
+      "format": "audiobook",
+      "narrators": ["Marty Moran"],
+      "duration": 591,
+      "source": "https://www.amazon.es/dp/B08276FLHF/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08276FLHF/" }],
+      "cover": "/images/novels/crypt-of-the-shadowking/english-2013-audiobook.webp"
     }
   ]
 }

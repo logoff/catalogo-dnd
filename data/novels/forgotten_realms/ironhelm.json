@@ -60,6 +60,18 @@
       "isbn13": 9788448725037,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36931",
       "cover": "/images/novels/ironhelm/9788448725037.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Lincoln Hoppe"],
+      "duration": 841,
+      "source": "https://www.amazon.es/dp/B08G7WJ4SS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08G7WJ4SS/" }],
+      "cover": "/images/novels/ironhelm/english-2013-audiobook.webp"
     }
   ]
 }

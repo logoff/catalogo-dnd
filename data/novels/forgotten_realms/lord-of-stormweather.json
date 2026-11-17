@@ -37,6 +37,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0076Q1G4U/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0076Q1G4U/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-22",
+      "format": "audiobook",
+      "narrators": ["Jeremy Arthur"],
+      "duration": 537,
+      "source": "https://www.amazon.es/dp/B08QTSNZJS/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTSNZJS/" }],
+      "cover": "/images/novels/lord-of-stormweather/english-2013-audiobook.webp"
     }
   ]
 }

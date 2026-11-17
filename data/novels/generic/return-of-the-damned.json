@@ -29,6 +29,18 @@
       "isbn13": 9780786965076,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?459156",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00CQZ5M28/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-05-01",
+      "format": "audiobook",
+      "narrators": ["Dolph Amick"],
+      "duration": 333,
+      "source": "https://www.amazon.es/dp/B081Y9XBKB/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B081Y9XBKB/" }],
+      "cover": "/images/novels/return-of-the-damned/english-2013-audiobook.webp"
     }
   ]
 }

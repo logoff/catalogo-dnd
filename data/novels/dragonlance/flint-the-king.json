@@ -103,6 +103,18 @@
       "isbn13": 9788448005399,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/36641",
       "cover": "/images/novels/flint-the-king/9788448005399.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Boehmer"],
+      "duration": 710,
+      "source": "https://www.amazon.es/dp/B08QTVSCKN/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTVSCKN/" }],
+      "cover": "/images/novels/flint-the-king/english-2013-audiobook.webp"
     }
   ]
 }

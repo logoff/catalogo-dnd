@@ -61,6 +61,18 @@
       "isbn13": 9788448726591,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/41001",
       "cover": "/images/novels/extinction/9788448726591.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Rosalyn Landor"],
+      "duration": 714,
+      "source": "https://www.amazon.es/dp/B08QTNB3H8/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTNB3H8/" }],
+      "cover": "/images/novels/extinction/english-2013-audiobook.webp"
     }
   ]
 }

@@ -162,6 +162,23 @@
         }
       ],
       "cover": "/images/novels/streams-of-silver/9788445014073.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-05-21",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 713,
+      "source": "https://www.amazon.es/dp/B081PP9P3P/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081PP9P3P/"
+        }
+      ],
+      "cover": "/images/novels/streams-of-silver/english-2013-audiobook.webp"
     }
   ]
 }

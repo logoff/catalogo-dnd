@@ -102,6 +102,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B00AGV8YNS/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B00AGV8YNS/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Paul Boehmer"],
+      "duration": 656,
+      "source": "https://www.amazon.es/dp/B08QTQ5KH9/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTQ5KH9/" }],
+      "cover": "/images/novels/brothers-majere/english-2013-audiobook.webp"
     }
   ]
 }

@@ -52,6 +52,18 @@
       "isbn13": 9788448726522,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/40989",
       "cover": "/images/novels/the-summoning/9788448726522.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Kevin Kraft"],
+      "duration": 673,
+      "source": "https://www.amazon.es/dp/B08QTQCJ5F/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTQCJ5F/" }],
+      "cover": "/images/novels/the-summoning/english-2013-audiobook.webp"
     }
   ]
 }

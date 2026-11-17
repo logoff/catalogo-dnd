@@ -29,6 +29,18 @@
       "isbn13": 9780786964079,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?468424",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B008C8ZR28/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Brian Troxell"],
+      "duration": 670,
+      "source": "https://www.amazon.es/dp/B08QV8F5B9/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV8F5B9/" }],
+      "cover": "/images/novels/star-of-cursrah/english-2013-audiobook.webp"
     }
   ]
 }

@@ -29,6 +29,18 @@
       "isbn13": 9780786956586,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?482676",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S4EA0/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-01",
+      "format": "audiobook",
+      "narrators": ["Casey Holloway"],
+      "duration": 419,
+      "source": "https://www.amazon.es/dp/B08QV68NKP/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QV68NKP/" }],
+      "cover": "/images/novels/return-of-the-sorceress/english-2013-audiobook.webp"
     }
   ]
 }

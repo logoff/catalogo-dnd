@@ -96,6 +96,23 @@
         }
       ],
       "cover": "/images/novels/downfall/9788445022207.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Sam Riegel"],
+      "duration": 695,
+      "source": "https://www.amazon.es/dp/B0858WHL74/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0858WHL74/"
+        }
+      ],
+      "cover": "/images/novels/downfall/english-2013-audiobook.webp"
     }
   ]
 }

@@ -60,6 +60,18 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0060B6IMC/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0060B6IMC/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["J. P. Linton"],
+      "duration": 1119,
+      "source": "https://www.amazon.es/dp/B07ZBQDXZR/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07ZBQDXZR/" }],
+      "cover": "/images/novels/cormyr-a-novel/english-2013-audiobook.webp"
     }
   ]
 }

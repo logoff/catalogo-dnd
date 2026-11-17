@@ -110,6 +110,23 @@
         }
       ],
       "cover": "/images/novels/neverwinter/9788445011010.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-02-19",
+      "format": "audiobook",
+      "narrators": ["Victor Bevine"],
+      "duration": 735,
+      "source": "https://www.amazon.es/dp/B081PP5G96/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B081PP5G96/"
+        }
+      ],
+      "cover": "/images/novels/neverwinter/english-2013-audiobook.webp"
     }
   ]
 }

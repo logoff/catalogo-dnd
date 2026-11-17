@@ -39,6 +39,18 @@
       "isbn13": 9780786957002,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?481613",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0036S49LE/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-03-09",
+      "format": "audiobook",
+      "narrators": ["Suehyla El-Attar"],
+      "duration": 638,
+      "source": "https://www.amazon.es/dp/B08QSFQCX6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSFQCX6/" }],
+      "cover": "/images/novels/the-shattered-mask/english-2013-audiobook.webp"
     }
   ]
 }

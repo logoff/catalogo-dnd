@@ -40,6 +40,18 @@
       "isbn13": 9788448044084,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24598",
       "cover": "/images/novels/the-measure-and-the-truth/9788448044084.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Chris Sorensen"],
+      "duration": 757,
+      "source": "https://www.amazon.es/dp/B08L78WPDJ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08L78WPDJ/" }],
+      "cover": "/images/novels/the-measure-and-the-truth/english-2013-audiobook.webp"
     }
   ]
 }

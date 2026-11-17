@@ -62,6 +62,18 @@
       "isbn13": 9788448726607,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/37111",
       "cover": "/images/novels/prince-of-lies/9788448726607.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Nicole Greevy"],
+      "duration": 753,
+      "source": "https://www.amazon.es/dp/B08QSG2DWJ/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSG2DWJ/" }],
+      "cover": "/images/novels/prince-of-lies/english-2013-audiobook.webp"
     }
   ]
 }

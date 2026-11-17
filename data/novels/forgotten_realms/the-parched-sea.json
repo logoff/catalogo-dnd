@@ -29,6 +29,18 @@
       "isbn13": 9780786961535,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475686",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005K98QQQ/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Marty Moran"],
+      "duration": 601,
+      "source": "https://www.amazon.es/dp/B08QTKYD8G/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTKYD8G/" }],
+      "cover": "/images/novels/the-parched-sea/english-2013-audiobook.webp"
     }
   ]
 }

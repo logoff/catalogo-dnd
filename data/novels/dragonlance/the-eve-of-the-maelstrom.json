@@ -51,6 +51,18 @@
       "isbn13": 9788448721879,
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/24282",
       "cover": "/images/novels/the-eve-of-the-maelstrom/9788448721879.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-28",
+      "format": "audiobook",
+      "narrators": ["Josh Clark"],
+      "duration": 616,
+      "source": "https://www.amazon.es/dp/B07YR9HQ9B/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B07YR9HQ9B/" }],
+      "cover": "/images/novels/the-eve-of-the-maelstrom/english-2013-audiobook.webp"
     }
   ]
 }

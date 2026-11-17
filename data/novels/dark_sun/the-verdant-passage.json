@@ -49,6 +49,18 @@
       "source": "https://tercerafundacion.net/biblioteca/ver/libro/1045",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8477228833/" }],
       "cover": "/images/novels/the-verdant-passage/9788477228837.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Ray Porter"],
+      "duration": 559,
+      "source": "https://www.amazon.es/dp/B08QSJGP3F/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QSJGP3F/" }],
+      "cover": "/images/novels/the-verdant-passage/english-2013-audiobook.webp"
     }
   ]
 }

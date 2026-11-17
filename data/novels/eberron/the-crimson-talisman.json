@@ -18,6 +18,18 @@
       "isbn13": 9780786937394,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?69172",
       "cover": "/images/novels/the-crimson-talisman/9780786937394.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Fleet Cooper"],
+      "duration": 692,
+      "source": "https://www.amazon.es/dp/B08QVGXVL6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVGXVL6/" }],
+      "cover": "/images/novels/the-crimson-talisman/english-2013-audiobook.webp"
     }
   ]
 }

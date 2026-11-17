@@ -28,6 +28,18 @@
       "isbn13": 9780786959334,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?474999",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B004ZZKTHK/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-01-08",
+      "format": "audiobook",
+      "narrators": ["Saskia Maarleveld"],
+      "duration": 572,
+      "source": "https://www.amazon.es/dp/B08QTGQR9J/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QTGQR9J/" }],
+      "cover": "/images/novels/the-shard-axe/english-2013-audiobook.webp"
     }
   ]
 }

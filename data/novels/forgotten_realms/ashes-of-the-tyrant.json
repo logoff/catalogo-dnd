@@ -39,6 +39,18 @@
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?604056",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786965908/" }],
       "cover": "/images/novels/ashes-of-the-tyrant/9780786965908.webp"
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2015-12-29",
+      "format": "audiobook",
+      "narrators": ["Dina Pearlman"],
+      "duration": 1236,
+      "source": "https://www.amazon.es/dp/B08QVHM561/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVHM561/" }],
+      "cover": "/images/novels/ashes-of-the-tyrant/english-2015-audiobook.webp"
     }
   ]
 }

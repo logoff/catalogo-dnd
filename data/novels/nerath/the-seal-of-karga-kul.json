@@ -27,6 +27,18 @@
       "isbn13": 9780786958115,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?477481",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B003WUYOKW/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-06-14",
+      "format": "audiobook",
+      "narrators": ["Dolph Amick"],
+      "duration": 509,
+      "source": "https://www.amazon.es/dp/B08QVMB9Z6/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVMB9Z6/" }],
+      "cover": "/images/novels/the-seal-of-karga-kul/english-2013-audiobook.webp"
     }
   ]
 }

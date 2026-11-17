@@ -29,6 +29,18 @@
       "isbn13": 9780786961528,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?475690",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B005K98R3I/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "Audible Studios",
+      "date": "2013-06-21",
+      "format": "audiobook",
+      "narrators": ["Marty Moran"],
+      "duration": 620,
+      "source": "https://www.amazon.es/dp/B08QVGQB4J/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08QVGQB4J/" }],
+      "cover": "/images/novels/the-veiled-dragon/english-2013-audiobook.webp"
     }
   ]
 }
