@@ -1,0 +1,25 @@
+{
+  "slug": "dungeons-and-dragons-encyclopedia",
+  "title": "Dungeons & Dragons Encyclopedia",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "DK",
+  "date": "2026-10-01",
+  "description": "Enciclopedia ilustrada de DK que recorre el mundo de Dungeons & Dragons: sus mundos de campaña, criaturas, dioses, personajes célebres y la historia del juego, con ilustraciones oficiales.\n\nEs una obra de consulta para fans de cualquier edad que quieran una visión general del universo de D&D. Por ahora solo está en inglés, aunque DK ha traducido otros libros de la misma línea.",
+  "source": "https://www.amazon.es/dp/0241785138/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "DK",
+      "date": "2026-10-01",
+      "isbn13": 9780241785133,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0241785138/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeons-and-dragons-encyclopedia/0.jpg"]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "a-feast-for-a-tenday",
+  "title": "A Feast for a Tenday: The Official Baldur's Gate 3 Cookbook",
+  "group": "books",
+  "kind": "cookbook",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-11-03",
+  "description": "Recetario oficial de Baldur's Gate 3 escrito por Andrew Wheeler: unas sesenta recetas inspiradas en los lugares y los compañeros del juego, de Lae'zel y Astarion a Karlach, desde las tierras salvajes hasta la ciudad de Baldur's Gate.\n\nPensado para jugadores del videojuego que disfrutan cocinando y para preparar la comida de una partida de rol. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/807338/a-feast-for-a-tenday-baldurs-gate-3-by-andrew-wheeler-official-dungeons-and-dragons-licensed/9780593839980/",
+  "related_videogames": ["baldurs-gate-3"],
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-11-03",
+      "isbn13": 9780593839980,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593839986/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/a-feast-for-a-tenday/0.jpg"]
+}
