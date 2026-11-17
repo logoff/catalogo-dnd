@@ -29,6 +29,20 @@
       "isbn13": 9780063039131,
       "source": "https://www.isfdb.org/cgi-bin/pl.cgi?862634",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B08W58BKMZ/" }]
+    },
+    {
+      "language": "english",
+      "country": "uk",
+      "publisher": "HarperCollins",
+      "format": "audiobook",
+      "isbn13": 9780008555252,
+      "source": "https://nextory.com/es/book/dungeons-dragons-dungeon-academy-no-humans-allowed-4011489",
+      "purchase_links": [
+        {
+          "store": "nextory",
+          "url": "https://nextory.com/es/book/dungeons-dragons-dungeon-academy-no-humans-allowed-4011489"
+        }
+      ]
     }
   ]
 }

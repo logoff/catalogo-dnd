@@ -11,10 +11,11 @@ catálogo y cómo se vigila que ningún producto a la venta quede sin enlace.
 
 El catálogo SHALL enlazar solo tiendas cuyo programa de afiliados esté
 aceptado o que no tengan programa (Steam, GOG mientras no se acepte):
-Amazon y Casa del Libro en libros de rol, merchandising y novelas; Juegos
-de la Mesa Redonda en libros de rol; Amazon e Instant Gaming en
-videojuegos. Los programas rechazados (Fnac, Green Man Gaming, Humble
-Bundle, Eneba) no SHALL tener enlaces.
+Amazon y Casa del Libro en libros de rol, merchandising y novelas;
+Nextory en las novelas que tenga en su catálogo; Juegos de la Mesa Redonda
+en libros de rol; Amazon e Instant Gaming en videojuegos. Los programas
+rechazados (Fnac, Green Man Gaming, Humble Bundle, Eneba) no SHALL tener
+enlaces.
 
 #### Scenario: Libro de rol en castellano en Casa del Libro
 
