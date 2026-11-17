@@ -40,6 +40,20 @@
       "cover": "/images/novels/baldurs-gate-3-astarion/9781835419588.webp"
     },
     {
+      "language": "english",
+      "country": "uk",
+      "publisher": "Titan Books",
+      "format": "ebook",
+      "isbn13": 9781835419595,
+      "source": "https://nextory.com/es/book/baldurs-gate-3-astarion-6718296",
+      "purchase_links": [
+        {
+          "store": "nextory",
+          "url": "https://nextory.com/es/book/baldurs-gate-3-astarion-6718296"
+        }
+      ]
+    },
+    {
       "language": "castellano",
       "spain": true,
       "title": "Baldur's Gate 3: Astarion",

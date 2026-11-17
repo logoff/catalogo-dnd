@@ -122,6 +122,7 @@ se publica sin afiliado:
 | `VITE_AFFILIATE_AWIN_PUBLISHER`              | ID de publisher en Awin (común a sus tiendas)   |
 | `VITE_AFFILIATE_FANATICAL_PROGRAM`           | ID del anunciante Fanatical en Awin             |
 | `VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM`      | ID del anunciante Casa del Libro en Awin        |
+| `VITE_AFFILIATE_NEXTORY_PROGRAM`             | ID del programa de Nextory en Adtraction        |
 
 En el despliegue se leen de los secretos del repositorio con el mismo
 nombre sin el prefijo `VITE_`. En local se pueden poner en `.env`.

@@ -27,6 +27,20 @@
       "format": "ebook",
       "source": "https://www.amazon.es/dp/B0C1Y1XB2X/",
       "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0C1Y1XB2X/" }]
+    },
+    {
+      "language": "english",
+      "country": "us",
+      "publisher": "HarperCollins",
+      "format": "audiobook",
+      "isbn13": 9780063273382,
+      "source": "https://nextory.com/es/book/dungeons-dragons-dungeon-academy-last-best-hope-6166498",
+      "purchase_links": [
+        {
+          "store": "nextory",
+          "url": "https://nextory.com/es/book/dungeons-dragons-dungeon-academy-last-best-hope-6166498"
+        }
+      ]
     }
   ]
 }

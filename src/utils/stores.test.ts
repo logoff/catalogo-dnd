@@ -78,6 +78,11 @@ describe('stores', () => {
     expect(getPurchaseUrl('casa_del_libro', url)).toBe(url)
   })
 
+  it('Nextory va por Adtraction y sin IDs se enlaza tal cual', () => {
+    const url = 'https://nextory.com/es/book/baldurs-gate-3-astarion-6718296'
+    expect(getPurchaseUrl('nextory', url)).toBe(url)
+  })
+
   it('withParam respeta los parámetros existentes', () => {
     expect(withParam(`${url}?ref=x`, 'tag', 'a')).toBe(`${url}?ref=x&tag=a`)
   })

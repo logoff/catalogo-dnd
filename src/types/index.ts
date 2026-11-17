@@ -38,6 +38,7 @@ export type Store =
   | 'instant_gaming'
   | 'fanatical'
   | 'casa_del_libro'
+  | 'nextory'
 
 export interface PurchaseLink {
   store: Store

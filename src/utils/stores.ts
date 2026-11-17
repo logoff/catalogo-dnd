@@ -101,6 +101,15 @@ export const STORES: Record<Store, StoreConfig> = {
       env.VITE_AFFILIATE_AWIN_PUBLISHER
     ),
   },
+  // Suscripción de ebooks y audiolibros: solo para las novelas que tiene en su catálogo
+  nextory: {
+    label: 'Nextory',
+    color: 'from-[#4b1a5e] to-[#32103f] hover:from-[#5e2275] hover:to-[#4b1a5e]',
+    affiliate: adtractionAffiliate(
+      env.VITE_AFFILIATE_NEXTORY_PROGRAM,
+      env.VITE_AFFILIATE_ADTRACTION_CHANNEL
+    ),
+  },
 }
 
 export function withParam(url: string, name: string, value: string): string {
