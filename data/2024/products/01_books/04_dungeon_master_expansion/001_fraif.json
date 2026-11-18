@@ -1,6 +1,17 @@
 {
   "code": "FRAiF",
   "description": "Forgotten Realms: Adventures in Faerûn es el libro del Dungeon Master para los Reinos Olvidados con las reglas de 2024. Presenta cinco miniambientaciones con su propio estilo (desde el terror de supervivencia en el frío hasta la fantasía urbana oscura), más de cincuenta aventuras de una página para los niveles 1 a 15, nuevos monstruos y villanos, objetos mágicos, un bastión propio de cada miniambientación y una aventura introductoria.\n\nSe complementa con Heroes of Faerûn, para los jugadores. En castellano salió en 2026 como Reinos Olvidados: Aventuras en Faerûn.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/adventures-in-faerun-review",
+      "language": "english",
+      "date": "2025-12-02",
+      "author": "Mollie Russell",
+      "score": 5,
+      "summary": "Promete más de 50 aventuras, pero la mayoría son esbozos sin interés: mucho volumen y poca sustancia, como un videojuego de mundo abierto lleno de relleno. Decepcionante."
+    }
+  ],
   "publications": [
     {
       "type": "book",
@@ -55,7 +66,7 @@
         },
         {
           "store": "juegos_mesa_redonda",
-          "url": "https://juegosdelamesaredonda.com/19216-dungeons-and-dragons-reinos-olvidados-aventuras-en-faerun--guia-de-campaña-9780786970315.html"
+          "url": "https://juegosdelamesaredonda.com/19216-dungeons-and-dragons-reinos-olvidados-aventuras-en-faerun--guia-de-campa%C3%B1a-9780786970315.html"
         }
       ]
     }

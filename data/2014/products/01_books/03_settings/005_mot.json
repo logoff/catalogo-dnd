@@ -1,6 +1,24 @@
 {
   "code": "MOT",
   "description": "Mythic Odysseys of Theros adapta el plano de Theros, de Magic: The Gathering, inspirado en la mitología griega: dioses que intervienen en la vida de los mortales, héroes destinados a la gloria y monstruos míticos. Incluye reglas de devoción a los dioses, dones sobrenaturales para los personajes, las razas leonino y sátiro, subclases nuevas y monstruos míticos con fases.\n\nEs la mejor base oficial para una campaña épica de aire clásico. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "thegamer",
+      "url": "https://www.thegamer.com/mythic-odysseys-of-theros-review-issues-change-races-classes-dnd-dungeons-dragons/",
+      "language": "english",
+      "date": "2020-07-22",
+      "author": "Sergio Solorzano",
+      "summary": "Devuelve la imaginación a D&D: su mundo mitológico y sus reglas animan a salir de la fórmula de taberna, encargo y combate. Echa en falta que no se atreva más con cambios como desligar las capacidades de la especie."
+    },
+    {
+      "outlet": "bleedingcool",
+      "url": "https://bleedingcool.com/games/we-review-dungeons-dragons-mythic-odysseys-of-theros/",
+      "language": "english",
+      "date": "2020-09-13",
+      "author": "Gavin Sheehan",
+      "summary": "Todo funciona como debe, pero le parece un libro de trámite para atraer a jugadores de Magic, sobre un plano que dejó poca huella. No es malo, aunque cuesta ver su propósito habiendo tanto trasfondo de Magic por explorar."
+    }
+  ],
   "publications": [
     {
       "type": "book",

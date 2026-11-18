@@ -1,6 +1,17 @@
 {
   "code": "MTF",
   "description": "Mordenkainen's Tome of Foes explora los grandes conflictos del multiverso: la Guerra de Sangre entre diablos y demonios, la división entre elfos y eladrines, la rivalidad entre enanos y duergar, la guerra eterna entre githyanki y githzerai y la historia de los medianos y gnomos. Cada capítulo incluye nuevas opciones de personaje y un bestiario amplio, con muchos señores demoníacos y archidiablos.\n\nNo se publicó en castellano. Sus reglas de razas y monstruos se revisaron después en Mordenkainen presenta: Monstruos del Multiverso, que sí tiene traducción.",
+  "reviews": [
+    {
+      "outlet": "gamingtrend",
+      "url": "https://gamingtrend.com/reviews/the-detail-in-the-devils-mordenkainens-tome-of-foes-review/",
+      "language": "english",
+      "date": "2018-06-02",
+      "author": "John Farrell",
+      "score": 90,
+      "summary": "Lleva a los conflictos más fascinantes del trasfondo de D&D con estilo, con potencial de campaña y dilemas morales inesperados. La Guerra de Sangre ocupa mucho espacio, pero sus nuevos monstruos lo hacen muy útil para el DM."
+    }
+  ],
   "publications": [
     {
       "type": "book",

@@ -1,6 +1,17 @@
 {
   "code": "VEOR",
   "description": "Vecna: Víspera de la destrucción es una campaña de nivel alto: el archiliche Vecna está a punto de rehacer el multiverso y los personajes tienen que reunir las piezas de un artefacto para detenerlo, viajando por mundos clásicos de D&D. Cubre los niveles 10 a 20.\n\nEs una de las pocas campañas oficiales pensadas desde el principio para personajes poderosos. En castellano la publicó Wizards of the Coast en 2024.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/vecna-eve-of-ruin-review",
+      "language": "english",
+      "date": "2024-05-10",
+      "author": "Mollie Russell",
+      "score": 7,
+      "summary": "Una aventura de alto nivel espectacular, con giros de superproducción y un repaso a la historia de D&D, pero que sacrifica profundidad por amplitud: personajes planos, poco apoyo para el DM y trucos de equilibrio que restan asombro. Divertida, aunque con fallos."
+    }
+  ],
   "publications": [
     {
       "type": "book",

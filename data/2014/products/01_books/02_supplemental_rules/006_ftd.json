@@ -1,6 +1,17 @@
 {
   "code": "FTD",
   "description": "El tesoro de los dragones de Fizban es un libro monográfico sobre dragones: su naturaleza, sus guaridas, sus tesoros y su papel en una campaña. Añade los dragones gema (amatista, cristal, esmeralda, topacio y zafiro), variantes de dracónido según el tipo de dragón, subclases dracónicas para monje y explorador, dotes y conjuros nuevos.\n\nEs especialmente útil si preparas una campaña en la que los dragones son protagonistas. En castellano lo publicó Wizards of the Coast en 2023.",
+  "reviews": [
+    {
+      "outlet": "cgmagazine",
+      "url": "https://www.cgmagonline.com/review/tabletop/dd-fizbans-treasury-of-dragons-review/",
+      "language": "english",
+      "date": "2021-11-04",
+      "author": "Chris de Hoog",
+      "score": 8.5,
+      "summary": "Uno de los suplementos para DM más aprovechables de 5E: todo lo necesario para campañas en las que los dragones tengan peso. Si al grupo no le interesan los dragones, es un libro muy especializado que se puede pasar por alto."
+    }
+  ],
   "publications": [
     {
       "type": "book",

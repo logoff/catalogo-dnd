@@ -1,6 +1,24 @@
 {
   "code": "TOA",
   "description": "La Tumba de la Aniquilación lleva a los personajes a Chult, una península de selvas, dinosaurios y ruinas. Una maldición está consumiendo a todos los que alguna vez volvieron de entre los muertos, y su origen está escondido en una tumba diseñada por el liche Acererak. Cubre los niveles 1 a 11 y combina exploración por la selva con una de las mazmorras más letales de la edición.\n\nTiene fama de difícil, así que conviene avisar al grupo. En castellano la publicó Edge Entertainment en 2018.",
+  "reviews": [
+    {
+      "outlet": "belloflostsouls",
+      "url": "https://www.belloflostsouls.net/2017/09/dd-tomb-of-annihilation-review.html",
+      "language": "english",
+      "date": "2017-09-12",
+      "author": "J.R. Zambrano",
+      "summary": "Un libro increíble: Chult está lleno de lugares que son aventuras en sí mismos, con un camino claro pero sin agobiar, y sus localizaciones dan ganas de volver a jugar. Lo recomienda sin reservas a jugadores y DM."
+    },
+    {
+      "outlet": "tribality",
+      "url": "https://www.tribality.com/2017/09/18/dd-tomb-of-annihilation-review/",
+      "language": "english",
+      "date": "2017-09-19",
+      "author": "DM Shawn",
+      "summary": "Para grupos que buscan una aventura mortal: la maldición de la muerte hace permanentes las bajas, y hay exploración por la jungla, puzles y trampas de sobra. Trae pocas notas para llevarla a otros mundos."
+    }
+  ],
   "publications": [
     {
       "type": "book",
@@ -46,7 +64,7 @@
       "purchase_links": [
         {
           "store": "juegos_mesa_redonda",
-          "url": "https://juegosdelamesaredonda.com/6561-dungeons-and-dragons-la-tumba-de-la-aniquilacion-edicion-española-9788416357864.html"
+          "url": "https://juegosdelamesaredonda.com/6561-dungeons-and-dragons-la-tumba-de-la-aniquilacion-edicion-espa%C3%B1ola-9788416357864.html"
         },
         {
           "store": "casa_del_libro",

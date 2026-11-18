@@ -3,12 +3,18 @@
     "title": "Products",
     "type": "object",
     "$id": "/schemas/products",
-    "code": {
-        "type": "string"
-    },
     "properties": {
+        "code": {
+            "type": "string"
+        },
         "description": {
             "type": "string"
+        },
+        "reviews": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/review"
+            }
         },
         "publications": {
             "type": "array",
@@ -26,6 +32,52 @@
         "publications"
     ],
     "$defs": {
+        "review": {
+            "title": "Review",
+            "description": "Reseña de un medio de data/review-outlets.json. El resumen es propio y en castellano; la nota, si la hay, en la escala del medio.",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "outlet": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "language": {
+                    "type": "string",
+                    "enum": ["english", "castellano"]
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "author": {
+                    "type": "string"
+                },
+                "score": {
+                    "type": "number",
+                    "minimum": 0
+                },
+                "summary": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 400
+                },
+                "spanish_edition": {
+                    "description": "La reseña valora la edición en castellano o su traducción",
+                    "const": true
+                }
+            },
+            "required": [
+                "outlet",
+                "url",
+                "language",
+                "date",
+                "summary"
+            ]
+        },
         "publication": {
             "title": "Publication",
             "type": "object",
@@ -78,7 +130,7 @@
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "format": "uri"
+                        "format": "uri-reference"
                     }
                 },
                 "official_url": {
@@ -151,7 +203,7 @@
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "format": "uri"
+                        "format": "uri-reference"
                     }
                 }
             },

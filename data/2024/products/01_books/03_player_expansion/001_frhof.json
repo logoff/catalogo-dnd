@@ -1,6 +1,17 @@
 {
   "code": "FRHoF",
   "description": "Forgotten Realms: Heroes of Faerûn es el libro para jugadores de los Reinos Olvidados con las reglas de 2024. Ofrece ocho subclases nuevas, conjuros, la magia de círculo élfica, ocho facciones con reglas de renombre, un resumen de los dioses del panteón, dotes, trasfondos, equipo regional y una visión general de las regiones de Faerûn.\n\nTiene un libro compañero para el Dungeon Master, Adventures in Faerûn. En castellano salió en 2026 como Reinos Olvidados: Héroes de Faerûn.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/forgotten-realms-heroes-of-faerun-review",
+      "language": "english",
+      "date": "2025-11-14",
+      "author": "Mollie Russell",
+      "score": 8,
+      "summary": "Por fin un libro que se toma su tiempo con el trasfondo de un mundo, con opciones de personaje emocionantes: imprescindible para jugadores nuevos y fans de Baldur’s Gate 3. Las dotes de origen de Faerûn son demasiado específicas y sobran dotes épicas."
+    }
+  ],
   "publications": [
     {
       "type": "book",

@@ -1,6 +1,17 @@
 {
   "code": "JTTRC",
   "description": "Viajes por la Ciudadela Radiante es una antología de trece aventuras independientes unidas por la Ciudadela Radiante, una ciudad en el Plano Etéreo que conecta con sociedades muy diversas, inspiradas en culturas del mundo real. Cubre los niveles 1 a 14.\n\nCada aventura se puede jugar sola o como parte de una campaña más amplia. En castellano la publicó Wizards of the Coast en 2023.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/journeys-through-the-radiant-citadel-review",
+      "language": "english",
+      "date": "2022-07-22",
+      "author": "Mollie Russell",
+      "score": 9,
+      "summary": "Aventuras coloridas, divertidas y que dan que pensar, escritas por autores de culturas muy diversas que invitan a participar a cualquier mesa. Su punto más flojo es usarlas como campaña seguida, con tramas algo repetidas."
+    }
+  ],
   "publications": [
     {
       "type": "book",

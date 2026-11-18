@@ -1,6 +1,15 @@
 {
   "code": "DMG",
   "description": "La Guía del Dungeon Master es el libro de herramientas del narrador: cómo construir un mundo de campaña, diseñar aventuras y mazmorras, repartir tesoros y gestionar la mesa. Incluye el catálogo de objetos mágicos de la edición y una buena colección de reglas opcionales para ajustar el juego al estilo de cada grupo.\n\nNo hace falta para empezar a dirigir (la caja de inicio o una aventura publicada bastan), pero se vuelve imprescindible cuando quieres crear tu propio material. En castellano existe la edición de Edge Entertainment (2017) y la reedición de Wizards of the Coast (2021).",
+  "reviews": [
+    {
+      "outlet": "escapist",
+      "url": "https://www.escapistmagazine.com/dd-dungeon-masters-guide-review-wonderfully-useful-to-the-right-people/",
+      "language": "english",
+      "date": "2015-01-12",
+      "summary": "Muy útil y casi obligatorio para jugar a 5E, pero abarca tantos temas que trata algunos por encima: sus herramientas para personalizar el juego son más consejos que reglas y apenas enseña a dirigir a quien empieza."
+    }
+  ],
   "publications": [
     {
       "type": "book",

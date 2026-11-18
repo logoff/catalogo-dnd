@@ -1,6 +1,17 @@
 {
   "code": "DD",
   "description": "Dragon Delves es una antología de diez aventuras protagonizadas por dragones, una por cada dragón cromático y metálico. Cubre desde el nivel 1 hasta el 12, y las aventuras pueden jugarse sueltas o intercalarse en una campaña propia.\n\nFue una de las primeras aventuras publicadas para las reglas de 2024. De momento solo está en inglés.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/dragon-delves-review",
+      "language": "english",
+      "date": "2025-07-07",
+      "author": "Mollie Russell",
+      "score": 7,
+      "summary": "El libro de D&D más bonito y mejor organizado, pensado para que el DM novato lo tenga fácil. Pero la simplificación ha dejado aventuras con poco carácter que piden más trabajo, no menos: bueno, aunque por debajo de otras antologías."
+    }
+  ],
   "publications": [
     {
       "type": "book",

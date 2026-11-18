@@ -1,6 +1,16 @@
 {
   "code": "TOTWP",
   "description": "Cuentos del Portal Bostezante es una antología de siete mazmorras clásicas de distintas épocas de D&D, adaptadas a la quinta edición: The Sunless Citadel, The Forge of Fury, The Hidden Shrine of Tamoachan, White Plume Mountain, Dead in Thay, Against the Giants y Tomb of Horrors. El hilo conductor es la taberna del Portal Bostezante, en Waterdeep.\n\nLas aventuras son independientes y cubren desde nivel 1 hasta nivel alto, así que sirven tanto para partidas sueltas como para encadenarlas. En castellano la publicó Edge Entertainment en 2020.",
+  "reviews": [
+    {
+      "outlet": "bleedingcool",
+      "url": "https://bleedingcool.com/games/tales-yawning-portal-dms-delight-seven-adventures-one/",
+      "language": "english",
+      "date": "2017-04-07",
+      "author": "Gavin Sheehan",
+      "summary": "Imprescindible para cualquier DM: siete aventuras clásicas adaptadas a 5E en un solo libro, fáciles de usar y con algo para cada tipo de grupo."
+    }
+  ],
   "publications": [
     {
       "type": "book",

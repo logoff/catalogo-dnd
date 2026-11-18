@@ -1,0 +1,148 @@
+[
+  {
+    "id": "wargamer",
+    "name": "Wargamer",
+    "url": "https://www.wargamer.com/",
+    "language": "english",
+    "scale": 10
+  },
+  {
+    "id": "gamereactor",
+    "name": "Gamereactor",
+    "url": "https://www.gamereactor.eu/",
+    "language": "english",
+    "scale": 10
+  },
+  {
+    "id": "ign",
+    "name": "IGN",
+    "url": "https://www.ign.com/",
+    "language": "english",
+    "scale": 10
+  },
+  {
+    "id": "gamesradar",
+    "name": "GamesRadar+",
+    "url": "https://www.gamesradar.com/",
+    "language": "english",
+    "scale": 5
+  },
+  {
+    "id": "techradar",
+    "name": "TechRadar",
+    "url": "https://www.techradar.com/",
+    "language": "english",
+    "scale": 5
+  },
+  {
+    "id": "gamingtrend",
+    "name": "GamingTrend",
+    "url": "https://gamingtrend.com/",
+    "language": "english",
+    "scale": 100
+  },
+  {
+    "id": "polygon",
+    "name": "Polygon",
+    "url": "https://www.polygon.com/",
+    "language": "english"
+  },
+  {
+    "id": "dicebreaker",
+    "name": "Dicebreaker",
+    "url": "https://www.dicebreaker.com/",
+    "language": "english"
+  },
+  {
+    "id": "enworld",
+    "name": "EN World",
+    "url": "https://www.enworld.org/",
+    "language": "english"
+  },
+  {
+    "id": "belloflostsouls",
+    "name": "Bell of Lost Souls",
+    "url": "https://www.belloflostsouls.net/",
+    "language": "english"
+  },
+  {
+    "id": "vidaextra",
+    "name": "Vidaextra",
+    "url": "https://www.vidaextra.com/",
+    "language": "castellano"
+  },
+  {
+    "id": "3djuegos",
+    "name": "3DJuegos",
+    "url": "https://www.3djuegos.com/",
+    "language": "castellano"
+  },
+  {
+    "id": "escapist",
+    "name": "The Escapist",
+    "url": "https://www.escapistmagazine.com/",
+    "language": "english"
+  },
+  {
+    "id": "reactor",
+    "name": "Reactor",
+    "url": "https://reactormag.com/",
+    "language": "english"
+  },
+  {
+    "id": "tribality",
+    "name": "Tribality",
+    "url": "https://www.tribality.com/",
+    "language": "english"
+  },
+  {
+    "id": "bleedingcool",
+    "name": "Bleeding Cool",
+    "url": "https://bleedingcool.com/",
+    "language": "english"
+  },
+  {
+    "id": "tabletopgaming",
+    "name": "Tabletop Gaming",
+    "url": "https://www.tabletopgaming.co.uk/",
+    "language": "english"
+  },
+  {
+    "id": "geekdad",
+    "name": "GeekDad",
+    "url": "https://geekdad.com/",
+    "language": "english"
+  },
+  {
+    "id": "inverse",
+    "name": "Inverse",
+    "url": "https://www.inverse.com/",
+    "language": "english"
+  },
+  {
+    "id": "comicbook",
+    "name": "ComicBook.com",
+    "url": "https://comicbook.com/",
+    "language": "english"
+  },
+  {
+    "id": "thegamer",
+    "name": "TheGamer",
+    "url": "https://www.thegamer.com/",
+    "language": "english"
+  },
+  {
+    "id": "cgmagazine",
+    "name": "CGMagazine",
+    "url": "https://www.cgmagonline.com/",
+    "language": "english",
+    "scale": 10
+  },
+  {
+    "id": "techraptor",
+    "name": "TechRaptor",
+    "url": "https://techraptor.net/",
+    "language": "english",
+    "scale": 10
+  }
+]

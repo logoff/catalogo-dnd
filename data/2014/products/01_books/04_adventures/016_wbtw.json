@@ -1,6 +1,16 @@
 {
   "code": "WBTW",
   "description": "Las tierras más allá de Brujaluz lleva a los personajes a los Parajes Feéricos, el plano de las hadas, a través de una feria ambulante, el Carnaval de Brujaluz. Es una aventura caprichosa y colorida que se puede completar sin combatir, apostando por la conversación y el ingenio, y cubre los niveles 1 a 8. Incluye dos razas jugables nuevas.\n\nEs una opción excelente para grupos jóvenes o para quien busca algo más ligero. En castellano la publicó Wizards of the Coast en 2023.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/the-wild-beyond-the-witchlight-review",
+      "language": "english",
+      "date": "2021-09-17",
+      "author": "Callum Bains",
+      "summary": "Una de las aventuras más originales de D&D: hadas, brujas y un carnaval, con un tono entre cómico e inquietante y casi todo resoluble sin combatir. Muy fácil de llevar para jugadores y DM noveles gracias a sus consejos y tarjetas de personajes."
+    }
+  ],
   "publications": [
     {
       "type": "book",

@@ -71,9 +71,30 @@ export interface Publication {
   sub_publications?: SubPublication[]
 }
 
+// Reseña de un medio de data/review-outlets.json; la nota va en la escala del medio
+export interface Review {
+  outlet: string
+  url: string
+  language: Language
+  date: string
+  author?: string
+  score?: number
+  summary: string
+  spanish_edition?: true
+}
+
+export interface ReviewOutlet {
+  id: string
+  name: string
+  url: string
+  language: Language
+  scale?: number
+}
+
 export interface Product {
   code: string
   description?: string
+  reviews?: Review[]
   publications: Publication[]
 }
 

@@ -1,6 +1,17 @@
 {
   "code": "RtHW",
   "description": "Ravenloft: The Horrors Within lleva los Dominios del Terror a las reglas de 2024. Incluye siete subclases de temática de terror, especies y trasfondos nuevos, más de cincuenta monstruos, dieciséis dominios descritos en detalle con diecisiete señores oscuros y un sistema para crear dominios propios usando la baraja Tarokka.\n\nEs el sucesor de la Guía de Van Richten para Ravenloft. Se acompaña de pantalla, pack de mapas y una nueva baraja Tarokka. En castellano salió en 2026 como Ravenloft: El mal que habita dentro.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/ravenloft-the-horrors-within-review",
+      "language": "english",
+      "date": "2026-06-09",
+      "author": "Mollie Russell",
+      "score": 7,
+      "summary": "Bonito y útil, y en 5.5E un suplemento excelente, pero se parece tanto a la Guía de Van Richten que muchos ya tendrán la mitad de su contenido. Pocas ideas nuevas: D&D parece dedicado a rehacer su última década."
+    }
+  ],
   "publications": [
     {
       "type": "book",

@@ -1,6 +1,17 @@
 {
   "code": "SCC",
   "description": "Strixhaven: A Curriculum of Chaos traslada a D&D la universidad de magia de Strixhaven, de Magic: The Gathering. Los personajes son estudiantes de uno de sus cinco colegios y la campaña se organiza en cuatro aventuras, una por curso, con reglas de relaciones, actividades extraescolares y exámenes, y una raza jugable nueva con rasgos de búho (owlin).\n\nEncaja con grupos que disfrutan del juego social tanto como del combate. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "gamingtrend",
+      "url": "https://gamingtrend.com/reviews/strixhaven-a-curriculum-of-chaos-roll20-review-anemic-academia/",
+      "language": "english",
+      "date": "2021-12-19",
+      "author": "John Farrell",
+      "score": 40,
+      "summary": "Unas aventuras pasables en una escuela de magia y poco más: las reglas de actividades extraescolares tienen encanto, pero la aventura, que ocupa casi todo el libro, solo interesará a un público muy concreto."
+    }
+  ],
   "publications": [
     {
       "type": "book",

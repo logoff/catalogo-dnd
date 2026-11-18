@@ -1,6 +1,23 @@
 {
   "code": "GGR",
   "description": "Guildmasters' Guide to Ravnica lleva a D&D el plano de Ravnica, procedente de Magic: The Gathering: una ciudad que ocupa todo un mundo, gobernada por diez gremios rivales. Cada gremio tiene su trasfondo con conjuros y ventajas propios, e incluye razas como centauros, loxodontes, minotauros, híbridos simic y vedalken, dos subclases nuevas y un bestiario.\n\nFunciona muy bien para campañas urbanas de intriga política. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "tabletopgaming",
+      "url": "https://www.tabletopgaming.co.uk/reviews/dungeons-dragons-guildmasters-guide-to-ravnica-rpg-review/",
+      "language": "english",
+      "date": "2019-04-23",
+      "summary": "Bien diseñado, precioso y lleno de ideas, imprescindible si el grupo juega a Magic. Pero Rávnica no se pensó como mundo de rol y, a la hora de preparar aventuras, se queda corto: al DM le toca mucho trabajo."
+    },
+    {
+      "outlet": "bleedingcool",
+      "url": "https://bleedingcool.com/games/review-dungeons-dragons-guildmasters-guide-to-ravnica/",
+      "language": "english",
+      "date": "2019-02-05",
+      "author": "Gavin Sheehan",
+      "summary": "Un buen añadido a 5E, con los gremios y sus personajes bien organizados para crear historias largas. Avisa de que no es para todo el mundo: a quien no conoce Rávnica le cuesta entrar."
+    }
+  ],
   "publications": [
     {
       "type": "book",

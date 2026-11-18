@@ -1,6 +1,16 @@
 {
   "code": "POTA",
   "description": "Princes of the Apocalypse es la campaña del Mal Elemental: cuatro cultos dedicados al aire, la tierra, el fuego y el agua conspiran en el valle del Dessarin, en el norte de la Costa de la Espada, para desatar a sus príncipes elementales. Cubre los niveles 1 a 15 y tiene una estructura bastante abierta, con templos y fortalezas que el grupo puede afrontar en distinto orden.\n\nPide un Dungeon Master con ganas de preparar, pero da mucho juego en campañas largas. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "tribality",
+      "url": "https://www.tribality.com/2015/04/05/elemental-evil-princes-of-the-apocalypse-review/",
+      "language": "english",
+      "date": "2015-04-06",
+      "author": "DM Shawn",
+      "summary": "Gran aventura y gran recurso: equilibra trama y mundo abierto, con exploración, investigación y templos, y da mucho apoyo sobre la región. Los templos elementales pueden hacerse repetitivos y no es la mejor opción para un DM novato."
+    }
+  ],
   "publications": [
     {
       "type": "book",

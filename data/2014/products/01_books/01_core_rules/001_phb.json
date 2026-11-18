@@ -1,6 +1,15 @@
 {
   "code": "PHB",
   "description": "El Manual del Jugador es el primero de los tres libros básicos de la quinta edición y el único que necesitan los jugadores. Explica cómo crear un personaje paso a paso: nueve razas (enanos, elfos, medianos, humanos, dracónidos, gnomos, semielfos, semiorcos y tieflings), doce clases con sus subclases, trasfondos y equipo, además de las reglas de juego y el capítulo completo de conjuros.\n\nEn castellano lo publicó primero Edge Entertainment (2017) y, desde 2021, la propia Wizards of the Coast, con el mismo contenido. Si empiezas hoy, ten en cuenta que en 2024 salió una versión revisada de las reglas; ambas son compatibles, pero no conviene mezclarlas sin saber qué cambia.",
+  "reviews": [
+    {
+      "outlet": "escapist",
+      "url": "https://www.escapistmagazine.com/5th-edition-dd-players-handbook-review-a-greatest-hits-collection/",
+      "language": "english",
+      "date": "2014-08-13",
+      "summary": "Rápido, divertido y fácil para quien empieza, con profundidad para los veteranos: reúne lo mejor de las ediciones anteriores en un conjunto coherente. Le reprocha que respete tanto el legado del juego que no corrija algunos problemas de siempre."
+    }
+  ],
   "publications": [
     {
       "type": "book",

@@ -125,6 +125,14 @@ affiliate-coverage:
 check-videos:
     node scripts/check-videos.mjs
 
+# Comprobar que los enlaces de las reseñas de los libros siguen vivos (solo avisa)
+check-reviews:
+    node scripts/check-reviews.mjs
+
+# Listar los libros publicados que aún no tienen reseñas
+reviews-coverage:
+    node scripts/reviews-coverage.mjs
+
 # Descargar capturas oficiales de un videojuego: just screenshots <slug> --steam | --source <página> <url>...
 screenshots slug +args:
     node scripts/download-screenshots.mjs {{slug}} {{args}}

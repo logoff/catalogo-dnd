@@ -1,6 +1,25 @@
 {
   "code": "DMG",
   "description": "La Guía del Dungeon Master de 2024 se centra en enseñar a dirigir: cómo preparar sesiones, ritmo, ejemplos de juego y consejos para manejar la mesa. Incluye una caja de herramientas con reglas opcionales, el catálogo de objetos mágicos revisado, los bastiones (fortalezas que los personajes pueden construir) y Greyhawk como mundo de ejemplo para empezar una campaña.\n\nEstá más orientada a quien empieza a dirigir que la de 2014. En castellano la publicó Wizards of the Coast en 2025.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/2024-dungeon-masters-guide-review",
+      "language": "english",
+      "date": "2024-10-15",
+      "author": "Mollie Russell",
+      "score": 7,
+      "summary": "Una guía práctica, ordenada y accesible para dirigir, que mejora mucho la de 2014. Le sobra un largo repaso a la historia de D&D, y entre tanto texto cuesta encontrar lo realmente útil."
+    },
+    {
+      "outlet": "vidaextra",
+      "url": "https://www.vidaextra.com/juegos-de-mesa/guia-dungeon-master-2024-manual-esencial-dungeons-dragons-accesible-util-inspirador",
+      "language": "castellano",
+      "date": "2025-10-29",
+      "author": "Frankie MB",
+      "summary": "Imprescindible para quien empieza a dirigir y una mejora clara de la de 2014: enseña a crear mundos, conflictos y ritmo, y suma herramientas de seguridad en la mesa. A los totalmente novatos les aconseja empezar por una caja de inicio."
+    }
+  ],
   "publications": [
     {
       "type": "book",

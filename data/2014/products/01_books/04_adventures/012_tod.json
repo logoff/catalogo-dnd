@@ -1,6 +1,16 @@
 {
   "code": "TOD",
   "description": "Tyranny of Dragons reúne en un solo volumen Hoard of the Dragon Queen y The Rise of Tiamat, las dos aventuras que inauguraron la quinta edición, revisadas y con las erratas corregidas. Es la campaña completa contra el Culto del Dragón y su intento de traer a Tiamat a los Reinos, de nivel 1 a nivel 15.\n\nSi te interesa esta campaña, es la edición que conviene buscar. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "belloflostsouls",
+      "url": "https://www.belloflostsouls.net/2019/10/dd-tyranny-of-dragons-the-bols-review.html",
+      "language": "english",
+      "date": "2019-10-22",
+      "author": "J.R. Zambrano",
+      "summary": "Reúne en un volumen las dos aventuras de la Tiranía de los Dragones con erratas corregidas y herramientas para unirlas en una campaña coherente. Recomendable si no se ha jugado; quien ya la tiene apenas encontrará novedades."
+    }
+  ],
   "publications": [
     {
       "type": "book",

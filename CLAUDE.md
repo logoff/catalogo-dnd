@@ -36,6 +36,9 @@ recetas disponibles.
   de afiliados aceptadas (excepciones en `data/affiliate-exceptions.json`)
 - `just check-videos` — Avisa de vídeos retirados, no empotrables o de
   otro canal (en Actions, sin bloquear)
+- `just check-reviews` — Avisa de reseñas de libros con el enlace roto
+  (en Actions, sin bloquear)
+- `just reviews-coverage` — Lista los libros publicados sin reseñas
 - `just novel-covers <slug> <isbn>=<url>…` — Descarga las portadas de las
   ediciones de una novela, las convierte a WebP con miniatura y las anota
   en su ficha (`--openlibrary` para las que falten, `--series <id>` para
@@ -64,6 +67,16 @@ El servicio `dataLoader.ts` enriquece los datos `Product` en objetos
 y un array de `publications` — múltiples ediciones/idiomas/portadas
 del mismo producto. Tipos de publicación: `book`, `boxed_set`,
 `accessory`. Ediciones: `5e` (2014) y `2024`.
+
+**Reseñas:** los libros de 2014 y 2024 llevan en `reviews` reseñas de
+medios de la lista cerrada `data/review-outlets.json` (esquema
+`review-outlets.jsonschema`, con la escala de la nota de cada medio). Cada
+una lleva un resumen propio en castellano (nunca texto copiado del medio)
+y la nota tal cual la da el medio. No se calculan medias ni se emiten
+como `Review`/`AggregateRating`. Los tests validan los productos contra
+`product.jsonschema` y las reglas cruzadas de las reseñas, y exigen al
+menos una a todo libro publicado hace más de 90 días. `ProductReviews.tsx` las pinta en
+la ficha. Para darlas de alta, usar la skill `add-review`.
 
 **Videojuegos:** cada juego es un JSON en
 `data/videogames/games/<década>/<slug>.json` (esquema

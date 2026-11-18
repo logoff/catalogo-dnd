@@ -1,6 +1,16 @@
 {
   "code": "SKT",
   "description": "El Trueno del Rey de la Tormenta parte de una premisa sencilla: el orden que jerarquizaba a los gigantes se ha roto y cada clan intenta imponerse sobre los demás, sembrando el caos por el Norte de los Reinos Olvidados. La campaña es muy abierta, con un recorrido amplio por la región, y cubre los niveles 1 a 11.\n\nFunciona bien para grupos a los que les gusta viajar y elegir su propio camino. En castellano la publicó Edge Entertainment en 2021. La Gloria de los Gigantes amplía mucho el material sobre gigantes.",
+  "reviews": [
+    {
+      "outlet": "tribality",
+      "url": "https://www.tribality.com/2016/09/06/storm-kings-thunder-review/",
+      "language": "english",
+      "date": "2016-09-07",
+      "author": "DM Shawn",
+      "summary": "Una de sus aventuras favoritas de 5E: mezcla intriga, exploración, mazmorras y combate, con un diagrama de la trama y una lista de personajes muy útiles. Muchos lugares quedarán sin usar y no es para grupos novatos ni para quien solo quiere mazmorras."
+    }
+  ],
   "publications": [
     {
       "type": "book",

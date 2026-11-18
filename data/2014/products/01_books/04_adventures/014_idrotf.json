@@ -1,6 +1,16 @@
 {
   "code": "IDROTF",
   "description": "Icewind Dale: Rime of the Frostmaiden transcurre en Icewind Dale, en el extremo norte de los Reinos Olvidados, donde la diosa Auril ha sumido la región en una noche eterna. Mezcla supervivencia en el frío, misterio y terror, y cubre los niveles 1 a 12.\n\nSu ambientación aislada y opresiva la hace muy distinta de otras campañas. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "comicbook",
+      "url": "https://comicbook.com/gaming/news/dungeons-dragons-icewind-dale-rime-of-the-frostmaiden-review/",
+      "language": "english",
+      "date": "2020-09-11",
+      "author": "Christian Hoffer",
+      "summary": "Gustará a jugadores y DM: sin fallos graves ni trucos que la lastren, deja avanzar al ritmo del grupo y ofrece varios finales según sus decisiones. Tiene madera de clásico instantáneo."
+    }
+  ],
   "publications": [
     {
       "type": "book",

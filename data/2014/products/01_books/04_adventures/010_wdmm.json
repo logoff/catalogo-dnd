@@ -1,6 +1,24 @@
 {
   "code": "WDMM",
   "description": "Waterdeep: La Mazmorra del Mago Loco es una megamazmorra: los veintitrés niveles de Undermountain, el laberinto que se extiende bajo Waterdeep, gobernado por el mago loco Halaster. Lleva a los personajes desde el nivel 5 hasta el 20 y está pensada como continuación de El Golpe de los Dragones, aunque puede jugarse por separado.\n\nEs casi puro rastreo de mazmorras, ideal para grupos que disfrutan de explorar, combatir y saquear. En castellano la publicó Edge Entertainment en 2019, antes incluso que El Golpe de los Dragones.",
+  "reviews": [
+    {
+      "outlet": "geekdad",
+      "url": "https://geekdad.com/2018/11/delve-deep-into-the-ultimate-dd-mega-dungeon-with-dungeon-of-the-mad-mage/",
+      "language": "english",
+      "date": "2018-11-26",
+      "author": "Simon Yule",
+      "summary": "La megamazmorra definitiva: ir del nivel 5 al 20 en Bajomontaña exige años de juego y un gran compromiso, pero hay material de sobra y, para quien esté preparado, será una aventura inolvidable."
+    },
+    {
+      "outlet": "bleedingcool",
+      "url": "https://bleedingcool.com/games/review-dungeons-dragons-waterdeep-dungeon-of-the-mad-mage/",
+      "language": "english",
+      "date": "2018-12-08",
+      "author": "Gavin Sheehan",
+      "summary": "Una prueba de resistencia casi solo de combates, trampas y botín, con muy poca historia. Perfecta para quien solo quiere luchar y subir de nivel; quien busque trama tiene mejores libros. Ni bueno ni malo: en el término medio."
+    }
+  ],
   "publications": [
     {
       "type": "book",

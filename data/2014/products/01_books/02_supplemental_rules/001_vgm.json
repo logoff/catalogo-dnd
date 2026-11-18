@@ -1,6 +1,16 @@
 {
   "code": "VGM",
   "description": "La Guía de Volo de los Monstruos combina dos cosas: un estudio en profundidad de criaturas clásicas (contempladores, gigantes, gnolls, goblinoides, sagas, kobolds, azotamentes, orcos y yuan-ti) narrado por el explorador Volo, y un capítulo de razas jugables nuevas como aasimar, firbolg, goliat, kenku, tabaxi o tritón, además de varias razas \"monstruosas\".\n\nCierra con un bestiario de criaturas nuevas. Buena parte de su contenido de reglas se revisó en 2022 dentro de Monstruos del Multiverso, pero los capítulos de trasfondo siguen siendo de lo mejor para dar vida a los monstruos. En castellano lo publicó Edge Entertainment en 2020.",
+  "reviews": [
+    {
+      "outlet": "tribality",
+      "url": "https://www.tribality.com/2016/11/23/volos-guide-to-monsters-review/",
+      "language": "english",
+      "date": "2016-11-23",
+      "author": "DM Shawn",
+      "summary": "Imprescindible para quien dirija con los monstruos clásicos: amplía el trasfondo de gnolls, kóbolds, orcos, gigantes, contempladores o azotamentes y añade variantes muy útiles para preparar encuentros."
+    }
+  ],
   "publications": [
     {
       "type": "book",
