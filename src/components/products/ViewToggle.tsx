@@ -8,31 +8,32 @@ interface ViewToggleProps {
   onChange: (view: ViewMode) => void
 }
 
+const options = [
+  { value: 'grid' as const, label: 'Vista cuadrícula', Icon: Squares2X2Icon },
+  { value: 'list' as const, label: 'Vista lista', Icon: ListBulletIcon },
+]
+
 export default function ViewToggle({ view, onChange }: ViewToggleProps) {
   return (
-    <div className="flex items-center gap-1 bg-dnd-stone-light rounded-lg p-1">
-      <button
-        onClick={() => onChange('grid')}
-        className={clsx(
-          'p-2 rounded-sm transition-colors',
-          view === 'grid' ? 'bg-dnd-gold text-dnd-stone-dark' : 'text-gray-400 hover:text-white'
-        )}
-        aria-label="Vista cuadrícula"
-        title="Vista cuadrícula"
-      >
-        <Squares2X2Icon className="h-5 w-5" />
-      </button>
-      <button
-        onClick={() => onChange('list')}
-        className={clsx(
-          'p-2 rounded-sm transition-colors',
-          view === 'list' ? 'bg-dnd-gold text-dnd-stone-dark' : 'text-gray-400 hover:text-white'
-        )}
-        aria-label="Vista lista"
-        title="Vista lista"
-      >
-        <ListBulletIcon className="h-5 w-5" />
-      </button>
+    <div className="inline-flex rounded-[10px] bg-well p-[3px]">
+      {options.map(({ value, label, Icon }) => (
+        <button
+          key={value}
+          type="button"
+          onClick={() => onChange(value)}
+          aria-label={label}
+          aria-pressed={view === value}
+          title={label}
+          className={clsx(
+            'inline-flex size-10 items-center justify-center rounded-[7px] transition-colors duration-150 sm:size-8',
+            view === value
+              ? 'bg-surface text-fg shadow-[0_1px_2px_rgba(0,0,0,0.08)]'
+              : 'text-muted hover:text-fg'
+          )}
+        >
+          <Icon className="size-4" aria-hidden="true" />
+        </button>
+      ))}
     </div>
   )
 }

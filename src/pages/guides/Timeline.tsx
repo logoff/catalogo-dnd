@@ -52,12 +52,10 @@ export default function Timeline({ language, showPublisher = false }: TimelinePr
 
   const renderEntry = (entry: TimelineEntry, index: number) => (
     <li key={index}>
-      {entry.date && <span className="text-gray-400">{formatDate(entry.date)}: </span>}
+      {entry.date && <span className="text-muted">{formatDate(entry.date)}: </span>}
       <Link to={entry.to}>{entry.title}</Link>
-      {showPublisher && entry.publisher && (
-        <span className="text-gray-400"> ({entry.publisher})</span>
-      )}
-      {entry.date && entry.date > today && <span className="text-gray-400"> · próximamente</span>}
+      {showPublisher && entry.publisher && <span className="text-muted"> ({entry.publisher})</span>}
+      {entry.date && entry.date > today && <span className="text-muted"> · próximamente</span>}
     </li>
   )
 

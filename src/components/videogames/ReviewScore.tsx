@@ -18,13 +18,13 @@ export default function ReviewScore({ review }: ReviewScoreProps) {
       href={review.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group inline-flex items-baseline gap-2 text-gray-300 hover:text-dnd-gold"
+      className="group inline-flex items-baseline gap-2 text-fg hover:text-fg"
     >
-      <span className="font-display text-2xl text-dnd-gold">{score}</span>
-      <span className="text-sm text-gray-400">/{review.scale}</span>
+      <span className="text-2xl text-fg">{score}</span>
+      <span className="text-sm text-muted">/{review.scale}</span>
       <span>
         {reviewSourceNames[review.source]}
-        {context && <span className="text-gray-400"> ({context})</span>}
+        {context && <span className="text-muted"> ({context})</span>}
       </span>
       <ArrowTopRightOnSquareIcon className="h-3 w-3 self-center opacity-60 group-hover:opacity-100" />
     </a>

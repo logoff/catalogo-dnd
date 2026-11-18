@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render, screen, within } from '@testing-library/react'
+import { latestInSpanish, productPath } from '@/utils/releases'
 import { MemoryRouter } from 'react-router-dom'
 import Header from '@/components/layout/Header'
 import HomePage from './HomePage'
@@ -106,5 +107,38 @@ describe('acceso a las novelas', () => {
     const productTitles = useProductStore.getState().products.map((p) => p.primaryTitle)
     const novelTitles = novelsLatest.latest.map((novel) => novel.title)
     expect(productTitles.filter((title) => novelTitles.includes(title))).toEqual([])
+  })
+})
+
+describe('portada', () => {
+  it('muestra los libros salidos más recientemente en castellano', () => {
+    render(
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>
+    )
+    const block = screen.getByRole('heading', { name: 'Últimos en castellano' }).closest('section')!
+    const shown = within(block)
+      .getAllByRole('link')
+      .map((link) => link.getAttribute('href'))
+      .filter((href) => href?.startsWith('/producto/'))
+    const expected = latestInSpanish(useProductStore.getState().products, 5).map(productPath)
+    expect(shown).toEqual(expected)
+  })
+
+  it('cada sección tiene su acceso con el recuento', () => {
+    render(
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>
+    )
+    const sections = screen.getByRole('region', { name: 'Secciones del catálogo' })
+    for (const href of ['/2024', '/2014', '/videojuegos', '/merchandising', '/novelas', '/guias']) {
+      expect(
+        within(sections)
+          .getAllByRole('link')
+          .some((l) => l.getAttribute('href') === href)
+      ).toBe(true)
+    }
   })
 })

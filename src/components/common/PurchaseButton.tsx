@@ -1,15 +1,7 @@
-import { ArrowTopRightOnSquareIcon, ShoppingCartIcon } from '@heroicons/react/24/outline'
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 import type { Store } from '@/types'
-import { getAssetPath } from '@/utils/constants'
 import { STORES, getPurchaseUrl } from '@/utils/stores'
-
-const buttonClasses = `
-  group inline-flex items-center gap-2 px-4 py-2 rounded-lg
-  text-white text-sm font-medium
-  shadow-md hover:shadow-lg
-  transform hover:scale-105 hover:-translate-y-0.5
-  transition-all duration-200
-`
+import { buttonClass } from '@/components/ui/styles'
 
 interface PurchaseButtonProps {
   store: Store
@@ -19,11 +11,19 @@ interface PurchaseButtonProps {
   tracking: Record<string, string | undefined>
   // Variante de la tienda que se añade al nombre, como «Kindle» en los ebooks de Amazon
   variant?: string
+  // El primer enlace de cada lista es la acción principal (rojo); el resto, secundarios
+  primary?: boolean
 }
 
-// Botón de compra compartido por libros y videojuegos
-export default function PurchaseButton({ store, url, tracking, variant }: PurchaseButtonProps) {
-  const { label, image, color } = STORES[store]
+// Botón de compra compartido por libros, videojuegos, merchandising y novelas
+export default function PurchaseButton({
+  store,
+  url,
+  tracking,
+  variant,
+  primary = false,
+}: PurchaseButtonProps) {
+  const { label } = STORES[store]
   const trackingAttributes = Object.fromEntries(
     Object.entries(tracking).map(([key, value]) => [`data-umami-event-${key}`, value])
   )
@@ -33,23 +33,18 @@ export default function PurchaseButton({ store, url, tracking, variant }: Purcha
       href={getPurchaseUrl(store, url)}
       target="_blank"
       rel="sponsored noopener noreferrer"
-      className={`${buttonClasses} bg-linear-to-r ${color}`}
+      className={buttonClass(primary ? 'primary' : 'secondary')}
       // Evento de Umami: clic en un enlace de compra, con la URL sin parámetros de afiliado
       data-umami-event="comprar"
       data-umami-event-tienda={store}
       {...trackingAttributes}
       data-umami-event-url={url}
     >
-      {image ? (
-        <img src={getAssetPath(image)} alt="" className="h-4" />
-      ) : (
-        <ShoppingCartIcon className="h-4 w-4" />
-      )}
       <span>
         Comprar en {label}
         {variant && ` ${variant}`}
       </span>
-      <ArrowTopRightOnSquareIcon className="h-3 w-3 opacity-60 group-hover:opacity-100 transition-opacity" />
+      <ArrowTopRightOnSquareIcon className="size-3.5 opacity-70" aria-hidden="true" />
     </a>
   )
 }

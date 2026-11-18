@@ -18,7 +18,7 @@ export default function NovelDetailPage() {
   if (state.status === 'loading' || !index) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <p className="text-gray-400 py-12 text-center">Cargando novela…</p>
+        <p className="text-muted py-12 text-center">Cargando novela…</p>
       </div>
     )
   }
@@ -47,7 +47,7 @@ export default function NovelDetailPage() {
 
         <Link
           to="/novelas"
-          className="inline-flex items-center gap-2 text-gray-400 hover:text-dnd-gold mb-6 transition-colors"
+          className="inline-flex items-center gap-2 text-muted hover:text-fg mb-6 transition-colors"
         >
           <ArrowLeftIcon className="h-4 w-4" />
           Volver a novelas

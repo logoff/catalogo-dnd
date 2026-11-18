@@ -11,12 +11,12 @@ export default function NovelBestseller({ bestseller }: { bestseller: Bestseller
       href={bestseller.source}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 text-dnd-gold hover:text-dnd-gold-light"
+      className="inline-flex min-h-11 items-center gap-2 text-sm text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
     >
       <TrophyIcon className="h-5 w-5" />
       <span>
         Superventas de The New York Times
-        <span className="text-gray-400">
+        <span className="text-muted">
           {' '}
           · {formatPartialDate(bestseller.date.slice(0, 7))} ({listNames[bestseller.list]})
         </span>

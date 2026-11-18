@@ -14,6 +14,7 @@ import { formatDate, formatISBN } from '@/utils/formatters'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
+import { buttonClass } from '@/components/ui/styles'
 
 interface ProductDetailProps {
   product: ProductWithMeta
@@ -21,7 +22,7 @@ interface ProductDetailProps {
 
 export default function ProductDetail({ product }: ProductDetailProps) {
   return (
-    <div className="space-y-8">
+    <div className="space-y-4">
       {product.publications.map((publication, index) => (
         <PublicationSection key={index} product={product} publication={publication} />
       ))}
@@ -50,108 +51,93 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
       url: publication.official_url,
       label: 'Web Oficial',
       icon: GlobeAltIcon,
-      color: 'from-dnd-red to-red-700',
-      hoverColor: 'hover:from-dnd-red-light hover:to-red-600',
     },
     publication.wpn_url && {
       url: publication.wpn_url,
       label: 'Wizards Play Network',
       icon: SparklesIcon,
-      color: 'from-purple-600 to-purple-800',
-      hoverColor: 'hover:from-purple-500 hover:to-purple-700',
     },
     publication.openlibrary_url && {
       url: publication.openlibrary_url,
       label: 'Open Library',
       icon: BookOpenIcon,
-      color: 'from-emerald-600 to-emerald-800',
-      hoverColor: 'hover:from-emerald-500 hover:to-emerald-700',
     },
   ].filter(Boolean) as Array<{
     url: string
     label: string
     icon: typeof GlobeAltIcon
-    color: string
-    hoverColor: string
   }>
 
   const purchaseLinks = publication.purchase_links ?? []
 
   return (
-    <div className="card-dnd p-6 animate-slide-up">
-      {/* Title */}
-      <h2 className="font-display text-2xl text-dnd-gold mb-4 text-center border-b border-dnd-gold/20 pb-4">
-        {publication.title}
-      </h2>
+    <article className="rounded-xl border border-line bg-surface p-4 sm:p-6">
+      <header className="mb-5 flex flex-col gap-2 border-b border-line pb-4 sm:flex-row sm:items-center sm:justify-between">
+        <h3 className="text-lg font-semibold tracking-tight">{publication.title}</h3>
+        <div className="flex flex-wrap gap-1.5">
+          <EditionBadge edition={publication.edition} />
+          <TypeBadge type={publication.type} />
+          {publication.language && <LanguageBadge language={publication.language} />}
+        </div>
+      </header>
 
-      <div className="flex flex-col lg:flex-row gap-6">
-        {/* Images */}
-        <div className="lg:w-1/3">
-          <div className="flex flex-wrap gap-2 justify-center">
-            {images.map((image, index) => (
-              <button
-                key={index}
-                onClick={() => openLightbox(index)}
-                className="block cursor-zoom-in"
-              >
-                <LazyImage
-                  src={image}
-                  alt={`${publication.title} - Imagen ${index + 1}`}
-                  containerClassName="max-h-80 w-auto rounded-lg shadow-card hover:shadow-card-hover transition-shadow"
-                  className="max-h-80 w-auto rounded-lg hover:scale-[1.02] transition-transform"
-                />
-              </button>
-            ))}
-          </div>
+      <div className="flex flex-col gap-6 md:flex-row">
+        <div className="flex shrink-0 flex-wrap gap-2 md:w-48 md:flex-col">
+          {images.map((image, index) => (
+            <button
+              key={index}
+              type="button"
+              onClick={() => openLightbox(index)}
+              aria-label={`Ampliar imagen ${index + 1} de ${publication.title}`}
+              className="block cursor-zoom-in overflow-hidden rounded-lg bg-well"
+            >
+              <LazyImage
+                src={image}
+                alt={`${publication.title} - Imagen ${index + 1}`}
+                containerClassName="rounded-lg"
+                className="max-h-64 w-auto md:w-full"
+              />
+            </button>
+          ))}
         </div>
 
-        {/* Data */}
-        <div className="lg:w-2/3 space-y-3">
-          {/* Badges */}
-          <div className="flex flex-wrap gap-2 mb-4">
-            <EditionBadge edition={publication.edition} />
-            <TypeBadge type={publication.type} />
-            {publication.language && <LanguageBadge language={publication.language} />}
-          </div>
+        <div className="min-w-0 flex-1 space-y-6">
+          <dl className="grid grid-cols-1 gap-x-6 gap-y-3 text-sm sm:grid-cols-[10rem_1fr]">
+            <DataRow label="Tipo" value={translateSubtype(publication.type, publication.subtype)} />
+            {publication.publisher && <DataRow label="Editorial" value={publication.publisher} />}
+            {publication.date && (
+              <DataRow label="Fecha de publicación" value={formatDate(publication.date)} />
+            )}
+            {publication.pages && (
+              <DataRow label="Número de páginas" value={publication.pages.toString()} mono />
+            )}
+            {publication.authors && publication.authors.length > 0 && (
+              <DataRow label="Autores" value={publication.authors.join(', ')} />
+            )}
+            {publication.isbn13 && (
+              <DataRow label="ISBN-13" value={formatISBN(publication.isbn13)} mono />
+            )}
+            {publication.item_code && (
+              <DataRow label="Código de artículo" value={publication.item_code} mono />
+            )}
+          </dl>
 
-          <DataRow label="Tipo" value={translateSubtype(publication.type, publication.subtype)} />
-
-          {publication.publisher && <DataRow label="Editorial" value={publication.publisher} />}
-
-          {publication.date && (
-            <DataRow label="Fecha de publicación" value={formatDate(publication.date)} />
-          )}
-
-          {publication.pages && (
-            <DataRow label="Número de páginas" value={publication.pages.toString()} />
-          )}
-
-          {publication.authors && publication.authors.length > 0 && (
-            <DataRow label="Autores" value={publication.authors.join(', ')} />
-          )}
-
-          {publication.isbn13 && <DataRow label="ISBN-13" value={formatISBN(publication.isbn13)} />}
-
-          {publication.item_code && (
-            <DataRow label="Código de artículo" value={publication.item_code} />
-          )}
-
-          {/* Purchase links */}
           {purchaseLinks.length > 0 && (
-            <div className="pt-4">
-              <p className="font-semibold text-gray-100 mb-1">Dónde comprar</p>
-              <p className="text-xs text-gray-500 mb-3">
+            <div>
+              <p className="mb-1 text-sm font-semibold">Dónde comprar</p>
+              <p className="mb-3 text-xs text-muted">
                 Enlaces de afiliado: el catálogo puede recibir una comisión sin coste para ti.{' '}
-                <Link to="/aviso-legal" className="underline hover:text-dnd-gold">
+                <Link to="/aviso-legal" className="underline underline-offset-2 hover:text-fg">
                   Más información
                 </Link>
               </p>
               <div className="flex flex-wrap gap-2">
-                {purchaseLinks.map((link) => (
+                {purchaseLinks.map((link, index) => (
                   <PurchaseButton
                     key={link.url}
                     store={link.store}
                     url={link.url}
+                    primary={index === 0}
                     tracking={{
                       producto: `${product.primaryEdition === '5e' ? '2014' : '2024'}/${product.code}`,
                       publicacion: publication.title,
@@ -163,10 +149,9 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
             </div>
           )}
 
-          {/* Links - styled cards */}
           {links.length > 0 && (
-            <div className="pt-4">
-              <p className="font-semibold text-gray-100 mb-3">Enlaces externos</p>
+            <div>
+              <p className="mb-3 text-sm font-semibold">Enlaces externos</p>
               <div className="flex flex-wrap gap-2">
                 {links.map((link) => (
                   <a
@@ -174,25 +159,17 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`
-                      group inline-flex items-center gap-2 px-4 py-2 rounded-lg
-                      bg-linear-to-r ${link.color} ${link.hoverColor}
-                      text-white text-sm font-medium
-                      shadow-md hover:shadow-lg
-                      transform hover:scale-105 hover:-translate-y-0.5
-                      transition-all duration-200
-                    `}
+                    className={buttonClass('ghost', 'sm', 'border border-line')}
                   >
-                    <link.icon className="h-4 w-4" />
+                    <link.icon className="size-4" aria-hidden="true" />
                     <span>{link.label}</span>
-                    <ArrowTopRightOnSquareIcon className="h-3 w-3 opacity-60 group-hover:opacity-100 transition-opacity" />
+                    <ArrowTopRightOnSquareIcon className="size-3 opacity-70" aria-hidden="true" />
                   </a>
                 ))}
               </div>
             </div>
           )}
 
-          {/* Sub-publications (for boxed sets) */}
           {publication.type === 'boxed_set' &&
             publication.sub_publications &&
             publication.sub_publications.length > 0 && (
@@ -201,27 +178,28 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
         </div>
       </div>
 
-      {/* Lightbox */}
       <ImageLightbox
         images={images}
         initialIndex={lightboxIndex}
         isOpen={lightboxOpen}
         onClose={() => setLightboxOpen(false)}
       />
-    </div>
+    </article>
   )
 }
 
 interface DataRowProps {
   label: string
   value: string
+  mono?: boolean
 }
 
-function DataRow({ label, value }: DataRowProps) {
+function DataRow({ label, value, mono = false }: DataRowProps) {
   return (
-    <p className="text-gray-300">
-      <span className="font-semibold text-gray-100">{label}:</span> {value}
-    </p>
+    <>
+      <dt className="text-muted">{label}</dt>
+      <dd className={mono ? 'font-mono text-[13px] tabular-nums' : undefined}>{value}</dd>
+    </>
   )
 }
 
@@ -241,20 +219,22 @@ function SubPublicationsList({ subPublications }: SubPublicationsListProps) {
   }
 
   return (
-    <div className="pt-4 border-t border-dnd-gold/20 mt-4">
-      <h4 className="font-semibold text-gray-100 mb-2">Contenido:</h4>
-      <ul className="list-disc list-inside space-y-1 text-gray-300">
+    <div className="border-t border-line pt-4">
+      <h4 className="mb-2 text-sm font-semibold">Contenido</h4>
+      <ul className="list-inside list-disc space-y-1 text-sm">
         {subPublications.map((sub, index) => (
           <li key={index}>
             {sub.title}
-            {sub.pages && <span className="text-gray-500"> ({sub.pages} págs.)</span>}
+            {sub.pages && <span className="text-muted"> ({sub.pages} págs.)</span>}
             {sub.images && sub.images.length > 0 && (
               <span className="ml-2">
                 {sub.images.map((_, imgIndex) => (
                   <button
                     key={imgIndex}
+                    type="button"
                     onClick={() => openSubLightbox(sub.images!, imgIndex)}
-                    className="text-dnd-gold hover:text-dnd-gold-light mx-1 cursor-pointer"
+                    aria-label={`Imagen ${imgIndex + 1} de ${sub.title}`}
+                    className="mx-1 cursor-pointer text-muted underline underline-offset-2 hover:text-fg"
                   >
                     [{imgIndex + 1}]
                   </button>

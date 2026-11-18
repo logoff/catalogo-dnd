@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductGrid from '@/components/products/ProductGrid'
 import FilterPanel from '@/components/filters/FilterPanel'
 import ViewToggle from '@/components/products/ViewToggle'
+import PageHeader from '@/components/ui/PageHeader'
 import { useUrlFilters } from '@/hooks/useUrlFilters'
 
 export default function CatalogPage() {
@@ -25,36 +26,33 @@ export default function CatalogPage() {
         description="Explora todos los productos oficiales de Dungeons & Dragons"
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: 'Catálogo' }]} />
 
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <h1 className="font-display text-3xl text-dnd-gold mb-2">Catálogo completo</h1>
-            <p className="text-gray-400">
-              {filteredProducts.length} de {totalProducts} productos
-            </p>
-          </div>
-          <ViewToggle view={viewMode} onChange={setViewMode} />
-        </div>
+        <PageHeader
+          title="Catálogo completo"
+          description="Libros, cajas y accesorios oficiales de 5E (2014) y 5.5E (2024), en inglés y en castellano."
+          meta={`${filteredProducts.length} de ${totalProducts} productos`}
+          actions={<ViewToggle view={viewMode} onChange={setViewMode} />}
+        />
 
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col gap-8 lg:flex-row">
           {/* Sidebar with filters */}
-          <aside className="lg:w-64 shrink-0">
+          <aside className="shrink-0 lg:w-64">
             <div className="lg:sticky lg:top-24">
               <FilterPanel />
             </div>
           </aside>
 
           {/* Product grid */}
-          <main className="flex-1">
+          <div className="min-w-0 flex-1">
             <ProductGrid
               products={filteredProducts}
               view={viewMode}
               isLoading={!isLoaded}
               emptyMessage="No se encontraron productos con los filtros seleccionados"
             />
-          </main>
+          </div>
         </div>
       </div>
     </>

@@ -21,7 +21,7 @@ export function NovelRow({ novel, position }: { novel: NovelSummary; position?: 
   return (
     <li className="flex items-center gap-4">
       {position !== undefined && (
-        <span className="w-6 shrink-0 text-right text-gray-400">{position}.</span>
+        <span className="w-6 shrink-0 text-right text-muted">{position}.</span>
       )}
       <LazyImage
         src={novel.thumbnail ?? NOVEL_PLACEHOLDER}
@@ -31,8 +31,8 @@ export function NovelRow({ novel, position }: { novel: NovelSummary; position?: 
       />
       <div className="min-w-0 flex-1">
         <Link to={`/novela/${novel.slug}`}>{novel.title}</Link>
-        {subtitle && <span className="text-gray-300"> · {subtitle}</span>}
-        <div className="mt-1 flex flex-wrap items-center gap-2 text-sm text-gray-400">
+        {subtitle && <span className="text-fg"> · {subtitle}</span>}
+        <div className="mt-1 flex flex-wrap items-center gap-2 text-sm text-muted">
           {novel.year && <span>{novel.year}</span>}
           <NovelSpanishBadge spanish={novel.spanish} />
         </div>
@@ -54,7 +54,7 @@ export default function ReadingOrderGuide({
     <GuideLayout title={title} description={description}>
       {children}
       {!index ? (
-        <p className="text-gray-400">Cargando novelas…</p>
+        <p className="text-muted">Cargando novelas…</p>
       ) : (
         resolveReadingOrder(READING_ORDERS[order], index).map((block) => (
           <section key={block.title}>

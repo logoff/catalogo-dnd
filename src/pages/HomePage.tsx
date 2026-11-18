@@ -1,25 +1,81 @@
 import { Link } from 'react-router-dom'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
+import type { ReactNode } from 'react'
 import MetaTags from '@/components/seo/MetaTags'
 import { useProductStore } from '@/store/productStore'
 import ProductGrid from '@/components/products/ProductGrid'
-import { getAssetPath } from '@/utils/constants'
+import SearchBar from '@/components/filters/SearchBar'
 import { GuideCards } from './GuidesPage'
+import { GUIDES } from './guides/guides'
 import { useVideogameStore } from '@/store/videogameStore'
 import VideogameCard from '@/components/videogames/VideogameCard'
 import { useMerchandiseStore } from '@/store/merchandiseStore'
 import MerchandiseCard from '@/components/merchandise/MerchandiseCard'
 import NovelCard from '@/components/novels/NovelCard'
+import { cardClass } from '@/components/ui/styles'
+import { latestInSpanish } from '@/utils/releases'
 import novelsLatest from 'virtual:novels-latest'
+
+const container = 'mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'
+
+// Acceso a una sección con lo que contiene y cuántos elementos tiene
+function SectionCard({
+  to,
+  title,
+  description,
+  count,
+}: {
+  to: string
+  title: string
+  description: string
+  count: number
+}) {
+  return (
+    <Link to={to} className={cardClass(true, 'gap-3 p-5')}>
+      <span className="flex items-baseline justify-between gap-3">
+        <span className="text-base font-semibold tracking-tight">{title}</span>
+        <span className="font-mono text-sm text-muted tabular-nums">{count}</span>
+      </span>
+      <span className="text-sm text-muted">{description}</span>
+    </Link>
+  )
+}
+
+function Block({
+  title,
+  to,
+  linkLabel,
+  children,
+}: {
+  title: string
+  to: string
+  linkLabel: string
+  children: ReactNode
+}) {
+  return (
+    <section className={`${container} py-10`}>
+      <div className="mb-5 flex items-baseline justify-between gap-4">
+        <h2 className="text-xl">{title}</h2>
+        <Link
+          to={to}
+          className="inline-flex min-h-11 items-center gap-1 text-sm text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
+        >
+          {linkLabel}
+          <ArrowRightIcon className="size-3.5" aria-hidden="true" />
+        </Link>
+      </div>
+      {children}
+    </section>
+  )
+}
+
+const cardGrid = 'grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4'
 
 export default function HomePage() {
   const products = useProductStore((state) => state.products)
-
-  const products2014 = products.filter((p) => p.primaryEdition === '5e')
-  const products2024 = products.filter((p) => p.primaryEdition === '2024')
-
-  // Get featured products (first 5 from each edition)
-  const featured2024 = products2024.slice(0, 5)
-  const featured2014 = products2014.slice(0, 5)
+  const count2014 = products.filter((p) => p.primaryEdition === '5e').length
+  const count2024 = products.filter((p) => p.primaryEdition === '2024').length
+  const latestSpanish = latestInSpanish(products, 5)
 
   // Los videojuegos publicados más recientes
   const videogames = useVideogameStore((state) => state.videogames)
@@ -36,167 +92,105 @@ export default function HomePage() {
     <>
       <MetaTags />
 
-      {/* Hero section */}
-      <section className="relative bg-linear-to-b from-dnd-stone to-dnd-stone-dark py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <img src={getAssetPath('images/logo.svg')} alt="" className="h-24 md:h-32 mx-auto mb-6" />
-          <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">Catálogo D&D 5E</h1>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Explora todos los productos oficiales de Dungeons & Dragons 5ª edición (2014) y la nueva
-            edición 5.5 (2024), los videojuegos oficiales, el merchandising con licencia y las
-            novelas de D&D.
+      <section className={`${container} pt-12 pb-8 sm:pt-16`}>
+        <div className="flex max-w-2xl flex-col gap-4">
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">
+            Catálogo de Dungeons &amp; Dragons
+          </h1>
+          <p className="text-lg text-muted">
+            Libros de 5E (2014) y 5.5E (2024), videojuegos, merchandising y novelas oficiales: qué
+            hay en castellano, cuándo salió y dónde comprarlo.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/2014" className="btn-secondary">
-              Explorar 5E (2014)
-            </Link>
-            <Link to="/2024" className="btn-secondary">
-              Explorar 5.5E (2024)
-            </Link>
-            <Link to="/videojuegos" className="btn-secondary">
-              Videojuegos
-            </Link>
-            <Link to="/merchandising" className="btn-secondary">
-              Merchandising
-            </Link>
-            <Link to="/novelas" className="btn-secondary">
-              Novelas
-            </Link>
+          <div className="mt-2 max-w-xl">
+            <SearchBar size="lg" />
           </div>
         </div>
       </section>
 
-      {/* Stats section - compact */}
-      <section className="py-4 border-y border-dnd-gold/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-sm">
-            <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{products.length}</span>
-              <span className="text-gray-400">productos</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{products2014.length}</span>
-              <span className="text-gray-400">de 5E (2014)</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{products2024.length}</span>
-              <span className="text-gray-400">de 5.5E (2024)</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{videogames.length}</span>
-              <span className="text-gray-400">videojuegos</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{merchandise.length}</span>
-              <span className="text-gray-400">de merchandising</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{novelsLatest.total}</span>
-              <span className="text-gray-400">novelas</span>
-            </div>
-          </div>
+      <section className={`${container} pb-6`} aria-label="Secciones del catálogo">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <SectionCard
+            to="/2024"
+            title="Libros de 5.5E (2024)"
+            description="Las reglas revisadas: básicos, suplementos y aventuras."
+            count={count2024}
+          />
+          <SectionCard
+            to="/2014"
+            title="Libros de 5E (2014)"
+            description="La quinta edición original, con sus ediciones de Edge y Wizards."
+            count={count2014}
+          />
+          <SectionCard
+            to="/videojuegos"
+            title="Videojuegos"
+            description="Todos los juegos oficiales, con su castellano y dónde comprarlos."
+            count={videogames.length}
+          />
+          <SectionCard
+            to="/merchandising"
+            title="Merchandising"
+            description="Libros licenciados, figuras, juegos de mesa y de cartas."
+            count={merchandise.length}
+          />
+          <SectionCard
+            to="/novelas"
+            title="Novelas"
+            description="Las novelas oficiales desde 1978, en inglés y en castellano."
+            count={novelsLatest.total}
+          />
+          <SectionCard
+            to="/guias"
+            title="Guías"
+            description="Por dónde empezar, 2014 o 2024, fechas en castellano y órdenes de lectura."
+            count={GUIDES.length}
+          />
         </div>
       </section>
 
-      {/* Guides */}
-      <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="font-display text-2xl text-dnd-gold">Guías</h2>
-            <Link to="/guias" className="text-dnd-gold hover:text-dnd-gold-light">
-              Ver todas &rarr;
-            </Link>
-          </div>
-          <GuideCards />
-        </div>
-      </section>
-
-      {/* Featured 2024 */}
-      {featured2024.length > 0 && (
-        <section className="py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">D&D 5.5E (2024)</h2>
-              <Link to="/2024" className="text-dnd-gold hover:text-dnd-gold-light">
-                Ver todos &rarr;
-              </Link>
-            </div>
-            <ProductGrid products={featured2024} />
-          </div>
-        </section>
+      {latestSpanish.length > 0 && (
+        <Block
+          title="Últimos en castellano"
+          to="/guias/cuando-sale-en-castellano"
+          linkLabel="Calendario"
+        >
+          <ProductGrid products={latestSpanish} />
+        </Block>
       )}
 
-      {/* Featured 2014 */}
-      {featured2014.length > 0 && (
-        <section className="py-12 bg-dnd-stone/50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">D&D 5E (2014)</h2>
-              <Link to="/2014" className="text-dnd-gold hover:text-dnd-gold-light">
-                Ver todos &rarr;
-              </Link>
-            </div>
-            <ProductGrid products={featured2014} />
-          </div>
-        </section>
-      )}
-
-      {/* Videojuegos */}
       {latestVideogames.length > 0 && (
-        <section className="py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">Videojuegos</h2>
-              <Link to="/videojuegos" className="text-dnd-gold hover:text-dnd-gold-light">
-                Ver todos &rarr;
-              </Link>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
-              {latestVideogames.map((game) => (
-                <VideogameCard key={game.slug} game={game} />
-              ))}
-            </div>
+        <Block title="Videojuegos" to="/videojuegos" linkLabel="Ver todos">
+          <div className={cardGrid}>
+            {latestVideogames.map((game) => (
+              <VideogameCard key={game.slug} game={game} />
+            ))}
           </div>
-        </section>
+        </Block>
       )}
 
-      {/* Merchandising */}
       {latestMerchandise.length > 0 && (
-        <section className="py-12 bg-dnd-stone/50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">Merchandising</h2>
-              <Link to="/merchandising" className="text-dnd-gold hover:text-dnd-gold-light">
-                Ver todo &rarr;
-              </Link>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
-              {latestMerchandise.map((item) => (
-                <MerchandiseCard key={item.slug} item={item} />
-              ))}
-            </div>
+        <Block title="Merchandising" to="/merchandising" linkLabel="Ver todo">
+          <div className={cardGrid}>
+            {latestMerchandise.map((item) => (
+              <MerchandiseCard key={item.slug} item={item} />
+            ))}
           </div>
-        </section>
+        </Block>
       )}
 
-      {/* Novelas */}
       {novelsLatest.latest.length > 0 && (
-        <section className="py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">Novelas</h2>
-              <Link to="/novelas" className="text-dnd-gold hover:text-dnd-gold-light">
-                Ver todas &rarr;
-              </Link>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
-              {novelsLatest.latest.map((novel) => (
-                <NovelCard key={novel.slug} novel={novel} series={novelsLatest.series} />
-              ))}
-            </div>
+        <Block title="Novelas" to="/novelas" linkLabel="Ver todas">
+          <div className={cardGrid}>
+            {novelsLatest.latest.map((novel) => (
+              <NovelCard key={novel.slug} novel={novel} series={novelsLatest.series} />
+            ))}
           </div>
-        </section>
+        </Block>
       )}
+
+      <Block title="Guías" to="/guias" linkLabel="Ver todas">
+        <GuideCards />
+      </Block>
     </>
   )
 }

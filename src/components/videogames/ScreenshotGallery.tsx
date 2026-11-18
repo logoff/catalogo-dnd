@@ -21,7 +21,7 @@ export default function ScreenshotGallery({ title, screenshots }: ScreenshotGall
             <button
               type="button"
               onClick={() => setOpenIndex(index)}
-              className="block w-full cursor-zoom-in overflow-hidden rounded-lg bg-black shadow-card focus:outline-none focus-visible:ring-2 focus-visible:ring-dnd-gold"
+              className="block w-full cursor-zoom-in overflow-hidden rounded-lg bg-black  focus:outline-none focus-visible:ring-2 focus-visible:ring-focus"
             >
               <img
                 src={resolveImageSrc(screenshot.thumbnail)}

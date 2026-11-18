@@ -1,6 +1,4 @@
 import { useMemo, useState } from 'react'
-import { XMarkIcon, FunnelIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
-import { AnimatePresence, motion } from 'framer-motion'
 import { useProductStore } from '@/store/productStore'
 import {
   translateType,
@@ -12,7 +10,8 @@ import { EDITIONS, TYPES, LANGUAGES, ALL_SUBTYPES } from '@/utils/constants'
 import { getFacetCounts, type FacetCounts } from '@/utils/productFilters'
 import type { Edition, PublicationType, PublicationSubtype, Language } from '@/types'
 import SortSelect from './SortSelect'
-import { FilterCheckbox, FilterSection } from './FilterControls'
+import { FilterCheckbox, FilterPanelHeader, FilterSection } from './FilterControls'
+import SegmentedControl from '@/components/ui/SegmentedControl'
 
 interface FilterPanelProps {
   // En las páginas de edición: los filtros se limitan a esa edición y no se muestra su filtro
@@ -51,41 +50,16 @@ export default function FilterPanel({ edition }: FilterPanelProps) {
   const activeCount = getActiveFilterCount()
 
   return (
-    <div className="card-dnd p-4">
-      {/* Header - siempre visible, clickeable en móvil */}
-      <div className="relative">
-        <button
-          onClick={() => setIsExpanded(!isExpanded)}
-          aria-expanded={isExpanded}
-          className="flex items-center justify-between w-full lg:cursor-default"
-        >
-          <div className="flex items-center gap-2">
-            <FunnelIcon className="h-5 w-5 text-dnd-gold" />
-            <h3 className="font-display text-lg text-dnd-gold">Filtros</h3>
-            {activeCount > 0 && <span className="badge bg-dnd-red text-white">{activeCount}</span>}
-          </div>
-          <ChevronDownIcon
-            className={`h-5 w-5 text-gray-400 transition-transform lg:hidden ${
-              isExpanded ? 'rotate-180' : ''
-            }`}
-          />
-        </button>
-
-        {/* Fuera del botón de cabecera: un <button> no puede contener otro */}
-        {activeCount > 0 && (
-          <button
-            onClick={clearFilters}
-            aria-label="Limpiar filtros"
-            className="absolute top-1/2 -translate-y-1/2 right-7 lg:right-0 text-sm text-gray-400 hover:text-white flex items-center gap-1"
-          >
-            <XMarkIcon className="h-4 w-4" />
-            <span className="hidden sm:inline">Limpiar</span>
-          </button>
-        )}
-      </div>
+    <div className="rounded-xl border border-line bg-surface p-4 lg:border-0 lg:bg-transparent lg:p-0">
+      <FilterPanelHeader
+        activeCount={activeCount}
+        isExpanded={isExpanded}
+        onToggle={() => setIsExpanded(!isExpanded)}
+        onClear={clearFilters}
+      />
 
       {/* Contenido de filtros - colapsable en móvil, siempre visible en desktop */}
-      <div className="hidden lg:block mt-6 space-y-6">
+      <div className="mt-5 hidden space-y-6 lg:block">
         <FilterContent
           showEditionFilter={!edition}
           editions={editions}
@@ -100,33 +74,23 @@ export default function FilterPanel({ edition }: FilterPanelProps) {
         />
       </div>
 
-      {/* Versión móvil - animada */}
-      <AnimatePresence>
-        {isExpanded && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="lg:hidden overflow-hidden"
-          >
-            <div className="mt-6 space-y-6">
-              <FilterContent
-                showEditionFilter={!edition}
-                editions={editions}
-                types={types}
-                subtypes={subtypes}
-                languages={languages}
-                counts={counts}
-                toggleEdition={toggleEdition}
-                toggleType={toggleType}
-                toggleSubtype={toggleSubtype}
-                toggleLanguage={toggleLanguage}
-              />
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* Versión móvil, desplegable */}
+      {isExpanded && (
+        <div className="mt-5 space-y-6 lg:hidden">
+          <FilterContent
+            showEditionFilter={!edition}
+            editions={editions}
+            types={types}
+            subtypes={subtypes}
+            languages={languages}
+            counts={counts}
+            toggleEdition={toggleEdition}
+            toggleType={toggleType}
+            toggleSubtype={toggleSubtype}
+            toggleLanguage={toggleLanguage}
+          />
+        </div>
+      )}
     </div>
   )
 }
@@ -168,20 +132,45 @@ function FilterContent({
   const visibleSubtypes = visible(ALL_SUBTYPES, subtypes, counts.subtypes)
   const visibleLanguages = visible(LANGUAGES, languages, counts.languages)
 
+  // El control segmentado elige una edición o ninguna (todas)
+  const setEdition = (next: Edition | null) => {
+    editions.filter((e) => e !== next).forEach(toggleEdition)
+    if (next && !editions.includes(next)) toggleEdition(next)
+  }
+
   return (
     <>
-      {/* Edition filter */}
-      {showEditionFilter && visibleEditions.length > 0 && (
-        <FilterSection title="Edición">
-          {visibleEditions.map((edition) => (
+      {/* Idioma, lo primero: lo que más se busca es si está en castellano */}
+      {visibleLanguages.length > 0 && (
+        <FilterSection title="Idioma">
+          {visibleLanguages.map((lang) => (
             <FilterCheckbox
-              key={edition}
-              label={translateEdition(edition)}
-              count={counts.editions[edition] ?? 0}
-              checked={editions.includes(edition)}
-              onChange={() => toggleEdition(edition)}
+              key={lang}
+              label={translateLanguage(lang)}
+              count={counts.languages[lang] ?? 0}
+              checked={languages.includes(lang)}
+              onChange={() => toggleLanguage(lang)}
             />
           ))}
+        </FilterSection>
+      )}
+
+      {/* Edición: una o todas, con control segmentado */}
+      {showEditionFilter && (visibleEditions.length > 1 || editions.length > 0) && (
+        <FilterSection title="Edición">
+          <SegmentedControl
+            fullWidth
+            label="Edición"
+            value={editions.length === 1 ? editions[0] : 'all'}
+            onChange={(value) => setEdition(value === 'all' ? null : value)}
+            options={[
+              { value: 'all', label: 'Todas' },
+              ...visibleEditions.map((option) => ({
+                value: option,
+                label: translateEdition(option),
+              })),
+            ]}
+          />
         </FilterSection>
       )}
 
@@ -210,21 +199,6 @@ function FilterContent({
               count={counts.subtypes[subtype] ?? 0}
               checked={subtypes.includes(subtype)}
               onChange={() => toggleSubtype(subtype)}
-            />
-          ))}
-        </FilterSection>
-      )}
-
-      {/* Language filter */}
-      {visibleLanguages.length > 0 && (
-        <FilterSection title="Idioma">
-          {visibleLanguages.map((lang) => (
-            <FilterCheckbox
-              key={lang}
-              label={translateLanguage(lang)}
-              count={counts.languages[lang] ?? 0}
-              checked={languages.includes(lang)}
-              onChange={() => toggleLanguage(lang)}
             />
           ))}
         </FilterSection>

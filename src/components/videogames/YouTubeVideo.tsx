@@ -17,7 +17,7 @@ export default function YouTubeVideo({ video }: { video: VideoWithMeta }) {
 
   return (
     <figure>
-      <div className="relative aspect-video overflow-hidden rounded-lg bg-black shadow-card">
+      <div className="relative aspect-video overflow-hidden rounded-lg bg-black ">
         {playing ? (
           <iframe
             ref={iframeRef}
@@ -52,16 +52,16 @@ export default function YouTubeVideo({ video }: { video: VideoWithMeta }) {
               className="h-full w-full object-cover transition-opacity group-hover:opacity-80"
             />
             <span className="absolute inset-0 flex items-center justify-center">
-              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-dnd-red/90 shadow-lg transition-transform group-hover:scale-110 group-focus-visible:scale-110">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-accent-solid shadow-lg group-focus-visible:scale-110">
                 <PlayIcon className="ml-1 h-8 w-8 text-white" aria-hidden="true" />
               </span>
             </span>
           </a>
         )}
       </div>
-      <figcaption className="mt-2 text-sm text-gray-300">
-        <span className="font-semibold text-gray-100">{video.title}</span>
-        <span className="text-gray-400"> · {video.channel}</span>
+      <figcaption className="mt-2 text-sm text-fg">
+        <span className="font-semibold text-fg">{video.title}</span>
+        <span className="text-muted"> · {video.channel}</span>
       </figcaption>
     </figure>
   )

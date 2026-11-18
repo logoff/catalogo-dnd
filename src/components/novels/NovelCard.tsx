@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import type { NovelIndex, NovelSummary } from '@/types/novel'
 import { seriesName } from '@/utils/novelTranslations'
 import LazyImage from '../common/LazyImage'
 import NovelSpanishBadge from './NovelSpanishBadge'
+import { cardClass } from '@/components/ui/styles'
+import { CardBody, CardCover } from '@/components/ui/Card'
 
 interface NovelCardProps {
   novel: NovelSummary
@@ -23,22 +24,25 @@ export default function NovelCard({ novel, series, view = 'grid' }: NovelCardPro
 
   if (view === 'list') {
     return (
-      <Link to={`/novela/${novel.slug}`} className="card-dnd group flex gap-4 p-3">
+      <Link
+        to={`/novela/${novel.slug}`}
+        className="flex items-center gap-4 px-4 py-3 transition-colors duration-150 hover:bg-well"
+      >
         <LazyImage
           src={cover}
-          alt={novel.title}
-          containerClassName="w-12 aspect-[2/3] shrink-0 rounded"
-          className="w-full h-full object-cover rounded"
+          alt=""
+          containerClassName="aspect-[2/3] w-11 shrink-0 rounded"
+          className="h-full w-full object-cover"
         />
-        <div className="flex-1 min-w-0">
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light truncate">
-            {novel.title}
-          </h3>
-          {subtitle && <p className="text-sm text-gray-300 truncate">{subtitle}</p>}
-          <p className="text-sm text-gray-400 truncate">
-            {[seriesLabel, details].filter(Boolean).join(' · ')}
-          </p>
-          <div className="mt-1">
+        <div className="flex min-w-0 flex-1 flex-col gap-1 sm:flex-row sm:items-center sm:gap-4">
+          <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+            <h3 className="truncate text-[15px] font-semibold tracking-tight">{novel.title}</h3>
+            {subtitle && <p className="truncate text-sm">{subtitle}</p>}
+            <p className="truncate text-sm text-muted">
+              {[seriesLabel, details].filter(Boolean).join(' · ')}
+            </p>
+          </div>
+          <div className="shrink-0 sm:w-56 sm:text-right">
             <NovelSpanishBadge spanish={novel.spanish} />
           </div>
         </div>
@@ -47,28 +51,24 @@ export default function NovelCard({ novel, series, view = 'grid' }: NovelCardPro
   }
 
   return (
-    <motion.div whileHover={{ y: -4 }} whileTap={{ scale: 0.98 }} className="h-full">
-      <Link to={`/novela/${novel.slug}`} className="card-dnd group flex flex-col h-full">
+    <Link to={`/novela/${novel.slug}`} className={cardClass(true, 'h-full')}>
+      <CardCover aspect="aspect-[2/3]">
         <LazyImage
           src={cover}
           alt={novel.title}
-          containerClassName="aspect-[2/3] bg-dnd-stone"
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          containerClassName="h-full"
+          className="h-full w-full object-cover"
         />
-        <div className="p-4 flex flex-col flex-1">
-          <div className="flex flex-wrap gap-1.5 mb-2">
-            <NovelSpanishBadge spanish={novel.spanish} />
-          </div>
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light transition-colors line-clamp-3">
-            {novel.title}
-          </h3>
-          {subtitle && <p className="text-sm text-gray-300 line-clamp-2">{subtitle}</p>}
-          <div className="mt-auto pt-2 text-sm text-gray-400">
-            {seriesLabel && <p className="line-clamp-1">{seriesLabel}</p>}
-            <p className="line-clamp-2">{details}</p>
-          </div>
-        </div>
-      </Link>
-    </motion.div>
+      </CardCover>
+      <CardBody>
+        {seriesLabel && <p className="line-clamp-1 text-xs text-muted">{seriesLabel}</p>}
+        <h3 className="line-clamp-3 text-[15px] leading-snug font-semibold tracking-tight">
+          {novel.title}
+        </h3>
+        {subtitle && <p className="line-clamp-2 text-sm">{subtitle}</p>}
+        <p className="line-clamp-2 text-sm text-muted">{details}</p>
+        <NovelSpanishBadge spanish={novel.spanish} />
+      </CardBody>
+    </Link>
   )
 }

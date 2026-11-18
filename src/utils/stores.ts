@@ -2,10 +2,6 @@ import type { Store } from '@/types'
 
 interface StoreConfig {
   label: string
-  // Imagen del botón, relativa a public/ (la que proporcione el programa de afiliados)
-  image?: string
-  // Clases de Tailwind para el fondo del botón
-  color: string
   // Convierte la URL del producto en un enlace de afiliado. Sin definir, se usa la URL tal cual
   affiliate?: (url: string) => string
 }
@@ -47,13 +43,10 @@ export function adtractionAffiliate(
 export const STORES: Record<Store, StoreConfig> = {
   amazon: {
     label: 'Amazon',
-    image: 'images/stores/amazon.png',
-    color: 'from-[#131A22] to-[#232f3e] hover:from-[#232f3e] hover:to-[#131A22]',
     affiliate: amazonAffiliate(env.VITE_AFFILIATE_AMAZON_TAG),
   },
   generacion_x: {
     label: 'Generación X',
-    color: 'from-amber-600 to-amber-800 hover:from-amber-500 hover:to-amber-700',
     affiliate: adtractionAffiliate(
       env.VITE_AFFILIATE_GENERACION_X_PROGRAM,
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL
@@ -61,7 +54,6 @@ export const STORES: Record<Store, StoreConfig> = {
   },
   juegos_mesa_redonda: {
     label: 'Juegos de la Mesa Redonda',
-    color: 'from-amber-600 to-amber-800 hover:from-amber-500 hover:to-amber-700',
     affiliate: adtractionAffiliate(
       env.VITE_AFFILIATE_JUEGOS_MESA_REDONDA_PROGRAM,
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL
@@ -69,7 +61,6 @@ export const STORES: Record<Store, StoreConfig> = {
   },
   gog: {
     label: 'GOG',
-    color: 'from-purple-700 to-purple-900 hover:from-purple-600 hover:to-purple-800',
     affiliate: adtractionAffiliate(
       env.VITE_AFFILIATE_GOG_PROGRAM,
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL
@@ -78,16 +69,13 @@ export const STORES: Record<Store, StoreConfig> = {
   // Steam no tiene programa de afiliados: se enlaza sin comisión
   steam: {
     label: 'Steam',
-    color: 'from-[#1b2838] to-[#2a475e] hover:from-[#2a475e] hover:to-[#1b2838]',
   },
   instant_gaming: {
     label: 'Instant Gaming',
-    color: 'from-orange-600 to-orange-800 hover:from-orange-500 hover:to-orange-700',
     affiliate: instantGamingAffiliate(env.VITE_AFFILIATE_INSTANT_GAMING_REFERRAL),
   },
   fanatical: {
     label: 'Fanatical',
-    color: 'from-red-700 to-red-900 hover:from-red-600 hover:to-red-800',
     affiliate: awinAffiliate(
       env.VITE_AFFILIATE_FANATICAL_PROGRAM,
       env.VITE_AFFILIATE_AWIN_PUBLISHER
@@ -95,7 +83,6 @@ export const STORES: Record<Store, StoreConfig> = {
   },
   casa_del_libro: {
     label: 'Casa del Libro',
-    color: 'from-[#005b56] to-[#00403c] hover:from-[#00706a] hover:to-[#005b56]',
     affiliate: awinAffiliate(
       env.VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM,
       env.VITE_AFFILIATE_AWIN_PUBLISHER
@@ -104,7 +91,6 @@ export const STORES: Record<Store, StoreConfig> = {
   // Suscripción de ebooks y audiolibros: solo para las novelas que tiene en su catálogo
   nextory: {
     label: 'Nextory',
-    color: 'from-[#4b1a5e] to-[#32103f] hover:from-[#5e2275] hover:to-[#4b1a5e]',
     affiliate: adtractionAffiliate(
       env.VITE_AFFILIATE_NEXTORY_PROGRAM,
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL

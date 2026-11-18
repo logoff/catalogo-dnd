@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import type { MerchandiseWithMeta } from '@/types/merchandise'
 import { kindNames } from '@/utils/merchandiseTranslations'
 import LazyImage from '../common/LazyImage'
 import MerchandiseSpanishBadge from './MerchandiseSpanishBadge'
+import { cardClass } from '@/components/ui/styles'
+import { CardBody } from '@/components/ui/Card'
 
 interface MerchandiseCardProps {
   item: MerchandiseWithMeta
@@ -15,19 +16,23 @@ export default function MerchandiseCard({ item, view = 'grid' }: MerchandiseCard
 
   if (view === 'list') {
     return (
-      <Link to={`/merchandising/${item.slug}`} className="card-dnd group flex gap-4 p-3">
+      <Link
+        to={`/merchandising/${item.slug}`}
+        className="flex items-center gap-4 px-4 py-3 transition-colors duration-150 hover:bg-well"
+      >
+        {/* Fotos de producto sobre blanco en los dos temas: muchas traen el fondo blanco */}
         <LazyImage
           src={item.images[0]}
-          alt={item.title}
-          containerClassName="w-16 aspect-square shrink-0 bg-white rounded"
-          className="w-full h-full object-contain rounded"
+          alt=""
+          containerClassName="aspect-square w-14 shrink-0 rounded bg-white"
+          className="h-full w-full object-contain p-1"
         />
-        <div className="flex-1 min-w-0">
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light truncate">
-            {item.title}
-          </h3>
-          <p className="text-sm text-gray-400">{details}</p>
-          <div className="mt-1">
+        <div className="flex min-w-0 flex-1 flex-col gap-1 sm:flex-row sm:items-center sm:gap-4">
+          <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+            <h3 className="truncate text-[15px] font-semibold tracking-tight">{item.title}</h3>
+            <p className="text-sm text-muted">{details}</p>
+          </div>
+          <div className="shrink-0 sm:w-56 sm:text-right">
             <MerchandiseSpanishBadge item={item} />
           </div>
         </div>
@@ -36,24 +41,21 @@ export default function MerchandiseCard({ item, view = 'grid' }: MerchandiseCard
   }
 
   return (
-    <motion.div whileHover={{ y: -4 }} whileTap={{ scale: 0.98 }} className="h-full">
-      <Link to={`/merchandising/${item.slug}`} className="card-dnd group flex flex-col h-full">
-        <LazyImage
-          src={item.images[0]}
-          alt={item.title}
-          containerClassName="aspect-square bg-white"
-          className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300"
-        />
-        <div className="p-4 flex flex-col flex-1">
-          <div className="flex flex-wrap gap-1.5 mb-2">
-            <MerchandiseSpanishBadge item={item} />
-          </div>
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light transition-colors line-clamp-3">
-            {item.title}
-          </h3>
-          <p className="mt-auto pt-2 text-sm text-gray-400">{details}</p>
-        </div>
-      </Link>
-    </motion.div>
+    <Link to={`/merchandising/${item.slug}`} className={cardClass(true, 'h-full')}>
+      {/* Fotos de producto sobre blanco en los dos temas: muchas traen el fondo blanco */}
+      <LazyImage
+        src={item.images[0]}
+        alt={item.title}
+        containerClassName="aspect-square border-b border-line bg-white"
+        className="h-full w-full object-contain p-4"
+      />
+      <CardBody>
+        <p className="text-xs text-muted">{details}</p>
+        <h3 className="line-clamp-3 text-[15px] leading-snug font-semibold tracking-tight">
+          {item.title}
+        </h3>
+        <MerchandiseSpanishBadge item={item} />
+      </CardBody>
+    </Link>
   )
 }

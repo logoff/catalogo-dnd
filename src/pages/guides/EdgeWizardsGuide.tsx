@@ -10,7 +10,7 @@ function Edition({ pub }: { pub: Publication }) {
   return (
     <>
       {pub.date && formatDate(pub.date)}
-      {pub.isbn13 && <span className="block text-gray-400 font-mono">{pub.isbn13}</span>}
+      {pub.isbn13 && <span className="block text-muted font-mono">{pub.isbn13}</span>}
     </>
   )
 }
@@ -110,16 +110,16 @@ export default function EdgeWizardsGuide() {
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
-          <thead className="text-gray-100 border-b border-dnd-gold/30">
+          <thead className="border-b border-line text-xs text-muted">
             <tr>
-              <th className="py-2 pr-4">Libro</th>
-              <th className="py-2 pr-4">Edge</th>
-              <th className="py-2">Wizards</th>
+              <th className="py-2 pr-4 font-medium">Libro</th>
+              <th className="py-2 pr-4 font-medium">Edge</th>
+              <th className="py-2 font-medium">Wizards</th>
             </tr>
           </thead>
           <tbody>
             {reissued.map((e) => (
-              <tr key={e.product.code} className="border-b border-dnd-stone-light align-top">
+              <tr key={e.product.code} className="border-b border-line align-top">
                 <td className="py-2 pr-4">
                   <BookLink editions={e} />
                 </td>
@@ -142,15 +142,15 @@ export default function EdgeWizardsGuide() {
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
-          <thead className="text-gray-100 border-b border-dnd-gold/30">
+          <thead className="border-b border-line text-xs text-muted">
             <tr>
-              <th className="py-2 pr-4">Libro</th>
-              <th className="py-2">Edge</th>
+              <th className="py-2 pr-4 font-medium">Libro</th>
+              <th className="py-2 font-medium">Edge</th>
             </tr>
           </thead>
           <tbody>
             {edgeOnly.map((e) => (
-              <tr key={e.product.code} className="border-b border-dnd-stone-light align-top">
+              <tr key={e.product.code} className="border-b border-line align-top">
                 <td className="py-2 pr-4">
                   <BookLink editions={e} />
                 </td>

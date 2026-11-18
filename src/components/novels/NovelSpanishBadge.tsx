@@ -1,17 +1,8 @@
-import clsx from 'clsx'
 import type { NovelSpanish } from '@/types/novel'
 import { spanishNames } from '@/utils/novelTranslations'
+import { SpanishMark } from '@/components/ui/Badge'
 
 // Si hay edición en castellano y si salió en España
 export default function NovelSpanishBadge({ spanish }: { spanish: NovelSpanish }) {
-  return (
-    <span
-      className={clsx('badge', {
-        'badge-castellano': spanish === 'spain',
-        'badge-english': spanish !== 'spain',
-      })}
-    >
-      {spanishNames[spanish]}
-    </span>
-  )
+  return <SpanishMark active={spanish === 'spain'}>{spanishNames[spanish]}</SpanishMark>
 }

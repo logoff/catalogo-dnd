@@ -10,6 +10,24 @@ export function formatDate(dateString: string): string {
   }
 }
 
+// «31 mar 2025», para tablas
+export function formatShortDate(dateString: string): string {
+  try {
+    return format(parseISO(dateString), 'd MMM yyyy', { locale: es })
+  } catch {
+    return dateString
+  }
+}
+
+// «mar 2025», para tarjetas y listas
+export function formatMonthYear(dateString: string): string {
+  try {
+    return format(parseISO(dateString), 'MMM yyyy', { locale: es })
+  } catch {
+    return dateString
+  }
+}
+
 export function formatISBN(isbn: number): string {
   const str = isbn.toString()
   // Format as ISBN-13: 978-0-12345-678-9

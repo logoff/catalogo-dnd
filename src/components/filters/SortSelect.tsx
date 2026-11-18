@@ -1,6 +1,7 @@
 import { ArrowsUpDownIcon } from '@heroicons/react/24/outline'
 import { useProductStore } from '@/store/productStore'
 import type { SortOption } from '@/types'
+import { selectClass } from '@/components/ui/styles'
 
 const SORT_OPTIONS: { value: string; label: string }[] = [
   { value: 'title-asc', label: 'Título (A-Z)' },
@@ -25,12 +26,16 @@ export default function SortSelect() {
   }
 
   return (
-    <div className="flex items-center gap-2">
-      <ArrowsUpDownIcon className="h-5 w-5 text-dnd-gold" />
+    <div className="relative">
+      <ArrowsUpDownIcon
+        className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted"
+        aria-hidden="true"
+      />
       <select
         value={currentValue}
         onChange={handleChange}
-        className="input-dnd py-1.5 text-sm bg-dnd-stone border-dnd-gold/30"
+        aria-label="Ordenar por"
+        className={selectClass}
       >
         {SORT_OPTIONS.map((option) => (
           <option key={option.value} value={option.value}>

@@ -20,7 +20,7 @@ export default function ReleaseTable({ releases }: ReleaseTableProps) {
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm text-left">
-        <thead className="text-gray-400 border-b border-dnd-gold/20">
+        <thead className="text-muted border-b border-line">
           <tr>
             <th scope="col" className="py-2 pr-4 font-semibold">
               Plataforma
@@ -36,9 +36,9 @@ export default function ReleaseTable({ releases }: ReleaseTableProps) {
             </th>
           </tr>
         </thead>
-        <tbody className="text-gray-300">
+        <tbody className="text-fg">
           {sorted.map((release, index) => (
-            <tr key={index} className="border-b border-dnd-gold/10">
+            <tr key={index} className="border-b border-line">
               <td className="py-2 pr-4">
                 <span className="inline-flex items-center gap-2">
                   <PlatformIcon platform={release.platform} />
@@ -48,12 +48,12 @@ export default function ReleaseTable({ releases }: ReleaseTableProps) {
               <td className="py-2 pr-4">{release.date ? formatPartialDate(release.date) : '—'}</td>
               <td className="py-2 pr-4">
                 {versionOf(release)}
-                {release.delisted && <span className="text-gray-500"> (retirado)</span>}
+                {release.delisted && <span className="text-muted"> (retirado)</span>}
               </td>
               <td className="py-2">
                 {describeSpanish(release.spanish)}
                 {release.spanish?.note && (
-                  <span className="block text-xs text-gray-500">{release.spanish.note}</span>
+                  <span className="block text-xs text-muted">{release.spanish.note}</span>
                 )}
               </td>
             </tr>

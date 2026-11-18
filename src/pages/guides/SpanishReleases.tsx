@@ -59,11 +59,11 @@ export default function SpanishReleases() {
 
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
-          <thead className="text-gray-100 border-b border-dnd-gold/30">
+          <thead className="border-b border-line text-xs text-muted">
             <tr>
-              <th className="py-2 pr-4">Producto</th>
-              <th className="py-2 pr-4">En inglés</th>
-              <th className="py-2">En castellano</th>
+              <th className="py-2 pr-4 font-medium">Producto</th>
+              <th className="py-2 pr-4 font-medium">En inglés</th>
+              <th className="py-2 font-medium">En castellano</th>
             </tr>
           </thead>
           <tbody>
@@ -71,7 +71,7 @@ export default function SpanishReleases() {
               const english = firstPublication(product, 'english')
               const spanish = firstPublication(product, 'castellano')
               return (
-                <tr key={product.code} className="border-b border-dnd-stone-light align-top">
+                <tr key={product.code} className="border-b border-line align-top">
                   <td className="py-2 pr-4">
                     <Link to={`/producto/2024/${product.code.toLowerCase()}`}>
                       {product.primaryTitle}
@@ -84,10 +84,10 @@ export default function SpanishReleases() {
                     {spanish ? (
                       <>
                         {spanish.date ? formatDate(spanish.date) : 'Anunciado, sin fecha'}
-                        <span className="block text-gray-400">{spanish.title}</span>
+                        <span className="block text-muted">{spanish.title}</span>
                       </>
                     ) : (
-                      <span className="text-gray-400">Sin anunciar</span>
+                      <span className="text-muted">Sin anunciar</span>
                     )}
                   </td>
                 </tr>
