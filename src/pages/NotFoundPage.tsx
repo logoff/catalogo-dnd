@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { buttonClass } from '@/components/ui/styles'
 import MetaTags from '@/components/seo/MetaTags'
 
 export default function NotFoundPage() {
@@ -6,13 +7,13 @@ export default function NotFoundPage() {
     <>
       <MetaTags title="Página no encontrada" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-        <div className="text-8xl text-accent mb-4">404</div>
+      <div className="mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 lg:px-8">
+        <p className="mb-4 font-mono text-sm text-muted">Error 404</p>
         <h1 className="mb-4 text-3xl font-semibold tracking-tight">Página no encontrada</h1>
-        <p className="text-muted mb-8 max-w-md mx-auto">
+        <p className="mx-auto mb-8 max-w-md text-muted">
           La página que buscas no existe o ha sido movida. Quizás un Beholder la desintegró.
         </p>
-        <Link to="/" className="btn-primary">
+        <Link to="/" className={buttonClass('primary')}>
           Volver al inicio
         </Link>
       </div>

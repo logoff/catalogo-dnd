@@ -59,11 +59,11 @@ export default function SpanishReleases() {
 
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
-          <thead className="text-fg border-b border-line">
+          <thead className="border-b border-line text-xs text-muted">
             <tr>
-              <th className="py-2 pr-4">Producto</th>
-              <th className="py-2 pr-4">En inglés</th>
-              <th className="py-2">En castellano</th>
+              <th className="py-2 pr-4 font-medium">Producto</th>
+              <th className="py-2 pr-4 font-medium">En inglés</th>
+              <th className="py-2 font-medium">En castellano</th>
             </tr>
           </thead>
           <tbody>

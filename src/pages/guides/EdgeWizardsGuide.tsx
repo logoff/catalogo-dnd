@@ -110,11 +110,11 @@ export default function EdgeWizardsGuide() {
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
-          <thead className="text-fg border-b border-line">
+          <thead className="border-b border-line text-xs text-muted">
             <tr>
-              <th className="py-2 pr-4">Libro</th>
-              <th className="py-2 pr-4">Edge</th>
-              <th className="py-2">Wizards</th>
+              <th className="py-2 pr-4 font-medium">Libro</th>
+              <th className="py-2 pr-4 font-medium">Edge</th>
+              <th className="py-2 font-medium">Wizards</th>
             </tr>
           </thead>
           <tbody>
@@ -142,10 +142,10 @@ export default function EdgeWizardsGuide() {
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
-          <thead className="text-fg border-b border-line">
+          <thead className="border-b border-line text-xs text-muted">
             <tr>
-              <th className="py-2 pr-4">Libro</th>
-              <th className="py-2">Edge</th>
+              <th className="py-2 pr-4 font-medium">Libro</th>
+              <th className="py-2 font-medium">Edge</th>
             </tr>
           </thead>
           <tbody>

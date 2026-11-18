@@ -1,3 +1,4 @@
+import { buttonClass } from '@/components/ui/styles'
 import { useMemo, useState } from 'react'
 import { useNovelStore } from '@/store/novelStore'
 import { useNovelIndex } from '@/hooks/useNovelData'
@@ -72,7 +73,11 @@ export default function NovelsPage() {
                     <p className="text-muted text-lg mb-4">
                       Ninguna novela cumple los filtros seleccionados
                     </p>
-                    <button onClick={state.clearFilters} className="btn-primary">
+                    <button
+                      onClick={state.clearFilters}
+                      type="button"
+                      className={buttonClass('secondary')}
+                    >
                       Quitar filtros
                     </button>
                   </div>
@@ -98,7 +103,11 @@ export default function NovelsPage() {
                     )}
                     {results.length > visible.length && (
                       <div className="text-center mt-8">
-                        <button onClick={state.showMore} className="btn-primary">
+                        <button
+                          onClick={state.showMore}
+                          type="button"
+                          className={buttonClass('secondary')}
+                        >
                           Ver más ({results.length - visible.length} restantes)
                         </button>
                       </div>

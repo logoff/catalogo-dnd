@@ -83,16 +83,16 @@
 
 ## 5. Portada, guías y páginas sueltas
 
-- [ ] 5.1 Rehacer `HomePage` según `home-page`: título y frase a la
+- [x] 5.1 Rehacer `HomePage` según `home-page`: título y frase a la
       izquierda, buscador, tarjetas de sección con recuento, «Últimos en
       castellano» por fecha en castellano (sin fechas futuras), últimos
       videojuegos, merchandising y novelas, y guías; actualizar
       `HomePage.test.tsx` con un test de orden de «Últimos en castellano»;
       verificar con `just test` y a 360 px
-- [ ] 5.2 Migrar `GuidesPage`, `GuideLayout`, `Prose` y todas las guías
+- [x] 5.2 Migrar `GuidesPage`, `GuideLayout`, `Prose` y todas las guías
       (cronologías, órdenes de lectura, tablas); verificar con
       `guides.test.tsx` y recorriendo `/guias`
-- [ ] 5.3 Migrar `LegalPage`, `NotFoundPage` y `Skeleton`; verificar en
+- [x] 5.3 Migrar `LegalPage`, `NotFoundPage` y `Skeleton`; verificar en
       `/aviso-legal` y en una URL inexistente
 
 ## 6. Limpieza y verificación final

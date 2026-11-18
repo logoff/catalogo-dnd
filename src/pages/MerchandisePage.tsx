@@ -1,3 +1,4 @@
+import { buttonClass } from '@/components/ui/styles'
 import { useMemo, useState } from 'react'
 import { useMerchandiseStore } from '@/store/merchandiseStore'
 import MetaTags from '@/components/seo/MetaTags'
@@ -56,7 +57,11 @@ export default function MerchandisePage() {
                 <p className="text-muted text-lg mb-4">
                   Ningún artículo cumple los filtros seleccionados
                 </p>
-                <button onClick={state.clearFilters} className="btn-primary">
+                <button
+                  onClick={state.clearFilters}
+                  type="button"
+                  className={buttonClass('secondary')}
+                >
                   Quitar filtros
                 </button>
               </div>
