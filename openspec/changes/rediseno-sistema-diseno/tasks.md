@@ -15,7 +15,7 @@
       `just dev` cambiando `data-theme` a mano en el inspector
 - [x] 1.4 Añadir un test de contraste que calcule las parejas de tokens de
       `design.md` en los dos temas y exija AA; verificar con `just test`
-- [ ] 1.5 Añadir a `index.html` el script en línea de tema (antes de
+- [x] 1.5 Añadir a `index.html` el script en línea de tema (antes de
       cualquier estilo) y `<meta name="theme-color">`; verificar tras
       `just build` que `dist/producto/2014/phb.html` lo incluye en el
       `<head>` y que con el tema oscuro guardado no hay parpadeo
@@ -97,18 +97,18 @@
 
 ## 6. Limpieza y verificación final
 
-- [ ] 6.1 Quitar `framer-motion` de `package.json`, los alias `dnd-*`, los
+- [x] 6.1 Quitar `framer-motion` de `package.json`, los alias `dnd-*`, los
       colores por idioma y tipo, las `@utility` antiguas, el bloque de
       compatibilidad de bordes de Tailwind 3 y el estilo de scrollbar
       dorado; verificar con
       `grep -rE "dnd-|font-display|gray-[0-9]|framer-motion" src` sin
       resultados y `just check`
-- [ ] 6.2 Recorrer con el teclado la portada, un listado y una ficha de
+- [x] 6.2 Recorrer con el teclado la portada, un listado y una ficha de
       cada sección en los dos temas; verificar que el foco se ve siempre
       y que no hay avisos de hidratación en la consola
-- [ ] 6.3 Revisar a 360 px una página de cada tipo sin desplazamiento
+- [x] 6.3 Revisar a 360 px una página de cada tipo sin desplazamiento
       horizontal; verificar con las herramientas de móvil del navegador
-- [ ] 6.4 Actualizar `CLAUDE.md` (stack sin `framer-motion`, sistema de
+- [x] 6.4 Actualizar `CLAUDE.md` (stack sin `framer-motion`, sistema de
       diseño en `src/components/ui/` y tokens en `globals.css`) y el
       README si lo menciona; verificar con `just format-check`
 - [ ] 6.5 `just check` y `just build` en verde y revisión de la vista

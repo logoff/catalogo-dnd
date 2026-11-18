@@ -17,7 +17,8 @@
         var r = document.documentElement
         r.setAttribute('data-theme', t)
         r.style.colorScheme = t
-        document.querySelector('meta[name="theme-color"]').content = t === 'dark' ? '#0a0a0a' : '#fafafa'
+        document.querySelector('meta[name="theme-color"]').content =
+          t === 'dark' ? '#0a0a0a' : '#fafafa'
       })()
     </script>
     <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />

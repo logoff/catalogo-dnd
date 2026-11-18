@@ -55,6 +55,19 @@ Ejecutar un test individual:
 
 ## Arquitectura
 
+**Diseño:** sistema propio sobre Tailwind 4. Los colores son tokens
+semánticos (`bg`, `surface`, `well`, `fg`, `muted`, `line`, `accent`,
+`accent-solid`, `on-accent`, `accent-soft`, `focus`) definidos para el
+tema claro y el oscuro en `src/styles/globals.css`; los componentes no usan
+otros colores ni la variante `dark:` para ellos, y `contrast.test.ts` exige
+AA. El rojo es el único acento: acción principal (comprar), castellano,
+elemento activo y foco. Fuentes Geist y Geist Mono (cifras, fechas, ISBN).
+Los componentes base están en `src/components/ui/` (botón, tarjeta,
+insignia, buscador, control segmentado, navegación por secciones, tablas,
+cabecera de página). Sin animaciones de entrada ni degradados. El tema se
+aplica antes de pintar con el script en línea de `index.html` (el mismo
+criterio que `src/utils/theme.ts`) y el botón usa `useTheme`.
+
 **Stack:** React 18 + TypeScript + Vite + Tailwind CSS + Zustand
 (estado) + React Router v6
 

@@ -7,7 +7,7 @@ export type ButtonVariant = 'primary' | 'secondary' | 'ghost'
 export type ButtonSize = 'sm' | 'md'
 
 const buttonBase =
-  'inline-flex items-center justify-center gap-2 rounded-lg font-medium whitespace-nowrap ' +
+  'inline-flex max-w-full items-center justify-center gap-2 rounded-lg py-1.5 text-center font-medium ' +
   'transition-colors duration-150 disabled:pointer-events-none disabled:opacity-50'
 
 const buttonVariants: Record<ButtonVariant, string> = {

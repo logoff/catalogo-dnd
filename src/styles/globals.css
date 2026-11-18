@@ -79,38 +79,11 @@
   --color-on-accent: var(--c-on-accent);
   --color-accent-soft: var(--c-accent-soft);
   --color-focus: var(--c-focus);
-
-  /* Alias temporales de los colores antiguos mientras dura la migración */
-  --color-dnd-red: var(--c-accent-solid);
-  --color-dnd-red-light: var(--c-accent-solid);
-  --color-dnd-red-dark: var(--c-accent-solid);
-  --color-dnd-gold: var(--c-fg);
-  --color-dnd-gold-light: var(--c-fg);
-  --color-dnd-gold-dark: var(--c-muted);
-  --color-dnd-stone: var(--c-surface);
-  --color-dnd-stone-light: var(--c-well);
-  --color-dnd-stone-dark: var(--c-bg);
-  --color-language-english: var(--c-muted);
-  --color-language-castellano: var(--c-accent);
-  --color-productType-book: var(--c-muted);
-  --color-productType-boxed_set: var(--c-muted);
-  --color-productType-accessory: var(--c-muted);
-  --color-gray-100: var(--c-fg);
-  --color-gray-200: var(--c-fg);
-  --color-gray-300: var(--c-fg);
-  --color-gray-400: var(--c-muted);
-  --color-gray-500: var(--c-muted);
 }
 
 @theme {
   --font-sans: 'Geist Variable', system-ui, sans-serif;
   --font-mono: 'Geist Mono Variable', ui-monospace, monospace;
-  /* Alias temporal: Cinzel ya no existe */
-  --font-display: var(--font-sans);
-  --font-body: var(--font-sans);
-
-  --shadow-card: none;
-  --shadow-card-hover: none;
 }
 
 @layer base {
@@ -159,48 +132,6 @@
       animation: none !important;
     }
   }
-}
-
-/* Utilidades antiguas, ya sobre los colores nuevos, hasta que no quede ningún uso */
-@utility btn-primary {
-  @apply bg-accent-solid text-on-accent font-medium py-2 px-4 rounded-lg hover:opacity-90 transition-opacity;
-}
-
-@utility btn-secondary {
-  @apply bg-surface text-fg font-medium py-2 px-4 rounded-lg border border-line hover:bg-well transition-colors;
-}
-
-@utility card-dnd {
-  @apply bg-surface rounded-xl border border-line overflow-hidden;
-}
-
-@utility badge {
-  @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium;
-}
-
-@utility badge-english {
-  @apply badge bg-well text-muted;
-}
-
-@utility badge-castellano {
-  @apply badge bg-accent-soft text-accent;
-}
-
-@utility badge-book {
-  @apply badge bg-well text-muted;
-}
-
-@utility badge-boxed-set {
-  @apply badge bg-well text-muted;
-}
-
-@utility badge-accessory {
-  @apply badge bg-well text-muted;
-}
-
-@utility input-dnd {
-  @apply w-full px-3 py-2 bg-surface border border-line rounded-lg text-fg placeholder-muted
-           focus:outline-hidden focus:border-fg transition-colors;
 }
 
 @utility scrollbar-hide {
