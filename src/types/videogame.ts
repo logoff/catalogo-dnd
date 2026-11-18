@@ -88,18 +88,8 @@ export type Setting =
 
 export type Ruleset = 'adnd1' | 'adnd2' | '3e' | '3_5' | '4e' | '5e' | '2024' | 'own'
 
-export type ReviewSource =
-  | 'metacritic'
-  | 'opencritic'
-  | 'meristation'
-  | 'vandal'
-  | '3djuegos'
-  | 'ign'
-  | 'gamespot'
-  | 'pc_gamer'
-  | 'eurogamer'
-  | 'gamespy'
-  | 'computer_gaming_world'
+// Solo agregadores: la nota es la media que publica el propio agregador
+export type ReviewSource = 'metacritic' | 'opencritic'
 
 export interface SpanishSupport {
   interface: boolean

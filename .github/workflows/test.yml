@@ -36,3 +36,8 @@ jobs:
       - name: Check reviews
         run: node scripts/check-reviews.mjs
         continue-on-error: true
+
+      # Solo avisa de notas de Metacritic u OpenCritic cambiadas o con enlace roto
+      - name: Check scores
+        run: node scripts/check-scores.mjs
+        continue-on-error: true

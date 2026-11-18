@@ -75,6 +75,15 @@
       "edition": "Relanzamiento"
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 78,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-dark-alliance-ii/",
+      "platform": "ps2"
+    }
+  ],
   "images": ["/images/videogames/baldurs-gate-dark-alliance-ii/0.jpg"],
   "videos": [
     {

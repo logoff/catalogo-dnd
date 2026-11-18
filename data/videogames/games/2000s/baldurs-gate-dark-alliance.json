@@ -58,6 +58,15 @@
       ]
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 87,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-dark-alliance/",
+      "platform": "ps2"
+    }
+  ],
   "images": ["/images/videogames/baldurs-gate-dark-alliance/0.jpg"],
   "videos": [
     {

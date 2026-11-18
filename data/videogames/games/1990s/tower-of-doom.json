@@ -49,6 +49,24 @@
       "bundle": "chronicles-of-mystara"
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 77,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-chronicles-of-mystara/",
+      "platform": "xbox_360",
+      "edition": "Chronicles of Mystara"
+    },
+    {
+      "source": "metacritic",
+      "score": 83,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-chronicles-of-mystara/",
+      "platform": "ps3",
+      "edition": "Chronicles of Mystara"
+    }
+  ],
   "images": ["/images/videogames/tower-of-doom/0.png"],
   "videos": [
     {

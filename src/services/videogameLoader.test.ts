@@ -40,6 +40,12 @@ describe('esquema de videojuego', () => {
     expect(validate(minimalGame)).toBe(true)
   })
 
+  it('solo admite notas de Metacritic y OpenCritic', () => {
+    const review = { score: 90, scale: 100, url: 'https://example.com/x' }
+    expect(validate({ ...minimalGame, reviews: [{ ...review, source: 'opencritic' }] })).toBe(true)
+    expect(validate({ ...minimalGame, reviews: [{ ...review, source: 'ign' }] })).toBe(false)
+  })
+
   it('rechaza campos desconocidos, plataformas inexistentes y fechas mal formadas', () => {
     expect(validate({ ...minimalGame, extra: 1 })).toBe(false)
     expect(validate({ ...minimalGame, releases: [{ platform: 'dreamcast' }] })).toBe(false)
@@ -199,7 +205,7 @@ describe('enrichVideogame', () => {
       ...minimalGame,
       reviews: [
         { source: 'metacritic', score: 78, scale: 100, url: 'https://example.com/a' },
-        { source: 'vandal', score: 9.2, scale: 10, url: 'https://example.com/b' },
+        { source: 'opencritic', score: 92, scale: 100, url: 'https://example.com/b' },
       ],
     })
     expect(game.bestScore).toBe(92)

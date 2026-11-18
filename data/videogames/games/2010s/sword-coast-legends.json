@@ -36,6 +36,35 @@
       "delisted": true
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 61,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/sword-coast-legends/",
+      "platform": "pc_windows"
+    },
+    {
+      "source": "metacritic",
+      "score": 58,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/sword-coast-legends/",
+      "platform": "xbox_one"
+    },
+    {
+      "source": "metacritic",
+      "score": 51,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/sword-coast-legends/",
+      "platform": "ps4"
+    },
+    {
+      "source": "opencritic",
+      "score": 61,
+      "scale": 100,
+      "url": "https://opencritic.com/game/1703/sword-coast-legends"
+    }
+  ],
   "images": ["/images/videogames/sword-coast-legends/0.jpg"],
   "videos": [
     {

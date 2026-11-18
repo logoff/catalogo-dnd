@@ -26,6 +26,15 @@
       ]
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 83,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/icewind-dale-ii/",
+      "platform": "pc_windows"
+    }
+  ],
   "related_products": [
     {
       "edition": "5e",

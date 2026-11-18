@@ -36,6 +36,9 @@ recetas disponibles.
   de afiliados aceptadas (excepciones en `data/affiliate-exceptions.json`)
 - `just check-videos` — Avisa de vídeos retirados, no empotrables o de
   otro canal (en Actions, sin bloquear)
+- `just check-scores` — Avisa de notas de Metacritic u OpenCritic de los
+  videojuegos que han cambiado o cuya página ya no existe (en Actions, sin
+  bloquear)
 - `just check-reviews` — Avisa de reseñas de libros con el enlace roto
   (en Actions, sin bloquear)
 - `just reviews-coverage` — Lista los libros publicados sin reseñas
@@ -82,7 +85,10 @@ la ficha. Para darlas de alta, usar la skill `add-review`.
 `data/videogames/games/<década>/<slug>.json` (esquema
 `data/schemas/videogame.jsonschema`) con sus lanzamientos por plataforma
 y edición, el castellano de cada uno (solo si está confirmado; sin dato
-cuenta como solo en inglés), notas y enlaces de compra.
+cuenta como solo en inglés), notas y enlaces de compra. Las notas son
+solo de Metacritic y OpenCritic (cifra, escala y enlace a la página del
+agregador); en Metacritic la primera de cada URL es la de la plataforma
+principal, la que `just check-scores` compara con el JSON-LD.
 `videogameLoader.ts` los enriquece en `VideogameWithMeta`.
 Pueden llevar hasta tres vídeos oficiales de YouTube (`videos`), solo de
 la editora, la desarrolladora, una plataforma o Wizards; su miniatura se

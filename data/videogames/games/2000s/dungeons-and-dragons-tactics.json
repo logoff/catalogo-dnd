@@ -14,5 +14,14 @@
       "date": "2007-08-14"
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 58,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-tactics/",
+      "platform": "psp"
+    }
+  ],
   "images": ["/images/videogames/dungeons-and-dragons-tactics/0.jpg"]
 }

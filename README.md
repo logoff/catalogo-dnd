@@ -47,6 +47,7 @@ Abrir <http://localhost:5173/>.
 - `just indexnow` - Avisar a Bing y otros buscadores (IndexNow) de todas las URLs del sitemap
 - `just video-thumbnails` - Descargar las miniaturas que falten de los vídeos de los videojuegos
 - `just check-videos` - Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube
+- `just check-scores` - Comprobar que las notas de Metacritic y OpenCritic de los videojuegos siguen al día
 - `just screenshots <slug> --steam` - Descargar las capturas oficiales de un videojuego desde Steam (o `--source <página> <url>…` para otras fuentes)
 - `just check-reviews` - Comprobar que los enlaces de las reseñas de los libros siguen vivos
 - `just reviews-coverage` - Listar los libros publicados que aún no tienen reseñas
@@ -81,6 +82,19 @@ reproductor de `youtube-nocookie.com` hasta que se pulsa reproducir.
 `just check-videos` consulta el oEmbed de YouTube y avisa de los vídeos
 retirados, no empotrables o de otro canal. En GitHub Actions se ejecuta
 en cada PR y deja anotaciones, pero nunca hace fallar la build.
+
+## Notas de los videojuegos
+
+Las fichas de videojuegos muestran las notas de Metacritic y OpenCritic
+de cada juego que tenga página en esos agregadores, como dato citado: la
+cifra, el nombre del agregador y el enlace a su página. En Metacritic se
+guarda la nota de la plataforma principal y, si difieren, las de otras
+plataformas; las Enhanced Edition con página propia llevan su nota
+aparte.
+
+`just check-scores` lee la nota del JSON-LD de cada página y avisa si ya
+no coincide con la guardada o si el enlace ha dejado de existir. En
+GitHub Actions se ejecuta en cada PR, pero nunca hace fallar la build.
 
 ## Capturas de los videojuegos
 

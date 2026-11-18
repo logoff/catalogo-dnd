@@ -45,6 +45,15 @@
       ]
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 71,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/forgotten-realms-demon-stone/",
+      "platform": "ps2"
+    }
+  ],
   "images": ["/images/videogames/demon-stone/0.png"],
   "videos": [
     {
