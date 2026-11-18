@@ -5,12 +5,12 @@ interface SkeletonProps {
 }
 
 export function Skeleton({ className }: SkeletonProps) {
-  return <div className={clsx('animate-pulse bg-dnd-stone-light rounded-sm', className)} />
+  return <div className={clsx('animate-pulse bg-well rounded-sm', className)} />
 }
 
 export function ProductCardSkeleton() {
   return (
-    <div className="card-dnd">
+    <div className="rounded-xl border border-line bg-surface overflow-hidden">
       {/* Image */}
       <Skeleton className="aspect-3/4" />
 
@@ -36,7 +36,7 @@ export function ProductCardSkeleton() {
 
 export function ProductListItemSkeleton() {
   return (
-    <div className="card-dnd flex gap-4">
+    <div className="rounded-xl border border-line bg-surface overflow-hidden flex gap-4">
       {/* Image */}
       <Skeleton className="w-20 h-28 shrink-0 rounded-sm" />
 

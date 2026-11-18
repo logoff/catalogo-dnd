@@ -12,6 +12,8 @@ interface SegmentedControlProps<T extends string> {
   value: T
   onChange: (value: T) => void
   className?: string
+  // Ocupa todo el ancho, con las opciones repartidas a partes iguales
+  fullWidth?: boolean
 }
 
 // Grupo de opciones excluyentes (radiogroup): se elige con clic o con las flechas
@@ -21,6 +23,7 @@ export default function SegmentedControl<T extends string>({
   value,
   onChange,
   className,
+  fullWidth = false,
 }: SegmentedControlProps<T>) {
   const refs = useRef<(HTMLButtonElement | null)[]>([])
 
@@ -57,7 +60,8 @@ export default function SegmentedControl<T extends string>({
             onClick={() => onChange(option.value)}
             onKeyDown={(event) => onKeyDown(event, index)}
             className={clsx(
-              'min-h-10 rounded-[7px] px-3 text-sm whitespace-nowrap transition-colors duration-150 sm:min-h-8',
+              'min-h-10 rounded-[7px] text-sm whitespace-nowrap transition-colors duration-150 sm:min-h-8',
+              fullWidth ? 'flex-1 px-1.5 text-[13px]' : 'px-3',
               selected
                 ? 'bg-surface font-medium text-fg shadow-[0_1px_2px_rgba(0,0,0,0.08)]'
                 : 'text-muted hover:text-fg'

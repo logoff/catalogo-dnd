@@ -26,7 +26,7 @@ export default function SpanishNovelsGuide() {
         dónde comprarlas.
       </p>
       {!index ? (
-        <p className="text-gray-400">Cargando novelas…</p>
+        <p className="text-muted">Cargando novelas…</p>
       ) : (
         <>
           <p>
@@ -41,7 +41,7 @@ export default function SpanishNovelsGuide() {
                 <div key={series.id}>
                   <h3>
                     <Link to={`/novelas?serie=${series.id}`}>{series.name}</Link>{' '}
-                    <span className="text-sm font-normal text-gray-400">
+                    <span className="text-sm font-normal text-muted">
                       {series.translated.length} de {series.total}
                     </span>
                   </h3>

@@ -30,7 +30,12 @@ export default function EditionsTable({
   className?: string
 }) {
   return (
-    <div className={clsx('overflow-x-auto rounded-xl border border-line bg-surface', className)}>
+    <div
+      className={clsx(
+        'relative overflow-x-auto rounded-xl border border-line bg-surface',
+        className
+      )}
+    >
       <table className="w-full border-collapse text-sm">
         {caption && <caption className="sr-only">{caption}</caption>}
         <thead>

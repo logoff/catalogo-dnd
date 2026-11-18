@@ -40,7 +40,7 @@ export default function VideogameFilterPanel() {
   const activeCount = useVideogameStore((state) => state.getActiveFilterCount())
 
   return (
-    <div className="card-dnd p-4">
+    <div className="rounded-xl border border-line bg-surface overflow-hidden p-4">
       <div className="relative">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
@@ -48,19 +48,21 @@ export default function VideogameFilterPanel() {
           className="flex items-center justify-between w-full lg:cursor-default"
         >
           <div className="flex items-center gap-2">
-            <FunnelIcon className="h-5 w-5 text-dnd-gold" />
-            <h3 className="font-display text-lg text-dnd-gold">Filtros</h3>
-            {activeCount > 0 && <span className="badge bg-dnd-red text-white">{activeCount}</span>}
+            <FunnelIcon className="h-5 w-5 text-fg" />
+            <h3 className="text-lg text-fg">Filtros</h3>
+            {activeCount > 0 && (
+              <span className="badge bg-accent-solid text-white">{activeCount}</span>
+            )}
           </div>
           <ChevronDownIcon
-            className={`h-5 w-5 text-gray-400 transition-transform lg:hidden ${isExpanded ? 'rotate-180' : ''}`}
+            className={`h-5 w-5 text-muted transition-transform lg:hidden ${isExpanded ? 'rotate-180' : ''}`}
           />
         </button>
         {activeCount > 0 && (
           <button
             onClick={clearFilters}
             aria-label="Limpiar filtros"
-            className="absolute top-1/2 -translate-y-1/2 right-7 lg:right-0 text-sm text-gray-400 hover:text-white flex items-center gap-1"
+            className="absolute top-1/2 -translate-y-1/2 right-7 lg:right-0 text-sm text-muted hover:text-fg flex items-center gap-1"
           >
             <XMarkIcon className="h-4 w-4" />
             <span className="hidden sm:inline">Limpiar</span>
@@ -140,14 +142,14 @@ function FilterContent() {
   return (
     <>
       <div className="relative">
-        <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+        <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted" />
         <input
           type="search"
           value={searchQuery}
           onChange={(e) => state.setSearchQuery(e.target.value)}
           placeholder="Buscar por título"
           aria-label="Buscar por título"
-          className="input-dnd pl-9 py-1.5 text-sm"
+          className="w-full rounded-lg border border-line bg-surface px-3 text-fg placeholder:text-muted focus:border-muted focus:ring-0 pl-9 py-1.5 text-sm"
         />
       </div>
 
@@ -235,7 +237,7 @@ function FilterContent() {
 
       <FilterSection title="Ordenar por">
         <div className="flex items-center gap-2">
-          <ArrowsUpDownIcon className="h-5 w-5 text-dnd-gold" />
+          <ArrowsUpDownIcon className="h-5 w-5 text-fg" />
           <select
             value={`${sort.field}-${sort.direction}`}
             onChange={(e) => {
@@ -246,7 +248,7 @@ function FilterContent() {
               state.setSort({ field, direction })
             }}
             aria-label="Ordenar por"
-            className="input-dnd py-1.5 text-sm bg-dnd-stone border-dnd-gold/30"
+            className="w-full rounded-lg border border-line bg-surface px-3 text-fg placeholder:text-muted focus:border-muted focus:ring-0 py-1.5 text-sm bg-surface border-line"
           >
             {SORT_OPTIONS.map((option) => (
               <option key={option.value} value={option.value}>

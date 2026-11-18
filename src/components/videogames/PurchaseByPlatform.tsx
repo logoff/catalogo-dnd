@@ -89,7 +89,7 @@ function ReleaseOffer({ offer, slug }: { offer: Offer; slug: string }) {
 
   return (
     <div>
-      <p className="text-sm text-gray-400">{details.join(' · ')}</p>
+      <p className="text-sm text-muted">{details.join(' · ')}</p>
       <Buttons offer={offer} slug={slug} />
     </div>
   )
@@ -104,20 +104,20 @@ function BundleOffer({ offer, slug }: { offer: Offer; slug: string }) {
     .filter((game) => game !== undefined)
 
   return (
-    <div className="rounded-lg border border-dnd-gold/20 bg-dnd-stone/40 p-4">
-      <p className="text-gray-200">
-        Se vende en la recopilación <strong className="text-gray-100">{bundle.title}</strong>
-        {bundleYear && <span className="text-gray-400"> ({bundleYear})</span>}
+    <div className="rounded-lg border border-line bg-surface p-4">
+      <p className="text-fg">
+        Se vende en la recopilación <strong className="text-fg">{bundle.title}</strong>
+        {bundleYear && <span className="text-muted"> ({bundleYear})</span>}
       </p>
       {others.length > 0 && (
-        <p className="mt-1 text-sm text-gray-400">
+        <p className="mt-1 text-sm text-muted">
           Incluye también:{' '}
           {others.map((game, index) => (
             <span key={game.slug}>
               {index > 0 && ' · '}
               <Link
                 to={`/videojuego/${game.slug}`}
-                className="text-dnd-gold hover:text-dnd-gold-light underline underline-offset-2"
+                className="text-fg hover:text-fg underline underline-offset-2"
               >
                 {game.title}
               </Link>
@@ -125,7 +125,7 @@ function BundleOffer({ offer, slug }: { offer: Offer; slug: string }) {
           ))}
         </p>
       )}
-      <p className="mt-1 text-sm text-gray-400">{describeSpanish(offer.release.spanish)}</p>
+      <p className="mt-1 text-sm text-muted">{describeSpanish(offer.release.spanish)}</p>
       <Buttons offer={offer} slug={slug} />
     </div>
   )
@@ -135,21 +135,21 @@ export default function PurchaseByPlatform({ slug, releases }: PurchaseByPlatfor
   const groups = offersByPlatform(releases)
 
   if (groups.size === 0) {
-    return <p className="text-gray-400">No disponible a la venta.</p>
+    return <p className="text-muted">No disponible a la venta.</p>
   }
 
   return (
     <div className="space-y-6">
-      <p className="text-xs text-gray-500">
+      <p className="text-xs text-muted">
         Algunos enlaces son de afiliado: el catálogo puede recibir una comisión sin coste para ti.{' '}
-        <Link to="/aviso-legal" className="underline hover:text-dnd-gold">
+        <Link to="/aviso-legal" className="underline hover:text-fg">
           Más información
         </Link>
       </p>
       {[...groups.entries()].map(([platform, offers]) => (
         <section key={platform} aria-label={platformNames[platform]} className="space-y-3">
-          <h3 className="flex items-center gap-2 font-semibold text-gray-100">
-            <PlatformIcon platform={platform} size="md" className="text-gray-300" />
+          <h3 className="flex items-center gap-2 font-semibold text-fg">
+            <PlatformIcon platform={platform} size="md" className="text-fg" />
             {platformNames[platform]}
           </h3>
           {offers.map((offer, index) =>

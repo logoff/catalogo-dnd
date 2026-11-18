@@ -54,3 +54,8 @@ export function badgeClass(variant: BadgeVariant = 'neutral', className?: string
     className
   )
 }
+
+// Desplegable nativo con el aspecto de los campos (icono a la izquierda)
+export const selectClass =
+  'h-11 w-full rounded-lg border border-line bg-surface pl-9 text-sm text-fg ' +
+  'focus:border-muted focus:ring-0 sm:h-10'

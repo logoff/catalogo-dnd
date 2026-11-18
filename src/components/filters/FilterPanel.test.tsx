@@ -10,6 +10,7 @@ const initialState = useProductStore.getState()
 const checkbox = (label: string) => screen.getAllByLabelText(label)[0] as HTMLInputElement
 const header = () => screen.getByRole('heading', { name: 'Filtros' }).closest('button')!
 const clearButton = () => screen.queryByRole('button', { name: 'Limpiar filtros' })
+const edition = (label: string) => screen.getAllByRole('radio', { name: label })[0]
 const categoriesToggle = () => screen.getAllByRole('button', { name: /^Categoría/ })[0]
 const openCategories = () => fireEvent.click(categoriesToggle())
 
@@ -42,9 +43,21 @@ describe('FilterPanel', () => {
     expect(clearButton()).not.toBeInTheDocument()
   })
 
+  it('la edición se elige con un control segmentado', () => {
+    render(<FilterPanel />)
+    fireEvent.click(edition('5.5E (2024)'))
+    expect(useProductStore.getState().editions).toEqual(['2024'])
+
+    fireEvent.click(edition('5E (2014)'))
+    expect(useProductStore.getState().editions).toEqual(['5e'])
+
+    fireEvent.click(edition('Todas'))
+    expect(useProductStore.getState().editions).toEqual([])
+  })
+
   it('el contador suma los filtros de todas las secciones', () => {
     render(<FilterPanel />)
-    fireEvent.click(checkbox('5E (2014)'))
+    fireEvent.click(edition('5E (2014)'))
     fireEvent.click(checkbox('Libro'))
     fireEvent.click(checkbox('Inglés'))
     expect(within(header()).getByText('3')).toBeInTheDocument()
@@ -53,7 +66,7 @@ describe('FilterPanel', () => {
   describe('botón Limpiar', () => {
     it('quita todos los filtros', () => {
       render(<FilterPanel />)
-      fireEvent.click(checkbox('5E (2014)'))
+      fireEvent.click(edition('5E (2014)'))
       fireEvent.click(checkbox('Castellano'))
       fireEvent.click(clearButton()!)
 
@@ -94,7 +107,7 @@ describe('FilterPanel', () => {
 
   it('en una página de edición oculta el filtro de edición', () => {
     render(<FilterPanel edition="2024" />)
-    expect(screen.queryByLabelText('5E (2014)')).not.toBeInTheDocument()
+    expect(screen.queryByRole('radiogroup', { name: 'Edición' })).not.toBeInTheDocument()
     expect(checkbox('Libro')).toBeInTheDocument()
   })
 
@@ -140,7 +153,7 @@ describe('FilterPanel', () => {
       openCategories()
       expect(checkbox('Escenario de campaña')).toBeInTheDocument()
 
-      fireEvent.click(checkbox('5.5E (2024)'))
+      fireEvent.click(edition('5.5E (2024)'))
       expect(screen.queryByLabelText('Escenario de campaña')).not.toBeInTheDocument()
       expect(checkbox('Pantalla del DM')).toBeInTheDocument()
     })
@@ -156,7 +169,7 @@ describe('FilterPanel', () => {
       render(<FilterPanel />)
       openCategories()
       fireEvent.click(checkbox('Escenario de campaña'))
-      expect(screen.queryByLabelText('5.5E (2024)')).not.toBeInTheDocument()
+      expect(screen.queryByRole('radio', { name: '5.5E (2024)' })).not.toBeInTheDocument()
     })
 
     it('mantiene visibles las opciones marcadas aunque se queden sin resultados', () => {
@@ -165,7 +178,7 @@ describe('FilterPanel', () => {
       render(<FilterPanel />)
       openCategories()
 
-      expect(checkbox('5.5E (2024)')).toBeChecked()
+      expect(edition('5.5E (2024)')).toHaveAttribute('aria-checked', 'true')
       expect(checkbox('Escenario de campaña')).toBeChecked()
     })
   })

@@ -46,13 +46,13 @@ export default function NovelsPage() {
         <Breadcrumbs items={[{ label: 'Novelas' }]} />
 
         {!index ? (
-          <p className="text-gray-400 py-12 text-center">Cargando novelas…</p>
+          <p className="text-muted py-12 text-center">Cargando novelas…</p>
         ) : (
           <>
             <div className="flex items-center justify-between mb-8">
               <div>
-                <h1 className="font-display text-3xl text-dnd-gold mb-2">{TITLE}</h1>
-                <p className="text-gray-400">
+                <h1 className="text-3xl text-fg mb-2">{TITLE}</h1>
+                <p className="text-muted">
                   {results.length} de {index.novels.length} novelas
                 </p>
               </div>
@@ -69,7 +69,7 @@ export default function NovelsPage() {
               <main className="flex-1">
                 {results.length === 0 ? (
                   <div className="text-center py-12">
-                    <p className="text-gray-400 text-lg mb-4">
+                    <p className="text-muted text-lg mb-4">
                       Ninguna novela cumple los filtros seleccionados
                     </p>
                     <button onClick={state.clearFilters} className="btn-primary">

@@ -133,37 +133,33 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
               <LazyImage
                 src={cover}
                 alt={novel.titleEs ?? novel.title}
-                containerClassName="max-h-[28rem] w-auto rounded-lg shadow-card"
+                containerClassName="max-h-[28rem] w-auto rounded-lg "
                 className="max-h-[28rem] w-auto rounded-lg object-contain"
               />
             </button>
           ) : (
-            <img
-              src={NOVEL_PLACEHOLDER}
-              alt=""
-              className="max-h-[28rem] w-auto rounded-lg shadow-card"
-            />
+            <img src={NOVEL_PLACEHOLDER} alt="" className="max-h-[28rem] w-auto rounded-lg " />
           )}
         </div>
 
         <div className="md:w-2/3 space-y-4">
           <div>
-            <h1 className="font-display text-4xl text-dnd-gold">{novel.title}</h1>
+            <h1 className="text-4xl text-fg">{novel.title}</h1>
             {novel.titleEs && novel.titleEs !== novel.title && (
-              <p className="text-lg text-gray-300 mt-1">{novel.titleEs}</p>
+              <p className="text-lg text-fg mt-1">{novel.titleEs}</p>
             )}
           </div>
 
           <div className="flex flex-wrap gap-2">
             <NovelSpanishBadge spanish={novel.spanish} />
-            <span className="badge bg-dnd-stone text-gray-300 border border-dnd-gold/20">
+            <span className="badge bg-surface text-fg border border-line">
               {kindNames[novel.kind]}
             </span>
           </div>
 
           {novel.bestseller && <NovelBestseller bestseller={novel.bestseller} />}
 
-          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-gray-300">
+          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-fg">
             <DataRow
               label={novel.authors.length > 1 ? 'Autores' : 'Autor'}
               value={novel.authors.join(', ')}
@@ -177,7 +173,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             )}
           </dl>
 
-          <div className="max-w-3xl space-y-3 text-gray-300 leading-relaxed">
+          <div className="max-w-3xl space-y-3 text-fg leading-relaxed">
             {novel.description.split(/\n\s*\n/).map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}
@@ -187,14 +183,14 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             href={novel.source}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-dnd-gold hover:text-dnd-gold-light"
+            className="inline-flex items-center gap-2 text-fg hover:text-fg"
           >
             <GlobeAltIcon className="h-4 w-4" />
             Fuente
           </a>
 
           {!novel.availableToBuy && (
-            <p className="text-sm text-gray-400">No está a la venta en las tiendas del sitio.</p>
+            <p className="text-sm text-muted">No está a la venta en las tiendas del sitio.</p>
           )}
         </div>
       </div>
@@ -207,7 +203,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             {spanishEditions.map((e, i) => renderEdition(e, `es-${i}`))}
           </ul>
         ) : (
-          <p className="text-gray-300">
+          <p className="text-fg">
             {spanishCollections.length > 0
               ? 'Solo se ha publicado en castellano dentro de un recopilatorio (ver más abajo).'
               : 'No se ha publicado en castellano.'}
@@ -238,23 +234,19 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
 
       {anthologies.length > 0 && (
         <Section title="Antologías">
-          <p className="mb-5 text-sm text-gray-400">
+          <p className="mb-5 text-sm text-muted">
             Libros de relatos de varios autores relacionados con esta novela o su serie.
           </p>
           <ul className="space-y-8">
             {anthologies.map((anthology) => (
               <li key={anthology.id} className="space-y-3">
                 <div>
-                  <h3 className="font-display text-xl text-gray-100">
-                    {anthology.title_es ?? anthology.title}
-                  </h3>
+                  <h3 className="text-xl text-fg">{anthology.title_es ?? anthology.title}</h3>
                   {anthology.title_es && anthology.title_es !== anthology.title && (
-                    <p className="text-sm text-gray-400">{anthology.title}</p>
+                    <p className="text-sm text-muted">{anthology.title}</p>
                   )}
                 </div>
-                <p className="max-w-3xl text-gray-300">
-                  {anthology.description.split(/\n\s*\n/)[0]}
-                </p>
+                <p className="max-w-3xl text-fg">{anthology.description.split(/\n\s*\n/)[0]}</p>
                 <ul className="space-y-5">
                   {anthology.shown.map((e, i) => (
                     <EditionRow
@@ -268,7 +260,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
                 </ul>
                 {anthology.folded.length > 0 && (
                   <details className="group">
-                    <summary className="cursor-pointer text-sm text-gray-400 hover:text-dnd-gold">
+                    <summary className="cursor-pointer text-sm text-muted hover:text-fg">
                       {anthology.folded.length === 1
                         ? 'Otra edición'
                         : `Otras ${anthology.folded.length} ediciones`}
@@ -297,15 +289,15 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
           <ol className="space-y-1">
             {seriesNovels.map((n) => (
               <li key={n.slug} className="flex gap-2">
-                <span className="w-6 text-right text-gray-400">{n.series!.number}.</span>
+                <span className="w-6 text-right text-muted">{n.series!.number}.</span>
                 {n.slug === novel.slug ? (
-                  <span aria-current="page" className="font-semibold text-gray-100">
+                  <span aria-current="page" className="font-semibold text-fg">
                     {n.titleEs ?? n.title}
                   </span>
                 ) : (
                   <Link
                     to={`/novela/${n.slug}`}
-                    className="text-dnd-gold hover:text-dnd-gold-light underline underline-offset-2"
+                    className="text-fg hover:text-fg underline underline-offset-2"
                   >
                     {n.titleEs ?? n.title}
                   </Link>
@@ -317,7 +309,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             {previous ? (
               <Link
                 to={`/novela/${previous.slug}`}
-                className="inline-flex items-center gap-1 text-dnd-gold hover:text-dnd-gold-light"
+                className="inline-flex items-center gap-1 text-fg hover:text-fg"
               >
                 <ArrowLeftIcon className="h-4 w-4" />
                 Anterior: {previous.titleEs ?? previous.title}
@@ -328,7 +320,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             {next && (
               <Link
                 to={`/novela/${next.slug}`}
-                className="inline-flex items-center gap-1 text-dnd-gold hover:text-dnd-gold-light"
+                className="inline-flex items-center gap-1 text-fg hover:text-fg"
               >
                 Siguiente: {next.titleEs ?? next.title}
                 <ArrowRightIcon className="h-4 w-4" />
@@ -337,7 +329,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
           </div>
           <Link
             to={`/novelas?serie=${seriesMeta.id}`}
-            className="mt-4 inline-block text-sm text-gray-400 hover:text-dnd-gold"
+            className="mt-4 inline-block text-sm text-muted hover:text-fg"
           >
             Ver la serie en el listado
           </Link>
@@ -433,8 +425,8 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
         <div className="w-16 shrink-0" aria-hidden="true" />
       )}
       <div className="min-w-0">
-        <p className="text-gray-100">{edition.title ?? fallbackTitle}</p>
-        <p className="text-sm text-gray-400">{details.join(' · ')}</p>
+        <p className="text-fg">{edition.title ?? fallbackTitle}</p>
+        <p className="text-sm text-muted">{details.join(' · ')}</p>
         {links.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-2">
             {links.map((link) => (
@@ -461,7 +453,7 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
             href={webUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-1 inline-flex items-center gap-1 text-sm text-dnd-gold"
+            className="mt-1 inline-flex items-center gap-1 text-sm text-fg"
           >
             <GlobeAltIcon className="h-4 w-4" />
             Leer la copia archivada
@@ -475,13 +467,10 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
 function RelatedLink({ to, label, kind }: { to: string; label: string; kind?: string }) {
   return (
     <li>
-      <Link
-        to={to}
-        className="text-dnd-gold hover:text-dnd-gold-light underline underline-offset-2"
-      >
+      <Link to={to} className="text-fg hover:text-fg underline underline-offset-2">
         {label}
       </Link>
-      {kind && <span className="text-sm text-gray-400"> ({kind})</span>}
+      {kind && <span className="text-sm text-muted"> ({kind})</span>}
     </li>
   )
 }
@@ -489,16 +478,15 @@ function RelatedLink({ to, label, kind }: { to: string; label: string; kind?: st
 function DataRow({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="inline font-semibold text-gray-100">{label}:</dt>{' '}
-      <dd className="inline">{value}</dd>
+      <dt className="inline font-semibold text-fg">{label}:</dt> <dd className="inline">{value}</dd>
     </div>
   )
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="card-dnd p-6">
-      <h2 className="font-display text-2xl text-dnd-gold mb-4">{title}</h2>
+    <section className="rounded-xl border border-line bg-surface overflow-hidden p-6">
+      <h2 className="text-2xl text-fg mb-4">{title}</h2>
       {children}
     </section>
   )

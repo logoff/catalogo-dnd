@@ -52,7 +52,7 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
               <LazyImage
                 src={image}
                 alt={`${item.title} - Imagen ${index + 1}`}
-                containerClassName="max-h-96 w-auto rounded-lg shadow-card bg-white"
+                containerClassName="max-h-96 w-auto rounded-lg  bg-white"
                 className="max-h-96 w-auto rounded-lg object-contain"
               />
             </button>
@@ -61,24 +61,24 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
 
         <div className="md:w-2/3 space-y-4">
           <div>
-            <h1 className="font-display text-4xl text-dnd-gold">{item.title}</h1>
-            {item.title_es && <p className="text-lg text-gray-300 mt-1">{item.title_es}</p>}
+            <h1 className="text-4xl text-fg">{item.title}</h1>
+            {item.title_es && <p className="text-lg text-fg mt-1">{item.title_es}</p>}
           </div>
 
           <div className="flex flex-wrap gap-2">
             <MerchandiseSpanishBadge item={item} />
-            <span className="badge bg-dnd-stone text-gray-300 border border-dnd-gold/20">
+            <span className="badge bg-surface text-fg border border-line">
               {kindNames[item.kind]}
             </span>
           </div>
 
-          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-gray-300">
+          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-fg">
             <DataRow label="Grupo" value={groupNames[item.group]} />
             <DataRow label="Fabricante" value={item.manufacturer} />
             {item.date && <DataRow label="Salida" value={formatPartialDate(item.date)} />}
           </dl>
 
-          <div className="max-w-3xl space-y-3 text-gray-300 leading-relaxed">
+          <div className="max-w-3xl space-y-3 text-fg leading-relaxed">
             {item.description.split(/\n\s*\n/).map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
@@ -88,7 +88,7 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
             href={item.source}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-dnd-gold hover:text-dnd-gold-light"
+            className="inline-flex items-center gap-2 text-fg hover:text-fg"
           >
             <GlobeAltIcon className="h-4 w-4" />
             Página oficial
@@ -108,14 +108,14 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
               return (
                 <li key={index}>
                   {(language || edition.title) && (
-                    <p className="text-gray-100">
+                    <p className="text-fg">
                       {language && <span className="font-semibold">{language}</span>}
                       {language && edition.title && ': '}
                       {edition.title && <span>{edition.title}</span>}
                     </p>
                   )}
                   {details.length > 0 && (
-                    <p className="text-sm text-gray-400">{details.join(' · ')}</p>
+                    <p className="text-sm text-muted">{details.join(' · ')}</p>
                   )}
                   {(edition.purchase_links ?? []).length > 0 ? (
                     <div className="mt-2 flex flex-wrap gap-2">
@@ -132,7 +132,7 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
                       ))}
                     </div>
                   ) : (
-                    <p className="mt-1 text-sm text-gray-400">
+                    <p className="mt-1 text-sm text-muted">
                       Esta edición no está a la venta en las tiendas del sitio.
                     </p>
                   )}
@@ -141,21 +141,18 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
             })}
           </ul>
         ) : (
-          <p className="text-gray-300">No está a la venta en las tiendas del sitio.</p>
+          <p className="text-fg">No está a la venta en las tiendas del sitio.</p>
         )}
       </Section>
 
       {item.expansions && item.expansions.length > 0 && (
         <Section title="Expansiones">
-          <ul className="space-y-1 text-gray-300">
+          <ul className="space-y-1 text-fg">
             {item.expansions.map((expansion) => (
               <li key={expansion.title}>
                 {expansion.title}
                 {expansion.date && (
-                  <span className="text-sm text-gray-400">
-                    {' '}
-                    ({formatPartialDate(expansion.date)})
-                  </span>
+                  <span className="text-sm text-muted"> ({formatPartialDate(expansion.date)})</span>
                 )}
               </li>
             ))}
@@ -170,7 +167,7 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
               <li key={product.code}>
                 <Link
                   to={`/producto/${product.primaryEdition === '5e' ? '2014' : '2024'}/${product.slug}`}
-                  className="text-dnd-gold hover:text-dnd-gold-light underline underline-offset-2"
+                  className="text-fg hover:text-fg underline underline-offset-2"
                 >
                   {product.primaryTitle}
                 </Link>
@@ -180,11 +177,11 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
               <li key={game.slug}>
                 <Link
                   to={`/videojuego/${game.slug}`}
-                  className="text-dnd-gold hover:text-dnd-gold-light underline underline-offset-2"
+                  className="text-fg hover:text-fg underline underline-offset-2"
                 >
                   {game.title}
                 </Link>{' '}
-                <span className="text-sm text-gray-400">(videojuego)</span>
+                <span className="text-sm text-muted">(videojuego)</span>
               </li>
             ))}
           </ul>
@@ -204,16 +201,15 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
 function DataRow({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="inline font-semibold text-gray-100">{label}:</dt>{' '}
-      <dd className="inline">{value}</dd>
+      <dt className="inline font-semibold text-fg">{label}:</dt> <dd className="inline">{value}</dd>
     </div>
   )
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="card-dnd p-6">
-      <h2 className="font-display text-2xl text-dnd-gold mb-4">{title}</h2>
+    <section className="rounded-xl border border-line bg-surface overflow-hidden p-6">
+      <h2 className="text-2xl text-fg mb-4">{title}</h2>
       {children}
     </section>
   )

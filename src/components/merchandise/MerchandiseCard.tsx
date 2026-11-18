@@ -15,7 +15,10 @@ export default function MerchandiseCard({ item, view = 'grid' }: MerchandiseCard
 
   if (view === 'list') {
     return (
-      <Link to={`/merchandising/${item.slug}`} className="card-dnd group flex gap-4 p-3">
+      <Link
+        to={`/merchandising/${item.slug}`}
+        className="rounded-xl border border-line bg-surface overflow-hidden group flex gap-4 p-3"
+      >
         <LazyImage
           src={item.images[0]}
           alt={item.title}
@@ -23,10 +26,8 @@ export default function MerchandiseCard({ item, view = 'grid' }: MerchandiseCard
           className="w-full h-full object-contain rounded"
         />
         <div className="flex-1 min-w-0">
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light truncate">
-            {item.title}
-          </h3>
-          <p className="text-sm text-gray-400">{details}</p>
+          <h3 className="text-lg text-fg group-hover:text-fg truncate">{item.title}</h3>
+          <p className="text-sm text-muted">{details}</p>
           <div className="mt-1">
             <MerchandiseSpanishBadge item={item} />
           </div>
@@ -37,7 +38,10 @@ export default function MerchandiseCard({ item, view = 'grid' }: MerchandiseCard
 
   return (
     <motion.div whileHover={{ y: -4 }} whileTap={{ scale: 0.98 }} className="h-full">
-      <Link to={`/merchandising/${item.slug}`} className="card-dnd group flex flex-col h-full">
+      <Link
+        to={`/merchandising/${item.slug}`}
+        className="rounded-xl border border-line bg-surface overflow-hidden group flex flex-col h-full"
+      >
         <LazyImage
           src={item.images[0]}
           alt={item.title}
@@ -48,10 +52,10 @@ export default function MerchandiseCard({ item, view = 'grid' }: MerchandiseCard
           <div className="flex flex-wrap gap-1.5 mb-2">
             <MerchandiseSpanishBadge item={item} />
           </div>
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light transition-colors line-clamp-3">
+          <h3 className="text-lg text-fg group-hover:text-fg transition-colors line-clamp-3">
             {item.title}
           </h3>
-          <p className="mt-auto pt-2 text-sm text-gray-400">{details}</p>
+          <p className="mt-auto pt-2 text-sm text-muted">{details}</p>
         </div>
       </Link>
     </motion.div>

@@ -30,7 +30,7 @@ function PlatformIcons({ game }: { game: VideogameWithMeta }) {
   const rest = all.slice(shown.length).flat()
 
   return (
-    <span className="flex flex-wrap items-center gap-1.5 text-gray-400">
+    <span className="flex flex-wrap items-center gap-1.5 text-muted">
       {shown.map((platforms) => (
         <PlatformIcon
           key={platforms[0]}
@@ -53,24 +53,25 @@ export default function VideogameCard({ game, view = 'grid' }: VideogameCardProp
 
   if (view === 'list') {
     return (
-      <Link to={`/videojuego/${game.slug}`} className="card-dnd group flex gap-4 p-3">
+      <Link
+        to={`/videojuego/${game.slug}`}
+        className="rounded-xl border border-line bg-surface overflow-hidden group flex gap-4 p-3"
+      >
         <LazyImage
           src={image}
           alt={game.title}
-          containerClassName="w-16 aspect-3/4 shrink-0 bg-dnd-stone-light rounded"
+          containerClassName="w-16 aspect-3/4 shrink-0 bg-well rounded"
           className="w-full h-full object-cover rounded"
         />
         <div className="flex-1 min-w-0">
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light truncate">
-            {game.title}
-          </h3>
-          <div className="flex items-center gap-2 text-sm text-gray-400">
+          <h3 className="text-lg text-fg group-hover:text-fg truncate">{game.title}</h3>
+          <div className="flex items-center gap-2 text-sm text-muted">
             {year} <PlatformIcons game={game} />
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             <SpanishBadge summary={game.spanishSummary} />
             {game.bestScore !== null && (
-              <span className="text-sm text-gray-300">Nota: {game.bestScore}</span>
+              <span className="text-sm text-fg">Nota: {game.bestScore}</span>
             )}
           </div>
         </div>
@@ -80,28 +81,31 @@ export default function VideogameCard({ game, view = 'grid' }: VideogameCardProp
 
   return (
     <motion.div whileHover={{ y: -4 }} whileTap={{ scale: 0.98 }} className="h-full">
-      <Link to={`/videojuego/${game.slug}`} className="card-dnd group flex flex-col h-full">
+      <Link
+        to={`/videojuego/${game.slug}`}
+        className="rounded-xl border border-line bg-surface overflow-hidden group flex flex-col h-full"
+      >
         <LazyImage
           src={image}
           alt={game.title}
-          containerClassName="aspect-3/4 bg-dnd-stone-light"
+          containerClassName="aspect-3/4 bg-well"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="p-4 flex flex-col flex-1">
           <div className="flex flex-wrap gap-1.5 mb-2">
             <SpanishBadge summary={game.spanishSummary} />
           </div>
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light transition-colors line-clamp-3">
+          <h3 className="text-lg text-fg group-hover:text-fg transition-colors line-clamp-3">
             {game.title}
           </h3>
           <div className="mt-auto pt-2 text-sm">
-            <p className="text-gray-400">{year}</p>
+            <p className="text-muted">{year}</p>
             <div className="mt-1">
               <PlatformIcons game={game} />
             </div>
             {game.bestScore !== null && (
-              <p className="text-xs text-gray-300 mt-1">
-                Nota: <span className="text-dnd-gold">{game.bestScore}</span>/100
+              <p className="text-xs text-fg mt-1">
+                Nota: <span className="text-fg">{game.bestScore}</span>/100
               </p>
             )}
           </div>

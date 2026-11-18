@@ -33,8 +33,8 @@ export default function MerchandisePage() {
 
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="font-display text-3xl text-dnd-gold mb-2">Merchandising de D&D</h1>
-            <p className="text-gray-400">
+            <h1 className="text-3xl text-fg mb-2">Merchandising de D&D</h1>
+            <p className="text-muted">
               {results.length} de {items.length} artículos
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function MerchandisePage() {
           <main className="flex-1">
             {results.length === 0 ? (
               <div className="text-center py-12">
-                <p className="text-gray-400 text-lg mb-4">
+                <p className="text-muted text-lg mb-4">
                   Ningún artículo cumple los filtros seleccionados
                 </p>
                 <button onClick={state.clearFilters} className="btn-primary">

@@ -21,8 +21,8 @@ export default function GuideLayout({ title, description, image, children }: Gui
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ label: 'Guías', to: '/guias' }, { label: title }]} />
 
-        <h1 className="font-display text-3xl md:text-4xl text-dnd-gold mb-4">{title}</h1>
-        <p className="text-lg text-gray-400 mb-8">{description}</p>
+        <h1 className="text-3xl md:text-4xl text-fg mb-4">{title}</h1>
+        <p className="text-lg text-muted mb-8">{description}</p>
 
         <Prose>{children}</Prose>
       </div>

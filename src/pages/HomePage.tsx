@@ -40,8 +40,8 @@ export default function HomePage() {
       <section className="relative bg-linear-to-b from-dnd-stone to-dnd-stone-dark py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <img src={getAssetPath('images/logo.svg')} alt="" className="h-24 md:h-32 mx-auto mb-6" />
-          <h1 className="font-display text-4xl md:text-5xl text-dnd-gold mb-4">Catálogo D&D 5E</h1>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+          <h1 className="text-4xl md:text-5xl text-fg mb-4">Catálogo D&D 5E</h1>
+          <p className="text-xl text-fg max-w-2xl mx-auto mb-8">
             Explora todos los productos oficiales de Dungeons & Dragons 5ª edición (2014) y la nueva
             edición 5.5 (2024), los videojuegos oficiales, el merchandising con licencia y las
             novelas de D&D.
@@ -67,32 +67,32 @@ export default function HomePage() {
       </section>
 
       {/* Stats section - compact */}
-      <section className="py-4 border-y border-dnd-gold/20">
+      <section className="py-4 border-y border-line">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-sm">
             <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{products.length}</span>
-              <span className="text-gray-400">productos</span>
+              <span className="text-xl text-fg">{products.length}</span>
+              <span className="text-muted">productos</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{products2014.length}</span>
-              <span className="text-gray-400">de 5E (2014)</span>
+              <span className="text-xl text-fg">{products2014.length}</span>
+              <span className="text-muted">de 5E (2014)</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{products2024.length}</span>
-              <span className="text-gray-400">de 5.5E (2024)</span>
+              <span className="text-xl text-fg">{products2024.length}</span>
+              <span className="text-muted">de 5.5E (2024)</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{videogames.length}</span>
-              <span className="text-gray-400">videojuegos</span>
+              <span className="text-xl text-fg">{videogames.length}</span>
+              <span className="text-muted">videojuegos</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{merchandise.length}</span>
-              <span className="text-gray-400">de merchandising</span>
+              <span className="text-xl text-fg">{merchandise.length}</span>
+              <span className="text-muted">de merchandising</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-display text-xl text-dnd-gold">{novelsLatest.total}</span>
-              <span className="text-gray-400">novelas</span>
+              <span className="text-xl text-fg">{novelsLatest.total}</span>
+              <span className="text-muted">novelas</span>
             </div>
           </div>
         </div>
@@ -102,8 +102,8 @@ export default function HomePage() {
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="font-display text-2xl text-dnd-gold">Guías</h2>
-            <Link to="/guias" className="text-dnd-gold hover:text-dnd-gold-light">
+            <h2 className="text-2xl text-fg">Guías</h2>
+            <Link to="/guias" className="text-fg hover:text-fg">
               Ver todas &rarr;
             </Link>
           </div>
@@ -116,8 +116,8 @@ export default function HomePage() {
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">D&D 5.5E (2024)</h2>
-              <Link to="/2024" className="text-dnd-gold hover:text-dnd-gold-light">
+              <h2 className="text-2xl text-fg">D&D 5.5E (2024)</h2>
+              <Link to="/2024" className="text-fg hover:text-fg">
                 Ver todos &rarr;
               </Link>
             </div>
@@ -128,11 +128,11 @@ export default function HomePage() {
 
       {/* Featured 2014 */}
       {featured2014.length > 0 && (
-        <section className="py-12 bg-dnd-stone/50">
+        <section className="py-12 bg-surface">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">D&D 5E (2014)</h2>
-              <Link to="/2014" className="text-dnd-gold hover:text-dnd-gold-light">
+              <h2 className="text-2xl text-fg">D&D 5E (2014)</h2>
+              <Link to="/2014" className="text-fg hover:text-fg">
                 Ver todos &rarr;
               </Link>
             </div>
@@ -146,8 +146,8 @@ export default function HomePage() {
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">Videojuegos</h2>
-              <Link to="/videojuegos" className="text-dnd-gold hover:text-dnd-gold-light">
+              <h2 className="text-2xl text-fg">Videojuegos</h2>
+              <Link to="/videojuegos" className="text-fg hover:text-fg">
                 Ver todos &rarr;
               </Link>
             </div>
@@ -162,11 +162,11 @@ export default function HomePage() {
 
       {/* Merchandising */}
       {latestMerchandise.length > 0 && (
-        <section className="py-12 bg-dnd-stone/50">
+        <section className="py-12 bg-surface">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">Merchandising</h2>
-              <Link to="/merchandising" className="text-dnd-gold hover:text-dnd-gold-light">
+              <h2 className="text-2xl text-fg">Merchandising</h2>
+              <Link to="/merchandising" className="text-fg hover:text-fg">
                 Ver todo &rarr;
               </Link>
             </div>
@@ -184,8 +184,8 @@ export default function HomePage() {
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl text-dnd-gold">Novelas</h2>
-              <Link to="/novelas" className="text-dnd-gold hover:text-dnd-gold-light">
+              <h2 className="text-2xl text-fg">Novelas</h2>
+              <Link to="/novelas" className="text-fg hover:text-fg">
                 Ver todas &rarr;
               </Link>
             </div>

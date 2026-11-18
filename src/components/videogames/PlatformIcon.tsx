@@ -88,7 +88,7 @@ const SIZES = {
 export default function PlatformIcon({
   platform,
   size = 'sm',
-  className = 'text-gray-400',
+  className = 'text-muted',
   label,
   decorative = false,
 }: PlatformIconProps) {

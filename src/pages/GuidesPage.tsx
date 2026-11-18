@@ -10,10 +10,10 @@ export function GuideCards() {
         <Link
           key={guide.slug}
           to={`/guias/${guide.slug}`}
-          className="card-dnd p-5 hover:border-dnd-gold/50 transition-colors"
+          className="rounded-xl border border-line bg-surface overflow-hidden p-5 hover:border-line transition-colors"
         >
-          <h2 className="font-display text-xl text-dnd-gold mb-2">{guide.title}</h2>
-          <p className="text-gray-400 text-sm">{guide.summary}</p>
+          <h2 className="text-xl text-fg mb-2">{guide.title}</h2>
+          <p className="text-muted text-sm">{guide.summary}</p>
         </Link>
       ))}
     </div>
@@ -30,10 +30,8 @@ export default function GuidesPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ label: 'Guías' }]} />
-        <h1 className="font-display text-3xl text-dnd-gold mb-2">Guías</h1>
-        <p className="text-gray-400 mb-8">
-          Para orientarse entre tantos libros, cajas y ediciones.
-        </p>
+        <h1 className="text-3xl text-fg mb-2">Guías</h1>
+        <p className="text-muted mb-8">Para orientarse entre tantos libros, cajas y ediciones.</p>
         <GuideCards />
       </div>
     </>

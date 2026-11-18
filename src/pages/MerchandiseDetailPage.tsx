@@ -28,7 +28,7 @@ export default function MerchandiseDetailPage() {
 
         <Link
           to="/merchandising"
-          className="inline-flex items-center gap-2 text-gray-400 hover:text-dnd-gold mb-6 transition-colors"
+          className="inline-flex items-center gap-2 text-muted hover:text-fg mb-6 transition-colors"
         >
           <ArrowLeftIcon className="h-4 w-4" />
           Volver a merchandising

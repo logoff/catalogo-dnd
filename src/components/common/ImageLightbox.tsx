@@ -71,7 +71,7 @@ export default function ImageLightbox({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-xs animate-fade-in"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-xs "
       onClick={onClose}
     >
       {/* Close button */}
@@ -80,7 +80,7 @@ export default function ImageLightbox({
           e.stopPropagation()
           onClose()
         }}
-        className="absolute top-4 right-4 p-2 text-white/70 hover:text-white transition-colors z-10"
+        className="absolute top-4 right-4 p-2 text-white/70 transition-colors duration-150 hover:text-white z-10"
         aria-label="Cerrar"
       >
         <XMarkIcon className="h-8 w-8" />
@@ -100,7 +100,7 @@ export default function ImageLightbox({
             e.stopPropagation()
             goToPrevious()
           }}
-          className="absolute left-4 p-2 text-white/70 hover:text-white transition-colors"
+          className="absolute left-4 p-2 text-white/70 transition-colors duration-150 hover:text-white"
           aria-label="Anterior"
         >
           <ChevronLeftIcon className="h-10 w-10" />
@@ -126,7 +126,7 @@ export default function ImageLightbox({
             e.stopPropagation()
             goToNext()
           }}
-          className="absolute right-4 p-2 text-white/70 hover:text-white transition-colors"
+          className="absolute right-4 p-2 text-white/70 transition-colors duration-150 hover:text-white"
           aria-label="Siguiente"
         >
           <ChevronRightIcon className="h-10 w-10" />
@@ -143,9 +143,9 @@ export default function ImageLightbox({
                 e.stopPropagation()
                 setCurrentIndex(index)
               }}
-              className={`w-12 h-12 rounded overflow-hidden border-2 transition-all ${
+              className={`w-12 h-12 rounded overflow-hidden border-2 ${
                 index === currentIndex
-                  ? 'border-dnd-gold opacity-100'
+                  ? 'border-white opacity-100'
                   : 'border-transparent opacity-50 hover:opacity-80'
               }`}
             >

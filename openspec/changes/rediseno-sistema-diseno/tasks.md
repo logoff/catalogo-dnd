@@ -45,17 +45,17 @@
 
 ## 3. Libros
 
-- [ ] 3.1 Migrar `ProductCard`, `ProductListItem`, `ProductGrid` y
+- [x] 3.1 Migrar `ProductCard`, `ProductListItem`, `ProductGrid` y
       `ViewToggle` al nuevo estilo (portada sobre `well`, insignia de
       edición, marca de castellano en acento) sin `framer-motion`;
       verificar con `just test` y en `/2024`
-- [ ] 3.2 Migrar `FilterPanel`, `FilterControls`, `SearchBar` y
+- [x] 3.2 Migrar `FilterPanel`, `FilterControls`, `SearchBar` y
       `SortSelect`: edición con `SegmentedControl`, filtro «En castellano»
       destacado, plegado sin animación; verificar con `FilterPanel.test.tsx`
       y en `/catalogo`
-- [ ] 3.3 Migrar `CatalogPage` y `EditionPage`; verificar en `/catalogo`,
+- [x] 3.3 Migrar `CatalogPage` y `EditionPage`; verificar en `/catalogo`,
       `/2014` y `/2024/<categoría>` en los dos temas y a 360 px
-- [ ] 3.4 Migrar `ProductDetail` y `ProductDetailPage`: `SectionNav`
+- [x] 3.4 Migrar `ProductDetail` y `ProductDetailPage`: `SectionNav`
       (Ediciones, Reseñas, Detalles), `EditionsTable` con cifras en mono,
       botones de compra con `Button`; adaptar `MediaReviews`,
       `PurchaseButton`, `Breadcrumbs`, `ImageLightbox` y `Badge`

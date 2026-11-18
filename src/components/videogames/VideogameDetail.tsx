@@ -51,7 +51,7 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
               <LazyImage
                 src={image}
                 alt={`${game.title} - Imagen ${index + 1}`}
-                containerClassName="max-h-96 w-auto rounded-lg shadow-card"
+                containerClassName="max-h-96 w-auto rounded-lg "
                 className="max-h-96 w-auto rounded-lg"
               />
             </button>
@@ -60,35 +60,32 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
 
         <div className="md:w-2/3 space-y-4">
           <div>
-            <h1 className="font-display text-4xl text-dnd-gold">{game.title}</h1>
-            {game.title_es && <p className="text-lg text-gray-300 mt-1">{game.title_es}</p>}
+            <h1 className="text-4xl text-fg">{game.title}</h1>
+            {game.title_es && <p className="text-lg text-fg mt-1">{game.title_es}</p>}
           </div>
 
           <div className="flex flex-wrap gap-2">
             <SpanishBadge summary={game.spanishSummary} />
             {game.genres.map((genre) => (
-              <span
-                key={genre}
-                className="badge bg-dnd-stone text-gray-300 border border-dnd-gold/20"
-              >
+              <span key={genre} className="badge bg-surface text-fg border border-line">
                 {genreNames[genre]}
               </span>
             ))}
           </div>
 
           {game.status === 'shut_down' && (
-            <p className="flex items-center gap-2 rounded-lg border border-dnd-red/50 bg-dnd-red/10 px-4 py-2 text-gray-100">
-              <ExclamationTriangleIcon className="h-5 w-5 text-dnd-red" />
+            <p className="flex items-center gap-2 rounded-lg border border-accent bg-accent-solid px-4 py-2 text-fg">
+              <ExclamationTriangleIcon className="h-5 w-5 text-accent" />
               Juego cerrado: sus servidores ya no funcionan.
             </p>
           )}
           {game.status === 'announced' && (
-            <p className="rounded-lg border border-dnd-gold/40 bg-dnd-gold/10 px-4 py-2 text-gray-100">
+            <p className="rounded-lg border border-line bg-well px-4 py-2 text-fg">
               Juego anunciado: todavía no se ha publicado.
             </p>
           )}
 
-          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-gray-300">
+          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-fg">
             {game.firstReleaseDate && (
               <DataRow label="Lanzamiento" value={formatPartialDate(game.firstReleaseDate)} />
             )}
@@ -102,7 +99,7 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
             )}
           </dl>
 
-          <div className="max-w-3xl space-y-3 text-gray-300 leading-relaxed">
+          <div className="max-w-3xl space-y-3 text-fg leading-relaxed">
             {game.description.split(/\n\s*\n/).map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
@@ -113,7 +110,7 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
               href={game.official_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-dnd-gold hover:text-dnd-gold-light"
+              className="inline-flex items-center gap-2 text-fg hover:text-fg"
             >
               <GlobeAltIcon className="h-4 w-4" />
               Web oficial
@@ -164,12 +161,12 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
 
       {game.expansions && game.expansions.length > 0 && (
         <Section title="Expansiones y contenido adicional">
-          <ul className="list-disc pl-5 space-y-1 text-gray-300">
+          <ul className="list-disc pl-5 space-y-1 text-fg">
             {game.expansions.map((expansion) => (
               <li key={expansion.title}>
                 {expansion.title}
                 {expansion.date && (
-                  <span className="text-gray-400"> ({formatPartialDate(expansion.date)})</span>
+                  <span className="text-muted"> ({formatPartialDate(expansion.date)})</span>
                 )}
               </li>
             ))}
@@ -184,7 +181,7 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
               <li key={product.code}>
                 <Link
                   to={`/producto/${product.primaryEdition === '5e' ? '2014' : '2024'}/${product.slug}`}
-                  className="text-dnd-gold hover:text-dnd-gold-light underline underline-offset-2"
+                  className="text-fg hover:text-fg underline underline-offset-2"
                 >
                   {product.primaryTitle}
                 </Link>
@@ -207,16 +204,15 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
 function DataRow({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="inline font-semibold text-gray-100">{label}:</dt>{' '}
-      <dd className="inline">{value}</dd>
+      <dt className="inline font-semibold text-fg">{label}:</dt> <dd className="inline">{value}</dd>
     </div>
   )
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="card-dnd p-6">
-      <h2 className="font-display text-2xl text-dnd-gold mb-4">{title}</h2>
+    <section className="rounded-xl border border-line bg-surface overflow-hidden p-6">
+      <h2 className="text-2xl text-fg mb-4">{title}</h2>
       {children}
     </section>
   )

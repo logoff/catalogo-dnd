@@ -1,65 +1,55 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import type { ProductWithMeta } from '@/types'
-import { LanguageBadge, TypeBadge, EditionBadge } from '../common/Badge'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
+import { firstPublication } from '@/utils/releases'
+import { translateType } from '@/utils/translations'
+import { cardClass } from '@/components/ui/styles'
+import { CardBody, CardCover } from '@/components/ui/Card'
+import Badge from '@/components/ui/Badge'
+import { EditionBadge } from '../common/Badge'
 import LazyImage from '../common/LazyImage'
+import SpanishAvailability from '../common/SpanishAvailability'
 
 interface ProductCardProps {
   product: ProductWithMeta
 }
 
-export default function ProductCard({ product }: ProductCardProps) {
-  const firstPub = product.publications[0]
-  const imageUrl = firstPub?.images?.[0] ?? PLACEHOLDER_IMAGE
+export function productPath(product: ProductWithMeta) {
   const editionPath = product.primaryEdition === '5e' ? '2014' : '2024'
+  return `/producto/${editionPath}/${product.code.toLowerCase()}`
+}
+
+export default function ProductCard({ product }: ProductCardProps) {
+  const imageUrl = product.publications[0]?.images?.[0] ?? PLACEHOLDER_IMAGE
+  const spanish = firstPublication(product, 'castellano')
 
   return (
-    <motion.div
-      whileHover={{ y: -4 }}
-      whileTap={{ scale: 0.98 }}
-      transition={{ duration: 0.2 }}
-      className="h-full"
-    >
-      <Link
-        to={`/producto/${editionPath}/${product.code.toLowerCase()}`}
-        className="card-dnd group flex flex-col h-full"
-      >
-        {/* Image */}
+    <Link to={productPath(product)} className={cardClass(true, 'h-full')}>
+      <CardCover>
         <LazyImage
           src={imageUrl}
           alt={product.primaryTitle}
-          containerClassName="aspect-3/4 bg-dnd-stone-light"
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          containerClassName="h-full"
+          className="h-full w-full object-cover"
         />
-
-        {/* Content */}
-        <div className="p-4 flex flex-col flex-1">
-          {/* Badges */}
-          <div className="flex flex-wrap gap-1.5 mb-2">
-            <EditionBadge edition={product.primaryEdition} />
-            <TypeBadge type={product.primaryType} />
-            {product.languages.map((lang) => (
-              <LanguageBadge key={lang} language={lang} />
-            ))}
-          </div>
-
-          {/* Title - min 3 lines height */}
-          <h3 className="font-display text-lg text-dnd-gold group-hover:text-dnd-gold-light transition-colors line-clamp-3 min-h-18">
-            {product.primaryTitle}
-          </h3>
-
-          {/* Code and editions - pushed to bottom */}
-          <div className="mt-auto pt-2">
-            <p className="text-sm text-gray-500">{product.code}</p>
-            {product.publications.length > 1 ? (
-              <p className="text-xs text-gray-400 mt-1">{product.publications.length} ediciones</p>
-            ) : (
-              <p className="text-xs text-gray-400 mt-1 invisible">1 edición</p>
-            )}
-          </div>
+      </CardCover>
+      <CardBody>
+        <div className="flex flex-wrap items-center gap-1.5">
+          <EditionBadge edition={product.primaryEdition} />
+          <span className="font-mono text-xs text-muted">{product.code}</span>
+          {product.primaryType !== 'book' && (
+            <Badge variant="outline">{translateType(product.primaryType)}</Badge>
+          )}
         </div>
-      </Link>
-    </motion.div>
+        <h3 className="line-clamp-3 text-[15px] leading-snug font-semibold tracking-tight">
+          {product.primaryTitle}
+        </h3>
+        <SpanishAvailability
+          className="mt-auto pt-1"
+          available={product.languages.includes('castellano')}
+          date={spanish?.date}
+        />
+      </CardBody>
+    </Link>
   )
 }
