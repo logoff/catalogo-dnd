@@ -19,7 +19,7 @@
       comprobadas, aviso único sin red, `::warning` en Actions, salida
       siempre 0); verificar con las notas actuales, con una nota cambiada
       a mano y con una URL inventada en una ficha temporal
-- [ ] 2.2 Añadir el paso `node scripts/check-scores.mjs` a
+- [x] 2.2 Añadir el paso `node scripts/check-scores.mjs` a
       `.github/workflows/test.yml` con `continue-on-error: true`;
       verificar en la PR que el workflow termina en verde
 
