@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import type { ProductWithMeta } from '@/types'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
-import { firstPublication } from '@/utils/releases'
+import { firstPublication, productPath } from '@/utils/releases'
 import { translateType } from '@/utils/translations'
 import { cardClass } from '@/components/ui/styles'
 import { CardBody, CardCover } from '@/components/ui/Card'
@@ -12,11 +12,6 @@ import SpanishAvailability from '../common/SpanishAvailability'
 
 interface ProductCardProps {
   product: ProductWithMeta
-}
-
-export function productPath(product: ProductWithMeta) {
-  const editionPath = product.primaryEdition === '5e' ? '2014' : '2024'
-  return `/producto/${editionPath}/${product.code.toLowerCase()}`
 }
 
 export default function ProductCard({ product }: ProductCardProps) {

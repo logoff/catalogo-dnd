@@ -2,13 +2,12 @@ import { Link } from 'react-router-dom'
 import type { ProductWithMeta } from '@/types'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import { formatDateRange } from '@/utils/formatters'
-import { firstPublication } from '@/utils/releases'
+import { firstPublication, productPath } from '@/utils/releases'
 import { translateType } from '@/utils/translations'
 import Badge from '@/components/ui/Badge'
 import { EditionBadge } from '../common/Badge'
 import LazyImage from '../common/LazyImage'
 import SpanishAvailability from '../common/SpanishAvailability'
-import { productPath } from './ProductCard'
 
 interface ProductListItemProps {
   product: ProductWithMeta

@@ -52,7 +52,7 @@ export default function YouTubeVideo({ video }: { video: VideoWithMeta }) {
               className="h-full w-full object-cover transition-opacity group-hover:opacity-80"
             />
             <span className="absolute inset-0 flex items-center justify-center">
-              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-accent-solid shadow-lg transition-transform group-hover:scale-110 group-focus-visible:scale-110">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-accent-solid shadow-lg group-focus-visible:scale-110">
                 <PlayIcon className="ml-1 h-8 w-8 text-white" aria-hidden="true" />
               </span>
             </span>

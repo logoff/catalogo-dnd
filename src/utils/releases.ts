@@ -2,6 +2,12 @@ import { differenceInCalendarMonths, parseISO } from 'date-fns'
 import { getProductsByEdition } from '@/services/dataLoader'
 import type { Language, ProductWithMeta, Publication } from '@/types'
 
+// URL de la ficha de un producto
+export function productPath(product: ProductWithMeta): string {
+  const editionPath = product.primaryEdition === '5e' ? '2014' : '2024'
+  return `/producto/${editionPath}/${product.code.toLowerCase()}`
+}
+
 // Primera publicación en un idioma: la de fecha más temprana; las anunciadas sin fecha, al final
 export function firstPublication(
   product: ProductWithMeta,

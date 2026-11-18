@@ -21,6 +21,8 @@ import {
   settingNames,
 } from '@/utils/novelTranslations'
 import { formatPartialDate } from '@/utils/videogameTranslations'
+import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
+import SectionNav from '@/components/ui/SectionNav'
 import ImageLightbox from '../common/ImageLightbox'
 import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
@@ -113,9 +115,20 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
   const hasRelated =
     relatedProducts.length > 0 || relatedGames.length > 0 || relatedMerchandise.length > 0
 
-  const renderEdition = (edition: NovelEdition | NovelCollection, key: string) => (
+  const sections = [
+    ...(novel.reviews?.length ? [{ id: 'resenas', label: 'Reseñas' }] : []),
+    { id: 'ediciones-en-castellano', label: 'En castellano' },
+    { id: 'ediciones-en-ingles', label: 'En inglés' },
+    ...(collections.length > 0 ? [{ id: 'recopilatorios', label: 'Recopilatorios' }] : []),
+    ...(anthologies.length > 0 ? [{ id: 'antologias', label: 'Antologías' }] : []),
+    ...(seriesMeta && seriesNovels.length > 1 ? [{ id: 'serie', label: 'Serie' }] : []),
+    ...(hasRelated ? [{ id: 'relacionado', label: 'Relacionado' }] : []),
+  ]
+
+  const renderEdition = (edition: NovelEdition | NovelCollection, key: string, primary = false) => (
     <EditionRow
       key={key}
+      primary={primary}
       edition={edition}
       fallbackTitle={novel.title}
       slug={novel.slug}
@@ -124,10 +137,10 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
   )
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-10">
       {/* Cabecera */}
-      <div className="flex flex-col md:flex-row gap-8">
-        <div className="md:w-1/3 flex justify-center md:justify-start">
+      <div className="flex flex-col gap-6 md:flex-row md:gap-10">
+        <div className="w-40 shrink-0 self-start rounded-xl bg-well p-4 sm:w-52 md:w-64">
           {cover ? (
             <button onClick={() => openCover(cover)} className="block cursor-zoom-in">
               <LazyImage
@@ -142,9 +155,9 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
           )}
         </div>
 
-        <div className="md:w-2/3 space-y-4">
+        <div className="flex min-w-0 flex-1 flex-col gap-4">
           <div>
-            <h1 className="text-4xl text-fg">{novel.title}</h1>
+            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{novel.title}</h1>
             {novel.titleEs && novel.titleEs !== novel.title && (
               <p className="text-lg text-fg mt-1">{novel.titleEs}</p>
             )}
@@ -152,14 +165,14 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
 
           <div className="flex flex-wrap gap-2">
             <NovelSpanishBadge spanish={novel.spanish} />
-            <span className="badge bg-surface text-fg border border-line">
+            <span className="inline-flex items-center rounded-md border border-line px-1.5 py-0.5 text-xs font-medium text-muted">
               {kindNames[novel.kind]}
             </span>
           </div>
 
           {novel.bestseller && <NovelBestseller bestseller={novel.bestseller} />}
 
-          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-fg">
+          <DataList>
             <DataRow
               label={novel.authors.length > 1 ? 'Autores' : 'Autor'}
               value={novel.authors.join(', ')}
@@ -171,9 +184,9 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             {novel.date && (
               <DataRow label="Primera edición" value={formatPartialDate(novel.date)} />
             )}
-          </dl>
+          </DataList>
 
-          <div className="max-w-3xl space-y-3 text-fg leading-relaxed">
+          <div className="max-w-3xl space-y-3 leading-relaxed">
             {novel.description.split(/\n\s*\n/).map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}
@@ -183,9 +196,9 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             href={novel.source}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-fg hover:text-fg"
+            className="inline-flex min-h-11 items-center gap-2 text-sm text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
           >
-            <GlobeAltIcon className="h-4 w-4" />
+            <GlobeAltIcon className="size-4" aria-hidden="true" />
             Fuente
           </a>
 
@@ -195,12 +208,18 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
         </div>
       </div>
 
-      {novel.reviews?.length ? <MediaReviews reviews={novel.reviews} /> : null}
+      <SectionNav sections={sections} />
 
-      <Section title="Ediciones en castellano">
+      {novel.reviews?.length ? (
+        <section id="resenas" className="scroll-mt-32">
+          <MediaReviews reviews={novel.reviews} />
+        </section>
+      ) : null}
+
+      <DetailSection title="Ediciones en castellano">
         {spanishEditions.length > 0 ? (
           <ul className="space-y-5">
-            {spanishEditions.map((e, i) => renderEdition(e, `es-${i}`))}
+            {spanishEditions.map((e, i) => renderEdition(e, `es-${i}`, i === 0))}
           </ul>
         ) : (
           <p className="text-fg">
@@ -209,14 +228,14 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
               : 'No se ha publicado en castellano.'}
           </p>
         )}
-      </Section>
+      </DetailSection>
 
-      <Section title="Ediciones en inglés">
+      <DetailSection title="Ediciones en inglés">
         <ul className="space-y-5">{englishEditions.map((e, i) => renderEdition(e, `en-${i}`))}</ul>
-      </Section>
+      </DetailSection>
 
       {collections.length > 0 && (
-        <Section title="Recopilatorios">
+        <DetailSection title="Recopilatorios">
           <ul className="space-y-5">
             {collections.map((c, i) => (
               <EditionRow
@@ -229,11 +248,11 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
               />
             ))}
           </ul>
-        </Section>
+        </DetailSection>
       )}
 
       {anthologies.length > 0 && (
-        <Section title="Antologías">
+        <DetailSection title="Antologías">
           <p className="mb-5 text-sm text-muted">
             Libros de relatos de varios autores relacionados con esta novela o su serie.
           </p>
@@ -281,11 +300,11 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
               </li>
             ))}
           </ul>
-        </Section>
+        </DetailSection>
       )}
 
       {seriesMeta && seriesNovels.length > 1 && (
-        <Section title={seriesName(seriesMeta)}>
+        <DetailSection title={seriesName(seriesMeta)} id="serie">
           <ol className="space-y-1">
             {seriesNovels.map((n) => (
               <li key={n.slug} className="flex gap-2">
@@ -297,7 +316,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
                 ) : (
                   <Link
                     to={`/novela/${n.slug}`}
-                    className="text-fg hover:text-fg underline underline-offset-2"
+                    className="underline decoration-muted underline-offset-2 transition-colors duration-150 hover:decoration-fg"
                   >
                     {n.titleEs ?? n.title}
                   </Link>
@@ -309,7 +328,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             {previous ? (
               <Link
                 to={`/novela/${previous.slug}`}
-                className="inline-flex items-center gap-1 text-fg hover:text-fg"
+                className="inline-flex items-center gap-1 text-muted transition-colors duration-150 hover:text-fg"
               >
                 <ArrowLeftIcon className="h-4 w-4" />
                 Anterior: {previous.titleEs ?? previous.title}
@@ -320,7 +339,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             {next && (
               <Link
                 to={`/novela/${next.slug}`}
-                className="inline-flex items-center gap-1 text-fg hover:text-fg"
+                className="inline-flex items-center gap-1 text-muted transition-colors duration-150 hover:text-fg"
               >
                 Siguiente: {next.titleEs ?? next.title}
                 <ArrowRightIcon className="h-4 w-4" />
@@ -333,11 +352,11 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
           >
             Ver la serie en el listado
           </Link>
-        </Section>
+        </DetailSection>
       )}
 
       {hasRelated && (
-        <Section title="Relacionado">
+        <DetailSection title="Relacionado">
           <ul className="space-y-1">
             {relatedProducts.map((product) => (
               <RelatedLink
@@ -363,7 +382,7 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
               />
             ))}
           </ul>
-        </Section>
+        </DetailSection>
       )}
 
       <ImageLightbox
@@ -382,6 +401,8 @@ interface EditionRowProps {
   slug: string
   onOpenCover: (cover: string) => void
   note?: string
+  // La primera edición en castellano lleva el botón de compra principal
+  primary?: boolean
 }
 
 function formatDuration(minutes: number): string {
@@ -389,7 +410,14 @@ function formatDuration(minutes: number): string {
   return hours > 0 ? `${hours} h ${minutes % 60} min` : `${minutes} min`
 }
 
-function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: EditionRowProps) {
+function EditionRow({
+  edition,
+  fallbackTitle,
+  slug,
+  onOpenCover,
+  note,
+  primary = false,
+}: EditionRowProps) {
   const audiobook = edition.format === 'audiobook'
   const narrators = 'narrators' in edition ? edition.narrators : undefined
   const duration = 'duration' in edition ? edition.duration : undefined
@@ -425,13 +453,14 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
         <div className="w-16 shrink-0" aria-hidden="true" />
       )}
       <div className="min-w-0">
-        <p className="text-fg">{edition.title ?? fallbackTitle}</p>
+        <p className="font-medium">{edition.title ?? fallbackTitle}</p>
         <p className="text-sm text-muted">{details.join(' · ')}</p>
         {links.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-2">
-            {links.map((link) => (
+            {links.map((link, index) => (
               <PurchaseButton
                 key={link.url}
+                primary={primary && index === 0}
                 store={link.store}
                 url={link.url}
                 tracking={{ novela: slug, idioma: edition.language, formato: edition.format }}
@@ -455,7 +484,7 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
             rel="noopener noreferrer"
             className="mt-1 inline-flex items-center gap-1 text-sm text-fg"
           >
-            <GlobeAltIcon className="h-4 w-4" />
+            <GlobeAltIcon className="size-4" aria-hidden="true" />
             Leer la copia archivada
           </a>
         )}
@@ -467,27 +496,13 @@ function EditionRow({ edition, fallbackTitle, slug, onOpenCover, note }: Edition
 function RelatedLink({ to, label, kind }: { to: string; label: string; kind?: string }) {
   return (
     <li>
-      <Link to={to} className="text-fg hover:text-fg underline underline-offset-2">
+      <Link
+        to={to}
+        className="underline decoration-muted underline-offset-2 transition-colors duration-150 hover:decoration-fg"
+      >
         {label}
       </Link>
       {kind && <span className="text-sm text-muted"> ({kind})</span>}
     </li>
-  )
-}
-
-function DataRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div>
-      <dt className="inline font-semibold text-fg">{label}:</dt> <dd className="inline">{value}</dd>
-    </div>
-  )
-}
-
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <section className="rounded-xl border border-line bg-surface overflow-hidden p-6">
-      <h2 className="text-2xl text-fg mb-4">{title}</h2>
-      {children}
-    </section>
   )
 }

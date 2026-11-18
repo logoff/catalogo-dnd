@@ -106,7 +106,7 @@ export default function ProductDetailPage() {
   if (!product) {
     return (
       <div className="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 lg:px-8">
-        <h1 className="text-3xl text-fg mb-4">Producto no encontrado</h1>
+        <h1 className="mb-4 text-3xl font-semibold tracking-tight">Producto no encontrado</h1>
         <p className="text-muted mb-8">
           No se encontró ningún producto con el código "{code}" en la edición {editionParam}
         </p>

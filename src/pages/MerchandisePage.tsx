@@ -28,12 +28,14 @@ export default function MerchandisePage() {
         description="Productos oficiales con licencia de Dungeons & Dragons que no son de reglas: libros de cocina y de arte, figuras, LEGO, Funko y juegos de mesa, con lo que llega a España en castellano."
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: 'Merchandising' }]} />
 
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="text-3xl text-fg mb-2">Merchandising de D&D</h1>
+            <h1 className="mb-2 text-3xl font-semibold tracking-tight sm:text-4xl">
+              Merchandising de D&D
+            </h1>
             <p className="text-muted">
               {results.length} de {items.length} artículos
             </p>
@@ -42,13 +44,13 @@ export default function MerchandisePage() {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
-          <aside className="lg:w-64 shrink-0">
+          <aside className="shrink-0 lg:w-64">
             <div className="lg:sticky lg:top-24">
               <MerchandiseFilterPanel />
             </div>
           </aside>
 
-          <main className="flex-1">
+          <div className="min-w-0 flex-1">
             {results.length === 0 ? (
               <div className="text-center py-12">
                 <p className="text-muted text-lg mb-4">
@@ -59,19 +61,19 @@ export default function MerchandisePage() {
                 </button>
               </div>
             ) : view === 'list' ? (
-              <div className="flex flex-col gap-3">
+              <div className="divide-y divide-line overflow-hidden rounded-xl border border-line bg-surface">
                 {results.map((item) => (
                   <MerchandiseCard key={item.slug} item={item} view="list" />
                 ))}
               </div>
             ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 xl:grid-cols-4">
                 {results.map((item) => (
                   <MerchandiseCard key={item.slug} item={item} />
                 ))}
               </div>
             )}
-          </main>
+          </div>
         </div>
       </div>
     </>

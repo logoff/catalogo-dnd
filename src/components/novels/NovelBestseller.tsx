@@ -11,7 +11,7 @@ export default function NovelBestseller({ bestseller }: { bestseller: Bestseller
       href={bestseller.source}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 text-fg hover:text-fg"
+      className="inline-flex min-h-11 items-center gap-2 text-sm text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
     >
       <TrophyIcon className="h-5 w-5" />
       <span>

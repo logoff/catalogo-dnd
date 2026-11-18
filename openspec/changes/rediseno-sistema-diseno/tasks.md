@@ -64,19 +64,19 @@
 
 ## 4. Videojuegos, merchandising y novelas
 
-- [ ] 4.1 Migrar listado y filtros de videojuegos (`VideogameCard`,
+- [x] 4.1 Migrar listado y filtros de videojuegos (`VideogameCard`,
       `VideogameFilterPanel`, `VideogamesPage`) sin `framer-motion`;
       verificar con `just test` y en `/videojuegos`
-- [ ] 4.2 Migrar la ficha de videojuego (`VideogameDetail`,
+- [x] 4.2 Migrar la ficha de videojuego (`VideogameDetail`,
       `ReleaseTable`, `ReviewScore`, `PurchaseByPlatform`,
       `ScreenshotGallery`, `YouTubeVideo`, `SpanishBadge`,
       `PlatformIcon`); verificar con `videogameComponents.test.tsx` y en
       una ficha con vídeos y capturas
-- [ ] 4.3 Migrar merchandising (`MerchandiseCard`,
+- [x] 4.3 Migrar merchandising (`MerchandiseCard`,
       `MerchandiseFilterPanel`, `MerchandiseDetail`,
       `MerchandiseSpanishBadge` y sus páginas); verificar con los tests de
       merchandising y en `/merchandising`
-- [ ] 4.4 Migrar novelas (`NovelCard`, `NovelFilterPanel`, `NovelDetail`,
+- [x] 4.4 Migrar novelas (`NovelCard`, `NovelFilterPanel`, `NovelDetail`,
       `NovelSpanishBadge`, `NovelBestseller` y sus páginas); verificar con
       los tests de novelas y en `/novelas?mundo=forgotten-realms` y una
       ficha con reseñas

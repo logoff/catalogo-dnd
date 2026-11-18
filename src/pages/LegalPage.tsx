@@ -13,7 +13,9 @@ export default function LegalPage() {
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumbs items={[{ label: 'Aviso legal y privacidad' }]} />
-        <h1 className="text-3xl md:text-4xl text-fg mb-2">Aviso legal y privacidad</h1>
+        <h1 className="mb-2 text-3xl font-semibold tracking-tight sm:text-4xl">
+          Aviso legal y privacidad
+        </h1>
         <p className="text-muted mb-8">Última actualización: 22 de octubre de 2026</p>
 
         <Prose>

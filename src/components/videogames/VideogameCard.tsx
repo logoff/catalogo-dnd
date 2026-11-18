@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import type { Platform, VideogameWithMeta } from '@/types/videogame'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import { platformNames } from '@/utils/videogameTranslations'
@@ -8,6 +7,8 @@ import { logoKey, platformLogo } from '@/utils/platformLogos'
 import PlatformIcon from './PlatformIcon'
 import LazyImage from '../common/LazyImage'
 import SpanishBadge from './SpanishBadge'
+import { cardClass } from '@/components/ui/styles'
+import { CardBody, CardCover } from '@/components/ui/Card'
 
 interface VideogameCardProps {
   game: VideogameWithMeta
@@ -55,23 +56,26 @@ export default function VideogameCard({ game, view = 'grid' }: VideogameCardProp
     return (
       <Link
         to={`/videojuego/${game.slug}`}
-        className="rounded-xl border border-line bg-surface overflow-hidden group flex gap-4 p-3"
+        className="flex items-center gap-4 px-4 py-3 transition-colors duration-150 hover:bg-well"
       >
         <LazyImage
           src={image}
-          alt={game.title}
-          containerClassName="w-16 aspect-3/4 shrink-0 bg-well rounded"
-          className="w-full h-full object-cover rounded"
+          alt=""
+          containerClassName="aspect-3/4 w-12 shrink-0 rounded"
+          className="h-full w-full object-cover"
         />
-        <div className="flex-1 min-w-0">
-          <h3 className="text-lg text-fg group-hover:text-fg truncate">{game.title}</h3>
-          <div className="flex items-center gap-2 text-sm text-muted">
-            {year} <PlatformIcons game={game} />
+        <div className="flex min-w-0 flex-1 flex-col gap-1 sm:flex-row sm:items-center sm:gap-4">
+          <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+            <h3 className="truncate text-[15px] font-semibold tracking-tight">{game.title}</h3>
+            <div className="flex items-center gap-2 text-sm text-muted">
+              <span className="font-mono text-xs tabular-nums">{year}</span>
+              <PlatformIcons game={game} />
+            </div>
           </div>
-          <div className="mt-1 flex flex-wrap items-center gap-2">
+          <div className="flex shrink-0 items-center gap-4 sm:w-64 sm:justify-end">
             <SpanishBadge summary={game.spanishSummary} />
             {game.bestScore !== null && (
-              <span className="text-sm text-fg">Nota: {game.bestScore}</span>
+              <span className="font-mono text-sm tabular-nums">{game.bestScore}</span>
             )}
           </div>
         </div>
@@ -80,37 +84,30 @@ export default function VideogameCard({ game, view = 'grid' }: VideogameCardProp
   }
 
   return (
-    <motion.div whileHover={{ y: -4 }} whileTap={{ scale: 0.98 }} className="h-full">
-      <Link
-        to={`/videojuego/${game.slug}`}
-        className="rounded-xl border border-line bg-surface overflow-hidden group flex flex-col h-full"
-      >
+    <Link to={`/videojuego/${game.slug}`} className={cardClass(true, 'h-full')}>
+      <CardCover>
         <LazyImage
           src={image}
           alt={game.title}
-          containerClassName="aspect-3/4 bg-well"
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          containerClassName="h-full"
+          className="h-full w-full object-cover"
         />
-        <div className="p-4 flex flex-col flex-1">
-          <div className="flex flex-wrap gap-1.5 mb-2">
-            <SpanishBadge summary={game.spanishSummary} />
-          </div>
-          <h3 className="text-lg text-fg group-hover:text-fg transition-colors line-clamp-3">
-            {game.title}
-          </h3>
-          <div className="mt-auto pt-2 text-sm">
-            <p className="text-muted">{year}</p>
-            <div className="mt-1">
-              <PlatformIcons game={game} />
-            </div>
-            {game.bestScore !== null && (
-              <p className="text-xs text-fg mt-1">
-                Nota: <span className="text-fg">{game.bestScore}</span>/100
-              </p>
-            )}
-          </div>
+      </CardCover>
+      <CardBody>
+        <div className="flex items-center justify-between gap-2 text-muted">
+          <span className="font-mono text-xs tabular-nums">{year}</span>
+          {game.bestScore !== null && (
+            <span className="font-mono text-xs tabular-nums" title="Mejor nota de la prensa">
+              <span className="text-fg">{game.bestScore}</span>/100
+            </span>
+          )}
         </div>
-      </Link>
-    </motion.div>
+        <h3 className="line-clamp-3 text-[15px] leading-snug font-semibold tracking-tight">
+          {game.title}
+        </h3>
+        <PlatformIcons game={game} />
+        <SpanishBadge summary={game.spanishSummary} />
+      </CardBody>
+    </Link>
   )
 }

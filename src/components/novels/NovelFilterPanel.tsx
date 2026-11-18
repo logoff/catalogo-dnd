@@ -1,17 +1,12 @@
 import { useMemo, useState } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
-import {
-  ArrowsUpDownIcon,
-  ChevronDownIcon,
-  FunnelIcon,
-  MagnifyingGlassIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline'
+import { ArrowsUpDownIcon } from '@heroicons/react/24/outline'
 import { useNovelStore } from '@/store/novelStore'
 import type { NovelIndex, NovelSetting } from '@/types/novel'
 import { getNovelFacetCounts, type NovelSort } from '@/utils/novelFilters'
 import { seriesName, settingNames } from '@/utils/novelTranslations'
-import { FilterCheckbox, FilterSection } from '../filters/FilterControls'
+import { FilterCheckbox, FilterPanelHeader, FilterSection } from '../filters/FilterControls'
+import SearchField from '@/components/ui/SearchField'
+import { selectClass } from '@/components/ui/styles'
 
 const SORT_OPTIONS: { value: string; label: string }[] = [
   { value: 'date-desc', label: 'Fecha (reciente primero)' },
@@ -27,55 +22,23 @@ export default function NovelFilterPanel({ index }: { index: NovelIndex }) {
   const activeCount = useNovelStore((state) => state.getActiveFilterCount())
 
   return (
-    <div className="rounded-xl border border-line bg-surface overflow-hidden p-4">
-      <div className="relative">
-        <button
-          onClick={() => setIsExpanded(!isExpanded)}
-          aria-expanded={isExpanded}
-          className="flex items-center justify-between w-full lg:cursor-default"
-        >
-          <div className="flex items-center gap-2">
-            <FunnelIcon className="h-5 w-5 text-fg" />
-            <h3 className="text-lg text-fg">Filtros</h3>
-            {activeCount > 0 && (
-              <span className="badge bg-accent-solid text-white">{activeCount}</span>
-            )}
-          </div>
-          <ChevronDownIcon
-            className={`h-5 w-5 text-muted transition-transform lg:hidden ${isExpanded ? 'rotate-180' : ''}`}
-          />
-        </button>
-        {activeCount > 0 && (
-          <button
-            onClick={clearFilters}
-            aria-label="Limpiar filtros"
-            className="absolute top-1/2 -translate-y-1/2 right-7 lg:right-0 text-sm text-muted hover:text-fg flex items-center gap-1"
-          >
-            <XMarkIcon className="h-4 w-4" />
-            <span className="hidden sm:inline">Limpiar</span>
-          </button>
-        )}
-      </div>
+    <div className="rounded-xl border border-line bg-surface p-4 lg:border-0 lg:bg-transparent lg:p-0">
+      <FilterPanelHeader
+        activeCount={activeCount}
+        isExpanded={isExpanded}
+        onToggle={() => setIsExpanded(!isExpanded)}
+        onClear={clearFilters}
+      />
 
-      <div className="hidden lg:block mt-6 space-y-6">
+      <div className="mt-5 hidden space-y-6 lg:block">
         <FilterContent index={index} />
       </div>
 
-      <AnimatePresence>
-        {isExpanded && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="lg:hidden overflow-hidden"
-          >
-            <div className="mt-6 space-y-6">
-              <FilterContent index={index} />
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {isExpanded && (
+        <div className="mt-5 space-y-6 lg:hidden">
+          <FilterContent index={index} />
+        </div>
+      )}
     </div>
   )
 }
@@ -106,17 +69,12 @@ function FilterContent({ index }: { index: NovelIndex }) {
 
   return (
     <>
-      <div className="relative">
-        <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted" />
-        <input
-          type="search"
-          value={searchQuery}
-          onChange={(e) => state.setSearchQuery(e.target.value)}
-          placeholder="Buscar por título o autor"
-          aria-label="Buscar por título o autor"
-          className="w-full rounded-lg border border-line bg-surface px-3 text-fg placeholder:text-muted focus:border-muted focus:ring-0 pl-9 py-1.5 text-sm"
-        />
-      </div>
+      <SearchField
+        label="Buscar por título o autor"
+        value={searchQuery}
+        onChange={(e) => state.setSearchQuery(e.target.value)}
+        placeholder="Buscar por título o autor"
+      />
 
       {(counts.available > 0 || availableOnly || counts.spanish > 0 || spanishOnly) && (
         <FilterSection title="Disponibilidad">
@@ -170,8 +128,11 @@ function FilterContent({ index }: { index: NovelIndex }) {
       )}
 
       <FilterSection title="Ordenar por">
-        <div className="flex items-center gap-2">
-          <ArrowsUpDownIcon className="h-5 w-5 text-fg" />
+        <div className="relative">
+          <ArrowsUpDownIcon
+            className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted"
+            aria-hidden="true"
+          />
           <select
             value={`${sort.field}-${sort.direction}`}
             onChange={(e) => {
@@ -182,7 +143,7 @@ function FilterContent({ index }: { index: NovelIndex }) {
               state.setSort({ field, direction })
             }}
             aria-label="Ordenar por"
-            className="w-full rounded-lg border border-line bg-surface px-3 text-fg placeholder:text-muted focus:border-muted focus:ring-0 py-1.5 text-sm bg-surface border-line"
+            className={selectClass}
           >
             {SORT_OPTIONS.map((option) => (
               <option key={option.value} value={option.value}>
