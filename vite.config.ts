@@ -112,6 +112,8 @@ export default defineConfig(({ mode }) => {
       globals: true,
       environment: 'jsdom',
       setupFiles: ['./src/test/setup.ts'],
+      // El test de contraste lee los colores de globals.css (?raw); sin esto llega vacío
+      css: { include: [/globals\.css/] },
       // Los worktrees de .claude/ son copias del repositorio con sus propias dependencias
       exclude: ['**/node_modules/**', '**/dist/**', '.claude/**'],
       // La caché de módulos no detecta los JSON nuevos que recoge import.meta.glob en data/

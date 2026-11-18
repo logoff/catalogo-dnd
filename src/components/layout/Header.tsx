@@ -1,8 +1,15 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { Bars3Icon, ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import {
+  Bars3Icon,
+  ChevronDownIcon,
+  MagnifyingGlassIcon,
+  XMarkIcon,
+} from '@heroicons/react/24/outline'
 import { useEffect, useRef, useState } from 'react'
+import clsx from 'clsx'
 import SearchBar from '../filters/SearchBar'
-import { getAssetPath } from '@/utils/constants'
+import Logo from '@/components/ui/Logo'
+import ThemeToggle from '@/components/ui/ThemeToggle'
 
 interface NavItem {
   to: string
@@ -17,13 +24,12 @@ interface NavGroup {
 }
 
 // Libros y accesorios de rol primero; luego las secciones de lo demás.
-const roleplayGroup: NavGroup = {
-  label: 'Juego de rol',
+const booksGroup: NavGroup = {
+  label: 'Libros',
   items: [
     { to: '/catalogo', label: 'Catálogo completo' },
     { to: '/2014', label: '5E (2014)' },
     { to: '/2024', label: '5.5E (2024)' },
-    { to: '/guias', label: 'Guías' },
   ],
   extraPaths: ['/producto'],
 }
@@ -32,6 +38,7 @@ const sectionLinks: NavItem[] = [
   { to: '/videojuegos', label: 'Videojuegos' },
   { to: '/merchandising', label: 'Merchandising' },
   { to: '/novelas', label: 'Novelas' },
+  { to: '/guias', label: 'Guías' },
 ]
 
 function isGroupActive(group: NavGroup, pathname: string) {
@@ -40,17 +47,19 @@ function isGroupActive(group: NavGroup, pathname: string) {
   )
 }
 
-const baseLinkClass = 'px-3 py-2 rounded-md text-sm font-medium transition-colors'
-const activeClass = 'bg-dnd-red text-white'
-const inactiveClass = 'text-gray-300 hover:bg-dnd-stone-light hover:text-white'
+const linkClass = (active: boolean) =>
+  clsx(
+    'inline-flex min-h-10 items-center rounded-md px-3 text-sm transition-colors duration-150',
+    active ? 'font-medium text-fg' : 'text-muted hover:text-fg'
+  )
 
-const navLinkClass = ({ isActive }: { isActive: boolean }) =>
-  `${baseLinkClass} ${isActive ? activeClass : inactiveClass}`
+const navLinkClass = ({ isActive }: { isActive: boolean }) => linkClass(isActive)
 
-const dropdownLinkClass = ({ isActive }: { isActive: boolean }) =>
-  `block px-4 py-2 text-sm transition-colors ${
-    isActive ? 'bg-dnd-red text-white' : 'text-gray-300 hover:bg-dnd-stone-light hover:text-white'
-  }`
+const mobileLinkClass = ({ isActive }: { isActive: boolean }) =>
+  clsx(
+    'flex min-h-11 items-center rounded-md px-3 text-base transition-colors duration-150',
+    isActive ? 'bg-well font-medium text-fg' : 'text-fg hover:bg-well'
+  )
 
 function NavDropdown({ group }: { group: NavGroup }) {
   const [open, setOpen] = useState(false)
@@ -78,24 +87,27 @@ function NavDropdown({ group }: { group: NavGroup }) {
     <div ref={containerRef} className="relative">
       <button
         type="button"
-        className={`${baseLinkClass} inline-flex items-center gap-1 ${active ? activeClass : inactiveClass}`}
+        className={clsx(linkClass(active), 'gap-1')}
         aria-haspopup="true"
         aria-expanded={open}
         onClick={() => setOpen(!open)}
       >
         {group.label}
-        <ChevronDownIcon
-          className={`h-4 w-4 transition-transform ${open ? 'rotate-180' : ''}`}
-          aria-hidden="true"
-        />
+        <ChevronDownIcon className="size-3.5" aria-hidden="true" />
       </button>
       {open && (
-        <div className="absolute left-0 mt-2 w-48 py-1 rounded-md bg-dnd-stone-dark border border-dnd-gold/20 shadow-lg">
+        <div className="absolute left-0 mt-1 w-52 rounded-xl border border-line bg-surface p-1 shadow-lg shadow-black/10">
           {group.items.map((item) => (
             <NavLink
               key={item.to}
               to={item.to}
-              className={dropdownLinkClass}
+              end
+              className={({ isActive }) =>
+                clsx(
+                  'flex min-h-10 items-center rounded-lg px-3 text-sm transition-colors duration-150',
+                  isActive ? 'bg-well font-medium text-fg' : 'text-fg hover:bg-well'
+                )
+              }
               onClick={() => setOpen(false)}
             >
               {item.label}
@@ -112,21 +124,16 @@ export default function Header() {
   const closeMobileMenu = () => setMobileMenuOpen(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-dnd-stone-dark border-b border-dnd-gold/20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <img src={getAssetPath('images/logo.svg')} alt="" className="h-10 w-auto" />
-            <span className="font-display text-xl text-dnd-gold hidden sm:block">Catálogo D&D</span>
+    <header className="sticky top-0 z-50 border-b border-line bg-surface">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center gap-4">
+          <Link to="/" className="flex items-center gap-2.5 font-semibold tracking-tight">
+            <Logo className="size-8" />
+            <span className="text-base">Catálogo D&amp;D</span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-1">
-            <NavLink to="/" end className={navLinkClass}>
-              Inicio
-            </NavLink>
-            <NavDropdown group={roleplayGroup} />
+          <nav aria-label="Principal" className="ml-4 hidden items-center gap-1 md:flex">
+            <NavDropdown group={booksGroup} />
             {sectionLinks.map((item) => (
               <NavLink key={item.to} to={item.to} className={navLinkClass}>
                 {item.label}
@@ -134,52 +141,62 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Search Bar - Desktop */}
-          <div className="hidden md:block w-64">
+          <div className="ml-auto hidden w-64 lg:block">
             <SearchBar />
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            type="button"
-            className="md:hidden p-2 rounded-md text-gray-400 hover:text-white hover:bg-dnd-stone-light"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
-          </button>
+          <div className="ml-auto flex items-center gap-2 lg:ml-0">
+            {/* Entre md y lg no cabe el buscador: se llega al del catálogo */}
+            <Link
+              to="/catalogo"
+              aria-label="Buscar libros"
+              className="hidden size-10 items-center justify-center rounded-lg border border-line text-fg hover:bg-well md:inline-flex lg:hidden"
+            >
+              <MagnifyingGlassIcon className="size-5" aria-hidden="true" />
+            </Link>
+            <ThemeToggle />
+            <button
+              type="button"
+              className="inline-flex size-10 items-center justify-center rounded-lg text-fg hover:bg-well md:hidden"
+              aria-label={mobileMenuOpen ? 'Cerrar el menú' : 'Abrir el menú'}
+              aria-expanded={mobileMenuOpen}
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              {mobileMenuOpen ? (
+                <XMarkIcon className="size-6" aria-hidden="true" />
+              ) : (
+                <Bars3Icon className="size-6" aria-hidden="true" />
+              )}
+            </button>
+          </div>
         </div>
 
-        {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-dnd-gold/20">
+          <div className="border-t border-line py-4 md:hidden">
             <div className="mb-4">
               <SearchBar />
             </div>
-            <nav className="flex flex-col gap-2">
-              <NavLink to="/" end className={navLinkClass} onClick={closeMobileMenu}>
-                Inicio
-              </NavLink>
-              <div className="flex flex-col gap-1">
-                <span className="px-3 pt-2 text-xs font-semibold uppercase tracking-wide text-dnd-gold">
-                  {roleplayGroup.label}
-                </span>
-                {roleplayGroup.items.map((item) => (
-                  <NavLink
-                    key={item.to}
-                    to={item.to}
-
-                    className={(state) => `${navLinkClass(state)} ml-3`}
-                    onClick={closeMobileMenu}
-                  >
-                    {item.label}
-                  </NavLink>
-                ))}
-              </div>
+            <nav aria-label="Principal" className="flex flex-col gap-1">
+              <span className="px-3 pt-1 pb-1 text-xs font-medium text-muted">
+                {booksGroup.label}
+              </span>
+              {booksGroup.items.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  end
+                  className={mobileLinkClass}
+                  onClick={closeMobileMenu}
+                >
+                  {item.label}
+                </NavLink>
+              ))}
+              <span className="mt-2 border-t border-line" aria-hidden="true" />
               {sectionLinks.map((item) => (
                 <NavLink
                   key={item.to}
                   to={item.to}
-                  className={navLinkClass}
+                  className={mobileLinkClass}
                   onClick={closeMobileMenu}
                 >
                   {item.label}
