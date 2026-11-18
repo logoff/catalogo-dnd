@@ -51,7 +51,7 @@
       la portada, 403/429/5xx como no comprobadas, aviso único sin red,
       `::warning` en Actions, salida siempre 0); verificar con la ficha
       piloto y con una URL inventada en una ficha temporal
-- [ ] 3.2 Añadir el paso `node scripts/check-reviews.mjs` a
+- [x] 3.2 Añadir el paso `node scripts/check-reviews.mjs` a
       `.github/workflows/test.yml` con `continue-on-error: true`;
       verificar en la PR que el workflow termina en verde
 - [x] 3.3 Crear `scripts/reviews-coverage.mjs` y la receta
