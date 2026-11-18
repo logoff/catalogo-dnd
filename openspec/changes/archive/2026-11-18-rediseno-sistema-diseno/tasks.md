@@ -111,8 +111,9 @@
 - [x] 6.4 Actualizar `CLAUDE.md` (stack sin `framer-motion`, sistema de
       diseño en `src/components/ui/` y tokens en `globals.css`) y el
       README si lo menciona; verificar con `just format-check`
-- [ ] 6.5 `just check` y `just build` en verde y revisión de la vista
-      previa de Cloudflare Pages de la rama; abrir el PR a `main`
+- [x] 6.5 `just check` y `just build` en verde, revisión del build en local
+      con `vite preview` (Cloudflare Pages solo despliega `main`, sin vistas
+      previas por rama) y PR a `main` (#85)
 
 ## Workflow follow-up
 
