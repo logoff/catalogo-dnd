@@ -11,6 +11,11 @@
   "date": "1986-05",
   "description": "Tras el Cataclismo, Raistlin y Crysania buscan el Portal que lleva al Abismo, el reino de la Reina de la Oscuridad, mientras Caramon descubre hasta dónde está dispuesto a llegar su hermano. El viaje los lleva a las tierras de los enanos, en plena guerra entre los enanos de Thorbardin y los que quedaron fuera de sus puertas.\n\nEs la segunda novela de las Leyendas de la Dragonlance. Narra la Guerra de Puerta de Enanos, un episodio clave de la historia de Krynn, y profundiza en la relación entre los gemelos Majere, el núcleo de la trilogía.",
   "source": "https://www.penguinrandomhouse.com/books/isbn/9798217094592",
+  "bestseller": {
+    "list": "paperback",
+    "date": "1986-07-20",
+    "source": "https://www.nytimes.com/1986/07/20/books/paperback-best-sellers-july-20-1986.html"
+  },
   "editions": [
     {
       "language": "english",

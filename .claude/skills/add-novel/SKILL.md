@@ -183,12 +183,24 @@ imágenes desde fuera del navegador: usa la de Amazon
    que falten; `--series <id>` para los recopilatorios). Convierte a WebP,
    crea la miniatura y anota `cover`. Revisa que ninguna sea un
    marcador vacío.
-8. **Descripción** de dos párrafos; pide al usuario que la revise en el
+8. **Reseñas y superventas.** Busca reseñas con las pautas de la skill
+   `add-review` (apartado «Novelas»): son opcionales. Comprueba también si
+   entró en la lista de superventas de The New York Times. La lista de
+   tapa dura de cada semana está en `https://www.hawes.com/<año>/<año>-<mes>-<día>.pdf`
+   (domingos, desde 1985): busca el título con la editorial (TSR,
+   Wizards of the Coast) en las semanas siguientes a su salida en tapa
+   dura. Si aparece, añade `bestseller` con `list: "hardcover"`, la fecha
+   de la primera semana y ese PDF como `source`. Para la lista de
+   bolsillo solo vale una fuente citable que nombre la lista y la fecha
+   (los artículos de Wikipedia suelen citar la lista del archivo del NYT,
+   `nytimes.com/<año>/<mes>/<día>/books/paperback-best-sellers-…`; usa
+   esa URL y la primera semana documentada); sin ella, no hay marca.
+9. **Descripción** de dos párrafos; pide al usuario que la revise en el
    primer lote.
-9. **Marcar la ficha en el inventario**: slug en «Ficha» y el estado del
+10. **Marcar la ficha en el inventario**: slug en «Ficha» y el estado del
    castellano (`sí (España): _título_`, `sí (fuera de España)` o
    `no consta`).
-10. **Verificar** con `just check` y, si hace falta, mira la ficha en
+11. **Verificar** con `just check` y, si hace falta, mira la ficha en
     `just dev` (`/novela/<slug>`).
 
 ## Ejemplos

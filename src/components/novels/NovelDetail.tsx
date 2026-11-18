@@ -24,6 +24,8 @@ import { formatPartialDate } from '@/utils/videogameTranslations'
 import ImageLightbox from '../common/ImageLightbox'
 import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
+import MediaReviews from '../common/MediaReviews'
+import NovelBestseller from './NovelBestseller'
 import NovelSpanishBadge from './NovelSpanishBadge'
 import { NOVEL_PLACEHOLDER } from './NovelCard'
 
@@ -159,6 +161,8 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
             </span>
           </div>
 
+          {novel.bestseller && <NovelBestseller bestseller={novel.bestseller} />}
+
           <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-gray-300">
             <DataRow
               label={novel.authors.length > 1 ? 'Autores' : 'Autor'}
@@ -194,6 +198,8 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
           )}
         </div>
       </div>
+
+      {novel.reviews?.length ? <MediaReviews reviews={novel.reviews} /> : null}
 
       <Section title="Ediciones en castellano">
         {spanishEditions.length > 0 ? (

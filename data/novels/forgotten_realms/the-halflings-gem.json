@@ -11,6 +11,11 @@
   "date": "1990-01",
   "description": "Artemis Entreri ha secuestrado a Regis y lo lleva a Calimport para entregarlo al bajá Pook. Drizzt, oculto tras una máscara mágica que disimula su raza, y Wulfgar viajan hacia el sur por la Costa de la Espada para rescatar a su amigo, sin saber si Bruenor y Catti-brie siguen con vida.\n\nCierra la trilogía del valle del Viento Helado. Fue el primer libro de Salvatore que entró en la lista de más vendidos de The New York Times.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?12808",
+  "bestseller": {
+    "list": "paperback",
+    "date": "1990-03-04",
+    "source": "https://www.nytimes.com/1990/03/04/books/paperback-best-sellers-march-4-1990.html"
+  },
   "editions": [
     {
       "language": "english",

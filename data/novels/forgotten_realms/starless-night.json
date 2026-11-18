@@ -11,6 +11,11 @@
   "date": "1993-08",
   "description": "Convencido de que su presencia pone en peligro a sus amigos, Drizzt regresa solo a Menzoberranzan para acabar con la amenaza de los drows. Catti-brie, decidida a no dejarlo solo, lo sigue a la Antípoda Oscura con la ayuda de un aliado poco fiable: el mercenario Jarlaxle.\n\nSegunda novela de El legado del drow.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?12393",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "1993-09-19",
+    "source": "https://www.hawes.com/1993/1993-09-19.pdf"
+  },
   "editions": [
     {
       "language": "english",

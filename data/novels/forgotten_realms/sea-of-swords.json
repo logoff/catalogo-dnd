@@ -11,6 +11,20 @@
   "date": "2001-10",
   "description": "Cuando aparece la marca de Aegis-fang, el martillo de Wulfgar, en la espalda de un forajido, Drizzt y sus compañeros salen en busca del bárbaro. Él, mientras tanto, navega con el capitán Deudermont tras la pista de la pirata Sheila Kree, que tiene ahora el martillo.\n\nCierra Sendas de tinieblas y reúne de nuevo a los Compañeros del Salón.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?24576",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2001-11-18",
+    "source": "https://www.hawes.com/2001/2001-11-18.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780786918980",
+      "language": "english",
+      "date": "2001-10-15",
+      "summary": "Una aventura ágil, con el grupo de Drizzt al rescate de Wulfgar, entre la capa y espada y el humor. Al ser el cuarto libro de una subserie, no es para quien llega de nuevas."
+    }
+  ],
   "editions": [
     {
       "language": "english",

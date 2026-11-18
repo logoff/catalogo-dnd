@@ -11,6 +11,20 @@
   "date": "2005-10",
   "description": "Entreri y Jarlaxle huyen al norte, hacia las Tierras de Piedra de Sangre, al servicio de dos dragonas de cobre. Allí se ven envueltos en el legado del rey brujo Zhengyi, cuyo poder sigue vivo en una tierra arrasada.\n\nSegunda novela de Los mercenarios.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?3536431",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2005-11-13",
+    "source": "https://www.hawes.com/2005/2005-11-13.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780786938230",
+      "language": "english",
+      "date": "2005-09-05",
+      "summary": "Acción constante con Jarlaxle y Entreri tras un artefacto del Rey Brujo: gustará a quien busque duelos de espada, intrigas y magia ingeniosa."
+    }
+  ],
   "editions": [
     {
       "language": "english",

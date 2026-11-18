@@ -11,6 +11,20 @@
   "date": "2006-10",
   "description": "Jarlaxle se ha propuesto convertirse en el gobernante de Vaasa, y Entreri, a su pesar, lo acompaña mientras las dragonas Ilnezhara y Tazmikella mueven sus propias piezas. El asesino empieza a hacerse preguntas sobre su pasado en Calimport.\n\nCierra la trilogía de Los mercenarios.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?185220",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2006-11-12",
+    "source": "https://www.hawes.com/2006/2006-11-12.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780786940752",
+      "language": "english",
+      "date": "2006-10-01",
+      "summary": "Una secuela sangrienta y sombría que ahonda en los traumas de Entreri y en el exilio de la pareja, hasta un desenlace sorprendente."
+    }
+  ],
   "editions": [
     {
       "language": "english",

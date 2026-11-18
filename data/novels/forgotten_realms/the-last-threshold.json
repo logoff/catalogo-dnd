@@ -11,6 +11,11 @@
   "date": "2013-03",
   "description": "Drizzt, Dahlia y Entreri viajan por Faerûn mientras el drow Tiago Baenre recluta a Bregan D'aerthe para cazar a Drizzt. Cansado de dudas y mentiras, el elfo oscuro emprende el camino hacia el valle del Viento Helado, el único lugar al que ha llamado hogar.\n\nCierra la saga Neverwinter.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?1553399",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2013-03-24",
+    "source": "https://www.hawes.com/2013/2013-03-24.pdf"
+  },
   "editions": [
     {
       "language": "english",

@@ -49,7 +49,7 @@ Abrir <http://localhost:5173/>.
 - `just check-videos` - Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube
 - `just check-scores` - Comprobar que las notas de Metacritic y OpenCritic de los videojuegos siguen al día
 - `just screenshots <slug> --steam` - Descargar las capturas oficiales de un videojuego desde Steam (o `--source <página> <url>…` para otras fuentes)
-- `just check-reviews` - Comprobar que los enlaces de las reseñas de los libros siguen vivos
+- `just check-reviews` - Comprobar que los enlaces de las reseñas de libros y novelas siguen vivos
 - `just reviews-coverage` - Listar los libros publicados que aún no tienen reseñas
 
 ## Reseñas de los libros
@@ -68,6 +68,16 @@ Las reseñas se dan de alta con la skill `add-review`.
 que redirigen a la portada del medio o cuyo dominio no responde. Los
 bloqueos (403, 429) no se cuentan como enlaces rotos. En GitHub Actions
 se ejecuta en cada PR, pero nunca hace fallar la build.
+
+## Reseñas y superventas de las novelas
+
+Las novelas pueden llevar reseñas de medios con el mismo formato y la
+misma lista de medios que los libros de rol, pero solo las que tengan
+una reseña enlazable: no hay cobertura obligatoria. Las que entraron en
+la lista de superventas de The New York Times llevan `bestseller`, con la
+primera semana, la lista (tapa dura o bolsillo) y la fuente; la ficha
+muestra «Superventas de The New York Times» con su enlace. No se muestran
+valoraciones de usuarios de ningún sitio.
 
 ## Vídeos de los videojuegos
 

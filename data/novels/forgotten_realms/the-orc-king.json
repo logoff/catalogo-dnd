@@ -11,6 +11,20 @@
   "date": "2007-09",
   "description": "Obould ha fundado el reino de Muchasflechas, y la paz entre orcos y enanos es frágil: muchos clanes orcos y muchos enanos de Mithril Hall quieren volver a la guerra. Drizzt se enfrenta a la idea de que un rey orco pueda ser algo más que una bestia.\n\nPrimera novela de la trilogía Transiciones.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?390171",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2007-10-14",
+    "source": "https://www.hawes.com/2007/2007-10-14.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780786943401",
+      "language": "english",
+      "date": "2007-08-27",
+      "summary": "Batallas bien coreografiadas y reflexiones de Drizzt sobre la posible convivencia entre orcos y enanos, que dan algo de hondura a una aventura de acción sin más pretensiones."
+    }
+  ],
   "editions": [
     {
       "language": "english",

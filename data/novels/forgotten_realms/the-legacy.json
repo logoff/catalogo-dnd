@@ -11,6 +11,11 @@
   "date": "1992-09",
   "description": "Bruenor ha recuperado Mithril Hall y Wulfgar está a punto de casarse con Catti-brie, pero el pasado de Drizzt no ha quedado atrás. Su hermana Vierna, alentada por la Reina Araña, prepara una venganza en la que se alían drows y viejos enemigos de los compañeros.\n\nPrimera novela de la tetralogía El legado del drow.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?12392",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "1992-09-27",
+    "source": "https://www.hawes.com/1992/1992-09-27.pdf"
+  },
   "editions": [
     {
       "language": "english",

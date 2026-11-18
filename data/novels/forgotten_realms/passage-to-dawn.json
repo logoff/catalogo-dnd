@@ -11,6 +11,11 @@
   "date": "1996-08",
   "description": "Seis años después del asedio de Mithril Hall, Drizzt y Catti-brie navegan por la Costa de la Espada a bordo del Duende del Mar. Un poema enigmático y un hechizo fallido los llevan de vuelta al valle del Viento Helado, donde el demonio Errtu les tiende una trampa con un cebo que no pueden ignorar.\n\nCierra la tetralogía El legado del drow.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?30013",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "1996-08-25",
+    "source": "https://www.hawes.com/1996/1996-08-25.pdf"
+  },
   "editions": [
     {
       "language": "english",

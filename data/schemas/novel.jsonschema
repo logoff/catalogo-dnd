@@ -75,6 +75,38 @@
             "type": "string",
             "format": "uri"
         },
+        "reviews": {
+            "type": "array",
+            "items": {
+                "$ref": "/schemas/review"
+            }
+        },
+        "bestseller": {
+            "description": "Primera semana en la lista de superventas de The New York Times, con la fuente que lo demuestra (el PDF de la lista en hawes.com o una fuente citable)",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "list",
+                "date",
+                "source"
+            ],
+            "properties": {
+                "list": {
+                    "enum": [
+                        "hardcover",
+                        "paperback"
+                    ]
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "source": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
+        },
         "editions": {
             "type": "array",
             "minItems": 1,

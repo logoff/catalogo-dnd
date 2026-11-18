@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 import novelSchemaSource from '/data/schemas/novel.jsonschema?raw'
+import reviewSchemaSource from '/data/schemas/review.jsonschema?raw'
 import seriesSchemaSource from '/data/schemas/novel-series.jsonschema?raw'
 import anthologySchemaSource from '/data/schemas/novel-anthology.jsonschema?raw'
 import inventory from '/data/novels/inventory.md?raw'
@@ -10,6 +11,8 @@ import { isValidIsbn13 } from '@/utils/isbn'
 import { getAllProducts } from './dataLoader'
 import { getAllVideogames } from './videogameLoader'
 import { getAllMerchandise } from './merchandiseLoader'
+import { getReviewOutlet } from './reviewOutlets'
+import { reviewProblems } from '@/utils/reviewRules'
 import novelsIndex from 'virtual:novels-index'
 import { anthologiesFor, compareByDate, enrichNovel, mainCover } from '@/utils/novels'
 import { getCachedNovel, getNovelIndex, loadNovel, preloadNovelRoute } from './novelLoader'
@@ -17,6 +20,7 @@ import { getCachedNovel, getNovelIndex, loadNovel, preloadNovelRoute } from './n
 const ajv = new Ajv({ allErrors: true })
 addFormats(ajv)
 const novelSchema = JSON.parse(novelSchemaSource)
+ajv.addSchema(JSON.parse(reviewSchemaSource))
 ajv.addSchema(novelSchema)
 const validate = ajv.getSchema(novelSchema.$id)!
 const validateSeries = ajv.compile(JSON.parse(seriesSchemaSource))
@@ -74,6 +78,27 @@ const collection = (overrides: Partial<NovelCollection> = {}): NovelCollection =
 describe('esquema de novelas', () => {
   it('acepta una novela mínima', () => {
     expect(validate(minimalNovel)).toBe(true)
+  })
+
+  it('acepta reseñas y la marca de superventas, que exige lista conocida y fuente', () => {
+    const bestseller = {
+      list: 'hardcover' as const,
+      date: '1992-09-27',
+      source: 'https://www.hawes.com/1992/1992-09-27.pdf',
+    }
+    const review = {
+      outlet: 'reactor',
+      url: 'https://reactormag.com/resena',
+      language: 'english' as const,
+      date: '2020-01-01',
+      summary: 'Resumen propio.',
+    }
+    expect(validate({ ...minimalNovel, reviews: [review], bestseller })).toBe(true)
+    expect(validate({ ...minimalNovel, bestseller: { ...bestseller, source: undefined } })).toBe(
+      false
+    )
+    expect(validate({ ...minimalNovel, bestseller: { ...bestseller, list: 'ebook' } })).toBe(false)
+    expect(validate({ ...minimalNovel, reviews: [{ ...review, summary: undefined }] })).toBe(false)
   })
 
   it('acepta audiolibros con narrador y duración, pero no esos campos en otros formatos', () => {
@@ -293,6 +318,37 @@ describe('compareByDate', () => {
       .sort(compareByDate)
       .map((n) => n.title)
     expect(sorted).toEqual(['Nueva', 'Vieja', 'Sin fecha'])
+  })
+})
+
+describe('reseñas de novelas', () => {
+  const review = {
+    outlet: 'reactor',
+    url: 'https://reactormag.com/resena',
+    language: 'english' as const,
+    date: '2020-01-01',
+    summary: 'Resumen propio.',
+  }
+  const problems = (reviews: (typeof review & { score?: number })[]) =>
+    reviewProblems('novela', reviews, getReviewOutlet)
+
+  it('los datos reales cumplen las reglas', () => {
+    expect(
+      novels.flatMap((novel) => reviewProblems(novel.slug, novel.reviews ?? [], getReviewOutlet))
+    ).toEqual([])
+  })
+
+  it('el medio tiene que estar en la lista', () => {
+    expect(problems([{ ...review, outlet: 'blog-de-un-amigo' }])).toHaveLength(1)
+  })
+
+  it('la nota tiene que caber en la escala del medio', () => {
+    expect(problems([{ ...review, outlet: 'wargamer', score: 12 }])).toHaveLength(1)
+    expect(problems([{ ...review, score: 8 }])).toHaveLength(1)
+  })
+
+  it('una novela no repite la URL de una reseña', () => {
+    expect(problems([review, review])).toHaveLength(1)
   })
 })
 

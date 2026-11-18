@@ -11,6 +11,11 @@
   "date": "2011-10",
   "description": "Solo por primera vez en un siglo, Drizzt viaja con Dahlia, una elfa de oscuros secretos, que quiere vengarse de los responsables de la destrucción de Neverwinter. Sus métodos lo obligan a replantearse la frontera entre el bien y el mal.\n\nSegunda novela de la saga Neverwinter.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?1323092",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2011-10-23",
+    "source": "https://www.hawes.com/2011/2011-10-23.pdf"
+  },
   "editions": [
     {
       "language": "english",

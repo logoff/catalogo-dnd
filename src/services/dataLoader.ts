@@ -1,6 +1,5 @@
-import type { Product, ProductWithMeta, Language, Edition, ReviewOutlet } from '@/types'
+import type { Product, ProductWithMeta, Language, Edition } from '@/types'
 import { slugify } from '@/utils/formatters'
-import reviewOutlets from '../../data/review-outlets.json'
 
 // Import all JSON files at build time
 const productModules = import.meta.glob<Product>('/data/**/products/**/*.json', {
@@ -159,16 +158,4 @@ export function getAllProducts(): ProductWithMeta[] {
     cachedProducts = loadAllProducts()
   }
   return cachedProducts
-}
-
-// Medios aceptados para las reseñas de los libros
-const outlets = reviewOutlets as ReviewOutlet[]
-const outletsById = new Map(outlets.map((outlet) => [outlet.id, outlet]))
-
-export function getAllReviewOutlets(): ReviewOutlet[] {
-  return outlets
-}
-
-export function getReviewOutlet(id: string): ReviewOutlet | undefined {
-  return outletsById.get(id)
 }
