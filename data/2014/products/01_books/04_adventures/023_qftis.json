@@ -1,6 +1,17 @@
 {
   "code": "QFTIS",
   "description": "Quests from the Infinite Staircase es una antología que recupera aventuras clásicas de ediciones anteriores, adaptadas a la quinta edición y unidas por la Escalera Infinita, un pasaje mágico que conecta distintos mundos. Cubre los niveles 1 a 13.\n\nFue la última aventura publicada con las reglas de 2014 antes de la revisión de 2024. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/quests-from-the-infinite-staircase-review",
+      "language": "english",
+      "date": "2024-07-11",
+      "author": "Mollie Russell",
+      "score": 8,
+      "summary": "Una antología variada que merece la pena, con aventuras clásicas adaptadas a las reglas de 2024. Gustará más a quien disfrute de mazmorras y combate a la antigua; quien busque historia profunda o mucha interpretación la encontrará menos atractiva."
+    }
+  ],
   "publications": [
     {
       "type": "book",

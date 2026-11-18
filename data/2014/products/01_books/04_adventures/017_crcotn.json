@@ -1,6 +1,25 @@
 {
   "code": "CRCOTN",
   "description": "Critical Role Presents: Call of the Netherdeep es una campaña ambientada en Exandria, el mundo de Critical Role. Los personajes compiten con un grupo rival de aventureros mientras siguen el rastro de una antigua tragedia que conduce a las profundidades del Netherdeep. Cubre los niveles 3 a 12.\n\nEncaja especialmente con seguidores de la serie, aunque no hace falta conocerla. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "cgmagazine",
+      "url": "https://www.cgmagonline.com/review/tabletop/critical-role-call-of-the-netherdeep/",
+      "language": "english",
+      "date": "2022-03-15",
+      "author": "Chris de Hoog",
+      "score": 9,
+      "summary": "Una campaña de referencia que lleva a la mesa el juego de alto nivel de la serie, con un poco de todo y una historia épica. Los novatos pueden sentirse abrumados, pero quien la complete saldrá mejor jugador."
+    },
+    {
+      "outlet": "techraptor",
+      "url": "https://techraptor.net/tabletop/reviews/critical-role-call-of-netherdeep-review",
+      "language": "english",
+      "date": "2022-04-22",
+      "author": "Andrew Stretch",
+      "summary": "La aventura que esperaban los seguidores de Critical Role: mucha historia, gran aventura y algún giro, tan disfrutable para el DM como para el grupo. Se echan de menos opciones de personaje nuevas."
+    }
+  ],
   "publications": [
     {
       "type": "book",

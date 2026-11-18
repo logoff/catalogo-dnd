@@ -1,6 +1,16 @@
 {
   "code": "ROT",
   "description": "The Rise of Tiamat es la segunda mitad de Tyranny of Dragons. Tras frustrar los primeros planes del Culto del Dragón, los personajes tienen que forjar alianzas entre las facciones de la Costa de la Espada para impedir que Tiamat llegue a los Reinos. Cubre aproximadamente los niveles 8 a 15 y culmina en un enfrentamiento de escala épica.\n\nHoy es más práctico jugarla dentro del recopilatorio Tyranny of Dragons. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "tribality",
+      "url": "https://www.tribality.com/2014/10/28/the-rise-of-tiamat-review/",
+      "language": "english",
+      "date": "2014-10-28",
+      "author": "Michael Long",
+      "summary": "Bien montada y con muy buen diseño: las alianzas entre facciones y el Consejo de Aguas Profundas dan una experiencia absorbente, y el final contra Tiamat será un gran reto que puede acabar en derrota. Un cierre épico para la campaña."
+    }
+  ],
   "publications": [
     {
       "type": "book",

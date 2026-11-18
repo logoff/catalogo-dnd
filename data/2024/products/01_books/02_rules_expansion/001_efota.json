@@ -1,6 +1,17 @@
 {
   "code": "EFotA",
   "description": "Eberron: Forge of the Artificer actualiza Eberron a las reglas de 2024. Incluye la clase artífice revisada con cuatro subclases actualizadas y una nueva, el Cartographer; cinco especies, dieciocho trasfondos y veintiocho dotes, con las marcas de dragón ya desligadas de especies concretas. Para el Dungeon Master propone tres estilos de campaña (noir, thriller político y aventura pulp) con monstruos para cada uno.\n\nEs el sucesor de Eberron: Rising From the Last War. De momento solo está en inglés.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/forge-of-the-artificer-review",
+      "language": "english",
+      "date": "2025-12-17",
+      "author": "Mollie Russell",
+      "score": 7,
+      "summary": "Cumple lo que promete: el artífice para las reglas de 2024, buenas opciones de personaje y unas bases de operaciones con ventajas reales. Los capítulos de marcos de campaña son escasos y poco inspiradores; no esperes mucho trasfondo."
+    }
+  ],
   "publications": [
     {
       "type": "book",

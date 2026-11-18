@@ -1,6 +1,23 @@
 {
   "code": "CM",
   "description": "Candlekeep Mysteries es una antología de diecisiete aventuras cortas que parten de libros guardados en Candlekeep, la gran biblioteca fortificada de la Costa de la Espada. Cada aventura gira en torno a un misterio y cubre desde el nivel 1 hasta el 16.\n\nAl ser independientes, son muy útiles como sesiones sueltas o para intercalarlas en una campaña propia. No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/candlekeep-mysteries-review",
+      "language": "english",
+      "date": "2021-03-29",
+      "author": "Alex Evans",
+      "summary": "Le encanta: aventuras cortas, densas e imaginativas en torno a libros misteriosos, con avances en diversidad, gran redacción y una edición preciosa. Imprescindible, aunque la premisa puede resultar algo cursi."
+    },
+    {
+      "outlet": "tabletopgaming",
+      "url": "https://www.tabletopgaming.co.uk/reviews/candlekeep-mysteries-review/",
+      "language": "english",
+      "date": "2021-04-20",
+      "summary": "Ilustraciones encantadoras y aventuras autoconclusivas que no exigen meses de campaña, lo que lo hace facilísimo de usar y de recomendar a casi cualquier grupo. Algunas aventuras cuestan de entender en la primera lectura."
+    }
+  ],
   "publications": [
     {
       "type": "book",

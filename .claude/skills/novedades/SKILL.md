@@ -24,7 +24,8 @@ Además, busca productos anunciados que **aún no estén en el catálogo**.
 
 También lista los **videojuegos** anunciados y los que se venden con el
 castellano sin dato, que figuran como solo en inglés (ver el apartado 7).
-Para los vídeos de las fichas, ejecuta también `just check-videos`.
+Para los vídeos de las fichas, ejecuta también `just check-videos`, y
+para las reseñas de los libros, `just check-reviews` (ver el apartado 8).
 
 ## 2. Inglés
 
@@ -124,3 +125,19 @@ buen momento para volver a compartir la guía.
 
 Igual que con los libros, presenta lo encontrado al usuario antes de
 cambiar los datos.
+
+## 8. Reseñas
+
+- **Libros recientes**: para los libros publicados en inglés en los
+  últimos tres meses, busca reseñas nuevas con las pautas de la skill
+  `add-review` (medios, campos y resumen propio). Las reseñas suelen
+  aparecer entre la semana del lanzamiento y un mes después.
+- **Libros recién publicados sin reseña**: `just reviews-coverage` los
+  lista. Un test exige al menos una a los libros publicados hace más de
+  90 días.
+- **Ediciones en castellano recién salidas**: busca análisis de la
+  edición española y márcalos con `spanish_edition`.
+- **Enlaces**: ejecuta `just check-reviews` y, si avisa de una reseña
+  que ya no existe, busca su nueva URL o quítala.
+
+Presenta las reseñas propuestas al usuario antes de añadirlas.

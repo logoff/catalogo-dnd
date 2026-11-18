@@ -1,6 +1,15 @@
 {
   "code": "GOS",
   "description": "Fantasmas de Saltmarsh reúne siete aventuras náuticas en torno al pueblo pesquero de Saltmarsh, entre ellas una versión actualizada de la clásica serie de módulos de los años ochenta. Incluye reglas para barcos, combate naval y viajes por mar, y cubre los niveles 1 a 12.\n\nLas aventuras se pueden jugar encadenadas o sueltas, y el material de barcos es útil en cualquier campaña costera. En castellano la publicó Edge Entertainment en 2021.",
+  "reviews": [
+    {
+      "outlet": "tabletopgaming",
+      "url": "https://www.tabletopgaming.co.uk/reviews/dungeons-dragons-ghosts-of-saltmarsh-rpg-review/",
+      "language": "english",
+      "date": "2019-09-06",
+      "summary": "Funciona mejor como columna vertebral de una campaña propia que como historia cerrada, y pocas aventuras se prestan tanto a ello. Si al grupo le atraen las aventuras en el mar, es una compra fácil, para jugarla entera o tomar ideas."
+    }
+  ],
   "publications": [
     {
       "type": "book",

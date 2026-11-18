@@ -1,6 +1,17 @@
 {
   "code": "AUD",
   "description": "Arcana Unleashed: Deadfall es la aventura que acompaña a Arcana Unleashed y lleva a la mesa su ambientación de alta magia. Se publicó a la vez que el libro principal, con portada normal y alternativa.\n\nNecesita Arcana Unleashed para sacarle todo el partido. De momento solo está en inglés.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/arcana-unleashed-deadfall-review",
+      "language": "english",
+      "date": "2026-08-26",
+      "author": "Mollie Russell",
+      "score": 6,
+      "summary": "Una aventura de combate implacable con una historia superficial; el enfrentamiento con Szass Tam puede aniquilar al grupo sin darle opción. Los amantes del castigo disfrutarán, pero muchos lo verán injusto."
+    }
+  ],
   "publications": [
     {
       "type": "book",

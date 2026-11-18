@@ -1,6 +1,24 @@
 {
   "code": "WDH",
   "description": "Waterdeep: El Golpe de los Dragones es una aventura urbana en Waterdeep: un tesoro de medio millón de piezas de oro ha desaparecido y varias facciones se lo disputan. El Dungeon Master elige uno de cuatro villanos, cada uno asociado a una estación del año, lo que cambia el desarrollo de la trama. Cubre los niveles 1 a 5.\n\nEs una buena primera campaña para grupos que prefieren la intriga a las mazmorras. Continúa de forma natural en Waterdeep: La Mazmorra del Mago Loco. En castellano la publicó Edge Entertainment en 2020.",
+  "reviews": [
+    {
+      "outlet": "tabletopgaming",
+      "url": "https://www.tabletopgaming.co.uk/reviews/dungeons-dragons-waterdeep-dragon-heist-rpg-review/",
+      "language": "english",
+      "date": "2018-12-20",
+      "summary": "Original y con muchas vías para que el grupo se enrede en la vida de la ciudad, aunque seguir a tantos personajes cuesta y no tiene índice. Mucho material se quedará sin usar, pero es una campaña completa que no exige un año de partidas."
+    },
+    {
+      "outlet": "gamingtrend",
+      "url": "https://gamingtrend.com/reviews/no-heist-but-much-to-offer-waterdeep-dragonheist-review/",
+      "language": "english",
+      "date": "2019-02-14",
+      "author": "John Farrell",
+      "score": 65,
+      "summary": "Como aventura le parece poco inspirada, pero como recurso para partidas urbanas es valioso: facciones, mazmorras, objetos y monstruos para construir aventuras propias en Aguas Profundas. Atraerá a un público limitado."
+    }
+  ],
   "publications": [
     {
       "type": "book",

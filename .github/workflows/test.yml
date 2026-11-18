@@ -31,3 +31,8 @@ jobs:
       - name: Check videos
         run: node scripts/check-videos.mjs
         continue-on-error: true
+
+      # Solo avisa de reseñas con enlace roto; nunca hace fallar la build
+      - name: Check reviews
+        run: node scripts/check-reviews.mjs
+        continue-on-error: true

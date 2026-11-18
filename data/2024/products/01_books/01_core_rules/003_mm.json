@@ -1,6 +1,16 @@
 {
   "code": "MM",
   "description": "El Manual de Monstruos de 2025 completa los tres libros básicos de la revisión de 2024. Reúne más de quinientos perfiles de criaturas, con monstruos revisados y nuevos, más fáciles de usar en mesa, y añade información de hábitats y tesoros para cada criatura.\n\nEs compatible con las aventuras de 2014: sustituye sin problemas al Manual de Monstruos original. En castellano lo publicó Wizards of the Coast en 2025.",
+  "reviews": [
+    {
+      "outlet": "belloflostsouls",
+      "url": "https://www.belloflostsouls.net/2025/02/dd-the-2025-monster-manual-first-impressions-review.html",
+      "language": "english",
+      "date": "2025-02-18",
+      "author": "J.R. Zambrano",
+      "summary": "Un libro básico sólido: da al DM montones de monstruos ajustados al nuevo nivel de poder de los personajes de 5.5E, con mejoras de reglas y de trasfondo. Algún detalle chirría, como armas que hacen más daño en manos de monstruos."
+    }
+  ],
   "publications": [
     {
       "type": "book",

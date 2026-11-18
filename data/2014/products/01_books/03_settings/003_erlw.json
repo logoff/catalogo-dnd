@@ -1,6 +1,16 @@
 {
   "code": "ERLW",
   "description": "Eberron: Rising From the Last War presenta Eberron, un mundo de fantasía pulp y noir donde la magia funciona casi como tecnología: trenes de rayos, naves aéreas y una guerra recién terminada. Introduce la clase artífice, las marcas de dragón y razas como changelings, kalashtar, shifters y warforged, además de Sharn, la ciudad de las torres.\n\nSu revisión para las reglas de 2024 es Eberron: Forge of the Artificer (2025). No se publicó en castellano.",
+  "reviews": [
+    {
+      "outlet": "belloflostsouls",
+      "url": "https://www.belloflostsouls.net/2019/11/dd-eberron-rising-from-the-last-war-the-bols-review.html",
+      "language": "english",
+      "date": "2019-11-19",
+      "author": "J.R. Zambrano",
+      "summary": "Todo lo que se puede pedir a un libro de ambientación: un mapa lleno de lugares interesantes, opciones de personaje y consejos excelentes para dirigir en Eberron. Sus reglas para crear aventuras y sus objetos mágicos sirven para cualquier campaña."
+    }
+  ],
   "publications": [
     {
       "type": "book",

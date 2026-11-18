@@ -48,6 +48,25 @@ Abrir <http://localhost:5173/>.
 - `just video-thumbnails` - Descargar las miniaturas que falten de los vídeos de los videojuegos
 - `just check-videos` - Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube
 - `just screenshots <slug> --steam` - Descargar las capturas oficiales de un videojuego desde Steam (o `--source <página> <url>…` para otras fuentes)
+- `just check-reviews` - Comprobar que los enlaces de las reseñas de los libros siguen vivos
+- `just reviews-coverage` - Listar los libros publicados que aún no tienen reseñas
+
+## Reseñas de los libros
+
+Los libros de 2014 y 2024 llevan en el campo `reviews` reseñas de medios
+reputados: el medio, el enlace, el idioma, la fecha, el autor y la nota
+en la escala del propio medio si la tiene, más un resumen propio en
+castellano. La marca `spanish_edition` indica las que valoran la edición
+en castellano o su traducción. Los medios aceptados, con su escala, están
+en `data/review-outlets.json`, y los tests rechazan las reseñas de medios
+que no están en la lista. La ficha muestra cada reseña por separado: no
+se calcula ninguna media ni se emiten datos estructurados de valoración.
+Las reseñas se dan de alta con la skill `add-review`.
+
+`just check-reviews` avisa de las reseñas que ya no existen (404 o 410),
+que redirigen a la portada del medio o cuyo dominio no responde. Los
+bloqueos (403, 429) no se cuentan como enlaces rotos. En GitHub Actions
+se ejecuta en cada PR, pero nunca hace fallar la build.
 
 ## Vídeos de los videojuegos
 

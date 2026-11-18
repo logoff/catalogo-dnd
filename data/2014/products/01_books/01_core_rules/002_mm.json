@@ -1,6 +1,23 @@
 {
   "code": "MM",
   "description": "El Manual de Monstruos reúne cientos de criaturas listas para usar, desde goblins y lobos hasta dragones, contempladores y liches. Cada entrada combina el perfil de la criatura con información sobre su comportamiento, su guarida o su papel en el mundo, lo que lo hace útil tanto para preparar combates como para inspirarse al diseñar aventuras.\n\nEs un libro para quien dirige la partida. Salió en castellano con Edge Entertainment en 2017 y Wizards of the Coast lo reeditó en 2021. Su sucesor para las reglas de 2024 es el Manual de Monstruos de 2025.",
+  "reviews": [
+    {
+      "outlet": "escapist",
+      "url": "https://www.escapistmagazine.com/dd-monster-manual-review-one-badass-bestiary/",
+      "language": "english",
+      "date": "2014-09-15",
+      "summary": "Un bestiario a la antigua, con descripciones que inspiran y reglas coherentes; las acciones de guarida y los efectos regionales dan vida a los grandes enemigos. Las pegas: alguna rareza de reglas y que no deje clara la dificultad de cada criatura."
+    },
+    {
+      "outlet": "reactor",
+      "url": "https://reactormag.com/book-review-dungeons-a-dragons-5th-editions-qmonster-manualq/",
+      "language": "english",
+      "date": "2014-12-23",
+      "author": "Mordicai Knode",
+      "summary": "Brilla en lo narrativo: cada monstruo trae ideas de aventura que resumen su historia en las ediciones anteriores. Las reglas cumplen, aunque el autor esperaba mecánicas más atrevidas."
+    }
+  ],
   "publications": [
     {
       "type": "book",

@@ -1,6 +1,26 @@
 {
   "code": "PHB",
   "description": "El Manual del Jugador de 2024 es la revisión de las reglas de la quinta edición, conocida a menudo como 5.5E. Mantiene la base del juego, pero reorganiza la creación de personajes: los trasfondos dan los aumentos de característica y una dote de origen, las especies se separan de las estadísticas, las doce clases y sus subclases se revisan a fondo y aparece la maestría con armas.\n\nEs compatible con las aventuras de 2014, que pueden seguir usándose. Existe con portada normal y con portada alternativa, y en castellano lo publicó Wizards of the Coast en 2025.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/2024-players-handbook-review",
+      "language": "english",
+      "date": "2024-08-01",
+      "author": "Mollie Russell",
+      "score": 9,
+      "summary": "Se sigue jugando como la quinta edición, pero es más fácil de aprender y las opciones de personaje ganan fuerza; la maestría con armas es lo mejor del libro. Los nuevos trasfondos limitan las combinaciones de características y aún es pronto para juzgar el equilibrio."
+    },
+    {
+      "outlet": "vidaextra",
+      "url": "https://www.vidaextra.com/analisis/nuevo-manual-jugador-dungeons-dragons-llego-fin-a-espana-estos-cambios-mi-experiencia",
+      "language": "castellano",
+      "date": "2025-05-09",
+      "author": "Frankie MB",
+      "summary": "Análisis de la edición española: el grueso de los cambios llega para quedarse y quien se estrene lo tendrá más fácil. La edición en castellano solo pierde la serigrafía dorada de la contraportada y adapta los nombres de los ejemplos.",
+      "spanish_edition": true
+    }
+  ],
   "publications": [
     {
       "type": "book",

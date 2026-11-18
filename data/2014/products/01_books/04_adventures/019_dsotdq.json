@@ -1,6 +1,17 @@
 {
   "code": "DSOTDQ",
   "description": "Dragonlance: La sombra de la Reina de los dragones devuelve a D&D el mundo de Krynn, durante la Guerra de la Lanza. Los personajes viven el conflicto desde dentro, con reglas de combate de masas para las grandes batallas, un trasfondo y una raza jugable nuevos. Cubre los niveles 1 a 11.\n\nEs la puerta de entrada a Dragonlance para la quinta edición. En castellano la publicó Wizards of the Coast en 2023.",
+  "reviews": [
+    {
+      "outlet": "wargamer",
+      "url": "https://www.wargamer.com/dnd/dragonlance-shadow-of-the-dragon-queen-review",
+      "language": "english",
+      "date": "2022-12-09",
+      "author": "Mollie Russell",
+      "score": 8,
+      "summary": "Un Krynn moderno, accesible y emocionante, que sirve tanto a novatos como a veteranos, con una campaña llena de giros y un gran principio y final. Las opciones de personaje se quedan en correctas y algún capítulo parece de relleno."
+    }
+  ],
   "publications": [
     {
       "type": "book",
