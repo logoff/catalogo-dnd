@@ -15,5 +15,14 @@
       "date": "2003-09-16"
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 72,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-heroes/",
+      "platform": "xbox"
+    }
+  ],
   "images": ["/images/videogames/dungeons-and-dragons-heroes/0.jpg"]
 }

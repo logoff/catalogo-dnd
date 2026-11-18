@@ -176,6 +176,14 @@
       "url": "https://www.metacritic.com/game/baldurs-gate-enhanced-edition/",
       "platform": "pc_windows",
       "edition": "Enhanced Edition"
+    },
+    {
+      "source": "metacritic",
+      "score": 72,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-and-baldurs-gate-ii-enhanced-editions/",
+      "platform": "switch",
+      "edition": "Enhanced Edition"
     }
   ],
   "images": ["/images/videogames/baldurs-gate/0.png", "/images/videogames/baldurs-gate/1.jpg"],

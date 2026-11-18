@@ -40,6 +40,15 @@
       ]
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 57,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/pool-of-radiance-ruins-of-myth-drannor/",
+      "platform": "pc_windows"
+    }
+  ],
   "images": ["/images/videogames/pool-of-radiance-ruins-of-myth-drannor/0.png"],
   "videos": [
     {

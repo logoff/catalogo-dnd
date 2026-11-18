@@ -36,6 +36,28 @@
       "delisted": true
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 53,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-dark-alliance/",
+      "platform": "pc_windows"
+    },
+    {
+      "source": "metacritic",
+      "score": 57,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-dark-alliance/",
+      "platform": "ps5"
+    },
+    {
+      "source": "opencritic",
+      "score": 58,
+      "scale": 100,
+      "url": "https://opencritic.com/game/11567/dungeons-dragons-dark-alliance"
+    }
+  ],
   "related_products": [
     {
       "edition": "5e",

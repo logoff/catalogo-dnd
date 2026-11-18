@@ -34,3 +34,15 @@ export function allVideos() {
     }))
   })
 }
+
+// Notas de agregadores de todas las fichas, con la ruta del JSON
+export function allScores() {
+  return walk(VIDEOGAMES_DIR).flatMap((file) => {
+    const game = JSON.parse(readFileSync(file, 'utf-8'))
+    return (game.reviews ?? []).map((review) => ({
+      file: relative(ROOT, file),
+      slug: game.slug,
+      review,
+    }))
+  })
+}

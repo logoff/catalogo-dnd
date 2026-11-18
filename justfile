@@ -129,6 +129,10 @@ check-videos:
 check-reviews:
     node scripts/check-reviews.mjs
 
+# Comprobar que las notas de Metacritic y OpenCritic siguen al día (solo avisa)
+check-scores:
+    node scripts/check-scores.mjs
+
 # Listar los libros publicados que aún no tienen reseñas
 reviews-coverage:
     node scripts/reviews-coverage.mjs

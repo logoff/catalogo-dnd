@@ -68,13 +68,18 @@ describe('ReviewScore', () => {
     expect(link).toHaveTextContent('96/100Metacritic (Windows)')
   })
 
-  it('usa coma decimal en notas sobre 10', () => {
+  it('muestra la nota de OpenCritic sin plataforma', () => {
     render(
       <ReviewScore
-        review={{ source: 'vandal', score: 9.2, scale: 10, url: 'https://vandal.elespanol.com/x' }}
+        review={{
+          source: 'opencritic',
+          score: 96,
+          scale: 100,
+          url: 'https://opencritic.com/game/9136/baldurs-gate-3',
+        }}
       />
     )
-    expect(screen.getByRole('link')).toHaveTextContent('9,2/10Vandal')
+    expect(screen.getByRole('link')).toHaveTextContent('96/100OpenCritic')
   })
 })
 

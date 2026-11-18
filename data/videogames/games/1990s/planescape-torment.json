@@ -140,6 +140,13 @@
       "url": "https://www.metacritic.com/game/planescape-torment-enhanced-edition/",
       "platform": "pc_windows",
       "edition": "Enhanced Edition"
+    },
+    {
+      "source": "opencritic",
+      "score": 73,
+      "scale": 100,
+      "url": "https://opencritic.com/game/8418/planescape-torment-icewind-dale-enhanced-edition-pack",
+      "edition": "Enhanced Edition"
     }
   ],
   "official_url": "https://www.beamdog.com/games/planescape-torment-enhanced/",

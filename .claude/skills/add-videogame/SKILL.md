@@ -28,10 +28,10 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
 - **Ediciones y DLC dentro del juego.** Enhanced/Definitive Edition y
   relanzamientos son lanzamientos con `edition`; las expansiones van en
   `expansions`, salvo las que se vendieron como juego independiente.
-- **Notas solo de las fuentes admitidas:** Metacritic, OpenCritic,
-  Meristation, Vandal, 3DJuegos, IGN, GameSpot, PC Gamer, Eurogamer,
-  GameSpy y Computer Gaming World. Solo la cifra, la escala y el enlace.
-  MobyGames no es fuente de notas.
+- **Notas solo de agregadores:** Metacritic y OpenCritic, como dato
+  citado: la cifra, la escala y el enlace a la página del juego en el
+  agregador. Nada de notas de medios sueltos ni de MobyGames. Las páginas
+  sin nota (pocas críticas) no se guardan. Detalles en el paso 5.
 - **URLs de compra limpias**, sin parámetros de afiliado: el afiliado se
   añade en el build (`src/utils/stores.ts`). No enlazar a tiendas que no
   estén en el enum `store` del esquema. Si el juego se vende en Steam o
@@ -61,7 +61,7 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
 | Castellano de lo que se vende hoy | API de Steam: `https://store.steampowered.com/api/appdetails?appids=<id>&l=english` (`supported_languages`; un `*` marca voces) y la ficha de GOG |
 | Castellano de juegos antiguos | Caja o manual español, medios españoles de la época |
 | Dónde se vende | API de GOG `https://catalog.gog.com/v1/catalog?query=like:<título>&countryCode=ES` y búsqueda de Steam `https://store.steampowered.com/api/storesearch/?term=<título>&cc=ES` |
-| Notas | Metacritic, OpenCritic y los medios admitidos |
+| Notas | JSON-LD (`aggregateRating`) de la página de Metacritic (`/game/<slug>/`) y de OpenCritic |
 | Portada | Imagen de la infobox de Wikipedia (API `prop=imageinfo`) o `library_600x900.jpg` de Steam |
 | Capturas | Página de Steam (`just screenshots <slug> --steam` las toma de su API) o capturas de la ficha de GOG, la web oficial o el kit de prensa |
 | Vídeos | Canal de YouTube de la editora o la desarrolladora (enlazado desde la web oficial), nota de prensa del lanzamiento y página de Steam; canal y título exactos con `https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/watch?v=<id>` (`author_name`, `title`) y fecha en la página del vídeo (`"uploadDate"`) |
@@ -81,25 +81,38 @@ archivado la change, de `openspec/changes/add-videojuegos/specs/`).
    oEmbed) y `date` (`AAAA-MM-DD`). Después, `just video-thumbnails`
    descarga sus miniaturas y `just check-videos` comprueba que se pueden
    empotrar y que el canal coincide.
-5. **Escribir el JSON** en `data/videogames/games/<década>s/<slug>.json`
+5. **Notas.** Busca la página del juego en Metacritic (prueba
+   `https://www.metacritic.com/game/<slug>/`, con y sin
+   `dungeons-dragons-` delante) y en OpenCritic, y comprueba que es el
+   mismo juego por el nombre y el año: hay homónimos. La nota de
+   Metacritic es la del JSON-LD (`aggregateRating.ratingValue`) y
+   corresponde a la plataforma principal de la página: la del desglose
+   «All Platforms» con el mismo número de críticas que `reviewCount`
+   (sin desglose, la primera de la lista de plataformas). Va la primera
+   de las notas de esa URL, con su `platform`. Las demás plataformas del
+   desglose se añaden solo si su cifra es distinta. Una Enhanced Edition o
+   un recopilatorio con página propia es una nota aparte con `edition`.
+   OpenCritic agrega todas las plataformas: una nota sin `platform`.
+   Después ejecuta `just check-scores`.
+6. **Escribir el JSON** en `data/videogames/games/<década>s/<slug>.json`
    (por ejemplo `1990s/baldurs-gate.json`). El nombre del archivo es el
    slug, en kebab-case. Esquema: `data/schemas/videogame.jsonschema`.
    Campos obligatorios: `slug`, `title`, `description`, `developers`,
    `publishers`, `genres` y `releases`.
-6. **Añadir capturas** con el JSON ya escrito. Si tiene enlace a Steam,
+7. **Añadir capturas** con el JSON ya escrito. Si tiene enlace a Steam,
    `just screenshots <slug> --steam` descarga las seis primeras de su
    página; si no, `just screenshots <slug> --source <página oficial>
    <url imagen>…` con las que elijas. El script las convierte a WebP
    (ampliada y miniatura) y las anota en `screenshots` con su fuente.
    Revisa las imágenes y quita las que no sean capturas del juego
    (borra la entrada y sus dos archivos).
-7. **Descripción propia de dos párrafos** separados por `\n\n`: qué es
+8. **Descripción propia de dos párrafos** separados por `\n\n`: qué es
    el juego y en qué mundo y reglas se basa; para quién es, cómo se
    juega hoy y si está en castellano. Sin copiar textos de tiendas ni
    reseñas. Pide al usuario que la revise.
-8. **Marcar la ficha en el inventario**: cambia `pendiente` por el slug
+9. **Marcar la ficha en el inventario**: cambia `pendiente` por el slug
    en la columna «Ficha».
-9. **Verificar** con `just check` (los tests validan el esquema, la
+10. **Verificar** con `just check` (los tests validan el esquema, la
    descripción, las imágenes, las miniaturas de los vídeos, las capturas, las URLs y
    la coherencia con el inventario) y, si hace falta, mira la ficha con `just dev` en
    `/videojuego/<slug>`.

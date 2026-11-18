@@ -37,6 +37,13 @@
   "reviews": [
     {
       "source": "metacritic",
+      "score": 46,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-daggerdale/",
+      "platform": "xbox_360"
+    },
+    {
+      "source": "metacritic",
       "score": 49,
       "scale": 100,
       "url": "https://www.metacritic.com/game/dungeons-dragons-daggerdale/",

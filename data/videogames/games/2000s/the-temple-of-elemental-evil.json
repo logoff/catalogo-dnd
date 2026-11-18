@@ -40,6 +40,15 @@
       ]
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 71,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/the-temple-of-elemental-evil/",
+      "platform": "pc_windows"
+    }
+  ],
   "images": ["/images/videogames/the-temple-of-elemental-evil/0.png"],
   "videos": [
     {

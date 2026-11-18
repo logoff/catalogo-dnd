@@ -68,7 +68,7 @@ const games = [
         purchase_links: link,
       },
     ],
-    reviews: [{ source: 'vandal', score: 9.6, scale: 10, url: 'https://example.com/2' }],
+    reviews: [{ source: 'opencritic', score: 96, scale: 100, url: 'https://example.com/2' }],
   }),
 ]
 

@@ -16,5 +16,14 @@
       "date": "2002-11-08"
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 57,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-eye-of-the-beholder/",
+      "platform": "game_boy_advance"
+    }
+  ],
   "images": ["/images/videogames/eye-of-the-beholder-gba/0.jpg"]
 }

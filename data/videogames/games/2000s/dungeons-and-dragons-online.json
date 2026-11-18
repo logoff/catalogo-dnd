@@ -30,6 +30,15 @@
       "date": "2012-06-25"
     }
   ],
+  "reviews": [
+    {
+      "source": "metacritic",
+      "score": 74,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/dungeons-dragons-online-stormreach/",
+      "platform": "pc_windows"
+    }
+  ],
   "images": ["/images/videogames/dungeons-and-dragons-online/0.jpg"],
   "videos": [
     {

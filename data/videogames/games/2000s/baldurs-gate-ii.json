@@ -133,6 +133,14 @@
       "url": "https://www.metacritic.com/game/baldurs-gate-ii-enhanced-edition/",
       "platform": "pc_windows",
       "edition": "Enhanced Edition"
+    },
+    {
+      "source": "metacritic",
+      "score": 72,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/baldurs-gate-and-baldurs-gate-ii-enhanced-editions/",
+      "platform": "switch",
+      "edition": "Enhanced Edition"
     }
   ],
   "official_url": "https://www.beamdog.com/games/baldurs-gate-ii-enhanced/",

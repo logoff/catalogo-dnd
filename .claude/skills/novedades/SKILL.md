@@ -116,6 +116,10 @@ buen momento para volver a compartir la guía.
 - **Castellano**: los que se venden sin dato figuran como solo en inglés;
   comprueba si en realidad tienen castellano en la tabla de
   idiomas de Steam (un `*` indica voces) o la ficha de GOG.
+- **Notas**: ejecuta `just check-scores` y corrige las notas que hayan
+  cambiado o cuya página ya no exista. Para los juegos publicados en el
+  último año sin nota, busca si ya tienen página con nota en Metacritic
+  u OpenCritic y añádela con las reglas de la skill `add-videogame`.
 - **Vídeos**: ejecuta `just check-videos` y, si avisa de un vídeo
   retirado, no empotrable o de otro canal, busca otro oficial o quítalo
   de la ficha junto con su miniatura. Para los anunciados y los

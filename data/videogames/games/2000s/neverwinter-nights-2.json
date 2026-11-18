@@ -88,6 +88,21 @@
       "scale": 100,
       "url": "https://www.metacritic.com/game/neverwinter-nights-2/",
       "platform": "pc_windows"
+    },
+    {
+      "source": "metacritic",
+      "score": 69,
+      "scale": 100,
+      "url": "https://www.metacritic.com/game/neverwinter-nights-2-enhanced-edition/",
+      "platform": "pc_windows",
+      "edition": "Enhanced Edition"
+    },
+    {
+      "source": "opencritic",
+      "score": 64,
+      "scale": 100,
+      "url": "https://opencritic.com/game/18861/dungeons-dragons-neverwinter-nights-2-enhanced-edition",
+      "edition": "Enhanced Edition"
     }
   ],
   "images": ["/images/videogames/neverwinter-nights-2/0.jpg"],

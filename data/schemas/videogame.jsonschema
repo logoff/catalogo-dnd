@@ -375,16 +375,7 @@
                 "source": {
                     "enum": [
                         "metacritic",
-                        "opencritic",
-                        "meristation",
-                        "vandal",
-                        "3djuegos",
-                        "ign",
-                        "gamespot",
-                        "pc_gamer",
-                        "eurogamer",
-                        "gamespy",
-                        "computer_gaming_world"
+                        "opencritic"
                     ]
                 },
                 "score": {

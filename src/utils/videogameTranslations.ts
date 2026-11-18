@@ -114,15 +114,6 @@ export const rulesetNames: Record<Ruleset, string> = {
 export const reviewSourceNames: Record<ReviewSource, string> = {
   metacritic: 'Metacritic',
   opencritic: 'OpenCritic',
-  meristation: 'Meristation',
-  vandal: 'Vandal',
-  '3djuegos': '3DJuegos',
-  ign: 'IGN',
-  gamespot: 'GameSpot',
-  pc_gamer: 'PC Gamer',
-  eurogamer: 'Eurogamer',
-  gamespy: 'GameSpy',
-  computer_gaming_world: 'Computer Gaming World',
 }
 
 export const spanishSummaryNames: Record<SpanishSummary, string> = {
