@@ -11,6 +11,27 @@
   "date": "2018-09",
   "description": "En el pasado, en Menzoberranzan, el joven maestro de armas Zaknafein forja su amistad con Jarlaxle. En el presente, Zaknafein vuelve a la vida y descubre un mundo nuevo junto a su hijo Drizzt.\n\nPrimera novela de la trilogía Generaciones, la primera de Salvatore con Harper Voyager.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?2406124",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2018-09-23",
+    "source": "https://www.hawes.com/2018/2018-09-23.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780062688590",
+      "language": "english",
+      "date": "2018-08-13",
+      "summary": "Un comienzo de trilogía muy inmersivo, centrado en la política y la guerra entre las casas drow. Alternar las dos épocas ayuda a los nuevos lectores y conocer los Reinos añade matices, pero cualquiera disfrutará del ritmo y del mundo de Salvatore."
+    },
+    {
+      "outlet": "kirkus",
+      "url": "https://www.kirkusreviews.com/book-reviews/ra-salvatore/timeless-salvatore/",
+      "language": "english",
+      "date": "2018-07-16",
+      "summary": "Señala los defectos de siempre: prosa torpe, exposición pesada y cambios bruscos de punto de vista. Pero reconoce que Salvatore da a sus fieles lectores lo que esperan: batallas, esgrima, humor en pleno peligro y villanos memorables."
+    }
+  ],
   "editions": [
     {
       "language": "english",

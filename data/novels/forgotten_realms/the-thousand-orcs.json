@@ -11,6 +11,20 @@
   "date": "2002-10",
   "description": "Bruenor viaja hacia Mithril Hall con Drizzt, Catti-brie, Wulfgar y Regis cuando una horda de orcos y gigantes de escarcha, reunida por el rey Obould Muchasflechas, arrasa el norte. Los compañeros acaban separados y Drizzt queda convencido de que ha perdido a sus amigos.\n\nPrimera novela de la trilogía Las espadas del cazador.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?24034",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2002-11-03",
+    "source": "https://www.hawes.com/2002/2002-11-03.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780786928040",
+      "language": "english",
+      "date": "2002-10-07",
+      "summary": "Una aventura de capa y espada ligera y entretenida que abre trilogía; las reflexiones de Drizzt le dan algo de profundidad y el final en suspenso deja con ganas de más."
+    }
+  ],
   "editions": [
     {
       "language": "english",

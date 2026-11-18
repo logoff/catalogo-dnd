@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { render, screen, within } from '@testing-library/react'
 import type { Review } from '@/types'
-import ProductReviews from './ProductReviews'
+import MediaReviews from './MediaReviews'
 
 const wargamer: Review = {
   outlet: 'wargamer',
@@ -22,9 +22,9 @@ const vidaextra: Review = {
   spanish_edition: true,
 }
 
-describe('ProductReviews', () => {
+describe('MediaReviews', () => {
   it('muestra el medio, el idioma, la nota con su escala, el resumen y el enlace', () => {
-    render(<ProductReviews reviews={[wargamer]} />)
+    render(<MediaReviews reviews={[wargamer]} />)
     expect(screen.getByRole('heading', { name: 'Wargamer' })).toBeInTheDocument()
     expect(screen.getByText('9/10')).toBeInTheDocument()
     expect(
@@ -38,18 +38,18 @@ describe('ProductReviews', () => {
   })
 
   it('una reseña sin nota ni autor no deja huecos', () => {
-    const { container } = render(<ProductReviews reviews={[vidaextra]} />)
+    const { container } = render(<MediaReviews reviews={[vidaextra]} />)
     expect(screen.getByText(/^En castellano · 2 de abril de 2025/)).toBeInTheDocument()
     expect(container.textContent).not.toMatch(/\d+\/\d+/)
   })
 
   it('marca las reseñas de la edición en castellano', () => {
-    render(<ProductReviews reviews={[vidaextra, { ...wargamer }]} />)
+    render(<MediaReviews reviews={[vidaextra, { ...wargamer }]} />)
     expect(screen.getAllByText('Edición en castellano')).toHaveLength(1)
   })
 
   it('ordena de la más reciente a la más antigua', () => {
-    render(<ProductReviews reviews={[wargamer, vidaextra]} />)
+    render(<MediaReviews reviews={[wargamer, vidaextra]} />)
     const items = screen.getAllByRole('listitem')
     expect(within(items[0]).getByRole('heading')).toHaveTextContent('Vidaextra')
     expect(within(items[1]).getByRole('heading')).toHaveTextContent('Wargamer')

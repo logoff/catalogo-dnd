@@ -11,6 +11,11 @@
   "date": "1991-05",
   "description": "Drizzt sale por fin a la superficie, donde descubre el sol, las estaciones y la desconfianza de unos pueblos que solo ven en él a un drow. Acusado de una matanza que no cometió, encuentra refugio con Montolio, un viejo explorador ciego que le enseña el oficio y la fe en Mielikki.\n\nCierra la trilogía del Elfo Oscuro y enlaza con la llegada de Drizzt al valle del Viento Helado.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?12812",
+  "bestseller": {
+    "list": "paperback",
+    "date": "1991-05-26",
+    "source": "https://www.nytimes.com/1991/05/26/books/paperback-best-sellers-may-26-1991.html"
+  },
   "editions": [
     {
       "language": "english",

@@ -1,16 +1,16 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
-import { getReviewOutlet } from '@/services/dataLoader'
+import { getReviewOutlet } from '@/services/reviewOutlets'
 import { formatDate } from '@/utils/formatters'
 import type { Review } from '@/types'
 
 const languageLabel = { english: 'En inglés', castellano: 'En castellano' } as const
 
 // Cada reseña con la nota en la escala de su medio: nunca se calcula una media
-export default function ProductReviews({ reviews }: { reviews: Review[] }) {
+export default function MediaReviews({ reviews }: { reviews: Review[] }) {
   const sorted = [...reviews].sort((a, b) => b.date.localeCompare(a.date))
 
   return (
-    <section className="card-dnd p-6 mb-8">
+    <section className="card-dnd p-6">
       <h2 className="font-display text-2xl text-dnd-gold mb-4">Reseñas</h2>
       <ul className="divide-y divide-dnd-gold/20">
         {sorted.map((review) => {

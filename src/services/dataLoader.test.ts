@@ -2,12 +2,16 @@ import { describe, it, expect } from 'vitest'
 import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 import schemaSource from '/data/schemas/product.jsonschema?raw'
+import reviewSchemaSource from '/data/schemas/review.jsonschema?raw'
 import outletsSchemaSource from '/data/schemas/review-outlets.jsonschema?raw'
 import type { Product, Review } from '@/types'
-import { getAllProducts, getAllReviewOutlets, getReviewOutlet } from './dataLoader'
+import { getAllProducts } from './dataLoader'
+import { getAllReviewOutlets, getReviewOutlet } from './reviewOutlets'
+import { reviewProblems as sharedReviewProblems } from '@/utils/reviewRules'
 
 const ajv = new Ajv({ allErrors: true })
 addFormats(ajv)
+ajv.addSchema(JSON.parse(reviewSchemaSource))
 const validate = ajv.compile(JSON.parse(schemaSource))
 
 const productFiles = import.meta.glob<unknown>('/data/**/products/**/*.json', {
@@ -84,28 +88,16 @@ describe('esquema de las reseñas', () => {
   })
 })
 
-// Reglas de las reseñas que el esquema no puede expresar; devuelve un aviso por problema
+// Reglas comunes de las reseñas más las propias de los libros; devuelve un aviso por problema
 function reviewProblems(product: Product): string[] {
   const reviews = product.reviews ?? []
-  const problems: string[] = []
+  const problems = sharedReviewProblems(product.code, reviews, getReviewOutlet)
   if (reviews.length && !product.publications.every((pub) => pub.type === 'book')) {
     problems.push(`${product.code}: solo los libros llevan reseñas`)
   }
   const hasSpanish = product.publications.some((pub) => pub.language === 'castellano')
-  const urls = new Set<string>()
-  for (const review of reviews) {
-    const outlet = getReviewOutlet(review.outlet)
-    if (!outlet) problems.push(`${product.code}: el medio «${review.outlet}» no está en la lista`)
-    else if (review.score !== undefined && !outlet.scale) {
-      problems.push(`${product.code}: ${outlet.name} no pone nota`)
-    } else if (review.score !== undefined && review.score > outlet.scale!) {
-      problems.push(`${product.code}: nota ${review.score} fuera de la escala de ${outlet.name}`)
-    }
-    if (urls.has(review.url)) problems.push(`${product.code}: reseña repetida ${review.url}`)
-    urls.add(review.url)
-    if (review.spanish_edition && !hasSpanish) {
-      problems.push(`${product.code}: reseña de la edición en castellano sin edición en castellano`)
-    }
+  if (reviews.some((review) => review.spanish_edition) && !hasSpanish) {
+    problems.push(`${product.code}: reseña de la edición en castellano sin edición en castellano`)
   }
   return problems
 }

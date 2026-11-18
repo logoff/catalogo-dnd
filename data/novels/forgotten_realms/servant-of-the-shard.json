@@ -11,6 +11,11 @@
   "date": "2000-10",
   "description": "Artemis Entreri domina las calles de Calimport, pero su socio, el drow Jarlaxle, está cada vez más influido por la Piedra de Cristal. Cuando los propios mercenarios de Bregan D'aerthe se vuelven contra su jefe, el asesino y el drow tendrán que confiar el uno en el otro.\n\nAbre la serie de Los mercenarios, protagonizada por Entreri y Jarlaxle.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?25042",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2000-11-19",
+    "source": "https://www.hawes.com/2000/2000-11-19.pdf"
+  },
   "editions": [
     {
       "language": "english",

@@ -11,6 +11,11 @@
   "date": "2008-10",
   "description": "Drizzt vuelve a Luskan con el capitán Deudermont, decidido a librar la ciudad de la Hermandad Arcana y de los piratas que la controlan. La lucha por la Torre de Huéspedes de lo Arcano cambiará la ciudad, y la Costa de la Espada, para siempre.\n\nSegunda novela de Transiciones.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?859752",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2008-10-26",
+    "source": "https://www.hawes.com/2008/2008-10-26.pdf"
+  },
   "editions": [
     {
       "language": "english",

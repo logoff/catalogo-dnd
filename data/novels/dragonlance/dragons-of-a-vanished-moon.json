@@ -11,6 +11,20 @@
   "date": "2002-06",
   "description": "La verdad sobre el Dios Único sale por fin a la luz y la guerra llega a su punto decisivo. Los héroes que han sobrevivido, junto a viejos conocidos de las Crónicas, deben enfrentarse a una amenaza que pone en peligro no solo a Ansalon, sino el equilibrio entre los dioses y el mundo.\n\nEs la novela que cierra La guerra de los espíritus y la etapa de la Quinta Era de Dragonlance. Resuelve los misterios que arrastra la trilogía desde Los caballeros de Neraka y deja Krynn en la situación de las novelas posteriores.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?24148",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2002-07-07",
+    "source": "https://www.hawes.com/2002/2002-07-07.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780786927401",
+      "language": "english",
+      "date": "2002-05-13",
+      "summary": "Un digno cierre de la Guerra de las Almas, con todas las tramas confluyendo en una gran batalla y unas notas finales que ayudan a quien llega de nuevas."
+    }
+  ],
   "editions": [
     {
       "language": "english",

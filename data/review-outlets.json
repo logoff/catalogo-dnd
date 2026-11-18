@@ -144,5 +144,35 @@
     "url": "https://techraptor.net/",
     "language": "english",
     "scale": 10
+  },
+  {
+    "id": "publishersweekly",
+    "name": "Publishers Weekly",
+    "url": "https://www.publishersweekly.com/",
+    "language": "english"
+  },
+  {
+    "id": "kirkus",
+    "name": "Kirkus Reviews",
+    "url": "https://www.kirkusreviews.com/",
+    "language": "english"
+  },
+  {
+    "id": "grimdarkmagazine",
+    "name": "Grimdark Magazine",
+    "url": "https://www.grimdarkmagazine.com/",
+    "language": "english"
+  },
+  {
+    "id": "bookreporter",
+    "name": "Bookreporter",
+    "url": "https://www.bookreporter.com/",
+    "language": "english"
+  },
+  {
+    "id": "winteriscoming",
+    "name": "Winter is Coming",
+    "url": "https://winteriscoming.net/",
+    "language": "english"
   }
 ]

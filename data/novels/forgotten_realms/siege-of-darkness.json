@@ -11,6 +11,11 @@
   "date": "1994-08",
   "description": "La Época de Tumultos trastoca la magia en Faerûn, y en Menzoberranzan la matrona Baenre aprovecha la confusión para preparar un ataque contra Mithril Hall. Bruenor organiza la defensa del reino enano mientras Drizzt intenta adelantarse a la guerra que se avecina.\n\nTercera novela de El legado del drow.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?12394",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "1994-09-18",
+    "source": "https://www.hawes.com/1994/1994-09-18.pdf"
+  },
   "editions": [
     {
       "language": "english",

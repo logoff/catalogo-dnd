@@ -7,6 +7,29 @@
   "date": "2026-09",
   "description": "Astarion Ancunin iba a ser magistrado, no un vampiro engendro al servicio del cruel señor vampiro Cazador Szarr. Ahora intentará librarse de siglos de servidumbre o morir, por segunda vez, en el intento.\n\nNovela de T. Kingfisher basada en el personaje del videojuego Baldur's Gate 3.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?3657975",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2026-10-18",
+    "source": "https://www.hawes.com/2026/2026-10-18.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "enworld",
+      "url": "https://www.enworld.org/threads/baldurs-gate-3-astarion-a-review.720967/",
+      "language": "english",
+      "date": "2026-10-14",
+      "author": "brimmels",
+      "summary": "Una precuela absorbente que equilibra la astucia, el egoísmo, la vulnerabilidad y el ingenio de Astarion, recomendable también a quien disfrute del terror fantástico. Avisa de escenas de tortura y abusos y le pone una A-."
+    },
+    {
+      "outlet": "winteriscoming",
+      "url": "https://winteriscoming.net/book-review-baldur-s-gate-3-astarion-t-kingfisher-lovely-side-quest-does-justify-novel",
+      "language": "english",
+      "date": "2026-10-14",
+      "author": "Joshua Martin",
+      "summary": "Una historia íntima y cruda, de poca escala y poco en juego pero con emoción. El argumento es previsible y la acción va a trompicones, aunque merece la pena para quien quiera conocer mejor al personaje."
+    }
+  ],
   "editions": [
     {
       "language": "english",

@@ -1,7 +1,7 @@
 ---
 name: add-review
-description: Buscar y añadir reseñas de medios reputados a los libros de D&D de 2014 y 2024 del catálogo, con su nota si la tienen y un resumen propio en castellano. Usa esta skill cuando el usuario quiera añadir reseñas, completar las de un libro o cargar un lote.
-argument-hint: "[código o título del libro, o un lote: 2024, 2014 aventuras…]"
+description: Buscar y añadir reseñas de medios reputados a los libros de D&D de 2014 y 2024 y a las novelas oficiales del catálogo, con su nota si la tienen y un resumen propio en castellano. Usa esta skill cuando el usuario quiera añadir reseñas, completar las de un libro o una novela o cargar un lote.
+argument-hint: "[código o título del libro o novela, o un lote: 2024, 2014 aventuras, novelas de Drizzt…]"
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch, WebSearch
 ---
 
@@ -22,6 +22,31 @@ los libros publicados que aún no tienen reseñas. **Todo libro publicado
 en inglés tiene que acabar con al menos una reseña**, también las
 aventuras y los suplementos antiguos de 2014. Un test lo exige a los
 libros publicados hace más de 90 días.
+
+### Novelas
+
+Las novelas (`data/novels/<mundo>/<slug>.json`, spec `novel-reviews`)
+llevan el mismo campo `reviews`, con los mismos campos y medios, salvo
+`spanish_edition`, que es solo de los libros de rol. Diferencias:
+
+- **No hay cobertura obligatoria.** Solo llevan reseñas las novelas que
+  las tengan en un medio aceptado; muchas no tendrán ninguna, y está
+  bien. Para un lote, prioriza los primeros libros de cada serie, Drizzt,
+  la Dragonlance y las novelas recientes.
+- **Solo reseñas con URL pública.** ISFDB lista reseñas en revistas de
+  papel (Dragon Magazine, Paperback Inferno…) que no se pueden enlazar:
+  esas no entran.
+- **Dónde buscar:** primero la ficha de ISFDB de la novela (su `source`),
+  apartado «Reviews», por si hay alguna en un medio en línea; después
+  Reactor (antes Tor.com), que tiene relecturas de la Dragonlance, y una
+  búsqueda web por título. Medios de literatura fantástica que valen:
+  Publishers Weekly, Kirkus, Black Gate, SF Site, Fantasy Book Review,
+  Grimdark Magazine y similares, con el mismo criterio de medio de abajo.
+- **Nada de valoraciones de usuarios** (Goodreads, Amazon, StoryGraph,
+  Open Library): ni las cifras ni sus reseñas.
+
+La marca de superventas del NYT de las novelas (`bestseller`) no es una
+reseña: la explica la skill `add-novel`.
 
 ## 1. Dónde buscar
 
@@ -126,7 +151,8 @@ usuario confirme.**
 2. `just check`: valida el esquema, el medio, la escala de la nota, las
    URLs repetidas y la marca `spanish_edition`.
 3. `just check-reviews`: no debe avisar de ningún enlace roto.
-4. `just reviews-coverage`: los libros del lote ya no deben aparecer.
+4. `just reviews-coverage`: los libros del lote ya no deben aparecer
+   (solo cuenta los libros de rol, no las novelas).
 
 Después abre un PR siguiendo el estilo habitual del repositorio (breve:
 qué se hace, qué queda, comprobaciones).

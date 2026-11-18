@@ -4,7 +4,7 @@ import { getProductByCodeAndEdition } from '@/services/dataLoader'
 import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import ProductDetail from '@/components/products/ProductDetail'
-import ProductReviews from '@/components/products/ProductReviews'
+import MediaReviews from '@/components/common/MediaReviews'
 import { translateEditionLong } from '@/utils/translations'
 import { SITE_URL } from '@/utils/constants'
 import { formatDate } from '@/utils/formatters'
@@ -121,7 +121,11 @@ export default function ProductDetailPage() {
           )}
         </div>
 
-        {product.reviews?.length ? <ProductReviews reviews={product.reviews} /> : null}
+        {product.reviews?.length ? (
+          <div className="mb-8">
+            <MediaReviews reviews={product.reviews} />
+          </div>
+        ) : null}
 
         {/* Product details */}
         <ProductDetail product={product} />

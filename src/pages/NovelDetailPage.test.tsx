@@ -43,7 +43,20 @@ const game = getAllVideogames()[0]
 const link = [{ store: 'amazon' as const, url: 'https://www.amazon.es/dp/8445011103/' }]
 
 const novels = [
-  novel('Dragons of Autumn Twilight', { series: { id: 'chronicles', number: 1 }, date: '1984-11' }),
+  novel('Dragons of Autumn Twilight', {
+    series: { id: 'chronicles', number: 1 },
+    date: '1984-11',
+    bestseller: { list: 'paperback', date: '1985-01-13', source: 'https://example.com/lista' },
+    reviews: [
+      {
+        outlet: 'reactor',
+        url: 'https://reactormag.com/relectura',
+        language: 'english',
+        date: '2020-03-01',
+        summary: 'Un clásico que ha envejecido bien.',
+      },
+    ],
+  }),
   novel('Dragons of Winter Night', {
     series: { id: 'chronicles', number: 2 },
     date: '1985-04',
@@ -244,6 +257,21 @@ describe('NovelDetailPage', () => {
     expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
     expect(screen.queryByRole('heading', { name: 'Recopilatorios' })).toBeNull()
     expect(screen.queryByRole('heading', { name: 'Crónicas de la Dragonlance' })).toBeNull()
+  })
+
+  it('muestra las reseñas y la marca de superventas con su fuente', () => {
+    renderPage('dragons-of-autumn-twilight')
+    expect(screen.getByRole('heading', { name: 'Reseñas' })).toBeInTheDocument()
+    expect(screen.getByText('Un clásico que ha envejecido bien.')).toBeInTheDocument()
+    const bestseller = screen.getByRole('link', { name: /Superventas de The New York Times/ })
+    expect(bestseller).toHaveAttribute('href', 'https://example.com/lista')
+    expect(bestseller).toHaveTextContent('enero de 1985 (bolsillo)')
+  })
+
+  it('sin reseñas ni superventas no muestra ninguna de las dos', () => {
+    renderPage('the-legend-of-huma')
+    expect(screen.queryByRole('heading', { name: 'Reseñas' })).toBeNull()
+    expect(screen.queryByText(/Superventas/)).toBeNull()
   })
 
   it('cuenta como traducida la novela que solo salió en castellano en un recopilatorio', () => {

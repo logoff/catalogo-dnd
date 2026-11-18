@@ -1,4 +1,4 @@
-import type { Edition, PurchaseLink } from './index'
+import type { Edition, PurchaseLink, Review } from './index'
 
 export type NovelSetting =
   | 'dragonlance'
@@ -56,6 +56,12 @@ export interface NovelEdition {
   purchase_links?: PurchaseLink[]
 }
 
+export interface NovelBestseller {
+  list: 'hardcover' | 'paperback'
+  date: string
+  source: string
+}
+
 export interface Novel {
   slug: string
   title: string
@@ -71,6 +77,10 @@ export interface Novel {
   description: string
   // Página que confirma que la novela es oficial
   source: string
+  // Reseñas de medios de data/review-outlets.json; opcionales, no hay cobertura obligatoria
+  reviews?: Review[]
+  // Primera semana en la lista de superventas de The New York Times
+  bestseller?: NovelBestseller
   editions: NovelEdition[]
   related_products?: { edition: Edition; code: string }[]
   related_videogames?: string[]

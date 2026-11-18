@@ -11,6 +11,11 @@
   "date": "2010-10",
   "description": "Décadas después de la plaga de conjuros, Drizzt y un Bruenor anciano buscan Gauntlgrym, la legendaria ciudad de los enanos Delzoun. Jarlaxle y el enano Athrogate llegan antes y desatan sin querer al primordial de fuego atrapado bajo la ciudad, con consecuencias terribles para Neverwinter.\n\nPrimera novela de la saga Neverwinter.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?1155712",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2010-10-24",
+    "source": "https://www.hawes.com/2010/2010-10-24.pdf"
+  },
   "editions": [
     {
       "language": "english",

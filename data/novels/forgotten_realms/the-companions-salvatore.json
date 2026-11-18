@@ -11,6 +11,11 @@
   "date": "2013-08",
   "description": "Los dioses conceden una segunda vida a Catti-brie, Regis y Bruenor, que renacen en distintos lugares de Faerûn y crecen con el recuerdo de quienes fueron. Deben llegar a la cima de Kelvin, en el valle del Viento Helado, en el momento señalado para reencontrarse con Drizzt.\n\nAbre la serie multiautor The Sundering, con la que los Reinos Olvidados pasan de la cuarta a la quinta edición de D&D.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?1611650",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2013-08-25",
+    "source": "https://www.hawes.com/2013/2013-08-25.pdf"
+  },
   "editions": [
     {
       "language": "english",

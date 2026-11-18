@@ -11,6 +11,11 @@
   "date": "2009-10",
   "description": "La plaga de conjuros arrasa Faerûn y la magia se vuelve impredecible. Catti-brie cae víctima de ella, y Drizzt busca la ayuda del clérigo Cadderly mientras reaparece una amenaza que creía destruida: Crenshinibon.\n\nCierra Transiciones y lleva a Drizzt a la cuarta edición de los Reinos Olvidados.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?1017359",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2009-10-25",
+    "source": "https://www.hawes.com/2009/2009-10-25.pdf"
+  },
   "editions": [
     {
       "language": "english",

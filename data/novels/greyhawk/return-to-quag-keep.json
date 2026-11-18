@@ -7,6 +7,22 @@
   "date": "2005-11",
   "description": "Treinta años después de Quag Keep, sus aventureros vuelven a Greyhawk.\n\nContinuación de Quag Keep, escrita por Andre Norton y completada por Jean Rabe tras la muerte de Norton.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?179656",
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780765312983",
+      "language": "english",
+      "date": "2005-11-07",
+      "summary": "Una secuela correcta de Quag Keep, pero la historia y los personajes no tienen la imaginación de Norton en sus mejores años: fantasía de fórmula pensada sobre todo para lectores jóvenes o recién llegados al género."
+    },
+    {
+      "outlet": "kirkus",
+      "url": "https://www.kirkusreviews.com/book-reviews/andre-norton/return-to-quag-keep/",
+      "language": "english",
+      "date": "2005-11-15",
+      "summary": "La premisa podía ser fresca en el original, pero aquí resulta trillada: aventureros que cumplen la fórmula sin chispa y un público difícil de encontrar, ni entre los jugadores ni entre los lectores de fantasía heroica."
+    }
+  ],
   "editions": [
     {
       "language": "english",

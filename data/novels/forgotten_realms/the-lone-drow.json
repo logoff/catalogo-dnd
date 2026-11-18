@@ -11,6 +11,20 @@
   "date": "2003-10",
   "description": "Convencido de que sus amigos han muerto, Drizzt se convierte en el Cazador y libra una guerra solitaria contra el ejército de Obould. Mientras, en Mithril Hall, los enanos se preparan para resistir el asedio de los orcos.\n\nSegunda novela de Las espadas del cazador.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?24712",
+  "bestseller": {
+    "list": "hardcover",
+    "date": "2003-11-16",
+    "source": "https://www.hawes.com/2003/2003-11-16.pdf"
+  },
+  "reviews": [
+    {
+      "outlet": "publishersweekly",
+      "url": "https://www.publishersweekly.com/9780786930128",
+      "language": "english",
+      "date": "2003-09-01",
+      "summary": "Una segunda parte algo mecánica, con una guerra contra los orcos llena de tópicos tolkienianos, aunque a ratos supera el cliché con personajes con más matices, como el rey orco Obould."
+    }
+  ],
   "editions": [
     {
       "language": "english",

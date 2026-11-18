@@ -39,8 +39,8 @@ recetas disponibles.
 - `just check-scores` — Avisa de notas de Metacritic u OpenCritic de los
   videojuegos que han cambiado o cuya página ya no existe (en Actions, sin
   bloquear)
-- `just check-reviews` — Avisa de reseñas de libros con el enlace roto
-  (en Actions, sin bloquear)
+- `just check-reviews` — Avisa de reseñas de libros y novelas con el
+  enlace roto (en Actions, sin bloquear)
 - `just reviews-coverage` — Lista los libros publicados sin reseñas
 - `just novel-covers <slug> <isbn>=<url>…` — Descarga las portadas de las
   ediciones de una novela, las convierte a WebP con miniatura y las anota
@@ -78,7 +78,7 @@ una lleva un resumen propio en castellano (nunca texto copiado del medio)
 y la nota tal cual la da el medio. No se calculan medias ni se emiten
 como `Review`/`AggregateRating`. Los tests validan los productos contra
 `product.jsonschema` y las reglas cruzadas de las reseñas, y exigen al
-menos una a todo libro publicado hace más de 90 días. `ProductReviews.tsx` las pinta en
+menos una a todo libro publicado hace más de 90 días. `MediaReviews.tsx` las pinta en
 la ficha. Para darlas de alta, usar la skill `add-review`.
 
 **Videojuegos:** cada juego es un JSON en
@@ -130,6 +130,14 @@ llena entera y `main.tsx` precarga lo de la ruta antes de hidratar.
 `data/novels/inventory.md` es la lista maestra (un test exige que cada
 ficha esté en ella y al revés). Para dar de alta novelas, usar la skill
 `add-novel`.
+Las novelas pueden llevar `reviews` (mismo esquema común
+`review.jsonschema` y medios que los libros, pero sin cobertura
+obligatoria y solo con URL pública) y `bestseller`: la primera semana en
+la lista de superventas del NYT, con la lista (tapa dura o bolsillo) y su
+fuente, normalmente el PDF semanal de hawes.com. Nunca valoraciones de
+usuarios (Goodreads, Amazon…). La lista de medios está en
+`src/services/reviewOutlets.ts` y el componente de reseñas, compartido con
+los libros, es `src/components/common/MediaReviews.tsx`.
 Las guías de orden de lectura (`/guias/orden-de-lectura-*`) y la de
 novelas en castellano se generan desde el índice; el orden de cada una
 está en `data/novels/reading-orders.json` (series enteras o novelas

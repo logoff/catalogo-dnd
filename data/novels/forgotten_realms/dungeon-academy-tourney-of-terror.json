@@ -8,6 +8,15 @@
   "date": "2022-11",
   "description": "Los invictos Dragones de Aguas Profundas llegan a la Academia de las Mazmorras para el Torneo del Terror, que se celebra cada cincuenta años.\n\nSegunda novela de la serie Dungeon Academy, de Madeleine Roux.",
   "source": "https://www.isfdb.org/cgi-bin/title.cgi?3086472",
+  "reviews": [
+    {
+      "outlet": "kirkus",
+      "url": "https://www.kirkusreviews.com/book-reviews/madeleine-roux/tourney-terror/",
+      "language": "english",
+      "date": "2022-08-30",
+      "summary": "Una secuela con combates épicos y personajes que pagan un precio real, bien integrada en el tono humorístico de D&D, aunque sus mensajes son a veces demasiado evidentes. El final en suspenso deja con ganas del siguiente."
+    }
+  ],
   "editions": [
     {
       "language": "english",
