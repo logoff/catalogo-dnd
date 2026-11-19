@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254520/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "La estrella fragmentada 1: Fragmentos de pecado",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07B11N6RT/"
+        }
+      ]
     }
   ]
 }

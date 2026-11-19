@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/160125413X/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "Calaveras y grilletes 3: Se desata la tempestad",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01M8I6BBO/"
+        }
+      ]
     }
   ]
 }

@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/160125198X/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "El concejo de ladrones 4: El síndrome infernal",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01BRCL1P2/"
+        }
+      ]
     }
   ]
 }

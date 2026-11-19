@@ -27,7 +27,13 @@
       "title": "Reglas básicas",
       "publisher": "Devir",
       "source": "https://devir.es/pathfinder-juego-de-rol-reglas-basicas-2-ed",
-      "cover": "/images/rol/core-rulebook-2e/castellano.webp"
+      "cover": "/images/rol/core-rulebook-2e/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BTST915T/"
+        }
+      ]
     }
   ]
 }

@@ -27,7 +27,13 @@
       "publisher": "Devir",
       "format": "hardcover",
       "cover": "/images/rol/crown-of-the-kobold-king/castellano.webp",
-      "source": "https://devir.es/pathfinder-2-ed-la-corona-del-rey-kobold"
+      "source": "https://devir.es/pathfinder-2-ed-la-corona-del-rey-kobold",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CMXRR1HZ/"
+        }
+      ]
     }
   ]
 }

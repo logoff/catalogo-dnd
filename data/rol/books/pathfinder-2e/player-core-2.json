@@ -27,7 +27,13 @@
       "title": "Manual de juego 2 (Remaster)",
       "publisher": "Devir",
       "source": "https://devir.es/pathfinder-2-ed-manual-de-juego-2-remaster",
-      "cover": "/images/rol/player-core-2/castellano.webp"
+      "cover": "/images/rol/player-core-2/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0HJZ7HFZ1/"
+        }
+      ]
     }
   ]
 }

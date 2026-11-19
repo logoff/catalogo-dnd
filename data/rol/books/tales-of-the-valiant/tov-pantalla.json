@@ -16,6 +16,10 @@
       "source": "https://www.todostuslibros.com/busquedas?keyword=9791387882051",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GTGD2XMX/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/tales-of-the-valiant/tales-of-the-valiant-pantalla-del-dj"
         }

@@ -25,7 +25,13 @@
     {
       "language": "castellano",
       "title": "Guía de dirección del juego",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09LJ1PBMR/"
+        }
+      ]
     }
   ]
 }

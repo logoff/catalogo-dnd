@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "Paizo",
       "date": "2018-02-28",
-      "format": "paperback"
+      "format": "paperback",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640780130/"
+        }
+      ]
     },
     {
       "language": "castellano",

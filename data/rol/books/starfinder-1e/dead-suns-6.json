@@ -10,12 +10,24 @@
       "language": "english",
       "publisher": "Paizo",
       "date": "2018-06-27",
-      "format": "paperback"
+      "format": "paperback",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640780424/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "Soles muertos 6: El imperio de los huesos",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08B8295XR/"
+        }
+      ]
     }
   ]
 }

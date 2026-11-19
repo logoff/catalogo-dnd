@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Pelgrane Press",
-      "date": "2014"
+      "date": "2014",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1908983620/"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -31,6 +31,10 @@
       "cover": "/images/rol/tov-players-guide/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GPRRXWPG/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/tales-of-the-valiant/tov-guiajugador"
         }

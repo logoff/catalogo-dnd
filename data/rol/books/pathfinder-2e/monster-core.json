@@ -29,7 +29,13 @@
       "date": "2025-07",
       "format": "hardcover",
       "source": "https://www.amazon.es/Devir-Pathfinder-Monstruos-Remaster-criaturas/dp/B0FH786LD2",
-      "cover": "/images/rol/monster-core/castellano.webp"
+      "cover": "/images/rol/monster-core/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FH786LD2/"
+        }
+      ]
     }
   ]
 }

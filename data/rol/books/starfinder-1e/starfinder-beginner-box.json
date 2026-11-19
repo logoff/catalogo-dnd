@@ -18,7 +18,13 @@
     {
       "language": "castellano",
       "title": "Caja de iniciación",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09764VW76/"
+        }
+      ]
     }
   ]
 }

@@ -26,7 +26,13 @@
       "publisher": "Devir",
       "format": "paperback",
       "cover": "/images/rol/malevolence/castellano.webp",
-      "source": "https://devir.es/pathfinder-2-ed-malevolencia"
+      "source": "https://devir.es/pathfinder-2-ed-malevolencia",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BSXHSTK9/"
+        }
+      ]
     }
   ]
 }

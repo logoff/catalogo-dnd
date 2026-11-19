@@ -10,12 +10,24 @@
       "language": "english",
       "publisher": "Paizo",
       "date": "2021-10-13",
-      "format": "paperback"
+      "format": "paperback",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/164078358X/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "La liberación de Locus-1",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BJ9WD2T7/"
+        }
+      ]
     }
   ]
 }

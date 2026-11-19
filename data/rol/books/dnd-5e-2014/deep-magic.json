@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "Kobold Press",
       "date": "2020",
-      "format": "hardcover"
+      "format": "hardcover",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/193678131X/"
+        }
+      ]
     },
     {
       "language": "castellano",

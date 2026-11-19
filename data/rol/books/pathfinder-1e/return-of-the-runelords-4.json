@@ -8,7 +8,13 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640780912/"
+        }
+      ]
     },
     {
       "language": "castellano",

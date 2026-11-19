@@ -18,7 +18,13 @@
       "title": "La Era de las Cenizas 3: El mañana debe arder",
       "publisher": "Devir",
       "format": "paperback",
-      "cover": "/images/rol/tomorrow-must-burn/castellano.webp"
+      "cover": "/images/rol/tomorrow-must-burn/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09LJ4VWVT/"
+        }
+      ]
     }
   ]
 }

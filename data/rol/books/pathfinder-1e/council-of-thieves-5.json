@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601251998/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "El concejo de ladrones 5: La madre de las moscas",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01C9BHA8C/"
+        }
+      ]
     }
   ]
 }

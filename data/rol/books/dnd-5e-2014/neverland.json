@@ -8,7 +8,13 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Andrew Kolb"
+      "publisher": "Andrew Kolb",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1524860204/"
+        }
+      ]
     },
     {
       "language": "castellano",

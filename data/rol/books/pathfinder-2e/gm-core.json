@@ -28,7 +28,13 @@
       "publisher": "Devir",
       "format": "hardcover",
       "source": "https://devir.es/pathfinder-2-ed-manual-de-direccion-remaster",
-      "cover": "/images/rol/gm-core/castellano.webp"
+      "cover": "/images/rol/gm-core/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DLBM6BF3/"
+        }
+      ]
     }
   ]
 }

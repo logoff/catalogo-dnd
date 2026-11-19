@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2016"
+      "date": "2016",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1936781700/"
+        }
+      ]
     },
     {
       "language": "castellano",

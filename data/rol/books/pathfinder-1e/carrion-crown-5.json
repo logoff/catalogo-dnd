@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601253125/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "La corona de carroña 5: Cenizas al amanecer",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07C8ZQM9B/"
+        }
+      ]
     }
   ]
 }

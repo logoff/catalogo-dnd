@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Paizo",
-      "date": "2010"
+      "date": "2010",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782575/"
+        }
+      ]
     },
     {
       "language": "castellano",

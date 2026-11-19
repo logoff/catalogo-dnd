@@ -14,7 +14,13 @@
     {
       "language": "castellano",
       "title": "Sombras de Éldolan",
-      "publisher": "Holocubierta"
+      "publisher": "Holocubierta",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8415763484/"
+        }
+      ]
     }
   ]
 }

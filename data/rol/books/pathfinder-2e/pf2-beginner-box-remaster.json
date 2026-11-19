@@ -13,7 +13,13 @@
       "title": "Caja de iniciación (Remaster)",
       "publisher": "Devir",
       "format": "boxed_set",
-      "cover": "/images/rol/pf2-beginner-box-remaster/castellano.webp"
+      "cover": "/images/rol/pf2-beginner-box-remaster/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GGSXSZHX/"
+        }
+      ]
     }
   ]
 }

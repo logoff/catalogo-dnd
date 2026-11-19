@@ -27,7 +27,13 @@
       "publisher": "Devir",
       "format": "hardcover",
       "cover": "/images/rol/bestiary-2/castellano.webp",
-      "source": "https://devir.es/pathfinder-2-ed-bestiario-2"
+      "source": "https://devir.es/pathfinder-2-ed-bestiario-2",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BWVNVMKC/"
+        }
+      ]
     }
   ]
 }

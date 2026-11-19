@@ -27,7 +27,13 @@
       "publisher": "Devir",
       "format": "paperback",
       "cover": "/images/rol/the-slithering/castellano.webp",
-      "source": "https://devir.es/pathfinder-2-ed-lo-que-se-arrastra"
+      "source": "https://devir.es/pathfinder-2-ed-lo-que-se-arrastra",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BH1RHYTB/"
+        }
+      ]
     }
   ]
 }

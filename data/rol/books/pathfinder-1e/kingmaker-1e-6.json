@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252536/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "Forjador de reyes 6: El sonido de un millar de gritos",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B010FOB08Q/"
+        }
+      ]
     }
   ]
 }

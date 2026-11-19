@@ -9,12 +9,24 @@
     {
       "language": "english",
       "publisher": "Paizo",
-      "date": "2011"
+      "date": "2011",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640780513/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "Combate definitivo",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B079G9GRH4/"
+        }
+      ]
     }
   ]
 }

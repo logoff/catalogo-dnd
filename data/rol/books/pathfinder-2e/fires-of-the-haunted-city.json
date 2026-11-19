@@ -18,7 +18,13 @@
       "title": "La Era de las Cenizas 4: Fuegos de la ciudad embrujada",
       "publisher": "Devir",
       "format": "paperback",
-      "cover": "/images/rol/fires-of-the-haunted-city/castellano.webp"
+      "cover": "/images/rol/fires-of-the-haunted-city/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BF921YVQ/"
+        }
+      ]
     }
   ]
 }

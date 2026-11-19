@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252749/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "La calavera de la serpiente 3: La ciudad de las siete lanzas",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07PH2P3KN/"
+        }
+      ]
     }
   ]
 }

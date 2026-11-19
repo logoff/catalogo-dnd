@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "Paizo",
       "date": "2019-08-01",
-      "format": "paperback"
+      "format": "paperback",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781730/"
+        }
+      ]
     },
     {
       "language": "castellano",
@@ -19,7 +25,13 @@
       "publisher": "Devir",
       "format": "paperback",
       "cover": "/images/rol/hellknight-hill/castellano.webp",
-      "source": "https://devir.es/pathfinder-2ed-la-colina-del-caballero-infernal"
+      "source": "https://devir.es/pathfinder-2ed-la-colina-del-caballero-infernal",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09BL7J4M3/"
+        }
+      ]
     }
   ]
 }

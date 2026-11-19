@@ -26,7 +26,13 @@
       "publisher": "Devir",
       "format": "paperback",
       "cover": "/images/rol/troubles-in-otari/castellano.webp",
-      "source": "https://devir.es/pathfinder-2-ed-problemas-en-otari"
+      "source": "https://devir.es/pathfinder-2-ed-problemas-en-otari",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B53FFRGT/"
+        }
+      ]
     }
   ]
 }

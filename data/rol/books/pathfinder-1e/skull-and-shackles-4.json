@@ -8,12 +8,24 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Paizo"
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254164/"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "Calaveras y grilletes 4: La isla de los Ojos Vacíos",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01LXIV3HY/"
+        }
+      ]
     }
   ]
 }
