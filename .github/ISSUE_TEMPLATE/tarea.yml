@@ -1,0 +1,32 @@
+name: Tarea
+description: Mejora del catálogo con su hipótesis y cómo medir su efecto
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Qué se hace
+    validations:
+      required: true
+  - type: textarea
+    id: hipotesis
+    attributes:
+      label: Hipótesis
+      description: Qué esperamos que cambie y por qué
+      placeholder: La página de novedades traerá visitas recurrentes desde la portada y el RSS
+    validations:
+      required: true
+  - type: textarea
+    id: metrica
+    attributes:
+      label: Cómo se mide
+      description: >-
+        Métrica de Umami o evento que se mira. Sin cifras: el repositorio es
+        público y las cifras se consultan en Umami
+      placeholder: Visitas a /novedades y clics en «comprar» desde ella
+    validations:
+      required: true
+  - type: textarea
+    id: cierre
+    attributes:
+      label: Cuándo se cierra
+      description: Qué hay que ver para darla por terminada
