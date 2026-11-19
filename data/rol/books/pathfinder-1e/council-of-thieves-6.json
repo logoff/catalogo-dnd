@@ -1,0 +1,25 @@
+{
+  "slug": "council-of-thieves-6",
+  "system": "pathfinder-1e",
+  "title": "Council of Thieves 6: The Twice-Damned Prince",
+  "kind": "adventure",
+  "description": "El desenlace de la campaña por la libertad de Westcrown.\n\nEs la entrega 6 de 6 de El concejo de ladrones, una senda de aventuras de Pathfinder 1E (2009-2010) ambientada en la ciudad de Westcrown, en Cheliax, donde los héroes se unen a la resistencia contra el dominio infernal de la nación.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252269/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El concejo de ladrones 6: El príncipe doblemente condenado",
+      "publisher": "Devir"
+    }
+  ]
+}

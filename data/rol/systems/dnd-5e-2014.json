@@ -1,0 +1,27 @@
+{
+  "slug": "dnd-5e-2014",
+  "name": "D&D 5E (2014)",
+  "family": "dungeons-and-dragons",
+  "publisher": "Wizards of the Coast",
+  "date": "2014-08",
+  "description": "La quinta edición de Dungeons & Dragons, publicada en 2014, que recuperó la sencillez de ediciones antiguas sin renunciar a la personalización de las modernas. Simplificó los modificadores con un único bonificador de competencia y con las tiradas con ventaja o desventaja, y dejó el combate sin cuadrícula como opción por defecto.\n\nSus libros oficiales están en el catálogo de este sitio. Sus reglas abiertas, el SRD 5.1, son la base de casi todo el material de terceros para 5E y de juegos derivados como Tales of the Valiant y Level Up.",
+  "features": [
+    "Ventaja y desventaja: se tiran dos d20 y se elige el mayor o el menor",
+    "Bonificador de competencia único que crece con el nivel",
+    "Concentración para limitar los conjuros activos",
+    "Descansos cortos y largos para recuperar recursos"
+  ],
+  "licenses": [
+    {
+      "license": "srd-5-1",
+      "since": "2016"
+    }
+  ],
+  "official_catalog": "/2014",
+  "links": [
+    {
+      "label": "SRD en D&D Beyond",
+      "url": "https://www.dndbeyond.com/srd"
+    }
+  ]
+}

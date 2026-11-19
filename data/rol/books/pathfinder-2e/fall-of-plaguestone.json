@@ -1,0 +1,42 @@
+{
+  "slug": "fall-of-plaguestone",
+  "system": "pathfinder-2e",
+  "title": "The Fall of Plaguestone",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "La primera aventura publicada para Pathfinder 2E, para personajes de nivel 1: un grupo de desconocidos investiga el asesinato de un amigo y descubre alquimia prohibida, animales mutados y una plaga que mata el bosque.\n\nPensada para empezar a jugar con las reglas de 2E.",
+  "source": "https://pathfinderwiki.com/wiki/The_Fall_of_Plaguestone",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-08-01",
+      "format": "paperback",
+      "isbn13": 9781640781740,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781749/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La caída de Piedraplaga",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/fall-of-plaguestone/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-la-caida-de-piedraplaga",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B549LND9/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/12866-pathfinder-2-ed-la-caida-de-piedraplaga-8436589626126.html"
+        }
+      ]
+    }
+  ]
+}

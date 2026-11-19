@@ -1,0 +1,38 @@
+{
+  "slug": "tales-from-the-old-margreve",
+  "system": "dnd-5e-2014",
+  "title": "Tales from the Old Margreve",
+  "kind": "adventure",
+  "description": "Una colección de aventuras de Kobold Press ambientadas en el Viejo Margreve, un bosque antiguo y mágico del mundo de Midgard, inspiradas en los cuentos de hadas más oscuros.\n\nPara llevar a los jugadores a un bosque peligroso y cambiante. Se complementa con la Guía del Jugador de Margreve.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/cuentos-del-viejo-margreve-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2019"
+    },
+    {
+      "language": "castellano",
+      "title": "Cuentos del Viejo Margreve",
+      "publisher": "Nosolorol",
+      "date": "2025-05-01",
+      "format": "hardcover",
+      "isbn13": 9788419594570,
+      "cover": "/images/rol/tales-from-the-old-margreve/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8419594571/"
+        },
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/cuentos-del-viejo-margreve-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-cuentos-del-viejo-margreve/9788419594570/15894761"
+        }
+      ]
+    }
+  ]
+}

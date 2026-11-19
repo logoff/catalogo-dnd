@@ -1,0 +1,28 @@
+{
+  "slug": "13-true-ways",
+  "system": "13th-age",
+  "title": "13 True Ways",
+  "kind": "supplement",
+  "description": "El primer gran suplemento de 13th Age: seis clases nuevas, como el druida, el monje o el nigromante, más saber sobre los iconos y el mundo, y criaturas y reglas nuevas.\n\nPara grupos que ya juegan con el libro básico y quieren más clases. Holocubierta lo publicó en castellano en 2017.",
+  "source": "https://holocubierta.com/market/marketview/rpggames/13thage/13a-cv-13-44-50-detail",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Pelgrane Press",
+      "date": "2014",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1908983620/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "13 caminos verdaderos",
+      "publisher": "Holocubierta",
+      "date": "2017",
+      "format": "hardcover"
+    }
+  ]
+}

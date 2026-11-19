@@ -1,0 +1,31 @@
+{
+  "slug": "bestiary-2e",
+  "system": "pathfinder-2e",
+  "title": "Bestiary",
+  "kind": "core",
+  "core": true,
+  "license": "ogl-1-0a",
+  "description": "El primer bestiario de Pathfinder 2E, de 2019, con unas cuatrocientas criaturas para todos los niveles y las reglas para usarlas y adaptarlas.\n\nFue el libro de monstruos de referencia hasta que el Remaster lo sustituyó por Monster Core, que deja fuera las criaturas procedentes de la OGL.",
+  "source": "https://store.paizo.com/pathfinder-bestiary/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-08-01",
+      "format": "hardcover",
+      "isbn13": 9781640781702,
+      "cover": "/images/rol/bestiary-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781706/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Bestiario",
+      "publisher": "Devir"
+    }
+  ]
+}

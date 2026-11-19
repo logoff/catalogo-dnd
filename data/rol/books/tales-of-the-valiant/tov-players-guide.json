@@ -1,0 +1,48 @@
+{
+  "slug": "tov-players-guide",
+  "system": "tales-of-the-valiant",
+  "title": "Player's Guide",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de Tales of the Valiant: linajes, herencias, trasfondos, clases y subclases, talentos, conjuros y equipo, con todas las reglas de juego. Es uno de los dos libros que hacen falta para jugar.\n\nSe complementa con el Cubil de Monstruos (Monster Vault) para quien dirige. Al ser compatible con 5E, sirve también para jugar aventuras de otras editoriales.",
+  "source": "https://koboldpress.com/project-black-flag",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2024-07-17",
+      "format": "hardcover",
+      "isbn13": 9781950789757,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1950789756/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Jugador",
+      "publisher": "Nosolorol",
+      "date": "2026-03-23",
+      "format": "hardcover",
+      "isbn13": 9791387882037,
+      "source": "https://www.todostuslibros.com/busquedas?keyword=9791387882037",
+      "cover": "/images/rol/tov-players-guide/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GPRRXWPG/"
+        },
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/tales-of-the-valiant/tov-guiajugador"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-tales-of-the-valiant-guia-del-jugador/9791387882037/17975564"
+        }
+      ]
+    }
+  ]
+}

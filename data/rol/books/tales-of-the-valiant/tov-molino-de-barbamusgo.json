@@ -1,0 +1,23 @@
+{
+  "slug": "tov-molino-de-barbamusgo",
+  "system": "tales-of-the-valiant",
+  "title": "Problemas en el Molino de Barbamusgo",
+  "kind": "adventure",
+  "description": "Una aventura introductoria de Kobold Press para cinco personajes de nivel 2, que los lleva hasta el nivel 4 combinando investigación, exploración y relaciones sociales con combate.\n\nSe vende en PDF en la tienda de Nosolorol, suelta o dentro de su suscripción de aventuras.",
+  "source": "https://www.nosolorol.com/tales-of-the-valiant/problemas-en-el-molino-de-barbamusgo-pdf",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Problemas en el Molino de Barbamusgo",
+      "publisher": "Nosolorol",
+      "format": "pdf",
+      "cover": "/images/rol/tov-molino-de-barbamusgo/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/tales-of-the-valiant/problemas-en-el-molino-de-barbamusgo-pdf"
+        }
+      ]
+    }
+  ]
+}

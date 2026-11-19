@@ -1,0 +1,15 @@
+{
+  "slug": "cc-by-4-0",
+  "name": "Creative Commons Attribution 4.0 International",
+  "short_name": "CC BY 4.0",
+  "kind": "license",
+  "holder": "Creative Commons",
+  "date": "2013-11",
+  "description": "Licencia general de Creative Commons, no pensada para juegos de rol en concreto. Permite copiar, adaptar y publicar el material, también con fines comerciales, con una sola condición: citar la obra original, a su autor y la licencia, e indicar si se ha modificado.\n\nA diferencia de la OGL, quien la concede no puede retirarla para el material ya publicado. Por eso Wizards eligió esta licencia en 2023 para el SRD 5.1 y en 2025 para el SRD 5.2, y otras editoriales la han adoptado para sus documentos de referencia.",
+  "links": [
+    {
+      "label": "Resumen y texto legal",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}

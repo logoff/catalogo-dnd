@@ -1,0 +1,23 @@
+{
+  "slug": "gigantes-de-xarkaz",
+  "system": "el-resurgir-del-dragon",
+  "title": "Los Gigantes de Xarkaz",
+  "kind": "adventure",
+  "description": "Una aventura para un grupo de personajes de nivel 4, que deberían llegar al nivel 5 al terminarla.\n\nPara grupos de nivel bajo. Está agotada en papel.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/los-gigantes-de-xarkaz-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Los Gigantes de Xarkaz",
+      "publisher": "Nosolorol",
+      "format": "paperback",
+      "cover": "/images/rol/gigantes-de-xarkaz/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/los-gigantes-de-xarkaz-papel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "sf1-gm-screen",
+  "system": "starfinder-1e",
+  "title": "GM Screen",
+  "kind": "other",
+  "description": "La pantalla del director de Starfinder 1E, con las tablas y reglas de consulta más habituales.\n\nPara quien dirige y quiere tener a mano las reglas durante la partida.",
+  "source": "https://devir.es/catalogsearch/result/?q=starfinder",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601259573/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Pantalla",
+      "publisher": "Devir"
+    }
+  ]
+}

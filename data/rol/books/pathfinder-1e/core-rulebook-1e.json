@@ -1,0 +1,36 @@
+{
+  "slug": "core-rulebook-1e",
+  "system": "pathfinder-1e",
+  "title": "Core Rulebook",
+  "kind": "core",
+  "core": true,
+  "description": "El libro básico de Pathfinder 1E: todas las reglas para jugadores y directores en un tomo, con razas, once clases, habilidades, dotes, conjuros, equipo y combate. Revisa las reglas de D&D 3.5 manteniendo la compatibilidad con su material.\n\nEs el punto de partida del juego y la base de todo lo que Paizo publicó para la primera edición durante una década.",
+  "source": "https://pathfinderwiki.com/wiki/Core_Rulebook_(First_Edition)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2009-08",
+      "format": "hardcover",
+      "isbn13": 9781601251503,
+      "cover": "/images/rol/core-rulebook-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601251505/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Reglamento básico",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B00H47G164/"
+        }
+      ]
+    }
+  ]
+}

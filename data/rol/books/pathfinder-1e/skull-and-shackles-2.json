@@ -1,0 +1,35 @@
+{
+  "slug": "skull-and-shackles-2",
+  "system": "pathfinder-1e",
+  "title": "Skull & Shackles 2: Raiders of the Fever Sea",
+  "kind": "adventure",
+  "description": "Con barco propio, los héroes empiezan su carrera como piratas.\n\nEs la entrega 2 de 6 de Calaveras y grilletes, una senda de aventuras de Pathfinder 1E (2012) ambientada en el mar de los Grilletes, donde los héroes, reclutados a la fuerza en un barco pirata, se convierten en capitanes con su propia flota.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254091/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Calaveras y grilletes 2: Saqueadores del mar Febril",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01HK0L9MK/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/2956-pathfinder-calaveras-y-grilletes-2-saqueadores-del-mar-febril-8436017224023.html"
+        }
+      ]
+    }
+  ]
+}

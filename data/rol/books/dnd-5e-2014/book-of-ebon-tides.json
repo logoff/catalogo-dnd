@@ -1,0 +1,15 @@
+{
+  "slug": "book-of-ebon-tides",
+  "system": "dnd-5e-2014",
+  "title": "Book of Ebon Tides",
+  "kind": "setting",
+  "description": "La guía del Reino de las Sombras de Kobold Press: un plano oscuro y cambiante habitado por las cortes de los feéricos de las sombras, con opciones de personaje, criaturas y reglas para viajar por él, para 5E.\n\nPara campañas con un tono de cuento oscuro; Courts of the Shadow Fey transcurre en este reino. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2022-09"
+    }
+  ]
+}

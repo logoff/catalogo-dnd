@@ -1,0 +1,29 @@
+{
+  "slug": "kingmaker-tomo-2",
+  "system": "pathfinder-2e",
+  "title": "Kingmaker (volume 2)",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "La segunda mitad de la edición en castellano de Kingmaker para Pathfinder 2E: el reino de los héroes crece y se enfrenta a vecinos hostiles y a fuerzas sobrenaturales hasta el final de la campaña.\n\nContinúa el tomo 1; en inglés las dos mitades forman un único libro de Paizo (2022).",
+  "source": "https://pathfinderwiki.com/wiki/Kingmaker_Adventure_Path",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Forjador de reyes, tomo 2",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/kingmaker-tomo-2/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-forjador-de-reyes-tomo-2",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0H2FQPCHH/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18858-pathfinder-segunda-edicion-forjador-de-reyes-tomo-2-8436607946533.html"
+        }
+      ]
+    }
+  ]
+}

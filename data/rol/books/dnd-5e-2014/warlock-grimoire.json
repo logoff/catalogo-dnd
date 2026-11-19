@@ -1,0 +1,15 @@
+{
+  "slug": "warlock-grimoire",
+  "system": "dnd-5e-2014",
+  "title": "Warlock Grimoire",
+  "kind": "supplement",
+  "description": "Una recopilación de artículos de la revista Warlock de Kobold Press para 5E: opciones de personaje, monstruos, objetos y pequeñas aventuras.\n\nPara quien busca material variado para su mesa. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2019"
+    }
+  ]
+}

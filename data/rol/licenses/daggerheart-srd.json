@@ -1,0 +1,21 @@
+{
+  "slug": "daggerheart-srd",
+  "name": "Daggerheart System Reference Document",
+  "short_name": "SRD de Daggerheart",
+  "kind": "reference_document",
+  "holder": "Darrington Press",
+  "date": "2025-05",
+  "description": "Las reglas de Daggerheart que Darrington Press pone a disposición de la comunidad: clases, ascendencias, comunidades, dominios y sus cartas, y las reglas de juego, sin el arte ni la ambientación de los libros.\n\nSe usa bajo la Darrington Press Community Gaming License, no bajo una licencia abierta general. La versión 1.0 salió con el juego en 2025 y la 2.0 en 2026.",
+  "links": [
+    {
+      "label": "SRD en la web de Daggerheart",
+      "url": "https://www.daggerheart.com/srd"
+    }
+  ],
+  "published_under": [
+    {
+      "license": "darrington-press-community-gaming-license",
+      "since": "2025-05"
+    }
+  ]
+}

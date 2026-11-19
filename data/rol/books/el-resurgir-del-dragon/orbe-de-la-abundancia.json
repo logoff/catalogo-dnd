@@ -1,0 +1,37 @@
+{
+  "slug": "orbe-de-la-abundancia",
+  "system": "el-resurgir-del-dragon",
+  "title": "El Orbe de la Abundancia",
+  "kind": "adventure",
+  "description": "Una aventura para un grupo de personajes de nivel 10.\n\nSe juega suelta y sirve también para conocer el juego y las reglas del SRD 5.1.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/el-orbe-de-la-abundancia-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "El Orbe de la Abundancia",
+      "publisher": "Nosolorol",
+      "date": "2019-04-05",
+      "format": "paperback",
+      "isbn13": 9788417775063,
+      "cover": "/images/rol/orbe-de-la-abundancia/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8417775064/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7715-el-resurgir-del-dragon-el-orbe-de-la-abundancia-9788417775063.html"
+        },
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/el-orbe-de-la-abundancia-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-orbe-de-la-abundancia/9788417775063/9276037"
+        }
+      ]
+    }
+  ]
+}

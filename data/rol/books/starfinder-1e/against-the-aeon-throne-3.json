@@ -1,0 +1,33 @@
+{
+  "slug": "against-the-aeon-throne-3",
+  "system": "starfinder-1e",
+  "title": "Against the Aeon Throne 3: The Rune Drive Gambit",
+  "kind": "adventure",
+  "description": "Los héroes asaltan una instalación científica secreta para liberar a los científicos y evitar que el Imperio se quede con el motor.\n\nEs la entrega 3 de 3 de Contra el trono de los eones (2018), la segunda senda de aventuras de Starfinder, contra el Imperio Estelar Azlanti.",
+  "source": "https://starfinderwiki.com/wiki/Against_the_Aeon_Throne",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2018-10-17",
+      "format": "paperback",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640780769/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Contra el trono de los eones 3: La táctica del motor rúnico",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11754-starfinder-contra-el-trono-de-los-eones-3-la-tactica-del-motor-runico-8436589624061.html"
+        }
+      ]
+    }
+  ]
+}

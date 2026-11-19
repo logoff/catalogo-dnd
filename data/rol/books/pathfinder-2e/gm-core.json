@@ -1,0 +1,44 @@
+{
+  "slug": "gm-core",
+  "system": "pathfinder-2e",
+  "title": "GM Core",
+  "kind": "core",
+  "core": true,
+  "license": "orc",
+  "description": "El libro básico del director de juego del Remaster de Pathfinder 2E: cómo preparar y dirigir partidas, crear encuentros equilibrados, repartir tesoros y diseñar aventuras, además de reglas de entornos, peligros, objetos mágicos y variantes de juego.\n\nJunto con Player Core sustituye al antiguo libro básico y al manual del director de la primera versión de 2E. Es imprescindible para quien dirige; los jugadores no lo necesitan.",
+  "source": "https://store.paizo.com/pathfinder-gm-core/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2023-11-15",
+      "format": "hardcover",
+      "isbn13": 9781640785588,
+      "cover": "/images/rol/gm-core/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640785582/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de dirección (Remaster)",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "source": "https://devir.es/pathfinder-2-ed-manual-de-direccion-remaster",
+      "cover": "/images/rol/gm-core/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DLBM6BF3/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16733-pathfinder-2-ed-manual-de-direccion-8436607944768.html"
+        }
+      ]
+    }
+  ]
+}

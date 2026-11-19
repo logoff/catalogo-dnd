@@ -1,0 +1,23 @@
+{
+  "slug": "ecos-de-tirania",
+  "system": "el-resurgir-del-dragon",
+  "title": "Ecos de Tiranía",
+  "kind": "adventure",
+  "description": "Una aventura para un grupo de personajes de nivel 8.\n\nSolo se vende en PDF en la tienda de Nosolorol.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/ecos-de-tirania-pdf",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Ecos de Tiranía",
+      "publisher": "Nosolorol",
+      "format": "pdf",
+      "cover": "/images/rol/ecos-de-tirania/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/ecos-de-tirania-pdf"
+        }
+      ]
+    }
+  ]
+}

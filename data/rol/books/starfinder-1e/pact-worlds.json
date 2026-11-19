@@ -1,0 +1,29 @@
+{
+  "slug": "pact-worlds",
+  "system": "starfinder-1e",
+  "title": "Pact Worlds",
+  "kind": "setting",
+  "description": "La guía de los Mundos del Pacto, el sistema solar que es el centro de la ambientación de Starfinder: cada planeta y estación con sus pueblos, culturas y facciones, y nuevas opciones de personaje y de naves.\n\nEl libro de referencia de la ambientación para la primera edición.",
+  "source": "https://store.paizo.com/starfinder-pact-worlds/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2018-03-28",
+      "format": "hardcover",
+      "isbn13": 9781640780224,
+      "cover": "/images/rol/pact-worlds/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/164078022X/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Los mundos del Pacto",
+      "publisher": "Devir"
+    }
+  ]
+}

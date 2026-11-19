@@ -1,0 +1,31 @@
+{
+  "slug": "jade-regent-6",
+  "system": "pathfinder-1e",
+  "title": "Jade Regent 6: The Empty Throne",
+  "kind": "adventure",
+  "description": "El enfrentamiento final con el regente de jade.\n\nEs la entrega 6 de 6 de El regente de jade, una senda de aventuras de Pathfinder 1E (2011-2012) ambientada desde el pueblo de Sandpoint hasta Tian Xia, acompañando a una heredera en un largo viaje para recuperar el trono de su familia.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254008/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El regente de jade 6: El trono vacío",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4110-pathfinder-el-regente-de-jade-6-el-trono-vacio-8436017225556.html"
+        }
+      ]
+    }
+  ]
+}

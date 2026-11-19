@@ -1,0 +1,31 @@
+{
+  "slug": "serpents-skull-2",
+  "system": "pathfinder-1e",
+  "title": "Serpent's Skull 2: Racing to Ruin",
+  "kind": "adventure",
+  "description": "Una carrera a través de la selva en busca de una ciudad perdida.\n\nEs la entrega 2 de 6 de La calavera de la serpiente, una senda de aventuras de Pathfinder 1E (2010-2011) ambientada en la Extensión de Mwangi, desde un naufragio hasta la búsqueda de una ciudad perdida y la lucha contra los hombres serpiente.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252730/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La calavera de la serpiente 2: Carrera hacia el desastre",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7150-pathfinder-la-calavera-de-la-serpiente-2-carrera-hacia-el-desastre-8436017228014.html"
+        }
+      ]
+    }
+  ]
+}

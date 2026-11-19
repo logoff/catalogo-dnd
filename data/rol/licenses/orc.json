@@ -1,0 +1,19 @@
+{
+  "slug": "orc",
+  "name": "ORC License (Open RPG Creative)",
+  "short_name": "ORC",
+  "kind": "license",
+  "holder": "Azora Law, por encargo de Paizo",
+  "date": "2023-06",
+  "description": "Licencia abierta creada a iniciativa de Paizo, con el bufete Azora Law, como alternativa a la OGL tras la polémica de 2023. No pertenece a ninguna editorial de juegos y se presenta como irrevocable: nadie puede cambiar sus condiciones para el material ya publicado. Cubre las mecánicas de juego (el material con licencia) y permite publicar obras derivadas, también comerciales.\n\nQuien publica bajo la ORC debe dejar abiertas, con la misma licencia, las mecánicas que aporte, pero puede reservar sus nombres, personajes, ambientación y arte. La usan Pathfinder y Starfinder desde sus revisiones de 2023 en adelante y el Black Flag Reference Document de Kobold Press.",
+  "links": [
+    {
+      "label": "Información de Paizo",
+      "url": "https://paizo.com/orclicense"
+    },
+    {
+      "label": "Anuncio de la versión final",
+      "url": "https://paizo.com/blog/orc-license-the-final-version-is-here"
+    }
+  ]
+}

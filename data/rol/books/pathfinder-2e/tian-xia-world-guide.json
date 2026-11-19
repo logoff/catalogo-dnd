@@ -1,0 +1,43 @@
+{
+  "slug": "tian-xia-world-guide",
+  "system": "pathfinder-2e",
+  "title": "Lost Omens Tian Xia World Guide",
+  "kind": "setting",
+  "license": "orc",
+  "description": "La guía de Tian Xia, el continente oriental de Golarion, inspirado en culturas de Asia: sus naciones, su historia y sus conflictos, ya con las reglas del Remaster.\n\nPara campañas en Tian Xia; se complementa con la guía de personajes de esa región.",
+  "source": "https://store.paizo.com/pathfinder-lost-omens-tian-xia-world-guide-p2/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2024-04-24",
+      "format": "hardcover",
+      "isbn13": 9781640785762,
+      "cover": "/images/rol/tian-xia-world-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640785760/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del mundo de Tian Xia",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/tian-xia-world-guide/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-a-guia-del-mundo-de-tian-xia",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0HS1LBXWK/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19587-pathfinder-segunda-edicion-guia-del-mundo-de-tian-xia-8436625611345.html"
+        }
+      ]
+    }
+  ]
+}

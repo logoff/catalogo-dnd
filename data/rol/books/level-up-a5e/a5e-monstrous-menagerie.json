@@ -1,0 +1,23 @@
+{
+  "slug": "a5e-monstrous-menagerie",
+  "system": "level-up-a5e",
+  "title": "Monstrous Menagerie",
+  "kind": "core",
+  "core": true,
+  "description": "El bestiario de Level Up, con unos seiscientos monstruos, variantes, plantillas y hordas, cada uno con su comportamiento, ganchos de aventura y tesoro, y pautas para diseñar encuentros y monstruos nuevos.\n\nEs el tercer libro básico, para quien dirige.",
+  "source": "https://modiphius.net/products/level-up-advanced-5th-edition-monstrous-menagerie",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "EN Publishing",
+      "format": "hardcover",
+      "isbn13": 9781912007820,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1912007827/"
+        }
+      ]
+    }
+  ]
+}

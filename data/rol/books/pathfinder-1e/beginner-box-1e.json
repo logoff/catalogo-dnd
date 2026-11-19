@@ -1,0 +1,29 @@
+{
+  "slug": "beginner-box-1e",
+  "system": "pathfinder-1e",
+  "title": "Beginner Box",
+  "kind": "starter",
+  "core": true,
+  "description": "La caja de inicio de Pathfinder 1E: reglas simplificadas hasta el nivel cinco, una aventura, personajes ya hechos, un tapete de juego, fichas de cartón y dados.\n\nPensada para aprender a jugar sin los libros básicos; quien quiera seguir pasa después al Reglamento básico.",
+  "source": "https://pathfinderwiki.com/wiki/Beginner_Box_(First_Edition)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2011-10-26",
+      "format": "boxed_set",
+      "isbn13": 9781601256300,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601256302/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Caja de iniciación",
+      "publisher": "Devir"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "hellknight-hill",
+  "system": "pathfinder-2e",
+  "title": "Age of Ashes 1: Hellknight Hill",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "Los héroes investigan unos incendios misteriosos en una ciudadela abandonada de los Caballeros Infernales y descubren a unos invasores y una secta que planea una catástrofe.\n\nEs la entrega 1 de 6 de La Era de las Cenizas, la primera senda de aventuras de Pathfinder 2E, para personajes de nivel 1 a 5.",
+  "source": "https://pathfinderwiki.com/wiki/Age_of_Ashes_(adventure_path)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-08-01",
+      "format": "paperback",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781730/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Era de las Cenizas 1: La colina del Caballero Infernal",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/hellknight-hill/castellano.webp",
+      "source": "https://devir.es/pathfinder-2ed-la-colina-del-caballero-infernal",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09BL7J4M3/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11298-pathfinder-2-ed-la-era-de-las-cenizas-1-la-colina-del-caballero-infernal-8436589623187.html"
+        }
+      ]
+    }
+  ]
+}

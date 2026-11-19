@@ -1,0 +1,29 @@
+{
+  "slug": "srd-5-1",
+  "name": "System Reference Document 5.1",
+  "short_name": "SRD 5.1",
+  "kind": "reference_document",
+  "holder": "Wizards of the Coast",
+  "date": "2016-01",
+  "description": "La parte abierta de las reglas de D&D 5E (2014): un subconjunto de clases, especies, conjuros, monstruos y objetos mágicos, sin la ambientación ni los nombres que Wizards reserva. Es lo que permite a otras editoriales publicar libros para 5E y crear juegos derivados.\n\nSe publicó primero bajo la OGL 1.0a y, desde enero de 2023, también bajo CC BY 4.0, de forma que ya no se puede retirar. Tales of the Valiant, Level Up y casi todo el material de terceros para 5E parten de él.",
+  "links": [
+    {
+      "label": "SRD en D&D Beyond",
+      "url": "https://www.dndbeyond.com/srd"
+    },
+    {
+      "label": "Anuncio de la versión CC BY 4.0",
+      "url": "https://www.dndbeyond.com/posts/1439-ogl-1-0a-creative-commons"
+    }
+  ],
+  "published_under": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2016-01"
+    },
+    {
+      "license": "cc-by-4-0",
+      "since": "2023-01-27"
+    }
+  ]
+}

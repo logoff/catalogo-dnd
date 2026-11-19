@@ -1,0 +1,37 @@
+{
+  "slug": "enclaves-espectaculares",
+  "system": "dnd-5e-2014",
+  "title": "Enclaves Espectaculares",
+  "kind": "supplement",
+  "description": "Herramientas para crear todo tipo de asentamientos y lugares, de aldeas a ciudades, e incluirlos en cualquier ambientación de 5E, propia o publicada. Escrito por Andrew Geertsen.\n\nPara directores que construyen su mundo o necesitan un pueblo nuevo con vida propia.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/enclaves-espectaculares-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Enclaves Espectaculares",
+      "publisher": "Nosolorol",
+      "date": "2023-12-01",
+      "format": "hardcover",
+      "isbn13": 9788419594372,
+      "cover": "/images/rol/enclaves-espectaculares/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8419594377/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14885-enclaves-espectaculares-9788419594372.html"
+        },
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/enclaves-espectaculares-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-enclaves-espectaculares/9788419594372/14142589"
+        }
+      ]
+    }
+  ]
+}

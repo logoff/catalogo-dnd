@@ -1,0 +1,31 @@
+{
+  "slug": "serpents-skull-4",
+  "system": "pathfinder-1e",
+  "title": "Serpent's Skull 4: Vaults of Madness",
+  "kind": "adventure",
+  "description": "Los secretos de la ciudad llevan a los héroes a sus profundidades.\n\nEs la entrega 4 de 6 de La calavera de la serpiente, una senda de aventuras de Pathfinder 1E (2010-2011) ambientada en la Extensión de Mwangi, desde un naufragio hasta la búsqueda de una ciudad perdida y la lucha contra los hombres serpiente.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252757/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La calavera de la serpiente 4: Las bóvedas de la locura",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8060-pathfinder-la-calavera-de-la-serpiente-4-las-bovedas-de-la-locura-8436017228465.html"
+        }
+      ]
+    }
+  ]
+}

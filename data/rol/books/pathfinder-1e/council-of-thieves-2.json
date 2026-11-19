@@ -1,0 +1,25 @@
+{
+  "slug": "council-of-thieves-2",
+  "system": "pathfinder-1e",
+  "title": "Council of Thieves 2: The Sixfold Trial",
+  "kind": "adventure",
+  "description": "Los héroes participan en una obra de teatro que esconde una prueba y una conspiración.\n\nEs la entrega 2 de 6 de El concejo de ladrones, una senda de aventuras de Pathfinder 1E (2009-2010) ambientada en la ciudad de Westcrown, en Cheliax, donde los héroes se unen a la resistencia contra el dominio infernal de la nación.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601251963/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El concejo de ladrones 2: El juicio de las seis pruebas",
+      "publisher": "Devir"
+    }
+  ]
+}

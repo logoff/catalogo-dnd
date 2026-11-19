@@ -1,0 +1,37 @@
+{
+  "slug": "pathfinder-2e",
+  "name": "Pathfinder 2E",
+  "family": "pathfinder",
+  "publisher": "Paizo",
+  "date": "2019-08",
+  "description": "La segunda edición de Pathfinder, un sistema nuevo que ya no es compatible con 3.5 ni con su primera edición. Cada turno tiene tres acciones que se gastan en moverse, atacar o lanzar conjuros, y las tiradas tienen cuatro grados de éxito: superar la dificultad por diez da un crítico. Los personajes se construyen eligiendo dotes de ascendencia, clase, habilidad y generales a cada nivel.\n\nEn 2023 Paizo publicó una revisión, el Remaster, que retira los elementos procedentes de la OGL y pasa el juego a la licencia ORC. Devir lo publica en castellano, con los libros del Remaster como Manual de juego, Manual de dirección y Manual de monstruos.",
+  "features": [
+    "Tres acciones por turno",
+    "Cuatro grados de éxito: fallo crítico, fallo, éxito y éxito crítico",
+    "Dotes de ascendencia, clase, habilidad y generales",
+    "Rangos de competencia: entrenado, experto, maestro y legendario"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "note": "Libros anteriores al Remaster"
+    },
+    {
+      "license": "orc",
+      "since": "Remaster (2023)"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "pathfinder-1e",
+      "kind": "major_rewrite",
+      "note": "Reglas nuevas en casi todo; el material de 1E necesita conversión."
+    }
+  ],
+  "links": [
+    {
+      "label": "Paizo",
+      "url": "https://paizo.com/pathfinder"
+    }
+  ]
+}

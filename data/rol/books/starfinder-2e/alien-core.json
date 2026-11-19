@@ -1,0 +1,24 @@
+{
+  "slug": "alien-core",
+  "system": "starfinder-2e",
+  "title": "Alien Core",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de criaturas de Starfinder 2E: alienígenas, robots y bestias espaciales de todos los niveles, con reglas para adaptarlas, compatibles con las de Pathfinder 2E.\n\nEs el tercer libro básico, para quien dirige.",
+  "source": "https://store.paizo.com/starfinder-2e-alien-core/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "format": "hardcover",
+      "isbn13": 9781640787131,
+      "cover": "/images/rol/alien-core/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640787135/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "courts-of-the-shadow-fey",
+  "system": "dnd-5e-2014",
+  "title": "Courts of the Shadow Fey",
+  "kind": "adventure",
+  "description": "Una aventura de intriga en la corte de los feéricos de las sombras, donde los personajes deben moverse entre facciones, fiestas y traiciones más que luchar.\n\nPara grupos que disfrutan de la intriga política y los ambientes de cuento oscuro. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2019",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1936781794/"
+        }
+      ]
+    }
+  ]
+}

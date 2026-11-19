@@ -1,0 +1,43 @@
+{
+  "slug": "treasure-vault",
+  "system": "pathfinder-2e",
+  "title": "Treasure Vault",
+  "kind": "supplement",
+  "license": "ogl-1-0a",
+  "description": "Un catálogo de varios centenares de objetos mágicos y mundanos para Pathfinder 2E, con reglas para fabricarlos y ideas para usarlos como recompensas.\n\nPara directores que buscan tesoros variados y jugadores que quieren equipo nuevo.",
+  "source": "https://store.paizo.com/pathfinder-treasure-vault/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2023-02-22",
+      "format": "hardcover",
+      "isbn13": 9781640784970,
+      "cover": "/images/rol/treasure-vault/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640784977/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El gran bazar",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/treasure-vault/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-el-gran-bazar",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CX172P2C/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15727-pathfinder-el-gran-bazar-segunda-edicion-8436607942269.html"
+        }
+      ]
+    }
+  ]
+}

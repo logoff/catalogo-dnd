@@ -1,0 +1,46 @@
+{
+  "slug": "tov-monster-vault",
+  "system": "tales-of-the-valiant",
+  "title": "Monster Vault",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de monstruos de Tales of the Valiant, con unos cuatrocientos monstruos y reglas para dirigir combates con ellos. Junto con la Guía del Jugador forma lo necesario para jugar.\n\nPensado para quien dirige. En castellano se llama Cubil de Monstruos.",
+  "source": "https://koboldpress.com/project-black-flag",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "format": "hardcover",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1950789772/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Cubil de Monstruos",
+      "publisher": "Nosolorol",
+      "format": "hardcover",
+      "source": "https://www.todostuslibros.com/busquedas?keyword=9791387882044",
+      "cover": "/images/rol/tov-monster-vault/castellano.webp",
+      "date": "2026-03-23",
+      "isbn13": 9791387882044,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GPR7DK6R/"
+        },
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/tales-of-the-valiant/tales-of-the-valiant-cubil-de-monstruos"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-tales-of-the-valiant-cubil-de-monstruos/9791387882044/17975565"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "dragonlight",
+  "system": "dnd-5e-2024",
+  "title": "Dragonlight",
+  "kind": "setting",
+  "description": "Una ambientación española para D&D 2024 de Dragon Lighthouse: un mundo fragmentado entre la fantasía y el progreso, con quince especies, más de cincuenta criaturas y catorce subclases, y tablas para adaptarla a 5E de 2014 y a Black Flag.\n\nSalió tras un mecenazgo en Verkami. Es una de las primeras ambientaciones de terceros escritas para las reglas de 2024, y en castellano desde su origen.",
+  "source": "https://juegosdelamesaredonda.com/18254-dragonlight-9791399093704.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Dragon Lighthouse",
+      "date": "2025-10-10",
+      "format": "hardcover",
+      "isbn13": 9791399093704,
+      "cover": "/images/rol/dragonlight/castellano.webp",
+      "source": "https://revistaturno.es/dragonlight-ambientacion-dungeons-and-dragons/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18254-dragonlight-9791399093704.html"
+        }
+      ]
+    }
+  ]
+}

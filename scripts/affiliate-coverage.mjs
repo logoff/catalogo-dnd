@@ -82,6 +82,30 @@ check(
     .map((n) => [n.slug, storesOf(n.editions).has('amazon')])
 )
 
+// Otros juegos de rol: Amazon en todos los libros; las tiendas españolas, en las ediciones en
+// castellano. NoSoloRol solo vende lo que publica Nosolorol
+const rpgBooks = files('data/rol/books/*/*.json').map(read)
+check(
+  'otros juegos de rol',
+  'amazon',
+  rpgBooks.map((b) => [b.slug, storesOf(b.editions).has('amazon')])
+)
+const spanishOf = (b, publisher) =>
+  b.editions.filter((e) => e.language === 'castellano' && (!publisher || e.publisher === publisher))
+for (const [store, publisher] of [
+  ['juegos_mesa_redonda'],
+  ['nosolorol', 'Nosolorol'],
+  ['casa_del_libro'],
+]) {
+  check(
+    'otros juegos de rol',
+    store,
+    rpgBooks
+      .filter((b) => spanishOf(b, publisher).length > 0)
+      .map((b) => [b.slug, storesOf(spanishOf(b, publisher)).has(store)])
+  )
+}
+
 const report = checks.map(({ section, store, entries }) => {
   const known = exceptions[section]?.[store] ?? {}
   const missing = entries.filter(([id, has]) => !has && !(id in known)).map(([id]) => id)

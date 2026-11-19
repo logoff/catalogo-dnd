@@ -83,6 +83,14 @@ describe('stores', () => {
     expect(getPurchaseUrl('nextory', url)).toBe(url)
   })
 
+  it('NoSoloRol va por Adtraction y sin IDs se enlaza tal cual', () => {
+    const url = 'https://www.nosolorol.com/es/srd-5-edicion/1185/tomo-de-las-bestias'
+    expect(getPurchaseUrl('nosolorol', url)).toBe(url)
+    expect(adtractionAffiliate('1234', '5678')!(url)).toBe(
+      `https://track.adtraction.com/t/t?a=1234&as=5678&t=2&tk=1&url=${encodeURIComponent(url)}`
+    )
+  })
+
   it('withParam respeta los parámetros existentes', () => {
     expect(withParam(`${url}?ref=x`, 'tag', 'a')).toBe(`${url}?ref=x&tag=a`)
   })

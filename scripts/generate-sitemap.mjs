@@ -113,6 +113,23 @@ function generateSitemap() {
     urls.push({ loc: `/novela/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
   }
 
+  // Otros juegos de rol: la sección, las licencias, los sistemas y los libros
+  // (data/rol/books/<sistema>/<slug>.json)
+  const rolDir = join(DATA_DIR, 'rol')
+  const rolUrl = (loc, priority) => ({ loc, priority, changefreq: 'monthly', lastmod: today })
+  urls.push({ loc: '/rol', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  urls.push(rolUrl('/licencias', 0.7))
+  for (const file of getProductFiles(join(rolDir, 'licenses'))) {
+    urls.push(rolUrl(`/licencia/${JSON.parse(readFileSync(file, 'utf-8')).slug}`, 0.6))
+  }
+  for (const file of getProductFiles(join(rolDir, 'systems'))) {
+    urls.push(rolUrl(`/rol/${JSON.parse(readFileSync(file, 'utf-8')).slug}`, 0.7))
+  }
+  for (const file of getProductFiles(join(rolDir, 'books'))) {
+    const { system, slug } = JSON.parse(readFileSync(file, 'utf-8'))
+    urls.push(rolUrl(`/rol/${system}/${slug}`, 0.6))
+  }
+
   // Generate XML
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

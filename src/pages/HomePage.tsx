@@ -15,6 +15,7 @@ import NovelCard from '@/components/novels/NovelCard'
 import { cardClass } from '@/components/ui/styles'
 import { latestInSpanish } from '@/utils/releases'
 import novelsLatest from 'virtual:novels-latest'
+import rpgStats from 'virtual:rpg-stats'
 
 const container = 'mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'
 
@@ -138,6 +139,12 @@ export default function HomePage() {
             title="Novelas"
             description="Las novelas oficiales desde 1978, en inglés y en castellano."
             count={novelsLatest.total}
+          />
+          <SectionCard
+            to="/rol"
+            title="Otros juegos de rol"
+            description={`Pathfinder, Tales of the Valiant y otros ${rpgStats.systems} sistemas de la familia de D&D, con sus libros y sus licencias abiertas.`}
+            count={rpgStats.books}
           />
           <SectionCard
             to="/guias"

@@ -1,0 +1,31 @@
+{
+  "slug": "council-of-thieves-5",
+  "system": "pathfinder-1e",
+  "title": "Council of Thieves 5: Mother of Flies",
+  "kind": "adventure",
+  "description": "Los héroes persiguen a un enemigo demoníaco en el penúltimo capítulo.\n\nEs la entrega 5 de 6 de El concejo de ladrones, una senda de aventuras de Pathfinder 1E (2009-2010) ambientada en la ciudad de Westcrown, en Cheliax, donde los héroes se unen a la resistencia contra el dominio infernal de la nación.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601251998/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El concejo de ladrones 5: La madre de las moscas",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01C9BHA8C/"
+        }
+      ]
+    }
+  ]
+}

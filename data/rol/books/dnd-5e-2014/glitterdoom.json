@@ -1,0 +1,20 @@
+{
+  "slug": "glitterdoom",
+  "system": "dnd-5e-2014",
+  "title": "Glitterdoom",
+  "kind": "adventure",
+  "description": "Una aventura de Goodman Games para 5E, de su línea Fifth Edition Fantasy, con el estilo de las aventuras clásicas de mazmorra.\n\nOther Selves la publicó en castellano en 2018.",
+  "source": "https://goodman-games.com/blog/2018/01/13/new-spanish-language-releases/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games"
+    },
+    {
+      "language": "castellano",
+      "title": "Fulgor fatídico",
+      "publisher": "Other Selves",
+      "date": "2018"
+    }
+  ]
+}

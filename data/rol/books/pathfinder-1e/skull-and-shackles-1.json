@@ -1,0 +1,35 @@
+{
+  "slug": "skull-and-shackles-1",
+  "system": "pathfinder-1e",
+  "title": "Skull & Shackles 1: The Wormwood Mutiny",
+  "kind": "adventure",
+  "description": "Reclutados a la fuerza en un barco pirata, los héroes sobreviven a bordo y preparan un motín.\n\nEs la entrega 1 de 6 de Calaveras y grilletes, una senda de aventuras de Pathfinder 1E (2012) ambientada en el mar de los Grilletes, donde los héroes, reclutados a la fuerza en un barco pirata, se convierten en capitanes con su propia flota.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254040/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Calaveras y grilletes 1: El motín del Amargura",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01GV344GA/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/3015-pathfinder-calaveras-y-grilletes-1-el-motin-del-amargura-8436017223910.html"
+        }
+      ]
+    }
+  ]
+}

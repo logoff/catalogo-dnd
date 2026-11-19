@@ -1,0 +1,31 @@
+{
+  "slug": "return-of-the-runelords-4",
+  "system": "pathfinder-1e",
+  "title": "Return of the Runelords 4: Temple of the Peacock Spirit",
+  "kind": "adventure",
+  "description": "Los héroes buscan un templo de una antigua tradición thassiloniana.\n\nEs la entrega 4 de 6 de El retorno de los Señores de las Runas, una senda de aventuras de Pathfinder 1E (2018) ambientada por Varisia, donde el regreso de los antiguos Señores de las Runas amenaza con resucitar el imperio de Thassilon; es la secuela de El auge de los Señores de las Runas.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640780912/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El retorno de los Señores de las Runas 4: El templo del Espíritu del Pavo Real",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/10200-pathfinder-el-retorno-de-los-senores-de-las-runas-4-el-templo-del-espiritu-del-pavo-real-8436589621961.html"
+        }
+      ]
+    }
+  ]
+}

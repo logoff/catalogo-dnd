@@ -1,0 +1,24 @@
+{
+  "slug": "el-resurgir-del-dragon",
+  "system": "el-resurgir-del-dragon",
+  "title": "El Resurgir del Dragón",
+  "kind": "core",
+  "core": true,
+  "description": "El libro básico del juego: creación de personajes, clases, conjuros, reglas de juego, monstruos y consejos para dirigir, todo con las reglas del SRD 5.1 y en castellano.\n\nBasta para jugar campañas de fantasía y es compatible con aventuras y suplementos de 5E. Nosolorol lo vende en PDF; la edición de lujo en papel está agotada.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/el-resurgir-del-dragon-pdf",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Nosolorol",
+      "date": "2018",
+      "format": "pdf",
+      "cover": "/images/rol/el-resurgir-del-dragon/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/el-resurgir-del-dragon-pdf"
+        }
+      ]
+    }
+  ]
+}

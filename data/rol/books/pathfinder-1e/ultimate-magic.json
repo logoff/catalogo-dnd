@@ -1,0 +1,26 @@
+{
+  "slug": "ultimate-magic",
+  "system": "pathfinder-1e",
+  "title": "Ultimate Magic",
+  "kind": "supplement",
+  "description": "Un suplemento dedicado a la magia en Pathfinder 1E: la clase del magus, arquetipos para lanzadores, nuevos conjuros y reglas para la fabricación de objetos y la magia en el mundo.\n\nPara quien juega con lanzadores de conjuros o quiere la clase que mezcla espada y magia.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2011",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252994/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Magia definitiva",
+      "publisher": "Devir"
+    }
+  ]
+}

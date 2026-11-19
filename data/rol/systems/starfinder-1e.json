@@ -1,0 +1,33 @@
+{
+  "slug": "starfinder-1e",
+  "name": "Starfinder 1E",
+  "family": "starfinder",
+  "publisher": "Paizo",
+  "date": "2017-08",
+  "description": "El juego de ciencia ficción y fantasía de Paizo, ambientado en el futuro lejano del mismo universo que Pathfinder: Golarion ha desaparecido y la galaxia se recorre en naves que mezclan tecnología y magia. Parte de las reglas de Pathfinder 1E, pero las adapta a armas de fuego, armaduras con tecnología y combate entre naves en el que cada jugador ocupa un puesto en el puente.\n\nSe publicó bajo la OGL y tuvo sendas de aventuras como las de Pathfinder. Devir publicó en castellano los básicos, varios suplementos y las sendas Soles muertos y Contra el trono de los eones.",
+  "features": [
+    "Ciencia ficción con magia en el universo de Pathfinder",
+    "Puntos de aguante además de puntos de golpe",
+    "Combate de naves con un puesto para cada jugador",
+    "Sendas de aventuras de seis entregas"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2017"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "pathfinder-1e",
+      "kind": "compatible",
+      "note": "Usa la base de Pathfinder 1E con cambios importantes; la compatibilidad es parcial y el material necesita ajustes."
+    }
+  ],
+  "links": [
+    {
+      "label": "Paizo",
+      "url": "https://paizo.com/starfinder"
+    }
+  ]
+}

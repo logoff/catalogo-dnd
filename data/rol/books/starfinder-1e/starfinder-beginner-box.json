@@ -1,0 +1,30 @@
+{
+  "slug": "starfinder-beginner-box",
+  "system": "starfinder-1e",
+  "title": "Beginner Box",
+  "kind": "starter",
+  "core": true,
+  "description": "La caja de inicio de Starfinder 1E: reglas simplificadas, una aventura, personajes ya hechos, mapas, fichas de cartón y dados para aprender a jugar y a dirigir.\n\nPensada para grupos nuevos; después se pasa a las Reglas básicas.",
+  "source": "https://store.paizo.com/starfinder-beginner-box/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-04-24",
+      "format": "boxed_set",
+      "isbn13": 9781640781238,
+      "cover": "/images/rol/starfinder-beginner-box/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Caja de iniciación",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09764VW76/"
+        }
+      ]
+    }
+  ]
+}

@@ -8,8 +8,10 @@ en inglés y en castellano de Dungeons & Dragons de las ediciones
 5E (2014) y 5.5E (2024), de todos los videojuegos oficiales de D&D,
 con las plataformas, si están en castellano y dónde comprarlos, y del
 merchandising con licencia oficial (libros de cocina y de arte, figuras,
-LEGO y juegos de mesa) y de las novelas oficiales de D&D en inglés con
-todas sus ediciones en castellano.
+LEGO y juegos de mesa), de las novelas oficiales de D&D en inglés con
+todas sus ediciones en castellano y de otros juegos de rol de la familia
+de D&D (Pathfinder, Tales of the Valiant, Daggerheart…) con sus licencias
+abiertas.
 
 **🌐 Consulta el catálogo en [catalogodnd.es](https://catalogodnd.es/)**
 
@@ -148,6 +150,17 @@ en `data/novels/series.json`. La lista maestra es
 `data/novels/inventory.md`, la skill `add-novel` explica cómo dar de alta
 novelas y `just novel-covers` descarga y convierte sus portadas.
 
+## Otros juegos de rol
+
+La sección `/rol` reúne juegos de la familia de D&D que no son de Wizards
+of the Coast (Pathfinder, Starfinder, Tales of the Valiant, Daggerheart,
+13th Age, Level Up) y libros de otras editoriales para 5E, con sus
+ediciones en inglés y en castellano, y `/licencias` explica las licencias
+abiertas (OGL, SRD, ORC…) que los relacionan. Los datos están en
+`data/rol/`: licencias en `licenses/`, sistemas en `systems/` y libros en
+`books/<sistema>/`. La lista maestra es `data/rol/inventory.md` y la skill
+`add-rpg` explica cómo dar de alta licencias, sistemas y libros.
+
 ## Enlaces de afiliado
 
 Los botones de compra llevan ID de afiliado solo si están definidas
@@ -166,6 +179,7 @@ se publica sin afiliado:
 | `VITE_AFFILIATE_FANATICAL_PROGRAM`           | ID del anunciante Fanatical en Awin             |
 | `VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM`      | ID del anunciante Casa del Libro en Awin        |
 | `VITE_AFFILIATE_NEXTORY_PROGRAM`             | ID del programa de Nextory en Adtraction        |
+| `VITE_AFFILIATE_NOSOLOROL_PROGRAM`           | ID del programa de NoSoloRol en Adtraction      |
 
 En el despliegue se leen de los secretos del repositorio con el mismo
 nombre sin el prefijo `VITE_`. En local se pueden poner en `.env`.

@@ -1,0 +1,29 @@
+{
+  "slug": "pf2-beginner-box-remaster",
+  "system": "pathfinder-2e",
+  "title": "Beginner Box (Remaster)",
+  "title_es": "Caja de iniciación (Remaster)",
+  "kind": "starter",
+  "license": "orc",
+  "description": "La caja de inicio de Pathfinder 2E con las reglas del Remaster que vende Devir en castellano: reglas simplificadas, una aventura, personajes ya hechos, mapas y fichas para aprender a jugar y a dirigir.\n\nPensada para grupos nuevos; después se pasa al Manual de juego y al Manual de dirección.",
+  "source": "https://devir.es/pathfinder-2-ed-caja-de-iniciacion-remaster",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Caja de iniciación (Remaster)",
+      "publisher": "Devir",
+      "format": "boxed_set",
+      "cover": "/images/rol/pf2-beginner-box-remaster/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GGSXSZHX/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18491-pathfinder-2-ed-caja-de-iniciacion-remaster-8436607947349.html"
+        }
+      ]
+    }
+  ]
+}

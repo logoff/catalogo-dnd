@@ -6,6 +6,8 @@ import { readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { buildNovelIndex } from './src/utils/novels.ts'
 import type { Novel, NovelSeries } from './src/types/novel.ts'
+import { buildRpgIndex } from './src/utils/rpg.ts'
+import type { License, RpgBook, RpgSystem } from './src/types/rpg.ts'
 
 // Inyecta el script de Umami solo si están definidas las variables de entorno
 function umami(url?: string, websiteId?: string): Plugin {
@@ -73,6 +75,49 @@ function novelsIndex(): Plugin {
   }
 }
 
+// Datos de la sección de otros juegos de rol generados leyendo los JSON de data/rol:
+// - virtual:rpg-index, licencias, sistemas y resumen de los libros, en un trozo aparte que solo
+//   descargan las páginas de la sección.
+// - virtual:rpg-stats, cuántos sistemas y libros hay, para la portada del sitio.
+function rpgIndex(): Plugin {
+  const MODULES = ['virtual:rpg-index', 'virtual:rpg-stats']
+  const dataDir = resolve(import.meta.dirname, 'data/rol')
+  const jsonIn = (dir: string): string[] =>
+    readdirSync(dir)
+      .filter((file) => file.endsWith('.json'))
+      .map((file) => join(dir, file))
+
+  return {
+    name: 'rpg-index',
+    resolveId: (id) => (MODULES.includes(id) ? '\0' + id : undefined),
+    load(id) {
+      if (!MODULES.includes(id.slice(1))) return
+      const booksDir = join(dataDir, 'books')
+      const files = {
+        licenses: jsonIn(join(dataDir, 'licenses')),
+        systems: jsonIn(join(dataDir, 'systems')),
+        books: readdirSync(booksDir, { withFileTypes: true })
+          .filter((entry) => entry.isDirectory())
+          .flatMap((dir) => jsonIn(join(booksDir, dir.name))),
+      }
+      // Para que el servidor de desarrollo regenere los módulos al cambiar cualquier JSON
+      for (const file of Object.values(files).flat()) this.addWatchFile(file)
+      const read = <T>(paths: string[]): T[] =>
+        paths.map((path) => JSON.parse(readFileSync(path, 'utf-8')) as T)
+      const index = buildRpgIndex(
+        read<License>(files.licenses),
+        read<RpgSystem>(files.systems),
+        read<RpgBook>(files.books)
+      )
+      const data =
+        id === '\0virtual:rpg-stats'
+          ? { systems: index.systems.length, books: index.books.length }
+          : index
+      return `export default ${JSON.stringify(data)}`
+    },
+  }
+}
+
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_UMAMI_')
@@ -83,6 +128,7 @@ export default defineConfig(({ mode }) => {
       tailwindcss(),
       umami(env.VITE_UMAMI_URL, env.VITE_UMAMI_WEBSITE_ID),
       novelsIndex(),
+      rpgIndex(),
     ],
     resolve: {
       alias: {
@@ -129,6 +175,8 @@ export default defineConfig(({ mode }) => {
         VITE_AFFILIATE_AWIN_PUBLISHER: '',
         VITE_AFFILIATE_FANATICAL_PROGRAM: '',
         VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM: '',
+        VITE_AFFILIATE_NEXTORY_PROGRAM: '',
+        VITE_AFFILIATE_NOSOLOROL_PROGRAM: '',
       },
     },
   }

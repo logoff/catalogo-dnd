@@ -1,0 +1,27 @@
+{
+  "slug": "against-the-aeon-throne-1",
+  "system": "starfinder-1e",
+  "title": "Against the Aeon Throne 1: The Reach of Empire",
+  "kind": "adventure",
+  "description": "Contratados para llevar suministros a una colonia, los héroes la encuentran ocupada por el Imperio Azlanti y deben liberarla.\n\nEs la entrega 1 de 3 de Contra el trono de los eones (2018), la segunda senda de aventuras de Starfinder, contra el Imperio Estelar Azlanti.",
+  "source": "https://starfinderwiki.com/wiki/Against_the_Aeon_Throne",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2018-08-29",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "Contra el trono de los eones 1: El alcance del imperio",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11097-starfinder-contra-el-trono-de-los-eones-1-el-alcance-del-imperio-8436589623552.html"
+        }
+      ]
+    }
+  ]
+}

@@ -45,6 +45,13 @@ export default function LegalPage() {
             ni respaldado por ella. No vende ningún producto: los enlaces de compra llevan a tiendas
             externas.
           </p>
+          <p>
+            La sección «Otros juegos de rol» reúne juegos y libros de otras editoriales de la
+            familia de D&D (Pathfinder, Tales of the Valiant, Daggerheart, suplementos de terceros
+            para 5E…). <strong>No es contenido oficial de Dungeons & Dragons</strong> ni de Wizards
+            of the Coast, y las explicaciones de las licencias abiertas son informativas, no
+            asesoramiento jurídico.
+          </p>
 
           <h2>Enlaces de afiliado</h2>
           <p>
@@ -57,6 +64,10 @@ export default function LegalPage() {
           <p>
             Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los
             requisitos aplicables.
+          </p>
+          <p>
+            En la sección «Otros juegos de rol» se enlaza también a NoSoloRol, con su programa de
+            afiliados.
           </p>
           <p>
             Las fichas de videojuegos enlazan también a tiendas sin programa de afiliados, como
@@ -91,6 +102,12 @@ export default function LegalPage() {
           <p>
             Los títulos y las portadas de las novelas y antologías son de sus editoriales y de
             Wizards of the Coast; se muestran solo para identificar cada obra y cada edición.
+          </p>
+          <p>
+            Los nombres, logotipos y portadas de los juegos y libros de la sección «Otros juegos de
+            rol» son de sus editoriales (Paizo, Kobold Press, Darrington Press y las demás que se
+            citan en cada ficha), sin relación con este sitio ni su respaldo; se muestran solo para
+            identificar cada obra.
           </p>
           <p>
             Los logotipos de consolas, ordenadores y sistemas (PlayStation, Xbox, Nintendo, Sega,

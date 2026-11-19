@@ -1,0 +1,21 @@
+{
+  "slug": "creature-codex",
+  "system": "dnd-5e-2014",
+  "title": "Creature Codex",
+  "kind": "supplement",
+  "description": "Un bestiario de Kobold Press para 5E con más de cuatrocientas criaturas nuevas de todos los valores de desafío, muchas del mundo de Midgard.\n\nPara directores que quieren enemigos distintos de los del Manual de Monstruos. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2018",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1936781921/"
+        }
+      ]
+    }
+  ]
+}

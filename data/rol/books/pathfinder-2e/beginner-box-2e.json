@@ -1,0 +1,26 @@
+{
+  "slug": "beginner-box-2e",
+  "system": "pathfinder-2e",
+  "title": "Beginner Box",
+  "kind": "starter",
+  "core": true,
+  "license": "ogl-1-0a",
+  "description": "La caja de inicio de Pathfinder 2E de 2020: reglas simplificadas, una aventura para empezar, personajes ya hechos, mapas, fichas de cartón y dados, para aprender a jugar y a dirigir sin los libros básicos.\n\nPensada para grupos nuevos. En castellano, Devir vende una caja de iniciación del Remaster, que tiene ficha aparte.",
+  "source": "https://store.paizo.com/pathfinder-beginner-box/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2020-11-11",
+      "format": "boxed_set",
+      "isbn13": 9781640782846,
+      "cover": "/images/rol/beginner-box-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782842/"
+        }
+      ]
+    }
+  ]
+}

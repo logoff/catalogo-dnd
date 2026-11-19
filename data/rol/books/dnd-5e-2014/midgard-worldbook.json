@@ -1,0 +1,15 @@
+{
+  "slug": "midgard-worldbook",
+  "system": "dnd-5e-2014",
+  "title": "Midgard Worldbook",
+  "kind": "setting",
+  "description": "La guía del mundo de Midgard, la ambientación de Kobold Press: un mundo de fantasía de inspiración centroeuropea y mitológica, con sus reinos, religiones, magia y regiones, para usar con 5E.\n\nEs el libro de referencia para jugar en Midgard; las opciones para jugadores están en el Midgard Heroes Handbook. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2018"
+    }
+  ]
+}

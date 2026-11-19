@@ -1,0 +1,39 @@
+{
+  "slug": "core-rulebook-2e",
+  "system": "pathfinder-2e",
+  "title": "Core Rulebook",
+  "kind": "core",
+  "core": true,
+  "license": "ogl-1-0a",
+  "description": "El libro básico original de Pathfinder 2E, de 2019: reunía en un solo tomo las reglas para jugadores y directores, con ascendencias, clases, conjuros, equipo y la forma de dirigir partidas. Introdujo el sistema de tres acciones por turno y los cuatro grados de éxito.\n\nDesde 2023 lo sustituyen Player Core y GM Core, del Remaster, que lo reorganizan y retiran el contenido de la OGL. Sigue siendo compatible en lo esencial con el material posterior.",
+  "source": "https://store.paizo.com/pathfinder-core-rulebook/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-08-01",
+      "format": "hardcover",
+      "isbn13": 9781640781689,
+      "cover": "/images/rol/core-rulebook-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781684/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Reglas básicas",
+      "publisher": "Devir",
+      "source": "https://devir.es/pathfinder-juego-de-rol-reglas-basicas-2-ed",
+      "cover": "/images/rol/core-rulebook-2e/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BTST915T/"
+        }
+      ]
+    }
+  ]
+}

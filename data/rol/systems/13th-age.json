@@ -1,0 +1,34 @@
+{
+  "slug": "13th-age",
+  "name": "13th Age",
+  "family": "13th-age",
+  "publisher": "Pelgrane Press",
+  "date": "2013-08",
+  "description": "El juego de fantasía de Rob Heinsoo y Jonathan Tweet, diseñadores principales de la cuarta y la tercera edición de D&D. Usa la base d20 y la OGL, pero la simplifica y la lleva a lo narrativo: cada personaje tiene una relación con los trece iconos, los grandes poderes del mundo, y algo único que nadie más tiene, y un dado de escalada hace que los combates se aceleren a medida que avanzan.\n\nHolocubierta publicó en castellano el libro básico en 2014 y varios suplementos. En 2025 Pelgrane Press sacó una segunda edición en inglés.",
+  "features": [
+    "Relaciones con los trece iconos del mundo",
+    "Algo único para cada personaje",
+    "Dado de escalada en combate",
+    "Trasfondos en lugar de lista de habilidades"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2013"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-3-5",
+      "kind": "inspiration",
+      "via_license": "ogl-1-0a",
+      "note": "Usa la base d20 del SRD bajo la OGL y toma ideas de la cuarta edición de D&D, pero no es compatible con ninguna de las dos."
+    }
+  ],
+  "links": [
+    {
+      "label": "Pelgrane Press",
+      "url": "https://pelgranepress.com/2013/07/30/through-the-scrying-glass-13th-age-released/"
+    }
+  ]
+}

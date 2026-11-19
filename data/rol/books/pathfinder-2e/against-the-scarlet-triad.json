@@ -1,0 +1,34 @@
+{
+  "slug": "against-the-scarlet-triad",
+  "system": "pathfinder-2e",
+  "title": "Age of Ashes 5: Against the Scarlet Triad",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "Los héroes asaltan la fortaleza de la Tríada Escarlata minando el apoyo político del que depende, con astucia, combate y suerte.\n\nEs la entrega 5 de 6 de La Era de las Cenizas, la primera senda de aventuras de Pathfinder 2E, para personajes de nivel 15 a 18.",
+  "source": "https://pathfinderwiki.com/wiki/Age_of_Ashes_(adventure_path)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-11-13",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "La Era de las Cenizas 5: Contra la Tríada Escarlata",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/against-the-scarlet-triad/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BF8XYC9V/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/12318-pathfinder-2-ed-la-era-de-las-cenizas-5-contra-la-triada-escarlata-8436589627222.html"
+        }
+      ]
+    }
+  ]
+}

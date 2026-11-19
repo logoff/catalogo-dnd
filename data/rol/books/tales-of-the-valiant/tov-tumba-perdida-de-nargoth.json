@@ -1,0 +1,23 @@
+{
+  "slug": "tov-tumba-perdida-de-nargoth",
+  "system": "tales-of-the-valiant",
+  "title": "La Tumba Perdida de Nargoth",
+  "kind": "adventure",
+  "description": "Una aventura de Kobold Press para personajes de nivel 4, compatible también con 5E.\n\nSe vende en PDF en la tienda de Nosolorol, suelta o dentro de su suscripción de aventuras.",
+  "source": "https://www.nosolorol.com/tales-of-the-valiant/la-tumba-perdida-de-nargoth-pdf",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "La Tumba Perdida de Nargoth",
+      "publisher": "Nosolorol",
+      "format": "pdf",
+      "cover": "/images/rol/tov-tumba-perdida-de-nargoth/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/tales-of-the-valiant/la-tumba-perdida-de-nargoth-pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "skull-and-shackles-6",
+  "system": "pathfinder-1e",
+  "title": "Skull & Shackles 6: From Hell's Heart",
+  "kind": "adventure",
+  "description": "El desenlace: defender los Grilletes de una flota invasora.\n\nEs la entrega 6 de 6 de Calaveras y grilletes, una senda de aventuras de Pathfinder 1E (2012) ambientada en el mar de los Grilletes, donde los héroes, reclutados a la fuerza en un barco pirata, se convierten en capitanes con su propia flota.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254229/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Calaveras y grilletes 6: Del corazón del Infierno",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4026-pathfinder-calaveras-y-grilletes-6-del-corazon-del-infierno-8436017224337.html"
+        }
+      ]
+    }
+  ]
+}

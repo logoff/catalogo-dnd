@@ -1,0 +1,43 @@
+{
+  "slug": "lost-omens-gods-and-magic",
+  "system": "pathfinder-2e",
+  "title": "Lost Omens Gods & Magic",
+  "kind": "setting",
+  "license": "ogl-1-0a",
+  "description": "Los dioses y las filosofías de Golarion para Pathfinder 2E: sus dogmas, sus fieles y sus dones, con conjuros y opciones para clérigos, campeones y otros personajes devotos.\n\nPara quien juega con personajes religiosos o quiere dar peso a la fe en su campaña.",
+  "source": "https://store.paizo.com/pathfinder-lost-omens-gods-magic/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2020-01-29",
+      "format": "hardcover",
+      "isbn13": 9781640782020,
+      "cover": "/images/rol/lost-omens-gods-and-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782028/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Presagios perdidos: Dioses y magia",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/lost-omens-gods-and-magic/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-presagios-perdidos-dioses-y-magia",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BH1S7H1T/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13406-pathfinder-2-ed-dioses-y-magia-de-los-presagios-perdidos-8436589626850.html"
+        }
+      ]
+    }
+  ]
+}

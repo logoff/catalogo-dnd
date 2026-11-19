@@ -1,0 +1,22 @@
+{
+  "slug": "ogl-1-0a",
+  "name": "Open Game License 1.0a",
+  "short_name": "OGL 1.0a",
+  "kind": "license",
+  "holder": "Wizards of the Coast",
+  "date": "2000",
+  "description": "La licencia con la que Wizards of the Coast abrió en 2000 las reglas de la tercera edición de D&D. Permite a cualquiera copiar, modificar y publicar, incluso para vender, el contenido que una obra declara como abierto (Open Game Content), siempre que incluya el texto de la licencia y la lista de obras de las que procede ese contenido.\n\nNo permite usar lo que cada editorial reserva como identidad de producto (nombres, personajes, mundos, logotipos) ni presentar una obra como compatible con D&D usando su marca. Es la base de toda la familia d20: el SRD 3.5, Pathfinder y buena parte del material de terceros para 5E. En 2023 Wizards intentó sustituirla por una versión más restrictiva y tuvo que dar marcha atrás.",
+  "links": [
+    {
+      "label": "Texto de la licencia (al final del SRD 5.1)",
+      "url": "https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf"
+    }
+  ],
+  "status_notes": [
+    {
+      "date": "2023-01-27",
+      "text": "Tras la polémica por el borrador de la OGL 1.1, Wizards anunció que mantiene la OGL 1.0a tal como está y publicó el SRD 5.1 también bajo CC BY 4.0.",
+      "source": "https://www.dndbeyond.com/posts/1439-ogl-1-0a-creative-commons"
+    }
+  ]
+}

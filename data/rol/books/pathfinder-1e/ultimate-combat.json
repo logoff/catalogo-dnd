@@ -1,0 +1,32 @@
+{
+  "slug": "ultimate-combat",
+  "system": "pathfinder-1e",
+  "title": "Ultimate Combat",
+  "kind": "supplement",
+  "description": "Un suplemento centrado en el combate para Pathfinder 1E: clases como el pistolero, el ninja y el samurái, armas de fuego, arquetipos y dotes de combate, y reglas opcionales.\n\nPara grupos con personajes marciales o que quieren pólvora en su campaña.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2011",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640780513/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Combate definitivo",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B079G9GRH4/"
+        }
+      ]
+    }
+  ]
+}

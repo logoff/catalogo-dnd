@@ -1,0 +1,43 @@
+{
+  "slug": "13th-age-core-book",
+  "system": "13th-age",
+  "title": "13th Age",
+  "kind": "core",
+  "core": true,
+  "description": "El libro básico de 13th Age: creación de personajes con sus relaciones con los iconos y su algo único, clases, conjuros, combate con el dado de escalada, monstruos y la ambientación del Imperio del Dragón, todo en un solo tomo.\n\nBasta para jugar y dirigir. Holocubierta lo publicó en castellano en 2014.",
+  "source": "https://pelgranepress.com/2013/07/30/through-the-scrying-glass-13th-age-released/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Pelgrane Press",
+      "date": "2013-08",
+      "format": "hardcover",
+      "isbn13": 9781908983404,
+      "cover": "/images/rol/13th-age-core-book/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/190898340X/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta",
+      "date": "2014-12",
+      "format": "hardcover",
+      "isbn13": 9788493956103,
+      "source": "https://www.sddistribuciones.com/13TH-AGE-LIBRO-BASICO-Isbn-978-84-939561-0-3-Codigo-HOR,HOL13A01",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8493956104/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/1369-13th-age-9788493956103.html"
+        }
+      ]
+    }
+  ]
+}

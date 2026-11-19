@@ -1,0 +1,38 @@
+{
+  "slug": "tales-of-the-valiant",
+  "name": "Tales of the Valiant",
+  "family": "tales-of-the-valiant",
+  "publisher": "Kobold Press",
+  "date": "2024-07",
+  "description": "El juego de rol de Kobold Press nacido tras la polémica de la OGL en 2023: parte del SRD 5.1 de D&D y lo revisa para que no dependa de Wizards, manteniendo la compatibilidad con las aventuras y suplementos de 5E. Separa el linaje (de qué pueblo es el personaje) de la herencia (dónde se crio), da talentos desde el primer nivel y añade puntos de suerte.\n\nSus reglas abiertas son el Black Flag Reference Document. Nosolorol lo publica en castellano desde 2026, con la Guía del Jugador, el Cubil de Monstruos y la pantalla.",
+  "features": [
+    "Compatible con aventuras y suplementos de 5E",
+    "Linaje y herencia por separado",
+    "Talentos desde el primer nivel",
+    "Puntos de suerte"
+  ],
+  "licenses": [
+    {
+      "license": "black-flag-reference-document",
+      "since": "2023"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-5e-2014",
+      "kind": "compatible",
+      "via_license": "srd-5-1",
+      "note": "Parte del SRD 5.1 y lo revisa manteniendo la compatibilidad con el material de 5E."
+    }
+  ],
+  "links": [
+    {
+      "label": "Kobold Press",
+      "url": "https://koboldpress.com/project-black-flag"
+    },
+    {
+      "label": "Nosolorol",
+      "url": "https://www.nosolorol.com/talesofthevaliant"
+    }
+  ]
+}

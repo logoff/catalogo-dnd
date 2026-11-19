@@ -1,0 +1,26 @@
+{
+  "slug": "curse-of-the-crimson-throne",
+  "system": "pathfinder-1e",
+  "title": "Curse of the Crimson Throne",
+  "kind": "adventure",
+  "description": "La senda de aventuras completa en un tomo: en la ciudad de Korvosa, la muerte del rey desata una crisis y los héroes acaban enfrentados a la nueva reina y a una maldición antigua ligada al trono.\n\nUna campaña urbana de intriga y horror, revisada para Pathfinder 1E. Devir la publicó como recopilatorio.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2016",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601250886/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La maldición del Trono Carmesí",
+      "publisher": "Devir"
+    }
+  ]
+}

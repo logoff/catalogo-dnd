@@ -1,0 +1,30 @@
+{
+  "slug": "bestiary-1e",
+  "system": "pathfinder-1e",
+  "title": "Bestiary",
+  "kind": "core",
+  "core": true,
+  "description": "El primer bestiario de Pathfinder 1E, con más de trescientas criaturas clásicas de la fantasía y de D&D adaptadas a las reglas de Pathfinder, y reglas para crear y modificar monstruos.\n\nEs el libro de monstruos básico de la primera edición; le siguieron muchos más bestiarios numerados.",
+  "source": "https://pathfinderwiki.com/wiki/Bestiary_(First_Edition)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2009-10",
+      "format": "hardcover",
+      "isbn13": 9781601251831,
+      "cover": "/images/rol/bestiary-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601251831/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Bestiario",
+      "publisher": "Devir"
+    }
+  ]
+}

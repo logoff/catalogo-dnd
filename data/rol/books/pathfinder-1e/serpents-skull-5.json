@@ -1,0 +1,31 @@
+{
+  "slug": "serpents-skull-5",
+  "system": "pathfinder-1e",
+  "title": "Serpent's Skull 5: The Thousand Fangs Below",
+  "kind": "adventure",
+  "description": "Los héroes descienden a las Tierras Oscuras, el reino de los hombres serpiente.\n\nEs la entrega 5 de 6 de La calavera de la serpiente, una senda de aventuras de Pathfinder 1E (2010-2011) ambientada en la Extensión de Mwangi, desde un naufragio hasta la búsqueda de una ciudad perdida y la lucha contra los hombres serpiente.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252765/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La calavera de la serpiente 5: Los mil colmillos por abajo",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8250-pathfinder-la-calavera-de-la-serpiente-5-los-mil-colmillos-por-abajo-8436017228632.html"
+        }
+      ]
+    }
+  ]
+}

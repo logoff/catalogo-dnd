@@ -1,0 +1,35 @@
+{
+  "slug": "kingmaker-1e-6",
+  "system": "pathfinder-1e",
+  "title": "Kingmaker 6: Sound of a Thousand Screams",
+  "kind": "adventure",
+  "description": "Los héroes descubren quién estaba detrás de las amenazas contra su reino en el desenlace de la campaña.\n\nEs la entrega 6 de 6 de Forjador de reyes, una senda de aventuras de Pathfinder 1E (2010) ambientada en las Tierras Robadas, donde los héroes exploran la región, la limpian de peligros y fundan y gobiernan su propio reino.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601252536/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Forjador de reyes 6: El sonido de un millar de gritos",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B010FOB08Q/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/2144-pathfinder-el-sonido-de-un-millar-de-gritos-8436017222500.html"
+        }
+      ]
+    }
+  ]
+}

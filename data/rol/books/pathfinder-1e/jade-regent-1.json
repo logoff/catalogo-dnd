@@ -1,0 +1,25 @@
+{
+  "slug": "jade-regent-1",
+  "system": "pathfinder-1e",
+  "title": "Jade Regent 1: The Brinewall Legacy",
+  "kind": "adventure",
+  "description": "Los héroes descubren el pasado de una amiga explorando el castillo de Muro de Salmuera.\n\nEs la entrega 1 de 6 de El regente de jade, una senda de aventuras de Pathfinder 1E (2011-2012) ambientada desde el pueblo de Sandpoint hasta Tian Xia, acompañando a una heredera en un largo viaje para recuperar el trono de su familia.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601253613/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El regente de jade 1: El legado de Muro de Salmuera",
+      "publisher": "Devir"
+    }
+  ]
+}

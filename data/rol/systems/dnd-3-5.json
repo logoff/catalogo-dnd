@@ -1,0 +1,26 @@
+{
+  "slug": "dnd-3-5",
+  "name": "D&D 3.5",
+  "family": "dungeons-and-dragons",
+  "publisher": "Wizards of the Coast",
+  "date": "2003-07",
+  "description": "La revisión de 2003 de la tercera edición de Dungeons & Dragons, la que unificó las reglas en torno al d20: casi todo se resuelve tirando un dado de veinte caras, sumando modificadores y comparando con una dificultad. Los personajes combinan clases y niveles con dotes y habilidades muy configurables, y el combate táctico se juega sobre cuadrícula.\n\nSu importancia va más allá de D&D: Wizards publicó sus reglas como SRD 3.5 bajo la OGL, lo que permitió una explosión de material de terceros y, cuando llegó la cuarta edición, que Paizo continuara esas reglas con Pathfinder. Devir la publicó en castellano.",
+  "features": [
+    "Sistema d20: tirada de veinte caras más modificadores contra una dificultad",
+    "Clases y niveles combinables (multiclase) y clases de prestigio",
+    "Dotes y habilidades por puntos",
+    "Combate táctico sobre cuadrícula"
+  ],
+  "licenses": [
+    {
+      "license": "srd-3-5",
+      "since": "2003"
+    }
+  ],
+  "links": [
+    {
+      "label": "SRD 3.5 (copia del archivo de Wizards)",
+      "url": "https://archive.org/details/dnd35srd"
+    }
+  ]
+}

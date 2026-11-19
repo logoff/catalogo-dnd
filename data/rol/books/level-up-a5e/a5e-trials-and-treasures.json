@@ -1,0 +1,23 @@
+{
+  "slug": "a5e-trials-and-treasures",
+  "system": "level-up-a5e",
+  "title": "Trials & Treasures",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de Level Up: las reglas completas de viajes y exploración, peligros, recompensas y más de quinientos objetos mágicos con reglas para fabricarlos.\n\nCompleta el Adventurer's Guide para quien dirige.",
+  "source": "https://modiphius.net/products/level-up-advanced-5th-edition-trials-treasures",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "EN Publishing",
+      "format": "hardcover",
+      "isbn13": 9781912007837,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1912007835/"
+        }
+      ]
+    }
+  ]
+}

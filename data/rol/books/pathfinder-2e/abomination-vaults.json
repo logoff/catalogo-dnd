@@ -1,0 +1,32 @@
+{
+  "slug": "abomination-vaults",
+  "system": "pathfinder-2e",
+  "title": "Abomination Vaults",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "La senda de aventuras completa en un tomo: una enorme mazmorra bajo el pueblo de Otari, llena de monstruos y trampas, que los héroes exploran del nivel 1 al 11 para impedir el regreso de la hechicera Belcorra Haruvex.\n\nPara grupos que quieren una campaña de mazmorra clásica. Reúne los tres volúmenes de la senda.",
+  "source": "https://store.paizo.com/pathfinder-adventure-path-abomination-vaults/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2022-05-25",
+      "format": "hardcover",
+      "isbn13": 9781640784109,
+      "cover": "/images/rol/abomination-vaults/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640784101/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Las bóvedas de la Abominación",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/abomination-vaults/castellano.webp"
+    }
+  ]
+}

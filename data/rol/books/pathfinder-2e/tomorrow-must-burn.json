@@ -1,0 +1,30 @@
+{
+  "slug": "tomorrow-must-burn",
+  "system": "pathfinder-2e",
+  "title": "Age of Ashes 3: Tomorrow Must Burn",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "Los héroes siguen la pista de quienes movían los hilos de la secta, la Tríada Escarlata, hasta una nación donde combaten un tráfico de esclavos que oculta un plan mayor.\n\nEs la entrega 3 de 6 de La Era de las Cenizas, la primera senda de aventuras de Pathfinder 2E, para personajes de nivel 9 a 12.",
+  "source": "https://pathfinderwiki.com/wiki/Age_of_Ashes_(adventure_path)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-09-18",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "La Era de las Cenizas 3: El mañana debe arder",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/tomorrow-must-burn/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09LJ4VWVT/"
+        }
+      ]
+    }
+  ]
+}

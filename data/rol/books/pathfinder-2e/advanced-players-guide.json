@@ -1,0 +1,30 @@
+{
+  "slug": "advanced-players-guide",
+  "system": "pathfinder-2e",
+  "title": "Advanced Player's Guide",
+  "kind": "supplement",
+  "license": "ogl-1-0a",
+  "description": "El gran suplemento de opciones de personaje de la primera versión de Pathfinder 2E: cuatro clases nuevas (investigador, oráculo, espadachín y bruja), nuevas ascendencias como los kóbolds, los orcos o los tengu, y decenas de arquetipos.\n\nPara jugadores que quieren ir más allá del libro básico. Parte de su contenido se revisó después en los libros del Remaster.",
+  "source": "https://store.paizo.com/pathfinder-advanced-players-guide/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2020-07-30",
+      "format": "hardcover",
+      "isbn13": 9781640782570,
+      "cover": "/images/rol/advanced-players-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782575/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del jugador avanzada",
+      "publisher": "Devir"
+    }
+  ]
+}

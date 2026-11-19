@@ -1,0 +1,31 @@
+{
+  "slug": "shattered-star-4",
+  "system": "pathfinder-1e",
+  "title": "Shattered Star 4: Beyond the Doomsday Door",
+  "kind": "adventure",
+  "description": "Los héroes exploran una antigua mazmorra thassiloniana.\n\nEs la entrega 4 de 6 de La estrella fragmentada, una senda de aventuras de Pathfinder 1E (2012-2013) ambientada por Varisia, en busca de los fragmentos de un artefacto de la antigua Thassilon.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254741/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La estrella fragmentada 4: Más allá de la Puerta del Día del Juicio",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6045-pathfinder-estrella-fragmentada-4-mas-alla-de-la-puerta-del-dia-del-juicio-8436017227055.html"
+        }
+      ]
+    }
+  ]
+}

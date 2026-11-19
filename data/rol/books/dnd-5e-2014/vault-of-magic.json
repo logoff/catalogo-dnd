@@ -1,0 +1,20 @@
+{
+  "slug": "vault-of-magic",
+  "system": "dnd-5e-2014",
+  "title": "Vault of Magic",
+  "kind": "supplement",
+  "description": "Un compendio de objetos mágicos de Kobold Press para 5E, con varios centenares de objetos nuevos de todas las rarezas, desde baratijas curiosas hasta artefactos.\n\nPara directores que quieren recompensas distintas de las de la Guía del Dungeon Master. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1950789241/"
+        }
+      ]
+    }
+  ]
+}

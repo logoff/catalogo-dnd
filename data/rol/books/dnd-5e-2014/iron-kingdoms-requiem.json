@@ -1,0 +1,37 @@
+{
+  "slug": "iron-kingdoms-requiem",
+  "system": "dnd-5e-2014",
+  "title": "Iron Kingdoms: Requiem",
+  "kind": "setting",
+  "description": "La adaptación a 5E de los Reinos de Hierro de Privateer Press, el mundo de fantasía de pólvora, vapor y magia de Warmachine: naciones en guerra, mecanomagia y gigantes de vapor.\n\nPara grupos que quieren fantasía industrial con reglas de 5E. Se complementa con el Monstruonomicón y la pantalla.",
+  "source": "https://www.nosolorol.com/iron-kingdoms-requiem/iron-kingdoms-requiem-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Privateer Press"
+    },
+    {
+      "language": "castellano",
+      "title": "Iron Kingdoms: Réquiem",
+      "publisher": "Nosolorol",
+      "date": "2023-07-14",
+      "format": "hardcover",
+      "isbn13": 9788418586651,
+      "cover": "/images/rol/iron-kingdoms-requiem/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8418586656/"
+        },
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/iron-kingdoms-requiem/iron-kingdoms-requiem-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-iron-kingdoms-requiem/9788418586651/14142590"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "player-core",
+  "system": "pathfinder-2e",
+  "title": "Player Core",
+  "kind": "core",
+  "core": true,
+  "license": "orc",
+  "description": "El libro básico del jugador del Remaster de Pathfinder 2E: todas las reglas para crear y llevar un personaje, con ascendencias, trasfondos, ocho clases, dotes, equipo y conjuros, además de las reglas generales de juego. Sustituye, junto con el manual del director, al antiguo libro básico, y ya no usa elementos de la OGL.\n\nEs el punto de partida para cualquier jugador de Pathfinder 2E. Se complementa con Player Core 2, que añade más clases y ascendencias, y con el manual del director y el de monstruos para quien dirige.",
+  "source": "https://store.paizo.com/pathfinder-player-core/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2023-11-15",
+      "format": "hardcover",
+      "isbn13": 9781640785533,
+      "cover": "/images/rol/player-core/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640785531/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de juego (Remaster)",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "source": "https://devir.es/pathfinder-2-ed-manual-de-juego-remaster",
+      "cover": "/images/rol/player-core/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DGF8M3TB/"
+        }
+      ]
+    }
+  ]
+}

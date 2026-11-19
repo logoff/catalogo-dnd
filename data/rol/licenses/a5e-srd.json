@@ -1,0 +1,29 @@
+{
+  "slug": "a5e-srd",
+  "name": "Level Up A5E SRD",
+  "short_name": "A5E SRD",
+  "kind": "reference_document",
+  "holder": "EN Publishing",
+  "date": "2023",
+  "description": "Las reglas de Level Up: Advanced 5th Edition reescritas por EN Publishing como documento de referencia propio, con más de mil páginas de contenido abierto. Al estar redactadas con sus propias palabras, no dependen del texto del SRD de Wizards.\n\nEN Publishing lo publica a la vez bajo CC BY 4.0, la OGL 1.0a y la ORC, para que cada cual elija. Sustituye al primer SRD de Level Up, que solo estaba bajo la OGL.",
+  "links": [
+    {
+      "label": "A5ESRD",
+      "url": "https://a5esrd.com/"
+    }
+  ],
+  "published_under": [
+    {
+      "license": "cc-by-4-0",
+      "since": "2023"
+    },
+    {
+      "license": "ogl-1-0a",
+      "since": "2023"
+    },
+    {
+      "license": "orc",
+      "since": "2023"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "shattered-star-1",
+  "system": "pathfinder-1e",
+  "title": "Shattered Star 1: Shards of Sin",
+  "kind": "adventure",
+  "description": "En la ciudad de Magnimar, los héroes buscan el primer fragmento del artefacto.\n\nEs la entrega 1 de 6 de La estrella fragmentada, una senda de aventuras de Pathfinder 1E (2012-2013) ambientada por Varisia, en busca de los fragmentos de un artefacto de la antigua Thassilon.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601254520/"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La estrella fragmentada 1: Fragmentos de pecado",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07B11N6RT/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/5538-pathfinder-estrella-fragmentada-1-fragmentos-de-pecado-8436017226539.html"
+        }
+      ]
+    }
+  ]
+}

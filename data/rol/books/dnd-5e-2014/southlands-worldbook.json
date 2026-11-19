@@ -1,0 +1,20 @@
+{
+  "slug": "southlands-worldbook",
+  "system": "dnd-5e-2014",
+  "title": "Southlands Worldbook",
+  "kind": "setting",
+  "description": "La guía de las Tierras del Sur de Midgard, una región de desiertos, ruinas antiguas y reinos inspirados en el norte de África y Oriente Próximo, para 5E.\n\nAmplía Midgard hacia el sur; La Tumba de Tiberesh, publicada en castellano, transcurre en esta región. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1950789055/"
+        }
+      ]
+    }
+  ]
+}

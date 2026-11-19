@@ -1,0 +1,17 @@
+{
+  "slug": "tov-gm-guide",
+  "system": "tales-of-the-valiant",
+  "title": "Game Master's Guide",
+  "kind": "core",
+  "core": true,
+  "description": "La guía del director de Tales of the Valiant: cómo preparar y dirigir partidas, crear aventuras y recompensas, y reglas opcionales para ajustar el juego a cada mesa.\n\nNo es imprescindible para empezar, pero completa la Guía del Jugador y el Monster Vault. De momento solo está en inglés.",
+  "source": "https://retrofixgames.com/products/tales-of-the-valiant-game-masters-guide",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2024-10-16",
+      "format": "hardcover"
+    }
+  ]
+}

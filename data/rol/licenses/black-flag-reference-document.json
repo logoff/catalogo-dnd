@@ -1,0 +1,24 @@
+{
+  "slug": "black-flag-reference-document",
+  "name": "Black Flag Reference Document",
+  "short_name": "BFRD",
+  "kind": "reference_document",
+  "holder": "Kobold Press",
+  "date": "2023",
+  "description": "Las reglas abiertas de Tales of the Valiant, el juego de Kobold Press derivado de 5E. Kobold Press las publicó durante el desarrollo del juego, primero con el nombre de Black Flag, y las ha ido actualizando hasta la versión final.\n\nSe publicaron bajo la licencia ORC y más tarde también bajo CC BY 4.0, de modo que cualquiera puede publicar material compatible con Tales of the Valiant. Con la ORC, las mecánicas que se aporten deben quedar abiertas con la misma licencia.",
+  "links": [
+    {
+      "label": "Descarga en Kobold Press",
+      "url": "https://koboldpress.com/kpstore/product/black-flag-reference-document-pdf/"
+    }
+  ],
+  "published_under": [
+    {
+      "license": "orc",
+      "since": "2023"
+    },
+    {
+      "license": "cc-by-4-0"
+    }
+  ]
+}

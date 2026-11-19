@@ -1,0 +1,154 @@
+// Lógica pura de la sección de otros juegos de rol, sin import.meta.glob: la usan el loader del
+// navegador y el plugin de Vite que genera el índice en Node (por eso las importaciones son
+// relativas)
+import type {
+  License,
+  RpgBook,
+  RpgBookSummary,
+  RpgBookWithMeta,
+  RpgEdition,
+  RpgIndex,
+  RpgSystem,
+} from '../types/rpg.ts'
+import { normalize } from './videogameFilters.ts'
+
+// Editoriales de 5E destacadas: entra su catálogo impreso principal aunque solo esté en inglés
+export const FEATURED_PUBLISHERS = ['Kobold Press']
+
+function byDateDesc<T extends { date?: string }>(a: T, b: T): number {
+  return (b.date ?? '').localeCompare(a.date ?? '')
+}
+
+// Título de la edición en castellano más reciente; las ediciones sin título propio no cuentan
+function titleEsOf(book: RpgBook): string | null {
+  const spanish = book.editions
+    .filter((edition) => edition.language === 'castellano' && edition.title)
+    .sort(byDateDesc)
+  return book.title_es ?? spanish[0]?.title ?? null
+}
+
+// Licencias que se aplican a un libro: la suya si la indica («none» si solo se declara
+// compatible) o, si no, las de su sistema
+export function bookLicenses(book: Pick<RpgBook, 'license' | 'system'>, systems: RpgSystem[]) {
+  if (book.license) return book.license === 'none' ? [] : [book.license]
+  return systems.find((s) => s.slug === book.system)?.licenses.map((l) => l.license) ?? []
+}
+
+export function enrichBook(book: RpgBook, systems: RpgSystem[]): RpgBookWithMeta {
+  const latest = [...book.editions].filter((e) => e.date).sort(byDateDesc)[0]?.date ?? null
+  const titles = [
+    book.title,
+    ...(book.title_es ? [book.title_es] : []),
+    ...book.editions.filter((e) => e.title).map((e) => e.title!),
+  ]
+  const publishers = [...new Set(book.editions.map((e) => e.publisher))]
+  return {
+    ...book,
+    titleEs: titleEsOf(book),
+    year: latest ? Number(latest.slice(0, 4)) : null,
+    latestDate: latest,
+    spanish: book.editions.some((e) => e.language === 'castellano'),
+    licenses: bookLicenses(book, systems),
+    publishers,
+    searchText: normalize([...new Set([...titles, ...publishers])].join(' | ')),
+  }
+}
+
+// Portada que representa al libro: la de la edición en castellano más reciente que la tenga y,
+// si no, la de la inglesa más reciente
+export function mainCover(book: RpgBook): string | null {
+  const withCover = (language: RpgEdition['language']) =>
+    book.editions.filter((e) => e.language === language && e.cover).sort(byDateDesc)[0]?.cover
+  return withCover('castellano') ?? withCover('english') ?? null
+}
+
+export function thumbnailOf(cover: string): string {
+  return cover.replace(/\.webp$/, '-thumb.webp')
+}
+
+// Del más reciente al más antiguo; los que no tienen fecha, al final
+export function compareBooks(
+  a: Pick<RpgBookWithMeta, 'latestDate' | 'title'>,
+  b: Pick<RpgBookWithMeta, 'latestDate' | 'title'>
+) {
+  return (b.latestDate ?? '').localeCompare(a.latestDate ?? '') || a.title.localeCompare(b.title)
+}
+
+export function summarize(book: RpgBookWithMeta): RpgBookSummary {
+  const cover = mainCover(book)
+  return {
+    slug: book.slug,
+    system: book.system,
+    title: book.title,
+    titleEs: book.titleEs,
+    kind: book.kind,
+    year: book.year,
+    latestDate: book.latestDate,
+    spanish: book.spanish,
+    licenses: book.licenses,
+    publishers: book.publishers,
+    searchText: book.searchText,
+    thumbnail: cover ? thumbnailOf(cover) : null,
+  }
+}
+
+export function buildRpgIndex(
+  licenses: License[],
+  systems: RpgSystem[],
+  books: RpgBook[]
+): RpgIndex {
+  return {
+    licenses: [...licenses].sort((a, b) => a.name.localeCompare(b.name)),
+    systems: [...systems].sort((a, b) => a.date.localeCompare(b.date)),
+    books: books.map((book) => summarize(enrichBook(book, systems))).sort(compareBooks),
+  }
+}
+
+// Sistemas que derivan directamente de uno, con el tipo de cada derivación
+export function derivedSystems(systems: RpgSystem[], slug: string) {
+  return systems.flatMap((system) =>
+    (system.derived_from ?? [])
+      .filter((derivation) => derivation.system === slug)
+      .map((derivation) => ({ system, derivation }))
+  )
+}
+
+// Otras ediciones del mismo juego, de la más antigua a la más reciente
+export function familyOf(systems: RpgSystem[], system: RpgSystem): RpgSystem[] {
+  return systems
+    .filter((s) => s.family === system.family && s.slug !== system.slug)
+    .sort((a, b) => a.date.localeCompare(b.date))
+}
+
+// Sistemas que usan una licencia
+export function systemsUsing(systems: RpgSystem[], license: string): RpgSystem[] {
+  return systems.filter((system) => system.licenses.some((l) => l.license === license))
+}
+
+// Licencias relacionadas en los dos sentidos: bajo las que se publica un documento de referencia
+// y los documentos que se publican bajo una licencia
+export function relatedLicenses(licenses: License[], license: License): License[] {
+  const under = (license.published_under ?? []).map((p) => p.license)
+  return licenses.filter(
+    (l) =>
+      l.slug !== license.slug &&
+      (under.includes(l.slug) || (l.published_under ?? []).some((p) => p.license === license.slug))
+  )
+}
+
+// Primer sistema de un ciclo de derivaciones, o null si no hay ninguno
+export function derivationCycle(systems: RpgSystem[]): string | null {
+  const parents = new Map(systems.map((s) => [s.slug, (s.derived_from ?? []).map((d) => d.system)]))
+  const visiting = new Set<string>()
+  const done = new Set<string>()
+  const visit = (slug: string): boolean => {
+    if (done.has(slug)) return false
+    if (visiting.has(slug)) return true
+    visiting.add(slug)
+    const cycle = (parents.get(slug) ?? []).some(visit)
+    visiting.delete(slug)
+    done.add(slug)
+    return cycle
+  }
+  return systems.find((s) => visit(s.slug))?.slug ?? null
+}

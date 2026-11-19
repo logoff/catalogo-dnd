@@ -1,0 +1,25 @@
+{
+  "slug": "kingmaker-1e-5",
+  "system": "pathfinder-1e",
+  "title": "Kingmaker 5: War of the River Kings",
+  "kind": "adventure",
+  "description": "Estalla la guerra contra un reino rival de las Tierras Fluviales.\n\nEs la entrega 5 de 6 de Forjador de reyes, una senda de aventuras de Pathfinder 1E (2010) ambientada en las Tierras Robadas, donde los héroes exploran la región, la limpian de peligros y fundan y gobiernan su propio reino.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo"
+    },
+    {
+      "language": "castellano",
+      "title": "Forjador de reyes 5: La guerra de los Reyes Fluviales",
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/2004-pathfinder-la-guerra-de-los-reyes-fluviales-8436017222494.html"
+        }
+      ]
+    }
+  ]
+}

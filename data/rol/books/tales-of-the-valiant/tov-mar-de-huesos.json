@@ -1,0 +1,23 @@
+{
+  "slug": "tov-mar-de-huesos",
+  "system": "tales-of-the-valiant",
+  "title": "Mar de Huesos",
+  "kind": "adventure",
+  "description": "Una aventura de Kobold Press para un grupo de cuatro o cinco personajes de nivel 3.\n\nSe vende en PDF en la tienda de Nosolorol, suelta o dentro de su suscripción de aventuras.",
+  "source": "https://www.nosolorol.com/tales-of-the-valiant/mar-de-huesos-pdf",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Mar de Huesos",
+      "publisher": "Nosolorol",
+      "format": "pdf",
+      "cover": "/images/rol/tov-mar-de-huesos/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/tales-of-the-valiant/mar-de-huesos-pdf"
+        }
+      ]
+    }
+  ]
+}
