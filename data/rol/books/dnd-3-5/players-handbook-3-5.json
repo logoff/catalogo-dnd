@@ -1,0 +1,28 @@
+{
+  "slug": "players-handbook-3-5",
+  "system": "dnd-3-5",
+  "title": "Player's Handbook v.3.5",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de la revisión 3.5: creación de personajes, razas, clases, habilidades, dotes, equipo, combate y magia, con la lista de conjuros. Respecto a la tercera edición equilibra clases como el bardo, el explorador o el monje, ajusta muchos conjuros y da más peso al combate en cuadrícula.\n\nEs el primero de los tres básicos de 3.5 y la base de todos sus suplementos. Quien tenga el de 3.ª edición puede seguir usando casi todo su material con pocos ajustes.",
+  "source": "https://web.archive.org/web/2005/http://www.wizards.com:80/default.asp?x=products/dndcore/175240000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-07",
+      "format": "hardcover",
+      "isbn13": 9780786928866,
+      "cover": "/images/rol/players-handbook-3-5/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador v.3.5",
+      "publisher": "Devir",
+      "date": "2003-09",
+      "format": "hardcover",
+      "isbn13": 9788495712967,
+      "source": "https://web.archive.org/web/20040630010035/http://www.devir.es:80/catalogo/cat.pl?o=1&c=JRDDBAS&b=logos/dungeons.jpg%27target=%27text"
+    }
+  ]
+}

@@ -101,6 +101,27 @@ describe('página de otros juegos de rol', () => {
     )
   })
 
+  it('no muestra las ediciones anteriores de D&D ni sus libros', () => {
+    const index = buildRpgIndex(
+      [license('ogl', 'OGL')],
+      [
+        system('pathfinder-1e', 'Pathfinder 1E', 'pathfinder', ['ogl']),
+        { ...system('dnd-3-5', 'D&D 3.5', 'dungeons-and-dragons', ['ogl']), official: true },
+      ],
+      [
+        book('core', 'Core Rulebook', 'pathfinder-1e', '2009'),
+        book('phb', "Player's Handbook", 'dnd-3-5', '2003'),
+      ]
+    )
+    setRpgIndex(index)
+    renderPage()
+    expect(screen.queryByRole('link', { name: 'D&D 3.5' })).toBeNull()
+    expect(titles()).toEqual(['Core Rulebook'])
+    expect(
+      within(screen.getByLabelText('Sistema')).queryByRole('option', { name: 'D&D 3.5' })
+    ).toBeNull()
+  })
+
   it('ordena por defecto del más reciente al más antiguo y permite ordenar por título', () => {
     renderPage()
     expect(titles()).toEqual([

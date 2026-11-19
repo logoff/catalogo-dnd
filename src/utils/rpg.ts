@@ -104,6 +104,29 @@ export function buildRpgIndex(
   }
 }
 
+// Ediciones de D&D sin catálogo oficial en el sitio (las anteriores a la 5E): tienen su propia
+// sección en /ediciones, fuera de la de otros juegos de rol
+export function isDndEdition(system: Pick<RpgSystem, 'official' | 'official_catalog'>): boolean {
+  return Boolean(system.official && !system.official_catalog)
+}
+
+export function systemPath(system: Pick<RpgSystem, 'slug' | 'official' | 'official_catalog'>) {
+  return `${isDndEdition(system) ? '/ediciones' : '/rol'}/${system.slug}`
+}
+
+export function bookPath(book: Pick<RpgBook, 'slug' | 'system'>, systems: RpgSystem[]) {
+  const system = systems.find((s) => s.slug === book.system)
+  return `${system ? systemPath(system) : `/rol/${book.system}`}/${book.slug}`
+}
+
+// Lo que es de la sección de otros juegos de rol: todo menos las ediciones anteriores de D&D y
+// sus libros
+export function rolSection<T extends { system: string }>(systems: RpgSystem[], books: T[]) {
+  const rol = systems.filter((s) => !isDndEdition(s))
+  const slugs = new Set(rol.map((s) => s.slug))
+  return { systems: rol, books: books.filter((b) => slugs.has(b.system)) }
+}
+
 // Sistemas que derivan directamente de uno, con el tipo de cada derivación
 export function derivedSystems(systems: RpgSystem[], slug: string) {
   return systems.flatMap((system) =>

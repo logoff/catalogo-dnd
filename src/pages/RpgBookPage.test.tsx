@@ -54,6 +54,24 @@ const book: RpgBook = {
     },
   ],
 }
+const edition: RpgSystem = {
+  ...system,
+  slug: 'dnd-3-5',
+  name: 'D&D 3.5',
+  family: 'dungeons-and-dragons',
+  publisher: 'Wizards of the Coast',
+  official: true,
+}
+const editionBook: RpgBook = {
+  ...book,
+  slug: 'players-handbook-3-5',
+  system: 'dnd-3-5',
+  title: "Player's Handbook v.3.5",
+  editions: [
+    { language: 'english', publisher: 'Wizards of the Coast', date: '2003-07' },
+    { language: 'castellano', title: 'Manual del Jugador 3.5', publisher: 'Devir' },
+  ],
+}
 const compatibleOnly: RpgBook = {
   ...book,
   slug: 'compatible',
@@ -67,15 +85,17 @@ const renderAt = (path: string) =>
     <MemoryRouter initialEntries={[path]}>
       <Routes>
         <Route path="/rol/:system/:book" element={<RpgBookPage />} />
+        <Route path="/ediciones/:system/:book" element={<RpgBookPage section="ediciones" />} />
       </Routes>
     </MemoryRouter>
   )
 
 describe('ficha de libro', () => {
   beforeEach(() => {
-    setRpgIndex(buildRpgIndex([orc], [system], [book, compatibleOnly]))
+    setRpgIndex(buildRpgIndex([orc], [system, edition], [book, compatibleOnly, editionBook]))
     cacheBook(book)
     cacheBook(compatibleOnly)
+    cacheBook(editionBook)
   })
 
   it('muestra título, sistema, licencia heredada, descripción y aviso de no oficial', () => {
@@ -108,6 +128,33 @@ describe('ficha de libro', () => {
     renderAt('/rol/pathfinder-2e/compatible')
     expect(screen.getByText('Sin licencia abierta: se declara compatible')).toBeInTheDocument()
     expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+  })
+
+  it('un libro de una edición anterior de D&D es oficial, sin tiendas ni aviso de afiliado', () => {
+    renderAt('/ediciones/dnd-3-5/players-handbook-3-5')
+    expect(screen.queryByText(/no es un producto oficial/)).toBeNull()
+    expect(screen.getByRole('link', { name: 'Ediciones anteriores de D&D' })).toHaveAttribute(
+      'href',
+      '/ediciones'
+    )
+    expect(screen.getByText('Edición')).toBeInTheDocument()
+    expect(screen.getAllByRole('link', { name: 'D&D 3.5' })[1]).toHaveAttribute(
+      'href',
+      '/ediciones/dnd-3-5'
+    )
+    expect(document.querySelector('[data-purchase-links]')).toBeNull()
+    expect(screen.queryByRole('link', { name: /Comprar/ })).toBeNull()
+    expect(screen.getByText('Descatalogado.')).toBeInTheDocument()
+  })
+
+  it('cada libro solo tiene ficha en su sección', async () => {
+    renderAt('/rol/dnd-3-5/players-handbook-3-5')
+    expect(await screen.findByText(/no encontrad/i)).toBeInTheDocument()
+  })
+
+  it('un libro de otros juegos de rol no tiene ficha en ediciones anteriores', async () => {
+    renderAt('/ediciones/pathfinder-2e/player-core')
+    expect(await screen.findByText(/no encontrad/i)).toBeInTheDocument()
   })
 
   it('un libro en la URL de otro sistema muestra la página de no encontrado', async () => {

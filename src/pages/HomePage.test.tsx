@@ -9,6 +9,7 @@ import { getAllMerchandise } from '@/services/merchandiseLoader'
 import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
 import rpgIndex from 'virtual:rpg-index'
+import { rolSection } from '@/utils/rpg'
 
 describe('acceso a los videojuegos', () => {
   it('la portada enlaza a la sección y muestra los últimos juegos', () => {
@@ -173,7 +174,8 @@ describe('acceso a otros juegos de rol', () => {
   it('el buscador de la cabecera no muestra libros de la sección', () => {
     // El buscador filtra el store de productos, que no incluye los libros de la sección
     const productTitles = useProductStore.getState().products.map((p) => p.primaryTitle)
-    const rpgTitles = rpgIndex.books.map((book) => book.title)
+    // Los básicos de las ediciones anteriores de D&D se llaman como los de 5E: no cuentan
+    const rpgTitles = rolSection(rpgIndex.systems, rpgIndex.books).books.map((book) => book.title)
     expect(productTitles.filter((title) => rpgTitles.includes(title))).toEqual([])
   })
 })

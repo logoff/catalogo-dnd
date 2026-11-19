@@ -58,6 +58,8 @@ export interface RpgSystem {
   // Vacío si no tiene licencia abierta
   licenses: SystemLicense[]
   derived_from?: Derivation[]
+  // Edición oficial de D&D; si no tiene official_catalog, va en la sección de ediciones anteriores
+  official?: boolean
   // Solo en los sistemas de D&D: ruta del catálogo oficial del sitio, sin duplicar sus libros
   official_catalog?: '/2014' | '/2024'
   links: LicenseLink[]

@@ -81,6 +81,10 @@
                 "$ref": "#/$defs/derivation"
             }
         },
+        "official": {
+            "description": "Edición oficial de D&D (de Wizards of the Coast). Sin official_catalog, tiene su sección en /ediciones",
+            "type": "boolean"
+        },
         "official_catalog": {
             "description": "Solo en los sistemas de D&D: ruta del catálogo oficial del sitio",
             "enum": [

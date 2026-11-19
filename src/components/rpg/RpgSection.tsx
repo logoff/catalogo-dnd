@@ -2,21 +2,35 @@ import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import type { RpgBookSummary, RpgSystem } from '@/types/rpg'
-import { bookKindNames } from '@/utils/rpgTranslations'
+import { bookPath } from '@/utils/rpg'
+import { bookKindGroups, bookKindNames } from '@/utils/rpgTranslations'
 
 export const SECTION_NAME = 'Otros juegos de rol'
+export const EDITIONS_NAME = 'Ediciones anteriores de D&D'
+
+// Las fichas de sistema y de libro sirven a dos secciones: otros juegos de rol y las ediciones
+// anteriores de D&D, que usan el mismo modelo de datos
+export type RpgSectionId = 'rol' | 'ediciones'
+
+const SECTIONS: Record<RpgSectionId, { name: string; path: string }> = {
+  rol: { name: SECTION_NAME, path: '/rol' },
+  ediciones: { name: EDITIONS_NAME, path: '/ediciones' },
+}
 
 // Contenedor de las páginas de la sección, con las migas de pan
 export function RpgPage({
   crumbs,
   children,
+  section = 'rol',
 }: {
   crumbs: { label: string; to?: string }[]
   children: ReactNode
+  section?: RpgSectionId
 }) {
+  const { name, path } = SECTIONS[section]
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <Breadcrumbs items={[{ label: SECTION_NAME, to: '/rol' }, ...crumbs]} />
+      <Breadcrumbs items={[{ label: name, to: path }, ...crumbs]} />
       {children}
     </div>
   )
@@ -40,8 +54,17 @@ export function UnofficialNotice() {
   )
 }
 
-// Lista compacta de libros con enlace a su ficha
-export function BookList({ books, systems }: { books: RpgBookSummary[]; systems: RpgSystem[] }) {
+// Lista compacta de libros con enlace a su ficha; dentro de un grupo de una misma edición y
+// tipo, solo con el año
+export function BookList({
+  books,
+  systems,
+  yearOnly = false,
+}: {
+  books: RpgBookSummary[]
+  systems: RpgSystem[]
+  yearOnly?: boolean
+}) {
   return (
     <ul className="divide-y divide-line border-y border-line">
       {books.map((book) => {
@@ -52,17 +75,40 @@ export function BookList({ books, systems }: { books: RpgBookSummary[]; systems:
             className="flex flex-wrap items-baseline justify-between gap-x-4 py-2"
           >
             <Link
-              to={`/rol/${book.system}/${book.slug}`}
+              to={bookPath(book, systems)}
               className="font-medium text-fg underline-offset-2 hover:underline"
             >
               {book.titleEs ?? book.title}
             </Link>
             <span className="text-sm text-muted">
-              {[system?.name, bookKindNames[book.kind], book.year].filter(Boolean).join(' · ')}
+              {(yearOnly ? [book.year] : [system?.name, bookKindNames[book.kind], book.year])
+                .filter(Boolean)
+                .join(' · ')}
             </span>
           </li>
         )
       })}
     </ul>
+  )
+}
+
+// Libros de una edición anterior de D&D agrupados por tipo, cada grupo del más antiguo al más
+// reciente
+export function BooksByKind({ books, systems }: { books: RpgBookSummary[]; systems: RpgSystem[] }) {
+  return (
+    <div className="space-y-6">
+      {bookKindGroups.map(([kind, title]) => {
+        const group = books
+          .filter((book) => book.kind === kind)
+          .sort((a, b) => (a.latestDate ?? '').localeCompare(b.latestDate ?? ''))
+        if (group.length === 0) return null
+        return (
+          <section key={kind} aria-label={title}>
+            <h3 className="mb-2 text-sm font-semibold">{title}</h3>
+            <BookList books={group} systems={systems} yearOnly />
+          </section>
+        )
+      })}
+    </div>
   )
 }

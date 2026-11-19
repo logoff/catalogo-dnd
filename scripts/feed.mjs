@@ -18,11 +18,19 @@ function fullDate(date) {
   return date.length === 7 ? `${date}-01` : date
 }
 
+// Ediciones de D&D sin catálogo oficial en el sitio: su sección es /ediciones y no /rol (el mismo
+// criterio que isDndEdition en src/utils/rpg.ts)
+export const isDndEdition = (system) => Boolean(system.official && !system.official_catalog)
+
 const productPath = (product, folder) => `/producto/${folder}/${(product.code ?? '').toLowerCase()}`
 
 // Una entrada por cada edición con fecha: libros oficiales, videojuegos, merchandising, novelas y
-// otros juegos de rol
-export function feedEntries({ products, videogames, merchandise, novels, rpgBooks }, today) {
+// otros juegos de rol o ediciones anteriores de D&D
+export function feedEntries(
+  { products, videogames, merchandise, novels, rpgBooks, rpgSystems = [] },
+  today
+) {
+  const editions = new Set(rpgSystems.filter(isDndEdition).map((system) => system.slug))
   const entries = []
   const add = (date, entry) => {
     const day = fullDate(date)
@@ -72,11 +80,12 @@ export function feedEntries({ products, videogames, merchandise, novels, rpgBook
     }
   }
   for (const book of rpgBooks) {
+    const dnd = editions.has(book.system)
     for (const edition of book.editions) {
       add(edition.date, {
         title: `${edition.title ?? book.title} sale ${LANGUAGES[edition.language]}`,
-        summary: `Otros juegos de rol (${edition.publisher}).`,
-        path: `/rol/${book.system}/${book.slug}`,
+        summary: `${dnd ? 'Ediciones anteriores de D&D' : 'Otros juegos de rol'} (${edition.publisher}).`,
+        path: `/${dnd ? 'ediciones' : 'rol'}/${book.system}/${book.slug}`,
         key: `${edition.language}-${edition.isbn13 ?? edition.publisher}`,
       })
     }

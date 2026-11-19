@@ -10,6 +10,7 @@ import { RpgLoading, SECTION_NAME } from '@/components/rpg/RpgSection'
 import { useRpgIndex } from '@/hooks/useRpgData'
 import type { RpgSystem } from '@/types/rpg'
 import { filterBooks, sortBooks, type RpgSort } from '@/utils/rpgFilters'
+import { rolSection, systemPath } from '@/utils/rpg'
 import { licenseLabel } from '@/utils/rpgTranslations'
 
 const SORTS: { value: RpgSort; label: string }[] = [
@@ -55,20 +56,22 @@ export default function RpgSectionPage() {
   const [spanishOnly, setSpanishOnly] = useState(false)
   const [sort, setSort] = useState<RpgSort>('newest')
 
+  // Sin las ediciones anteriores de D&D, que tienen su propia sección
+  const rol = useMemo(() => (index ? rolSection(index.systems, index.books) : null), [index])
   const results = useMemo(
     () =>
-      index
-        ? sortBooks(filterBooks(index.books, { searchQuery, system, license, spanishOnly }), sort)
+      rol
+        ? sortBooks(filterBooks(rol.books, { searchQuery, system, license, spanishOnly }), sort)
         : [],
-    [index, searchQuery, system, license, spanishOnly, sort]
+    [rol, searchQuery, system, license, spanishOnly, sort]
   )
 
-  if (!index) return <RpgLoading what="la sección" />
+  if (!index || !rol) return <RpgLoading what="la sección" />
 
   // Sistemas agrupados por familia, en el orden de la edición más antigua de cada una
   const families = new Map<string, RpgSystem[]>()
-  for (const s of index.systems) families.set(s.family, [...(families.get(s.family) ?? []), s])
-  const booksOf = (slug: string) => index.books.filter((b) => b.system === slug).length
+  for (const s of rol.systems) families.set(s.family, [...(families.get(s.family) ?? []), s])
+  const booksOf = (slug: string) => rol.books.filter((b) => b.system === slug).length
 
   return (
     <>
@@ -102,7 +105,7 @@ export default function RpgSectionPage() {
                   {members.map((s) => (
                     <li key={s.slug}>
                       <Link
-                        to={`/rol/${s.slug}`}
+                        to={systemPath(s)}
                         className="font-medium text-fg underline-offset-2 hover:underline"
                       >
                         {s.name}
@@ -142,7 +145,7 @@ export default function RpgSectionPage() {
               onChange={setSystem}
               options={[
                 { value: '', label: 'Todos' },
-                ...index.systems
+                ...rol.systems
                   .filter((s) => booksOf(s.slug) > 0)
                   .map((s) => ({ value: s.slug, label: s.name })),
               ]}
@@ -154,7 +157,7 @@ export default function RpgSectionPage() {
               options={[
                 { value: '', label: 'Todas' },
                 ...index.licenses
-                  .filter((l) => index.books.some((b) => b.licenses.includes(l.slug)))
+                  .filter((l) => rol.books.some((b) => b.licenses.includes(l.slug)))
                   .map((l) => ({ value: l.slug, label: licenseLabel(l) })),
               ]}
             />
@@ -184,7 +187,7 @@ export default function RpgSectionPage() {
                 <li key={book.slug}>
                   <RpgBookCard
                     book={book}
-                    system={index.systems.find((s) => s.slug === book.system)}
+                    system={rol.systems.find((s) => s.slug === book.system)}
                   />
                 </li>
               ))}

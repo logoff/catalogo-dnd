@@ -1,0 +1,27 @@
+{
+  "slug": "players-handbook-3e",
+  "system": "dnd-3e",
+  "title": "Player's Handbook",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de la tercera edición: cómo crear un personaje con sus características, razas, clases, habilidades y dotes, y todas las reglas de combate, magia y equipo, con la lista completa de conjuros. Fue el libro que estrenó el sistema d20 en 2000.\n\nEs el primero de los tres básicos, con la Guía del Dungeon Master y el Manual de Monstruos, y lo necesita cualquiera que juegue a la 3.ª edición. En 2003 lo sustituyó el Manual del Jugador v.3.5.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks#Core_rules_4",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-07",
+      "format": "hardcover",
+      "isbn13": 9780786915507,
+      "cover": "/images/rol/players-handbook-3e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "isbn13": 9788495712011,
+      "source": "https://web.archive.org/web/20040630010035/http://www.devir.es:80/catalogo/cat.pl?o=1&c=JRDDBAS&b=logos/dungeons.jpg%27target=%27text"
+    }
+  ]
+}

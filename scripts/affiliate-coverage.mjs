@@ -83,8 +83,17 @@ check(
 )
 
 // Otros juegos de rol: Amazon en todos los libros; las tiendas españolas, en las ediciones en
-// castellano. NoSoloRol solo vende lo que publica Nosolorol
-const rpgBooks = files('data/rol/books/*/*.json').map(read)
+// castellano. NoSoloRol solo vende lo que publica Nosolorol. Los libros de las ediciones
+// anteriores de D&D (sistemas oficiales sin catálogo propio) están descatalogados y no se revisan
+const dndEditions = new Set(
+  files('data/rol/systems/*.json')
+    .map(read)
+    .filter((s) => s.official && !s.official_catalog)
+    .map((s) => s.slug)
+)
+const rpgBooks = files('data/rol/books/*/*.json')
+  .map(read)
+  .filter((b) => !dndEditions.has(b.system))
 check(
   'otros juegos de rol',
   'amazon',
