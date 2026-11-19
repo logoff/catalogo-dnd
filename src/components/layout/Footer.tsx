@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { RssIcon } from '@heroicons/react/24/outline'
 import Logo from '@/components/ui/Logo'
 
 const footerLinks = [
@@ -31,6 +32,15 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <a
+                  href="/feed.xml"
+                  className="inline-flex min-h-11 items-center gap-1.5 text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
+                >
+                  <RssIcon className="size-4" aria-hidden="true" />
+                  Novedades (RSS)
+                </a>
+              </li>
               <li>
                 <a
                   href="https://github.com/logoff/catalogo-dnd"

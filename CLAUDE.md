@@ -207,6 +207,12 @@ ligeras de 1200×630 (`dist/images/previews/`). `main.tsx` hidrata ese
 HTML. Lo que pinte el primer render debe coincidir en servidor y
 navegador: nada de `window` ni `localStorage` durante el render.
 
+**Feed de novedades:** `scripts/generate-feed.mjs` genera en el build
+`dist/feed.xml` (Atom) con las 50 últimas ediciones con fecha de todas las
+secciones, usando la lógica pura de `scripts/feed.mjs` (con tests en
+`scripts/feed.test.mjs`). Se anuncia en el `<head>` de `index.html` y en el
+pie.
+
 **Despliegue:** Cloudflare Pages (proyecto `catalogodnd`) en
 `catalogodnd.es`; el base path es `/` en todos los entornos.
 
