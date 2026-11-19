@@ -6,7 +6,11 @@ import { enrichBook } from '@/utils/rpg'
 // antes de pintar (entry-server.tsx) y el navegador precarga los de la ruta antes de hidratar
 // (main.tsx), así que las páginas leen siempre de esta caché de forma síncrona.
 
-const bookModules = import.meta.glob<RpgBook>('/data/rol/books/*/*.json', { import: 'default' })
+// En un Map y no en un objeto: la clave sale de la URL y no debe poder llegar a propiedades
+// heredadas como __proto__
+const bookModules = new Map(
+  Object.entries(import.meta.glob<RpgBook>('/data/rol/books/*/*.json', { import: 'default' }))
+)
 
 let cachedIndex: RpgIndex | null = null
 const cachedBooks = new Map<string, RpgBookWithMeta>()
@@ -37,7 +41,7 @@ export function getCachedBook(slug: string): RpgBookWithMeta | undefined {
 
 // Ruta del JSON de cada libro: data/rol/books/<sistema>/<slug>.json
 function moduleFor(system: string, slug: string): (() => Promise<RpgBook>) | undefined {
-  return bookModules[`/data/rol/books/${system}/${slug}.json`]
+  return bookModules.get(`/data/rol/books/${system}/${slug}.json`)
 }
 
 export async function loadBook(system: string, slug: string): Promise<RpgBookWithMeta | undefined> {
