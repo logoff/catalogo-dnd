@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "El regente de jade 3: La tormenta voraz",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4034-pathfinder-el-regente-de-jade-3-la-tormenta-voraz-8436017224887.html"
+        }
+      ]
     }
   ]
 }

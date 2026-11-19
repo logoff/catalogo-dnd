@@ -24,7 +24,13 @@
     {
       "language": "castellano",
       "title": "Archivo de alienígenas",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/10075-starfinder-archivo-de-alienigenas-8436589621893.html"
+        }
+      ]
     }
   ]
 }

@@ -20,8 +20,16 @@
           "url": "https://www.amazon.es/dp/841858677X/"
         },
         {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13153-trampas-traicioneras-9788418586774.html"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/trampas-traicioneras"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-trampas-traicioneras/9788418586774/13080250"
         }
       ]
     }

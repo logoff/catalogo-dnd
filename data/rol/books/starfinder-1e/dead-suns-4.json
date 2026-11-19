@@ -21,7 +21,13 @@
     {
       "language": "castellano",
       "title": "Soles muertos 4: Las nubes en ruinas",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8894-starfinder-soles-muertos-4-las-nubes-en-ruinas-8436017229516.html"
+        }
+      ]
     }
   ]
 }

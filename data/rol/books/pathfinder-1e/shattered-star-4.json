@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La estrella fragmentada 4: Más allá de la Puerta del Día del Juicio",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6045-pathfinder-estrella-fragmentada-4-mas-alla-de-la-puerta-del-dia-del-juicio-8436017227055.html"
+        }
+      ]
     }
   ]
 }

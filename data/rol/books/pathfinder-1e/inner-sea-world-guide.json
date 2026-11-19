@@ -20,7 +20,13 @@
     {
       "language": "castellano",
       "title": "Guía del mar interior",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/1166-pathfinder-guia-del-mundo-del-mar-interior-8436017222067.html"
+        }
+      ]
     }
   ]
 }

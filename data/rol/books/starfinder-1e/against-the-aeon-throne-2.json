@@ -21,7 +21,13 @@
     {
       "language": "castellano",
       "title": "Contra el trono de los eones 2: Huida de la luna prisión",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11534-starfinder-contra-el-trono-de-los-eones-2-huida-de-la-luna-prision-8436589623927.html"
+        }
+      ]
     }
   ]
 }

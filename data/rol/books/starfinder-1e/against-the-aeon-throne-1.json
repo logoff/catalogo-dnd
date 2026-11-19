@@ -15,7 +15,13 @@
     {
       "language": "castellano",
       "title": "Contra el trono de los eones 1: El alcance del imperio",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11097-starfinder-contra-el-trono-de-los-eones-1-el-alcance-del-imperio-8436589623552.html"
+        }
+      ]
     }
   ]
 }

@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "El regente de jade 4: El bosque de los espíritus",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4035-pathfinder-el-regente-de-jade-4-el-bosque-de-los-espiritus-8436017225198.html"
+        }
+      ]
     }
   ]
 }

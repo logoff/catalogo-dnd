@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La calavera de la serpiente 4: Las bóvedas de la locura",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8060-pathfinder-la-calavera-de-la-serpiente-4-las-bovedas-de-la-locura-8436017228465.html"
+        }
+      ]
     }
   ]
 }

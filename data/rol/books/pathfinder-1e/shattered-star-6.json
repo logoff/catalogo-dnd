@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La estrella fragmentada 6: El corazón muerto de Xin",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6767-pathfinder-estrella-fragmentada-6-corazon-muerto-de-xin-8436017227833.html"
+        }
+      ]
     }
   ]
 }

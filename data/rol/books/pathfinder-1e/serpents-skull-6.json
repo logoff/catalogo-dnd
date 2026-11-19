@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La calavera de la serpiente 6: El santuario del Dios Serpiente",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8380-pathfinder-la-calavera-de-la-serpiente-6-el-santuario-del-dios-serpiente-8436017228700.html"
+        }
+      ]
     }
   ]
 }

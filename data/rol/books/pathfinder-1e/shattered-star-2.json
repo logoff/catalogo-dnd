@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La estrella fragmentada 2: La maldición de la Luz de la Dama",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/5663-pathfinder-estrella-fragmentada-2-la-maldicion-de-la-luz-de-la-dama-8436017226614.html"
+        }
+      ]
     }
   ]
 }

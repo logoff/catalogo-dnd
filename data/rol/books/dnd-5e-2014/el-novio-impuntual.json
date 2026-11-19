@@ -10,7 +10,13 @@
       "language": "castellano",
       "title": "Imperios Perdidos: El novio impuntual",
       "publisher": "Holocubierta",
-      "date": "2018"
+      "date": "2018",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6293-imperios-perdidos-el-novio-impuntual-aventura-para-la-quinta-edicion-de-dungeons-dragons-9788415763505.html"
+        }
+      ]
     }
   ]
 }

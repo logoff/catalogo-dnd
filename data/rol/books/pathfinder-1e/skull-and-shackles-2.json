@@ -24,6 +24,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/B01HK0L9MK/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/2956-pathfinder-calaveras-y-grilletes-2-saqueadores-del-mar-febril-8436017224023.html"
         }
       ]
     }

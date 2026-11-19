@@ -20,8 +20,16 @@
           "url": "https://www.amazon.es/dp/8418586982/"
         },
         {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16320-malkingris-9788418586989.html"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/malkingris-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-malkingris/9788418586989/16276418"
         }
       ]
     }

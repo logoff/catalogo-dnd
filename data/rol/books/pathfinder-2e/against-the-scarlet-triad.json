@@ -23,6 +23,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/B0BF8XYC9V/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/12318-pathfinder-2-ed-la-era-de-las-cenizas-5-contra-la-triada-escarlata-8436589627222.html"
         }
       ]
     }

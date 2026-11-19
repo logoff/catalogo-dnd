@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "El regente de jade 5: Marea de honor",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4036-pathfinder-el-regente-de-jade-5-marea-de-honor-8436017225327.html"
+        }
+      ]
     }
   ]
 }

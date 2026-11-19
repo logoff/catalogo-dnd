@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "Forjador de reyes 4: Sangre por sangre",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/1949-pathfinder-sangre-por-sangre-8436017222487.html"
+        }
+      ]
     }
   ]
 }

@@ -24,7 +24,13 @@
     {
       "language": "castellano",
       "title": "Reglas básicas",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6566-starfinder-reglas-basicas-edicion-corregida-8436017227345.html"
+        }
+      ]
     }
   ]
 }

@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La calavera de la serpiente 5: Los mil colmillos por abajo",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8250-pathfinder-la-calavera-de-la-serpiente-5-los-mil-colmillos-por-abajo-8436017228632.html"
+        }
+      ]
     }
   ]
 }

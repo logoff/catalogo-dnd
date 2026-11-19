@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "El concejo de ladrones 1: Los bastardos del Érebo",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/2385-pathfinder-consejo-de-ladrones-1-los-bastardos-del-erebo-8436017223347.html"
+        }
+      ]
     }
   ]
 }

@@ -21,7 +21,13 @@
     {
       "language": "castellano",
       "title": "Soles muertos 5: El decimotercer portal",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/9282-starfinder-soles-muertos-5-el-decimotercer-portal-8436017229523.html"
+        }
+      ]
     }
   ]
 }

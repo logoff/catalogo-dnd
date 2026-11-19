@@ -32,6 +32,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/B0CK28Z5KH/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14641-pathfinder-la-extension-de-mwangi-segunda-edicion-8436589629370.html"
         }
       ]
     }

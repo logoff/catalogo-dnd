@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La estrella fragmentada 3: La piedra del manicomio",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/5752-pathfinder-estrella-fragmentada-3-la-piedra-del-manicomio-8436017226843.html"
+        }
+      ]
     }
   ]
 }

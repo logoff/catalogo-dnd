@@ -21,7 +21,13 @@
     {
       "language": "castellano",
       "title": "Soles muertos 2: El templo de los Doce",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7763-starfinder-soles-muertos-2-el-templo-de-los-doce-8436017228335.html"
+        }
+      ]
     }
   ]
 }

@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "El regente de jade 6: El trono vacío",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4110-pathfinder-el-regente-de-jade-6-el-trono-vacio-8436017225556.html"
+        }
+      ]
     }
   ]
 }

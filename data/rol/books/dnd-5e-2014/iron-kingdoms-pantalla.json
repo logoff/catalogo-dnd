@@ -18,8 +18,16 @@
           "url": "https://www.amazon.es/dp/8418586664/"
         },
         {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17344-iron-kingdoms-pantalla-del-dj-9788418586668.html"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/iron-kingdoms-requiem/iron-kingdoms-pantalla-del-dj-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-ik-pantalla-del-dj/9788418586668/17117884"
         }
       ]
     }

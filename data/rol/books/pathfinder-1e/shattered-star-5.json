@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La estrella fragmentada 5: La grieta de las pesadillas",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6864-pathfinder-estrella-fragmentada-5-la-grieta-de-las-pesadillas-8436017227352.html"
+        }
+      ]
     }
   ]
 }

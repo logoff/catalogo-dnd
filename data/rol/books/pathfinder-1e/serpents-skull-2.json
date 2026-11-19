@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La calavera de la serpiente 2: Carrera hacia el desastre",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7150-pathfinder-la-calavera-de-la-serpiente-2-carrera-hacia-el-desastre-8436017228014.html"
+        }
+      ]
     }
   ]
 }

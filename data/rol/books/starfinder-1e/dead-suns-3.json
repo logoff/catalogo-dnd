@@ -21,7 +21,13 @@
     {
       "language": "castellano",
       "title": "Soles muertos 3: Mundos fragmentados",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8076-starfinder-soles-muertos-3-mundos-fragmentados-8436017228649.html"
+        }
+      ]
     }
   ]
 }

@@ -21,7 +21,13 @@
     {
       "language": "castellano",
       "title": "Soles muertos 1: Incidente en la Estación Absalom",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7388-starfinder-soles-muertos-1-incidente-en-la-estacion-absalom-8436017228076.html"
+        }
+      ]
     }
   ]
 }

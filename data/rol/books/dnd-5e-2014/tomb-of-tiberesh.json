@@ -31,8 +31,16 @@
           "url": "https://www.amazon.es/dp/8418586974/"
         },
         {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14102-la-tumba-de-tiberesh-9788418586972.html"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/la-tumba-de-tiberesh-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-tumba-de-tiberesh/9788418586972/13484871"
         }
       ]
     }

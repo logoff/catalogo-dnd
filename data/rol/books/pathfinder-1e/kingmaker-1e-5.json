@@ -13,7 +13,13 @@
     {
       "language": "castellano",
       "title": "Forjador de reyes 5: La guerra de los Reyes Fluviales",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/2004-pathfinder-la-guerra-de-los-reyes-fluviales-8436017222494.html"
+        }
+      ]
     }
   ]
 }

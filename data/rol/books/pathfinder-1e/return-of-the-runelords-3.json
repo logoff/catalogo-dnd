@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "El retorno de los Señores de las Runas 3: Plaga rúnica",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/9909-pathfinder-el-retorno-de-los-senores-de-las-runas-3-plaga-runica-8436589621657.html"
+        }
+      ]
     }
   ]
 }

@@ -18,7 +18,13 @@
       "title": "La Era de las Cenizas 2: La secta de las cenizas",
       "publisher": "Devir",
       "format": "paperback",
-      "cover": "/images/rol/cult-of-cinders/castellano.webp"
+      "cover": "/images/rol/cult-of-cinders/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11604-pathfinder-2-ed-la-era-de-las-cenizas-2-la-secta-de-las-cenizas-8436589624481.html"
+        }
+      ]
     }
   ]
 }

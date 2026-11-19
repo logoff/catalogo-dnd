@@ -20,8 +20,16 @@
           "url": "https://www.amazon.es/dp/8417775056/"
         },
         {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7685-el-resurgir-del-dragon-sangre-de-dragones-9788417775056.html"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/el-resurgir-del-dragon/sangre-de-dragones-papel"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-sangre-de-dragones/9788417775056/9276038"
         }
       ]
     }

@@ -33,6 +33,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/B0DLBM6BF3/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16733-pathfinder-2-ed-manual-de-direccion-8436607944768.html"
         }
       ]
     }
