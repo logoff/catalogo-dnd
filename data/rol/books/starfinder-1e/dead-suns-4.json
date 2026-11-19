@@ -1,0 +1,21 @@
+{
+  "slug": "dead-suns-4",
+  "system": "starfinder-1e",
+  "title": "Dead Suns 4: The Ruined Clouds",
+  "kind": "adventure",
+  "description": "Los héroes exploran una ciudad alienígena que flota en la atmósfera de un gigante gaseoso en busca del arma.\n\nEs la entrega 4 de 6 de Soles muertos, la primera senda de aventuras de Starfinder (2017-2018): una carrera por encontrar un arma alienígena capaz de destruir mundos frente a la Flota Cadáver y la secta del Devorador.",
+  "source": "https://starfinderwiki.com/wiki/Dead_Suns_Adventure_Path",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2018-02-28",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "Soles muertos 4: Las nubes en ruinas",
+      "publisher": "Devir"
+    }
+  ]
+}

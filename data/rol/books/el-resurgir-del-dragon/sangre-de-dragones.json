@@ -1,0 +1,25 @@
+{
+  "slug": "sangre-de-dragones",
+  "system": "el-resurgir-del-dragon",
+  "title": "Sangre de Dragones",
+  "kind": "adventure",
+  "description": "Una aventura para un grupo de personajes de nivel 9.\n\nSe puede jugar suelta o intercalada en una campaña de El Resurgir del Dragón o de 5E.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/sangre-de-dragones-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Sangre de Dragones",
+      "publisher": "Nosolorol",
+      "date": "2019-03-14",
+      "format": "paperback",
+      "isbn13": 9788417775056,
+      "cover": "/images/rol/sangre-de-dragones/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/sangre-de-dragones-papel"
+        }
+      ]
+    }
+  ]
+}

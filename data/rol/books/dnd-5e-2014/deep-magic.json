@@ -1,0 +1,31 @@
+{
+  "slug": "deep-magic",
+  "system": "dnd-5e-2014",
+  "title": "Deep Magic",
+  "kind": "supplement",
+  "description": "Un tomo de Kobold Press dedicado a la magia: recopila, actualiza y amplía los conjuros de su serie Deep Magic para 5E, con nuevas tradiciones y opciones para magos, brujos y hechiceros, pero también para bardos, clérigos, druidas, exploradores y paladines.\n\nPara cualquier grupo con lanzadores de conjuros que quiera más variedad. Lo coordinó Dan Dillon.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/magia-insondable-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2020",
+      "format": "hardcover"
+    },
+    {
+      "language": "castellano",
+      "title": "Magia Insondable",
+      "publisher": "Nosolorol",
+      "date": "2023-12-01",
+      "format": "hardcover",
+      "isbn13": 9788419594495,
+      "cover": "/images/rol/deep-magic/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/magia-insondable-papel"
+        }
+      ]
+    }
+  ]
+}

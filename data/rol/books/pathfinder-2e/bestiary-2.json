@@ -1,0 +1,27 @@
+{
+  "slug": "bestiary-2",
+  "system": "pathfinder-2e",
+  "title": "Bestiary 2",
+  "kind": "supplement",
+  "license": "ogl-1-0a",
+  "description": "El segundo bestiario de Pathfinder 2E, con más de trescientas criaturas nuevas para todos los niveles, muchas de ellas clásicas de la fantasía y de Golarion.\n\nPara directores que necesitan más variedad que la del primer Bestiario.",
+  "source": "https://store.paizo.com/pathfinder-bestiary-2/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2020-05-27",
+      "format": "hardcover",
+      "isbn13": 9781640782235,
+      "cover": "/images/rol/bestiary-2/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Bestiario 2",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/bestiary-2/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-bestiario-2"
+    }
+  ]
+}

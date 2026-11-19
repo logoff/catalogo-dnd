@@ -1,0 +1,25 @@
+{
+  "slug": "torre-negra-de-sragonaz",
+  "system": "el-resurgir-del-dragon",
+  "title": "El Misterio de la Torre Negra de Sragonaz",
+  "kind": "adventure",
+  "description": "Una aventura para un grupo de cuatro a seis personajes de nivel 11, escrita por Jorge Carrero Roig y Pedro Gil Jódar.\n\nPara grupos de nivel alto; se puede jugar suelta o dentro de una campaña de El Resurgir del Dragón o de 5E.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/el-misterio-de-la-torre-negra-de-sragonaz-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "El Misterio de la Torre Negra de Sragonaz",
+      "publisher": "Nosolorol",
+      "date": "2019-06-27",
+      "format": "paperback",
+      "isbn13": 9788417379889,
+      "cover": "/images/rol/torre-negra-de-sragonaz/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/el-misterio-de-la-torre-negra-de-sragonaz-papel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "monster-core",
+  "system": "pathfinder-2e",
+  "title": "Monster Core",
+  "kind": "core",
+  "core": true,
+  "license": "orc",
+  "description": "El bestiario del Remaster de Pathfinder 2E: varios centenares de criaturas de todos los niveles, desde animales y humanoides hasta dragones y seres de otros planos, con reglas para adaptarlas. Sustituye al primer Bestiario y deja fuera las criaturas que dependían de la OGL.\n\nEs el tercer libro básico, pensado para quien dirige. Con Player Core y GM Core forma el núcleo de reglas del Remaster.",
+  "source": "https://store.paizo.com/pathfinder-monster-core/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2024-03-27",
+      "format": "hardcover",
+      "isbn13": 9781640785663,
+      "cover": "/images/rol/monster-core/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de monstruos (Remaster)",
+      "publisher": "Devir",
+      "date": "2025-07",
+      "format": "hardcover",
+      "source": "https://www.amazon.es/Devir-Pathfinder-Monstruos-Remaster-criaturas/dp/B0FH786LD2",
+      "cover": "/images/rol/monster-core/castellano.webp"
+    }
+  ]
+}

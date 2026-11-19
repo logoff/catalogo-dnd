@@ -1,0 +1,20 @@
+{
+  "slug": "advanced-players-guide-1e",
+  "system": "pathfinder-1e",
+  "title": "Advanced Player's Guide",
+  "kind": "supplement",
+  "description": "El primer gran suplemento de opciones de Pathfinder 1E: seis clases nuevas (alquimista, caballero, inquisidor, oráculo, invocador y bruja), arquetipos para las clases básicas, dotes, conjuros y equipo.\n\nPara jugadores que quieren más variedad que la del Reglamento básico.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2010"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del jugador avanzada",
+      "publisher": "Devir"
+    }
+  ]
+}

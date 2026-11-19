@@ -1,0 +1,25 @@
+{
+  "slug": "trampas-traicioneras",
+  "system": "dnd-5e-2014",
+  "title": "Trampas Traicioneras",
+  "kind": "supplement",
+  "description": "Un recurso para directores que quieren sacar más partido a las trampas al crear sus mazmorras en 5E, de Andrew Geertsen y Chris Haskins.\n\nPara quien diseña mazmorras y quiere trampas más variadas e ingeniosas.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/trampas-traicioneras",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Trampas Traicioneras",
+      "publisher": "Nosolorol",
+      "date": "2022-07-14",
+      "format": "hardcover",
+      "isbn13": 9788418586774,
+      "cover": "/images/rol/trampas-traicioneras/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/trampas-traicioneras"
+        }
+      ]
+    }
+  ]
+}

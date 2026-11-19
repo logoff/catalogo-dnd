@@ -1,0 +1,21 @@
+{
+  "slug": "junkers-delight",
+  "system": "starfinder-1e",
+  "title": "Junker's Delight",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 1 en el planeta desértico de Akiton: los héroes deben desenterrar tecnología valiosa de una nave estrellada mientras se enfrentan a goblins chatarreros, un monstruo de chatarra y un jefe mafioso.\n\nUna buena primera aventura para empezar con Starfinder.",
+  "source": "https://starfinderwiki.com/wiki/Junker%27s_Delight",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2021-08-04",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "El deleite de los chatarreros",
+      "publisher": "Devir"
+    }
+  ]
+}

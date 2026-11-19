@@ -1,0 +1,19 @@
+{
+  "slug": "13th-age-bestiary",
+  "system": "13th-age",
+  "title": "13th Age Bestiary",
+  "kind": "core",
+  "core": true,
+  "description": "El primer bestiario de 13th Age, con criaturas pensadas para su sistema: cada una trae varias versiones, ideas para relacionarla con los iconos y efectos que se activan según la tirada.\n\nAmplía mucho los monstruos del libro básico. No consta edición en castellano.",
+  "source": "https://pelgranepress.com/product/13th-age-bestiary",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Pelgrane Press",
+      "date": "2014",
+      "format": "hardcover",
+      "isbn13": 9781908983572,
+      "cover": "/images/rol/13th-age-bestiary/english.webp"
+    }
+  ]
+}

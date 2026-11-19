@@ -1,0 +1,27 @@
+{
+  "slug": "player-core-2",
+  "system": "pathfinder-2e",
+  "title": "Player Core 2",
+  "kind": "core",
+  "core": true,
+  "license": "orc",
+  "description": "El segundo libro del jugador del Remaster de Pathfinder 2E: añade ascendencias, trasfondos y las clases que no entraron en Player Core, como el bárbaro, el campeón o el monje, revisadas para el Remaster, con sus dotes y opciones.\n\nAmplía las opciones de creación de personajes; no hace falta para empezar, pero completa las clases que tenía el antiguo libro básico.",
+  "source": "https://store.paizo.com/pathfinder-player-core-2/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2024-08-01",
+      "format": "hardcover",
+      "isbn13": 9781640785977,
+      "cover": "/images/rol/player-core-2/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de juego 2 (Remaster)",
+      "publisher": "Devir",
+      "source": "https://devir.es/pathfinder-2-ed-manual-de-juego-2-remaster",
+      "cover": "/images/rol/player-core-2/castellano.webp"
+    }
+  ]
+}

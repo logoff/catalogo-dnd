@@ -1,0 +1,19 @@
+{
+  "slug": "starfinder-player-core",
+  "system": "starfinder-2e",
+  "title": "Player Core",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de Starfinder 2E: ascendencias alienígenas, clases, dotes, equipo, tecnología y conjuros para crear personajes, además de las reglas generales de juego, basadas en las de Pathfinder 2E.\n\nEs el punto de partida del juego para los jugadores; se complementa con GM Core y Alien Core para quien dirige.",
+  "source": "https://store.paizo.com/starfinder-2e-player-core/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2025-07-31",
+      "format": "hardcover",
+      "isbn13": 9781640786868,
+      "cover": "/images/rol/starfinder-player-core/english.webp"
+    }
+  ]
+}

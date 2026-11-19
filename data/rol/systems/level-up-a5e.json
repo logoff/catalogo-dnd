@@ -1,0 +1,42 @@
+{
+  "slug": "level-up-a5e",
+  "name": "Level Up: Advanced 5th Edition",
+  "family": "level-up",
+  "publisher": "EN Publishing",
+  "date": "2021",
+  "description": "Una versión ampliada de 5E de EN Publishing, compatible con su material, pensada para quien quiere más opciones y más reglas. Da reglas propias a la exploración y a las relaciones sociales, añade maniobras de combate para todas las clases marciales y separa la cultura de la herencia del personaje.\n\nSus reglas están reescritas en un documento de referencia propio, el A5E SRD, que se publica a la vez bajo CC BY 4.0, la OGL y la ORC. No consta edición en castellano.",
+  "features": [
+    "Compatible con 5E",
+    "Reglas de exploración y de relaciones sociales",
+    "Maniobras de combate",
+    "Cultura y herencia por separado"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2021"
+    },
+    {
+      "license": "a5e-srd",
+      "since": "2023"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-5e-2014",
+      "kind": "compatible",
+      "via_license": "srd-5-1",
+      "note": "Amplía las reglas de 5E manteniendo la compatibilidad."
+    }
+  ],
+  "links": [
+    {
+      "label": "Level Up",
+      "url": "https://www.levelup5e.com/"
+    },
+    {
+      "label": "A5ESRD",
+      "url": "https://a5esrd.com/"
+    }
+  ]
+}

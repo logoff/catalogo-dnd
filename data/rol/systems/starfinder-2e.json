@@ -1,0 +1,38 @@
+{
+  "slug": "starfinder-2e",
+  "name": "Starfinder 2E",
+  "family": "starfinder",
+  "publisher": "Paizo",
+  "date": "2025-07",
+  "description": "La segunda edición de Starfinder, construida sobre las reglas de Pathfinder 2E: tres acciones por turno, cuatro grados de éxito y personajes hechos a base de dotes. Mantiene la ambientación de ciencia ficción y fantasía de la primera edición y añade reglas propias para armas de fuego, tecnología y naves.\n\nPaizo la diseñó para que sea compatible con Pathfinder 2E, de modo que personajes y monstruos de un juego pueden usarse en el otro. Se publica bajo la licencia ORC. De momento no consta edición en castellano.",
+  "features": [
+    "Reglas de Pathfinder 2E: tres acciones y cuatro grados de éxito",
+    "Compatible con Pathfinder 2E",
+    "Armas de fuego, tecnología y naves",
+    "Licencia ORC desde su salida"
+  ],
+  "licenses": [
+    {
+      "license": "orc",
+      "since": "2025"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "pathfinder-2e",
+      "kind": "compatible",
+      "note": "Comparte las reglas de Pathfinder 2E y se puede mezclar con él."
+    },
+    {
+      "system": "starfinder-1e",
+      "kind": "major_rewrite",
+      "note": "Misma ambientación, reglas nuevas; el material de 1E necesita conversión."
+    }
+  ],
+  "links": [
+    {
+      "label": "Paizo",
+      "url": "https://paizo.com/starfinder"
+    }
+  ]
+}

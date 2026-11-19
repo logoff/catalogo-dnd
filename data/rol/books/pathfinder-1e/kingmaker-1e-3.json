@@ -1,0 +1,19 @@
+{
+  "slug": "kingmaker-1e-3",
+  "system": "pathfinder-1e",
+  "title": "Kingmaker 3: The Varnhold Vanishing",
+  "kind": "adventure",
+  "description": "Los habitantes del vecino Fuerte de Varn desaparecen y los héroes investigan qué ha pasado.\n\nEs la entrega 3 de 6 de Forjador de reyes, una senda de aventuras de Pathfinder 1E (2010) ambientada en las Tierras Robadas, donde los héroes exploran la región, la limpian de peligros y fundan y gobiernan su propio reino.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo"
+    },
+    {
+      "language": "castellano",
+      "title": "Forjador de reyes 3: La desaparición de Fuerte de Varn",
+      "publisher": "Devir"
+    }
+  ]
+}

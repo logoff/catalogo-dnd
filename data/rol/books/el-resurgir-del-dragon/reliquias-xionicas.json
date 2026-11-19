@@ -1,0 +1,25 @@
+{
+  "slug": "reliquias-xionicas",
+  "system": "el-resurgir-del-dragon",
+  "title": "Reliquias Xiónicas",
+  "kind": "adventure",
+  "description": "Una aventura para El Resurgir del Dragón escrita por Juan Sixto.\n\nSe puede jugar suelta o dentro de una campaña de El Resurgir del Dragón o de 5E.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/reliquias-xionicas-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Reliquias Xiónicas",
+      "publisher": "Nosolorol",
+      "date": "2020-07-20",
+      "format": "paperback",
+      "isbn13": 9788417775476,
+      "cover": "/images/rol/reliquias-xionicas/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/reliquias-xionicas-papel"
+        }
+      ]
+    }
+  ]
+}

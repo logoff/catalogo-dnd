@@ -1,0 +1,17 @@
+{
+  "slug": "pf2-gm-screen",
+  "system": "pathfinder-2e",
+  "title": "GM Screen",
+  "kind": "other",
+  "description": "La pantalla del director de Pathfinder 2E en castellano, con las tablas y reglas de consulta más habituales.\n\nPara quien dirige y quiere tener a mano las reglas durante la partida.",
+  "source": "https://devir.es/pathfinder-2-ed-pantalla",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Pantalla",
+      "publisher": "Devir",
+      "cover": "/images/rol/pf2-gm-screen/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-pantalla"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "siete-pecados",
+  "system": "dnd-5e-2014",
+  "title": "Siete Pecados",
+  "kind": "supplement",
+  "description": "Una colección de sectarios, demonios y reliquias inspirada en los siete pecados capitales, compatible con juegos OSR y con 5E.\n\nPara directores que buscan villanos y objetos malditos que dejar caer en su campaña.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/siete-pecados-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Siete Pecados",
+      "publisher": "Nosolorol",
+      "format": "paperback",
+      "cover": "/images/rol/siete-pecados/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/siete-pecados-papel"
+        }
+      ]
+    }
+  ]
+}

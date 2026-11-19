@@ -1,0 +1,25 @@
+{
+  "slug": "gamemastery-guide",
+  "system": "pathfinder-2e",
+  "title": "Gamemastery Guide",
+  "kind": "core",
+  "core": true,
+  "license": "ogl-1-0a",
+  "description": "La guía del director de la primera versión de Pathfinder 2E: consejos para dirigir, herramientas para construir mundos y ciudades, reglas opcionales y una galería de personajes no jugadores listos para usar.\n\nSu contenido pasó en gran parte a GM Core con el Remaster. Sigue siendo útil por sus personajes y sus reglas opcionales.",
+  "source": "https://store.paizo.com/pathfinder-gamemastery-guide/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2020-02-26",
+      "format": "hardcover",
+      "isbn13": 9781640781986,
+      "cover": "/images/rol/gamemastery-guide/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de dirección del juego",
+      "publisher": "Devir"
+    }
+  ]
+}

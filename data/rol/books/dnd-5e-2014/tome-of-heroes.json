@@ -1,0 +1,15 @@
+{
+  "slug": "tome-of-heroes",
+  "system": "dnd-5e-2014",
+  "title": "Tome of Heroes",
+  "kind": "supplement",
+  "description": "El gran libro de opciones de personaje de Kobold Press para 5E: nuevas ascendencias, subclases, trasfondos, dotes y conjuros, compatibles con cualquier ambientación.\n\nPara jugadores que quieren más variedad al crear personajes. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2022-08"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "rise-of-the-runelords",
+  "system": "pathfinder-1e",
+  "title": "Rise of the Runelords Anniversary Edition",
+  "kind": "adventure",
+  "description": "La primera senda de aventuras de Paizo, revisada para Pathfinder 1E en un tomo: empieza con un ataque de goblins al pueblo de Sandpoint y lleva a los héroes, a lo largo de toda la campaña, a enfrentarse al despertar de un antiguo Señor de las Runas de Thassilon.\n\nUna de las campañas más conocidas de Pathfinder, para empezar a nivel 1.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2012"
+    },
+    {
+      "language": "castellano",
+      "title": "El auge de los Señores de las Runas (edición aniversario)",
+      "publisher": "Devir"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "renacer-bajo-las-aguas",
+  "system": "el-resurgir-del-dragon",
+  "title": "El Renacer bajo las Aguas",
+  "kind": "adventure",
+  "description": "El quinto volumen de la campaña La Conjura del Renacer, para personajes de nivel 11 a 13.\n\nPara grupos que siguen la campaña o quieren una aventura de nivel alto con las reglas del SRD 5.1.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/el-renacer-bajo-las-aguas-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "El Renacer bajo las Aguas",
+      "publisher": "Nosolorol",
+      "date": "2021-06-01",
+      "format": "paperback",
+      "isbn13": 9788418586200,
+      "cover": "/images/rol/renacer-bajo-las-aguas/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/el-renacer-bajo-las-aguas-papel"
+        }
+      ]
+    }
+  ]
+}

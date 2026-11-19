@@ -1,0 +1,22 @@
+{
+  "slug": "darrington-press-community-gaming-license",
+  "name": "Darrington Press Community Gaming License",
+  "short_name": "DPCGL",
+  "kind": "community_license",
+  "holder": "Darrington Press",
+  "date": "2024-02",
+  "description": "La licencia con la que Darrington Press, la editorial de Critical Role, permite a la comunidad crear y vender material para sus juegos, como Daggerheart y Candela Obscura, usando su documento de referencia. Exige poner el logotipo de la comunidad en la portada y un texto de atribución, y deja fuera el arte y la ambientación de los libros y del programa.\n\nA diferencia de la ORC o de CC BY, es una licencia propia de la editorial, que se reserva el derecho a modificarla, y limita los formatos en que se puede publicar. Ha tenido varias versiones; la 2.0, de 2026, reconoce el SRD 2.0 de Daggerheart.",
+  "links": [
+    {
+      "label": "Licencia y versiones",
+      "url": "https://darringtonpress.com/license"
+    }
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-25",
+      "text": "Versión 2.0, con la expansión Hope & Fear: reconoce el SRD 2.0 de Daggerheart y actualiza el texto de atribución; el SRD 1.0 sigue valiendo para el material ya publicado.",
+      "source": "https://darringtonpress.com/license"
+    }
+  ]
+}

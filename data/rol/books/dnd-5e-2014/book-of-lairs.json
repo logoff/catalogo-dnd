@@ -1,0 +1,30 @@
+{
+  "slug": "book-of-lairs",
+  "system": "dnd-5e-2014",
+  "title": "Book of Lairs",
+  "kind": "adventure",
+  "description": "Veinticuatro guaridas de monstruos listas para jugar en una sesión, cada una con su mapa, sus criaturas y su tesoro, para distintos niveles.\n\nPara directores que necesitan una aventura corta preparada o un lugar memorable que insertar en su campaña.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/libro-de-las-guaridas-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2016"
+    },
+    {
+      "language": "castellano",
+      "title": "Libro de las Guaridas",
+      "publisher": "Nosolorol",
+      "date": "2023-01-13",
+      "format": "paperback",
+      "isbn13": 9788419594099,
+      "cover": "/images/rol/book-of-lairs/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/libro-de-las-guaridas-papel"
+        }
+      ]
+    }
+  ]
+}

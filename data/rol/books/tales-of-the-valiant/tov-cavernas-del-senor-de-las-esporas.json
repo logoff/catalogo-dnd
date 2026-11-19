@@ -1,0 +1,23 @@
+{
+  "slug": "tov-cavernas-del-senor-de-las-esporas",
+  "system": "tales-of-the-valiant",
+  "title": "Las Cavernas del Señor de las Esporas",
+  "kind": "adventure",
+  "description": "Una aventura inicial de Kobold Press para Tales of the Valiant, para personajes de nivel 1.\n\nForma parte de la serie de aventuras que Nosolorol publica en PDF en castellano, también por suscripción.",
+  "source": "https://www.nosolorol.com/tales-of-the-valiant/las-cavernas-del-senor-de-las-esporas-pdf",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Las Cavernas del Señor de las Esporas",
+      "publisher": "Nosolorol",
+      "format": "pdf",
+      "cover": "/images/rol/tov-cavernas-del-senor-de-las-esporas/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/tales-of-the-valiant/las-cavernas-del-senor-de-las-esporas-pdf"
+        }
+      ]
+    }
+  ]
+}

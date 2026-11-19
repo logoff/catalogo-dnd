@@ -1,0 +1,27 @@
+{
+  "slug": "crown-of-the-kobold-king",
+  "system": "pathfinder-2e",
+  "title": "Crown of the Kobold King",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "La reedición para Pathfinder 2E de un clásico de Paizo: un rey kóbold secuestra a cinco niños del pueblo de Falcon's Hollow y los héroes deben rescatarlos en las mazmorras de un monasterio en ruinas.\n\nUna aventura de mazmorra para personajes de nivel bajo, con el tono de las aventuras clásicas.",
+  "source": "https://store.paizo.com/pathfinder-adventure-crown-of-the-kobold-king-anniversary-edition-p2/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2022-10-26",
+      "format": "hardcover",
+      "isbn13": 9781640784529,
+      "cover": "/images/rol/crown-of-the-kobold-king/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La corona del rey kóbold",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/crown-of-the-kobold-king/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-la-corona-del-rey-kobold"
+    }
+  ]
+}

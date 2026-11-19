@@ -1,0 +1,26 @@
+{
+  "slug": "daggerheart",
+  "name": "Daggerheart",
+  "family": "daggerheart",
+  "publisher": "Darrington Press",
+  "date": "2025-05",
+  "description": "El juego de fantasía de Darrington Press, la editorial de Critical Role. Cada tirada usa dos dados de doce caras, uno de Esperanza y otro de Miedo: el que sale más alto decide si el jugador gana Esperanza para sus habilidades o el director gana Miedo para complicar la escena. No hay iniciativa fija y las capacidades de los personajes son cartas de dominio.\n\nNo deriva de D&D, pero se dirige al mismo público de fantasía heroica. Darrington Press ofrece su SRD bajo una licencia comunitaria propia. Devir ha anunciado la edición en castellano.",
+  "features": [
+    "Dados de dualidad: Esperanza y Miedo con dos d12",
+    "Capacidades en cartas de dominio",
+    "Sin iniciativa: el foco pasa de un personaje a otro",
+    "Creación de campaña en colaboración"
+  ],
+  "licenses": [
+    {
+      "license": "daggerheart-srd",
+      "since": "2025-05"
+    }
+  ],
+  "links": [
+    {
+      "label": "Daggerheart",
+      "url": "https://www.daggerheart.com/"
+    }
+  ]
+}

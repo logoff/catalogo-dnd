@@ -1,0 +1,15 @@
+{
+  "slug": "midgard-heroes-handbook",
+  "system": "dnd-5e-2014",
+  "title": "Midgard Heroes Handbook",
+  "kind": "supplement",
+  "description": "Las opciones de personaje para jugar en Midgard con 5E: razas, subclases, trasfondos, conjuros y tradiciones mágicas propias del mundo de Kobold Press.\n\nPara los jugadores de una campaña en Midgard; se complementa con el Midgard Worldbook. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2018"
+    }
+  ]
+}

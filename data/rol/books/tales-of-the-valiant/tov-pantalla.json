@@ -1,0 +1,25 @@
+{
+  "slug": "tov-pantalla",
+  "system": "tales-of-the-valiant",
+  "title": "GM Screen",
+  "kind": "other",
+  "description": "La pantalla del director de Tales of the Valiant en castellano, de cuatro paneles, con las tablas y reglas de consulta más habituales durante la partida.\n\nPara quien dirige y quiere tener a mano las reglas sin abrir los libros.",
+  "source": "https://www.casadellibro.com/libro-tales-of-the-valiant-pantalla/9791387882051/17975568",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Pantalla del DJ",
+      "publisher": "Nosolorol",
+      "date": "2026-03-23",
+      "isbn13": 9791387882051,
+      "cover": "/images/rol/tov-pantalla/castellano.webp",
+      "source": "https://www.todostuslibros.com/busquedas?keyword=9791387882051",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/tales-of-the-valiant/tales-of-the-valiant-pantalla-del-dj"
+        }
+      ]
+    }
+  ]
+}

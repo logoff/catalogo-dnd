@@ -1,0 +1,18 @@
+{
+  "slug": "tormenta-de-fuego",
+  "system": "dnd-5e-2014",
+  "title": "Tormenta de fuego",
+  "kind": "adventure",
+  "description": "La primera parte de Descenso a las entrañas de la Bestia, la campaña de fantasía épica de Shadowlands para 5E: una aventura de supervivencia contra los Oyhun, una raza semidivina que esclaviza al resto de pueblos del mundo de Heyrä. Incluye nuevas razas jugables, como el minotauro.\n\nPara jugar con los libros básicos de 5E o con el SRD 5.1.",
+  "source": "https://shadowlands.es/5eadventures/",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Descenso a las entrañas de la Bestia 1: Tormenta de fuego",
+      "publisher": "Shadowlands Ediciones",
+      "date": "2019",
+      "isbn13": 9788412058611,
+      "source": "https://rpggeek.com/rpgitemversion/528092/pdf"
+    }
+  ]
+}

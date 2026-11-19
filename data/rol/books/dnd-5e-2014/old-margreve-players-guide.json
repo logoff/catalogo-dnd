@@ -1,0 +1,29 @@
+{
+  "slug": "old-margreve-players-guide",
+  "system": "dnd-5e-2014",
+  "title": "Old Margreve Player's Guide",
+  "kind": "supplement",
+  "description": "La guía del jugador para las aventuras del Viejo Margreve: opciones de personaje, trasfondos y conocimientos para entrar en el bosque.\n\nPara los jugadores de Cuentos del Viejo Margreve, que es el libro de aventuras.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/margreve-guia-del-jugador-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press"
+    },
+    {
+      "language": "castellano",
+      "title": "Margreve: Guía del Jugador",
+      "publisher": "Nosolorol",
+      "date": "2025-05-01",
+      "format": "paperback",
+      "isbn13": 9788419594587,
+      "cover": "/images/rol/old-margreve-players-guide/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/margreve-guia-del-jugador-papel"
+        }
+      ]
+    }
+  ]
+}

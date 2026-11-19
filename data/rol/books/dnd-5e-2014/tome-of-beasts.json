@@ -1,0 +1,31 @@
+{
+  "slug": "tome-of-beasts",
+  "system": "dnd-5e-2014",
+  "title": "Tome of Beasts",
+  "kind": "supplement",
+  "description": "Un bestiario de Kobold Press con más de cuatrocientas criaturas para 5E de todos los valores de desafío, desde monstruos clásicos reinterpretados hasta criaturas del mundo de Midgard.\n\nPara directores que quieren sorprender a jugadores que ya se saben el Manual de Monstruos. Es uno de los libros de terceros más conocidos de 5E.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/tomo-de-las-bestias-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2016",
+      "format": "hardcover"
+    },
+    {
+      "language": "castellano",
+      "title": "Tomo de las Bestias",
+      "publisher": "Nosolorol",
+      "date": "2022-10-04",
+      "format": "hardcover",
+      "isbn13": 9788418586644,
+      "cover": "/images/rol/tome-of-beasts/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/tomo-de-las-bestias-papel"
+        }
+      ]
+    }
+  ]
+}

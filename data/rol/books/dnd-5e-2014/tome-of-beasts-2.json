@@ -1,0 +1,15 @@
+{
+  "slug": "tome-of-beasts-2",
+  "system": "dnd-5e-2014",
+  "title": "Tome of Beasts 2",
+  "kind": "supplement",
+  "description": "El segundo bestiario de Kobold Press para 5E, con unas cuatrocientas criaturas nuevas de todos los valores de desafío, muchas del mundo de Midgard.\n\nContinúa el Tomo de las Bestias para directores que quieren más monstruos que los del Manual de Monstruos. Solo está en inglés.",
+  "source": "https://koboldpress.com/kpstore/product-category/dungeons-dragons/5th-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2020"
+    }
+  ]
+}

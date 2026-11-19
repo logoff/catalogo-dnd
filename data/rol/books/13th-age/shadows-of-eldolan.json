@@ -1,0 +1,20 @@
+{
+  "slug": "shadows-of-eldolan",
+  "system": "13th-age",
+  "title": "Shadows of Eldolan",
+  "kind": "adventure",
+  "description": "Una aventura de introducción a 13th Age para personajes de nivel 1, ambientada en Eldolan, una ciudad costera cercana a Horizonte donde los estudiantes de tres escuelas de magos rivales traen de cabeza a la guardia y un consejo de magos tiene el poder real.\n\nPensada para empezar a dirigir el juego, con una ciudad llena de intrigas que se puede seguir usando después.",
+  "source": "https://dracotienda.com/otros/28200-pack-de-4-libros-13th-age-el-juego-de-rol.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Pelgrane Press",
+      "date": "2013"
+    },
+    {
+      "language": "castellano",
+      "title": "Sombras de Éldolan",
+      "publisher": "Holocubierta"
+    }
+  ]
+}

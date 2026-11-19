@@ -1,0 +1,30 @@
+{
+  "slug": "tomb-of-tiberesh",
+  "system": "dnd-5e-2014",
+  "title": "Tomb of Tiberesh",
+  "kind": "adventure",
+  "description": "Una aventura para cinco o seis personajes de nivel 2 en las Tierras del Sur, el territorio desértico del mundo de Midgard: una tumba antigua y sus peligros.\n\nPara grupos de nivel bajo que quieran un ambiente de desierto y ruinas.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/la-tumba-de-tiberesh-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2015"
+    },
+    {
+      "language": "castellano",
+      "title": "La Tumba de Tiberesh",
+      "publisher": "Nosolorol",
+      "date": "2023-01-13",
+      "format": "paperback",
+      "isbn13": 9788418586972,
+      "cover": "/images/rol/tomb-of-tiberesh/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/la-tumba-de-tiberesh-papel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "book-of-the-dead",
+  "system": "pathfinder-2e",
+  "title": "Book of the Dead",
+  "kind": "supplement",
+  "license": "ogl-1-0a",
+  "description": "Todo sobre los muertos vivientes en Pathfinder 2E: criaturas nuevas, reglas para campañas de terror y arquetipos para jugar con personajes no muertos o que luchan contra ellos.\n\nPara campañas oscuras o grupos que quieren cazar, o ser, muertos vivientes.",
+  "source": "https://store.paizo.com/pathfinder-book-of-the-dead/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2022-04-27",
+      "format": "hardcover",
+      "isbn13": 9781640784017,
+      "cover": "/images/rol/book-of-the-dead/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El libro de los muertos",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/book-of-the-dead/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-el-libro-de-los-muertos"
+    }
+  ]
+}

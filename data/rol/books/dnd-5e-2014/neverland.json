@@ -1,0 +1,29 @@
+{
+  "slug": "neverland",
+  "system": "dnd-5e-2014",
+  "title": "Neverland",
+  "kind": "setting",
+  "description": "Una ambientación de Andrew Kolb inspirada en Peter Pan: la isla de Nunca Jamás, llena de travesuras y peligros, presentada como un mapa que se explora zona a zona, para 5E.\n\nPara grupos que quieren una aventura de fantasía distinta, con un tono de cuento a veces inquietante.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/neverland-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Andrew Kolb"
+    },
+    {
+      "language": "castellano",
+      "title": "Neverland",
+      "publisher": "Nosolorol",
+      "date": "2022-11-01",
+      "format": "hardcover",
+      "isbn13": 9788418586699,
+      "cover": "/images/rol/neverland/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/neverland-papel"
+        }
+      ]
+    }
+  ]
+}

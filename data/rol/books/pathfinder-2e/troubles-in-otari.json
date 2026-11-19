@@ -1,0 +1,26 @@
+{
+  "slug": "troubles-in-otari",
+  "system": "pathfinder-2e",
+  "title": "Troubles in Otari",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "Tres aventuras cortas alrededor del pueblo de Otari para personajes de nivel 2 a 5: un puesto pesquero abandonado, un sabotaje y una mazmorra llena de acertijos.\n\nLa continuación natural de la caja de inicio de Pathfinder 2E.",
+  "source": "https://pathfinderwiki.com/wiki/Troubles_in_Otari",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2020-12-09",
+      "format": "paperback",
+      "isbn13": 9781640782860
+    },
+    {
+      "language": "castellano",
+      "title": "Problemas en Otari",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/troubles-in-otari/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-problemas-en-otari"
+    }
+  ]
+}

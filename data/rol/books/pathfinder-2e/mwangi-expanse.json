@@ -1,0 +1,27 @@
+{
+  "slug": "mwangi-expanse",
+  "system": "pathfinder-2e",
+  "title": "Lost Omens The Mwangi Expanse",
+  "kind": "setting",
+  "license": "ogl-1-0a",
+  "description": "La guía de la Extensión de Mwangi, una gran región de selvas, sabanas y reinos antiguos del continente de Garund, con sus pueblos, culturas y nuevas ascendencias.\n\nPara campañas fuera del mar Interior; la aventura Lo que se arrastra transcurre en esta región.",
+  "source": "https://store.paizo.com/pathfinder-lost-omens-the-mwangi-expanse/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2021-07-07",
+      "format": "hardcover",
+      "isbn13": 9781640783409,
+      "cover": "/images/rol/mwangi-expanse/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Extensión de Mwangi",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/mwangi-expanse/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-la-extension-de-mwangi"
+    }
+  ]
+}

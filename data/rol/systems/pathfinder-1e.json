@@ -1,0 +1,34 @@
+{
+  "slug": "pathfinder-1e",
+  "name": "Pathfinder 1E",
+  "family": "pathfinder",
+  "publisher": "Paizo",
+  "date": "2009-08",
+  "description": "El juego con el que Paizo continuó las reglas de D&D 3.5 cuando Wizards pasó a la cuarta edición. Parte del SRD 3.5 y lo revisa a fondo: clases más equilibradas en todos los niveles, maniobras de combate simplificadas y arquetipos para variar cada clase, manteniendo la compatibilidad con el material de 3.5 con pocos ajustes.\n\nSe juega sobre todo en Golarion, el mundo de Paizo, y es famoso por sus sendas de aventuras: campañas completas en seis entregas. Devir publicó en castellano los básicos, varios suplementos y muchas de esas sendas.",
+  "features": [
+    "Sistema d20 compatible con D&D 3.5",
+    "Arquetipos que cambian rasgos de cada clase",
+    "Maniobras de combate con una sola tirada (BMC y DMC)",
+    "Sendas de aventuras de seis entregas"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2009"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-3-5",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Nace del SRD 3.5 y se presentó como compatible con 3.5, aunque reescribe clases, habilidades y maniobras."
+    }
+  ],
+  "links": [
+    {
+      "label": "Paizo",
+      "url": "https://paizo.com/pathfinder"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "cat-and-mouse",
+  "system": "dnd-5e-2014",
+  "title": "Cat & Mouse",
+  "kind": "adventure",
+  "description": "Una aventura de Richard Pett, autor de varias sendas de aventuras de Paizo, en la que los personajes se ven atrapados en una cacería en la que no siempre está claro quién es el gato y quién el ratón.\n\nUna aventura corta para grupos que disfrutan del humor negro y los giros.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/el-gato-y-el-raton-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2015"
+    },
+    {
+      "language": "castellano",
+      "title": "El Gato y el Ratón",
+      "publisher": "Nosolorol",
+      "date": "2022-11-16",
+      "format": "paperback",
+      "isbn13": 9788418586637,
+      "cover": "/images/rol/cat-and-mouse/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/el-gato-y-el-raton-papel"
+        }
+      ]
+    }
+  ]
+}

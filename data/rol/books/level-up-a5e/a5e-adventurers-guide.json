@@ -1,0 +1,17 @@
+{
+  "slug": "a5e-adventurers-guide",
+  "system": "level-up-a5e",
+  "title": "Adventurer's Guide",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de Level Up: herencias, culturas, trasfondos, destinos, clases con sus maniobras, conjuros y equipo, con las reglas de juego ampliadas respecto a 5E.\n\nEs el primero de los tres libros básicos; los otros son Trials & Treasures, con exploración y objetos mágicos, y Monstrous Menagerie, con los monstruos.",
+  "source": "https://modiphius.net/products/level-up-advanced-5th-edition-adventurers-guide",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "EN Publishing",
+      "date": "2022",
+      "format": "hardcover"
+    }
+  ]
+}

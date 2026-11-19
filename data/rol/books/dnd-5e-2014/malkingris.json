@@ -1,0 +1,25 @@
+{
+  "slug": "malkingris",
+  "system": "dnd-5e-2014",
+  "title": "Malkingrís",
+  "kind": "adventure",
+  "description": "Una aventura de Richard Pett y Greg Marks para personajes de nivel 3 a 5, compatible con 5E.\n\nPara grupos de nivel bajo que buscan una aventura con el estilo inquietante de Richard Pett.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/malkingris-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Malkingrís",
+      "publisher": "Nosolorol",
+      "date": "2025-05-01",
+      "format": "paperback",
+      "isbn13": 9788418586989,
+      "cover": "/images/rol/malkingris/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/malkingris-papel"
+        }
+      ]
+    }
+  ]
+}

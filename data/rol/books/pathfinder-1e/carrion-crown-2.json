@@ -1,0 +1,19 @@
+{
+  "slug": "carrion-crown-2",
+  "system": "pathfinder-1e",
+  "title": "Carrion Crown 2: Trial of the Beast",
+  "kind": "adventure",
+  "description": "En Lepidstadt, los héroes investigan los crímenes de los que se acusa a un monstruo creado por un científico.\n\nEs la entrega 2 de 6 de La corona de carroña, una senda de aventuras de Pathfinder 1E (2011) ambientada en Ustalav, una tierra de horror gótico, donde los héroes se enfrentan a fantasmas, monstruos y una secta que quiere resucitar a un antiguo tirano no muerto.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo"
+    },
+    {
+      "language": "castellano",
+      "title": "La corona de carroña 2: El juicio de la Bestia",
+      "publisher": "Devir"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "locura-en-las-profundidades",
+  "system": "el-resurgir-del-dragon",
+  "title": "Locura en las Profundidades",
+  "kind": "adventure",
+  "description": "La aventura que abre la campaña La Conjura del Renacer, pensada para grupos que empiezan con El Resurgir del Dragón.\n\nUna buena puerta de entrada al juego para jugadores y directores nuevos; la campaña continúa en volúmenes posteriores.",
+  "source": "https://www.nosolorol.com/el-resurgir-del-dragon/locura-en-las-profundidades-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Locura en las Profundidades",
+      "publisher": "Nosolorol",
+      "date": "2019-10-24",
+      "format": "paperback",
+      "isbn13": 9788417775513,
+      "cover": "/images/rol/locura-en-las-profundidades/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/el-resurgir-del-dragon/locura-en-las-profundidades-papel"
+        }
+      ]
+    }
+  ]
+}

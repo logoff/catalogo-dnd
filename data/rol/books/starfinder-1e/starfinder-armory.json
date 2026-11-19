@@ -1,0 +1,22 @@
+{
+  "slug": "starfinder-armory",
+  "system": "starfinder-1e",
+  "title": "Armory",
+  "kind": "supplement",
+  "description": "Un catálogo de armas, armaduras, mejoras y equipo tecnológico y mágico para Starfinder 1E, con opciones nuevas para cada clase.\n\nPara jugadores que quieren más equipo y directores que buscan recompensas.",
+  "source": "https://store.paizo.com/starfinder-armory/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2018-08-02",
+      "format": "hardcover",
+      "cover": "/images/rol/starfinder-armory/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La armería",
+      "publisher": "Devir"
+    }
+  ]
+}

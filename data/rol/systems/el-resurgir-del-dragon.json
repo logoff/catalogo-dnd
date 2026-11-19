@@ -1,0 +1,34 @@
+{
+  "slug": "el-resurgir-del-dragon",
+  "name": "El Resurgir del Dragón",
+  "family": "el-resurgir-del-dragon",
+  "publisher": "Nosolorol",
+  "date": "2018",
+  "description": "El juego de rol de fantasía de Nosolorol basado en el SRD 5.1 de D&D: reúne en un solo libro, en castellano, todo lo necesario para jugar campañas de fantasía con las reglas de 5E, sin depender de los libros de Wizards. Llegó cuando la quinta edición aún no tenía traducción oficial estable en España.\n\nEs compatible con el material de 5E y tiene sus propias aventuras, entre ellas la campaña La Conjura del Renacer. Nosolorol lo usa como base de su línea SRD 5.",
+  "features": [
+    "Juego completo de 5E en un solo libro",
+    "Basado en el SRD 5.1",
+    "Compatible con el material de 5E",
+    "Aventuras propias en castellano"
+  ],
+  "licenses": [
+    {
+      "license": "srd-5-1",
+      "since": "2018"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-5e-2014",
+      "kind": "compatible",
+      "via_license": "srd-5-1",
+      "note": "Reúne las reglas del SRD 5.1 en un juego propio, compatible con 5E."
+    }
+  ],
+  "links": [
+    {
+      "label": "Nosolorol",
+      "url": "https://www.nosolorol.com/es/127-el-resurgir-del-dragon"
+    }
+  ]
+}

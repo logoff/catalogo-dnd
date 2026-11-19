@@ -1,0 +1,29 @@
+{
+  "slug": "iron-kingdoms-monsternomicon",
+  "system": "dnd-5e-2014",
+  "title": "Iron Kingdoms: Monsternomicon",
+  "kind": "supplement",
+  "description": "El bestiario de Iron Kingdoms: Réquiem, con más de ciento veinte criaturas nuevas y clásicas de los Reinos de Hierro para 5E.\n\nPara quien dirige una campaña en los Reinos de Hierro.",
+  "source": "https://www.nosolorol.com/iron-kingdoms-requiem/iron-kingdoms-monstruonomicon-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Privateer Press"
+    },
+    {
+      "language": "castellano",
+      "title": "Iron Kingdoms: Monstruonomicón",
+      "publisher": "Nosolorol",
+      "date": "2023-08-31",
+      "format": "hardcover",
+      "isbn13": 9788418586675,
+      "cover": "/images/rol/iron-kingdoms-monsternomicon/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/iron-kingdoms-requiem/iron-kingdoms-monstruonomicon-papel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "fires-of-the-haunted-city",
+  "system": "pathfinder-2e",
+  "title": "Age of Ashes 4: Fires of the Haunted City",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "Los héroes se mueven entre la política de una ciudad subterránea aliada con un dragón y pueden ganarse la ayuda de un rey enano muerto hace siglos contra la Tríada.\n\nEs la entrega 4 de 6 de La Era de las Cenizas, la primera senda de aventuras de Pathfinder 2E, para personajes de nivel 12 a 15.",
+  "source": "https://pathfinderwiki.com/wiki/Age_of_Ashes_(adventure_path)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-10-16",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "La Era de las Cenizas 4: Fuegos de la ciudad embrujada",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/fires-of-the-haunted-city/castellano.webp"
+    }
+  ]
+}

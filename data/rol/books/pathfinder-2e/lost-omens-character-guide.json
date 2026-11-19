@@ -1,0 +1,27 @@
+{
+  "slug": "lost-omens-character-guide",
+  "system": "pathfinder-2e",
+  "title": "Lost Omens Character Guide",
+  "kind": "setting",
+  "license": "ogl-1-0a",
+  "description": "Opciones de personaje ligadas a Golarion: nuevas ascendencias, como los hobgoblins, los leshys y los hombres lagarto, y las organizaciones del mundo con sus dotes y arquetipos.\n\nPara jugadores que quieren personajes arraigados en la ambientación.",
+  "source": "https://store.paizo.com/pathfinder-lost-omens-character-guide/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-10-16",
+      "format": "hardcover",
+      "isbn13": 9781640781931,
+      "cover": "/images/rol/lost-omens-character-guide/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de personajes de Presagios Perdidos",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/lost-omens-character-guide/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-guia-de-personajes-de-presagios-perdidos"
+    }
+  ]
+}

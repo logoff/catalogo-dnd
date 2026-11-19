@@ -1,0 +1,23 @@
+{
+  "slug": "iron-kingdoms-pantalla",
+  "system": "dnd-5e-2014",
+  "title": "Iron Kingdoms: GM Screen",
+  "kind": "other",
+  "description": "La pantalla del director para Iron Kingdoms: Réquiem, de cuatro paneles a todo color.\n\nPara quien dirige y quiere tener a mano las tablas de consulta.",
+  "source": "https://www.nosolorol.com/iron-kingdoms-requiem/iron-kingdoms-pantalla-del-dj-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Iron Kingdoms: Pantalla del DJ",
+      "publisher": "Nosolorol",
+      "isbn13": 9788418586668,
+      "cover": "/images/rol/iron-kingdoms-pantalla/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/iron-kingdoms-requiem/iron-kingdoms-pantalla-del-dj-papel"
+        }
+      ]
+    }
+  ]
+}

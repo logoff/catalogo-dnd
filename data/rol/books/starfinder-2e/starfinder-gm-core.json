@@ -1,0 +1,19 @@
+{
+  "slug": "starfinder-gm-core",
+  "system": "starfinder-2e",
+  "title": "GM Core",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de Starfinder 2E: cómo dirigir partidas de ciencia ficción, crear encuentros, mundos y naves, repartir tesoros y usar la tecnología y los peligros del espacio.\n\nSe complementa con Player Core y con Alien Core, y sirve también para mezclar material con Pathfinder 2E.",
+  "source": "https://store.paizo.com/starfinder-2e-gm-core/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2025-09-03",
+      "format": "hardcover",
+      "isbn13": 9781640786998,
+      "cover": "/images/rol/starfinder-gm-core/english.webp"
+    }
+  ]
+}

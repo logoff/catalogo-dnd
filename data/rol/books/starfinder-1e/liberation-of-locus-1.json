@@ -1,0 +1,21 @@
+{
+  "slug": "liberation-of-locus-1",
+  "system": "starfinder-1e",
+  "title": "The Liberation of Locus-1",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 4 a 7: un pirata aterroriza el sistema Locus y la ayuda que piden sus habitantes al Imperio Estelar Azlanti sale mal, así que un pequeño grupo de héroes tiene que liberar la estación.\n\nUna aventura corta para grupos que ya conocen el juego.",
+  "source": "https://starfinderwiki.com/wiki/The_Liberation_of_Locus-1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2021-10-13",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "La liberación de Locus-1",
+      "publisher": "Devir"
+    }
+  ]
+}

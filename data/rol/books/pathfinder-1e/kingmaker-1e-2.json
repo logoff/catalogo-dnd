@@ -1,0 +1,19 @@
+{
+  "slug": "kingmaker-1e-2",
+  "system": "pathfinder-1e",
+  "title": "Kingmaker 2: Rivers Run Red",
+  "kind": "adventure",
+  "description": "Los héroes fundan su reino y deben protegerlo de las amenazas de la región.\n\nEs la entrega 2 de 6 de Forjador de reyes, una senda de aventuras de Pathfinder 1E (2010) ambientada en las Tierras Robadas, donde los héroes exploran la región, la limpian de peligros y fundan y gobiernan su propio reino.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo"
+    },
+    {
+      "language": "castellano",
+      "title": "Forjador de reyes 2: Los ríos se tiñen de rojo",
+      "publisher": "Devir"
+    }
+  ]
+}

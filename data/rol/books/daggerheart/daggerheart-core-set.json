@@ -1,0 +1,23 @@
+{
+  "slug": "daggerheart-core-set",
+  "system": "daggerheart",
+  "title": "Core Set",
+  "kind": "core",
+  "core": true,
+  "description": "La caja básica de Daggerheart: el libro de reglas con clases, ascendencias, comunidades y la forma de dirigir, y los centenares de cartas de dominio, ascendencia y comunidad con las que se construyen los personajes, además de una ambientación de ejemplo.\n\nEs lo único que hace falta para jugar. Devir ha anunciado la edición en castellano, todavía sin fecha.",
+  "source": "https://www.daggerheart.com/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Darrington Press",
+      "date": "2025-05-20",
+      "format": "boxed_set"
+    },
+    {
+      "language": "castellano",
+      "publisher": "Devir",
+      "format": "boxed_set",
+      "source": "https://x.com/DevirIberia/status/1933554969409732799"
+    }
+  ]
+}

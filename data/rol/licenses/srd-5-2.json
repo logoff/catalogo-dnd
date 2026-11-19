@@ -1,0 +1,25 @@
+{
+  "slug": "srd-5-2",
+  "name": "System Reference Document 5.2",
+  "short_name": "SRD 5.2",
+  "kind": "reference_document",
+  "holder": "Wizards of the Coast",
+  "date": "2025-04-22",
+  "description": "La parte abierta de las reglas de D&D de 2024: clases, especies, conjuros, monstruos y objetos mágicos de los libros básicos revisados, sin la ambientación ni los nombres que Wizards reserva. Es un documento aparte del SRD 5.1, que sigue disponible.\n\nSe publicó directamente bajo CC BY 4.0, así que no se puede retirar. Permite publicar material para las reglas de 2024 citando la fuente; Wizards ha sacado después revisiones menores con la misma licencia.",
+  "links": [
+    {
+      "label": "SRD en D&D Beyond",
+      "url": "https://www.dndbeyond.com/srd"
+    },
+    {
+      "label": "Anuncio de Wizards",
+      "url": "https://www.dndbeyond.com/posts/1949-you-can-now-publish-your-own-creations-using-the"
+    }
+  ],
+  "published_under": [
+    {
+      "license": "cc-by-4-0",
+      "since": "2025-04-22"
+    }
+  ]
+}

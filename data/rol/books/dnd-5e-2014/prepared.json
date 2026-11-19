@@ -1,0 +1,29 @@
+{
+  "slug": "prepared",
+  "system": "dnd-5e-2014",
+  "title": "Prepared!",
+  "kind": "adventure",
+  "description": "Doce miniaventuras de Jon Sawatsky para niveles 1 a 15, pensadas para jugarse en una sola sesión con muy poca preparación.\n\nPara directores con poco tiempo o para sesiones sueltas entre partidas de una campaña.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/preparadas",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2016"
+    },
+    {
+      "language": "castellano",
+      "title": "¡Preparadas!",
+      "publisher": "Nosolorol",
+      "format": "paperback",
+      "isbn13": 9788418586323,
+      "cover": "/images/rol/prepared/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/preparadas"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "zobeck-gazetteer",
+  "system": "dnd-5e-2014",
+  "title": "Zobeck Gazetteer",
+  "kind": "setting",
+  "description": "La guía de Zobeck, la ciudad comercial libre del mundo de Midgard nacida de una rebelión: sus barrios, gremios, personajes y secretos, con opciones y ganchos de aventura para 5E.\n\nPara campañas urbanas o como punto de partida para explorar Midgard. Lo escribió James Haeck.",
+  "source": "https://www.nosolorol.com/srd-5-edicion/vademecum-de-zobeck-papel",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Kobold Press",
+      "date": "2018"
+    },
+    {
+      "language": "castellano",
+      "title": "Vademécum de Zobeck",
+      "publisher": "Nosolorol",
+      "format": "hardcover",
+      "isbn13": 9788418586392,
+      "cover": "/images/rol/zobeck-gazetteer/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/srd-5-edicion/vademecum-de-zobeck-papel"
+        }
+      ]
+    }
+  ]
+}

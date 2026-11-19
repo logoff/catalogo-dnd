@@ -1,0 +1,27 @@
+{
+  "slug": "guns-and-gears",
+  "system": "pathfinder-2e",
+  "title": "Guns & Gears",
+  "kind": "supplement",
+  "license": "ogl-1-0a",
+  "description": "Pólvora y tecnología en Pathfinder 2E: dos clases nuevas, el pistolero y el inventor, armas de fuego, artefactos mecánicos, vehículos y autómatas.\n\nPara grupos que quieren un toque de fantasía con armas de fuego y máquinas.",
+  "source": "https://store.paizo.com/pathfinder-guns-gears/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2021-10-13",
+      "format": "hardcover",
+      "isbn13": 9781640783690,
+      "cover": "/images/rol/guns-and-gears/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Armas y mecanismos",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/guns-and-gears/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-armas-y-mecanismos"
+    }
+  ]
+}

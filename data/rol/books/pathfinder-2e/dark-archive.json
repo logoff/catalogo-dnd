@@ -1,0 +1,27 @@
+{
+  "slug": "dark-archive",
+  "system": "pathfinder-2e",
+  "title": "Dark Archive",
+  "kind": "supplement",
+  "license": "ogl-1-0a",
+  "description": "Lo paranormal en Pathfinder 2E, presentado como los expedientes de una organización que investiga sucesos inexplicables: dos clases nuevas, el psíquico y el taumaturgo, y reglas para fenómenos extraños.\n\nPara campañas de misterio y horror o jugadores que buscan clases poco convencionales.",
+  "source": "https://store.paizo.com/pathfinder-dark-archive/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2022-07-27",
+      "format": "hardcover",
+      "isbn13": 9781640784437,
+      "cover": "/images/rol/dark-archive/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Archivo oscuro",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/dark-archive/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-archivo-oscuro"
+    }
+  ]
+}

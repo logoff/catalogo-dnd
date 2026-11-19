@@ -1,0 +1,20 @@
+{
+  "slug": "inner-sea-world-guide",
+  "system": "pathfinder-1e",
+  "title": "The Inner Sea World Guide",
+  "kind": "setting",
+  "description": "La guía de la región del mar Interior de Golarion, el mundo de Pathfinder: sus naciones, religiones, organizaciones e historia, con opciones para personajes de cada lugar.\n\nEl libro de referencia de la ambientación para la primera edición.",
+  "source": "https://devir.es/catalogsearch/result/?q=pathfinder+1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2011"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del mar interior",
+      "publisher": "Devir"
+    }
+  ]
+}

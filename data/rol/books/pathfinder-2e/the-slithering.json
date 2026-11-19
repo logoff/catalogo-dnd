@@ -1,0 +1,27 @@
+{
+  "slug": "the-slithering",
+  "system": "pathfinder-2e",
+  "title": "The Slithering",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "Una aventura para personajes de nivel 5 en la ciudad comercial de Kibwe, en la Extensión de Mwangi, donde una maldición convierte a gente inocente en limos hostiles.\n\nPara grupos que quieren una aventura corta de investigación y combate con un enemigo poco habitual.",
+  "source": "https://store.paizo.com/pathfinder-adventure-the-slithering/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2020-07-30",
+      "format": "paperback",
+      "isbn13": 9781640782723,
+      "cover": "/images/rol/the-slithering/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Lo que se arrastra",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/the-slithering/castellano.webp",
+      "source": "https://devir.es/pathfinder-2-ed-lo-que-se-arrastra"
+    }
+  ]
+}

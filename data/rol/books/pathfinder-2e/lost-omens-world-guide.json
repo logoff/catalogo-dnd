@@ -1,0 +1,27 @@
+{
+  "slug": "lost-omens-world-guide",
+  "system": "pathfinder-2e",
+  "title": "Lost Omens World Guide",
+  "kind": "setting",
+  "license": "ogl-1-0a",
+  "description": "La guía del mundo de Golarion para Pathfinder 2E: las regiones del mar Interior, sus naciones, su historia y sus conflictos, con opciones para personajes de cada lugar.\n\nEl punto de partida de la línea Presagios Perdidos (Lost Omens) para conocer la ambientación.",
+  "source": "https://store.paizo.com/pathfinder-lost-omens-world-guide/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-08-28",
+      "format": "hardcover",
+      "isbn13": 9781640781726,
+      "cover": "/images/rol/lost-omens-world-guide/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del mundo de Presagios Perdidos",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/lost-omens-world-guide/castellano.webp",
+      "source": "https://devir.es/pathfinder-2ed-guia-del-mundo-de-presagios-perdidos"
+    }
+  ]
+}

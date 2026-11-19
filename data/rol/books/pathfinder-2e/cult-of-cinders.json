@@ -1,0 +1,24 @@
+{
+  "slug": "cult-of-cinders",
+  "system": "pathfinder-2e",
+  "title": "Age of Ashes 2: Cult of Cinders",
+  "kind": "adventure",
+  "license": "ogl-1-0a",
+  "description": "Los portales de la ciudadela llevan a los héroes a tierras desconocidas, donde ganan aliados, encuentran enemigos nuevos y averiguan qué pretendía la secta.\n\nEs la entrega 2 de 6 de La Era de las Cenizas, la primera senda de aventuras de Pathfinder 2E, para personajes de nivel 5 a 9.",
+  "source": "https://pathfinderwiki.com/wiki/Age_of_Ashes_(adventure_path)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Paizo",
+      "date": "2019-08-28",
+      "format": "paperback"
+    },
+    {
+      "language": "castellano",
+      "title": "La Era de las Cenizas 2: La secta de las cenizas",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/cult-of-cinders/castellano.webp"
+    }
+  ]
+}

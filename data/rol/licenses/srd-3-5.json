@@ -1,0 +1,21 @@
+{
+  "slug": "srd-3-5",
+  "name": "System Reference Document 3.5",
+  "short_name": "SRD 3.5",
+  "kind": "reference_document",
+  "holder": "Wizards of the Coast",
+  "date": "2003",
+  "description": "Las reglas de D&D 3.5 que Wizards of the Coast publicó como contenido abierto bajo la OGL 1.0a: clases, razas, conjuros, monstruos y objetos mágicos de los tres libros básicos, sin la ambientación ni los nombres protegidos.\n\nCon él cualquier editorial podía publicar material compatible con 3.5 sin pedir permiso. Es el origen directo de Pathfinder y de muchos juegos d20 de la época. Wizards retiró hace años la página original; se conservan copias del archivo publicado.",
+  "links": [
+    {
+      "label": "Copia del archivo original de Wizards",
+      "url": "https://archive.org/details/dnd35srd"
+    }
+  ],
+  "published_under": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2003"
+    }
+  ]
+}
