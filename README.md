@@ -161,6 +161,15 @@ abiertas (OGL, SRD, ORC…) que los relacionan. Los datos están en
 `books/<sistema>/`. La lista maestra es `data/rol/inventory.md` y la skill
 `add-rpg` explica cómo dar de alta licencias, sistemas y libros.
 
+## Feed de novedades
+
+El build genera `dist/feed.xml`, un feed Atom con las 50 últimas novedades
+de todas las secciones (ediciones en inglés y en castellano con fecha de
+día o de mes, sin las futuras). Lo hace `scripts/generate-feed.mjs` con la
+lógica de `scripts/feed.mjs`; sus enlaces llevan
+`utm_source=rss&utm_medium=feed&utm_campaign=novedades` para medirlo en
+Umami. Se anuncia en el `<head>` y se enlaza en el pie de página.
+
 ## Enlaces de afiliado
 
 Los botones de compra llevan ID de afiliado solo si están definidas
