@@ -6,6 +6,7 @@ import { buildNovelIndex } from '@/utils/novels'
 import { cacheNovel, setAnthologies, setNovelIndex, setSeries } from '@/services/novelLoader'
 import { getAllVideogames } from '@/services/videogameLoader'
 import NovelDetailPage from './NovelDetailPage'
+import { expectAffiliateNotices } from '@/test/affiliate'
 
 const english: NovelEdition = {
   language: 'english',
@@ -216,6 +217,7 @@ describe('NovelDetailPage', () => {
     expect(within(rows[0]).getByRole('link', { name: /Amazon/ })).toBeInTheDocument()
     expect(within(block).getByText('Otra edición')).toBeInTheDocument()
     expect(within(block).queryByText('Tales of Huma')).toBeNull()
+    expectAffiliateNotices()
   })
 
   it('muestra las antologías ligadas a la propia novela', () => {
@@ -348,6 +350,7 @@ describe('NovelDetailPage', () => {
       'Comprar en Amazon Kindle',
     ])
     expect(buttons[1]).toHaveAttribute('data-umami-event-formato', 'ebook')
+    expectAffiliateNotices()
   })
 
   it('abre las portadas en el visor', () => {

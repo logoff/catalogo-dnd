@@ -11,6 +11,7 @@ import SectionNav from '@/components/ui/SectionNav'
 import ImageLightbox from '../common/ImageLightbox'
 import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
+import PurchaseLinks from '../common/PurchaseLinks'
 import MerchandiseSpanishBadge from './MerchandiseSpanishBadge'
 
 interface MerchandiseDetailProps {
@@ -111,49 +112,51 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
 
       <DetailSection title="Dónde comprar">
         {item.availableToBuy ? (
-          <ul className="space-y-4">
-            {item.editions.map((edition, index) => {
-              const language = editionLanguage(edition)
-              const details = [
-                edition.publisher,
-                edition.date && formatPartialDate(edition.date),
-              ].filter(Boolean)
-              return (
-                <li key={index}>
-                  {(language || edition.title) && (
-                    <p className="text-fg">
-                      {language && <span className="font-semibold">{language}</span>}
-                      {language && edition.title && ': '}
-                      {edition.title && <span>{edition.title}</span>}
-                    </p>
-                  )}
-                  {details.length > 0 && (
-                    <p className="text-sm text-muted">{details.join(' · ')}</p>
-                  )}
-                  {(edition.purchase_links ?? []).length > 0 ? (
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      {edition.purchase_links!.map((link, linkIndex) => (
-                        <PurchaseButton
-                          key={link.url}
-                          primary={index === 0 && linkIndex === 0}
-                          store={link.store}
-                          url={link.url}
-                          tracking={{
-                            merchandising: item.slug,
-                            idioma: edition.language,
-                          }}
-                        />
-                      ))}
-                    </div>
-                  ) : (
-                    <p className="mt-1 text-sm text-muted">
-                      Esta edición no está a la venta en las tiendas del sitio.
-                    </p>
-                  )}
-                </li>
-              )
-            })}
-          </ul>
+          <PurchaseLinks>
+            <ul className="space-y-4">
+              {item.editions.map((edition, index) => {
+                const language = editionLanguage(edition)
+                const details = [
+                  edition.publisher,
+                  edition.date && formatPartialDate(edition.date),
+                ].filter(Boolean)
+                return (
+                  <li key={index}>
+                    {(language || edition.title) && (
+                      <p className="text-fg">
+                        {language && <span className="font-semibold">{language}</span>}
+                        {language && edition.title && ': '}
+                        {edition.title && <span>{edition.title}</span>}
+                      </p>
+                    )}
+                    {details.length > 0 && (
+                      <p className="text-sm text-muted">{details.join(' · ')}</p>
+                    )}
+                    {(edition.purchase_links ?? []).length > 0 ? (
+                      <div className="mt-2 flex flex-wrap gap-2">
+                        {edition.purchase_links!.map((link, linkIndex) => (
+                          <PurchaseButton
+                            key={link.url}
+                            primary={index === 0 && linkIndex === 0}
+                            store={link.store}
+                            url={link.url}
+                            tracking={{
+                              merchandising: item.slug,
+                              idioma: edition.language,
+                            }}
+                          />
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="mt-1 text-sm text-muted">
+                        Esta edición no está a la venta en las tiendas del sitio.
+                      </p>
+                    )}
+                  </li>
+                )
+              })}
+            </ul>
+          </PurchaseLinks>
         ) : (
           <p className="text-fg">No está a la venta en las tiendas del sitio.</p>
         )}

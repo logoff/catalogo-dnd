@@ -5,6 +5,7 @@ import type { Merchandise } from '@/types/merchandise'
 import { enrichMerchandise } from '@/services/merchandiseLoader'
 import MerchandiseDetail from '@/components/merchandise/MerchandiseDetail'
 import MerchandiseDetailPage from './MerchandiseDetailPage'
+import { expectAffiliateNotices } from '@/test/affiliate'
 
 const renderAt = (path: string) =>
   render(
@@ -71,6 +72,7 @@ describe('MerchandiseDetail', () => {
     const button = screen.getByRole('link', { name: /Comprar en Amazon/ })
     expect(button).toHaveAttribute('data-umami-event-merchandising', 'articulo')
     expect(button).toHaveAttribute('data-umami-event-idioma', 'castellano')
+    expectAffiliateNotices()
   })
 
   it('avisa cuando no está a la venta y omite los datos que no tiene', () => {
