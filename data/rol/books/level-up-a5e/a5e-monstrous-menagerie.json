@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "EN Publishing",
       "format": "hardcover",
-      "isbn13": 9781912007820
+      "isbn13": 9781912007820,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1912007827/"
+        }
+      ]
     }
   ]
 }

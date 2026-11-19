@@ -13,7 +13,13 @@
       "date": "2013-08",
       "format": "hardcover",
       "isbn13": 9781908983404,
-      "cover": "/images/rol/13th-age-core-book/english.webp"
+      "cover": "/images/rol/13th-age-core-book/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/190898340X/"
+        }
+      ]
     },
     {
       "language": "castellano",
@@ -21,7 +27,13 @@
       "date": "2014-12",
       "format": "hardcover",
       "isbn13": 9788493956103,
-      "source": "https://www.sddistribuciones.com/13TH-AGE-LIBRO-BASICO-Isbn-978-84-939561-0-3-Codigo-HOR,HOL13A01"
+      "source": "https://www.sddistribuciones.com/13TH-AGE-LIBRO-BASICO-Isbn-978-84-939561-0-3-Codigo-HOR,HOL13A01",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8493956104/"
+        }
+      ]
     }
   ]
 }

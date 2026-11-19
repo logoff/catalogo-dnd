@@ -12,7 +12,13 @@
       "publisher": "Paizo",
       "date": "2011-10-26",
       "format": "boxed_set",
-      "isbn13": 9781601256300
+      "isbn13": 9781601256300,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601256302/"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -21,6 +21,10 @@
       "cover": "/images/rol/cat-and-mouse/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/841858663X/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/el-gato-y-el-raton-papel"
         }

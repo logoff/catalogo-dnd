@@ -12,7 +12,13 @@
       "publisher": "Kobold Press",
       "date": "2024-07-17",
       "format": "hardcover",
-      "isbn13": 9781950789757
+      "isbn13": 9781950789757,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1950789756/"
+        }
+      ]
     },
     {
       "language": "castellano",

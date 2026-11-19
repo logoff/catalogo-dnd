@@ -13,7 +13,13 @@
       "date": "2020-01-29",
       "format": "hardcover",
       "isbn13": 9781640782020,
-      "cover": "/images/rol/lost-omens-gods-and-magic/english.webp"
+      "cover": "/images/rol/lost-omens-gods-and-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782028/"
+        }
+      ]
     },
     {
       "language": "castellano",

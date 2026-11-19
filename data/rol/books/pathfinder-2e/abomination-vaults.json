@@ -13,7 +13,13 @@
       "date": "2022-05-25",
       "format": "hardcover",
       "isbn13": 9781640784109,
-      "cover": "/images/rol/abomination-vaults/english.webp"
+      "cover": "/images/rol/abomination-vaults/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640784101/"
+        }
+      ]
     },
     {
       "language": "castellano",

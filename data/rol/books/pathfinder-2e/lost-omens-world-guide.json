@@ -13,7 +13,13 @@
       "date": "2019-08-28",
       "format": "hardcover",
       "isbn13": 9781640781726,
-      "cover": "/images/rol/lost-omens-world-guide/english.webp"
+      "cover": "/images/rol/lost-omens-world-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781722/"
+        }
+      ]
     },
     {
       "language": "castellano",

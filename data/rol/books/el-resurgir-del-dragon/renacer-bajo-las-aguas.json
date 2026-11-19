@@ -16,6 +16,10 @@
       "cover": "/images/rol/renacer-bajo-las-aguas/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8418586206/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/el-resurgir-del-dragon/el-renacer-bajo-las-aguas-papel"
         }

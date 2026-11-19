@@ -22,6 +22,10 @@
       "cover": "/images/rol/deep-magic/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8419594490/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/magia-insondable-papel"
         }

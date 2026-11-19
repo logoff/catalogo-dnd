@@ -12,7 +12,13 @@
       "publisher": "Shadowlands Ediciones",
       "date": "2019",
       "isbn13": 9788412058611,
-      "source": "https://rpggeek.com/rpgitemversion/528092/pdf"
+      "source": "https://rpggeek.com/rpgitemversion/528092/pdf",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8412058615/"
+        }
+      ]
     }
   ]
 }

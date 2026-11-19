@@ -16,6 +16,10 @@
       "cover": "/images/rol/torre-negra-de-sragonaz/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8417379886/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/el-resurgir-del-dragon/el-misterio-de-la-torre-negra-de-sragonaz-papel"
         }

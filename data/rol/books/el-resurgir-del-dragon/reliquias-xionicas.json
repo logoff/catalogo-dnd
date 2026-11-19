@@ -16,6 +16,10 @@
       "cover": "/images/rol/reliquias-xionicas/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8417775471/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/el-resurgir-del-dragon/reliquias-xionicas-papel"
         }

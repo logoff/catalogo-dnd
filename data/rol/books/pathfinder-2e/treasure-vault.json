@@ -13,7 +13,13 @@
       "date": "2023-02-22",
       "format": "hardcover",
       "isbn13": 9781640784970,
-      "cover": "/images/rol/treasure-vault/english.webp"
+      "cover": "/images/rol/treasure-vault/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640784977/"
+        }
+      ]
     },
     {
       "language": "castellano",

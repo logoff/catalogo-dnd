@@ -13,7 +13,13 @@
       "date": "2022-10-26",
       "format": "hardcover",
       "isbn13": 9781640784529,
-      "cover": "/images/rol/crown-of-the-kobold-king/english.webp"
+      "cover": "/images/rol/crown-of-the-kobold-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640784527/"
+        }
+      ]
     },
     {
       "language": "castellano",

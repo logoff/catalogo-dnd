@@ -40,8 +40,13 @@ export function getCachedBook(slug: string): RpgBookWithMeta | undefined {
 }
 
 // Ruta del JSON de cada libro: data/rol/books/<sistema>/<slug>.json
+// El sistema y el slug salen de la URL: solo se aceptan slugs válidos y rutas que existen
+const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/
+
 function moduleFor(system: string, slug: string): (() => Promise<RpgBook>) | undefined {
-  return bookModules.get(`/data/rol/books/${system}/${slug}.json`)
+  if (!SLUG.test(system) || !SLUG.test(slug)) return undefined
+  const load = bookModules.get(`/data/rol/books/${system}/${slug}.json`)
+  return typeof load === 'function' ? load : undefined
 }
 
 export async function loadBook(system: string, slug: string): Promise<RpgBookWithMeta | undefined> {

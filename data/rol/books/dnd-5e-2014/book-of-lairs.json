@@ -21,6 +21,10 @@
       "cover": "/images/rol/book-of-lairs/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8419594091/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/libro-de-las-guaridas-papel"
         }

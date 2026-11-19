@@ -16,6 +16,10 @@
       "cover": "/images/rol/locura-en-las-profundidades/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/841777551X/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/el-resurgir-del-dragon/locura-en-las-profundidades-papel"
         }

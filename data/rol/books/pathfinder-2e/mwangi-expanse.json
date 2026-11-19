@@ -13,7 +13,13 @@
       "date": "2021-07-07",
       "format": "hardcover",
       "isbn13": 9781640783409,
-      "cover": "/images/rol/mwangi-expanse/english.webp"
+      "cover": "/images/rol/mwangi-expanse/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640783407/"
+        }
+      ]
     },
     {
       "language": "castellano",

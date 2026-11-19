@@ -13,7 +13,13 @@
       "date": "2009-08",
       "format": "hardcover",
       "isbn13": 9781601251503,
-      "cover": "/images/rol/core-rulebook-1e/english.webp"
+      "cover": "/images/rol/core-rulebook-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1601251505/"
+        }
+      ]
     },
     {
       "language": "castellano",

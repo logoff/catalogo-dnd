@@ -13,7 +13,13 @@
       "date": "2024-04-24",
       "format": "hardcover",
       "isbn13": 9781640785762,
-      "cover": "/images/rol/tian-xia-world-guide/english.webp"
+      "cover": "/images/rol/tian-xia-world-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640785760/"
+        }
+      ]
     },
     {
       "language": "castellano",

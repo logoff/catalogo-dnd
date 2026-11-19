@@ -13,7 +13,13 @@
       "date": "2025-07-31",
       "format": "hardcover",
       "isbn13": 9781640786868,
-      "cover": "/images/rol/starfinder-player-core/english.webp"
+      "cover": "/images/rol/starfinder-player-core/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640786864/"
+        }
+      ]
     }
   ]
 }

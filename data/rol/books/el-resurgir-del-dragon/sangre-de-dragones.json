@@ -16,6 +16,10 @@
       "cover": "/images/rol/sangre-de-dragones/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8417775056/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/el-resurgir-del-dragon/sangre-de-dragones-papel"
         }

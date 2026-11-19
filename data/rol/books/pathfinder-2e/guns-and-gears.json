@@ -13,7 +13,13 @@
       "date": "2021-10-13",
       "format": "hardcover",
       "isbn13": 9781640783690,
-      "cover": "/images/rol/guns-and-gears/english.webp"
+      "cover": "/images/rol/guns-and-gears/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640783695/"
+        }
+      ]
     },
     {
       "language": "castellano",

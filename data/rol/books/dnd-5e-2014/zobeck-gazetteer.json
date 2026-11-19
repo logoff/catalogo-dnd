@@ -20,6 +20,10 @@
       "cover": "/images/rol/zobeck-gazetteer/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8418586397/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/vademecum-de-zobeck-papel"
         }

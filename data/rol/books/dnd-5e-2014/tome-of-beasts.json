@@ -22,6 +22,10 @@
       "cover": "/images/rol/tome-of-beasts/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8418586648/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/tomo-de-las-bestias-papel"
         }

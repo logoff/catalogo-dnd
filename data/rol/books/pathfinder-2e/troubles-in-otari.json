@@ -12,7 +12,13 @@
       "publisher": "Paizo",
       "date": "2020-12-09",
       "format": "paperback",
-      "isbn13": 9781640782860
+      "isbn13": 9781640782860,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782869/"
+        }
+      ]
     },
     {
       "language": "castellano",

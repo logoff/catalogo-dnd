@@ -13,7 +13,13 @@
       "date": "2019-10-16",
       "format": "hardcover",
       "isbn13": 9781640781931,
-      "cover": "/images/rol/lost-omens-character-guide/english.webp"
+      "cover": "/images/rol/lost-omens-character-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781935/"
+        }
+      ]
     },
     {
       "language": "castellano",

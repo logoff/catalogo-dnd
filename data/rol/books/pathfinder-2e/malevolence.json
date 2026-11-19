@@ -12,7 +12,13 @@
       "publisher": "Paizo",
       "date": "2021-07-07",
       "format": "paperback",
-      "isbn13": 9781640783157
+      "isbn13": 9781640783157,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640783156/"
+        }
+      ]
     },
     {
       "language": "castellano",

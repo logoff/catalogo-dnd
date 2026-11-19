@@ -13,7 +13,13 @@
       "date": "2020-07-30",
       "format": "hardcover",
       "isbn13": 9781640782570,
-      "cover": "/images/rol/advanced-players-guide/english.webp"
+      "cover": "/images/rol/advanced-players-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782575/"
+        }
+      ]
     },
     {
       "language": "castellano",

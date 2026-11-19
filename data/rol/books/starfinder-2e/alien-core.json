@@ -12,7 +12,13 @@
       "publisher": "Paizo",
       "format": "hardcover",
       "isbn13": 9781640787131,
-      "cover": "/images/rol/alien-core/english.webp"
+      "cover": "/images/rol/alien-core/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640787135/"
+        }
+      ]
     }
   ]
 }

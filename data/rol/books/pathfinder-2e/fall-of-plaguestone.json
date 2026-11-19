@@ -12,7 +12,13 @@
       "publisher": "Paizo",
       "date": "2019-08-01",
       "format": "paperback",
-      "isbn13": 9781640781740
+      "isbn13": 9781640781740,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640781749/"
+        }
+      ]
     },
     {
       "language": "castellano",

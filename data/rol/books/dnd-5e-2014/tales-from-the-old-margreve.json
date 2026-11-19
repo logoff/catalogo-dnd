@@ -21,6 +21,10 @@
       "cover": "/images/rol/tales-from-the-old-margreve/castellano.webp",
       "purchase_links": [
         {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8419594571/"
+        },
+        {
           "store": "nosolorol",
           "url": "https://www.nosolorol.com/srd-5-edicion/cuentos-del-viejo-margreve-papel"
         }

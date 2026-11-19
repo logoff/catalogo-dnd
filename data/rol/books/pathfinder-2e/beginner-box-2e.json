@@ -14,7 +14,13 @@
       "date": "2020-11-11",
       "format": "boxed_set",
       "isbn13": 9781640782846,
-      "cover": "/images/rol/beginner-box-2e/english.webp"
+      "cover": "/images/rol/beginner-box-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1640782842/"
+        }
+      ]
     }
   ]
 }
