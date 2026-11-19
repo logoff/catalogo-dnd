@@ -1,0 +1,148 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "/schemas/license",
+    "title": "Open license",
+    "description": "Licencia abierta, documento de referencia o licencia comunitaria de la sección de otros juegos de rol",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "slug",
+        "name",
+        "kind",
+        "holder",
+        "date",
+        "description",
+        "links"
+    ],
+    "properties": {
+        "slug": {
+            "$ref": "#/$defs/slug"
+        },
+        "name": {
+            "type": "string",
+            "minLength": 1
+        },
+        "short_name": {
+            "description": "Nombre corto para etiquetas y filtros (OGL 1.0a, SRD 5.1, ORC…)",
+            "type": "string",
+            "minLength": 1
+        },
+        "kind": {
+            "description": "license: texto legal que permite publicar; reference_document: reglas publicadas bajo una licencia; community_license: licencia de un editor para su propio juego",
+            "enum": [
+                "license",
+                "reference_document",
+                "community_license"
+            ]
+        },
+        "holder": {
+            "type": "string",
+            "minLength": 1
+        },
+        "date": {
+            "$ref": "#/$defs/partialDate"
+        },
+        "description": {
+            "description": "Explicación propia en castellano: qué es, qué permite y qué no",
+            "type": "string",
+            "minLength": 1
+        },
+        "links": {
+            "description": "Enlaces oficiales: texto legal, documento de referencia o preguntas frecuentes del titular",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/$defs/link"
+            }
+        },
+        "published_under": {
+            "description": "Solo en documentos de referencia: licencias bajo las que se publican, cada una desde cuándo",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "license"
+                ],
+                "properties": {
+                    "license": {
+                        "$ref": "#/$defs/slug"
+                    },
+                    "since": {
+                        "$ref": "#/$defs/partialDate"
+                    }
+                }
+            }
+        },
+        "status_notes": {
+            "description": "Cambios de estado con fecha y fuente, como una revocación anunciada o retirada",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "date",
+                    "text",
+                    "source"
+                ],
+                "properties": {
+                    "date": {
+                        "$ref": "#/$defs/partialDate"
+                    },
+                    "text": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+                    "source": {
+                        "type": "string",
+                        "format": "uri"
+                    }
+                }
+            }
+        }
+    },
+    "if": {
+        "not": {
+            "properties": {
+                "kind": {
+                    "const": "reference_document"
+                }
+            }
+        }
+    },
+    "then": {
+        "not": {
+            "required": [
+                "published_under"
+            ]
+        }
+    },
+    "$defs": {
+        "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "partialDate": {
+            "type": "string",
+            "pattern": "^\\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?$"
+        },
+        "link": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "label",
+                "url"
+            ],
+            "properties": {
+                "label": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
+        }
+    }
+}

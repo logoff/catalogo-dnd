@@ -7,8 +7,9 @@ para trabajar con el código de este repositorio.
 
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
 para las ediciones 5E (2014) y 5.5E (2024), de todos los videojuegos
-oficiales de D&D, del merchandising con licencia y de las novelas
-oficiales. Se despliega en Cloudflare Pages en
+oficiales de D&D, del merchandising con licencia, de las novelas
+oficiales y de otros juegos de rol de la familia de D&D con sus licencias
+abiertas (sección separada de lo oficial). Se despliega en Cloudflare Pages en
 <https://catalogodnd.es/>.
 
 ## Comandos
@@ -156,14 +157,38 @@ novelas en castellano se generan desde el índice; el orden de cada una
 está en `data/novels/reading-orders.json` (series enteras o novelas
 sueltas).
 
+**Otros juegos de rol:** juegos de la familia de D&D que no son de
+Wizards (los que derivan de D&D o usan sus licencias abiertas, y grandes
+de fantasía como Daggerheart) y libros de otras editoriales para 5E,
+claramente separados de lo oficial. Tres tipos de ficha en `data/rol/`:
+licencias (`licenses/<slug>.json`, esquema `license.jsonschema`),
+sistemas, una ficha por edición de un juego, con sus licencias y sus
+derivaciones tipadas (`systems/<slug>.json`, `rpg-system.jsonschema`) y
+libros con sus ediciones en inglés y en castellano
+(`books/<sistema>/<slug>.json`, `rpg-book.jsonschema`). Entra todo lo
+publicado en castellano y, de lo que solo está en inglés, los libros
+principales (`core`) de los sistemas grandes y el catálogo de las
+editoriales destacadas (`FEATURED_PUBLISHERS` en `src/utils/rpg.ts`).
+Los sistemas de D&D tienen ficha mínima que enlaza al catálogo oficial
+(`official_catalog`). Como en novelas, un plugin de `vite.config.ts`
+genera `virtual:rpg-index` (licencias, sistemas y resumen de los libros)
+y `virtual:rpg-stats` (recuentos para la portada); cada libro es un trozo
+aparte y las páginas leen de la caché de `rpgLoader.ts` (`useRpgIndex`,
+`useRpgBook`). `data/rol/inventory.md` es la lista maestra (un test exige
+que cada ficha esté en ella y al revés). Para dar de alta, usar la skill
+`add-rpg`.
+
 **Rutas:** `/catalogo` (catálogo completo), `/2014` y `/2024` (páginas
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
 de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandising`
 (listado), `/merchandising/:slug` (ficha), `/novelas` (listado, con
-`?mundo=` y `?serie=`) y `/novela/:slug` (ficha).
+`?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/rol` (otros juegos de
+rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/licencias` y
+`/licencia/:slug`.
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
-cada tienda (Amazon, Adtraction, Awin, Instant Gaming); los JSON guardan
+cada tienda (Amazon, Adtraction, Awin, Instant Gaming; NoSoloRol solo en
+otros juegos de rol); los JSON guardan
 siempre la URL limpia y los IDs llegan por variables `VITE_AFFILIATE_*`
 (ver README).
 

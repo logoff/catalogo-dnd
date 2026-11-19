@@ -88,6 +88,15 @@ export const STORES: Record<Store, StoreConfig> = {
       env.VITE_AFFILIATE_AWIN_PUBLISHER
     ),
   },
+  // Tienda de la editorial Nosolorol, que vende también rol de otras editoriales: solo en la
+  // sección de otros juegos de rol
+  nosolorol: {
+    label: 'NoSoloRol',
+    affiliate: adtractionAffiliate(
+      env.VITE_AFFILIATE_NOSOLOROL_PROGRAM,
+      env.VITE_AFFILIATE_ADTRACTION_CHANNEL
+    ),
+  },
   // Suscripción de ebooks y audiolibros: solo para las novelas que tiene en su catálogo
   nextory: {
     label: 'Nextory',

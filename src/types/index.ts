@@ -39,6 +39,7 @@ export type Store =
   | 'fanatical'
   | 'casa_del_libro'
   | 'nextory'
+  | 'nosolorol'
 
 export interface PurchaseLink {
   store: Store

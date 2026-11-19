@@ -1,0 +1,220 @@
+import { Link, useParams } from 'react-router-dom'
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
+import MetaTags from '@/components/seo/MetaTags'
+import Badge from '@/components/ui/Badge'
+import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
+import { buttonClass, cardClass } from '@/components/ui/styles'
+import { BookList, RpgLoading, RpgPage, UnofficialNotice } from '@/components/rpg/RpgSection'
+import { useRpgIndex } from '@/hooks/useRpgData'
+import type { Derivation, RpgSystem } from '@/types/rpg'
+import { derivedSystems, familyOf } from '@/utils/rpg'
+import { derivationKindNames, licenseLabel } from '@/utils/rpgTranslations'
+import { formatPartialDate } from '@/utils/videogameTranslations'
+import NotFoundPage from './NotFoundPage'
+
+function DerivationItem({
+  system,
+  derivation,
+  viaName,
+}: {
+  system: RpgSystem | undefined
+  derivation: Derivation
+  viaName?: string
+}) {
+  return (
+    <li className="max-w-3xl">
+      <p>
+        {system ? (
+          <Link
+            to={`/rol/${system.slug}`}
+            className="font-medium text-fg underline underline-offset-2 hover:text-accent"
+          >
+            {system.name}
+          </Link>
+        ) : (
+          derivation.system
+        )}{' '}
+        <Badge variant="outline">{derivationKindNames[derivation.kind]}</Badge>
+        {viaName && <span className="text-sm text-muted"> · a través de {viaName}</span>}
+      </p>
+      {derivation.note && <p className="text-sm text-muted">{derivation.note}</p>}
+    </li>
+  )
+}
+
+export default function RpgSystemPage() {
+  const { system: slug = '' } = useParams<{ system: string }>()
+  const index = useRpgIndex()
+  if (!index) return <RpgLoading what="el sistema" />
+
+  const system = index.systems.find((s) => s.slug === slug)
+  if (!system) return <NotFoundPage />
+
+  const findSystem = (s: string) => index.systems.find((other) => other.slug === s)
+  const findLicense = (l: string) => index.licenses.find((other) => other.slug === l)
+  const parents = system.derived_from ?? []
+  const children = derivedSystems(index.systems, system.slug)
+  const family = familyOf(index.systems, system)
+  const books = index.books.filter((book) => book.system === system.slug)
+  const paragraphs = system.description.split('\n\n')
+  const official = Boolean(system.official_catalog)
+
+  return (
+    <>
+      <MetaTags title={system.name} description={paragraphs[0]} />
+      <RpgPage crumbs={[{ label: system.name }]}>
+        {!official && <UnofficialNotice />}
+
+        <div className="mb-8 flex max-w-3xl flex-col gap-3">
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{system.name}</h1>
+          <p className="text-muted">
+            {system.publisher} · {formatPartialDate(system.date)}
+          </p>
+          {paragraphs.map((paragraph) => (
+            <p key={paragraph} className="text-base leading-relaxed text-fg">
+              {paragraph}
+            </p>
+          ))}
+          {system.official_catalog && (
+            <p>
+              <Link to={system.official_catalog} className={buttonClass('primary')}>
+                Ver sus libros oficiales en el catálogo
+              </Link>
+            </p>
+          )}
+        </div>
+
+        <div className="space-y-10">
+          <DetailSection title="Características">
+            <ul className="max-w-3xl list-disc space-y-1 pl-6 text-fg">
+              {system.features.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
+            </ul>
+          </DetailSection>
+
+          <DetailSection title="Licencias abiertas">
+            {system.licenses.length > 0 ? (
+              <DataList>
+                {system.licenses.map((use) => {
+                  const license = findLicense(use.license)
+                  return (
+                    <DataRow
+                      key={use.license}
+                      label={use.since ? `Desde ${use.since}` : 'Licencia'}
+                      value={
+                        <>
+                          <Link
+                            to={`/licencia/${use.license}`}
+                            className="text-fg underline underline-offset-2 hover:text-accent"
+                          >
+                            {license ? license.name : use.license}
+                          </Link>
+                          {use.note && <span className="text-muted"> · {use.note}</span>}
+                        </>
+                      }
+                    />
+                  )
+                })}
+              </DataList>
+            ) : (
+              <p className="text-fg">No tiene licencia abierta.</p>
+            )}
+          </DetailSection>
+
+          {(parents.length > 0 || children.length > 0) && (
+            <DetailSection title="Derivaciones">
+              {parents.length > 0 && (
+                <>
+                  <h3 className="mb-2 text-sm font-semibold">Deriva de</h3>
+                  <ul className="mb-6 space-y-3">
+                    {parents.map((derivation) => {
+                      const via = derivation.via_license && findLicense(derivation.via_license)
+                      return (
+                        <DerivationItem
+                          key={derivation.system}
+                          system={findSystem(derivation.system)}
+                          derivation={derivation}
+                          viaName={via ? licenseLabel(via) : derivation.via_license}
+                        />
+                      )
+                    })}
+                  </ul>
+                </>
+              )}
+              {children.length > 0 && (
+                <>
+                  <h3 className="mb-2 text-sm font-semibold">Derivan de él</h3>
+                  <ul className="space-y-3">
+                    {children.map(({ system: child, derivation }) => {
+                      const via = derivation.via_license && findLicense(derivation.via_license)
+                      return (
+                        <DerivationItem
+                          key={child.slug}
+                          system={child}
+                          derivation={derivation}
+                          viaName={via ? licenseLabel(via) : derivation.via_license}
+                        />
+                      )
+                    })}
+                  </ul>
+                </>
+              )}
+            </DetailSection>
+          )}
+
+          {family.length > 0 && (
+            <DetailSection title="Otras ediciones">
+              <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {family.map((other) => (
+                  <li key={other.slug}>
+                    <Link to={`/rol/${other.slug}`} className={cardClass(true, 'h-full p-4')}>
+                      <span className="text-lg font-medium text-fg">{other.name}</span>
+                      <span className="text-sm text-muted">
+                        {other.publisher} · {other.date.slice(0, 4)}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </DetailSection>
+          )}
+
+          {!official && (
+            <DetailSection title="Libros">
+              {books.length > 0 ? (
+                <BookList books={books} systems={index.systems} />
+              ) : (
+                <p className="text-muted">Todavía no hay libros de este sistema en el catálogo.</p>
+              )}
+            </DetailSection>
+          )}
+
+          {official && books.length > 0 && (
+            <DetailSection title="Libros de otras editoriales">
+              <BookList books={books} systems={index.systems} />
+            </DetailSection>
+          )}
+
+          <DetailSection title="Enlaces">
+            <ul className="space-y-2">
+              {system.links.map((link) => (
+                <li key={link.url}>
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-fg underline underline-offset-2 hover:text-accent"
+                  >
+                    {link.label}
+                    <ArrowTopRightOnSquareIcon className="size-3.5 opacity-70" aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </DetailSection>
+        </div>
+      </RpgPage>
+    </>
+  )
+}

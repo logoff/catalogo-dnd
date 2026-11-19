@@ -7,6 +7,8 @@ import HomePage from './HomePage'
 import { useProductStore } from '@/store/productStore'
 import { getAllMerchandise } from '@/services/merchandiseLoader'
 import novelsLatest from 'virtual:novels-latest'
+import rpgStats from 'virtual:rpg-stats'
+import rpgIndex from 'virtual:rpg-index'
 
 describe('acceso a los videojuegos', () => {
   it('la portada enlaza a la sección y muestra los últimos juegos', () => {
@@ -140,5 +142,38 @@ describe('portada', () => {
           .some((l) => l.getAttribute('href') === href)
       ).toBe(true)
     }
+  })
+})
+
+describe('acceso a otros juegos de rol', () => {
+  it('la portada enlaza a la sección con el número de sistemas y de libros', () => {
+    render(
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>
+    )
+    const card = screen.getByRole('link', { name: /Otros juegos de rol/ })
+    expect(card).toHaveAttribute('href', '/rol')
+    expect(card).toHaveTextContent(`otros ${rpgStats.systems} sistemas`)
+    expect(within(card).getByText(String(rpgStats.books))).toBeInTheDocument()
+  })
+
+  it('la cabecera enlaza a la sección', () => {
+    render(
+      <MemoryRouter>
+        <Header />
+      </MemoryRouter>
+    )
+    expect(screen.getAllByRole('link', { name: 'Otros juegos de rol' })[0]).toHaveAttribute(
+      'href',
+      '/rol'
+    )
+  })
+
+  it('el buscador de la cabecera no muestra libros de la sección', () => {
+    // El buscador filtra el store de productos, que no incluye los libros de la sección
+    const productTitles = useProductStore.getState().products.map((p) => p.primaryTitle)
+    const rpgTitles = rpgIndex.books.map((book) => book.title)
+    expect(productTitles.filter((title) => rpgTitles.includes(title))).toEqual([])
   })
 })

@@ -47,4 +47,19 @@ describe('LegalPage', () => {
       'para identificar cada obra y cada edición'
     )
   })
+
+  it('dice que otros juegos de rol no es oficial, cita a sus editoriales y a NoSoloRol', () => {
+    render(
+      <MemoryRouter>
+        <LegalPage />
+      </MemoryRouter>
+    )
+    expect(screen.getByText(/reúne juegos y libros de otras editoriales/)).toHaveTextContent(
+      'No es contenido oficial de Dungeons & Dragons'
+    )
+    expect(screen.getByText(/juegos y libros de la sección/)).toHaveTextContent(
+      'Paizo, Kobold Press'
+    )
+    expect(screen.getByText(/se enlaza también a NoSoloRol/)).toBeInTheDocument()
+  })
 })
