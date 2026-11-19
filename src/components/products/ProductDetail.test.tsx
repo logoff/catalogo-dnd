@@ -4,6 +4,7 @@ import { MemoryRouter } from 'react-router-dom'
 import type { ReactElement } from 'react'
 import type { ProductWithMeta, Publication } from '@/types'
 import ProductDetail from './ProductDetail'
+import { expectAffiliateNotices } from '@/test/affiliate'
 
 const publication: Publication = {
   type: 'book',
@@ -31,6 +32,7 @@ describe('ProductDetail', () => {
   it('sin enlaces de compra no muestra la sección Dónde comprar', () => {
     render(<ProductDetail product={product(publication)} />)
     expect(screen.queryByText('Dónde comprar')).not.toBeInTheDocument()
+    expect(screen.queryByText(/son de afiliado/)).not.toBeInTheDocument()
     expect(screen.getByText('Enlaces externos')).toBeInTheDocument()
   })
 
@@ -48,6 +50,7 @@ describe('ProductDetail', () => {
     )
 
     expect(screen.getByText('Dónde comprar')).toBeInTheDocument()
+    expectAffiliateNotices()
     const amazon = screen.getByRole('link', { name: 'Comprar en Amazon' })
     expect(amazon).toHaveAttribute('href', 'https://www.amazon.es/dp/0786965606')
     expect(amazon).toHaveAttribute('rel', 'sponsored noopener noreferrer')

@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import {
   GlobeAltIcon,
   BookOpenIcon,
@@ -14,6 +13,7 @@ import { formatDate, formatISBN } from '@/utils/formatters'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
+import PurchaseLinks from '../common/PurchaseLinks'
 import { buttonClass } from '@/components/ui/styles'
 
 interface ProductDetailProps {
@@ -125,27 +125,23 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
           {purchaseLinks.length > 0 && (
             <div>
               <p className="mb-1 text-sm font-semibold">Dónde comprar</p>
-              <p className="mb-3 text-xs text-muted">
-                Enlaces de afiliado: el catálogo puede recibir una comisión sin coste para ti.{' '}
-                <Link to="/aviso-legal" className="underline underline-offset-2 hover:text-fg">
-                  Más información
-                </Link>
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {purchaseLinks.map((link, index) => (
-                  <PurchaseButton
-                    key={link.url}
-                    store={link.store}
-                    url={link.url}
-                    primary={index === 0}
-                    tracking={{
-                      producto: `${product.primaryEdition === '5e' ? '2014' : '2024'}/${product.code}`,
-                      publicacion: publication.title,
-                      idioma: publication.language,
-                    }}
-                  />
-                ))}
-              </div>
+              <PurchaseLinks>
+                <div className="flex flex-wrap gap-2">
+                  {purchaseLinks.map((link, index) => (
+                    <PurchaseButton
+                      key={link.url}
+                      store={link.store}
+                      url={link.url}
+                      primary={index === 0}
+                      tracking={{
+                        producto: `${product.primaryEdition === '5e' ? '2014' : '2024'}/${product.code}`,
+                        publicacion: publication.title,
+                        idioma: publication.language,
+                      }}
+                    />
+                  ))}
+                </div>
+              </PurchaseLinks>
             </div>
           )}
 

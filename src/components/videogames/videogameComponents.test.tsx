@@ -12,6 +12,7 @@ import { PLATFORMS_WITH_LOGO } from '@/utils/platformLogos'
 import logoSourcesRaw from '/public/images/platforms/sources.json?raw'
 import type { Platform, ScreenshotWithMeta, VideoWithMeta } from '@/types/videogame'
 import { describeSpanish, formatPartialDate, platformNames } from '@/utils/videogameTranslations'
+import { expectAffiliateNotices } from '@/test/affiliate'
 
 describe('SpanishBadge', () => {
   it.each([
@@ -191,6 +192,7 @@ describe('PurchaseByPlatform', () => {
     expect(link).toHaveAttribute('data-umami-event-videojuego', 'juego')
     expect(link).toHaveAttribute('data-umami-event-plataforma', 'pc_windows')
     expect(link).toHaveAttribute('data-umami-event-url', 'https://www.gog.com/en/game/juego')
+    expectAffiliateNotices()
   })
 
   it('muestra la versión y su año encima de los botones, no pegados a ellos', () => {

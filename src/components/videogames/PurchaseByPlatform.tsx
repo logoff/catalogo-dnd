@@ -5,6 +5,7 @@ import { getBundle, getBundleRelease, getVideogameBySlug } from '@/services/vide
 import { STORES } from '@/utils/stores'
 import { describeSpanish, platformNames } from '@/utils/videogameTranslations'
 import PurchaseButton from '../common/PurchaseButton'
+import PurchaseLinks from '../common/PurchaseLinks'
 import PlatformIcon from './PlatformIcon'
 
 interface PurchaseByPlatformProps {
@@ -147,38 +148,34 @@ export default function PurchaseByPlatform({ slug, releases }: PurchaseByPlatfor
   }
 
   return (
-    <div className="space-y-6">
-      <p className="text-xs text-muted">
-        Algunos enlaces son de afiliado: el catálogo puede recibir una comisión sin coste para ti.{' '}
-        <Link to="/aviso-legal" className="underline underline-offset-2 hover:text-fg">
-          Más información
-        </Link>
-      </p>
-      {[...groups.entries()].map(([platform, offers], groupIndex) => (
-        <section key={platform} aria-label={platformNames[platform]} className="space-y-3">
-          <h3 className="flex items-center gap-2 text-sm font-semibold">
-            <PlatformIcon platform={platform} size="md" className="text-fg" />
-            {platformNames[platform]}
-          </h3>
-          {offers.map((offer, index) =>
-            offer.bundleId ? (
-              <BundleOffer
-                key={index}
-                offer={offer}
-                slug={slug}
-                primary={groupIndex === 0 && index === 0}
-              />
-            ) : (
-              <ReleaseOffer
-                key={index}
-                offer={offer}
-                slug={slug}
-                primary={groupIndex === 0 && index === 0}
-              />
-            )
-          )}
-        </section>
-      ))}
-    </div>
+    <PurchaseLinks>
+      <div className="space-y-6">
+        {[...groups.entries()].map(([platform, offers], groupIndex) => (
+          <section key={platform} aria-label={platformNames[platform]} className="space-y-3">
+            <h3 className="flex items-center gap-2 text-sm font-semibold">
+              <PlatformIcon platform={platform} size="md" className="text-fg" />
+              {platformNames[platform]}
+            </h3>
+            {offers.map((offer, index) =>
+              offer.bundleId ? (
+                <BundleOffer
+                  key={index}
+                  offer={offer}
+                  slug={slug}
+                  primary={groupIndex === 0 && index === 0}
+                />
+              ) : (
+                <ReleaseOffer
+                  key={index}
+                  offer={offer}
+                  slug={slug}
+                  primary={groupIndex === 0 && index === 0}
+                />
+              )
+            )}
+          </section>
+        ))}
+      </div>
+    </PurchaseLinks>
   )
 }

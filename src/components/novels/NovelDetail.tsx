@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowLeftIcon, ArrowRightIcon, GlobeAltIcon } from '@heroicons/react/24/outline'
 import type {
@@ -26,6 +26,7 @@ import SectionNav from '@/components/ui/SectionNav'
 import ImageLightbox from '../common/ImageLightbox'
 import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
+import PurchaseLinks from '../common/PurchaseLinks'
 import MediaReviews from '../common/MediaReviews'
 import NovelBestseller from './NovelBestseller'
 import NovelSpanishBadge from './NovelSpanishBadge'
@@ -218,9 +219,11 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
 
       <DetailSection title="Ediciones en castellano">
         {spanishEditions.length > 0 ? (
-          <ul className="space-y-5">
-            {spanishEditions.map((e, i) => renderEdition(e, `es-${i}`, i === 0))}
-          </ul>
+          <ForSale editions={spanishEditions}>
+            <ul className="space-y-5">
+              {spanishEditions.map((e, i) => renderEdition(e, `es-${i}`, i === 0))}
+            </ul>
+          </ForSale>
         ) : (
           <p className="text-fg">
             {spanishCollections.length > 0
@@ -231,23 +234,29 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
       </DetailSection>
 
       <DetailSection title="Ediciones en inglés">
-        <ul className="space-y-5">{englishEditions.map((e, i) => renderEdition(e, `en-${i}`))}</ul>
+        <ForSale editions={englishEditions}>
+          <ul className="space-y-5">
+            {englishEditions.map((e, i) => renderEdition(e, `en-${i}`))}
+          </ul>
+        </ForSale>
       </DetailSection>
 
       {collections.length > 0 && (
         <DetailSection title="Recopilatorios">
-          <ul className="space-y-5">
-            {collections.map((c, i) => (
-              <EditionRow
-                key={i}
-                edition={c}
-                fallbackTitle={c.title}
-                slug={novel.slug}
-                onOpenCover={openCover}
-                note={`Incluye ${c.novels.length} novelas`}
-              />
-            ))}
-          </ul>
+          <ForSale editions={collections}>
+            <ul className="space-y-5">
+              {collections.map((c, i) => (
+                <EditionRow
+                  key={i}
+                  edition={c}
+                  fallbackTitle={c.title}
+                  slug={novel.slug}
+                  onOpenCover={openCover}
+                  note={`Incluye ${c.novels.length} novelas`}
+                />
+              ))}
+            </ul>
+          </ForSale>
         </DetailSection>
       )}
 
@@ -256,50 +265,52 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
           <p className="mb-5 text-sm text-muted">
             Libros de relatos de varios autores relacionados con esta novela o su serie.
           </p>
-          <ul className="space-y-8">
-            {anthologies.map((anthology) => (
-              <li key={anthology.id} className="space-y-3">
-                <div>
-                  <h3 className="text-xl text-fg">{anthology.title_es ?? anthology.title}</h3>
-                  {anthology.title_es && anthology.title_es !== anthology.title && (
-                    <p className="text-sm text-muted">{anthology.title}</p>
+          <ForSale editions={anthologies.flatMap((a) => [...a.shown, ...a.folded])}>
+            <ul className="space-y-8">
+              {anthologies.map((anthology) => (
+                <li key={anthology.id} className="space-y-3">
+                  <div>
+                    <h3 className="text-xl text-fg">{anthology.title_es ?? anthology.title}</h3>
+                    {anthology.title_es && anthology.title_es !== anthology.title && (
+                      <p className="text-sm text-muted">{anthology.title}</p>
+                    )}
+                  </div>
+                  <p className="max-w-3xl text-fg">{anthology.description.split(/\n\s*\n/)[0]}</p>
+                  <ul className="space-y-5">
+                    {anthology.shown.map((e, i) => (
+                      <EditionRow
+                        key={i}
+                        edition={e}
+                        fallbackTitle={anthology.title}
+                        slug={novel.slug}
+                        onOpenCover={openCover}
+                      />
+                    ))}
+                  </ul>
+                  {anthology.folded.length > 0 && (
+                    <details className="group">
+                      <summary className="cursor-pointer text-sm text-muted hover:text-fg">
+                        {anthology.folded.length === 1
+                          ? 'Otra edición'
+                          : `Otras ${anthology.folded.length} ediciones`}
+                      </summary>
+                      <ul className="mt-4 space-y-5">
+                        {anthology.folded.map((e, i) => (
+                          <EditionRow
+                            key={i}
+                            edition={e}
+                            fallbackTitle={anthology.title}
+                            slug={novel.slug}
+                            onOpenCover={openCover}
+                          />
+                        ))}
+                      </ul>
+                    </details>
                   )}
-                </div>
-                <p className="max-w-3xl text-fg">{anthology.description.split(/\n\s*\n/)[0]}</p>
-                <ul className="space-y-5">
-                  {anthology.shown.map((e, i) => (
-                    <EditionRow
-                      key={i}
-                      edition={e}
-                      fallbackTitle={anthology.title}
-                      slug={novel.slug}
-                      onOpenCover={openCover}
-                    />
-                  ))}
-                </ul>
-                {anthology.folded.length > 0 && (
-                  <details className="group">
-                    <summary className="cursor-pointer text-sm text-muted hover:text-fg">
-                      {anthology.folded.length === 1
-                        ? 'Otra edición'
-                        : `Otras ${anthology.folded.length} ediciones`}
-                    </summary>
-                    <ul className="mt-4 space-y-5">
-                      {anthology.folded.map((e, i) => (
-                        <EditionRow
-                          key={i}
-                          edition={e}
-                          fallbackTitle={anthology.title}
-                          slug={novel.slug}
-                          onOpenCover={openCover}
-                        />
-                      ))}
-                    </ul>
-                  </details>
-                )}
-              </li>
-            ))}
-          </ul>
+                </li>
+              ))}
+            </ul>
+          </ForSale>
         </DetailSection>
       )}
 
@@ -490,6 +501,21 @@ function EditionRow({
         )}
       </div>
     </li>
+  )
+}
+
+// Aviso de afiliado sobre un grupo de ediciones, solo si alguna tiene enlaces de compra
+function ForSale({
+  editions,
+  children,
+}: {
+  editions: { purchase_links?: unknown[] }[]
+  children: ReactNode
+}) {
+  return editions.some((e) => (e.purchase_links ?? []).length > 0) ? (
+    <PurchaseLinks>{children}</PurchaseLinks>
+  ) : (
+    <>{children}</>
   )
 }
 
