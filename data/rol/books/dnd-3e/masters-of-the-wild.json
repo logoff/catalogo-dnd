@@ -1,0 +1,26 @@
+{
+  "slug": "masters-of-the-wild",
+  "system": "dnd-3e",
+  "title": "Masters of the Wild",
+  "kind": "supplement",
+  "description": "La guía de bárbaros, druidas y exploradores: clases de prestigio, dotes, conjuros, formas salvajes, compañeros animales y consejos para personajes ligados a la naturaleza.\n\nCierra la serie de guías de clase de la 3.ª edición. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118233212/http://www.wizards.com:80/default.asp?x=products/dndacc/881640000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-02",
+      "format": "paperback",
+      "isbn13": 9780786926534,
+      "cover": "/images/rol/masters-of-the-wild/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Señores de lo Salvaje",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712172,
+      "source": "https://www.todostuslibros.com/libros/senores-de-lo-salvaje_978-84-95712-17-2"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "enemies-and-allies",
+  "system": "dnd-3e",
+  "title": "Enemies and Allies",
+  "kind": "supplement",
+  "description": "Una colección de personajes no jugadores listos para usar, de todas las clases y niveles, con sus perfiles completos y algunos personajes famosos de D&D, para que el Dungeon Master tenga aliados y enemigos a mano.\n\nSolo salió en inglés.",
+  "source": "https://web.archive.org/web/20030704155812/http://wizards.com:80/default.asp?x=products/dndacc/882430000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-10",
+      "format": "paperback",
+      "isbn13": 9780786918522,
+      "cover": "/images/rol/enemies-and-allies/english.webp"
+    }
+  ]
+}

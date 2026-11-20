@@ -1,0 +1,25 @@
+{
+  "slug": "faiths-and-pantheons",
+  "system": "dnd-3e",
+  "title": "Faiths and Pantheons",
+  "kind": "setting",
+  "description": "Los dioses de los Reinos Olvidados: los panteones de Faerûn, sus iglesias, sus clérigos y sus fieles, con dominios, conjuros, clases de prestigio y objetos sagrados.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Faiths_and_Pantheons",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-05",
+      "isbn13": 9780786927593,
+      "cover": "/images/rol/faiths-and-pantheons/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Fes y Panteones",
+      "publisher": "Devir",
+      "date": "2003",
+      "isbn13": 9788495712660,
+      "source": "https://www.todostuslibros.com/libros/fes-y-panteones_978-84-95712-66-0"
+    }
+  ]
+}

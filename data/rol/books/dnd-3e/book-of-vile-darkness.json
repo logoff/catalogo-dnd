@@ -1,0 +1,26 @@
+{
+  "slug": "book-of-vile-darkness",
+  "system": "dnd-3e",
+  "title": "Book of Vile Darkness",
+  "kind": "supplement",
+  "description": "Una mirada a fondo a la naturaleza del mal en D&D: villanos, cultos, pactos, señores demoníacos y archidiablos, dotes y conjuros malignos y clases de prestigio, sobre todo para que el Dungeon Master cree enemigos memorables.\n\nFue el primer libro de D&D con el aviso de contenido para adultos. Su contrapunto es el Book of Exalted Deeds. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118230727/http://www.wizards.com:80/default.asp?x=products/dndacc/881610000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-10",
+      "format": "hardcover",
+      "isbn13": 9780786926503,
+      "cover": "/images/rol/book-of-vile-darkness/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Libro de Oscuridad Vil",
+      "publisher": "Devir",
+      "date": "2003",
+      "isbn13": 9788495712806,
+      "source": "https://www.todostuslibros.com/libros/libro-de-oscuridad-vil_978-84-95712-80-6"
+    }
+  ]
+}

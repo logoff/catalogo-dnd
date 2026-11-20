@@ -1,0 +1,26 @@
+{
+  "slug": "deities-and-demigods-3e",
+  "system": "dnd-3e",
+  "title": "Deities and Demigods",
+  "kind": "supplement",
+  "description": "Los dioses en la 3.ª edición: reglas de rango divino y poderes divinos, cómo crear panteones y religiones, perfiles de los dioses del Manual del Jugador y de los panteones griego, egipcio y nórdico, y consejos para campañas con dioses.\n\nComparte título con un libro de AD&D de 1980. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118233833/http://www.wizards.com:80/default.asp?x=products/dndacc/881650000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-04",
+      "format": "hardcover",
+      "isbn13": 9780786926541,
+      "cover": "/images/rol/deities-and-demigods-3e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Dioses y Semidioses",
+      "publisher": "Devir",
+      "date": "2003",
+      "isbn13": 9788495712639,
+      "source": "https://www.todostuslibros.com/libros/dioses-y-semidioses_978-84-95712-63-9"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "fiend-folio-3e",
+  "system": "dnd-3e",
+  "title": "Fiend Folio",
+  "kind": "supplement",
+  "description": "Un bestiario de criaturas extrañas y malignas, demonios, diablos y monstruos de otros planos entre ellos, con plantillas, clases de prestigio para enemigos y criaturas para todos los niveles.\n\nToma el nombre de un bestiario de AD&D de 1981. Salió poco antes de la revisión 3.5 y es compatible con ella. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118111649/http://www.wizards.com:80/default.asp?x=products/dndacc/886610000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-04",
+      "format": "hardcover",
+      "isbn13": 9780786927807,
+      "cover": "/images/rol/fiend-folio-3e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manuscrito Infernal",
+      "publisher": "Devir",
+      "date": "2003-12",
+      "isbn13": 9788496262089,
+      "source": "https://www.todostuslibros.com/libros/manuscrito-infernal_978-84-96262-08-9"
+    }
+  ]
+}

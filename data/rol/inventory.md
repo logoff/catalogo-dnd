@@ -396,11 +396,14 @@ el catálogo archivado de Devir, con la ficha de
 librerías). Fecha e ISBN de la edición en inglés
 según Wikipedia, por confirmar con la página archivada de wizards.com.
 
-Libros de Devir que no entran en esta tanda: los de 3.0 (suplementos, Reinos
-Olvidados 3.0, _Manuscrito Infernal_ (Fiend Folio), _La Ciudad de la Reina Araña_, _El Este Inaccesible_), que irán
-con el resto de la 3.ª edición; _La Montaña del Penacho Blanco_ y _La Fortaleza
-de la Frontera_ (por confirmar qué son), y los de Dragonlance de Sovereign
-Press.
+Libros de Devir que no entran: _La Montaña del Penacho Blanco_ y _La Fortaleza
+de la Frontera_ (por confirmar qué son), _El templo del mal elemental_ (novela
+de Greyhawk) y los de Dragonlance de Sovereign Press. Libros de 3.ª edición
+según la [lista de libros de reglas](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks),
+la de [Reinos Olvidados](https://en.wikipedia.org/wiki/List_of_Forgotten_Realms_modules_and_sourcebooks)
+y la de [aventuras](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_adventures)
+de Wikipedia; fuera material con licencia de otras editoriales (Kalamar de
+Kenzerco, Ravenloft de Arthaus) y los Map Folio.
 
 ### Básicos de 3.ª edición
 
@@ -409,6 +412,64 @@ Press.
 | 1   | Player's Handbook      | Manual del Jugador      | básico | 2000-07 | 0-7869-1550-1 | sí    | players-handbook-3e      |      |
 | 2   | Dungeon Master's Guide | Guía del Dungeon Master | básico | 2000-09 | 0-7869-1551-X | sí    | dungeon-masters-guide-3e |      |
 | 3   | Monster Manual         | Manual de Monstruos     | básico | 2000-10 | 0-7869-1552-8 | sí    | monster-manual-3e        |      |
+
+### Suplementos de 3.ª edición
+
+| #   | Título original                                       | Título en castellano       | Tipo           | Fecha   | ISBN          | Devir     | Ficha                         | Nota |
+| --- | ----------------------------------------------------- | -------------------------- | -------------- | ------- | ------------- | --------- | ----------------------------- | ---- |
+| 1   | Hero Builder's Guidebook                              | Guía del Creador de Héroes | suplemento     | 2000-12 | 0-7869-1647-8 | sí        | hero-builders-guidebook       |      |
+| 2   | Sword and Fist                                        | Puño y Espada              | suplemento     | 2001-01 | 0-7869-1829-2 | sí        | sword-and-fist                |      |
+| 3   | Psionics Handbook                                     | Manual de Psiónica         | suplemento     | 2001-03 | 0-7869-1835-7 | sí        | psionics-handbook             |      |
+| 4   | Defenders of the Faith                                | Defensores de la Fe        | suplemento     | 2001-05 | 0-7869-1840-3 | sí        | defenders-of-the-faith        |      |
+| 5   | Tome and Blood                                        | Tomo y Sangre              | suplemento     | 2001-07 | 0-7869-1845-4 | sí        | tome-and-blood                |      |
+| 6   | Song and Silence                                      | Canción y Silencio         | suplemento     | 2001-12 | 0-7869-1857-8 | sí        | song-and-silence              |      |
+| 7   | Masters of the Wild                                   | Señores de lo Salvaje      | suplemento     | 2002-02 | 0-7869-2653-8 | sí        | masters-of-the-wild           |      |
+| 8   | Savage Species                                        | Especies Salvajes          | suplemento     | 2003-02 | 0-7869-2648-1 | sí        | savage-species                |      |
+| 9   | Enemies and Allies                                    | —                          | suplemento     | 2001-10 | 0-7869-1852-7 | no consta | enemies-and-allies            |      |
+| 10  | Deities and Demigods                                  | Dioses y Semidioses        | suplemento     | 2002-04 | 0-7869-2654-6 | sí        | deities-and-demigods-3e       |      |
+| 11  | Monster Manual II                                     | Manual de Monstruos II     | suplemento     | 2002-09 | 0-7869-2873-5 | sí        | monster-manual-ii-3e          |      |
+| 12  | Fiend Folio                                           | Manuscrito Infernal        | suplemento     | 2003-04 | 0-7869-2780-1 | sí        | fiend-folio-3e                |      |
+| 13  | Epic Level Handbook                                   | —                          | suplemento     | 2002-07 | 0-7869-2658-9 | no consta | epic-level-handbook           |      |
+| 14  | Book of Vile Darkness                                 | Libro de Oscuridad Vil     | suplemento     | 2002-10 | 0-7869-2650-3 | sí        | book-of-vile-darkness         |      |
+| 15  | Oriental Adventures                                   | Aventuras Orientales       | ambientación   | 2001-10 | 0-7869-2015-7 | sí        | oriental-adventures-3e        |      |
+| 16  | Ghostwalk                                             | —                          | ambientación   | 2003-06 | 0-7869-2834-4 | no consta | ghostwalk                     |      |
+| 17  | Manual of the Planes                                  | Manual de los Planos       | suplemento     | 2001-09 | 0-7869-1850-0 | sí        | manual-of-the-planes-3e       |      |
+| 18  | Stronghold Builder's Guidebook                        | —                          | suplemento     | 2002-05 | 0-7869-2655-4 | no consta | stronghold-builders-guidebook |      |
+| 19  | Book of Challenges: Dungeon Rooms, Puzzles, and Traps | El Libro de los Desafíos   | suplemento     | 2002-06 | 0-7869-2657-0 | sí        | book-of-challenges            |      |
+| 20  | Arms and Equipment Guide                              | Guía de Armas y Equipo     | suplemento     | 2003-03 | 0-7869-2649-X | sí        | arms-and-equipment-guide      |      |
+| 21  | Dungeons & Dragons Adventure Game                     | —                          | caja de inicio | 2000-08 | 0-7869-1641-9 | no consta | adventure-game-2000           |      |
+
+### Greyhawk y Reinos Olvidados de 3.ª edición
+
+| #   | Título original                        | Título en castellano                   | Tipo         | Fecha   | ISBN          | Devir     | Ficha                                | Nota |
+| --- | -------------------------------------- | -------------------------------------- | ------------ | ------- | ------------- | --------- | ------------------------------------ | ---- |
+| 1   | Living Greyhawk Gazetteer              | —                                      | ambientación | 2000-11 | 0-7869-1743-1 | no consta | living-greyhawk-gazetteer            |      |
+| 2   | Dungeons & Dragons Gazetteer           | —                                      | ambientación | 2000-09 | 0-7869-1742-3 | no consta | dnd-gazetteer                        |      |
+| 3   | Forgotten Realms Campaign Setting      | Reinos Olvidados: Escenario de Campaña | ambientación | 2001-06 | 0-7869-1836-5 | sí        | forgotten-realms-campaign-setting-3e |      |
+| 4   | Magic of Faerûn                        | Magia de Faerûn                        | ambientación | 2001-08 | 0-7869-1964-7 | sí        | magic-of-faerun                      |      |
+| 5   | Monster Compendium: Monsters of Faerûn | Monstruos de Faerûn                    | ambientación | 2001-02 | 0-7869-1832-2 | sí        | monsters-of-faerun                   |      |
+| 6   | Lords of Darkness                      | Señores de la Oscuridad                | ambientación | 2001    | 0-7869-1989-2 | sí        | lords-of-darkness                    |      |
+| 7   | Faiths and Pantheons                   | Fes y Panteones                        | ambientación | 2002-05 | 0-7869-2759-3 | sí        | faiths-and-pantheons                 |      |
+| 8   | Silver Marches                         | —                                      | ambientación | 2002    | 0-7869-2835-2 | no consta | silver-marches                       |      |
+| 9   | Races of Faerûn                        | Razas de Faerûn                        | ambientación | 2003-03 | 0-7869-2875-1 | sí        | races-of-faerun                      |      |
+| 10  | Unapproachable East                    | El Este Inaccesible                    | ambientación | 2003-05 | 0-7869-2881-6 | sí        | unapproachable-east                  |      |
+
+### Aventuras de 3.ª edición
+
+| #   | Título original                          | Título en castellano                | Tipo     | Fecha   | ISBN          | Devir     | Ficha                                   | Nota |
+| --- | ---------------------------------------- | ----------------------------------- | -------- | ------- | ------------- | --------- | --------------------------------------- | ---- |
+| 1   | City of the Spider Queen                 | La Ciudad de la Reina Araña         | aventura | 2002-09 | 0-7869-2874-3 | sí        | city-of-the-spider-queen                |      |
+| 2   | Into the Dragon's Lair                   | —                                   | aventura | 2000-10 | 0-7869-1634-6 | no consta | into-the-dragons-lair                   |      |
+| 3   | Pool of Radiance: Attack on Myth Drannor | —                                   | aventura | 2001    | 0-7869-1710-5 | no consta | pool-of-radiance-attack-on-myth-drannor |      |
+| 4   | The Sunless Citadel                      | —                                   | aventura | 2000-09 | 0-7869-1640-0 | no consta | the-sunless-citadel                     |      |
+| 5   | The Forge of Fury                        | —                                   | aventura | 2000-11 | 0-7869-1644-3 | no consta | the-forge-of-fury                       |      |
+| 6   | The Speaker in Dreams                    | —                                   | aventura | 2001-01 | 0-7869-1830-6 | no consta | the-speaker-in-dreams                   |      |
+| 7   | The Standing Stone                       | —                                   | aventura | 2001-04 | 0-7869-1838-1 | no consta | the-standing-stone                      |      |
+| 8   | Heart of Nightfang Spire                 | —                                   | aventura | 2001-08 | 0-7869-1847-0 | no consta | heart-of-nightfang-spire                |      |
+| 9   | Deep Horizon                             | —                                   | aventura | 2001-11 | 0-7869-1855-1 | no consta | deep-horizon                            |      |
+| 10  | Lord of the Iron Fortress                | —                                   | aventura | 2002-01 | 0-7869-2652-X | no consta | lord-of-the-iron-fortress               |      |
+| 11  | Bastion of Broken Souls                  | —                                   | aventura | 2002-03 | 0-7869-2656-2 | no consta | bastion-of-broken-souls                 |      |
+| 12  | Return to the Temple of Elemental Evil   | Retorno al Templo del Mal Elemental | aventura | 2001-06 | 0-7869-1843-8 | sí        | return-to-the-temple-of-elemental-evil  |      |
 
 ### Básicos y cajas de inicio de 3.5
 

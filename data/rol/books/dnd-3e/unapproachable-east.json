@@ -1,0 +1,26 @@
+{
+  "slug": "unapproachable-east",
+  "system": "dnd-3e",
+  "title": "Unapproachable East",
+  "kind": "setting",
+  "description": "Las tierras del este de Faerûn, como Aglarond, Rashemen, Thay o Narfell: su historia, sus lugares y sus personajes, con razas, clases de prestigio, dotes, conjuros y monstruos de la región.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Unapproachable_East",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-05",
+      "isbn13": 9780786928811,
+      "cover": "/images/rol/unapproachable-east/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Este Inaccesible",
+      "publisher": "Devir",
+      "date": "2004-03",
+      "format": "hardcover",
+      "isbn13": 9788496262423,
+      "source": "https://www.todostuslibros.com/libros/el-este-inaccesible_978-84-96262-42-3"
+    }
+  ]
+}

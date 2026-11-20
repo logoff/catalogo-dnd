@@ -1,0 +1,25 @@
+{
+  "slug": "lords-of-darkness",
+  "system": "dnd-3e",
+  "title": "Lords of Darkness",
+  "kind": "setting",
+  "description": "Las organizaciones malvadas de los Reinos Olvidados, como los zhentarim, los magos rojos de Thay o el Culto del Dragón: su historia, sus miembros, sus planes y cómo usarlas como enemigos, con clases de prestigio y opciones de juego.\n\nComparte título con un suplemento de AD&D de 1988. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Lords_of_Darkness",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001",
+      "isbn13": 9780786919895,
+      "cover": "/images/rol/lords-of-darkness/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Señores de la Oscuridad",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712592,
+      "source": "https://www.todostuslibros.com/libros/senores-de-la-oscuridad_978-84-95712-59-2"
+    }
+  ]
+}
