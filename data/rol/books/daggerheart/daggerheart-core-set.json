@@ -12,10 +12,15 @@
       "publisher": "Darrington Press",
       "date": "2025-05-20",
       "format": "boxed_set",
+      "isbn13": 9798991384100,
       "purchase_links": [
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/B0DWLWMRK1/"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-daggerheart-core-set/9798991384100/18710304"
         }
       ]
     },
