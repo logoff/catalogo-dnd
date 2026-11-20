@@ -178,13 +178,25 @@ aparte y las páginas leen de la caché de `rpgLoader.ts` (`useRpgIndex`,
 que cada ficha esté en ella y al revés). Para dar de alta, usar la skill
 `add-rpg`.
 
+**Ediciones anteriores de D&D:** sección propia en `/ediciones`, fuera de
+«Otros juegos de rol», con el mismo modelo y los mismos datos de `data/rol/`:
+una edición es un sistema con `official: true` y sin `official_catalog`
+(`isDndEdition` en `src/utils/rpg.ts`, que con `systemPath` y `bookPath` da
+la URL de cada sistema y libro). Llevan todos los libros impresos de Wizards
+de la edición, aunque solo salieran en inglés, con su edición de Devir si la
+hubo, y nunca enlaces de compra (están descatalogados; un test lo exige y
+`just affiliate-coverage` no los revisa). Las fichas son `RpgSystemPage` y
+`RpgBookPage` con `section="ediciones"`; `/rol/dnd-3-5` redirige con
+`public/_redirects`.
+
 **Rutas:** `/catalogo` (catálogo completo), `/2014` y `/2024` (páginas
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
 de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandising`
 (listado), `/merchandising/:slug` (ficha), `/novelas` (listado, con
 `?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/rol` (otros juegos de
-rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/licencias` y
-`/licencia/:slug`.
+rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
+(ediciones anteriores de D&D), `/ediciones/:edicion` y
+`/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`.
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
 cada tienda (Amazon, Adtraction, Awin, Instant Gaming; NoSoloRol solo en

@@ -5,6 +5,7 @@ import { SpanishMark } from '@/components/ui/Badge'
 import { CardBody, CardCover } from '@/components/ui/Card'
 import { cardClass } from '@/components/ui/styles'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
+import { bookPath } from '@/utils/rpg'
 
 export default function RpgBookCard({
   book,
@@ -15,7 +16,7 @@ export default function RpgBookCard({
 }) {
   const title = book.titleEs ?? book.title
   return (
-    <Link to={`/rol/${book.system}/${book.slug}`} className={cardClass(true, 'h-full')}>
+    <Link to={bookPath(book, system ? [system] : [])} className={cardClass(true, 'h-full')}>
       <CardCover>
         <LazyImage
           src={book.thumbnail ?? PLACEHOLDER_IMAGE}

@@ -29,10 +29,19 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   impreso principal de las editoriales destacadas (`FEATURED_PUBLISHERS`
   en `src/utils/rpg.ts`, hoy Kobold Press). Sin packs de tienda,
   suscripciones ni contenido solo digital de plataformas comunitarias.
-- **Lo oficial de D&D no se duplica:** los sistemas de D&D tienen ficha
-  mínima con `official_catalog` y sus libros siguen en el catálogo
-  oficial. Los libros de otras editoriales para 5E cuelgan de
+- **Lo oficial de D&D no se duplica:** los sistemas de D&D de 5E tienen
+  ficha mínima con `official` y `official_catalog`, y sus libros siguen en
+  el catálogo oficial. Los libros de otras editoriales para 5E cuelgan de
   `dnd-5e-2014` o `dnd-5e-2024`.
+- **Ediciones anteriores de D&D** (sección `/ediciones`, inventario en su
+  propia lista): sistemas con `official: true` y sin `official_catalog`
+  (`dnd-3e`, `dnd-3-5`…). Entran todos los libros impresos de Wizards de
+  la edición (básicos, cajas de inicio, suplementos, ambientaciones y
+  aventuras), aunque solo salieran en inglés; fuera pantallas, hojas de
+  personaje, miniaturas, Dungeon Tiles, revistas y material con licencia
+  de otras editoriales (Dragonlance de Sovereign Press). **Sin enlaces de
+  compra**: están descatalogados. Los básicos llevan sufijo de edición en
+  el slug (`players-handbook-3-5`) y `core: true`.
 
 ## Reglas de los datos
 
@@ -84,6 +93,10 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
 
 ## Fuentes recomendadas
 
+- **Ediciones anteriores de D&D:** páginas de producto de wizards.com
+  archivadas en archive.org (fecha, ISBN, portada) y, si no hay copia, Open
+  Library por ISBN. Las ediciones de Devir ya no están en su web: tiendas,
+  distribuidoras o catálogos archivados, solo para título, fecha e ISBN.
 - **Paizo:** `store.paizo.com/<producto>/` (fecha, ISBN en la página y
   portada en `og:image`).
 - **Devir:** catálogo de cada línea (`devir.es/pathfinder-2-ed`) y su

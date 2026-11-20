@@ -22,6 +22,16 @@ export const bookKindNames: Record<RpgBookKind, string> = {
   other: 'Otro',
 }
 
+// Títulos de los grupos de libros de una edición anterior de D&D, en el orden en que se muestran
+export const bookKindGroups: [RpgBookKind, string][] = [
+  ['core', 'Libros básicos'],
+  ['starter', 'Cajas de inicio'],
+  ['supplement', 'Suplementos'],
+  ['setting', 'Ambientaciones'],
+  ['adventure', 'Aventuras'],
+  ['other', 'Otros'],
+]
+
 export const rpgFormatNames: Record<RpgFormat, string> = {
   hardcover: 'Tapa dura',
   paperback: 'Tapa blanda',

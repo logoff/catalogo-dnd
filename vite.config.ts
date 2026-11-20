@@ -6,7 +6,7 @@ import { readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { buildNovelIndex } from './src/utils/novels.ts'
 import type { Novel, NovelSeries } from './src/types/novel.ts'
-import { buildRpgIndex } from './src/utils/rpg.ts'
+import { buildRpgIndex, rolSection } from './src/utils/rpg.ts'
 import type { License, RpgBook, RpgSystem } from './src/types/rpg.ts'
 
 // Inyecta el script de Umami solo si están definidas las variables de entorno
@@ -78,7 +78,8 @@ function novelsIndex(): Plugin {
 // Datos de la sección de otros juegos de rol generados leyendo los JSON de data/rol:
 // - virtual:rpg-index, licencias, sistemas y resumen de los libros, en un trozo aparte que solo
 //   descargan las páginas de la sección.
-// - virtual:rpg-stats, cuántos sistemas y libros hay, para la portada del sitio.
+// - virtual:rpg-stats, cuántos sistemas y libros hay en la sección (sin las ediciones anteriores
+//   de D&D), para la portada del sitio.
 function rpgIndex(): Plugin {
   const MODULES = ['virtual:rpg-index', 'virtual:rpg-stats']
   const dataDir = resolve(import.meta.dirname, 'data/rol')
@@ -109,9 +110,10 @@ function rpgIndex(): Plugin {
         read<RpgSystem>(files.systems),
         read<RpgBook>(files.books)
       )
+      const rol = rolSection(index.systems, index.books)
       const data =
         id === '\0virtual:rpg-stats'
-          ? { systems: index.systems.length, books: index.books.length }
+          ? { systems: rol.systems.length, books: rol.books.length }
           : index
       return `export default ${JSON.stringify(data)}`
     },

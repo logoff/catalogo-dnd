@@ -113,7 +113,8 @@ function generateSitemap() {
     urls.push({ loc: `/novela/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
   }
 
-  // Otros juegos de rol: la sección, las licencias, los sistemas y los libros
+  // Otros juegos de rol y ediciones anteriores de D&D: las secciones, las licencias, los sistemas
+  // y los libros
   // (data/rol/books/<sistema>/<slug>.json)
   const rolDir = join(DATA_DIR, 'rol')
   const rolUrl = (loc, priority) => ({ loc, priority, changefreq: 'monthly', lastmod: today })
@@ -122,12 +123,19 @@ function generateSitemap() {
   for (const file of getProductFiles(join(rolDir, 'licenses'))) {
     urls.push(rolUrl(`/licencia/${JSON.parse(readFileSync(file, 'utf-8')).slug}`, 0.6))
   }
+  // Las ediciones anteriores de D&D (oficiales y sin catálogo propio en el sitio) y sus libros van
+  // en /ediciones (el mismo criterio que isDndEdition en src/utils/rpg.ts)
+  urls.push(rolUrl('/ediciones', 0.8))
+  const sectionOf = new Map()
   for (const file of getProductFiles(join(rolDir, 'systems'))) {
-    urls.push(rolUrl(`/rol/${JSON.parse(readFileSync(file, 'utf-8')).slug}`, 0.7))
+    const system = JSON.parse(readFileSync(file, 'utf-8'))
+    const section = system.official && !system.official_catalog ? 'ediciones' : 'rol'
+    sectionOf.set(system.slug, section)
+    urls.push(rolUrl(`/${section}/${system.slug}`, 0.7))
   }
   for (const file of getProductFiles(join(rolDir, 'books'))) {
     const { system, slug } = JSON.parse(readFileSync(file, 'utf-8'))
-    urls.push(rolUrl(`/rol/${system}/${slug}`, 0.6))
+    urls.push(rolUrl(`/${sectionOf.get(system) ?? 'rol'}/${system}/${slug}`, 0.6))
   }
 
   // Generate XML

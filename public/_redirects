@@ -1,0 +1,3 @@
+# Redirecciones de Cloudflare Pages
+# D&D 3.5 pasó de «Otros juegos de rol» a la sección de ediciones anteriores
+/rol/dnd-3-5 /ediciones/dnd-3-5 301

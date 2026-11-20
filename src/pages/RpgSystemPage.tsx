@@ -1,13 +1,20 @@
-import { Link, useParams } from 'react-router-dom'
+import { Link, Navigate, useParams } from 'react-router-dom'
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 import MetaTags from '@/components/seo/MetaTags'
 import Badge from '@/components/ui/Badge'
 import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
 import { buttonClass, cardClass } from '@/components/ui/styles'
-import { BookList, RpgLoading, RpgPage, UnofficialNotice } from '@/components/rpg/RpgSection'
+import {
+  BookList,
+  BooksByKind,
+  RpgLoading,
+  RpgPage,
+  UnofficialNotice,
+  type RpgSectionId,
+} from '@/components/rpg/RpgSection'
 import { useRpgIndex } from '@/hooks/useRpgData'
 import type { Derivation, RpgSystem } from '@/types/rpg'
-import { derivedSystems, familyOf } from '@/utils/rpg'
+import { derivedSystems, familyOf, isDndEdition, systemPath } from '@/utils/rpg'
 import { derivationKindNames, licenseLabel } from '@/utils/rpgTranslations'
 import { formatPartialDate } from '@/utils/videogameTranslations'
 import NotFoundPage from './NotFoundPage'
@@ -26,7 +33,7 @@ function DerivationItem({
       <p>
         {system ? (
           <Link
-            to={`/rol/${system.slug}`}
+            to={systemPath(system)}
             className="font-medium text-fg underline underline-offset-2 hover:text-accent"
           >
             {system.name}
@@ -42,13 +49,17 @@ function DerivationItem({
   )
 }
 
-export default function RpgSystemPage() {
+// También es la ficha de las ediciones anteriores de D&D, en /ediciones (section="ediciones")
+export default function RpgSystemPage({ section = 'rol' }: { section?: RpgSectionId }) {
   const { system: slug = '' } = useParams<{ system: string }>()
   const index = useRpgIndex()
   if (!index) return <RpgLoading what="el sistema" />
 
   const system = index.systems.find((s) => s.slug === slug)
   if (!system) return <NotFoundPage />
+  const edition = isDndEdition(system)
+  if (edition && section === 'rol') return <Navigate to={systemPath(system)} replace />
+  if (!edition && section === 'ediciones') return <NotFoundPage />
 
   const findSystem = (s: string) => index.systems.find((other) => other.slug === s)
   const findLicense = (l: string) => index.licenses.find((other) => other.slug === l)
@@ -57,12 +68,12 @@ export default function RpgSystemPage() {
   const family = familyOf(index.systems, system)
   const books = index.books.filter((book) => book.system === system.slug)
   const paragraphs = system.description.split('\n\n')
-  const official = Boolean(system.official_catalog)
+  const official = Boolean(system.official)
 
   return (
     <>
       <MetaTags title={system.name} description={paragraphs[0]} />
-      <RpgPage crumbs={[{ label: system.name }]}>
+      <RpgPage section={section} crumbs={[{ label: system.name }]}>
         {!official && <UnofficialNotice />}
 
         <div className="mb-8 flex max-w-3xl flex-col gap-3">
@@ -144,7 +155,9 @@ export default function RpgSystemPage() {
               )}
               {children.length > 0 && (
                 <>
-                  <h3 className="mb-2 text-sm font-semibold">Derivan de él</h3>
+                  <h3 className="mb-2 text-sm font-semibold">
+                    {edition ? 'Derivan de ella' : 'Derivan de él'}
+                  </h3>
                   <ul className="space-y-3">
                     {children.map(({ system: child, derivation }) => {
                       const via = derivation.via_license && findLicense(derivation.via_license)
@@ -168,7 +181,7 @@ export default function RpgSystemPage() {
               <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {family.map((other) => (
                   <li key={other.slug}>
-                    <Link to={`/rol/${other.slug}`} className={cardClass(true, 'h-full p-4')}>
+                    <Link to={systemPath(other)} className={cardClass(true, 'h-full p-4')}>
                       <span className="text-lg font-medium text-fg">{other.name}</span>
                       <span className="text-sm text-muted">
                         {other.publisher} · {other.date.slice(0, 4)}
@@ -190,7 +203,17 @@ export default function RpgSystemPage() {
             </DetailSection>
           )}
 
-          {official && books.length > 0 && (
+          {edition && (
+            <DetailSection title="Libros">
+              {books.length > 0 ? (
+                <BooksByKind books={books} systems={index.systems} />
+              ) : (
+                <p className="text-muted">Todavía no hay libros de esta edición en el catálogo.</p>
+              )}
+            </DetailSection>
+          )}
+
+          {system.official_catalog && books.length > 0 && (
             <DetailSection title="Libros de otras editoriales">
               <BookList books={books} systems={index.systems} />
             </DetailSection>

@@ -1,0 +1,28 @@
+{
+  "slug": "monster-manual-3-5",
+  "system": "dnd-3-5",
+  "title": "Monster Manual v.3.5",
+  "kind": "core",
+  "core": true,
+  "description": "El bestiario de la revisión 3.5: los monstruos clásicos de D&D actualizados a las reglas de 2003, con su perfil, tácticas y ecología, más reglas para mejorar criaturas, plantillas y monstruos como personajes.\n\nEs el tercero de los tres básicos de 3.5 y lo usa sobre todo el director de juego. Sirve de base para los Manuales de Monstruos II a V y demás bestiarios de la edición.",
+  "source": "https://web.archive.org/web/2005/http://www.wizards.com:80/default.asp?x=products/dndcore/177550000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-07",
+      "format": "hardcover",
+      "isbn13": 9780786928934,
+      "cover": "/images/rol/monster-manual-3-5/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos v.3.5",
+      "publisher": "Devir",
+      "date": "2004-01",
+      "format": "hardcover",
+      "isbn13": 9788496262157,
+      "source": "https://web.archive.org/web/20040630010035/http://www.devir.es:80/catalogo/cat.pl?o=1&c=JRDDBAS&b=logos/dungeons.jpg%27target=%27text"
+    }
+  ]
+}

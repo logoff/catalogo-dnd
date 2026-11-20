@@ -101,6 +101,24 @@ describe('páginas de licencias', () => {
     )
   })
 
+  it('enlaza las ediciones anteriores de D&D a su sección, sin listar sus libros', () => {
+    const edition: RpgSystem = {
+      ...system,
+      slug: 'dnd-3-5',
+      name: 'D&D 3.5',
+      family: 'dungeons-and-dragons',
+      official: true,
+    }
+    const editionBook: RpgBook = { ...book, slug: 'phb', system: 'dnd-3-5', title: 'PHB' }
+    setRpgIndex(buildRpgIndex([ogl, srd, unused], [system, edition], [book, editionBook]))
+    renderAt('/licencia/ogl')
+    expect(screen.getByRole('link', { name: /D&D 3\.5/ })).toHaveAttribute(
+      'href',
+      '/ediciones/dnd-3-5'
+    )
+    expect(screen.getAllByRole('link', { name: 'Reglamento básico' })).toHaveLength(1)
+  })
+
   it('el documento de referencia y su licencia se enlazan en los dos sentidos', () => {
     renderAt('/licencia/srd')
     const related = screen.getByRole('heading', { name: 'Licencias relacionadas' }).parentElement!

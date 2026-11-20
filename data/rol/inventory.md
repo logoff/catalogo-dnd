@@ -4,7 +4,7 @@ Lista maestra de las licencias abiertas, los sistemas y los libros que
 tendrán ficha en la sección «Otros juegos de rol». Una entrada con
 «pendiente» en la columna Ficha aún no tiene su JSON en `data/rol/`.
 
-Actualizado: 2026-11-19. Revisado con el usuario el 2026-11-19. Catálogos de Devir
+Actualizado: 2026-11-19. Revisado con el usuario el 2026-11-19 (también las ediciones anteriores de D&D). Catálogos de Devir
 consultados el 2026-11-19.
 
 ## Alcance
@@ -29,24 +29,24 @@ digital de plataformas comunitarias.
 
 ## Licencias
 
-| #   | Nombre                                       | Tipo                    | Titular              | Año  | Relación                                    | Fuente                                                                                     | Ficha                                     | Nota                                                                    |
-| --- | -------------------------------------------- | ----------------------- | -------------------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------- | ----------------------------------------------------------------------- |
-| 1   | Open Game License 1.0a                       | licencia                | Wizards of the Coast | 2000 | —                                           | [SRD 5.1 (PDF con la OGL)](https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf)  | ogl-1-0a                                  | Crisis de la OGL 1.1 en enero de 2023; Wizards dio marcha atrás.        |
-| 2   | Creative Commons Attribution 4.0 (CC BY 4.0) | licencia                | Creative Commons     | 2013 | —                                           | [Creative Commons](https://creativecommons.org/licenses/by/4.0/)                           | cc-by-4-0                                 | Bajo ella se publican el SRD 5.1 (desde 2023) y el SRD 5.2.             |
-| 3   | ORC License                                  | licencia                | Paizo (Azora Law)    | 2023 | —                                           | [Paizo](https://paizo.com/orclicense)                                                      | orc                                       | Fecha exacta y depositario por confirmar.                               |
-| 4   | System Reference Document 3.5                | documento de referencia | Wizards of the Coast | 2003 | bajo OGL 1.0a                               | [copia del original de Wizards](https://archive.org/details/dnd35srd)                      | srd-3-5                                   | Necesaria como origen de Pathfinder 1E.                                 |
-| 5   | System Reference Document 5.1                | documento de referencia | Wizards of the Coast | 2016 | bajo OGL 1.0a y, desde 2023, bajo CC BY 4.0 | [D&D Beyond](https://www.dndbeyond.com/srd)                                                | srd-5-1                                   |                                                                         |
-| 6   | System Reference Document 5.2                | documento de referencia | Wizards of the Coast | 2025 | bajo CC BY 4.0                              | [D&D Beyond](https://www.dndbeyond.com/srd)                                                | srd-5-2                                   | Reglas de 2024.                                                         |
-| 7   | Black Flag Reference Document                | documento de referencia | Kobold Press         | 2023 | bajo ORC y, más tarde, también CC BY 4.0    | [Kobold Press](https://koboldpress.com/kpstore/product/black-flag-reference-document-pdf/) | black-flag-reference-document             | Base de Tales of the Valiant. Fecha del paso a CC BY por confirmar.     |
-| 8   | Darrington Press Community Gaming License    | licencia comunitaria    | Darrington Press     | 2024 | —                                           | [Darrington Press](https://darringtonpress.com/license)                                    | darrington-press-community-gaming-license | Versión 2.0 con Hope & Fear (agosto de 2026); revocable por el titular. |
-| 9   | Daggerheart System Reference Document        | documento de referencia | Darrington Press     | 2025 | bajo DPCGL                                  | [Daggerheart](https://www.daggerheart.com/srd)                                             | daggerheart-srd                           | SRD 1.0 (2025) y 2.0 (2026).                                            |
-| 10  | Level Up A5E SRD                             | documento de referencia | EN Publishing        | 2023 | bajo CC BY 4.0                              | [A5ESRD](https://a5esrd.com/)                                                              | a5e-srd                                   | Sustituye al SRD de Level Up bajo OGL 1.0a (2022).                      |
+| #   | Nombre                                       | Tipo                    | Titular              | Año  | Relación                                    | Fuente                                                                                                                    | Ficha                                     | Nota                                                                    |
+| --- | -------------------------------------------- | ----------------------- | -------------------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------- |
+| 1   | Open Game License 1.0a                       | licencia                | Wizards of the Coast | 2000 | —                                           | [SRD 5.1 (PDF con la OGL)](https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf)                                 | ogl-1-0a                                  | Crisis de la OGL 1.1 en enero de 2023; Wizards dio marcha atrás.        |
+| 2   | Creative Commons Attribution 4.0 (CC BY 4.0) | licencia                | Creative Commons     | 2013 | —                                           | [Creative Commons](https://creativecommons.org/licenses/by/4.0/)                                                          | cc-by-4-0                                 | Bajo ella se publican el SRD 5.1 (desde 2023) y el SRD 5.2.             |
+| 3   | ORC License                                  | licencia                | Paizo (Azora Law)    | 2023 | —                                           | [Paizo](https://paizo.com/orclicense)                                                                                     | orc                                       | Fecha exacta y depositario por confirmar.                               |
+| 4   | System Reference Document 3.5                | documento de referencia | Wizards of the Coast | 2003 | bajo OGL 1.0a                               | [copia del original de Wizards](https://archive.org/details/dnd35srd)                                                     | srd-3-5                                   | Necesaria como origen de Pathfinder 1E.                                 |
+| 5   | System Reference Document 5.1                | documento de referencia | Wizards of the Coast | 2016 | bajo OGL 1.0a y, desde 2023, bajo CC BY 4.0 | [D&D Beyond](https://www.dndbeyond.com/srd)                                                                               | srd-5-1                                   |                                                                         |
+| 6   | System Reference Document 5.2                | documento de referencia | Wizards of the Coast | 2025 | bajo CC BY 4.0                              | [D&D Beyond](https://www.dndbeyond.com/srd)                                                                               | srd-5-2                                   | Reglas de 2024.                                                         |
+| 7   | Black Flag Reference Document                | documento de referencia | Kobold Press         | 2023 | bajo ORC y, más tarde, también CC BY 4.0    | [Kobold Press](https://koboldpress.com/kpstore/product/black-flag-reference-document-pdf/)                                | black-flag-reference-document             | Base de Tales of the Valiant. Fecha del paso a CC BY por confirmar.     |
+| 8   | Darrington Press Community Gaming License    | licencia comunitaria    | Darrington Press     | 2024 | —                                           | [Darrington Press](https://darringtonpress.com/license)                                                                   | darrington-press-community-gaming-license | Versión 2.0 con Hope & Fear (agosto de 2026); revocable por el titular. |
+| 9   | Daggerheart System Reference Document        | documento de referencia | Darrington Press     | 2025 | bajo DPCGL                                  | [Daggerheart](https://www.daggerheart.com/srd)                                                                            | daggerheart-srd                           | SRD 1.0 (2025) y 2.0 (2026).                                            |
+| 10  | Level Up A5E SRD                             | documento de referencia | EN Publishing        | 2023 | bajo CC BY 4.0                              | [A5ESRD](https://a5esrd.com/)                                                                                             | a5e-srd                                   | Sustituye al SRD de Level Up bajo OGL 1.0a (2022).                      |
+| 11  | System Reference Document 3.0                | documento de referencia | Wizards of the Coast | 2000 | bajo OGL 1.0 y enseguida 1.0a               | [wizards.com (copia de 2001)](https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd) | srd-3-0                                   | Base de D&D 3.ª edición.                                                |
 
 ## Sistemas
 
 | #   | Sistema                        | Familia                | Editorial            | Año  | Licencias                                                | Deriva de                                          | Castellano              | Fuente                                                               | Ficha                  | Nota                                                                        |
 | --- | ------------------------------ | ---------------------- | -------------------- | ---- | -------------------------------------------------------- | -------------------------------------------------- | ----------------------- | -------------------------------------------------------------------- | ---------------------- | --------------------------------------------------------------------------- |
-| 1   | D&D 3.5                        | Dungeons & Dragons     | Wizards of the Coast | 2003 | SRD 3.5 (OGL 1.0a)                                       | —                                                  | sí (Devir)              | [SRD 3.5 (copia del original)](https://archive.org/details/dnd35srd) | dnd-3-5                | Ficha mínima, como origen de Pathfinder. Completa en #100.                  |
 | 2   | D&D 5E (2014)                  | Dungeons & Dragons     | Wizards of the Coast | 2014 | SRD 5.1 (OGL 1.0a; CC BY 4.0 desde 2023)                 | —                                                  | catálogo oficial        | [catálogo oficial](https://catalogodnd.es/2014)                      | dnd-5e-2014            | Enlaza a `/2014`.                                                           |
 | 3   | D&D 5E (2024)                  | Dungeons & Dragons     | Wizards of the Coast | 2024 | SRD 5.2 (CC BY 4.0)                                      | D&D 5E (2014): revisión compatible                 | catálogo oficial        | [catálogo oficial](https://catalogodnd.es/2024)                      | dnd-5e-2024            | Enlaza a `/2024`.                                                           |
 | 4   | Pathfinder 1E                  | Pathfinder             | Paizo                | 2009 | OGL 1.0a                                                 | D&D 3.5 (OGL): reescrito pero compatible           | sí (Devir)              | [Paizo](https://paizo.com/pathfinder)                                | pathfinder-1e          |                                                                             |
@@ -358,3 +358,181 @@ lote.
 | 1   | Compendio de retales y semillas | suplemento | pendiente | Compatible con 5E y Eirendor; sin ficha: no se ha encontrado fuente que lo confirme. |
 
 Otras editoriales españolas con 5E se añaden al encontrarlas, con su fuente.
+
+## Ediciones anteriores de D&D
+
+Sección propia en `/ediciones` (no forma parte de «Otros juegos de rol»),
+aunque sus fichas se guardan en `data/rol/` con el mismo modelo. Entran los
+libros impresos de Wizards of the Coast de cada edición, aunque solo salieran
+en inglés, con su edición de Devir si la hubo. No llevan enlaces de compra.
+Fuera: miniaturas, Dungeon Tiles, pantallas, hojas de personaje, revistas,
+aventuras solo digitales y material con licencia de otras editoriales
+(Dragonlance de Sovereign Press).
+
+### Ediciones
+
+| #   | Edición         | Editorial            | Año  | Licencias          | Deriva de                 | Castellano | Fuente                                                                                                                               | Ficha   | Nota                                          |
+| --- | --------------- | -------------------- | ---- | ------------------ | ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------------------------------------------- |
+| 1   | D&D 3.ª edición | Wizards of the Coast | 2000 | SRD 3.0 (OGL)      | —                         | sí (Devir) | [SRD 3.0 en wizards.com (copia de 2001)](https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd) | dnd-3e  |                                               |
+| 2   | D&D 3.5         | Wizards of the Coast | 2003 | SRD 3.5 (OGL 1.0a) | D&D 3.ª edición: revisión | sí (Devir) | [SRD 3.5 (copia del original)](https://archive.org/details/dnd35srd)                                                                 | dnd-3-5 | Pasa de «Otros juegos de rol» a esta sección. |
+
+### Libros
+
+Fuentes de la lista: [libros de reglas](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks#Dungeons_&_Dragons_3rd_edition_and_v3.5),
+[Reinos Olvidados](https://en.wikipedia.org/wiki/List_of_Forgotten_Realms_modules_and_sourcebooks),
+[Eberron](https://en.wikipedia.org/wiki/List_of_Eberron_modules_and_sourcebooks) y
+[aventuras](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_adventures) de
+Wikipedia en inglés, y el [archivo de TSR Archive](https://tsrarchive.com/3e/3e2.html)
+(consultados el 2026-11-19). Ediciones de Devir según las listas de
+[ArchiRoleros](https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/)
+y [RolRoyce](https://www.rolroyce.com/rol/DDP/librosDD.php); cada una se
+confirma con fuente al hacer su ficha. Las posteriores a mediados de 2004, que ya no están en
+el catálogo archivado de Devir, con la ficha de
+[todostuslibros.com](https://www.todostuslibros.com/) (base de datos de las
+librerías). Fecha e ISBN de la edición en inglés
+según Wikipedia, por confirmar con la página archivada de wizards.com.
+
+Libros de Devir que no entran en esta tanda: los de 3.0 (suplementos, Reinos
+Olvidados 3.0, _La Ciudad de la Reina Araña_, _El Este Inaccesible_), que irán
+con el resto de la 3.ª edición; _La Montaña del Penacho Blanco_ y _La Fortaleza
+de la Frontera_ (por confirmar qué son), y los de Dragonlance de Sovereign
+Press.
+
+### Básicos de 3.ª edición
+
+| #   | Título original        | Título en castellano    | Tipo   | Fecha   | ISBN          | Devir | Ficha                    | Nota |
+| --- | ---------------------- | ----------------------- | ------ | ------- | ------------- | ----- | ------------------------ | ---- |
+| 1   | Player's Handbook      | Manual del Jugador      | básico | 2000-07 | 0-7869-1550-1 | sí    | players-handbook-3e      |      |
+| 2   | Dungeon Master's Guide | Guía del Dungeon Master | básico | 2000-09 | 0-7869-1551-X | sí    | dungeon-masters-guide-3e |      |
+| 3   | Monster Manual         | Manual de Monstruos     | básico | 2000-10 | 0-7869-1552-8 | sí    | monster-manual-3e        |      |
+
+### Básicos y cajas de inicio de 3.5
+
+| #   | Título original                      | Título en castellano        | Tipo           | Fecha   | ISBN          | Devir     | Ficha                     | Nota                                                       |
+| --- | ------------------------------------ | --------------------------- | -------------- | ------- | ------------- | --------- | ------------------------- | ---------------------------------------------------------- |
+| 1   | Player's Handbook v.3.5              | Manual del Jugador 3.5      | básico         | 2003-07 | 0-7869-2886-7 | sí        | players-handbook-3-5      |                                                            |
+| 2   | Dungeon Master's Guide v.3.5         | Guía del Dungeon Master 3.5 | básico         | 2003-07 | 0-7869-2889-1 | sí        | dungeon-masters-guide-3-5 |                                                            |
+| 3   | Monster Manual v.3.5                 | Manual de Monstruos 3.5     | básico         | 2003-07 | 0-7869-2893-X | sí        | monster-manual-3-5        |                                                            |
+| 4   | Dungeons & Dragons Basic Game (2004) | —                           | caja de inicio | 2004-09 | 0-7869-3409-3 | no consta | pendiente                 |                                                            |
+| 5   | Dungeons & Dragons Basic Game (2006) | —                           | caja de inicio | 2006-09 | 0-7869-3944-3 | no consta | pendiente                 |                                                            |
+| 6   | Dungeons & Dragons Player's Kit      | —                           | caja de inicio | 2007-02 | 0-7869-3945-1 | no consta | pendiente                 | Comprobar si es un libro o un pack del Manual del Jugador. |
+
+### Suplementos de reglas de 3.5
+
+| #   | Título original                              | Título en castellano          | Tipo       | Fecha   | ISBN              | Devir         | Ficha                      | Nota                                                                                     |
+| --- | -------------------------------------------- | ----------------------------- | ---------- | ------- | ----------------- | ------------- | -------------------------- | ---------------------------------------------------------------------------------------- |
+| 1   | Complete Warrior                             | El Combatiente Completo       | suplemento | 2003-12 | 0-7869-2880-8     | sí            | pendiente                  |                                                                                          |
+| 2   | Expanded Psionics Handbook                   | Manual de Psiónica Expandido  | suplemento | 2004-04 | 0-7869-3301-1     | sí            | expanded-psionics-handbook |                                                                                          |
+| 3   | Complete Divine                              | El Divino Completo            | suplemento | 2004-05 | 0-7869-3272-4     | sí            | pendiente                  |                                                                                          |
+| 4   | Planar Handbook                              | Manual Planario               | suplemento | 2004-07 | 0-7869-3429-8     | sí            | pendiente                  |                                                                                          |
+| 5   | Races of Stone                               | —                             | suplemento | 2004-08 | 0-7869-3278-3     | no consta     | pendiente                  |                                                                                          |
+| 6   | Complete Arcane                              | El Arcano Completo            | suplemento | 2004-11 | 0-7869-3435-2     | sí            | pendiente                  |                                                                                          |
+| 7   | Races of Destiny                             | —                             | suplemento | 2004-12 | 0-7869-3653-3     | no consta     | pendiente                  |                                                                                          |
+| 8   | Complete Adventurer                          | El Aventurero Completo        | suplemento | 2005-01 | 0-7869-3651-7     | sí            | pendiente                  |                                                                                          |
+| 9   | Races of the Wild                            | —                             | suplemento | 2005-02 | 0-7869-3438-7     | no consta     | pendiente                  |                                                                                          |
+| 10  | Magic of Incarnum                            | —                             | suplemento | 2005-09 | 0-7869-3701-7     | no consta     | magic-of-incarnum          |                                                                                          |
+| 11  | Races of the Dragon                          | —                             | suplemento | 2006-01 | 0-7869-3913-3     | no consta     | pendiente                  |                                                                                          |
+| 12  | Tome of Magic                                | —                             | suplemento | 2006-03 | 0-7869-3909-5     | no consta     | tome-of-magic              |                                                                                          |
+| 13  | Complete Psionic                             | —                             | suplemento | 2006-04 | 0-7869-3911-7     | no consta     | pendiente                  |                                                                                          |
+| 14  | Player's Handbook II                         | Manual del Jugador II         | suplemento | 2006-05 | 0-7869-3918-4     | sí            | players-handbook-ii        |                                                                                          |
+| 15  | Dragon Magic                                 | Magia de Dragón               | suplemento | 2006-09 | 0-7869-3936-2     | por confirmar | pendiente                  | Solo aparece en una lista sin editorial.                                                 |
+| 16  | Complete Mage                                | —                             | suplemento | 2006-10 | 0-7869-3937-0     | por confirmar | pendiente                  | Solo aparece en una lista sin editorial.                                                 |
+| 17  | Complete Scoundrel                           | —                             | suplemento | 2007-01 | 978-0-7869-4152-0 | no consta     | pendiente                  |                                                                                          |
+| 18  | Complete Champion                            | —                             | suplemento | 2007-06 | 978-0-7869-4034-9 | no consta     | pendiente                  |                                                                                          |
+| 19  | Rules Compendium                             | —                             | suplemento | 2007-10 | 978-0-7869-4725-6 | no consta     | rules-compendium           |                                                                                          |
+| 20  | Draconomicon                                 | Draconomicón                  | suplemento | 2003-11 | 0-7869-2884-0     | sí            | pendiente                  |                                                                                          |
+| 21  | Monster Manual III                           | Manual de Monstruos III       | suplemento | 2004-09 | 0-7869-3430-1     | sí            | monster-manual-iii         |                                                                                          |
+| 22  | Libris Mortis                                | Libris Mortis                 | suplemento | 2004-10 | 0-7869-3433-6     | sí            | pendiente                  |                                                                                          |
+| 23  | Lords of Madness                             | —                             | suplemento | 2005-04 | 0-7869-3657-6     | no consta     | pendiente                  |                                                                                          |
+| 24  | Fiendish Codex I: Hordes of the Abyss        | —                             | suplemento | 2006-06 | 0-7869-3919-2     | por confirmar | pendiente                  | «Manuscrito Infernal» de Devir puede ser este o el II.                                   |
+| 25  | Monster Manual IV                            | Manual de Monstruos IV        | suplemento | 2006-07 | 0-7869-3920-6     | sí            | monster-manual-iv          |                                                                                          |
+| 26  | Fiendish Codex II: Tyrants of the Nine Hells | —                             | suplemento | 2006-12 | 0-7869-3940-0     | por confirmar | pendiente                  | «Manuscrito Infernal» de Devir puede ser este o el I.                                    |
+| 27  | Drow of the Underdark                        | —                             | suplemento | 2007-05 | 978-0-7869-4151-3 | no consta     | pendiente                  |                                                                                          |
+| 28  | Monster Manual V                             | Manual de Monstruos V         | suplemento | 2007-07 | 978-0-7869-4115-5 | sí            | monster-manual-v           |                                                                                          |
+| 29  | Exemplars of Evil                            | —                             | suplemento | 2007-09 | 978-0-7869-4361-6 | no consta     | pendiente                  |                                                                                          |
+| 30  | Elder Evils                                  | —                             | suplemento | 2007-12 | 978-0-7869-4733-1 | no consta     | pendiente                  |                                                                                          |
+| 31  | Book of Exalted Deeds                        | Libro de Obras Elevadas       | suplemento | 2003-10 | 0-7869-3136-1     | sí            | book-of-exalted-deeds      |                                                                                          |
+| 32  | Miniatures Handbook                          | Manual de Miniaturas          | suplemento | 2003-10 | 0-7869-3281-3     | sí            | miniatures-handbook        |                                                                                          |
+| 33  | Unearthed Arcana                             | Arcanos Desenterrados         | suplemento | 2004-02 | 0-7869-3131-0     | sí            | unearthed-arcana           |                                                                                          |
+| 34  | Heroes of Battle                             | Héroes de Guerra              | suplemento | 2005-05 | 0-7869-3686-X     | sí            | pendiente                  |                                                                                          |
+| 35  | Dungeon Master's Guide II                    | Guía del Dungeon Master II    | suplemento | 2005-06 | 0-7869-3687-8     | sí            | dungeon-masters-guide-ii   |                                                                                          |
+| 36  | Heroes of Horror                             | —                             | suplemento | 2005-10 | 0-7869-3699-1     | no consta     | pendiente                  |                                                                                          |
+| 37  | Tome of Battle: The Book of Nine Swords      | El Libro de las Nueve Espadas | suplemento | 2006-08 | 0-7869-3922-2     | sí            | tome-of-battle             |                                                                                          |
+| 38  | Frostburn                                    | —                             | suplemento | 2004-09 | 0-7869-2896-4     | no consta     | pendiente                  |                                                                                          |
+| 39  | Sandstorm                                    | —                             | suplemento | 2005-03 | 0-7869-3655-X     | no consta     | pendiente                  |                                                                                          |
+| 40  | Stormwrack                                   | —                             | suplemento | 2005-08 | 0-7869-3689-4     | no consta     | pendiente                  |                                                                                          |
+| 41  | Cityscape                                    | Entornos Urbanos              | suplemento | 2006-11 | 0-7869-3939-7     | sí            | pendiente                  |                                                                                          |
+| 42  | Dungeonscape                                 | —                             | suplemento | 2007-02 | 978-0-7869-4118-6 | no consta     | pendiente                  |                                                                                          |
+| 43  | Dungeon Survival Guide                       | —                             | suplemento | 2007-10 | 978-0-7869-4730-0 | no consta     | pendiente                  |                                                                                          |
+| 44  | Weapons of Legacy                            | Armas de Leyenda              | suplemento | 2005-07 | 0-7869-3688-6     | sí            | weapons-of-legacy          |                                                                                          |
+| 45  | Spell Compendium                             | Compendio de Conjuros         | suplemento | 2005-12 | 0-7869-3702-5     | sí            | spell-compendium           |                                                                                          |
+| 46  | Magic Item Compendium                        | Compendio de Objetos Mágicos  | suplemento | 2007-03 | 978-0-7869-4345-6 | sí            | magic-item-compendium      | ISBN según Open Library; la ficha de wizards.com trae por error el del Spell Compendium. |
+
+### Reinos Olvidados para 3.5
+
+| #   | Título original                      | Título en castellano        | Tipo         | Fecha   | ISBN              | Devir     | Ficha     | Nota |
+| --- | ------------------------------------ | --------------------------- | ------------ | ------- | ----------------- | --------- | --------- | ---- |
+| 1   | Underdark                            | La Infraoscuridad           | ambientación | 2003-10 | 0-7869-3053-5     | sí        | pendiente |      |
+| 2   | Player's Guide to Faerûn             | Guía del Jugador de Faerûn  | ambientación | 2004-03 | 0-7869-3134-5     | sí        | pendiente |      |
+| 3   | Serpent Kingdoms                     | Los Reinos Serpentinos      | ambientación | 2004-07 | 0-7869-3277-5     | sí        | pendiente |      |
+| 4   | Shining South                        | El Sur Radiante             | ambientación | 2004-10 | 0-7869-3492-1     | sí        | pendiente |      |
+| 5   | Champions of Ruin                    | —                           | ambientación | 2005-05 | 0-7869-3692-4     | no consta | pendiente |      |
+| 6   | City of Splendors: Waterdeep         | —                           | ambientación | 2005-07 | 0-7869-3693-2     | no consta | pendiente |      |
+| 7   | Lost Empires of Faerûn               | Imperios Perdidos de Faerûn | ambientación | 2005    | 0-7869-3654-1     | sí        | pendiente |      |
+| 8   | Champions of Valor                   | —                           | ambientación | 2005-11 | 0-7869-3697-5     | no consta | pendiente |      |
+| 9   | Power of Faerûn                      | Poderes de Faerûn           | ambientación | 2006-03 | 0-7869-3910-9     | sí        | pendiente |      |
+| 10  | Mysteries of the Moonsea             | —                           | ambientación | 2006-06 | 0-7869-3915-X     | no consta | pendiente |      |
+| 11  | Dragons of Faerûn                    | —                           | ambientación | 2006-08 | 0-7869-3923-0     | no consta | pendiente |      |
+| 12  | The Grand History of the Realms      | —                           | ambientación | 2007-09 | 978-0-7869-4731-7 | no consta | pendiente |      |
+| 13  | Sons of Gruumsh                      | Hijos de Gruumsh            | aventura     | 2005-09 | 978-0-7869-3698-4 | sí        | pendiente |      |
+| 14  | The Twilight Tomb                    | La Tumba del Ocaso          | aventura     | 2006-09 | 978-0-7869-3947-3 | sí        | pendiente |      |
+| 15  | Cormyr: The Tearing of the Weave     | Cormyr                      | aventura     | 2007    | 978-0-7869-4119-3 | sí        | pendiente |      |
+| 16  | Shadowdale: The Scouring of the Land | —                           | aventura     | 2007-07 | 978-0-7869-4039-4 | no consta | pendiente |      |
+| 17  | Anauroch: The Empire of Shade        | —                           | aventura     | 2007-11 | 0-7869-4362-9     | no consta | pendiente |      |
+| 18  | Expedition to Undermountain          | —                           | aventura     | 2007-06 | 978-0-7869-4157-5 | no consta | pendiente |      |
+
+### Eberron
+
+| #   | Título original                  | Título en castellano            | Tipo         | Fecha   | ISBN              | Devir     | Ficha     | Nota |
+| --- | -------------------------------- | ------------------------------- | ------------ | ------- | ----------------- | --------- | --------- | ---- |
+| 1   | Eberron Campaign Setting         | Escenario de Campaña de Eberron | ambientación | 2004-06 | 0-7869-3274-0     | sí        | pendiente |      |
+| 2   | Sharn: City of Towers            | Sharn                           | ambientación | 2004-11 | 0-7869-3434-4     | sí        | pendiente |      |
+| 3   | Races of Eberron                 | Razas de Eberron                | ambientación | 2005-04 | 0-7869-3658-4     | sí        | pendiente |      |
+| 4   | Five Nations                     | Las Cinco Naciones              | ambientación | 2005-07 | 0-7869-3690-8     | sí        | pendiente |      |
+| 5   | Explorer's Handbook              | —                               | ambientación | 2005-08 | 0-7869-3691-6     | no consta | pendiente |      |
+| 6   | Magic of Eberron                 | —                               | ambientación | 2005-10 | 0-7869-3696-7     | no consta | pendiente |      |
+| 7   | Player's Guide to Eberron        | Guía del Jugador de Eberron     | ambientación | 2006-01 | 0-7869-3912-5     | sí        | pendiente |      |
+| 8   | Secrets of Xen'drik              | —                               | ambientación | 2006-07 | 0-7869-3916-8     | no consta | pendiente |      |
+| 9   | Faiths of Eberron                | —                               | ambientación | 2006-09 | 0-7869-3934-6     | no consta | pendiente |      |
+| 10  | Dragonmarked                     | —                               | ambientación | 2006-11 | 0-7869-3933-8     | no consta | pendiente |      |
+| 11  | Secrets of Sarlona               | —                               | ambientación | 2007-02 | 0-7869-4037-9     | no consta | pendiente |      |
+| 12  | The Forge of War                 | —                               | ambientación | 2007-06 | 0-7869-4153-7     | no consta | pendiente |      |
+| 13  | Dragons of Eberron               | —                               | ambientación | 2007-10 | 978-0-7869-4154-4 | no consta | pendiente |      |
+| 14  | City of Stormreach               | —                               | ambientación | 2008-02 | 978-0-7869-4803-1 | no consta | pendiente |      |
+| 15  | An Adventurer's Guide to Eberron | —                               | ambientación | 2008-03 | 978-0-7869-4855-0 | no consta | pendiente |      |
+| 16  | Shadows of the Last War          | Sombras de la Última Guerra     | aventura     | 2004-07 | 0-7869-3276-7     | sí        | pendiente |      |
+| 17  | Whispers of the Vampire's Blade  | Susurros de la Hoja del Vampiro | aventura     | 2004-09 | 0-7869-3510-3     | sí        | pendiente |      |
+| 18  | Grasp of the Emerald Claw        | En Manos de la Garra Esmeralda  | aventura     | 2005-01 | 0-7869-3652-5     | sí        | pendiente |      |
+| 19  | Voyage of the Golden Dragon      | El Viaje del Dragón de Oro      | aventura     | 2006-04 | 0-7869-3907-9     | sí        | pendiente |      |
+| 20  | Eyes of the Lich Queen           | —                               | aventura     | 2007-04 | 978-0-7869-4319-7 | no consta | pendiente |      |
+
+### Otras ambientaciones y aventuras
+
+| #   | Título original                         | Título en castellano                | Tipo         | Fecha   | ISBN          | Devir     | Ficha     | Nota                                                                                                   |
+| --- | --------------------------------------- | ----------------------------------- | ------------ | ------- | ------------- | --------- | --------- | ------------------------------------------------------------------------------------------------------ |
+| 1   | Dragonlance Campaign Setting            | Escenario de Campaña de Dragonlance | ambientación | 2003-08 | por confirmar | sí        | pendiente | Fecha e ISBN por confirmar. Los demás libros de Dragonlance 3.5 son de Sovereign Press y quedan fuera. |
+| 2   | Scourge of the Howling Horde            | El Azote de la Horda Aullante       | aventura     | 2006    | por confirmar | sí        | pendiente |                                                                                                        |
+| 3   | Red Hand of Doom                        | La Horda de la Mano Roja            | aventura     | 2006    | por confirmar | sí        | pendiente |                                                                                                        |
+| 4   | Expedition to Castle Ravenloft          | Expedición al Castillo Ravenloft    | aventura     | 2006-10 | por confirmar | sí        | pendiente |                                                                                                        |
+| 5   | The Shattered Gates of Slaughtergarde   | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente |                                                                                                        |
+| 6   | Barrow of the Forgotten King            | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
+| 7   | The Sinister Spire                      | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
+| 8   | Fortress of the Yuan-Ti                 | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
+| 9   | Expedition to the Ruins of Greyhawk     | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
+| 10  | Expedition to the Demonweb Pits         | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
+| 11  | Fantastic Locations: Fane of the Drow   | —                                   | aventura     | 2005    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
+| 12  | Fantastic Locations: Hellspike Prison   | —                                   | aventura     | 2005    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
+| 13  | Fantastic Locations: Dragondown Grotto  | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
+| 14  | Fantastic Locations: Fields of Ruin     | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
+| 15  | Fantastic Locations: The Frostfell Rift | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
+| 16  | Fantastic Locations: City of Peril      | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |

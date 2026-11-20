@@ -12,13 +12,17 @@ import rpgStats from 'virtual:rpg-stats'
 import {
   FEATURED_PUBLISHERS,
   bookLicenses,
+  bookPath,
   buildRpgIndex,
   derivationCycle,
   derivedSystems,
   enrichBook,
   familyOf,
+  isDndEdition,
   mainCover,
   relatedLicenses,
+  rolSection,
+  systemPath,
   systemsUsing,
 } from '@/utils/rpg'
 import { getCachedBook, getRpgIndex, loadBook, preloadRpgRoute } from './rpgLoader'
@@ -258,6 +262,23 @@ describe('relaciones entre sistemas y licencias', () => {
     expect(derivationCycle([loop, child])).not.toBeNull()
   })
 
+  it('las ediciones anteriores de D&D van en /ediciones y el resto en /rol', () => {
+    const edition: RpgSystem = { ...system, slug: 'edicion', official: true }
+    const fifth: RpgSystem = {
+      ...system,
+      slug: 'quinta',
+      official: true,
+      official_catalog: '/2014',
+    }
+    expect([edition, fifth, system].map(isDndEdition)).toEqual([true, false, false])
+    expect(systemPath(edition)).toBe('/ediciones/edicion')
+    expect(systemPath(fifth)).toBe('/rol/quinta')
+    expect(bookPath({ slug: 'libro', system: 'edicion' }, [edition, system])).toBe(
+      '/ediciones/edicion/libro'
+    )
+    expect(bookPath(book, [edition, system])).toBe('/rol/sistema/libro')
+  })
+
   it('buildRpgIndex ordena los libros del más reciente al más antiguo', () => {
     const newer = { ...book, slug: 'nuevo', editions: [{ ...book.editions[0], date: '2024' }] }
     const index = buildRpgIndex([license], [system], [book, newer])
@@ -324,9 +345,38 @@ describe('datos de otros juegos de rol', () => {
     expect(wrong.map((s) => s.slug)).toEqual([])
   })
 
+  it('solo los sistemas de D&D son oficiales y los que enlazan al catálogo lo son', () => {
+    const wrong = systems.filter(
+      (s) =>
+        (s.official && s.family !== 'dungeons-and-dragons') || (s.official_catalog && !s.official)
+    )
+    expect(wrong.map((s) => s.slug)).toEqual([])
+  })
+
+  it('ningún libro de Wizards cuelga de un sistema con catálogo oficial', () => {
+    const withCatalog = systems.filter((s) => s.official_catalog).map((s) => s.slug)
+    const duplicated = books.filter(
+      (b) =>
+        withCatalog.includes(b.system) &&
+        b.editions.some((e) => e.publisher === 'Wizards of the Coast')
+    )
+    expect(duplicated.map((b) => b.slug)).toEqual([])
+  })
+
+  it('los libros de las ediciones anteriores de D&D no tienen enlaces de compra', () => {
+    const editions = systems.filter(isDndEdition).map((s) => s.slug)
+    const withLinks = books.filter(
+      (b) => editions.includes(b.system) && b.editions.some((e) => e.purchase_links?.length)
+    )
+    expect(withLinks.map((b) => b.slug)).toEqual([])
+  })
+
+  // Las ediciones anteriores de D&D llevan todo su catálogo, aunque solo esté en inglés
   it('un libro solo en inglés es principal o de una editorial destacada', () => {
+    const editions = systems.filter(isDndEdition).map((s) => s.slug)
     const outOfScope = books.filter(
       (b) =>
+        !editions.includes(b.system) &&
         !b.editions.some((e) => e.language === 'castellano') &&
         !b.core &&
         !b.editions.some((e) => FEATURED_PUBLISHERS.includes(e.publisher))
@@ -369,7 +419,8 @@ describe('datos de otros juegos de rol', () => {
       expect(rpgIndex.systems).toHaveLength(systems.length)
       expect(rpgIndex.books).toHaveLength(books.length)
       expect(rpgIndex.books.every((b) => !('description' in b) && !('editions' in b))).toBe(true)
-      expect(rpgStats).toEqual({ systems: systems.length, books: books.length })
+      const rol = rolSection(systems, books)
+      expect(rpgStats).toEqual({ systems: rol.systems.length, books: rol.books.length })
     })
   })
 
