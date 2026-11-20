@@ -1,0 +1,18 @@
+{
+  "slug": "orcs-of-stonefang-pass",
+  "system": "dnd-4e",
+  "title": "HS2 Orcs of Stonefang Pass",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de 5.º nivel que tienen que despejar de orcos un paso de montaña para que el pueblo de Winterhaven pueda comerciar.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Orcs_of_Stonefang_Pass",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-07",
+      "format": "paperback",
+      "isbn13": 9780786953912,
+      "cover": "/images/rol/orcs-of-stonefang-pass/english.webp"
+    }
+  ]
+}

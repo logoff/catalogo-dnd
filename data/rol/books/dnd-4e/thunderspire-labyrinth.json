@@ -1,0 +1,17 @@
+{
+  "slug": "thunderspire-labyrinth",
+  "system": "dnd-4e",
+  "title": "H2 Thunderspire Labyrinth",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 4 a 6 en el laberinto bajo la montaña Thunderspire, con un enclave de comercio, el Salón de los Siete Pilares, y esclavistas que operan en sus profundidades.\n\nEs la segunda de la serie H. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Thunderspire_Labyrinth",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-07",
+      "isbn13": 9780786948727,
+      "cover": "/images/rol/thunderspire-labyrinth/english.webp"
+    }
+  ]
+}

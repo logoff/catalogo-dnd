@@ -1,0 +1,18 @@
+{
+  "slug": "martial-power",
+  "system": "dnd-4e",
+  "title": "Martial Power",
+  "kind": "supplement",
+  "description": "El primer libro de la serie Power: opciones nuevas para guerreros, exploradores, pícaros y señores de la guerra, con nuevas variantes de cada clase, poderes, dotes, sendas de leyenda y destinos épicos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Martial_Power",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11",
+      "format": "hardcover",
+      "isbn13": 9780786949816,
+      "cover": "/images/rol/martial-power/english.webp"
+    }
+  ]
+}

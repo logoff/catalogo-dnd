@@ -1,0 +1,17 @@
+{
+  "slug": "scepter-tower-of-spellgard",
+  "system": "dnd-4e",
+  "title": "Scepter Tower of Spellgard",
+  "kind": "adventure",
+  "description": "La primera aventura larga de Reinos Olvidados para la 4.ª edición: una presencia misteriosa se ha instalado en una de las torres de Spellgard y sus esbirros acosan el Valle Gris.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Scepter_Tower_of_Spellgard",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-09",
+      "isbn13": 9780786949540,
+      "cover": "/images/rol/scepter-tower-of-spellgard/english.webp"
+    }
+  ]
+}

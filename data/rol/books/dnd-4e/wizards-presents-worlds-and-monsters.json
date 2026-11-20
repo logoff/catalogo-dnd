@@ -1,0 +1,18 @@
+{
+  "slug": "wizards-presents-worlds-and-monsters",
+  "system": "dnd-4e",
+  "title": "Wizards Presents: Worlds and Monsters",
+  "kind": "other",
+  "description": "El segundo libro de diseño previo a la 4.ª edición: la nueva cosmología de planos, el mundo por defecto de «puntos de luz» y la forma de diseñar los monstruos, con ilustraciones y notas de los diseñadores.\n\nEs un avance, no un libro de reglas jugable. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-01",
+      "format": "paperback",
+      "isbn13": 9780786948024,
+      "cover": "/images/rol/wizards-presents-worlds-and-monsters/english.webp"
+    }
+  ]
+}

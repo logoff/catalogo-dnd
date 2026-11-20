@@ -1,0 +1,17 @@
+{
+  "slug": "dungeon-delve",
+  "system": "dnd-4e",
+  "title": "Dungeon Delve",
+  "kind": "adventure",
+  "description": "Treinta incursiones cortas, una por cada nivel del 1 al 30, de tres encuentros cada una, para jugar en una sesión o insertar en cualquier campaña.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dungeon_Delve",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-03",
+      "isbn13": 9780786951390,
+      "cover": "/images/rol/dungeon-delve/english.webp"
+    }
+  ]
+}

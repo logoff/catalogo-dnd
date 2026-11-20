@@ -1,0 +1,18 @@
+{
+  "slug": "eberron-players-guide",
+  "system": "dnd-4e",
+  "title": "Eberron Player's Guide",
+  "kind": "setting",
+  "description": "Eberron para los jugadores de la 4.ª edición: las razas propias de la ambientación (cambiantes, kalashtar y forjados), la clase de artífice, marcas de dragón, regiones de origen y opciones de personaje.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Eberron_modules_and_sourcebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-06",
+      "format": "hardcover",
+      "isbn13": 9780786951000,
+      "cover": "/images/rol/eberron-players-guide/english.webp"
+    }
+  ]
+}

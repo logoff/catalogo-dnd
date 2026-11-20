@@ -1,0 +1,18 @@
+{
+  "slug": "eberron-campaign-guide",
+  "system": "dnd-4e",
+  "title": "Eberron Campaign Guide",
+  "kind": "setting",
+  "description": "Eberron para el Dungeon Master de la 4.ª edición: Khorvaire y el resto del mundo tras la Última Guerra, sus organizaciones y sus peligros, con ganchos de aventura y monstruos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Eberron_modules_and_sourcebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-07",
+      "format": "hardcover",
+      "isbn13": 9780786950997,
+      "cover": "/images/rol/eberron-campaign-guide/english.webp"
+    }
+  ]
+}

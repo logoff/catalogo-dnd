@@ -1,0 +1,18 @@
+{
+  "slug": "draconomicon-chromatic-dragons",
+  "system": "dnd-4e",
+  "title": "Draconomicon: Chromatic Dragons",
+  "kind": "supplement",
+  "description": "Todo sobre los dragones cromáticos en la 4.ª edición: su biología, su sociedad, sus guaridas y sus tácticas, con dragones de todos los niveles, nuevas variedades y criaturas a su servicio.\n\nTiene compañero dedicado a los metálicos. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Draconomicon",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11",
+      "format": "hardcover",
+      "isbn13": 9780786949809,
+      "cover": "/images/rol/draconomicon-chromatic-dragons/english.webp"
+    }
+  ]
+}

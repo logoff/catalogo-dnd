@@ -1,0 +1,18 @@
+{
+  "slug": "psionic-power",
+  "system": "dnd-4e",
+  "title": "Psionic Power",
+  "kind": "supplement",
+  "description": "Opciones para las clases psiónicas del Player's Handbook 3: ardientes, mentes de batalla, monjes y psiónicos, con variantes, poderes, dotes, sendas de leyenda y destinos épicos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Psionic_Power",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08",
+      "format": "hardcover",
+      "isbn13": 9780786955602,
+      "cover": "/images/rol/psionic-power/english.webp"
+    }
+  ]
+}

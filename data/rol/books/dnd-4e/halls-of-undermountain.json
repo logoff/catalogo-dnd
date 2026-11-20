@@ -1,0 +1,18 @@
+{
+  "slug": "halls-of-undermountain",
+  "system": "dnd-4e",
+  "title": "Halls of Undermountain",
+  "kind": "setting",
+  "description": "Bajomontaña, la gran mazmorra bajo Aguas Profundas y guarida del mago loco Halaster, con su historia, sus accesos, la posada del Portal Bostezante y zonas listas para explorar.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Halls_of_Undermountain",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-04",
+      "format": "paperback",
+      "isbn13": 9780786959945,
+      "cover": "/images/rol/halls-of-undermountain/english.webp"
+    }
+  ]
+}

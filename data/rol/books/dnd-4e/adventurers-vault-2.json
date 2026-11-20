@@ -1,0 +1,18 @@
+{
+  "slug": "adventurers-vault-2",
+  "system": "dnd-4e",
+  "title": "Adventurer's Vault 2",
+  "kind": "supplement",
+  "description": "Más objetos mágicos y equipo para la 4.ª edición, incluidos objetos para las clases del Player's Handbook 2, conjuntos de objetos y artefactos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-08",
+      "format": "hardcover",
+      "isbn13": 9780786952045,
+      "cover": "/images/rol/adventurers-vault-2/english.webp"
+    }
+  ]
+}

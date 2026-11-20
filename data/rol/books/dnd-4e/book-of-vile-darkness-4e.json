@@ -1,0 +1,18 @@
+{
+  "slug": "book-of-vile-darkness-4e",
+  "system": "dnd-4e",
+  "title": "Book of Vile Darkness",
+  "kind": "supplement",
+  "description": "El mal en la 4.ª edición, sobre todo para el Dungeon Master: villanos, cultos, reglas para corromper a los personajes, opciones para jugar con malvados y artefactos.\n\nComparte título con el libro de la 3.ª edición. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-12",
+      "format": "hardcover",
+      "isbn13": 9780786958689,
+      "cover": "/images/rol/book-of-vile-darkness-4e/english.webp"
+    }
+  ]
+}

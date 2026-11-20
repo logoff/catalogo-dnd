@@ -1,0 +1,18 @@
+{
+  "slug": "vor-rukoth",
+  "system": "dnd-4e",
+  "title": "Vor Rukoth: An Ancient Ruins Adventure Site",
+  "kind": "adventure",
+  "description": "Las ruinas de una fortaleza del antiguo imperio tiflin de Bael Turath, convertidas en guarida de monstruos, descritas como escenario de aventuras para cualquier campaña.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Vor_Rukoth",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-07",
+      "format": "paperback",
+      "isbn13": 9780786955497,
+      "cover": "/images/rol/vor-rukoth/english.webp"
+    }
+  ]
+}
