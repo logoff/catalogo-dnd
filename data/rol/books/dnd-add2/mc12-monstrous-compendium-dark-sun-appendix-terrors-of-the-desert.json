@@ -3,7 +3,7 @@
   "system": "dnd-add2",
   "title": "MC12 Monstrous Compendium Dark Sun Appendix: Terrors of the Desert",
   "kind": "supplement",
-  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992.\n\nSolo salió en inglés.",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
   "editions": [
     {
@@ -11,6 +11,12 @@
       "publisher": "TSR",
       "date": "1992",
       "cover": "/images/rol/mc12-monstrous-compendium-dark-sun-appendix-terrors-of-the-desert/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Monstruos Volumen Tres: Terrores del Desierto",
+      "publisher": "Zinco",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
     }
   ]
 }

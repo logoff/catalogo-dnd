@@ -3,7 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to Waterdeep",
   "kind": "setting",
-  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1992, en un libro en rústica de 240 páginas. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1992, en un libro en rústica de 240 páginas. Lo escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [
     {
@@ -12,6 +12,13 @@
       "date": "1992",
       "format": "paperback",
       "cover": "/images/rol/volos-guide-to-waterdeep/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de Volo para Aguas Profundas",
+      "publisher": "Martínez Roca",
+      "format": "paperback",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
     }
   ]
 }

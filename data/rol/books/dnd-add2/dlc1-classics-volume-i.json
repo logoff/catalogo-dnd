@@ -3,7 +3,7 @@
   "system": "dnd-add2",
   "title": "DLC1 Classics Volume I",
   "kind": "adventure",
-  "description": "Aventura de Dragonlance que TSR publicó en 1991. La escribió Tracy Hickman, Douglas Niles y Michael Dobson.\n\nSolo salió en inglés.",
+  "description": "Aventura de Dragonlance que TSR publicó en 1991. La escribió Tracy Hickman, Douglas Niles y Michael Dobson.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-dlc.html",
   "editions": [
     {
@@ -11,6 +11,12 @@
       "publisher": "TSR",
       "date": "1991",
       "cover": "/images/rol/dlc1-classics-volume-i/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Clásicos Volumen I",
+      "publisher": "Zinco",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
     }
   ]
 }

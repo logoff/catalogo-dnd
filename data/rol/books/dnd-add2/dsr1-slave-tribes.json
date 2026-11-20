@@ -3,7 +3,7 @@
   "system": "dnd-add2",
   "title": "DSR1 Slave Tribes",
   "kind": "setting",
-  "description": "Suplemento de Dark Sun que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió Bill Slavicsek.\n\nSolo salió en inglés.",
+  "description": "Suplemento de Dark Sun que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió Bill Slavicsek.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/ds/ds-dsr.html",
   "editions": [
     {
@@ -12,6 +12,13 @@
       "date": "1992",
       "format": "paperback",
       "cover": "/images/rol/dsr1-slave-tribes/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Tribus de Esclavos",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
     }
   ]
 }

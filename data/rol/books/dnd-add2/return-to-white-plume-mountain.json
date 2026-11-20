@@ -3,7 +3,7 @@
   "system": "dnd-add2",
   "title": "Return to White Plume Mountain",
   "kind": "adventure",
-  "description": "La secuela de la aventura clásica S2 White Plume Mountain, por el 25.º aniversario de D&D.\n\nSolo salió en inglés.",
+  "description": "La secuela de la aventura clásica S2 White Plume Mountain, por el 25.º aniversario de D&D.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/add/add-25.html",
   "editions": [
     {
@@ -12,6 +12,13 @@
       "date": "1999",
       "format": "paperback",
       "cover": "/images/rol/return-to-white-plume-mountain/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Retorno a la Montaña del Penacho Blanco",
+      "publisher": "Martínez Roca",
+      "format": "paperback",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
     }
   ]
 }
