@@ -1,0 +1,18 @@
+{
+  "slug": "city-of-splendors-waterdeep",
+  "system": "dnd-3-5",
+  "title": "City of Splendors: Waterdeep",
+  "kind": "setting",
+  "description": "Aguas Profundas, la gran ciudad de la Costa de la Espada: su historia, sus barrios con mapas, sus lugares clave, sus leyes y sus personajes importantes con perfil de juego, y reglas para llevar aventuras en la ciudad.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/City_of_Splendors:_Waterdeep",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-07",
+      "format": "hardcover",
+      "isbn13": 9780786936939,
+      "cover": "/images/rol/city-of-splendors-waterdeep/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "lost-empires-of-faerun",
+  "system": "dnd-3-5",
+  "title": "Lost Empires of Faerûn",
+  "kind": "setting",
+  "description": "Los imperios caídos de la historia de Faerûn, como Netheril: qué fueron, qué queda de ellos y cómo usar sus ruinas y sus secretos en aventuras, con opciones de personaje, conjuros, objetos y monstruos ligados a ellos.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Forgotten_Realms_modules_and_sourcebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9780786936540,
+      "cover": "/images/rol/lost-empires-of-faerun/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Los Imperios Perdidos de Faerûn",
+      "publisher": "Devir",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9788496422483,
+      "source": "https://www.todostuslibros.com/libros/los-imperios-perdidos-de-faerun_978-84-96422-48-3"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "anauroch-the-empire-of-shade",
+  "system": "dnd-3-5",
+  "title": "Anauroch: The Empire of Shade",
+  "kind": "adventure",
+  "description": "Una aventura de campaña en el gran desierto de Anauroch: fuerzas malignas quieren deshacer el Tejido y sustituirlo por el Tejido de la Sombra, y los personajes se enfrentan al imperio de Netheril renacido.\n\nCierra la trilogía de Cormyr y Shadowdale y fue una de las últimas aventuras de 3.5. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Anauroch:_The_Empire_of_Shade",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-11",
+      "isbn13": 9780786943623,
+      "cover": "/images/rol/anauroch-the-empire-of-shade/english.webp"
+    }
+  ]
+}

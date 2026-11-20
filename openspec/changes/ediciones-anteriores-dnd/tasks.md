@@ -99,7 +99,7 @@
       Sandstorm, Stormwrack, Libris Mortis, Draconomicon, Fiendish Codex,
       Heroes of Battle…). Marcar el inventario, verificar con `just check` y
       abrir su PR
-- [ ] 5.3 Tanda de Reinos Olvidados para 3.5. Marcar el inventario,
+- [x] 5.3 Tanda de Reinos Olvidados para 3.5. Marcar el inventario,
       verificar con `just check` y abrir su PR
 - [ ] 5.4 Tanda de Eberron. Marcar el inventario, verificar con
       `just check` y abrir su PR

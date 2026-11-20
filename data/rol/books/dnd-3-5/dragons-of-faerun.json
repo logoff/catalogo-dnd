@@ -1,0 +1,18 @@
+{
+  "slug": "dragons-of-faerun",
+  "system": "dnd-3-5",
+  "title": "Dragons of Faerûn",
+  "kind": "setting",
+  "description": "Los dragones y dracoliches más famosos de los Reinos Olvidados, las organizaciones ligadas a ellos, como la iglesia de Tiamat o el Culto del Dragón, guaridas con trampas y tesoros, conjuros para dragones, monstruos nuevos y aventuras listas para jugar.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dragons_of_Faer%C3%BBn",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-08",
+      "format": "hardcover",
+      "isbn13": 9780786939237,
+      "cover": "/images/rol/dragons-of-faerun/english.webp"
+    }
+  ]
+}

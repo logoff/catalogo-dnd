@@ -1,0 +1,26 @@
+{
+  "slug": "players-guide-to-faerun",
+  "system": "dnd-3-5",
+  "title": "Player's Guide to Faerûn",
+  "kind": "setting",
+  "description": "La guía del jugador de los Reinos Olvidados para 3.5: razas y subrazas de Faerûn, regiones de origen, dotes, conjuros, clases de prestigio, objetos mágicos y deidades, con material puesto al día de las ediciones anteriores de la ambientación.\n\nActualiza a 3.5 las opciones de personaje del Forgotten Realms Campaign Setting de 2001. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Player%27s_Guide_to_Faer%C3%BBn",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-03",
+      "format": "hardcover",
+      "isbn13": 9780786931347,
+      "cover": "/images/rol/players-guide-to-faerun/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Faerûn: Guía del Jugador",
+      "publisher": "Devir",
+      "date": "2007-04",
+      "isbn13": 9788496262836,
+      "source": "https://www.todostuslibros.com/libros/faerun-guia-del-jugador_978-84-96262-83-6"
+    }
+  ]
+}

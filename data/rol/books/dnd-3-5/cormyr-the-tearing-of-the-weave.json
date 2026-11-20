@@ -1,0 +1,25 @@
+{
+  "slug": "cormyr-the-tearing-of-the-weave",
+  "system": "dnd-3-5",
+  "title": "Cormyr: The Tearing of the Weave",
+  "kind": "adventure",
+  "description": "Una aventura de campaña en el reino de Cormyr: una conspiración tras la fachada del templo de Mystra amenaza el futuro del reino y lleva a los personajes del Pantano Vasto al Plano de la Sombra.\n\nEs la primera de una trilogía con Shadowdale: The Scouring of the Land y Anauroch: The Empire of Shade. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Cormyr:_The_Tearing_of_the_Weave",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007",
+      "isbn13": 9780786941193,
+      "cover": "/images/rol/cormyr-the-tearing-of-the-weave/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Cormyr",
+      "publisher": "Devir",
+      "date": "2007-11",
+      "isbn13": 9788496934030,
+      "source": "https://www.todostuslibros.com/libros/cormyr_978-84-96934-03-0"
+    }
+  ]
+}
