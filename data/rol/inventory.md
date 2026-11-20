@@ -366,6 +366,7 @@ aunque sus fichas se guardan en `data/rol/` con el mismo modelo. Entran los
 libros impresos de Wizards of the Coast de cada edición, aunque solo salieran
 en inglés, con su edición de Devir si la hubo. No llevan enlaces de compra.
 Fuera: miniaturas, Dungeon Tiles, pantallas, hojas de personaje, revistas,
+packs que solo reúnen libros ya publicados (el Player's Kit de 2006),
 aventuras solo digitales y material con licencia de otras editoriales
 (Dragonlance de Sovereign Press).
 
@@ -408,14 +409,13 @@ Press.
 
 ### Básicos y cajas de inicio de 3.5
 
-| #   | Título original                      | Título en castellano        | Tipo           | Fecha   | ISBN          | Devir     | Ficha                     | Nota                                                       |
-| --- | ------------------------------------ | --------------------------- | -------------- | ------- | ------------- | --------- | ------------------------- | ---------------------------------------------------------- |
-| 1   | Player's Handbook v.3.5              | Manual del Jugador 3.5      | básico         | 2003-07 | 0-7869-2886-7 | sí        | players-handbook-3-5      |                                                            |
-| 2   | Dungeon Master's Guide v.3.5         | Guía del Dungeon Master 3.5 | básico         | 2003-07 | 0-7869-2889-1 | sí        | dungeon-masters-guide-3-5 |                                                            |
-| 3   | Monster Manual v.3.5                 | Manual de Monstruos 3.5     | básico         | 2003-07 | 0-7869-2893-X | sí        | monster-manual-3-5        |                                                            |
-| 4   | Dungeons & Dragons Basic Game (2004) | —                           | caja de inicio | 2004-09 | 0-7869-3409-3 | no consta | pendiente                 |                                                            |
-| 5   | Dungeons & Dragons Basic Game (2006) | —                           | caja de inicio | 2006-09 | 0-7869-3944-3 | no consta | pendiente                 |                                                            |
-| 6   | Dungeons & Dragons Player's Kit      | —                           | caja de inicio | 2007-02 | 0-7869-3945-1 | no consta | pendiente                 | Comprobar si es un libro o un pack del Manual del Jugador. |
+| #   | Título original                      | Título en castellano        | Tipo           | Fecha   | ISBN          | Devir     | Ficha                     | Nota |
+| --- | ------------------------------------ | --------------------------- | -------------- | ------- | ------------- | --------- | ------------------------- | ---- |
+| 1   | Player's Handbook v.3.5              | Manual del Jugador 3.5      | básico         | 2003-07 | 0-7869-2886-7 | sí        | players-handbook-3-5      |      |
+| 2   | Dungeon Master's Guide v.3.5         | Guía del Dungeon Master 3.5 | básico         | 2003-07 | 0-7869-2889-1 | sí        | dungeon-masters-guide-3-5 |      |
+| 3   | Monster Manual v.3.5                 | Manual de Monstruos 3.5     | básico         | 2003-07 | 0-7869-2893-X | sí        | monster-manual-3-5        |      |
+| 4   | Dungeons & Dragons Basic Game (2004) | —                           | caja de inicio | 2004-09 | 0-7869-3409-3 | no consta | basic-game-2004           |      |
+| 5   | Dungeons & Dragons Basic Game (2006) | —                           | caja de inicio | 2006    | 0-7869-3944-3 | no consta | basic-game-2006           |      |
 
 ### Suplementos de reglas de 3.5
 
@@ -518,21 +518,21 @@ Press.
 
 ### Otras ambientaciones y aventuras
 
-| #   | Título original                         | Título en castellano                | Tipo         | Fecha   | ISBN          | Devir     | Ficha     | Nota                                                                                                   |
-| --- | --------------------------------------- | ----------------------------------- | ------------ | ------- | ------------- | --------- | --------- | ------------------------------------------------------------------------------------------------------ |
-| 1   | Dragonlance Campaign Setting            | Escenario de Campaña de Dragonlance | ambientación | 2003-08 | por confirmar | sí        | pendiente | Fecha e ISBN por confirmar. Los demás libros de Dragonlance 3.5 son de Sovereign Press y quedan fuera. |
-| 2   | Scourge of the Howling Horde            | El Azote de la Horda Aullante       | aventura     | 2006    | por confirmar | sí        | pendiente |                                                                                                        |
-| 3   | Red Hand of Doom                        | La Horda de la Mano Roja            | aventura     | 2006    | por confirmar | sí        | pendiente |                                                                                                        |
-| 4   | Expedition to Castle Ravenloft          | Expedición al Castillo Ravenloft    | aventura     | 2006-10 | por confirmar | sí        | pendiente |                                                                                                        |
-| 5   | The Shattered Gates of Slaughtergarde   | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente |                                                                                                        |
-| 6   | Barrow of the Forgotten King            | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
-| 7   | The Sinister Spire                      | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
-| 8   | Fortress of the Yuan-Ti                 | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
-| 9   | Expedition to the Ruins of Greyhawk     | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
-| 10  | Expedition to the Demonweb Pits         | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente |                                                                                                        |
-| 11  | Fantastic Locations: Fane of the Drow   | —                                   | aventura     | 2005    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
-| 12  | Fantastic Locations: Hellspike Prison   | —                                   | aventura     | 2005    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
-| 13  | Fantastic Locations: Dragondown Grotto  | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
-| 14  | Fantastic Locations: Fields of Ruin     | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
-| 15  | Fantastic Locations: The Frostfell Rift | —                                   | aventura     | 2006    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
-| 16  | Fantastic Locations: City of Peril      | —                                   | aventura     | 2007    | por confirmar | no consta | pendiente | Cuadernillo de 16 páginas con mapas para miniaturas.                                                   |
+| #   | Título original                         | Título en castellano                        | Tipo         | Fecha   | ISBN              | Devir     | Ficha                                  | Nota                                                                       |
+| --- | --------------------------------------- | ------------------------------------------- | ------------ | ------- | ----------------- | --------- | -------------------------------------- | -------------------------------------------------------------------------- |
+| 1   | Dragonlance Campaign Setting            | Escenario de Campaña de Dragonlance         | ambientación | 2003-08 | 0-7869-3086-1     | sí        | dragonlance-campaign-setting           | Los demás libros de Dragonlance 3.5 son de Sovereign Press y quedan fuera. |
+| 2   | Scourge of the Howling Horde            | El Azote de la Horda Aullante               | aventura     | 2006-11 | 0-7869-3935-4     | sí        | scourge-of-the-howling-horde           |                                                                            |
+| 3   | Red Hand of Doom                        | La Horda de la Mano Roja                    | aventura     | 2006    | 0-7869-3938-9     | sí        | red-hand-of-doom                       |                                                                            |
+| 4   | Expedition to Castle Ravenloft          | Ravenloft: Expedición al Castillo de Strahd | aventura     | 2006-10 | 0-7869-3946-X     | sí        | expedition-to-castle-ravenloft         |                                                                            |
+| 5   | The Shattered Gates of Slaughtergarde   | —                                           | aventura     | 2006    | 0-7869-4196-0     | no consta | the-shattered-gates-of-slaughtergarde  |                                                                            |
+| 6   | Barrow of the Forgotten King            | —                                           | aventura     | 2007-02 | 978-0-7869-4318-0 | no consta | barrow-of-the-forgotten-king           |                                                                            |
+| 7   | The Sinister Spire                      | —                                           | aventura     | 2007    | 978-0-7869-4357-9 | no consta | the-sinister-spire                     |                                                                            |
+| 8   | Fortress of the Yuan-Ti                 | —                                           | aventura     | 2007-09 | 978-0-7869-4360-9 | no consta | fortress-of-the-yuan-ti                |                                                                            |
+| 9   | Expedition to the Ruins of Greyhawk     | —                                           | aventura     | 2007-08 | 978-0-7869-4358-6 | no consta | expedition-to-the-ruins-of-greyhawk    |                                                                            |
+| 10  | Expedition to the Demonweb Pits         | —                                           | aventura     | 2007-04 | 978-0-7869-4038-7 | no consta | expedition-to-the-demonweb-pits        |                                                                            |
+| 11  | Fantastic Locations: Fane of the Drow   | —                                           | aventura     | 2005    | 0-7869-3847-1     | no consta | fantastic-locations-fane-of-the-drow   | Cuadernillo de 16 páginas con mapas para miniaturas.                       |
+| 12  | Fantastic Locations: Hellspike Prison   | —                                           | aventura     | 2005    | 0-7869-3848-X     | no consta | fantastic-locations-hellspike-prison   | Cuadernillo de 16 páginas con mapas para miniaturas.                       |
+| 13  | Fantastic Locations: Dragondown Grotto  | —                                           | aventura     | 2006    | 0-7869-3921-4     | no consta | fantastic-locations-dragondown-grotto  | Cuadernillo de 16 páginas con mapas para miniaturas.                       |
+| 14  | Fantastic Locations: Fields of Ruin     | —                                           | aventura     | 2006    | 0-7869-3908-7     | no consta | fantastic-locations-fields-of-ruin     | Cuadernillo de 16 páginas con mapas para miniaturas.                       |
+| 15  | Fantastic Locations: The Frostfell Rift | —                                           | aventura     | 2006    | 0-7869-4169-3     | no consta | fantastic-locations-the-frostfell-rift | Cuadernillo de 16 páginas con mapas para miniaturas.                       |
+| 16  | Fantastic Locations: City of Peril      | —                                           | aventura     | 2007    | 978-0-7869-4320-3 | no consta | fantastic-locations-city-of-peril      | Cuadernillo de 16 páginas con mapas para miniaturas.                       |

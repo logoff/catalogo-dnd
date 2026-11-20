@@ -1,0 +1,18 @@
+{
+  "slug": "basic-game-2006",
+  "system": "dnd-3-5",
+  "title": "Dungeons & Dragons Basic Game (2006)",
+  "kind": "starter",
+  "description": "La segunda versión de la caja de inicio de 3.5, con el mismo planteamiento que la de 2004: reglas simplificadas, aventuras, mapas, dados y miniaturas prepintadas para empezar a jugar sin conocer las reglas.\n\nComo la anterior, llevaba a quien terminaba la caja hacia el Manual del Jugador. Solo salió en inglés.",
+  "source": "https://openlibrary.org/isbn/0786939443",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006",
+      "format": "boxed_set",
+      "isbn13": 9780786939442,
+      "cover": "/images/rol/basic-game-2006/english.webp"
+    }
+  ]
+}

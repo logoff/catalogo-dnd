@@ -1,0 +1,18 @@
+{
+  "slug": "expedition-to-the-ruins-of-greyhawk",
+  "system": "dnd-3-5",
+  "title": "Expedition to the Ruins of Greyhawk",
+  "kind": "adventure",
+  "description": "Una campaña en las ruinas del Castillo de Greyhawk, la mazmorra más famosa del rol, para personajes de nivel 8 a 13, con la ciudad de Greyhawk y sus facciones alrededor.\n\nForma parte de la línea Expedition, que recuperaba lugares clásicos de D&D. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20070716032029/http://www.wizards.com:80/default.asp?x=products/dndacc/109257200",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-08",
+      "format": "hardcover",
+      "isbn13": 9780786943586,
+      "cover": "/images/rol/expedition-to-the-ruins-of-greyhawk/english.webp"
+    }
+  ]
+}

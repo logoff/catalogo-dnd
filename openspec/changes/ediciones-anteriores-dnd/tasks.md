@@ -101,9 +101,9 @@
       abrir su PR
 - [x] 5.3 Tanda de Reinos Olvidados para 3.5. Marcar el inventario,
       verificar con `just check` y abrir su PR
-- [ ] 5.4 Tanda de Eberron. Marcar el inventario, verificar con
+- [x] 5.4 Tanda de Eberron. Marcar el inventario, verificar con
       `just check` y abrir su PR
-- [ ] 5.5 Tanda de aventuras y del resto, hasta que no quede ningún libro de
+- [x] 5.5 Tanda de aventuras y del resto, hasta que no quede ningún libro de
       3.5 en `pendiente`. Verificar con `just check` y con el inventario sin
       pendientes de 3.5, y abrir su PR
 

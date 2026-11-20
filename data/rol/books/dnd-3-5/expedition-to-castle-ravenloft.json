@@ -1,0 +1,27 @@
+{
+  "slug": "expedition-to-castle-ravenloft",
+  "system": "dnd-3-5",
+  "title": "Expedition to Castle Ravenloft",
+  "kind": "adventure",
+  "description": "La aventura clásica de 1983 ampliada para 3.5: los personajes viajan a Barovia para enfrentarse al vampiro Strahd von Zarovich en su castillo. Se juega como una minicampaña de nivel 6 a 10 y ofrece varias formas de llevarla, más corta o más larga.\n\nDevuelve Ravenloft a su origen, sin el semiplano del terror de la ambientación posterior. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20060813123448/http://www.wizards.com:80/default.asp?x=products/dndacc/953937200",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-10",
+      "format": "hardcover",
+      "isbn13": 9780786939466,
+      "cover": "/images/rol/expedition-to-castle-ravenloft/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Ravenloft: Expedición al Castillo de Strahd",
+      "publisher": "Devir",
+      "date": "2007-04",
+      "format": "hardcover",
+      "isbn13": 9788496422872,
+      "source": "https://www.todostuslibros.com/libros/ravenloft_978-84-96422-87-2"
+    }
+  ]
+}

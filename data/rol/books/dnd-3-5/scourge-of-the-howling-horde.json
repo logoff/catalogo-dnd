@@ -1,0 +1,27 @@
+{
+  "slug": "scourge-of-the-howling-horde",
+  "system": "dnd-3-5",
+  "title": "Scourge of the Howling Horde",
+  "kind": "adventure",
+  "description": "Una aventura corta para personajes de 1.er nivel, pensada para empezar una campaña: los personajes se enfrentan a la horda que da título a la aventura.\n\nDevir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20061116043610/http://www.wizards.com:80/default.asp?x=products/dndacc/953827400",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-11",
+      "format": "paperback",
+      "isbn13": 9780786939350,
+      "cover": "/images/rol/scourge-of-the-howling-horde/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Azote de la Horda Aullante",
+      "publisher": "Devir",
+      "date": "2007-05",
+      "format": "paperback",
+      "isbn13": 9788496422896,
+      "source": "https://www.todostuslibros.com/libros/el-azote-de-la-horda-aullante_978-84-96422-89-6"
+    }
+  ]
+}
