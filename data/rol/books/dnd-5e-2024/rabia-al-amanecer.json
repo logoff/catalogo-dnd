@@ -10,7 +10,14 @@
       "language": "castellano",
       "title": "Los seis demonios de la ira 1: Rabia al amanecer",
       "publisher": "Dragon Lighthouse",
-      "date": "2026-05"
+      "date": "2026-05",
+      "isbn13": 9791399093728,
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19095-dragonlight-rabia-al-amanecer-9791399093728.html"
+        }
+      ]
     }
   ]
 }

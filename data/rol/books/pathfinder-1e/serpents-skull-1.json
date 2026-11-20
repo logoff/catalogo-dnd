@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La calavera de la serpiente 1: Almas para Picho Contrabandista",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/7389-pathfinder-la-calavera-de-la-serpiente-almas-para-el-pincho-del-contrabandista-8436017228007.html"
+        }
+      ]
     }
   ]
 }

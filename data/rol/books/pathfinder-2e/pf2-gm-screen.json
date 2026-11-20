@@ -11,7 +11,13 @@
       "title": "Pantalla",
       "publisher": "Devir",
       "cover": "/images/rol/pf2-gm-screen/castellano.webp",
-      "source": "https://devir.es/pathfinder-2-ed-pantalla"
+      "source": "https://devir.es/pathfinder-2-ed-pantalla",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11074-pathfinder-pantalla-del-dj-segunda-edicion-8436589622449.html"
+        }
+      ]
     }
   ]
 }

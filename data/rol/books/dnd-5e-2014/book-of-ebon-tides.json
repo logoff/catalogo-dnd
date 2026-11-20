@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2022-09"
+      "date": "2022-09",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1950789330/"
+        }
+      ]
     }
   ]
 }
