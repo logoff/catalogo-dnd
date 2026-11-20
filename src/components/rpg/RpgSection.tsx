@@ -4,6 +4,8 @@ import Breadcrumbs from '@/components/common/Breadcrumbs'
 import type { RpgBookSummary, RpgSystem } from '@/types/rpg'
 import { bookPath } from '@/utils/rpg'
 import { bookKindGroups, bookKindNames } from '@/utils/rpgTranslations'
+import { SpanishMark } from '@/components/ui/Badge'
+import { headingClass } from '@/components/ui/styles'
 
 export const SECTION_NAME = 'Otros juegos de rol'
 export const EDITIONS_NAME = 'Ediciones de D&D'
@@ -74,12 +76,21 @@ export function BookList({
             key={book.slug}
             className="flex flex-wrap items-baseline justify-between gap-x-4 py-2"
           >
-            <Link
-              to={bookPath(book, systems)}
-              className="font-medium text-fg underline-offset-2 hover:underline"
-            >
-              {book.titleEs ?? book.title}
-            </Link>
+            <div className="min-w-0">
+              <Link
+                to={bookPath(book, systems)}
+                className="font-medium text-fg underline-offset-2 hover:underline"
+              >
+                {book.title}
+              </Link>
+              {book.titleEs && book.titleEs !== book.title && (
+                <div>
+                  <SpanishMark>
+                    <span lang="es">{book.titleEs}</span>
+                  </SpanishMark>
+                </div>
+              )}
+            </div>
             <span className="text-sm text-muted">
               {(yearOnly ? [book.year] : [system?.name, bookKindNames[book.kind], book.year])
                 .filter(Boolean)
@@ -104,7 +115,7 @@ export function BooksByKind({ books, systems }: { books: RpgBookSummary[]; syste
         if (group.length === 0) return null
         return (
           <section key={kind} aria-label={title}>
-            <h3 className="mb-2 text-sm font-semibold">{title}</h3>
+            <h3 className={headingClass('group', 'mb-2')}>{title}</h3>
             <BookList books={group} systems={systems} yearOnly />
           </section>
         )

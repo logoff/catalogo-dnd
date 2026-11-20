@@ -3,7 +3,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 import MetaTags from '@/components/seo/MetaTags'
 import Badge from '@/components/ui/Badge'
 import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
-import { buttonClass, cardClass } from '@/components/ui/styles'
+import { buttonClass, cardClass, headingClass } from '@/components/ui/styles'
 import {
   BookList,
   BooksByKind,
@@ -137,7 +137,7 @@ export default function RpgSystemPage({ section = 'rol' }: { section?: RpgSectio
             <DetailSection title="Derivaciones">
               {parents.length > 0 && (
                 <>
-                  <h3 className="mb-2 text-sm font-semibold">Deriva de</h3>
+                  <h3 className={headingClass('group', 'mb-2')}>Deriva de</h3>
                   <ul className="mb-6 space-y-3">
                     {parents.map((derivation) => {
                       const via = derivation.via_license && findLicense(derivation.via_license)
@@ -155,7 +155,7 @@ export default function RpgSystemPage({ section = 'rol' }: { section?: RpgSectio
               )}
               {children.length > 0 && (
                 <>
-                  <h3 className="mb-2 text-sm font-semibold">
+                  <h3 className={headingClass('group', 'mb-2')}>
                     {edition ? 'Derivan de ella' : 'Derivan de él'}
                   </h3>
                   <ul className="space-y-3">

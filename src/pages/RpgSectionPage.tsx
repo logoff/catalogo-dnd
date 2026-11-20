@@ -4,7 +4,7 @@ import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import PageHeader from '@/components/ui/PageHeader'
 import SearchField from '@/components/ui/SearchField'
-import { cardClass, selectClass } from '@/components/ui/styles'
+import { cardClass, selectClass, headingClass } from '@/components/ui/styles'
 import RpgBookCard from '@/components/rpg/RpgBookCard'
 import { RpgLoading, SECTION_NAME } from '@/components/rpg/RpgSection'
 import { useRpgIndex } from '@/hooks/useRpgData'
@@ -88,7 +88,7 @@ export default function RpgSectionPage() {
 
         <section aria-labelledby="sistemas" className="mb-12">
           <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-            <h2 id="sistemas" className="text-xl">
+            <h2 id="sistemas" className={headingClass('section')}>
               Sistemas
             </h2>
             <Link
@@ -127,7 +127,7 @@ export default function RpgSectionPage() {
         </section>
 
         <section aria-labelledby="libros">
-          <h2 id="libros" className="mb-4 text-xl">
+          <h2 id="libros" className={headingClass('section', 'mb-4')}>
             Libros
           </h2>
           <div className="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5 lg:items-end">

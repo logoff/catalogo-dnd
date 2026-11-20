@@ -12,7 +12,7 @@ import VideogameCard from '@/components/videogames/VideogameCard'
 import { useMerchandiseStore } from '@/store/merchandiseStore'
 import MerchandiseCard from '@/components/merchandise/MerchandiseCard'
 import NovelCard from '@/components/novels/NovelCard'
-import { cardClass } from '@/components/ui/styles'
+import { cardClass, headingClass } from '@/components/ui/styles'
 import { latestInSpanish } from '@/utils/releases'
 import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
@@ -56,7 +56,7 @@ function Block({
   return (
     <section className={`${container} py-10`}>
       <div className="mb-5 flex items-baseline justify-between gap-4">
-        <h2 className="text-xl">{title}</h2>
+        <h2 className={headingClass('section')}>{title}</h2>
         <Link
           to={to}
           className="inline-flex min-h-11 items-center gap-1 text-sm text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"

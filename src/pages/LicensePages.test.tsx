@@ -95,7 +95,7 @@ describe('páginas de licencias', () => {
       'href',
       '/rol/pathfinder-1e'
     )
-    expect(screen.getByRole('link', { name: 'Reglamento básico' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'Core Rulebook' })).toHaveAttribute(
       'href',
       '/rol/pathfinder-1e/core-rulebook'
     )
@@ -116,7 +116,7 @@ describe('páginas de licencias', () => {
       'href',
       '/ediciones/dnd-3-5'
     )
-    expect(screen.getAllByRole('link', { name: 'Reglamento básico' })).toHaveLength(1)
+    expect(screen.getAllByRole('link', { name: 'Core Rulebook' })).toHaveLength(1)
   })
 
   it('el documento de referencia y su licencia se enlazan en los dos sentidos', () => {

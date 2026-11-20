@@ -63,7 +63,10 @@ tema claro y el oscuro en `src/styles/globals.css`; los componentes no usan
 otros colores ni la variante `dark:` para ellos, y `contrast.test.ts` exige
 AA. El rojo es el único acento: acción principal (comprar), castellano,
 elemento activo y foco. Fuentes Geist y Geist Mono (cifras, fechas, ISBN).
-Los componentes base están en `src/components/ui/` (botón, tarjeta,
+Los títulos usan la escala de `headingClass` (`styles.ts`): sección, título de
+bloque, grupo de una lista (versalitas grises) y elemento; nada de tamaños
+sueltos. En las listas de libros va primero el título original y, debajo, el de
+castellano con `SpanishMark`. Los componentes base están en `src/components/ui/` (botón, tarjeta,
 insignia, buscador, control segmentado, navegación por secciones, tablas,
 cabecera de página). Sin animaciones de entrada ni degradados. El tema se
 aplica antes de pintar con el script en línea de `index.html` (el mismo

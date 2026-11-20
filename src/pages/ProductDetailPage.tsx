@@ -15,6 +15,7 @@ import SectionNav from '@/components/ui/SectionNav'
 import { ButtonLink } from '@/components/ui/Button'
 import { bilingualTitle, firstPublication } from '@/utils/releases'
 import type { Edition, ProductWithMeta, Publication } from '@/types'
+import { headingClass } from '@/components/ui/styles'
 
 const releaseDate = (pub: Publication) => (pub.date ? formatDate(pub.date) : 'anunciado, sin fecha')
 
@@ -185,7 +186,7 @@ export default function ProductDetailPage() {
 
         <div className="space-y-12">
           <section id="ediciones" className="scroll-mt-32">
-            <h2 className="mb-4 text-xl">Ediciones</h2>
+            <h2 className={headingClass('section', 'mb-4')}>Ediciones</h2>
             <EditionsSummary product={product} />
           </section>
 
@@ -196,7 +197,7 @@ export default function ProductDetailPage() {
           ) : null}
 
           <section id="detalles" className="scroll-mt-32">
-            <h2 className="mb-4 text-xl">Detalles de cada edición</h2>
+            <h2 className={headingClass('section', 'mb-4')}>Detalles de cada edición</h2>
             <ProductDetail product={product} />
           </section>
         </div>

@@ -31,6 +31,7 @@ import MediaReviews from '../common/MediaReviews'
 import NovelBestseller from './NovelBestseller'
 import NovelSpanishBadge from './NovelSpanishBadge'
 import { NOVEL_PLACEHOLDER } from './NovelCard'
+import { headingClass } from '@/components/ui/styles'
 
 interface NovelDetailProps {
   novel: NovelWithMeta
@@ -270,7 +271,9 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
               {anthologies.map((anthology) => (
                 <li key={anthology.id} className="space-y-3">
                   <div>
-                    <h3 className="text-xl text-fg">{anthology.title_es ?? anthology.title}</h3>
+                    <h3 className={headingClass('title')}>
+                      {anthology.title_es ?? anthology.title}
+                    </h3>
                     {anthology.title_es && anthology.title_es !== anthology.title && (
                       <p className="text-sm text-muted">{anthology.title}</p>
                     )}
