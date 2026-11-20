@@ -1,0 +1,27 @@
+{
+  "slug": "book-of-exalted-deeds",
+  "system": "dnd-3-5",
+  "title": "Book of Exalted Deeds",
+  "kind": "supplement",
+  "description": "Un suplemento para jugar con personajes del bien más puro: qué significa ser bueno en el juego, votos, dotes exaltadas, clases de prestigio, conjuros, objetos sagrados y celestiales. Es el contrapunto del Book of Vile Darkness y, como él, llevaba en la portada el aviso de contenido para adultos.\n\nSalió justo después de la revisión 3.5 y es compatible con ella. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030608021830/http://www.wizards.com:80/default.asp?x=products/dndacc/880260000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "hardcover",
+      "isbn13": 9780786931361,
+      "cover": "/images/rol/book-of-exalted-deeds/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Libro de Obras Elevadas",
+      "publisher": "Devir",
+      "date": "2004-04",
+      "format": "hardcover",
+      "isbn13": 9788496262430,
+      "source": "https://www.todostuslibros.com/libros/libro-de-obras-elevadas_978-84-96262-43-0"
+    }
+  ]
+}

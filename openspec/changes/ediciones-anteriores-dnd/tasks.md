@@ -88,13 +88,16 @@
 
 ## 5. Catálogo de 3.5 por tandas
 
-- [ ] 5.1 Tanda de suplementos de reglas generales (Monster Manual II a V,
+- [x] 5.1 Tanda de suplementos de reglas generales (Monster Manual III a V,
       Player's Handbook II, Dungeon Master's Guide II, Unearthed Arcana,
-      compendios). Marcar el inventario, verificar con `just check` y abrir
-      su PR
-- [ ] 5.2 Tanda de las series Complete y Races of y de los libros de
-      entornos y temas (Frostburn, Sandstorm, Stormwrack, Libris Mortis,
-      Draconomicon…). Marcar el inventario, verificar con `just check` y
+      compendios, psiónica, sistemas nuevos de Incarnum, Tome of Magic y
+      Tome of Battle, Book of Exalted Deeds, Miniatures Handbook y Weapons
+      of Legacy; el Monster Manual II es de 3.0). Marcar el inventario,
+      verificar con `just check` y abrir su PR
+- [ ] 5.2 Tanda del resto de suplementos de reglas: las series Complete y
+      Races of y los libros de entornos, monstruos y temas (Frostburn,
+      Sandstorm, Stormwrack, Libris Mortis, Draconomicon, Fiendish Codex,
+      Heroes of Battle…). Marcar el inventario, verificar con `just check` y
       abrir su PR
 - [ ] 5.3 Tanda de Reinos Olvidados para 3.5. Marcar el inventario,
       verificar con `just check` y abrir su PR

@@ -1,0 +1,27 @@
+{
+  "slug": "miniatures-handbook",
+  "system": "dnd-3-5",
+  "title": "Miniatures Handbook",
+  "kind": "supplement",
+  "description": "El libro que une el juego de rol con D&D Miniatures, el juego de escaramuzas con figuras prepintadas: reglas para jugar escaramuzas y campañas con ellas, y para el rol cuatro clases nuevas (el alma predilecta, el sanador, el mariscal y el mago de guerra), dotes, conjuros y monstruos.\n\nVarias de sus clases se reeditaron en suplementos posteriores. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Miniatures_Handbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "hardcover",
+      "isbn13": 9780786932818,
+      "cover": "/images/rol/miniatures-handbook/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Miniaturas",
+      "publisher": "Devir",
+      "date": "2004-07",
+      "format": "hardcover",
+      "isbn13": 9788496262775,
+      "source": "https://www.todostuslibros.com/libros/manual-de-miniaturas_978-84-96262-77-5"
+    }
+  ]
+}

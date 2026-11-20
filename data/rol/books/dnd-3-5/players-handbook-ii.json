@@ -1,0 +1,27 @@
+{
+  "slug": "players-handbook-ii",
+  "system": "dnd-3-5",
+  "title": "Player's Handbook II",
+  "kind": "supplement",
+  "description": "Un complemento del Manual del Jugador con cuatro clases nuevas (el embaucador, el chamán dracónico, la espada del ocaso y el caballero), variantes para las clases básicas, dotes, conjuros y opciones de personaje. Dedica capítulos a dar trasfondo y personalidad al personaje, a unirse a organizaciones y a rehacer un personaje cuya construcción ya no encaja con lo que el jugador quiere.\n\nEs uno de los últimos suplementos de jugador de 3.5 y Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Player%27s_Handbook_II",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-05",
+      "format": "hardcover",
+      "isbn13": 9780786939183,
+      "cover": "/images/rol/players-handbook-ii/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador II",
+      "publisher": "Devir",
+      "date": "2006-10",
+      "format": "hardcover",
+      "isbn13": 9788496422773,
+      "source": "https://www.todostuslibros.com/libros/manual-del-jugador-ii_978-84-96422-77-3"
+    }
+  ]
+}

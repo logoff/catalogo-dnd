@@ -1,0 +1,18 @@
+{
+  "slug": "rules-compendium",
+  "system": "dnd-3-5",
+  "title": "Rules Compendium",
+  "kind": "supplement",
+  "description": "Las reglas de juego de 3.5 en un solo volumen, ordenadas alfabéticamente: combate, movimiento, condiciones, habilidades, magia y el resto, reunidas desde los tres básicos y los suplementos y con las aclaraciones y erratas publicadas hasta entonces. No trae clases, conjuros ni monstruos: es una referencia para consultar en la mesa.\n\nSalió cuando la 4.ª edición ya estaba anunciada y fue uno de los últimos libros de 3.5. Solo se publicó en inglés.",
+  "source": "https://web.archive.org/web/20070221180810/http://www.wizards.com:80/default.asp?x=products/dndacc/215397200",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-10",
+      "format": "hardcover",
+      "isbn13": 9780786947256,
+      "cover": "/images/rol/rules-compendium/english.webp"
+    }
+  ]
+}
