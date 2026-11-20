@@ -1,0 +1,17 @@
+{
+  "slug": "hwr3-the-milenian-empire",
+  "system": "dnd-basic",
+  "title": "HWR3 The Milenian Empire",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1992, en dos cuadernillos con cubierta. Lo escribió Anthony Herring.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hwr3-the-milenian-empire/english.webp"
+    }
+  ]
+}

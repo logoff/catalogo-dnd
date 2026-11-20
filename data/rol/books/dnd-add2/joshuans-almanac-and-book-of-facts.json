@@ -1,0 +1,17 @@
+{
+  "slug": "joshuans-almanac-and-book-of-facts",
+  "system": "dnd-add2",
+  "title": "Joshuan's Almanac & Book of Facts",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1995, en un libro en rústica de 240 páginas. Lo escribió Ann Dupuis y Elizabeth Tornabene.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-alm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/joshuans-almanac-and-book-of-facts/english.webp"
+    }
+  ]
+}

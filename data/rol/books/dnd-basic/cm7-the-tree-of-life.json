@@ -1,0 +1,17 @@
+{
+  "slug": "cm7-the-tree-of-life",
+  "system": "dnd-basic",
+  "title": "CM7 The Tree of Life",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1986, en un cuadernillo de 40 páginas con cubierta. La escribió Bruce A. Heard.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/cm7-the-tree-of-life/english.webp"
+    }
+  ]
+}

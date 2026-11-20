@@ -1,0 +1,17 @@
+{
+  "slug": "hwr2-kingdom-of-nithia",
+  "system": "dnd-basic",
+  "title": "HWR2 Kingdom of Nithia",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1991, en dos cuadernillos con cubierta. Lo escribió Blake Mobley y Newton Ewell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/hwr2-kingdom-of-nithia/english.webp"
+    }
+  ]
+}

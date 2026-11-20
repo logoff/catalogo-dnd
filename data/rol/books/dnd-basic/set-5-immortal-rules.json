@@ -1,0 +1,17 @@
+{
+  "slug": "set-5-immortal-rules",
+  "system": "dnd-basic",
+  "title": "Set 5: Immortal Rules",
+  "kind": "core",
+  "description": "La quinta y última caja de la serie BECMI, de Frank Mentzer: los personajes se convierten en inmortales, con sus propias reglas, esferas de poder y planos de existencia.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-ment.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "boxed_set",
+      "cover": "/images/rol/set-5-immortal-rules/english.webp"
+    }
+  ]
+}

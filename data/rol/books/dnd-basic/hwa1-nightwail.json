@@ -1,0 +1,17 @@
+{
+  "slug": "hwa1-nightwail",
+  "system": "dnd-basic",
+  "title": "HWA1 Nightwail",
+  "kind": "adventure",
+  "description": "Aventura de Mystara que TSR publicó en 1990, en un cuadernillo de 64 páginas con cubierta. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/hwa1-nightwail/english.webp"
+    }
+  ]
+}

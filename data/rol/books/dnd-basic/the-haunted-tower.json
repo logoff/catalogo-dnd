@@ -1,0 +1,17 @@
+{
+  "slug": "the-haunted-tower",
+  "system": "dnd-basic",
+  "title": "The Haunted Tower",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1992, en una caja. La escribió Julia Martin.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-haunted-tower/english.webp"
+    }
+  ]
+}

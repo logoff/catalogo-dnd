@@ -1,0 +1,17 @@
+{
+  "slug": "m1-into-the-maelstrom",
+  "system": "dnd-basic",
+  "title": "M1 Into the Maelstrom",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1985, en un cuadernillo de 32 páginas con cubierta. La escribió Bruce y Beatrice Heard.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-m.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/m1-into-the-maelstrom/english.webp"
+    }
+  ]
+}

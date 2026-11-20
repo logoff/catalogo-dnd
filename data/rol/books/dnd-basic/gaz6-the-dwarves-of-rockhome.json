@@ -1,0 +1,17 @@
+{
+  "slug": "gaz6-the-dwarves-of-rockhome",
+  "system": "dnd-basic",
+  "title": "GAZ6 The Dwarves of Rockhome",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1988, en un cuadernillo de 96 páginas con cubierta. Lo escribió Aaron Allston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/gaz6-the-dwarves-of-rockhome/english.webp"
+    }
+  ]
+}

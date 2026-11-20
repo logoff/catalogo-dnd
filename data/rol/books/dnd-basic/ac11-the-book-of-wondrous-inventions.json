@@ -1,0 +1,17 @@
+{
+  "slug": "ac11-the-book-of-wondrous-inventions",
+  "system": "dnd-basic",
+  "title": "AC11 The Book of Wondrous Inventions",
+  "kind": "supplement",
+  "description": "Suplemento de D&D que TSR publicó en 1987, en un libro en rústica de 96 páginas. Lo escribió Compiled by Bruce A. Heard.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-ac.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/ac11-the-book-of-wondrous-inventions/english.webp"
+    }
+  ]
+}

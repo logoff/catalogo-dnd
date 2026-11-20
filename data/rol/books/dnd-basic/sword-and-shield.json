@@ -1,0 +1,17 @@
+{
+  "slug": "sword-and-shield",
+  "system": "dnd-basic",
+  "title": "Sword and Shield",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1992, en un cuadernillo de 16 páginas con cubierta. La escribió John Terra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/sword-and-shield/english.webp"
+    }
+  ]
+}

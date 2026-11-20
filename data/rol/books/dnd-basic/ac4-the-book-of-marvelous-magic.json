@@ -1,0 +1,17 @@
+{
+  "slug": "ac4-the-book-of-marvelous-magic",
+  "system": "dnd-basic",
+  "title": "AC4 The Book of Marvelous Magic",
+  "kind": "supplement",
+  "description": "Suplemento de D&D que TSR publicó en 1984, en un libro en rústica de 76 páginas. Lo escribió Frank Mentzer y Gary Gygax.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-ac.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/ac4-the-book-of-marvelous-magic/english.webp"
+    }
+  ]
+}

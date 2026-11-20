@@ -1,0 +1,17 @@
+{
+  "slug": "assault-on-ravens-ruin",
+  "system": "dnd-basic",
+  "title": "Assault on Raven's Ruin",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1992, en un cuadernillo de 16 páginas con cubierta. La escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/assault-on-ravens-ruin/english.webp"
+    }
+  ]
+}

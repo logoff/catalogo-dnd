@@ -1,0 +1,17 @@
+{
+  "slug": "gaz12-the-golden-khan-of-ethengar",
+  "system": "dnd-basic",
+  "title": "GAZ12 The Golden Khan of Ethengar",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1989, en dos cuadernillos con cubierta. Lo escribió Jim Bambra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/gaz12-the-golden-khan-of-ethengar/english.webp"
+    }
+  ]
+}

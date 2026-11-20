@@ -1,0 +1,17 @@
+{
+  "slug": "basic-set-holmes",
+  "system": "dnd-basic",
+  "title": "Basic Set (Holmes)",
+  "kind": "core",
+  "description": "La primera caja básica de D&D, editada por J. Eric Holmes: ordenó las reglas de los tres cuadernillos y los suplementos para jugar del nivel 1 al 3, y traía primero geomorfos de mazmorra y después las aventuras B1 o B2.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-holmes.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1977",
+      "format": "boxed_set",
+      "cover": "/images/rol/basic-set-holmes/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "supplement-i-greyhawk",
+  "system": "dnd-original",
+  "title": "Supplement I: Greyhawk",
+  "kind": "supplement",
+  "description": "El primer suplemento de D&D, escrito por Gary Gygax y Rob Kuntz a partir de su campaña de Greyhawk: añadió el ladrón y el paladín, daño variable según el arma, nuevos monstruos, conjuros y objetos mágicos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-sup.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1975",
+      "format": "paperback",
+      "cover": "/images/rol/supplement-i-greyhawk/english.webp"
+    }
+  ]
+}

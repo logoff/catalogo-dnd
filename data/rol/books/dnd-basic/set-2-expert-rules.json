@@ -1,0 +1,17 @@
+{
+  "slug": "set-2-expert-rules",
+  "system": "dnd-basic",
+  "title": "Set 2: Expert Rules",
+  "kind": "core",
+  "description": "La caja azul de Frank Mentzer, segunda de la serie BECMI: lleva a los personajes hasta el nivel 14, con viajes por tierra y mar, castillos y el Gran Ducado de Karameikos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-ment.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "boxed_set",
+      "cover": "/images/rol/set-2-expert-rules/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "the-new-easy-to-master-dungeons-and-dragons-game",
+  "system": "dnd-basic",
+  "title": "The New Easy to Master Dungeons & Dragons Game",
+  "kind": "starter",
+  "description": "La caja negra de 1991, pensada para iniciarse sin conocer los juegos de rol: tablero, fichas, cartas de aprendizaje y una aventura guiada para los niveles 1 a 5.\n\nEdición en castellano de Borrás Plana.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-new-easy-to-master-dungeons-and-dragons-game/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Nuevo Dungeons & Dragons",
+      "publisher": "Borrás Plana",
+      "date": "1992",
+      "format": "boxed_set",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

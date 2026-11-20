@@ -1,0 +1,17 @@
+{
+  "slug": "ac9-creature-catalogue",
+  "system": "dnd-basic",
+  "title": "AC9 Creature Catalogue",
+  "kind": "supplement",
+  "description": "Suplemento de D&D que TSR publicó en 1986, en un libro en rústica de 96 páginas. Lo escribió Jim Bambra, Phil Gallagher y Graeme Morris.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-ac.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/ac9-creature-catalogue/english.webp"
+    }
+  ]
+}

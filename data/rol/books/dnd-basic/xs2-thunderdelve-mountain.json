@@ -1,0 +1,17 @@
+{
+  "slug": "xs2-thunderdelve-mountain",
+  "system": "dnd-basic",
+  "title": "XS2 Thunderdelve Mountain",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1985, en un cuadernillo de 40 páginas con cubierta. La escribió William Carlson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/xs2-thunderdelve-mountain/english.webp"
+    }
+  ]
+}

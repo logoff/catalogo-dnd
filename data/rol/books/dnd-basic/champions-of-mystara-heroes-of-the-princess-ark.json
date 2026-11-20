@@ -1,0 +1,17 @@
+{
+  "slug": "champions-of-mystara-heroes-of-the-princess-ark",
+  "system": "dnd-basic",
+  "title": "Champions of Mystara: Heroes of the Princess Ark",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1993, en una caja. Lo escribió Ann Dupuis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/champions-of-mystara-heroes-of-the-princess-ark/english.webp"
+    }
+  ]
+}

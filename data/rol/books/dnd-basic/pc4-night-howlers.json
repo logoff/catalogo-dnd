@@ -1,0 +1,17 @@
+{
+  "slug": "pc4-night-howlers",
+  "system": "dnd-basic",
+  "title": "PC4 Night Howlers",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1992, en dos cuadernillos con cubierta. Lo escribió Ann Dupuis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/cc/cc-pc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/pc4-night-howlers/english.webp"
+    }
+  ]
+}

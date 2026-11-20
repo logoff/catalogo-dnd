@@ -1,0 +1,17 @@
+{
+  "slug": "gaz14-the-atruaghin-clans",
+  "system": "dnd-basic",
+  "title": "GAZ14 The Atruaghin Clans",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1991, en dos cuadernillos con cubierta. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/gaz14-the-atruaghin-clans/english.webp"
+    }
+  ]
+}

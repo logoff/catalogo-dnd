@@ -1,0 +1,17 @@
+{
+  "slug": "da1-adventures-in-blackmoor",
+  "system": "dnd-basic",
+  "title": "DA1 Adventures in Blackmoor",
+  "kind": "adventure",
+  "description": "La primera aventura de la serie DA, que lleva a los personajes al pasado, a Blackmoor, el reino de la campaña de Dave Arneson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-da.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/da1-adventures-in-blackmoor/english.webp"
+    }
+  ]
+}

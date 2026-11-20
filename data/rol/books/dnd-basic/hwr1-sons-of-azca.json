@@ -1,0 +1,17 @@
+{
+  "slug": "hwr1-sons-of-azca",
+  "system": "dnd-basic",
+  "title": "HWR1 Sons of Azca",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1991, en dos cuadernillos con cubierta. Lo escribió John Nephew.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/hwr1-sons-of-azca/english.webp"
+    }
+  ]
+}

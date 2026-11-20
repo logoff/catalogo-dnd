@@ -1,0 +1,17 @@
+{
+  "slug": "gaz7-the-northern-reaches",
+  "system": "dnd-basic",
+  "title": "GAZ7 The Northern Reaches",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1988, en dos cuadernillos con cubierta. Lo escribió Ken Rolston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/gaz7-the-northern-reaches/english.webp"
+    }
+  ]
+}

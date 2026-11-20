@@ -1,0 +1,17 @@
+{
+  "slug": "gaz10-the-orcs-of-thar",
+  "system": "dnd-basic",
+  "title": "GAZ10 The Orcs of Thar",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1988, en dos cuadernillos con cubierta. Lo escribió Bruce Heard.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/gaz10-the-orcs-of-thar/english.webp"
+    }
+  ]
+}

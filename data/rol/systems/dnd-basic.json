@@ -1,0 +1,29 @@
+{
+  "slug": "dnd-basic",
+  "name": "D&D básico",
+  "family": "dungeons-and-dragons",
+  "official": true,
+  "publisher": "TSR",
+  "date": "1977-07",
+  "description": "La línea de Dungeons & Dragons que convivió con AD&D, pensada para empezar a jugar: la caja básica de J. Eric Holmes (1977), las cajas básica y experta de Tom Moldvay y David Cook (1981), la serie BECMI de Frank Mentzer (1983-1986), con sus cajas Basic, Expert, Companion, Master e Immortal que llevan a los personajes del nivel 1 a la inmortalidad, y la Rules Cyclopedia (1991), que las reúne en un solo libro. Las razas no humanas son clases propias (elfo, enano, mediano) y las reglas son más sencillas que las de AD&D.\n\nSu mundo es Mystara, con los Gazetteers, el Mundo Hueco y aventuras clásicas como La fortaleza en la frontera o La isla del terror. La línea acabó con las cajas de iniciación de los noventa. En castellano salieron la caja roja de Mentzer y tres aventuras de Dalmau Carles Pla (1985-1986), y la caja de iniciación de 1991 y sus aventuras de Borrás Plana (1992-1994).",
+  "features": [
+    "Razas no humanas como clases",
+    "Cajas por niveles, del 1 al 36 y la inmortalidad",
+    "Reglas más sencillas que las de AD&D",
+    "Mystara como mundo de campaña"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "dnd-original",
+      "kind": "compatible",
+      "note": "Ordena y simplifica las reglas de los tres cuadernillos y sus suplementos."
+    }
+  ],
+  "links": [
+    {
+      "label": "TSR Archive: Dungeons & Dragons",
+      "url": "https://www.tsrarchive.com/dd/dd.html"
+    }
+  ]
+}

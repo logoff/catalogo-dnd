@@ -1,0 +1,17 @@
+{
+  "slug": "x13-crown-of-ancient-glory",
+  "system": "dnd-basic",
+  "title": "X13 Crown of Ancient Glory",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1987, en un cuadernillo de 64 páginas con cubierta. La escribió Stephen Bourne.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/x13-crown-of-ancient-glory/english.webp"
+    }
+  ]
+}

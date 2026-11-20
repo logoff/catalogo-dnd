@@ -1,0 +1,17 @@
+{
+  "slug": "wrath-of-the-immortals",
+  "system": "dnd-basic",
+  "title": "Wrath of the Immortals",
+  "kind": "supplement",
+  "description": "Una gran campaña en caja de Mystara para personajes de todos los niveles, con la guerra de los inmortales y las reglas de inmortales actualizadas tras la Rules Cyclopedia.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/wrath-of-the-immortals/english.webp"
+    }
+  ]
+}

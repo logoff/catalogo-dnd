@@ -1,0 +1,17 @@
+{
+  "slug": "pc1-tall-tales-of-the-wee-folk",
+  "system": "dnd-basic",
+  "title": "PC1 Tall Tales of the Wee Folk",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1989, en dos cuadernillos con cubierta. Lo escribió John Nephew.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/cc/cc-pc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/pc1-tall-tales-of-the-wee-folk/english.webp"
+    }
+  ]
+}

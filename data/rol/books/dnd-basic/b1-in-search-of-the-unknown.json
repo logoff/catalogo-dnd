@@ -1,0 +1,17 @@
+{
+  "slug": "b1-in-search-of-the-unknown",
+  "system": "dnd-basic",
+  "title": "B1 In Search of the Unknown",
+  "kind": "adventure",
+  "description": "La primera aventura de la serie B, de Mike Carr: la fortaleza de Quasqueton, con habitaciones descritas pero sin monstruos ni tesoros fijos, para que el Dungeon Master novato los coloque y aprenda a preparar una mazmorra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1978",
+      "format": "paperback",
+      "cover": "/images/rol/b1-in-search-of-the-unknown/english.webp"
+    }
+  ]
+}

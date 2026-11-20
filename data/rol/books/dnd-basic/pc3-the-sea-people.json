@@ -1,0 +1,17 @@
+{
+  "slug": "pc3-the-sea-people",
+  "system": "dnd-basic",
+  "title": "PC3 The Sea People",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1990, en dos cuadernillos con cubierta. Lo escribió Jim Bambra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/cc/cc-pc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/pc3-the-sea-people/english.webp"
+    }
+  ]
+}

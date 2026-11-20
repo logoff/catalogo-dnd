@@ -1,0 +1,17 @@
+{
+  "slug": "x11-saga-of-the-shadow-lord",
+  "system": "dnd-basic",
+  "title": "X11 Saga of the Shadow Lord",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1986, en un cuadernillo de 64 páginas con cubierta. La escribió Stephen Bourne.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/x11-saga-of-the-shadow-lord/english.webp"
+    }
+  ]
+}
