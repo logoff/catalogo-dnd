@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320" role="img" aria-label="Sin portada">
+  <rect x="4" y="4" width="232" height="312" rx="12" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="8 6"/>
+  <g fill="none" stroke="#8a8a8a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M84 118h52a20 20 0 0 1 20 20v72H104a20 20 0 0 0-20 20z"/>
+    <path d="M84 118v112"/>
+    <path d="M104 210h52"/>
+  </g>
+  <text x="120" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#8a8a8a">Sin portada</text>
+</svg>
