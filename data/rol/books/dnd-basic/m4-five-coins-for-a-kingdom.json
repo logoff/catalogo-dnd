@@ -1,0 +1,17 @@
+{
+  "slug": "m4-five-coins-for-a-kingdom",
+  "system": "dnd-basic",
+  "title": "M4 Five Coins For a Kingdom",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1987, en un cuadernillo de 40 páginas con cubierta. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-m.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/m4-five-coins-for-a-kingdom/english.webp"
+    }
+  ]
+}

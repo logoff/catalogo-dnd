@@ -1,0 +1,17 @@
+{
+  "slug": "dmr2-creature-catalog",
+  "system": "dnd-basic",
+  "title": "DMR2 Creature Catalog",
+  "kind": "supplement",
+  "description": "Suplemento de D&D que TSR publicó en 1993, en un libro en rústica de 128 páginas. Lo escribió Jophn Nephew.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-dmr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dmr2-creature-catalog/english.webp"
+    }
+  ]
+}

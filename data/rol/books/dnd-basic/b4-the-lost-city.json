@@ -1,0 +1,25 @@
+{
+  "slug": "b4-the-lost-city",
+  "system": "dnd-basic",
+  "title": "B4 The Lost City",
+  "kind": "adventure",
+  "description": "Una aventura de Tom Moldvay en una ciudad perdida bajo una pirámide en el desierto, con un culto decadente y ganchos para continuar la campaña bajo tierra.\n\nEdición en castellano de Dalmau Carles Pla.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/b4-the-lost-city/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Ciudad Perdida",
+      "publisher": "Dalmau Carles Pla",
+      "date": "1986",
+      "format": "paperback",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "x10-red-arrow-black-shield",
+  "system": "dnd-basic",
+  "title": "X10 Red Arrow, Black Shield",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1985, en un cuadernillo de 48 páginas con cubierta. La escribió Michael S. Dobson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/x10-red-arrow-black-shield/english.webp"
+    }
+  ]
+}

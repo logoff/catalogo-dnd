@@ -1,0 +1,17 @@
+{
+  "slug": "o2-blade-of-vengeance",
+  "system": "dnd-basic",
+  "title": "O2 Blade of Vengeance",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1984, en un cuadernillo de 28 páginas con cubierta. La escribió Jim Bambra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-o.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/o2-blade-of-vengeance/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "hwa3-nightstorm",
+  "system": "dnd-basic",
+  "title": "HWA3 Nightstorm",
+  "kind": "adventure",
+  "description": "Aventura de Mystara que TSR publicó en 1991, en un cuadernillo de 64 páginas con cubierta. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/hwa3-nightstorm/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "basic-set-moldvay",
+  "system": "dnd-basic",
+  "title": "Basic Set (Moldvay)",
+  "kind": "core",
+  "description": "La caja básica de 1981 editada por Tom Moldvay, con portada de Erol Otus: un libro de reglas claro para los niveles 1 a 3, con la raza como clase (elfo, enano, mediano) y la aventura B2 La fortaleza en la frontera.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-mold.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "boxed_set",
+      "cover": "/images/rol/basic-set-moldvay/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "b10-nights-dark-terror",
+  "system": "dnd-basic",
+  "title": "B10 Night's Dark Terror",
+  "kind": "adventure",
+  "description": "Una gran campaña de Jim Bambra, Phil Gallagher y Graeme Morris para la caja experta, por las tierras salvajes de Karameikos, de la filial británica de TSR.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/b10-nights-dark-terror/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "da2-temple-of-the-frog",
+  "system": "dnd-basic",
+  "title": "DA2 Temple of the Frog",
+  "kind": "adventure",
+  "description": "Aventura de Blackmoor que TSR publicó en 1986, en un cuadernillo de 48 páginas con cubierta. La escribió Dave L. Arneson y David J. Ritchie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-da.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/da2-temple-of-the-frog/english.webp"
+    }
+  ]
+}

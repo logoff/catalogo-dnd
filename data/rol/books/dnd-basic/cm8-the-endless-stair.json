@@ -1,0 +1,17 @@
+{
+  "slug": "cm8-the-endless-stair",
+  "system": "dnd-basic",
+  "title": "CM8 The Endless Stair",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1987, en un cuadernillo de 32 páginas con cubierta. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/cm8-the-endless-stair/english.webp"
+    }
+  ]
+}

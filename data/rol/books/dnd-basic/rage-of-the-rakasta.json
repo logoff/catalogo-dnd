@@ -1,0 +1,17 @@
+{
+  "slug": "rage-of-the-rakasta",
+  "system": "dnd-basic",
+  "title": "Rage of the Rakasta",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1993, en un cuadernillo de 16 páginas con cubierta. La escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rage-of-the-rakasta/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "im2-the-wrath-of-olympus",
+  "system": "dnd-basic",
+  "title": "IM2 The Wrath of Olympus",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1987, en un cuadernillo de 48 páginas con cubierta. La escribió Robert J. Blake.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-im.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/im2-the-wrath-of-olympus/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "the-goblins-lair",
+  "system": "dnd-basic",
+  "title": "The Goblin's Lair",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1992, en una caja. La escribió Graeme David.\n\nEdición en castellano de Borrás Plana.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-goblins-lair/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Guarida del Goblin",
+      "publisher": "Borrás Plana",
+      "date": "1994",
+      "format": "boxed_set",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

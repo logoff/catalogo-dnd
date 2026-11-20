@@ -1,0 +1,17 @@
+{
+  "slug": "gaz4-the-kingdom-of-ierendi",
+  "system": "dnd-basic",
+  "title": "GAZ4 The Kingdom of Ierendi",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1987, en un cuadernillo de 64 páginas con cubierta. Lo escribió Anne Gray McCready.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/gaz4-the-kingdom-of-ierendi/english.webp"
+    }
+  ]
+}

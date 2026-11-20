@@ -1,0 +1,17 @@
+{
+  "slug": "set-3-companion-rules",
+  "system": "dnd-basic",
+  "title": "Set 3: Companion Rules",
+  "kind": "core",
+  "description": "La tercera caja de la serie BECMI, de Frank Mentzer: niveles 15 a 25, dominios y gobierno de tierras, combate de masas con War Machine y nuevas opciones para semihumanos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-ment.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "boxed_set",
+      "cover": "/images/rol/set-3-companion-rules/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "x3-curse-of-xanathon",
+  "system": "dnd-basic",
+  "title": "X3 Curse of Xanathon",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1982, en un cuadernillo de 32 páginas con cubierta. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/x3-curse-of-xanathon/english.webp"
+    }
+  ]
+}

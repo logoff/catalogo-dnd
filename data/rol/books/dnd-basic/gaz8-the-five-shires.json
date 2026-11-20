@@ -1,0 +1,17 @@
+{
+  "slug": "gaz8-the-five-shires",
+  "system": "dnd-basic",
+  "title": "GAZ8 The Five Shires",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1988, en dos cuadernillos con cubierta. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/gaz8-the-five-shires/english.webp"
+    }
+  ]
+}

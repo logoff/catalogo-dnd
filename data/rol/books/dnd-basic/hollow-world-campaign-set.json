@@ -1,0 +1,17 @@
+{
+  "slug": "hollow-world-campaign-set",
+  "system": "dnd-basic",
+  "title": "Hollow World Campaign Set",
+  "kind": "setting",
+  "description": "La caja del Mundo Hueco: el interior de Mystara, iluminado por un sol central, donde los inmortales preservan culturas desaparecidas de la superficie, como aztecas, nitios o milenianos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "boxed_set",
+      "cover": "/images/rol/hollow-world-campaign-set/english.webp"
+    }
+  ]
+}

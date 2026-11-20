@@ -1,0 +1,17 @@
+{
+  "slug": "ac10-bestiary-of-dragons-and-giants",
+  "system": "dnd-basic",
+  "title": "AC10 Bestiary of Dragons and Giants",
+  "kind": "supplement",
+  "description": "Suplemento de D&D que TSR publicó en 1987, en un cuadernillo de 64 páginas con cubierta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-ac.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/ac10-bestiary-of-dragons-and-giants/english.webp"
+    }
+  ]
+}

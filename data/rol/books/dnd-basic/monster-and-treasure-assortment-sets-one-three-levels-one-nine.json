@@ -1,0 +1,17 @@
+{
+  "slug": "monster-and-treasure-assortment-sets-one-three-levels-one-nine",
+  "system": "dnd-basic",
+  "title": "Monster & Treasure Assortment Sets One-Three: Levels One-Nine",
+  "kind": "supplement",
+  "description": "Suplemento de D&D que TSR publicó en 1980, en un cuadernillo de 32 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-mta.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/monster-and-treasure-assortment-sets-one-three-levels-one-nine/english.webp"
+    }
+  ]
+}

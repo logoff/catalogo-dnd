@@ -1,0 +1,17 @@
+{
+  "slug": "x2-castle-amber",
+  "system": "dnd-basic",
+  "title": "X2 Castle Amber",
+  "kind": "adventure",
+  "description": "Una aventura de Tom Moldvay en el castillo de la excéntrica familia Amber, con un viaje a la tierra de Averoigne de Clark Ashton Smith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "paperback",
+      "cover": "/images/rol/x2-castle-amber/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "da4-the-duchy-of-ten",
+  "system": "dnd-basic",
+  "title": "DA4 The Duchy of Ten",
+  "kind": "adventure",
+  "description": "Aventura de Blackmoor que TSR publicó en 1987, en un cuadernillo de 48 páginas con cubierta. La escribió David J. Ritchie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-da.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/da4-the-duchy-of-ten/english.webp"
+    }
+  ]
+}

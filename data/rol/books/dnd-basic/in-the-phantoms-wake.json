@@ -1,0 +1,17 @@
+{
+  "slug": "in-the-phantoms-wake",
+  "system": "dnd-basic",
+  "title": "In the Phantom's Wake",
+  "kind": "adventure",
+  "description": "Aventura de D&D que TSR publicó en 1993, en un cuadernillo de 16 páginas con cubierta. La escribió Dale \"Slade\" Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/in-the-phantoms-wake/english.webp"
+    }
+  ]
+}

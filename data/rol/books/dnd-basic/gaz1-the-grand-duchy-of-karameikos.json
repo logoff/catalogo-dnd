@@ -1,0 +1,17 @@
+{
+  "slug": "gaz1-the-grand-duchy-of-karameikos",
+  "system": "dnd-basic",
+  "title": "GAZ1 The Grand Duchy of Karameikos",
+  "kind": "setting",
+  "description": "El primer Gazetteer de Mystara, de Aaron Allston: el Gran Ducado de Karameikos, el reino donde empiezan tantas campañas de D&D, con su historia, sus casas nobles y aventuras.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/gaz1-the-grand-duchy-of-karameikos/english.webp"
+    }
+  ]
+}

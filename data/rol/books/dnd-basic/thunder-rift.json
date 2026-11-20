@@ -1,0 +1,25 @@
+{
+  "slug": "thunder-rift",
+  "system": "dnd-basic",
+  "title": "Thunder Rift",
+  "kind": "supplement",
+  "description": "El valle de Thunder Rift, un escenario pequeño y cerrado para empezar a jugar con la caja negra de 1991, que sirve de base a una serie de aventuras cortas.\n\nEdición en castellano de Borrás Plana.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/thunder-rift/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Grieta del Trueno",
+      "publisher": "Borrás Plana",
+      "date": "1994",
+      "format": "paperback",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

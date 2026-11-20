@@ -1,0 +1,17 @@
+{
+  "slug": "b1-9-in-search-of-adventure",
+  "system": "dnd-basic",
+  "title": "B1-9 In Search of Adventure",
+  "kind": "adventure",
+  "description": "Las aventuras B1 a B9 reunidas y revisadas en un solo volumen.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/b1-9-in-search-of-adventure/english.webp"
+    }
+  ]
+}

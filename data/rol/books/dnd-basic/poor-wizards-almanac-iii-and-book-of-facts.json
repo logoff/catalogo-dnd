@@ -1,0 +1,17 @@
+{
+  "slug": "poor-wizards-almanac-iii-and-book-of-facts",
+  "system": "dnd-basic",
+  "title": "Poor Wizard's Almanac III & Book of Facts",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1994, en un libro en rústica de 240 páginas. Lo escribió Ann Dupuis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-alm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/poor-wizards-almanac-iii-and-book-of-facts/english.webp"
+    }
+  ]
+}

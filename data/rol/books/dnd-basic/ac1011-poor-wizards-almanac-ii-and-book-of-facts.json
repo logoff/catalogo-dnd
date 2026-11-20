@@ -1,0 +1,17 @@
+{
+  "slug": "ac1011-poor-wizards-almanac-ii-and-book-of-facts",
+  "system": "dnd-basic",
+  "title": "AC1011 Poor Wizard's Almanac II & Book of Facts",
+  "kind": "setting",
+  "description": "Suplemento de ambientación de Mystara que TSR publicó en 1993, en un libro en rústica de 240 páginas. Lo escribió Ann Dupuis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-alm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/ac1011-poor-wizards-almanac-ii-and-book-of-facts/english.webp"
+    }
+  ]
+}
