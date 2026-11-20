@@ -3,7 +3,7 @@
   "system": "dnd-add2",
   "title": "The Doomgrinder (The Lost Tombs, Volume 3)",
   "kind": "adventure",
-  "description": "Aventura de Greyhawk que TSR publicó en 1998, en un cuadernillo de 48 páginas con cubierta. La escribió Steve Miller.\n\nSolo salió en inglés.",
+  "description": "Aventura de Greyhawk que TSR publicó en 1998, en un cuadernillo de 48 páginas con cubierta. La escribió Steve Miller.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-adv.html",
   "editions": [
     {
@@ -12,6 +12,13 @@
       "date": "1998",
       "format": "paperback",
       "cover": "/images/rol/the-doomgrinder-the-lost-tombs-volume-3/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Las Tumbas Perdidas III: El Molino del Destino",
+      "publisher": "Martínez Roca",
+      "format": "paperback",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
     }
   ]
 }

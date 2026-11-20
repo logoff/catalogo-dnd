@@ -3,7 +3,7 @@
   "system": "dnd-add1",
   "title": "The Art of the Dragonlance Saga",
   "kind": "setting",
-  "description": "Suplemento de Dragonlance que TSR publicó en 1987, en un libro en rústica de 128 páginas. Lo escribió Mary Kirchoff (editor).\n\nSolo salió en inglés.",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1987, en un libro en rústica de 128 páginas. Lo escribió Mary Kirchoff (editor).\n\nEdición en castellano de Timun Mas.",
   "source": "https://www.tsrarchive.com/dl/dl-acc.html",
   "editions": [
     {
@@ -12,6 +12,15 @@
       "date": "1987",
       "format": "paperback",
       "cover": "/images/rol/the-art-of-the-dragonlance-saga/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Gran Libro de la Dragonlance",
+      "publisher": "Timun Mas",
+      "date": "1990",
+      "format": "hardcover",
+      "cover": "/images/rol/the-art-of-the-dragonlance-saga/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-acc.html"
     }
   ]
 }

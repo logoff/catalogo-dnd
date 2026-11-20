@@ -3,7 +3,7 @@
   "system": "dnd-add2",
   "title": "MC10 Monstrous Compendium Ravenloft Appendix",
   "kind": "supplement",
-  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1991.\n\nSolo salió en inglés.",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1991.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
   "editions": [
     {
@@ -11,6 +11,12 @@
       "publisher": "TSR",
       "date": "1991",
       "cover": "/images/rol/mc10-monstrous-compendium-ravenloft-appendix/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Monstruos Volumen V",
+      "publisher": "Zinco",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
     }
   ]
 }
