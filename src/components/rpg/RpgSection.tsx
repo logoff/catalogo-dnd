@@ -6,7 +6,7 @@ import { bookPath } from '@/utils/rpg'
 import { bookKindGroups, bookKindNames } from '@/utils/rpgTranslations'
 
 export const SECTION_NAME = 'Otros juegos de rol'
-export const EDITIONS_NAME = 'Ediciones anteriores de D&D'
+export const EDITIONS_NAME = 'Ediciones de D&D'
 
 // Las fichas de sistema y de libro sirven a dos secciones: otros juegos de rol y las ediciones
 // anteriores de D&D, que usan el mismo modelo de datos

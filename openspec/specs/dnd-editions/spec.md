@@ -131,14 +131,16 @@ sin el aviso de «no oficial» de los otros juegos de rol.
 
 ### Requirement: Navegación de la sección
 
-La cabecera SHALL enlazar a `/ediciones` con el texto «Ediciones
-anteriores» dentro del grupo «Libros», junto a las ediciones de 5E.
+La cabecera SHALL enlazar a `/ediciones` con el texto «Todas las
+ediciones» dentro del grupo «Libros», junto a las ediciones de 5E. La página
+y sus migas SHALL llamarse «Ediciones de D&D», porque lista todas las
+ediciones y no solo las anteriores a la 5E.
 
 #### Scenario: Enlace en la cabecera
 
 - **WHEN** un visitante abre cualquier página en escritorio o en móvil
-- **THEN** el grupo «Libros» de la cabecera tiene un enlace «Ediciones
-  anteriores» a `/ediciones`
+- **THEN** el grupo «Libros» de la cabecera tiene un enlace «Todas las
+  ediciones» a `/ediciones`
 
 ### Requirement: Redirección de las fichas antiguas
 

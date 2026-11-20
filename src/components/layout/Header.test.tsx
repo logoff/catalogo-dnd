@@ -11,10 +11,10 @@ const renderHeader = () =>
   )
 
 describe('cabecera', () => {
-  it('el grupo «Libros» enlaza a las ediciones anteriores de D&D', () => {
+  it('el grupo «Libros» enlaza a todas las ediciones de D&D', () => {
     renderHeader()
     fireEvent.click(screen.getByRole('button', { name: 'Libros' }))
-    expect(screen.getByRole('link', { name: 'Ediciones anteriores' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'Todas las ediciones' })).toHaveAttribute(
       'href',
       '/ediciones'
     )
@@ -25,7 +25,7 @@ describe('cabecera', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Abrir el menú' }))
     const navs = screen.getAllByRole('navigation', { name: 'Principal' })
     expect(
-      within(navs[navs.length - 1]).getByRole('link', { name: 'Ediciones anteriores' })
+      within(navs[navs.length - 1]).getByRole('link', { name: 'Todas las ediciones' })
     ).toHaveAttribute('href', '/ediciones')
   })
 })

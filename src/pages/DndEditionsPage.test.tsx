@@ -16,9 +16,7 @@ describe('ediciones anteriores de D&D', () => {
         <DndEditionsPage />
       </MemoryRouter>
     )
-    expect(
-      screen.getByRole('heading', { level: 1, name: 'Ediciones anteriores de D&D' })
-    ).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 1, name: 'Ediciones de D&D' })).toBeInTheDocument()
     const links = screen.getAllByRole('link').filter((link) => link.closest('ol'))
     const names = links.map((link) => link.querySelector('span')?.textContent)
     expect(names.indexOf('D&D 3.5')).toBeLessThan(names.indexOf('D&D 5E (2014)'))

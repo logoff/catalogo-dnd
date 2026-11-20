@@ -133,7 +133,7 @@ describe('ficha de libro', () => {
   it('un libro de una edición anterior de D&D es oficial, sin tiendas ni aviso de afiliado', () => {
     renderAt('/ediciones/dnd-3-5/players-handbook-3-5')
     expect(screen.queryByText(/no es un producto oficial/)).toBeNull()
-    expect(screen.getByRole('link', { name: 'Ediciones anteriores de D&D' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'Ediciones de D&D' })).toHaveAttribute(
       'href',
       '/ediciones'
     )

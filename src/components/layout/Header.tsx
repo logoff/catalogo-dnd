@@ -30,7 +30,7 @@ const booksGroup: NavGroup = {
     { to: '/catalogo', label: 'Catálogo completo' },
     { to: '/2014', label: '5E (2014)' },
     { to: '/2024', label: '5.5E (2024)' },
-    { to: '/ediciones', label: 'Ediciones anteriores' },
+    { to: '/ediciones', label: 'Todas las ediciones' },
   ],
   extraPaths: ['/producto'],
 }
