@@ -46,7 +46,7 @@ describe('ficha de sistema', () => {
 
   it('D&D 3.5, en ediciones anteriores, muestra lo que deriva de ella, sin aviso y con sus libros', () => {
     renderAt('/ediciones/dnd-3-5')
-    expect(screen.getByRole('link', { name: 'Ediciones anteriores de D&D' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'Ediciones de D&D' })).toHaveAttribute(
       'href',
       '/ediciones'
     )
