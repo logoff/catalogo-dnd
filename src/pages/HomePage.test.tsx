@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { render, screen, within } from '@testing-library/react'
+import { fireEvent, render, screen, within } from '@testing-library/react'
 import { latestInSpanish, productPath } from '@/utils/releases'
 import { MemoryRouter } from 'react-router-dom'
 import Header from '@/components/layout/Header'
@@ -10,6 +10,17 @@ import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
 import rpgIndex from 'virtual:rpg-index'
 import { rolSection } from '@/utils/rpg'
+
+// Abre el grupo del menú y devuelve su enlace
+const headerLink = (group: string, name: RegExp) => {
+  render(
+    <MemoryRouter>
+      <Header />
+    </MemoryRouter>
+  )
+  fireEvent.click(screen.getByRole('button', { name: group }))
+  return screen.getByRole('link', { name })
+}
 
 describe('acceso a los videojuegos', () => {
   it('la portada enlaza a la sección y muestra los últimos juegos', () => {
@@ -29,15 +40,7 @@ describe('acceso a los videojuegos', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getByRole('link', { name: 'Videojuegos' })).toHaveAttribute(
-      'href',
-      '/videojuegos'
-    )
+    expect(headerLink('Más de D&D', /^Videojuegos/)).toHaveAttribute('href', '/videojuegos')
   })
 })
 
@@ -59,15 +62,7 @@ describe('acceso al merchandising', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getByRole('link', { name: 'Merchandising' })).toHaveAttribute(
-      'href',
-      '/merchandising'
-    )
+    expect(headerLink('Más de D&D', /^Merchandising/)).toHaveAttribute('href', '/merchandising')
   })
 
   it('el buscador de la cabecera sigue buscando solo libros', () => {
@@ -97,12 +92,7 @@ describe('acceso a las novelas', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getAllByRole('link', { name: 'Novelas' })[0]).toHaveAttribute('href', '/novelas')
+    expect(headerLink('Más de D&D', /^Novelas/)).toHaveAttribute('href', '/novelas')
   })
 
   it('el buscador de la cabecera sigue buscando solo libros', () => {
@@ -160,15 +150,7 @@ describe('acceso a otros juegos de rol', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getAllByRole('link', { name: 'Otros juegos de rol' })[0]).toHaveAttribute(
-      'href',
-      '/rol'
-    )
+    expect(headerLink('Otros juegos de rol', /^Juegos y libros/)).toHaveAttribute('href', '/rol')
   })
 
   it('el buscador de la cabecera no muestra libros de la sección', () => {
