@@ -1,0 +1,17 @@
+{
+  "slug": "dl12-dragons-of-faith",
+  "system": "dnd-add1",
+  "title": "DL12 Dragons of Faith",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1986, en un cuadernillo de 64 páginas con cubierta. La escribió Harold Johnson y Bruce Heard.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/dl12-dragons-of-faith/english.webp"
+    }
+  ]
+}

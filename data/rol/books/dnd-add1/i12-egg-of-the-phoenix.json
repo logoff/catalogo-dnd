@@ -1,0 +1,17 @@
+{
+  "slug": "i12-egg-of-the-phoenix",
+  "system": "dnd-add1",
+  "title": "I12 Egg of the Phoenix",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1987, en un libro de 80 páginas. La escribió Frank Mentzer y Jennell Jaquays.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/i12-egg-of-the-phoenix/english.webp"
+    }
+  ]
+}

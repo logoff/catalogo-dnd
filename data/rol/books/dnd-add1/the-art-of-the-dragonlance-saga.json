@@ -1,0 +1,17 @@
+{
+  "slug": "the-art-of-the-dragonlance-saga",
+  "system": "dnd-add1",
+  "title": "The Art of the Dragonlance Saga",
+  "kind": "setting",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1987, en un libro en rústica de 128 páginas. Lo escribió Mary Kirchoff (editor).\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/the-art-of-the-dragonlance-saga/english.webp"
+    }
+  ]
+}

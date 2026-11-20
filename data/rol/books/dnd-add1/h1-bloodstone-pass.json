@@ -1,0 +1,16 @@
+{
+  "slug": "h1-bloodstone-pass",
+  "system": "dnd-add1",
+  "title": "H1 Bloodstone Pass",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1985. La escribió Douglas Niles y Michael Dobson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-h.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "cover": "/images/rol/h1-bloodstone-pass/english.webp"
+    }
+  ]
+}

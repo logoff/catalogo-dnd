@@ -1,0 +1,17 @@
+{
+  "slug": "wg7-castle-greyhawk",
+  "system": "dnd-add1",
+  "title": "WG7 Castle Greyhawk",
+  "kind": "adventure",
+  "description": "Una aventura humorística en las ruinas del castillo de Greyhawk, con niveles escritos por varios autores.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/wg7-castle-greyhawk/english.webp"
+    }
+  ]
+}

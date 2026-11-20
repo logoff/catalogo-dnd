@@ -1,0 +1,17 @@
+{
+  "slug": "a1-slave-pits-of-the-undercity",
+  "system": "dnd-add1",
+  "title": "A1 Slave Pits of the Undercity",
+  "kind": "adventure",
+  "description": "La primera aventura de la serie de los esclavistas, nacida de un torneo: los personajes persiguen a los señores de los esclavos por los pozos de una ciudad.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-a.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/a1-slave-pits-of-the-undercity/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "n5-under-illefarn",
+  "system": "dnd-add1",
+  "title": "N5 Under Illefarn",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1987, en un cuadernillo de 48 páginas con cubierta. La escribió Steve Perrin.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-n.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/n5-under-illefarn/english.webp"
+    }
+  ]
+}

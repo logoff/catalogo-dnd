@@ -1,0 +1,17 @@
+{
+  "slug": "q1-queen-of-the-demonweb-pits",
+  "system": "dnd-add1",
+  "title": "Q1 Queen of the Demonweb Pits",
+  "kind": "adventure",
+  "description": "La aventura que cierra las series de los gigantes y de los drow: los personajes viajan al Abismo para enfrentarse a Lolth en las Fosas de la Red Demoníaca.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-q.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/q1-queen-of-the-demonweb-pits/english.webp"
+    }
+  ]
+}

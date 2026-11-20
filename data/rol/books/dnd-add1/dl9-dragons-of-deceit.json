@@ -1,0 +1,17 @@
+{
+  "slug": "dl9-dragons-of-deceit",
+  "system": "dnd-add1",
+  "title": "DL9 Dragons of Deceit",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1985, en un cuadernillo de 48 páginas con cubierta. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/dl9-dragons-of-deceit/english.webp"
+    }
+  ]
+}

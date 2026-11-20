@@ -1,0 +1,17 @@
+{
+  "slug": "g2-glacial-rift-of-the-frost-giant-jarl",
+  "system": "dnd-add1",
+  "title": "G2 Glacial Rift of the Frost Giant Jarl",
+  "kind": "adventure",
+  "description": "La segunda aventura de la serie de los gigantes: la grieta glacial del jarl de los gigantes de la escarcha.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-g.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "paperback",
+      "cover": "/images/rol/g2-glacial-rift-of-the-frost-giant-jarl/english.webp"
+    }
+  ]
+}

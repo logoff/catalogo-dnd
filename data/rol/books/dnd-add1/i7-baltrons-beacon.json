@@ -1,0 +1,17 @@
+{
+  "slug": "i7-baltrons-beacon",
+  "system": "dnd-add1",
+  "title": "I7 Baltron's Beacon",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1985, en un cuadernillo de 32 páginas con cubierta. La escribió Philip Meyers.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/i7-baltrons-beacon/english.webp"
+    }
+  ]
+}

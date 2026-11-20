@@ -1,0 +1,17 @@
+{
+  "slug": "frc2-curse-of-the-azure-bonds",
+  "system": "dnd-add1",
+  "title": "FRC2 Curse of the Azure Bonds",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1989, en un libro en rústica de 96 páginas. La escribió Jeff Grubb y George MacDonald.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-frc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/frc2-curse-of-the-azure-bonds/english.webp"
+    }
+  ]
+}

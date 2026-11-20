@@ -1,0 +1,17 @@
+{
+  "slug": "ex2-the-land-beyond-the-magic-mirror",
+  "system": "dnd-add1",
+  "title": "EX2 The Land Beyond the Magic Mirror",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1983, en un cuadernillo de 32 páginas con cubierta. La escribió E. Gary Gygax.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ex.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/ex2-the-land-beyond-the-magic-mirror/english.webp"
+    }
+  ]
+}

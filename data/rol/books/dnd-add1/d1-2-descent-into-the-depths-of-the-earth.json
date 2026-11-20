@@ -1,0 +1,17 @@
+{
+  "slug": "d1-2-descent-into-the-depths-of-the-earth",
+  "system": "dnd-add1",
+  "title": "D1-2 Descent Into the Depths of the Earth",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1981, en un cuadernillo de 28 páginas con cubierta. La escribió Gary Gygax.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-d.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "paperback",
+      "cover": "/images/rol/d1-2-descent-into-the-depths-of-the-earth/english.webp"
+    }
+  ]
+}

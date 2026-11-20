@@ -1,0 +1,17 @@
+{
+  "slug": "i9-day-of-alakbar",
+  "system": "dnd-add1",
+  "title": "I9 Day of Al'Akbar",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1986, en un cuadernillo de 40 páginas con cubierta. La escribió Allen Hammack.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/i9-day-of-alakbar/english.webp"
+    }
+  ]
+}

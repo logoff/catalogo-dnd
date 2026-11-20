@@ -1,0 +1,17 @@
+{
+  "slug": "s2-white-plume-mountain",
+  "system": "dnd-add1",
+  "title": "S2 White Plume Mountain",
+  "kind": "adventure",
+  "description": "Una aventura de Lawrence Schick en una montaña volcánica llena de trampas e ingenios para recuperar tres armas legendarias.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-s.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "paperback",
+      "cover": "/images/rol/s2-white-plume-mountain/english.webp"
+    }
+  ]
+}

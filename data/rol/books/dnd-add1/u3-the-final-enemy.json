@@ -1,0 +1,17 @@
+{
+  "slug": "u3-the-final-enemy",
+  "system": "dnd-add1",
+  "title": "U3 The Final Enemy",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1983, en un cuadernillo de 48 páginas con cubierta. La escribió Dave J. Browne with Don Turnbull.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-u.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/u3-the-final-enemy/english.webp"
+    }
+  ]
+}

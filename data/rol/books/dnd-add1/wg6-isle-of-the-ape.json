@@ -1,0 +1,17 @@
+{
+  "slug": "wg6-isle-of-the-ape",
+  "system": "dnd-add1",
+  "title": "WG6 Isle of the Ape",
+  "kind": "adventure",
+  "description": "Aventura de Greyhawk que TSR publicó en 1985, en un cuadernillo de 48 páginas con cubierta. La escribió Gary Gygax.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/wg6-isle-of-the-ape/english.webp"
+    }
+  ]
+}

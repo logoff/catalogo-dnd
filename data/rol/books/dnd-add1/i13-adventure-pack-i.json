@@ -1,0 +1,17 @@
+{
+  "slug": "i13-adventure-pack-i",
+  "system": "dnd-add1",
+  "title": "I13 Adventure Pack I",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 1.ª edición que TSR publicó en 1987, en un libro en rústica de 96 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/i13-adventure-pack-i/english.webp"
+    }
+  ]
+}

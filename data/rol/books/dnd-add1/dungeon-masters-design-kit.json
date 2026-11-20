@@ -1,0 +1,16 @@
+{
+  "slug": "dungeon-masters-design-kit",
+  "system": "dnd-add1",
+  "title": "Dungeon Master's Design Kit",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 1.ª edición que TSR publicó en 1988. Lo escribió Harold Johnson y Aaron Allston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmacc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "cover": "/images/rol/dungeon-masters-design-kit/english.webp"
+    }
+  ]
+}

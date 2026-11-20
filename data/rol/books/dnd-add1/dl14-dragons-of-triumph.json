@@ -1,0 +1,17 @@
+{
+  "slug": "dl14-dragons-of-triumph",
+  "system": "dnd-add1",
+  "title": "DL14 Dragons of Triumph",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1986, en un cuadernillo de 40 páginas con cubierta. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/dl14-dragons-of-triumph/english.webp"
+    }
+  ]
+}

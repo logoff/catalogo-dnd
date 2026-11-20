@@ -1,0 +1,17 @@
+{
+  "slug": "i3-pharaoh",
+  "system": "dnd-add1",
+  "title": "I3 Pharaoh",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1982, en un cuadernillo de 32 páginas con cubierta. La escribió Tracy y Laura Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/i3-pharaoh/english.webp"
+    }
+  ]
+}

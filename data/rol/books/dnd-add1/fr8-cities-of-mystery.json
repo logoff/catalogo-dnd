@@ -1,0 +1,17 @@
+{
+  "slug": "fr8-cities-of-mystery",
+  "system": "dnd-add1",
+  "title": "FR8 Cities of Mystery",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1989, en una caja. Lo escribió Jean Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "boxed_set",
+      "cover": "/images/rol/fr8-cities-of-mystery/english.webp"
+    }
+  ]
+}

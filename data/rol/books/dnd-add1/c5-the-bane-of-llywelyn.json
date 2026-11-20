@@ -1,0 +1,16 @@
+{
+  "slug": "c5-the-bane-of-llywelyn",
+  "system": "dnd-add1",
+  "title": "C5 The Bane of Llywelyn",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1985. La escribió Bob Blake.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "cover": "/images/rol/c5-the-bane-of-llywelyn/english.webp"
+    }
+  ]
+}

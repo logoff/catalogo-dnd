@@ -1,0 +1,17 @@
+{
+  "slug": "h2-the-mines-of-bloodstone",
+  "system": "dnd-add1",
+  "title": "H2 The Mines of Bloodstone",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1986, en un cuadernillo de 48 páginas con cubierta. La escribió Michael Dobson y Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-h.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/h2-the-mines-of-bloodstone/english.webp"
+    }
+  ]
+}

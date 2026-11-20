@@ -381,7 +381,7 @@ aventuras solo digitales y material con licencia de otras editoriales
 | 2   | D&D 3.5          | Wizards of the Coast | 2003 | SRD 3.5 (OGL 1.0a)                  | D&D 3.ª edición: revisión  | sí (Devir)                                | [SRD 3.5 (copia del original)](https://archive.org/details/dnd35srd)                                                                 | dnd-3-5  | Pasa de «Otros juegos de rol» a esta sección. |
 | 3   | D&D 4.ª edición  | Wizards of the Coast | 2008 | — (Game System License, no abierta) | D&D 3.5: cambio mayor      | sí (Devir, básicos y algunos suplementos) | [wizards.com (copia de 2008)](https://web.archive.org/web/2008/http://www.wizards.com/dnd/)                                          | dnd-4e   |                                               |
 | 4   | AD&D 2.ª edición | TSR                  | 1989 | —                                   | AD&D 1.ª edición: revisión | sí (Zinco, Martínez Roca)                 | [TSR Archive](https://www.tsrarchive.com/add/add.html)                                                                               | dnd-add2 |                                               |
-| 5   | AD&D 1.ª edición | TSR                  | 1977 | —                                   | —                          | no consta                                 | [TSR Archive](https://www.tsrarchive.com/add/add.html)                                                                               | dnd-add1 | Libros en la siguiente tanda.                 |
+| 5   | AD&D 1.ª edición | TSR                  | 1977 | —                                   | —                          | no consta                                 | [TSR Archive](https://www.tsrarchive.com/add/add.html)                                                                               | dnd-add1 |                                               |
 
 ### Libros
 
@@ -1286,3 +1286,186 @@ Libros de TSR para AD&D 2.ª edición (1989-2000) según el [catálogo de TSR Ar
 | 15  | SJR7 Krynnspace                       | —                    | ambientación | 1993 | no consta  | sjr7-krynnspace                        | código TSR 9409 |
 | 16  | SJR8 Space Lairs                      | —                    | ambientación | 1993 | no consta  | sjr8-space-lairs                       | código TSR 9411 |
 | 17  | The Astromundi Cluster                | —                    | ambientación | 1993 | no consta  | the-astromundi-cluster                 | código TSR 1087 |
+
+### AD&D 1.ª edición
+
+Libros de TSR para AD&D 1.ª edición (1977-1989) según el [catálogo de TSR Archive](https://www.tsrarchive.com/add/add.html). No consta ninguna edición en castellano. Fuera: pantallas, hojas de personaje, cartas de monstruos, registros de aventuras, reediciones de 2012-2013, los módulos de torneo y de la RPGA sin venta al público.
+
+#### AD&D 1.ª: Reglas, suplementos y aventuras genéricas
+
+| #   | Título original                             | Título en castellano | Tipo       | Año  | Castellano | Ficha                                      | Nota             |
+| --- | ------------------------------------------- | -------------------- | ---------- | ---- | ---------- | ------------------------------------------ | ---------------- |
+| 1   | Monster Manual                              | —                    | básico     | 1977 | no consta  | monster-manual-1e                          | código TSR 2009  |
+| 2   | D1 Descent Into the Depths of the Earth     | —                    | aventura   | 1978 | no consta  | d1-descent-into-the-depths-of-the-earth    | código TSR 9019  |
+| 3   | D3 Vault of the Drow                        | —                    | aventura   | 1978 | no consta  | d3-vault-of-the-drow                       | código TSR 9021  |
+| 4   | Players Handbook                            | —                    | básico     | 1978 | no consta  | players-handbook-1e                        | código TSR 2010  |
+| 5   | S1 Tomb of Horrors                          | —                    | aventura   | 1978 | no consta  | s1-tomb-of-horrors                         | código TSR 9022  |
+| 6   | C6 The Official RPGA Tournament Handbook    | —                    | aventura   | 1979 | no consta  | c6-the-official-rpga-tournament-handbook   | código TSR 9026  |
+| 7   | D2 Shrine of the Kuo-Toa                    | —                    | aventura   | 1979 | no consta  | d2-shrine-of-the-kuo-toa                   | código TSR 9020  |
+| 8   | Dungeon Masters Guide                       | —                    | básico     | 1979 | no consta  | dungeon-masters-guide-1e                   | código TSR 2011  |
+| 9   | G1 Steading of the Hill Giant Chief         | —                    | aventura   | 1979 | no consta  | g1-steading-of-the-hill-giant-chief        | código TSR 9016  |
+| 10  | G2 Glacial Rift of the Frost Giant Jarl     | —                    | aventura   | 1979 | no consta  | g2-glacial-rift-of-the-frost-giant-jarl    | código TSR 9017  |
+| 11  | G3 Hall of the Fire Giant King              | —                    | aventura   | 1979 | no consta  | g3-hall-of-the-fire-giant-king             | código TSR 9018  |
+| 12  | S2 White Plume Mountain                     | —                    | aventura   | 1979 | no consta  | s2-white-plume-mountain                    | código TSR 9027  |
+| 13  | T1 The Village of Hommlet                   | —                    | aventura   | 1979 | no consta  | t1-the-village-of-hommlet                  | código TSR 9026b |
+| 14  | A1 Slave Pits of the Undercity              | —                    | aventura   | 1980 | no consta  | a1-slave-pits-of-the-undercity             | código TSR 9039  |
+| 15  | C1 The Hidden Shrine of Tamoachan           | —                    | aventura   | 1980 | no consta  | c1-the-hidden-shrine-of-tamoachan          | código TSR 9032  |
+| 16  | C2 The Ghost Tower of Inverness             | —                    | aventura   | 1980 | no consta  | c2-the-ghost-tower-of-inverness            | código TSR 9038  |
+| 17  | Deities & Demigods                          | —                    | suplemento | 1980 | no consta  | deities-and-demigods-1e                    | código TSR 2013  |
+| 18  | Q1 Queen of the Demonweb Pits               | —                    | aventura   | 1980 | no consta  | q1-queen-of-the-demonweb-pits              | código TSR 9035  |
+| 19  | S3 Expedition to the Barrier Peaks          | —                    | aventura   | 1980 | no consta  | s3-expedition-to-the-barrier-peaks         | código TSR 9033  |
+| 20  | The Rogues Gallery                          | —                    | suplemento | 1980 | no consta  | the-rogues-gallery                         | código TSR 9031  |
+| 21  | A2 Secret of the Slavers Stockade           | —                    | aventura   | 1981 | no consta  | a2-secret-of-the-slavers-stockade          | código TSR 9040  |
+| 22  | A3 Assault on the Aerie of the Slave Lords  | —                    | aventura   | 1981 | no consta  | a3-assault-on-the-aerie-of-the-slave-lords | código TSR 9041  |
+| 23  | A4 In the Dungeons of the Slave Lords       | —                    | aventura   | 1981 | no consta  | a4-in-the-dungeons-of-the-slave-lords      | código TSR 9042  |
+| 24  | D1-2 Descent Into the Depths of the Earth   | —                    | aventura   | 1981 | no consta  | d1-2-descent-into-the-depths-of-the-earth  | código TSR 9059  |
+| 25  | Fiend Folio                                 | —                    | suplemento | 1981 | no consta  | fiend-folio-1e                             | código TSR 2012  |
+| 26  | G1-2-3 Against the Giants                   | —                    | aventura   | 1981 | no consta  | g1-2-3-against-the-giants                  | código TSR 9058  |
+| 27  | I1 Dwellers of the Forbidden City           | —                    | aventura   | 1981 | no consta  | i1-dwellers-of-the-forbidden-city          | código TSR 9046  |
+| 28  | L1 The Secret of Bone Hill                  | —                    | aventura   | 1981 | no consta  | l1-the-secret-of-bone-hill                 | código TSR 9045  |
+| 29  | U1 The Sinister Secret of Saltmarsh         | —                    | aventura   | 1981 | no consta  | u1-the-sinister-secret-of-saltmarsh        | código TSR 9062  |
+| 30  | I2 Tomb of the Lizard King                  | —                    | aventura   | 1982 | no consta  | i2-tomb-of-the-lizard-king                 | código TSR 9055  |
+| 31  | I3 Pharaoh                                  | —                    | aventura   | 1982 | no consta  | i3-pharaoh                                 | código TSR 9052  |
+| 32  | N1 Against the Cult of the Reptile God      | —                    | aventura   | 1982 | no consta  | n1-against-the-cult-of-the-reptile-god     | código TSR 9063  |
+| 33  | R1 To the Aid of Falx                       | —                    | aventura   | 1982 | no consta  | r1-to-the-aid-of-falx                      | código TSR 6060  |
+| 34  | R2 The Investigation of Hydell              | —                    | aventura   | 1982 | no consta  | r2-the-investigation-of-hydell             | código TSR 6061  |
+| 35  | R3 The Egg of the Phoenix                   | —                    | aventura   | 1982 | no consta  | r3-the-egg-of-the-phoenix                  | código TSR 6062  |
+| 36  | R4 Doc's Island                             | —                    | aventura   | 1982 | no consta  | r4-docs-island                             | código TSR 6063  |
+| 37  | S4 Lost Caverns of Tsojcanth                | —                    | aventura   | 1982 | no consta  | s4-lost-caverns-of-tsojcanth               | código TSR 9061  |
+| 38  | U2 Danger at Dunwater                       | —                    | aventura   | 1982 | no consta  | u2-danger-at-dunwater                      | código TSR 9064  |
+| 39  | EX1 Dungeonland                             | —                    | aventura   | 1983 | no consta  | ex1-dungeonland                            | código TSR 9072  |
+| 40  | EX2 The Land Beyond the Magic Mirror        | —                    | aventura   | 1983 | no consta  | ex2-the-land-beyond-the-magic-mirror       | código TSR 9073  |
+| 41  | I4 Oasis of the White Palm                  | —                    | aventura   | 1983 | no consta  | i4-oasis-of-the-white-palm                 | código TSR 9053  |
+| 42  | I5 Lost Tomb of Martek                      | —                    | aventura   | 1983 | no consta  | i5-lost-tomb-of-martek                     | código TSR 9054  |
+| 43  | I6 Ravenloft                                | —                    | aventura   | 1983 | no consta  | i6-ravenloft                               | código TSR 9075  |
+| 44  | L2 The Assassin's Knot                      | —                    | aventura   | 1983 | no consta  | l2-the-assassins-knot                      | código TSR 9057  |
+| 45  | Monster Manual II                           | —                    | suplemento | 1983 | no consta  | monster-manual-ii-1e                       | código TSR 2016  |
+| 46  | U3 The Final Enemy                          | —                    | aventura   | 1983 | no consta  | u3-the-final-enemy                         | código TSR 9076  |
+| 47  | UK1 Beyond the Crystal Cave                 | —                    | aventura   | 1983 | no consta  | uk1-beyond-the-crystal-cave                | código TSR 9066  |
+| 48  | UK2 The Sentinel                            | —                    | aventura   | 1983 | no consta  | uk2-the-sentinel                           | código TSR 9101  |
+| 49  | C3 The Lost Island of Castanamir            | —                    | aventura   | 1984 | no consta  | c3-the-lost-island-of-castanamir           | código TSR 9110  |
+| 50  | C4 To Find a King                           | —                    | aventura   | 1984 | no consta  | c4-to-find-a-king                          | código TSR 9107  |
+| 51  | CB1 Conan Unchained!                        | —                    | aventura   | 1984 | no consta  | cb1-conan-unchained                        | código TSR 9123  |
+| 52  | CB2 Conan Against Darkness!                 | —                    | aventura   | 1984 | no consta  | cb2-conan-against-darkness                 | código TSR 9124  |
+| 53  | MV1 Midnight on Dagger Alley                | —                    | aventura   | 1984 | no consta  | mv1-midnight-on-dagger-alley               | código TSR 9104  |
+| 54  | N2 The Forest Oracle                        | —                    | aventura   | 1984 | no consta  | n2-the-forest-oracle                       | código TSR 9084  |
+| 55  | UK3 The Gauntlet                            | —                    | aventura   | 1984 | no consta  | uk3-the-gauntlet                           | código TSR 9111  |
+| 56  | UK4 When a Star Falls                       | —                    | aventura   | 1984 | no consta  | uk4-when-a-star-falls                      | código TSR 9120  |
+| 57  | UK5 Eye of the Serpent                      | —                    | aventura   | 1984 | no consta  | uk5-eye-of-the-serpent                     | código TSR 9125  |
+| 58  | UK6 All That Glitters...                    | —                    | aventura   | 1984 | no consta  | uk6-all-that-glitters                      | código TSR 9126  |
+| 59  | Battlesystem: Fantasy Combat Supplement     | —                    | suplemento | 1985 | no consta  | battlesystem-fantasy-combat-supplement     | código TSR 1019  |
+| 60  | C5 The Bane of Llywelyn                     | —                    | aventura   | 1985 | no consta  | c5-the-bane-of-llywelyn                    | código TSR 9109  |
+| 61  | H1 Bloodstone Pass                          | —                    | aventura   | 1985 | no consta  | h1-bloodstone-pass                         | código TSR 9122  |
+| 62  | I7 Baltron's Beacon                         | —                    | aventura   | 1985 | no consta  | i7-baltrons-beacon                         | código TSR 9152  |
+| 63  | Legends & Lore                              | —                    | suplemento | 1985 | no consta  | legends-and-lore-1e                        | código TSR 2013b |
+| 64  | Oriental Adventures                         | —                    | suplemento | 1985 | no consta  | oriental-adventures-1e                     | código TSR 2018  |
+| 65  | T1-4 The Temple of Elemental Evil           | —                    | aventura   | 1985 | no consta  | t1-4-the-temple-of-elemental-evil          | código TSR 9026c |
+| 66  | UK7 Dark Clouds Gather                      | —                    | aventura   | 1985 | no consta  | uk7-dark-clouds-gather                     | código TSR 9151  |
+| 67  | Unearthed Arcana                            | —                    | suplemento | 1985 | no consta  | unearthed-arcana-1e                        | código TSR 2017  |
+| 68  | A1-4 Scourge of the Slavelords              | —                    | aventura   | 1986 | no consta  | a1-4-scourge-of-the-slavelords             | código TSR 9167  |
+| 69  | Dungeoneer's Survival Guide                 | —                    | suplemento | 1986 | no consta  | dungeoneers-survival-guide-1e              | código TSR 2019  |
+| 70  | GDQ1-7 Queen of the Spiders                 | —                    | aventura   | 1986 | no consta  | gdq1-7-queen-of-the-spiders                | código TSR 9179  |
+| 71  | H2 The Mines of Bloodstone                  | —                    | aventura   | 1986 | no consta  | h2-the-mines-of-bloodstone                 | código TSR 9168  |
+| 72  | I10 Ravenloft II: The House on Gryphon Hill | —                    | aventura   | 1986 | no consta  | i10-ravenloft-ii-the-house-on-gryphon-hill | código TSR 9181  |
+| 73  | I8 Ravager of Time                          | —                    | aventura   | 1986 | no consta  | i8-ravager-of-time                         | código TSR 9169  |
+| 74  | I9 Day of Al'Akbar                          | —                    | aventura   | 1986 | no consta  | i9-day-of-alakbar                          | código TSR 9178  |
+| 75  | N3 Destiny of Kings                         | —                    | aventura   | 1986 | no consta  | n3-destiny-of-kings                        | código TSR 9163  |
+| 76  | N4 Treasure Hunt                            | —                    | aventura   | 1986 | no consta  | n4-treasure-hunt                           | código TSR 9185  |
+| 77  | REF3 The Book of Lairs                      | —                    | suplemento | 1986 | no consta  | ref3-the-book-of-lairs                     | código TSR 9177  |
+| 78  | RS1 Red Sonja Unconquered                   | —                    | aventura   | 1986 | no consta  | rs1-red-sonja-unconquered                  | código TSR 9183  |
+| 79  | Wilderness Survival Guide                   | —                    | suplemento | 1986 | no consta  | wilderness-survival-guide-1e               | código TSR 2020  |
+| 80  | H3 The Bloodstone Wars                      | —                    | aventura   | 1987 | no consta  | h3-the-bloodstone-wars                     | código TSR 9200  |
+| 81  | I11 Needle                                  | —                    | aventura   | 1987 | no consta  | i11-needle                                 | código TSR 9187  |
+| 82  | I12 Egg of the Phoenix                      | —                    | aventura   | 1987 | no consta  | i12-egg-of-the-phoenix                     | código TSR 9201  |
+| 83  | I13 Adventure Pack I                        | —                    | suplemento | 1987 | no consta  | i13-adventure-pack-i                       | código TSR 9202  |
+| 84  | I3-5 Desert of Desolation                   | —                    | aventura   | 1987 | no consta  | i3-5-desert-of-desolation                  | código TSR 9199  |
+| 85  | Manual of the Planes                        | —                    | suplemento | 1987 | no consta  | manual-of-the-planes-1e                    | código TSR 2022  |
+| 86  | N5 Under Illefarn                           | —                    | aventura   | 1987 | no consta  | n5-under-illefarn                          | código TSR 9212  |
+| 87  | REF4 The Book of Lairs II                   | —                    | suplemento | 1987 | no consta  | ref4-the-book-of-lairs-ii                  | código TSR 9198  |
+| 88  | S1-4 Realms of Horror                       | —                    | aventura   | 1987 | no consta  | s1-4-realms-of-horror                      | código TSR 9209  |
+| 89  | The Shattered Statue                        | —                    | aventura   | 1987 | no consta  | the-shattered-statue                       | código TSR 9221  |
+| 90  | Battlesystem: Miniatures Rules              | —                    | suplemento | 1988 | no consta  | battlesystem-miniatures-rules              | código TSR 9266  |
+| 91  | Dungeon Master's Design Kit                 | —                    | suplemento | 1988 | no consta  | dungeon-masters-design-kit                 | código TSR 9234  |
+| 92  | H4 The Throne of Bloodstone                 | —                    | aventura   | 1988 | no consta  | h4-the-throne-of-bloodstone                | código TSR 9228  |
+| 93  | I14 Swords of the Iron Legion               | —                    | aventura   | 1988 | no consta  | i14-swords-of-the-iron-legion              | código TSR 9266b |
+| 94  | OP1 Tales of the Outer Planes               | —                    | aventura   | 1988 | no consta  | op1-tales-of-the-outer-planes              | código TSR 9225  |
+| 95  | REF5 Lords of Darkness                      | —                    | suplemento | 1988 | no consta  | ref5-lords-of-darkness                     | código TSR 9240  |
+
+#### AD&D 1.ª: Dragonlance
+
+| #   | Título original                      | Título en castellano | Tipo         | Año  | Castellano | Ficha                                | Nota            |
+| --- | ------------------------------------ | -------------------- | ------------ | ---- | ---------- | ------------------------------------ | --------------- |
+| 1   | DL1 Dragons of Despair               | —                    | aventura     | 1984 | no consta  | dl1-dragons-of-despair               | código TSR 9130 |
+| 2   | DL2 Dragons of Flame                 | —                    | aventura     | 1984 | no consta  | dl2-dragons-of-flame                 | código TSR 9132 |
+| 3   | DL3 Dragons of Hope                  | —                    | aventura     | 1984 | no consta  | dl3-dragons-of-hope                  | código TSR 9131 |
+| 4   | DL4 Dragons of Desolation            | —                    | aventura     | 1984 | no consta  | dl4-dragons-of-desolation            | código TSR 9139 |
+| 5   | DL5 Dragons of Mystery               | —                    | ambientación | 1984 | no consta  | dl5-dragons-of-mystery               | código TSR 9135 |
+| 6   | DL10 Dragons of Dreams               | —                    | aventura     | 1985 | no consta  | dl10-dragons-of-dreams               | código TSR 9142 |
+| 7   | DL11 Dragons of Glory                | —                    | ambientación | 1985 | no consta  | dl11-dragons-of-glory                | código TSR 9144 |
+| 8   | DL6 Dragons of Ice                   | —                    | aventura     | 1985 | no consta  | dl6-dragons-of-ice                   | código TSR 9140 |
+| 9   | DL7 Dragons of Light                 | —                    | aventura     | 1985 | no consta  | dl7-dragons-of-light                 | código TSR 9136 |
+| 10  | DL8 Dragons of War                   | —                    | aventura     | 1985 | no consta  | dl8-dragons-of-war                   | código TSR 9141 |
+| 11  | DL9 Dragons of Deceit                | —                    | aventura     | 1985 | no consta  | dl9-dragons-of-deceit                | código TSR 9137 |
+| 12  | DL12 Dragons of Faith                | —                    | aventura     | 1986 | no consta  | dl12-dragons-of-faith                | código TSR 9133 |
+| 13  | DL13 Dragons of Truth                | —                    | aventura     | 1986 | no consta  | dl13-dragons-of-truth                | código TSR 9176 |
+| 14  | DL14 Dragons of Triumph              | —                    | aventura     | 1986 | no consta  | dl14-dragons-of-triumph              | código TSR 9180 |
+| 15  | Dragonlance Adventures               | —                    | ambientación | 1987 | no consta  | dragonlance-adventures               | código TSR 2021 |
+| 16  | Leaves From the Inn of the Last Home | —                    | ambientación | 1987 | no consta  | leaves-from-the-inn-of-the-last-home | código TSR 8446 |
+| 17  | The Art of the Dragonlance Saga      | —                    | ambientación | 1987 | no consta  | the-art-of-the-dragonlance-saga      | código TSR 8447 |
+| 18  | The Atlas of the Dragonlance World   | —                    | ambientación | 1987 | no consta  | the-atlas-of-the-dragonlance-world   | código TSR 8448 |
+| 19  | DL15 Mists of Krynn                  | —                    | aventura     | 1988 | no consta  | dl15-mists-of-krynn                  | código TSR 9231 |
+| 20  | DL16 World of Krynn                  | —                    | aventura     | 1988 | no consta  | dl16-world-of-krynn                  | código TSR 9237 |
+
+#### AD&D 1.ª: Reinos Olvidados
+
+| #   | Título original               | Título en castellano | Tipo         | Año  | Castellano | Ficha                         | Nota            |
+| --- | ----------------------------- | -------------------- | ------------ | ---- | ---------- | ----------------------------- | --------------- |
+| 1   | FR1 Waterdeep and the North   | —                    | ambientación | 1987 | no consta  | fr1-waterdeep-and-the-north   | código TSR 9213 |
+| 2   | FR2 Moonshae                  | —                    | ambientación | 1987 | no consta  | fr2-moonshae                  | código TSR 9217 |
+| 3   | Forgotten Realms Campaign Set | —                    | ambientación | 1987 | no consta  | forgotten-realms-campaign-set | código TSR 1031 |
+| 4   | City System                   | —                    | ambientación | 1988 | no consta  | city-system                   | código TSR 1040 |
+| 5   | FR3 Empires of the Sands      | —                    | ambientación | 1988 | no consta  | fr3-empires-of-the-sands      | código TSR 9224 |
+| 6   | FR4 The Magister              | —                    | ambientación | 1988 | no consta  | fr4-the-magister              | código TSR 9229 |
+| 7   | FR5 The Savage Frontier       | —                    | ambientación | 1988 | no consta  | fr5-the-savage-frontier       | código TSR 9233 |
+| 8   | FR6 Dreams of the Red Wizards | —                    | ambientación | 1988 | no consta  | fr6-dreams-of-the-red-wizards | código TSR 9235 |
+| 9   | FRC1 Ruins of Adventure       | —                    | aventura     | 1988 | no consta  | frc1-ruins-of-adventure       | código TSR 9238 |
+| 10  | Kara-Tur: The Eastern Realms  | —                    | ambientación | 1988 | no consta  | kara-tur-the-eastern-realms   | código TSR 1032 |
+| 11  | FR7 Hall of Heroes            | —                    | ambientación | 1989 | no consta  | fr7-hall-of-heroes            | código TSR 9252 |
+| 12  | FR8 Cities of Mystery         | —                    | ambientación | 1989 | no consta  | fr8-cities-of-mystery         | código TSR 9262 |
+| 13  | FRC2 Curse of the Azure Bonds | —                    | aventura     | 1989 | no consta  | frc2-curse-of-the-azure-bonds | código TSR 9239 |
+| 14  | FRE1 Shadowdale               | —                    | aventura     | 1989 | no consta  | fre1-shadowdale               | código TSR 9247 |
+| 15  | FRE2 Tantras                  | —                    | aventura     | 1989 | no consta  | fre2-tantras                  | código TSR 9248 |
+| 16  | FRE3 Waterdeep                | —                    | aventura     | 1989 | no consta  | fre3-waterdeep                | código TSR 9249 |
+
+#### AD&D 1.ª: Greyhawk
+
+| #   | Título original                             | Título en castellano | Tipo         | Año  | Castellano | Ficha                                       | Nota            |
+| --- | ------------------------------------------- | -------------------- | ------------ | ---- | ---------- | ------------------------------------------- | --------------- |
+| 1   | The World of Greyhawk Fantasy World Setting | —                    | ambientación | 1980 | no consta  | the-world-of-greyhawk-fantasy-world-setting | código TSR 9025 |
+| 2   | WG4 The Forgotten Temple of Tharizdun       | —                    | aventura     | 1982 | no consta  | wg4-the-forgotten-temple-of-tharizdun       | código TSR 9065 |
+| 3   | World of Greyhawk Fantasy Game Setting      | —                    | ambientación | 1983 | no consta  | world-of-greyhawk-fantasy-game-setting      | código TSR 1015 |
+| 4   | WG5 Mordenkainen's Fantastic Adventure      | —                    | aventura     | 1984 | no consta  | wg5-mordenkainens-fantastic-adventure       | código TSR 9112 |
+| 5   | WG6 Isle of the Ape                         | —                    | aventura     | 1985 | no consta  | wg6-isle-of-the-ape                         | código TSR 9153 |
+| 6   | Greyhawk Adventures                         | —                    | ambientación | 1988 | no consta  | greyhawk-adventures                         | código TSR 2023 |
+| 7   | WG7 Castle Greyhawk                         | —                    | aventura     | 1988 | no consta  | wg7-castle-greyhawk                         | código TSR 9222 |
+| 8   | WG8 Fate of Istus                           | —                    | aventura     | 1989 | no consta  | wg8-fate-of-istus                           | código TSR 9253 |
+| 9   | WG9 Gargoyle                                | —                    | aventura     | 1989 | no consta  | wg9-gargoyle                                | código TSR 9251 |
+
+#### AD&D 1.ª: Lankhmar
+
+| #   | Título original             | Título en castellano | Tipo         | Año  | Castellano | Ficha                         | Nota            |
+| --- | --------------------------- | -------------------- | ------------ | ---- | ---------- | ----------------------------- | --------------- |
+| 1   | CA1 Swords of the Undercity | —                    | aventura     | 1985 | no consta  | ca1-swords-of-the-undercity   | código TSR 9150 |
+| 2   | Lankhmar: City of Adventure | —                    | ambientación | 1985 | no consta  | lankhmar-city-of-adventure-1e | código TSR 9162 |
+| 3   | CA2 Swords of Deceit        | —                    | aventura     | 1986 | no consta  | ca2-swords-of-deceit          | código TSR 9170 |
+
+#### AD&D 1.ª: Oriental Adventures
+
+| #   | Título original                   | Título en castellano | Tipo     | Año  | Castellano | Ficha                             | Nota            |
+| --- | --------------------------------- | -------------------- | -------- | ---- | ---------- | --------------------------------- | --------------- |
+| 1   | OA1 Swords of the Daimyo          | —                    | aventura | 1986 | no consta  | oa1-swords-of-the-daimyo          | código TSR 9164 |
+| 2   | OA2 Night of the Seven Swords     | —                    | aventura | 1986 | no consta  | oa2-night-of-the-seven-swords     | código TSR 9186 |
+| 3   | OA3 Ochimo: The Spirit Warrior    | —                    | aventura | 1987 | no consta  | oa3-ochimo-the-spirit-warrior     | código TSR 9195 |
+| 4   | OA4 Blood of the Yakuza           | —                    | aventura | 1987 | no consta  | oa4-blood-of-the-yakuza           | código TSR 9203 |
+| 5   | OA5 Mad Monkey vs the Dragon Claw | —                    | aventura | 1988 | no consta  | oa5-mad-monkey-vs-the-dragon-claw | código TSR 9242 |
+| 6   | OA7 Test of the Samurai           | —                    | aventura | 1989 | no consta  | oa7-test-of-the-samurai           | código TSR 9258 |

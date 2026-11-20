@@ -1,0 +1,17 @@
+{
+  "slug": "leaves-from-the-inn-of-the-last-home",
+  "system": "dnd-add1",
+  "title": "Leaves From the Inn of the Last Home",
+  "kind": "setting",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1987, en un libro en rústica de 256 páginas. Lo escribió Margaret Weis y Tracy Hickman (editors).\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/leaves-from-the-inn-of-the-last-home/english.webp"
+    }
+  ]
+}

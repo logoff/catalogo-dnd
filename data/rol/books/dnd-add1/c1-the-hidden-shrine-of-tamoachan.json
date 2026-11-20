@@ -1,0 +1,17 @@
+{
+  "slug": "c1-the-hidden-shrine-of-tamoachan",
+  "system": "dnd-add1",
+  "title": "C1 The Hidden Shrine of Tamoachan",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1980, en un libro de 32 páginas. La escribió Harold Johnson y Jeff R. Leason.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/c1-the-hidden-shrine-of-tamoachan/english.webp"
+    }
+  ]
+}

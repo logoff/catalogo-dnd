@@ -1,0 +1,17 @@
+{
+  "slug": "dl15-mists-of-krynn",
+  "system": "dnd-add1",
+  "title": "DL15 Mists of Krynn",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1988, en un libro en rústica de 128 páginas. La escribió Mike Breault (editor).\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/dl15-mists-of-krynn/english.webp"
+    }
+  ]
+}

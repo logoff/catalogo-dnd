@@ -1,0 +1,17 @@
+{
+  "slug": "i14-swords-of-the-iron-legion",
+  "system": "dnd-add1",
+  "title": "I14 Swords of the Iron Legion",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1988, en un cuadernillo de 64 páginas con cubierta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/i14-swords-of-the-iron-legion/english.webp"
+    }
+  ]
+}

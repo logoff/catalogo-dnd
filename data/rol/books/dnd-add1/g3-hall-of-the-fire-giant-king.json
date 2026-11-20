@@ -1,0 +1,17 @@
+{
+  "slug": "g3-hall-of-the-fire-giant-king",
+  "system": "dnd-add1",
+  "title": "G3 Hall of the Fire Giant King",
+  "kind": "adventure",
+  "description": "La tercera aventura de la serie de los gigantes: el salón del rey de los gigantes de fuego, que revela la mano de los drow.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-g.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "paperback",
+      "cover": "/images/rol/g3-hall-of-the-fire-giant-king/english.webp"
+    }
+  ]
+}

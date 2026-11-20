@@ -1,0 +1,17 @@
+{
+  "slug": "ref3-the-book-of-lairs",
+  "system": "dnd-add1",
+  "title": "REF3 The Book of Lairs",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 1.ª edición que TSR publicó en 1986, en un libro en rústica de 96 páginas. Lo escribió James M. Ward y Mike Breault.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ref-2e.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/ref3-the-book-of-lairs/english.webp"
+    }
+  ]
+}

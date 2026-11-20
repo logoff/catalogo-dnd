@@ -1,0 +1,17 @@
+{
+  "slug": "c3-the-lost-island-of-castanamir",
+  "system": "dnd-add1",
+  "title": "C3 The Lost Island of Castanamir",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1984, en un cuadernillo de 32 páginas con cubierta. La escribió Ken Rolston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/c3-the-lost-island-of-castanamir/english.webp"
+    }
+  ]
+}
