@@ -1,0 +1,17 @@
+{
+  "slug": "calimport",
+  "system": "dnd-add2",
+  "title": "Calimport",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1998, en un cuadernillo de 96 páginas con cubierta. Lo escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/calimport/english.webp"
+    }
+  ]
+}

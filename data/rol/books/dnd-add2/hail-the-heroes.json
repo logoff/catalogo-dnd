@@ -1,0 +1,17 @@
+{
+  "slug": "hail-the-heroes",
+  "system": "dnd-add2",
+  "title": "Hail the Heroes",
+  "kind": "adventure",
+  "description": "Aventura de Mystara que TSR publicó en 1994, en una caja. La escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ms/ms-cd.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/hail-the-heroes/english.webp"
+    }
+  ]
+}

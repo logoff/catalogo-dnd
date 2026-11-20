@@ -1,0 +1,17 @@
+{
+  "slug": "cutthroats-of-lankhmar",
+  "system": "dnd-add2",
+  "title": "Cutthroats of Lankhmar",
+  "kind": "setting",
+  "description": "Suplemento de Lankhmar que TSR publicó en 1995, en un libro de 64 páginas. Lo escribió \"Uncle\" Wes Nicholson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-other.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/cutthroats-of-lankhmar/english.webp"
+    }
+  ]
+}

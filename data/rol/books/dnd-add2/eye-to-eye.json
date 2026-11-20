@@ -1,0 +1,17 @@
+{
+  "slug": "eye-to-eye",
+  "system": "dnd-add2",
+  "title": "Eye to Eye",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1996, en un libro de 64 páginas. La escribió Thomas M. Reid.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/eye-to-eye/english.webp"
+    }
+  ]
+}

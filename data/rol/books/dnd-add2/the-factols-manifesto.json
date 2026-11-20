@@ -1,0 +1,17 @@
+{
+  "slug": "the-factols-manifesto",
+  "system": "dnd-add2",
+  "title": "The Factol's Manifesto",
+  "kind": "setting",
+  "description": "Suplemento de Planescape que TSR publicó en 1995, en un libro en rústica de 160 páginas. Lo escribió Tim Beach, Dori Jean Hein y J.M. Salsbury.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-factols-manifesto/english.webp"
+    }
+  ]
+}

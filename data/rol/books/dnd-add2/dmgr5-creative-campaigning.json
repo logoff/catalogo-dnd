@@ -1,0 +1,17 @@
+{
+  "slug": "dmgr5-creative-campaigning",
+  "system": "dnd-add2",
+  "title": "DMGR5 Creative Campaigning",
+  "kind": "supplement",
+  "description": "Consejos del Dungeon Master para crear campañas variadas: estilos de juego, mundos, intriga, horror y otros géneros.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr5-creative-campaigning/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-fall-of-myth-drannor",
+  "system": "dnd-add2",
+  "title": "The Fall of Myth Drannor",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1998, en un libro de 64 páginas. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-aa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-fall-of-myth-drannor/english.webp"
+    }
+  ]
+}

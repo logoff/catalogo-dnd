@@ -1,0 +1,17 @@
+{
+  "slug": "dse1-dragons-crown",
+  "system": "dnd-add2",
+  "title": "DSE1 Dragon's Crown",
+  "kind": "adventure",
+  "description": "Aventura de Dark Sun que TSR publicó en 1993, en una caja. La escribió L. Richard Baker III, Lisa Smedman, Kirk Botula,.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dse.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/dse1-dragons-crown/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "pg1-players-guide-to-the-dragonlance-campaign",
+  "system": "dnd-add2",
+  "title": "PG1 Player's Guide to the Dragonlance Campaign",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1993, en un libro en rústica de 128 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-pg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/pg1-players-guide-to-the-dragonlance-campaign/english.webp"
+    }
+  ]
+}

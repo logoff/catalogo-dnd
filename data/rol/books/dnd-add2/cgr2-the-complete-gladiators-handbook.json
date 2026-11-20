@@ -1,0 +1,26 @@
+{
+  "slug": "cgr2-the-complete-gladiators-handbook",
+  "system": "dnd-add2",
+  "title": "CGR2 The Complete Gladiator's Handbook",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1993, en un libro en rústica de 128 páginas. Lo escribió Walter M. Baas y Colin McComb.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-cgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/cgr2-the-complete-gladiators-handbook/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Buen Gladiador",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/cgr2-the-complete-gladiators-handbook/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

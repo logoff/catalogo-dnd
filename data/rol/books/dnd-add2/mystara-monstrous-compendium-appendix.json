@@ -1,0 +1,17 @@
+{
+  "slug": "mystara-monstrous-compendium-appendix",
+  "system": "dnd-add2",
+  "title": "Mystara Monstrous Compendium Appendix",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1994, en un libro en rústica de 128 páginas. Lo escribió John Nephew, John Terra, Skip Williams y Teeuwynn Woodruff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/mystara-monstrous-compendium-appendix/english.webp"
+    }
+  ]
+}

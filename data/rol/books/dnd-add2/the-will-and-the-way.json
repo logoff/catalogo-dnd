@@ -1,0 +1,17 @@
+{
+  "slug": "the-will-and-the-way",
+  "system": "dnd-add2",
+  "title": "The Will and the Way",
+  "kind": "setting",
+  "description": "Suplemento de Dark Sun que TSR publicó en 1994, en un libro de 96 páginas. Lo escribió L. Richard Baker III.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/the-will-and-the-way/english.webp"
+    }
+  ]
+}

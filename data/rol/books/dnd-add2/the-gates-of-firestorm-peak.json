@@ -1,0 +1,16 @@
+{
+  "slug": "the-gates-of-firestorm-peak",
+  "system": "dnd-add2",
+  "title": "The Gates of Firestorm Peak",
+  "kind": "adventure",
+  "description": "Una aventura que llevó a AD&D 2.ª edición las reglas de Player's Option en una montaña con un portal al Reino Lejano.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "cover": "/images/rol/the-gates-of-firestorm-peak/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "sjr4-practical-planetology",
+  "system": "dnd-add2",
+  "title": "SJR4 Practical Planetology",
+  "kind": "setting",
+  "description": "Suplemento de Spelljammer que TSR publicó en 1991, en un libro de 64 páginas. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/sjr4-practical-planetology/english.webp"
+    }
+  ]
+}

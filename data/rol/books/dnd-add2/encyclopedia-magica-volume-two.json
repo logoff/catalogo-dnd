@@ -1,0 +1,17 @@
+{
+  "slug": "encyclopedia-magica-volume-two",
+  "system": "dnd-add2",
+  "title": "Encyclopedia Magica Volume Two",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1995, en un libro en rústica de 416 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-em.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/encyclopedia-magica-volume-two/english.webp"
+    }
+  ]
+}

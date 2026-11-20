@@ -1,0 +1,17 @@
+{
+  "slug": "land-of-fate",
+  "system": "dnd-add2",
+  "title": "Land of Fate",
+  "kind": "setting",
+  "description": "La caja básica de Al-Qadim: Zakhara, la Tierra del Destino, una ambientación inspirada en Las mil y una noches.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/land-of-fate/english.webp"
+    }
+  ]
+}

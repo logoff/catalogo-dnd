@@ -1,0 +1,17 @@
+{
+  "slug": "windriders-of-the-jagged-cliffs",
+  "system": "dnd-add2",
+  "title": "Windriders of the Jagged Cliffs",
+  "kind": "setting",
+  "description": "Suplemento de Dark Sun que TSR publicó en 1995, en un libro en rústica de 128 páginas. Lo escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-rev.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/windriders-of-the-jagged-cliffs/english.webp"
+    }
+  ]
+}

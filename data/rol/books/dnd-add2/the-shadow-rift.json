@@ -1,0 +1,17 @@
+{
+  "slug": "the-shadow-rift",
+  "system": "dnd-add2",
+  "title": "The Shadow Rift",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1998, en un libro en rústica de 160 páginas. La escribió William W. Connors, Cindi Rice y John D. Rateliff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-shadow-rift/english.webp"
+    }
+  ]
+}

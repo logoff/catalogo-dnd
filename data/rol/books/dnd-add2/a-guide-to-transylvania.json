@@ -1,0 +1,17 @@
+{
+  "slug": "a-guide-to-transylvania",
+  "system": "dnd-add2",
+  "title": "A Guide to Transylvania",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1996, en un libro de 96 páginas. Lo escribió Nicky Rea.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-red.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/a-guide-to-transylvania/english.webp"
+    }
+  ]
+}

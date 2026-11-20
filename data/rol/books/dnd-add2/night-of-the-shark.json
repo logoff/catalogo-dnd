@@ -1,0 +1,17 @@
+{
+  "slug": "night-of-the-shark",
+  "system": "dnd-add2",
+  "title": "Night of the Shark",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1997, en un libro de 32 páginas. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/night-of-the-shark/english.webp"
+    }
+  ]
+}

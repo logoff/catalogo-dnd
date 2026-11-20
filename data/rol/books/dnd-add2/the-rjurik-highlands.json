@@ -1,0 +1,17 @@
+{
+  "slug": "the-rjurik-highlands",
+  "system": "dnd-add2",
+  "title": "The Rjurik Highlands",
+  "kind": "setting",
+  "description": "Suplemento de Birthright que TSR publicó en 1996, en una caja. Lo escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-rjurik-highlands/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "phbr3-the-complete-priests-handbook",
+  "system": "dnd-add2",
+  "title": "PHBR3 The Complete Priest's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para sacerdotes, con reglas para crear religiones propias, sacerdotes especialistas de cada dios y kits.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/phbr3-the-complete-priests-handbook/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Buen Sacerdote",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/phbr3-the-complete-priests-handbook/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-phbr.html"
+    }
+  ]
+}

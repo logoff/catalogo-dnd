@@ -1,0 +1,17 @@
+{
+  "slug": "the-lost-shrine-of-bundushatur",
+  "system": "dnd-add2",
+  "title": "The Lost Shrine of Bundushatur",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1998, en un libro de 32 páginas. La escribió Michael D. Wagner.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-lost-shrine-of-bundushatur/english.webp"
+    }
+  ]
+}

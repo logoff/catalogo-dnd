@@ -1,0 +1,17 @@
+{
+  "slug": "dmgr2-the-castle-guide",
+  "system": "dnd-add2",
+  "title": "DMGR2 The Castle Guide",
+  "kind": "supplement",
+  "description": "El manual del Dungeon Master sobre castillos: su construcción, sus defensas, su vida y las reglas de asedio.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr2-the-castle-guide/english.webp"
+    }
+  ]
+}

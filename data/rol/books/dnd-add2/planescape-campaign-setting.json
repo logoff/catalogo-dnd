@@ -1,0 +1,17 @@
+{
+  "slug": "planescape-campaign-setting",
+  "system": "dnd-add2",
+  "title": "Planescape Campaign Setting",
+  "kind": "setting",
+  "description": "La caja básica de Planescape: la ciudad de Sigil, la Ciudad de las Puertas, y los planos de la Gran Rueda, con facciones filosóficas, jerga planar y un estilo artístico propio de Tony DiTerlizzi.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/planescape-campaign-setting/english.webp"
+    }
+  ]
+}

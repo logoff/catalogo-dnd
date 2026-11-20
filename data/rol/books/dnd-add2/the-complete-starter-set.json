@@ -1,0 +1,17 @@
+{
+  "slug": "the-complete-starter-set",
+  "system": "dnd-add2",
+  "title": "The Complete Starter Set",
+  "kind": "starter",
+  "description": "Caja de iniciación de AD&D 2.ª edición que TSR publicó en 1996, en una caja. La escribió L. Richard Baker III, David \"Zeb\" Cook, Kevin Melka y Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-complete-starter-set/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "return-to-the-keep-on-the-borderlands",
+  "system": "dnd-add2",
+  "title": "Return to the Keep on the Borderlands",
+  "kind": "adventure",
+  "description": "La secuela de la aventura clásica B2 de Gary Gygax, publicada por el 25.º aniversario de D&D, que vuelve a la Fortaleza en la Frontera.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/add/add-25.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/return-to-the-keep-on-the-borderlands/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Retorno a la Fortaleza de la Frontera",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/return-to-the-keep-on-the-borderlands/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-25.html"
+    }
+  ]
+}

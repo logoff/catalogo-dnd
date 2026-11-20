@@ -1,0 +1,17 @@
+{
+  "slug": "rq3-from-the-shadows",
+  "system": "dnd-add2",
+  "title": "RQ3 From the Shadows",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1992, en un cuadernillo de 64 páginas con cubierta. La escribió Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/rq3-from-the-shadows/english.webp"
+    }
+  ]
+}

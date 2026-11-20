@@ -1,0 +1,17 @@
+{
+  "slug": "how-the-mighty-are-fallen",
+  "system": "dnd-add2",
+  "title": "How the Mighty Are Fallen",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1996, en un libro de 64 páginas. La escribió slade.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-aa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/how-the-mighty-are-fallen/english.webp"
+    }
+  ]
+}

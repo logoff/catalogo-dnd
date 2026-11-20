@@ -1,0 +1,17 @@
+{
+  "slug": "in-the-cage-a-guide-to-sigil",
+  "system": "dnd-add2",
+  "title": "In the Cage: A Guide to Sigil",
+  "kind": "setting",
+  "description": "Suplemento de Planescape que TSR publicó en 1995, en un libro en rústica de 128 páginas. Lo escribió Wolfgang Baur y Rick Swan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/in-the-cage-a-guide-to-sigil/english.webp"
+    }
+  ]
+}

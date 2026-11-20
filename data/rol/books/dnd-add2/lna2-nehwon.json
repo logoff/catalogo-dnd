@@ -1,0 +1,17 @@
+{
+  "slug": "lna2-nehwon",
+  "system": "dnd-add2",
+  "title": "LNA2 Nehwon",
+  "kind": "adventure",
+  "description": "Aventura de Lankhmar que TSR publicó en 1990, en un cuadernillo de 96 páginas con cubierta. La escribió Blake Mobley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-lna.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/lna2-nehwon/english.webp"
+    }
+  ]
+}

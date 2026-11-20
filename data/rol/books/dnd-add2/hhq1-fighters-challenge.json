@@ -1,0 +1,26 @@
+{
+  "slug": "hhq1-fighters-challenge",
+  "system": "dnd-add2",
+  "title": "HHQ1 Fighter's Challenge",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1992, en un cuadernillo de 32 páginas con cubierta. La escribió John Terra.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hhq1-fighters-challenge/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Desafio del Guerrero",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hhq1-fighters-challenge/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-adv.html"
+    }
+  ]
+}

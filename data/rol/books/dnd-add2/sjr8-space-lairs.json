@@ -1,0 +1,17 @@
+{
+  "slug": "sjr8-space-lairs",
+  "system": "dnd-add2",
+  "title": "SJR8 Space Lairs",
+  "kind": "setting",
+  "description": "Suplemento de Spelljammer que TSR publicó en 1993, en un libro de 64 páginas. Lo escribió Nicky Rea y Wes Nicholson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/sjr8-space-lairs/english.webp"
+    }
+  ]
+}

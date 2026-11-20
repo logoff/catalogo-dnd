@@ -1,0 +1,26 @@
+{
+  "slug": "ra2-ship-of-horror",
+  "system": "dnd-add2",
+  "title": "RA2 Ship of Horror",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1991, en un cuadernillo de 64 páginas con cubierta. La escribió Anne Brown.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/rv/rv-ra.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/ra2-ship-of-horror/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Nave del Horror",
+      "publisher": "Zinco",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/ra2-ship-of-horror/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-rv.html"
+    }
+  ]
+}

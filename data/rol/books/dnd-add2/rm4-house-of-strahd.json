@@ -1,0 +1,17 @@
+{
+  "slug": "rm4-house-of-strahd",
+  "system": "dnd-add2",
+  "title": "RM4 House of Strahd",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1993, en un cuadernillo de 64 páginas con cubierta. La escribió Tracy y Laura Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rm4-house-of-strahd/english.webp"
+    }
+  ]
+}

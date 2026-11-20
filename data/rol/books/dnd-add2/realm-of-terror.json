@@ -1,0 +1,17 @@
+{
+  "slug": "realm-of-terror",
+  "system": "dnd-add2",
+  "title": "Realm of Terror",
+  "kind": "setting",
+  "description": "La primera caja de Ravenloft, de 1990, conocida como «la caja negra»: la ambientación de horror gótico en un semiplano de niebla gobernado por señores oscuros, como Strahd von Zarovich.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "boxed_set",
+      "cover": "/images/rol/realm-of-terror/english.webp"
+    }
+  ]
+}

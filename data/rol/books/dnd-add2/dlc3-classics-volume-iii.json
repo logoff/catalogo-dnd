@@ -1,0 +1,16 @@
+{
+  "slug": "dlc3-classics-volume-iii",
+  "system": "dnd-add2",
+  "title": "DLC3 Classics Volume III",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1994. La escribió Jeff Grubb, Tracy Hickman y Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "cover": "/images/rol/dlc3-classics-volume-iii/english.webp"
+    }
+  ]
+}

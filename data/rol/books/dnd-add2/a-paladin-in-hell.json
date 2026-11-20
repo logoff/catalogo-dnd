@@ -1,0 +1,17 @@
+{
+  "slug": "a-paladin-in-hell",
+  "system": "dnd-add2",
+  "title": "A Paladin in Hell",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel alto en los Nueve Infiernos, en la que un paladín ha caído en manos de los diablos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/a-paladin-in-hell/english.webp"
+    }
+  ]
+}

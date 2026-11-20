@@ -1,0 +1,26 @@
+{
+  "slug": "dsr4-valley-of-dust-and-fire",
+  "system": "dnd-add2",
+  "title": "DSR4 Valley of Dust and Fire",
+  "kind": "setting",
+  "description": "Suplemento de Dark Sun que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió L. Richard Baker III.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dsr4-valley-of-dust-and-fire/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Valle de Polvo y Fuego",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/dsr4-valley-of-dust-and-fire/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

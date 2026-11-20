@@ -1,0 +1,16 @@
+{
+  "slug": "van-richtens-monster-hunters-compendium-volume-one",
+  "system": "dnd-add2",
+  "title": "Van Richten's Monster Hunter's Compendium Volume One",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1999. Lo escribió Nigel D. Findley y Teeuwyn Woodruff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-mhc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "cover": "/images/rol/van-richtens-monster-hunters-compendium-volume-one/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "gr3-treasure-maps",
+  "system": "dnd-add2",
+  "title": "GR3 Treasure Maps",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992. Lo escribió Slade Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-gr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "cover": "/images/rol/gr3-treasure-maps/english.webp"
+    }
+  ]
+}

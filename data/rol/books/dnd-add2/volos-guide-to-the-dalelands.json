@@ -1,0 +1,26 @@
+{
+  "slug": "volos-guide-to-the-dalelands",
+  "system": "dnd-add2",
+  "title": "Volo's Guide to the Dalelands",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1996, en un libro en rústica de 240 páginas. Lo escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/fr/fr-volo.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-the-dalelands/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de Volo para Los Valles",
+      "publisher": "Martínez Roca",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-the-dalelands/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-volo.html"
+    }
+  ]
+}

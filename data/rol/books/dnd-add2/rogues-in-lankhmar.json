@@ -1,0 +1,17 @@
+{
+  "slug": "rogues-in-lankhmar",
+  "system": "dnd-add2",
+  "title": "Rogues in Lankhmar",
+  "kind": "setting",
+  "description": "Suplemento de Lankhmar que TSR publicó en 1994, en un libro de 64 páginas. Lo escribió Wes Nicholson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-other.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/rogues-in-lankhmar/english.webp"
+    }
+  ]
+}

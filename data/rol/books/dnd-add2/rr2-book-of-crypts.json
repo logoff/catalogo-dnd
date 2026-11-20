@@ -1,0 +1,17 @@
+{
+  "slug": "rr2-book-of-crypts",
+  "system": "dnd-add2",
+  "title": "RR2 Book of Crypts",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1991, en un libro de 96 páginas. Lo escribió Dale \"Slade\" Henson y J. Robert King.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/rr2-book-of-crypts/english.webp"
+    }
+  ]
+}

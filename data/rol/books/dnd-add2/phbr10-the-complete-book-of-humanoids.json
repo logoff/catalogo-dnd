@@ -1,0 +1,17 @@
+{
+  "slug": "phbr10-the-complete-book-of-humanoids",
+  "system": "dnd-add2",
+  "title": "PHBR10 The Complete Book of Humanoids",
+  "kind": "supplement",
+  "description": "Reglas para jugar con razas humanoides como orcos, goblins, gnolls u ogros, con su cultura, kits y opciones.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/phbr10-the-complete-book-of-humanoids/english.webp"
+    }
+  ]
+}

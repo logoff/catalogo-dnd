@@ -1,0 +1,17 @@
+{
+  "slug": "the-doomgrinder-the-lost-tombs-volume-3",
+  "system": "dnd-add2",
+  "title": "The Doomgrinder (The Lost Tombs, Volume 3)",
+  "kind": "adventure",
+  "description": "Aventura de Greyhawk que TSR publicó en 1998, en un cuadernillo de 48 páginas con cubierta. La escribió Steve Miller.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-doomgrinder-the-lost-tombs-volume-3/english.webp"
+    }
+  ]
+}

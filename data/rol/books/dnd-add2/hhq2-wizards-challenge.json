@@ -1,0 +1,17 @@
+{
+  "slug": "hhq2-wizards-challenge",
+  "system": "dnd-add2",
+  "title": "HHQ2 Wizard's Challenge",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1992, en un cuadernillo de 32 páginas con cubierta. La escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hhq2-wizards-challenge/english.webp"
+    }
+  ]
+}

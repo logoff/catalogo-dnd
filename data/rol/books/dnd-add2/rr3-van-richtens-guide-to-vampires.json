@@ -1,0 +1,26 @@
+{
+  "slug": "rr3-van-richtens-guide-to-vampires",
+  "system": "dnd-add2",
+  "title": "RR3 Van Richten's Guide to Vampires",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1991, en un libro de 96 páginas. Lo escribió Nigel D. Findley.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/rr3-van-richtens-guide-to-vampires/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía Van Richten de los Vampiros",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/rr3-van-richtens-guide-to-vampires/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-rv.html"
+    }
+  ]
+}

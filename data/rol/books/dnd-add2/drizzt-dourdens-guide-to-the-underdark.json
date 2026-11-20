@@ -1,0 +1,17 @@
+{
+  "slug": "drizzt-dourdens-guide-to-the-underdark",
+  "system": "dnd-add2",
+  "title": "Drizzt Do'Urden's Guide to the Underdark",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1999, en un libro en rústica de 128 páginas. Lo escribió Eric L. Boyd.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/drizzt-dourdens-guide-to-the-underdark/english.webp"
+    }
+  ]
+}

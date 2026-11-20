@@ -1,0 +1,17 @@
+{
+  "slug": "rr4-islands-of-terror",
+  "system": "dnd-add2",
+  "title": "RR4 Islands of Terror",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió Colin McComb y Scott Bennie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/rr4-islands-of-terror/english.webp"
+    }
+  ]
+}

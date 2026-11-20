@@ -1,0 +1,17 @@
+{
+  "slug": "savage-baronies",
+  "system": "dnd-add2",
+  "title": "Savage Baronies",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1995, en una caja. Lo escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-red.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/savage-baronies/english.webp"
+    }
+  ]
+}

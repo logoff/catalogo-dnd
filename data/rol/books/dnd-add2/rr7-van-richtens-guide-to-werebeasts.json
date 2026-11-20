@@ -1,0 +1,17 @@
+{
+  "slug": "rr7-van-richtens-guide-to-werebeasts",
+  "system": "dnd-add2",
+  "title": "RR7 Van Richten's Guide to Werebeasts",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1993, en un libro de 96 páginas. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rr7-van-richtens-guide-to-werebeasts/english.webp"
+    }
+  ]
+}

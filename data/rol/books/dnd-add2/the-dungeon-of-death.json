@@ -1,0 +1,17 @@
+{
+  "slug": "the-dungeon-of-death",
+  "system": "dnd-add2",
+  "title": "The Dungeon of Death",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 2000, en un libro de 32 páginas. La escribió Jason Carl.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/the-dungeon-of-death/english.webp"
+    }
+  ]
+}

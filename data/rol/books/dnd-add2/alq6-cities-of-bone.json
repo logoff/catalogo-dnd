@@ -1,0 +1,17 @@
+{
+  "slug": "alq6-cities-of-bone",
+  "system": "dnd-add2",
+  "title": "ALQ6 Cities of Bone",
+  "kind": "adventure",
+  "description": "Aventura de Al-Qadim que TSR publicó en 1994, en una caja. La escribió Steven Kurtz.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-alq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/alq6-cities-of-bone/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "gr4-treasure-chest",
+  "system": "dnd-add2",
+  "title": "GR4 Treasure Chest",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1994. Lo escribió Skip Williamms.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-gr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "cover": "/images/rol/gr4-treasure-chest/english.webp"
+    }
+  ]
+}

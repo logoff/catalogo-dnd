@@ -1,0 +1,17 @@
+{
+  "slug": "dmgr4-monster-mythology",
+  "system": "dnd-add2",
+  "title": "DMGR4 Monster Mythology",
+  "kind": "supplement",
+  "description": "Los dioses de las razas no humanas de AD&D: enanos, elfos, gnomos, medianos y humanoides como orcos y goblins, con sus sacerdotes.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr4-monster-mythology/english.webp"
+    }
+  ]
+}

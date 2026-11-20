@@ -1,0 +1,17 @@
+{
+  "slug": "city-of-splendors",
+  "system": "dnd-add2",
+  "title": "City of Splendors",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1994, en una caja. Lo escribió Steven Schend y Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/city-of-splendors/english.webp"
+    }
+  ]
+}

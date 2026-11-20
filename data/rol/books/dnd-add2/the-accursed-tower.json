@@ -1,0 +1,26 @@
+{
+  "slug": "the-accursed-tower",
+  "system": "dnd-add2",
+  "title": "The Accursed Tower",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1999, en un libro de 32 páginas. La escribió R.A. Salvatore y the Seven Swords.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/fr/fr-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/the-accursed-tower/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Torre Maldita",
+      "publisher": "Martínez Roca",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/the-accursed-tower/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-adv.html"
+    }
+  ]
+}

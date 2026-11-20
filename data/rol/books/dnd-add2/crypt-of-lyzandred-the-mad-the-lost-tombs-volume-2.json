@@ -1,0 +1,17 @@
+{
+  "slug": "crypt-of-lyzandred-the-mad-the-lost-tombs-volume-2",
+  "system": "dnd-add2",
+  "title": "Crypt of Lyzandred the Mad (The Lost Tombs, Volume 2)",
+  "kind": "adventure",
+  "description": "Aventura de Greyhawk que TSR publicó en 1998, en un cuadernillo de 48 páginas con cubierta. La escribió Sean Reynolds.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/crypt-of-lyzandred-the-mad-the-lost-tombs-volume-2/english.webp"
+    }
+  ]
+}

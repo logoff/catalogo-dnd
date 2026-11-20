@@ -1,0 +1,17 @@
+{
+  "slug": "wizards-spell-compendium-volume-one",
+  "system": "dnd-add2",
+  "title": "Wizard's Spell Compendium Volume One",
+  "kind": "supplement",
+  "description": "El primer volumen del compendio de conjuros de mago de AD&D 2.ª edición, que recoge en orden alfabético todos los conjuros publicados hasta entonces.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-wsc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/wizards-spell-compendium-volume-one/english.webp"
+    }
+  ]
+}

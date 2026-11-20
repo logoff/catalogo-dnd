@@ -1,0 +1,17 @@
+{
+  "slug": "die-vecna-die",
+  "system": "dnd-add2",
+  "title": "Die Vecna Die!",
+  "kind": "adventure",
+  "description": "La aventura que cerró la era de AD&D 2.ª edición: el semidiós Vecna amenaza a la vez Greyhawk, Ravenloft y Planescape.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/die-vecna-die/english.webp"
+    }
+  ]
+}

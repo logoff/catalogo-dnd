@@ -1,0 +1,17 @@
+{
+  "slug": "castle-spulzeer",
+  "system": "dnd-add2",
+  "title": "Castle Spulzeer",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1997, en un libro de 64 páginas. La escribió Doug Stewart.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/castle-spulzeer/english.webp"
+    }
+  ]
+}

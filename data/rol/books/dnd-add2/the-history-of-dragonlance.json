@@ -1,0 +1,17 @@
+{
+  "slug": "the-history-of-dragonlance",
+  "system": "dnd-add2",
+  "title": "The History of Dragonlance",
+  "kind": "setting",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1995, en un libro en rústica de 252 páginas. Lo escribió Margaret Weis y Tracy Hickman (editors).\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-history-of-dragonlance/english.webp"
+    }
+  ]
+}

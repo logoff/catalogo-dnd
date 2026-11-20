@@ -1,0 +1,17 @@
+{
+  "slug": "alq1-golden-voyages",
+  "system": "dnd-add2",
+  "title": "ALQ1 Golden Voyages",
+  "kind": "adventure",
+  "description": "Aventura de Al-Qadim que TSR publicó en 1992, en una caja. La escribió David \"Zeb\" Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-alq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/alq1-golden-voyages/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-great-modron-march",
+  "system": "dnd-add2",
+  "title": "The Great Modron March",
+  "kind": "adventure",
+  "description": "Aventura de Planescape que TSR publicó en 1997, en un libro en rústica de 128 páginas. La escribió Monte Cook y Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/the-great-modron-march/english.webp"
+    }
+  ]
+}

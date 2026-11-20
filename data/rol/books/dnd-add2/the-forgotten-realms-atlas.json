@@ -1,0 +1,26 @@
+{
+  "slug": "the-forgotten-realms-atlas",
+  "system": "dnd-add2",
+  "title": "The Forgotten Realms Atlas",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1990, en un libro en rústica de 178 páginas. Lo escribió Karen Wynn Fonstad.\n\nEdición en castellano de Timun Mas.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/the-forgotten-realms-atlas/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Atlas de los Reinos Olvidados",
+      "publisher": "Timun Mas",
+      "date": "1995",
+      "format": "hardcover",
+      "cover": "/images/rol/the-forgotten-realms-atlas/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-acc.html"
+    }
+  ]
+}

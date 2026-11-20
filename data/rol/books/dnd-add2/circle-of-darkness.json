@@ -1,0 +1,17 @@
+{
+  "slug": "circle-of-darkness",
+  "system": "dnd-add2",
+  "title": "Circle of Darkness",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1995, en un cuadernillo de 64 páginas con cubierta. La escribió Drew Bittner.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/circle-of-darkness/english.webp"
+    }
+  ]
+}

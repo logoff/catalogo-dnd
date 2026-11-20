@@ -1,0 +1,17 @@
+{
+  "slug": "dungeon-master-option-high-level-campaigns",
+  "system": "dnd-add2",
+  "title": "Dungeon Master Option: High-Level Campaigns",
+  "kind": "supplement",
+  "description": "Reglas para campañas de nivel alto en AD&D 2.ª edición: personajes por encima del nivel 20, poderes para cada clase, conjuros de verdadero nivel alto y consejos para dirigir a héroes casi legendarios.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "hardcover",
+      "cover": "/images/rol/dungeon-master-option-high-level-campaigns/english.webp"
+    }
+  ]
+}

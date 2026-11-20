@@ -1,0 +1,17 @@
+{
+  "slug": "avengers-in-lankhmar",
+  "system": "dnd-add2",
+  "title": "Avengers in Lankhmar",
+  "kind": "adventure",
+  "description": "Aventura de Lankhmar que TSR publicó en 1995, en un cuadernillo de 64 páginas con cubierta. La escribió slade.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-other.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/avengers-in-lankhmar/english.webp"
+    }
+  ]
+}

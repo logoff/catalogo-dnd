@@ -1,0 +1,17 @@
+{
+  "slug": "dawn-of-the-overmind",
+  "system": "dnd-add2",
+  "title": "Dawn of the Overmind",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1998, en un cuadernillo de 64 páginas con cubierta. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/dawn-of-the-overmind/english.webp"
+    }
+  ]
+}

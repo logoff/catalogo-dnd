@@ -1,0 +1,17 @@
+{
+  "slug": "reunion",
+  "system": "dnd-add2",
+  "title": "Reunion",
+  "kind": "adventure",
+  "description": "Aventura de Al-Qadim que TSR publicó en 1998, en un libro de 32 páginas. La escribió Jackie Cassada y Nicky Rea.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/reunion/english.webp"
+    }
+  ]
+}

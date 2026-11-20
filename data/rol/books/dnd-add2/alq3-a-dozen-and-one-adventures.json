@@ -1,0 +1,17 @@
+{
+  "slug": "alq3-a-dozen-and-one-adventures",
+  "system": "dnd-add2",
+  "title": "ALQ3 A Dozen and One Adventures",
+  "kind": "adventure",
+  "description": "Aventura de Al-Qadim que TSR publicó en 1993, en una caja. La escribió Steven Kurtz.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-alq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/alq3-a-dozen-and-one-adventures/english.webp"
+    }
+  ]
+}

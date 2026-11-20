@@ -1,0 +1,17 @@
+{
+  "slug": "demihuman-deities",
+  "system": "dnd-add2",
+  "title": "Demihuman Deities",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1998, en un libro en rústica de 192 páginas. Lo escribió Eric L. Boyd.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-deity.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/demihuman-deities/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "phbr6-the-complete-book-of-dwarves",
+  "system": "dnd-add2",
+  "title": "PHBR6 The Complete Book of Dwarves",
+  "kind": "supplement",
+  "description": "El primero de los manuales de raza: la cultura, la sociedad y las opciones de juego de los enanos, con kits y nuevas reglas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/phbr6-the-complete-book-of-dwarves/english.webp"
+    }
+  ]
+}

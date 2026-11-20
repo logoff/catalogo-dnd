@@ -1,0 +1,17 @@
+{
+  "slug": "heroes-loredbook",
+  "system": "dnd-add2",
+  "title": "Heroes' Loredbook",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1996, en un libro en rústica de 160 páginas. Lo escribió Dale Donovan y Paul Culotta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-lore.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/heroes-loredbook/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "psionic-artifacts-of-athas",
+  "system": "dnd-add2",
+  "title": "Psionic Artifacts of Athas",
+  "kind": "setting",
+  "description": "Suplemento de Dark Sun que TSR publicó en 1996, en un libro en rústica de 128 páginas. Lo escribió Kevin Melka y Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-rev.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/psionic-artifacts-of-athas/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-sword-of-roele",
+  "system": "dnd-add2",
+  "title": "The Sword of Roele",
+  "kind": "adventure",
+  "description": "Aventura de Birthright que TSR publicó en 1996, en un cuadernillo de 64 páginas con cubierta. La escribió Wolfgang Baur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/the-sword-of-roele/english.webp"
+    }
+  ]
+}

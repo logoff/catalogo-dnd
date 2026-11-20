@@ -1,0 +1,17 @@
+{
+  "slug": "neither-man-nor-beast",
+  "system": "dnd-add2",
+  "title": "Neither Man Nor Beast",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1995, en un cuadernillo de 64 páginas con cubierta. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/neither-man-nor-beast/english.webp"
+    }
+  ]
+}

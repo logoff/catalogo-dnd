@@ -1,0 +1,17 @@
+{
+  "slug": "rr5-van-richtens-guide-to-ghosts",
+  "system": "dnd-add2",
+  "title": "RR5 Van Richten's Guide to Ghosts",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/rr5-van-richtens-guide-to-ghosts/english.webp"
+    }
+  ]
+}

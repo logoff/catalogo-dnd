@@ -1,0 +1,17 @@
+{
+  "slug": "forged-of-darkness",
+  "system": "dnd-add2",
+  "title": "Forged of Darkness",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1996, en un cuadernillo de 64 páginas con cubierta. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/forged-of-darkness/english.webp"
+    }
+  ]
+}

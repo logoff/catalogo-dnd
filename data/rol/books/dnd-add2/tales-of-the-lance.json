@@ -1,0 +1,26 @@
+{
+  "slug": "tales-of-the-lance",
+  "system": "dnd-add2",
+  "title": "Tales of the Lance",
+  "kind": "setting",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1992, en una caja. Lo escribió J. Robert King (editor).\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/tales-of-the-lance/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Relatos de la Lanza",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/tales-of-the-lance/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-box.html"
+    }
+  ]
+}

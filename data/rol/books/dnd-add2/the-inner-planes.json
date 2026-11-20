@@ -1,0 +1,17 @@
+{
+  "slug": "the-inner-planes",
+  "system": "dnd-add2",
+  "title": "The Inner Planes",
+  "kind": "setting",
+  "description": "Suplemento de Planescape que TSR publicó en 1998, en un libro en rústica de 128 páginas. Lo escribió Monte Cook y William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-inner-planes/english.webp"
+    }
+  ]
+}

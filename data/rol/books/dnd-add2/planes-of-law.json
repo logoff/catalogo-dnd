@@ -1,0 +1,17 @@
+{
+  "slug": "planes-of-law",
+  "system": "dnd-add2",
+  "title": "Planes of Law",
+  "kind": "setting",
+  "description": "Expansión de ambientación de Planescape que TSR publicó en 1995, en una caja. La escribió Colin McComb y Wolfgang Baur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/planes-of-law/english.webp"
+    }
+  ]
+}

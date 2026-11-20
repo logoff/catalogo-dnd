@@ -1,0 +1,17 @@
+{
+  "slug": "the-complete-barbarians-handbook",
+  "system": "dnd-add2",
+  "title": "The Complete Barbarian's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para bárbaros, con kits de bárbaro para guerreros, sacerdotes, ladrones y otras clases.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-complete-barbarians-handbook/english.webp"
+    }
+  ]
+}

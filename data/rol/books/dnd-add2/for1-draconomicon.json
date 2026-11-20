@@ -1,0 +1,17 @@
+{
+  "slug": "for1-draconomicon",
+  "system": "dnd-add2",
+  "title": "FOR1 Draconomicon",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1990, en un libro en rústica de 128 páginas. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-for.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/for1-draconomicon/english.webp"
+    }
+  ]
+}

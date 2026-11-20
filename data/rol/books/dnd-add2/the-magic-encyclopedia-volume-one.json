@@ -1,0 +1,26 @@
+{
+  "slug": "the-magic-encyclopedia-volume-one",
+  "system": "dnd-add2",
+  "title": "The Magic Encyclopedia: Volume One",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992, en un libro de 64 páginas. Lo escribió Connie y Dale \"Slade\" Henson.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-me.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/the-magic-encyclopedia-volume-one/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Enciclopedia de la Magia",
+      "publisher": "Zinco",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/the-magic-encyclopedia-volume-one/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-acc.html"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "in-the-abyss",
+  "system": "dnd-add2",
+  "title": "In the Abyss",
+  "kind": "adventure",
+  "description": "Aventura de Planescape que TSR publicó en 1994, en un cuadernillo de 32 páginas con cubierta. La escribió Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/in-the-abyss/english.webp"
+    }
+  ]
+}

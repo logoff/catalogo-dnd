@@ -1,0 +1,17 @@
+{
+  "slug": "jakandor-land-of-legend",
+  "system": "dnd-add2",
+  "title": "Jakandor, Land of Legend",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1998, en un libro en rústica de 144 páginas. La escribió Dale Donovan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ody.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/jakandor-land-of-legend/english.webp"
+    }
+  ]
+}

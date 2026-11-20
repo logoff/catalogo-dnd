@@ -1,0 +1,17 @@
+{
+  "slug": "tsr-jam-1999",
+  "system": "dnd-add2",
+  "title": "TSR Jam 1999",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1999, en un libro en rústica de 64 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/tsr-jam-1999/english.webp"
+    }
+  ]
+}

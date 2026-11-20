@@ -1,0 +1,17 @@
+{
+  "slug": "dlq2-flints-axe",
+  "system": "dnd-add2",
+  "title": "DLQ2 Flint's Axe",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1992, en un cuadernillo de 32 páginas con cubierta. La escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dlq2-flints-axe/english.webp"
+    }
+  ]
+}

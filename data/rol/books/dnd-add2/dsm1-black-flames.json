@@ -1,0 +1,17 @@
+{
+  "slug": "dsm1-black-flames",
+  "system": "dnd-add2",
+  "title": "DSM1 Black Flames",
+  "kind": "adventure",
+  "description": "Aventura de Dark Sun que TSR publicó en 1993, en una caja. La escribió Sam Witt.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/dsm1-black-flames/english.webp"
+    }
+  ]
+}

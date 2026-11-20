@@ -1,0 +1,17 @@
+{
+  "slug": "rr1-darklords",
+  "system": "dnd-add2",
+  "title": "RR1 Darklords",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1991, en un libro de 96 páginas. Lo escribió Andria Hayday with William W. Connors, Bruce Nesmith y James Lowder.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/rr1-darklords/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "night-of-the-vampire",
+  "system": "dnd-add2",
+  "title": "Night of the Vampire",
+  "kind": "adventure",
+  "description": "Aventura de Mystara que TSR publicó en 1994, en una caja. La escribió L. Richard Baker III.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ms/ms-cd.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/night-of-the-vampire/english.webp"
+    }
+  ]
+}

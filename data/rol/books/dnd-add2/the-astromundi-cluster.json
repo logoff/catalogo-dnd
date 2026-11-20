@@ -1,0 +1,17 @@
+{
+  "slug": "the-astromundi-cluster",
+  "system": "dnd-add2",
+  "title": "The Astromundi Cluster",
+  "kind": "setting",
+  "description": "Suplemento de Spelljammer que TSR publicó en 1993, en una caja. Lo escribió Sam Witt.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-astromundi-cluster/english.webp"
+    }
+  ]
+}

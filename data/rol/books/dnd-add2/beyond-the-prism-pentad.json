@@ -1,0 +1,17 @@
+{
+  "slug": "beyond-the-prism-pentad",
+  "system": "dnd-add2",
+  "title": "Beyond the Prism Pentad",
+  "kind": "setting",
+  "description": "Suplemento de Dark Sun que TSR publicó en 1995, en un libro de 32 páginas. Lo escribió Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/beyond-the-prism-pentad/english.webp"
+    }
+  ]
+}

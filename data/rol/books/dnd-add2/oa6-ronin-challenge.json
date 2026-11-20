@@ -1,0 +1,17 @@
+{
+  "slug": "oa6-ronin-challenge",
+  "system": "dnd-add2",
+  "title": "OA6 Ronin Challenge",
+  "kind": "adventure",
+  "description": "Aventura de Kara-Tur (Oriental Adventures) que TSR publicó en 1990, en un cuadernillo de 96 páginas con cubierta. La escribió Curtis Smith y Rick Swan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/oa6-ronin-challenge/english.webp"
+    }
+  ]
+}

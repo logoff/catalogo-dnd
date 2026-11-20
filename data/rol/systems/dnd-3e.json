@@ -23,5 +23,12 @@
       "label": "SRD 3.0 en wizards.com (copia de 2001)",
       "url": "https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd"
     }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-add2",
+      "kind": "major_rewrite",
+      "note": "Reescritura completa de 2000: une D&D y AD&D, pasa al d20 con clase de armadura ascendente, dotes y habilidades; el material de AD&D necesita conversión."
+    }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "slug": "monstrous-compendium-annual-volume-one",
+  "system": "dnd-add2",
+  "title": "Monstrous Compendium Annual Volume One",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1994, en un libro en rústica de 128 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-mcann.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/monstrous-compendium-annual-volume-one/english.webp"
+    }
+  ]
+}

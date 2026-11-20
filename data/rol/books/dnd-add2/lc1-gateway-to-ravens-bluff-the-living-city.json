@@ -1,0 +1,17 @@
+{
+  "slug": "lc1-gateway-to-ravens-bluff-the-living-city",
+  "system": "dnd-add2",
+  "title": "LC1 Gateway to Ravens Bluff, The Living City",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1989, en un cuadernillo de 64 páginas con cubierta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-lc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/lc1-gateway-to-ravens-bluff-the-living-city/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "tale-of-the-comet",
+  "system": "dnd-add2",
+  "title": "Tale of the Comet",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1997, en una caja. Lo escribió Thomas M. Reid.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ody.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "boxed_set",
+      "cover": "/images/rol/tale-of-the-comet/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "dmgr1-campaign-sourcebook-and-catacomb-guide",
+  "system": "dnd-add2",
+  "title": "DMGR1 Campaign Sourcebook and Catacomb Guide",
+  "kind": "supplement",
+  "description": "El primero de los manuales del Dungeon Master: cómo preparar una campaña y diseñar catacumbas y mazmorras.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr1-campaign-sourcebook-and-catacomb-guide/english.webp"
+    }
+  ]
+}

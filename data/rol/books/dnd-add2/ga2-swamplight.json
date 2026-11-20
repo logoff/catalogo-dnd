@@ -1,0 +1,26 @@
+{
+  "slug": "ga2-swamplight",
+  "system": "dnd-add2",
+  "title": "GA2 Swamplight",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1993, en un cuadernillo de 32 páginas con cubierta. La escribió Jean Rabe.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-ga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/ga2-swamplight/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Peligro en el Pantano",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/ga2-swamplight/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-adv.html"
+    }
+  ]
+}

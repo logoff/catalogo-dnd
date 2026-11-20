@@ -1,0 +1,17 @@
+{
+  "slug": "a-guide-to-the-astral-plane",
+  "system": "dnd-add2",
+  "title": "A Guide to the Astral Plane",
+  "kind": "setting",
+  "description": "Suplemento de Planescape que TSR publicó en 1996, en un libro de 96 páginas. Lo escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/a-guide-to-the-astral-plane/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "ravenloft-campaign-setting",
+  "system": "dnd-add2",
+  "title": "Ravenloft Campaign Setting",
+  "kind": "setting",
+  "description": "La caja básica de Ravenloft de 1994, conocida como «la caja roja»: los Dominios del Pavor, sus señores oscuros y las reglas de horror.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/ravenloft-campaign-setting/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Ravenloft: Vandemécum de Campaña",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/ravenloft-campaign-setting/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-rv.html"
+    }
+  ]
+}

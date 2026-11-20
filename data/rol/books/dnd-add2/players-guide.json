@@ -1,0 +1,26 @@
+{
+  "slug": "players-guide",
+  "system": "dnd-add2",
+  "title": "Player's Guide",
+  "kind": "setting",
+  "description": "Suplemento de Greyhawk que TSR publicó en 1998, en un cuadernillo de 64 páginas con cubierta. Lo escribió Anne Brown.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/players-guide/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Jugador",
+      "publisher": "Martínez Roca",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/players-guide/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-gh-acc.html"
+    }
+  ]
+}

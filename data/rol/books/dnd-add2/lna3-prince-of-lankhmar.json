@@ -1,0 +1,17 @@
+{
+  "slug": "lna3-prince-of-lankhmar",
+  "system": "dnd-add2",
+  "title": "LNA3 Prince of Lankhmar",
+  "kind": "adventure",
+  "description": "Aventura de Lankhmar que TSR publicó en 1990, en un cuadernillo de 64 páginas con cubierta. La escribió Dale \"Slade\" Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-lna.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/lna3-prince-of-lankhmar/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "children-of-the-night-ghosts",
+  "system": "dnd-add2",
+  "title": "Children of the Night: Ghosts",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1997, en un libro de 96 páginas. Lo escribió The Kargat.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-cotn.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/children-of-the-night-ghosts/english.webp"
+    }
+  ]
+}

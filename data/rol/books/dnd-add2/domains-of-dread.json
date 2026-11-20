@@ -1,0 +1,17 @@
+{
+  "slug": "domains-of-dread",
+  "system": "dnd-add2",
+  "title": "Domains of Dread",
+  "kind": "setting",
+  "description": "La revisión final de Ravenloft para AD&D 2.ª edición: los Dominios del Pavor y sus señores oscuros en un solo libro.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "hardcover",
+      "cover": "/images/rol/domains-of-dread/english.webp"
+    }
+  ]
+}
