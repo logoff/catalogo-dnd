@@ -1,0 +1,18 @@
+{
+  "slug": "basic-game-2004",
+  "system": "dnd-3-5",
+  "title": "Dungeons & Dragons Basic Game (2004)",
+  "kind": "starter",
+  "description": "Una caja de inicio para quienes no han jugado nunca a rol: reglas simplificadas sacadas de los básicos de 3.5, aventuras, fichas de personaje, cuatro tableros de mapa de doble cara, dados y 16 miniaturas de D&D Miniatures.\n\nSalió por el 30.º aniversario de D&D y toma el nombre de las cajas básicas de los primeros años del juego. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20040621145225/http://www.wizards.com:80/default.asp?x=products/dndacc/966470000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-09",
+      "format": "boxed_set",
+      "isbn13": 9780786934096,
+      "cover": "/images/rol/basic-game-2004/english.webp"
+    }
+  ]
+}

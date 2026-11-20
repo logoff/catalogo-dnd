@@ -1,0 +1,26 @@
+{
+  "slug": "dragonlance-campaign-setting",
+  "system": "dnd-3-5",
+  "title": "Dragonlance Campaign Setting",
+  "kind": "setting",
+  "description": "La ambientación de Dragonlance puesta al día para 3.5: el mundo de Krynn, su historia desde la Guerra de la Lanza hasta la Era de los Mortales, sus razas (kender, enanos gully, minotauros, draconianos), los magos de las Túnicas y su magia ligada a las lunas, los dioses y opciones de personaje.\n\nLo publicó Wizards, que después cedió la línea a Sovereign Press; sus demás libros de Dragonlance para 3.5 no entran aquí. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Dragonlance_Campaign_Setting",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-08",
+      "format": "hardcover",
+      "isbn13": 9780786930869,
+      "cover": "/images/rol/dragonlance-campaign-setting/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Escenario de Campaña Dragonlance",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496262249,
+      "source": "https://www.todostuslibros.com/libros/escenario-de-campana-dragonlance_978-84-96262-24-9"
+    }
+  ]
+}

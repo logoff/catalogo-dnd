@@ -1,0 +1,17 @@
+{
+  "slug": "fantastic-locations-dragondown-grotto",
+  "system": "dnd-3-5",
+  "title": "Fantastic Locations: Dragondown Grotto",
+  "kind": "adventure",
+  "description": "Una gruta con un dragón como escenario de aventura, con sus mapas para jugar con miniaturas.\n\nForma parte de Fantastic Locations, una serie de cuadernillos de aventura de 16 páginas con dos mapas de póster de doble cara a escala para miniaturas y escenarios para el juego de escaramuzas D&D Miniatures. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20060615011233/http://www.wizards.com:80/default.asp?x=products/dndacc/953777400",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006",
+      "isbn13": 9780786939213,
+      "cover": "/images/rol/fantastic-locations-dragondown-grotto/english.webp"
+    }
+  ]
+}
