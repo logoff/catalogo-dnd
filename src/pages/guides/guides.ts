@@ -1,4 +1,6 @@
-export type GuideGroup = 'empezar' | 'libros' | 'novelas'
+import { WORLDS, worldNames, worldSlug } from '@/utils/worlds'
+
+export type GuideGroup = 'empezar' | 'libros' | 'novelas' | 'ambientaciones'
 
 export interface Guide {
   slug: string
@@ -12,6 +14,7 @@ export const GUIDE_GROUPS: { id: GuideGroup; label: string }[] = [
   { id: 'empezar', label: 'Para empezar' },
   { id: 'libros', label: 'Libros de 5E y 5.5E' },
   { id: 'novelas', label: 'Novelas' },
+  { id: 'ambientaciones', label: 'Ambientaciones' },
 ]
 
 export const GUIDES: Guide[] = [
@@ -73,4 +76,11 @@ export const GUIDES: Guide[] = [
     summary:
       'Todo lo publicado en inglés de la quinta edición, incluidas las novedades anunciadas.',
   },
+  // Una guía por mundo, generada desde los datos (WorldGuide)
+  ...WORLDS.map((world): Guide => ({
+    slug: `ambientacion/${worldSlug(world)}`,
+    group: 'ambientaciones',
+    title: worldNames[world],
+    summary: `Todo lo publicado de ${worldNames[world]}: libros de cada edición, novelas y videojuegos.`,
+  })),
 ]

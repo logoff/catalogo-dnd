@@ -67,7 +67,8 @@ export async function preloadRpgRoute(pathname: string): Promise<void> {
     await loadBook(decodeURIComponent(book[1]), decodeURIComponent(book[2]))
   } else if (
     /^\/(rol|ediciones|licencias)(\/[^/]+)?\/?$/.test(pathname) ||
-    /^\/licencia\/[^/]+\/?$/.test(pathname)
+    /^\/licencia\/[^/]+\/?$/.test(pathname) ||
+    /^\/guias\/ambientacion\/[^/]+\/?$/.test(pathname)
   ) {
     await loadRpgIndex()
   }

@@ -92,6 +92,7 @@ export function summarize(book: RpgBookWithMeta): RpgBookSummary {
     title: book.title,
     titleEs: book.titleEs,
     kind: book.kind,
+    ...(book.settings && { settings: book.settings }),
     originalDate: book.originalDate,
     spanishDate: book.spanishDate,
     latestDate: book.latestDate,
