@@ -4,7 +4,7 @@
   "title": "The Factol's Manifesto",
   "kind": "setting",
   "settings": ["planescape"],
-  "description": "Suplemento de Planescape que TSR publicó en 1995, en un libro en rústica de 160 páginas. Lo escribió Tim Beach, Dori Jean Hein y J.M. Salsbury.\n\nSolo salió en inglés.",
+  "description": "Un suplemento sobre las quince facciones de Sigil, cada una contada por su propio factol: su filosofía, su organización y cómo jugar con ellas. Lo escribieron Tim Beach, Dori Jean Hein y J. M. Salsbury.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-acc.html",
   "editions": [
     {

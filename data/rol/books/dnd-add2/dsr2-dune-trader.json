@@ -4,7 +4,7 @@
   "title": "DSR2 Dune Trader",
   "kind": "setting",
   "settings": ["dark_sun"],
-  "description": "Suplemento de Dark Sun que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió Anthony Pryor.\n\nEdición en castellano de Zinco.",
+  "description": "Un suplemento de Dark Sun sobre los mercaderes, con la clase de comerciante para humanos, elfos y semielfos. Lo escribió Anthony Pryor.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/ds/ds-dsr.html",
   "editions": [
     {

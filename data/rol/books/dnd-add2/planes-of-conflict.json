@@ -4,7 +4,7 @@
   "title": "Planes of Conflict",
   "kind": "setting",
   "settings": ["planescape"],
-  "description": "Expansión de ambientación de Planescape que TSR publicó en 1995, en una caja. La escribió Colin McComb, Dale Donovan y Monte Cook.\n\nSolo salió en inglés.",
+  "description": "Una caja de Planescape con los planos que equilibran la ley y el caos: las Tierras Salvajes, Bytopia, el Elíseo, Carceri, el Gehena y el Páramo Gris, con mapas, manuales y aventuras. La escribieron Colin McComb, Dale Donovan y Monte Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-box.html",
   "editions": [
     {

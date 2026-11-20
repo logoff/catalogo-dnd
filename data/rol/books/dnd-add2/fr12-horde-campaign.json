@@ -4,7 +4,7 @@
   "title": "FR12 Horde Campaign",
   "kind": "setting",
   "settings": ["forgotten_realms"],
-  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1991, en un libro en rústica de 64 páginas. Lo escribió Curtis M. Scott.\n\nSolo salió en inglés.",
+  "description": "La guerra de la Horda tuigana contra los Reinos, batalla a batalla, con estadísticas de Battlesystem para cada una. Lo escribió Curtis M. Scott.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [
     {

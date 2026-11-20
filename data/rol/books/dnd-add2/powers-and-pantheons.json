@@ -4,7 +4,7 @@
   "title": "Powers & Pantheons",
   "kind": "setting",
   "settings": ["forgotten_realms"],
-  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1997, en un libro en rústica de 192 páginas. Lo escribió Eric L. Boyd.\n\nSolo salió en inglés.",
+  "description": "Un suplemento sobre los panteones de Toril que no son los de Faerûn, como los de Mulhorand o Maztica. Lo escribió Eric L. Boyd.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-deity.html",
   "editions": [
     {

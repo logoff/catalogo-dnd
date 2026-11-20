@@ -4,7 +4,7 @@
   "title": "Planescape: Monstrous Compendium Appendix",
   "kind": "setting",
   "settings": ["planescape"],
-  "description": "Suplemento de Planescape que TSR publicó en 1994, en un libro en rústica de 128 páginas.\n\nEdición en castellano de Zinco.",
+  "description": "El primer apéndice de monstruos de Planescape, en hojas sueltas para la carpeta, con las criaturas de los planos.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/ps/ps-mc.html",
   "editions": [
     {
