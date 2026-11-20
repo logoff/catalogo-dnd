@@ -1,0 +1,27 @@
+{
+  "slug": "draconomicon",
+  "system": "dnd-3-5",
+  "title": "Draconomicon: The Book of Dragons",
+  "kind": "supplement",
+  "description": "Todo sobre los dragones: su biología, su ciclo vital, su sociedad y sus guaridas, cómo usarlos en partida y cómo luchar contra ellos, con dragones nuevos, opciones para personajes dracónicos, clases de prestigio, dotes, conjuros y objetos mágicos.\n\nComparte título con un libro de AD&D 2.ª edición de 1990 y abrió la serie de libros dedicados a un tipo de monstruo. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Draconomicon",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-11",
+      "format": "hardcover",
+      "isbn13": 9780786928842,
+      "cover": "/images/rol/draconomicon/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Draconomicón",
+      "publisher": "Devir",
+      "date": "2004-05",
+      "format": "hardcover",
+      "isbn13": 9788496262515,
+      "source": "https://www.todostuslibros.com/libros/draconomicon_978-84-96262-51-5"
+    }
+  ]
+}

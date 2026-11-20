@@ -1,0 +1,18 @@
+{
+  "slug": "fiendish-codex-ii",
+  "system": "dnd-3-5",
+  "title": "Fiendish Codex II: Tyrants of the Nine Hells",
+  "kind": "supplement",
+  "description": "Los diablos y los Nueve Infiernos: su origen, su sociedad y su comercio de almas, el ascenso de Asmodeo y cada capa del infierno con sus señores, además de monstruos nuevos, pactos y opciones para personajes.\n\nEs el compañero de Fiendish Codex I y amplía lo que contaba el Book of Vile Darkness. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Fiendish_Codex_II:_Tyrants_of_the_Nine_Hells",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-12",
+      "format": "hardcover",
+      "isbn13": 9780786939404,
+      "cover": "/images/rol/fiendish-codex-ii/english.webp"
+    }
+  ]
+}

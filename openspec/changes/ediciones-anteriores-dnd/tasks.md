@@ -94,7 +94,7 @@
       Tome of Battle, Book of Exalted Deeds, Miniatures Handbook y Weapons
       of Legacy; el Monster Manual II es de 3.0). Marcar el inventario,
       verificar con `just check` y abrir su PR
-- [ ] 5.2 Tanda del resto de suplementos de reglas: las series Complete y
+- [x] 5.2 Tanda del resto de suplementos de reglas: las series Complete y
       Races of y los libros de entornos, monstruos y temas (Frostburn,
       Sandstorm, Stormwrack, Libris Mortis, Draconomicon, Fiendish Codex,
       Heroes of Battle…). Marcar el inventario, verificar con `just check` y

@@ -1,0 +1,18 @@
+{
+  "slug": "lords-of-madness",
+  "system": "dnd-3-5",
+  "title": "Lords of Madness: The Book of Aberrations",
+  "kind": "supplement",
+  "description": "Un libro sobre las aberraciones, las criaturas más extrañas de D&D: contempladores, azotamentes, aboleths y otras, con su ecología, su sociedad y sus planes, y una treintena de páginas de monstruos nuevos, además de opciones para personajes que se enfrentan a ellas.\n\nEs el tercero de la serie dedicada a un tipo de monstruo, tras Draconomicon y Libris Mortis. Antes de salir se anunció con el título Codex Anathema. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Lords_of_Madness",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-05",
+      "format": "hardcover",
+      "isbn13": 9780786936571,
+      "cover": "/images/rol/lords-of-madness/english.webp"
+    }
+  ]
+}

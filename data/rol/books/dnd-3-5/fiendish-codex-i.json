@@ -1,0 +1,18 @@
+{
+  "slug": "fiendish-codex-i",
+  "system": "dnd-3-5",
+  "title": "Fiendish Codex I: Hordes of the Abyss",
+  "kind": "supplement",
+  "description": "Los demonios y el Abismo: su origen, sus tipos (obyrith, tanar'ri y loumara), catorce señores demoníacos como Orcus, Demogorgon o Graz'zt, las capas del Abismo, monstruos nuevos y opciones para personajes que los combaten o los sirven.\n\nTiene compañero dedicado a los diablos, Fiendish Codex II. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Fiendish_Codex_I:_Hordes_of_the_Abyss",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-06",
+      "format": "hardcover",
+      "isbn13": 9780786939190,
+      "cover": "/images/rol/fiendish-codex-i/english.webp"
+    }
+  ]
+}

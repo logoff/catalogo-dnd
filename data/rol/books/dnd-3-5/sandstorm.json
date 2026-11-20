@@ -1,0 +1,18 @@
+{
+  "slug": "sandstorm",
+  "system": "dnd-3-5",
+  "title": "Sandstorm: Mastering the Perils of Fire and Sand",
+  "kind": "supplement",
+  "description": "Aventuras en el desierto y el calor extremo: los peligros de la arena, el sol y el fuego, con razas, clases de prestigio, dotes, conjuros, equipo, monstruos y lugares de ejemplo para tierras baldías.\n\nEs el segundo libro de la trilogía de entornos, entre Frostburn y Stormwrack. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20040822192448/http://www.wizards.com:80/default.asp?x=products/dndacc/177390000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-03",
+      "format": "hardcover",
+      "isbn13": 9780786936557,
+      "cover": "/images/rol/sandstorm/english.webp"
+    }
+  ]
+}

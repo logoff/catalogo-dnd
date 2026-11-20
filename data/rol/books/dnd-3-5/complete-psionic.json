@@ -1,0 +1,18 @@
+{
+  "slug": "complete-psionic",
+  "system": "dnd-3-5",
+  "title": "Complete Psionic",
+  "kind": "supplement",
+  "description": "Más material psiónico para el Expanded Psionics Handbook: tres clases nuevas (el ardiente, la mente divina y el acechador) y una variante del psiónico, clases de prestigio, una raza, dotes, poderes y la herencia de los azotamentes, con dotes para personajes con sangre de illithid.\n\nForma parte de la serie Complete. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Complete_Psionic",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-04",
+      "format": "hardcover",
+      "isbn13": 9780786939114,
+      "cover": "/images/rol/complete-psionic/english.webp"
+    }
+  ]
+}
