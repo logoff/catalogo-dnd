@@ -119,6 +119,7 @@ function generateSitemap() {
   const rolDir = join(DATA_DIR, 'rol')
   const rolUrl = (loc, priority) => ({ loc, priority, changefreq: 'monthly', lastmod: today })
   urls.push({ loc: '/rol', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  urls.push(rolUrl('/rol/arbol', 0.7))
   urls.push(rolUrl('/licencias', 0.7))
   for (const file of getProductFiles(join(rolDir, 'licenses'))) {
     urls.push(rolUrl(`/licencia/${JSON.parse(readFileSync(file, 'utf-8')).slug}`, 0.6))

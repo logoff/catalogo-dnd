@@ -18,6 +18,13 @@
       "since": "2016"
     }
   ],
+  "derived_from": [
+    {
+      "system": "dnd-4e",
+      "kind": "major_rewrite",
+      "note": "Nueva edición que abandona el modelo de la 4.ª y recupera elementos de todas las anteriores."
+    }
+  ],
   "official_catalog": "/2014",
   "links": [
     {

@@ -91,12 +91,20 @@ export default function RpgSectionPage() {
             <h2 id="sistemas" className={headingClass('section')}>
               Sistemas
             </h2>
-            <Link
-              to="/licencias"
-              className="text-sm text-muted underline underline-offset-2 hover:text-fg"
-            >
-              Licencias abiertas
-            </Link>
+            <div className="flex gap-4">
+              <Link
+                to="/rol/arbol"
+                className="text-sm text-muted underline underline-offset-2 hover:text-fg"
+              >
+                Árbol genealógico
+              </Link>
+              <Link
+                to="/licencias"
+                className="text-sm text-muted underline underline-offset-2 hover:text-fg"
+              >
+                Licencias abiertas
+              </Link>
+            </div>
           </div>
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[...families.values()].map((members) => (
