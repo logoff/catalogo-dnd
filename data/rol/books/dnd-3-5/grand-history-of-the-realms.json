@@ -1,0 +1,26 @@
+{
+  "slug": "grand-history-of-the-realms",
+  "system": "dnd-3-5",
+  "title": "The Grand History of the Realms",
+  "kind": "setting",
+  "description": "La historia completa de los Reinos Olvidados, desde los primeros tiempos hasta el presente de la ambientación, pasando por Netheril, los reinos caídos y la Era de los Trastornos, con cartas, diarios y textos de personajes de Faerûn y una cronología detallada.\n\nNo trae reglas, así que sirve para cualquier edición. Salió poco antes de la 4.ª edición, que adelantó la historia de los Reinos un siglo. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/The_Grand_History_of_the_Realms",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-09",
+      "format": "hardcover",
+      "isbn13": 9780786947317,
+      "cover": "/images/rol/grand-history-of-the-realms/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Gran Historia de los Reinos",
+      "publisher": "Devir",
+      "date": "2008-04",
+      "isbn13": 9788496934177,
+      "source": "https://www.todostuslibros.com/libros/la-gran-historia-de-los-reinos_978-84-96934-17-7"
+    }
+  ]
+}

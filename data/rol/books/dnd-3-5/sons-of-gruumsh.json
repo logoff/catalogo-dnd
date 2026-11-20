@@ -1,0 +1,25 @@
+{
+  "slug": "sons-of-gruumsh",
+  "system": "dnd-3-5",
+  "title": "Sons of Gruumsh",
+  "kind": "adventure",
+  "description": "Una aventura corta para personajes de 4.º nivel en las tierras de Thar, junto al Mar de la Luna: seis nobles de Melvaunt han desaparecido mientras las tribus orcas se reúnen en la fortaleza en ruinas de Xûl-Jarak bajo el estandarte de un caudillo.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Sons_of_Gruumsh",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-09",
+      "isbn13": 9780786936984,
+      "cover": "/images/rol/sons-of-gruumsh/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Hijos de Gruumsh",
+      "publisher": "Devir",
+      "date": "2006-05",
+      "isbn13": 9788496422636,
+      "source": "https://www.todostuslibros.com/libros/hijos-de-gruumsh_978-84-96422-63-6"
+    }
+  ]
+}

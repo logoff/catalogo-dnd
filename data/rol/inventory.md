@@ -393,8 +393,7 @@ librerías). Fecha e ISBN de la edición en inglés
 según Wikipedia, por confirmar con la página archivada de wizards.com.
 
 Libros de Devir que no entran en esta tanda: los de 3.0 (suplementos, Reinos
-Olvidados 3.0, _Manuscrito Infernal_ (Fiend Folio), _La Infraoscuridad_
-(Underdark), _La Ciudad de la Reina Araña_, _El Este Inaccesible_), que irán
+Olvidados 3.0, _Manuscrito Infernal_ (Fiend Folio), _La Ciudad de la Reina Araña_, _El Este Inaccesible_), que irán
 con el resto de la 3.ª edición; _La Montaña del Penacho Blanco_ y _La Fortaleza
 de la Frontera_ (por confirmar qué son), y los de Dragonlance de Sovereign
 Press.
@@ -471,26 +470,26 @@ Press.
 
 ### Reinos Olvidados para 3.5
 
-| #   | Título original                      | Título en castellano        | Tipo         | Fecha   | ISBN              | Devir     | Ficha     | Nota |
-| --- | ------------------------------------ | --------------------------- | ------------ | ------- | ----------------- | --------- | --------- | ---- |
-| 1   | Underdark                            | La Infraoscuridad           | ambientación | 2003-10 | 0-7869-3053-5     | sí        | pendiente |      |
-| 2   | Player's Guide to Faerûn             | Guía del Jugador de Faerûn  | ambientación | 2004-03 | 0-7869-3134-5     | sí        | pendiente |      |
-| 3   | Serpent Kingdoms                     | Los Reinos Serpentinos      | ambientación | 2004-07 | 0-7869-3277-5     | sí        | pendiente |      |
-| 4   | Shining South                        | El Sur Radiante             | ambientación | 2004-10 | 0-7869-3492-1     | sí        | pendiente |      |
-| 5   | Champions of Ruin                    | —                           | ambientación | 2005-05 | 0-7869-3692-4     | no consta | pendiente |      |
-| 6   | City of Splendors: Waterdeep         | —                           | ambientación | 2005-07 | 0-7869-3693-2     | no consta | pendiente |      |
-| 7   | Lost Empires of Faerûn               | Imperios Perdidos de Faerûn | ambientación | 2005    | 0-7869-3654-1     | sí        | pendiente |      |
-| 8   | Champions of Valor                   | —                           | ambientación | 2005-11 | 0-7869-3697-5     | no consta | pendiente |      |
-| 9   | Power of Faerûn                      | Poderes de Faerûn           | ambientación | 2006-03 | 0-7869-3910-9     | sí        | pendiente |      |
-| 10  | Mysteries of the Moonsea             | —                           | ambientación | 2006-06 | 0-7869-3915-X     | no consta | pendiente |      |
-| 11  | Dragons of Faerûn                    | —                           | ambientación | 2006-08 | 0-7869-3923-0     | no consta | pendiente |      |
-| 12  | The Grand History of the Realms      | —                           | ambientación | 2007-09 | 978-0-7869-4731-7 | no consta | pendiente |      |
-| 13  | Sons of Gruumsh                      | Hijos de Gruumsh            | aventura     | 2005-09 | 978-0-7869-3698-4 | sí        | pendiente |      |
-| 14  | The Twilight Tomb                    | La Tumba del Ocaso          | aventura     | 2006-09 | 978-0-7869-3947-3 | sí        | pendiente |      |
-| 15  | Cormyr: The Tearing of the Weave     | Cormyr                      | aventura     | 2007    | 978-0-7869-4119-3 | sí        | pendiente |      |
-| 16  | Shadowdale: The Scouring of the Land | —                           | aventura     | 2007-07 | 978-0-7869-4039-4 | no consta | pendiente |      |
-| 17  | Anauroch: The Empire of Shade        | —                           | aventura     | 2007-11 | 0-7869-4362-9     | no consta | pendiente |      |
-| 18  | Expedition to Undermountain          | —                           | aventura     | 2007-06 | 978-0-7869-4157-5 | no consta | pendiente |      |
+| #   | Título original                      | Título en castellano            | Tipo         | Fecha   | ISBN              | Devir     | Ficha                               | Nota |
+| --- | ------------------------------------ | ------------------------------- | ------------ | ------- | ----------------- | --------- | ----------------------------------- | ---- |
+| 1   | Underdark                            | La Infraoscuridad               | ambientación | 2003-10 | 0-7869-3053-5     | sí        | underdark                           |      |
+| 2   | Player's Guide to Faerûn             | Faerûn: Guía del Jugador        | ambientación | 2004-03 | 0-7869-3134-5     | sí        | players-guide-to-faerun             |      |
+| 3   | Serpent Kingdoms                     | Los Reinos Serpentinos          | ambientación | 2004-07 | 0-7869-3277-5     | sí        | serpent-kingdoms                    |      |
+| 4   | Shining South                        | El Sur Radiante                 | ambientación | 2004-10 | 0-7869-3492-1     | sí        | shining-south                       |      |
+| 5   | Champions of Ruin                    | —                               | ambientación | 2005-05 | 0-7869-3692-4     | no consta | champions-of-ruin                   |      |
+| 6   | City of Splendors: Waterdeep         | —                               | ambientación | 2005-07 | 0-7869-3693-2     | no consta | city-of-splendors-waterdeep         |      |
+| 7   | Lost Empires of Faerûn               | Los Imperios Perdidos de Faerûn | ambientación | 2005    | 0-7869-3654-1     | sí        | lost-empires-of-faerun              |      |
+| 8   | Champions of Valor                   | —                               | ambientación | 2005-11 | 0-7869-3697-5     | no consta | champions-of-valor                  |      |
+| 9   | Power of Faerûn                      | Los Poderes de Faerûn           | ambientación | 2006-03 | 0-7869-3910-9     | sí        | power-of-faerun                     |      |
+| 10  | Mysteries of the Moonsea             | Misterios del Mar de la Luna    | ambientación | 2006-06 | 0-7869-3915-X     | sí        | mysteries-of-the-moonsea            |      |
+| 11  | Dragons of Faerûn                    | —                               | ambientación | 2006-08 | 0-7869-3923-0     | no consta | dragons-of-faerun                   |      |
+| 12  | The Grand History of the Realms      | La Gran Historia de los Reinos  | ambientación | 2007-09 | 978-0-7869-4731-7 | sí        | grand-history-of-the-realms         |      |
+| 13  | Sons of Gruumsh                      | Hijos de Gruumsh                | aventura     | 2005-09 | 978-0-7869-3698-4 | sí        | sons-of-gruumsh                     |      |
+| 14  | The Twilight Tomb                    | La Tumba del Ocaso              | aventura     | 2006-09 | 978-0-7869-3947-3 | sí        | the-twilight-tomb                   |      |
+| 15  | Cormyr: The Tearing of the Weave     | Cormyr                          | aventura     | 2007    | 978-0-7869-4119-3 | sí        | cormyr-the-tearing-of-the-weave     |      |
+| 16  | Shadowdale: The Scouring of the Land | —                               | aventura     | 2007-07 | 978-0-7869-4039-4 | no consta | shadowdale-the-scouring-of-the-land |      |
+| 17  | Anauroch: The Empire of Shade        | —                               | aventura     | 2007-11 | 0-7869-4362-9     | no consta | anauroch-the-empire-of-shade        |      |
+| 18  | Expedition to Undermountain          | —                               | aventura     | 2007-06 | 978-0-7869-4157-5 | no consta | expedition-to-undermountain         |      |
 
 ### Eberron
 
