@@ -24,7 +24,7 @@ export function filterBooks(books: RpgBookSummary[], filters: RpgFilters): RpgBo
   )
 }
 
-const titleOf = (book: RpgBookSummary) => book.titleEs ?? book.title
+const titleOf = (book: RpgBookSummary) => book.title
 
 export function sortBooks(books: RpgBookSummary[], sort: RpgSort): RpgBookSummary[] {
   const sorted = [...books]

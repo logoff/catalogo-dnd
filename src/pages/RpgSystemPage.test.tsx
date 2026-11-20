@@ -39,9 +39,11 @@ describe('ficha de sistema', () => {
     expect(
       within(section('Otras ediciones')).getByRole('link', { name: /Pathfinder 1E/ })
     ).toHaveAttribute('href', '/rol/pathfinder-1e')
-    expect(
-      within(section('Libros')).getByRole('link', { name: 'Manual de juego (Remaster)' })
-    ).toHaveAttribute('href', '/rol/pathfinder-2e/player-core')
+    expect(within(section('Libros')).getByRole('link', { name: 'Player Core' })).toHaveAttribute(
+      'href',
+      '/rol/pathfinder-2e/player-core'
+    )
+    expect(within(section('Libros')).getByText('Manual de juego (Remaster)')).toBeInTheDocument()
   })
 
   it('D&D 3.5, en ediciones anteriores, muestra lo que deriva de ella, sin aviso y con sus libros', () => {

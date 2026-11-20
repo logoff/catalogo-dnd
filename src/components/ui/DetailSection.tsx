@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { slugify } from '@/utils/formatters'
+import { headingClass } from '@/components/ui/styles'
 
 // Sección de una ficha, con un ancla para la navegación por secciones
 export function DetailSection({
@@ -13,7 +14,7 @@ export function DetailSection({
 }) {
   return (
     <section id={id} className="scroll-mt-32 border-t border-line pt-8">
-      <h2 className="mb-4 text-xl">{title}</h2>
+      <h2 className={headingClass('section', 'mb-4')}>{title}</h2>
       {children}
     </section>
   )

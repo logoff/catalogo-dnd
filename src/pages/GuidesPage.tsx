@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { cardClass } from '@/components/ui/styles'
+import { cardClass, headingClass } from '@/components/ui/styles'
 import PageHeader from '@/components/ui/PageHeader'
 import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
@@ -41,7 +41,7 @@ export default function GuidesPage() {
         <div className="space-y-10">
           {GUIDE_GROUPS.map(({ id, label }) => (
             <section key={id} id={id} className="scroll-mt-32">
-              <h2 className="mb-4 text-xl font-semibold tracking-tight">{label}</h2>
+              <h2 className={headingClass('section', 'mb-4')}>{label}</h2>
               <GuideCards guides={GUIDES.filter((guide) => guide.group === id)} />
             </section>
           ))}

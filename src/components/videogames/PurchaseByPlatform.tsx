@@ -7,6 +7,7 @@ import { describeSpanish, platformNames } from '@/utils/videogameTranslations'
 import PurchaseButton from '../common/PurchaseButton'
 import PurchaseLinks from '../common/PurchaseLinks'
 import PlatformIcon from './PlatformIcon'
+import { headingClass } from '@/components/ui/styles'
 
 interface PurchaseByPlatformProps {
   slug: string
@@ -152,7 +153,7 @@ export default function PurchaseByPlatform({ slug, releases }: PurchaseByPlatfor
       <div className="space-y-6">
         {[...groups.entries()].map(([platform, offers], groupIndex) => (
           <section key={platform} aria-label={platformNames[platform]} className="space-y-3">
-            <h3 className="flex items-center gap-2 text-sm font-semibold">
+            <h3 className={headingClass('group', 'flex items-center gap-2')}>
               <PlatformIcon platform={platform} size="md" className="text-fg" />
               {platformNames[platform]}
             </h3>

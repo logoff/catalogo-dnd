@@ -124,31 +124,23 @@ describe('página de otros juegos de rol', () => {
 
   it('ordena por defecto del más reciente al más antiguo y permite ordenar por título', () => {
     renderPage()
-    expect(titles()).toEqual([
-      'Guía del jugador',
-      'Player Core',
-      'Libro Compatible',
-      'Core Rulebook',
-    ])
+    expect(titles()).toEqual(["Player's Guide", 'Player Core', 'Libro Compatible', 'Core Rulebook'])
+    // El título original va siempre delante y el de castellano, si lo hay, debajo
+    expect(screen.getByText('Guía del jugador')).toHaveAttribute('lang', 'es')
     fireEvent.change(screen.getByLabelText('Orden'), { target: { value: 'title' } })
-    expect(titles()).toEqual([
-      'Core Rulebook',
-      'Guía del jugador',
-      'Libro Compatible',
-      'Player Core',
-    ])
+    expect(titles()).toEqual(['Core Rulebook', 'Libro Compatible', 'Player Core', "Player's Guide"])
   })
 
   it('filtra por licencia, heredada del sistema o propia del libro', () => {
     renderPage()
     fireEvent.change(screen.getByLabelText('Licencia'), { target: { value: 'orc' } })
-    expect(titles()).toEqual(['Guía del jugador', 'Player Core', 'Libro Compatible'])
+    expect(titles()).toEqual(["Player's Guide", 'Player Core', 'Libro Compatible'])
   })
 
   it('combina sistema y castellano, y avisa cuando no hay resultados', () => {
     renderPage()
     fireEvent.click(screen.getByLabelText('En castellano'))
-    expect(titles()).toEqual(['Guía del jugador'])
+    expect(titles()).toEqual(["Player's Guide"])
     fireEvent.change(screen.getByLabelText('Sistema'), { target: { value: 'pathfinder-2e' } })
     expect(titles()).toEqual([])
     expect(screen.getByText('Ningún libro coincide con los filtros.')).toBeInTheDocument()
@@ -157,8 +149,8 @@ describe('página de otros juegos de rol', () => {
   it('busca por título y editorial sin distinguir tildes', () => {
     renderPage()
     fireEvent.change(screen.getByLabelText('Buscar libros'), { target: { value: 'guia' } })
-    expect(titles()).toEqual(['Guía del jugador'])
+    expect(titles()).toEqual(["Player's Guide"])
     fireEvent.change(screen.getByLabelText('Buscar libros'), { target: { value: 'kobold' } })
-    expect(titles()).toEqual(['Guía del jugador'])
+    expect(titles()).toEqual(["Player's Guide"])
   })
 })

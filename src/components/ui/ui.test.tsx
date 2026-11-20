@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
 import SegmentedControl from './SegmentedControl'
 import SectionNav from './SectionNav'
+import { headingClass } from './styles'
 
 function Edition({ onChange }: { onChange?: (value: string) => void }) {
   const [value, setValue] = useState('all')
@@ -80,5 +81,16 @@ describe('SectionNav', () => {
   it('no se muestra con una sola sección', () => {
     render(<SectionNav sections={[{ id: 'ediciones', label: 'Ediciones' }]} />)
     expect(screen.queryByRole('navigation')).not.toBeInTheDocument()
+  })
+})
+
+describe('headingClass', () => {
+  it('cada nivel de título se distingue por algo más que el tamaño', () => {
+    expect(headingClass('section')).toContain('text-2xl')
+    // El grupo de una lista va en versalitas grises para no confundirse con sus elementos
+    expect(headingClass('group')).toContain('uppercase')
+    expect(headingClass('group')).toContain('text-muted')
+    expect(headingClass('item')).not.toContain('text-muted')
+    expect(headingClass('group', 'mb-2')).toContain('mb-2')
   })
 })
