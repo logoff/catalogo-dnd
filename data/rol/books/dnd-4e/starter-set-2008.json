@@ -1,0 +1,18 @@
+{
+  "slug": "starter-set-2008",
+  "system": "dnd-4e",
+  "title": "Dungeons & Dragons Roleplaying Game Starter Set",
+  "kind": "starter",
+  "description": "La caja de inicio de la 4.ª edición: reglas básicas para los primeros niveles, una aventura, personajes, losetas, fichas y dados para empezar a jugar sin los libros.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10",
+      "format": "boxed_set",
+      "isbn13": 9780786948208,
+      "cover": "/images/rol/starter-set-2008/english.webp"
+    }
+  ]
+}

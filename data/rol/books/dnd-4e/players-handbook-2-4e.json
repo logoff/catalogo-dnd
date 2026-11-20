@@ -1,0 +1,27 @@
+{
+  "slug": "players-handbook-2-4e",
+  "system": "dnd-4e",
+  "title": "Player's Handbook 2: Primal, Arcane, and Divine Heroes",
+  "kind": "core",
+  "core": true,
+  "description": "El segundo Manual del Jugador: cinco razas (deva, gnomo, goliat, semiorco y cambiante) y ocho clases (vengador, bárbaro, bardo, druida, invocador, chamán, hechicero y guardián), con la fuente de poder primigenia, poderes, dotes y destinos épicos.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-03",
+      "format": "hardcover",
+      "isbn13": 9780786950164,
+      "cover": "/images/rol/players-handbook-2-4e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador II",
+      "publisher": "Devir",
+      "date": "2009-08",
+      "isbn13": 9788496934672,
+      "source": "https://www.todostuslibros.com/libros/d-d-rol-4a-ed-manual-del-jugador-ii_978-84-96934-67-2"
+    }
+  ]
+}

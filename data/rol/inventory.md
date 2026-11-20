@@ -375,10 +375,11 @@ aventuras solo digitales y material con licencia de otras editoriales
 
 ### Ediciones
 
-| #   | Edición         | Editorial            | Año  | Licencias          | Deriva de                 | Castellano | Fuente                                                                                                                               | Ficha   | Nota                                          |
-| --- | --------------- | -------------------- | ---- | ------------------ | ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------------------------------------------- |
-| 1   | D&D 3.ª edición | Wizards of the Coast | 2000 | SRD 3.0 (OGL)      | —                         | sí (Devir) | [SRD 3.0 en wizards.com (copia de 2001)](https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd) | dnd-3e  |                                               |
-| 2   | D&D 3.5         | Wizards of the Coast | 2003 | SRD 3.5 (OGL 1.0a) | D&D 3.ª edición: revisión | sí (Devir) | [SRD 3.5 (copia del original)](https://archive.org/details/dnd35srd)                                                                 | dnd-3-5 | Pasa de «Otros juegos de rol» a esta sección. |
+| #   | Edición         | Editorial            | Año  | Licencias                           | Deriva de                 | Castellano                                | Fuente                                                                                                                               | Ficha   | Nota                                          |
+| --- | --------------- | -------------------- | ---- | ----------------------------------- | ------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------------------------------------------- |
+| 1   | D&D 3.ª edición | Wizards of the Coast | 2000 | SRD 3.0 (OGL)                       | —                         | sí (Devir)                                | [SRD 3.0 en wizards.com (copia de 2001)](https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd) | dnd-3e  |                                               |
+| 2   | D&D 3.5         | Wizards of the Coast | 2003 | SRD 3.5 (OGL 1.0a)                  | D&D 3.ª edición: revisión | sí (Devir)                                | [SRD 3.5 (copia del original)](https://archive.org/details/dnd35srd)                                                                 | dnd-3-5 | Pasa de «Otros juegos de rol» a esta sección. |
+| 3   | D&D 4.ª edición | Wizards of the Coast | 2008 | — (Game System License, no abierta) | D&D 3.5: cambio mayor     | sí (Devir, básicos y algunos suplementos) | [wizards.com (copia de 2008)](https://web.archive.org/web/2008/http://www.wizards.com/dnd/)                                          | dnd-4e  |                                               |
 
 ### Libros
 
@@ -395,6 +396,8 @@ el catálogo archivado de Devir, con la ficha de
 [todostuslibros.com](https://www.todostuslibros.com/) (base de datos de las
 librerías). Fecha e ISBN de la edición en inglés
 según Wikipedia, por confirmar con la página archivada de wizards.com.
+
+Libros de 4.ª edición según las listas de Wikipedia; fuera las revistas anuales, Gamma World, los juegos de tablero y las aventuras de D&D Encounters y de la revista Dungeon.
 
 Libros de Devir que no entran: _La Montaña del Penacho Blanco_ y _La Fortaleza
 de la Frontera_ (por confirmar qué son), _El templo del mal elemental_ (novela
@@ -470,6 +473,100 @@ Kenzerco, Ravenloft de Arthaus) y los Map Folio.
 | 10  | Lord of the Iron Fortress                | —                                   | aventura | 2002-01 | 0-7869-2652-X | no consta | lord-of-the-iron-fortress               |      |
 | 11  | Bastion of Broken Souls                  | —                                   | aventura | 2002-03 | 0-7869-2656-2 | no consta | bastion-of-broken-souls                 |      |
 | 12  | Return to the Temple of Elemental Evil   | Retorno al Templo del Mal Elemental | aventura | 2001-06 | 0-7869-1843-8 | sí        | return-to-the-temple-of-elemental-evil  |      |
+
+### Básicos y Essentials de 4.ª edición
+
+| #   | Título original                                                     | Título en castellano      | Tipo           | Fecha   | ISBN              | Devir     | Ficha                            | Nota |
+| --- | ------------------------------------------------------------------- | ------------------------- | -------------- | ------- | ----------------- | --------- | -------------------------------- | ---- |
+| 1   | Player's Handbook                                                   | Manual del Jugador        | básico         | 2008-06 | 978-0-7869-4867-3 | sí        | players-handbook-4e              |      |
+| 2   | Dungeon Master's Guide                                              | Guía del Dungeon Master   | básico         | 2008-06 | 978-0-7869-4880-2 | sí        | dungeon-masters-guide-4e         |      |
+| 3   | Monster Manual                                                      | Manual de Monstruos       | básico         | 2008-06 | 978-0-7869-4852-9 | sí        | monster-manual-4e                |      |
+| 4   | Player's Handbook 2                                                 | Manual del Jugador II     | básico         | 2009-03 | 978-0-7869-5016-4 | sí        | players-handbook-2-4e            |      |
+| 5   | Monster Manual 2                                                    | Manual de Monstruos II    | básico         | 2009-05 | 978-0-7869-5101-7 | sí        | monster-manual-2-4e              |      |
+| 6   | Dungeon Master's Guide 2                                            | Guía del Dungeon Master 2 | básico         | 2009-09 | 978-0-7869-5244-1 | sí        | dungeon-masters-guide-2-4e       |      |
+| 7   | Player's Handbook 3                                                 | —                         | básico         | 2010-03 | 978-0-7869-5390-5 | no consta | players-handbook-3-4e            |      |
+| 8   | Monster Manual 3                                                    | —                         | básico         | 2010-06 | 978-0-7869-5490-2 | no consta | monster-manual-3-4e              |      |
+| 9   | Dungeons & Dragons Roleplaying Game Starter Set                     | —                         | caja de inicio | 2008-10 | 978-0-7869-4820-8 | no consta | starter-set-2008                 |      |
+| 10  | Dungeons & Dragons Fantasy Roleplaying Game Starter Set (caja roja) | —                         | caja de inicio | 2010-09 | 978-0-7869-5629-6 | no consta | red-box-2010                     |      |
+| 11  | Rules Compendium                                                    | —                         | suplemento     | 2010-09 | 978-0-7869-5621-0 | no consta | rules-compendium-4e              |      |
+| 12  | Heroes of the Fallen Lands                                          | —                         | básico         | 2010-09 | 978-0-7869-5620-3 | no consta | heroes-of-the-fallen-lands       |      |
+| 13  | Dungeon Master's Kit                                                | —                         | caja de inicio | 2010-10 | 978-0-7869-5630-2 | no consta | dungeon-masters-kit              |      |
+| 14  | Heroes of the Forgotten Kingdoms                                    | —                         | básico         | 2010-11 | 978-0-7869-5619-7 | no consta | heroes-of-the-forgotten-kingdoms |      |
+| 15  | Monster Vault                                                       | —                         | caja de inicio | 2010-11 | 978-0-7869-5631-9 | no consta | monster-vault                    |      |
+
+### Opciones, monstruos y objetos de 4.ª edición
+
+| #   | Título original                           | Título en castellano | Tipo       | Fecha   | ISBN              | Devir     | Ficha     | Nota |
+| --- | ----------------------------------------- | -------------------- | ---------- | ------- | ----------------- | --------- | --------- | ---- |
+| 1   | Wizards Presents: Races and Classes       | —                    | otro       | 2007-12 | 978-0-7869-4801-7 | no consta | pendiente |      |
+| 2   | Wizards Presents: Worlds and Monsters     | —                    | otro       | 2008-01 | 978-0-7869-4802-4 | no consta | pendiente |      |
+| 3   | Martial Power                             | —                    | suplemento | 2008-11 | 978-0-7869-4981-6 | no consta | pendiente |      |
+| 4   | Arcane Power                              | —                    | suplemento | 2009-04 | 978-0-7869-4957-1 | no consta | pendiente |      |
+| 5   | Divine Power                              | —                    | suplemento | 2009-07 | 978-0-7869-4982-3 | no consta | pendiente |      |
+| 6   | Primal Power                              | —                    | suplemento | 2009-10 | 978-0-7869-5023-2 | no consta | pendiente |      |
+| 7   | Player's Handbook Races: Dragonborn       | —                    | suplemento | 2010-01 | 978-0-7869-5386-8 | no consta | pendiente |      |
+| 8   | Martial Power 2                           | —                    | suplemento | 2010-02 | 978-0-7869-5389-9 | no consta | pendiente |      |
+| 9   | Player's Strategy Guide                   | —                    | suplemento | 2010-05 | 978-0-7869-5488-9 | no consta | pendiente |      |
+| 10  | Player's Handbook Races: Tieflings        | —                    | suplemento | 2010-06 | 978-0-7869-5489-6 | no consta | pendiente |      |
+| 11  | Psionic Power                             | —                    | suplemento | 2010-08 | 978-0-7869-5560-2 | no consta | pendiente |      |
+| 12  | Heroes of Shadow                          | —                    | suplemento | 2011-04 | 978-0-7869-5745-3 | no consta | pendiente |      |
+| 13  | Heroes of the Feywild                     | —                    | suplemento | 2011-11 | 978-0-7869-5836-8 | no consta | pendiente |      |
+| 14  | Heroes of the Elemental Chaos             | —                    | suplemento | 2012-02 | 978-0-7869-5981-5 | no consta | pendiente |      |
+| 15  | Draconomicon: Chromatic Dragons           | —                    | suplemento | 2008-11 | 978-0-7869-4980-9 | no consta | pendiente |      |
+| 16  | Open Grave: Secrets of the Undead         | —                    | suplemento | 2009-01 | 978-0-7869-5069-0 | no consta | pendiente |      |
+| 17  | Draconomicon: Metallic Dragons            | —                    | suplemento | 2009-11 | 978-0-7869-5248-9 | no consta | pendiente |      |
+| 18  | Demonomicon                               | —                    | suplemento | 2010-07 | 978-0-7869-5492-6 | no consta | pendiente |      |
+| 19  | Monster Vault: Threats to the Nentir Vale | —                    | suplemento | 2011-06 | 978-0-7869-5838-2 | no consta | pendiente |      |
+| 20  | Book of Vile Darkness                     | —                    | suplemento | 2011-12 | 978-0-7869-5868-9 | no consta | pendiente |      |
+| 21  | Adventurer's Vault                        | —                    | suplemento | 2008-09 | 978-0-7869-4978-6 | no consta | pendiente |      |
+| 22  | Adventurer's Vault 2                      | —                    | suplemento | 2009-08 | 978-0-7869-5204-5 | no consta | pendiente |      |
+| 23  | Mordenkainen's Magnificent Emporium       | —                    | suplemento | 2011-09 | 978-0-7869-5744-6 | no consta | pendiente |      |
+
+### Ambientaciones de 4.ª edición
+
+| #   | Título original                                    | Título en castellano                   | Tipo         | Fecha   | ISBN              | Devir     | Ficha     | Nota |
+| --- | -------------------------------------------------- | -------------------------------------- | ------------ | ------- | ----------------- | --------- | --------- | ---- |
+| 1   | Manual of the Planes                               | Manual de los Planos                   | suplemento   | 2008-12 | 978-0-7869-5002-7 | sí        | pendiente |      |
+| 2   | The Plane Below: Secrets of the Elemental Chaos    | —                                      | suplemento   | 2009-12 | 978-0-7869-5249-6 | no consta | pendiente |      |
+| 3   | The Plane Above: Secrets of the Astral Sea         | —                                      | suplemento   | 2010-04 | 978-0-7869-5392-9 | no consta | pendiente |      |
+| 4   | The Shadowfell: Gloomwrought and Beyond            | —                                      | ambientación | 2011-05 | 978-0-7869-5848-1 | no consta | pendiente |      |
+| 5   | Into the Unknown: The Dungeon Survival Handbook    | —                                      | suplemento   | 2012-05 | 978-0-7869-6032-3 | no consta | pendiente |      |
+| 6   | Forgotten Realms Campaign Guide                    | Reinos Olvidados: Escenario de Campaña | ambientación | 2008-08 | 978-0-7869-4924-3 | sí        | pendiente |      |
+| 7   | Forgotten Realms Player's Guide                    | Reinos Olvidados: Guía del Jugador     | ambientación | 2008-09 | 978-0-7869-4929-8 | sí        | pendiente |      |
+| 8   | Underdark                                          | —                                      | ambientación | 2010-01 | 978-0-7869-5387-5 | no consta | pendiente |      |
+| 9   | Neverwinter Campaign Setting                       | —                                      | ambientación | 2011-08 | 978-0-7869-5814-6 | no consta | pendiente |      |
+| 10  | Halls of Undermountain                             | —                                      | ambientación | 2012-04 | 978-0-7869-5994-5 | no consta | pendiente |      |
+| 11  | Menzoberranzan: City of Intrigue                   | —                                      | ambientación | 2012-08 | 978-0-7869-6036-1 | no consta | pendiente |      |
+| 12  | Ed Greenwood Presents Elminster's Forgotten Realms | —                                      | ambientación | 2012-10 | 978-0-7869-6034-7 | no consta | pendiente |      |
+| 13  | Eberron Player's Guide                             | —                                      | ambientación | 2009-06 | 978-0-7869-5100-0 | no consta | pendiente |      |
+| 14  | Eberron Campaign Guide                             | —                                      | ambientación | 2009-07 | 978-0-7869-5099-7 | no consta | pendiente |      |
+| 15  | Dark Sun Campaign Setting                          | —                                      | ambientación | 2010-08 | 978-0-7869-5493-3 | no consta | pendiente |      |
+| 16  | Dark Sun Creature Catalog                          | —                                      | ambientación | 2010-08 | 978-0-7869-5494-0 | no consta | pendiente |      |
+
+### Aventuras de 4.ª edición
+
+| #   | Título original                              | Título en castellano            | Tipo     | Fecha   | ISBN              | Devir     | Ficha     | Nota |
+| --- | -------------------------------------------- | ------------------------------- | -------- | ------- | ----------------- | --------- | --------- | ---- |
+| 1   | H1 Keep on the Shadowfell                    | La Fortaleza del Páramo Sombrío | aventura | 2008-05 | 978-0-7869-4850-5 | sí        | pendiente |      |
+| 2   | H2 Thunderspire Labyrinth                    | —                               | aventura | 2008-07 | 978-0-7869-4872-7 | no consta | pendiente |      |
+| 3   | H3 Pyramid of Shadows                        | La Pirámide de la Sombra        | aventura | 2008-08 | 978-0-7869-4935-9 | sí        | pendiente |      |
+| 4   | P1 King of the Trollhaunt Warrens            | —                               | aventura | 2008-10 | 978-0-7869-4928-1 | no consta | pendiente |      |
+| 5   | P2 Demon Queen's Enclave                     | —                               | aventura | 2008-12 | 978-0-7869-4977-9 | no consta | pendiente |      |
+| 6   | P3 Assault on Nightwyrm Fortress             | —                               | aventura | 2009-03 | por confirmar     | no consta | pendiente |      |
+| 7   | E1 Death's Reach                             | —                               | aventura | 2009-04 | por confirmar     | no consta | pendiente |      |
+| 8   | E2 Kingdom of the Ghouls                     | —                               | aventura | 2009-06 | 978-0-7869-5231-1 | no consta | pendiente |      |
+| 9   | E3 Prince of Undeath                         | —                               | aventura | 2009-10 | por confirmar     | no consta | pendiente |      |
+| 10  | HS1 The Slaying Stone                        | —                               | aventura | 2010-05 | por confirmar     | no consta | pendiente |      |
+| 11  | HS2 Orcs of Stonefang Pass                   | —                               | aventura | 2010-07 | por confirmar     | no consta | pendiente |      |
+| 12  | Scepter Tower of Spellgard                   | —                               | aventura | 2008-09 | 978-0-7869-4954-0 | no consta | pendiente |      |
+| 13  | Dungeon Delve                                | —                               | aventura | 2009-03 | 978-0-7869-5139-0 | no consta | pendiente |      |
+| 14  | Revenge of the Giants                        | —                               | aventura | 2009-08 | 978-0-7869-5205-2 | no consta | pendiente |      |
+| 15  | Seekers of the Ashen Crown                   | —                               | aventura | 2009-07 | 978-0-7869-5017-1 | no consta | pendiente |      |
+| 16  | Hammerfast: A Dwarven Outpost Adventure Site | —                               | aventura | 2010-03 | 978-0-7869-5534-3 | no consta | pendiente |      |
+| 17  | Tomb of Horrors                              | —                               | aventura | 2010-07 | por confirmar     | no consta | pendiente |      |
+| 18  | Vor Rukoth: An Ancient Ruins Adventure Site  | —                               | aventura | 2010-07 | 978-0-7869-5549-7 | no consta | pendiente |      |
+| 19  | Marauders of the Dune Sea                    | —                               | aventura | 2010-08 | por confirmar     | no consta | pendiente |      |
+| 20  | Madness at Gardmore Abbey                    | —                               | aventura | 2011-09 | por confirmar     | no consta | pendiente |      |
 
 ### Básicos y cajas de inicio de 3.5
 

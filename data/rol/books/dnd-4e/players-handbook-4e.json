@@ -1,0 +1,27 @@
+{
+  "slug": "players-handbook-4e",
+  "system": "dnd-4e",
+  "title": "Player's Handbook: Arcane, Divine, and Martial Heroes",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de la 4.ª edición: razas como el dracónido, el eladrín o el tiflin junto a las clásicas, ocho clases (clérigo, explorador, guerrero, mago, paladín, pícaro, brujo y señor de la guerra), poderes, dotes, habilidades, equipo y las reglas de combate.\n\nEs el primero de los tres básicos y el primero de tres Manuales del Jugador. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-06",
+      "format": "hardcover",
+      "isbn13": 9780786948673,
+      "cover": "/images/rol/players-handbook-4e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador",
+      "publisher": "Devir",
+      "date": "2008",
+      "isbn13": 9788496934238,
+      "source": "https://www.todostuslibros.com/libros/manual-del-jugador-dungeons-dragons-4-0_978-84-96934-23-8"
+    }
+  ]
+}

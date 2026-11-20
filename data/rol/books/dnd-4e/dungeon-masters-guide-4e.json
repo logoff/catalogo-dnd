@@ -1,0 +1,27 @@
+{
+  "slug": "dungeon-masters-guide-4e",
+  "system": "dnd-4e",
+  "title": "Dungeon Master's Guide",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del Dungeon Master de la 4.ª edición: cómo preparar encuentros equilibrados por nivel y presupuesto de experiencia, desafíos de habilidad, trampas, recompensas, aventuras y campañas, con el pueblo de Fallcrest en el Valle de Nentir y una aventura de ejemplo.\n\nEs el segundo de los tres básicos. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-06",
+      "format": "hardcover",
+      "isbn13": 9780786948802,
+      "cover": "/images/rol/dungeon-masters-guide-4e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Dungeon Master",
+      "publisher": "Devir",
+      "date": "2008-09",
+      "isbn13": 9788496934351,
+      "source": "https://www.todostuslibros.com/libros/guia-del-dungeon-master-dungeons-dragons-4-0_978-84-96934-35-1"
+    }
+  ]
+}

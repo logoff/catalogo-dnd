@@ -1,0 +1,18 @@
+{
+  "slug": "heroes-of-the-forgotten-kingdoms",
+  "system": "dnd-4e",
+  "title": "Heroes of the Forgotten Kingdoms",
+  "kind": "core",
+  "description": "El segundo libro del jugador de la línea Essentials: druidas, paladines, exploradores y brujos con variantes más sencillas, y dracónidos, drows, semielfos, semiorcos y tiflins.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Heroes_of_the_Forgotten_Kingdoms",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-11",
+      "format": "paperback",
+      "isbn13": 9780786956197,
+      "cover": "/images/rol/heroes-of-the-forgotten-kingdoms/english.webp"
+    }
+  ]
+}

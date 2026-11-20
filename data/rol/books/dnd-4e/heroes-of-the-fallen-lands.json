@@ -1,0 +1,18 @@
+{
+  "slug": "heroes-of-the-fallen-lands",
+  "system": "dnd-4e",
+  "title": "Heroes of the Fallen Lands",
+  "kind": "core",
+  "description": "El libro del jugador de la línea Essentials, en formato de bolsillo: crea clérigos, guerreros, pícaros y magos con variantes más sencillas que las del Manual del Jugador, y enanos, eladrines, elfos, medianos y humanos.\n\nSe puede usar como punto de partida en lugar del Manual del Jugador. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Heroes_of_the_Fallen_Lands",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-09",
+      "format": "paperback",
+      "isbn13": 9780786956203,
+      "cover": "/images/rol/heroes-of-the-fallen-lands/english.webp"
+    }
+  ]
+}

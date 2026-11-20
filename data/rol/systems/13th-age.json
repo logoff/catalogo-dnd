@@ -22,7 +22,12 @@
       "system": "dnd-3-5",
       "kind": "inspiration",
       "via_license": "ogl-1-0a",
-      "note": "Usa la base d20 del SRD bajo la OGL y toma ideas de la cuarta edición de D&D, pero no es compatible con ninguna de las dos."
+      "note": "Usa la base d20 del SRD 3.5 bajo la OGL, pero no es compatible con D&D 3.5."
+    },
+    {
+      "system": "dnd-4e",
+      "kind": "inspiration",
+      "note": "Rob Heinsoo, diseñador principal de la 4.ª edición, trae de ella ideas como los monstruos por rol y los combates ágiles, pero no es compatible."
     }
   ],
   "links": [
