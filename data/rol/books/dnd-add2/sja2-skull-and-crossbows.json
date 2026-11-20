@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "SJA2 Skull & Crossbows",
   "kind": "adventure",
+  "settings": ["spelljammer"],
   "description": "La continuación de Wildspace: varias aventuras enlazadas de Spelljammer con piratas del espacio. La escribió Nigel Findley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-sja.html",
   "editions": [

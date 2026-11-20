@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DSS1 City-State of Tyr",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Un suplemento de Dark Sun sobre la ciudad-estado de Tyr. Lo escribió Walter M. Baas.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-dss.html",
   "editions": [

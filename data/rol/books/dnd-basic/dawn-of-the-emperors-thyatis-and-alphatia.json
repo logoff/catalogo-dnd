@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "Dawn of the Emperors: Thyatis and Alphatia",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "Una caja con los dos grandes imperios de Mystara, Thyatis y Alphatia, sus ciudades, su historia y sus intrigas.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gz/gz-box.html",
   "editions": [

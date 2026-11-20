@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FR13 Anauroch",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre Anauroch, el gran desierto del norte de Faerûn, y los pueblos que lo habitan. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

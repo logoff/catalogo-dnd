@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Mind Lords of the Last Sea",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Un suplemento de Dark Sun sobre los Señores de la Mente del Último Mar. Lo escribió Matt Forbeck.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-rev.html",
   "editions": [

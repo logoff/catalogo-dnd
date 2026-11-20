@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "City by the Silt Sea",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Una caja de Dark Sun sobre la antigua ciudad de Giustenal, junto al Mar de Limo, y el rey dragón no muerto Dregoth. La escribió Shane Lacy Hensley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-box.html",
   "editions": [

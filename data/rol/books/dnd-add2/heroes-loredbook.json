@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Heroes' Loredbook",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un libro con los héroes famosos de los Reinos Olvidados, los personajes de las novelas, con su historia y sus estadísticas de juego. Lo escribieron Dale Donovan y Paul Culotta.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-lore.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "T1-4 The Temple of Elemental Evil",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La gran campaña del Templo del Mal Elemental de Gary Gygax y Frank Mentzer, con la aldea de Hommlet, el pueblo de Nulb y el templo del culto.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-t.html",
   "editions": [

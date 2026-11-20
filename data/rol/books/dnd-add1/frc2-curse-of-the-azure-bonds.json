@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "FRC2 Curse of the Azure Bonds",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La adaptación a aventura del videojuego Curse of the Azure Bonds, secuela de Pool of Radiance basada en la novela de Kate Novak y Jeff Grubb: los personajes despiertan con unos tatuajes azules que los atan a la voluntad de otros. La escribieron Jeff Grubb y George MacDonald.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-frc.html",
   "editions": [

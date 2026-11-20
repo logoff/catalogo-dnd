@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Return to the Keep on the Borderlands",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La secuela de la aventura clásica B2 de Gary Gygax, publicada por el 25.º aniversario de D&D, que vuelve a la Fortaleza en la Frontera.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/add/add-25.html",
   "editions": [

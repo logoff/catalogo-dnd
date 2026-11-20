@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "SJR4 Practical Planetology",
   "kind": "setting",
+  "settings": ["spelljammer"],
   "description": "Un suplemento de Spelljammer sobre los tipos de planetas y mundos que se pueden encontrar en el espacio. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
   "editions": [

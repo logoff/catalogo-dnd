@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Mark of Amber",
   "kind": "adventure",
+  "settings": ["mystara"],
   "description": "Una aventura de la Mystara de AD&D 2.ª edición en Glantri, con la familia Amber. La escribieron Aaron Allston, Jeff Grubb y John D. Rateliff.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ms/ms-cd.html",
   "editions": [

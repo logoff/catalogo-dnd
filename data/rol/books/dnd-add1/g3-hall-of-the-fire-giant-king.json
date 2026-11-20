@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "G3 Hall of the Fire Giant King",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La tercera aventura de la serie de los gigantes: el salón del rey de los gigantes de fuego, que revela la mano de los drow.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-g.html",
   "editions": [

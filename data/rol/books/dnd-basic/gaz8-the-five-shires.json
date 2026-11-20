@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "GAZ8 The Five Shires",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El Gazetteer de las Cinco Comarcas, la tierra de los medianos, que se llaman a sí mismos hin, con su historia, su geografía y reglas para personajes medianos. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
   "editions": [

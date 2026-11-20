@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Children of the Night: The Created",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Una entrega de la serie Children of the Night con criaturas creadas, como gólems y otros seres artificiales, para Ravenloft, cada una con su historia, sus estadísticas y una aventura corta.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-cotn.html",
   "editions": [

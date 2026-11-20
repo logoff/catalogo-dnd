@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RA2 Ship of Horror",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft para personajes de nivel 8 a 10, a bordo del barco Endurance de su capitán Garvyn, con personajes no jugadores muy trabajados y mucha atmósfera. La escribió Anne Brown.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/rv/rv-ra.html",
   "editions": [

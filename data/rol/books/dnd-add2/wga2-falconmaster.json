@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGA2 Falconmaster",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La continuación de Falcon's Revenge: los personajes buscan al líder del culto, con edificios de cartulina. La escribieron Richard W. y Anne Brown.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wga.html",
   "editions": [

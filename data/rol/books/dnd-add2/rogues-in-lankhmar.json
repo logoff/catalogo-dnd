@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Rogues in Lankhmar",
   "kind": "setting",
+  "settings": ["lankhmar"],
   "description": "Un suplemento de Lankhmar con gremios, personajes y lugares de la ciudad, cada uno con ideas de aventura, y consejos para jugadores difíciles. Lo escribió Wes Nicholson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-other.html",
   "editions": [

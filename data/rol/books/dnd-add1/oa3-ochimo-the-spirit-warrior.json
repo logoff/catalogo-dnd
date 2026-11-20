@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "OA3 Ochimo: The Spirit Warrior",
   "kind": "adventure",
+  "settings": ["kara_tur"],
   "description": "Una aventura para Oriental Adventures en la isla de Akari, donde los personajes luchan contra el espíritu de un guerrero de la antigüedad, con una cronología de Kara-Tur. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/oa/oa-oa.html",
   "editions": [

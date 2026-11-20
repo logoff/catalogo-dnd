@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Wyrmskull Throne",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura de los Reinos Olvidados. La escribieron Steven E. Schend y Thomas M. Reid.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-adv.html",
   "editions": [

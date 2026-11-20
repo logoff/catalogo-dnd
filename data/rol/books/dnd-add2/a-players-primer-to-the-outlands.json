@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "A Player's Primer to the Outlands",
   "kind": "setting",
+  "settings": ["planescape"],
   "description": "Una guía para jugadores sobre las Tierras Exteriores, el plano neutral en el centro de la Gran Rueda de Planescape. La escribieron Jeff Grubb y Colin McComb.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-box.html",
   "editions": [

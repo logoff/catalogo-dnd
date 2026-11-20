@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLS3 Oak Lords",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Una aventura de la serie DLS de Dragonlance. La escribió Blake Mobley.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-dls.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Player's Guide",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "La guía del jugador de Greyhawk, de la reedición de la ambientación de 1998. La escribió Anne Brown.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-acc.html",
   "editions": [

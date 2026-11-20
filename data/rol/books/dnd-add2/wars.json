@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Wars",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "Un juego de guerra de las Guerras de Greyhawk. Lo escribió David Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-box.html",
   "editions": [

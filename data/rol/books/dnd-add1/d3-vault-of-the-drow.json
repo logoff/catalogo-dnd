@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "D3 Vault of the Drow",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La tercera aventura de la serie de los drow: la ciudad drow en las profundidades, camino de la Reina Araña.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-d.html",
   "editions": [

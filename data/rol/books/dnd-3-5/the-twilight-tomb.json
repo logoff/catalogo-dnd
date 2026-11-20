@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "The Twilight Tomb",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura corta en Aglarond, en el Este Inaccesible: en el bosque de Yuirwood, un oráculo anuncia el regreso del Caminante del Ocaso, un antiguo mago elfo estelar corrompido, mientras desaparecen viajeros en la zona.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/The_Twilight_Tomb",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RR7 Van Richten's Guide to Werebeasts",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Uno de los tratados de Rudolph van Richten, escrito como si fuera suyo, sobre los licántropos y cómo cazarlos. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rr.html",
   "editions": [

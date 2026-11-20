@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "SJR8 Space Lairs",
   "kind": "setting",
+  "settings": ["spelljammer"],
   "description": "Aventuras cortas en guaridas de monstruos del espacio para Spelljammer. Lo escribieron Nicky Rea y Wes Nicholson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
   "editions": [

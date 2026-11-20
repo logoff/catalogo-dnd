@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR11 Cult of the Dragon",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre el Culto del Dragón, la secta que venera a los dragones muertos vivientes, su historia y sus miembros. Lo escribió Dale Donovan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

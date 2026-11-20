@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Fires of Dis",
   "kind": "adventure",
+  "settings": ["planescape"],
   "description": "Una aventura de Planescape en Dis, la ciudad de hierro de Baator. La escribieron Steve Perrin y Ray Vallese.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-adv.html",
   "editions": [

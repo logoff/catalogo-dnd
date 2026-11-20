@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "LNQ1 Slayers of Lankhmar",
   "kind": "adventure",
+  "settings": ["lankhmar"],
   "description": "Una aventura de Lankhmar. La escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-lnq.html",
   "editions": [

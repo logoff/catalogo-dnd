@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Spellbound",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una caja sobre Thay, Rashemen y Aglarond, las tierras de la magia del este de Faerûn. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

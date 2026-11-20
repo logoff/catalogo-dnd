@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "City of Stormreach",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "Stormreach, la ciudad portuaria de Xen'drik y puerta al continente: sus ruinas, sus organizaciones y sus mazmorras llenas de tesoros, para campañas en la frontera del mundo conocido.\n\nFue uno de los últimos libros de Eberron para 3.5. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/City_of_Stormreach",
   "editions": [

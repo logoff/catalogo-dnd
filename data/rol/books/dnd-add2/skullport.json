@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Skullport",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre Puerto Calavera, la ciudad sin ley escondida bajo Aguas Profundas: contrabandistas, esclavistas y monstruos gobernados por las Calaveras flotantes, con mapas, facciones y más de cien lugares. Lo escribió Joseph C. Wolf.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-acc.html",
   "editions": [

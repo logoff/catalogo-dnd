@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Circle of Darkness",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft. La escribió Drew Bittner.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

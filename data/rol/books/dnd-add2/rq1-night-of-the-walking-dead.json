@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RQ1 Night of the Walking Dead",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de la serie RQ de Ravenloft. La escribió Bill Slavicsek.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rq.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Menzoberranzan",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La ciudad drow de Menzoberranzan, la de la saga de Drizzt de R. A. Salvatore: sus casas nobles, su sociedad, sus lugares y aventuras, en caja.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

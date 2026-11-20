@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Undermountain: Stardock",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura en Bajomontaña. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-dc.html",
   "editions": [

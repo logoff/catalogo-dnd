@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Arabian Adventures",
   "kind": "setting",
+  "settings": ["al_qadim"],
   "description": "El libro de reglas de Al-Qadim, con clases y kits propios de la Tierra del Destino, como el sha'ir o el mameluco.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/aq/aq-box.html",
   "editions": [

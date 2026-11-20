@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to the Dalelands",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una guía de Volo sobre los Valles, con sus escalas para posadas, precios y peligros. La escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Cormyr",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre Cormyr, el reino del Dragón Púrpura. Lo escribió Eric W. Haddock.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-acc.html",
   "editions": [

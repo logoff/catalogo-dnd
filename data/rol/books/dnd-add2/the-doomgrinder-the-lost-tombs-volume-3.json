@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Doomgrinder (The Lost Tombs, Volume 3)",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La aventura que cierra la trilogía de las Tumbas Perdidas de Greyhawk. La escribió Steve Miller.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-adv.html",
   "editions": [

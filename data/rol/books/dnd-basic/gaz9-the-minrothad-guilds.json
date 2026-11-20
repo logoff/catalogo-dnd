@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "GAZ9 The Minrothad Guilds",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El Gazetteer de los gremios de Minrothad, mercaderes marinos que gobiernan un grupo de islas, con su vida, su sociedad y su política. Lo escribieron Deborah Christian y Kim Eastland.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
   "editions": [

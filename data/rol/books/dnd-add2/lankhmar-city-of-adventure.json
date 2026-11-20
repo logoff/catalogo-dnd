@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Lankhmar: City of Adventure",
   "kind": "setting",
+  "settings": ["lankhmar"],
   "description": "Lankhmar, la ciudad de Fafhrd y el Ratonero Gris de Fritz Leiber, como escenario de AD&D 2.ª edición.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-box.html",
   "editions": [

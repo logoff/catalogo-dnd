@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "GAZ4 The Kingdom of Ierendi",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El Gazetteer de Ierendi, un archipiélago de piratas que se presenta como paraíso tropical: su historia, su política y su economía, ideas de aventura para todos los niveles y un juego sencillo para batallas navales. Lo escribió Anne Gray McCready.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
   "editions": [

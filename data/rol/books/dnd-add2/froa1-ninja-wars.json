@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FROA1 Ninja Wars",
   "kind": "adventure",
+  "settings": ["kara_tur"],
   "description": "Una aventura de Kara-Tur. La escribió Nigel Findley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/oa/oa-oa.html",
   "editions": [

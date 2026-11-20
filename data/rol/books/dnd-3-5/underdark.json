@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Underdark",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El mundo subterráneo de los Reinos Olvidados: la geografía de la Infraoscuridad bajo Faerûn, sus ciudades y sus pueblos (drow, duergar, svirfneblin, azotamentes y otros), con razas jugables, clases de prestigio, dotes, conjuros, monstruos y reglas para sobrevivir lejos de la luz.\n\nSalió justo después de la revisión 3.5, como accesorio de campaña de Reinos Olvidados. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Underdark_(supplement)",
   "editions": [

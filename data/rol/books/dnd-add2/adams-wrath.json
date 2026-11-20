@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Adam's Wrath",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft para personajes de nivel medio contra el doctor Victor Mordenheim y sus esbirros, con una mansión encantada, nieve viva y un final en la isla de la Agonía. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

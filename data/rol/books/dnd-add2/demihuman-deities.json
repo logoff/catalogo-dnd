@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Demihuman Deities",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre los dioses de los enanos, los elfos, los gnomos, los medianos y otras razas de los Reinos Olvidados, con sus avatares y sus sacerdotes. Lo escribió Eric L. Boyd.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-deity.html",
   "editions": [

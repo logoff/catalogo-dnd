@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "E3 Prince of Undeath",
   "kind": "adventure",
+  "settings": ["nerath"],
   "description": "La aventura final de la serie, para personajes de nivel 27 a 30: el señor demoníaco Orcus intenta arrebatar a la Reina Cuervo su poder sobre la muerte, y los personajes tienen que detenerlo.\n\nCierra la serie H-P-E. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Prince_of_Undeath",
   "editions": [

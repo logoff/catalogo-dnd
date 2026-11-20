@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR12 Demihumans of the Realms",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre las razas semihumanas de los Reinos Olvidados y cómo jugar con ellas. Lo escribió Roger E. Moore.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

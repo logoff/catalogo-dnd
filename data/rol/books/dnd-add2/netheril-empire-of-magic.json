@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Netheril: Empire of Magic",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El antiguo imperio de Netheril, la civilización mágica de los Reinos Olvidados: su historia, su magia y aventuras en su época, en caja.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-aa.html",
   "editions": [

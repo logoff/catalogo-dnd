@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FR11 Dwarves Deep",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre los enanos de los Reinos Olvidados y sus reinos. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

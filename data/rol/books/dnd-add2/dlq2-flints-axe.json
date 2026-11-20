@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLQ2 Flint's Axe",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Una aventura de Dragonlance. La escribió Tim Beach.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dlq.html",
   "editions": [

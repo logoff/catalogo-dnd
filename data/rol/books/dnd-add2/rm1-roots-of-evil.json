@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RM1 Roots of Evil",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura corta de la serie RM de Ravenloft. La escribieron Eric Haddock y David Wise.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rm.html",
   "editions": [

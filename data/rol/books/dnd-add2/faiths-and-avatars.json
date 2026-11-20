@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Faiths & Avatars",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre los dioses del panteón de Faerûn, incluso los muertos: cuarenta y cinco dioses con su historia, sus estadísticas y su avatar, y cuatro subclases nuevas de sacerdote. Lo escribió Julia Martin con Eric L. Boyd.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-deity.html",
   "editions": [

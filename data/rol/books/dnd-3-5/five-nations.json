@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Five Nations",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "Los pueblos y lugares de las Cinco Naciones que formaban el antiguo reino de Galifar: Aundair, Breland, Karrnath y Thrane, y las Tierras Enlutadas, lo que queda de Cyre, con su historia, su política tras la Última Guerra y opciones de juego para cada una.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/List_of_Eberron_modules_and_sourcebooks",
   "editions": [

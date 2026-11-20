@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FR16 The Shining South",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre el Sur Brillante de Faerûn y sus reinos. Lo escribió Tom Prusa.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

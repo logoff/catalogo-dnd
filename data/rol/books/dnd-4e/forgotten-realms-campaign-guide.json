@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Forgotten Realms Campaign Guide",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Los Reinos Olvidados para la 4.ª edición, un siglo después de la Plaga de los Conjuros: Faerûn región a región tras los cambios, un pueblo detallado para empezar la campaña, ganchos de aventura, monstruos, personajes y un mapa.\n\nEl salto temporal y los cambios del mundo dividieron a los aficionados. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Forgotten_Realms_Campaign_Guide",
   "editions": [

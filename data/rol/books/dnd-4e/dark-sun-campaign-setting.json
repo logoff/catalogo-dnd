@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Dark Sun Campaign Setting",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "El regreso de Dark Sun: Athas, un mundo desértico y sin dioses gobernado por reyes hechiceros, con opciones de personaje, reglas de supervivencia y material de campaña.\n\nJunto a Reinos Olvidados y Eberron, fue una de las pocas ambientaciones con libros propios en la 4.ª edición. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Dark_Sun_Campaign_Setting",
   "editions": [

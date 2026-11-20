@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "LC1 Gateway to Ravens Bluff, The Living City",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El primer suplemento de la Ciudad Viva, la campaña compartida de la RPGA en Ravens Bluff: su historia, su gobierno, su ejército, su justicia, sus templos, sus vecinos más notables y cuatro aventuras de introducción.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-lc.html",
   "editions": [

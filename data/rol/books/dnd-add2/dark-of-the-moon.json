@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Dark of the Moon",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft. La escribió L. Richard Baker III.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

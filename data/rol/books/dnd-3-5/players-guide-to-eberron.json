@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Player's Guide to Eberron",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "Lo que un personaje de Eberron sabe de su mundo, de Aerenal a Zilargo: las casas marcadas por el dragón, la Última Guerra, los dragones o los Señores del Polvo, sin desvelar los secretos del Dungeon Master, con opciones de personaje.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Player%27s_Guide_to_Eberron",
   "editions": [

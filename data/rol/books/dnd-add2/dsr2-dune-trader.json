@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DSR2 Dune Trader",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Un suplemento de Dark Sun sobre los mercaderes, con la clase de comerciante para humanos, elfos y semielfos. Lo escribió Anthony Pryor.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/ds/ds-dsr.html",
   "editions": [

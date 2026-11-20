@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "OA7 Test of the Samurai",
   "kind": "adventure",
+  "settings": ["kara_tur"],
   "description": "Una aventura de Kara-Tur en la que los personajes investigan los sucesos extraños y los monstruos que aparecen en Wa. La escribió Rick Swan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/oa/oa-oa.html",
   "editions": [

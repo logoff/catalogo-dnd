@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "WG9 Gargoyle",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una aventura de Greyhawk. La escribieron Dave Collins y Skip Williams.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wg.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "The Atlas of the Dragonlance World",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "El atlas de Krynn de la cartógrafa Karen Wynn Fonstad: mapas ilustrados del mundo de Dragonlance, sus regiones, ciudades y lugares de las novelas. Lo escribió Karen Wynn Fonstad.\n\nEdición en castellano de Timun Mas.",
   "source": "https://www.tsrarchive.com/dl/dl-acc.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Vecna Reborn",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft en la que aparece Vecna, el liche convertido en semidiós. La escribió Monte Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

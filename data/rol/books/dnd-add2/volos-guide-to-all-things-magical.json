@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to All Things Magical",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una guía de Volo, que avisa de que no todo lo que cuenta es cierto, sobre la magia de los Reinos: sesenta y cinco conjuros nuevos, quién los conoce, objetos mágicos y mucho más. La escribió Ed Greenwood con Eric L. Boyd.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [

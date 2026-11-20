@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Thri-Kreen of Athas",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Un suplemento de Dark Sun sobre los thri-kreen, los hombres insecto de Athas, con reglas para jugar con ellos. Lo escribieron Tim Beach y Dori Hein.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-acc.html",
   "editions": [

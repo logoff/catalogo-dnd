@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR9 Wizards and Rogues of the Realms",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento con kits de personaje para magos y pícaros de los Reinos Olvidados y dos clases nuevas, los caminantes de las sombras y los cantores de conjuros, que lanzan hechizos cantando y bailando. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

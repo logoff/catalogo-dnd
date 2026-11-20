@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Bleak House: The Death of Rudolph van Richten",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una campaña de Ravenloft en tres aventuras alrededor de la muerte del cazador de monstruos Rudolph van Richten. La escribieron William W. Connors y Dave Gross con Steve Miller.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-box.html",
   "editions": [

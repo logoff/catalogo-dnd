@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Marco Volo: Departure",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La primera parte de la trilogía de aventuras de Marco Volo. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-mv.html",
   "editions": [

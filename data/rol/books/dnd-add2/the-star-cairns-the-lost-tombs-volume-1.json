@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Star Cairns (The Lost Tombs, Volume 1)",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La primera aventura de la trilogía de las Tumbas Perdidas de Greyhawk. La escribió Sean K. Reynolds.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-adv.html",
   "editions": [

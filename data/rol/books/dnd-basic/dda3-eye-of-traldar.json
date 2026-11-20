@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "DDA3 Eye of Traldar",
   "kind": "adventure",
+  "settings": ["mystara"],
   "description": "Una aventura para personajes que empiezan, ambientada en Karameikos y en la herencia de los antiguos traldar. La escribió Carl Sargent.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dd/dd2-dda.html",
   "editions": [

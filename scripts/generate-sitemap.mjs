@@ -113,6 +113,33 @@ function generateSitemap() {
     urls.push({ loc: `/novela/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
   }
 
+  // Guías por ambientación: una por cada mundo que tenga algún libro, novela o videojuego
+  const worlds = new Set()
+  for (const edition of ['2014', '2024']) {
+    for (const file of getProductFiles(join(DATA_DIR, edition, 'products'))) {
+      for (const w of JSON.parse(readFileSync(file, 'utf-8')).settings ?? []) worlds.add(w)
+    }
+  }
+  for (const file of getProductFiles(join(DATA_DIR, 'rol', 'books'))) {
+    for (const w of JSON.parse(readFileSync(file, 'utf-8')).settings ?? []) worlds.add(w)
+  }
+  for (const file of getProductFiles(join(DATA_DIR, 'novels'))) {
+    const world = file.split('/').at(-2)
+    if (world !== 'generic' && world !== 'novels') worlds.add(world)
+  }
+  for (const file of getProductFiles(join(DATA_DIR, 'videogames', 'games'))) {
+    const { setting } = JSON.parse(readFileSync(file, 'utf-8'))
+    if (setting) worlds.add(setting)
+  }
+  for (const world of [...worlds].sort()) {
+    urls.push({
+      loc: `/guias/ambientacion/${world.replace(/_/g, '-')}`,
+      priority: 0.7,
+      changefreq: 'monthly',
+      lastmod: today,
+    })
+  }
+
   // Otros juegos de rol y ediciones anteriores de D&D: las secciones, las licencias, los sistemas
   // y los libros
   // (data/rol/books/<sistema>/<slug>.json)

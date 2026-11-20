@@ -39,6 +39,34 @@
                 "other"
             ]
         },
+        "settings": {
+            "description": "Mundos de D&D en los que transcurre o que describe (mismos identificadores que novelas y videojuegos)",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+                "enum": [
+                    "forgotten_realms",
+                    "dragonlance",
+                    "greyhawk",
+                    "ravenloft",
+                    "eberron",
+                    "spelljammer",
+                    "planescape",
+                    "dark_sun",
+                    "mystara",
+                    "birthright",
+                    "al_qadim",
+                    "kara_tur",
+                    "lankhmar",
+                    "nerath",
+                    "exandria",
+                    "ravnica",
+                    "theros",
+                    "strixhaven"
+                ]
+            }
+        },
         "core": {
             "description": "Libro principal (básico o caja de inicio) de un sistema grande; necesario para los libros solo en inglés que no son de una editorial destacada",
             "type": "boolean"

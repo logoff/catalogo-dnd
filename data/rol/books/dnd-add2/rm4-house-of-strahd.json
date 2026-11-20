@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RM4 House of Strahd",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "La versión para AD&D 2.ª edición de la aventura clásica de Ravenloft: los personajes, atrapados en Barovia, entran en el castillo del vampiro Strahd von Zarovich, con Madame Eva y los objetivos variables del original. La escribieron Tracy y Laura Hickman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rm.html",
   "editions": [

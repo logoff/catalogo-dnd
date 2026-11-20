@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "GAZ3 The Principalities of Glantri",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El Gazetteer de Glantri, el principado gobernado por magos de Mystara, con sus escuelas secretas de magia y la Gran Escuela de Magia.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
   "editions": [

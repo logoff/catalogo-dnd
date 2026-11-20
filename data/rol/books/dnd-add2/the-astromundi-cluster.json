@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Astromundi Cluster",
   "kind": "setting",
+  "settings": ["spelljammer"],
   "description": "Una caja de Spelljammer sobre una esfera de cristal formada por asteroides sueltos, de barreras tan débiles que se mezclan criaturas del plano material y de los planos interiores. La escribió Sam Witt.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-box.html",
   "editions": [

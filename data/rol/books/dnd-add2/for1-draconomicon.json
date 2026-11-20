@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR1 Draconomicon",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El libro de los dragones de los Reinos Olvidados: su biología, su sociedad y su magia, y los dragones famosos de Faerûn. Lo escribió Nigel Findley.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

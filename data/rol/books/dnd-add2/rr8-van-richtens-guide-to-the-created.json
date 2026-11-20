@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RR8 Van Richten's Guide to the Created",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Uno de los tratados de Rudolph van Richten, escrito como si fuera suyo, sobre los seres creados, como gólems y otras criaturas artificiales. Lo escribió Teeuwynn Woodruff.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rr.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL7 Dragons of Light",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "La séptima aventura de la saga de Dragonlance, dentro del arco de los Relatos de la Noche de Invierno. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

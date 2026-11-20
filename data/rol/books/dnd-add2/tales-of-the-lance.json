@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Tales of the Lance",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "Una caja de Dragonlance que resume la historia del mundo y describe sus lugares clave en un grueso volumen sobre Ansalon, con cartas de personajes de los héroes de la saga. La editó J. Robert King.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-box.html",
   "editions": [

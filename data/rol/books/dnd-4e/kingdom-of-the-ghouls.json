@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "E2 Kingdom of the Ghouls",
   "kind": "adventure",
+  "settings": ["nerath"],
   "description": "Una aventura épica para personajes de nivel 24 a 26 en el reino de Doresain, el rey de los necrófagos.\n\nForma parte de la serie H-P-E. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_adventures",
   "editions": [

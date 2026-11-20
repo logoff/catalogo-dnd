@@ -3,6 +3,7 @@
   "system": "dnd-3e",
   "title": "City of the Spider Queen",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura larga de Reinos Olvidados: las sacerdotisas drow han dejado de recibir conjuros de Lolth y la ciudad de Maerimydra, en la Infraoscuridad, ha caído en el caos y ha sido invadida, y los personajes bajan hasta ella.\n\nDevir la publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/City_of_the_Spider_Queen",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Glantri: Kingdom of Magic",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "La caja de Glantri, el principado de los magos de Mystara, para AD&D 2.ª edición.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ms/ms-box.html",
   "editions": [

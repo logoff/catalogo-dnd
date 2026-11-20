@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "H1 Keep on the Shadowfell",
   "kind": "adventure",
+  "settings": ["nerath"],
   "description": "La primera aventura de la 4.ª edición, para personajes de nivel 1 a 3: en el pueblo de Winterhaven, los personajes investigan una vieja fortaleza en ruinas donde un culto quiere abrir una brecha al Páramo Sombrío.\n\nAbre la serie H-P-E, que lleva a los personajes del nivel 1 al 30, y estrenó el escenario de «puntos de luz». Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Keep_on_the_Shadowfell",
   "editions": [

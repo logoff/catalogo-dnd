@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLQ1 Knight's Sword",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Una aventura de Dragonlance. La escribieron Colin McComb y Thomas M. Reid.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dlq.html",
   "editions": [

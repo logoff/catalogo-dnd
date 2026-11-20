@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "LNR2 Tales of Lankhmar",
   "kind": "setting",
+  "settings": ["lankhmar"],
   "description": "Un suplemento de Lankhmar. Lo escribió Anthony Pryor.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-lnr.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR10 Warriors and Priests of the Realms",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento con kits de personaje para los guerreros, ordenados por región, y los sacerdotes, ordenados por fe, de los Reinos Olvidados. Lo escribió John Terra.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

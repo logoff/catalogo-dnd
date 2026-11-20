@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "MC3 Monstrous Compendium Volume Three: Forgotten Realms Appendix",
   "kind": "supplement",
+  "settings": ["forgotten_realms"],
   "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de los Reinos Olvidados.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGS2 Howl From the North",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La continuación de Five Shall Be One, justo antes de las Guerras de Greyhawk, otra vez alrededor de las Espadas de Corusk. La escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wgs.html",
   "editions": [

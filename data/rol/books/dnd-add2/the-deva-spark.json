@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Deva Spark",
   "kind": "adventure",
+  "settings": ["planescape"],
   "description": "Una aventura de Planescape. La escribieron Bill Slavicsek y J. M. Salsbury.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-adv.html",
   "editions": [

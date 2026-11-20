@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Aurora's Whole Realms Catalogue",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un catálogo de venta por correo dentro del mundo, imitando los de principios del siglo XX: instrumentos de bardo, objetos de casa, catorce tipos de queso y mucho más, con la palabrería de un vendedor en cada artículo. Lo escribió Anne Brown.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-acc.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Against the Giants: The Liberation of Geoff",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La puesta al día de la serie clásica de los gigantes, G1-3, por el 25.º aniversario de D&D.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/add/add-25.html",
   "editions": [

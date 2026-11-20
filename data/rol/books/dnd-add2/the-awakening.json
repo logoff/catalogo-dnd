@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Awakening",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

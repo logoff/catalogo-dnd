@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Planescape: Monstrous Compendium Appendix II",
   "kind": "setting",
+  "settings": ["planescape"],
   "description": "El segundo apéndice de monstruos de Planescape, con más criaturas de los planos.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-mc.html",
   "editions": [

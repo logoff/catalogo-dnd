@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL3 Dragons of Hope",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "La tercera aventura de la saga de Dragonlance, para niveles 6 a 8: los Compañeros guían a los refugiados de Pax Tharkas. Sus hechos no salen en las Crónicas, sino en la novela Los dragones de las profundidades de los enanos. La escribió Tracy Hickman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "From the Ashes",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "La caja que actualizó Greyhawk tras las Guerras de Greyhawk, con la Flanaess devastada y nuevos poderes en juego.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-box.html",
   "editions": [

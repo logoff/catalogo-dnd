@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Dark Sun Creature Catalog",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Los monstruos, los personajes importantes y los peligros de Athas, con consejos para construir encuentros en Dark Sun; muchos recuperan criaturas de los bestiarios de la ambientación en AD&D.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Dark_Sun_Creature_Catalog",
   "editions": [

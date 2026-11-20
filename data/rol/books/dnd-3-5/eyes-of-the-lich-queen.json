@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Eyes of the Lich Queen",
   "kind": "adventure",
+  "settings": ["eberron"],
   "description": "Una gran aventura para personajes de nivel 5 a 10 con dragones, la Sangre de Vol y una maldición ligada a la Profecía Dracónica.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Eyes_of_the_Lich_Queen",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Lands of Intrigue",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una caja sobre las Tierras de la Intriga: Amn, Tethyr y Calimshan. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Shining South",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Las tierras del extremo sur de Faerûn, más allá del Lago de Vapor: el reino mágico de Halruaa, las llanuras del Shaar, Luiren, la tierra de los medianos, y Dambrath, con su historia, sus lugares, sus personajes y opciones de juego para la región.\n\nPone al día un suplemento de AD&D de 1993 con el mismo título. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Shining_South_(2004_supplement)",
   "editions": [

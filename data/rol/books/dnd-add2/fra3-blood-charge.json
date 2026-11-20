@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FRA3 Blood Charge",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La tercera y última aventura de la trilogía de los Imperios, con la guerra contra la Horda tuigana. La escribió Troy Denning.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fra.html",
   "editions": [

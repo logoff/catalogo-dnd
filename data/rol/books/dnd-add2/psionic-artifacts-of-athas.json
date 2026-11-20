@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Psionic Artifacts of Athas",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Un suplemento de Dark Sun con los artefactos de las novelas del Prism Pentad y los objetos vivos de la antigua Era Azul de Athas, que se funden con quien los lleva. Lo escribieron Kevin Melka y Bruce Nesmith.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-rev.html",
   "editions": [

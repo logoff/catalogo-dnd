@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Power of Faerûn",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Para personajes de nivel alto que quieren gobernar o influir en Faerûn: cómo fundar y dirigir cortes, templos, gremios y otras organizaciones, manejar intrigas políticas y crisis, con ideas de aventura.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Power_of_Faer%C3%BBn",
   "editions": [

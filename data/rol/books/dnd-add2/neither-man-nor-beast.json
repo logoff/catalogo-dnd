@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Neither Man Nor Beast",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft en la que los personajes naufragan en una isla desierta tras una tormenta. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

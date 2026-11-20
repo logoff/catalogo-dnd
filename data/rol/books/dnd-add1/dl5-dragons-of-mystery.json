@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL5 Dragons of Mystery",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "El libro de consulta de Krynn para la saga de Dragonlance: su geografía, sus mitos de la creación y sus dioses, y la historia de cada uno de los héroes y de cómo se conocieron. La escribió Michael Dobson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

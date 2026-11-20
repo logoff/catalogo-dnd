@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "MC11 Monstrous Compendium Forgotten Realms Appendix",
   "kind": "supplement",
+  "settings": ["forgotten_realms"],
   "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de los Reinos Olvidados (el segundo).\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Book of Magecraft",
   "kind": "setting",
+  "settings": ["birthright"],
   "description": "Un suplemento de Birthright sobre la magia: el mago menor, especializado en adivinación e ilusión, y el hechicero, que debe llevar la sangre de los dioses. Lo escribieron Jean Rabe y Ed Stark.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-acc.html",
   "editions": [

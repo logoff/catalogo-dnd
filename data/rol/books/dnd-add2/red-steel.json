@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Red Steel",
   "kind": "supplement",
+  "settings": ["mystara"],
   "description": "Red Steel, una región de Mystara con su propia magia del acero rojo, para AD&D 2.ª edición.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-red.html",
   "editions": [

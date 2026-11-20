@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The City of Greyhawk",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "La ciudad de Greyhawk en caja: sus barrios, sus personajes y aventuras.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-box.html",
   "editions": [

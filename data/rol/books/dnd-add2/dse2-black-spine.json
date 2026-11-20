@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DSE2 Black Spine",
   "kind": "adventure",
+  "settings": ["dark_sun"],
   "description": "Una gran aventura de Dark Sun. La escribieron varios autores, entre ellos Walter Baas y Dustin Browder.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-dse.html",
   "editions": [

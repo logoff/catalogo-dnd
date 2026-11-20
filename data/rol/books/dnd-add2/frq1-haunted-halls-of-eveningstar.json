@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FRQ1 Haunted Halls of Eveningstar",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura para personajes que empiezan en Eveningstar, un pueblo de Cormyr. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-frq.html",
   "editions": [

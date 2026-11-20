@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGM1 Border Watch",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una aventura en la frontera entre Furyondy y el imperio de Iuz después de las Guerras de Greyhawk, para usar con From the Ashes. La escribió Paul T. Riegel.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wgm.html",
   "editions": [

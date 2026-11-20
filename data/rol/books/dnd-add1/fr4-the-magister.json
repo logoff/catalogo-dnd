@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "FR4 The Magister",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre la magia y los magos de los Reinos Olvidados. Lo escribieron Ed Greenwood y Steve Perrin.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

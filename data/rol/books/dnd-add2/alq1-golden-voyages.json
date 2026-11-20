@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "ALQ1 Golden Voyages",
   "kind": "adventure",
+  "settings": ["al_qadim"],
   "description": "Una aventura de Al-Qadim que su autor definió como «Simbad en una caja»: los personajes quedan a la deriva en el Mar Abarrotado y navegan hasta el estrecho del Dolor y las islas Humeantes en busca de un gran tesoro. La escribió David «Zeb» Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/aq/aq-alq.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "G1-2-3 Against the Giants",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Las tres aventuras de los gigantes de Gary Gygax reunidas en un solo volumen.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-g.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Shadowdale: The Scouring of the Land",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura de campaña en el Valle de la Sombra: soldados zhentarim, drow de Maerimydra y cultistas de Shar se alían para someter la región, y los personajes deben liberarla.\n\nEs la segunda de la trilogía que empieza con Cormyr: The Tearing of the Weave. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Shadowdale:_The_Scouring_of_the_Land",
   "editions": [

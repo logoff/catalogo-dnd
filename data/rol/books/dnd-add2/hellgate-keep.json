@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Hellgate Keep",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura en Hellgate Keep, la fortaleza de los tanar'ri en el Norte. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-dc.html",
   "editions": [

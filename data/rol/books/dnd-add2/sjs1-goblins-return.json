@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "SJS1 Goblins' Return",
   "kind": "adventure",
+  "settings": ["spelljammer"],
   "description": "Una aventura de Spelljammer. La escribió Bruce Nesmith.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-sjs.html",
   "editions": [

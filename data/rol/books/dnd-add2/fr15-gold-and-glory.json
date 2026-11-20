@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FR15 Gold & Glory",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre los mercenarios de los Reinos Olvidados, con treinta compañías, de pequeños grupos a verdaderos ejércitos, y mucha historia general de los Reinos. Lo escribió Tim Beach.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

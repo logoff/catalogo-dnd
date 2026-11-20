@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Eberron Campaign Guide",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "Eberron para el Dungeon Master de la 4.ª edición: Khorvaire y el resto del mundo tras la Última Guerra, sus organizaciones y sus peligros, con ganchos de aventura y monstruos.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/List_of_Eberron_modules_and_sourcebooks",
   "editions": [

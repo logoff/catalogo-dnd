@@ -3,6 +3,7 @@
   "system": "dnd-3e",
   "title": "Lords of Darkness",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Las organizaciones malvadas de los Reinos Olvidados, como los zhentarim, los magos rojos de Thay o el Culto del Dragón: su historia, sus miembros, sus planes y cómo usarlas como enemigos, con clases de prestigio y opciones de juego.\n\nComparte título con un suplemento de AD&D de 1988. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Lords_of_Darkness",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-3e",
   "title": "Faiths and Pantheons",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Los dioses de los Reinos Olvidados: los panteones de Faerûn, sus iglesias, sus clérigos y sus fieles, con dominios, conjuros, clases de prestigio y objetos sagrados.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Faiths_and_Pantheons",
   "editions": [

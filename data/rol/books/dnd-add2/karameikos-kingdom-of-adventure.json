@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Karameikos: Kingdom of Adventure",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "La caja de Karameikos para AD&D 2.ª edición, que trasladó a AD&D el mundo de Mystara de D&D, con un CD de audio.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ms/ms-box.html",
   "editions": [

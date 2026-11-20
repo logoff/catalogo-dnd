@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Serpent Kingdoms",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Los pueblos escamosos de Faerûn, los hombres lagarto, las nagas, los yuan-ti y los sarrukh que los crearon: su historia, sus reinos ocultos y sus dioses, con razas jugables, clases de prestigio, dotes, conjuros y monstruos.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Serpent_Kingdoms",
   "editions": [

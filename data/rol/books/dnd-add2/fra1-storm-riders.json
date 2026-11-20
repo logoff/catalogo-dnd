@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FRA1 Storm Riders",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La primera aventura de la trilogía de los Imperios: atrapados por la Horda en una tierra prohibida, los personajes deben escoltar a una princesa para poder salir. La escribió Troy Denning.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fra.html",
   "editions": [

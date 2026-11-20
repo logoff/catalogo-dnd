@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "HWA3 Nightstorm",
   "kind": "adventure",
+  "settings": ["mystara"],
   "description": "La tercera y última parte de la trilogía de aventuras del Mundo Hueco. La escribió Allen Varney.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/hw/hw-adv.html",
   "editions": [

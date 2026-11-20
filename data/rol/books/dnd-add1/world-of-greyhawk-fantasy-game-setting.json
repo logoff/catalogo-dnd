@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "World of Greyhawk Fantasy Game Setting",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "La caja de Greyhawk de 1983, con dos libros y los mapas de la Flanaess, que amplió la versión de 1980.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-box.html",
   "editions": [

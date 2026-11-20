@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to the North",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una guía de Volo, el viajero de los Reinos, sobre el Norte: sus ciudades, posadas y lugares de interés. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [

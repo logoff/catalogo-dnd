@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "SJA1 Wildspace",
   "kind": "adventure",
+  "settings": ["spelljammer"],
   "description": "La primera aventura de Spelljammer. La escribió Allen Varney.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-sja.html",
   "editions": [

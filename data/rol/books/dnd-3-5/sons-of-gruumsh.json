@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Sons of Gruumsh",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura corta para personajes de 4.º nivel en las tierras de Thar, junto al Mar de la Luna: seis nobles de Melvaunt han desaparecido mientras las tribus orcas se reúnen en la fortaleza en ruinas de Xûl-Jarak bajo el estandarte de un caudillo.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Sons_of_Gruumsh",
   "editions": [

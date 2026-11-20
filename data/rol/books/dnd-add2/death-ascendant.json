@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Death Ascendant",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft en Darkon: en la ciudad de Nartok, donde los ahorcamientos y el marcado de niños se han vuelto cosa corriente, los personajes descubren una guerra secreta entre dos grupos de espías. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

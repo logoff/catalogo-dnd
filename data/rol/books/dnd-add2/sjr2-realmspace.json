@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "SJR2 Realmspace",
   "kind": "setting",
+  "settings": ["spelljammer"],
   "description": "Un suplemento de Spelljammer sobre el espacio alrededor de Toril, el mundo de los Reinos Olvidados: su sol, sus planetas, el escondite de Elminster, objetos mágicos y monstruos. Lo escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Dungeon Master Survival Kit",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "Un complemento para el Dungeon Master de la Mystara de AD&D 2.ª edición. Lo escribió Steven Schend.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ms/ms-sur.html",
   "editions": [

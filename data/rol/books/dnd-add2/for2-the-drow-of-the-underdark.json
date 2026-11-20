@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR2 The Drow of the Underdark",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre los drow de los Reinos Olvidados: su sociedad, sus casas, su religión y su magia. Lo escribió Ed Greenwood.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

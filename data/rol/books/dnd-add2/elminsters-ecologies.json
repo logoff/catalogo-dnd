@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Elminster's Ecologies",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una caja sobre la flora y la fauna de varias regiones de los Reinos Olvidados, contada por Elminster y otros sabios. La escribieron Rick Swan, Monte Cook, Eric Haddock y Anthony Pryor.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-ee.html",
   "editions": [

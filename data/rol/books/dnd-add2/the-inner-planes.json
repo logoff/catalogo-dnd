@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Inner Planes",
   "kind": "setting",
+  "settings": ["planescape"],
   "description": "Un suplemento de Planescape sobre los Planos Interiores: los elementales, los paraelementales, los cuasielementales y los de energía positiva y negativa. Lo escribieron Monte Cook y William W. Connors.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-acc.html",
   "editions": [

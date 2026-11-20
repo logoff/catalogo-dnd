@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DSM1 Merchant House of Amketch",
   "kind": "adventure",
+  "settings": ["dark_sun"],
   "description": "Una aventura de Dark Sun sobre la casa comercial de Amketch. La escribió L. Richard Baker III.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-dsm.html",
   "editions": [

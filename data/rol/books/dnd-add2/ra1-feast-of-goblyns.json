@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RA1 Feast of Goblyns",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "La primera aventura de la serie RA, publicada tras la caja negra de Ravenloft. La escribió Blake Mobley.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/rv/rv-ra.html",
   "editions": [

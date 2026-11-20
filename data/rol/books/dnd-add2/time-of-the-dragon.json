@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Time of the Dragon",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "Una caja de Dragonlance sobre Taladas, el otro continente de Krynn, con culturas y geografía propias y casi al margen de la Guerra de la Lanza. La escribió David «Zeb» Cook.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-box.html",
   "editions": [

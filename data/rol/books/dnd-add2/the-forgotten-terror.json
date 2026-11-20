@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Forgotten Terror",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft contra Chardath Spulzeer, el señor loco del dominio de Aggarath. La escribió William W. Connors.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

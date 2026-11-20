@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR7 Giantcraft",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre los gigantes de los Reinos Olvidados. Lo escribió Ray Winninger.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

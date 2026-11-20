@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Return of Randal Morn",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura en la que los personajes rescatan a Randal Morn, secuestrado. La escribió Jim Butler.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-rm.html",
   "editions": [

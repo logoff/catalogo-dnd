@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Cutthroats of Lankhmar",
   "kind": "setting",
+  "settings": ["lankhmar"],
   "description": "Un suplemento de Lankhmar. Lo escribió Wes Nicholson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-other.html",
   "editions": [

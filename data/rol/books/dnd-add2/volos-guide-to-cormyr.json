@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to Cormyr",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una guía de Volo, el viajero de los Reinos, sobre Cormyr: sus ciudades, posadas y lugares de interés. La escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RQ2 Thoughts of Darkness",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de la serie RQ de Ravenloft. La escribió David Wise.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rq.html",
   "editions": [

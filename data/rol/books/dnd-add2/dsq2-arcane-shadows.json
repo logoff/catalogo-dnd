@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DSQ2 Arcane Shadows",
   "kind": "adventure",
+  "settings": ["dark_sun"],
   "description": "Una aventura de la serie DSQ de Dark Sun, con tablas de personajes no jugadores, mapas y un relato breve para situarla. La escribió Bill Slavicsek.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-dsq.html",
   "editions": [

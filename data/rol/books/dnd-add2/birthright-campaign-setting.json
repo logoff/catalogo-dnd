@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Birthright Campaign Setting",
   "kind": "setting",
+  "settings": ["birthright"],
   "description": "La caja básica de Birthright: Cerilia, un continente de reinos gobernados por los personajes, herederos de la sangre de dioses muertos, con reglas de dominio y de guerra.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-box.html",
   "editions": [

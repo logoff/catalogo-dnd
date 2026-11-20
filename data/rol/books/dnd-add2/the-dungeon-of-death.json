@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Dungeon of Death",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura de la serie Dungeon Crawl, de mazmorras al estilo clásico, ambientada en los Reinos Olvidados pero fácil de llevar a otras campañas. La escribió Jason Carl.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-dc.html",
   "editions": [

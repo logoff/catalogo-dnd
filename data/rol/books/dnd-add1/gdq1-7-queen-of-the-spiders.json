@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "GDQ1-7 Queen of the Spiders",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Las series de los gigantes, los drow y la Reina Araña reunidas en un gran volumen de campaña.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-gdq1-7.html",
   "editions": [

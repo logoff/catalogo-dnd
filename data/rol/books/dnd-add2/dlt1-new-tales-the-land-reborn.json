@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLT1 New Tales: The Land Reborn",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Cuatro aventuras de Dragonlance para acompañar a la colección de relatos New Tales. La escribió John Terra.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dlt.html",
   "editions": [

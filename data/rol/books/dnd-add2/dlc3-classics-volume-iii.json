@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLC3 Classics Volume III",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Las aventuras del arco final de la saga de Dragonlance revisadas para AD&D 2.ª edición y reunidas en un volumen. La escribieron Jeff Grubb, Tracy Hickman y Douglas Niles.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-dlc.html",
   "editions": [

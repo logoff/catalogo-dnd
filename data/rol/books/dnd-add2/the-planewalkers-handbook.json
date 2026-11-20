@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Planewalker's Handbook",
   "kind": "setting",
+  "settings": ["planescape"],
   "description": "Una guía práctica para los jugadores de Planescape, que reúne en forma de enciclopedia lo que hay que saber para moverse por el multiverso. La escribió Monte Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-acc.html",
   "editions": [

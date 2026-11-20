@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Cloak & Dagger",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre las organizaciones secretas de los Reinos Olvidados y sus intrigas. Lo escribieron Eric L. Boyd, Sean K. Reynolds y Steven E. Schend.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-acc.html",
   "editions": [

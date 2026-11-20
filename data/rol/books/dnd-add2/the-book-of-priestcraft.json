@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Book of Priestcraft",
   "kind": "setting",
+  "settings": ["birthright"],
   "description": "Un suplemento de Birthright sobre los sacerdotes y las religiones de Cerilia. Lo escribieron Rich Baker, Dale Donovan, Duane Maxwell y Ed Stark.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-acc.html",
   "editions": [

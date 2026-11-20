@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "LNA1 Thieves of Lankhmar",
   "kind": "adventure",
+  "settings": ["lankhmar"],
   "description": "Un suplemento sobre el poderoso gremio de ladrones de Lankhmar, el gobierno y las leyes de la ciudad, con ideas de aventura para ladrones. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-lna.html",
   "editions": [

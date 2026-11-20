@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR5 Elves of Evermeet",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre Siempreunidos, la isla de los elfos al oeste de Faerûn, y su cultura. Lo escribió Anthony Pryor.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

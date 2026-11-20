@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Death Unchained",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft en la que una horda de asesinos persigue a los personajes por Falkovnia desde que salen de las nieblas. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

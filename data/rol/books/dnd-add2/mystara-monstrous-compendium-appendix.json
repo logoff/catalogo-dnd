@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Mystara Monstrous Compendium Appendix",
   "kind": "supplement",
+  "settings": ["mystara"],
   "description": "El apéndice de monstruos de la Mystara de AD&D 2.ª edición. Lo escribieron John Nephew, John Terra, Skip Williams y Teeuwynn Woodruff.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-mc.html",
   "editions": [

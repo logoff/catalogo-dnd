@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Crypt of Lyzandred the Mad (The Lost Tombs, Volume 2)",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La segunda aventura de la trilogía de las Tumbas Perdidas de Greyhawk. La escribió Sean K. Reynolds.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-adv.html",
   "editions": [

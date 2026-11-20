@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FRM1 The Jungles of Chult",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre la península de Chult, en el sur de Faerûn, con sus dinosaurios y sus muertos vivientes, y un mapa a color. Lo escribieron James Lowder y Jean Rabe.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-frm.html",
   "editions": [

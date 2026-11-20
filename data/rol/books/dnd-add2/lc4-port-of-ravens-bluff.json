@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "LC4 Port of Ravens Bluff",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento de la Ciudad Viva sobre el puerto de Ravens Bluff.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-lc.html",
   "editions": [

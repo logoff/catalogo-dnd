@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Beyond the Prism Pentad",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Un suplemento de Dark Sun que pone al día Athas después de las novelas del Prism Pentad. Lo escribió Bill Slavicsek.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-acc.html",
   "editions": [

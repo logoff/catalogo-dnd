@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to the Sword Coast",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una guía de Volo sobre la Costa de la Espada, de Daggerford a Amn, con especial atención a sus tabernas. La escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [

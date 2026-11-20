@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR3 Pirates of the Fallen Stars",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre los piratas del Mar de las Estrellas Caídas: su forma de vida, la historia de la piratería en los Reinos, sus organizaciones y sus dioses. Lo escribió Curtis Scott.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

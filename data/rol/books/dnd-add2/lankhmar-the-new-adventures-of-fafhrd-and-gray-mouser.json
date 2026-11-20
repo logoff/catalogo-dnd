@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Lankhmar: The New Adventures of Fafhrd and Gray Mouser",
   "kind": "setting",
+  "settings": ["lankhmar"],
   "description": "Una caja para jugar en Lankhmar, la ciudad de Fafhrd y el Ratonero Gris de Fritz Leiber, con una versión simplificada de las reglas de AD&D 2.ª edición y aventuras para empezar. La escribió Shane Lacy Hensley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-box.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Villains' Lorebook",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El compañero de Heroes' Lorebook: veintinueve villanos de los Reinos Olvidados sacados de las novelas y otras fuentes, con ilustración, estadísticas e ideas para la campaña. Lo escribió Dale Donovan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-lore.html",
   "editions": [

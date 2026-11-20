@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to Waterdeep",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La primera guía de Volo, en formato de bolsillo, sobre Aguas Profundas: de la mejor posada al callejón más peligroso. La escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [

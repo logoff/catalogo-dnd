@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "OA2 Night of the Seven Swords",
   "kind": "adventure",
+  "settings": ["kara_tur"],
   "description": "Cuatro aventuras enlazadas para Oriental Adventures: la rivalidad entre dos clanes y un castillo encantado donde los personajes deben recuperar unas reliquias. La escribieron Jim Pickens, David Cook, Harold Johnson, Rick Swan, Steve Carmien y David Ritchie.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/oa/oa-oa.html",
   "editions": [

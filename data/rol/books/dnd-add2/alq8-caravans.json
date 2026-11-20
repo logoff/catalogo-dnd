@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "ALQ8 Caravans",
   "kind": "adventure",
+  "settings": ["al_qadim"],
   "description": "Un producto de Al-Qadim sobre las caravanas del desierto de Zakhara. Lo escribió Rick Swan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/aq/aq-alq.html",
   "editions": [

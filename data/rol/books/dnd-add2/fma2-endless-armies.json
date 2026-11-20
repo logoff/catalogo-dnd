@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FMA2 Endless Armies",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una aventura de Maztica. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fm.html",
   "editions": [

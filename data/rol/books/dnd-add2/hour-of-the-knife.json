@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Hour of the Knife",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Dark Sun. La escribieron Bruce Nesmith y Lisa Smedman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

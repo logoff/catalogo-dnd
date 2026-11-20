@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLR3 Unsung Heroes",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "Un suplemento de Dragonlance con personajes de Krynn. Lo editó Karen Boomgarden.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dlr.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FR12 Horde Campaign",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La guerra de la Horda tuigana contra los Reinos, batalla a batalla, con estadísticas de Battlesystem para cada una. Lo escribió Curtis M. Scott.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

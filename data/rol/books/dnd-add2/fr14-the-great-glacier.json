@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FR14 The Great Glacier",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un suplemento sobre el Gran Glaciar, un páramo helado, y las tres tribus ulutiun que viven en él. Lo escribió Rick Swan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

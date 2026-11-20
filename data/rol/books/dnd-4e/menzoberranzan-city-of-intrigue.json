@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Menzoberranzan: City of Intrigue",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La ciudad drow de Menzoberranzan como escenario de intriga: el culto de Lolth, las casas nobles y otras facciones, la ciudad y sus alrededores, y opciones para jugar con drows.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Menzoberranzan:_City_of_Intrigue",
   "editions": [

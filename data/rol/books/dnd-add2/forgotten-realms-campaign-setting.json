@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Forgotten Realms Campaign Setting",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La caja básica de Reinos Olvidados para AD&D 2.ª edición: un gran recorrido por Faerûn, reglas para jugar en los Reinos, la región del Valle de la Sombra, mapas y hojas de monstruos.\n\nEdición en castellano de Zinco y Martínez Roca.",
   "source": "https://www.tsrarchive.com/fr/fr-camp.html",
   "editions": [

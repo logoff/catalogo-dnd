@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLS4 Wild Elves",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Una aventura de la serie DLS de Dragonlance, con los elfos salvajes. La escribió Scott Bennie.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-dls.html",
   "editions": [

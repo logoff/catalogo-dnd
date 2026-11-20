@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGA1 Falcon's Revenge",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una aventura en la ciudad de Greyhawk contra un culto malvado, con edificios de cartulina para montar un muelle. La escribieron Richard W. y Anne Brown.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wga.html",
   "editions": [

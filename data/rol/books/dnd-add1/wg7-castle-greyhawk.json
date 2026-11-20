@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "WG7 Castle Greyhawk",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una aventura humorística en las ruinas del castillo de Greyhawk, con niveles escritos por varios autores.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wg.html",
   "editions": [

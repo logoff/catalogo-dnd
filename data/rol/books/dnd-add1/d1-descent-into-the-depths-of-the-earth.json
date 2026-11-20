@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "D1 Descent Into the Depths of the Earth",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La primera aventura de la serie de los drow: el descenso a las profundidades de la tierra tras la pista de los elfos oscuros.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-d.html",
   "editions": [

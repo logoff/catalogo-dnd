@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Howls in the Night",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Una aventura de Ravenloft. La escribió Colin McComb.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-adv.html",
   "editions": [

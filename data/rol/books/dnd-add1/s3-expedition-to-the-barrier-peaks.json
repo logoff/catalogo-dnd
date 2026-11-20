@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "S3 Expedition to the Barrier Peaks",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una aventura de Gary Gygax que mezcla fantasía y ciencia ficción: una nave espacial estrellada en las montañas, con robots y armas tecnológicas.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-s.html",
   "editions": [

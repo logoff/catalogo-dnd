@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Volo's Guide to Baldur's Gate II",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una guía de Volo sobre los lugares del videojuego Baldur's Gate II. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-volo.html",
   "editions": [

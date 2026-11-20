@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Carnival",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Un suplemento de Ravenloft sobre el Carnaval, una feria ambulante que viaja entre los Dominios del Pavor con sus artistas y sus secretos. Lo escribieron John W. Mangrum y Steve Miller.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-acc.html",
   "editions": [

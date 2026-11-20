@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Monster Vault: Threats to the Nentir Vale",
   "kind": "supplement",
+  "settings": ["nerath"],
   "description": "Monstruos y villanos del Valle de Nentir, el escenario por defecto de la 4.ª edición, con sus tácticas y su historia, fichas de cartón para el tablero y un mapa de batalla de doble cara.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Monster_Vault:_Threats_to_the_Nentir_Vale",
   "editions": [

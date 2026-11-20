@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "The World of Greyhawk Fantasy World Setting",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "La primera versión de Greyhawk: un folleto y dos grandes mapas de la Flanaess, el mundo de campaña de Gary Gygax.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-box.html",
   "editions": [

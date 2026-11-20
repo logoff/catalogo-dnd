@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Horde",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Una caja sobre la Horda tuigana y las Tierras de la Horda, entre Faerûn y Kara-Tur. La escribió David Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

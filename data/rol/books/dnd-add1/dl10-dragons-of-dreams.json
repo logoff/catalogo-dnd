@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL10 Dragons of Dreams",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "La décima aventura de la saga de Dragonlance, que abre el arco final: los personajes atraviesan Silvanesti, convertida en una pesadilla por el sueño de su rey. La escribió Tracy Hickman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

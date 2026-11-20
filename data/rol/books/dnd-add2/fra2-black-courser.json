@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FRA2 Black Courser",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La segunda aventura de la trilogía de los Imperios: los personajes buscan una ciudad perdida para conseguir el artefacto que libera al Dragón Púrpura y vencer a un raja malvado. La escribió Troy Denning.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fra.html",
   "editions": [

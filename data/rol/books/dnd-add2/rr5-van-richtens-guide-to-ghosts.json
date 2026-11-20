@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RR5 Van Richten's Guide to Ghosts",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Uno de los tratados de Rudolph van Richten, escrito como si fuera suyo, sobre los fantasmas: cómo reconocerlos y cómo enfrentarse a ellos. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rr.html",
   "editions": [

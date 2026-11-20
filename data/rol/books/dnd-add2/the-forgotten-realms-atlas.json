@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Forgotten Realms Atlas",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El atlas de los Reinos Olvidados de la cartógrafa Karen Wynn Fonstad: mapas regionales y detallados de las islas Moonshae, el Norte, Cormyr y otras zonas. Lo escribió Karen Wynn Fonstad.\n\nEdición en castellano de Timun Mas.",
   "source": "https://www.tsrarchive.com/fr/fr-acc.html",
   "editions": [
