@@ -1,0 +1,18 @@
+{
+  "slug": "rules-compendium-4e",
+  "system": "dnd-4e",
+  "title": "Rules Compendium",
+  "kind": "supplement",
+  "description": "Todas las reglas de juego de la 4.ª edición en un volumen de bolsillo, actualizadas con las erratas, para consultar en la mesa: combate, habilidades, condiciones, aventuras y recompensas.\n\nForma parte de la línea Essentials. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-09",
+      "format": "paperback",
+      "isbn13": 9780786956210,
+      "cover": "/images/rol/rules-compendium-4e/english.webp"
+    }
+  ]
+}

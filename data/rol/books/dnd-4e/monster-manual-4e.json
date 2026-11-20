@@ -1,0 +1,27 @@
+{
+  "slug": "monster-manual-4e",
+  "system": "dnd-4e",
+  "title": "Monster Manual",
+  "kind": "core",
+  "core": true,
+  "description": "El bestiario básico de la 4.ª edición, con cientos de criaturas en el nuevo formato de perfil: cada monstruo tiene un rol en combate (bruto, soldado, francotirador, hostigador, controlador o líder) y los hay secuaces, de élite y solitarios.\n\nEs el tercero de los tres básicos. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-06",
+      "format": "hardcover",
+      "isbn13": 9780786948529,
+      "cover": "/images/rol/monster-manual-4e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos",
+      "publisher": "Devir",
+      "date": "2008-10",
+      "isbn13": 9788496934412,
+      "source": "https://www.todostuslibros.com/libros/manual-de-monstruos-dungeons-dragons-4-0_978-84-96934-41-2"
+    }
+  ]
+}

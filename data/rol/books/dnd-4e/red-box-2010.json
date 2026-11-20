@@ -1,0 +1,18 @@
+{
+  "slug": "red-box-2010",
+  "system": "dnd-4e",
+  "title": "Dungeons & Dragons Fantasy Roleplaying Game Starter Set",
+  "kind": "starter",
+  "description": "La «caja roja» de la línea Essentials, homenaje a la caja básica de 1983: un libro para el jugador que crea el personaje mientras vive una aventura en solitario, un libro para el Dungeon Master con una aventura corta, fichas, mapa y dados.\n\nAbrió la línea Essentials. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-09",
+      "format": "boxed_set",
+      "isbn13": 9780786956296,
+      "cover": "/images/rol/red-box-2010/english.webp"
+    }
+  ]
+}
