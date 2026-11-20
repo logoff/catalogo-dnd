@@ -34,6 +34,15 @@ export function bookLicenses(book: Pick<RpgBook, 'license' | 'system'>, systems:
   return systems.find((s) => s.slug === book.system)?.licenses.map((l) => l.license) ?? []
 }
 
+// Fecha más antigua de las ediciones de un idioma (o de todas)
+function firstDate(book: RpgBook, language?: RpgEdition['language']): string | null {
+  const dates = book.editions
+    .filter((e) => e.date && (!language || e.language === language))
+    .map((e) => e.date!)
+    .sort()
+  return dates[0] ?? null
+}
+
 export function enrichBook(book: RpgBook, systems: RpgSystem[]): RpgBookWithMeta {
   const latest = [...book.editions].filter((e) => e.date).sort(byDateDesc)[0]?.date ?? null
   const titles = [
@@ -45,7 +54,8 @@ export function enrichBook(book: RpgBook, systems: RpgSystem[]): RpgBookWithMeta
   return {
     ...book,
     titleEs: titleEsOf(book),
-    year: latest ? Number(latest.slice(0, 4)) : null,
+    originalDate: firstDate(book, 'english') ?? firstDate(book),
+    spanishDate: firstDate(book, 'castellano'),
     latestDate: latest,
     spanish: book.editions.some((e) => e.language === 'castellano'),
     licenses: bookLicenses(book, systems),
@@ -82,7 +92,8 @@ export function summarize(book: RpgBookWithMeta): RpgBookSummary {
     title: book.title,
     titleEs: book.titleEs,
     kind: book.kind,
-    year: book.year,
+    originalDate: book.originalDate,
+    spanishDate: book.spanishDate,
     latestDate: book.latestDate,
     spanish: book.spanish,
     licenses: book.licenses,

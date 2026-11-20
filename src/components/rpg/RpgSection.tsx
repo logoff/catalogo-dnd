@@ -56,8 +56,31 @@ export function UnofficialNotice() {
   )
 }
 
-// Lista compacta de libros con enlace a su ficha; dentro de un grupo de una misma edición y
-// tipo, solo con el año
+const yearOf = (date: string | null) => (date ? date.slice(0, 4) : null)
+
+// Marca de castellano de un libro: su título en castellano (o «En castellano» si no cambia) y
+// el año de la primera edición en castellano, para no confundirlo con el del original
+export function SpanishEditionMark({
+  book,
+  className,
+}: {
+  book: RpgBookSummary
+  className?: string
+}) {
+  if (!book.spanish) return null
+  const year = yearOf(book.spanishDate)
+  return (
+    <SpanishMark className={className}>
+      <span lang="es">
+        {book.titleEs && book.titleEs !== book.title ? book.titleEs : 'En castellano'}
+      </span>
+      {year && <span className="font-mono tabular-nums">· {year}</span>}
+    </SpanishMark>
+  )
+}
+
+// Lista compacta de libros con enlace a su ficha: título y año del original y, debajo, el título
+// y el año en castellano. Dentro de un grupo de una misma edición y tipo, sin sistema ni tipo
 export function BookList({
   books,
   systems,
@@ -71,6 +94,7 @@ export function BookList({
     <ul className="divide-y divide-line border-y border-line">
       {books.map((book) => {
         const system = systems.find((s) => s.slug === book.system)
+        const year = yearOf(book.originalDate)
         return (
           <li
             key={book.slug}
@@ -83,19 +107,18 @@ export function BookList({
               >
                 {book.title}
               </Link>
-              {book.titleEs && book.titleEs !== book.title && (
-                <div>
-                  <SpanishMark>
-                    <span lang="es">{book.titleEs}</span>
-                  </SpanishMark>
-                </div>
+              {year && (
+                <span className="ml-1.5 font-mono text-sm text-muted tabular-nums">· {year}</span>
               )}
+              <div>
+                <SpanishEditionMark book={book} />
+              </div>
             </div>
-            <span className="text-sm text-muted">
-              {(yearOnly ? [book.year] : [system?.name, bookKindNames[book.kind], book.year])
-                .filter(Boolean)
-                .join(' · ')}
-            </span>
+            {!yearOnly && (
+              <span className="text-sm text-muted">
+                {[system?.name, bookKindNames[book.kind]].filter(Boolean).join(' · ')}
+              </span>
+            )}
           </li>
         )
       })}
@@ -103,15 +126,14 @@ export function BookList({
   )
 }
 
-// Libros de una edición anterior de D&D agrupados por tipo, cada grupo del más antiguo al más
-// reciente
+// Libros de una edición anterior de D&D agrupados por tipo, cada grupo por la fecha del original
 export function BooksByKind({ books, systems }: { books: RpgBookSummary[]; systems: RpgSystem[] }) {
   return (
     <div className="space-y-6">
       {bookKindGroups.map(([kind, title]) => {
         const group = books
           .filter((book) => book.kind === kind)
-          .sort((a, b) => (a.latestDate ?? '').localeCompare(b.latestDate ?? ''))
+          .sort((a, b) => (a.originalDate ?? '').localeCompare(b.originalDate ?? ''))
         if (group.length === 0) return null
         return (
           <section key={kind} aria-label={title}>

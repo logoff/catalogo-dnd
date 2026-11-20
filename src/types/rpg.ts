@@ -104,8 +104,10 @@ export interface RpgBook {
 export interface RpgBookWithMeta extends RpgBook {
   // Título de la edición en castellano más reciente, o title_es
   titleEs: string | null
-  // Año de la edición más reciente
-  year: number | null
+  // Fecha de la edición original (la primera en inglés o, si no la hay, la primera de todas)
+  originalDate: string | null
+  // Fecha de la primera edición en castellano
+  spanishDate: string | null
   // Fecha de la edición más reciente, para ordenar
   latestDate: string | null
   spanish: boolean
@@ -124,7 +126,8 @@ export interface RpgBookSummary extends Pick<
   | 'title'
   | 'titleEs'
   | 'kind'
-  | 'year'
+  | 'originalDate'
+  | 'spanishDate'
   | 'latestDate'
   | 'spanish'
   | 'licenses'

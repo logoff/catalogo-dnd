@@ -127,6 +127,10 @@ describe('página de otros juegos de rol', () => {
     expect(titles()).toEqual(["Player's Guide", 'Player Core', 'Libro Compatible', 'Core Rulebook'])
     // El título original va siempre delante y el de castellano, si lo hay, debajo
     expect(screen.getByText('Guía del jugador')).toHaveAttribute('lang', 'es')
+    // Cada título lleva su año: el del original (2024) y el de la edición en castellano (2026)
+    const card = screen.getByRole('link', { name: /Player's Guide/ })
+    expect(within(card).getByText(/2024/)).toBeInTheDocument()
+    expect(within(card).getByText('· 2026')).toBeInTheDocument()
     fireEvent.change(screen.getByLabelText('Orden'), { target: { value: 'title' } })
     expect(titles()).toEqual(['Core Rulebook', 'Libro Compatible', 'Player Core', "Player's Guide"])
   })
