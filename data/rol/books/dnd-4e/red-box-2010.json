@@ -3,7 +3,7 @@
   "system": "dnd-4e",
   "title": "Dungeons & Dragons Fantasy Roleplaying Game Starter Set",
   "kind": "starter",
-  "description": "La «caja roja» de la línea Essentials, homenaje a la caja básica de 1983: un libro para el jugador que crea el personaje mientras vive una aventura en solitario, un libro para el Dungeon Master con una aventura corta, fichas, mapa y dados.\n\nAbrió la línea Essentials. Solo salió en inglés.",
+  "description": "La «caja roja» de la línea Essentials, homenaje a la caja básica de 1983: un libro para el jugador que crea el personaje mientras vive una aventura en solitario, un libro para el Dungeon Master con una aventura corta, fichas, mapa y dados.\n\nAbrió la línea Essentials. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
   "editions": [
     {
@@ -13,6 +13,14 @@
       "format": "boxed_set",
       "isbn13": 9780786956296,
       "cover": "/images/rol/red-box-2010/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Caja Roja",
+      "publisher": "Devir",
+      "format": "boxed_set",
+      "cover": "/images/rol/red-box-2010/castellano.webp",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
     }
   ]
 }

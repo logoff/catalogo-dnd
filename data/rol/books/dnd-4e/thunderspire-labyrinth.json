@@ -3,7 +3,7 @@
   "system": "dnd-4e",
   "title": "H2 Thunderspire Labyrinth",
   "kind": "adventure",
-  "description": "Una aventura para personajes de nivel 4 a 6 en el laberinto bajo la montaña Thunderspire, con un enclave de comercio, el Salón de los Siete Pilares, y esclavistas que operan en sus profundidades.\n\nEs la segunda de la serie H. Solo salió en inglés.",
+  "description": "Una aventura para personajes de nivel 4 a 6 en el laberinto bajo la montaña Thunderspire, con un enclave de comercio, el Salón de los Siete Pilares, y esclavistas que operan en sus profundidades.\n\nEs la segunda de la serie H. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Thunderspire_Labyrinth",
   "editions": [
     {
@@ -12,6 +12,15 @@
       "date": "2008-07",
       "isbn13": 9780786948727,
       "cover": "/images/rol/thunderspire-labyrinth/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Laberinto de la Espira del Trueno",
+      "publisher": "Devir",
+      "date": "2009-01",
+      "isbn13": 9788496934481,
+      "cover": "/images/rol/thunderspire-labyrinth/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/el-laberinto-de-la-espina-del-trueno_978-84-96934-48-1"
     }
   ]
 }

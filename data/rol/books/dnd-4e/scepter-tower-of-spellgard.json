@@ -3,7 +3,7 @@
   "system": "dnd-4e",
   "title": "Scepter Tower of Spellgard",
   "kind": "adventure",
-  "description": "La primera aventura larga de Reinos Olvidados para la 4.ª edición: una presencia misteriosa se ha instalado en una de las torres de Spellgard y sus esbirros acosan el Valle Gris.\n\nSolo salió en inglés.",
+  "description": "La primera aventura larga de Reinos Olvidados para la 4.ª edición: una presencia misteriosa se ha instalado en una de las torres de Spellgard y sus esbirros acosan el Valle Gris.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Scepter_Tower_of_Spellgard",
   "editions": [
     {
@@ -12,6 +12,15 @@
       "date": "2008-09",
       "isbn13": 9780786949540,
       "cover": "/images/rol/scepter-tower-of-spellgard/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Torre del Cetro de la Guardia Sortílega",
+      "publisher": "Devir",
+      "date": "2009-10",
+      "isbn13": 9788496934726,
+      "cover": "/images/rol/scepter-tower-of-spellgard/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/dungeons-y-dragons-la-torre-del-cetro-de-guardia-sortilega_978-84-96934-72-6"
     }
   ]
 }

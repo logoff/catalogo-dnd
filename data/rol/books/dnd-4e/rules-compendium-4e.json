@@ -3,7 +3,7 @@
   "system": "dnd-4e",
   "title": "Rules Compendium",
   "kind": "supplement",
-  "description": "Todas las reglas de juego de la 4.ª edición en un volumen de bolsillo, actualizadas con las erratas, para consultar en la mesa: combate, habilidades, condiciones, aventuras y recompensas.\n\nForma parte de la línea Essentials. Solo salió en inglés.",
+  "description": "Todas las reglas de juego de la 4.ª edición en un volumen de bolsillo, actualizadas con las erratas, para consultar en la mesa: combate, habilidades, condiciones, aventuras y recompensas.\n\nForma parte de la línea Essentials. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
   "editions": [
     {
@@ -13,6 +13,14 @@
       "format": "paperback",
       "isbn13": 9780786956210,
       "cover": "/images/rol/rules-compendium-4e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Reglas",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/rules-compendium-4e/castellano.webp",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
     }
   ]
 }
