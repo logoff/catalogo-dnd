@@ -178,7 +178,7 @@ describe('esquema de libros', () => {
 })
 
 describe('enrichBook', () => {
-  it('toma el año y el título en castellano de la edición más reciente', () => {
+  it('separa la fecha del original de la de castellano y toma el título en castellano más reciente', () => {
     const enriched = enrichBook(
       {
         ...book,
@@ -189,7 +189,9 @@ describe('enrichBook', () => {
       },
       [system]
     )
-    expect(enriched.year).toBe(2022)
+    expect(enriched.originalDate).toBe(book.editions[0].date)
+    expect(enriched.spanishDate).toBe('2022')
+    expect(enriched.latestDate).toBe('2022')
     expect(enriched.titleEs).toBe('Libro')
     expect(enriched.spanish).toBe(true)
     expect(enriched.publishers).toEqual(['Editorial', 'Otra'])

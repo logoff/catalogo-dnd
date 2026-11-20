@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import type { RpgBookSummary, RpgSystem } from '@/types/rpg'
 import LazyImage from '@/components/common/LazyImage'
-import { SpanishMark } from '@/components/ui/Badge'
+import { SpanishEditionMark } from '@/components/rpg/RpgSection'
 import { CardBody, CardCover } from '@/components/ui/Card'
 import { cardClass, headingClass } from '@/components/ui/styles'
 import { PLACEHOLDER_IMAGE } from '@/utils/constants'
@@ -27,17 +27,9 @@ export default function RpgBookCard({
       <CardBody>
         <h3 className={headingClass('item')}>{book.title}</h3>
         <p className="text-sm text-muted">
-          {[system?.name, book.year].filter(Boolean).join(' · ')}
+          {[system?.name, book.originalDate?.slice(0, 4)].filter(Boolean).join(' · ')}
         </p>
-        {book.spanish && (
-          <SpanishMark className="mt-auto pt-1">
-            {book.titleEs && book.titleEs !== book.title ? (
-              <span lang="es">{book.titleEs}</span>
-            ) : (
-              'En castellano'
-            )}
-          </SpanishMark>
-        )}
+        <SpanishEditionMark book={book} className="mt-auto pt-1" />
       </CardBody>
     </Link>
   )
