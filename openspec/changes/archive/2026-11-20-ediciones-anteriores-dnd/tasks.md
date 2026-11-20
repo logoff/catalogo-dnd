@@ -46,7 +46,7 @@
       que no sea de la sección) y su precarga en `preloadRpgRoute`.
       Verificar con tests de componentes que cubran los escenarios de
       `dnd-editions`
-- [ ] 3.3 Añadir «Ediciones anteriores» al grupo «Libros» de `Header.tsx` y
+- [x] 3.3 Añadir «Ediciones anteriores» al grupo «Libros» de `Header.tsx` y
       ampliar su test. Verificar en escritorio y móvil con `just dev`
 - [x] 3.4 Excluir las ediciones y sus libros de `/rol` (sistemas, listado,
       filtros), de `virtual:rpg-stats` y de los libros de la ficha de
@@ -73,7 +73,7 @@
 - [x] 4.1 Crear `data/rol/licenses/srd-3-0.json` (bajo `ogl-1-0a`, con la
       OGL 1.0 inicial en la descripción si se confirma) con enlace oficial o
       copia archivada. Verificar con `just test`
-- [ ] 4.2 Crear `data/rol/systems/dnd-3e.json` (`official`, fecha con
+- [x] 4.2 Crear `data/rol/systems/dnd-3e.json` (`official`, fecha con
       fuente, `srd-3-0`, descripción en dos párrafos y tres o cuatro
       características) y revisar `dnd-3-5.json` (`derived_from` `dnd-3e`
       como `revision` con nota, descripción). Pedir al usuario que revise
@@ -83,7 +83,7 @@
 - [x] 4.3 Dar de alta los tres básicos de 3.0 y los tres de 3.5 con sus
       ediciones en inglés y de Devir y sus portadas, sin enlaces de compra.
       Marcar el inventario. Verificar con `just check`
-- [ ] 4.4 Hacer `just build`, revisar en `just dev` las tres páginas nuevas y
+- [x] 4.4 Hacer `just build`, revisar en `just dev` las tres páginas nuevas y
       `/rol`, y abrir la primera PR (grupos 1 a 4)
 
 ## 5. Catálogo de 3.5 por tandas

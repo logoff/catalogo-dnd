@@ -14,7 +14,8 @@ La sección SHALL incluir todo libro publicado en castellano de un sistema de
 la sección y, de lo que solo está en inglés, los libros principales (básicos
 y caja de inicio) de los sistemas grandes y el catálogo impreso principal de
 las editoriales de 5E destacadas, empezando por Kobold Press. El contenido solo
-digital de plataformas comunitarias queda fuera.
+digital de plataformas comunitarias queda fuera. Los libros oficiales de
+Wizards of the Coast no SHALL estar en la sección.
 
 #### Scenario: Suplemento en castellano
 
@@ -37,6 +38,17 @@ digital de plataformas comunitarias queda fuera.
 - **WHEN** un libro impreso de Kobold Press para 5E solo está en inglés
 - **THEN** entra en la sección, aunque no sea un libro básico
 
+#### Scenario: Libro oficial de una edición anterior de D&D
+
+- **WHEN** un libro es de Wizards of the Coast para D&D 3.5
+- **THEN** no aparece en la sección, sino en la de ediciones anteriores
+
+#### Scenario: Libro de Wizards para 5E
+
+- **WHEN** un libro de Wizards of the Coast cuelga de un sistema de 5E de la
+  sección
+- **THEN** los tests del proyecto fallan
+
 ### Requirement: Datos del libro
 
 Cada libro SHALL guardar su sistema, su título original, su tipo de una lista
@@ -51,8 +63,9 @@ de una tienda. SHALL poder guardar el título en castellano.
 
 #### Scenario: Libro solo en inglés no principal
 
-- **WHEN** un libro no tiene edición en castellano, no está marcado como
-  principal y no es de una editorial destacada
+- **WHEN** un libro de un sistema de la sección no tiene edición en
+  castellano, no está marcado como principal y no es de una editorial
+  destacada
 - **THEN** los tests del proyecto fallan
 
 ### Requirement: Ediciones por idioma
