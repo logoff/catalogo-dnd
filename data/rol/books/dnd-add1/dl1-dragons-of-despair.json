@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL1 Dragons of Despair",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "La primera aventura de la saga de Dragonlance de Tracy Hickman: los Compañeros de la Posada del Último Hogar en el templo de Xak Tsaroth, la historia que después contaron las novelas de Margaret Weis y Tracy Hickman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

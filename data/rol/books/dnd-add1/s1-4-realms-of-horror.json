@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "S1-4 Realms of Horror",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Las cuatro aventuras de la serie S, entre ellas la Tumba de los Horrores y la Montaña del Penacho Blanco, revisadas y reunidas en una campaña. La escribieron Gary Gygax y Lawrence Schick.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-s.html",
   "editions": [

@@ -1,3 +1,4 @@
+import type { World } from '../utils/worlds.ts'
 import type { PurchaseLink } from './index'
 
 // license: texto legal que permite publicar; reference_document: reglas publicadas bajo una
@@ -91,6 +92,8 @@ export interface RpgBook {
   title: string
   title_es?: string
   kind: RpgBookKind
+  // Mundos en los que transcurre o que describe
+  settings?: World[]
   // Básico o caja de inicio de un sistema grande
   core?: boolean
   // Solo si no usa las licencias de su sistema: otra licencia, o «none» si solo se declara

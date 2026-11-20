@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "Wrath of the Immortals",
   "kind": "supplement",
+  "settings": ["mystara"],
   "description": "Una gran campaña en caja de Mystara para personajes de todos los niveles, con la guerra de los inmortales y las reglas de inmortales actualizadas tras la Rules Cyclopedia.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
   "editions": [

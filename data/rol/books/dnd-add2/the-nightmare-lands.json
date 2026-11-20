@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Nightmare Lands",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Expansión de ambientación de Ravenloft que TSR publicó en 1995, en una caja. La escribió Shane Lacy Hensley y Bill Slavicsek.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-box.html",
   "editions": [

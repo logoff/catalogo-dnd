@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DSQ1 Road to Urik",
   "kind": "adventure",
+  "settings": ["dark_sun"],
   "description": "Aventura de Dark Sun que TSR publicó en 1992, en una caja. La escribió David \"Zeb\" Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-dsq.html",
   "editions": [

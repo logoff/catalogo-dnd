@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Dragonmarked",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "Las marcas de dragón y las trece casas marcadas que controlan buena parte del comercio y los servicios de Khorvaire: su historia, su organización y sus intrigas, con dotes, clases de prestigio y opciones para personajes marcados.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Dragonmarked",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Horde",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1990, en una caja. Lo escribió David Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

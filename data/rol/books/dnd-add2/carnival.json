@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Carnival",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Suplemento de Ravenloft que TSR publicó en 1999, en un libro en rústica de 64 páginas. Lo escribió John W. Mangrum y Steve Miller.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-acc.html",
   "editions": [

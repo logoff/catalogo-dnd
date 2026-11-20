@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Skullport",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1999, en un libro en rústica de 96 páginas. Lo escribió Joseph C. Wolf.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-acc.html",
   "editions": [

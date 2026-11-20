@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "WG5 Mordenkainen's Fantastic Adventure",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una aventura de Greyhawk basada en las partidas de Robert Kuntz y Gary Gygax con Mordenkainen y sus compañeros, en el castillo Maure. La escribieron Robert J. Kuntz y Gary Gygax.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wg.html",
   "editions": [

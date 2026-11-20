@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGA4 Vecna Lives!",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Aventura de Greyhawk que TSR publicó en 1990, en un libro de 96 páginas. La escribió David \"Zeb\" Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wga.html",
   "editions": [

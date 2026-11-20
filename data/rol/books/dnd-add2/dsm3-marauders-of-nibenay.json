@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DSM3 Marauders of Nibenay",
   "kind": "adventure",
+  "settings": ["dark_sun"],
   "description": "Aventura de Dark Sun que TSR publicó en 1993, en una caja. La escribió William W. Connors.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-dsm.html",
   "editions": [

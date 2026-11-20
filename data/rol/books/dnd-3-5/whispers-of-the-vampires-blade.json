@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Whispers of the Vampire's Blade",
   "kind": "adventure",
+  "settings": ["eberron"],
   "description": "Una aventura para personajes de 4.º nivel que continúa Shadows of the Last War, aunque se puede jugar sola, y lleva a los personajes a recorrer Khorvaire.\n\nEs la segunda de la serie de tres. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Whispers_of_the_Vampire%27s_Blade",
   "editions": [

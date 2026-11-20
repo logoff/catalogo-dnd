@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "SJR6 Greyspace",
   "kind": "setting",
+  "settings": ["spelljammer"],
   "description": "Suplemento de Spelljammer que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
   "editions": [

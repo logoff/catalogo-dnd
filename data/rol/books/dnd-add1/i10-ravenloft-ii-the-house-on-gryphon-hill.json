@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "I10 Ravenloft II: The House on Gryphon Hill",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "La secuela de Ravenloft: como la primera, cambia en cada partida, con once cartas que deciden quién es el vampiro y dónde están los objetos que hay que recuperar. La escribieron Tracy y Laura Hickman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-i.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "A1 Slave Pits of the Undercity",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La primera aventura de la serie de los esclavistas, nacida de un torneo: los personajes persiguen a los señores de los esclavos por los pozos de una ciudad.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-a.html",
   "editions": [

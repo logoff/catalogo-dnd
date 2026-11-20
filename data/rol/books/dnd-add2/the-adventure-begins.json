@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Adventure Begins",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "Suplemento de Greyhawk que TSR publicó en 1998, en un libro en rústica de 128 páginas. Lo escribió Roger E. Moore.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-acc.html",
   "editions": [

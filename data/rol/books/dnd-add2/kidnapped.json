@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Kidnapped",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Aventura de Reinos Olvidados que TSR publicó en 1998, en un libro de 32 páginas. La escribió Tom Prusa.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-adv.html",
   "editions": [

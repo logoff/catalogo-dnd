@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "City of Delights",
   "kind": "setting",
+  "settings": ["al_qadim"],
   "description": "Suplemento de Al-Qadim que TSR publicó en 1993, en una caja. Lo escribió Tim Beach, Tom Prusa y Steve Kurtz.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/aq/aq-box.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "DDA4 The Dymrak Dread",
   "kind": "adventure",
+  "settings": ["mystara"],
   "description": "Una aventura corta ambientada en el bosque de Dymrak, en Karameikos. La escribió John Nephew.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dd/dd2-dda.html",
   "editions": [

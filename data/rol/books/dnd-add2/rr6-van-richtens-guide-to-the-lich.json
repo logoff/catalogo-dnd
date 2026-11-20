@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RR6 Van Richten's Guide to the Lich",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Suplemento de Ravenloft que TSR publicó en 1993. Lo escribió Eric W. Haddock.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rr.html",
   "editions": [

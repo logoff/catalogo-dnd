@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "FR1 Waterdeep and the North",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El primer suplemento de la serie FR, con Aguas Profundas y el Norte de los Reinos Olvidados.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

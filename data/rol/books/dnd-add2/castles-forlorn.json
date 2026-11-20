@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Castles Forlorn",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Aventura de Ravenloft que TSR publicó en 1993, en una caja. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-box.html",
   "editions": [

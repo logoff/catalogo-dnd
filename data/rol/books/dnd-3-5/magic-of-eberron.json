@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Magic of Eberron",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "La magia de Eberron en todas sus formas: magia arcana y divina, artífices, marcas de dragón, conjuros, objetos, dotes y clases de prestigio, y cómo la magia forma parte de la vida diaria en Khorvaire.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Magic_of_Eberron",
   "editions": [

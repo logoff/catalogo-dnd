@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Astromundi Cluster",
   "kind": "setting",
+  "settings": ["spelljammer"],
   "description": "Suplemento de Spelljammer que TSR publicó en 1993, en una caja. Lo escribió Sam Witt.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/sj/sj-box.html",
   "editions": [

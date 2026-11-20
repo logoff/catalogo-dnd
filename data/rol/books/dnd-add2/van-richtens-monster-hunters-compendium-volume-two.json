@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Van Richten's Monster Hunter's Compendium Volume Two",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Suplemento de Ravenloft que TSR publicó en 1999. Lo escribió William W. Connors, Eric W. Haddock, David Wise, Skip Williams.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-mhc.html",
   "editions": [

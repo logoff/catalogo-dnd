@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Expedition to the Demonweb Pits",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una campaña de nivel alto en el Abismo: el señor demoníaco Graz'zt intriga contra Lolth y los personajes acaban en las Fosas de la Red Demoníaca, el reino de la diosa de los drow.\n\nForma parte de la línea Expedition y retoma la aventura clásica Queen of the Demonweb Pits de 1980. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Expedition_to_the_Demonweb_Pits",
   "editions": [

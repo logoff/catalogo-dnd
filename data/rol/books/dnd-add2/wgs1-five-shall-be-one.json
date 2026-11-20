@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGS1 Five Shall Be One",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Aventura de Greyhawk que TSR publicó en 1991, en un cuadernillo de 64 páginas con cubierta. La escribió Carl Sargent.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wgs.html",
   "editions": [

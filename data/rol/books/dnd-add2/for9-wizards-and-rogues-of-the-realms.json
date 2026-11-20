@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR9 Wizards and Rogues of the Realms",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1995, en un libro en rústica de 128 páginas. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

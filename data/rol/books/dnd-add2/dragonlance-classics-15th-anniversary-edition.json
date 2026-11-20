@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Dragonlance Classics 15th Anniversary Edition",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1999, en un libro en rústica de 256 páginas. La escribió Steve Miller y Stan!.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-25.html",
   "editions": [

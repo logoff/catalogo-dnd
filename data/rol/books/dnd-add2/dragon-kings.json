@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Dragon Kings",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Suplemento de Dark Sun que TSR publicó en 1992, en un libro de tapa dura de 160 páginas. Lo escribió Timothy B. Brown.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/ds/ds-box.html",
   "editions": [

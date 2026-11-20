@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Children of the Night: The Created",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Suplemento de Ravenloft que TSR publicó en 1999, en un libro en rústica de 96 páginas. Lo escribió The Kargat.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-cotn.html",
   "editions": [

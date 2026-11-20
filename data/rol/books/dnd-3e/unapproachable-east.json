@@ -3,6 +3,7 @@
   "system": "dnd-3e",
   "title": "Unapproachable East",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Las tierras del este de Faerûn, como Aglarond, Rashemen, Thay o Narfell: su historia, sus lugares y sus personajes, con razas, clases de prestigio, dotes, conjuros y monstruos de la región.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Unapproachable_East",
   "editions": [

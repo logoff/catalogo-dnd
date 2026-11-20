@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "For Duty & Deity",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Aventura de Reinos Olvidados que TSR publicó en 1998, en un libro de 64 páginas. La escribió Dale Donovan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-adv.html",
   "editions": [

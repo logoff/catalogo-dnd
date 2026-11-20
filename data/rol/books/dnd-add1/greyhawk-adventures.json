@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "Greyhawk Adventures",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "Un libro de tapa dura de reglas y ambientación para Greyhawk: dioses, personajes, conjuros, objetos y monstruos del mundo de Gygax.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-box.html",
   "editions": [

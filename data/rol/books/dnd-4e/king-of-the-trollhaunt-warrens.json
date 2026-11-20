@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "P1 King of the Trollhaunt Warrens",
   "kind": "adventure",
+  "settings": ["nerath"],
   "description": "La primera aventura de la etapa de leyenda, para personajes de nivel 11 a 13, contra un rey trol y sus huestes en unas ciénagas.\n\nForma parte de la serie H-P-E. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/King_of_the_Trollhaunt_Warrens",
   "editions": [

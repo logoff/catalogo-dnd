@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGR3 Rary the Traitor",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "Suplemento de Greyhawk que TSR publicó en 1992, en un libro de 64 páginas. Lo escribió Anthony Pryor.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wgr.html",
   "editions": [

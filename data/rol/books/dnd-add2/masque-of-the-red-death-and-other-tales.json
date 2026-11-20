@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Masque of the Red Death and Other Tales",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "La variante de Ravenloft ambientada en la Tierra gótica de finales del siglo XIX: horror victoriano con armas de fuego, sociedades secretas y los clásicos de la literatura de terror.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-box.html",
   "editions": [

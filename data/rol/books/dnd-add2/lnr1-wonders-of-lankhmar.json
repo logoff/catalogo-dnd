@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "LNR1 Wonders of Lankhmar",
   "kind": "setting",
+  "settings": ["lankhmar"],
   "description": "Suplemento de Lankhmar que TSR publicó en 1990, en un libro de 96 páginas. Lo escribió Dale \"Slade\" Henson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-lnr.html",
   "editions": [

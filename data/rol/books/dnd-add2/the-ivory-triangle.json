@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Ivory Triangle",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Suplemento de Dark Sun que TSR publicó en 1993, en una caja. Lo escribió Kirk Botula y Curtis Scott.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-box.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "G1 Steading of the Hill Giant Chief",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La primera aventura de la serie de los gigantes de Gary Gygax: el asalto a la fortaleza del jefe de los gigantes de las colinas.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-g.html",
   "editions": [

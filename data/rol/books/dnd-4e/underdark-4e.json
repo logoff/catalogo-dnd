@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Underdark",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El mundo subterráneo bajo Faerûn en la 4.ª edición: sus regiones, sus ciudades y sus pueblos, con monstruos, ganchos de aventura y reglas para explorarlo.\n\nComparte título con el libro de 2003. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/List_of_Forgotten_Realms_modules_and_sourcebooks",
   "editions": [

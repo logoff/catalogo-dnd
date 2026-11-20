@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Forgotten Realms Adventures",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El libro que adaptó los Reinos Olvidados a AD&D 2.ª edición: la magia y los dioses tras la Era de los Trastornos, y reglas para jugar en Faerûn.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/fr/fr-camp.html",
   "editions": [

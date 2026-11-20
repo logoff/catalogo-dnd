@@ -7,6 +7,34 @@
         "code": {
             "type": "string"
         },
+        "settings": {
+            "description": "Mundos de D&D en los que transcurre o que describe (mismos identificadores que novelas y videojuegos)",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+                "enum": [
+                    "forgotten_realms",
+                    "dragonlance",
+                    "greyhawk",
+                    "ravenloft",
+                    "eberron",
+                    "spelljammer",
+                    "planescape",
+                    "dark_sun",
+                    "mystara",
+                    "birthright",
+                    "al_qadim",
+                    "kara_tur",
+                    "lankhmar",
+                    "nerath",
+                    "exandria",
+                    "ravnica",
+                    "theros",
+                    "strixhaven"
+                ]
+            }
+        },
         "description": {
             "type": "string"
         },
@@ -42,16 +70,33 @@
                 },
                 "type": {
                     "type": "string",
-                    "enum": ["book", "boxed_set", "accessory"]
+                    "enum": [
+                        "book",
+                        "boxed_set",
+                        "accessory"
+                    ]
                 },
                 "subtype": {
                     "type": "string",
                     "enum": [
-                        "core_rules", "supplemental_rules", "setting", "adventure",
-                        "starter_set", "rules", "adventure_setting", "others",
-                        "rules_expansion", "player_expansion", "dungeon_master_expansion",
-                        "adventure_anthology", "gameplay_expansion", "adventure_expansion",
-                        "setting_expansion", "character_sheet", "screen", "map_pack",
+                        "core_rules",
+                        "supplemental_rules",
+                        "setting",
+                        "adventure",
+                        "starter_set",
+                        "rules",
+                        "adventure_setting",
+                        "others",
+                        "rules_expansion",
+                        "player_expansion",
+                        "dungeon_master_expansion",
+                        "adventure_anthology",
+                        "gameplay_expansion",
+                        "adventure_expansion",
+                        "setting_expansion",
+                        "character_sheet",
+                        "screen",
+                        "map_pack",
                         "card_deck"
                     ]
                 },
@@ -130,7 +175,12 @@
             "properties": {
                 "store": {
                     "type": "string",
-                    "enum": ["amazon", "generacion_x", "juegos_mesa_redonda", "casa_del_libro"]
+                    "enum": [
+                        "amazon",
+                        "generacion_x",
+                        "juegos_mesa_redonda",
+                        "casa_del_libro"
+                    ]
                 },
                 "url": {
                     "type": "string",

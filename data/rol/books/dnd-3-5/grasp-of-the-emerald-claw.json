@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Grasp of the Emerald Claw",
   "kind": "adventure",
+  "settings": ["eberron"],
   "description": "Una aventura para personajes de 6.º nivel que continúa Whispers of the Vampire's Blade, aunque se puede jugar sola, contra la Garra Esmeralda, la orden fanática al servicio de la Sangre de Vol.\n\nCierra la serie de tres aventuras. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Grasp_of_the_Emerald_Claw",
   "editions": [

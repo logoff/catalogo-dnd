@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "S2 White Plume Mountain",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Una aventura de Lawrence Schick en una montaña volcánica llena de trampas e ingenios para recuperar tres armas legendarias.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-s.html",
   "editions": [

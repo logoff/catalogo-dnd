@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Eberron Campaign Setting",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "El libro básico de Eberron, la ambientación creada por Keith Baker que ganó el concurso de mundos de Wizards de 2002: el continente de Khorvaire tras la Última Guerra, con magia cotidiana, trenes de rayos y aeronaves, las casas marcadas por el dragón y un tono de aventura pulp y de intriga. Trae razas nuevas (cambiantes, forjados, kalashtar y cambiaformas), la clase de artífice, dotes, clases de prestigio y una aventura de introducción.\n\nEs imprescindible para usar el resto de libros de la línea. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Eberron_Campaign_Setting",
   "editions": [

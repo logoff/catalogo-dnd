@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Havens of the Great Bay",
   "kind": "setting",
+  "settings": ["birthright"],
   "description": "Suplemento de Birthright que TSR publicó en 1996, en una caja. Lo escribió Ed Stark.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-box.html",
   "editions": [

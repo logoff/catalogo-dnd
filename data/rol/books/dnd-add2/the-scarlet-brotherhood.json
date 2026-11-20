@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Scarlet Brotherhood",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "Suplemento de Greyhawk que TSR publicó en 1999, en un libro en rústica de 96 páginas. Lo escribió Sean Reynolds.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-acc.html",
   "editions": [

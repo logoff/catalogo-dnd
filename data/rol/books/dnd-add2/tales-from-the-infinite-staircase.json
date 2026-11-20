@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Tales From the Infinite Staircase",
   "kind": "adventure",
+  "settings": ["planescape"],
   "description": "Aventura de Planescape que TSR publicó en 1998, en un libro en rústica de 128 páginas. La escribió Monte Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-adv.html",
   "editions": [

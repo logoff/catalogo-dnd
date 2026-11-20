@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Warlock of the Stonecrowns",
   "kind": "adventure",
+  "settings": ["birthright"],
   "description": "Aventura de Birthright que TSR publicó en 1995, en un cuadernillo de 64 páginas con cubierta. La escribió Wolfgang Baur.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-adv.html",
   "editions": [

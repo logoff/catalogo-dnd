@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR6 The Seven Sisters",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1995, en un libro en rústica de 128 páginas. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

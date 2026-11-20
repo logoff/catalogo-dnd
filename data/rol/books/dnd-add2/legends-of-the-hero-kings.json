@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Legends of the Hero-Kings",
   "kind": "adventure",
+  "settings": ["birthright"],
   "description": "Aventura de Birthright que TSR publicó en 1996, en un libro en rústica de 160 páginas. La escribió Ed Stark.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-adv.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Forgotten Realms Player's Guide",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Los Reinos Olvidados de la 4.ª edición vistos por los jugadores: razas como los genasi y los drows, la clase de espadachín arcano, regiones de origen, dotes, poderes, sendas de leyenda y destinos épicos.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Forgotten_Realms_Player%27s_Guide",
   "editions": [

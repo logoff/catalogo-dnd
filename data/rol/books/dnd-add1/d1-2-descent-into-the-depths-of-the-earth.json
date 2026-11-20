@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "D1-2 Descent Into the Depths of the Earth",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Las dos primeras aventuras de la serie de los drow reunidas en un volumen: los personajes siguen a la sacerdotisa drow Eclavdra por la Infraoscuridad, después de la serie de los gigantes, hasta el santuario de los kuo-toa. La escribió Gary Gygax.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-d.html",
   "editions": [

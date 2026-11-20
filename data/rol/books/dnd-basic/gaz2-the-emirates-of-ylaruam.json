@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "GAZ2 The Emirates of Ylaruam",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El Gazetteer de Ylaruam, la nación del desierto del Mundo Conocido: su historia conocida y la verdadera, que solo saben los inmortales, su geografía, sus pueblos y una sociedad con sus leyes, su religión y su burocracia. Lo escribió Ken Rolston.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
   "editions": [

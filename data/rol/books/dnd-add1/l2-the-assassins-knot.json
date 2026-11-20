@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "L2 The Assassin's Knot",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La secuela de The Secret of Bone Hill: los personajes investigan el asesinato del barón de Restenford, con pistas que llevan al pueblo de Garrotten y su castillo. La escribió Lenard Lakofka.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-l.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-3e",
   "title": "Monster Compendium: Monsters of Faerûn",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Un bestiario de criaturas propias de los Reinos Olvidados. Fue el primer libro de 3.ª edición en dar a cada monstruo un apartado sobre dónde y cómo usarlo en los Reinos.\n\nDevir lo publicó en castellano.",
   "source": "https://web.archive.org/web/20040203160621/http://www.wizards.com:80/default.asp?x=products/dndacc/880990000",
   "editions": [

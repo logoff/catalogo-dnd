@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL8 Dragons of War",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "La octava aventura de la saga de Dragonlance, dentro del arco de los Relatos de la Noche de Invierno. La escribieron Tracy y Laura Hickman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "HWR3 The Milenian Empire",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El suplemento del Mundo Hueco sobre el Imperio Mileniano, una civilización inspirada en la antigua Grecia. Lo escribió Anthony Herring.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/hw/hw-acc.html",
   "editions": [

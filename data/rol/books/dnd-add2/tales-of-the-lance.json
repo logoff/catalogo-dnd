@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Tales of the Lance",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "Suplemento de Dragonlance que TSR publicó en 1992, en una caja. Lo escribió J. Robert King (editor).\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-box.html",
   "editions": [

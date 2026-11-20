@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "LC4 Port of Ravens Bluff",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1991, en un cuadernillo de 64 páginas con cubierta.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-lc.html",
   "editions": [

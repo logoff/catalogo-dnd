@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Defilers and Preservers: The Wizards of Athas",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Suplemento de Dark Sun que TSR publicó en 1996, en un libro de 96 páginas. Lo escribió Nicky Rea.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-rev.html",
   "editions": [

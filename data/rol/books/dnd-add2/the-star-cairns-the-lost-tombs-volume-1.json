@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Star Cairns (The Lost Tombs, Volume 1)",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Aventura de Greyhawk que TSR publicó en 1998, en un cuadernillo de 48 páginas con cubierta. La escribió Sean Reynolds.\n\nEdición en castellano de Martínez Roca.",
   "source": "https://www.tsrarchive.com/gh/gh-adv.html",
   "editions": [

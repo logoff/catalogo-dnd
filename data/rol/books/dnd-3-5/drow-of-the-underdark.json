@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Drow of the Underdark",
   "kind": "supplement",
+  "settings": ["forgotten_realms"],
   "description": "Los elfos oscuros: su sociedad, sus casas, su religión y sus nombres, con opciones de personaje (dotes, rasgos alternativos de clase, conjuros e invocaciones), clases de prestigio con un PNJ de ejemplo cada una, equipo, monstruos y la Infraoscuridad como lugar de aventuras.\n\nComparte título con un suplemento de AD&D de 1991 para Reinos Olvidados, pero este es genérico. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Drow_of_the_Underdark",
   "editions": [

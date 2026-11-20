@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "G2 Glacial Rift of the Frost Giant Jarl",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La segunda aventura de la serie de los gigantes: la grieta glacial del jarl de los gigantes de la escarcha.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-g.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Ruins of Undermountain II: The Deep Levels",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La segunda caja de Bajomontaña, que describe sus niveles profundos.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

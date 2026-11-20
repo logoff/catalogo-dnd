@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Races of Eberron",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "Las razas de Eberron, con más detalle sobre las propias de la ambientación (cambiantes, forjados, kalashtar y cambiaformas) y cómo encajan en ella las razas clásicas, con dotes, clases de prestigio y opciones de personaje.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Races_of_Eberron",
   "editions": [

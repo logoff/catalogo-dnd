@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Expedition to Undermountain",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Una campaña en Bajomontaña, la enorme mazmorra bajo Aguas Profundas, para personajes de nivel 1 a 10, con muchos niveles y zonas que se pueden explorar en el orden que se quiera.\n\nForma parte de la línea Expedition, que recuperaba lugares clásicos de D&D, y se puede usar fuera de los Reinos Olvidados. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Expedition_to_Undermountain",
   "editions": [

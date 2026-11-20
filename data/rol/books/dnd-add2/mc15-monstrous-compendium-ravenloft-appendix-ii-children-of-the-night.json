@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "MC15 Monstrous Compendium Ravenloft Appendix II: Children of the Night",
   "kind": "supplement",
+  "settings": ["ravenloft"],
   "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1993.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
   "editions": [

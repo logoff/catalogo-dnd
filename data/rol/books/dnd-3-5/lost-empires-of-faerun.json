@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Lost Empires of Faerûn",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Los imperios caídos de la historia de Faerûn, como Netheril: qué fueron, qué queda de ellos y cómo usar sus ruinas y sus secretos en aventuras, con opciones de personaje, conjuros, objetos y monstruos ligados a ellos.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/List_of_Forgotten_Realms_modules_and_sourcebooks",
   "editions": [

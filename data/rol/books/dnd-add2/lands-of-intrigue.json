@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Lands of Intrigue",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1997, en una caja. Lo escribió Steven E. Schend.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

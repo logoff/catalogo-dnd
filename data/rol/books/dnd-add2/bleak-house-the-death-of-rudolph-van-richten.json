@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Bleak House: The Death of Rudolph van Richten",
   "kind": "adventure",
+  "settings": ["ravenloft"],
   "description": "Aventura de Ravenloft que TSR publicó en 1996, en una caja. La escribió William W. Connors and Dave Gross with Steve Miller.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-box.html",
   "editions": [

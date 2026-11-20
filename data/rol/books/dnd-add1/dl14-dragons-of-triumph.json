@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL14 Dragons of Triumph",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "La aventura que cierra la saga original de Dragonlance: los dos grupos de Compañeros, separados desde Dragons of Ice, vuelven a reunirse para el final de la Guerra de la Lanza. La escribió Douglas Niles.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

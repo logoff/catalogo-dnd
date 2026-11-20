@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Wars",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "Suplemento de Greyhawk que TSR publicó en 1991, en una caja. Lo escribió David Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-box.html",
   "editions": [

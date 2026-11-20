@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WGR1 Greyhawk Ruins",
   "kind": "setting",
+  "settings": ["greyhawk"],
   "description": "Suplemento de Greyhawk que TSR publicó en 1990, en un cuadernillo de 128 páginas con cubierta. Lo escribió Blake Mobley y Timothy B. Brown.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wgr.html",
   "editions": [

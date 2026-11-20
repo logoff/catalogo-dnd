@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "RR9 Van Richten's Guide to the Ancient Dead",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Suplemento de Ravenloft que TSR publicó en 1994, en un libro de 96 páginas. Lo escribió Skip Williams.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-rr.html",
   "editions": [

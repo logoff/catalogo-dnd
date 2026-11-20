@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Voyage of the Golden Dragon",
   "kind": "adventure",
+  "settings": ["eberron"],
   "description": "Una aventura independiente para personajes de 7.º nivel a bordo del primer viaje de una enorme aeronave.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Voyage_of_the_Golden_Dragon",
   "editions": [

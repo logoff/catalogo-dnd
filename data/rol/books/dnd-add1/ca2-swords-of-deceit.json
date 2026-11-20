@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "CA2 Swords of Deceit",
   "kind": "adventure",
+  "settings": ["lankhmar"],
   "description": "Tres aventuras para Lankhmar: intrigas entre los nobles de la ciudad, la búsqueda de Fafhrd y el Ratonero Gris desaparecidos, que continúa la historia de Las espadas de Lankhmar, y más. La escribieron Stephen Bourne, Michael Dobson, Steven Mecca y Ken Rolston.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-ca.html",
   "editions": [

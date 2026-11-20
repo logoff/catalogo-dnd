@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Time of the Dragon",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "Suplemento de Dragonlance que TSR publicó en 1989, en una caja. Lo escribió David \"Zen\" Cook.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-box.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "WG10 Child's Play",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Aventura de Greyhawk que TSR publicó en 1989, en un libro de 32 páginas. La escribió Jean Rabe y Skip Williams.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gh/gh-wg.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLS3 Oak Lords",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Aventura de Dragonlance que TSR publicó en 1991, en un cuadernillo de 32 páginas con cubierta. La escribió Blake Mobley.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/dl/dl-dls.html",
   "editions": [

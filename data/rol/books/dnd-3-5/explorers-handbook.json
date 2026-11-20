@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "Explorer's Handbook",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "Viajes y exploración en Eberron: los continentes más allá de Khorvaire y los medios para llegar a ellos, desde el tren de rayos hasta las aeronaves y los barcos elementales, con planos de vehículos, ganchos de aventura y opciones para personajes viajeros.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Explorer%27s_Handbook",
   "editions": [

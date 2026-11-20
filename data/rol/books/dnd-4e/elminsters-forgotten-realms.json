@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "Ed Greenwood Presents Elminster's Forgotten Realms",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Los Reinos Olvidados contados por su creador, Ed Greenwood, y por Elminster: la vida cotidiana, las leyes, el dinero, los dioses, la magia y los secretos del mundo.\n\nNo trae reglas: Wizards lo publicó en la transición a la 5.ª edición para que sirviera con cualquiera. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Ed_Greenwood_Presents_Elminster%27s_Forgotten_Realms",
   "editions": [

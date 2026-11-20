@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "ALQ7 Corsairs of the Great Sea",
   "kind": "adventure",
+  "settings": ["al_qadim"],
   "description": "Aventura de Al-Qadim que TSR publicó en 1994, en una caja. La escribió Nicky Rea.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/aq/aq-alq.html",
   "editions": [

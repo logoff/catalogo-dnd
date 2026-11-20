@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "U3 The Final Enemy",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La aventura que cierra la serie de Saltmarsh: un asalto bajo el agua a la guarida de los sahuagin, el verdadero enemigo que amenaza al pueblo. La escribió Dave J. Browne con Don Turnbull.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-u.html",
   "editions": [

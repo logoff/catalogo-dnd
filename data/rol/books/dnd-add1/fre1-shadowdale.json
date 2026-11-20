@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "FRE1 Shadowdale",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La primera aventura de la trilogía de los Avatares, pensada para pasar de la 1.ª a la 2.ª edición: en la Era de los Trastornos los dioses caminan por los Reinos como mortales, y los personajes se ven envueltos en ella en el Valle de la Sombra. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fre.html",
   "editions": [

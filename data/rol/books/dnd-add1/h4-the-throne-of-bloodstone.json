@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "H4 The Throne of Bloodstone",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La aventura que cierra la serie de Bloodstone, para personajes de nivel 18 a 100: los señores de Bloodstone bajan al Abismo para robarle la vara a Orcus. La escribieron Douglas Niles y Michael Dobson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-h.html",
   "editions": [

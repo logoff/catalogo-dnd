@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "EX2 The Land Beyond the Magic Mirror",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La continuación de Dungeonland, inspirada en A través del espejo: los personajes caen en un semiplano con el Jabberwock, el Bandersnatch, la Morsa y el Carpintero y una gigantesca partida de ajedrez. La escribió Gary Gygax.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-ex.html",
   "editions": [

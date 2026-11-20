@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "P2 Demon Queen's Enclave",
   "kind": "adventure",
+  "settings": ["nerath"],
   "description": "Una aventura para personajes de nivel 14 a 16 en un enclave drow de la Infraoscuridad ligado a la reina demoníaca Lolth.\n\nForma parte de la serie H-P-E. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Demon_Queen%27s_Enclave",
   "editions": [

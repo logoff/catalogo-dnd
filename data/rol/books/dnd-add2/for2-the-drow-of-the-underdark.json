@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FOR2 The Drow of the Underdark",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1991, en un libro en rústica de 128 páginas. Lo escribió Ed Greenwood.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/fr/fr-for.html",
   "editions": [

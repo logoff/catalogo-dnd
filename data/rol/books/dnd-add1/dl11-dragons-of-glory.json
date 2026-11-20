@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL11 Dragons of Glory",
   "kind": "setting",
+  "settings": ["dragonlance"],
   "description": "Un juego de guerra de la Guerra de la Lanza en todo Ansalon, con un gran mapa del continente, cuatrocientas fichas y escenarios para jugarlo solo o junto a la campaña de rol. La escribieron Douglas Niles y Tracy Hickman.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

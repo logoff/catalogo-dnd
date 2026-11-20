@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Return of the Eight",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "Aventura de Greyhawk que TSR publicó en 1998, en un libro de 64 páginas. La escribió Roger Moore.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/gh/gh-adv.html",
   "editions": [

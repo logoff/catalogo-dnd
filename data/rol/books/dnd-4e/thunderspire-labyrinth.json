@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "H2 Thunderspire Labyrinth",
   "kind": "adventure",
+  "settings": ["nerath"],
   "description": "Una aventura para personajes de nivel 4 a 6 en el laberinto bajo la montaña Thunderspire, con un enclave de comercio, el Salón de los Siete Pilares, y esclavistas que operan en sus profundidades.\n\nEs la segunda de la serie H. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Thunderspire_Labyrinth",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "D2 Shrine of the Kuo-Toa",
   "kind": "adventure",
+  "settings": ["greyhawk"],
   "description": "La segunda aventura de la serie de los drow, en el santuario de los kuo-toa.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-d.html",
   "editions": [

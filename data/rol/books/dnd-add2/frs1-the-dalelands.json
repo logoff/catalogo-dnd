@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FRS1 The Dalelands",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1993, en un cuadernillo de 64 páginas con cubierta. Lo escribió L. Richard Baker III.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-frs.html",
   "editions": [

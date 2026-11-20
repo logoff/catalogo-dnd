@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Book of Magecraft",
   "kind": "setting",
+  "settings": ["birthright"],
   "description": "Suplemento de Birthright que TSR publicó en 1996, en un libro en rústica de 128 páginas. Lo escribió Jean Rabe y Ed Stark.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-acc.html",
   "editions": [

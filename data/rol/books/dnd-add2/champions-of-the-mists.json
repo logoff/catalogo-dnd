@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Champions of the Mists",
   "kind": "setting",
+  "settings": ["ravenloft"],
   "description": "Suplemento de Ravenloft que TSR publicó en 1998, en un libro de 64 páginas. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/rv/rv-acc.html",
   "editions": [

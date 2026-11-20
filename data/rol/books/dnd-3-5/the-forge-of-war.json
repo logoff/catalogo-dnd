@@ -3,6 +3,7 @@
   "system": "dnd-3-5",
   "title": "The Forge of War",
   "kind": "setting",
+  "settings": ["eberron"],
   "description": "La Última Guerra que marcó Eberron: su historia, sus batallas y sus secretos, con opciones de personaje para veteranos y héroes marcados por la guerra.\n\nSolo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/The_Forge_of_War",
   "editions": [

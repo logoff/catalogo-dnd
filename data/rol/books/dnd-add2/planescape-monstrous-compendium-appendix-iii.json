@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Planescape: Monstrous Compendium Appendix III",
   "kind": "setting",
+  "settings": ["planescape"],
   "description": "Suplemento de Planescape que TSR publicó en 1998, en un libro en rústica de 128 páginas. Lo escribió Monte Cook.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-mc.html",
   "editions": [

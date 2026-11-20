@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Cities of the Sun",
   "kind": "setting",
+  "settings": ["birthright"],
   "description": "Suplemento de Birthright que TSR publicó en 1995, en una caja. Lo escribió Rich Baker.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/br/br-box.html",
   "editions": [

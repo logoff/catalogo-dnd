@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "HWA1 Nightwail",
   "kind": "adventure",
+  "settings": ["mystara"],
   "description": "La primera parte de una trilogía de aventuras ambientada en el Mundo Hueco. La escribió Allen Varney.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/hw/hw-adv.html",
   "editions": [

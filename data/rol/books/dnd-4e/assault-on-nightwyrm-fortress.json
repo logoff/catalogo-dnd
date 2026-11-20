@@ -3,6 +3,7 @@
   "system": "dnd-4e",
   "title": "P3 Assault on Nightwyrm Fortress",
   "kind": "adventure",
+  "settings": ["nerath"],
   "description": "Una aventura para personajes de nivel 17 a 20 que asaltan la fortaleza Nightwyrm y siguen desbaratando los planes de Orcus, el hilo que une toda la serie.\n\nCierra la etapa de leyenda de la serie H-P-E. Solo salió en inglés.",
   "source": "https://en.wikipedia.org/wiki/Assault_on_Nightwyrm_Fortress",
   "editions": [

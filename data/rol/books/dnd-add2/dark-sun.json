@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Dark Sun",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "La caja original de Dark Sun: Athas, un mundo desértico arrasado por la magia, gobernado por reyes hechiceros, con psiónica para todos los personajes, razas como los thri-kreen y los mul y un tono de supervivencia brutal.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/ds/ds-box.html",
   "editions": [

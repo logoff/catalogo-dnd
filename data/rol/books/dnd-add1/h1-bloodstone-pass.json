@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "H1 Bloodstone Pass",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "La primera aventura de la serie de Bloodstone, con rol y batallas de Battlesystem: el pueblo de Bloodstone contrata a los personajes para organizar su defensa contra un ejército de humanoides y renegados. La escribieron Douglas Niles y Michael Dobson.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-h.html",
   "editions": [

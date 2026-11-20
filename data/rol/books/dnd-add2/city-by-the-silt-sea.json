@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "City by the Silt Sea",
   "kind": "setting",
+  "settings": ["dark_sun"],
   "description": "Suplemento de Dark Sun que TSR publicó en 1994, en una caja. Lo escribió Shane Lacy Hensley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-box.html",
   "editions": [

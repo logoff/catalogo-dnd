@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "DL9 Dragons of Deceit",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "La aventura que cierra el arco de los Relatos de la Noche de Invierno de la saga de Dragonlance, con la portada de Larry Elmore en la que lord Gunthar monta un dragón de cobre junto a Fizban. La escribió Douglas Niles.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dl.html",
   "editions": [

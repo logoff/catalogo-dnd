@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Forest Maker",
   "kind": "adventure",
+  "settings": ["dark_sun"],
   "description": "Aventura de Dark Sun que TSR publicó en 1994, en una caja. La escribió John J. Terra.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ds/ds-adv.html",
   "editions": [

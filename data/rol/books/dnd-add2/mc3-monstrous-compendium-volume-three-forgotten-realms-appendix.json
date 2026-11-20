@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "MC3 Monstrous Compendium Volume Three: Forgotten Realms Appendix",
   "kind": "supplement",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1989.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
   "editions": [

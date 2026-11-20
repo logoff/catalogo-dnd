@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Lankhmar: The New Adventures of Fafhrd and Gray Mouser",
   "kind": "setting",
+  "settings": ["lankhmar"],
   "description": "Ambientación de Lankhmar que TSR publicó en 1996, en una caja. La escribió Shane Lacy Hensley.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/lm/lm-box.html",
   "editions": [

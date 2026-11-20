@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Wyrmskull Throne",
   "kind": "adventure",
+  "settings": ["forgotten_realms"],
   "description": "Aventura de Reinos Olvidados que TSR publicó en 1999, en un libro en rústica de 64 páginas. La escribió Steven E. Schend y Thomas M. Reid.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-adv.html",
   "editions": [

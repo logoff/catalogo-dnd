@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "DLA1 Dragon Dawn",
   "kind": "adventure",
+  "settings": ["dragonlance"],
   "description": "Aventura de Dragonlance que TSR publicó en 1990, en un cuadernillo de 64 páginas con cubierta. La escribió Rick Swan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dl/dl-dla.html",
   "editions": [

@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "AC1010 Poor Wizard's Almanac & Book of Facts",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "Un almanaque escrito como si se publicara dentro del mundo de Mystara: el estado de cada nación del Mundo Conocido, sus personajes importantes y un calendario día a día de los sucesos del año 1010, para usar como fuente de ideas de campaña. Lo escribió Aaron Allston.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/dd/dd2-alm.html",
   "editions": [

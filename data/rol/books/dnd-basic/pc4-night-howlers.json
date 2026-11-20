@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "PC4 Night Howlers",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El último Creature Crucible, sobre los licántropos: la licantropía como enfermedad que puede contraer cualquier personaje humano, con reglas para jugar con hombres lobo y otras criaturas cambiantes. Necesita la Rules Cyclopedia. Lo escribió Ann Dupuis.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/cc/cc-pc.html",
   "editions": [

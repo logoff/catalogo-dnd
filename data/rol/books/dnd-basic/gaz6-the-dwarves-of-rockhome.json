@@ -3,6 +3,7 @@
   "system": "dnd-basic",
   "title": "GAZ6 The Dwarves of Rockhome",
   "kind": "setting",
+  "settings": ["mystara"],
   "description": "El Gazetteer de Rockhome, el reino de los enanos, con su sociedad, sus clanes y reglas para personajes enanos. Lo escribió Aaron Allston.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
   "editions": [

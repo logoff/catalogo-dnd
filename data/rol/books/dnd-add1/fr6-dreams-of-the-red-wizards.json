@@ -3,6 +3,7 @@
   "system": "dnd-add1",
   "title": "FR6 Dreams of the Red Wizards",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "El suplemento de Thay, la nación gobernada por los malvados Magos Rojos, con conjuros exclusivos de su orden. Lo escribió Steve Perrin.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

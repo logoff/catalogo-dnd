@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Ruins of Undermountain",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La primera caja de Bajomontaña, la gran mazmorra bajo Aguas Profundas creada por el mago loco Halaster: mapas de sus niveles, encuentros y monstruos.\n\nEdición en castellano de Zinco.",
   "source": "https://www.tsrarchive.com/fr/fr-box.html",
   "editions": [

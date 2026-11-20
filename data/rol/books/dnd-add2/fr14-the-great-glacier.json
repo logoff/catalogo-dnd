@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "FR14 The Great Glacier",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1992, en un cuadernillo de 96 páginas con cubierta. Lo escribió Rick Swan.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-fr.html",
   "editions": [

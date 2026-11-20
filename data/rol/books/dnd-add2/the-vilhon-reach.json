@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "The Vilhon Reach",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "Suplemento de Reinos Olvidados que TSR publicó en 1996. Lo escribió Jim Butler.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/fr/fr-acc.html",
   "editions": [

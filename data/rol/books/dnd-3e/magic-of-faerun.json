@@ -3,6 +3,7 @@
   "system": "dnd-3e",
   "title": "Magic of Faerûn",
   "kind": "setting",
+  "settings": ["forgotten_realms"],
   "description": "La magia de los Reinos Olvidados: el Tejido y el Tejido de Sombra, conjuros, clases de prestigio, dotes, objetos mágicos y lugares mágicos de Faerûn.\n\nDevir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Magic_of_Faer%C3%BBn",
   "editions": [

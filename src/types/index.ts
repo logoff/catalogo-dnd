@@ -1,3 +1,4 @@
+import type { World } from '@/utils/worlds'
 export type PublicationType = 'book' | 'boxed_set' | 'accessory'
 
 export type PublicationSubtype =
@@ -94,6 +95,8 @@ export interface ReviewOutlet {
 
 export interface Product {
   code: string
+  // Mundos en los que transcurre o que describe
+  settings?: World[]
   description?: string
   reviews?: Review[]
   publications: Publication[]

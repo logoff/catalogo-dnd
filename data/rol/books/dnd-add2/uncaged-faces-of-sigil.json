@@ -3,6 +3,7 @@
   "system": "dnd-add2",
   "title": "Uncaged: Faces of Sigil",
   "kind": "setting",
+  "settings": ["planescape"],
   "description": "Suplemento de Planescape que TSR publicó en 1996, en un libro en rústica de 128 páginas. Lo escribió R.V. Vallese.\n\nSolo salió en inglés.",
   "source": "https://www.tsrarchive.com/ps/ps-acc.html",
   "editions": [
