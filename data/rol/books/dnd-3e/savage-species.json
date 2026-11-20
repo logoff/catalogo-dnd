@@ -1,0 +1,26 @@
+{
+  "slug": "savage-species",
+  "system": "dnd-3e",
+  "title": "Savage Species",
+  "kind": "supplement",
+  "description": "Reglas para jugar con monstruos como personajes: el ajuste de nivel, clases de monstruo que permiten subir de nivel desde una criatura débil hasta su forma completa, razas nuevas, dotes, conjuros y objetos para personajes monstruosos.\n\nSus reglas de ajuste de nivel se usaron en todo 3.5. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118113533/http://www.wizards.com:80/default.asp?x=products/dndacc/881580000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-02",
+      "format": "hardcover",
+      "isbn13": 9780786926480,
+      "cover": "/images/rol/savage-species/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Especies Salvajes",
+      "publisher": "Devir",
+      "date": "2003",
+      "isbn13": 9788495712844,
+      "source": "https://www.todostuslibros.com/libros/especies-salvajes_978-84-95712-84-4"
+    }
+  ]
+}

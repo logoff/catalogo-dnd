@@ -1,0 +1,18 @@
+{
+  "slug": "adventure-game-2000",
+  "system": "dnd-3e",
+  "title": "Dungeons & Dragons Adventure Game",
+  "kind": "starter",
+  "description": "La caja de inicio de la 3.ª edición: reglas simplificadas, personajes listos, una aventura, mapas, fichas y dados para empezar a jugar sin los libros básicos. Los personajes avanzan como en el juego completo y a partir de nivel 3 hace falta el Manual del Jugador.\n\nEs la segunda versión de una caja que salió primero en 1999 para AD&D. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Adventure_Game",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-08",
+      "format": "boxed_set",
+      "isbn13": 9780786916412,
+      "cover": "/images/rol/adventure-game-2000/english.webp"
+    }
+  ]
+}

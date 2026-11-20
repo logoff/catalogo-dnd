@@ -1,0 +1,27 @@
+{
+  "slug": "arms-and-equipment-guide",
+  "system": "dnd-3e",
+  "title": "Arms and Equipment Guide",
+  "kind": "supplement",
+  "description": "Armas, armaduras, equipo de aventurero, monturas, vehículos y objetos mágicos y alquímicos nuevos, con reglas para usarlos.\n\nComparte título con un suplemento de AD&D de 1991. Salió poco antes de la revisión 3.5. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118113337/http://www.wizards.com:80/default.asp?x=products/dndacc/881590000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-03",
+      "format": "hardcover",
+      "isbn13": 9780786926497,
+      "cover": "/images/rol/arms-and-equipment-guide/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de Armas y Equipo",
+      "publisher": "Devir",
+      "date": "2003-09",
+      "format": "hardcover",
+      "isbn13": 9788495712943,
+      "source": "https://www.todostuslibros.com/libros/guia-de-armas-y-equipo_978-84-95712-94-3"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "sword-and-fist",
+  "system": "dnd-3e",
+  "title": "Sword and Fist",
+  "kind": "supplement",
+  "description": "La guía de guerreros y monjes: clases de prestigio, dotes, estilos de lucha, armas, tácticas de combate y organizaciones marciales, con consejos para sacar partido a los personajes que viven del combate cuerpo a cuerpo.\n\nAbrió la serie de guías de clase de la 3.ª edición, que la serie Complete sustituyó en 3.5. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20031211022732/http://www.wizards.com:80/default.asp?x=products/dndacc/880610000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-01",
+      "format": "paperback",
+      "isbn13": 9780786918294,
+      "cover": "/images/rol/sword-and-fist/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Puño y Espada",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712073,
+      "source": "https://www.todostuslibros.com/libros/puno-y-espada_978-84-95712-07-3"
+    }
+  ]
+}

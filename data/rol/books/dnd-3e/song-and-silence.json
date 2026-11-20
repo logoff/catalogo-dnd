@@ -1,0 +1,26 @@
+{
+  "slug": "song-and-silence",
+  "system": "dnd-3e",
+  "title": "Song and Silence",
+  "kind": "supplement",
+  "description": "La guía de pícaros y bardos: clases de prestigio, dotes, usos nuevos de las habilidades, equipo, organizaciones de ladrones y artistas y consejos para jugar con personajes de habilidad.\n\nForma parte de la serie de guías de clase de la 3.ª edición; en 3.5 la sustituyó el Complete Adventurer. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030704161845/http://wizards.com:80/default.asp?x=products/dndacc/886680000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-12",
+      "format": "paperback",
+      "isbn13": 9780786918577,
+      "cover": "/images/rol/song-and-silence/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Canción y Silencio",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712158,
+      "source": "https://www.todostuslibros.com/libros/cancion-y-silencio_978-84-95712-15-8"
+    }
+  ]
+}

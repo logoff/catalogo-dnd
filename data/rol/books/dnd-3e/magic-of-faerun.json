@@ -1,0 +1,25 @@
+{
+  "slug": "magic-of-faerun",
+  "system": "dnd-3e",
+  "title": "Magic of Faerûn",
+  "kind": "setting",
+  "description": "La magia de los Reinos Olvidados: el Tejido y el Tejido de Sombra, conjuros, clases de prestigio, dotes, objetos mágicos y lugares mágicos de Faerûn.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Magic_of_Faer%C3%BBn",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-08",
+      "isbn13": 9780786919642,
+      "cover": "/images/rol/magic-of-faerun/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Magia de Faerûn",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712578,
+      "source": "https://www.todostuslibros.com/libros/magia-de-faerun_978-84-95712-57-8"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "stronghold-builders-guidebook",
+  "system": "dnd-3e",
+  "title": "Stronghold Builder's Guidebook",
+  "kind": "supplement",
+  "description": "Reglas para diseñar y construir fortalezas, castillos, torres y guaridas: componentes, costes, defensas mágicas y personal, con planos de ejemplo.\n\nSolo salió en inglés.",
+  "source": "https://web.archive.org/web/20030118232816/http://www.wizards.com:80/default.asp?x=products/dndacc/881660000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-05",
+      "format": "paperback",
+      "isbn13": 9780786926558,
+      "cover": "/images/rol/stronghold-builders-guidebook/english.webp"
+    }
+  ]
+}

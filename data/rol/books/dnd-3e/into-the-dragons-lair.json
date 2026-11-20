@@ -1,0 +1,17 @@
+{
+  "slug": "into-the-dragons-lair",
+  "system": "dnd-3e",
+  "title": "Into the Dragon's Lair",
+  "kind": "adventure",
+  "description": "Una aventura de Reinos Olvidados ambientada tras las novelas The High Road y The Death of a Dragon de Troy Denning: Cormyr intenta recuperarse tras la muerte del rey Azoun IV y busca el tesoro de un dragón para financiar la reconstrucción, y los personajes tienen que conseguirlo.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Into_the_Dragon%27s_Lair",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-10",
+      "isbn13": 9780786916344,
+      "cover": "/images/rol/into-the-dragons-lair/english.webp"
+    }
+  ]
+}

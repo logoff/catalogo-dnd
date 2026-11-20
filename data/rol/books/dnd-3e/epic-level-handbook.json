@@ -1,0 +1,18 @@
+{
+  "slug": "epic-level-handbook",
+  "system": "dnd-3e",
+  "title": "Epic Level Handbook",
+  "kind": "supplement",
+  "description": "Reglas para jugar por encima del nivel 20: progresión épica de las clases, dotes y conjuros épicos con un sistema para crearlos, objetos mágicos, monstruos épicos y una ciudad de ejemplo para campañas de poder casi divino.\n\nSus reglas épicas entraron en el SRD. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20030118233115/http://www.wizards.com:80/default.asp?x=products/dndacc/881690000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-07",
+      "format": "hardcover",
+      "isbn13": 9780786926589,
+      "cover": "/images/rol/epic-level-handbook/english.webp"
+    }
+  ]
+}
