@@ -3,7 +3,7 @@
   "system": "dnd-4e",
   "title": "Heroes of the Fallen Lands",
   "kind": "core",
-  "description": "El libro del jugador de la línea Essentials, en formato de bolsillo: crea clérigos, guerreros, pícaros y magos con variantes más sencillas que las del Manual del Jugador, y enanos, eladrines, elfos, medianos y humanos.\n\nSe puede usar como punto de partida en lugar del Manual del Jugador. Solo salió en inglés.",
+  "description": "El libro del jugador de la línea Essentials, en formato de bolsillo: crea clérigos, guerreros, pícaros y magos con variantes más sencillas que las del Manual del Jugador, y enanos, eladrines, elfos, medianos y humanos.\n\nSe puede usar como punto de partida en lugar del Manual del Jugador. Devir lo publicó en castellano.",
   "source": "https://en.wikipedia.org/wiki/Heroes_of_the_Fallen_Lands",
   "editions": [
     {
@@ -13,6 +13,14 @@
       "format": "paperback",
       "isbn13": 9780786956203,
       "cover": "/images/rol/heroes-of-the-fallen-lands/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Héroes de las Tierras Caídas",
+      "publisher": "Devir",
+      "format": "paperback",
+      "cover": "/images/rol/heroes-of-the-fallen-lands/castellano.webp",
+      "source": "https://web.archive.org/web/2011/http://www.devir.es/catalog/images/heroes-tierras-caidas.jpg"
     }
   ]
 }
