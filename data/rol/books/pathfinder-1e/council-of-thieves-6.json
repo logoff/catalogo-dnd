@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "El concejo de ladrones 6: El príncipe doblemente condenado",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4507-pathfinder-concejo-de-ladrones-6-el-pr%C3%ADncipe-doblemente-condenado-8436017223729.html"
+        }
+      ]
     }
   ]
 }

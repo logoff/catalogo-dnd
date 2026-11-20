@@ -14,7 +14,14 @@
       "language": "castellano",
       "title": "Fulgor fatídico",
       "publisher": "Other Selves",
-      "date": "2018"
+      "date": "2018",
+      "isbn13": 9788494589980,
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/5148-fulgor-fatidico-aventura-para-la-quinta-edicion-de-dungeons-and-dragons-9788494589980.html"
+        }
+      ]
     }
   ]
 }
