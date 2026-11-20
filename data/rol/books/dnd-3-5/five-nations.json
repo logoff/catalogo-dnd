@@ -1,0 +1,27 @@
+{
+  "slug": "five-nations",
+  "system": "dnd-3-5",
+  "title": "Five Nations",
+  "kind": "setting",
+  "description": "Los pueblos y lugares de las Cinco Naciones que formaban el antiguo reino de Galifar: Aundair, Breland, Karrnath y Thrane, y las Tierras Enlutadas, lo que queda de Cyre, con su historia, su política tras la Última Guerra y opciones de juego para cada una.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Eberron_modules_and_sourcebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-07",
+      "format": "hardcover",
+      "isbn13": 9780786936908,
+      "cover": "/images/rol/five-nations/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Las Cinco Naciones",
+      "publisher": "Devir",
+      "date": "2006-10",
+      "format": "hardcover",
+      "isbn13": 9788496422759,
+      "source": "https://www.todostuslibros.com/libros/las-cinco-naciones_978-84-96422-75-9"
+    }
+  ]
+}

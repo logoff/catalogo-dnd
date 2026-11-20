@@ -493,28 +493,28 @@ Press.
 
 ### Eberron
 
-| #   | Título original                  | Título en castellano            | Tipo         | Fecha   | ISBN              | Devir     | Ficha     | Nota |
-| --- | -------------------------------- | ------------------------------- | ------------ | ------- | ----------------- | --------- | --------- | ---- |
-| 1   | Eberron Campaign Setting         | Escenario de Campaña de Eberron | ambientación | 2004-06 | 0-7869-3274-0     | sí        | pendiente |      |
-| 2   | Sharn: City of Towers            | Sharn                           | ambientación | 2004-11 | 0-7869-3434-4     | sí        | pendiente |      |
-| 3   | Races of Eberron                 | Razas de Eberron                | ambientación | 2005-04 | 0-7869-3658-4     | sí        | pendiente |      |
-| 4   | Five Nations                     | Las Cinco Naciones              | ambientación | 2005-07 | 0-7869-3690-8     | sí        | pendiente |      |
-| 5   | Explorer's Handbook              | —                               | ambientación | 2005-08 | 0-7869-3691-6     | no consta | pendiente |      |
-| 6   | Magic of Eberron                 | —                               | ambientación | 2005-10 | 0-7869-3696-7     | no consta | pendiente |      |
-| 7   | Player's Guide to Eberron        | Guía del Jugador de Eberron     | ambientación | 2006-01 | 0-7869-3912-5     | sí        | pendiente |      |
-| 8   | Secrets of Xen'drik              | —                               | ambientación | 2006-07 | 0-7869-3916-8     | no consta | pendiente |      |
-| 9   | Faiths of Eberron                | —                               | ambientación | 2006-09 | 0-7869-3934-6     | no consta | pendiente |      |
-| 10  | Dragonmarked                     | —                               | ambientación | 2006-11 | 0-7869-3933-8     | no consta | pendiente |      |
-| 11  | Secrets of Sarlona               | —                               | ambientación | 2007-02 | 0-7869-4037-9     | no consta | pendiente |      |
-| 12  | The Forge of War                 | —                               | ambientación | 2007-06 | 0-7869-4153-7     | no consta | pendiente |      |
-| 13  | Dragons of Eberron               | —                               | ambientación | 2007-10 | 978-0-7869-4154-4 | no consta | pendiente |      |
-| 14  | City of Stormreach               | —                               | ambientación | 2008-02 | 978-0-7869-4803-1 | no consta | pendiente |      |
-| 15  | An Adventurer's Guide to Eberron | —                               | ambientación | 2008-03 | 978-0-7869-4855-0 | no consta | pendiente |      |
-| 16  | Shadows of the Last War          | Sombras de la Última Guerra     | aventura     | 2004-07 | 0-7869-3276-7     | sí        | pendiente |      |
-| 17  | Whispers of the Vampire's Blade  | Susurros de la Hoja del Vampiro | aventura     | 2004-09 | 0-7869-3510-3     | sí        | pendiente |      |
-| 18  | Grasp of the Emerald Claw        | En Manos de la Garra Esmeralda  | aventura     | 2005-01 | 0-7869-3652-5     | sí        | pendiente |      |
-| 19  | Voyage of the Golden Dragon      | El Viaje del Dragón de Oro      | aventura     | 2006-04 | 0-7869-3907-9     | sí        | pendiente |      |
-| 20  | Eyes of the Lich Queen           | —                               | aventura     | 2007-04 | 978-0-7869-4319-7 | no consta | pendiente |      |
+| #   | Título original                  | Título en castellano            | Tipo         | Fecha   | ISBN              | Devir     | Ficha                           | Nota                                                                                                   |
+| --- | -------------------------------- | ------------------------------- | ------------ | ------- | ----------------- | --------- | ------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| 1   | Eberron Campaign Setting         | Eberron: Escenario de Campaña   | ambientación | 2004-06 | 0-7869-3274-0     | sí        | eberron-campaign-setting        | Sin fecha en castellano: la de todostuslibros.com (2007-04) no encaja con su ISBN, de finales de 2004. |
+| 2   | Sharn: City of Towers            | Sharn, la Ciudad de las Torres  | ambientación | 2004-11 | 0-7869-3434-4     | sí        | sharn-city-of-towers            |                                                                                                        |
+| 3   | Races of Eberron                 | Razas de Eberron                | ambientación | 2005-04 | 0-7869-3658-4     | sí        | races-of-eberron                |                                                                                                        |
+| 4   | Five Nations                     | Las Cinco Naciones              | ambientación | 2005-07 | 0-7869-3690-8     | sí        | five-nations                    |                                                                                                        |
+| 5   | Explorer's Handbook              | —                               | ambientación | 2005-08 | 0-7869-3691-6     | no consta | explorers-handbook              |                                                                                                        |
+| 6   | Magic of Eberron                 | —                               | ambientación | 2005-10 | 0-7869-3696-7     | no consta | magic-of-eberron                |                                                                                                        |
+| 7   | Player's Guide to Eberron        | Eberron: Guía del Jugador       | ambientación | 2006-01 | 0-7869-3912-5     | sí        | players-guide-to-eberron        |                                                                                                        |
+| 8   | Secrets of Xen'drik              | —                               | ambientación | 2006-07 | 0-7869-3916-8     | no consta | secrets-of-xendrik              |                                                                                                        |
+| 9   | Faiths of Eberron                | —                               | ambientación | 2006-09 | 0-7869-3934-6     | no consta | faiths-of-eberron               |                                                                                                        |
+| 10  | Dragonmarked                     | —                               | ambientación | 2006-11 | 0-7869-3933-8     | no consta | dragonmarked                    |                                                                                                        |
+| 11  | Secrets of Sarlona               | —                               | ambientación | 2007-02 | 0-7869-4037-9     | no consta | secrets-of-sarlona              |                                                                                                        |
+| 12  | The Forge of War                 | —                               | ambientación | 2007-06 | 0-7869-4153-7     | no consta | the-forge-of-war                |                                                                                                        |
+| 13  | Dragons of Eberron               | —                               | ambientación | 2007-10 | 978-0-7869-4154-4 | no consta | dragons-of-eberron              |                                                                                                        |
+| 14  | City of Stormreach               | —                               | ambientación | 2008-02 | 978-0-7869-4803-1 | no consta | city-of-stormreach              |                                                                                                        |
+| 15  | An Adventurer's Guide to Eberron | —                               | ambientación | 2008-03 | 978-0-7869-4855-0 | no consta | an-adventurers-guide-to-eberron |                                                                                                        |
+| 16  | Shadows of the Last War          | Sombras de la Última Guerra     | aventura     | 2004-07 | 0-7869-3276-7     | sí        | shadows-of-the-last-war         |                                                                                                        |
+| 17  | Whispers of the Vampire's Blade  | Susurros de la Hoja del Vampiro | aventura     | 2004-09 | 0-7869-3510-3     | sí        | whispers-of-the-vampires-blade  |                                                                                                        |
+| 18  | Grasp of the Emerald Claw        | En Manos de la Garra Esmeralda  | aventura     | 2005-01 | 0-7869-3652-5     | sí        | grasp-of-the-emerald-claw       |                                                                                                        |
+| 19  | Voyage of the Golden Dragon      | El Viaje del Dragón Dorado      | aventura     | 2006-04 | 0-7869-3907-9     | sí        | voyage-of-the-golden-dragon     |                                                                                                        |
+| 20  | Eyes of the Lich Queen           | —                               | aventura     | 2007-04 | 978-0-7869-4319-7 | no consta | eyes-of-the-lich-queen          |                                                                                                        |
 
 ### Otras ambientaciones y aventuras
 

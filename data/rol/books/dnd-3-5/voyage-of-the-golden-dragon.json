@@ -1,0 +1,27 @@
+{
+  "slug": "voyage-of-the-golden-dragon",
+  "system": "dnd-3-5",
+  "title": "Voyage of the Golden Dragon",
+  "kind": "adventure",
+  "description": "Una aventura independiente para personajes de 7.º nivel a bordo del primer viaje de una enorme aeronave.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Voyage_of_the_Golden_Dragon",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-04",
+      "format": "paperback",
+      "isbn13": 9780786939077,
+      "cover": "/images/rol/voyage-of-the-golden-dragon/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Viaje del Dragón Dorado",
+      "publisher": "Devir",
+      "date": "2007-03",
+      "format": "paperback",
+      "isbn13": 9788496422858,
+      "source": "https://www.todostuslibros.com/libros/el-viaje-del-dragon-dorado_978-84-96422-85-8"
+    }
+  ]
+}

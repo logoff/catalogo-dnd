@@ -1,0 +1,18 @@
+{
+  "slug": "the-forge-of-war",
+  "system": "dnd-3-5",
+  "title": "The Forge of War",
+  "kind": "setting",
+  "description": "La Última Guerra que marcó Eberron: su historia, sus batallas y sus secretos, con opciones de personaje para veteranos y héroes marcados por la guerra.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/The_Forge_of_War",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-06",
+      "format": "hardcover",
+      "isbn13": 9780786941537,
+      "cover": "/images/rol/the-forge-of-war/english.webp"
+    }
+  ]
+}
