@@ -38,9 +38,8 @@ describe('resolveImageSrc', () => {
       expect(resolveImageSrc(url)).toBe(url)
     })
 
-    it('no modifica el placeholder de Wikipedia', () => {
-      const url =
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/240px-Imagen_no_disponible.svg.png'
+    it('no modifica URLs https', () => {
+      const url = 'https://example.com/image.jpg'
       expect(resolveImageSrc(url)).toBe(url)
     })
   })

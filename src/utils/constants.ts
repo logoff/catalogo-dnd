@@ -8,8 +8,8 @@ export const SITE_URL = 'https://catalogodnd.es'
 export const OWNER_NAME = 'Julio Carlos Barrera Juez'
 export const CONTACT_EMAIL = 'hola@catalogodnd.es'
 
-export const PLACEHOLDER_IMAGE =
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/240px-Imagen_no_disponible.svg.png'
+// Imagen propia para lo que no tiene portada (la de Wikimedia dejó de servirse en 2026)
+export const PLACEHOLDER_IMAGE = '/images/sin-portada.svg'
 
 // Helper to get asset paths that work in both dev and prod
 export const getAssetPath = (path: string) =>
