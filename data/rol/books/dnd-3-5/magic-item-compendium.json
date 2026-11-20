@@ -1,0 +1,26 @@
+{
+  "slug": "magic-item-compendium",
+  "system": "dnd-3-5",
+  "title": "Magic Item Compendium",
+  "kind": "supplement",
+  "description": "Unos mil objetos mágicos reunidos de suplementos anteriores y puestos al día para 3.5, con cientos de objetos nuevos baratos, cristales para mejorar armas y armaduras, conjuntos de objetos que dan poderes al llevarlos juntos y consejos para repartir tesoro.\n\nClasifica los objetos maravillosos por la parte del cuerpo que ocupan y es el compañero del Compendio de Conjuros. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20070109032841/http://www.wizards.com:80/default.asp?x=products/dndacc/107627200",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-03",
+      "format": "hardcover",
+      "isbn13": 9780786943456,
+      "cover": "/images/rol/magic-item-compendium/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Objetos Mágicos",
+      "publisher": "Devir",
+      "date": "2008-01",
+      "isbn13": 9788496934061,
+      "source": "https://www.todostuslibros.com/libros/compendio-de-objetos-magicos_978-84-96934-06-1"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "expanded-psionics-handbook",
+  "system": "dnd-3-5",
+  "title": "Expanded Psionics Handbook",
+  "kind": "supplement",
+  "description": "Las reglas de los poderes psiónicos puestas al día para 3.5: las clases de psiónico, guerrero psíquico, filo del alma y desatado, cientos de poderes, dotes, clases de prestigio, objetos psiónicos y monstruos. Los psiónicos usan puntos de poder en vez de espacios de conjuro y pueden potenciar cada poder gastando más puntos.\n\nSustituye al Psionics Handbook de la 3.ª edición. Casi todo su contenido entró en el SRD 3.5, así que las reglas psiónicas siguieron vivas en juegos derivados como Pathfinder gracias a Dreamscarred Press.",
+  "source": "https://en.wikipedia.org/wiki/Expanded_Psionics_Handbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-04",
+      "format": "hardcover",
+      "isbn13": 9780786933013,
+      "cover": "/images/rol/expanded-psionics-handbook/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Psiónica Expandido",
+      "publisher": "Devir",
+      "date": "2005-03",
+      "format": "hardcover",
+      "isbn13": 9788496422278,
+      "source": "https://www.todostuslibros.com/libros/manual-de-psionica-expandido_978-84-96422-27-8"
+    }
+  ]
+}

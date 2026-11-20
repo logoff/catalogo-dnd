@@ -1,0 +1,27 @@
+{
+  "slug": "monster-manual-iii",
+  "system": "dnd-3-5",
+  "title": "Monster Manual III",
+  "kind": "supplement",
+  "description": "Un bestiario con criaturas nuevas para todos los niveles de desafío, muchas de ellas traídas de la revista Dragon y de otros suplementos y adaptadas a 3.5. Cada monstruo trae su perfil de juego, su forma de combatir y su papel en el mundo.\n\nEs el primer libro de monstruos que se hizo directamente para 3.5, tras el Manual de Monstruos II de la 3.ª edición. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20040602134019/http://www.wizards.com:80/default.asp?x=products/dndacc/179210000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-09",
+      "format": "hardcover",
+      "isbn13": 9780786934300,
+      "cover": "/images/rol/monster-manual-iii/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos III",
+      "publisher": "Devir",
+      "date": "2005-03",
+      "format": "hardcover",
+      "isbn13": 9788496422261,
+      "source": "https://www.todostuslibros.com/libros/manual-de-monstruos-iii_978-84-96422-26-1"
+    }
+  ]
+}

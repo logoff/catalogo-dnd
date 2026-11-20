@@ -1,0 +1,27 @@
+{
+  "slug": "monster-manual-iv",
+  "system": "dnd-3-5",
+  "title": "Monster Manual IV",
+  "kind": "supplement",
+  "description": "Un bestiario que cambia la forma de presentar a los monstruos: perfiles más fáciles de leer en la mesa, con las capacidades explicadas en el mismo bloque, y muchas entradas con encuentros de ejemplo, guaridas y variantes con niveles de clase.\n\nEl formato de perfil que estrenó se usó en los libros posteriores de 3.5 y anticipó el de la 4.ª edición. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Monster_Manual_IV",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-07",
+      "format": "hardcover",
+      "isbn13": 9780786939206,
+      "cover": "/images/rol/monster-manual-iv/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos IV",
+      "publisher": "Devir",
+      "date": "2006-12",
+      "format": "hardcover",
+      "isbn13": 9788496422841,
+      "source": "https://www.todostuslibros.com/libros/manual-de-monstruos-iv_978-84-96422-84-1"
+    }
+  ]
+}

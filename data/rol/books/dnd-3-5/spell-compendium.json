@@ -1,0 +1,27 @@
+{
+  "slug": "spell-compendium",
+  "system": "dnd-3-5",
+  "title": "Spell Compendium",
+  "kind": "supplement",
+  "description": "Más de mil conjuros reunidos de los suplementos, ambientaciones y revistas de la 3.ª edición y 3.5, revisados y puestos al día para las reglas de 3.5 y ordenados alfabéticamente, con listas por clase y dominio.\n\nNo repite los del Manual del Jugador: es el complemento para no tener que buscar un conjuro en una docena de libros. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Spell_Compendium",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-12",
+      "format": "hardcover",
+      "isbn13": 9780786937028,
+      "cover": "/images/rol/spell-compendium/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Conjuros",
+      "publisher": "Devir",
+      "date": "2006-10",
+      "format": "hardcover",
+      "isbn13": 9788496422797,
+      "source": "https://www.todostuslibros.com/libros/compendio-de-conjuros_978-84-96422-79-7"
+    }
+  ]
+}

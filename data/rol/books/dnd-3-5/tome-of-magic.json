@@ -1,0 +1,18 @@
+{
+  "slug": "tome-of-magic",
+  "system": "dnd-3-5",
+  "title": "Tome of Magic",
+  "kind": "supplement",
+  "description": "Tres formas de magia nuevas, cada una con su clase: el vinculador, que hace pactos con vestigios, seres expulsados de la realidad, para tomar prestados sus poderes; el lanzador de sombras, que manipula la sustancia del Plano de la Sombra, y el pronunciador de nombres verdaderos, que altera el mundo con las palabras de su lengua original. Incluye clases de prestigio, dotes, monstruos y lugares.\n\nEl subtítulo de la portada lo resume: magia de pactos, de sombras y de nombres verdaderos. Comparte título con un suplemento de AD&D 2.ª edición de 1991 que no tiene relación. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Tome_of_Magic",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-03",
+      "format": "hardcover",
+      "isbn13": 9780786939091,
+      "cover": "/images/rol/tome-of-magic/english.webp"
+    }
+  ]
+}
