@@ -1,0 +1,18 @@
+{
+  "slug": "dragon-magic",
+  "system": "dnd-3-5",
+  "title": "Dragon Magic",
+  "kind": "supplement",
+  "description": "Opciones para personajes ligados a los dragones: una clase nueva, el adepto del fuego de dragón, que lanza aliento e invocaciones; dotes dracónicas, conjuros, clases de prestigio y objetos mágicos.\n\nComplementa a Races of the Dragon y Draconomicon. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dragon_Magic",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-09",
+      "format": "hardcover",
+      "isbn13": 9780786939367,
+      "cover": "/images/rol/dragon-magic/english.webp"
+    }
+  ]
+}

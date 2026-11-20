@@ -1,0 +1,18 @@
+{
+  "slug": "races-of-destiny",
+  "system": "dnd-3-5",
+  "title": "Races of Destiny",
+  "kind": "supplement",
+  "description": "Las razas de las ciudades: humanos y semiorcos, con su sociedad y sus opciones de juego, y una raza nueva, los iluminados, humanos rodeados de sigilos luminosos que giran alrededor de su cabeza. Trae clases de prestigio, dotes y conjuros, muchos con requisito de raza.\n\nForma parte de la serie Races of. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Races_of_Destiny",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-12",
+      "format": "hardcover",
+      "isbn13": 9780786936533,
+      "cover": "/images/rol/races-of-destiny/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "stormwrack",
+  "system": "dnd-3-5",
+  "title": "Stormwrack: Mastering the Perils of Wind and Wave",
+  "kind": "supplement",
+  "description": "Aventuras en el mar y bajo el agua: barcos y combate naval, tormentas, mar abierto, arrecifes y pantanos, con razas marinas nuevas, otras como los hadozee de Spelljammer, clases de prestigio, conjuros, objetos, monstruos y aventuras cortas de ejemplo.\n\nCierra la trilogía de entornos tras Frostburn y Sandstorm. Antes de salir se anunció como Maelstrom. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Stormwrack",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-08",
+      "format": "hardcover",
+      "isbn13": 9780786936892,
+      "cover": "/images/rol/stormwrack/english.webp"
+    }
+  ]
+}

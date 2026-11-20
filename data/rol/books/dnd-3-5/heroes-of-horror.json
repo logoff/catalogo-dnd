@@ -1,0 +1,18 @@
+{
+  "slug": "heroes-of-horror",
+  "system": "dnd-3-5",
+  "title": "Heroes of Horror",
+  "kind": "supplement",
+  "description": "Cómo llevar el terror a la mesa: ritmo, ambientación y tipos de historias de miedo, reglas de corrupción y depravación, y dos clases (el archivista y el nigromante del terror), clases de prestigio, dotes y conjuros con ese tono.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Heroes_of_Horror",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9780786936991,
+      "cover": "/images/rol/heroes-of-horror/english.webp"
+    }
+  ]
+}

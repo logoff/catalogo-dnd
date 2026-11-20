@@ -1,0 +1,18 @@
+{
+  "slug": "exemplars-of-evil",
+  "system": "dnd-3-5",
+  "title": "Exemplars of Evil",
+  "kind": "supplement",
+  "description": "Cómo crear villanos memorables y ocho grupos de villanos listos para jugar, de distintos niveles, cada uno con sus perfiles completos, sus esbirros, su guarida descrita y ganchos de aventura y de campaña.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Exemplars_of_Evil",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-09",
+      "format": "hardcover",
+      "isbn13": 9780786943616,
+      "cover": "/images/rol/exemplars-of-evil/english.webp"
+    }
+  ]
+}

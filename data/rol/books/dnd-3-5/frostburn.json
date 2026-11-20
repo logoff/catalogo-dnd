@@ -1,0 +1,18 @@
+{
+  "slug": "frostburn",
+  "system": "dnd-3-5",
+  "title": "Frostburn: Mastering the Perils of Ice and Snow",
+  "kind": "supplement",
+  "description": "Aventuras en el frío extremo: los peligros del hielo y la nieve y del gélido frostfell, con razas, clases de prestigio, dotes, conjuros, equipo, monstruos y lugares de ejemplo para esos entornos.\n\nAbrió la trilogía de entornos que siguieron Sandstorm y Stormwrack. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Frostburn",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-09",
+      "format": "hardcover",
+      "isbn13": 9780786928965,
+      "cover": "/images/rol/frostburn/english.webp"
+    }
+  ]
+}

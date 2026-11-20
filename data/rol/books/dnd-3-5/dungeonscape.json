@@ -1,0 +1,18 @@
+{
+  "slug": "dungeonscape",
+  "system": "dnd-3-5",
+  "title": "Dungeonscape",
+  "kind": "supplement",
+  "description": "Todo sobre las mazmorras: trampas nuevas, peligros y entornos subterráneos, consejos para diseñarlas y opciones para personajes que las exploran, con una clase nueva, el factótum, que puede hacer un poco de todo gracias a sus puntos de inspiración.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dungeonscape",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-02",
+      "format": "hardcover",
+      "isbn13": 9780786941186,
+      "cover": "/images/rol/dungeonscape/english.webp"
+    }
+  ]
+}

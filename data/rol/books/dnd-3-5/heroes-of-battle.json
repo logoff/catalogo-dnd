@@ -1,0 +1,27 @@
+{
+  "slug": "heroes-of-battle",
+  "system": "dnd-3-5",
+  "title": "Heroes of Battle",
+  "kind": "supplement",
+  "description": "Aventuras en medio de una guerra: los personajes no dirigen ejércitos, sino que viven misiones y encuentros dentro de la batalla. Trae reglas de campo de batalla, moral, puntos de victoria, ejércitos fantásticos, magia de guerra, clases de prestigio y dotes.\n\nAntes de salir se anunció como Battlefield Adventures. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Heroes_of_Battle",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-05",
+      "format": "hardcover",
+      "isbn13": 9780786936861,
+      "cover": "/images/rol/heroes-of-battle/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Héroes de Guerra",
+      "publisher": "Devir",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9788496422490,
+      "source": "https://www.todostuslibros.com/libros/heroes-de-guerra_978-84-96422-49-0"
+    }
+  ]
+}
