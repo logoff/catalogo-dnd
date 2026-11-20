@@ -1,0 +1,17 @@
+{
+  "slug": "i11-needle",
+  "system": "dnd-add1",
+  "title": "I11 Needle",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1987, en un cuadernillo de 48 páginas con cubierta. La escribió Frank Mentzer.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/i11-needle/english.webp"
+    }
+  ]
+}

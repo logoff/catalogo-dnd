@@ -1,0 +1,17 @@
+{
+  "slug": "the-shattered-statue",
+  "system": "dnd-add1",
+  "title": "The Shattered Statue",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1987, en un cuadernillo de 48 páginas con cubierta. La escribió Paul Jaquays.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/the-shattered-statue/english.webp"
+    }
+  ]
+}

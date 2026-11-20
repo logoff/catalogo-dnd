@@ -1,0 +1,17 @@
+{
+  "slug": "ca2-swords-of-deceit",
+  "system": "dnd-add1",
+  "title": "CA2 Swords of Deceit",
+  "kind": "adventure",
+  "description": "Aventura de Lankhmar que TSR publicó en 1986, en un cuadernillo de 40 páginas con cubierta. La escribió Stephen Bourne, Michael Dobson, Steven Mecca y Ken Rolston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-ca.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/ca2-swords-of-deceit/english.webp"
+    }
+  ]
+}

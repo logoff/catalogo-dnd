@@ -1,0 +1,17 @@
+{
+  "slug": "wg8-fate-of-istus",
+  "system": "dnd-add1",
+  "title": "WG8 Fate of Istus",
+  "kind": "adventure",
+  "description": "Aventura de Greyhawk que TSR publicó en 1989, en un libro en rústica de 128 páginas. La escribió Nigel Findley, Dan Salas, Stephen Inniss y Robert J. Kuntz.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/wg8-fate-of-istus/english.webp"
+    }
+  ]
+}

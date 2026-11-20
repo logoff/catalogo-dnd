@@ -1,0 +1,17 @@
+{
+  "slug": "oa3-ochimo-the-spirit-warrior",
+  "system": "dnd-add1",
+  "title": "OA3 Ochimo: The Spirit Warrior",
+  "kind": "adventure",
+  "description": "Aventura de Kara-Tur (Oriental Adventures) que TSR publicó en 1987, en un cuadernillo de 48 páginas con cubierta. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/oa3-ochimo-the-spirit-warrior/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "fr7-hall-of-heroes",
+  "system": "dnd-add1",
+  "title": "FR7 Hall of Heroes",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1989, en un libro en rústica de 128 páginas. Lo escribió Scott Bowles (editor).\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/fr7-hall-of-heroes/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "s1-tomb-of-horrors",
+  "system": "dnd-add1",
+  "title": "S1 Tomb of Horrors",
+  "kind": "adventure",
+  "description": "La aventura de Gary Gygax diseñada para acabar con los personajes más confiados: la tumba del semiliche Acererak, llena de trampas mortales. Se considera una de las aventuras más famosas de D&D.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-s.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1978",
+      "format": "paperback",
+      "cover": "/images/rol/s1-tomb-of-horrors/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "n2-the-forest-oracle",
+  "system": "dnd-add1",
+  "title": "N2 The Forest Oracle",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1984, en un libro de 32 páginas. La escribió Carl Smith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-n.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/n2-the-forest-oracle/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "s3-expedition-to-the-barrier-peaks",
+  "system": "dnd-add1",
+  "title": "S3 Expedition to the Barrier Peaks",
+  "kind": "adventure",
+  "description": "Una aventura de Gary Gygax que mezcla fantasía y ciencia ficción: una nave espacial estrellada en las montañas, con robots y armas tecnológicas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-s.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/s3-expedition-to-the-barrier-peaks/english.webp"
+    }
+  ]
+}

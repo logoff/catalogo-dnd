@@ -1,0 +1,17 @@
+{
+  "slug": "d3-vault-of-the-drow",
+  "system": "dnd-add1",
+  "title": "D3 Vault of the Drow",
+  "kind": "adventure",
+  "description": "La tercera aventura de la serie de los drow: la ciudad drow en las profundidades, camino de la Reina Araña.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-d.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1978",
+      "format": "paperback",
+      "cover": "/images/rol/d3-vault-of-the-drow/english.webp"
+    }
+  ]
+}

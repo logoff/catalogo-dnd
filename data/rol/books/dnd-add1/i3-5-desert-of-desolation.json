@@ -1,0 +1,17 @@
+{
+  "slug": "i3-5-desert-of-desolation",
+  "system": "dnd-add1",
+  "title": "I3-5 Desert of Desolation",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1987, en un libro en rústica de 128 páginas. La escribió T. Hickman, L. Hickman, P. Meyers, P. Rice y J. Wheeler.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/i3-5-desert-of-desolation/english.webp"
+    }
+  ]
+}

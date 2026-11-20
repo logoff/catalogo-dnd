@@ -1,0 +1,17 @@
+{
+  "slug": "dl13-dragons-of-truth",
+  "system": "dnd-add1",
+  "title": "DL13 Dragons of Truth",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1986, en un cuadernillo de 40 páginas con cubierta. La escribió Tracy Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/dl13-dragons-of-truth/english.webp"
+    }
+  ]
+}

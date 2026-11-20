@@ -1,0 +1,17 @@
+{
+  "slug": "s4-lost-caverns-of-tsojcanth",
+  "system": "dnd-add1",
+  "title": "S4 Lost Caverns of Tsojcanth",
+  "kind": "adventure",
+  "description": "Una aventura de Gary Gygax en las cavernas de un mago, nacida de un torneo de 1976 y publicada en 1982.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-s.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/s4-lost-caverns-of-tsojcanth/english.webp"
+    }
+  ]
+}

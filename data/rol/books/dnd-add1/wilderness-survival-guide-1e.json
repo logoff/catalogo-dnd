@@ -1,0 +1,17 @@
+{
+  "slug": "wilderness-survival-guide-1e",
+  "system": "dnd-add1",
+  "title": "Wilderness Survival Guide",
+  "kind": "supplement",
+  "description": "Reglas para aventuras en la naturaleza en AD&D 1.ª edición: viajes, clima, terreno y supervivencia.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "hardcover",
+      "cover": "/images/rol/wilderness-survival-guide-1e/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "t1-the-village-of-hommlet",
+  "system": "dnd-add1",
+  "title": "T1 The Village of Hommlet",
+  "kind": "adventure",
+  "description": "La aventura de Gary Gygax que presentó la aldea de Hommlet, puerta de entrada a la campaña del Templo del Mal Elemental.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-t.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "paperback",
+      "cover": "/images/rol/t1-the-village-of-hommlet/english.webp"
+    }
+  ]
+}

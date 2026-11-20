@@ -1,0 +1,17 @@
+{
+  "slug": "battlesystem-fantasy-combat-supplement",
+  "system": "dnd-add1",
+  "title": "Battlesystem: Fantasy Combat Supplement",
+  "kind": "supplement",
+  "description": "El primer Battlesystem, reglas para batallas masivas en AD&D con figuras o fichas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-bs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "boxed_set",
+      "cover": "/images/rol/battlesystem-fantasy-combat-supplement/english.webp"
+    }
+  ]
+}

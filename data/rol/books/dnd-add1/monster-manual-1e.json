@@ -1,0 +1,18 @@
+{
+  "slug": "monster-manual-1e",
+  "system": "dnd-add1",
+  "title": "Monster Manual",
+  "kind": "core",
+  "core": true,
+  "description": "El primer libro de AD&D y el primero de tapa dura de TSR: el bestiario de Gary Gygax con cientos de monstruos, de los aboleths a los zombis, que fijó la imagen de las criaturas clásicas de D&D.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-core-mm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1977",
+      "format": "hardcover",
+      "cover": "/images/rol/monster-manual-1e/english.webp"
+    }
+  ]
+}

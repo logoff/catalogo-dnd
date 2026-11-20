@@ -1,0 +1,17 @@
+{
+  "slug": "i1-dwellers-of-the-forbidden-city",
+  "system": "dnd-add1",
+  "title": "I1 Dwellers of the Forbidden City",
+  "kind": "adventure",
+  "description": "Una aventura de David «Zeb» Cook en una ciudad perdida en la jungla, nacida de un torneo.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "paperback",
+      "cover": "/images/rol/i1-dwellers-of-the-forbidden-city/english.webp"
+    }
+  ]
+}

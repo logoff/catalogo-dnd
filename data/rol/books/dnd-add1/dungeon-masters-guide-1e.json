@@ -1,0 +1,18 @@
+{
+  "slug": "dungeon-masters-guide-1e",
+  "system": "dnd-add1",
+  "title": "Dungeon Masters Guide",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del Dungeon Master de AD&D 1.ª edición, escrito por Gary Gygax: combate, experiencia, tesoros, objetos mágicos, tablas aleatorias de todo tipo y consejos para dirigir, con un tono y un detalle legendarios.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-core-dmg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "hardcover",
+      "cover": "/images/rol/dungeon-masters-guide-1e/english.webp"
+    }
+  ]
+}

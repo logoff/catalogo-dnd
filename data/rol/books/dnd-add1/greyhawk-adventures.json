@@ -1,0 +1,17 @@
+{
+  "slug": "greyhawk-adventures",
+  "system": "dnd-add1",
+  "title": "Greyhawk Adventures",
+  "kind": "setting",
+  "description": "Un libro de tapa dura de reglas y ambientación para Greyhawk: dioses, personajes, conjuros, objetos y monstruos del mundo de Gygax.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "hardcover",
+      "cover": "/images/rol/greyhawk-adventures/english.webp"
+    }
+  ]
+}

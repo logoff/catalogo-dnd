@@ -1,0 +1,17 @@
+{
+  "slug": "fr2-moonshae",
+  "system": "dnd-add1",
+  "title": "FR2 Moonshae",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1987, en un cuadernillo de 64 páginas con cubierta. Lo escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/fr2-moonshae/english.webp"
+    }
+  ]
+}

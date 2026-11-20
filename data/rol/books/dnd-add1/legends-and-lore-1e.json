@@ -1,0 +1,17 @@
+{
+  "slug": "legends-and-lore-1e",
+  "system": "dnd-add1",
+  "title": "Legends & Lore",
+  "kind": "supplement",
+  "description": "La reedición de Deities & Demigods con otro título, sin los panteones de Moorcock y de Lovecraft por cuestiones de derechos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "hardcover",
+      "cover": "/images/rol/legends-and-lore-1e/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "fiend-folio-1e",
+  "system": "dnd-add1",
+  "title": "Fiend Folio",
+  "kind": "supplement",
+  "description": "Un bestiario de monstruos nuevos, muchos procedentes de la sección Fiend Factory de la revista británica White Dwarf, como el githyanki, el githzerai o el slaad.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "hardcover",
+      "cover": "/images/rol/fiend-folio-1e/english.webp"
+    }
+  ]
+}

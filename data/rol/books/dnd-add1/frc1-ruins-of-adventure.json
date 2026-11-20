@@ -1,0 +1,17 @@
+{
+  "slug": "frc1-ruins-of-adventure",
+  "system": "dnd-add1",
+  "title": "FRC1 Ruins of Adventure",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1988, en un libro en rústica de 96 páginas. La escribió Mike Breault, David Cook, Jim Ward y Steve Winter.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-frc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/frc1-ruins-of-adventure/english.webp"
+    }
+  ]
+}

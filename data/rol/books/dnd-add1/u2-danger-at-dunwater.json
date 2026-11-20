@@ -1,0 +1,16 @@
+{
+  "slug": "u2-danger-at-dunwater",
+  "system": "dnd-add1",
+  "title": "U2 Danger at Dunwater",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1982. La escribió Dave J. Browne with Don Turnbull.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-u.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "cover": "/images/rol/u2-danger-at-dunwater/english.webp"
+    }
+  ]
+}

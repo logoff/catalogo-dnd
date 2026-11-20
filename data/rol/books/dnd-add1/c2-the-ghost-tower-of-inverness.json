@@ -1,0 +1,17 @@
+{
+  "slug": "c2-the-ghost-tower-of-inverness",
+  "system": "dnd-add1",
+  "title": "C2 The Ghost Tower of Inverness",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 1.ª edición que TSR publicó en 1980, en un cuadernillo de 32 páginas con cubierta. La escribió Allen Hammack.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/c2-the-ghost-tower-of-inverness/english.webp"
+    }
+  ]
+}

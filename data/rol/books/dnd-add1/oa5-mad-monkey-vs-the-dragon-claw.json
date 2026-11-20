@@ -1,0 +1,17 @@
+{
+  "slug": "oa5-mad-monkey-vs-the-dragon-claw",
+  "system": "dnd-add1",
+  "title": "OA5 Mad Monkey vs the Dragon Claw",
+  "kind": "adventure",
+  "description": "Aventura de Kara-Tur (Oriental Adventures) que TSR publicó en 1988, en un cuadernillo de 64 páginas con cubierta. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/oa5-mad-monkey-vs-the-dragon-claw/english.webp"
+    }
+  ]
+}

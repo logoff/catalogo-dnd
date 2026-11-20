@@ -1,0 +1,17 @@
+{
+  "slug": "the-atlas-of-the-dragonlance-world",
+  "system": "dnd-add1",
+  "title": "The Atlas of the Dragonlance World",
+  "kind": "setting",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1987, en un libro en rústica de 172 páginas. Lo escribió Karen Wynn Fonstad.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/the-atlas-of-the-dragonlance-world/english.webp"
+    }
+  ]
+}
