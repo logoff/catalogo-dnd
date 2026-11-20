@@ -16,6 +16,7 @@ import RpgSystemPage from './pages/RpgSystemPage'
 import RpgBookPage from './pages/RpgBookPage'
 import LicenseDetailPage from './pages/LicenseDetailPage'
 import DndEditionsPage from './pages/DndEditionsPage'
+import RpgTreePage from './pages/RpgTreePage'
 import NotFoundPage from './pages/NotFoundPage'
 import GuidesPage from './pages/GuidesPage'
 import LegalPage from './pages/LegalPage'
@@ -48,6 +49,7 @@ export default function AppRoutes() {
         <Route path="novelas" element={<NovelsPage />} />
         <Route path="novela/:slug" element={<NovelDetailPage />} />
         <Route path="rol" element={<RpgSectionPage />} />
+        <Route path="rol/arbol" element={<RpgTreePage />} />
         <Route path="rol/:system" element={<RpgSystemPage />} />
         <Route path="rol/:system/:book" element={<RpgBookPage />} />
         <Route path="ediciones" element={<DndEditionsPage />} />

@@ -32,6 +32,14 @@ export default function DndEditionsPage() {
           description="Todas las ediciones de Dungeons & Dragons, de la más antigua a la actual. Las anteriores a la 5E tienen aquí su ficha y todos sus libros oficiales, con su edición en castellano si salió; son libros descatalogados, sin enlaces de compra. La 5E y la 5.5E enlazan a su catálogo."
         />
 
+        <p className="mb-6 text-sm text-muted">
+          Cómo se relacionan entre sí y con los juegos que derivan de ellas, en el{' '}
+          <Link to="/rol/arbol" className="text-fg underline underline-offset-2 hover:text-accent">
+            árbol genealógico
+          </Link>
+          .
+        </p>
+
         <ol className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {editions.map((edition) => {
             const count = booksOf(edition.slug)
