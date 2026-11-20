@@ -1,0 +1,19 @@
+{
+  "slug": "13th-age-2e-gamemasters-guide",
+  "system": "13th-age-2e",
+  "title": "13th Age Second Edition: Gamemaster's Guide",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de 13th Age 2E: consejos para dirigir y llevar campañas, reglas para el director, monstruos, tesoros, el Imperio del Dragón y una aventura de introducción nueva.\n\nEs el segundo tomo del libro básico, junto al Heroes' Handbook. Solo ha salido en inglés.",
+  "source": "https://pelgranepress.com/13th-age-second-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Pelgrane Press",
+      "date": "2025",
+      "format": "hardcover",
+      "isbn13": 9781912324590,
+      "cover": "/images/rol/13th-age-2e-gamemasters-guide/english.webp"
+    }
+  ]
+}
