@@ -1,0 +1,27 @@
+{
+  "slug": "sharn-city-of-towers",
+  "system": "dnd-3-5",
+  "title": "Sharn: City of Towers",
+  "kind": "setting",
+  "description": "Sharn, la mayor ciudad de Khorvaire, una metrópoli de torres inmensas: sus distritos y niveles, sus organizaciones, sus personajes y sus peligros, con reglas y opciones para aventuras urbanas.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Sharn:_City_of_Towers",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-11",
+      "format": "hardcover",
+      "isbn13": 9780786934348,
+      "cover": "/images/rol/sharn-city-of-towers/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Sharn, la Ciudad de las Torres",
+      "publisher": "Devir",
+      "date": "2005-04",
+      "format": "hardcover",
+      "isbn13": 9788496422285,
+      "source": "https://www.todostuslibros.com/libros/sharn-la-ciudad-de-las-torres_978-84-96422-28-5"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "whispers-of-the-vampires-blade",
+  "system": "dnd-3-5",
+  "title": "Whispers of the Vampire's Blade",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de 4.º nivel que continúa Shadows of the Last War, aunque se puede jugar sola, y lleva a los personajes a recorrer Khorvaire.\n\nEs la segunda de la serie de tres. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Whispers_of_the_Vampire%27s_Blade",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-09",
+      "format": "paperback",
+      "isbn13": 9780786935109,
+      "cover": "/images/rol/whispers-of-the-vampires-blade/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Susurros de la Hoja del Vampiro",
+      "publisher": "Devir",
+      "date": "2005-04",
+      "format": "paperback",
+      "isbn13": 9788496422186,
+      "source": "https://www.todostuslibros.com/libros/susurros-de-la-hoja-del-vampiro_978-84-96422-18-6"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "faiths-of-eberron",
+  "system": "dnd-3-5",
+  "title": "Faiths of Eberron",
+  "kind": "setting",
+  "description": "Las religiones de Eberron: la Hueste Soberana y los Seis Oscuros, la joven Llama de Plata, la Sangre de Vol y otras creencias, con sus iglesias, sus sectas y opciones para personajes devotos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Faiths_of_Eberron",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-09",
+      "format": "hardcover",
+      "isbn13": 9780786939343,
+      "cover": "/images/rol/faiths-of-eberron/english.webp"
+    }
+  ]
+}
