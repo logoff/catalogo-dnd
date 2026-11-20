@@ -1,0 +1,16 @@
+{
+  "slug": "introduction-to-the-land-of-the-mists",
+  "system": "dnd-add2",
+  "title": "Introduction to the Land of the Mists",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1998.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "cover": "/images/rol/introduction-to-the-land-of-the-mists/english.webp"
+    }
+  ]
+}

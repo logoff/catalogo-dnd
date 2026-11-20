@@ -1,0 +1,17 @@
+{
+  "slug": "fr15-gold-and-glory",
+  "system": "dnd-add2",
+  "title": "FR15 Gold & Glory",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1992, en un libro en rústica de 64 páginas. Lo escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/fr15-gold-and-glory/english.webp"
+    }
+  ]
+}

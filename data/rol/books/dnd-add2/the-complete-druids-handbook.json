@@ -1,0 +1,17 @@
+{
+  "slug": "the-complete-druids-handbook",
+  "system": "dnd-add2",
+  "title": "The Complete Druid's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para druidas, con kits, druidas de cada tipo de terreno y su jerarquía.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/the-complete-druids-handbook/english.webp"
+    }
+  ]
+}

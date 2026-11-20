@@ -1,0 +1,26 @@
+{
+  "slug": "dle2-dragon-magic",
+  "system": "dnd-add2",
+  "title": "DLE2 Dragon Magic",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1989, en un cuadernillo de 64 páginas con cubierta. La escribió Rick Swan.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dle.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/dle2-dragon-magic/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Magia de Dragón",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dle2-dragon-magic/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

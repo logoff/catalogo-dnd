@@ -1,0 +1,17 @@
+{
+  "slug": "bastion-of-faith",
+  "system": "dnd-add2",
+  "title": "Bastion of Faith",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1999, en un libro en rústica de 96 páginas. Lo escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/bastion-of-faith/english.webp"
+    }
+  ]
+}

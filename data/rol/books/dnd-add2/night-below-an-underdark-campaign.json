@@ -1,0 +1,17 @@
+{
+  "slug": "night-below-an-underdark-campaign",
+  "system": "dnd-add2",
+  "title": "Night Below: An Underdark Campaign",
+  "kind": "adventure",
+  "description": "Una gran campaña en caja que lleva a los personajes desde un pueblo hasta las profundidades de la Infraoscuridad.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/night-below-an-underdark-campaign/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-legend-of-spelljammer",
+  "system": "dnd-add2",
+  "title": "The Legend of Spelljammer",
+  "kind": "setting",
+  "description": "Suplemento de Spelljammer que TSR publicó en 1991, en una caja. Lo escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-legend-of-spelljammer/english.webp"
+    }
+  ]
+}

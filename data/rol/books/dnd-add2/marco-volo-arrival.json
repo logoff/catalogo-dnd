@@ -1,0 +1,17 @@
+{
+  "slug": "marco-volo-arrival",
+  "system": "dnd-add2",
+  "title": "Marco Volo: Arrival",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1994, en un libro de 32 páginas. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-mv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/marco-volo-arrival/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "children-of-the-night-werebeasts",
+  "system": "dnd-add2",
+  "title": "Children of the Night: Werebeasts",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1998, en un libro en rústica de 96 páginas. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-cotn.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/children-of-the-night-werebeasts/english.webp"
+    }
+  ]
+}

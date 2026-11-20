@@ -1,0 +1,17 @@
+{
+  "slug": "a-players-primer-to-the-outlands",
+  "system": "dnd-add2",
+  "title": "A Player's Primer to the Outlands",
+  "kind": "setting",
+  "description": "Suplemento de Planescape que TSR publicó en 1995, en una caja. Lo escribió Jeff Grubb y Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/a-players-primer-to-the-outlands/english.webp"
+    }
+  ]
+}

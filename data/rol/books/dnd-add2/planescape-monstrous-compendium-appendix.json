@@ -1,0 +1,17 @@
+{
+  "slug": "planescape-monstrous-compendium-appendix",
+  "system": "dnd-add2",
+  "title": "Planescape: Monstrous Compendium Appendix",
+  "kind": "setting",
+  "description": "Suplemento de Planescape que TSR publicó en 1994, en un libro en rústica de 128 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/planescape-monstrous-compendium-appendix/english.webp"
+    }
+  ]
+}

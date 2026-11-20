@@ -1,0 +1,17 @@
+{
+  "slug": "servants-of-darkness",
+  "system": "dnd-add2",
+  "title": "Servants of Darkness",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1998, en un libro de 64 páginas. La escribió Kevin Melka y Steve Miller.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/servants-of-darkness/english.webp"
+    }
+  ]
+}

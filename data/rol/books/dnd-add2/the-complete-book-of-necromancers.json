@@ -1,0 +1,17 @@
+{
+  "slug": "the-complete-book-of-necromancers",
+  "system": "dnd-add2",
+  "title": "The Complete Book of Necromancers",
+  "kind": "supplement",
+  "description": "Un manual para Dungeon Masters sobre nigromantes como villanos y personajes: la clase de nigromante especialista, kits y conjuros.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-complete-book-of-necromancers/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "for-duty-and-deity",
+  "system": "dnd-add2",
+  "title": "For Duty & Deity",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1998, en un libro de 64 páginas. La escribió Dale Donovan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/for-duty-and-deity/english.webp"
+    }
+  ]
+}

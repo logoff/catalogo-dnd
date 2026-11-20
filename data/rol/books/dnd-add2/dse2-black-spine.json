@@ -1,0 +1,17 @@
+{
+  "slug": "dse2-black-spine",
+  "system": "dnd-add2",
+  "title": "DSE2 Black Spine",
+  "kind": "adventure",
+  "description": "Aventura de Dark Sun que TSR publicó en 1994, en una caja. La escribió Walter Baas, Dustin Browder, Tom Prusa &.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dse.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/dse2-black-spine/english.webp"
+    }
+  ]
+}

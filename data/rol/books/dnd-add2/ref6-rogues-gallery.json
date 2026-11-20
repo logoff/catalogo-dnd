@@ -1,0 +1,16 @@
+{
+  "slug": "ref6-rogues-gallery",
+  "system": "dnd-add2",
+  "title": "REF6 Rogues' Gallery",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ref-2e.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "cover": "/images/rol/ref6-rogues-gallery/english.webp"
+    }
+  ]
+}

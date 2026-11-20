@@ -1,0 +1,17 @@
+{
+  "slug": "the-book-of-priestcraft",
+  "system": "dnd-add2",
+  "title": "The Book of Priestcraft",
+  "kind": "setting",
+  "description": "Suplemento de Birthright que TSR publicó en 1997, en un libro en rústica de 128 páginas. Lo escribió Rich Baker, Dale Donovan, Duane Maxwell y Ed Stark.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/the-book-of-priestcraft/english.webp"
+    }
+  ]
+}

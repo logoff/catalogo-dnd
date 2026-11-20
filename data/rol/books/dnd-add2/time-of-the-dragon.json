@@ -1,0 +1,26 @@
+{
+  "slug": "time-of-the-dragon",
+  "system": "dnd-add2",
+  "title": "Time of the Dragon",
+  "kind": "setting",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1989, en una caja. Lo escribió David \"Zen\" Cook.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "boxed_set",
+      "cover": "/images/rol/time-of-the-dragon/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Tiempo del Dragón",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/time-of-the-dragon/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-box.html"
+    }
+  ]
+}

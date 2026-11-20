@@ -1,0 +1,17 @@
+{
+  "slug": "wg11-puppets",
+  "system": "dnd-add2",
+  "title": "WG11 Puppets",
+  "kind": "adventure",
+  "description": "Aventura de Greyhawk que TSR publicó en 1989, en un libro de 32 páginas. La escribió Vince Garcia y Bruce Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/wg11-puppets/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "rq2-thoughts-of-darkness",
+  "system": "dnd-add2",
+  "title": "RQ2 Thoughts of Darkness",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1992, en un cuadernillo de 64 páginas con cubierta. La escribió David Wise.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/rq2-thoughts-of-darkness/english.webp"
+    }
+  ]
+}

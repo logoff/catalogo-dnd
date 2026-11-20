@@ -1,0 +1,17 @@
+{
+  "slug": "the-forgotten-terror",
+  "system": "dnd-add2",
+  "title": "The Forgotten Terror",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1997, en un cuadernillo de 64 páginas con cubierta. La escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/the-forgotten-terror/english.webp"
+    }
+  ]
+}

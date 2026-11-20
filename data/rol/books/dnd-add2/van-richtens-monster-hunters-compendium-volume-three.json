@@ -1,0 +1,16 @@
+{
+  "slug": "van-richtens-monster-hunters-compendium-volume-three",
+  "system": "dnd-add2",
+  "title": "Van Richten's Monster Hunter's Compendium Volume Three",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 2000. Lo escribió David Wise, Steve Miller y Teeuwyn Woodruff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-mhc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "cover": "/images/rol/van-richtens-monster-hunters-compendium-volume-three/english.webp"
+    }
+  ]
+}

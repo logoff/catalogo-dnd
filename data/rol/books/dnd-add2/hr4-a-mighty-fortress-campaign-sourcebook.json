@@ -1,0 +1,17 @@
+{
+  "slug": "hr4-a-mighty-fortress-campaign-sourcebook",
+  "system": "dnd-add2",
+  "title": "HR4 A Mighty Fortress Campaign Sourcebook",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992, en un libro en rústica de 96 páginas. Lo escribió Steve Winter.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hr4-a-mighty-fortress-campaign-sourcebook/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "rr10-van-richtens-guide-to-fiends",
+  "system": "dnd-add2",
+  "title": "RR10 Van Richten's Guide to Fiends",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1995, en un libro de 96 páginas. Lo escribió Teeuwyn Woodruff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/rr10-van-richtens-guide-to-fiends/english.webp"
+    }
+  ]
+}

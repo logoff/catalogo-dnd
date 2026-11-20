@@ -1,0 +1,17 @@
+{
+  "slug": "dungeon-builders-guidebook",
+  "system": "dnd-add2",
+  "title": "Dungeon Builder's Guidebook",
+  "kind": "supplement",
+  "description": "Una guía para diseñar mazmorras paso a paso, con tablas y consejos para poblarlas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/dungeon-builders-guidebook/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "encyclopedia-magica-volume-one",
+  "system": "dnd-add2",
+  "title": "Encyclopedia Magica Volume One",
+  "kind": "supplement",
+  "description": "El primer tomo de la enciclopedia de objetos mágicos de AD&D: todos los objetos publicados hasta entonces por TSR, ordenados alfabéticamente.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-em.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/encyclopedia-magica-volume-one/english.webp"
+    }
+  ]
+}

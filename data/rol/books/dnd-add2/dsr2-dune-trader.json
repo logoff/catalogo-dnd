@@ -1,0 +1,26 @@
+{
+  "slug": "dsr2-dune-trader",
+  "system": "dnd-add2",
+  "title": "DSR2 Dune Trader",
+  "kind": "setting",
+  "description": "Suplemento de Dark Sun que TSR publicó en 1992, en un libro de 96 páginas. Lo escribió Anthony Pryor.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dsr2-dune-trader/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Mercader de las Dunas",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/dsr2-dune-trader/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

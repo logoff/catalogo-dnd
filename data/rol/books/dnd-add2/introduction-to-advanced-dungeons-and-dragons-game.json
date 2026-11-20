@@ -1,0 +1,17 @@
+{
+  "slug": "introduction-to-advanced-dungeons-and-dragons-game",
+  "system": "dnd-add2",
+  "title": "Introduction to Advanced Dungeons & Dragons Game",
+  "kind": "starter",
+  "description": "Caja de iniciación de AD&D 2.ª edición que TSR publicó en 1995, en una caja. La escribió L. Richard Baker III, David \"Zeb\" Cook, Kevin Melka y Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/introduction-to-advanced-dungeons-and-dragons-game/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "spelljammer-adandd-adventures-in-space",
+  "system": "dnd-add2",
+  "title": "Spelljammer: AD&D Adventures in Space",
+  "kind": "setting",
+  "description": "La caja básica de Spelljammer: fantasía en el espacio con barcos voladores que viajan entre las esferas de cristal de los mundos de D&D.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "boxed_set",
+      "cover": "/images/rol/spelljammer-adandd-adventures-in-space/english.webp"
+    }
+  ]
+}

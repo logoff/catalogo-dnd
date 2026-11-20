@@ -1,0 +1,17 @@
+{
+  "slug": "wgr5-iuz-the-evil",
+  "system": "dnd-add2",
+  "title": "WGR5 Iuz the Evil",
+  "kind": "setting",
+  "description": "Suplemento de Greyhawk que TSR publicó en 1993, en un libro de 96 páginas. Lo escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/wgr5-iuz-the-evil/english.webp"
+    }
+  ]
+}

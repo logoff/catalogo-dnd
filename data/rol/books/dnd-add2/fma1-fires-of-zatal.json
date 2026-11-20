@@ -1,0 +1,17 @@
+{
+  "slug": "fma1-fires-of-zatal",
+  "system": "dnd-add2",
+  "title": "FMA1 Fires of Zatal",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1991, en un cuadernillo de 64 páginas con cubierta. La escribió Jeff Grubb y Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/fma1-fires-of-zatal/english.webp"
+    }
+  ]
+}

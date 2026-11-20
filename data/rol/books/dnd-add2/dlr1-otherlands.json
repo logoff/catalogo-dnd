@@ -1,0 +1,17 @@
+{
+  "slug": "dlr1-otherlands",
+  "system": "dnd-add2",
+  "title": "DLR1 Otherlands",
+  "kind": "setting",
+  "description": "Suplemento de Dragonlance que TSR publicó en 1990, en un libro de 96 páginas. Lo escribió Scott Haring, Scott Bennie y John Terra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/dlr1-otherlands/english.webp"
+    }
+  ]
+}

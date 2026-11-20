@@ -1,0 +1,16 @@
+{
+  "slug": "mc2-monstrous-compendium-volume-two",
+  "system": "dnd-add2",
+  "title": "MC2 Monstrous Compendium Volume Two",
+  "kind": "core",
+  "description": "El segundo volumen del bestiario en hojas sueltas de AD&D 2.ª edición, que completa al primero con más monstruos para la carpeta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "cover": "/images/rol/mc2-monstrous-compendium-volume-two/english.webp"
+    }
+  ]
+}

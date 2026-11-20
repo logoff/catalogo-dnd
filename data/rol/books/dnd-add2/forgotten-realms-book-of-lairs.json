@@ -1,0 +1,17 @@
+{
+  "slug": "forgotten-realms-book-of-lairs",
+  "system": "dnd-add2",
+  "title": "Forgotten Realms Book of Lairs",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1994, en un libro de 96 páginas. Lo escribió Nicky Rea y Sam Witt.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/forgotten-realms-book-of-lairs/english.webp"
+    }
+  ]
+}

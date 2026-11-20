@@ -1,0 +1,17 @@
+{
+  "slug": "phbr2-the-complete-thiefs-handbook",
+  "system": "dnd-add2",
+  "title": "PHBR2 The Complete Thief's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para ladrones: kits como el acróbata o el espía, gremios, pericias, equipo y consejos para jugar con pícaros.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/phbr2-the-complete-thiefs-handbook/english.webp"
+    }
+  ]
+}

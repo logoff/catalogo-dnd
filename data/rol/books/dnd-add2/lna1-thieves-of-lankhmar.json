@@ -1,0 +1,17 @@
+{
+  "slug": "lna1-thieves-of-lankhmar",
+  "system": "dnd-add2",
+  "title": "LNA1 Thieves of Lankhmar",
+  "kind": "adventure",
+  "description": "Aventura de Lankhmar que TSR publicó en 1990, en un libro de 96 páginas. La escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-lna.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/lna1-thieves-of-lankhmar/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-dungeon",
+  "system": "dnd-add2",
+  "title": "Reverse Dungeon",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 2000, en un libro en rústica de 96 páginas. La escribió John D. Rateliff y Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/reverse-dungeon/english.webp"
+    }
+  ]
+}

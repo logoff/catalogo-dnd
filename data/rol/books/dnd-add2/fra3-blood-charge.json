@@ -1,0 +1,17 @@
+{
+  "slug": "fra3-blood-charge",
+  "system": "dnd-add2",
+  "title": "FRA3 Blood Charge",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1990, en un cuadernillo de 64 páginas con cubierta. La escribió Troy Denning.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fra.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/fra3-blood-charge/english.webp"
+    }
+  ]
+}

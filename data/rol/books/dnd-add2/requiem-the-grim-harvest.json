@@ -1,0 +1,17 @@
+{
+  "slug": "requiem-the-grim-harvest",
+  "system": "dnd-add2",
+  "title": "Requiem: The Grim Harvest",
+  "kind": "setting",
+  "description": "Expansión de ambientación de Ravenloft que TSR publicó en 1996, en una caja. La escribió William W. Connors y Lisa Smedman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/requiem-the-grim-harvest/english.webp"
+    }
+  ]
+}

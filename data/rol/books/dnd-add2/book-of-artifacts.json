@@ -1,0 +1,17 @@
+{
+  "slug": "book-of-artifacts",
+  "system": "dnd-add2",
+  "title": "Book of Artifacts",
+  "kind": "supplement",
+  "description": "Una recopilación de artefactos y reliquias de toda la historia de D&D, como la Mano y el Ojo de Vecna o la Vara de las Siete Partes, con sus poderes, sus maldiciones y cómo destruirlos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "hardcover",
+      "cover": "/images/rol/book-of-artifacts/english.webp"
+    }
+  ]
+}

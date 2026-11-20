@@ -1,0 +1,26 @@
+{
+  "slug": "tome-of-magic-2e",
+  "system": "dnd-add2",
+  "title": "Tome of Magic",
+  "kind": "supplement",
+  "description": "Un suplemento de magia para AD&D 2.ª edición que introdujo la magia salvaje y la elementalista, la esfera de conjuros clericales del caos y del tiempo, nuevos conjuros de mago y de sacerdote y objetos mágicos.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-hc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "hardcover",
+      "cover": "/images/rol/tome-of-magic-2e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Tomo de Magia",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "hardcover",
+      "cover": "/images/rol/tome-of-magic-2e/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core-a.html"
+    }
+  ]
+}

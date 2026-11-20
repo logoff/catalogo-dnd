@@ -1,0 +1,17 @@
+{
+  "slug": "the-ruins-of-undermountain-ii-the-deep-levels",
+  "system": "dnd-add2",
+  "title": "The Ruins of Undermountain II: The Deep Levels",
+  "kind": "setting",
+  "description": "La segunda caja de Bajomontaña, que describe sus niveles profundos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-ruins-of-undermountain-ii-the-deep-levels/english.webp"
+    }
+  ]
+}

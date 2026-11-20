@@ -1,0 +1,16 @@
+{
+  "slug": "mc6-monstrous-compendium-kara-tur-appendix",
+  "system": "dnd-add2",
+  "title": "MC6 Monstrous Compendium Kara-Tur Appendix",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1990.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "cover": "/images/rol/mc6-monstrous-compendium-kara-tur-appendix/english.webp"
+    }
+  ]
+}

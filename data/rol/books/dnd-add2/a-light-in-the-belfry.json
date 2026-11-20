@@ -1,0 +1,17 @@
+{
+  "slug": "a-light-in-the-belfry",
+  "system": "dnd-add2",
+  "title": "A Light in the Belfry",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1996, en una caja. La escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/a-light-in-the-belfry/english.webp"
+    }
+  ]
+}

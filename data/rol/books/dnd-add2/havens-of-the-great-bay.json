@@ -1,0 +1,17 @@
+{
+  "slug": "havens-of-the-great-bay",
+  "system": "dnd-add2",
+  "title": "Havens of the Great Bay",
+  "kind": "setting",
+  "description": "Suplemento de Birthright que TSR publicó en 1996, en una caja. Lo escribió Ed Stark.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/havens-of-the-great-bay/english.webp"
+    }
+  ]
+}

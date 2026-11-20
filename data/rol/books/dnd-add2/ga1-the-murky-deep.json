@@ -1,0 +1,17 @@
+{
+  "slug": "ga1-the-murky-deep",
+  "system": "dnd-add2",
+  "title": "GA1 The Murky Deep",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1993, en un cuadernillo de 32 páginas con cubierta. La escribió Norman B. Ritchie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/ga1-the-murky-deep/english.webp"
+    }
+  ]
+}

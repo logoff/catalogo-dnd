@@ -1,0 +1,26 @@
+{
+  "slug": "dls4-wild-elves",
+  "system": "dnd-add2",
+  "title": "DLS4 Wild Elves",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1991, en un cuadernillo de 64 páginas con cubierta. La escribió Scott Bennie.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dls.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dls4-wild-elves/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Elfos Salvajes",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dls4-wild-elves/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

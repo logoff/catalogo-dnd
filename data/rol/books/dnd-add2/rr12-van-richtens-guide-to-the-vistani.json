@@ -1,0 +1,17 @@
+{
+  "slug": "rr12-van-richtens-guide-to-the-vistani",
+  "system": "dnd-add2",
+  "title": "RR12 Van Richten's Guide to the Vistani",
+  "kind": "setting",
+  "description": "Suplemento de Ravenloft que TSR publicó en 1995, en un libro de 96 páginas. Lo escribió David Wise.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/rr12-van-richtens-guide-to-the-vistani/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "four-from-cormyr",
+  "system": "dnd-add2",
+  "title": "Four From Cormyr",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1997, en un libro en rústica de 128 páginas. La escribió John Terra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/four-from-cormyr/english.webp"
+    }
+  ]
+}

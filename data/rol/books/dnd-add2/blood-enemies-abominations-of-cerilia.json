@@ -1,0 +1,17 @@
+{
+  "slug": "blood-enemies-abominations-of-cerilia",
+  "system": "dnd-add2",
+  "title": "Blood Enemies: Abominations of Cerilia",
+  "kind": "setting",
+  "description": "Suplemento de Birthright que TSR publicó en 1995, en un libro en rústica de 128 páginas. Lo escribió slade.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/blood-enemies-abominations-of-cerilia/english.webp"
+    }
+  ]
+}

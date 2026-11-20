@@ -1,0 +1,26 @@
+{
+  "slug": "the-scarlet-brotherhood",
+  "system": "dnd-add2",
+  "title": "The Scarlet Brotherhood",
+  "kind": "setting",
+  "description": "Suplemento de Greyhawk que TSR publicó en 1999, en un libro en rústica de 96 páginas. Lo escribió Sean Reynolds.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/the-scarlet-brotherhood/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Hermandad Escarlata",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/the-scarlet-brotherhood/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-gh-acc.html"
+    }
+  ]
+}

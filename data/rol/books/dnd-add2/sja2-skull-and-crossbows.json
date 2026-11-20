@@ -1,0 +1,17 @@
+{
+  "slug": "sja2-skull-and-crossbows",
+  "system": "dnd-add2",
+  "title": "SJA2 Skull & Crossbows",
+  "kind": "adventure",
+  "description": "Aventura de Spelljammer que TSR publicó en 1990, en un cuadernillo de 64 páginas con cubierta. La escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sja.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/sja2-skull-and-crossbows/english.webp"
+    }
+  ]
+}

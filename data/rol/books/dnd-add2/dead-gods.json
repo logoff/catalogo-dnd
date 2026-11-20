@@ -1,0 +1,17 @@
+{
+  "slug": "dead-gods",
+  "system": "dnd-add2",
+  "title": "Dead Gods",
+  "kind": "adventure",
+  "description": "Aventura de Planescape que TSR publicó en 1997, en un libro en rústica de 176 páginas. La escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/dead-gods/english.webp"
+    }
+  ]
+}

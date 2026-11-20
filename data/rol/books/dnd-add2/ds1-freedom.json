@@ -1,0 +1,26 @@
+{
+  "slug": "ds1-freedom",
+  "system": "dnd-add2",
+  "title": "DS1 Freedom",
+  "kind": "adventure",
+  "description": "Aventura de Dark Sun que TSR publicó en 1991, en una caja. La escribió David \"Zeb\" Cook.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-ds.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/ds1-freedom/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Libertad",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/ds1-freedom/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "moonlight-madness",
+  "system": "dnd-add2",
+  "title": "Moonlight Madness",
+  "kind": "adventure",
+  "description": "Aventura de AD&D 2.ª edición que TSR publicó en 1998, en un libro de 48 páginas. La escribió Penny y Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/moonlight-madness/english.webp"
+    }
+  ]
+}

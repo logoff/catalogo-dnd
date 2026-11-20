@@ -1,0 +1,17 @@
+{
+  "slug": "chronomancer",
+  "system": "dnd-add2",
+  "title": "Chronomancer",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1995, en un libro de 96 páginas. Lo escribió Loren Coleman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/chronomancer/english.webp"
+    }
+  ]
+}

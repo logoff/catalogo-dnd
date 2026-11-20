@@ -1,0 +1,17 @@
+{
+  "slug": "ravenloft-2e",
+  "system": "dnd-add2",
+  "title": "Ravenloft",
+  "kind": "adventure",
+  "description": "La puesta al día de la aventura clásica de 1983 de Strahd von Zarovich, por el 25.º aniversario de D&D.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-25.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/ravenloft-2e/english.webp"
+    }
+  ]
+}

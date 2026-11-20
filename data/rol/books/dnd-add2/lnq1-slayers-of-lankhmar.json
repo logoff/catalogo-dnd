@@ -1,0 +1,17 @@
+{
+  "slug": "lnq1-slayers-of-lankhmar",
+  "system": "dnd-add2",
+  "title": "LNQ1 Slayers of Lankhmar",
+  "kind": "adventure",
+  "description": "Aventura de Lankhmar que TSR publicó en 1992, en un cuadernillo de 64 páginas con cubierta. La escribió Slade Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-lnq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/lnq1-slayers-of-lankhmar/english.webp"
+    }
+  ]
+}

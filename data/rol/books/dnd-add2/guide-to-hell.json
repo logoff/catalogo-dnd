@@ -1,0 +1,17 @@
+{
+  "slug": "guide-to-hell",
+  "system": "dnd-add2",
+  "title": "Guide to Hell",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1999, en un libro en rústica de 64 páginas. Lo escribió Chris Pramas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/guide-to-hell/english.webp"
+    }
+  ]
+}

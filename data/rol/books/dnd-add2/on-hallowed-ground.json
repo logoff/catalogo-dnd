@@ -1,0 +1,17 @@
+{
+  "slug": "on-hallowed-ground",
+  "system": "dnd-add2",
+  "title": "On Hallowed Ground",
+  "kind": "setting",
+  "description": "Suplemento de Planescape que TSR publicó en 1996, en un libro en rústica de 192 páginas. Lo escribió Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/on-hallowed-ground/english.webp"
+    }
+  ]
+}

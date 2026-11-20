@@ -1,0 +1,17 @@
+{
+  "slug": "frm1-the-jungles-of-chult",
+  "system": "dnd-add2",
+  "title": "FRM1 The Jungles of Chult",
+  "kind": "adventure",
+  "description": "Aventura de Reinos Olvidados que TSR publicó en 1993, en un cuadernillo de 64 páginas con cubierta. La escribió James Lowder y Jean Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-frm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/frm1-the-jungles-of-chult/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "phbr8-the-complete-book-of-elves",
+  "system": "dnd-add2",
+  "title": "PHBR8 The Complete Book of Elves",
+  "kind": "supplement",
+  "description": "El manual de raza de los elfos: subrazas, cultura, magia élfica, kits y opciones de juego.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/phbr8-the-complete-book-of-elves/english.webp"
+    }
+  ]
+}

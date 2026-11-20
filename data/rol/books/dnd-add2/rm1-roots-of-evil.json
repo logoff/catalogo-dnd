@@ -1,0 +1,17 @@
+{
+  "slug": "rm1-roots-of-evil",
+  "system": "dnd-add2",
+  "title": "RM1 Roots of Evil",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1993, en un cuadernillo de 96 páginas con cubierta. La escribió Eric Haddock y David Wise.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rm1-roots-of-evil/english.webp"
+    }
+  ]
+}

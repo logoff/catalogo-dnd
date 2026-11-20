@@ -1,0 +1,17 @@
+{
+  "slug": "dmgr8-sages-and-specialists",
+  "system": "dnd-add2",
+  "title": "DMGR8 Sages & Specialists",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1996, en un libro en rústica de 128 páginas. Lo escribió Matt Forbeck.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr8-sages-and-specialists/english.webp"
+    }
+  ]
+}

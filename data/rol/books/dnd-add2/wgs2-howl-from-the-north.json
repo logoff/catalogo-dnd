@@ -1,0 +1,17 @@
+{
+  "slug": "wgs2-howl-from-the-north",
+  "system": "dnd-add2",
+  "title": "WGS2 Howl From the North",
+  "kind": "adventure",
+  "description": "Aventura de Greyhawk que TSR publicó en 1991, en un libro de 64 páginas. La escribió Dale \"Slade\" Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/wgs2-howl-from-the-north/english.webp"
+    }
+  ]
+}

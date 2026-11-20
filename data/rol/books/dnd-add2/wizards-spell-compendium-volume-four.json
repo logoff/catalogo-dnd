@@ -1,0 +1,17 @@
+{
+  "slug": "wizards-spell-compendium-volume-four",
+  "system": "dnd-add2",
+  "title": "Wizard's Spell Compendium Volume Four",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1998, en un libro en rústica de 288 páginas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-wsc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/wizards-spell-compendium-volume-four/english.webp"
+    }
+  ]
+}

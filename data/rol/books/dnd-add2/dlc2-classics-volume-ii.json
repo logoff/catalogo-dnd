@@ -1,0 +1,25 @@
+{
+  "slug": "dlc2-classics-volume-ii",
+  "system": "dnd-add2",
+  "title": "DLC2 Classics Volume II",
+  "kind": "adventure",
+  "description": "Aventura de Dragonlance que TSR publicó en 1993. La escribió Douglas Niles, Jeff Grubb, Tracy y Laura Hickman.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "cover": "/images/rol/dlc2-classics-volume-ii/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Clasicos Volumen II",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dlc2-classics-volume-ii/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

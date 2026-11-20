@@ -1,0 +1,17 @@
+{
+  "slug": "dsq3-asticlian-gambit",
+  "system": "dnd-add2",
+  "title": "DSQ3 Asticlian Gambit",
+  "kind": "adventure",
+  "description": "Aventura de Dark Sun que TSR publicó en 1992, en una caja. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/dsq3-asticlian-gambit/english.webp"
+    }
+  ]
+}

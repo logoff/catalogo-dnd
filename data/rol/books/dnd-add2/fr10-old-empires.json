@@ -1,0 +1,17 @@
+{
+  "slug": "fr10-old-empires",
+  "system": "dnd-add2",
+  "title": "FR10 Old Empires",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1990, en un cuadernillo de 96 páginas con cubierta. Lo escribió Scott Bennie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/fr10-old-empires/english.webp"
+    }
+  ]
+}

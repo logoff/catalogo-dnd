@@ -1,0 +1,17 @@
+{
+  "slug": "sword-and-crown",
+  "system": "dnd-add2",
+  "title": "Sword and Crown",
+  "kind": "adventure",
+  "description": "Aventura de Birthright que TSR publicó en 1995, en un libro de 64 páginas. La escribió Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/sword-and-crown/english.webp"
+    }
+  ]
+}

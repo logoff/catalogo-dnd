@@ -1,0 +1,17 @@
+{
+  "slug": "world-builders-guidebook",
+  "system": "dnd-add2",
+  "title": "World Builder's Guidebook",
+  "kind": "supplement",
+  "description": "Una guía para crear mundos de campaña propios paso a paso: geografía, culturas, historia y religiones, con tablas y hojas de trabajo.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/world-builders-guidebook/english.webp"
+    }
+  ]
+}

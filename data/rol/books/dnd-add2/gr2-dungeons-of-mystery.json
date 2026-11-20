@@ -1,0 +1,17 @@
+{
+  "slug": "gr2-dungeons-of-mystery",
+  "system": "dnd-add2",
+  "title": "GR2 Dungeons of Mystery",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992, en una caja. Lo escribió Tim Beach y Dennis Kauth.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-gr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/gr2-dungeons-of-mystery/english.webp"
+    }
+  ]
+}

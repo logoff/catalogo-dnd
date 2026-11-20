@@ -1,0 +1,17 @@
+{
+  "slug": "alq2-assassin-mountain",
+  "system": "dnd-add2",
+  "title": "ALQ2 Assassin Mountain",
+  "kind": "adventure",
+  "description": "Aventura de Al-Qadim que TSR publicó en 1993, en una caja. La escribió Wolfgang Baur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-alq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/alq2-assassin-mountain/english.webp"
+    }
+  ]
+}

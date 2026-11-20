@@ -1,0 +1,17 @@
+{
+  "slug": "phbr11-the-complete-rangers-handbook",
+  "system": "dnd-add2",
+  "title": "PHBR11 The Complete Ranger's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para exploradores, con kits, especies favoritas, compañeros animales y consejos de supervivencia.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/phbr11-the-complete-rangers-handbook/english.webp"
+    }
+  ]
+}

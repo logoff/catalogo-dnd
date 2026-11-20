@@ -1,0 +1,17 @@
+{
+  "slug": "for5-elves-of-evermeet",
+  "system": "dnd-add2",
+  "title": "FOR5 Elves of Evermeet",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1994, en un libro en rústica de 128 páginas. Lo escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-for.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/for5-elves-of-evermeet/english.webp"
+    }
+  ]
+}

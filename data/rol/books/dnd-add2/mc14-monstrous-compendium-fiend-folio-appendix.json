@@ -1,0 +1,16 @@
+{
+  "slug": "mc14-monstrous-compendium-fiend-folio-appendix",
+  "system": "dnd-add2",
+  "title": "MC14 Monstrous Compendium Fiend Folio Appendix",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1992.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "cover": "/images/rol/mc14-monstrous-compendium-fiend-folio-appendix/english.webp"
+    }
+  ]
+}

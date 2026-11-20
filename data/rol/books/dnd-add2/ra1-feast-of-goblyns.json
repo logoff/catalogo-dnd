@@ -1,0 +1,26 @@
+{
+  "slug": "ra1-feast-of-goblyns",
+  "system": "dnd-add2",
+  "title": "RA1 Feast of Goblyns",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1990, en un cuadernillo de 96 páginas con cubierta. La escribió Blake Mobley.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/rv/rv-ra.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/ra1-feast-of-goblyns/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Fiesta de Goblyns",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/ra1-feast-of-goblyns/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-rv.html"
+    }
+  ]
+}

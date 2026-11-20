@@ -1,0 +1,17 @@
+{
+  "slug": "dark-of-the-moon",
+  "system": "dnd-add2",
+  "title": "Dark of the Moon",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1993, en un cuadernillo de 64 páginas con cubierta. La escribió L. Richard Baker III.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dark-of-the-moon/english.webp"
+    }
+  ]
+}

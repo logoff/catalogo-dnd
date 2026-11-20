@@ -1,0 +1,16 @@
+{
+  "slug": "players-survival-kit",
+  "system": "dnd-add2",
+  "title": "Player's Survival Kit",
+  "kind": "setting",
+  "description": "Suplemento de Mystara que TSR publicó en 1995. Lo escribió John D. Rateliff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ms/ms-sur.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "cover": "/images/rol/players-survival-kit/english.webp"
+    }
+  ]
+}

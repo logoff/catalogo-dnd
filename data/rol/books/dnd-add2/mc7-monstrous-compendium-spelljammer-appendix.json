@@ -1,0 +1,16 @@
+{
+  "slug": "mc7-monstrous-compendium-spelljammer-appendix",
+  "system": "dnd-add2",
+  "title": "MC7 Monstrous Compendium Spelljammer Appendix",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1990.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "cover": "/images/rol/mc7-monstrous-compendium-spelljammer-appendix/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "s5-the-dancing-hut-of-baba-yaga",
+  "system": "dnd-add2",
+  "title": "S5 The Dancing Hut of Baba Yaga",
+  "kind": "adventure",
+  "description": "Una aventura en la cabaña danzante de la bruja Baba Yaga, que retoma un clásico de la revista Dragon.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-s.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/s5-the-dancing-hut-of-baba-yaga/english.webp"
+    }
+  ]
+}

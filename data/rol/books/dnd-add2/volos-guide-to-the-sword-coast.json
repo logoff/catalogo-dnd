@@ -1,0 +1,26 @@
+{
+  "slug": "volos-guide-to-the-sword-coast",
+  "system": "dnd-add2",
+  "title": "Volo's Guide to the Sword Coast",
+  "kind": "setting",
+  "description": "Suplemento de Reinos Olvidados que TSR publicó en 1994, en un libro en rústica de 240 páginas. Lo escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/fr/fr-volo.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-the-sword-coast/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de Volo para la Costa de la Espada",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-the-sword-coast/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-volo.html"
+    }
+  ]
+}

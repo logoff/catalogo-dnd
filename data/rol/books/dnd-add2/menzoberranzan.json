@@ -1,0 +1,17 @@
+{
+  "slug": "menzoberranzan",
+  "system": "dnd-add2",
+  "title": "Menzoberranzan",
+  "kind": "setting",
+  "description": "La ciudad drow de Menzoberranzan, la de la saga de Drizzt de R. A. Salvatore: sus casas nobles, su sociedad, sus lugares y aventuras, en caja.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/menzoberranzan/english.webp"
+    }
+  ]
+}

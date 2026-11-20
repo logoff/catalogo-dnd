@@ -1,0 +1,17 @@
+{
+  "slug": "bleak-house-the-death-of-rudolph-van-richten",
+  "system": "dnd-add2",
+  "title": "Bleak House: The Death of Rudolph van Richten",
+  "kind": "adventure",
+  "description": "Aventura de Ravenloft que TSR publicó en 1996, en una caja. La escribió William W. Connors and Dave Gross with Steve Miller.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/bleak-house-the-death-of-rudolph-van-richten/english.webp"
+    }
+  ]
+}

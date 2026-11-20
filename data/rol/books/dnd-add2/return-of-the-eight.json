@@ -1,0 +1,26 @@
+{
+  "slug": "return-of-the-eight",
+  "system": "dnd-add2",
+  "title": "Return of the Eight",
+  "kind": "adventure",
+  "description": "Aventura de Greyhawk que TSR publicó en 1998, en un libro de 64 páginas. La escribió Roger Moore.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/gh/gh-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/return-of-the-eight/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "El Regreso de los Ocho",
+      "publisher": "Zinco",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/return-of-the-eight/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-gh-adv.html"
+    }
+  ]
+}

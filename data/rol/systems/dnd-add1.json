@@ -1,0 +1,22 @@
+{
+  "slug": "dnd-add1",
+  "name": "AD&D 1.ª edición",
+  "family": "dungeons-and-dragons",
+  "official": true,
+  "publisher": "TSR",
+  "date": "1977",
+  "description": "Advanced Dungeons & Dragons, la versión de D&D que Gary Gygax ordenó y amplió a partir del juego original de 1974. Salió en tres libros de tapa dura, el Monster Manual (1977), el Player's Handbook (1978) y el Dungeon Masters Guide (1979), con reglas mucho más completas que las cajas de D&D: razas y clases separadas, multiclase para no humanos, alineamientos de nueve casillas, tablas de combate, conjuros y tesoros exhaustivos, y la voz inconfundible de Gygax.\n\nCon ella nacieron muchos clásicos: las series de aventuras de los gigantes, los drow y los esclavistas, la Tumba de los Horrores, Ravenloft o las sagas de Dragonlance, además de Greyhawk y los Reinos Olvidados como ambientaciones. Convivió con la línea básica de D&D hasta que en 1989 la sustituyó la 2.ª edición. No consta edición en castellano.",
+  "features": [
+    "Clases y razas separadas, con multiclase para no humanos",
+    "Tablas de combate y tiradas de salvación por clase",
+    "Alineamiento en dos ejes",
+    "Tres tapas duras básicas escritas por Gary Gygax"
+  ],
+  "licenses": [],
+  "links": [
+    {
+      "label": "TSR Archive: Advanced Dungeons & Dragons",
+      "url": "https://www.tsrarchive.com/add/add.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "phbr4-the-complete-wizards-handbook",
+  "system": "dnd-add2",
+  "title": "PHBR4 The Complete Wizard's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para magos: especialistas de cada escuela, kits, investigación mágica y nuevos conjuros.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/phbr4-the-complete-wizards-handbook/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Buen Hechicero",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/phbr4-the-complete-wizards-handbook/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-phbr.html"
+    }
+  ]
+}

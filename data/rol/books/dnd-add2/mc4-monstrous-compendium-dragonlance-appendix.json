@@ -1,0 +1,24 @@
+{
+  "slug": "mc4-monstrous-compendium-dragonlance-appendix",
+  "system": "dnd-add2",
+  "title": "MC4 Monstrous Compendium Dragonlance Appendix",
+  "kind": "supplement",
+  "description": "Suplemento de AD&D 2.ª edición que TSR publicó en 1990.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "cover": "/images/rol/mc4-monstrous-compendium-dragonlance-appendix/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Monstruos Volumen Dos",
+      "publisher": "Zinco",
+      "date": "1994",
+      "cover": "/images/rol/mc4-monstrous-compendium-dragonlance-appendix/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-acc.html"
+    }
+  ]
+}

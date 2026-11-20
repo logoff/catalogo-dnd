@@ -1,0 +1,17 @@
+{
+  "slug": "froa1-ninja-wars",
+  "system": "dnd-add2",
+  "title": "FROA1 Ninja Wars",
+  "kind": "adventure",
+  "description": "Aventura de Kara-Tur (Oriental Adventures) que TSR publicó en 1990, en un cuadernillo de 96 páginas con cubierta. La escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/froa1-ninja-wars/english.webp"
+    }
+  ]
+}

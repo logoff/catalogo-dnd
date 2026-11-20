@@ -1,0 +1,17 @@
+{
+  "slug": "players-option-spells-and-magic",
+  "system": "dnd-add2",
+  "title": "Player's Option: Spells & Magic",
+  "kind": "supplement",
+  "description": "El Player's Option de la magia: puntos de hechizo como alternativa a los espacios de conjuro, nuevas escuelas y especializaciones, reglas de investigación mágica y conjuros.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "hardcover",
+      "cover": "/images/rol/players-option-spells-and-magic/english.webp"
+    }
+  ]
+}
