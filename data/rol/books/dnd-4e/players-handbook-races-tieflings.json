@@ -1,0 +1,18 @@
+{
+  "slug": "players-handbook-races-tieflings",
+  "system": "dnd-4e",
+  "title": "Player's Handbook Races: Tieflings",
+  "kind": "supplement",
+  "description": "Un libro dedicado a los tiflins y su herencia del imperio de Bael Turath, con opciones de personaje, poderes raciales, dotes, sendas de leyenda y destinos épicos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-06",
+      "format": "paperback",
+      "isbn13": 9780786954896,
+      "cover": "/images/rol/players-handbook-races-tieflings/english.webp"
+    }
+  ]
+}

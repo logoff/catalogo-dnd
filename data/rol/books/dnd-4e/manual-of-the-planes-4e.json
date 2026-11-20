@@ -1,0 +1,26 @@
+{
+  "slug": "manual-of-the-planes-4e",
+  "system": "dnd-4e",
+  "title": "Manual of the Planes",
+  "kind": "supplement",
+  "description": "La cosmología de la 4.ª edición, que sustituye a la Gran Rueda: el Mar Astral con los dominios de los dioses, el Caos Elemental, el Páramo Sombrío, el Reino de las Hadas y el Abismo, con lugares, monstruos y reglas para viajar entre ellos.\n\nComparte título con los libros de la 1.ª y 3.ª edición. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Manual_of_the_Planes",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-12",
+      "format": "hardcover",
+      "isbn13": 9780786950027,
+      "cover": "/images/rol/manual-of-the-planes-4e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de los Planos",
+      "publisher": "Devir",
+      "date": "2009-06",
+      "isbn13": 9788496934542,
+      "source": "https://www.todostuslibros.com/libros/d-d-rol-4a-ed-manual-de-los-planos_978-84-96934-54-2"
+    }
+  ]
+}

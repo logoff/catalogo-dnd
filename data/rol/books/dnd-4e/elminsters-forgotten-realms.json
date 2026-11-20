@@ -1,0 +1,18 @@
+{
+  "slug": "elminsters-forgotten-realms",
+  "system": "dnd-4e",
+  "title": "Ed Greenwood Presents Elminster's Forgotten Realms",
+  "kind": "setting",
+  "description": "Los Reinos Olvidados contados por su creador, Ed Greenwood, y por Elminster: la vida cotidiana, las leyes, el dinero, los dioses, la magia y los secretos del mundo.\n\nNo trae reglas: Wizards lo publicó en la transición a la 5.ª edición para que sirviera con cualquiera. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Ed_Greenwood_Presents_Elminster%27s_Forgotten_Realms",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-10",
+      "format": "hardcover",
+      "isbn13": 9780786960347,
+      "cover": "/images/rol/elminsters-forgotten-realms/english.webp"
+    }
+  ]
+}

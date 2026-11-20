@@ -1,0 +1,18 @@
+{
+  "slug": "draconomicon-metallic-dragons",
+  "system": "dnd-4e",
+  "title": "Draconomicon: Metallic Dragons",
+  "kind": "supplement",
+  "description": "Todo sobre los dragones metálicos en la 4.ª edición: su biología, su sociedad y sus guaridas, con dragones de todos los niveles, variedades nuevas y criaturas aliadas.\n\nEs el compañero de Draconomicon: Chromatic Dragons. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Draconomicon",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-11",
+      "format": "hardcover",
+      "isbn13": 9780786952489,
+      "cover": "/images/rol/draconomicon-metallic-dragons/english.webp"
+    }
+  ]
+}

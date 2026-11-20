@@ -1,0 +1,18 @@
+{
+  "slug": "the-plane-below",
+  "system": "dnd-4e",
+  "title": "The Plane Below: Secrets of the Elemental Chaos",
+  "kind": "supplement",
+  "description": "El Caos Elemental, el plano de los elementos en bruto: sus regiones, sus habitantes, los primordiales y los arcontes, con monstruos y aventuras.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-12",
+      "format": "hardcover",
+      "isbn13": 9780786952496,
+      "cover": "/images/rol/the-plane-below/english.webp"
+    }
+  ]
+}

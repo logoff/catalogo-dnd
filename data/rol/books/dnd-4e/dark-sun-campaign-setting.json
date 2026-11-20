@@ -1,0 +1,18 @@
+{
+  "slug": "dark-sun-campaign-setting",
+  "system": "dnd-4e",
+  "title": "Dark Sun Campaign Setting",
+  "kind": "setting",
+  "description": "El regreso de Dark Sun: Athas, un mundo desértico y sin dioses gobernado por reyes hechiceros, con opciones de personaje, reglas de supervivencia y material de campaña.\n\nJunto a Reinos Olvidados y Eberron, fue una de las pocas ambientaciones con libros propios en la 4.ª edición. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dark_Sun_Campaign_Setting",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08",
+      "format": "hardcover",
+      "isbn13": 9780786954933,
+      "cover": "/images/rol/dark-sun-campaign-setting/english.webp"
+    }
+  ]
+}

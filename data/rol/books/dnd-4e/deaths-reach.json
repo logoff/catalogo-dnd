@@ -1,0 +1,17 @@
+{
+  "slug": "deaths-reach",
+  "system": "dnd-4e",
+  "title": "E1 Death's Reach",
+  "kind": "adventure",
+  "description": "La primera aventura épica de la serie, para personajes de nivel 21 a 23, en la que los planes del príncipe demonio Orcus empiezan a amenazar a los propios dioses.\n\nForma parte de la serie H-P-E. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_adventures",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-04",
+      "isbn13": 9780786951024,
+      "cover": "/images/rol/deaths-reach/english.webp"
+    }
+  ]
+}

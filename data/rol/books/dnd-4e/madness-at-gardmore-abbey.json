@@ -1,0 +1,18 @@
+{
+  "slug": "madness-at-gardmore-abbey",
+  "system": "dnd-4e",
+  "title": "Madness at Gardmore Abbey",
+  "kind": "adventure",
+  "description": "Una aventura en caja para personajes de nivel 6 a 8 en una abadía en ruinas del Valle de Nentir, con cuatro libros, mapas, fichas y una baraja de cartas de la Baraja de las Muchas Cosas.\n\nSe considera una de las mejores aventuras de la 4.ª edición. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Madness_at_Gardmore_Abbey",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09",
+      "format": "boxed_set",
+      "isbn13": 9780786958726,
+      "cover": "/images/rol/madness-at-gardmore-abbey/english.webp"
+    }
+  ]
+}

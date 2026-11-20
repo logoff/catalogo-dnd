@@ -1,0 +1,18 @@
+{
+  "slug": "neverwinter-campaign-setting",
+  "system": "dnd-4e",
+  "title": "Neverwinter Campaign Setting",
+  "kind": "setting",
+  "description": "La ciudad de Neverwinter, en la Costa de la Espada, como escenario de campaña: su historia, sus facciones y sus peligros, con trasfondos y temas para personajes ligados a la ciudad.\n\nFormó parte de un año dedicado a Neverwinter, con novelas y un videojuego ambientados en la ciudad. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Neverwinter_Campaign_Setting",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-08",
+      "format": "hardcover",
+      "isbn13": 9780786958146,
+      "cover": "/images/rol/neverwinter-campaign-setting/english.webp"
+    }
+  ]
+}

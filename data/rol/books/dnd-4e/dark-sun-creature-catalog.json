@@ -1,0 +1,18 @@
+{
+  "slug": "dark-sun-creature-catalog",
+  "system": "dnd-4e",
+  "title": "Dark Sun Creature Catalog",
+  "kind": "setting",
+  "description": "Los monstruos, los personajes importantes y los peligros de Athas, con consejos para construir encuentros en Dark Sun; muchos recuperan criaturas de los bestiarios de la ambientación en AD&D.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dark_Sun_Creature_Catalog",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08",
+      "format": "hardcover",
+      "isbn13": 9780786954940,
+      "cover": "/images/rol/dark-sun-creature-catalog/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "king-of-the-trollhaunt-warrens",
+  "system": "dnd-4e",
+  "title": "P1 King of the Trollhaunt Warrens",
+  "kind": "adventure",
+  "description": "La primera aventura de la etapa de leyenda, para personajes de nivel 11 a 13, contra un rey trol y sus huestes en unas ciénagas.\n\nForma parte de la serie H-P-E. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/King_of_the_Trollhaunt_Warrens",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-10",
+      "isbn13": 9780786949281,
+      "cover": "/images/rol/king-of-the-trollhaunt-warrens/english.webp"
+    }
+  ]
+}

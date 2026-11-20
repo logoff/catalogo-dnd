@@ -1,0 +1,18 @@
+{
+  "slug": "heroes-of-the-elemental-chaos",
+  "system": "dnd-4e",
+  "title": "Heroes of the Elemental Chaos",
+  "kind": "supplement",
+  "description": "Opciones para personajes ligados al Caos Elemental y a los primordiales: variantes de clase elementales, temas, dotes, poderes y la historia de los planos elementales.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Heroes_of_the_Elemental_Chaos",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-02",
+      "format": "hardcover",
+      "isbn13": 9780786959815,
+      "cover": "/images/rol/heroes-of-the-elemental-chaos/english.webp"
+    }
+  ]
+}
