@@ -44,3 +44,13 @@ export const worldNames: Record<World, string> = {
   theros: 'Theros',
   strixhaven: 'Strixhaven',
 }
+
+// En las URLs, con guiones: /guias/ambientacion/forgotten-realms
+export const worldSlug = (world: World) => world.replace(/_/g, '-')
+
+export function worldFromSlug(slug: string): World | undefined {
+  const world = slug.replace(/-/g, '_')
+  return (WORLDS as readonly string[]).includes(world) ? (world as World) : undefined
+}
+
+export const worldGuidePath = (world: World) => `/guias/ambientacion/${worldSlug(world)}`

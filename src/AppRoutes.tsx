@@ -28,6 +28,7 @@ import EdgeWizardsGuide from './pages/guides/EdgeWizardsGuide'
 import DrizztReadingOrder from './pages/guides/DrizztReadingOrder'
 import DragonlanceReadingOrder from './pages/guides/DragonlanceReadingOrder'
 import SpanishNovelsGuide from './pages/guides/SpanishNovelsGuide'
+import WorldGuide from './pages/guides/WorldGuide'
 
 // Rutas compartidas por el navegador (App) y el prerenderizado (entry-server)
 export default function AppRoutes() {
@@ -65,6 +66,7 @@ export default function AppRoutes() {
         <Route path="guias/orden-de-lectura-drizzt" element={<DrizztReadingOrder />} />
         <Route path="guias/orden-de-lectura-dragonlance" element={<DragonlanceReadingOrder />} />
         <Route path="guias/novelas-en-castellano" element={<SpanishNovelsGuide />} />
+        <Route path="guias/ambientacion/:world" element={<WorldGuide />} />
         <Route path="aviso-legal" element={<LegalPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>

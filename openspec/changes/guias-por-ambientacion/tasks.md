@@ -10,6 +10,6 @@
 
 ## 2. Guías
 
-- [ ] 2.1 Crear la guía por mundo en `/guias/ambientacion/:mundo` con libros
+- [x] 2.1 Crear la guía por mundo en `/guias/ambientacion/:mundo` con libros
       por edición, novelas y videojuegos; verificar con un test
-- [ ] 2.2 Añadir el grupo «Ambientaciones» a `/guias` y las guías al sitemap
+- [x] 2.2 Añadir el grupo «Ambientaciones» a `/guias` y las guías al sitemap

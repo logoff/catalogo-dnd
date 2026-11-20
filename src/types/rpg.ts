@@ -129,6 +129,7 @@ export interface RpgBookSummary extends Pick<
   | 'title'
   | 'titleEs'
   | 'kind'
+  | 'settings'
   | 'originalDate'
   | 'spanishDate'
   | 'latestDate'
