@@ -1,0 +1,18 @@
+{
+  "slug": "marca-la-lagrima-de-zurah",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La lágrima de Zurâh",
+  "kind": "adventure",
+  "description": "Una aventura en el sur de Eretria, donde un pueblo exiliado, los editas, sometió a las tribus nómadas en nombre de la reina Zurâh.\n\nUna de las aventuras del mecenazgo del megadungeon de 2020.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26124-aventuras-en-la-marca-del-este-la-lagrima-de-zurah.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2020-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26124-aventuras-en-la-marca-del-este-la-lagrima-de-zurah.html",
+      "cover": "/images/rol/marca-la-lagrima-de-zurah/castellano.webp"
+    }
+  ]
+}
