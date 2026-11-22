@@ -1,0 +1,17 @@
+{
+  "slug": "marca-regreso-al-templo-de-los-antiguos",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Regreso al templo de los antiguos",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 2, primera parte de la trilogía El legado del subyugador: los aventureros escoltan a un anciano erudito a un templo antiguo y misterioso lleno de manuscritos y reliquias.\n\nCuadernillo a color de treinta y dos páginas.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41901-aventuras-en-la-marca-del-este-regreso-al-templo-de-los-antiguos-el-legado-del-subyugador-1.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41901-aventuras-en-la-marca-del-este-regreso-al-templo-de-los-antiguos-el-legado-del-subyugador-1.html",
+      "cover": "/images/rol/marca-regreso-al-templo-de-los-antiguos/castellano.webp"
+    }
+  ]
+}

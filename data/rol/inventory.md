@@ -513,57 +513,114 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 
 ### Aventuras en la Marca del Este
 
-| #   | Título                                      | Tipo         | Ficha                                             | Nota               |
-| --- | ------------------------------------------- | ------------ | ------------------------------------------------- | ------------------ |
-| 1   | Aventuras en la Marca del Este              | básico       | aventuras-en-la-marca-del-este                    | castellano, inglés |
-| 2   | Caja Azul: Escenario de Campaña             | ambientación | marca-caja-azul                                   | castellano         |
-| 3   | Grimorio de Conjuros                        | suplemento   | marca-grimorio-de-conjuros                        | castellano         |
-| 4   | Caja Verde: Manual Avanzado                 | básico       | marca-caja-verde                                  | castellano         |
-| 5   | Caja Negra: La Llamada de los Dioses        | aventura     | marca-caja-negra                                  | castellano         |
-| 6   | El Enclave                                  | aventura     | marca-el-enclave                                  | castellano         |
-| 7   | Planes Oscuros                              | aventura     | marca-planes-oscuros                              | castellano         |
-| 8   | Redención                                   | aventura     | marca-redencion                                   | castellano         |
-| 9   | Lo que el ojo no ve                         | aventura     | marca-lo-que-el-ojo-no-ve                         | castellano         |
-| 10  | La cripta nefanda de Uztum el Maldito       | aventura     | marca-la-cripta-nefanda-de-uztum-el-maldito       | castellano         |
-| 11  | La isla misteriosa                          | aventura     | marca-la-isla-misteriosa                          | castellano         |
-| 12  | El orbe de Amonhotep                        | aventura     | marca-el-orbe-de-amonhotep                        | castellano         |
-| 13  | Los salones anegados de Leviatán            | aventura     | marca-los-salones-anegados-de-leviatan            | castellano         |
-| 14  | En busca de la ciudad perdida de Garan      | aventura     | marca-en-busca-de-la-ciudad-perdida-de-garan      | castellano         |
-| 15  | El castillo prohibido de la Reina de Sangre | aventura     | marca-el-castillo-prohibido-de-la-reina-de-sangre | castellano         |
-| 16  | Jernhest: Escenario de Campaña              | ambientación | marca-jernhest                                    | castellano         |
-| 17  | Gazetteer de la Marca del Este              | ambientación | marca-gazetteer-de-la-marca-del-este              | castellano         |
-| 18  | El Arca de los Mil Inviernos                | aventura     | marca-el-arca-de-los-mil-inviernos                | castellano         |
-| 19  | Incursión a la tierra del Dios Azul         | aventura     | marca-incursion-a-la-tierra-del-dios-azul         | castellano         |
-| 20  | La catacumba de los espantos de Kavadůz     | aventura     | marca-la-catacumba-de-los-espantos-de-kavaduz     | castellano         |
-| 21  | Muerte en la mansión del mago Malifax       | aventura     | marca-muerte-en-la-mansion-del-mago-malifax       | castellano         |
-| 22  | El legado perdido                           | aventura     | marca-el-legado-perdido                           | castellano         |
-| 23  | Tiempo fuera del tiempo                     | aventura     | marca-tiempo-fuera-del-tiempo                     | castellano         |
-| 24  | Un paseo por el campo                       | aventura     | marca-un-paseo-por-el-campo                       | castellano         |
-| 25  | Presentes sangrientos                       | aventura     | marca-presentes-sangrientos                       | castellano         |
-| 26  | La tumba de hielo                           | aventura     | marca-la-tumba-de-hielo                           | castellano         |
-| 27  | La última frontera                          | aventura     | marca-la-ultima-frontera                          | castellano         |
-| 28  | El jardín negro                             | aventura     | marca-el-jardin-negro                             | castellano         |
-| 29  | Alameda                                     | ambientación | marca-alameda                                     | castellano         |
-| 30  | Tomo de magia                               | suplemento   | marca-tomo-de-magia                               | castellano         |
-| 31  | Pacto de cenizas                            | aventura     | marca-pacto-de-cenizas                            | castellano         |
-| 32  | El feudo en llamas                          | aventura     | marca-el-feudo-en-llamas                          | castellano         |
-| 33  | El corazón de la oscuridad                  | aventura     | marca-el-corazon-de-la-oscuridad                  | castellano         |
-| 34  | Bestiario de criaturas extraordinarias      | suplemento   | marca-bestiario-de-criaturas-extraordinarias      | castellano         |
-| 35  | Marjalnegro                                 | ambientación | marca-marjalnegro                                 | castellano         |
-| 36  | La furia de Rastilon                        | aventura     | marca-la-furia-de-rastilon                        | castellano         |
-| 37  | Las frondas de los medianos                 | aventura     | marca-las-frondas-de-los-medianos                 | castellano         |
-| 38  | La lágrima de Zurâh                         | aventura     | marca-la-lagrima-de-zurah                         | castellano         |
-| 39  | El túmulo perdido de Azgoz el testarudo     | aventura     | marca-el-tumulo-perdido-de-azgoz-el-testarudo     | castellano         |
-| 40  | Las cuevas del clan Atronador               | aventura     | marca-las-cuevas-del-clan-atronador               | castellano         |
-| 41  | No profanarás el sueño de los muertos       | aventura     | marca-no-profanaras-el-sueno-de-los-muertos       | castellano         |
-| 42  | Manual de psiónica                          | suplemento   | marca-manual-de-psionica                          | castellano         |
-| 43  | En compañía de cuervos                      | suplemento   | marca-en-compania-de-cuervos                      | castellano         |
-| 44  | El monasterio del dragón dormido            | aventura     | marca-el-monasterio-del-dragon-dormido            | castellano         |
-| 45  | La cúpula de huesos de Ixambel              | aventura     | marca-la-cupula-de-huesos-de-ixambel              | castellano         |
-| 46  | Las esporas del hongo atribulado            | aventura     | marca-las-esporas-del-hongo-atribulado            | castellano         |
-| 47  | Vileza en el bastión de los bandidos        | aventura     | marca-vileza-en-el-bastion-de-los-bandidos        | castellano         |
-| 48  | Sangre en la nieve                          | aventura     | marca-sangre-en-la-nieve                          | castellano         |
-| 49  | La taiga maldita                            | aventura     | marca-la-taiga-maldita                            | castellano         |
+| #   | Título                                                          | Tipo         | Ficha                                                | Nota               |
+| --- | --------------------------------------------------------------- | ------------ | ---------------------------------------------------- | ------------------ |
+| 1   | Aventuras en la Marca del Este                                  | básico       | aventuras-en-la-marca-del-este                       | castellano, inglés |
+| 2   | Caja Azul: Escenario de Campaña                                 | ambientación | marca-caja-azul                                      | castellano         |
+| 3   | Grimorio de Conjuros                                            | suplemento   | marca-grimorio-de-conjuros                           | castellano         |
+| 4   | Caja Verde: Manual Avanzado                                     | básico       | marca-caja-verde                                     | castellano         |
+| 5   | Caja Negra: La Llamada de los Dioses                            | aventura     | marca-caja-negra                                     | castellano         |
+| 6   | El Enclave                                                      | aventura     | marca-el-enclave                                     | castellano         |
+| 7   | Planes Oscuros                                                  | aventura     | marca-planes-oscuros                                 | castellano         |
+| 8   | Redención                                                       | aventura     | marca-redencion                                      | castellano         |
+| 9   | Lo que el ojo no ve                                             | aventura     | marca-lo-que-el-ojo-no-ve                            | castellano         |
+| 10  | La cripta nefanda de Uztum el Maldito                           | aventura     | marca-la-cripta-nefanda-de-uztum-el-maldito          | castellano         |
+| 11  | La isla misteriosa                                              | aventura     | marca-la-isla-misteriosa                             | castellano         |
+| 12  | El orbe de Amonhotep                                            | aventura     | marca-el-orbe-de-amonhotep                           | castellano         |
+| 13  | Los salones anegados de Leviatán                                | aventura     | marca-los-salones-anegados-de-leviatan               | castellano         |
+| 14  | En busca de la ciudad perdida de Garan                          | aventura     | marca-en-busca-de-la-ciudad-perdida-de-garan         | castellano         |
+| 15  | El castillo prohibido de la Reina de Sangre                     | aventura     | marca-el-castillo-prohibido-de-la-reina-de-sangre    | castellano         |
+| 16  | Jernhest: Escenario de Campaña                                  | ambientación | marca-jernhest                                       | castellano         |
+| 17  | Gazetteer de la Marca del Este                                  | ambientación | marca-gazetteer-de-la-marca-del-este                 | castellano         |
+| 18  | El Arca de los Mil Inviernos                                    | aventura     | marca-el-arca-de-los-mil-inviernos                   | castellano         |
+| 19  | Incursión a la tierra del Dios Azul                             | aventura     | marca-incursion-a-la-tierra-del-dios-azul            | castellano         |
+| 20  | La catacumba de los espantos de Kavadůz                         | aventura     | marca-la-catacumba-de-los-espantos-de-kavaduz        | castellano         |
+| 21  | Muerte en la mansión del mago Malifax                           | aventura     | marca-muerte-en-la-mansion-del-mago-malifax          | castellano         |
+| 22  | El legado perdido                                               | aventura     | marca-el-legado-perdido                              | castellano         |
+| 23  | Tiempo fuera del tiempo                                         | aventura     | marca-tiempo-fuera-del-tiempo                        | castellano         |
+| 24  | Un paseo por el campo                                           | aventura     | marca-un-paseo-por-el-campo                          | castellano         |
+| 25  | Presentes sangrientos                                           | aventura     | marca-presentes-sangrientos                          | castellano         |
+| 26  | La tumba de hielo                                               | aventura     | marca-la-tumba-de-hielo                              | castellano         |
+| 27  | La última frontera                                              | aventura     | marca-la-ultima-frontera                             | castellano         |
+| 28  | El jardín negro                                                 | aventura     | marca-el-jardin-negro                                | castellano         |
+| 29  | Alameda                                                         | ambientación | marca-alameda                                        | castellano         |
+| 30  | Tomo de magia                                                   | suplemento   | marca-tomo-de-magia                                  | castellano         |
+| 31  | Pacto de cenizas                                                | aventura     | marca-pacto-de-cenizas                               | castellano         |
+| 32  | El feudo en llamas                                              | aventura     | marca-el-feudo-en-llamas                             | castellano         |
+| 33  | El corazón de la oscuridad                                      | aventura     | marca-el-corazon-de-la-oscuridad                     | castellano         |
+| 34  | Bestiario de criaturas extraordinarias                          | suplemento   | marca-bestiario-de-criaturas-extraordinarias         | castellano         |
+| 35  | Marjalnegro                                                     | ambientación | marca-marjalnegro                                    | castellano         |
+| 36  | La furia de Rastilon                                            | aventura     | marca-la-furia-de-rastilon                           | castellano         |
+| 37  | Las frondas de los medianos                                     | aventura     | marca-las-frondas-de-los-medianos                    | castellano         |
+| 38  | La lágrima de Zurâh                                             | aventura     | marca-la-lagrima-de-zurah                            | castellano         |
+| 39  | El túmulo perdido de Azgoz el testarudo                         | aventura     | marca-el-tumulo-perdido-de-azgoz-el-testarudo        | castellano         |
+| 40  | Las cuevas del clan Atronador                                   | aventura     | marca-las-cuevas-del-clan-atronador                  | castellano         |
+| 41  | No profanarás el sueño de los muertos                           | aventura     | marca-no-profanaras-el-sueno-de-los-muertos          | castellano         |
+| 42  | Manual de psiónica                                              | suplemento   | marca-manual-de-psionica                             | castellano         |
+| 43  | En compañía de cuervos                                          | suplemento   | marca-en-compania-de-cuervos                         | castellano         |
+| 44  | El monasterio del dragón dormido                                | aventura     | marca-el-monasterio-del-dragon-dormido               | castellano         |
+| 45  | La cúpula de huesos de Ixambel                                  | aventura     | marca-la-cupula-de-huesos-de-ixambel                 | castellano         |
+| 46  | Las esporas del hongo atribulado                                | aventura     | marca-las-esporas-del-hongo-atribulado               | castellano         |
+| 47  | Vileza en el bastión de los bandidos                            | aventura     | marca-vileza-en-el-bastion-de-los-bandidos           | castellano         |
+| 48  | Sangre en la nieve                                              | aventura     | marca-sangre-en-la-nieve                             | castellano         |
+| 49  | La taiga maldita                                                | aventura     | marca-la-taiga-maldita                               | castellano         |
+| 1   | Más allá de las Tierras de la Marca nº 1                        | suplemento   | marca-mas-alla-de-las-tierras-de-la-marca-1          | castellano         |
+| 2   | Más allá de las Tierras de la Marca nº 2                        | suplemento   | marca-mas-alla-de-las-tierras-de-la-marca-2          | castellano         |
+| 3   | La gesta del enano                                              | aventura     | marca-la-gesta-del-enano                             | castellano         |
+| 4   | La balada del efímero paladín                                   | aventura     | marca-la-balada-del-efimero-paladin                  | castellano         |
+| 5   | El búcaro de alabastro                                          | aventura     | marca-el-bucaro-de-alabastro                         | castellano         |
+| 6   | La pirámide del faraón negro                                    | aventura     | marca-la-piramide-del-faraon-negro                   | castellano         |
+| 7   | Las minas del elefante                                          | aventura     | marca-las-minas-del-elefante                         | castellano         |
+| 8   | La perla de Ayakashi                                            | aventura     | marca-la-perla-de-ayakashi                           | castellano         |
+| 9   | Castillo Xyntillan                                              | aventura     | marca-castillo-xyntillan                             | castellano         |
+| 10  | Agitando Pozasdemugre                                           | aventura     | marca-agitando-pozasdemugre                          | castellano         |
+| 11  | El ojo de Sa'Nna                                                | aventura     | marca-el-ojo-de-sanna                                | castellano         |
+| 12  | La prueba de Lenzen                                             | aventura     | marca-la-prueba-de-lenzen                            | castellano         |
+| 13  | La ciudad de Xorandor                                           | ambientación | marca-la-ciudad-de-xorandor                          | castellano         |
+| 14  | Corona de Sal                                                   | aventura     | marca-corona-de-sal                                  | castellano         |
+| 15  | The Pit of Blasphemy                                            | aventura     | marca-el-foso-de-la-blasfemia                        | castellano         |
+| 16  | Maestros saqueadores del gremio de aventureros                  | suplemento   | marca-maestros-saqueadores-del-gremio-de-aventureros | castellano         |
+| 17  | El destino del rey mono                                         | aventura     | marca-el-destino-del-rey-mono                        | castellano         |
+| 18  | La luz de Valion                                                | aventura     | marca-la-luz-de-valion                               | castellano         |
+| 19  | El dios del río                                                 | aventura     | marca-el-dios-del-rio                                | castellano         |
+| 20  | La corona del nigromante                                        | aventura     | marca-la-corona-del-nigromante                       | castellano         |
+| 21  | Tiempos oscuros en Dormunder                                    | aventura     | marca-tiempos-oscuros-en-dormunder                   | castellano         |
+| 22  | Marjalnegro: Hasta que la muerte os separe + Guía introductoria | ambientación | marca-marjalnegro-hasta-que-la-muerte-os-separe      | castellano         |
+| 23  | La niebla                                                       | aventura     | marca-la-niebla                                      | castellano         |
+| 24  | El altar impío                                                  | aventura     | marca-el-altar-impio                                 | castellano         |
+| 25  | La isla de los dioses olvidados                                 | aventura     | marca-la-isla-de-los-dioses-olvidados                | castellano         |
+| 26  | La sierpe negra de Brandonsford                                 | aventura     | marca-la-sierpe-negra-de-brandonsford                | castellano         |
+| 27  | La arboleda de la bruja muerta                                  | aventura     | marca-la-arboleda-de-la-bruja-muerta                 | castellano         |
+| 28  | Xorandor: Las casas                                             | ambientación | marca-xorandor-las-casas                             | castellano         |
+| 29  | El refugio desmoronado                                          | aventura     | marca-el-refugio-desmoronado                         | castellano         |
+| 30  | El callejón inconstante                                         | aventura     | marca-el-callejon-inconstante                        | castellano         |
+| 31  | Los hijos del viento                                            | aventura     | marca-los-hijos-del-viento                           | castellano         |
+| 32  | Visirtán, tierra de magia y arena                               | ambientación | marca-visirtan                                       | castellano         |
+| 33  | Dioses y clérigos                                               | suplemento   | marca-dioses-y-clerigos                              | castellano         |
+| 34  | El sello del profeta                                            | aventura     | marca-el-sello-del-profeta                           | castellano         |
+| 35  | El país de los elfos de la bruma                                | aventura     | marca-el-pais-de-los-elfos-de-la-bruma               | castellano         |
+| 36  | La balconada de Idhola                                          | aventura     | marca-la-balconada-de-idhola                         | castellano         |
+| 37  | La ciudad olvidada                                              | aventura     | marca-la-ciudad-olvidada                             | castellano         |
+| 38  | Luz moribunda                                                   | aventura     | marca-luz-moribunda                                  | castellano         |
+| 39  | La fortaleza maldita                                            | aventura     | marca-la-fortaleza-maldita                           | castellano         |
+| 40  | La ruina de Cauceseco                                           | aventura     | marca-la-ruina-de-cauceseco                          | castellano         |
+| 41  | El lazareto de Robleda                                          | aventura     | marca-el-lazareto-de-robleda                         | castellano         |
+| 42  | El secuestro de Sintia                                          | aventura     | marca-el-secuestro-de-sintia                         | castellano         |
+| 43  | Aventuras orientales en Endo                                    | ambientación | marca-aventuras-orientales-en-endo                   | castellano         |
+| 44  | Un apacible descanso en el Paso del Vigilante                   | aventura     | marca-un-apacible-descanso-en-el-paso-del-vigilante  | castellano         |
+| 45  | La mazmorra de Cimarruina                                       | aventura     | marca-la-mazmorra-de-cimarruina                      | castellano         |
+| 46  | El tesoro del capitán Flint                                     | aventura     | marca-el-tesoro-del-capitan-flint                    | castellano         |
+| 47  | Rituales oscuros                                                | aventura     | marca-rituales-oscuros                               | castellano         |
+| 48  | El dédalo de la casa Syldi                                      | aventura     | marca-el-dedalo-de-la-casa-syldi                     | castellano         |
+| 49  | Una extraña enfermedad                                          | aventura     | marca-una-extrana-enfermedad                         | castellano         |
+| 50  | El monstruo de Torremuro                                        | aventura     | marca-el-monstruo-de-torremuro                       | castellano         |
+| 51  | Regreso al templo de los antiguos                               | aventura     | marca-regreso-al-templo-de-los-antiguos              | castellano         |
+| 52  | El hospicio sangriento                                          | aventura     | marca-el-hospicio-sangriento                         | castellano         |
+| 53  | Un alto en el camino                                            | aventura     | marca-un-alto-en-el-camino                           | castellano         |
+| 54  | El yelmo astado y otras leyendas del Gran Reino                 | aventura     | marca-el-yelmo-astado                                | castellano         |
+| 55  | Xorandor: La Suboscuridad                                       | ambientación | marca-xorandor-la-suboscuridad                       | castellano         |
+| 56  | Travesías y tropiezos de Aldoquino Portomorto (vol. 1)          | otro         | marca-travesias-y-tropiezos-de-aldoquino-portomorto  | castellano         |
+| 57  | El laberinto de las mil puertas                                 | suplemento   | marca-el-laberinto-de-las-mil-puertas                | castellano         |
 
 ## Ediciones anteriores de D&D
 

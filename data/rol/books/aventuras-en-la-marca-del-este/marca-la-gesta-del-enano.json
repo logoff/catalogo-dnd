@@ -1,0 +1,18 @@
+{
+  "slug": "marca-la-gesta-del-enano",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La gesta del enano",
+  "kind": "adventure",
+  "description": "Un módulo para un director y un único personaje de nivel 4: hace cinco siglos una monstruosidad surgida de las raíces del mundo arrasó el hogar del clan enano de los Harkûn.\n\nPublicado en febrero de 2023.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/32787-aventuras-en-la-marca-del-este-la-gesta-del-enano.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2023-02",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/32787-aventuras-en-la-marca-del-este-la-gesta-del-enano.html",
+      "cover": "/images/rol/marca-la-gesta-del-enano/castellano.webp"
+    }
+  ]
+}

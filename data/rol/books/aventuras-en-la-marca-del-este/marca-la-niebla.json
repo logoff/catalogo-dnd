@@ -1,0 +1,18 @@
+{
+  "slug": "marca-la-niebla",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La niebla",
+  "kind": "adventure",
+  "description": "Un módulo para personajes de nivel 2 a 3: hace meses que la niebla se instaló en el pueblo de Ahkuel, el agua ha dejado de manar y los lugareños esperan el regreso de un guerrero.\n\nPublicado en julio de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/39728-aventuras-en-la-marca-del-este-la-niebla.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-07",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/39728-aventuras-en-la-marca-del-este-la-niebla.html",
+      "cover": "/images/rol/marca-la-niebla/castellano.webp"
+    }
+  ]
+}
