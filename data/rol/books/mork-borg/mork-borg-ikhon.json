@@ -1,0 +1,23 @@
+{
+  "slug": "mork-borg-ikhon",
+  "system": "mork-borg",
+  "title": "MÖRK BORG: IKHON",
+  "kind": "supplement",
+  "description": "Una caja misteriosa que encierra a cuatro dioses populares casi olvidados, como el Bilkherd o el temido Silkfiend: reglas para tratar con ellos, sus dones y sus maldiciones, para usar como objeto mágico en la partida.\n\nPensado para Mörk Borg, sirve también en otros juegos ligeros de fantasía oscura.",
+  "source": "https://www.drivethrurpg.com/en/product/380977/moerk-borg-ikhon-english",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Free League",
+      "date": "2023-02",
+      "format": "boxed_set",
+      "cover": "/images/rol/mork-borg-ikhon/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/380977/moerk-borg-ikhon-english"
+        }
+      ]
+    }
+  ]
+}

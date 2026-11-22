@@ -46,6 +46,7 @@ digital de plataformas comunitarias.
 | 13  | Old-School Essentials Third Party License    | licencia comunitaria    | Necrotic Gnome                              | 2020 | —                                           | [Necrotic Gnome](https://necroticgnome.com/products/old-school-essentials-third-party-license)                            | ose-third-party-license                   | Fecha de la guía para publicar (marzo de 2020).                         |
 | 14  | Shadowdark RPG Third-Party License           | licencia comunitaria    | The Arcane Library                          | 2023 | —                                           | [preguntas frecuentes](https://thearcanelibrary.com/blogs/shadowdark-blog/faq-on-the-shadowdark-rpg-third-party-license)  | shadowdark-third-party-license            | Versión 1.1.                                                            |
 | 15  | MÖRK BORG Third Party License                | licencia comunitaria    | Ockult Örtmästare Games y Stockholm Kartell | 2020 | —                                           | [Mörk Borg](https://morkborg.com/license/)                                                                                | mork-borg-third-party-license             | Primera copia en archive.org de septiembre de 2020.                     |
+| 16  | CY_BORG Third Party License                  | licencia comunitaria    | Stockholm Kartell                           | 2022 | —                                           | [Mörk Borg](https://morkborg.com/cb-license/)                                                                             | cy-borg-third-party-license               | Primera copia en archive.org de abril de 2022.                          |
 
 ## Sistemas
 
@@ -82,6 +83,7 @@ digital de plataformas comunitarias.
 | 30  | Cairn                              | Cairn                              | Yochai Gal                         | 2020 | cc-by-sa-4-0                                             | Into the Odd: reescrito pero compatible; Knave: inspiración | no consta                        | [Cairn](https://cairnrpg.com/)                                                                  | cairn                              | NSR                                                                                      |
 | 31  | Mausritter                         | Mausritter                         | Losing Games                       | 2020 | —                                                        | Into the Odd: reescrito pero compatible                     | sí (El Refugio de Ryhope)        | [Mausritter](https://mausritter.com/)                                                           | mausritter                         | NSR                                                                                      |
 | 32  | Mörk Borg                          | Mörk Borg                          | Free League                        | 2020 | mork-borg-third-party-license                            | D&D básico: inspiración                                     | anunciado (El Refugio de Ryhope) | [Mörk Borg](https://morkborg.com/)                                                              | mork-borg                          | NSR                                                                                      |
+| 33  | Cy_Borg                            | Cy_Borg                            | Free League                        | 2022 | cy-borg-third-party-license                              | Mörk Borg: reescrito pero compatible                        | no consta                        | [Mörk Borg](https://morkborg.com/)                                                              | cy-borg                            | NSR                                                                                      |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -427,6 +429,41 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | 7   | The Ruined Abbey of St Clewyd       | aventura | the-ruined-abbey-of-st-clewyd       | inglés |
 | 8   | Emelda's Song                       | aventura | emeldas-song                        | inglés |
 | 9   | Winter's Daughter (Dolmenwood)      | aventura | winters-daughter-dolmenwood         | inglés |
+
+### Shadowdark
+
+| #   | Título                                   | Tipo           | Ficha                             | Nota   |
+| --- | ---------------------------------------- | -------------- | --------------------------------- | ------ |
+| 1   | Shadowdark RPG                           | básico         | shadowdark-rpg                    | inglés |
+| 2   | Shadowdark RPG Quickstart Set            | caja de inicio | shadowdark-rpg-quickstart-set     | inglés |
+| 3   | Shadowdark RPG Player Quickstart Zine    | otro           | shadowdark-player-quickstart-zine | inglés |
+| 4   | SoloDark: Solo Rules for Shadowdark RPG  | suplemento     | solodark                          | inglés |
+| 5   | Cursed Scroll Zine, Vol. 1: Diablerie!   | ambientación   | cursed-scroll-1-diablerie         | inglés |
+| 6   | Cursed Scroll Zine, Vol. 2: Red Sands    | ambientación   | cursed-scroll-2-red-sands         | inglés |
+| 7   | Cursed Scroll Zine, Vol. 3: Midnight Sun | ambientación   | cursed-scroll-3-midnight-sun      | inglés |
+| 8   | Shadowdome Thunderdark Zine              | aventura       | shadowdome-thunderdark-zine       | inglés |
+
+### Mörk Borg
+
+| #   | Título                   | Tipo       | Ficha                   | Nota   |
+| --- | ------------------------ | ---------- | ----------------------- | ------ |
+| 1   | Mörk Borg                | básico     | mork-borg               | inglés |
+| 2   | MÖRK BORG CULT: FERETORY | suplemento | mork-borg-cult-feretory | inglés |
+| 3   | MÖRK BORG CULT: HERETIC  | suplemento | mork-borg-cult-heretic  | inglés |
+| 4   | MÖRK BORG: IKHON         | suplemento | mork-borg-ikhon         | inglés |
+| 5   | MÖRK BORG GM Screen      | otro       | mork-borg-gm-screen     | inglés |
+
+### Cy_Borg
+
+| #   | Título  | Tipo   | Ficha   | Nota   |
+| --- | ------- | ------ | ------- | ------ |
+| 1   | CY_BORG | básico | cy-borg | inglés |
+
+### Into the Odd
+
+| #   | Título                    | Tipo   | Ficha                   | Nota   |
+| --- | ------------------------- | ------ | ----------------------- | ------ |
+| 1   | Into the Odd – Remastered | básico | into-the-odd-remastered | inglés |
 
 ## Ediciones anteriores de D&D
 

@@ -1,0 +1,16 @@
+{
+  "slug": "cursed-scroll-3-midnight-sun",
+  "system": "shadowdark",
+  "title": "Cursed Scroll Zine, Vol. 3: Midnight Sun",
+  "kind": "setting",
+  "description": "El tercer número del fanzine de Shadowdark, dedicado a las islas heladas del norte: lobos de mar en barcos con proa de dragón y el sol de medianoche, con la aventura de nivel 0 Hoard of the Sea Wolf King.\n\nAmplía el mundo del juego con una región nórdica, sus aventuras y sus reglas.",
+  "source": "https://www.thearcanelibrary.com/products/cursed-scroll-zine-vol-3-midnight-sun",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "format": "paperback",
+      "cover": "/images/rol/cursed-scroll-3-midnight-sun/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "cursed-scroll-1-diablerie",
+  "system": "shadowdark",
+  "title": "Cursed Scroll Zine, Vol. 1: Diablerie!",
+  "kind": "setting",
+  "description": "El primer número del fanzine oficial de Shadowdark: caballeros malditos con poderes demoníacos, un bosque brumoso de brujas y castillos en ruinas, con la mazmorra The Hideous Halls of Mugdulblub para nivel 1, la región de The Gloaming y material nuevo de juego.\n\nAmplía el mundo de Shadowdark con una región de fantasía oscura, y lo que trae se usa con el libro básico.",
+  "source": "https://www.thearcanelibrary.com/products/cursed-scroll-zine-vol-1-diablerie-print",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "format": "paperback",
+      "cover": "/images/rol/cursed-scroll-1-diablerie/english.webp"
+    }
+  ]
+}

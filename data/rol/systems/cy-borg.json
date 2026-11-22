@@ -1,0 +1,35 @@
+{
+  "slug": "cy-borg",
+  "name": "Cy_Borg",
+  "family": "cy-borg",
+  "publisher": "Free League",
+  "date": "2022",
+  "movement": "nsr",
+  "description": "El hermano ciberpunk de Mörk Borg, de Christian Sahlén y Johan Nohr: una ciudad apocalíptica dominada por megacorporaciones y cultos, con personajes marginales, reglas mínimas heredadas de Mörk Borg y el mismo diseño gráfico extremo.\n\nComparte con Mörk Borg la base de reglas y una licencia de terceros casi idéntica, que también ha dado lugar a muchos suplementos. No consta una edición en castellano.",
+  "features": [
+    "Ciberpunk apocalíptico",
+    "Reglas mínimas de Mörk Borg",
+    "Megacorporaciones y cultos",
+    "Diseño gráfico extremo"
+  ],
+  "licenses": [
+    {
+      "license": "cy-borg-third-party-license",
+      "since": "2022"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "mork-borg",
+      "kind": "compatible",
+      "note": "Usa las reglas de Mörk Borg con cambios para una ambientación ciberpunk."
+    }
+  ],
+  "links": [
+    {
+      "label": "Mörk Borg",
+      "url": "https://morkborg.com/"
+    }
+  ],
+  "line_publishers": ["Free League", "Stockholm Kartell"]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "mork-borg-cult-feretory",
+  "system": "mork-borg",
+  "title": "MÖRK BORG CULT: FERETORY",
+  "kind": "supplement",
+  "description": "Un suplemento hecho con material de la comunidad de Mörk Borg: clases, aventuras, tesoros malditos y herramientas para crear monstruos, además del minijuego en solitario Dark Fort.\n\nSirve para Mörk Borg y para otros juegos ligeros de fantasía oscura.",
+  "source": "https://www.drivethrurpg.com/en/product/328612/moerk-borg-cult-feretory",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Free League",
+      "date": "2020-10",
+      "format": "paperback",
+      "cover": "/images/rol/mork-borg-cult-feretory/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/328612/moerk-borg-cult-feretory"
+        }
+      ]
+    }
+  ]
+}

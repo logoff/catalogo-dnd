@@ -1,0 +1,24 @@
+{
+  "slug": "mork-borg",
+  "system": "mork-borg",
+  "title": "Mörk Borg",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de Mörk Borg: un juego de fantasía apocalíptica sobre almas perdidas que buscan redención o las últimas riquezas en un mundo moribundo, con reglas ligeras, clases opcionales, tablas para crear personajes, monstruos, la profecía del fin y una aventura de inicio.\n\nEs el único libro necesario para jugar. Su diseño gráfico, a medio camino entre un disco de black metal y un fanzine, es parte de la experiencia.",
+  "source": "https://www.drivethrurpg.com/en/product/295910/moerk-borg-english",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Free League",
+      "date": "2020-02",
+      "format": "hardcover",
+      "cover": "/images/rol/mork-borg/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/295910/moerk-borg-english"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "cy-borg",
+  "system": "cy-borg",
+  "title": "CY_BORG",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de Cy_Borg: un juego ciberpunk apocalíptico sobre inadaptados cibernéticos que se rebelan contra un infierno corporativo, con las reglas, la creación de personajes, la ciudad de Cy, sus megacorporaciones y sus cultos.\n\nEs el único libro necesario para jugar y comparte la base de reglas de Mörk Borg.",
+  "source": "https://www.drivethrurpg.com/en/product/393473/cy-borg-core-rules",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Free League",
+      "date": "2022-11",
+      "format": "hardcover",
+      "cover": "/images/rol/cy-borg/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/393473/cy-borg-core-rules"
+        }
+      ]
+    }
+  ]
+}
