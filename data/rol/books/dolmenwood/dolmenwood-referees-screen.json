@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "Necrotic Gnome",
       "format": "screen",
-      "cover": "/images/rol/dolmenwood-referees-screen/english.webp"
+      "cover": "/images/rol/dolmenwood-referees-screen/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/527286/dolmenwood-referee-s-screen"
+        }
+      ]
     }
   ]
 }

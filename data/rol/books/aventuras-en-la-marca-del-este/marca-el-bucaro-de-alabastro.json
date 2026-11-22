@@ -12,7 +12,13 @@
       "date": "2023-06",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/33974-aventuras-en-la-marca-del-este-el-bucaro-de-alabastro.html",
-      "cover": "/images/rol/marca-el-bucaro-de-alabastro/castellano.webp"
+      "cover": "/images/rol/marca-el-bucaro-de-alabastro/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14897-aventuras-en-la-marca-del-este-el-bucaro-de-alabastro-9780202739953.html"
+        }
+      ]
     }
   ]
 }

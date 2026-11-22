@@ -19,7 +19,13 @@
       "date": "2023-05",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/33746-aventuras-en-la-marca-del-este-lo-que-el-ojo-no-ve.html",
-      "cover": "/images/rol/marca-lo-que-el-ojo-no-ve/castellano.webp"
+      "cover": "/images/rol/marca-lo-que-el-ojo-no-ve/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14769-aventuras-en-la-marca-del-este-lo-que-el-ojo-no-ve-9782253058151.html"
+        }
+      ]
     }
   ]
 }

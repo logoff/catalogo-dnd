@@ -12,7 +12,13 @@
       "date": "2023-09",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/34784-aventuras-en-la-marca-del-este-las-minas-del-elefante.html",
-      "cover": "/images/rol/marca-las-minas-del-elefante/castellano.webp"
+      "cover": "/images/rol/marca-las-minas-del-elefante/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15288-aventuras-en-la-marca-del-este-las-minas-del-elefante-9780195014761.html"
+        }
+      ]
     }
   ]
 }

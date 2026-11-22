@@ -12,7 +12,13 @@
       "date": "2023-09",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/34785-aventuras-en-la-marca-del-este-la-piramide-del-faraon-negro.html",
-      "cover": "/images/rol/marca-la-piramide-del-faraon-negro/castellano.webp"
+      "cover": "/images/rol/marca-la-piramide-del-faraon-negro/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15289-aventuras-en-la-marca-del-este-la-piramide-del-faraon-negro-9780330291910.html"
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,13 @@
       "publisher": "Other Selves",
       "format": "hardcover",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/30786-clasicos-del-mazmorreo-juego-de-rol-3-edicion.html",
-      "cover": "/images/rol/dcc-rpg/castellano.webp"
+      "cover": "/images/rol/dcc-rpg/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17705-clasicos-del-mazmorreo-tercera-edicion-9788412750751.html"
+        }
+      ]
     },
     {
       "language": "english",

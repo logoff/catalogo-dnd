@@ -12,7 +12,13 @@
       "date": "2021-07",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/27467-aventuras-en-la-marca-del-este-manual-de-psionica.html",
-      "cover": "/images/rol/marca-manual-de-psionica/castellano.webp"
+      "cover": "/images/rol/marca-manual-de-psionica/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11521-aventuras-en-la-marca-del-este-manual-de-psionica-9780201399998.html"
+        }
+      ]
     }
   ]
 }

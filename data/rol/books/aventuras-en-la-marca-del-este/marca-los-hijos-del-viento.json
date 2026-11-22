@@ -12,7 +12,13 @@
       "date": "2025-11",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40861-aventuras-en-la-marca-del-este-los-hijos-del-viento.html",
-      "cover": "/images/rol/marca-los-hijos-del-viento/castellano.webp"
+      "cover": "/images/rol/marca-los-hijos-del-viento/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18382-aventuras-en-la-marca-del-este-los-hijos-del-viento-9781111371234.html"
+        }
+      ]
     }
   ]
 }

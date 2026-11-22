@@ -12,7 +12,13 @@
       "date": "2020-11",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26125-aventuras-en-la-marca-del-este-marjalnegro.html",
-      "cover": "/images/rol/marca-marjalnegro/castellano.webp"
+      "cover": "/images/rol/marca-marjalnegro/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/10300-aventuras-en-la-marca-del-este-marjalnegro-9780201300628.html"
+        }
+      ]
     }
   ]
 }

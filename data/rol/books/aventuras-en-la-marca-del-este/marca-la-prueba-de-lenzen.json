@@ -12,7 +12,13 @@
       "date": "2024-05",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/36666-aventuras-en-la-marca-del-este-la-prueba-de-lenzen.html",
-      "cover": "/images/rol/marca-la-prueba-de-lenzen/castellano.webp"
+      "cover": "/images/rol/marca-la-prueba-de-lenzen/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16171-aventuras-en-la-marca-del-este-la-prueba-de-lenzen-9780201379626.html"
+        }
+      ]
     }
   ]
 }

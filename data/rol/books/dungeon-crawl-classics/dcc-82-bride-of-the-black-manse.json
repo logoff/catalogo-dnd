@@ -12,7 +12,13 @@
       "publisher": "Other Selves",
       "format": "paperback",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/22873-clsicos-del-mazmorreo-la-prometida-de-la-mansin-negra.html",
-      "cover": "/images/rol/dcc-82-bride-of-the-black-manse/castellano.webp"
+      "cover": "/images/rol/dcc-82-bride-of-the-black-manse/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8130-clasicos-del-mazmorreo-la-prometida-de-la-mansion-negra-9788494589935.html"
+        }
+      ]
     },
     {
       "language": "english",

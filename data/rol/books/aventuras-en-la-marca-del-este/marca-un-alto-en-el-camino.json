@@ -11,7 +11,13 @@
       "publisher": "La Marca del Este",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/42218-aventuras-en-la-marca-del-este-un-alto-en-el-camino.html",
-      "cover": "/images/rol/marca-un-alto-en-el-camino/castellano.webp"
+      "cover": "/images/rol/marca-un-alto-en-el-camino/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19062-aventuras-en-la-marca-del-este-un-alto-en-el-camino-9440244474426.html"
+        }
+      ]
     }
   ]
 }

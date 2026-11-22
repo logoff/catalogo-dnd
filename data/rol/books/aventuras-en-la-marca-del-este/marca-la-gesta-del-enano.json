@@ -12,7 +12,13 @@
       "date": "2023-02",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/32787-aventuras-en-la-marca-del-este-la-gesta-del-enano.html",
-      "cover": "/images/rol/marca-la-gesta-del-enano/castellano.webp"
+      "cover": "/images/rol/marca-la-gesta-del-enano/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14291-aventuras-en-la-marca-del-este-la-gesta-del-enano-9780001079601.html"
+        }
+      ]
     }
   ]
 }

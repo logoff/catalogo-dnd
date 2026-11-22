@@ -11,7 +11,13 @@
       "publisher": "La Marca del Este",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/42498-aventuras-en-la-marca-del-este-xorandor-la-suboscuridad.html",
-      "cover": "/images/rol/marca-xorandor-la-suboscuridad/castellano.webp"
+      "cover": "/images/rol/marca-xorandor-la-suboscuridad/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19266-aventuras-en-la-marca-del-este-xorandor-la-suboscuridad-9000200079623.html"
+        }
+      ]
     }
   ]
 }

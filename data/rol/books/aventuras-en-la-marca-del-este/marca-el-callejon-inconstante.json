@@ -12,7 +12,13 @@
       "date": "2025-11",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40863-aventuras-en-la-marca-del-este-el-callejon-inconstante.html",
-      "cover": "/images/rol/marca-el-callejon-inconstante/castellano.webp"
+      "cover": "/images/rol/marca-el-callejon-inconstante/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18383-aventuras-en-la-marca-del-este-el-callejon-inconstante.html"
+        }
+      ]
     }
   ]
 }

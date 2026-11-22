@@ -11,7 +11,13 @@
       "publisher": "La Marca del Este",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41336-aventuras-en-la-marca-del-este-un-apacible-descanso-en-el-paso-del-vigilante.html",
-      "cover": "/images/rol/marca-un-apacible-descanso-en-el-paso-del-vigilante/castellano.webp"
+      "cover": "/images/rol/marca-un-apacible-descanso-en-el-paso-del-vigilante/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18610-aventuras-en-la-marca-del-este-un-apacible-descanso-en-el-paso-del-vigilante-9780223239234.html"
+        }
+      ]
     }
   ]
 }

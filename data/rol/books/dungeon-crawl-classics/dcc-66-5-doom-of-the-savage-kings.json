@@ -11,8 +11,15 @@
       "title": "La perdición de los reyes bárbaros",
       "publisher": "Other Selves",
       "format": "paperback",
+      "isbn13": 9788494053795,
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/17992-clsicos-del-mazmorreo-la-perdicin-de-los-reyes-brbaros.html",
-      "cover": "/images/rol/dcc-66-5-doom-of-the-savage-kings/castellano.webp"
+      "cover": "/images/rol/dcc-66-5-doom-of-the-savage-kings/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-la-perdicion-de-los-reyes-barbaros--una-aventura-para-clasicos-del-mazmorreo/9788494053795/9637776"
+        }
+      ]
     },
     {
       "language": "english",

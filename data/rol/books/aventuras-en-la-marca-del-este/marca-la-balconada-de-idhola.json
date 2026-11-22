@@ -12,7 +12,13 @@
       "date": "2025-12",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41023-aventuras-en-la-marca-del-este-la-balconada-de-idhola.html",
-      "cover": "/images/rol/marca-la-balconada-de-idhola/castellano.webp"
+      "cover": "/images/rol/marca-la-balconada-de-idhola/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18428-aventuras-en-la-marca-del-este-la-balconada-de-idhola-9990209999629.html"
+        }
+      ]
     }
   ]
 }

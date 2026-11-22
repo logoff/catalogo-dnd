@@ -12,7 +12,13 @@
       "date": "2025-02",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/38606-aventuras-en-la-marca-del-este-el-destino-del-rey-mono.html",
-      "cover": "/images/rol/marca-el-destino-del-rey-mono/castellano.webp"
+      "cover": "/images/rol/marca-el-destino-del-rey-mono/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17219-aventuras-en-la-marca-del-este-el-destino-del-rey-mono-9780001379626.html"
+        }
+      ]
     }
   ]
 }

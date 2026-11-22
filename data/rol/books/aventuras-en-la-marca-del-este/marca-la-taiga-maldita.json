@@ -12,7 +12,13 @@
       "date": "2022-10",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/31693-aventuras-en-la-marca-del-este-la-taiga-maldita.html",
-      "cover": "/images/rol/marca-la-taiga-maldita/castellano.webp"
+      "cover": "/images/rol/marca-la-taiga-maldita/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13766-aventuras-en-la-marca-del-este-la-taiga-maldita-9788493585426.html"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "Other Selves",
       "format": "paperback",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/19472-clsicos-del-mazmorreo-la-torre-de-la-perla-negra.html",
-      "cover": "/images/rol/dcc-79-5-tower-of-the-black-pearl/castellano.webp"
+      "cover": "/images/rol/dcc-79-5-tower-of-the-black-pearl/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/5306-clasicos-del-mazmorreo-la-torre-de-la-perla-negra-9788494589928.html"
+        }
+      ]
     },
     {
       "language": "english",

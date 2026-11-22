@@ -11,8 +11,15 @@
       "title": "El pueblo de la sima",
       "publisher": "Other Selves",
       "format": "paperback",
+      "isbn13": 9788494589904,
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/18287-clsicos-del-mazmorreo-el-pueblo-de-la-sima.html",
-      "cover": "/images/rol/dcc-68-people-of-the-pit/castellano.webp"
+      "cover": "/images/rol/dcc-68-people-of-the-pit/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-el-pueblo-de-la-sima--una-aventura-para-clasicos-del-mazmorreo/9788494589904/9637781"
+        }
+      ]
     },
     {
       "language": "english",

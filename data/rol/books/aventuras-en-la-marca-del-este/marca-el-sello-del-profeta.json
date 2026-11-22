@@ -12,7 +12,13 @@
       "date": "2025-12",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41020-aventuras-en-la-marca-del-este-el-sello-del-profeta.html",
-      "cover": "/images/rol/marca-el-sello-del-profeta/castellano.webp"
+      "cover": "/images/rol/marca-el-sello-del-profeta/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18430-aventuras-en-la-marca-del-este-el-sello-del-profeta-1680201369619.html"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2021-06",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/27336-aventuras-en-la-marca-del-este-no-profanaras-el-sueno-de-los-muertos.html",
-      "cover": "/images/rol/marca-no-profanaras-el-sueno-de-los-muertos/castellano.webp"
+      "cover": "/images/rol/marca-no-profanaras-el-sueno-de-los-muertos/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/11403-aventuras-en-la-marca-del-este-no-profanaras-el-sue%C3%B1o-de-los-muertos-9700201000922.html"
+        }
+      ]
     }
   ]
 }

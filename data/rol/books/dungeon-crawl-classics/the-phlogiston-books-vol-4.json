@@ -11,7 +11,13 @@
       "publisher": "Other Selves",
       "format": "paperback",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/38331-the-phlogiston-books-vol-iv-clasicos-de-ishtar.html",
-      "cover": "/images/rol/the-phlogiston-books-vol-4/castellano.webp"
+      "cover": "/images/rol/the-phlogiston-books-vol-4/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17099-clasicos-del-mazmorreo-the-phlogiston-books-vol-4-clasicos-de-ishtar-9788412750737.html"
+        }
+      ]
     }
   ]
 }

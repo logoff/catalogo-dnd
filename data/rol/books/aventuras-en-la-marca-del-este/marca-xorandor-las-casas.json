@@ -12,7 +12,13 @@
       "date": "2025-10",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40459-aventuras-en-la-marca-del-este-xorandor-las-casas.html",
-      "cover": "/images/rol/marca-xorandor-las-casas/castellano.webp"
+      "cover": "/images/rol/marca-xorandor-las-casas/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18263-aventuras-en-la-marca-del-este-xorandor-las-casas-9780200989626.html"
+        }
+      ]
     }
   ]
 }

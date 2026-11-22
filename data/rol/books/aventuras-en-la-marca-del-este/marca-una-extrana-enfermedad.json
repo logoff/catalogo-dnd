@@ -11,7 +11,13 @@
       "publisher": "La Marca del Este",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41653-aventuras-en-la-marca-del-este-una-extrana-enfermedad.html",
-      "cover": "/images/rol/marca-una-extrana-enfermedad/castellano.webp"
+      "cover": "/images/rol/marca-una-extrana-enfermedad/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18773-aventuras-en-la-marca-del-este-una-extra%C3%B1a-enfermedad-0700001368504.html"
+        }
+      ]
     }
   ]
 }

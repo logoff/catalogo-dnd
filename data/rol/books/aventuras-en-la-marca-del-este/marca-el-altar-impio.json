@@ -12,7 +12,13 @@
       "date": "2025-08",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40031-aventuras-en-la-marca-del-este-el-altar-impio.html",
-      "cover": "/images/rol/marca-el-altar-impio/castellano.webp"
+      "cover": "/images/rol/marca-el-altar-impio/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18024-aventuras-en-la-marca-del-este-el-altar-impio-9780200370608.html"
+        }
+      ]
     }
   ]
 }

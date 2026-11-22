@@ -12,7 +12,13 @@
       "date": "2019-10",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23807-aventuras-en-la-marca-del-este-el-jardn-negro.html",
-      "cover": "/images/rol/marca-el-jardin-negro/castellano.webp"
+      "cover": "/images/rol/marca-el-jardin-negro/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8753-aventuras-en-la-marca-del-este-el-jardin-negro-9780881388626.html"
+        }
+      ]
     }
   ]
 }

@@ -11,8 +11,15 @@
       "publisher": "Holocubierta Ediciones",
       "date": "2014-06",
       "format": "paperback",
+      "isbn13": 9788415763130,
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/13674-aventuras-en-la-marca-del-este-redencin.html",
-      "cover": "/images/rol/marca-redencion/castellano.webp"
+      "cover": "/images/rol/marca-redencion/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-aventuras-en-la-marca-del-este-redencion/9788415763130/12346116"
+        }
+      ]
     }
   ]
 }

@@ -25,7 +25,13 @@
       "publisher": "Cursed Ink",
       "format": "hardcover",
       "source": "https://dracotienda.com/juegos-de-rol/41385-electric-bastionland.html",
-      "cover": "/images/rol/electric-bastionland/castellano.webp"
+      "cover": "/images/rol/electric-bastionland/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18525-electric-bastionland-castellano-9791399133004.html"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2025-07",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/39728-aventuras-en-la-marca-del-este-la-niebla.html",
-      "cover": "/images/rol/marca-la-niebla/castellano.webp"
+      "cover": "/images/rol/marca-la-niebla/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17847-aventuras-en-la-marca-del-este-la-niebla-9580261378625.html"
+        }
+      ]
     }
   ]
 }

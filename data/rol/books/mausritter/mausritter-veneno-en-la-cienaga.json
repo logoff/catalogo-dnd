@@ -11,7 +11,13 @@
       "publisher": "El Refugio de Ryhope",
       "format": "paperback",
       "source": "https://dracotienda.com/juegos-de-rol/38063-mausritter-veneno-en-la-cienaga.html",
-      "cover": "/images/rol/mausritter-veneno-en-la-cienaga/castellano.webp"
+      "cover": "/images/rol/mausritter-veneno-en-la-cienaga/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16915-mausritter-veneno-en-la-cienaga-9788412789386.html"
+        }
+      ]
     }
   ]
 }

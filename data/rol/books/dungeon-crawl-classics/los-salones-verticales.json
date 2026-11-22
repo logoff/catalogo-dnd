@@ -11,7 +11,13 @@
       "publisher": "Other Selves",
       "format": "paperback",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/17506-los-salones-verticales.html",
-      "cover": "/images/rol/los-salones-verticales/castellano.webp"
+      "cover": "/images/rol/los-salones-verticales/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/3616-clasicos-del-mazmorreo-los-salones-verticales-9788494053740.html"
+        }
+      ]
     }
   ]
 }

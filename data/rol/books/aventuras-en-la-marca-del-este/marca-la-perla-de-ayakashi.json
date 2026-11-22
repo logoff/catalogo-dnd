@@ -12,7 +12,13 @@
       "date": "2023-11",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/35286-aventuras-en-la-marca-del-este-la-perla-de-ayakashi-.html",
-      "cover": "/images/rol/marca-la-perla-de-ayakashi/castellano.webp"
+      "cover": "/images/rol/marca-la-perla-de-ayakashi/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15547-aventuras-en-la-marca-del-este-la-perla-de-ayakashi-9780201279665.html"
+        }
+      ]
     }
   ]
 }

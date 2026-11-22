@@ -12,7 +12,13 @@
       "publisher": "Other Selves",
       "format": "paperback",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/23575-clsicos-del-mazmorreo-las-joyas-de-la-matarife.html",
-      "cover": "/images/rol/dcc-70-jewels-of-the-carnifex/castellano.webp"
+      "cover": "/images/rol/dcc-70-jewels-of-the-carnifex/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8693-clasicos-del-mazmorreo-las-joyas-de-la-matarife-9788494891410.html"
+        }
+      ]
     },
     {
       "language": "english",

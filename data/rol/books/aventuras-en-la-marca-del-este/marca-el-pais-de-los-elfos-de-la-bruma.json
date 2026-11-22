@@ -12,7 +12,13 @@
       "date": "2025-12",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41019-aventuras-en-la-marca-del-este-el-pais-de-los-elfos-de-la-bruma.html",
-      "cover": "/images/rol/marca-el-pais-de-los-elfos-de-la-bruma/castellano.webp"
+      "cover": "/images/rol/marca-el-pais-de-los-elfos-de-la-bruma/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18431-aventuras-en-la-marca-del-este-el-pais-de-los-elfos-de-la-bruma-5580205579624.html"
+        }
+      ]
     }
   ]
 }

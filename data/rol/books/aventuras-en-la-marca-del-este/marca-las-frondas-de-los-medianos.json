@@ -12,7 +12,13 @@
       "date": "2020-11",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26123-aventuras-en-la-marca-del-este-las-frondas-de-los-medianos.html",
-      "cover": "/images/rol/marca-las-frondas-de-los-medianos/castellano.webp"
+      "cover": "/images/rol/marca-las-frondas-de-los-medianos/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/10297-aventuras-en-la-marca-del-este-las-frondas-de-los-medianos-9788881388622.html"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2025-05",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/39229-aventuras-en-la-marca-del-este-guia-marjalnegro-hasta-que-la-muerte-os-separe.html",
-      "cover": "/images/rol/marca-marjalnegro-hasta-que-la-muerte-os-separe/castellano.webp"
+      "cover": "/images/rol/marca-marjalnegro-hasta-que-la-muerte-os-separe/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17589-aventuras-en-la-marca-del-este-gu%C3%ADa-de-marjalnegro-y-hasta-que-la-muerte-os-separe-9780209632622.html"
+        }
+      ]
     }
   ]
 }

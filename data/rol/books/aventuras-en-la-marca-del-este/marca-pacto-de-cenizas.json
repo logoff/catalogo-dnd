@@ -12,7 +12,13 @@
       "date": "2019-10",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23804-aventuras-en-la-marca-del-este-pacto-de-cenizas.html",
-      "cover": "/images/rol/marca-pacto-de-cenizas/castellano.webp"
+      "cover": "/images/rol/marca-pacto-de-cenizas/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8756-aventuras-en-la-marca-del-este-pacto-de-cenizas-9780991399628.html"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2023-03",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/33076-aventuras-en-la-marca-del-este-la-balada-del-efimero-paladin.html",
-      "cover": "/images/rol/marca-la-balada-del-efimero-paladin/castellano.webp"
+      "cover": "/images/rol/marca-la-balada-del-efimero-paladin/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14505-aventuras-en-la-marca-del-este-la-balada-del-efimero-paladin-9780201370058.html"
+        }
+      ]
     }
   ]
 }

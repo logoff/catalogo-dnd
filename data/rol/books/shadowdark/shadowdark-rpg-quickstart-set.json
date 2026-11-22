@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "The Arcane Library",
       "format": "boxed_set",
-      "cover": "/images/rol/shadowdark-rpg-quickstart-set/english.webp"
+      "cover": "/images/rol/shadowdark-rpg-quickstart-set/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/413713/shadowdark-rpg-quickstart-set"
+        }
+      ]
     }
   ]
 }

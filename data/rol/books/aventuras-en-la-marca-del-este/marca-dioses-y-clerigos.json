@@ -12,7 +12,13 @@
       "date": "2025-12",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41022-aventuras-en-la-marca-del-este-dioses-y-clerigos.html",
-      "cover": "/images/rol/marca-dioses-y-clerigos/castellano.webp"
+      "cover": "/images/rol/marca-dioses-y-clerigos/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18429-aventuras-en-la-marca-del-este-dioses-y-clerigos-9770201079600.html"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "Other Selves",
       "format": "screen",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/19780-clasicos-del-mazmorreo-pantalla-del-juez-2-edicion.html",
-      "cover": "/images/rol/dcc-judges-screen/castellano.webp"
+      "cover": "/images/rol/dcc-judges-screen/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17704-clasicos-del-mazmorreo-pantalla-del-juez-segunda-edicion-9788412750768.html"
+        }
+      ]
     },
     {
       "language": "english",

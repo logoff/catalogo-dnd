@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "Exalted Funeral Press",
       "format": "boxed_set",
-      "cover": "/images/rol/mausritter-the-estate/english.webp"
+      "cover": "/images/rol/mausritter-the-estate/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/383089/mausritter-the-estate-adventure-collection"
+        }
+      ]
     }
   ]
 }

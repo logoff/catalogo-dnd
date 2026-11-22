@@ -12,7 +12,13 @@
       "date": "2025-03",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/38913-aventuras-en-la-marca-del-este-el-dios-del-rio.html",
-      "cover": "/images/rol/marca-el-dios-del-rio/castellano.webp"
+      "cover": "/images/rol/marca-el-dios-del-rio/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17431-aventuras-en-la-marca-del-este-el-dios-del-rio-9780207779626.html"
+        }
+      ]
     }
   ]
 }

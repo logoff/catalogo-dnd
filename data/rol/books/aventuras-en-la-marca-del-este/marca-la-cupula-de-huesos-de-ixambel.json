@@ -12,7 +12,13 @@
       "date": "2022-04",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/29507-aventuras-en-la-marca-del-este-la-cupula-de-huesos-de-ixambel.html",
-      "cover": "/images/rol/marca-la-cupula-de-huesos-de-ixambel/castellano.webp"
+      "cover": "/images/rol/marca-la-cupula-de-huesos-de-ixambel/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/12818-aventuras-en-la-marca-del-este-la-cupula-de-huesos-de-ixambel-9780201379625.html"
+        }
+      ]
     }
   ]
 }
