@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-crypt-of-the-devil-lich",
+  "system": "dungeon-crawl-classics",
+  "title": "Crypt of the Devil Lich (DCC)",
+  "kind": "adventure",
+  "description": "La reedición convertida a DCC de una de las mazmorras mortales más queridas de la línea, para personajes de nivel 7.\n\nPublicado por Goodman Games, escrito por Bob Brinkman and Chris Doyle, con 170 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/393043/crypt-of-the-devil-lich-dcc",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2023-02",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-crypt-of-the-devil-lich/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/393043/crypt-of-the-devil-lich-dcc"
+        }
+      ]
+    }
+  ]
+}

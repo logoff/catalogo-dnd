@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-79-5-tower-of-the-black-pearl",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #79.5: Tower of the Black Pearl",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 1: cada diez años la marea deja a la vista la torre submarina de Sezrekan el Viejo, el mago más malvado.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 16 páginas. Other Selves lo publica en castellano como La torre de la perla negra.",
+  "source": "https://www.drivethrurpg.com/en/product/120707/dungeon-crawl-classics-79-5-tower-of-the-black-pearl",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "La torre de la perla negra",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/19472-clsicos-del-mazmorreo-la-torre-de-la-perla-negra.html",
+      "cover": "/images/rol/dcc-79-5-tower-of-the-black-pearl/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2013-10",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-79-5-tower-of-the-black-pearl/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/120707/dungeon-crawl-classics-79-5-tower-of-the-black-pearl"
+        }
+      ]
+    }
+  ]
+}

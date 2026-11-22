@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-empire-of-the-east",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics: Empire of the East",
+  "kind": "setting",
+  "description": "Un libro de ambientación con licencia de los herederos de Fred Saberhagen para jugar a DCC en el mundo del Imperio del Este, nacido miles de años después de un holocausto nuclear.\n\nPublicado por Goodman Games, escrito por Jason Vey, con 88 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/314885/dungeon-crawl-classics-empire-of-the-east",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2021-02",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-empire-of-the-east/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/314885/dungeon-crawl-classics-empire-of-the-east"
+        }
+      ]
+    }
+  ]
+}

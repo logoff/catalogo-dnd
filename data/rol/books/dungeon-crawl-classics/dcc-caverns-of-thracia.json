@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-caverns-of-thracia",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG: The Caverns of Thracia",
+  "kind": "adventure",
+  "description": "Una megamazmorra para personajes de nivel 1 a 5 basada en el clásico de Jennell Jaquays: un misterio de mil años en las cámaras y cavernas olvidadas de la antigua Tracia.\n\nPublicado por Goodman Games, escrito por Bob Brinkman, con 282 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/539168/dcc-rpg-the-caverns-of-thracia",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2025-10",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-caverns-of-thracia/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/539168/dcc-rpg-the-caverns-of-thracia"
+        }
+      ]
+    }
+  ]
+}

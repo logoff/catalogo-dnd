@@ -622,6 +622,145 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | 56  | Travesías y tropiezos de Aldoquino Portomorto (vol. 1)          | otro         | marca-travesias-y-tropiezos-de-aldoquino-portomorto  | castellano         |
 | 57  | El laberinto de las mil puertas                                 | suplemento   | marca-el-laberinto-de-las-mil-puertas                | castellano         |
 
+### Dungeon Crawl Classics
+
+| #   | Título                                                                                             | Tipo         | Ficha                                                   | Nota               |
+| --- | -------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------- | ------------------ |
+| 1   | Dungeon Crawl Classics RPG                                                                         | básico       | dcc-rpg                                                 | castellano, inglés |
+| 2   | Dungeon Crawl Classics Judge's Screen                                                              | otro         | dcc-judges-screen                                       | castellano, inglés |
+| 3   | DCC RPG Reference Booklet                                                                          | otro         | dcc-reference-booklet                                   | inglés             |
+| 4   | DCC RPG Quick Start Rules                                                                          | otro         | dcc-quick-start-rules                                   | inglés             |
+| 5   | DCC RPG Annual                                                                                     | suplemento   | dcc-rpg-annual                                          | inglés             |
+| 6   | DCC RPG Dungeon Denizens                                                                           | suplemento   | dcc-dungeon-denizens                                    | inglés             |
+| 7   | DCC RPG Dungeon Denizens 2                                                                         | suplemento   | dcc-dungeon-denizens-2                                  | inglés             |
+| 8   | DCC Book of Fallen Gods                                                                            | suplemento   | dcc-book-of-fallen-gods                                 | inglés             |
+| 9   | DCC RPG: Grimtooth's Old-School Traps                                                              | suplemento   | dcc-grimtooths-old-school-traps                         | inglés             |
+| 10  | Grimtooth's Trapsylvania                                                                           | suplemento   | dcc-grimtooths-trapsylvania                             | inglés             |
+| 11  | Monsters & Magic of Dark Tower                                                                     | suplemento   | dcc-monsters-and-magic-of-dark-tower                    | inglés             |
+| 12  | Dungeon Crawl Classics Dying Earth                                                                 | ambientación | dcc-dying-earth                                         | inglés             |
+| 13  | Dungeon Crawl Classics: Empire of the East                                                         | ambientación | dcc-empire-of-the-east                                  | inglés             |
+| 14  | Dungeon Crawl Classics: Dark Tower                                                                 | aventura     | dcc-dark-tower                                          | inglés             |
+| 15  | DCC RPG: The Caverns of Thracia                                                                    | aventura     | dcc-caverns-of-thracia                                  | inglés             |
+| 16  | DCC RPG: Hellpits of Nightfang                                                                     | aventura     | dcc-hellpits-of-nightfang                               | inglés             |
+| 17  | Crypt of the Devil Lich (DCC)                                                                      | aventura     | dcc-crypt-of-the-devil-lich                             | inglés             |
+| 18  | DCC RPG: Against the Thieves Guild                                                                 | aventura     | dcc-against-the-thieves-guild                           | inglés             |
+| 19  | Grimtooth's Tomb of the Warhammer                                                                  | aventura     | dcc-grimtooths-tomb-of-the-warhammer                    | inglés             |
+| 20  | Dungeon Crawl Classics Tome of Adventure Vol. 1                                                    | aventura     | dcc-tome-of-adventure-1                                 | inglés             |
+| 21  | Dungeon Crawl Classics Tome of Adventure Vol. 2                                                    | aventura     | dcc-tome-of-adventure-2                                 | inglés             |
+| 22  | Dungeon Crawl Classics Tome of Adventure Vol. 4: Purple Planet                                     | aventura     | dcc-tome-of-adventure-4-purple-planet                   | inglés             |
+| 23  | Dungeon Crawl Classics Tome of Adventure Vol. 5: DCC Horror                                        | aventura     | dcc-tome-of-adventure-5-horror                          | inglés             |
+| 24  | Dungeon Crawl Classics Tome of Adventure Vol. 6: Holiday Adventures                                | aventura     | dcc-tome-of-adventure-6-holiday                         | inglés             |
+| 25  | Dungeon Crawl Classics Tome of Adventure Vol. 7: Magic, Gods, and Demons                           | aventura     | dcc-tome-of-adventure-7                                 | inglés             |
+| 26  | Dungeon Crawl Classics Tome of Adventure Vol. 8: Dying Earth                                       | aventura     | dcc-tome-of-adventure-8-dying-earth                     | inglés             |
+| 27  | Dungeon Crawl Classics #66.5: Doom of the Savage Kings                                             | aventura     | dcc-66-5-doom-of-the-savage-kings                       | castellano, inglés |
+| 28  | Dungeon Crawl Classics #67: Sailors on the Starless Sea                                            | aventura     | dcc-67-sailors-on-the-starless-sea                      | castellano, inglés |
+| 29  | Dungeon Crawl Classics #68: People of the Pit                                                      | aventura     | dcc-68-people-of-the-pit                                | castellano, inglés |
+| 30  | Dungeon Crawl Classics #69: The Emerald Enchanter                                                  | aventura     | dcc-69-the-emerald-enchanter                            | inglés             |
+| 31  | Dungeon Crawl Classics #70: Jewels of the Carnifex                                                 | aventura     | dcc-70-jewels-of-the-carnifex                           | castellano, inglés |
+| 32  | Dungeon Crawl Classics #71: The 13th Skull                                                         | aventura     | dcc-71-the-13th-skull                                   | inglés             |
+| 33  | Dungeon Crawl Classics #72: Beyond the Black Gate                                                  | aventura     | dcc-72-beyond-the-black-gate                            | inglés             |
+| 34  | Dungeon Crawl Classics #73: Emirikol Was Framed!                                                   | aventura     | dcc-73-emirikol-was-framed                              | inglés             |
+| 35  | Dungeon Crawl Classics #74: Blades Against Death                                                   | aventura     | dcc-74-blades-against-death                             | castellano, inglés |
+| 36  | Dungeon Crawl Classics #75: The Sea Queen Escapes                                                  | aventura     | dcc-75-the-sea-queen-escapes                            | inglés             |
+| 37  | Dungeon Crawl Classics #76: Colossus, Arise!                                                       | aventura     | dcc-76-colossus-arise                                   | inglés             |
+| 38  | Dungeon Crawl Classics #76.5: Well of the Worm                                                     | aventura     | dcc-76-5-well-of-the-worm                               | inglés             |
+| 39  | Dungeon Crawl Classics #77: The Croaking Fane                                                      | aventura     | dcc-77-the-croaking-fane                                | inglés             |
+| 40  | Dungeon Crawl Classics #77.5: The Tower Out of Time                                                | aventura     | dcc-77-5-the-tower-out-of-time                          | inglés             |
+| 41  | Dungeon Crawl Classics #78: Fate's Fell Hand                                                       | aventura     | dcc-78-fates-fell-hand                                  | castellano, inglés |
+| 42  | Dungeon Crawl Classics #79: Frozen in Time                                                         | aventura     | dcc-79-frozen-in-time                                   | castellano, inglés |
+| 43  | Dungeon Crawl Classics #79.5: Tower of the Black Pearl                                             | aventura     | dcc-79-5-tower-of-the-black-pearl                       | castellano, inglés |
+| 44  | Dungeon Crawl Classics #80: Intrigue at the Court of Chaos                                         | aventura     | dcc-80-intrigue-at-the-court-of-chaos                   | castellano, inglés |
+| 45  | Dungeon Crawl Classics #80.5: Glipkerio's Gambit                                                   | aventura     | dcc-80-5-glipkerios-gambit                              | inglés             |
+| 46  | Dungeon Crawl Classics #81: The One Who Watches From Below                                         | aventura     | dcc-81-the-one-who-watches-from-below                   | castellano, inglés |
+| 47  | Dungeon Crawl Classics #82: Bride of the Black Manse                                               | aventura     | dcc-82-bride-of-the-black-manse                         | castellano, inglés |
+| 48  | Dungeon Crawl Classics #82.5: Dragora's Dungeon                                                    | aventura     | dcc-82-5-dragoras-dungeon                               | inglés             |
+| 49  | Dungeon Crawl Classics #83: The Chained Coffin                                                     | aventura     | dcc-83-the-chained-coffin                               | inglés             |
+| 50  | Dungeon Crawl Classics #83.1: Tales of the Shudder Mountains                                       | aventura     | dcc-83-1-tales-of-the-shudder-mountains                 | inglés             |
+| 51  | Dungeon Crawl Classics #83.2: Death Among the Pines                                                | aventura     | dcc-83-2-death-among-the-pines                          | inglés             |
+| 52  | Dungeon Crawl Classics #84: Peril on the Purple Planet                                             | ambientación | dcc-84-peril-on-the-purple-planet                       | castellano, inglés |
+| 53  | Dungeon Crawl Classics #84.1: The Rock Awakens                                                     | aventura     | dcc-84-1-the-rock-awakens                               | inglés             |
+| 54  | Dungeon Crawl Classics #84.2: Synthetic Swordsmen of the Purple Planet                             | aventura     | dcc-84-2-synthetic-swordsmen                            | inglés             |
+| 55  | Dungeon Crawl Classics #84.3: Sky Masters of the Purple Planet                                     | aventura     | dcc-84-3-sky-masters                                    | inglés             |
+| 56  | Dungeon Crawl Classics #85: The Making of the Ghost Ring                                           | aventura     | dcc-85-the-making-of-the-ghost-ring                     | inglés             |
+| 57  | Dungeon Crawl Classics #86: The Hole In The Sky                                                    | aventura     | dcc-86-the-hole-in-the-sky                              | inglés             |
+| 58  | Dungeon Crawl Classics #87: Against the Atomic Overlord                                            | aventura     | dcc-87-against-the-atomic-overlord                      | inglés             |
+| 59  | Dungeon Crawl Classics #87.5: Grimtooth's Museum of Death                                          | aventura     | dcc-87-5-grimtooths-museum-of-death                     | inglés             |
+| 60  | Dungeon Crawl Classics #88: The 998th Conclave of Wizards                                          | aventura     | dcc-88-the-998th-conclave-of-wizards                    | inglés             |
+| 61  | Dungeon Crawl Classics #88.5: Curse of the Kingspire                                               | aventura     | dcc-88-5-curse-of-the-kingspire                         | inglés             |
+| 62  | Dungeon Crawl Classics #89: Chaos Rising                                                           | aventura     | dcc-89-chaos-rising                                     | inglés             |
+| 63  | Dungeon Crawl Classics #90: Dread God Al-Khazadar                                                  | aventura     | dcc-90-dread-god-al-khazadar                            | inglés             |
+| 64  | Dungeon Crawl Classics #91: Journey to the Center of Aereth                                        | aventura     | dcc-91-journey-to-the-center-of-aereth                  | inglés             |
+| 65  | Dungeon Crawl Classics #91.1: The Lost City of Barako                                              | aventura     | dcc-91-1-the-lost-city-of-barako                        | inglés             |
+| 66  | Dungeon Crawl Classics #91.2: Lairs of Lost Agharta                                                | aventura     | dcc-91-2-lairs-of-lost-agharta                          | inglés             |
+| 67  | Dungeon Crawl Classics #92: Through the Dragonwall                                                 | aventura     | dcc-92-through-the-dragonwall                           | inglés             |
+| 68  | Dungeon Crawl Classics #92.5: Dread on Demon Crown Hill                                            | aventura     | dcc-92-5-dread-on-demon-crown-hill                      | inglés             |
+| 69  | Dungeon Crawl Classics #93: Moon-Slaves of the Cannibal Kingdom                                    | aventura     | dcc-93-moon-slaves-of-the-cannibal-kingdom              | inglés             |
+| 70  | Dungeon Crawl Classics #94: Neon Knights                                                           | aventura     | dcc-94-neon-knights                                     | inglés             |
+| 71  | Dungeon Crawl Classics #95: Enter the Dagon                                                        | aventura     | dcc-95-enter-the-dagon                                  | castellano, inglés |
+| 72  | Dungeon Crawl Classics #96: The Tower of Faces                                                     | aventura     | dcc-96-the-tower-of-faces                               | inglés             |
+| 73  | Dungeon Crawl Classics #97: The Queen of Elfland's Son                                             | aventura     | dcc-97-the-queen-of-elflands-son                        | inglés             |
+| 74  | Dungeon Crawl Classics #98: Imprisoned in the God-Skull                                            | aventura     | dcc-98-imprisoned-in-the-god-skull                      | inglés             |
+| 75  | Dungeon Crawl Classics #99: The Star Wound of Abaddon                                              | aventura     | dcc-99-the-star-wound-of-abaddon                        | inglés             |
+| 76  | Dungeon Crawl Classics #100: The Music of the Spheres is Chaos                                     | aventura     | dcc-100-the-music-of-the-spheres-is-chaos               | inglés             |
+| 77  | Dungeon Crawl Classics #101: The Veiled Vaults of the Onyx Queen                                   | aventura     | dcc-101-the-veiled-vaults-of-the-onyx-queen             | inglés             |
+| 78  | Dungeon Crawl Classics #102: Dweller Between the Worlds                                            | aventura     | dcc-102-dweller-between-the-worlds                      | inglés             |
+| 79  | Dungeon Crawl Classics #103: Bloom on the Blood Garden                                             | aventura     | dcc-103-bloom-on-the-blood-garden                       | inglés             |
+| 80  | Dungeon Crawl Classics #104: Return to the Starless Sea                                            | aventura     | dcc-104-return-to-the-starless-sea                      | inglés             |
+| 81  | Dungeon Crawl Classics #105: By Mitra's Bones, Meet Thy Doom!                                      | aventura     | dcc-105-by-mitras-bones                                 | inglés             |
+| 82  | DCC #106: Trials of the Trapmaster's Tomb                                                          | aventura     | dcc-106-trials-of-the-trapmasters-tomb                  | inglés             |
+| 83  | Dungeon Crawl Classics #107: Forgotten Dangers                                                     | aventura     | dcc-107-forgotten-dangers                               | inglés             |
+| 84  | Dungeon Crawl Classics #108: The Seventh Thrall of Sezrekan                                        | aventura     | dcc-108-the-seventh-thrall-of-sezrekan                  | inglés             |
+| 85  | Dungeon Crawl Classics #109: Beneath the Isle of Serpents                                          | aventura     | dcc-109-beneath-the-isle-of-serpents                    | inglés             |
+| 86  | Dungeon Crawl Classics #110: The Sacrificial Pyre of Thracia                                       | aventura     | dcc-110-the-sacrificial-pyre-of-thracia                 | inglés             |
+| 87  | Dungeon Crawl Classics #111: Grave Robbers of Thracia                                              | aventura     | dcc-111-grave-robbers-of-thracia                        | inglés             |
+| 88  | Dungeon Crawl Classics #112: Mother of Monsters                                                    | aventura     | dcc-112-mother-of-monsters                              | inglés             |
+| 89  | Dungeon Crawl Classics 2013 Holiday Module: The Old God's Return                                   | aventura     | dcc-holiday-2013-the-old-gods-return                    | inglés             |
+| 90  | Dungeon Crawl Classics 2014 Holiday Module: Trials of the Toy Makers                               | aventura     | dcc-holiday-2014-trials-of-the-toy-makers               | inglés             |
+| 91  | Dungeon Crawl Classics 2015 Holiday Module: Advent of the Avalanche Lord                           | aventura     | dcc-holiday-2015-advent-of-the-avalanche-lord           | inglés             |
+| 92  | Dungeon Crawl Classics 2016 Holiday Module: Twilight of the Solstice                               | aventura     | dcc-holiday-2016-twilight-of-the-solstice               | inglés             |
+| 93  | Dungeon Crawl Classics 2018 Holiday Module: Home For The Holideath                                 | aventura     | dcc-holiday-2018-home-for-the-holideath                 | inglés             |
+| 94  | Dungeon Crawl Classics 2020 Holiday Module: The Doom that Came to Christmastown                    | aventura     | dcc-holiday-2020-the-doom-that-came-to-christmastown    | inglés             |
+| 95  | Dungeon Crawl Classics 2021 Holiday Module: Feast of the Gobbler Witch                             | aventura     | dcc-holiday-2021-feast-of-the-gobbler-witch             | inglés             |
+| 96  | DCC Holiday #11: Came The Monsters of Midwinter                                                    | aventura     | dcc-holiday-11-came-the-monsters-of-midwinter           | inglés             |
+| 97  | Dungeon Crawl Classics Valentines Module #1                                                        | aventura     | dcc-valentines-1-love-in-the-age-of-gongfarmers         | inglés             |
+| 98  | Dungeon Crawl Classics 2017 Halloween Module: Shadow Under Devil's Reef                            | aventura     | dcc-halloween-2017-shadow-under-devils-reef             | inglés             |
+| 99  | Dungeon Crawl Classics Horror #1: They Served Brandolyn Red                                        | aventura     | dcc-horror-1-they-served-brandolyn-red                  | inglés             |
+| 100 | Dungeon Crawl Classics Horror #2: The Sinister Sutures of the Sempstress                           | aventura     | dcc-horror-2-the-sinister-sutures                       | inglés             |
+| 101 | Dungeon Crawl Classics Horror: The Corpse That Love Built                                          | aventura     | dcc-horror-the-corpse-that-love-built                   | inglés             |
+| 102 | Dungeon Crawl Classics Horror #5: Creep, Skrag, Creep!                                             | aventura     | dcc-horror-5-creep-skrag-creep                          | inglés             |
+| 103 | Dungeon Crawl Classics Horror #6: The Web of All-Torment                                           | aventura     | dcc-horror-6-the-web-of-all-torment                     | inglés             |
+| 104 | Dungeon Crawl Classics Horror #7: It Consumes!                                                     | aventura     | dcc-horror-7-it-consumes                                | inglés             |
+| 105 | Dungeon Crawl Classics Horror #8: Night of the Bog Beast                                           | aventura     | dcc-horror-8-night-of-the-bog-beast                     | inglés             |
+| 106 | Dungeon Crawl Classics 2017 Convention Module: Blood for the Serpent King                          | aventura     | dcc-convention-2017-blood-for-the-serpent-king          | inglés             |
+| 107 | Dungeon Crawl Classics 2019 Convention Module: The Inn at Five Points                              | aventura     | dcc-convention-2019-the-inn-at-five-points              | inglés             |
+| 108 | Dungeon Crawl Classics 2020 Convention Module: The Accursed Heart of the Mountain                  | aventura     | dcc-convention-2020-the-accursed-heart                  | inglés             |
+| 109 | DCC Day #1: Shadow of the Beakman                                                                  | aventura     | dcc-day-1-shadow-of-the-beakman                         | inglés             |
+| 110 | DCC Day #2: Beneath the Well of Brass                                                              | aventura     | dcc-day-2-beneath-the-well-of-brass                     | inglés             |
+| 111 | DCC Day #3: Chanters in the Dark                                                                   | aventura     | dcc-day-3-chanters-in-the-dark                          | inglés             |
+| 112 | DCC Day #5: Gods of the Earth                                                                      | aventura     | dcc-day-5-gods-of-the-earth                             | inglés             |
+| 113 | DCC Day #6: The Key to Castle Whiterock                                                            | aventura     | dcc-day-6-the-key-to-castle-whiterock                   | inglés             |
+| 114 | DCC RPG Free RPG Day 2016                                                                          | aventura     | dcc-free-rpg-day-2016                                   | inglés             |
+| 115 | Free RPG Day: DCC Tomb of the Savage Kings                                                         | aventura     | dcc-free-rpg-day-tomb-of-the-savage-kings               | inglés             |
+| 116 | Free RPG Day 2022: DCC Danger in the Air                                                           | aventura     | dcc-free-rpg-day-2022-danger-in-the-air                 | inglés             |
+| 117 | Free RPG Day 2023: DCC Piercing the Demon's Eye                                                    | aventura     | dcc-free-rpg-day-2023-piercing-the-demons-eye           | inglés             |
+| 118 | Dungeon Crawl Classics Empire of the East #1: Hunt for the Howling God                             | aventura     | dcc-empire-of-the-east-1-hunt-for-the-howling-god       | inglés             |
+| 119 | Dungeon Crawl Classics Dying Earth #0: Pilgrims of the Black Obelisk                               | aventura     | dcc-dying-earth-0-pilgrims-of-the-black-obelisk         | inglés             |
+| 120 | Dungeon Crawl Classics Dying Earth #1: The Laughing Idol of Lar-Shann                              | aventura     | dcc-dying-earth-1-the-laughing-idol-of-lar-shann        | inglés             |
+| 121 | Dungeon Crawl Classics Dying Earth #2: The Sorcerer's Tower of Sanguine Slant                      | aventura     | dcc-dying-earth-2-the-sorcerers-tower-of-sanguine-slant | inglés             |
+| 122 | Dungeon Crawl Classics Dying Earth #3: Magnificent Machinations at the Great Exposition of Marvels | aventura     | dcc-dying-earth-3-magnificent-machinations              | inglés             |
+| 123 | Dungeon Crawl Classics Dying Earth #4: Mind-Weft of the Moonstone Palace                           | aventura     | dcc-dying-earth-4-mind-weft-of-the-moonstone-palace     | inglés             |
+| 124 | Dungeon Crawl Classics Dying Earth #5: Penumbra of the Polar Ape                                   | aventura     | dcc-dying-earth-5-penumbra-of-the-polar-ape             | inglés             |
+| 125 | Dungeon Crawl Classics Dying Earth #6: The Great Visp Hunt                                         | aventura     | dcc-dying-earth-6-the-great-visp-hunt                   | inglés             |
+| 126 | Dungeon Crawl Classics Dying Earth #7: Phantoms of the Ectoplasmic Cotillion                       | aventura     | dcc-dying-earth-7-phantoms-of-the-ectoplasmic-cotillion | inglés             |
+| 127 | Dungeon Crawl Classics Dying Earth #8: The House On The Island                                     | aventura     | dcc-dying-earth-8-the-house-on-the-island               | inglés             |
+| 128 | Dungeon Crawl Classics Dying Earth #9: Time Tempests at the Nameless Rose                          | aventura     | dcc-dying-earth-9-time-tempests-at-the-nameless-rose    | inglés             |
+| 129 | Dungeon Crawl Classics Dying Earth #10: Passage to the Manse of Erudite Wonderment                 | aventura     | dcc-dying-earth-10-passage-to-the-manse                 | inglés             |
+| 130 | The Phlogiston Books Vol. I                                                                        | suplemento   | the-phlogiston-books-vol-1                              | castellano         |
+| 131 | The Phlogiston Books Vol. II: El heredero de piedra                                                | aventura     | the-phlogiston-books-vol-2                              | castellano         |
+| 132 | The Phlogiston Books Vol. III: El carnaval de las delicias terrenales                              | aventura     | the-phlogiston-books-vol-3                              | castellano         |
+| 133 | The Phlogiston Books Vol. IV: Clásicos de Ishtar                                                   | ambientación | the-phlogiston-books-vol-4                              | castellano         |
+| 134 | Los salones verticales                                                                             | aventura     | los-salones-verticales                                  | castellano         |
+
 ## Ediciones anteriores de D&D
 
 Sección propia en `/ediciones` (no forma parte de «Otros juegos de rol»),

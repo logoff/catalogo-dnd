@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-66-5-doom-of-the-savage-kings",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #66.5: Doom of the Savage Kings",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 1: cada noche, cuando se pone el sol, una bestia asedia la aldea de Hirot, en lo alto de los páramos.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 20 páginas. Other Selves lo publica en castellano como La perdición de los reyes bárbaros.",
+  "source": "https://www.drivethrurpg.com/en/product/129075/dungeon-crawl-classics-66-5-doom-of-the-savage-king",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "La perdición de los reyes bárbaros",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/17992-clsicos-del-mazmorreo-la-perdicin-de-los-reyes-brbaros.html",
+      "cover": "/images/rol/dcc-66-5-doom-of-the-savage-kings/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2014-04",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-66-5-doom-of-the-savage-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/129075/dungeon-crawl-classics-66-5-doom-of-the-savage-king"
+        }
+      ]
+    }
+  ]
+}

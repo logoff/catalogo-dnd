@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-78-fates-fell-hand",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #78: Fate's Fell Hand",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 2 en un mar de flogisto donde tres magos luchan por dominar la realidad y cada día todo vuelve a empezar.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 28 páginas. Other Selves lo publica en castellano como La funesta mano del destino.",
+  "source": "https://www.drivethrurpg.com/en/product/118464/dungeon-crawl-classics-78-fate-s-fell-hand",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "La funesta mano del destino",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/19337-clsicos-del-mazmorreo-la-funesta-mano-del-destino.html",
+      "cover": "/images/rol/dcc-78-fates-fell-hand/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2013-08",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-78-fates-fell-hand/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/118464/dungeon-crawl-classics-78-fate-s-fell-hand"
+        }
+      ]
+    }
+  ]
+}

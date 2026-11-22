@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-tome-of-adventure-8-dying-earth",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Tome of Adventure Vol. 8: Dying Earth",
+  "kind": "adventure",
+  "description": "Nueve aventuras listas para la Tierra Moribunda de DCC, de partidas de nivel 0 a nivel 5: trampas mortales, misterio, mazmorras y horror cósmico.\n\nPublicado por Goodman Games, escrito por Harley Stroh, Julian Bernick, Erol Otus, Marc Bruner.",
+  "source": "https://www.drivethrurpg.com/en/product/581327/dungeon-crawl-classics-tome-of-adventure-8-dying-earth",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2026-08",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-tome-of-adventure-8-dying-earth/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/581327/dungeon-crawl-classics-tome-of-adventure-8-dying-earth"
+        }
+      ]
+    }
+  ]
+}

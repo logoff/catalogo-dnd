@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-67-sailors-on-the-starless-sea",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #67: Sailors on the Starless Sea",
+  "kind": "adventure",
+  "description": "Una de las aventuras más celebradas de DCC, de nivel 0: los aldeanos que han vivido siempre a la sombra de unas ruinas ciclópeas se adentran en ellas cuando el mal despierta.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 16 páginas. Other Selves lo publica en castellano como Marineros del mar sin estrellas.",
+  "source": "https://www.drivethrurpg.com/en/product/102448/dungeon-crawl-classics-67-sailors-on-the-starless-sea",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Marineros del mar sin estrellas",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/17511-clasicos-del-mazmorreo-marineros-del-mar-sin-estrellas.html",
+      "cover": "/images/rol/dcc-67-sailors-on-the-starless-sea/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2012-05",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-67-sailors-on-the-starless-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/102448/dungeon-crawl-classics-67-sailors-on-the-starless-sea"
+        }
+      ]
+    }
+  ]
+}

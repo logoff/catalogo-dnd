@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-judges-screen",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Judge's Screen",
+  "kind": "other",
+  "description": "La pantalla del juez de DCC: seis paneles, tres con ilustraciones a color de Doug Kovacs y tres con las tablas y referencias más consultadas durante la partida.\n\nPublicado por Goodman Games, escrito por Joseph Goodman, con 6 páginas. Other Selves lo publica en castellano como Clásicos del Mazmorreo: Pantalla del juez (2.ª edición).",
+  "source": "https://www.drivethrurpg.com/en/product/155731/dungeon-crawl-classics-judge-s-screen",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Clásicos del Mazmorreo: Pantalla del juez (2.ª edición)",
+      "publisher": "Other Selves",
+      "format": "screen",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/19780-clasicos-del-mazmorreo-pantalla-del-juez-2-edicion.html",
+      "cover": "/images/rol/dcc-judges-screen/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2016-02",
+      "format": "screen",
+      "cover": "/images/rol/dcc-judges-screen/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/155731/dungeon-crawl-classics-judge-s-screen"
+        }
+      ]
+    }
+  ]
+}

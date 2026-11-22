@@ -1,0 +1,17 @@
+{
+  "slug": "los-salones-verticales",
+  "system": "dungeon-crawl-classics",
+  "title": "Los salones verticales",
+  "kind": "adventure",
+  "description": "Una aventura para Clásicos del Mazmorreo: tras un temblor de tierra junto a Pasombrío aparece una enfermedad extraña que se convierte en epidemia.\n\nUn libro original en castellano de Other Selves.",
+  "source": "https://dracotienda.com/clasicos-del-mazmorreo/17506-los-salones-verticales.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/17506-los-salones-verticales.html",
+      "cover": "/images/rol/los-salones-verticales/castellano.webp"
+    }
+  ]
+}

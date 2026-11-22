@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-tome-of-adventure-6-holiday",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Tome of Adventure Vol. 6: Holiday Adventures",
+  "kind": "adventure",
+  "description": "Ocho aventuras de la línea de vacaciones de DCC en un volumen, para jugar como especiales de temporada o dentro de una campaña.\n\nPublicado por Goodman Games, escrito por Steve Bean, Marc Bruner, Tim Callahan, Michael Curtis, Brendan LaSalle, Marzio Muscedere, and Stephen Newton.",
+  "source": "https://www.drivethrurpg.com/en/product/525980/dungeon-crawl-classics-tome-of-adventure-6-holiday-adventures",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-tome-of-adventure-6-holiday/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/525980/dungeon-crawl-classics-tome-of-adventure-6-holiday-adventures"
+        }
+      ]
+    }
+  ]
+}

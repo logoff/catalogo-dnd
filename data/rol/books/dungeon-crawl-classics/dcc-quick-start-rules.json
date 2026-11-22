@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-quick-start-rules",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG Quick Start Rules",
+  "kind": "other",
+  "description": "Las reglas de inicio de DCC, escritas para presentar el sistema a jueces y jugadores nuevos, con algunas reglas condensadas y simplificadas.\n\nPublicado por Goodman Games, escrito por Joseph Goodman, con 48 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/220858/dcc-rpg-quick-start-rules",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2017-09",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-quick-start-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/220858/dcc-rpg-quick-start-rules"
+        }
+      ]
+    }
+  ]
+}

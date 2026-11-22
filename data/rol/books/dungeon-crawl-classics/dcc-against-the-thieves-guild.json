@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-against-the-thieves-guild",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG: Against the Thieves Guild",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 2: recuperar una caja mágica guardada en una cámara oculta de una mazmorra llena de trampas, que resulta no ser tan sencillo.\n\nPublicado por Goodman Games, escrito por Alex Kurowski.",
+  "source": "https://www.drivethrurpg.com/en/product/503625/dcc-rpg-against-the-thieves-guild",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2024-11",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-against-the-thieves-guild/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/503625/dcc-rpg-against-the-thieves-guild"
+        }
+      ]
+    }
+  ]
+}

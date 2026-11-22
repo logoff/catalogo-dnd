@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-free-rpg-day-tomb-of-the-savage-kings",
+  "system": "dungeon-crawl-classics",
+  "title": "Free RPG Day: DCC Tomb of the Savage Kings",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 2 del Free RPG Day: la rica viuda Zita Aztur pide ayuda para encontrar a su hermana desaparecida.\n\nPublicado por Goodman Games, escrito por Stephen Newton, con 24 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/364378/free-rpg-day-dcc-tomb-of-the-savage-kings",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2021-10",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-free-rpg-day-tomb-of-the-savage-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/364378/free-rpg-day-dcc-tomb-of-the-savage-kings"
+        }
+      ]
+    }
+  ]
+}

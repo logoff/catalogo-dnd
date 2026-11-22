@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-74-blades-against-death",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #74: Blades Against Death",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 4 en Punjar, ciudad de profetas del fin del mundo, sacerdotes con cota de malla y sacrificios en templos ennegrecidos.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 24 páginas. Other Selves lo publica en castellano como Espadas contra la muerte.",
+  "source": "https://www.drivethrurpg.com/en/product/108984/dungeon-crawl-classics-74-blades-against-death",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Espadas contra la muerte",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/36833-clasicos-del-mazmorreo-espadas-contra-la-muerte.html",
+      "cover": "/images/rol/dcc-74-blades-against-death/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2012-12",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-74-blades-against-death/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/108984/dungeon-crawl-classics-74-blades-against-death"
+        }
+      ]
+    }
+  ]
+}

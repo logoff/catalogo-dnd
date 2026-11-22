@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-82-bride-of-the-black-manse",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #82: Bride of the Black Manse",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 3: lady Ilse obtuvo su casa pactando con el archidiablo Mammón su alma y un compromiso diabólico que cada año reclama su precio.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 32 páginas. Other Selves lo publica en castellano como La prometida de la mansión negra.",
+  "source": "https://www.drivethrurpg.com/en/product/128791/dungeon-crawl-classics-82-bride-of-the-black-manse",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "La prometida de la mansión negra",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/22873-clsicos-del-mazmorreo-la-prometida-de-la-mansin-negra.html",
+      "cover": "/images/rol/dcc-82-bride-of-the-black-manse/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2014-04",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-82-bride-of-the-black-manse/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/128791/dungeon-crawl-classics-82-bride-of-the-black-manse"
+        }
+      ]
+    }
+  ]
+}

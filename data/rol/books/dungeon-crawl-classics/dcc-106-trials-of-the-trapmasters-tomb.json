@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-106-trials-of-the-trapmasters-tomb",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC #106: Trials of the Trapmaster's Tomb",
+  "kind": "adventure",
+  "description": "Una aventura de nivel 0: la tumba de un fabricante de trampas y nigromante se abre una vez al año a los desesperados que buscan fortuna.\n\nPublicado por Goodman Games, escrito por Terry Olsen.",
+  "source": "https://www.drivethrurpg.com/en/product/503611/dcc-106-trials-of-the-trapmaster-s-tomb",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2024-11",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-106-trials-of-the-trapmasters-tomb/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/503611/dcc-106-trials-of-the-trapmaster-s-tomb"
+        }
+      ]
+    }
+  ]
+}

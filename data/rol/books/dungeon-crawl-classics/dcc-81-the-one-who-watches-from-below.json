@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-81-the-one-who-watches-from-below",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #81: The One Who Watches From Below",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 1: la cueva secreta de los místicos guarda un tesoro capaz de comprar siete veces el reino.\n\nPublicado por Goodman Games, escrito por Jobe Bittman, con 24 páginas. Other Selves lo publica en castellano como Aquel que observa desde las profundidades.",
+  "source": "https://www.drivethrurpg.com/en/product/127406/dungeon-crawl-classics-81-the-one-who-watches-from-below",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Aquel que observa desde las profundidades",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/24242-clasicos-del-mazmorreo-aquel-que-observa-desde-las-profundidades.html",
+      "cover": "/images/rol/dcc-81-the-one-who-watches-from-below/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2014-03",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-81-the-one-who-watches-from-below/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/127406/dungeon-crawl-classics-81-the-one-who-watches-from-below"
+        }
+      ]
+    }
+  ]
+}

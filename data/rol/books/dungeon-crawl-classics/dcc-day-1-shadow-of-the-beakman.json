@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-day-1-shadow-of-the-beakman",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC Day #1: Shadow of the Beakman",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 1 del DCC Day: obeliscos, caballeros monstruosos y aldeas enteras llevadas como esclavas a pozos oscuros.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 16 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/307225/dcc-day-1-shadow-of-the-beakman",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2020-11",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-day-1-shadow-of-the-beakman/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/307225/dcc-day-1-shadow-of-the-beakman"
+        }
+      ]
+    }
+  ]
+}
