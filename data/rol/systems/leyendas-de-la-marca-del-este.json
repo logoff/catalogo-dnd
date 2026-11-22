@@ -1,0 +1,35 @@
+{
+  "slug": "leyendas-de-la-marca-del-este",
+  "name": "Leyendas de la Marca del Este",
+  "family": "cronicas-de-la-marca-del-este",
+  "publisher": "Holocubierta Ediciones",
+  "date": "2017",
+  "movement": "osr",
+  "description": "El juego avanzado de la Marca del Este: una adaptación libre de Castles & Crusades con la ambientación de la Marca, a medio camino entre los retroclones y los juegos modernos. Sobre la base de Castles & Crusades añade una nueva raza, críticos y pifias opcionales, personajes multiclase y tiradas de reacción y moral para los monstruos. Por su espíritu se suele describir como un AD&D 2.5.\n\nSalió en diciembre de 2017 como un libro de 328 páginas, compatible con todo lo publicado para Aventuras en la Marca del Este y con notas para convertir de un juego al otro. Lo sustituyó en 2022 su segunda edición, Crónicas de la Marca del Este.",
+  "features": [
+    "Adaptación libre de Castles & Crusades",
+    "Multiclase, críticos y pifias opcionales",
+    "Compatible con Aventuras en la Marca del Este",
+    "Primera edición de Crónicas de la Marca del Este"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2017"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "castles-and-crusades",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Adapta Castles & Crusades con cambios propios y la ambientación de la Marca."
+    }
+  ],
+  "links": [
+    {
+      "label": "La Marca del Este",
+      "url": "https://lamarcadeleste.com/2017/12/leyendas-de-la-marca.html"
+    }
+  ]
+}

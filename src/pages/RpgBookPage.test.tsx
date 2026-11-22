@@ -79,6 +79,18 @@ const compatibleOnly: RpgBook = {
   license: 'none',
   editions: [{ language: 'english', publisher: 'Otra' }],
 }
+const freeBook: RpgBook = {
+  ...book,
+  slug: 'libre',
+  title: 'Libre',
+  editions: [
+    {
+      language: 'castellano',
+      publisher: 'La Marca del Este',
+      free_download: 'https://codexdelamarca.com/posts/libre/',
+    },
+  ],
+}
 
 const renderAt = (path: string) =>
   render(
@@ -92,8 +104,11 @@ const renderAt = (path: string) =>
 
 describe('ficha de libro', () => {
   beforeEach(() => {
-    setRpgIndex(buildRpgIndex([orc], [system, edition], [book, compatibleOnly, editionBook]))
+    setRpgIndex(
+      buildRpgIndex([orc], [system, edition], [book, compatibleOnly, editionBook, freeBook])
+    )
     cacheBook(book)
+    cacheBook(freeBook)
     cacheBook(compatibleOnly)
     cacheBook(editionBook)
   })
@@ -127,6 +142,15 @@ describe('ficha de libro', () => {
   it('indica cuando el libro solo se declara compatible y no está a la venta', () => {
     renderAt('/rol/pathfinder-2e/compatible')
     expect(screen.getByText('Sin licencia abierta: se declara compatible')).toBeInTheDocument()
+    expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+  })
+
+  it('enlaza la copia gratuita de Codex de la Marca sin tratarla como tienda', () => {
+    renderAt('/rol/pathfinder-2e/libre')
+    const link = screen.getByRole('link', { name: /Descarga gratuita en Codex de la Marca/ })
+    expect(link).toHaveAttribute('href', 'https://codexdelamarca.com/posts/libre/')
+    expect(link).not.toHaveAttribute('rel', expect.stringContaining('sponsored'))
+    expect(document.querySelector('[data-purchase-links]')).toBeNull()
     expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
   })
 

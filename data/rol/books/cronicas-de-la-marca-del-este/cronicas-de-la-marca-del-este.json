@@ -1,0 +1,24 @@
+{
+  "slug": "cronicas-de-la-marca-del-este",
+  "system": "cronicas-de-la-marca-del-este",
+  "title": "Crónicas de la Marca del Este",
+  "kind": "core",
+  "description": "El manual de reglas de la segunda edición: características, clases, especies, equipo, combate, magia, consejos para el Narrador, tesoros, monstruos y la Marca del Este, con apéndices para convertir aventuras de Aventuras en la Marca, de AD&D, del d20 y de la quinta edición.\n\nUn libro de 212 páginas en rústica con solapas e interior en blanco y negro. El grupo lo ha liberado y se puede descargar gratis en Codex de la Marca.",
+  "source": "https://tesorosdelamarca.com/producto/cronicas-de-la-marca-del-este/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2022",
+      "format": "paperback",
+      "cover": "/images/rol/cronicas-de-la-marca-del-este/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/cronicas-marca/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13767-cronicas-de-la-marca-9788493585822.html"
+        }
+      ]
+    }
+  ]
+}

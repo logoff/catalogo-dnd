@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { GlobeAltIcon } from '@heroicons/react/24/outline'
+import { ArrowDownTrayIcon, GlobeAltIcon } from '@heroicons/react/24/outline'
 import MetaTags from '@/components/seo/MetaTags'
 import { SpanishMark } from '@/components/ui/Badge'
 import Badge from '@/components/ui/Badge'
@@ -9,6 +9,7 @@ import LazyImage from '@/components/common/LazyImage'
 import ImageLightbox from '@/components/common/ImageLightbox'
 import PurchaseButton from '@/components/common/PurchaseButton'
 import PurchaseLinks from '@/components/common/PurchaseLinks'
+import { buttonClass } from '@/components/ui/styles'
 import {
   RpgLoading,
   RpgPage,
@@ -58,7 +59,7 @@ function EditionRow({
         : {edition.title ?? book.title}
       </p>
       <p className="text-sm text-muted">{details.join(' · ')}</p>
-      {links.length > 0 && (
+      {(links.length > 0 || edition.free_download) && (
         <div className="mt-2 flex flex-wrap gap-2">
           {links.map((link, index) => (
             <PurchaseButton
@@ -69,6 +70,21 @@ function EditionRow({
               tracking={{ rol: `${book.system}/${book.slug}`, idioma: edition.language }}
             />
           ))}
+          {edition.free_download && (
+            // Copia liberada por la editorial: no es una tienda ni lleva afiliado
+            <a
+              href={edition.free_download}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={buttonClass('secondary')}
+              data-umami-event="descargar"
+              data-umami-event-rol={`${book.system}/${book.slug}`}
+              data-umami-event-url={edition.free_download}
+            >
+              <span>Descarga gratuita en Codex de la Marca</span>
+              <ArrowDownTrayIcon className="size-3.5 opacity-70" aria-hidden="true" />
+            </a>
+          )}
         </div>
       )}
     </li>
