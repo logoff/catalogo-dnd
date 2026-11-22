@@ -1,0 +1,24 @@
+{
+  "slug": "cc-monstrous-armory",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Monstrous Armory",
+  "kind": "supplement",
+  "description": "El armamento de los humanoides y semihumanos, gigantes, demonios y monstruos de Castles & Crusades.\n\nPublicado por Troll Lord Games, escrito por Davis Chenault, con 160 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/512766/castles-crusades-monstrous-armory",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2025-04",
+      "format": "hardcover",
+      "isbn13": 9781952379697,
+      "cover": "/images/rol/cc-monstrous-armory/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/512766/castles-crusades-monstrous-armory"
+        }
+      ]
+    }
+  ]
+}

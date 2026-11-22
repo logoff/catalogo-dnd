@@ -1,0 +1,24 @@
+{
+  "slug": "cc-beneath-the-dome",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Beneath the Dome",
+  "kind": "adventure",
+  "description": "Una aventura de James M. Ward que reúne en treinta y seis páginas las cuatro partes de un serial.\n\nPublicado por Troll Lord Games, escrito por James M. Ward, con 37 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/118804/castles-crusades-beneath-the-dome",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2013-09",
+      "format": "paperback",
+      "isbn13": 9781936822539,
+      "cover": "/images/rol/cc-beneath-the-dome/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/118804/castles-crusades-beneath-the-dome"
+        }
+      ]
+    }
+  ]
+}

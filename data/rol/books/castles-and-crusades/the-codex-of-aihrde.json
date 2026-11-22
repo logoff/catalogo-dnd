@@ -1,0 +1,24 @@
+{
+  "slug": "the-codex-of-aihrde",
+  "system": "castles-and-crusades",
+  "title": "The Codex of Aihrde",
+  "kind": "setting",
+  "description": "El libro del mundo de Aihrde, la ambientación de Troll Lord Games para Castles & Crusades, con su mitología, su historia y sus tierras para usar como base de las campañas.\n\nPublicado por Troll Lord Games, escrito por Stephen Chenault, con 288 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/437052/the-codex-of-aihrde",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2023-12",
+      "format": "hardcover",
+      "isbn13": 9781936822416,
+      "cover": "/images/rol/the-codex-of-aihrde/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/437052/the-codex-of-aihrde"
+        }
+      ]
+    }
+  ]
+}

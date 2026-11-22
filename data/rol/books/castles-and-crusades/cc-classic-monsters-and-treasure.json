@@ -1,0 +1,23 @@
+{
+  "slug": "cc-classic-monsters-and-treasure",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Classic Monsters & Treasure",
+  "kind": "supplement",
+  "description": "Una colección de monstruos clásicos con sus tesoros para Castles & Crusades, en su segunda impresión.\n\nPublicado por Troll Lord Games, escrito por Kim Hartsfield, con 176 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/166702/castles-crusades-classic-monsters-treasure-2nd-printing",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2016-04",
+      "format": "hardcover",
+      "cover": "/images/rol/cc-classic-monsters-and-treasure/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/166702/castles-crusades-classic-monsters-treasure-2nd-printing"
+        }
+      ]
+    }
+  ]
+}

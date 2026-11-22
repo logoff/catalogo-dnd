@@ -1,0 +1,24 @@
+{
+  "slug": "cc-a9-the-helm-of-night",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades A9 The Helm of Night",
+  "kind": "adventure",
+  "description": "La antigua torre de Horesk, en una isla en medio de las ciénagas de las Grausumlands.\n\nPublicado por Troll Lord Games, escrito por Stephen Chenault, con 24 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/96952/castles-crusades-a9-the-helm-of-night",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2011-11",
+      "format": "paperback",
+      "isbn13": 9781931275897,
+      "cover": "/images/rol/cc-a9-the-helm-of-night/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/96952/castles-crusades-a9-the-helm-of-night"
+        }
+      ]
+    }
+  ]
+}

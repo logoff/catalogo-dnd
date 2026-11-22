@@ -1,0 +1,24 @@
+{
+  "slug": "cc-s4-dwarven-glory",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades S4 Dwarven Glory",
+  "kind": "adventure",
+  "description": "Tres mazmorras en Aihrde sobre las glorias olvidadas de los enanos.\n\nPublicado por Troll Lord Games, escrito por Stephen Chenault, con 12 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/97137/castles-crusades-s4-dwarven-glory",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2011-11",
+      "format": "paperback",
+      "isbn13": 9780984415533,
+      "cover": "/images/rol/cc-s4-dwarven-glory/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/97137/castles-crusades-s4-dwarven-glory"
+        }
+      ]
+    }
+  ]
+}

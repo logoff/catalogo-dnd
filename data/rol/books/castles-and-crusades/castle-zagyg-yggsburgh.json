@@ -1,0 +1,23 @@
+{
+  "slug": "castle-zagyg-yggsburgh",
+  "system": "castles-and-crusades",
+  "title": "Castle Zagyg: Yggsburgh (Classic Reprint)",
+  "kind": "setting",
+  "description": "La reimpresión del libro de Gary Gygax sobre Yggsburgh, la ciudad fortificada a la sombra del temido Castillo Zagyg, base para saquear sus mazmorras.\n\nPublicado por Troll Lord Games, escrito por Gary Gygax, con 256 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/451984/castles-crusades-castle-zagyg-yggsburgh-classic-reprint",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2023-09",
+      "format": "hardcover",
+      "cover": "/images/rol/castle-zagyg-yggsburgh/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/451984/castles-crusades-castle-zagyg-yggsburgh-classic-reprint"
+        }
+      ]
+    }
+  ]
+}

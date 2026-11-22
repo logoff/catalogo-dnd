@@ -1,0 +1,24 @@
+{
+  "slug": "cc-the-hallowed-oracle",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades The Hallowed Oracle",
+  "kind": "adventure",
+  "description": "La profecía del Caminante del Abismo enreda a unos aventureros jóvenes en un destino que no esperaban.\n\nPublicado por Troll Lord Games, escrito por Jason Vey, con 52 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/224972/castles-crusades-the-hallowed-oracle",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2018-07",
+      "format": "paperback",
+      "isbn13": 9781944135553,
+      "cover": "/images/rol/cc-the-hallowed-oracle/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/224972/castles-crusades-the-hallowed-oracle"
+        }
+      ]
+    }
+  ]
+}

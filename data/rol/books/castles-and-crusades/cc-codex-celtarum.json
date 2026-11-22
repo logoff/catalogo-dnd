@@ -1,0 +1,23 @@
+{
+  "slug": "cc-codex-celtarum",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Codex Celtarum",
+  "kind": "supplement",
+  "description": "El mundo de los celtas para Castles & Crusades: crómlechs, hombres de mimbre, hadas oscuras y dioses salvajes. Segunda impresión, muy ampliada.\n\nPublicado por Troll Lord Games, escrito por Brian Young, con 226 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/313449/castles-crusades-codex-celtarum-2nd-printing",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2020-09",
+      "format": "hardcover",
+      "cover": "/images/rol/cc-codex-celtarum/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/313449/castles-crusades-codex-celtarum-2nd-printing"
+        }
+      ]
+    }
+  ]
+}

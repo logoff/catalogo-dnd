@@ -890,6 +890,51 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | 2   | The Atlas of the Latter Earth | ambientación | the-atlas-of-the-latter-earth | inglés |
 | 3   | The Diocesi of Montfroid      | ambientación | the-diocesi-of-montfroid      | inglés |
 
+### Castles & Crusades
+
+| #   | Título                                             | Tipo         | Ficha                              | Nota   |
+| --- | -------------------------------------------------- | ------------ | ---------------------------------- | ------ |
+| 1   | Castles & Crusades Players Handbook                | básico       | cc-players-handbook                | inglés |
+| 2   | Castles & Crusades Monsters & Treasure             | básico       | cc-monsters-and-treasure           | inglés |
+| 3   | Castles & Crusades Castle Keepers Guide            | básico       | cc-castle-keepers-guide            | inglés |
+| 4   | The Codex of Aihrde                                | ambientación | the-codex-of-aihrde                | inglés |
+| 5   | Castles & Crusades Adventurers Backpack            | suplemento   | cc-adventurers-backpack            | inglés |
+| 6   | Castles & Crusades Adventurers Armory              | suplemento   | cc-adventurers-armory              | inglés |
+| 7   | Castles & Crusades Monstrous Armory                | suplemento   | cc-monstrous-armory                | inglés |
+| 8   | Castles & Crusades War Mounts                      | suplemento   | cc-war-mounts                      | inglés |
+| 9   | Castles & Crusades Engineering Villages            | suplemento   | cc-engineering-villages            | inglés |
+| 10  | Engineering Castles                                | suplemento   | cc-engineering-castles             | inglés |
+| 11  | Castles & Crusades Classic Monsters & Treasure     | suplemento   | cc-classic-monsters-and-treasure   | inglés |
+| 12  | Castles & Crusades Mystical Companions             | suplemento   | cc-mystical-companions             | inglés |
+| 13  | Castles & Crusades Codex Celtarum                  | suplemento   | cc-codex-celtarum                  | inglés |
+| 14  | Castles & Crusades Codex Exaltum                   | suplemento   | cc-codex-exaltum                   | inglés |
+| 15  | Castles & Crusades Codex Infernum                  | suplemento   | cc-codex-infernum                  | inglés |
+| 16  | Castle Zagyg: Yggsburgh (Classic Reprint)          | ambientación | castle-zagyg-yggsburgh             | inglés |
+| 17  | Castles & Crusades The Undying War                 | aventura     | cc-the-undying-war                 | inglés |
+| 18  | Castles & Crusades Lost City of Gaxmoor            | aventura     | cc-lost-city-of-gaxmoor            | inglés |
+| 19  | Castles & Crusades C1 Mortality of Green           | aventura     | cc-c1-mortality-of-green           | inglés |
+| 20  | Castles & Crusades C2 Shades of Mist               | aventura     | cc-c2-shades-of-mist               | inglés |
+| 21  | Castles & Crusades C3 Upon the Powder River        | aventura     | cc-c3-upon-the-powder-river        | inglés |
+| 22  | Castles & Crusades U3 Fingers of the Forsaken Hand | aventura     | cc-u3-fingers-of-the-forsaken-hand | inglés |
+| 23  | Castles & Crusades Towers of Adventure             | aventura     | cc-towers-of-adventure             | inglés |
+| 24  | Castles & Crusades A0 The Rising Knight            | aventura     | cc-a0-the-rising-knight            | inglés |
+| 25  | Castles & Crusades A6 Banishment & Blight          | aventura     | cc-a6-banishment-and-blight        | inglés |
+| 26  | Castles & Crusades A8 Forsaken Mountain            | aventura     | cc-a8-forsaken-mountain            | inglés |
+| 27  | Castles & Crusades A9 The Helm of Night            | aventura     | cc-a9-the-helm-of-night            | inglés |
+| 28  | Castles & Crusades S3 The Malady of Kings          | aventura     | cc-s3-the-malady-of-kings          | inglés |
+| 29  | Castles & Crusades S4 Dwarven Glory                | aventura     | cc-s4-dwarven-glory                | inglés |
+| 30  | Castles & Crusades S6 Giant's Rapture              | aventura     | cc-s6-giants-rapture               | inglés |
+| 31  | Castles & Crusades Curse of the Khan               | aventura     | cc-curse-of-the-khan               | inglés |
+| 32  | Castles & Crusades The Goblins of Mount Shadow     | aventura     | cc-the-goblins-of-mount-shadow     | inglés |
+| 33  | Castles & Crusades To Kill a King                  | aventura     | cc-to-kill-a-king                  | inglés |
+| 34  | Castles & Crusades Beneath the Dome                | aventura     | cc-beneath-the-dome                | inglés |
+| 35  | Under the Blood Red Moon                           | aventura     | cc-under-the-blood-red-moon        | inglés |
+| 36  | Castles & Crusades The Hallowed Oracle             | aventura     | cc-the-hallowed-oracle             | inglés |
+| 37  | Castles & Crusades I3 Beneath The Black Moon       | aventura     | cc-i3-beneath-the-black-moon       | inglés |
+| 38  | Castles & Crusades I5 Den of Iniquity              | aventura     | cc-i5-den-of-iniquity              | inglés |
+| 39  | Castles & Crusades M1 A Stranger Among Us          | aventura     | cc-m1-a-stranger-among-us          | inglés |
+| 40  | Castles & Crusades M3 A Gathering Storm            | aventura     | cc-m3-a-gathering-storm            | inglés |
+
 ## Ediciones anteriores de D&D
 
 Sección propia en `/ediciones` (no forma parte de «Otros juegos de rol»),

@@ -1,0 +1,25 @@
+{
+  "slug": "cc-players-handbook",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Players Handbook",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de Castles & Crusades: razas, clases, equipo, conjuros y el sistema SIEGE, en el que cada personaje tiene atributos principales y secundarios y todo se resuelve con una tirada de d20.\n\nPublicado por Troll Lord Games, escrito por Davis Chenault, Mac Golden, Stephen Chenault, con 288 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/505142/castles-crusades-players-handbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2025-01",
+      "format": "hardcover",
+      "isbn13": 9781952379703,
+      "cover": "/images/rol/cc-players-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/505142/castles-crusades-players-handbook"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "cc-s3-the-malady-of-kings",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades S3 The Malady of Kings",
+  "kind": "adventure",
+  "description": "Una aventura de viaje y varias mazmorras para personajes de nivel 10 a 13, ambientada en Aihrde.\n\nPublicado por Troll Lord Games, escrito por Stephen Chenault, con 42 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/87519/castles-crusades-s3-the-malady-of-kings",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2011-01",
+      "format": "paperback",
+      "isbn13": 9780984415595,
+      "cover": "/images/rol/cc-s3-the-malady-of-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/87519/castles-crusades-s3-the-malady-of-kings"
+        }
+      ]
+    }
+  ]
+}
