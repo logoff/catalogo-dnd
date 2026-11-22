@@ -94,6 +94,8 @@ digital de plataformas comunitarias.
 | 33  | Cy_Borg                            | Cy_Borg                            | Free League                        | 2022 | cy-borg-third-party-license                              | Mörk Borg: reescrito pero compatible                        | no consta                        | [Mörk Borg](https://morkborg.com/)                                                              | cy-borg                            | NSR                                                                                      |
 | 34  | Mythic Bastionland                 | Mythic Bastionland                 | Bastionland Press                  | 2025 | —                                                        | Electric Bastionland: reescrito pero compatible             | no consta                        | [Bastionland Press](https://www.bastionland.com/)                                               | mythic-bastionland                 | NSR                                                                                      |
 | 35  | Cairn 2E                           | cairn                              | Cairn Press                        | 2024 | cc-by-sa-4-0                                             | Cairn: revisión                                             | no consta                        | [Cairn](https://cairnrpg.com/)                                                                  | cairn-2e                           | NSR                                                                                      |
+| 36  | Knave 2E                           | Knave                              | Questing Beast Games               | 2024 | —                                                        | Knave: revisión                                             | no consta                        | [DriveThruRPG](https://www.drivethrurpg.com/en/product/484910/knave-second-edition-2e)          | knave-2e                           | OSR                                                                                      |
+| 37  | The Black Hack                     | The Black Hack                     | Gold Piece Publications            | 2016 | ogl-1-0a                                                 | D&D original: cambio mayor de reglas                        | no consta                        | [DriveThruRPG](https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition)    | the-black-hack                     | OSR                                                                                      |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -532,8 +534,8 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | 7   | Planes Oscuros                                                  | aventura     | marca-planes-oscuros                                 | castellano         |
 | 8   | Redención                                                       | aventura     | marca-redencion                                      | castellano         |
 | 9   | Lo que el ojo no ve                                             | aventura     | marca-lo-que-el-ojo-no-ve                            | castellano         |
-| 10  | La cripta nefanda de Uztum el Maldito                           | aventura     | marca-la-cripta-nefanda-de-uztum-el-maldito          | castellano         |
-| 11  | La isla misteriosa                                              | aventura     | marca-la-isla-misteriosa                             | castellano         |
+| 10  | La cripta nefanda de Uztum el Maldito                           | aventura     | marca-la-cripta-nefanda-de-uztum-el-maldito          | castellano, inglés |
+| 11  | La isla misteriosa                                              | aventura     | marca-la-isla-misteriosa                             | castellano, inglés |
 | 12  | El orbe de Amonhotep                                            | aventura     | marca-el-orbe-de-amonhotep                           | castellano         |
 | 13  | Los salones anegados de Leviatán                                | aventura     | marca-los-salones-anegados-de-leviatan               | castellano         |
 | 14  | En busca de la ciudad perdida de Garan                          | aventura     | marca-en-busca-de-la-ciudad-perdida-de-garan         | castellano         |
@@ -942,6 +944,21 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | 38  | Castles & Crusades I5 Den of Iniquity              | aventura     | cc-i5-den-of-iniquity              | inglés |
 | 39  | Castles & Crusades M1 A Stranger Among Us          | aventura     | cc-m1-a-stranger-among-us          | inglés |
 | 40  | Castles & Crusades M3 A Gathering Storm            | aventura     | cc-m3-a-gathering-storm            | inglés |
+
+### Knave 2E
+
+| #   | Título                | Tipo   | Ficha    | Nota   |
+| --- | --------------------- | ------ | -------- | ------ |
+| 1   | Knave: Second Edition | básico | knave-2e | inglés |
+
+### The Black Hack
+
+| #   | Título                                  | Tipo           | Ficha                           | Nota   |
+| --- | --------------------------------------- | -------------- | ------------------------------- | ------ |
+| 1   | The Black Hack Second Edition           | básico         | the-black-hack-second-edition   | inglés |
+| 2   | The Black Hack: Classic Monsters        | suplemento     | the-black-hack-classic-monsters | inglés |
+| 3   | The Black Hack Black Box                | caja de inicio | the-black-hack-black-box        | inglés |
+| 4   | The Black Hack 2nd Edition Rule Booklet | suplemento     | the-black-hack-rule-booklet     | inglés |
 
 ## Ediciones anteriores de D&D
 

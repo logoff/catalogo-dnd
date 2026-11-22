@@ -13,7 +13,13 @@
       "publisher": "El Refugio de Ryhope",
       "format": "hardcover",
       "source": "https://dracotienda.com/juegos-de-rol/26026-mausritter.html",
-      "cover": "/images/rol/mausritter/castellano.webp"
+      "cover": "/images/rol/mausritter/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8412098579"
+        }
+      ]
     }
   ]
 }

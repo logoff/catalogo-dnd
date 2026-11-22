@@ -12,6 +12,20 @@
       "date": "2014-12",
       "format": "paperback",
       "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html"
+    },
+    {
+      "language": "english",
+      "title": "The Nefarious Crypt of Uztum the Accursed",
+      "publisher": "La Marca del Este",
+      "date": "2025-09",
+      "format": "pdf",
+      "cover": "/images/rol/marca-la-cripta-nefanda-de-uztum-el-maldito/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/535764/the-nefarious-crypt-of-uztum-the-accursed"
+        }
+      ]
     }
   ]
 }

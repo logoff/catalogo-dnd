@@ -12,6 +12,20 @@
       "date": "2015-03",
       "format": "paperback",
       "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html"
+    },
+    {
+      "language": "english",
+      "title": "The Mysterious Island",
+      "publisher": "La Marca del Este",
+      "date": "2025-09",
+      "format": "pdf",
+      "cover": "/images/rol/marca-la-isla-misteriosa/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/536769/the-mysterious-island"
+        }
+      ]
     }
   ]
 }

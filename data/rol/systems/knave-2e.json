@@ -1,0 +1,29 @@
+{
+  "slug": "knave-2e",
+  "name": "Knave 2E",
+  "family": "knave",
+  "publisher": "Questing Beast Games",
+  "date": "2024",
+  "movement": "osr",
+  "description": "La segunda edición de Knave, de Ben Milton: conserva el núcleo sin clases y el inventario por casillas, y añade subsistemas modulares para explorar hexágonos y mazmorras, preparar pociones y pasar el tiempo entre aventuras, con setenta y cinco tablas de d100 para generar mazmorras, regiones y personajes.\n\nSe publicó en 2024 como un libro de tapa dura de formato reducido ilustrado por Peter Mullen, tras un mecenazgo. No consta una edición en castellano.",
+  "features": [
+    "Sin clases: el equipo define al personaje",
+    "Exploración de hexágonos y mazmorras",
+    "Setenta y cinco tablas de d100",
+    "Libro de tapa dura de formato reducido"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "knave",
+      "kind": "revision",
+      "note": "Amplía la primera edición con nuevos subsistemas sin cambiar su base."
+    }
+  ],
+  "links": [
+    {
+      "label": "Questing Beast Games",
+      "url": "https://www.drivethrurpg.com/en/product/484910/knave-second-edition-2e"
+    }
+  ]
+}
