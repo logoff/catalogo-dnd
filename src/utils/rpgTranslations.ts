@@ -1,4 +1,11 @@
-import type { DerivationKind, License, LicenseKind, RpgBookKind, RpgFormat } from '@/types/rpg'
+import type {
+  DerivationKind,
+  License,
+  LicenseKind,
+  RpgBookKind,
+  RpgFormat,
+  RpgMovement,
+} from '@/types/rpg'
 
 export const licenseKindNames: Record<LicenseKind, string> = {
   license: 'Licencia',
@@ -43,3 +50,11 @@ export const rpgFormatNames: Record<RpgFormat, string> = {
 export function licenseLabel(license: Pick<License, 'name' | 'short_name'>): string {
   return license.short_name ?? license.name
 }
+
+export const movementNames: Record<RpgMovement, string> = {
+  osr: 'OSR',
+  nsr: 'NSR',
+}
+
+// Ancla de la explicación de los movimientos en /rol
+export const MOVEMENTS_ANCHOR = 'osr-y-nsr'

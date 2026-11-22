@@ -2,14 +2,7 @@ import { Link } from 'react-router-dom'
 import Badge from '@/components/ui/Badge'
 import { headingClass } from '@/components/ui/styles'
 import type { RpgMovement } from '@/types/rpg'
-
-// Ancla de la explicación de los movimientos en /rol
-export const MOVEMENTS_ANCHOR = 'osr-y-nsr'
-
-export const movementNames: Record<RpgMovement, string> = {
-  osr: 'OSR',
-  nsr: 'NSR',
-}
+import { MOVEMENTS_ANCHOR, movementNames } from '@/utils/rpgTranslations'
 
 // Etiqueta del movimiento de un sistema, enlazada a la explicación
 export function MovementBadge({ movement }: { movement: RpgMovement }) {

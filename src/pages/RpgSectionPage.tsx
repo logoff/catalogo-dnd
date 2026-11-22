@@ -7,12 +7,12 @@ import SearchField from '@/components/ui/SearchField'
 import { cardClass, selectClass, headingClass } from '@/components/ui/styles'
 import RpgBookCard from '@/components/rpg/RpgBookCard'
 import { RpgLoading, SECTION_NAME } from '@/components/rpg/RpgSection'
-import { MovementBadge, MovementsNote, movementNames } from '@/components/rpg/RpgMovements'
+import { MovementBadge, MovementsNote } from '@/components/rpg/RpgMovements'
 import { useRpgIndex } from '@/hooks/useRpgData'
 import type { RpgMovement, RpgSystem } from '@/types/rpg'
 import { filterBooks, sortBooks, type RpgSort } from '@/utils/rpgFilters'
 import { rolSection, systemPath } from '@/utils/rpg'
-import { licenseLabel } from '@/utils/rpgTranslations'
+import { licenseLabel, movementNames } from '@/utils/rpgTranslations'
 
 const SORTS: { value: RpgSort; label: string }[] = [
   { value: 'newest', label: 'Más recientes' },
