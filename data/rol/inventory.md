@@ -4,7 +4,7 @@ Lista maestra de las licencias abiertas, los sistemas y los libros que
 tendrán ficha en la sección «Otros juegos de rol». Una entrada con
 «pendiente» en la columna Ficha aún no tiene su JSON en `data/rol/`.
 
-Actualizado: 2026-11-19. Revisado con el usuario el 2026-11-19 (también las ediciones anteriores de D&D). Catálogos de Devir
+Actualizado: 2026-11-22. Revisado con el usuario el 2026-11-19 (también las ediciones anteriores de D&D). Catálogos de Devir
 consultados el 2026-11-19.
 
 ## Alcance
@@ -13,7 +13,15 @@ Sistemas de la familia de D&D: los que derivan de D&D o se publican bajo sus
 licencias abiertas (OGL, SRD, ORC), y los grandes juegos de fantasía
 comparables, como Daggerheart. De ellos entran los grandes y cualquiera con un
 libro en castellano. Quedan fuera los juegos de otras familias (La llamada de
-Cthulhu, Vampiro, Aquelarre…) y los OSR por ahora.
+Cthulhu, Vampiro, Aquelarre…).
+
+Juegos OSR y NSR (sistemas con `movement`): el OSR deriva de una edición de
+D&D y sigue siendo compatible, directamente o a través de otro OSR; el NSR
+solo se inspira en ellas. La frontera es difusa y la etiqueta es una
+orientación del catálogo. De ellos entra todo lo publicado en castellano y la
+línea impresa propia de cada juego en inglés (la de su editorial o las de
+`line_publishers`), con su formato y al menos una edición impresa; fuera el
+material de terceros solo en inglés y lo que solo existe en PDF.
 
 Libros: todo lo publicado o anunciado en castellano de esos sistemas, y de lo
 que solo está en inglés, los principales (básicos y caja de inicio) de los

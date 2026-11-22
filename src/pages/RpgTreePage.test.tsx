@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll } from 'vitest'
-import { render, screen, within } from '@testing-library/react'
+import { fireEvent, render, screen, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { loadRpgIndex } from '@/services/rpgLoader'
 import RpgTreePage from './RpgTreePage'
@@ -39,5 +39,15 @@ describe('árbol genealógico de sistemas', () => {
     const legend = screen.getByRole('region', { name: 'Leyenda' })
     expect(within(legend).getByText('Reescrito, pero compatible')).toBeInTheDocument()
     expect(within(legend).getByText('Edición oficial de D&D')).toBeInTheDocument()
+  })
+
+  it('oculta y muestra los juegos OSR y NSR', () => {
+    renderPage()
+    expect(screen.getByRole('link', { name: 'Old-School Essentials, 2019' })).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('radio', { name: 'Sin OSR ni NSR' }))
+    expect(screen.queryByRole('link', { name: 'Old-School Essentials, 2019' })).toBeNull()
+    expect(screen.getByRole('link', { name: 'Pathfinder 2E, 2019' })).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('radio', { name: 'Todos' }))
+    expect(screen.getByRole('link', { name: 'Old-School Essentials, 2019' })).toBeInTheDocument()
   })
 })
