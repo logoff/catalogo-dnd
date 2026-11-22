@@ -20,6 +20,8 @@ import {
   familyOf,
   isDndEdition,
   mainCover,
+  movementBookProblem,
+  movementProblem,
   relatedLicenses,
   rolSection,
   systemPath,
@@ -390,17 +392,34 @@ describe('datos de otros juegos de rol', () => {
     expect(wrong.map((b) => b.slug)).toEqual([])
   })
 
-  // Las ediciones anteriores de D&D llevan todo su catálogo, aunque solo esté en inglés
+  // Las ediciones anteriores de D&D llevan todo su catálogo, aunque solo esté en inglés; los OSR y
+  // NSR siguen su propia regla
   it('un libro solo en inglés es principal o de una editorial destacada', () => {
-    const editions = systems.filter(isDndEdition).map((s) => s.slug)
+    const exempt = systems.filter((s) => isDndEdition(s) || s.movement).map((s) => s.slug)
     const outOfScope = books.filter(
       (b) =>
-        !editions.includes(b.system) &&
+        !exempt.includes(b.system) &&
         !b.editions.some((e) => e.language === 'castellano') &&
         !b.core &&
         !b.editions.some((e) => FEATURED_PUBLISHERS.includes(e.publisher))
     )
     expect(outOfScope.map((b) => b.slug)).toEqual([])
+  })
+
+  it('los sistemas OSR y NSR cumplen las reglas de su movimiento', () => {
+    const wrong = systems
+      .map((s) => [s.slug, movementProblem(systems, s)])
+      .filter(([, problem]) => problem)
+    expect(wrong).toEqual([])
+  })
+
+  it('los libros OSR y NSR son impresos y están en castellano o son de la línea propia', () => {
+    const wrong = books.flatMap((b) => {
+      const system = systems.find((s) => s.slug === b.system)
+      const problem = system?.movement ? movementBookProblem(b, system) : null
+      return problem ? [[b.slug, problem]] : []
+    })
+    expect(wrong).toEqual([])
   })
 
   it('todos tienen una descripción de dos párrafos', () => {
@@ -438,6 +457,8 @@ describe('datos de otros juegos de rol', () => {
       expect(rpgIndex.systems).toHaveLength(systems.length)
       expect(rpgIndex.books).toHaveLength(books.length)
       expect(rpgIndex.books.every((b) => !('description' in b) && !('editions' in b))).toBe(true)
+      const movementOf = (slug: string) => systems.find((s) => s.slug === slug)?.movement ?? null
+      expect(rpgIndex.books.every((b) => b.movement === movementOf(b.system))).toBe(true)
       const rol = rolSection(systems, books)
       expect(rpgStats).toEqual({ systems: rol.systems.length, books: rol.books.length })
     })

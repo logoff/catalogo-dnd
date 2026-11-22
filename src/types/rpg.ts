@@ -47,6 +47,8 @@ export interface SystemLicense {
 }
 
 // Una edición concreta de un juego (Pathfinder 1E y 2E son sistemas distintos)
+export type RpgMovement = 'osr' | 'nsr'
+
 export interface RpgSystem {
   slug: string
   name: string
@@ -59,6 +61,10 @@ export interface RpgSystem {
   // Vacío si no tiene licencia abierta
   licenses: SystemLicense[]
   derived_from?: Derivation[]
+  // Movimiento OSR o NSR; nunca en las ediciones de D&D
+  movement?: RpgMovement
+  // Editoriales de la línea propia de un juego OSR o NSR si hay más de una (por defecto, publisher)
+  line_publishers?: string[]
   // Edición oficial de D&D; si no tiene official_catalog, va en la sección de ediciones anteriores
   official?: boolean
   // Solo en los sistemas de D&D: ruta del catálogo oficial del sitio, sin duplicar sus libros
@@ -119,6 +125,8 @@ export interface RpgBookWithMeta extends RpgBook {
   publishers: string[]
   // Títulos y editoriales, en minúsculas y sin tildes
   searchText: string
+  // Movimiento de su sistema (OSR o NSR), o null si no tiene
+  movement: RpgMovement | null
 }
 
 // Lo que el listado sabe de cada libro, sin descripción ni ediciones (virtual:rpg-index)
@@ -137,6 +145,7 @@ export interface RpgBookSummary extends Pick<
   | 'licenses'
   | 'publishers'
   | 'searchText'
+  | 'movement'
 > {
   // Miniatura de la portada principal
   thumbnail: string | null
