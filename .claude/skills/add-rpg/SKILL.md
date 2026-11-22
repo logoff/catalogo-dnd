@@ -22,7 +22,18 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
 - **Sistemas de la familia de D&D:** los que derivan de D&D o se publican
   bajo sus licencias abiertas (OGL, SRD, ORC) y los grandes juegos de
   fantasía comparables, como Daggerheart. Fuera: juegos de otras familias
-  (La llamada de Cthulhu, Vampiro…) y OSR, por ahora.
+  (La llamada de Cthulhu, Vampiro…).
+- **OSR y NSR:** sistemas con `movement` (`osr` si derivan de una edición
+  de D&D y siguen siendo compatibles, directamente o a través de otro OSR;
+  `nsr` si solo se inspiran en ellas, con derivación `inspiration`). La
+  definición no es precisa: ante la duda, pregunta al usuario. Entra todo
+  lo publicado en castellano y la línea impresa propia en inglés (la
+  editorial del sistema o las de `line_publishers`): suplementos,
+  aventuras, cajas y pantallas (`format: screen`). Cada edición lleva
+  `format` y al menos una debe ser impresa (vale la impresión bajo
+  demanda). Fuera: material de terceros solo en inglés, zines y libros
+  solo en PDF. La constancia de la impresión sale de la tienda de la
+  editorial, del formato impreso en DriveThruRPG o de un ISBN.
 - **Libros:** todo lo publicado o anunciado en castellano de esos
   sistemas; de lo que solo está en inglés, los principales (básicos y caja
   de inicio, con `core: true`) de los sistemas grandes y el catálogo
@@ -69,6 +80,9 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   - Una ficha por edición de un juego (`pathfinder-1e`, `pathfinder-2e`),
     con `family` común.
   - `features`: tres o cuatro características cortas.
+  - `movement` y `line_publishers` solo en los OSR y NSR (los tests
+    comprueban que el OSR llega a D&D sin pasar por `inspiration` y que el
+    NSR llega con ella).
   - `licenses`: cada una con `since` (fecha o versión, como «Remaster
     (2023)») y `note` si hace falta. Vacío si no tiene licencia abierta.
   - `derived_from`: solo la relación directa y reconocida, con `kind`
@@ -87,8 +101,11 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   - Portadas en `public/images/rol/<slug>/<idioma>.webp` (600 px de ancho)
     con miniatura `<idioma>-thumb.webp` (240 px), convertidas con `sharp`.
   - **URLs de compra limpias**, sin parámetros de afiliado, y solo a
-    tiendas del esquema: `amazon`, `juegos_mesa_redonda`, `nosolorol` y
-    `casa_del_libro`. `just affiliate-coverage` lista las que faltan; lo
+    tiendas del esquema: `amazon`, `juegos_mesa_redonda`, `nosolorol`,
+    `casa_del_libro` y `drivethrurpg` (ediciones anteriores: solo
+    `dmsguild`). En los OSR y NSR se revisa DriveThruRPG en las ediciones
+    en inglés en lugar de Amazon, y JMR y Casa del Libro en las de
+    castellano. `just affiliate-coverage` lista las que faltan; lo
     que se revisa y no está a la venta va con su motivo en
     `data/affiliate-exceptions.json`.
 
@@ -106,6 +123,10 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   `nosolorol.com/talesofthevaliant`.
 - **Kobold Press:** su tienda (`koboldpress.com/kpstore/`) y la lista de
   Wikipedia como apoyo.
+- **OSR y NSR:** la tienda de cada editorial (muchas son Shopify:
+  `/products.json` da títulos, formatos y portadas), las páginas de
+  editorial de DriveThruRPG (fecha, páginas, autores, formatos e ISBN) y,
+  para La Marca del Este, su web y las tiendas españolas.
 - **Licencias:** páginas de Wizards y D&D Beyond (OGL, SRD), Paizo
   (ORC), Creative Commons, Kobold Press (Black Flag), Darrington Press
   (DPCGL) y EN Publishing (A5E SRD).

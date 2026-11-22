@@ -1,0 +1,19 @@
+{
+  "slug": "marca-caja-verde",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Caja Verde: Manual Avanzado",
+  "kind": "core",
+  "core": true,
+  "description": "La caja verde de la Marca del Este: un libro de trescientas veinticuatro páginas con nuevas clases de personaje, un sistema de habilidades, reglas para gestionar feudos y más conjuros, y un cuadernillo de hojas de personaje por clase para fotocopiar.\n\nAmplía el reglamento básico para campañas más largas. La publicó Holocubierta en 2012.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/11721-aventuras-en-la-marca-del-este-manual-avanzado-caja-verde.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2012-12",
+      "format": "boxed_set",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/11721-aventuras-en-la-marca-del-este-manual-avanzado-caja-verde.html",
+      "cover": "/images/rol/marca-caja-verde/castellano.webp"
+    }
+  ]
+}

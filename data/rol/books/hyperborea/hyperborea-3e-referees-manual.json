@@ -1,0 +1,24 @@
+{
+  "slug": "hyperborea-3e-referees-manual",
+  "system": "hyperborea",
+  "title": "HYPERBOREA 3E Referee's Manual",
+  "kind": "core",
+  "core": true,
+  "description": "El manual del director de la tercera edición de Hyperborea: monstruos, tesoros, el mundo de Hiperbórea y consejos para dirigir, en su actualización de 2025.\n\nPublicado por North Wind Adventures, escrito por Jeffrey Talanian, con 317 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/381207/hyperborea-3e-referee-s-manual-2025-update",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2021-12",
+      "format": "hardcover",
+      "cover": "/images/rol/hyperborea-3e-referees-manual/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/381207/hyperborea-3e-referee-s-manual-2025-update"
+        }
+      ]
+    }
+  ]
+}

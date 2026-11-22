@@ -1,0 +1,29 @@
+{
+  "slug": "knave",
+  "name": "Knave",
+  "family": "knave",
+  "publisher": "Questing Beast",
+  "date": "2018",
+  "movement": "osr",
+  "description": "Un juego mínimo de Ben Milton: seis atributos que son también la defensa, inventario por casillas en el que cada objeto ocupa sitio y sin clases, de modo que lo que el personaje sabe hacer depende de lo que lleva encima. Está pensado para usar sin cambios las aventuras de la vieja escuela.\n\nInspiró muchos juegos posteriores, como Cairn, y tiene una segunda edición. No consta una edición en castellano.",
+  "features": [
+    "Sin clases: el equipo define al personaje",
+    "Inventario por casillas",
+    "Compatible con aventuras de la vieja escuela",
+    "Reglas en pocas páginas"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "major_rewrite",
+      "note": "Simplifica la base de la vieja escuela, sin clases, manteniendo la compatibilidad con sus aventuras."
+    }
+  ],
+  "links": [
+    {
+      "label": "Questing Beast",
+      "url": "https://questingbeast.substack.com/"
+    }
+  ]
+}

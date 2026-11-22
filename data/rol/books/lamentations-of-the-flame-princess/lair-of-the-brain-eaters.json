@@ -1,0 +1,23 @@
+{
+  "slug": "lair-of-the-brain-eaters",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Lair of the Brain Eaters",
+  "kind": "adventure",
+  "description": "Bajo las necrópolis de Desazu, un culto dirigido por un nigromante perverso profana tumbas y saquea cadáveres.\n\nPublicado por Lamentations of the Flame Princess, escrito por D.M. Ritzlin, con 34 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/485873/lair-of-the-brain-eaters",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2024-06",
+      "format": "paperback",
+      "cover": "/images/rol/lair-of-the-brain-eaters/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/485873/lair-of-the-brain-eaters"
+        }
+      ]
+    }
+  ]
+}

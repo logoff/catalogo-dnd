@@ -1,0 +1,24 @@
+{
+  "slug": "basic-fantasy-core-rules-4e",
+  "system": "basic-fantasy",
+  "title": "Basic Fantasy RPG Core Rules (4th Edition)",
+  "kind": "core",
+  "core": true,
+  "description": "La cuarta edición revisada del reglamento de Basic Fantasy: un sistema ligero inspirado en los primeros juegos de rol, apto para veteranos de la vieja escuela y para niños a partir de unos diez años.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, con 206 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/442921/basic-fantasy-rpg-core-rules-4thed",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2023-06",
+      "format": "paperback",
+      "cover": "/images/rol/basic-fantasy-core-rules-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/442921/basic-fantasy-rpg-core-rules-4thed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "the-black-hack",
+  "name": "The Black Hack",
+  "family": "the-black-hack",
+  "publisher": "Gold Piece Publications",
+  "date": "2016",
+  "movement": "osr",
+  "line_publishers": ["Gold Piece Publications", "SquareHex"],
+  "description": "Un juego muy ligero de David Black que toma como base el D&D original de los años setenta: las reglas básicas caben en unas treinta páginas, todas las tiradas las hacen los jugadores contra sus atributos y los recursos se gastan con un dado de uso que va bajando. La segunda edición, de 2018, añade más de noventa páginas de personajes, monstruos, mazmorras, trampas y objetos mágicos.\n\nDio lugar a muchísimos «hacks» de otros géneros y se puede usar con las aventuras de la vieja escuela. La edición impresa la distribuye SquareHex. No consta una edición en castellano.",
+  "features": [
+    "Reglas básicas en unas treinta páginas",
+    "Los jugadores hacen todas las tiradas",
+    "Dado de uso para los recursos",
+    "Compatible con aventuras de la vieja escuela"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2016"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-original",
+      "kind": "major_rewrite",
+      "via_license": "ogl-1-0a",
+      "note": "Parte del D&D original y lo simplifica a fondo, manteniendo la compatibilidad con sus aventuras."
+    }
+  ],
+  "links": [
+    {
+      "label": "Gold Piece Publications",
+      "url": "https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition"
+    }
+  ]
+}

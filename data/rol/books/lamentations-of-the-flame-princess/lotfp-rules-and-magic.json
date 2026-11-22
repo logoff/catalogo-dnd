@@ -1,0 +1,24 @@
+{
+  "slug": "lotfp-rules-and-magic",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "LotFP Weird Fantasy Role-Playing: Rules & Magic",
+  "kind": "core",
+  "core": true,
+  "description": "El reglamento de Lamentations of the Flame Princess: creación de personajes, las clases con el especialista en lugar del ladrón, combate, magia y reglas de exploración para una fantasía extraña y oscura con base en las cajas básica y experta de D&D.\n\nPublicado por Lamentations of the Flame Princess, escrito por James Edward Raggi IV, con 176 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/117262/lotfp-rules-magic-full-version",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2013-07",
+      "format": "hardcover",
+      "cover": "/images/rol/lotfp-rules-and-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/117262/lotfp-rules-magic-full-version"
+        }
+      ]
+    }
+  ]
+}

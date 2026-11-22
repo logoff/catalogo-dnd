@@ -1,0 +1,35 @@
+{
+  "slug": "castles-and-crusades",
+  "name": "Castles & Crusades",
+  "family": "castles-and-crusades",
+  "publisher": "Troll Lord Games",
+  "date": "2004",
+  "movement": "osr",
+  "description": "Un juego de Troll Lord Games que mezcla el sabor de AD&D con una mecánica simplificada sacada del d20 de la tercera edición: el sistema SIEGE, en el que cada personaje tiene atributos principales y secundarios y todas las pruebas se resuelven con una tirada de d20 contra una dificultad.\n\nAnterior a la palabra OSR, se suele contar entre los juegos de esa escena por su espíritu de AD&D. Gary Gygax colaboró con la editorial en sus últimos años. No consta una edición en castellano.",
+  "features": [
+    "Sistema SIEGE de atributos principales y secundarios",
+    "Una tirada de d20 contra una dificultad",
+    "Clases y razas de AD&D",
+    "Línea larga de suplementos y aventuras"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2004"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-3e",
+      "kind": "major_rewrite",
+      "via_license": "ogl-1-0a",
+      "note": "Toma la base d20 de la tercera edición y la simplifica para jugar a la manera de AD&D."
+    }
+  ],
+  "links": [
+    {
+      "label": "Troll Lord Games",
+      "url": "https://www.trolllord.com/"
+    }
+  ]
+}

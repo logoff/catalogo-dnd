@@ -1,0 +1,23 @@
+{
+  "slug": "labyrinth-lord-advanced-edition-companion",
+  "system": "labyrinth-lord",
+  "title": "Advanced Edition Companion",
+  "kind": "supplement",
+  "description": "El suplemento que añade a Labyrinth Lord las clases, razas, conjuros y monstruos de la primera edición de AD&D, para separar raza y clase y jugar a la manera avanzada.\n\nPublicado por Goblinoid Games, escrito por Daniel Proctor, con 160 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/78523/advanced-edition-companion-labyrinth-lord",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goblinoid Games",
+      "date": "2010-02",
+      "format": "hardcover",
+      "cover": "/images/rol/labyrinth-lord-advanced-edition-companion/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/78523/advanced-edition-companion-labyrinth-lord"
+        }
+      ]
+    }
+  ]
+}

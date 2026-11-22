@@ -1,0 +1,23 @@
+{
+  "slug": "marca-la-ruina-de-cauceseco",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La ruina de Cauceseco",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 3 a 5: una investigación rutinaria sobre secuestros en todo Valion descubre anomalías catastróficas y la posible vuelta de un mal antiguo.\n\nCuadernillo de cincuenta y dos páginas.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41904-aventuras-en-la-marca-del-este-la-ruina-de-cauceseco.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41904-aventuras-en-la-marca-del-este-la-ruina-de-cauceseco.html",
+      "cover": "/images/rol/marca-la-ruina-de-cauceseco/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18933-aventuras-en-la-marca-del-este-la-ruina-de-cauceseco-9785432215994.html"
+        }
+      ]
+    }
+  ]
+}

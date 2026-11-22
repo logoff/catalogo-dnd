@@ -1,0 +1,24 @@
+{
+  "slug": "swords-and-wizardry-complete-revised",
+  "system": "swords-and-wizardry",
+  "title": "Swords & Wizardry Complete Rulebook (Revised)",
+  "kind": "core",
+  "core": true,
+  "description": "El reglamento completo revisado de Swords & Wizardry, el retroclón premiado del D&D original de 1974 a 1978: creación de personajes, monstruos, objetos mágicos y tablas de encuentros.\n\nPublicado por Mythmere Games, escrito por Matt Finch, con 146 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/438315/swords-wizardry-complete-rulebook-revised",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Mythmere Games",
+      "date": "2023-06",
+      "format": "hardcover",
+      "cover": "/images/rol/swords-and-wizardry-complete-revised/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/438315/swords-wizardry-complete-rulebook-revised"
+        }
+      ]
+    }
+  ]
+}

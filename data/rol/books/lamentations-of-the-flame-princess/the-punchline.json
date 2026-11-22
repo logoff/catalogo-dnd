@@ -1,0 +1,23 @@
+{
+  "slug": "the-punchline",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "The Punchline",
+  "kind": "adventure",
+  "description": "En una pequeña aldea alpina desaparecen niños y circulan historias inquietantes, en una aventura de horror y humor negro.\n\nPublicado por Lamentations of the Flame Princess, escrito por Zzarchov Kowolski, con 37 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/257678/the-punchline",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2018-11",
+      "format": "paperback",
+      "cover": "/images/rol/the-punchline/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/257678/the-punchline"
+        }
+      ]
+    }
+  ]
+}

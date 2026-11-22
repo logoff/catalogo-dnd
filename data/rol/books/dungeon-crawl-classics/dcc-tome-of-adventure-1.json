@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-tome-of-adventure-1",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Tome of Adventure Vol. 1",
+  "kind": "adventure",
+  "description": "Recopila en un volumen las siete primeras aventuras publicadas para DCC, escritas sobre todo por Harley Stroh y Joseph Goodman.\n\nPublicado por Goodman Games, escrito por Joseph Goodman, Harley Stroh, and others, con 210 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/393047/dungeon-crawl-classics-tome-of-adventure-vol-1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2022-11",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-tome-of-adventure-1/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/393047/dungeon-crawl-classics-tome-of-adventure-vol-1"
+        }
+      ]
+    }
+  ]
+}

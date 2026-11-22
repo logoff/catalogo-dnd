@@ -1,0 +1,23 @@
+{
+  "slug": "the-blackapple-brugh",
+  "system": "basic-fantasy",
+  "title": "The Blackapple Brugh",
+  "kind": "adventure",
+  "description": "Junto a la aldea de Blackapple hay un túmulo donde está encerrado un cruel señor elfo que antaño la gobernó.\n\nPublicado por Basic Fantasy Project, escrito por Kyle Hettinger, con 49 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/480063/the-blackapple-brugh",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-06",
+      "format": "paperback",
+      "cover": "/images/rol/the-blackapple-brugh/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/480063/the-blackapple-brugh"
+        }
+      ]
+    }
+  ]
+}

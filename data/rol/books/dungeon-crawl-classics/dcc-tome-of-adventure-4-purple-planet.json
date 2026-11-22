@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-tome-of-adventure-4-purple-planet",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Tome of Adventure Vol. 4: Purple Planet",
+  "kind": "adventure",
+  "description": "Reúne la epopeya de espada y planeta de Harley Stroh en el Planeta Púrpura, donde los personajes son arrojados bajo un sol extraño y enfermizo, con sus aventuras complementarias.\n\nPublicado por Goodman Games, escrito por Harley Stroh, Michael Curtis, and others, con 219 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/506114/dungeon-crawl-classics-tome-of-adventure-vol-4-purple-planet",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2025-02",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-tome-of-adventure-4-purple-planet/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/506114/dungeon-crawl-classics-tome-of-adventure-vol-4-purple-planet"
+        }
+      ]
+    }
+  ]
+}

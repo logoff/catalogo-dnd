@@ -1,0 +1,23 @@
+{
+  "slug": "fortress-tomb-and-tower",
+  "system": "basic-fantasy",
+  "title": "Fortress, Tomb, and Tower: The Glain Campaign",
+  "kind": "adventure",
+  "description": "Un módulo de varias aventuras para niveles bajos y medios de la campaña de Glain, empezando por la fortaleza del Duque de Hierro.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, con 65 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/489780/fortress-tomb-and-tower-the-glain-campaign",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-08",
+      "format": "paperback",
+      "cover": "/images/rol/fortress-tomb-and-tower/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/489780/fortress-tomb-and-tower-the-glain-campaign"
+        }
+      ]
+    }
+  ]
+}

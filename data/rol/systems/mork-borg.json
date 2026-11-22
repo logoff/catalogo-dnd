@@ -1,0 +1,35 @@
+{
+  "slug": "mork-borg",
+  "name": "Mörk Borg",
+  "family": "mork-borg",
+  "publisher": "Free League",
+  "date": "2020",
+  "movement": "nsr",
+  "description": "Un juego de rol de Pelle Nilsson y Johan Nohr sobre un mundo que se acaba: reglas mínimas con cuatro atributos, personajes desechables y un libro de diseño gráfico extremo, a medio camino entre el black metal y el fanzine, que es parte de su fama.\n\nSu licencia de terceros ha dado lugar a cientos de suplementos y variantes, y de él salió Cy_Borg. Se publicó en sueco en 2019 y en inglés en 2020 con Free League. El Refugio de Ryhope ha anunciado la edición en castellano.",
+  "features": [
+    "Mundo apocalíptico y personajes desechables",
+    "Cuatro atributos y reglas mínimas",
+    "Diseño gráfico extremo",
+    "Cientos de suplementos de terceros"
+  ],
+  "licenses": [
+    {
+      "license": "mork-borg-third-party-license",
+      "since": "2020"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "inspiration",
+      "note": "Nace de la escena OSR: conserva el sabor de las primeras ediciones de D&D, pero con reglas propias y mínimas."
+    }
+  ],
+  "links": [
+    {
+      "label": "Mörk Borg",
+      "url": "https://morkborg.com/"
+    }
+  ],
+  "line_publishers": ["Free League", "Stockholm Kartell", "Ockult Örtmästare Games"]
+}

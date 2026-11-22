@@ -4,7 +4,7 @@ Lista maestra de las licencias abiertas, los sistemas y los libros que
 tendrán ficha en la sección «Otros juegos de rol». Una entrada con
 «pendiente» en la columna Ficha aún no tiene su JSON en `data/rol/`.
 
-Actualizado: 2026-11-19. Revisado con el usuario el 2026-11-19 (también las ediciones anteriores de D&D). Catálogos de Devir
+Actualizado: 2026-11-22. Revisado con el usuario el 2026-11-19 (también las ediciones anteriores de D&D). Catálogos de Devir
 consultados el 2026-11-19.
 
 ## Alcance
@@ -13,7 +13,15 @@ Sistemas de la familia de D&D: los que derivan de D&D o se publican bajo sus
 licencias abiertas (OGL, SRD, ORC), y los grandes juegos de fantasía
 comparables, como Daggerheart. De ellos entran los grandes y cualquiera con un
 libro en castellano. Quedan fuera los juegos de otras familias (La llamada de
-Cthulhu, Vampiro, Aquelarre…) y los OSR por ahora.
+Cthulhu, Vampiro, Aquelarre…).
+
+Juegos OSR y NSR (sistemas con `movement`): el OSR deriva de una edición de
+D&D y sigue siendo compatible, directamente o a través de otro OSR; el NSR
+solo se inspira en ellas. La frontera es difusa y la etiqueta es una
+orientación del catálogo. De ellos entra todo lo publicado en castellano y la
+línea impresa propia de cada juego en inglés (la de su editorial o las de
+`line_publishers`), con su formato y al menos una edición impresa; fuera el
+material de terceros solo en inglés y lo que solo existe en PDF.
 
 Libros: todo lo publicado o anunciado en castellano de esos sistemas, y de lo
 que solo está en inglés, los principales (básicos y caja de inicio) de los
@@ -29,36 +37,65 @@ digital de plataformas comunitarias.
 
 ## Licencias
 
-| #   | Nombre                                       | Tipo                    | Titular              | Año  | Relación                                    | Fuente                                                                                                                    | Ficha                                     | Nota                                                                    |
-| --- | -------------------------------------------- | ----------------------- | -------------------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------- |
-| 1   | Open Game License 1.0a                       | licencia                | Wizards of the Coast | 2000 | —                                           | [SRD 5.1 (PDF con la OGL)](https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf)                                 | ogl-1-0a                                  | Crisis de la OGL 1.1 en enero de 2023; Wizards dio marcha atrás.        |
-| 2   | Creative Commons Attribution 4.0 (CC BY 4.0) | licencia                | Creative Commons     | 2013 | —                                           | [Creative Commons](https://creativecommons.org/licenses/by/4.0/)                                                          | cc-by-4-0                                 | Bajo ella se publican el SRD 5.1 (desde 2023) y el SRD 5.2.             |
-| 3   | ORC License                                  | licencia                | Paizo (Azora Law)    | 2023 | —                                           | [Paizo](https://paizo.com/orclicense)                                                                                     | orc                                       | Fecha exacta y depositario por confirmar.                               |
-| 4   | System Reference Document 3.5                | documento de referencia | Wizards of the Coast | 2003 | bajo OGL 1.0a                               | [copia del original de Wizards](https://archive.org/details/dnd35srd)                                                     | srd-3-5                                   | Necesaria como origen de Pathfinder 1E.                                 |
-| 5   | System Reference Document 5.1                | documento de referencia | Wizards of the Coast | 2016 | bajo OGL 1.0a y, desde 2023, bajo CC BY 4.0 | [D&D Beyond](https://www.dndbeyond.com/srd)                                                                               | srd-5-1                                   |                                                                         |
-| 6   | System Reference Document 5.2                | documento de referencia | Wizards of the Coast | 2025 | bajo CC BY 4.0                              | [D&D Beyond](https://www.dndbeyond.com/srd)                                                                               | srd-5-2                                   | Reglas de 2024.                                                         |
-| 7   | Black Flag Reference Document                | documento de referencia | Kobold Press         | 2023 | bajo ORC y, más tarde, también CC BY 4.0    | [Kobold Press](https://koboldpress.com/kpstore/product/black-flag-reference-document-pdf/)                                | black-flag-reference-document             | Base de Tales of the Valiant. Fecha del paso a CC BY por confirmar.     |
-| 8   | Darrington Press Community Gaming License    | licencia comunitaria    | Darrington Press     | 2024 | —                                           | [Darrington Press](https://darringtonpress.com/license)                                                                   | darrington-press-community-gaming-license | Versión 2.0 con Hope & Fear (agosto de 2026); revocable por el titular. |
-| 9   | Daggerheart System Reference Document        | documento de referencia | Darrington Press     | 2025 | bajo DPCGL                                  | [Daggerheart](https://www.daggerheart.com/srd)                                                                            | daggerheart-srd                           | SRD 1.0 (2025) y 2.0 (2026).                                            |
-| 10  | Level Up A5E SRD                             | documento de referencia | EN Publishing        | 2023 | bajo CC BY 4.0                              | [A5ESRD](https://a5esrd.com/)                                                                                             | a5e-srd                                   | Sustituye al SRD de Level Up bajo OGL 1.0a (2022).                      |
-| 11  | System Reference Document 3.0                | documento de referencia | Wizards of the Coast | 2000 | bajo OGL 1.0 y enseguida 1.0a               | [wizards.com (copia de 2001)](https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd) | srd-3-0                                   | Base de D&D 3.ª edición.                                                |
+| #   | Nombre                                       | Tipo                    | Titular                                     | Año  | Relación                                    | Fuente                                                                                                                    | Ficha                                     | Nota                                                                    |
+| --- | -------------------------------------------- | ----------------------- | ------------------------------------------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------- |
+| 1   | Open Game License 1.0a                       | licencia                | Wizards of the Coast                        | 2000 | —                                           | [SRD 5.1 (PDF con la OGL)](https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf)                                 | ogl-1-0a                                  | Crisis de la OGL 1.1 en enero de 2023; Wizards dio marcha atrás.        |
+| 2   | Creative Commons Attribution 4.0 (CC BY 4.0) | licencia                | Creative Commons                            | 2013 | —                                           | [Creative Commons](https://creativecommons.org/licenses/by/4.0/)                                                          | cc-by-4-0                                 | Bajo ella se publican el SRD 5.1 (desde 2023) y el SRD 5.2.             |
+| 3   | ORC License                                  | licencia                | Paizo (Azora Law)                           | 2023 | —                                           | [Paizo](https://paizo.com/orclicense)                                                                                     | orc                                       | Fecha exacta y depositario por confirmar.                               |
+| 4   | System Reference Document 3.5                | documento de referencia | Wizards of the Coast                        | 2003 | bajo OGL 1.0a                               | [copia del original de Wizards](https://archive.org/details/dnd35srd)                                                     | srd-3-5                                   | Necesaria como origen de Pathfinder 1E.                                 |
+| 5   | System Reference Document 5.1                | documento de referencia | Wizards of the Coast                        | 2016 | bajo OGL 1.0a y, desde 2023, bajo CC BY 4.0 | [D&D Beyond](https://www.dndbeyond.com/srd)                                                                               | srd-5-1                                   |                                                                         |
+| 6   | System Reference Document 5.2                | documento de referencia | Wizards of the Coast                        | 2025 | bajo CC BY 4.0                              | [D&D Beyond](https://www.dndbeyond.com/srd)                                                                               | srd-5-2                                   | Reglas de 2024.                                                         |
+| 7   | Black Flag Reference Document                | documento de referencia | Kobold Press                                | 2023 | bajo ORC y, más tarde, también CC BY 4.0    | [Kobold Press](https://koboldpress.com/kpstore/product/black-flag-reference-document-pdf/)                                | black-flag-reference-document             | Base de Tales of the Valiant. Fecha del paso a CC BY por confirmar.     |
+| 8   | Darrington Press Community Gaming License    | licencia comunitaria    | Darrington Press                            | 2024 | —                                           | [Darrington Press](https://darringtonpress.com/license)                                                                   | darrington-press-community-gaming-license | Versión 2.0 con Hope & Fear (agosto de 2026); revocable por el titular. |
+| 9   | Daggerheart System Reference Document        | documento de referencia | Darrington Press                            | 2025 | bajo DPCGL                                  | [Daggerheart](https://www.daggerheart.com/srd)                                                                            | daggerheart-srd                           | SRD 1.0 (2025) y 2.0 (2026).                                            |
+| 10  | Level Up A5E SRD                             | documento de referencia | EN Publishing                               | 2023 | bajo CC BY 4.0                              | [A5ESRD](https://a5esrd.com/)                                                                                             | a5e-srd                                   | Sustituye al SRD de Level Up bajo OGL 1.0a (2022).                      |
+| 11  | System Reference Document 3.0                | documento de referencia | Wizards of the Coast                        | 2000 | bajo OGL 1.0 y enseguida 1.0a               | [wizards.com (copia de 2001)](https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd) | srd-3-0                                   | Base de D&D 3.ª edición.                                                |
+| 12  | CC BY-SA 4.0                                 | licencia                | Creative Commons                            | 2013 | —                                           | [Creative Commons](https://creativecommons.org/licenses/by-sa/4.0/)                                                       | cc-by-sa-4-0                              | La usa Cairn.                                                           |
+| 13  | Old-School Essentials Third Party License    | licencia comunitaria    | Necrotic Gnome                              | 2020 | —                                           | [Necrotic Gnome](https://necroticgnome.com/products/old-school-essentials-third-party-license)                            | ose-third-party-license                   | Fecha de la guía para publicar (marzo de 2020).                         |
+| 14  | Shadowdark RPG Third-Party License           | licencia comunitaria    | The Arcane Library                          | 2023 | —                                           | [preguntas frecuentes](https://thearcanelibrary.com/blogs/shadowdark-blog/faq-on-the-shadowdark-rpg-third-party-license)  | shadowdark-third-party-license            | Versión 1.1.                                                            |
+| 15  | MÖRK BORG Third Party License                | licencia comunitaria    | Ockult Örtmästare Games y Stockholm Kartell | 2020 | —                                           | [Mörk Borg](https://morkborg.com/license/)                                                                                | mork-borg-third-party-license             | Primera copia en archive.org de septiembre de 2020.                     |
+| 16  | CY_BORG Third Party License                  | licencia comunitaria    | Stockholm Kartell                           | 2022 | —                                           | [Mörk Borg](https://morkborg.com/cb-license/)                                                                             | cy-borg-third-party-license               | Primera copia en archive.org de abril de 2022.                          |
 
 ## Sistemas
 
-| #   | Sistema                        | Familia                | Editorial            | Año  | Licencias                                                | Deriva de                                          | Castellano              | Fuente                                                               | Ficha                  | Nota                                                                                     |
-| --- | ------------------------------ | ---------------------- | -------------------- | ---- | -------------------------------------------------------- | -------------------------------------------------- | ----------------------- | -------------------------------------------------------------------- | ---------------------- | ---------------------------------------------------------------------------------------- |
-| 2   | D&D 5E (2014)                  | Dungeons & Dragons     | Wizards of the Coast | 2014 | SRD 5.1 (OGL 1.0a; CC BY 4.0 desde 2023)                 | —                                                  | catálogo oficial        | [catálogo oficial](https://catalogodnd.es/2014)                      | dnd-5e-2014            | Enlaza a `/2014`.                                                                        |
-| 3   | D&D 5E (2024)                  | Dungeons & Dragons     | Wizards of the Coast | 2024 | SRD 5.2 (CC BY 4.0)                                      | D&D 5E (2014): revisión compatible                 | catálogo oficial        | [catálogo oficial](https://catalogodnd.es/2024)                      | dnd-5e-2024            | Enlaza a `/2024`.                                                                        |
-| 4   | Pathfinder 1E                  | Pathfinder             | Paizo                | 2009 | OGL 1.0a                                                 | D&D 3.5 (OGL): reescrito pero compatible           | sí (Devir)              | [Paizo](https://paizo.com/pathfinder)                                | pathfinder-1e          |                                                                                          |
-| 5   | Pathfinder 2E                  | Pathfinder             | Paizo                | 2019 | OGL 1.0a; ORC desde el Remaster (2023)                   | Pathfinder 1E: cambio mayor de reglas              | sí (Devir)              | [Paizo](https://paizo.com/pathfinder)                                | pathfinder-2e          | Fecha del cambio a ORC por confirmar.                                                    |
-| 6   | Starfinder 1E                  | Starfinder             | Paizo                | 2017 | OGL 1.0a                                                 | Pathfinder 1E: reescrito pero compatible           | sí (Devir)              | [Paizo](https://paizo.com/starfinder)                                | starfinder-1e          |                                                                                          |
-| 7   | Starfinder 2E                  | Starfinder             | Paizo                | 2025 | ORC                                                      | Pathfinder 2E: reescrito pero compatible           | no consta               | [Paizo](https://paizo.com/starfinder)                                | starfinder-2e          |                                                                                          |
-| 8   | Tales of the Valiant           | Tales of the Valiant   | Kobold Press         | 2024 | Black Flag Reference Document (ORC; también CC BY 4.0)   | D&D 5E (2014) (SRD 5.1): reescrito pero compatible | sí (Nosolorol, 2026)    | [Nosolorol](https://www.nosolorol.com/talesofthevaliant)             | tales-of-the-valiant   |                                                                                          |
-| 9   | Daggerheart                    | Daggerheart            | Darrington Press     | 2025 | Daggerheart SRD (DPCGL)                                  | — (sin derivación directa)                         | anunciado (Devir, 2027) | [Daggerheart](https://www.daggerheart.com/)                          | daggerheart            | Fecha en castellano sin confirmar por Devir.                                             |
-| 10  | Level Up: Advanced 5th Edition | Level Up               | EN Publishing        | 2022 | OGL 1.0a (2022); Level Up A5E SRD (CC BY 4.0) desde 2023 | D&D 5E (2014): reescrito pero compatible           | no consta               | [A5ESRD](https://a5esrd.com/)                                        | level-up-a5e           | Sistema grande (decidido el 2026-11-19).                                                 |
-| 11  | 13th Age                       | 13th Age               | Pelgrane Press       | 2013 | OGL 1.0a (por confirmar)                                 | D&D 3.5 / 4E: inspiración (por confirmar)          | sí (Holocubierta)       | [Pelgrane Press](https://pelgranepress.com/13th-age/)                | 13th-age               | 1.ª edición en castellano. La 2.ª edición (2025) tiene ficha propia.                     |
-| 12  | El Resurgir del Dragón         | El Resurgir del Dragón | Nosolorol            | 2018 | SRD 5.1                                                  | D&D 5E (2014) (SRD 5.1): reescrito pero compatible | sí (Nosolorol)          | [Nosolorol](https://www.nosolorol.com/es/127-el-resurgir-del-dragon) | el-resurgir-del-dragon | Juego propio de Nosolorol basado en el SRD 5.1; añadido al cargar su lote.               |
-| 13  | 13th Age 2E                    | 13th Age               | Pelgrane Press       | 2025 | OGL 1.0a (SRD de 1.ª edición)                            | 13th Age: revisión                                 | no consta               | [Pelgrane Press](https://pelgranepress.com/13th-age-second-edition/) | 13th-age-2e            | Libro básico en dos tomos. No está en las tiendas de afiliados (revisado el 2026-11-20). |
+| #   | Sistema                            | Familia                            | Editorial                          | Año  | Licencias                                                | Deriva de                                                   | Castellano                       | Fuente                                                                                          | Ficha                              | Nota                                                                                     |
+| --- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ---- | -------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------- |
+| 2   | D&D 5E (2014)                      | Dungeons & Dragons                 | Wizards of the Coast               | 2014 | SRD 5.1 (OGL 1.0a; CC BY 4.0 desde 2023)                 | —                                                           | catálogo oficial                 | [catálogo oficial](https://catalogodnd.es/2014)                                                 | dnd-5e-2014                        | Enlaza a `/2014`.                                                                        |
+| 3   | D&D 5E (2024)                      | Dungeons & Dragons                 | Wizards of the Coast               | 2024 | SRD 5.2 (CC BY 4.0)                                      | D&D 5E (2014): revisión compatible                          | catálogo oficial                 | [catálogo oficial](https://catalogodnd.es/2024)                                                 | dnd-5e-2024                        | Enlaza a `/2024`.                                                                        |
+| 4   | Pathfinder 1E                      | Pathfinder                         | Paizo                              | 2009 | OGL 1.0a                                                 | D&D 3.5 (OGL): reescrito pero compatible                    | sí (Devir)                       | [Paizo](https://paizo.com/pathfinder)                                                           | pathfinder-1e                      |                                                                                          |
+| 5   | Pathfinder 2E                      | Pathfinder                         | Paizo                              | 2019 | OGL 1.0a; ORC desde el Remaster (2023)                   | Pathfinder 1E: cambio mayor de reglas                       | sí (Devir)                       | [Paizo](https://paizo.com/pathfinder)                                                           | pathfinder-2e                      | Fecha del cambio a ORC por confirmar.                                                    |
+| 6   | Starfinder 1E                      | Starfinder                         | Paizo                              | 2017 | OGL 1.0a                                                 | Pathfinder 1E: reescrito pero compatible                    | sí (Devir)                       | [Paizo](https://paizo.com/starfinder)                                                           | starfinder-1e                      |                                                                                          |
+| 7   | Starfinder 2E                      | Starfinder                         | Paizo                              | 2025 | ORC                                                      | Pathfinder 2E: reescrito pero compatible                    | no consta                        | [Paizo](https://paizo.com/starfinder)                                                           | starfinder-2e                      |                                                                                          |
+| 8   | Tales of the Valiant               | Tales of the Valiant               | Kobold Press                       | 2024 | Black Flag Reference Document (ORC; también CC BY 4.0)   | D&D 5E (2014) (SRD 5.1): reescrito pero compatible          | sí (Nosolorol, 2026)             | [Nosolorol](https://www.nosolorol.com/talesofthevaliant)                                        | tales-of-the-valiant               |                                                                                          |
+| 9   | Daggerheart                        | Daggerheart                        | Darrington Press                   | 2025 | Daggerheart SRD (DPCGL)                                  | — (sin derivación directa)                                  | anunciado (Devir, 2027)          | [Daggerheart](https://www.daggerheart.com/)                                                     | daggerheart                        | Fecha en castellano sin confirmar por Devir.                                             |
+| 10  | Level Up: Advanced 5th Edition     | Level Up                           | EN Publishing                      | 2022 | OGL 1.0a (2022); Level Up A5E SRD (CC BY 4.0) desde 2023 | D&D 5E (2014): reescrito pero compatible                    | no consta                        | [A5ESRD](https://a5esrd.com/)                                                                   | level-up-a5e                       | Sistema grande (decidido el 2026-11-19).                                                 |
+| 11  | 13th Age                           | 13th Age                           | Pelgrane Press                     | 2013 | OGL 1.0a (por confirmar)                                 | D&D 3.5 / 4E: inspiración (por confirmar)                   | sí (Holocubierta)                | [Pelgrane Press](https://pelgranepress.com/13th-age/)                                           | 13th-age                           | 1.ª edición en castellano. La 2.ª edición (2025) tiene ficha propia.                     |
+| 12  | El Resurgir del Dragón             | El Resurgir del Dragón             | Nosolorol                          | 2018 | SRD 5.1                                                  | D&D 5E (2014) (SRD 5.1): reescrito pero compatible          | sí (Nosolorol)                   | [Nosolorol](https://www.nosolorol.com/es/127-el-resurgir-del-dragon)                            | el-resurgir-del-dragon             | Juego propio de Nosolorol basado en el SRD 5.1; añadido al cargar su lote.               |
+| 13  | 13th Age 2E                        | 13th Age                           | Pelgrane Press                     | 2025 | OGL 1.0a (SRD de 1.ª edición)                            | 13th Age: revisión                                          | no consta                        | [Pelgrane Press](https://pelgranepress.com/13th-age-second-edition/)                            | 13th-age-2e                        | Libro básico en dos tomos. No está en las tiendas de afiliados (revisado el 2026-11-20). |
+| 14  | Old-School Essentials              | Old-School Essentials              | Necrotic Gnome                     | 2019 | ogl-1-0a, ose-third-party-license                        | D&D básico: reescrito pero compatible                       | no consta                        | [Necrotic Gnome](https://necroticgnome.com/pages/about-old-school-essentials)                   | old-school-essentials              | OSR                                                                                      |
+| 15  | Dolmenwood                         | Dolmenwood                         | Necrotic Gnome                     | 2024 | —                                                        | Old-School Essentials: reescrito pero compatible            | no consta                        | [Necrotic Gnome](https://necroticgnome.com/)                                                    | dolmenwood                         | OSR                                                                                      |
+| 16  | Labyrinth Lord                     | Labyrinth Lord                     | Goblinoid Games                    | 2007 | ogl-1-0a                                                 | D&D básico: reescrito pero compatible                       | no consta                        | [Goblinoid Games](https://www.goblinoidgames.com/)                                              | labyrinth-lord                     | OSR                                                                                      |
+| 17  | Basic Fantasy Role-Playing Game    | Basic Fantasy Role-Playing Game    | Basic Fantasy Project              | 2006 | ogl-1-0a                                                 | D&D básico: reescrito pero compatible                       | no consta                        | [Basic Fantasy Project](https://www.basicfantasy.org/)                                          | basic-fantasy                      | OSR                                                                                      |
+| 18  | Swords & Wizardry                  | Swords & Wizardry                  | Mythmere Games                     | 2008 | ogl-1-0a                                                 | D&D original: reescrito pero compatible                     | no consta                        | [Frog God Games](https://www.froggodgames.com/)                                                 | swords-and-wizardry                | OSR                                                                                      |
+| 19  | OSRIC                              | OSRIC                              | Mythmere Games                     | 2006 | ogl-1-0a                                                 | AD&D 1.ª edición: reescrito pero compatible                 | no consta                        | [Black Blade Publishing](https://www.black-blade-publishing.com/)                               | osric                              | OSR                                                                                      |
+| 20  | Castles & Crusades                 | Castles & Crusades                 | Troll Lord Games                   | 2004 | ogl-1-0a                                                 | D&D 3.ª edición: cambio mayor de reglas                     | no consta                        | [Troll Lord Games](https://www.trolllord.com/)                                                  | castles-and-crusades               | OSR                                                                                      |
+| 21  | Dungeon Crawl Classics             | Dungeon Crawl Classics             | Goodman Games                      | 2012 | ogl-1-0a                                                 | D&D 3.ª edición: cambio mayor de reglas                     | sí (Other Selves)                | [Goodman Games](https://goodman-games.com/)                                                     | dungeon-crawl-classics             | OSR                                                                                      |
+| 22  | Shadowdark                         | Shadowdark                         | The Arcane Library                 | 2023 | shadowdark-third-party-license                           | D&D 5E (2014): cambio mayor de reglas                       | no consta                        | [The Arcane Library](https://www.thearcanelibrary.com/pages/shadowdark)                         | shadowdark                         | OSR                                                                                      |
+| 23  | Lamentations of the Flame Princess | Lamentations of the Flame Princess | Lamentations of the Flame Princess | 2010 | ogl-1-0a                                                 | D&D básico: reescrito pero compatible                       | no consta                        | [Lamentations of the Flame Princess](https://www.lotfp.com/)                                    | lamentations-of-the-flame-princess | OSR                                                                                      |
+| 24  | Hyperborea                         | Hyperborea                         | North Wind Adventures              | 2012 | ogl-1-0a                                                 | AD&D 1.ª edición: reescrito pero compatible                 | no consta                        | [North Wind Adventures](https://www.hyperborea.tv/)                                             | hyperborea                         | OSR                                                                                      |
+| 25  | Worlds Without Number              | Worlds Without Number              | Sine Nomine Publishing             | 2020 | —                                                        | D&D básico: cambio mayor de reglas                          | no consta                        | [Sine Nomine Publishing](https://www.drivethrurpg.com/en/publisher/2779/sine-nomine-publishing) | worlds-without-number              | OSR                                                                                      |
+| 26  | Knave                              | Knave                              | Questing Beast                     | 2018 | —                                                        | D&D básico: cambio mayor de reglas                          | no consta                        | [Questing Beast](https://questingbeast.substack.com/)                                           | knave                              | OSR                                                                                      |
+| 27  | Aventuras en la Marca del Este     | Aventuras en la Marca del Este     | Holocubierta Ediciones             | 2010 | ogl-1-0a                                                 | Labyrinth Lord: reescrito pero compatible                   | sí                               | [La Marca del Este](https://lamarcadeleste.com/)                                                | aventuras-en-la-marca-del-este     | OSR                                                                                      |
+| 28  | Into the Odd                       | Into the Odd                       | Free League                        | 2014 | —                                                        | D&D básico: inspiración                                     | no consta                        | [Free League](https://freeleaguepublishing.com/games/into-the-odd/)                             | into-the-odd                       | NSR                                                                                      |
+| 29  | Electric Bastionland               | Electric Bastionland               | Bastionland Press                  | 2020 | —                                                        | Into the Odd: reescrito pero compatible                     | sí (Cursed Ink)                  | [Bastionland Press](https://www.bastionland.com/)                                               | electric-bastionland               | NSR                                                                                      |
+| 30  | Cairn                              | Cairn                              | Yochai Gal                         | 2020 | cc-by-sa-4-0                                             | Into the Odd: reescrito pero compatible; Knave: inspiración | no consta                        | [Cairn](https://cairnrpg.com/)                                                                  | cairn                              | NSR                                                                                      |
+| 31  | Mausritter                         | Mausritter                         | Losing Games                       | 2020 | —                                                        | Into the Odd: reescrito pero compatible                     | sí (El Refugio de Ryhope)        | [Mausritter](https://mausritter.com/)                                                           | mausritter                         | NSR                                                                                      |
+| 32  | Mörk Borg                          | Mörk Borg                          | Free League                        | 2020 | mork-borg-third-party-license                            | D&D básico: inspiración                                     | anunciado (El Refugio de Ryhope) | [Mörk Borg](https://morkborg.com/)                                                              | mork-borg                          | NSR                                                                                      |
+| 33  | Cy_Borg                            | Cy_Borg                            | Free League                        | 2022 | cy-borg-third-party-license                              | Mörk Borg: reescrito pero compatible                        | no consta                        | [Mörk Borg](https://morkborg.com/)                                                              | cy-borg                            | NSR                                                                                      |
+| 34  | Mythic Bastionland                 | Mythic Bastionland                 | Bastionland Press                  | 2025 | —                                                        | Electric Bastionland: reescrito pero compatible             | no consta                        | [Bastionland Press](https://www.bastionland.com/)                                               | mythic-bastionland                 | NSR                                                                                      |
+| 35  | Cairn 2E                           | cairn                              | Cairn Press                        | 2024 | cc-by-sa-4-0                                             | Cairn: revisión                                             | no consta                        | [Cairn](https://cairnrpg.com/)                                                                  | cairn-2e                           | NSR                                                                                      |
+| 36  | Knave 2E                           | Knave                              | Questing Beast Games               | 2024 | —                                                        | Knave: revisión                                             | no consta                        | [DriveThruRPG](https://www.drivethrurpg.com/en/product/484910/knave-second-edition-2e)          | knave-2e                           | OSR                                                                                      |
+| 37  | The Black Hack                     | The Black Hack                     | Gold Piece Publications            | 2016 | ogl-1-0a                                                 | D&D original: cambio mayor de reglas                        | no consta                        | [DriveThruRPG](https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition)    | the-black-hack                     | OSR                                                                                      |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -361,6 +398,567 @@ lote.
 | 1   | Compendio de retales y semillas | suplemento | pendiente | Compatible con 5E y Eirendor; sin ficha: no se ha encontrado fuente que lo confirme. |
 
 Otras editoriales españolas con 5E se añaden al encontrarlas, con su fuente.
+
+## OSR y NSR
+
+Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castellano y la línea impresa propia de cada juego en inglés. Sin zines solo en PDF ni material de terceros solo en inglés.
+
+### Old-School Essentials
+
+| #   | Título                                                     | Tipo       | Ficha                                  | Nota   |
+| --- | ---------------------------------------------------------- | ---------- | -------------------------------------- | ------ |
+| 1   | Old-School Essentials Classic Fantasy: Rules Tome          | básico     | ose-classic-fantasy-rules-tome         | inglés |
+| 2   | Old-School Essentials Classic Game Set                     | básico     | ose-classic-game-set                   | inglés |
+| 3   | Old-School Essentials Classic Fantasy: Player's Rules Tome | básico     | ose-classic-fantasy-players-rules-tome | inglés |
+| 4   | Old-School Essentials Advanced Fantasy: Player's Tome      | básico     | ose-advanced-fantasy-players-tome      | inglés |
+| 5   | Old-School Essentials Advanced Fantasy: Referee's Tome     | básico     | ose-advanced-fantasy-referees-tome     | inglés |
+| 6   | Old-School Essentials Advanced Expansion Set               | suplemento | ose-advanced-expansion-set             | inglés |
+| 7   | Old-School Essentials Advanced Fantasy: Genre Rules        | suplemento | ose-advanced-fantasy-genre-rules       | inglés |
+| 8   | Old-School Essentials Reference Booklet                    | otro       | ose-reference-booklet                  | inglés |
+| 9   | Old-School Essentials Deluxe Referee's Screen              | otro       | ose-referees-screen                    | inglés |
+| 10  | The Hole in the Oak                                        | aventura   | the-hole-in-the-oak                    | inglés |
+| 11  | Winter's Daughter                                          | aventura   | winters-daughter                       | inglés |
+| 12  | The Incandescent Grottoes                                  | aventura   | the-incandescent-grottoes              | inglés |
+| 13  | Halls of the Blood King                                    | aventura   | halls-of-the-blood-king                | inglés |
+| 14  | The Isle of the Plangent Mage                              | aventura   | the-isle-of-the-plangent-mage          | inglés |
+| 15  | Holy Mountain Shaker                                       | aventura   | holy-mountain-shaker                   | inglés |
+| 16  | Old-School Essentials Adventure Anthology 1                | aventura   | ose-adventure-anthology-1              | inglés |
+| 17  | Old-School Essentials Adventure Anthology 2                | aventura   | ose-adventure-anthology-2              | inglés |
+| 18  | Quick Delve #1: Milk                                       | aventura   | quick-delve-1-milk                     | inglés |
+| 19  | Quick Delve #2: The Grotesques' Grotto                     | aventura   | quick-delve-2-the-grotesques-grotto    | inglés |
+| 20  | Quick Delve #3: Against the Horselord                      | aventura   | quick-delve-3-against-the-horselord    | inglés |
+
+### Dolmenwood
+
+| #   | Título                              | Tipo     | Ficha                               | Nota   |
+| --- | ----------------------------------- | -------- | ----------------------------------- | ------ |
+| 1   | Dolmenwood Player's Book            | básico   | dolmenwood-players-book             | inglés |
+| 2   | Dolmenwood Campaign Book            | básico   | dolmenwood-campaign-book            | inglés |
+| 3   | Dolmenwood Monster Book             | básico   | dolmenwood-monster-book             | inglés |
+| 4   | Dolmenwood Maps Book                | otro     | dolmenwood-maps-book                | inglés |
+| 5   | Dolmenwood Referee's Screen         | otro     | dolmenwood-referees-screen          | inglés |
+| 6   | The Fungus That Came to Blackeswell | aventura | the-fungus-that-came-to-blackeswell | inglés |
+| 7   | The Ruined Abbey of St Clewyd       | aventura | the-ruined-abbey-of-st-clewyd       | inglés |
+| 8   | Emelda's Song                       | aventura | emeldas-song                        | inglés |
+| 9   | Winter's Daughter (Dolmenwood)      | aventura | winters-daughter-dolmenwood         | inglés |
+
+### Shadowdark
+
+| #   | Título                                   | Tipo           | Ficha                             | Nota   |
+| --- | ---------------------------------------- | -------------- | --------------------------------- | ------ |
+| 1   | Shadowdark RPG                           | básico         | shadowdark-rpg                    | inglés |
+| 2   | Shadowdark RPG Quickstart Set            | caja de inicio | shadowdark-rpg-quickstart-set     | inglés |
+| 3   | Shadowdark RPG Player Quickstart Zine    | otro           | shadowdark-player-quickstart-zine | inglés |
+| 4   | SoloDark: Solo Rules for Shadowdark RPG  | suplemento     | solodark                          | inglés |
+| 5   | Cursed Scroll Zine, Vol. 1: Diablerie!   | ambientación   | cursed-scroll-1-diablerie         | inglés |
+| 6   | Cursed Scroll Zine, Vol. 2: Red Sands    | ambientación   | cursed-scroll-2-red-sands         | inglés |
+| 7   | Cursed Scroll Zine, Vol. 3: Midnight Sun | ambientación   | cursed-scroll-3-midnight-sun      | inglés |
+| 8   | Shadowdome Thunderdark Zine              | aventura       | shadowdome-thunderdark-zine       | inglés |
+
+### Mörk Borg
+
+| #   | Título                   | Tipo       | Ficha                   | Nota   |
+| --- | ------------------------ | ---------- | ----------------------- | ------ |
+| 1   | Mörk Borg                | básico     | mork-borg               | inglés |
+| 2   | MÖRK BORG CULT: FERETORY | suplemento | mork-borg-cult-feretory | inglés |
+| 3   | MÖRK BORG CULT: HERETIC  | suplemento | mork-borg-cult-heretic  | inglés |
+| 4   | MÖRK BORG: IKHON         | suplemento | mork-borg-ikhon         | inglés |
+| 5   | MÖRK BORG GM Screen      | otro       | mork-borg-gm-screen     | inglés |
+
+### Cy_Borg
+
+| #   | Título  | Tipo   | Ficha   | Nota   |
+| --- | ------- | ------ | ------- | ------ |
+| 1   | CY_BORG | básico | cy-borg | inglés |
+
+### Into the Odd
+
+| #   | Título                    | Tipo   | Ficha                   | Nota   |
+| --- | ------------------------- | ------ | ----------------------- | ------ |
+| 1   | Into the Odd – Remastered | básico | into-the-odd-remastered | inglés |
+
+### Cairn
+
+| #   | Título | Tipo   | Ficha    | Nota   |
+| --- | ------ | ------ | -------- | ------ |
+| 1   | Cairn  | básico | cairn-1e | inglés |
+
+### Cairn 2E
+
+| #   | Título                             | Tipo     | Ficha                               | Nota   |
+| --- | ---------------------------------- | -------- | ----------------------------------- | ------ |
+| 1   | Cairn 2e Boxed Set                 | básico   | cairn-2e-boxed-set                  | inglés |
+| 2   | Cairn Warden's Guide (2nd Edition) | básico   | cairn-2e-wardens-guide              | inglés |
+| 3   | Cairn: Barebones Edition           | básico   | cairn-barebones                     | inglés |
+| 4   | CAS-1: Trouble in Twin Lakes       | aventura | cairn-cas-1-trouble-in-twin-lakes   | inglés |
+| 5   | CAS-3: The Feast of Tegny Wood     | aventura | cairn-cas-3-the-feast-of-tegny-wood | inglés |
+
+### Electric Bastionland
+
+| #   | Título               | Tipo   | Ficha                | Nota               |
+| --- | -------------------- | ------ | -------------------- | ------------------ |
+| 1   | Electric Bastionland | básico | electric-bastionland | castellano, inglés |
+
+### Mythic Bastionland
+
+| #   | Título             | Tipo   | Ficha              | Nota   |
+| --- | ------------------ | ------ | ------------------ | ------ |
+| 1   | Mythic Bastionland | básico | mythic-bastionland | inglés |
+
+### Knave
+
+| #   | Título                      | Tipo     | Ficha                       | Nota   |
+| --- | --------------------------- | -------- | --------------------------- | ------ |
+| 1   | The Waking of Willowby Hall | aventura | the-waking-of-willowby-hall | inglés |
+
+### Mausritter
+
+| #   | Título                                      | Tipo     | Ficha                           | Nota       |
+| --- | ------------------------------------------- | -------- | ------------------------------- | ---------- |
+| 1   | Mausritter: Boxed Set                       | básico   | mausritter-boxed-set            | inglés     |
+| 2   | Mausritter: The Estate Adventure Collection | aventura | mausritter-the-estate           | inglés     |
+| 3   | Mausritter                                  | básico   | mausritter                      | castellano |
+| 4   | Honey in the Rafters (_Miel en las vigas_)  | aventura | mausritter-honey-in-the-rafters | castellano |
+| 5   | Veneno en la ciénaga                        | aventura | mausritter-veneno-en-la-cienaga | castellano |
+
+### Aventuras en la Marca del Este
+
+| #   | Título                                                          | Tipo         | Ficha                                                | Nota               |
+| --- | --------------------------------------------------------------- | ------------ | ---------------------------------------------------- | ------------------ |
+| 1   | Aventuras en la Marca del Este                                  | básico       | aventuras-en-la-marca-del-este                       | castellano, inglés |
+| 2   | Caja Azul: Escenario de Campaña                                 | ambientación | marca-caja-azul                                      | castellano         |
+| 3   | Grimorio de Conjuros                                            | suplemento   | marca-grimorio-de-conjuros                           | castellano         |
+| 4   | Caja Verde: Manual Avanzado                                     | básico       | marca-caja-verde                                     | castellano         |
+| 5   | Caja Negra: La Llamada de los Dioses                            | aventura     | marca-caja-negra                                     | castellano         |
+| 6   | El Enclave                                                      | aventura     | marca-el-enclave                                     | castellano         |
+| 7   | Planes Oscuros                                                  | aventura     | marca-planes-oscuros                                 | castellano         |
+| 8   | Redención                                                       | aventura     | marca-redencion                                      | castellano         |
+| 9   | Lo que el ojo no ve                                             | aventura     | marca-lo-que-el-ojo-no-ve                            | castellano         |
+| 10  | La cripta nefanda de Uztum el Maldito                           | aventura     | marca-la-cripta-nefanda-de-uztum-el-maldito          | castellano, inglés |
+| 11  | La isla misteriosa                                              | aventura     | marca-la-isla-misteriosa                             | castellano, inglés |
+| 12  | El orbe de Amonhotep                                            | aventura     | marca-el-orbe-de-amonhotep                           | castellano         |
+| 13  | Los salones anegados de Leviatán                                | aventura     | marca-los-salones-anegados-de-leviatan               | castellano         |
+| 14  | En busca de la ciudad perdida de Garan                          | aventura     | marca-en-busca-de-la-ciudad-perdida-de-garan         | castellano         |
+| 15  | El castillo prohibido de la Reina de Sangre                     | aventura     | marca-el-castillo-prohibido-de-la-reina-de-sangre    | castellano         |
+| 16  | Jernhest: Escenario de Campaña                                  | ambientación | marca-jernhest                                       | castellano         |
+| 17  | Gazetteer de la Marca del Este                                  | ambientación | marca-gazetteer-de-la-marca-del-este                 | castellano         |
+| 18  | El Arca de los Mil Inviernos                                    | aventura     | marca-el-arca-de-los-mil-inviernos                   | castellano         |
+| 19  | Incursión a la tierra del Dios Azul                             | aventura     | marca-incursion-a-la-tierra-del-dios-azul            | castellano         |
+| 20  | La catacumba de los espantos de Kavadůz                         | aventura     | marca-la-catacumba-de-los-espantos-de-kavaduz        | castellano         |
+| 21  | Muerte en la mansión del mago Malifax                           | aventura     | marca-muerte-en-la-mansion-del-mago-malifax          | castellano         |
+| 22  | El legado perdido                                               | aventura     | marca-el-legado-perdido                              | castellano         |
+| 23  | Tiempo fuera del tiempo                                         | aventura     | marca-tiempo-fuera-del-tiempo                        | castellano         |
+| 24  | Un paseo por el campo                                           | aventura     | marca-un-paseo-por-el-campo                          | castellano         |
+| 25  | Presentes sangrientos                                           | aventura     | marca-presentes-sangrientos                          | castellano         |
+| 26  | La tumba de hielo                                               | aventura     | marca-la-tumba-de-hielo                              | castellano         |
+| 27  | La última frontera                                              | aventura     | marca-la-ultima-frontera                             | castellano         |
+| 28  | El jardín negro                                                 | aventura     | marca-el-jardin-negro                                | castellano         |
+| 29  | Alameda                                                         | ambientación | marca-alameda                                        | castellano         |
+| 30  | Tomo de magia                                                   | suplemento   | marca-tomo-de-magia                                  | castellano         |
+| 31  | Pacto de cenizas                                                | aventura     | marca-pacto-de-cenizas                               | castellano         |
+| 32  | El feudo en llamas                                              | aventura     | marca-el-feudo-en-llamas                             | castellano         |
+| 33  | El corazón de la oscuridad                                      | aventura     | marca-el-corazon-de-la-oscuridad                     | castellano         |
+| 34  | Bestiario de criaturas extraordinarias                          | suplemento   | marca-bestiario-de-criaturas-extraordinarias         | castellano         |
+| 35  | Marjalnegro                                                     | ambientación | marca-marjalnegro                                    | castellano         |
+| 36  | La furia de Rastilon                                            | aventura     | marca-la-furia-de-rastilon                           | castellano         |
+| 37  | Las frondas de los medianos                                     | aventura     | marca-las-frondas-de-los-medianos                    | castellano         |
+| 38  | La lágrima de Zurâh                                             | aventura     | marca-la-lagrima-de-zurah                            | castellano         |
+| 39  | El túmulo perdido de Azgoz el testarudo                         | aventura     | marca-el-tumulo-perdido-de-azgoz-el-testarudo        | castellano         |
+| 40  | Las cuevas del clan Atronador                                   | aventura     | marca-las-cuevas-del-clan-atronador                  | castellano         |
+| 41  | No profanarás el sueño de los muertos                           | aventura     | marca-no-profanaras-el-sueno-de-los-muertos          | castellano         |
+| 42  | Manual de psiónica                                              | suplemento   | marca-manual-de-psionica                             | castellano         |
+| 43  | En compañía de cuervos                                          | suplemento   | marca-en-compania-de-cuervos                         | castellano         |
+| 44  | El monasterio del dragón dormido                                | aventura     | marca-el-monasterio-del-dragon-dormido               | castellano         |
+| 45  | La cúpula de huesos de Ixambel                                  | aventura     | marca-la-cupula-de-huesos-de-ixambel                 | castellano         |
+| 46  | Las esporas del hongo atribulado                                | aventura     | marca-las-esporas-del-hongo-atribulado               | castellano         |
+| 47  | Vileza en el bastión de los bandidos                            | aventura     | marca-vileza-en-el-bastion-de-los-bandidos           | castellano         |
+| 48  | Sangre en la nieve                                              | aventura     | marca-sangre-en-la-nieve                             | castellano         |
+| 49  | La taiga maldita                                                | aventura     | marca-la-taiga-maldita                               | castellano         |
+| 1   | Más allá de las Tierras de la Marca nº 1                        | suplemento   | marca-mas-alla-de-las-tierras-de-la-marca-1          | castellano         |
+| 2   | Más allá de las Tierras de la Marca nº 2                        | suplemento   | marca-mas-alla-de-las-tierras-de-la-marca-2          | castellano         |
+| 3   | La gesta del enano                                              | aventura     | marca-la-gesta-del-enano                             | castellano         |
+| 4   | La balada del efímero paladín                                   | aventura     | marca-la-balada-del-efimero-paladin                  | castellano         |
+| 5   | El búcaro de alabastro                                          | aventura     | marca-el-bucaro-de-alabastro                         | castellano         |
+| 6   | La pirámide del faraón negro                                    | aventura     | marca-la-piramide-del-faraon-negro                   | castellano         |
+| 7   | Las minas del elefante                                          | aventura     | marca-las-minas-del-elefante                         | castellano         |
+| 8   | La perla de Ayakashi                                            | aventura     | marca-la-perla-de-ayakashi                           | castellano         |
+| 9   | Castillo Xyntillan                                              | aventura     | marca-castillo-xyntillan                             | castellano         |
+| 10  | Agitando Pozasdemugre                                           | aventura     | marca-agitando-pozasdemugre                          | castellano         |
+| 11  | El ojo de Sa'Nna                                                | aventura     | marca-el-ojo-de-sanna                                | castellano         |
+| 12  | La prueba de Lenzen                                             | aventura     | marca-la-prueba-de-lenzen                            | castellano         |
+| 13  | La ciudad de Xorandor                                           | ambientación | marca-la-ciudad-de-xorandor                          | castellano         |
+| 14  | Corona de Sal                                                   | aventura     | marca-corona-de-sal                                  | castellano         |
+| 15  | The Pit of Blasphemy                                            | aventura     | marca-el-foso-de-la-blasfemia                        | castellano         |
+| 16  | Maestros saqueadores del gremio de aventureros                  | suplemento   | marca-maestros-saqueadores-del-gremio-de-aventureros | castellano         |
+| 17  | El destino del rey mono                                         | aventura     | marca-el-destino-del-rey-mono                        | castellano         |
+| 18  | La luz de Valion                                                | aventura     | marca-la-luz-de-valion                               | castellano         |
+| 19  | El dios del río                                                 | aventura     | marca-el-dios-del-rio                                | castellano         |
+| 20  | La corona del nigromante                                        | aventura     | marca-la-corona-del-nigromante                       | castellano         |
+| 21  | Tiempos oscuros en Dormunder                                    | aventura     | marca-tiempos-oscuros-en-dormunder                   | castellano         |
+| 22  | Marjalnegro: Hasta que la muerte os separe + Guía introductoria | ambientación | marca-marjalnegro-hasta-que-la-muerte-os-separe      | castellano         |
+| 23  | La niebla                                                       | aventura     | marca-la-niebla                                      | castellano         |
+| 24  | El altar impío                                                  | aventura     | marca-el-altar-impio                                 | castellano         |
+| 25  | La isla de los dioses olvidados                                 | aventura     | marca-la-isla-de-los-dioses-olvidados                | castellano         |
+| 26  | La sierpe negra de Brandonsford                                 | aventura     | marca-la-sierpe-negra-de-brandonsford                | castellano         |
+| 27  | La arboleda de la bruja muerta                                  | aventura     | marca-la-arboleda-de-la-bruja-muerta                 | castellano         |
+| 28  | Xorandor: Las casas                                             | ambientación | marca-xorandor-las-casas                             | castellano         |
+| 29  | El refugio desmoronado                                          | aventura     | marca-el-refugio-desmoronado                         | castellano         |
+| 30  | El callejón inconstante                                         | aventura     | marca-el-callejon-inconstante                        | castellano         |
+| 31  | Los hijos del viento                                            | aventura     | marca-los-hijos-del-viento                           | castellano         |
+| 32  | Visirtán, tierra de magia y arena                               | ambientación | marca-visirtan                                       | castellano         |
+| 33  | Dioses y clérigos                                               | suplemento   | marca-dioses-y-clerigos                              | castellano         |
+| 34  | El sello del profeta                                            | aventura     | marca-el-sello-del-profeta                           | castellano         |
+| 35  | El país de los elfos de la bruma                                | aventura     | marca-el-pais-de-los-elfos-de-la-bruma               | castellano         |
+| 36  | La balconada de Idhola                                          | aventura     | marca-la-balconada-de-idhola                         | castellano         |
+| 37  | La ciudad olvidada                                              | aventura     | marca-la-ciudad-olvidada                             | castellano         |
+| 38  | Luz moribunda                                                   | aventura     | marca-luz-moribunda                                  | castellano         |
+| 39  | La fortaleza maldita                                            | aventura     | marca-la-fortaleza-maldita                           | castellano         |
+| 40  | La ruina de Cauceseco                                           | aventura     | marca-la-ruina-de-cauceseco                          | castellano         |
+| 41  | El lazareto de Robleda                                          | aventura     | marca-el-lazareto-de-robleda                         | castellano         |
+| 42  | El secuestro de Sintia                                          | aventura     | marca-el-secuestro-de-sintia                         | castellano         |
+| 43  | Aventuras orientales en Endo                                    | ambientación | marca-aventuras-orientales-en-endo                   | castellano         |
+| 44  | Un apacible descanso en el Paso del Vigilante                   | aventura     | marca-un-apacible-descanso-en-el-paso-del-vigilante  | castellano         |
+| 45  | La mazmorra de Cimarruina                                       | aventura     | marca-la-mazmorra-de-cimarruina                      | castellano         |
+| 46  | El tesoro del capitán Flint                                     | aventura     | marca-el-tesoro-del-capitan-flint                    | castellano         |
+| 47  | Rituales oscuros                                                | aventura     | marca-rituales-oscuros                               | castellano         |
+| 48  | El dédalo de la casa Syldi                                      | aventura     | marca-el-dedalo-de-la-casa-syldi                     | castellano         |
+| 49  | Una extraña enfermedad                                          | aventura     | marca-una-extrana-enfermedad                         | castellano         |
+| 50  | El monstruo de Torremuro                                        | aventura     | marca-el-monstruo-de-torremuro                       | castellano         |
+| 51  | Regreso al templo de los antiguos                               | aventura     | marca-regreso-al-templo-de-los-antiguos              | castellano         |
+| 52  | El hospicio sangriento                                          | aventura     | marca-el-hospicio-sangriento                         | castellano         |
+| 53  | Un alto en el camino                                            | aventura     | marca-un-alto-en-el-camino                           | castellano         |
+| 54  | El yelmo astado y otras leyendas del Gran Reino                 | aventura     | marca-el-yelmo-astado                                | castellano         |
+| 55  | Xorandor: La Suboscuridad                                       | ambientación | marca-xorandor-la-suboscuridad                       | castellano         |
+| 56  | Travesías y tropiezos de Aldoquino Portomorto (vol. 1)          | otro         | marca-travesias-y-tropiezos-de-aldoquino-portomorto  | castellano         |
+| 57  | El laberinto de las mil puertas                                 | suplemento   | marca-el-laberinto-de-las-mil-puertas                | castellano         |
+
+### Dungeon Crawl Classics
+
+| #   | Título                                                                                             | Tipo         | Ficha                                                   | Nota               |
+| --- | -------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------- | ------------------ |
+| 1   | Dungeon Crawl Classics RPG                                                                         | básico       | dcc-rpg                                                 | castellano, inglés |
+| 2   | Dungeon Crawl Classics Judge's Screen                                                              | otro         | dcc-judges-screen                                       | castellano, inglés |
+| 3   | DCC RPG Reference Booklet                                                                          | otro         | dcc-reference-booklet                                   | inglés             |
+| 4   | DCC RPG Quick Start Rules                                                                          | otro         | dcc-quick-start-rules                                   | inglés             |
+| 5   | DCC RPG Annual                                                                                     | suplemento   | dcc-rpg-annual                                          | inglés             |
+| 6   | DCC RPG Dungeon Denizens                                                                           | suplemento   | dcc-dungeon-denizens                                    | inglés             |
+| 7   | DCC RPG Dungeon Denizens 2                                                                         | suplemento   | dcc-dungeon-denizens-2                                  | inglés             |
+| 8   | DCC Book of Fallen Gods                                                                            | suplemento   | dcc-book-of-fallen-gods                                 | inglés             |
+| 9   | DCC RPG: Grimtooth's Old-School Traps                                                              | suplemento   | dcc-grimtooths-old-school-traps                         | inglés             |
+| 10  | Grimtooth's Trapsylvania                                                                           | suplemento   | dcc-grimtooths-trapsylvania                             | inglés             |
+| 11  | Monsters & Magic of Dark Tower                                                                     | suplemento   | dcc-monsters-and-magic-of-dark-tower                    | inglés             |
+| 12  | Dungeon Crawl Classics Dying Earth                                                                 | ambientación | dcc-dying-earth                                         | inglés             |
+| 13  | Dungeon Crawl Classics: Empire of the East                                                         | ambientación | dcc-empire-of-the-east                                  | inglés             |
+| 14  | Dungeon Crawl Classics: Dark Tower                                                                 | aventura     | dcc-dark-tower                                          | inglés             |
+| 15  | DCC RPG: The Caverns of Thracia                                                                    | aventura     | dcc-caverns-of-thracia                                  | inglés             |
+| 16  | DCC RPG: Hellpits of Nightfang                                                                     | aventura     | dcc-hellpits-of-nightfang                               | inglés             |
+| 17  | Crypt of the Devil Lich (DCC)                                                                      | aventura     | dcc-crypt-of-the-devil-lich                             | inglés             |
+| 18  | DCC RPG: Against the Thieves Guild                                                                 | aventura     | dcc-against-the-thieves-guild                           | inglés             |
+| 19  | Grimtooth's Tomb of the Warhammer                                                                  | aventura     | dcc-grimtooths-tomb-of-the-warhammer                    | inglés             |
+| 20  | Dungeon Crawl Classics Tome of Adventure Vol. 1                                                    | aventura     | dcc-tome-of-adventure-1                                 | inglés             |
+| 21  | Dungeon Crawl Classics Tome of Adventure Vol. 2                                                    | aventura     | dcc-tome-of-adventure-2                                 | inglés             |
+| 22  | Dungeon Crawl Classics Tome of Adventure Vol. 4: Purple Planet                                     | aventura     | dcc-tome-of-adventure-4-purple-planet                   | inglés             |
+| 23  | Dungeon Crawl Classics Tome of Adventure Vol. 5: DCC Horror                                        | aventura     | dcc-tome-of-adventure-5-horror                          | inglés             |
+| 24  | Dungeon Crawl Classics Tome of Adventure Vol. 6: Holiday Adventures                                | aventura     | dcc-tome-of-adventure-6-holiday                         | inglés             |
+| 25  | Dungeon Crawl Classics Tome of Adventure Vol. 7: Magic, Gods, and Demons                           | aventura     | dcc-tome-of-adventure-7                                 | inglés             |
+| 26  | Dungeon Crawl Classics Tome of Adventure Vol. 8: Dying Earth                                       | aventura     | dcc-tome-of-adventure-8-dying-earth                     | inglés             |
+| 27  | Dungeon Crawl Classics #66.5: Doom of the Savage Kings                                             | aventura     | dcc-66-5-doom-of-the-savage-kings                       | castellano, inglés |
+| 28  | Dungeon Crawl Classics #67: Sailors on the Starless Sea                                            | aventura     | dcc-67-sailors-on-the-starless-sea                      | castellano, inglés |
+| 29  | Dungeon Crawl Classics #68: People of the Pit                                                      | aventura     | dcc-68-people-of-the-pit                                | castellano, inglés |
+| 30  | Dungeon Crawl Classics #69: The Emerald Enchanter                                                  | aventura     | dcc-69-the-emerald-enchanter                            | inglés             |
+| 31  | Dungeon Crawl Classics #70: Jewels of the Carnifex                                                 | aventura     | dcc-70-jewels-of-the-carnifex                           | castellano, inglés |
+| 32  | Dungeon Crawl Classics #71: The 13th Skull                                                         | aventura     | dcc-71-the-13th-skull                                   | inglés             |
+| 33  | Dungeon Crawl Classics #72: Beyond the Black Gate                                                  | aventura     | dcc-72-beyond-the-black-gate                            | inglés             |
+| 34  | Dungeon Crawl Classics #73: Emirikol Was Framed!                                                   | aventura     | dcc-73-emirikol-was-framed                              | inglés             |
+| 35  | Dungeon Crawl Classics #74: Blades Against Death                                                   | aventura     | dcc-74-blades-against-death                             | castellano, inglés |
+| 36  | Dungeon Crawl Classics #75: The Sea Queen Escapes                                                  | aventura     | dcc-75-the-sea-queen-escapes                            | inglés             |
+| 37  | Dungeon Crawl Classics #76: Colossus, Arise!                                                       | aventura     | dcc-76-colossus-arise                                   | inglés             |
+| 38  | Dungeon Crawl Classics #76.5: Well of the Worm                                                     | aventura     | dcc-76-5-well-of-the-worm                               | inglés             |
+| 39  | Dungeon Crawl Classics #77: The Croaking Fane                                                      | aventura     | dcc-77-the-croaking-fane                                | inglés             |
+| 40  | Dungeon Crawl Classics #77.5: The Tower Out of Time                                                | aventura     | dcc-77-5-the-tower-out-of-time                          | inglés             |
+| 41  | Dungeon Crawl Classics #78: Fate's Fell Hand                                                       | aventura     | dcc-78-fates-fell-hand                                  | castellano, inglés |
+| 42  | Dungeon Crawl Classics #79: Frozen in Time                                                         | aventura     | dcc-79-frozen-in-time                                   | castellano, inglés |
+| 43  | Dungeon Crawl Classics #79.5: Tower of the Black Pearl                                             | aventura     | dcc-79-5-tower-of-the-black-pearl                       | castellano, inglés |
+| 44  | Dungeon Crawl Classics #80: Intrigue at the Court of Chaos                                         | aventura     | dcc-80-intrigue-at-the-court-of-chaos                   | castellano, inglés |
+| 45  | Dungeon Crawl Classics #80.5: Glipkerio's Gambit                                                   | aventura     | dcc-80-5-glipkerios-gambit                              | inglés             |
+| 46  | Dungeon Crawl Classics #81: The One Who Watches From Below                                         | aventura     | dcc-81-the-one-who-watches-from-below                   | castellano, inglés |
+| 47  | Dungeon Crawl Classics #82: Bride of the Black Manse                                               | aventura     | dcc-82-bride-of-the-black-manse                         | castellano, inglés |
+| 48  | Dungeon Crawl Classics #82.5: Dragora's Dungeon                                                    | aventura     | dcc-82-5-dragoras-dungeon                               | inglés             |
+| 49  | Dungeon Crawl Classics #83: The Chained Coffin                                                     | aventura     | dcc-83-the-chained-coffin                               | inglés             |
+| 50  | Dungeon Crawl Classics #83.1: Tales of the Shudder Mountains                                       | aventura     | dcc-83-1-tales-of-the-shudder-mountains                 | inglés             |
+| 51  | Dungeon Crawl Classics #83.2: Death Among the Pines                                                | aventura     | dcc-83-2-death-among-the-pines                          | inglés             |
+| 52  | Dungeon Crawl Classics #84: Peril on the Purple Planet                                             | ambientación | dcc-84-peril-on-the-purple-planet                       | castellano, inglés |
+| 53  | Dungeon Crawl Classics #84.1: The Rock Awakens                                                     | aventura     | dcc-84-1-the-rock-awakens                               | inglés             |
+| 54  | Dungeon Crawl Classics #84.2: Synthetic Swordsmen of the Purple Planet                             | aventura     | dcc-84-2-synthetic-swordsmen                            | inglés             |
+| 55  | Dungeon Crawl Classics #84.3: Sky Masters of the Purple Planet                                     | aventura     | dcc-84-3-sky-masters                                    | inglés             |
+| 56  | Dungeon Crawl Classics #85: The Making of the Ghost Ring                                           | aventura     | dcc-85-the-making-of-the-ghost-ring                     | inglés             |
+| 57  | Dungeon Crawl Classics #86: The Hole In The Sky                                                    | aventura     | dcc-86-the-hole-in-the-sky                              | inglés             |
+| 58  | Dungeon Crawl Classics #87: Against the Atomic Overlord                                            | aventura     | dcc-87-against-the-atomic-overlord                      | inglés             |
+| 59  | Dungeon Crawl Classics #87.5: Grimtooth's Museum of Death                                          | aventura     | dcc-87-5-grimtooths-museum-of-death                     | inglés             |
+| 60  | Dungeon Crawl Classics #88: The 998th Conclave of Wizards                                          | aventura     | dcc-88-the-998th-conclave-of-wizards                    | inglés             |
+| 61  | Dungeon Crawl Classics #88.5: Curse of the Kingspire                                               | aventura     | dcc-88-5-curse-of-the-kingspire                         | inglés             |
+| 62  | Dungeon Crawl Classics #89: Chaos Rising                                                           | aventura     | dcc-89-chaos-rising                                     | inglés             |
+| 63  | Dungeon Crawl Classics #90: Dread God Al-Khazadar                                                  | aventura     | dcc-90-dread-god-al-khazadar                            | inglés             |
+| 64  | Dungeon Crawl Classics #91: Journey to the Center of Aereth                                        | aventura     | dcc-91-journey-to-the-center-of-aereth                  | inglés             |
+| 65  | Dungeon Crawl Classics #91.1: The Lost City of Barako                                              | aventura     | dcc-91-1-the-lost-city-of-barako                        | inglés             |
+| 66  | Dungeon Crawl Classics #91.2: Lairs of Lost Agharta                                                | aventura     | dcc-91-2-lairs-of-lost-agharta                          | inglés             |
+| 67  | Dungeon Crawl Classics #92: Through the Dragonwall                                                 | aventura     | dcc-92-through-the-dragonwall                           | inglés             |
+| 68  | Dungeon Crawl Classics #92.5: Dread on Demon Crown Hill                                            | aventura     | dcc-92-5-dread-on-demon-crown-hill                      | inglés             |
+| 69  | Dungeon Crawl Classics #93: Moon-Slaves of the Cannibal Kingdom                                    | aventura     | dcc-93-moon-slaves-of-the-cannibal-kingdom              | inglés             |
+| 70  | Dungeon Crawl Classics #94: Neon Knights                                                           | aventura     | dcc-94-neon-knights                                     | inglés             |
+| 71  | Dungeon Crawl Classics #95: Enter the Dagon                                                        | aventura     | dcc-95-enter-the-dagon                                  | castellano, inglés |
+| 72  | Dungeon Crawl Classics #96: The Tower of Faces                                                     | aventura     | dcc-96-the-tower-of-faces                               | inglés             |
+| 73  | Dungeon Crawl Classics #97: The Queen of Elfland's Son                                             | aventura     | dcc-97-the-queen-of-elflands-son                        | inglés             |
+| 74  | Dungeon Crawl Classics #98: Imprisoned in the God-Skull                                            | aventura     | dcc-98-imprisoned-in-the-god-skull                      | inglés             |
+| 75  | Dungeon Crawl Classics #99: The Star Wound of Abaddon                                              | aventura     | dcc-99-the-star-wound-of-abaddon                        | inglés             |
+| 76  | Dungeon Crawl Classics #100: The Music of the Spheres is Chaos                                     | aventura     | dcc-100-the-music-of-the-spheres-is-chaos               | inglés             |
+| 77  | Dungeon Crawl Classics #101: The Veiled Vaults of the Onyx Queen                                   | aventura     | dcc-101-the-veiled-vaults-of-the-onyx-queen             | inglés             |
+| 78  | Dungeon Crawl Classics #102: Dweller Between the Worlds                                            | aventura     | dcc-102-dweller-between-the-worlds                      | inglés             |
+| 79  | Dungeon Crawl Classics #103: Bloom on the Blood Garden                                             | aventura     | dcc-103-bloom-on-the-blood-garden                       | inglés             |
+| 80  | Dungeon Crawl Classics #104: Return to the Starless Sea                                            | aventura     | dcc-104-return-to-the-starless-sea                      | inglés             |
+| 81  | Dungeon Crawl Classics #105: By Mitra's Bones, Meet Thy Doom!                                      | aventura     | dcc-105-by-mitras-bones                                 | inglés             |
+| 82  | DCC #106: Trials of the Trapmaster's Tomb                                                          | aventura     | dcc-106-trials-of-the-trapmasters-tomb                  | inglés             |
+| 83  | Dungeon Crawl Classics #107: Forgotten Dangers                                                     | aventura     | dcc-107-forgotten-dangers                               | inglés             |
+| 84  | Dungeon Crawl Classics #108: The Seventh Thrall of Sezrekan                                        | aventura     | dcc-108-the-seventh-thrall-of-sezrekan                  | inglés             |
+| 85  | Dungeon Crawl Classics #109: Beneath the Isle of Serpents                                          | aventura     | dcc-109-beneath-the-isle-of-serpents                    | inglés             |
+| 86  | Dungeon Crawl Classics #110: The Sacrificial Pyre of Thracia                                       | aventura     | dcc-110-the-sacrificial-pyre-of-thracia                 | inglés             |
+| 87  | Dungeon Crawl Classics #111: Grave Robbers of Thracia                                              | aventura     | dcc-111-grave-robbers-of-thracia                        | inglés             |
+| 88  | Dungeon Crawl Classics #112: Mother of Monsters                                                    | aventura     | dcc-112-mother-of-monsters                              | inglés             |
+| 89  | Dungeon Crawl Classics 2013 Holiday Module: The Old God's Return                                   | aventura     | dcc-holiday-2013-the-old-gods-return                    | inglés             |
+| 90  | Dungeon Crawl Classics 2014 Holiday Module: Trials of the Toy Makers                               | aventura     | dcc-holiday-2014-trials-of-the-toy-makers               | inglés             |
+| 91  | Dungeon Crawl Classics 2015 Holiday Module: Advent of the Avalanche Lord                           | aventura     | dcc-holiday-2015-advent-of-the-avalanche-lord           | inglés             |
+| 92  | Dungeon Crawl Classics 2016 Holiday Module: Twilight of the Solstice                               | aventura     | dcc-holiday-2016-twilight-of-the-solstice               | inglés             |
+| 93  | Dungeon Crawl Classics 2018 Holiday Module: Home For The Holideath                                 | aventura     | dcc-holiday-2018-home-for-the-holideath                 | inglés             |
+| 94  | Dungeon Crawl Classics 2020 Holiday Module: The Doom that Came to Christmastown                    | aventura     | dcc-holiday-2020-the-doom-that-came-to-christmastown    | inglés             |
+| 95  | Dungeon Crawl Classics 2021 Holiday Module: Feast of the Gobbler Witch                             | aventura     | dcc-holiday-2021-feast-of-the-gobbler-witch             | inglés             |
+| 96  | DCC Holiday #11: Came The Monsters of Midwinter                                                    | aventura     | dcc-holiday-11-came-the-monsters-of-midwinter           | inglés             |
+| 97  | Dungeon Crawl Classics Valentines Module #1                                                        | aventura     | dcc-valentines-1-love-in-the-age-of-gongfarmers         | inglés             |
+| 98  | Dungeon Crawl Classics 2017 Halloween Module: Shadow Under Devil's Reef                            | aventura     | dcc-halloween-2017-shadow-under-devils-reef             | inglés             |
+| 99  | Dungeon Crawl Classics Horror #1: They Served Brandolyn Red                                        | aventura     | dcc-horror-1-they-served-brandolyn-red                  | inglés             |
+| 100 | Dungeon Crawl Classics Horror #2: The Sinister Sutures of the Sempstress                           | aventura     | dcc-horror-2-the-sinister-sutures                       | inglés             |
+| 101 | Dungeon Crawl Classics Horror: The Corpse That Love Built                                          | aventura     | dcc-horror-the-corpse-that-love-built                   | inglés             |
+| 102 | Dungeon Crawl Classics Horror #5: Creep, Skrag, Creep!                                             | aventura     | dcc-horror-5-creep-skrag-creep                          | inglés             |
+| 103 | Dungeon Crawl Classics Horror #6: The Web of All-Torment                                           | aventura     | dcc-horror-6-the-web-of-all-torment                     | inglés             |
+| 104 | Dungeon Crawl Classics Horror #7: It Consumes!                                                     | aventura     | dcc-horror-7-it-consumes                                | inglés             |
+| 105 | Dungeon Crawl Classics Horror #8: Night of the Bog Beast                                           | aventura     | dcc-horror-8-night-of-the-bog-beast                     | inglés             |
+| 106 | Dungeon Crawl Classics 2017 Convention Module: Blood for the Serpent King                          | aventura     | dcc-convention-2017-blood-for-the-serpent-king          | inglés             |
+| 107 | Dungeon Crawl Classics 2019 Convention Module: The Inn at Five Points                              | aventura     | dcc-convention-2019-the-inn-at-five-points              | inglés             |
+| 108 | Dungeon Crawl Classics 2020 Convention Module: The Accursed Heart of the Mountain                  | aventura     | dcc-convention-2020-the-accursed-heart                  | inglés             |
+| 109 | DCC Day #1: Shadow of the Beakman                                                                  | aventura     | dcc-day-1-shadow-of-the-beakman                         | inglés             |
+| 110 | DCC Day #2: Beneath the Well of Brass                                                              | aventura     | dcc-day-2-beneath-the-well-of-brass                     | inglés             |
+| 111 | DCC Day #3: Chanters in the Dark                                                                   | aventura     | dcc-day-3-chanters-in-the-dark                          | inglés             |
+| 112 | DCC Day #5: Gods of the Earth                                                                      | aventura     | dcc-day-5-gods-of-the-earth                             | inglés             |
+| 113 | DCC Day #6: The Key to Castle Whiterock                                                            | aventura     | dcc-day-6-the-key-to-castle-whiterock                   | inglés             |
+| 114 | DCC RPG Free RPG Day 2016                                                                          | aventura     | dcc-free-rpg-day-2016                                   | inglés             |
+| 115 | Free RPG Day: DCC Tomb of the Savage Kings                                                         | aventura     | dcc-free-rpg-day-tomb-of-the-savage-kings               | inglés             |
+| 116 | Free RPG Day 2022: DCC Danger in the Air                                                           | aventura     | dcc-free-rpg-day-2022-danger-in-the-air                 | inglés             |
+| 117 | Free RPG Day 2023: DCC Piercing the Demon's Eye                                                    | aventura     | dcc-free-rpg-day-2023-piercing-the-demons-eye           | inglés             |
+| 118 | Dungeon Crawl Classics Empire of the East #1: Hunt for the Howling God                             | aventura     | dcc-empire-of-the-east-1-hunt-for-the-howling-god       | inglés             |
+| 119 | Dungeon Crawl Classics Dying Earth #0: Pilgrims of the Black Obelisk                               | aventura     | dcc-dying-earth-0-pilgrims-of-the-black-obelisk         | inglés             |
+| 120 | Dungeon Crawl Classics Dying Earth #1: The Laughing Idol of Lar-Shann                              | aventura     | dcc-dying-earth-1-the-laughing-idol-of-lar-shann        | inglés             |
+| 121 | Dungeon Crawl Classics Dying Earth #2: The Sorcerer's Tower of Sanguine Slant                      | aventura     | dcc-dying-earth-2-the-sorcerers-tower-of-sanguine-slant | inglés             |
+| 122 | Dungeon Crawl Classics Dying Earth #3: Magnificent Machinations at the Great Exposition of Marvels | aventura     | dcc-dying-earth-3-magnificent-machinations              | inglés             |
+| 123 | Dungeon Crawl Classics Dying Earth #4: Mind-Weft of the Moonstone Palace                           | aventura     | dcc-dying-earth-4-mind-weft-of-the-moonstone-palace     | inglés             |
+| 124 | Dungeon Crawl Classics Dying Earth #5: Penumbra of the Polar Ape                                   | aventura     | dcc-dying-earth-5-penumbra-of-the-polar-ape             | inglés             |
+| 125 | Dungeon Crawl Classics Dying Earth #6: The Great Visp Hunt                                         | aventura     | dcc-dying-earth-6-the-great-visp-hunt                   | inglés             |
+| 126 | Dungeon Crawl Classics Dying Earth #7: Phantoms of the Ectoplasmic Cotillion                       | aventura     | dcc-dying-earth-7-phantoms-of-the-ectoplasmic-cotillion | inglés             |
+| 127 | Dungeon Crawl Classics Dying Earth #8: The House On The Island                                     | aventura     | dcc-dying-earth-8-the-house-on-the-island               | inglés             |
+| 128 | Dungeon Crawl Classics Dying Earth #9: Time Tempests at the Nameless Rose                          | aventura     | dcc-dying-earth-9-time-tempests-at-the-nameless-rose    | inglés             |
+| 129 | Dungeon Crawl Classics Dying Earth #10: Passage to the Manse of Erudite Wonderment                 | aventura     | dcc-dying-earth-10-passage-to-the-manse                 | inglés             |
+| 130 | The Phlogiston Books Vol. I                                                                        | suplemento   | the-phlogiston-books-vol-1                              | castellano         |
+| 131 | The Phlogiston Books Vol. II: El heredero de piedra                                                | aventura     | the-phlogiston-books-vol-2                              | castellano         |
+| 132 | The Phlogiston Books Vol. III: El carnaval de las delicias terrenales                              | aventura     | the-phlogiston-books-vol-3                              | castellano         |
+| 133 | The Phlogiston Books Vol. IV: Clásicos de Ishtar                                                   | ambientación | the-phlogiston-books-vol-4                              | castellano         |
+| 134 | Los salones verticales                                                                             | aventura     | los-salones-verticales                                  | castellano         |
+
+### Lamentations of the Flame Princess
+
+| #   | Título                                                 | Tipo         | Ficha                                                 | Nota   |
+| --- | ------------------------------------------------------ | ------------ | ----------------------------------------------------- | ------ |
+| 1   | LotFP Weird Fantasy Role-Playing: Rules & Magic        | básico       | lotfp-rules-and-magic                                 | inglés |
+| 2   | Death Frost Doom                                       | aventura     | death-frost-doom                                      | inglés |
+| 3   | Carcosa                                                | ambientación | carcosa                                               | inglés |
+| 4   | Qelong                                                 | aventura     | qelong                                                | inglés |
+| 5   | Forgive Us                                             | aventura     | forgive-us                                            | inglés |
+| 6   | No Salvation for Witches                               | aventura     | no-salvation-for-witches                              | inglés |
+| 7   | A Red & Pleasant Land                                  | ambientación | a-red-and-pleasant-land                               | inglés |
+| 8   | The Idea from Space                                    | aventura     | the-idea-from-space                                   | inglés |
+| 9   | World of the Lost                                      | aventura     | world-of-the-lost                                     | inglés |
+| 10  | Broodmother SkyFortress                                | aventura     | broodmother-skyfortress                               | inglés |
+| 11  | Random Esoteric Creature Generator                     | suplemento   | random-esoteric-creature-generator                    | inglés |
+| 12  | The Punchline                                          | aventura     | the-punchline                                         | inglés |
+| 13  | No Rest for the Wicked                                 | aventura     | no-rest-for-the-wicked                                | inglés |
+| 14  | Deck of Weird Things                                   | suplemento   | deck-of-weird-things                                  | inglés |
+| 15  | Big Puppet                                             | aventura     | big-puppet                                            | inglés |
+| 16  | Fermentvm Nigrvm Dei Sepvlti                           | aventura     | fermentvm-nigrvm-dei-sepvlti                          | inglés |
+| 17  | Adventure Anthology: Blood                             | aventura     | adventure-anthology-blood                             | inglés |
+| 18  | Green Messiah                                          | aventura     | green-messiah                                         | inglés |
+| 19  | In a Deadly Fashion                                    | aventura     | in-a-deadly-fashion                                   | inglés |
+| 20  | Staffortonshire Trading Company Works of John Williams | suplemento   | staffortonshire-trading-company                       | inglés |
+| 21  | Terror in the Streets                                  | aventura     | terror-in-the-streets                                 | inglés |
+| 22  | Earth Incubation Crisis                                | aventura     | earth-incubation-crisis                               | inglés |
+| 23  | Strict Time Records Must Be Kept                       | aventura     | strict-time-records-must-be-kept                      | inglés |
+| 24  | Just a Stupid Dungeon                                  | aventura     | just-a-stupid-dungeon                                 | inglés |
+| 25  | Curse of the Daughterbrides                            | aventura     | curse-of-the-daughterbrides                           | inglés |
+| 26  | The Curious Conundrum of the Conflagrated Condottiero  | aventura     | the-curious-conundrum-of-the-conflagrated-condottiero | inglés |
+| 27  | The Obsidian Anti-Pharos                               | aventura     | the-obsidian-anti-pharos                              | inglés |
+| 28  | Bee-Ware!                                              | aventura     | bee-ware                                              | inglés |
+| 29  | Magic Eater                                            | aventura     | magic-eater                                           | inglés |
+| 30  | The Jovian Visitor                                     | aventura     | the-jovian-visitor                                    | inglés |
+| 31  | A Gift for All of Norway                               | aventura     | a-gift-for-all-of-norway                              | inglés |
+| 32  | Black Chamber                                          | aventura     | black-chamber                                         | inglés |
+| 33  | Do Not Accept This Quest                               | aventura     | do-not-accept-this-quest                              | inglés |
+| 34  | Faecal Lands                                           | ambientación | faecal-lands                                          | inglés |
+| 35  | Galileo 2: Judgment Day                                | aventura     | galileo-2-judgment-day                                | inglés |
+| 36  | Meanderings of the Mine Mind                           | aventura     | meanderings-of-the-mine-mind                          | inglés |
+| 37  | Temple of the Wurm                                     | aventura     | temple-of-the-wurm                                    | inglés |
+| 38  | Winnie-the-Shit                                        | aventura     | winnie-the-shit                                       | inglés |
+| 39  | The Yellow Book of Brechewold                          | ambientación | the-yellow-book-of-brechewold                         | inglés |
+| 40  | A True Relation of the Great Virginia Disastrum, 1633  | ambientación | a-true-relation-of-the-great-virginia-disastrum       | inglés |
+| 41  | Heart of the Saint                                     | aventura     | heart-of-the-saint                                    | inglés |
+| 42  | Lair of the Brain Eaters                               | aventura     | lair-of-the-brain-eaters                              | inglés |
+
+### Labyrinth Lord
+
+| #   | Título                             | Tipo       | Ficha                                     | Nota   |
+| --- | ---------------------------------- | ---------- | ----------------------------------------- | ------ |
+| 1   | Labyrinth Lord: Revised & Expanded | básico     | labyrinth-lord-revised-and-expanded       | inglés |
+| 2   | Advanced Labyrinth Lord            | básico     | advanced-labyrinth-lord                   | inglés |
+| 3   | Advanced Edition Companion         | suplemento | labyrinth-lord-advanced-edition-companion | inglés |
+| 4   | Realms of Crawling Chaos           | suplemento | realms-of-crawling-chaos                  | inglés |
+| 5   | Idol of the Orcs                   | aventura   | idol-of-the-orcs                          | inglés |
+
+### Swords & Wizardry
+
+| #   | Título                                        | Tipo       | Ficha                                   | Nota   |
+| --- | --------------------------------------------- | ---------- | --------------------------------------- | ------ |
+| 1   | Swords & Wizardry Complete Rulebook (Revised) | básico     | swords-and-wizardry-complete-revised    | inglés |
+| 2   | Swords & Wizardry Book of Options             | suplemento | swords-and-wizardry-book-of-options     | inglés |
+| 3   | Swords & Wizardry Fiends & Foes               | suplemento | swords-and-wizardry-fiends-and-foes     | inglés |
+| 4   | City Encounters for Swords & Wizardry         | suplemento | city-encounters-for-swords-and-wizardry | inglés |
+
+### OSRIC
+
+| #   | Título             | Tipo   | Ficha            | Nota   |
+| --- | ------------------ | ------ | ---------------- | ------ |
+| 1   | OSRIC 3.0 Complete | básico | osric-3-complete | inglés |
+
+### Basic Fantasy Role-Playing Game
+
+| #   | Título                                               | Tipo       | Ficha                               | Nota   |
+| --- | ---------------------------------------------------- | ---------- | ----------------------------------- | ------ |
+| 1   | Basic Fantasy RPG Core Rules (4th Edition)           | básico     | basic-fantasy-core-rules-4e         | inglés |
+| 2   | Basic Fantasy Field Guide, Volume 1                  | suplemento | basic-fantasy-field-guide-1         | inglés |
+| 3   | Basic Fantasy Field Guide, Volume 2                  | suplemento | basic-fantasy-field-guide-2         | inglés |
+| 4   | The Role-Playing Game Primer and Old School Playbook | otro       | the-role-playing-game-primer        | inglés |
+| 5   | The Basic Fantasy Equipment Emporium                 | suplemento | basic-fantasy-equipment-emporium    | inglés |
+| 6   | Morgansfort: The Western Lands Campaign              | aventura   | morgansfort                         | inglés |
+| 7   | The Chaotic Caves                                    | aventura   | the-chaotic-caves                   | inglés |
+| 8   | Tales from The Laughing Dragon                       | aventura   | tales-from-the-laughing-dragon      | inglés |
+| 9   | The Blackapple Brugh                                 | aventura   | the-blackapple-brugh                | inglés |
+| 10  | Adventure Anthology 1                                | aventura   | basic-fantasy-adventure-anthology-1 | inglés |
+| 11  | Adventure Anthology 2                                | aventura   | basic-fantasy-adventure-anthology-2 | inglés |
+| 12  | Adventure Anthology 3                                | aventura   | basic-fantasy-adventure-anthology-3 | inglés |
+| 13  | Fortress, Tomb, and Tower: The Glain Campaign        | aventura   | fortress-tomb-and-tower             | inglés |
+| 14  | Strongholds of Sorcery: The Glain Campaign           | aventura   | strongholds-of-sorcery              | inglés |
+| 15  | Raiders of Enterone: The Glain Campaign              | aventura   | raiders-of-enterone                 | inglés |
+| 16  | Monkey Isle                                          | aventura   | monkey-isle                         | inglés |
+| 17  | Endless Tunnels of Enlandin                          | aventura   | endless-tunnels-of-enlandin         | inglés |
+| 18  | Peril at the Rock                                    | aventura   | peril-at-the-rock                   | inglés |
+| 19  | Beneath the Silver Spire                             | aventura   | beneath-the-silver-spire            | inglés |
+| 20  | Saga of the Giants                                   | aventura   | saga-of-the-giants                  | inglés |
+| 21  | Estates of the Eliari                                | aventura   | estates-of-the-eliari               | inglés |
+| 22  | Barks and Blades                                     | aventura   | barks-and-blades                    | inglés |
+| 23  | Terror in Tosasth                                    | aventura   | terror-in-tosasth                   | inglés |
+
+### Hyperborea
+
+| #   | Título                                 | Tipo         | Ficha                                  | Nota   |
+| --- | -------------------------------------- | ------------ | -------------------------------------- | ------ |
+| 1   | HYPERBOREA 3E Player's Manual          | básico       | hyperborea-3e-players-manual           | inglés |
+| 2   | HYPERBOREA 3E Referee's Manual         | básico       | hyperborea-3e-referees-manual          | inglés |
+| 3   | Atlas of Hyperborea                    | ambientación | atlas-of-hyperborea                    | inglés |
+| 4   | Ghost Ship of the Desert Dunes         | aventura     | ghost-ship-of-the-desert-dunes         | inglés |
+| 5   | Forgotten Fane of the Coiled Goddess   | aventura     | forgotten-fane-of-the-coiled-goddess   | inglés |
+| 6   | Beneath the Comet                      | aventura     | beneath-the-comet                      | inglés |
+| 7   | The Mystery at Port Greely             | aventura     | the-mystery-at-port-greely             | inglés |
+| 8   | The Beasts of Kraggoth Manor           | aventura     | the-beasts-of-kraggoth-manor           | inglés |
+| 9   | The Anthropophagi of Xambaala          | aventura     | the-anthropophagi-of-xambaala          | inglés |
+| 10  | Rats in the Walls and Other Perils     | aventura     | rats-in-the-walls-and-other-perils     | inglés |
+| 11  | The Lost Treasure of Atlantis          | aventura     | the-lost-treasure-of-atlantis          | inglés |
+| 12  | The Sea-Wolf's Daughter                | aventura     | the-sea-wolfs-daughter                 | inglés |
+| 13  | The Late Trapper's Lament              | aventura     | the-late-trappers-lament               | inglés |
+| 14  | The Oblation Slab of the Hepatomancer  | aventura     | the-oblation-slab-of-the-hepatomancer  | inglés |
+| 15  | The Vanishing Isles of the Summer King | aventura     | the-vanishing-isles-of-the-summer-king | inglés |
+| 16  | The Thousand Eyes of Thaumagorga       | aventura     | the-thousand-eyes-of-thaumagorga       | inglés |
+
+### Worlds Without Number
+
+| #   | Título                        | Tipo         | Ficha                         | Nota   |
+| --- | ----------------------------- | ------------ | ----------------------------- | ------ |
+| 1   | Worlds Without Number         | básico       | worlds-without-number-core    | inglés |
+| 2   | The Atlas of the Latter Earth | ambientación | the-atlas-of-the-latter-earth | inglés |
+| 3   | The Diocesi of Montfroid      | ambientación | the-diocesi-of-montfroid      | inglés |
+
+### Castles & Crusades
+
+| #   | Título                                             | Tipo         | Ficha                              | Nota   |
+| --- | -------------------------------------------------- | ------------ | ---------------------------------- | ------ |
+| 1   | Castles & Crusades Players Handbook                | básico       | cc-players-handbook                | inglés |
+| 2   | Castles & Crusades Monsters & Treasure             | básico       | cc-monsters-and-treasure           | inglés |
+| 3   | Castles & Crusades Castle Keepers Guide            | básico       | cc-castle-keepers-guide            | inglés |
+| 4   | The Codex of Aihrde                                | ambientación | the-codex-of-aihrde                | inglés |
+| 5   | Castles & Crusades Adventurers Backpack            | suplemento   | cc-adventurers-backpack            | inglés |
+| 6   | Castles & Crusades Adventurers Armory              | suplemento   | cc-adventurers-armory              | inglés |
+| 7   | Castles & Crusades Monstrous Armory                | suplemento   | cc-monstrous-armory                | inglés |
+| 8   | Castles & Crusades War Mounts                      | suplemento   | cc-war-mounts                      | inglés |
+| 9   | Castles & Crusades Engineering Villages            | suplemento   | cc-engineering-villages            | inglés |
+| 10  | Engineering Castles                                | suplemento   | cc-engineering-castles             | inglés |
+| 11  | Castles & Crusades Classic Monsters & Treasure     | suplemento   | cc-classic-monsters-and-treasure   | inglés |
+| 12  | Castles & Crusades Mystical Companions             | suplemento   | cc-mystical-companions             | inglés |
+| 13  | Castles & Crusades Codex Celtarum                  | suplemento   | cc-codex-celtarum                  | inglés |
+| 14  | Castles & Crusades Codex Exaltum                   | suplemento   | cc-codex-exaltum                   | inglés |
+| 15  | Castles & Crusades Codex Infernum                  | suplemento   | cc-codex-infernum                  | inglés |
+| 16  | Castle Zagyg: Yggsburgh (Classic Reprint)          | ambientación | castle-zagyg-yggsburgh             | inglés |
+| 17  | Castles & Crusades The Undying War                 | aventura     | cc-the-undying-war                 | inglés |
+| 18  | Castles & Crusades Lost City of Gaxmoor            | aventura     | cc-lost-city-of-gaxmoor            | inglés |
+| 19  | Castles & Crusades C1 Mortality of Green           | aventura     | cc-c1-mortality-of-green           | inglés |
+| 20  | Castles & Crusades C2 Shades of Mist               | aventura     | cc-c2-shades-of-mist               | inglés |
+| 21  | Castles & Crusades C3 Upon the Powder River        | aventura     | cc-c3-upon-the-powder-river        | inglés |
+| 22  | Castles & Crusades U3 Fingers of the Forsaken Hand | aventura     | cc-u3-fingers-of-the-forsaken-hand | inglés |
+| 23  | Castles & Crusades Towers of Adventure             | aventura     | cc-towers-of-adventure             | inglés |
+| 24  | Castles & Crusades A0 The Rising Knight            | aventura     | cc-a0-the-rising-knight            | inglés |
+| 25  | Castles & Crusades A6 Banishment & Blight          | aventura     | cc-a6-banishment-and-blight        | inglés |
+| 26  | Castles & Crusades A8 Forsaken Mountain            | aventura     | cc-a8-forsaken-mountain            | inglés |
+| 27  | Castles & Crusades A9 The Helm of Night            | aventura     | cc-a9-the-helm-of-night            | inglés |
+| 28  | Castles & Crusades S3 The Malady of Kings          | aventura     | cc-s3-the-malady-of-kings          | inglés |
+| 29  | Castles & Crusades S4 Dwarven Glory                | aventura     | cc-s4-dwarven-glory                | inglés |
+| 30  | Castles & Crusades S6 Giant's Rapture              | aventura     | cc-s6-giants-rapture               | inglés |
+| 31  | Castles & Crusades Curse of the Khan               | aventura     | cc-curse-of-the-khan               | inglés |
+| 32  | Castles & Crusades The Goblins of Mount Shadow     | aventura     | cc-the-goblins-of-mount-shadow     | inglés |
+| 33  | Castles & Crusades To Kill a King                  | aventura     | cc-to-kill-a-king                  | inglés |
+| 34  | Castles & Crusades Beneath the Dome                | aventura     | cc-beneath-the-dome                | inglés |
+| 35  | Under the Blood Red Moon                           | aventura     | cc-under-the-blood-red-moon        | inglés |
+| 36  | Castles & Crusades The Hallowed Oracle             | aventura     | cc-the-hallowed-oracle             | inglés |
+| 37  | Castles & Crusades I3 Beneath The Black Moon       | aventura     | cc-i3-beneath-the-black-moon       | inglés |
+| 38  | Castles & Crusades I5 Den of Iniquity              | aventura     | cc-i5-den-of-iniquity              | inglés |
+| 39  | Castles & Crusades M1 A Stranger Among Us          | aventura     | cc-m1-a-stranger-among-us          | inglés |
+| 40  | Castles & Crusades M3 A Gathering Storm            | aventura     | cc-m3-a-gathering-storm            | inglés |
+
+### Knave 2E
+
+| #   | Título                | Tipo   | Ficha    | Nota   |
+| --- | --------------------- | ------ | -------- | ------ |
+| 1   | Knave: Second Edition | básico | knave-2e | inglés |
+
+### The Black Hack
+
+| #   | Título                                  | Tipo           | Ficha                           | Nota   |
+| --- | --------------------------------------- | -------------- | ------------------------------- | ------ |
+| 1   | The Black Hack Second Edition           | básico         | the-black-hack-second-edition   | inglés |
+| 2   | The Black Hack: Classic Monsters        | suplemento     | the-black-hack-classic-monsters | inglés |
+| 3   | The Black Hack Black Box                | caja de inicio | the-black-hack-black-box        | inglés |
+| 4   | The Black Hack 2nd Edition Rule Booklet | suplemento     | the-black-hack-rule-booklet     | inglés |
 
 ## Ediciones anteriores de D&D
 

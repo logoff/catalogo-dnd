@@ -1,0 +1,17 @@
+{
+  "slug": "ose-classic-fantasy-players-rules-tome",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Classic Fantasy: Player's Rules Tome",
+  "kind": "core",
+  "core": true,
+  "description": "La versión para jugadores del tomo de reglas de Classic Fantasy: clases, equipo, conjuros y reglas de aventura, sin los monstruos, los tesoros ni las indicaciones para dirigir.\n\nPensado para que cada jugador tenga su propio libro sin desvelar lo que es del director.",
+  "source": "https://www.exaltedfuneral.com/products/old-school-essentials-players-rules-tome",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "format": "hardcover",
+      "cover": "/images/rol/ose-classic-fantasy-players-rules-tome/english.webp"
+    }
+  ]
+}

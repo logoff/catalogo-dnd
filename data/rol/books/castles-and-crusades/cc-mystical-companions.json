@@ -1,0 +1,24 @@
+{
+  "slug": "cc-mystical-companions",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Mystical Companions",
+  "kind": "supplement",
+  "description": "Amplía la idea del familiar a guías, espíritus divinos, tótems, monturas especiales y armas heroicas.\n\nPublicado por Troll Lord Games, escrito por Jason Vey, con 192 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/207697/castles-crusades-mystical-companions",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2017-03",
+      "format": "hardcover",
+      "isbn13": 9781944135096,
+      "cover": "/images/rol/cc-mystical-companions/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/207697/castles-crusades-mystical-companions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-grimtooths-tomb-of-the-warhammer",
+  "system": "dungeon-crawl-classics",
+  "title": "Grimtooth's Tomb of the Warhammer",
+  "kind": "adventure",
+  "description": "Una aventura de Grimtooth compatible con DCC para nivel 4: los elfos mataron al padre del trol y ocultaron su cuerpo y su martillo místico.\n\nPublicado por Goodman Games, escrito por Steve Crompton, Ken St. Andre, con 20 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/201854/grimtooth-s-tomb-of-the-warhammer-dcc-adventure",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2016-12",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-grimtooths-tomb-of-the-warhammer/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/201854/grimtooth-s-tomb-of-the-warhammer-dcc-adventure"
+        }
+      ]
+    }
+  ]
+}

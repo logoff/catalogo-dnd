@@ -1,0 +1,23 @@
+{
+  "slug": "bee-ware",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Bee-Ware!",
+  "kind": "adventure",
+  "description": "La aldea de Ambersham hace un aguamiel premiado y esconde un secreto: sus habitantes son monstruos cambiaformas al servicio de una «reina».\n\nPublicado por Lamentations of the Flame Princess, escrito por Kelvin Green, con 50 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/427099/bee-ware",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2023-04",
+      "format": "paperback",
+      "cover": "/images/rol/bee-ware/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/427099/bee-ware"
+        }
+      ]
+    }
+  ]
+}

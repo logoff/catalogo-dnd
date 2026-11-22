@@ -1,0 +1,24 @@
+{
+  "slug": "mythic-bastionland",
+  "system": "mythic-bastionland",
+  "title": "Mythic Bastionland",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de Mythic Bastionland: setenta y dos caballeros con su equipo y su pasión, los Mitos que hay que cazar, la corte y los dominios, y las reglas ligeras de Into the Odd para jugar una búsqueda de gloria en el pasado imaginado de Bastión.\n\nEs el único libro necesario para jugar.",
+  "source": "https://www.drivethrurpg.com/en/product/514996/mythic-bastionland",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Bastionland Press",
+      "date": "2025-03",
+      "format": "hardcover",
+      "cover": "/images/rol/mythic-bastionland/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/514996/mythic-bastionland"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "cc-a8-forsaken-mountain",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades A8 Forsaken Mountain",
+  "kind": "adventure",
+  "description": "Una aventura de alto nivel: cruzar el Mar Soñador en busca de la legendaria Montaña Abandonada y el recipiente de las almas.\n\nPublicado por Troll Lord Games, escrito por Davis Chenault, con 24 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/94946/castles-crusades-a8-forsaken-mountain",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2011-09",
+      "format": "paperback",
+      "isbn13": 9781931275880,
+      "cover": "/images/rol/cc-a8-forsaken-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/94946/castles-crusades-a8-forsaken-mountain"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "saga-of-the-giants",
+  "system": "basic-fantasy",
+  "title": "Saga of the Giants",
+  "kind": "adventure",
+  "description": "Seis aventuras enlazadas de alto nivel contra gigantes, pensadas para poner a prueba a los jugadores más curtidos.\n\nPublicado por Basic Fantasy Project, escrito por J.D. Neal, con 182 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/514770/saga-of-the-giants",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-04",
+      "format": "paperback",
+      "cover": "/images/rol/saga-of-the-giants/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/514770/saga-of-the-giants"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-80-intrigue-at-the-court-of-chaos",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #80: Intrigue at the Court of Chaos",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 1: la Corte del Caos secuestra a los aventureros para usarlos como peones contra los Vástagos de la Ley.\n\nPublicado por Goodman Games, escrito por Michael Curtis, con 24 páginas. Other Selves lo publica en castellano como Intriga en la corte del caos.",
+  "source": "https://www.drivethrurpg.com/en/product/125537/dungeon-crawl-classics-80-intrigue-at-the-court-of-chaos",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Intriga en la corte del caos",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/25749-clasicos-del-mazmorreo-intriga-en-la-corte-del-caos.html",
+      "cover": "/images/rol/dcc-80-intrigue-at-the-court-of-chaos/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2014-01",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-80-intrigue-at-the-court-of-chaos/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/125537/dungeon-crawl-classics-80-intrigue-at-the-court-of-chaos"
+        }
+      ]
+    }
+  ]
+}

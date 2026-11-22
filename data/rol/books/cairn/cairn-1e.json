@@ -1,0 +1,24 @@
+{
+  "slug": "cairn-1e",
+  "system": "cairn",
+  "title": "Cairn",
+  "kind": "core",
+  "core": true,
+  "description": "La primera edición de Cairn en un cuadernillo de veinticuatro páginas: aventureros curtidos que exploran un bosque oscuro lleno de gentes extrañas, tesoros y monstruos, con las reglas de Into the Odd y el inventario de Knave.\n\nTiene todo lo necesario para jugar, gratis en PDF e impreso bajo demanda. La segunda edición la sustituye, aunque las aventuras sirven para las dos.",
+  "source": "https://www.drivethrurpg.com/en/product/330809/cairn-1st-edition",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Cairn Press",
+      "date": "2020-10",
+      "format": "paperback",
+      "cover": "/images/rol/cairn-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/330809/cairn-1st-edition"
+        }
+      ]
+    }
+  ]
+}

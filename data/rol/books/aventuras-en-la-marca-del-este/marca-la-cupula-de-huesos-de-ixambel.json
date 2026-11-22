@@ -1,0 +1,24 @@
+{
+  "slug": "marca-la-cupula-de-huesos-de-ixambel",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La cúpula de huesos de Ixambel",
+  "kind": "adventure",
+  "description": "Un módulo para personajes de nivel 8 a 11 en la Tundra de los Ancestros, más allá de las negras cumbres de oriente, donde se libró una batalla terrible entre Valion y Zamordax.\n\nPublicado en abril de 2022.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/29507-aventuras-en-la-marca-del-este-la-cupula-de-huesos-de-ixambel.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2022-04",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/29507-aventuras-en-la-marca-del-este-la-cupula-de-huesos-de-ixambel.html",
+      "cover": "/images/rol/marca-la-cupula-de-huesos-de-ixambel/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/12818-aventuras-en-la-marca-del-este-la-cupula-de-huesos-de-ixambel-9780201379625.html"
+        }
+      ]
+    }
+  ]
+}

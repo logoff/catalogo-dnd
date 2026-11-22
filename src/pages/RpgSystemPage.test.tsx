@@ -115,6 +115,28 @@ describe('ficha de sistema', () => {
     setRpgIndex(index)
   })
 
+  it('un sistema NSR muestra su etiqueta enlazada a la explicación de los movimientos', () => {
+    const index = getRpgIndex()!
+    setRpgIndex({
+      ...index,
+      systems: [
+        ...index.systems,
+        {
+          ...index.systems[0],
+          slug: 'nsr-prueba',
+          name: 'NSR de prueba',
+          family: 'nsr-prueba',
+          official: undefined,
+          official_catalog: undefined,
+          movement: 'nsr',
+        },
+      ],
+    })
+    renderAt('/rol/nsr-prueba')
+    expect(screen.getByRole('link', { name: 'NSR' })).toHaveAttribute('href', '/rol#osr-y-nsr')
+    setRpgIndex(index)
+  })
+
   it('un sistema que no existe muestra la página de no encontrado', () => {
     renderAt('/rol/no-existe')
     expect(screen.queryByRole('heading', { level: 2, name: 'Características' })).toBeNull()

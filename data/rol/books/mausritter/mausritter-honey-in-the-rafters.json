@@ -1,0 +1,19 @@
+{
+  "slug": "mausritter-honey-in-the-rafters",
+  "system": "mausritter",
+  "title": "Honey in the Rafters",
+  "title_es": "Miel en las vigas",
+  "kind": "adventure",
+  "description": "Una zona de aventura para Mausritter en torno a un girasol maldito que se alza en el jardín de una cabaña humana abandonada, ennegrecido por la magia, y que atrae a todo el que se acerca.\n\nEdición en castellano de El Refugio de Ryhope, para jugar con el reglamento básico.",
+  "source": "https://dracotienda.com/juegos-de-rol/31943-mausritter-miel-en-las-vigas.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Miel en las vigas",
+      "publisher": "El Refugio de Ryhope",
+      "format": "paperback",
+      "source": "https://dracotienda.com/juegos-de-rol/31943-mausritter-miel-en-las-vigas.html",
+      "cover": "/images/rol/mausritter-honey-in-the-rafters/castellano.webp"
+    }
+  ]
+}

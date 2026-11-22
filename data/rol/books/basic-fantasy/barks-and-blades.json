@@ -1,0 +1,23 @@
+{
+  "slug": "barks-and-blades",
+  "system": "basic-fantasy",
+  "title": "Barks and Blades",
+  "kind": "adventure",
+  "description": "Una tribu de pequeños y fieros hombres perro asalta Péripont, un pueblo indefenso de unos cientos de almas.\n\nPublicado por Basic Fantasy Project, escrito por Hadrien Riel-Salvatore, con 47 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/540393/barks-and-blades",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-10",
+      "format": "paperback",
+      "cover": "/images/rol/barks-and-blades/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/540393/barks-and-blades"
+        }
+      ]
+    }
+  ]
+}

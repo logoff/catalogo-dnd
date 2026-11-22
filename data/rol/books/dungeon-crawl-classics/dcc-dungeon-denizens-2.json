@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-dungeon-denizens-2",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG Dungeon Denizens 2",
+  "kind": "supplement",
+  "description": "El segundo bestiario a color de DCC, con dragones, gólems, gigantes, demonios, elementales y hadas, usable también con MCC y XCC.\n\nPublicado por Goodman Games.",
+  "source": "https://www.drivethrurpg.com/en/product/575405/dcc-rpg-dungeon-denizens-2",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2026-07",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-dungeon-denizens-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/575405/dcc-rpg-dungeon-denizens-2"
+        }
+      ]
+    }
+  ]
+}

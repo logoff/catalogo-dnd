@@ -1,0 +1,23 @@
+{
+  "slug": "beneath-the-comet",
+  "system": "hyperborea",
+  "title": "Beneath the Comet",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 6 a 9: un cometa arde desde hace semanas sobre Hiperbórea y siembra el miedo a un contagio de las estrellas.\n\nPublicado por North Wind Adventures, escrito por Ben Ball (author), David Prata (editor), con 48 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/156200/beneath-the-comet",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2015-09",
+      "format": "paperback",
+      "cover": "/images/rol/beneath-the-comet/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/156200/beneath-the-comet"
+        }
+      ]
+    }
+  ]
+}

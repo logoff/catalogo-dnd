@@ -1,0 +1,23 @@
+{
+  "slug": "basic-fantasy-adventure-anthology-2",
+  "system": "basic-fantasy",
+  "title": "Adventure Anthology 2",
+  "kind": "adventure",
+  "description": "Quince aventuras cortas de varios autores para Basic Fantasy, la mayoría para una o dos sesiones.\n\nPublicado por Basic Fantasy Project, escrito por James Lemon, Chris Gonnerman, and Contributors, con 105 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/486328/adventure-anthology-2",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-07",
+      "format": "paperback",
+      "cover": "/images/rol/basic-fantasy-adventure-anthology-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/486328/adventure-anthology-2"
+        }
+      ]
+    }
+  ]
+}

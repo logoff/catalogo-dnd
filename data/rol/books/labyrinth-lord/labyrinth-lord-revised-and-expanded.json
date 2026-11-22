@@ -1,0 +1,24 @@
+{
+  "slug": "labyrinth-lord-revised-and-expanded",
+  "system": "labyrinth-lord",
+  "title": "Labyrinth Lord: Revised & Expanded",
+  "kind": "core",
+  "core": true,
+  "description": "La edición revisada y ampliada del reglamento de Labyrinth Lord: un juego completo para explorar laberintos con ladrones, clérigos, cíclopes, duendes, enanos, elfos, guerreros, medianos y magos.\n\nPublicado por Goblinoid Games, escrito por Daniel Proctor with Pauli Kidd, con 176 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/547105/labyrinth-lord-revised-expanded",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goblinoid Games",
+      "date": "2025-11",
+      "format": "hardcover",
+      "cover": "/images/rol/labyrinth-lord-revised-and-expanded/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/547105/labyrinth-lord-revised-expanded"
+        }
+      ]
+    }
+  ]
+}

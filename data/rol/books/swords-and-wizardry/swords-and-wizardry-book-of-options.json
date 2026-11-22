@@ -1,0 +1,23 @@
+{
+  "slug": "swords-and-wizardry-book-of-options",
+  "system": "swords-and-wizardry",
+  "title": "Swords & Wizardry Book of Options",
+  "kind": "supplement",
+  "description": "Un suplemento con once clases nuevas, dos linajes (gnomos y estigios), conjuros, objetos mágicos, tablas de encuentros y una introducción revisada al juego de la vieja escuela.\n\nPublicado por Mythmere Games, escrito por Matt Finch and James M. Spahn, con 128 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/485697/swords-wizardry-book-of-options",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Mythmere Games",
+      "date": "2024-08",
+      "format": "hardcover",
+      "cover": "/images/rol/swords-and-wizardry-book-of-options/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/485697/swords-wizardry-book-of-options"
+        }
+      ]
+    }
+  ]
+}

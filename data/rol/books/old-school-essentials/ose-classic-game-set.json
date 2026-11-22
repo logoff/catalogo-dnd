@@ -1,0 +1,17 @@
+{
+  "slug": "ose-classic-game-set",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Classic Game Set",
+  "kind": "core",
+  "core": true,
+  "description": "La caja negra de Old-School Essentials Classic Fantasy: cinco libros de tapa dura con los personajes, la magia, las reglas de aventura, los monstruos y los tesoros, es decir, el mismo contenido que el tomo de reglas repartido para que cada parte se consulte por separado.\n\nPensada para quien quiere la experiencia de las antiguas cajas de D&D. Se amplía con la caja de expansión de Advanced Fantasy.",
+  "source": "https://www.exaltedfuneral.com/products/old-school-essentials-black-box",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "format": "boxed_set",
+      "cover": "/images/rol/ose-classic-game-set/english.webp"
+    }
+  ]
+}

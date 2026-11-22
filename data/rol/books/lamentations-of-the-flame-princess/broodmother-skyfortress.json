@@ -1,0 +1,23 @@
+{
+  "slug": "broodmother-skyfortress",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Broodmother SkyFortress",
+  "kind": "adventure",
+  "description": "Una aventura desmesurada de Jeff Rients sobre gigantes que bajan de una fortaleza voladora para arrasar la región, con consejos para dirigir partidas memorables. Reconocida por los jueces de los ENnie en 2017.\n\nPublicado por Lamentations of the Flame Princess, escrito por Jeff Rients, con 173 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/199568/broodmother-skyfortress",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2016-12",
+      "format": "hardcover",
+      "cover": "/images/rol/broodmother-skyfortress/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/199568/broodmother-skyfortress"
+        }
+      ]
+    }
+  ]
+}

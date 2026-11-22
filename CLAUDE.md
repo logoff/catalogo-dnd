@@ -172,6 +172,11 @@ libros con sus ediciones en inglés y en castellano
 publicado en castellano y, de lo que solo está en inglés, los libros
 principales (`core`) de los sistemas grandes y el catálogo de las
 editoriales destacadas (`FEATURED_PUBLISHERS` en `src/utils/rpg.ts`).
+Los juegos OSR y NSR llevan `movement` en su sistema (con texto propio
+en `/rol#osr-y-nsr` que avisa de que la definición no es precisa) y de
+ellos entra, además, la línea impresa propia en inglés (editorial del
+sistema o `line_publishers`), con `format` en cada edición y al menos una
+impresa (`movementBookProblem` en `src/utils/rpg.ts`).
 Los sistemas de D&D tienen ficha mínima que enlaza al catálogo oficial
 (`official_catalog`). Como en novelas, un plugin de `vite.config.ts`
 genera `virtual:rpg-index` (licencias, sistemas y resumen de los libros)

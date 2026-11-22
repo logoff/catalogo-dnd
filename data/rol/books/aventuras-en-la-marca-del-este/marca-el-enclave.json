@@ -1,0 +1,18 @@
+{
+  "slug": "marca-el-enclave",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El Enclave",
+  "kind": "adventure",
+  "description": "La primera aventura de la trilogía de La Orden del Libro: los personajes viven en primera persona uno de los episodios más tristes de la historia de Robleda, que los cambiará y torcerá el curso de los acontecimientos.\n\nLa publicó Holocubierta en 2011 y continúa en Planes Oscuros y Redención.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/9807-aventuras-en-la-marca-del-este-el-enclave.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2011-04",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/9807-aventuras-en-la-marca-del-este-el-enclave.html",
+      "cover": "/images/rol/marca-el-enclave/castellano.webp"
+    }
+  ]
+}

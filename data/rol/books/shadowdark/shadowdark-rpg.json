@@ -1,0 +1,18 @@
+{
+  "slug": "shadowdark-rpg",
+  "system": "shadowdark",
+  "title": "Shadowdark RPG",
+  "kind": "core",
+  "core": true,
+  "description": "El libro básico de Shadowdark, con todo lo necesario para jugar y dirigir: creación de personajes con las cuatro clases principales y otras, conjuros, equipo, reglas de luz y oscuridad, monstruos, tablas para generar mazmorras y aventuras de ejemplo.\n\nEs el único libro imprescindible del juego. Quien conozca la quinta edición reconocerá muchas reglas, pero con el tono tenso y peligroso de la vieja escuela.",
+  "source": "https://www.thearcanelibrary.com/products/shadowdark-rpg",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "date": "2023",
+      "format": "hardcover",
+      "cover": "/images/rol/shadowdark-rpg/english.webp"
+    }
+  ]
+}

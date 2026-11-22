@@ -61,6 +61,7 @@ export function enrichBook(book: RpgBook, systems: RpgSystem[]): RpgBookWithMeta
     licenses: bookLicenses(book, systems),
     publishers,
     searchText: normalize([...new Set([...titles, ...publishers])].join(' | ')),
+    movement: systems.find((s) => s.slug === book.system)?.movement ?? null,
   }
 }
 
@@ -100,6 +101,7 @@ export function summarize(book: RpgBookWithMeta): RpgBookSummary {
     licenses: book.licenses,
     publishers: book.publishers,
     searchText: book.searchText,
+    movement: book.movement,
     thumbnail: cover ? thumbnailOf(cover) : null,
   }
 }
@@ -186,4 +188,55 @@ export function derivationCycle(systems: RpgSystem[]): string | null {
     return cycle
   }
   return systems.find((s) => visit(s.slug))?.slug ?? null
+}
+
+// Si un sistema llega a una edición de D&D siguiendo sus derivaciones hacia arriba. Sin
+// withInspiration, las derivaciones de inspiración no cuentan (regla de los OSR); con ella, sí
+// (regla de los NSR). Supone que no hay ciclos, que ya vigila derivationCycle
+export function reachesDnd(
+  systems: RpgSystem[],
+  system: RpgSystem,
+  withInspiration: boolean
+): boolean {
+  const bySlug = new Map(systems.map((s) => [s.slug, s]))
+  const reaches = (current: RpgSystem): boolean =>
+    (current.derived_from ?? []).some((derivation) => {
+      if (!withInspiration && derivation.kind === 'inspiration') return false
+      const parent = bySlug.get(derivation.system)
+      return Boolean(parent && (parent.official || reaches(parent)))
+    })
+  return reaches(system)
+}
+
+// Editoriales de la línea propia de un juego OSR o NSR
+export function linePublishers(system: Pick<RpgSystem, 'publisher' | 'line_publishers'>) {
+  return system.line_publishers ?? [system.publisher]
+}
+
+// Por qué un sistema incumple las reglas de su movimiento, o null si las cumple: solo los que no
+// son D&D llevan movimiento, un OSR llega a D&D sin inspiración y un NSR llega con ella
+export function movementProblem(systems: RpgSystem[], system: RpgSystem): string | null {
+  if (!system.movement) return system.line_publishers ? 'line_publishers sin movimiento' : null
+  if (system.official) return 'una edición de D&D no lleva movimiento'
+  if (!reachesDnd(systems, system, system.movement === 'nsr')) {
+    return system.movement === 'osr'
+      ? 'un OSR tiene que derivar de D&D sin quedarse en la inspiración'
+      : 'un NSR tiene que llegar a D&D por sus derivaciones'
+  }
+  return null
+}
+
+// Por qué un libro de un sistema OSR o NSR queda fuera del alcance, o null si entra: necesita
+// formato en cada edición, una edición impresa y estar en castellano o ser de la línea propia
+export function movementBookProblem(
+  book: Pick<RpgBook, 'editions'>,
+  system: Pick<RpgSystem, 'publisher' | 'line_publishers'>
+): string | null {
+  if (book.editions.some((e) => !e.format)) return 'cada edición tiene que indicar su formato'
+  if (!book.editions.some((e) => e.format !== 'pdf')) return 'necesita una edición impresa'
+  const line = linePublishers(system)
+  const inScope = book.editions.some(
+    (e) => e.language === 'castellano' || (e.language === 'english' && line.includes(e.publisher))
+  )
+  return inScope ? null : 'solo en inglés y de otra editorial que la del sistema'
 }

@@ -1,0 +1,22 @@
+{
+  "slug": "shadowdark-rpg-quickstart-set",
+  "system": "shadowdark",
+  "title": "Shadowdark RPG Quickstart Set",
+  "kind": "starter",
+  "description": "La caja de inicio de Shadowdark: dos cuadernillos de sesenta y ocho páginas, la guía del jugador y la del director, con las reglas para personajes de nivel 1 a 3, aventuras como Lost Citadel of the Scarlet Minotaur y ocho personajes de nivel 1 en tarjetas ilustradas.\n\nPensada para probar el juego antes del libro básico; también está gratis en PDF.",
+  "source": "https://www.thearcanelibrary.com/products/shadowdark-rpg-quickstart-set",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "format": "boxed_set",
+      "cover": "/images/rol/shadowdark-rpg-quickstart-set/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/413713/shadowdark-rpg-quickstart-set"
+        }
+      ]
+    }
+  ]
+}

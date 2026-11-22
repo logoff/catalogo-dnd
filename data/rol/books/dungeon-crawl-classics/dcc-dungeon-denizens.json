@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-dungeon-denizens",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG Dungeon Denizens",
+  "kind": "supplement",
+  "description": "Un bestiario a color para DCC con criaturas que acechan en mazmorras oscuras y profundas, listas para usar.\n\nPublicado por Goodman Games, escrito por Michael Curtis, Chris Doyle.",
+  "source": "https://www.drivethrurpg.com/en/product/511503/dcc-rpg-dungeon-denizens",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2025-03",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-dungeon-denizens/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/511503/dcc-rpg-dungeon-denizens"
+        }
+      ]
+    }
+  ]
+}

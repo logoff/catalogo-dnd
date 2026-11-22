@@ -1,0 +1,24 @@
+{
+  "slug": "marca-xorandor-las-casas",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Xorandor: Las casas",
+  "kind": "setting",
+  "description": "El segundo libro de Xorandor, dedicado a las casas nobles de la ciudad de los elfos oscuros: su papel, su estructura, el prestigio que las enfrenta y reglas para crear una casa propia.\n\nLibro de setenta y dos páginas, de octubre de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40459-aventuras-en-la-marca-del-este-xorandor-las-casas.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-10",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40459-aventuras-en-la-marca-del-este-xorandor-las-casas.html",
+      "cover": "/images/rol/marca-xorandor-las-casas/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18263-aventuras-en-la-marca-del-este-xorandor-las-casas-9780200989626.html"
+        }
+      ]
+    }
+  ]
+}

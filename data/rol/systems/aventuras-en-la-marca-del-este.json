@@ -1,0 +1,35 @@
+{
+  "slug": "aventuras-en-la-marca-del-este",
+  "name": "Aventuras en la Marca del Este",
+  "family": "aventuras-en-la-marca-del-este",
+  "publisher": "Holocubierta Ediciones",
+  "date": "2010",
+  "movement": "osr",
+  "description": "El retroclón español por excelencia, creado por el grupo Aventureros de la Marca del Este: una puesta al día de la caja roja de D&D de los ochenta, a partir de Labyrinth Lord, con un mundo propio, la Marca del Este, sus reinos vecinos y una larga serie de aventuras y suplementos.\n\nSalió en 2010 en una caja roja como homenaje a la de Dalmau Carles Pla y abrió en España el camino del rol de la vieja escuela. Se edita en castellano; en inglés salió como Adventures in the East Mark.",
+  "features": [
+    "Puesta al día de la caja roja de los ochenta",
+    "Mundo propio de la Marca del Este",
+    "Larga serie de aventuras y suplementos",
+    "El retroclón español de referencia"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2010"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "labyrinth-lord",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Usa Labyrinth Lord como base, con cambios y un mundo propio."
+    }
+  ],
+  "links": [
+    {
+      "label": "La Marca del Este",
+      "url": "https://lamarcadeleste.com/"
+    }
+  ]
+}

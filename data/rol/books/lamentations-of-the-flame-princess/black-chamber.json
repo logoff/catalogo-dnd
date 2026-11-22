@@ -1,0 +1,23 @@
+{
+  "slug": "black-chamber",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Black Chamber",
+  "kind": "adventure",
+  "description": "Una cámara negra cubierta de hollín y sangre, con trampas y conquistadores, es solo la entrada de la verdadera mazmorra.\n\nPublicado por Lamentations of the Flame Princess, escrito por Becami Cusack, con 42 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/447123/black-chamber",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2023-08",
+      "format": "paperback",
+      "cover": "/images/rol/black-chamber/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/447123/black-chamber"
+        }
+      ]
+    }
+  ]
+}

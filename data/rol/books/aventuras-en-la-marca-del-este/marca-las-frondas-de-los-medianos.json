@@ -1,0 +1,24 @@
+{
+  "slug": "marca-las-frondas-de-los-medianos",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Las frondas de los medianos",
+  "kind": "adventure",
+  "description": "Una aventura en las Frondas de los Medianos, un paraje bucólico de colinas floridas junto al río Oxus, a la sombra de peligros más oscuros.\n\nUna de las aventuras del mecenazgo del megadungeon de 2020.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26123-aventuras-en-la-marca-del-este-las-frondas-de-los-medianos.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2020-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26123-aventuras-en-la-marca-del-este-las-frondas-de-los-medianos.html",
+      "cover": "/images/rol/marca-las-frondas-de-los-medianos/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/10297-aventuras-en-la-marca-del-este-las-frondas-de-los-medianos-9788881388622.html"
+        }
+      ]
+    }
+  ]
+}

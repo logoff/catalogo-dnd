@@ -1,0 +1,24 @@
+{
+  "slug": "marca-la-balconada-de-idhola",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La balconada de Idhola",
+  "kind": "adventure",
+  "description": "Un módulo para personajes de nivel 4 a 5 en las Quebradas de la Ciénaga, donde hace un siglo los adoradores del espíritu Kharantis-Gudrü intentaron darle un cuerpo mortal.\n\nPublicado en diciembre de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41023-aventuras-en-la-marca-del-este-la-balconada-de-idhola.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-12",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41023-aventuras-en-la-marca-del-este-la-balconada-de-idhola.html",
+      "cover": "/images/rol/marca-la-balconada-de-idhola/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18428-aventuras-en-la-marca-del-este-la-balconada-de-idhola-9990209999629.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "the-phlogiston-books-vol-3",
+  "system": "dungeon-crawl-classics",
+  "title": "The Phlogiston Books Vol. III: El carnaval de las delicias terrenales",
+  "kind": "adventure",
+  "description": "El tercer volumen de los Libros de Flogisto, que continúa la ambientación de fantasía rural inspirada en el campo español con humor gamberro.\n\nUn libro original en castellano de Other Selves para Clásicos del Mazmorreo.",
+  "source": "https://dracotienda.com/clasicos-del-mazmorreo/26265-the-phlogiston-books-vol-iii-el-carnaval-de-las-delicias-terrenales.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/26265-the-phlogiston-books-vol-iii-el-carnaval-de-las-delicias-terrenales.html",
+      "cover": "/images/rol/the-phlogiston-books-vol-3/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8494891499"
+        }
+      ]
+    }
+  ]
+}

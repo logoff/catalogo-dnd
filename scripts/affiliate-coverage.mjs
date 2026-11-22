@@ -101,10 +101,28 @@ check(
     .map((b) => [`${b.system}/${b.slug}`, storesOf(b.editions).has('dmsguild')])
 )
 const rpgBooks = allRpgBooks.filter((b) => !dndEditions.has(b.system))
+// Los juegos OSR y NSR se venden sobre todo en DriveThruRPG (PDF e impresión bajo demanda): allí
+// se revisan sus ediciones en inglés, y Amazon solo en el resto de la sección
+const movementSystems = new Set(
+  files('data/rol/systems/*.json')
+    .map(read)
+    .filter((s) => s.movement)
+    .map((s) => s.slug)
+)
 check(
   'otros juegos de rol',
   'amazon',
-  rpgBooks.map((b) => [b.slug, storesOf(b.editions).has('amazon')])
+  rpgBooks
+    .filter((b) => !movementSystems.has(b.system))
+    .map((b) => [b.slug, storesOf(b.editions).has('amazon')])
+)
+const englishOf = (b) => b.editions.filter((e) => e.language === 'english')
+check(
+  'otros juegos de rol',
+  'drivethrurpg',
+  rpgBooks
+    .filter((b) => movementSystems.has(b.system) && englishOf(b).length > 0)
+    .map((b) => [`${b.system}/${b.slug}`, storesOf(englishOf(b)).has('drivethrurpg')])
 )
 const spanishOf = (b, publisher) =>
   b.editions.filter((e) => e.language === 'castellano' && (!publisher || e.publisher === publisher))

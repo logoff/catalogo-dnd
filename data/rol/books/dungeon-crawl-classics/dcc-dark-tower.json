@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-dark-tower",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics: Dark Tower",
+  "kind": "adventure",
+  "description": "La conversión de lujo a DCC del clásico Dark Tower de Jennell Jaquays, en tres volúmenes, para personajes de nivel 3 en adelante: riquezas, poder y muerte horrible en la torre oscura.\n\nPublicado por Goodman Games, escrito por Jennell Jaquays, Bob Brinkman, con 603 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/453162/dungeon-crawl-classics-dark-tower",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2024-04",
+      "format": "boxed_set",
+      "cover": "/images/rol/dcc-dark-tower/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/453162/dungeon-crawl-classics-dark-tower"
+        }
+      ]
+    }
+  ]
+}

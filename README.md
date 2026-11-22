@@ -154,7 +154,9 @@ novelas y `just novel-covers` descarga y convierte sus portadas.
 
 La sección `/rol` reúne juegos de la familia de D&D que no son de Wizards
 of the Coast (Pathfinder, Starfinder, Tales of the Valiant, Daggerheart,
-13th Age, Level Up) y libros de otras editoriales para 5E, con sus
+13th Age, Level Up), los juegos OSR y NSR (Old-School Essentials, Dungeon
+Crawl Classics, Aventuras en la Marca del Este, Mörk Borg, Cairn…) con la
+línea impresa de cada uno y libros de otras editoriales para 5E, con sus
 ediciones en inglés y en castellano, y `/licencias` explica las licencias
 abiertas (OGL, SRD, ORC…) que los relacionan. Los datos están en
 `data/rol/`: licencias en `licenses/`, sistemas en `systems/` y libros en

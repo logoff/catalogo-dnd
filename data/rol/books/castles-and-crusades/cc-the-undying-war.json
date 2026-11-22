@@ -1,0 +1,23 @@
+{
+  "slug": "cc-the-undying-war",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades The Undying War",
+  "kind": "adventure",
+  "description": "Una senda de aventuras de más de trescientas páginas a todo color que empieza en Nueva Aenoch y recorre mazmorras, pueblos, castillos y tierras salvajes.\n\nPublicado por Troll Lord Games, escrito por Davis Chenault, Stephen Chenault.",
+  "source": "https://www.drivethrurpg.com/en/product/445579/castles-crusades-the-undying-war",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2023-07",
+      "format": "hardcover",
+      "cover": "/images/rol/cc-the-undying-war/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/445579/castles-crusades-the-undying-war"
+        }
+      ]
+    }
+  ]
+}

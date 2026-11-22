@@ -1,0 +1,23 @@
+{
+  "slug": "ose-adventure-anthology-1",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Adventure Anthology 1",
+  "kind": "adventure",
+  "description": "Cuatro aventuras cortas para Old-School Essentials de autores como Giuseppe Rotondo y Glynn Seal, que van de alcantarillas infestadas y cámaras enjoyadas a templos siniestros y el vacío del espacio, para personajes de nivel bajo y medio.\n\nCada una cabe en pocas sesiones y se encaja fácilmente en cualquier campaña.",
+  "source": "https://www.drivethrurpg.com/en/product/457564/old-school-essentials-adventure-anthology-1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2024-03",
+      "format": "hardcover",
+      "cover": "/images/rol/ose-adventure-anthology-1/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/457564/old-school-essentials-adventure-anthology-1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "marca-la-taiga-maldita",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La taiga maldita",
+  "kind": "adventure",
+  "description": "Una aventura en el reino de Scandia, que vivió en paz bajo el Earl Golgar y su corona mágica forjada por los enanos, hasta que el destino la apartó de su portador.\n\nPublicada en octubre de 2022.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/31693-aventuras-en-la-marca-del-este-la-taiga-maldita.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2022-10",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/31693-aventuras-en-la-marca-del-este-la-taiga-maldita.html",
+      "cover": "/images/rol/marca-la-taiga-maldita/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/13766-aventuras-en-la-marca-del-este-la-taiga-maldita-9788493585426.html"
+        }
+      ]
+    }
+  ]
+}

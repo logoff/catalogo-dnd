@@ -1,0 +1,24 @@
+{
+  "slug": "cc-engineering-castles",
+  "system": "castles-and-crusades",
+  "title": "Engineering Castles",
+  "kind": "supplement",
+  "description": "Un suplemento sobre la construcción y defensa de castillos y torres, de madera y de piedra, para Castles & Crusades.\n\nPublicado por Troll Lord Games, escrito por Robert Doyel, con 32 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/92828/engineering-castles",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2011-07",
+      "format": "paperback",
+      "isbn13": 9781936822331,
+      "cover": "/images/rol/cc-engineering-castles/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/92828/engineering-castles"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "halls-of-the-blood-king",
+  "system": "old-school-essentials",
+  "title": "Halls of the Blood King",
+  "kind": "adventure",
+  "description": "Una aventura de terror para personajes de nivel 3 a 5, de Diogo Nogueira: con la luna de sangre vuelve a este mundo la morada del rey de los vampiros, llena de tesoros y de peligros.\n\nTiene treinta y siete zonas descritas en formato de consulta rápida, tabla de rumores y resumen del botín.",
+  "source": "https://www.drivethrurpg.com/en/product/348880/halls-of-the-blood-king",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2021-03",
+      "format": "hardcover",
+      "cover": "/images/rol/halls-of-the-blood-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/348880/halls-of-the-blood-king"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "marca-la-perla-de-ayakashi",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La perla de Ayakashi",
+  "kind": "adventure",
+  "description": "Un módulo para cuatro a seis personajes de nivel 2 contra La Perla de Ayakashi, uno de los bajeles corsarios más temidos de Valion, capitaneado por el malvado Yasuki.\n\nAventura de Clásicos de la Marca publicada en noviembre de 2023.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/35286-aventuras-en-la-marca-del-este-la-perla-de-ayakashi-.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2023-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/35286-aventuras-en-la-marca-del-este-la-perla-de-ayakashi-.html",
+      "cover": "/images/rol/marca-la-perla-de-ayakashi/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15547-aventuras-en-la-marca-del-este-la-perla-de-ayakashi-9780201279665.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "cc-by-sa-4-0",
+  "name": "Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)",
+  "short_name": "CC BY-SA 4.0",
+  "kind": "license",
+  "holder": "Creative Commons",
+  "date": "2013-11",
+  "description": "Una licencia abierta general, no pensada solo para juegos: permite copiar, adaptar y vender la obra con la única condición de citar al autor original y de publicar las obras derivadas bajo la misma licencia. Esa segunda condición, el «compartir igual», es lo que la distingue de CC BY.\n\nEn el rol la usan sobre todo juegos independientes que quieren que su comunidad pueda reutilizar las reglas sin pedir permiso, como Cairn. Cubre el texto publicado bajo ella, no las marcas ni el arte que el autor no haya incluido.",
+  "links": [
+    {
+      "label": "Resumen de la licencia",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.es"
+    },
+    {
+      "label": "Texto legal",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.es"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "marca-el-callejon-inconstante",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El callejón inconstante",
+  "kind": "adventure",
+  "description": "Ha pasado un siglo y un callejón maldito está a punto de reaparecer, con un padre que busca la cura de su hija, un loco enamorado y cien personas que no saben de la maldición.\n\nPublicada en noviembre de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40863-aventuras-en-la-marca-del-este-el-callejon-inconstante.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40863-aventuras-en-la-marca-del-este-el-callejon-inconstante.html",
+      "cover": "/images/rol/marca-el-callejon-inconstante/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18383-aventuras-en-la-marca-del-este-el-callejon-inconstante.html"
+        }
+      ]
+    }
+  ]
+}

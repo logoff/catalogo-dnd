@@ -1,0 +1,16 @@
+{
+  "slug": "winters-daughter-dolmenwood",
+  "system": "dolmenwood",
+  "title": "Winter's Daughter (Dolmenwood)",
+  "kind": "adventure",
+  "description": "La edición impresa para el juego Dolmenwood de Winter's Daughter: la tumba de un antiguo héroe en lo profundo del bosque, el círculo de piedras de los drune y una princesa feérica que espera un tesoro olvidado, para personajes de nivel 1 a 3.\n\nRequiere los libros básicos de Dolmenwood; la primera edición era para Old-School Essentials.",
+  "source": "https://www.exaltedfuneral.com/products/dolmenwood-official-adventure-scenario-winters-daughter",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "format": "hardcover",
+      "cover": "/images/rol/winters-daughter-dolmenwood/english.webp"
+    }
+  ]
+}

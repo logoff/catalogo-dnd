@@ -2,6 +2,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 import MetaTags from '@/components/seo/MetaTags'
 import Badge from '@/components/ui/Badge'
+import { MovementBadge } from '@/components/rpg/RpgMovements'
 import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
 import { buttonClass, cardClass, headingClass } from '@/components/ui/styles'
 import {
@@ -78,8 +79,11 @@ export default function RpgSystemPage({ section = 'rol' }: { section?: RpgSectio
 
         <div className="mb-8 flex max-w-3xl flex-col gap-3">
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{system.name}</h1>
-          <p className="text-muted">
-            {system.publisher} · {formatPartialDate(system.date)}
+          <p className="flex flex-wrap items-center gap-2 text-muted">
+            <span>
+              {system.publisher} · {formatPartialDate(system.date)}
+            </span>
+            {system.movement && <MovementBadge movement={system.movement} />}
           </p>
           {paragraphs.map((paragraph) => (
             <p key={paragraph} className="text-base leading-relaxed text-fg">

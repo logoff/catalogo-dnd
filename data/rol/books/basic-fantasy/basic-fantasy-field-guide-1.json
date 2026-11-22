@@ -1,0 +1,23 @@
+{
+  "slug": "basic-fantasy-field-guide-1",
+  "system": "basic-fantasy",
+  "title": "Basic Fantasy Field Guide, Volume 1",
+  "kind": "supplement",
+  "description": "Más de ciento ochenta criaturas para Basic Fantasy, de animales comunes a intrusos de otras dimensiones.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, R. Kevin Smoot, James Lemon, and Contributors, con 83 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/461331/basic-fantasy-field-guide-volume-1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2023-11",
+      "format": "paperback",
+      "cover": "/images/rol/basic-fantasy-field-guide-1/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/461331/basic-fantasy-field-guide-volume-1"
+        }
+      ]
+    }
+  ]
+}

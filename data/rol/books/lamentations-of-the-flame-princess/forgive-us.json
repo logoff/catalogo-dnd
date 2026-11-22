@@ -1,0 +1,23 @@
+{
+  "slug": "forgive-us",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Forgive Us",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 4 en Norwich en 1625: la historia dice que hubo un brote de peste negra, pero se equivoca.\n\nPublicado por Lamentations of the Flame Princess, escrito por Kelvin Green, con 48 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/127041/forgive-us",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2014-03",
+      "format": "paperback",
+      "cover": "/images/rol/forgive-us/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/127041/forgive-us"
+        }
+      ]
+    }
+  ]
+}

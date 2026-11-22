@@ -1,0 +1,35 @@
+{
+  "slug": "dungeon-crawl-classics",
+  "name": "Dungeon Crawl Classics",
+  "family": "dungeon-crawl-classics",
+  "publisher": "Goodman Games",
+  "date": "2012",
+  "movement": "osr",
+  "description": "El juego de Goodman Games que vuelve a la fantasía pulp que inspiró a D&D: los jugadores empiezan con varios campesinos de nivel 0 en una mazmorra mortal y los que sobreviven eligen clase. Usa dados de formas raras (d3, d5, d7, d24…), conjuros que pueden salir mal de formas espectaculares y patrones sobrenaturales.\n\nSu base es la tercera edición a través de la OGL, pero su espíritu y sus aventuras son de la vieja escuela. En castellano lo publica Other Selves como Clásicos del Mazmorreo.",
+  "features": [
+    "Partida de campesinos de nivel 0",
+    "Dados de formas raras",
+    "Magia imprevisible y patrones sobrenaturales",
+    "Aventuras numeradas de la línea DCC"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2012"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-3e",
+      "kind": "major_rewrite",
+      "via_license": "ogl-1-0a",
+      "note": "Parte de la base d20 de la tercera edición y la transforma en un juego de fantasía pulp a la vieja usanza."
+    }
+  ],
+  "links": [
+    {
+      "label": "Goodman Games",
+      "url": "https://goodman-games.com/"
+    }
+  ]
+}

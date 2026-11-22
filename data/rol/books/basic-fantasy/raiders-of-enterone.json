@@ -1,0 +1,23 @@
+{
+  "slug": "raiders-of-enterone",
+  "system": "basic-fantasy",
+  "title": "Raiders of Enterone: The Glain Campaign",
+  "kind": "adventure",
+  "description": "Bajo Grimspire, la fortaleza en ruinas cercana a Darion's Bridge, se extienden mazmorras llenas de monstruos.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, con 60 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/557614/raiders-of-enterone-the-glain-campaign",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2026-03",
+      "format": "paperback",
+      "cover": "/images/rol/raiders-of-enterone/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/557614/raiders-of-enterone-the-glain-campaign"
+        }
+      ]
+    }
+  ]
+}

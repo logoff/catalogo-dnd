@@ -1,0 +1,24 @@
+{
+  "slug": "cc-adventurers-armory",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Adventurers Armory",
+  "kind": "supplement",
+  "description": "Casi mil descripciones y estadísticas de armas, de mazas y dagas a espadas, armas de asta, arcos, ballestas y máquinas de asedio.\n\nPublicado por Troll Lord Games, escrito por Davis Chenault, con 320 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/512760/castles-crusades-adventurers-armory",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2025-04",
+      "format": "hardcover",
+      "isbn13": 9781952379543,
+      "cover": "/images/rol/cc-adventurers-armory/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/512760/castles-crusades-adventurers-armory"
+        }
+      ]
+    }
+  ]
+}

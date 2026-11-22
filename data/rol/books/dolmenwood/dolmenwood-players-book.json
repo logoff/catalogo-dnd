@@ -1,0 +1,24 @@
+{
+  "slug": "dolmenwood-players-book",
+  "system": "dolmenwood",
+  "title": "Dolmenwood Player's Book",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de Dolmenwood: los pueblos del bosque (como los elfos, los hombres-gato, los grimalkin o los mossling), sus clases, trasfondos, equipo, magia y todas las reglas de juego.\n\nEs uno de los tres libros básicos, junto al de campaña y el de monstruos.",
+  "source": "https://www.drivethrurpg.com/en/product/497353/dolmenwood-player-s-book",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/dolmenwood-players-book/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/497353/dolmenwood-player-s-book"
+        }
+      ]
+    }
+  ]
+}

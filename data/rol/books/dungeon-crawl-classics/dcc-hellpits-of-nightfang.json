@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-hellpits-of-nightfang",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG: Hellpits of Nightfang",
+  "kind": "adventure",
+  "description": "Una aventura de una sesión para nivel 5 basada en el clásico de Jennell Jaquays: un vampiro y sus aliados aterrorizan la comarca con ataques nocturnos.\n\nPublicado por Goodman Games, escrito por Jennell Jaquays; DCC Conversion by ZOG, con 22 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/539153/dcc-rpg-hellpits-of-nightfang",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2025-10",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-hellpits-of-nightfang/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/539153/dcc-rpg-hellpits-of-nightfang"
+        }
+      ]
+    }
+  ]
+}

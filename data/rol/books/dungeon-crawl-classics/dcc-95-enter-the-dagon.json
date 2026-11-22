@@ -1,0 +1,31 @@
+{
+  "slug": "dcc-95-enter-the-dagon",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #95: Enter the Dagon",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 5 en la isla de Dagón, presagio de muerte para la gente común y fuente de saber prohibido para brujos y magos.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 36 páginas. Other Selves lo publica en castellano como Operación Dagón.",
+  "source": "https://www.drivethrurpg.com/en/product/222937/dungeon-crawl-classics-95-enter-the-dagon",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Operación Dagón",
+      "publisher": "Other Selves",
+      "format": "paperback",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/27196-clasicos-del-mazmorreo-operacion-dagon.html",
+      "cover": "/images/rol/dcc-95-enter-the-dagon/castellano.webp"
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2017-10",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-95-enter-the-dagon/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/222937/dungeon-crawl-classics-95-enter-the-dagon"
+        }
+      ]
+    }
+  ]
+}

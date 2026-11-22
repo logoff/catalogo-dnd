@@ -81,6 +81,22 @@
                 "$ref": "#/$defs/derivation"
             }
         },
+        "movement": {
+            "description": "Movimiento al que pertenece: osr (Old School Renaissance) o nsr (New School Revolution). Nunca en las ediciones de D&D",
+            "enum": [
+                "osr",
+                "nsr"
+            ]
+        },
+        "line_publishers": {
+            "description": "Solo en sistemas con movimiento: editoriales de la línea propia del juego, si hay más de una. Por defecto, publisher",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string",
+                "minLength": 1
+            }
+        },
         "official": {
             "description": "Edición oficial de D&D (de Wizards of the Coast). Sin official_catalog, tiene su sección en /ediciones",
             "type": "boolean"

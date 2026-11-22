@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-dying-earth",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Dying Earth",
+  "kind": "setting",
+  "description": "La ambientación de la Tierra Moribunda de Jack Vance para DCC: los últimos días del mundo, donde magia y ciencia se confunden y los hechiceros se enemistan sin fin, con clases, magia y aventuras propias.\n\nPublicado por Goodman Games, escrito por Marc Bruner, Julian Bernick, Bob Brinkman, Terry Olson, con 278 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/393052/dungeon-crawl-classics-dying-earth",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2023-04",
+      "format": "boxed_set",
+      "cover": "/images/rol/dcc-dying-earth/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/393052/dungeon-crawl-classics-dying-earth"
+        }
+      ]
+    }
+  ]
+}

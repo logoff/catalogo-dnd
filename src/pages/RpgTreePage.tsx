@@ -1,8 +1,9 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import PageHeader from '@/components/ui/PageHeader'
+import SegmentedControl from '@/components/ui/SegmentedControl'
 import { headingClass } from '@/components/ui/styles'
 import { RpgLoading, SECTION_NAME } from '@/components/rpg/RpgSection'
 import { useRpgIndex } from '@/hooks/useRpgData'
@@ -74,9 +75,24 @@ function EdgeSample({ kind }: { kind: DerivationKind }) {
   )
 }
 
+// Los OSR y NSR son muchos y casi todos cuelgan de las primeras ediciones: se pueden ocultar para
+// leer mejor el resto de la familia
+type TreeScope = 'all' | 'without-movements'
+const scopeOptions: { value: TreeScope; label: string }[] = [
+  { value: 'all', label: 'Todos' },
+  { value: 'without-movements', label: 'Sin OSR ni NSR' },
+]
+
 export default function RpgTreePage() {
   const index = useRpgIndex()
-  const tree = useMemo(() => (index ? buildRpgTree(index.systems) : null), [index])
+  const [scope, setScope] = useState<TreeScope>('all')
+  const tree = useMemo(
+    () =>
+      index
+        ? buildRpgTree(scope === 'all' ? index.systems : index.systems.filter((s) => !s.movement))
+        : null,
+    [index, scope]
+  )
   if (!index || !tree) return <RpgLoading what="el árbol" />
 
   const licenseName = (slug: string) => {
@@ -134,6 +150,14 @@ export default function RpgTreePage() {
             </li>
           </ul>
         </section>
+
+        <SegmentedControl
+          label="Sistemas del árbol"
+          options={scopeOptions}
+          value={scope}
+          onChange={setScope}
+          className="mb-4"
+        />
 
         <div className="overflow-x-auto rounded-xl border border-line bg-well">
           <svg
