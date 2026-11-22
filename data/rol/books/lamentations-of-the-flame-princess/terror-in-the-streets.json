@@ -1,0 +1,23 @@
+{
+  "slug": "terror-in-the-streets",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Terror in the Streets",
+  "kind": "adventure",
+  "description": "París, 1630: desaparecen niños y la ciudad, hasta entonces a salvo de la guerra, se llena de miedo y paranoia.\n\nPublicado por Lamentations of the Flame Princess, escrito por Kelvin Green, con 98 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/375168/terror-in-the-streets",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2021-11",
+      "format": "paperback",
+      "cover": "/images/rol/terror-in-the-streets/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/375168/terror-in-the-streets"
+        }
+      ]
+    }
+  ]
+}

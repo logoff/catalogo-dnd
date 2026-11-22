@@ -1,0 +1,23 @@
+{
+  "slug": "a-red-and-pleasant-land",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "A Red & Pleasant Land",
+  "kind": "setting",
+  "description": "Una ambientación inspirada en Alicia en el país de las maravillas y en el folclore de vampiros: un Rey Rojo y una Reina terrible guerrean y dan forma a un mundo rígido y extraño. Ganó varios ENnie en 2015, entre ellos oro a la mejor ambientación y al mejor texto.\n\nPublicado por Lamentations of the Flame Princess, escrito por Zak Sabbath, con 197 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/141032/a-red-pleasant-land",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2014-12",
+      "format": "hardcover",
+      "cover": "/images/rol/a-red-and-pleasant-land/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/141032/a-red-pleasant-land"
+        }
+      ]
+    }
+  ]
+}

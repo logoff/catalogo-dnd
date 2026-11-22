@@ -1,0 +1,23 @@
+{
+  "slug": "world-of-the-lost",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "World of the Lost",
+  "kind": "adventure",
+  "description": "Arenas movedizas, podredumbre de la jungla y robots psicóticos: para quedarse con la plata que los ciudadanos de Khirima pagan a unos demonios, los aventureros deben enfrentarse a dinosaurios y horrores del Templo de las Eras que No Son.\n\nPublicado por Lamentations of the Flame Princess, escrito por Rafael Chandler, con 181 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/175129/world-of-the-lost",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2016-02",
+      "format": "hardcover",
+      "cover": "/images/rol/world-of-the-lost/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/175129/world-of-the-lost"
+        }
+      ]
+    }
+  ]
+}

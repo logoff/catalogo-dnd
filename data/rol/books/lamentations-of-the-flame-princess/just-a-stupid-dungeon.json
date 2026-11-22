@@ -1,0 +1,23 @@
+{
+  "slug": "just-a-stupid-dungeon",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Just a Stupid Dungeon",
+  "kind": "adventure",
+  "description": "Una mazmorra clásica sin trasfondo ni trama, para cuando solo apetece explorar.\n\nPublicado por Lamentations of the Flame Princess, escrito por James Edward Raggi IV, con 18 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/406620/just-a-stupid-dungeon",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2022-09",
+      "format": "paperback",
+      "cover": "/images/rol/just-a-stupid-dungeon/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/406620/just-a-stupid-dungeon"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "deck-of-weird-things",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Deck of Weird Things",
+  "kind": "supplement",
+  "description": "Un suplemento dedicado por completo a describir los efectos de una baraja mágica de cartas con la que hacer imprevisible cualquier campaña.\n\nPublicado por Lamentations of the Flame Princess, escrito por James Edward Raggi IV, con 66 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/320324/deck-of-weird-things",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2020-07",
+      "format": "paperback",
+      "cover": "/images/rol/deck-of-weird-things/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/320324/deck-of-weird-things"
+        }
+      ]
+    }
+  ]
+}

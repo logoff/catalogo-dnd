@@ -1,0 +1,23 @@
+{
+  "slug": "magic-eater",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Magic Eater",
+  "kind": "adventure",
+  "description": "Un culto extraño roba el objeto mágico favorito de los jugadores para dárselo de comer a su dios.\n\nPublicado por Lamentations of the Flame Princess, escrito por Kelvin Green, con 35 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/427146/magic-eater",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2023-04",
+      "format": "paperback",
+      "cover": "/images/rol/magic-eater/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/427146/magic-eater"
+        }
+      ]
+    }
+  ]
+}

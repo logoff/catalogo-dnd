@@ -1,0 +1,23 @@
+{
+  "slug": "random-esoteric-creature-generator",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Random Esoteric Creature Generator",
+  "kind": "supplement",
+  "description": "La edición del décimo aniversario del generador aleatorio de criaturas extrañas de James Edward Raggi IV, con el texto original restaurado, todas sus introducciones y una galería del arte de las ediciones anteriores.\n\nPublicado por Lamentations of the Flame Princess, escrito por James Edward Raggi IV, con 64 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/242323/random-esoteric-creature-generator-for-classic-fantasy-role-playing-games-and-their-modern-simulacra-the",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2018-08",
+      "format": "paperback",
+      "cover": "/images/rol/random-esoteric-creature-generator/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/242323/random-esoteric-creature-generator-for-classic-fantasy-role-playing-games-and-their-modern-simulacra-the"
+        }
+      ]
+    }
+  ]
+}

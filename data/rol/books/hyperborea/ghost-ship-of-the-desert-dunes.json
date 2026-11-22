@@ -1,0 +1,23 @@
+{
+  "slug": "ghost-ship-of-the-desert-dunes",
+  "system": "hyperborea",
+  "title": "Ghost Ship of the Desert Dunes",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 2 a 4: en el desierto de Diamante yacen los restos de un legendario barco vikingo.\n\nPublicado por North Wind Adventures, escrito por Jeffrey Talanian (author), David Prata (editor), con 60 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/156178/ghost-ship-of-the-desert-dunes",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2015-09",
+      "format": "paperback",
+      "cover": "/images/rol/ghost-ship-of-the-desert-dunes/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/156178/ghost-ship-of-the-desert-dunes"
+        }
+      ]
+    }
+  ]
+}

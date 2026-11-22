@@ -1,0 +1,23 @@
+{
+  "slug": "the-role-playing-game-primer",
+  "system": "basic-fantasy",
+  "title": "The Role-Playing Game Primer and Old School Playbook",
+  "kind": "other",
+  "description": "Una introducción a los juegos de rol desde cero: cómo se juega, consejos para jugadores y directores y una guía del juego a la vieja usanza.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, con 67 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/462010/the-role-playing-game-primer-and-old-school-playbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2023-11",
+      "format": "paperback",
+      "cover": "/images/rol/the-role-playing-game-primer/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/462010/the-role-playing-game-primer-and-old-school-playbook"
+        }
+      ]
+    }
+  ]
+}

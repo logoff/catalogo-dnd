@@ -69,7 +69,7 @@ digital de plataformas comunitarias.
 | 16  | Labyrinth Lord                     | Labyrinth Lord                     | Goblinoid Games                    | 2007 | ogl-1-0a                                                 | D&D básico: reescrito pero compatible                       | no consta                        | [Goblinoid Games](https://www.goblinoidgames.com/)                                              | labyrinth-lord                     | OSR                                                                                      |
 | 17  | Basic Fantasy Role-Playing Game    | Basic Fantasy Role-Playing Game    | Basic Fantasy Project              | 2006 | ogl-1-0a                                                 | D&D básico: reescrito pero compatible                       | no consta                        | [Basic Fantasy Project](https://www.basicfantasy.org/)                                          | basic-fantasy                      | OSR                                                                                      |
 | 18  | Swords & Wizardry                  | Swords & Wizardry                  | Mythmere Games                     | 2008 | ogl-1-0a                                                 | D&D original: reescrito pero compatible                     | no consta                        | [Frog God Games](https://www.froggodgames.com/)                                                 | swords-and-wizardry                | OSR                                                                                      |
-| 19  | OSRIC                              | OSRIC                              | Black Blade Publishing             | 2006 | ogl-1-0a                                                 | AD&D 1.ª edición: reescrito pero compatible                 | no consta                        | [Black Blade Publishing](https://www.black-blade-publishing.com/)                               | osric                              | OSR                                                                                      |
+| 19  | OSRIC                              | OSRIC                              | Mythmere Games                     | 2006 | ogl-1-0a                                                 | AD&D 1.ª edición: reescrito pero compatible                 | no consta                        | [Black Blade Publishing](https://www.black-blade-publishing.com/)                               | osric                              | OSR                                                                                      |
 | 20  | Castles & Crusades                 | Castles & Crusades                 | Troll Lord Games                   | 2004 | ogl-1-0a                                                 | D&D 3.ª edición: cambio mayor de reglas                     | no consta                        | [Troll Lord Games](https://www.trolllord.com/)                                                  | castles-and-crusades               | OSR                                                                                      |
 | 21  | Dungeon Crawl Classics             | Dungeon Crawl Classics             | Goodman Games                      | 2012 | ogl-1-0a                                                 | D&D 3.ª edición: cambio mayor de reglas                     | sí (Other Selves)                | [Goodman Games](https://goodman-games.com/)                                                     | dungeon-crawl-classics             | OSR                                                                                      |
 | 22  | Shadowdark                         | Shadowdark                         | The Arcane Library                 | 2023 | shadowdark-third-party-license                           | D&D 5E (2014): cambio mayor de reglas                       | no consta                        | [The Arcane Library](https://www.thearcanelibrary.com/pages/shadowdark)                         | shadowdark                         | OSR                                                                                      |
@@ -760,6 +760,135 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | 132 | The Phlogiston Books Vol. III: El carnaval de las delicias terrenales                              | aventura     | the-phlogiston-books-vol-3                              | castellano         |
 | 133 | The Phlogiston Books Vol. IV: Clásicos de Ishtar                                                   | ambientación | the-phlogiston-books-vol-4                              | castellano         |
 | 134 | Los salones verticales                                                                             | aventura     | los-salones-verticales                                  | castellano         |
+
+### Lamentations of the Flame Princess
+
+| #   | Título                                                 | Tipo         | Ficha                                                 | Nota   |
+| --- | ------------------------------------------------------ | ------------ | ----------------------------------------------------- | ------ |
+| 1   | LotFP Weird Fantasy Role-Playing: Rules & Magic        | básico       | lotfp-rules-and-magic                                 | inglés |
+| 2   | Death Frost Doom                                       | aventura     | death-frost-doom                                      | inglés |
+| 3   | Carcosa                                                | ambientación | carcosa                                               | inglés |
+| 4   | Qelong                                                 | aventura     | qelong                                                | inglés |
+| 5   | Forgive Us                                             | aventura     | forgive-us                                            | inglés |
+| 6   | No Salvation for Witches                               | aventura     | no-salvation-for-witches                              | inglés |
+| 7   | A Red & Pleasant Land                                  | ambientación | a-red-and-pleasant-land                               | inglés |
+| 8   | The Idea from Space                                    | aventura     | the-idea-from-space                                   | inglés |
+| 9   | World of the Lost                                      | aventura     | world-of-the-lost                                     | inglés |
+| 10  | Broodmother SkyFortress                                | aventura     | broodmother-skyfortress                               | inglés |
+| 11  | Random Esoteric Creature Generator                     | suplemento   | random-esoteric-creature-generator                    | inglés |
+| 12  | The Punchline                                          | aventura     | the-punchline                                         | inglés |
+| 13  | No Rest for the Wicked                                 | aventura     | no-rest-for-the-wicked                                | inglés |
+| 14  | Deck of Weird Things                                   | suplemento   | deck-of-weird-things                                  | inglés |
+| 15  | Big Puppet                                             | aventura     | big-puppet                                            | inglés |
+| 16  | Fermentvm Nigrvm Dei Sepvlti                           | aventura     | fermentvm-nigrvm-dei-sepvlti                          | inglés |
+| 17  | Adventure Anthology: Blood                             | aventura     | adventure-anthology-blood                             | inglés |
+| 18  | Green Messiah                                          | aventura     | green-messiah                                         | inglés |
+| 19  | In a Deadly Fashion                                    | aventura     | in-a-deadly-fashion                                   | inglés |
+| 20  | Staffortonshire Trading Company Works of John Williams | suplemento   | staffortonshire-trading-company                       | inglés |
+| 21  | Terror in the Streets                                  | aventura     | terror-in-the-streets                                 | inglés |
+| 22  | Earth Incubation Crisis                                | aventura     | earth-incubation-crisis                               | inglés |
+| 23  | Strict Time Records Must Be Kept                       | aventura     | strict-time-records-must-be-kept                      | inglés |
+| 24  | Just a Stupid Dungeon                                  | aventura     | just-a-stupid-dungeon                                 | inglés |
+| 25  | Curse of the Daughterbrides                            | aventura     | curse-of-the-daughterbrides                           | inglés |
+| 26  | The Curious Conundrum of the Conflagrated Condottiero  | aventura     | the-curious-conundrum-of-the-conflagrated-condottiero | inglés |
+| 27  | The Obsidian Anti-Pharos                               | aventura     | the-obsidian-anti-pharos                              | inglés |
+| 28  | Bee-Ware!                                              | aventura     | bee-ware                                              | inglés |
+| 29  | Magic Eater                                            | aventura     | magic-eater                                           | inglés |
+| 30  | The Jovian Visitor                                     | aventura     | the-jovian-visitor                                    | inglés |
+| 31  | A Gift for All of Norway                               | aventura     | a-gift-for-all-of-norway                              | inglés |
+| 32  | Black Chamber                                          | aventura     | black-chamber                                         | inglés |
+| 33  | Do Not Accept This Quest                               | aventura     | do-not-accept-this-quest                              | inglés |
+| 34  | Faecal Lands                                           | ambientación | faecal-lands                                          | inglés |
+| 35  | Galileo 2: Judgment Day                                | aventura     | galileo-2-judgment-day                                | inglés |
+| 36  | Meanderings of the Mine Mind                           | aventura     | meanderings-of-the-mine-mind                          | inglés |
+| 37  | Temple of the Wurm                                     | aventura     | temple-of-the-wurm                                    | inglés |
+| 38  | Winnie-the-Shit                                        | aventura     | winnie-the-shit                                       | inglés |
+| 39  | The Yellow Book of Brechewold                          | ambientación | the-yellow-book-of-brechewold                         | inglés |
+| 40  | A True Relation of the Great Virginia Disastrum, 1633  | ambientación | a-true-relation-of-the-great-virginia-disastrum       | inglés |
+| 41  | Heart of the Saint                                     | aventura     | heart-of-the-saint                                    | inglés |
+| 42  | Lair of the Brain Eaters                               | aventura     | lair-of-the-brain-eaters                              | inglés |
+
+### Labyrinth Lord
+
+| #   | Título                             | Tipo       | Ficha                                     | Nota   |
+| --- | ---------------------------------- | ---------- | ----------------------------------------- | ------ |
+| 1   | Labyrinth Lord: Revised & Expanded | básico     | labyrinth-lord-revised-and-expanded       | inglés |
+| 2   | Advanced Labyrinth Lord            | básico     | advanced-labyrinth-lord                   | inglés |
+| 3   | Advanced Edition Companion         | suplemento | labyrinth-lord-advanced-edition-companion | inglés |
+| 4   | Realms of Crawling Chaos           | suplemento | realms-of-crawling-chaos                  | inglés |
+| 5   | Idol of the Orcs                   | aventura   | idol-of-the-orcs                          | inglés |
+
+### Swords & Wizardry
+
+| #   | Título                                        | Tipo       | Ficha                                   | Nota   |
+| --- | --------------------------------------------- | ---------- | --------------------------------------- | ------ |
+| 1   | Swords & Wizardry Complete Rulebook (Revised) | básico     | swords-and-wizardry-complete-revised    | inglés |
+| 2   | Swords & Wizardry Book of Options             | suplemento | swords-and-wizardry-book-of-options     | inglés |
+| 3   | Swords & Wizardry Fiends & Foes               | suplemento | swords-and-wizardry-fiends-and-foes     | inglés |
+| 4   | City Encounters for Swords & Wizardry         | suplemento | city-encounters-for-swords-and-wizardry | inglés |
+
+### OSRIC
+
+| #   | Título             | Tipo   | Ficha            | Nota   |
+| --- | ------------------ | ------ | ---------------- | ------ |
+| 1   | OSRIC 3.0 Complete | básico | osric-3-complete | inglés |
+
+### Basic Fantasy Role-Playing Game
+
+| #   | Título                                               | Tipo       | Ficha                               | Nota   |
+| --- | ---------------------------------------------------- | ---------- | ----------------------------------- | ------ |
+| 1   | Basic Fantasy RPG Core Rules (4th Edition)           | básico     | basic-fantasy-core-rules-4e         | inglés |
+| 2   | Basic Fantasy Field Guide, Volume 1                  | suplemento | basic-fantasy-field-guide-1         | inglés |
+| 3   | Basic Fantasy Field Guide, Volume 2                  | suplemento | basic-fantasy-field-guide-2         | inglés |
+| 4   | The Role-Playing Game Primer and Old School Playbook | otro       | the-role-playing-game-primer        | inglés |
+| 5   | The Basic Fantasy Equipment Emporium                 | suplemento | basic-fantasy-equipment-emporium    | inglés |
+| 6   | Morgansfort: The Western Lands Campaign              | aventura   | morgansfort                         | inglés |
+| 7   | The Chaotic Caves                                    | aventura   | the-chaotic-caves                   | inglés |
+| 8   | Tales from The Laughing Dragon                       | aventura   | tales-from-the-laughing-dragon      | inglés |
+| 9   | The Blackapple Brugh                                 | aventura   | the-blackapple-brugh                | inglés |
+| 10  | Adventure Anthology 1                                | aventura   | basic-fantasy-adventure-anthology-1 | inglés |
+| 11  | Adventure Anthology 2                                | aventura   | basic-fantasy-adventure-anthology-2 | inglés |
+| 12  | Adventure Anthology 3                                | aventura   | basic-fantasy-adventure-anthology-3 | inglés |
+| 13  | Fortress, Tomb, and Tower: The Glain Campaign        | aventura   | fortress-tomb-and-tower             | inglés |
+| 14  | Strongholds of Sorcery: The Glain Campaign           | aventura   | strongholds-of-sorcery              | inglés |
+| 15  | Raiders of Enterone: The Glain Campaign              | aventura   | raiders-of-enterone                 | inglés |
+| 16  | Monkey Isle                                          | aventura   | monkey-isle                         | inglés |
+| 17  | Endless Tunnels of Enlandin                          | aventura   | endless-tunnels-of-enlandin         | inglés |
+| 18  | Peril at the Rock                                    | aventura   | peril-at-the-rock                   | inglés |
+| 19  | Beneath the Silver Spire                             | aventura   | beneath-the-silver-spire            | inglés |
+| 20  | Saga of the Giants                                   | aventura   | saga-of-the-giants                  | inglés |
+| 21  | Estates of the Eliari                                | aventura   | estates-of-the-eliari               | inglés |
+| 22  | Barks and Blades                                     | aventura   | barks-and-blades                    | inglés |
+| 23  | Terror in Tosasth                                    | aventura   | terror-in-tosasth                   | inglés |
+
+### Hyperborea
+
+| #   | Título                                 | Tipo         | Ficha                                  | Nota   |
+| --- | -------------------------------------- | ------------ | -------------------------------------- | ------ |
+| 1   | HYPERBOREA 3E Player's Manual          | básico       | hyperborea-3e-players-manual           | inglés |
+| 2   | HYPERBOREA 3E Referee's Manual         | básico       | hyperborea-3e-referees-manual          | inglés |
+| 3   | Atlas of Hyperborea                    | ambientación | atlas-of-hyperborea                    | inglés |
+| 4   | Ghost Ship of the Desert Dunes         | aventura     | ghost-ship-of-the-desert-dunes         | inglés |
+| 5   | Forgotten Fane of the Coiled Goddess   | aventura     | forgotten-fane-of-the-coiled-goddess   | inglés |
+| 6   | Beneath the Comet                      | aventura     | beneath-the-comet                      | inglés |
+| 7   | The Mystery at Port Greely             | aventura     | the-mystery-at-port-greely             | inglés |
+| 8   | The Beasts of Kraggoth Manor           | aventura     | the-beasts-of-kraggoth-manor           | inglés |
+| 9   | The Anthropophagi of Xambaala          | aventura     | the-anthropophagi-of-xambaala          | inglés |
+| 10  | Rats in the Walls and Other Perils     | aventura     | rats-in-the-walls-and-other-perils     | inglés |
+| 11  | The Lost Treasure of Atlantis          | aventura     | the-lost-treasure-of-atlantis          | inglés |
+| 12  | The Sea-Wolf's Daughter                | aventura     | the-sea-wolfs-daughter                 | inglés |
+| 13  | The Late Trapper's Lament              | aventura     | the-late-trappers-lament               | inglés |
+| 14  | The Oblation Slab of the Hepatomancer  | aventura     | the-oblation-slab-of-the-hepatomancer  | inglés |
+| 15  | The Vanishing Isles of the Summer King | aventura     | the-vanishing-isles-of-the-summer-king | inglés |
+| 16  | The Thousand Eyes of Thaumagorga       | aventura     | the-thousand-eyes-of-thaumagorga       | inglés |
+
+### Worlds Without Number
+
+| #   | Título                        | Tipo         | Ficha                         | Nota   |
+| --- | ----------------------------- | ------------ | ----------------------------- | ------ |
+| 1   | Worlds Without Number         | básico       | worlds-without-number-core    | inglés |
+| 2   | The Atlas of the Latter Earth | ambientación | the-atlas-of-the-latter-earth | inglés |
+| 3   | The Diocesi of Montfroid      | ambientación | the-diocesi-of-montfroid      | inglés |
 
 ## Ediciones anteriores de D&D
 

@@ -1,0 +1,23 @@
+{
+  "slug": "big-puppet",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Big Puppet",
+  "kind": "adventure",
+  "description": "Una aventura que da la vuelta a la idea de los personajes que descubren que son ficticios: aquí los jugadores saben que sus personajes son personas reales.\n\nPublicado por Lamentations of the Flame Princess, escrito por Alucard Finch, con 98 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/320327/big-puppet",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2020-07",
+      "format": "paperback",
+      "cover": "/images/rol/big-puppet/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/320327/big-puppet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "the-yellow-book-of-brechewold",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "The Yellow Book of Brechewold",
+  "kind": "setting",
+  "description": "La Escuela Brechewold para Jóvenes Tramposos, una academia de magia donde los magos no son sabios y la magia es un huracán.\n\nPublicado por Lamentations of the Flame Princess, escrito por Matt Strom, con 162 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/447148/the-yellow-book-of-brechewold",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2023-08",
+      "format": "hardcover",
+      "cover": "/images/rol/the-yellow-book-of-brechewold/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/447148/the-yellow-book-of-brechewold"
+        }
+      ]
+    }
+  ]
+}

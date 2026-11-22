@@ -1,0 +1,23 @@
+{
+  "slug": "do-not-accept-this-quest",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Do Not Accept This Quest",
+  "kind": "adventure",
+  "description": "Una aventura corta de horror inspirada en los cuentos de casas de dulces y brujas que invitan a los niños a entrar.\n\nPublicado por Lamentations of the Flame Princess, escrito por J. E. Evans II, con 14 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/447125/do-not-accept-this-quest",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2023-08",
+      "format": "paperback",
+      "cover": "/images/rol/do-not-accept-this-quest/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/447125/do-not-accept-this-quest"
+        }
+      ]
+    }
+  ]
+}

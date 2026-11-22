@@ -1,0 +1,23 @@
+{
+  "slug": "qelong",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Qelong",
+  "kind": "adventure",
+  "description": "Dos seres apenas concebibles llevan una generación en guerra por Sajavedra, una tierra legendaria del sureste, y la magia de su conflicto ha envenenado el país.\n\nPublicado por Lamentations of the Flame Princess, escrito por Kenneth Hite, con 53 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/117257/qelong",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2013-07",
+      "format": "paperback",
+      "cover": "/images/rol/qelong/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/117257/qelong"
+        }
+      ]
+    }
+  ]
+}

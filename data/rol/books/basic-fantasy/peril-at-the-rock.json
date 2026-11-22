@@ -1,0 +1,23 @@
+{
+  "slug": "peril-at-the-rock",
+  "system": "basic-fantasy",
+  "title": "Peril at the Rock",
+  "kind": "adventure",
+  "description": "Humanoides con cara de rana asaltan el Dardenway, la gran ruta comercial, cerca de la aldea de Wolvenmere.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, con 69 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/514750/peril-at-the-rock",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-04",
+      "format": "paperback",
+      "cover": "/images/rol/peril-at-the-rock/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/514750/peril-at-the-rock"
+        }
+      ]
+    }
+  ]
+}

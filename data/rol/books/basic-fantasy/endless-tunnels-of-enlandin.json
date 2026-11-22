@@ -1,0 +1,23 @@
+{
+  "slug": "endless-tunnels-of-enlandin",
+  "system": "basic-fantasy",
+  "title": "Endless Tunnels of Enlandin",
+  "kind": "adventure",
+  "description": "Un módulo clásico que un joven director escribió en los ochenta, revisado para Basic Fantasy cuatro décadas después.\n\nPublicado por Basic Fantasy Project, escrito por Stefan Poag.",
+  "source": "https://www.drivethrurpg.com/en/product/501349/endless-tunnels-of-enlandin",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-11",
+      "format": "paperback",
+      "cover": "/images/rol/endless-tunnels-of-enlandin/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/501349/endless-tunnels-of-enlandin"
+        }
+      ]
+    }
+  ]
+}

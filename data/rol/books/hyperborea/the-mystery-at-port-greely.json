@@ -1,0 +1,23 @@
+{
+  "slug": "the-mystery-at-port-greely",
+  "system": "hyperborea",
+  "title": "The Mystery at Port Greely",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 4 a 6 en Port Greely, antes famoso por sus langostas, donde algo cambió hace tres años.\n\nPublicado por North Wind Adventures, escrito por Jeffrey Talanian (author), David Prata (editor), con 40 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/187120/the-mystery-at-port-greely",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2016-07",
+      "format": "paperback",
+      "cover": "/images/rol/the-mystery-at-port-greely/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/187120/the-mystery-at-port-greely"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "basic-fantasy-equipment-emporium",
+  "system": "basic-fantasy",
+  "title": "The Basic Fantasy Equipment Emporium",
+  "kind": "supplement",
+  "description": "Listas ampliadas de armas, armaduras y equipo para Basic Fantasy, más allá de las del reglamento básico.\n\nPublicado por Basic Fantasy Project, escrito por Joe Ludlum, James Lemon, and Alan Vetter, con 51 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/557900/the-basic-fantasy-equipment-emporium",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2026-03",
+      "format": "paperback",
+      "cover": "/images/rol/basic-fantasy-equipment-emporium/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/557900/the-basic-fantasy-equipment-emporium"
+        }
+      ]
+    }
+  ]
+}

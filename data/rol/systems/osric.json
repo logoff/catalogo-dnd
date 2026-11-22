@@ -2,10 +2,10 @@
   "slug": "osric",
   "name": "OSRIC",
   "family": "osric",
-  "publisher": "Black Blade Publishing",
+  "publisher": "Mythmere Games",
   "date": "2006",
   "movement": "osr",
-  "description": "Old School Reference and Index Compilation: el retroclón de la primera edición de AD&D, de Stuart Marshall y Matt Finch, pensado al principio para que se pudieran publicar aventuras compatibles con aquel juego. Reúne las clases, razas, conjuros, monstruos y tablas de AD&D 1.ª reorganizados con la OGL.\n\nFue el primer retroclón y abrió el camino al resto del OSR. No consta una edición en castellano.",
+  "description": "Old School Reference and Index Compilation: el retroclón de la primera edición de AD&D, de Stuart Marshall y Matt Finch, pensado al principio para que se pudieran publicar aventuras compatibles con aquel juego. Reúne las clases, razas, conjuros, monstruos y tablas de AD&D 1.ª reorganizados con la OGL.\n\nFue el primer retroclón y abrió el camino al resto del OSR. Black Blade Publishing editó la versión 2.2 en papel y Mythmere Games publica desde 2025 la tercera edición, OSRIC 3.0. No consta una edición en castellano.",
   "features": [
     "Reglas de AD&D 1.ª edición",
     "Pensado para publicar aventuras compatibles",
@@ -28,8 +28,9 @@
   ],
   "links": [
     {
-      "label": "Black Blade Publishing",
-      "url": "https://www.black-blade-publishing.com/"
+      "label": "Mythmere Games",
+      "url": "https://www.drivethrurpg.com/en/publisher/2725/mythmere-games"
     }
-  ]
+  ],
+  "line_publishers": ["Mythmere Games", "Black Blade Publishing"]
 }

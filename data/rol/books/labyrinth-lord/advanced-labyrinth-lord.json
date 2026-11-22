@@ -1,0 +1,24 @@
+{
+  "slug": "advanced-labyrinth-lord",
+  "system": "labyrinth-lord",
+  "title": "Advanced Labyrinth Lord",
+  "kind": "core",
+  "core": true,
+  "description": "Labyrinth Lord con las reglas avanzadas del Advanced Edition Companion integradas en un solo libro, para jugar a lo AD&D 1.ª con combates rápidos.\n\nPublicado por Goblinoid Games, escrito por Daniel Proctor, con 270 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/259983/advanced-labyrinth-lord-dragon-cover",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goblinoid Games",
+      "date": "2018-12",
+      "format": "hardcover",
+      "cover": "/images/rol/advanced-labyrinth-lord/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/259983/advanced-labyrinth-lord-dragon-cover"
+        }
+      ]
+    }
+  ]
+}

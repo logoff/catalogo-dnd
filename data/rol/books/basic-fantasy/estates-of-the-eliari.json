@@ -1,0 +1,23 @@
+{
+  "slug": "estates-of-the-eliari",
+  "system": "basic-fantasy",
+  "title": "Estates of the Eliari",
+  "kind": "adventure",
+  "description": "Las mansiones de los enigmáticos mercaderes eliari, abandonadas tras una catástrofe que los hizo volver a su tierra.\n\nPublicado por Basic Fantasy Project, escrito por Leon Atkinson, con 46 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/540387/estates-of-the-eliari",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-10",
+      "format": "paperback",
+      "cover": "/images/rol/estates-of-the-eliari/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/540387/estates-of-the-eliari"
+        }
+      ]
+    }
+  ]
+}

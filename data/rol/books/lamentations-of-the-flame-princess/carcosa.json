@@ -1,0 +1,23 @@
+{
+  "slug": "carcosa",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Carcosa",
+  "kind": "setting",
+  "description": "Una ambientación de ciencia fantasía y horror para adultos, con un enfoque de caja de arena: un planeta de razas de colores, hechiceros que invocan a los primigenios con rituales atroces y tecnología alienígena, descrito casilla a casilla.\n\nPublicado por Lamentations of the Flame Princess, escrito por Geoffrey McKinney, con 283 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/97686/carcosa",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2011-12",
+      "format": "hardcover",
+      "cover": "/images/rol/carcosa/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/97686/carcosa"
+        }
+      ]
+    }
+  ]
+}
