@@ -1,0 +1,39 @@
+{
+  "slug": "cairn",
+  "name": "Cairn",
+  "family": "cairn",
+  "publisher": "Yochai Gal",
+  "date": "2020",
+  "movement": "nsr",
+  "description": "Un juego de Yochai Gal que une las reglas de Into the Odd con el inventario por casillas de Knave para jugar a la fantasía de exploración en bosques y ruinas: sin clases, sin niveles en el sentido clásico y con reglas en pocas páginas.\n\nSe publica bajo CC BY-SA 4.0, así que cualquiera puede adaptarlo, y tiene una segunda edición. No consta una edición en castellano.",
+  "features": [
+    "Sin clases ni niveles clásicos",
+    "Inventario por casillas",
+    "Exploración de bosques y ruinas",
+    "Licencia abierta CC BY-SA"
+  ],
+  "licenses": [
+    {
+      "license": "cc-by-sa-4-0",
+      "since": "2020"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "into-the-odd",
+      "kind": "compatible",
+      "note": "Usa el sistema de Into the Odd con el inventario de Knave."
+    },
+    {
+      "system": "knave",
+      "kind": "inspiration",
+      "note": "Toma de Knave el inventario por casillas."
+    }
+  ],
+  "links": [
+    {
+      "label": "Cairn",
+      "url": "https://cairnrpg.com/"
+    }
+  ]
+}

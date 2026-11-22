@@ -1,0 +1,15 @@
+{
+  "slug": "mork-borg-third-party-license",
+  "name": "MÖRK BORG Third Party License",
+  "short_name": "Licencia de terceros de Mörk Borg",
+  "kind": "community_license",
+  "holder": "Ockult Örtmästare Games y Stockholm Kartell",
+  "date": "2020",
+  "description": "La licencia con la que los autores de Mörk Borg permiten publicar, gratis o a la venta y sin pagarles nada, aventuras, módulos y variantes del juego, y reutilizar libremente sus reglas y los nombres de su mundo. Anima a usar el logotipo de compatibilidad y pide un texto de atribución en el producto y en la tienda.\n\nNo permite reutilizar ni traducir el texto ni el arte de los libros, salvo la profecía, ni usar los logotipos oficiales o el nombre de las editoriales, ni dar a entender que el producto es oficial. Cy_Borg, el juego hermano, tiene una licencia propia.",
+  "links": [
+    {
+      "label": "Licencia",
+      "url": "https://morkborg.com/license/"
+    }
+  ]
+}

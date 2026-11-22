@@ -1,0 +1,35 @@
+{
+  "slug": "basic-fantasy",
+  "name": "Basic Fantasy Role-Playing Game",
+  "family": "basic-fantasy",
+  "publisher": "Basic Fantasy Project",
+  "date": "2006",
+  "movement": "osr",
+  "description": "Un juego gratuito en PDF y barato en papel, creado por Chris Gonnerman y mantenido por una comunidad de voluntarios, que recupera el estilo de las cajas básica y experta de D&D con algunas ideas posteriores, como separar raza y clase o usar la clase de armadura ascendente.\n\nSu proyecto publica también, con la misma filosofía, decenas de aventuras y suplementos escritos por la comunidad. No consta una edición en castellano.",
+  "features": [
+    "Gratuito en PDF y a precio de coste en papel",
+    "Raza y clase separadas",
+    "Clase de armadura ascendente",
+    "Aventuras y suplementos de la comunidad"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2006"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Recupera las reglas B/X con cambios menores, como la clase de armadura ascendente."
+    }
+  ],
+  "links": [
+    {
+      "label": "Basic Fantasy Project",
+      "url": "https://www.basicfantasy.org/"
+    }
+  ]
+}

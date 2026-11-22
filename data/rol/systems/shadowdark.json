@@ -1,0 +1,34 @@
+{
+  "slug": "shadowdark",
+  "name": "Shadowdark",
+  "family": "shadowdark",
+  "publisher": "The Arcane Library",
+  "date": "2023",
+  "movement": "osr",
+  "description": "El juego de Kelsey Dionne y The Arcane Library que lleva la exploración tensa de la vieja escuela a unas reglas que cualquiera que conozca la quinta edición entiende enseguida. La luz es un recurso que se acaba en tiempo real, los personajes son frágiles y el botín da experiencia.\n\nSe escribió desde cero, sin la OGL, y su licencia de terceros ha dado lugar a mucho material compatible. No consta una edición en castellano.",
+  "features": [
+    "Luz que se agota en tiempo real",
+    "Reglas cercanas a la quinta edición",
+    "Personajes frágiles y botín como experiencia",
+    "Fanzine Cursed Scroll"
+  ],
+  "licenses": [
+    {
+      "license": "shadowdark-third-party-license",
+      "since": "2023"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-5e-2014",
+      "kind": "major_rewrite",
+      "note": "Usa una base cercana a la quinta edición, escrita desde cero, con reglas y estilo de la vieja escuela."
+    }
+  ],
+  "links": [
+    {
+      "label": "The Arcane Library",
+      "url": "https://www.thearcanelibrary.com/pages/shadowdark"
+    }
+  ]
+}

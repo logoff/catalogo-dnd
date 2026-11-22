@@ -1,0 +1,29 @@
+{
+  "slug": "mausritter",
+  "name": "Mausritter",
+  "family": "mausritter",
+  "publisher": "Losing Games",
+  "date": "2020",
+  "movement": "nsr",
+  "description": "Un juego de Isaac Williams en el que los personajes son ratones aventureros en un mundo enorme para ellos: espadas de aguja, gatos como monstruos legendarios y un inventario de cartas que se llena de objetos y de heridas.\n\nParte del sistema de Into the Odd y es de los juegos NSR más conocidos fuera de esa escena. En castellano lo publica El Refugio de Ryhope desde 2020.",
+  "features": [
+    "Ratones aventureros",
+    "Inventario de cartas para objetos y heridas",
+    "Sistema de Into the Odd",
+    "Exploración por casillas hexagonales"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "into-the-odd",
+      "kind": "compatible",
+      "note": "Parte del sistema de Into the Odd con reglas propias de inventario y exploración."
+    }
+  ],
+  "links": [
+    {
+      "label": "Mausritter",
+      "url": "https://mausritter.com/"
+    }
+  ]
+}

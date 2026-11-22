@@ -1,0 +1,35 @@
+{
+  "slug": "hyperborea",
+  "name": "Hyperborea",
+  "family": "hyperborea",
+  "publisher": "North Wind Adventures",
+  "date": "2012",
+  "movement": "osr",
+  "description": "Astonishing Swordsmen & Sorcerers of Hyperborea: un juego de espada y brujería inspirado en Robert E. Howard, Clark Ashton Smith y H. P. Lovecraft, con reglas que parten de AD&D 1.ª edición y del D&D original y un mundo propio, la Hiperbórea de un planeta helado bajo un sol moribundo.\n\nSu tercera edición se titula solo Hyperborea. No consta una edición en castellano.",
+  "features": [
+    "Espada y brujería a lo Howard y Clark Ashton Smith",
+    "Base de AD&D 1.ª edición",
+    "Mundo propio de Hiperbórea",
+    "Muchas clases y subclases"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2012"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-add1",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Parte de AD&D 1.ª edición y del D&D original, con muchas clases y reglas propias."
+    }
+  ],
+  "links": [
+    {
+      "label": "North Wind Adventures",
+      "url": "https://www.hyperborea.tv/"
+    }
+  ]
+}

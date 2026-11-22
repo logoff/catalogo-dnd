@@ -18,12 +18,12 @@
 
 ## 3. Licencias
 
-- [ ] 3.1 Dar de alta la CC BY-SA 4.0 y cada licencia de compatibilidad que publique una editorial (Old-School Essentials, Mörk Borg, Shadowdark, Dungeon Crawl Classics, Labyrinth Lord, Swords & Wizardry y las que aparezcan), de tipo licencia comunitaria, con explicación propia y enlace oficial; verificar con `just test` (esquema e inventario) y en `/licencias`
+- [x] 3.1 Dar de alta la CC BY-SA 4.0 y cada licencia de compatibilidad que publique una editorial (Old-School Essentials, Mörk Borg, Shadowdark, Dungeon Crawl Classics, Labyrinth Lord, Swords & Wizardry y las que aparezcan), de tipo licencia comunitaria, con explicación propia y enlace oficial; verificar con `just test` (esquema e inventario) y en `/licencias`
 
 ## 4. Sistemas
 
-- [ ] 4.1 Dar de alta los sistemas OSR del inventario de partida que tengan libro impreso, cada uno con descripción, características, licencias, derivaciones con nota y fuente, `movement: "osr"` y `line_publishers` si hace falta; verificar con `just test` (reglas de derivación e inventario)
-- [ ] 4.2 Dar de alta los sistemas NSR del inventario de partida con `movement: "nsr"` y sus derivaciones de inspiración con nota; verificar con `just test`
+- [x] 4.1 Dar de alta los sistemas OSR del inventario de partida que tengan libro impreso, cada uno con descripción, características, licencias, derivaciones con nota y fuente, `movement: "osr"` y `line_publishers` si hace falta; verificar con `just test` (reglas de derivación e inventario)
+- [x] 4.2 Dar de alta los sistemas NSR del inventario de partida con `movement: "nsr"` y sus derivaciones de inspiración con nota; verificar con `just test`
 - [ ] 4.3 Añadir los sistemas a `data/rol/inventory.md` con su fuente y comprobar en `/rol/arbol` que cada uno cuelga de donde debe
 
 ## 5. Libros en castellano

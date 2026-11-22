@@ -1,0 +1,35 @@
+{
+  "slug": "lamentations-of-the-flame-princess",
+  "name": "Lamentations of the Flame Princess",
+  "family": "lamentations-of-the-flame-princess",
+  "publisher": "Lamentations of the Flame Princess",
+  "date": "2010",
+  "movement": "osr",
+  "description": "Weird Fantasy Role-Playing, el juego de James Edward Raggi IV: las reglas de las cajas básica y experta de D&D con retoques (el especialista en lugar del ladrón, los clérigos y magos más débiles) al servicio de una fantasía oscura, de horror y ambientada en una Europa del siglo XVII.\n\nEs conocido sobre todo por sus aventuras, muy influyentes en el OSR y a menudo polémicas por su contenido para adultos. No consta una edición en castellano.",
+  "features": [
+    "Base B/X con retoques",
+    "Especialista en lugar de ladrón",
+    "Fantasía oscura y de horror",
+    "Aventuras muy influyentes y para adultos"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2010"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Mantiene la base B/X con cambios en las clases y la magia."
+    }
+  ],
+  "links": [
+    {
+      "label": "Lamentations of the Flame Princess",
+      "url": "https://www.lotfp.com/"
+    }
+  ]
+}

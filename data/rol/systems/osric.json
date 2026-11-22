@@ -1,0 +1,35 @@
+{
+  "slug": "osric",
+  "name": "OSRIC",
+  "family": "osric",
+  "publisher": "Black Blade Publishing",
+  "date": "2006",
+  "movement": "osr",
+  "description": "Old School Reference and Index Compilation: el retroclón de la primera edición de AD&D, de Stuart Marshall y Matt Finch, pensado al principio para que se pudieran publicar aventuras compatibles con aquel juego. Reúne las clases, razas, conjuros, monstruos y tablas de AD&D 1.ª reorganizados con la OGL.\n\nFue el primer retroclón y abrió el camino al resto del OSR. No consta una edición en castellano.",
+  "features": [
+    "Reglas de AD&D 1.ª edición",
+    "Pensado para publicar aventuras compatibles",
+    "Clases, razas y tablas de AD&D",
+    "El primer retroclón"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2006"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-add1",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Reorganiza las reglas de AD&D 1.ª edición a partir del SRD 3.0."
+    }
+  ],
+  "links": [
+    {
+      "label": "Black Blade Publishing",
+      "url": "https://www.black-blade-publishing.com/"
+    }
+  ]
+}

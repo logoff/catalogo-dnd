@@ -1,0 +1,36 @@
+{
+  "slug": "swords-and-wizardry",
+  "name": "Swords & Wizardry",
+  "family": "swords-and-wizardry",
+  "publisher": "Mythmere Games",
+  "date": "2008",
+  "movement": "osr",
+  "description": "El retroclón del primer Dungeons & Dragons, el de los tres cuadernillos de 1974, escrito por Matt Finch: reconstruye aquellas reglas y sus suplementos con la OGL, con una sola tirada de salvación y la opción de usar clase de armadura ascendente o descendente.\n\nHa tenido varias versiones, de la mínima WhiteBox a la Complete, y Frog God Games ha publicado la mayor parte de su línea. No consta una edición en castellano.",
+  "features": [
+    "Reglas del D&D original de 1974",
+    "Una sola tirada de salvación",
+    "Clase de armadura ascendente o descendente",
+    "Versiones WhiteBox, Core y Complete"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2008"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-original",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Reconstruye las reglas de 1974 y de sus suplementos a partir del SRD."
+    }
+  ],
+  "links": [
+    {
+      "label": "Frog God Games",
+      "url": "https://www.froggodgames.com/"
+    }
+  ],
+  "line_publishers": ["Mythmere Games", "Frog God Games"]
+}

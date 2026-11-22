@@ -1,0 +1,29 @@
+{
+  "slug": "worlds-without-number",
+  "name": "Worlds Without Number",
+  "family": "worlds-without-number",
+  "publisher": "Sine Nomine Publishing",
+  "date": "2020",
+  "movement": "osr",
+  "description": "El juego de fantasía de Kevin Crawford: una base de la vieja escuela con habilidades, tiradas de 2d6 y movimientos de combate más modernos, y sobre todo muchas herramientas para que el director cree su mundo, sus facciones y sus ruinas sin preparar de más.\n\nComo Stars Without Number, su hermano de ciencia ficción, se publica gratis en una versión básica y completo a la venta. No consta una edición en castellano.",
+  "features": [
+    "Base de la vieja escuela con habilidades",
+    "Herramientas para crear mundos y facciones",
+    "Versión gratuita y versión completa",
+    "Del autor de Stars Without Number"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "major_rewrite",
+      "note": "Mantiene la estructura de la vieja escuela con habilidades y reglas de combate propias."
+    }
+  ],
+  "links": [
+    {
+      "label": "Sine Nomine Publishing",
+      "url": "https://www.drivethrurpg.com/en/publisher/2779/sine-nomine-publishing"
+    }
+  ]
+}
