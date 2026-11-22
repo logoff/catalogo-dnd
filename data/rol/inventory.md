@@ -21,7 +21,9 @@ solo se inspira en ellas. La frontera es difusa y la etiqueta es una
 orientación del catálogo. De ellos entra todo lo publicado en castellano y la
 línea impresa propia de cada juego en inglés (la de su editorial o las de
 `line_publishers`), con su formato y al menos una edición impresa; fuera el
-material de terceros solo en inglés y lo que solo existe en PDF.
+material de terceros solo en inglés y lo que solo existe en PDF. Cuando la
+editorial libera un libro gratis en Codex de la Marca, la edición lo enlaza
+con `free_download`, aparte de las tiendas.
 
 Libros: todo lo publicado o anunciado en castellano de esos sistemas, y de lo
 que solo está en inglés, los principales (básicos y caja de inicio) de los
@@ -96,6 +98,8 @@ digital de plataformas comunitarias.
 | 35  | Cairn 2E                           | cairn                              | Cairn Press                        | 2024 | cc-by-sa-4-0                                             | Cairn: revisión                                             | no consta                        | [Cairn](https://cairnrpg.com/)                                                                  | cairn-2e                           | NSR                                                                                      |
 | 36  | Knave 2E                           | Knave                              | Questing Beast Games               | 2024 | —                                                        | Knave: revisión                                             | no consta                        | [DriveThruRPG](https://www.drivethrurpg.com/en/product/484910/knave-second-edition-2e)          | knave-2e                           | OSR                                                                                      |
 | 37  | The Black Hack                     | The Black Hack                     | Gold Piece Publications            | 2016 | ogl-1-0a                                                 | D&D original: cambio mayor de reglas                        | no consta                        | [DriveThruRPG](https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition)    | the-black-hack                     | OSR                                                                                      |
+| 38  | Leyendas de la Marca del Este      | Crónicas de la Marca del Este      | Holocubierta Ediciones             | 2017 | ogl-1-0a                                                 | Castles & Crusades: reescrito pero compatible               | sí                               | [La Marca del Este](https://lamarcadeleste.com/2017/12/leyendas-de-la-marca.html)               | leyendas-de-la-marca-del-este      | OSR                                                                                      |
+| 39  | Crónicas de la Marca del Este      | Crónicas de la Marca del Este      | La Marca del Este                  | 2022 | ogl-1-0a                                                 | Leyendas de la Marca del Este: revisión                     | sí                               | [Codex de la Marca](https://codexdelamarca.com/posts/cronicas-marca/)                           | cronicas-de-la-marca-del-este      | OSR                                                                                      |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -959,6 +963,18 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | 2   | The Black Hack: Classic Monsters        | suplemento     | the-black-hack-classic-monsters | inglés |
 | 3   | The Black Hack Black Box                | caja de inicio | the-black-hack-black-box        | inglés |
 | 4   | The Black Hack 2nd Edition Rule Booklet | suplemento     | the-black-hack-rule-booklet     | inglés |
+
+### Leyendas de la Marca del Este
+
+| #   | Título                        | Tipo   | Ficha                         | Nota       |
+| --- | ----------------------------- | ------ | ----------------------------- | ---------- |
+| 1   | Leyendas de la Marca del Este | básico | leyendas-de-la-marca-del-este | castellano |
+
+### Crónicas de la Marca del Este
+
+| #   | Título                        | Tipo   | Ficha                         | Nota                                               |
+| --- | ----------------------------- | ------ | ----------------------------- | -------------------------------------------------- |
+| 1   | Crónicas de la Marca del Este | básico | cronicas-de-la-marca-del-este | castellano; descarga gratuita en Codex de la Marca |
 
 ## Ediciones anteriores de D&D
 

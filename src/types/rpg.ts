@@ -90,6 +90,8 @@ export interface RpgEdition {
   // Fuente de la edición, cuando no es la misma que la del libro
   source?: string
   purchase_links?: PurchaseLink[]
+  // Copia gratuita liberada por la editorial (Codex de la Marca); no es una tienda
+  free_download?: string
 }
 
 export interface RpgBook {

@@ -150,6 +150,12 @@
                     "type": "string",
                     "format": "uri"
                 },
+                "free_download": {
+                    "description": "Copia gratuita liberada por la propia editorial (por ahora, solo Codex de la Marca); no es una tienda",
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https://codexdelamarca\\.com/posts/[^/]+/$"
+                },
                 "purchase_links": {
                     "type": "array",
                     "items": {

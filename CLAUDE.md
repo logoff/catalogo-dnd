@@ -176,7 +176,9 @@ Los juegos OSR y NSR llevan `movement` en su sistema (con texto propio
 en `/rol#osr-y-nsr` que avisa de que la definición no es precisa) y de
 ellos entra, además, la línea impresa propia en inglés (editorial del
 sistema o `line_publishers`), con `format` en cada edición y al menos una
-impresa (`movementBookProblem` en `src/utils/rpg.ts`).
+impresa (`movementBookProblem` en `src/utils/rpg.ts`). Si la editorial ha
+liberado un libro en Codex de la Marca, la edición lo enlaza con
+`free_download`, un botón aparte que no es de compra.
 Los sistemas de D&D tienen ficha mínima que enlaza al catálogo oficial
 (`official_catalog`). Como en novelas, un plugin de `vite.config.ts`
 genera `virtual:rpg-index` (licencias, sistemas y resumen de los libros)

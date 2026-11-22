@@ -108,6 +108,11 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
     castellano. `just affiliate-coverage` lista las que faltan; lo
     que se revisa y no está a la venta va con su motivo en
     `data/affiliate-exceptions.json`.
+  - **Descarga gratuita:** si La Marca del Este ha liberado el libro en
+    Codex de la Marca, la edición en castellano lleva `free_download` con
+    la URL de su entrada (`https://codexdelamarca.com/posts/<entrada>/`).
+    No es una tienda ni cuenta como enlace de compra; solo si la entrada
+    tiene descarga.
 
 ## Fuentes recomendadas
 
@@ -126,7 +131,9 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
 - **OSR y NSR:** la tienda de cada editorial (muchas son Shopify:
   `/products.json` da títulos, formatos y portadas), las páginas de
   editorial de DriveThruRPG (fecha, páginas, autores, formatos e ISBN) y,
-  para La Marca del Este, su web y las tiendas españolas.
+  para La Marca del Este, su web y su blog (`/wp-json/wp/v2/posts?search=`),
+  Tesoros de la Marca, las tiendas españolas y Codex de la Marca
+  (`codexdelamarca.com/index.xml` lista todas las entradas).
 - **Licencias:** páginas de Wizards y D&D Beyond (OGL, SRD), Paizo
   (ORC), Creative Commons, Kobold Press (Black Flag), Darrington Press
   (DPCGL) y EN Publishing (A5E SRD).
