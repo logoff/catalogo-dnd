@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1986",
       "format": "paperback",
-      "cover": "/images/rol/h2-the-mines-of-bloodstone/english.webp"
+      "cover": "/images/rol/h2-the-mines-of-bloodstone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17044/h2-the-mines-of-bloodstone-1e"
+        }
+      ]
     }
   ]
 }

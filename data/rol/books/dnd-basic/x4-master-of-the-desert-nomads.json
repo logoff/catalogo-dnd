@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/x4-master-of-the-desert-nomads/english.webp"
+      "cover": "/images/rol/x4-master-of-the-desert-nomads/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17094/x4-master-of-the-desert-nomads-basic"
+        }
+      ]
     }
   ]
 }

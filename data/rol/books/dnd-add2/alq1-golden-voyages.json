@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "boxed_set",
-      "cover": "/images/rol/alq1-golden-voyages/english.webp"
+      "cover": "/images/rol/alq1-golden-voyages/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16874/alq1-golden-voyages-2e"
+        }
+      ]
     }
   ]
 }

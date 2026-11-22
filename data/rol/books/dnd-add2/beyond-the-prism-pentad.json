@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/beyond-the-prism-pentad/english.webp"
+      "cover": "/images/rol/beyond-the-prism-pentad/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17205/beyond-the-prism-pentad-2e"
+        }
+      ]
     }
   ]
 }

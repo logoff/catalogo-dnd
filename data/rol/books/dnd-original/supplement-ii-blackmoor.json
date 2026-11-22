@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1975",
       "format": "paperback",
-      "cover": "/images/rol/supplement-ii-blackmoor/english.webp"
+      "cover": "/images/rol/supplement-ii-blackmoor/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17172/od-d-supplement-ii-blackmoor-0e"
+        }
+      ]
     }
   ]
 }

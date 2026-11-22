@@ -13,7 +13,13 @@
       "date": "2003-07",
       "format": "hardcover",
       "isbn13": 9780786928897,
-      "cover": "/images/rol/dungeon-masters-guide-3-5/english.webp"
+      "cover": "/images/rol/dungeon-masters-guide-3-5/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/149132/dungeon-master-s-guide-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/i3-5-desert-of-desolation/english.webp"
+      "cover": "/images/rol/i3-5-desert-of-desolation/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/196428/i3-5-desert-of-desolation-1e"
+        }
+      ]
     }
   ]
 }

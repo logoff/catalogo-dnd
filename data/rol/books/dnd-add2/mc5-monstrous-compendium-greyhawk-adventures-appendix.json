@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1990",
-      "cover": "/images/rol/mc5-monstrous-compendium-greyhawk-adventures-appendix/english.webp"
+      "cover": "/images/rol/mc5-monstrous-compendium-greyhawk-adventures-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17409/mc5-monstrous-compendium-greyhawk-adventures-appendix-2e"
+        }
+      ]
     }
   ]
 }

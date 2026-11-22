@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "boxed_set",
-      "cover": "/images/rol/set-2-expert-rules/english.webp"
+      "cover": "/images/rol/set-2-expert-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/116581/dungeons-dragons-expert-set-rulebook-becmi-ed-basic"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/dlq2-flints-axe/english.webp"
+      "cover": "/images/rol/dlq2-flints-axe/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17379/dlq2-flint-s-axe-2e"
+        }
+      ]
     }
   ]
 }

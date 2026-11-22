@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/legends-of-the-hero-kings/english.webp"
+      "cover": "/images/rol/legends-of-the-hero-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16926/legends-of-the-hero-kings-2e"
+        }
+      ]
     }
   ]
 }

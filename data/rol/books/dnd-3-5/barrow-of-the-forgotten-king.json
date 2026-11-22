@@ -12,7 +12,13 @@
       "date": "2007-02",
       "format": "paperback",
       "isbn13": 9780786943180,
-      "cover": "/images/rol/barrow-of-the-forgotten-king/english.webp"
+      "cover": "/images/rol/barrow-of-the-forgotten-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54287/dd1-barrow-of-the-forgotten-king-3-5"
+        }
+      ]
     }
   ]
 }

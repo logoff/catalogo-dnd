@@ -12,7 +12,13 @@
       "date": "2004-02",
       "format": "hardcover",
       "isbn13": 9780786931316,
-      "cover": "/images/rol/unearthed-arcana/english.webp"
+      "cover": "/images/rol/unearthed-arcana/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3734/unearthed-arcana-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

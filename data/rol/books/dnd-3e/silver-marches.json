@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2002",
       "isbn13": 9780786928354,
-      "cover": "/images/rol/silver-marches/english.webp"
+      "cover": "/images/rol/silver-marches/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28616/silver-marches-3e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1995",
-      "cover": "/images/rol/players-survival-kit/english.webp"
+      "cover": "/images/rol/players-survival-kit/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17341/mystara-player-s-survival-kit-2e"
+        }
+      ]
     }
   ]
 }

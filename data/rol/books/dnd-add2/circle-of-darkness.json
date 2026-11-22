@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/circle-of-darkness/english.webp"
+      "cover": "/images/rol/circle-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17509/circle-of-darkness-2e"
+        }
+      ]
     }
   ]
 }

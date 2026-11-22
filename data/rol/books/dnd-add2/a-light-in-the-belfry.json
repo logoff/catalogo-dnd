@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/a-light-in-the-belfry/english.webp"
+      "cover": "/images/rol/a-light-in-the-belfry/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/215464/a-light-in-the-belfry-2e"
+        }
+      ]
     }
   ]
 }

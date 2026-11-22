@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2007",
       "isbn13": 9780786941193,
-      "cover": "/images/rol/cormyr-the-tearing-of-the-weave/english.webp"
+      "cover": "/images/rol/cormyr-the-tearing-of-the-weave/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57149/cormyr-the-tearing-of-the-weave-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/s1-4-realms-of-horror/english.webp"
+      "cover": "/images/rol/s1-4-realms-of-horror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/273341/s1-4-realms-of-horror-1e"
+        }
+      ]
     }
   ]
 }

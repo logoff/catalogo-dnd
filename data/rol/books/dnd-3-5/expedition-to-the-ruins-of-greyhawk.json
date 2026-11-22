@@ -13,7 +13,13 @@
       "date": "2007-08",
       "format": "hardcover",
       "isbn13": 9780786943586,
-      "cover": "/images/rol/expedition-to-the-ruins-of-greyhawk/english.webp"
+      "cover": "/images/rol/expedition-to-the-ruins-of-greyhawk/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54342/expedition-to-the-ruins-of-castle-greyhawk-3-5"
+        }
+      ]
     }
   ]
 }

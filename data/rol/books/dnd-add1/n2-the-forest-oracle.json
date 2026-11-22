@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/n2-the-forest-oracle/english.webp"
+      "cover": "/images/rol/n2-the-forest-oracle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17057/n2-the-forest-oracle-1e"
+        }
+      ]
     }
   ]
 }

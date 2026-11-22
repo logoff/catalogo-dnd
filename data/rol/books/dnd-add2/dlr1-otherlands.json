@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/dlr1-otherlands/english.webp"
+      "cover": "/images/rol/dlr1-otherlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/188636/dlr1-otherlands-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

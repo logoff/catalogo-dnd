@@ -12,7 +12,13 @@
       "date": "2009-04",
       "format": "hardcover",
       "isbn13": 9780786949571,
-      "cover": "/images/rol/arcane-power/english.webp"
+      "cover": "/images/rol/arcane-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/143697/arcane-power-4e"
+        }
+      ]
     }
   ]
 }

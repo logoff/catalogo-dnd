@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/sjr4-practical-planetology/english.webp"
+      "cover": "/images/rol/sjr4-practical-planetology/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17240/sjr4-practical-planetology-2e"
+        }
+      ]
     }
   ]
 }

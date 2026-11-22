@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1988",
       "format": "paperback",
-      "cover": "/images/rol/gaz10-the-orcs-of-thar/english.webp"
+      "cover": "/images/rol/gaz10-the-orcs-of-thar/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/132809/gaz10-the-orcs-of-thar-basic"
+        }
+      ]
     }
   ]
 }

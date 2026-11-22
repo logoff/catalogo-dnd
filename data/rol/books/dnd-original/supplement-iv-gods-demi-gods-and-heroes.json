@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1976",
       "format": "paperback",
-      "cover": "/images/rol/supplement-iv-gods-demi-gods-and-heroes/english.webp"
+      "cover": "/images/rol/supplement-iv-gods-demi-gods-and-heroes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17177/od-d-supplement-iv-gods-demi-gods-heroes-0e"
+        }
+      ]
     }
   ]
 }

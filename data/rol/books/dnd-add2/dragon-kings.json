@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "hardcover",
-      "cover": "/images/rol/dragon-kings/english.webp"
+      "cover": "/images/rol/dragon-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17183/dragon-kings-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

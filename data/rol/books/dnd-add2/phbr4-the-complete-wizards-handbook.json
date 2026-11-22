@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/phbr4-the-complete-wizards-handbook/english.webp"
+      "cover": "/images/rol/phbr4-the-complete-wizards-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16889/phbr4-the-complete-wizard-s-handbook-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

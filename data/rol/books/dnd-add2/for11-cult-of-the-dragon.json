@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/for11-cult-of-the-dragon/english.webp"
+      "cover": "/images/rol/for11-cult-of-the-dragon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17565/cult-of-the-dragon-2e"
+        }
+      ]
     }
   ]
 }

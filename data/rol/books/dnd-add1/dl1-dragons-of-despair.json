@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/dl1-dragons-of-despair/english.webp"
+      "cover": "/images/rol/dl1-dragons-of-despair/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16880/dl1-dragons-of-despair-1e"
+        }
+      ]
     }
   ]
 }

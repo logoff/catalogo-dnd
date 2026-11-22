@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/dda1-arena-of-thyatis/english.webp"
+      "cover": "/images/rol/dda1-arena-of-thyatis/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17145/dda1-arena-of-thyatis-basic"
+        }
+      ]
     }
   ]
 }

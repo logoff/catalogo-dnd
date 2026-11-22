@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/monstrous-compendium-annual-volume-four/english.webp"
+      "cover": "/images/rol/monstrous-compendium-annual-volume-four/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16935/monstrous-compendium-annual-volume-4-2e"
+        }
+      ]
     }
   ]
 }

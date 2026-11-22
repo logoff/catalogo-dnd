@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1976",
       "format": "paperback",
-      "cover": "/images/rol/swords-and-spells/english.webp"
+      "cover": "/images/rol/swords-and-spells/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17175/swords-spells-0e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "boxed_set",
-      "cover": "/images/rol/city-of-delights/english.webp"
+      "cover": "/images/rol/city-of-delights/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16870/city-of-delights-2e"
+        }
+      ]
     }
   ]
 }

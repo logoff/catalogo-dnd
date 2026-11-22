@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/fires-of-dis/english.webp"
+      "cover": "/images/rol/fires-of-dis/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17273/fires-of-dis-2e"
+        }
+      ]
     }
   ]
 }

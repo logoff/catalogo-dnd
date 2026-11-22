@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "boxed_set",
-      "cover": "/images/rol/wars/english.webp"
+      "cover": "/images/rol/wars/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17400/greyhawk-wars-2e"
+        }
+      ]
     }
   ]
 }

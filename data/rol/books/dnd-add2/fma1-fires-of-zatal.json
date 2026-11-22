@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/fma1-fires-of-zatal/english.webp"
+      "cover": "/images/rol/fma1-fires-of-zatal/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/196789/fma1-fires-of-zatal-2e"
+        }
+      ]
     }
   ]
 }

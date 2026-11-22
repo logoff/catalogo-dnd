@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2017"
+      "date": "2017",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/214626/streets-of-zobeck-for-5th-edition"
+        }
+      ]
     }
   ]
 }

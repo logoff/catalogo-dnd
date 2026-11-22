@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "hardcover",
-      "cover": "/images/rol/dragonlance-adventures/english.webp"
+      "cover": "/images/rol/dragonlance-adventures/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/162788/dragonlance-adventures-1e"
+        }
+      ]
     }
   ]
 }

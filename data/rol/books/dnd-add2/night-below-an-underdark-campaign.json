@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/night-below-an-underdark-campaign/english.webp"
+      "cover": "/images/rol/night-below-an-underdark-campaign/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17087/night-below-an-underdark-campaign-2e"
+        }
+      ]
     }
   ]
 }

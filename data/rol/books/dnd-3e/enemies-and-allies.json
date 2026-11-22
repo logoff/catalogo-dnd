@@ -12,7 +12,13 @@
       "date": "2001-10",
       "format": "paperback",
       "isbn13": 9780786918522,
-      "cover": "/images/rol/enemies-and-allies/english.webp"
+      "cover": "/images/rol/enemies-and-allies/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28471/enemies-and-allies-3e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1978",
       "format": "paperback",
-      "cover": "/images/rol/d3-vault-of-the-drow/english.webp"
+      "cover": "/images/rol/d3-vault-of-the-drow/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17043/d3-vault-of-the-drow-1e"
+        }
+      ]
     }
   ]
 }

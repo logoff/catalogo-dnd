@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "2000",
       "format": "paperback",
-      "cover": "/images/rol/volos-guide-to-baldurs-gate-ii/english.webp"
+      "cover": "/images/rol/volos-guide-to-baldurs-gate-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/196797/volo-s-guide-to-baldur-s-gate-ii-2e"
+        }
+      ]
     }
   ]
 }

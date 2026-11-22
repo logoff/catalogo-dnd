@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/mark-of-amber/english.webp"
+      "cover": "/images/rol/mark-of-amber/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17342/mark-of-amber-2e"
+        }
+      ]
     }
   ]
 }

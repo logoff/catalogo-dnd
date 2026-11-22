@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/dle2-dragon-magic/english.webp"
+      "cover": "/images/rol/dle2-dragon-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17367/dle2-dragon-magic-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

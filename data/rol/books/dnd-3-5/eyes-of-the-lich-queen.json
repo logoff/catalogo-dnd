@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2007-04",
       "isbn13": 9780786943197,
-      "cover": "/images/rol/eyes-of-the-lich-queen/english.webp"
+      "cover": "/images/rol/eyes-of-the-lich-queen/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54343/eberron-eyes-of-the-lich-queen-3-5"
+        }
+      ]
     }
   ]
 }

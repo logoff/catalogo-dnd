@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/cities-of-the-sun/english.webp"
+      "cover": "/images/rol/cities-of-the-sun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16941/birthright-cities-of-the-sun-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/sja2-skull-and-crossbows/english.webp"
+      "cover": "/images/rol/sja2-skull-and-crossbows/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17246/sja2-skull-crossbows-2e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "paperback",
-      "cover": "/images/rol/encyclopedia-magica-volume-four/english.webp"
+      "cover": "/images/rol/encyclopedia-magica-volume-four/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17451/encyclopedia-magica-vol-4-t-z-2e"
+        }
+      ]
     }
   ]
 }

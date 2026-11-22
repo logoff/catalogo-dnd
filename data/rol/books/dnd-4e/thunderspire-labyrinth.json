@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2008-07",
       "isbn13": 9780786948727,
-      "cover": "/images/rol/thunderspire-labyrinth/english.webp"
+      "cover": "/images/rol/thunderspire-labyrinth/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/56761/h2-thunderspire-labyrinth-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

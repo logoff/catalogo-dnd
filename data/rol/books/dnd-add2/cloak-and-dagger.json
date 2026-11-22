@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "2000",
       "format": "paperback",
-      "cover": "/images/rol/cloak-and-dagger/english.webp"
+      "cover": "/images/rol/cloak-and-dagger/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17549/cloak-dagger-2e"
+        }
+      ]
     }
   ]
 }

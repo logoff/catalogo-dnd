@@ -13,7 +13,13 @@
       "date": "2005-04",
       "format": "hardcover",
       "isbn13": 9780786936588,
-      "cover": "/images/rol/races-of-eberron/english.webp"
+      "cover": "/images/rol/races-of-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27954/races-of-eberron-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/wg10-childs-play/english.webp"
+      "cover": "/images/rol/wg10-childs-play/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17412/wg10-child-s-play-2e"
+        }
+      ]
     }
   ]
 }

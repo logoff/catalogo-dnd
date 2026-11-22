@@ -11,7 +11,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2006",
       "isbn13": 9780786939084,
-      "cover": "/images/rol/fantastic-locations-fields-of-ruin/english.webp"
+      "cover": "/images/rol/fantastic-locations-fields-of-ruin/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/187867/fantastic-locations-fields-of-ruin-3-5"
+        }
+      ]
     }
   ]
 }

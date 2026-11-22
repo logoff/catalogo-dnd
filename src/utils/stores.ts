@@ -30,6 +30,12 @@ export function instantGamingAffiliate(referral?: string): StoreConfig['affiliat
   return referral ? (url) => withParam(url, 'igr', referral) : undefined
 }
 
+// DriveThru (Roll20): el mismo ID de afiliado vale en DMsGuild, DriveThruRPG y sus webs
+// hermanas, añadido a cualquier URL con `affiliate_id`
+export function driveThruAffiliate(id?: string): StoreConfig['affiliate'] {
+  return id ? (url) => withParam(url, 'affiliate_id', id) : undefined
+}
+
 export function adtractionAffiliate(
   programId?: string,
   channelId?: string
@@ -104,6 +110,16 @@ export const STORES: Record<Store, StoreConfig> = {
       env.VITE_AFFILIATE_NEXTORY_PROGRAM,
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL
     ),
+  },
+  // PDF e impresión bajo demanda de los libros antiguos de Wizards (D&D Classics)
+  dmsguild: {
+    label: 'DMsGuild',
+    affiliate: driveThruAffiliate(env.VITE_AFFILIATE_DRIVETHRU_ID),
+  },
+  // PDF e impresión bajo demanda de otras editoriales: solo en la sección de otros juegos de rol
+  drivethrurpg: {
+    label: 'DriveThruRPG',
+    affiliate: driveThruAffiliate(env.VITE_AFFILIATE_DRIVETHRU_ID),
   },
 }
 

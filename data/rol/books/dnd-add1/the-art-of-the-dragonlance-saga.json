@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/the-art-of-the-dragonlance-saga/english.webp"
+      "cover": "/images/rol/the-art-of-the-dragonlance-saga/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17389/the-art-of-the-dragonlance-saga"
+        }
+      ]
     },
     {
       "language": "castellano",

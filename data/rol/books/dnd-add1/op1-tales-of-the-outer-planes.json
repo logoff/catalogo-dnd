@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1988",
       "format": "paperback",
-      "cover": "/images/rol/op1-tales-of-the-outer-planes/english.webp"
+      "cover": "/images/rol/op1-tales-of-the-outer-planes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17055/op1-tales-of-the-outer-planes-1e"
+        }
+      ]
     }
   ]
 }

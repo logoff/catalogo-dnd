@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/college-of-wizardry/english.webp"
+      "cover": "/images/rol/college-of-wizardry/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17446/college-of-wizardry-2e"
+        }
+      ]
     }
   ]
 }

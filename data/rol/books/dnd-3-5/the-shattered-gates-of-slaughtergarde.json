@@ -12,7 +12,13 @@
       "date": "2006",
       "format": "paperback",
       "isbn13": 9780786941964,
-      "cover": "/images/rol/the-shattered-gates-of-slaughtergarde/english.webp"
+      "cover": "/images/rol/the-shattered-gates-of-slaughtergarde/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54405/the-shattered-gates-of-slaughtergarde-3-5"
+        }
+      ]
     }
   ]
 }

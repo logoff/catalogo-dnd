@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/hr2-charlemagnes-paladins-campaign-sourcebook/english.webp"
+      "cover": "/images/rol/hr2-charlemagnes-paladins-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16915/hr2-charlemagne-s-paladins-campaign-sourcebook-2e"
+        }
+      ]
     }
   ]
 }

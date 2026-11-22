@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "hardcover",
-      "cover": "/images/rol/domains-of-dread/english.webp"
+      "cover": "/images/rol/domains-of-dread/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17525/ravenloft-domains-of-dread-2e"
+        }
+      ]
     }
   ]
 }

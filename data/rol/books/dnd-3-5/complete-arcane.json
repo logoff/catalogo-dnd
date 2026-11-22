@@ -12,7 +12,13 @@
       "date": "2004-11",
       "format": "hardcover",
       "isbn13": 9780786934355,
-      "cover": "/images/rol/complete-arcane/english.webp"
+      "cover": "/images/rol/complete-arcane/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3733/complete-arcane-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

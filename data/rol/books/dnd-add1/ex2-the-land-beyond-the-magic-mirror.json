@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/ex2-the-land-beyond-the-magic-mirror/english.webp"
+      "cover": "/images/rol/ex2-the-land-beyond-the-magic-mirror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17040/ex2-the-land-beyond-the-magic-mirror-1e"
+        }
+      ]
     }
   ]
 }

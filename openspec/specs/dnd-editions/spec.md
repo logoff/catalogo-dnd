@@ -52,21 +52,31 @@ material con licencia de otras editoriales.
 - **THEN** la ficha del libro muestra su edición en inglés y la de Devir,
   cada una con su editorial, su fecha y su ISBN si lo tiene
 
-### Requirement: Libros sin tiendas
+### Requirement: Libros solo en DMsGuild
 
-Los libros de la sección SHALL mostrarse sin enlaces de compra ni aviso de
-afiliado, y el informe de cobertura de afiliados SHALL omitirlos.
+Los libros de la sección están descatalogados: el único enlace de compra que
+SHALL admitirse es el de DMsGuild, que vende el PDF o la impresión bajo
+demanda de Wizards, en la edición en inglés. El informe de cobertura de
+afiliados SHALL revisar solo esa tienda en la sección.
 
-#### Scenario: Ficha de un libro descatalogado
+#### Scenario: Libro a la venta en DMsGuild
 
-- **WHEN** un visitante abre la ficha de un libro de D&D 3.5
-- **THEN** ve sus ediciones con sus datos y ningún botón de compra ni aviso
-  de afiliado
+- **WHEN** un visitante abre la ficha de un libro de D&D 3.5 que DMsGuild
+  vende
+- **THEN** la edición en inglés muestra el botón de DMsGuild con el aviso de
+  afiliado
+
+#### Scenario: Libro que no está en DMsGuild
+
+- **WHEN** un visitante abre la ficha de un libro que DMsGuild no vende
+- **THEN** ve sus ediciones con sus datos, ningún botón de compra y la nota
+  «Descatalogado.»
 
 #### Scenario: Informe de cobertura
 
 - **WHEN** se ejecuta el informe de cobertura de afiliados
-- **THEN** no lista ningún libro de la sección
+- **THEN** lista los libros de la sección sin enlace a DMsGuild que no
+  figuran como excepción
 
 #### Scenario: Libro con enlace de compra
 

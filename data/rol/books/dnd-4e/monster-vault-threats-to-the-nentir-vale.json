@@ -13,7 +13,13 @@
       "date": "2011-06",
       "format": "paperback",
       "isbn13": 9780786958382,
-      "cover": "/images/rol/monster-vault-threats-to-the-nentir-vale/english.webp"
+      "cover": "/images/rol/monster-vault-threats-to-the-nentir-vale/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/158948/monster-vault-threats-to-the-nentir-vale-4e"
+        }
+      ]
     }
   ]
 }

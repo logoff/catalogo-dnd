@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/dawn-of-the-overmind/english.webp"
+      "cover": "/images/rol/dawn-of-the-overmind/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17354/dawn-of-the-overmind-2e"
+        }
+      ]
     }
   ]
 }

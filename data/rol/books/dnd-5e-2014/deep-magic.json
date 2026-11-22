@@ -15,6 +15,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/193678131X/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/322900/deep-magic-volume-1-for-5th-edition"
         }
       ]
     },

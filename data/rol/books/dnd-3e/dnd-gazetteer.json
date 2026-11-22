@@ -12,7 +12,13 @@
       "date": "2000-09",
       "format": "paperback",
       "isbn13": 9780786917426,
-      "cover": "/images/rol/dnd-gazetteer/english.webp"
+      "cover": "/images/rol/dnd-gazetteer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28490/d-d-gazetteer-3e"
+        }
+      ]
     }
   ]
 }

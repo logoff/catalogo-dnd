@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1989",
-      "cover": "/images/rol/mc1-monstrous-compendium-volume-one/english.webp"
+      "cover": "/images/rol/mc1-monstrous-compendium-volume-one/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/183092/mc1-monstrous-compendium-volume-one-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

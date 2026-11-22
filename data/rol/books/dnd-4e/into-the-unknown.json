@@ -12,7 +12,13 @@
       "date": "2012-05",
       "format": "hardcover",
       "isbn13": 9780786960323,
-      "cover": "/images/rol/into-the-unknown/english.webp"
+      "cover": "/images/rol/into-the-unknown/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/169142/into-the-unknown-the-dungeon-survival-handbook-4e"
+        }
+      ]
     }
   ]
 }

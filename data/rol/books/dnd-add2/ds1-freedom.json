@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "boxed_set",
-      "cover": "/images/rol/ds1-freedom/english.webp"
+      "cover": "/images/rol/ds1-freedom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17178/ds1-freedom-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

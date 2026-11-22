@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2019"
+      "date": "2019",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/278090/tales-of-the-old-margreve-for-5th-edition"
+        }
+      ]
     },
     {
       "language": "castellano",

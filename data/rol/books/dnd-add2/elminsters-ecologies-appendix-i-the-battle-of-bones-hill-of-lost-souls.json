@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1995",
-      "cover": "/images/rol/elminsters-ecologies-appendix-i-the-battle-of-bones-hill-of-lost-souls/english.webp"
+      "cover": "/images/rol/elminsters-ecologies-appendix-i-the-battle-of-bones-hill-of-lost-souls/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17563/elminster-s-ecologies-appendix-i-the-battle-of-bones-hill-of-lost-souls-2e"
+        }
+      ]
     }
   ]
 }

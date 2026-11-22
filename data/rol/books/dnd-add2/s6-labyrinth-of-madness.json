@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/s6-labyrinth-of-madness/english.webp"
+      "cover": "/images/rol/s6-labyrinth-of-madness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17327/s6-labyrinth-of-madness-2e"
+        }
+      ]
     }
   ]
 }

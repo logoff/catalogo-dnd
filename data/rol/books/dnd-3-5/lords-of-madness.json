@@ -12,7 +12,13 @@
       "date": "2005-05",
       "format": "hardcover",
       "isbn13": 9780786936571,
-      "cover": "/images/rol/lords-of-madness/english.webp"
+      "cover": "/images/rol/lords-of-madness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/1752/lords-of-madness-the-book-of-aberrations-3-5"
+        }
+      ]
     }
   ]
 }

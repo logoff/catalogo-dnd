@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/for10-warriors-and-priests-of-the-realms/english.webp"
+      "cover": "/images/rol/for10-warriors-and-priests-of-the-realms/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16855/for10-warriors-and-priests-of-the-realms-2e"
+        }
+      ]
     }
   ]
 }

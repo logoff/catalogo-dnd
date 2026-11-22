@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "boxed_set",
-      "cover": "/images/rol/empires-of-the-shining-sea/english.webp"
+      "cover": "/images/rol/empires-of-the-shining-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17533/empires-of-the-shining-sea-2e"
+        }
+      ]
     }
   ]
 }

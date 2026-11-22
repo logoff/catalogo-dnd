@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/ra1-feast-of-goblyns/english.webp"
+      "cover": "/images/rol/ra1-feast-of-goblyns/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17486/ra1-feast-of-goblyns-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

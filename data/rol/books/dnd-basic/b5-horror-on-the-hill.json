@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/b5-horror-on-the-hill/english.webp"
+      "cover": "/images/rol/b5-horror-on-the-hill/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17097/b5-horror-on-the-hill-basic"
+        }
+      ]
     }
   ]
 }

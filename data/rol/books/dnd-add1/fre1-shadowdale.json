@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/fre1-shadowdale/english.webp"
+      "cover": "/images/rol/fre1-shadowdale/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16811/fre1-shadowdale-1e-2e"
+        }
+      ]
     }
   ]
 }

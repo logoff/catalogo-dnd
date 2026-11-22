@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1992",
-      "cover": "/images/rol/mc11-monstrous-compendium-forgotten-realms-appendix/english.webp"
+      "cover": "/images/rol/mc11-monstrous-compendium-forgotten-realms-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16798/mc11-monstrous-compendium-forgotten-realms-appendix-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

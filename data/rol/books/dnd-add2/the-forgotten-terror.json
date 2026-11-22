@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "paperback",
-      "cover": "/images/rol/the-forgotten-terror/english.webp"
+      "cover": "/images/rol/the-forgotten-terror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17519/the-forgotten-terror-2e"
+        }
+      ]
     }
   ]
 }

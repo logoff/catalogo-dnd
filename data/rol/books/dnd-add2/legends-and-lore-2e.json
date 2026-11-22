@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "hardcover",
-      "cover": "/images/rol/legends-and-lore-2e/english.webp"
+      "cover": "/images/rol/legends-and-lore-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/116010/legends-lore-2e"
+        }
+      ]
     }
   ]
 }

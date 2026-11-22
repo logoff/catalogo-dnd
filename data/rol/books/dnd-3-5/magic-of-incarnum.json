@@ -12,7 +12,13 @@
       "date": "2005-09",
       "format": "hardcover",
       "isbn13": 9780786937011,
-      "cover": "/images/rol/magic-of-incarnum/english.webp"
+      "cover": "/images/rol/magic-of-incarnum/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28407/magic-of-incarnum-3-5"
+        }
+      ]
     }
   ]
 }

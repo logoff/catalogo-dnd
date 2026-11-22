@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/assault-on-ravens-ruin/english.webp"
+      "cover": "/images/rol/assault-on-ravens-ruin/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17149/assault-on-raven-s-ruin-basic"
+        }
+      ]
     }
   ]
 }

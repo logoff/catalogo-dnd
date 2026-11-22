@@ -12,7 +12,13 @@
       "date": "2002-03",
       "format": "paperback",
       "isbn13": 9780786926565,
-      "cover": "/images/rol/bastion-of-broken-souls/english.webp"
+      "cover": "/images/rol/bastion-of-broken-souls/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28449/bastion-of-broken-souls-3e"
+        }
+      ]
     }
   ]
 }

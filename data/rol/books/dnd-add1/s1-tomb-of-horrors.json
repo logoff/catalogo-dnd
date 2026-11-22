@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1978",
       "format": "paperback",
-      "cover": "/images/rol/s1-tomb-of-horrors/english.webp"
+      "cover": "/images/rol/s1-tomb-of-horrors/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176871/s1-tomb-of-horrors-1e"
+        }
+      ]
     }
   ]
 }

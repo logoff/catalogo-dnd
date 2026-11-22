@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1986",
       "format": "paperback",
-      "cover": "/images/rol/n3-destiny-of-kings/english.webp"
+      "cover": "/images/rol/n3-destiny-of-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110268/n3-destiny-of-kings-1e-1986"
+        }
+      ]
     }
   ]
 }

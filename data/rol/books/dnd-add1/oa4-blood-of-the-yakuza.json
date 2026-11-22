@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/oa4-blood-of-the-yakuza/english.webp"
+      "cover": "/images/rol/oa4-blood-of-the-yakuza/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17333/oa4-blood-of-the-yakuza-1e"
+        }
+      ]
     }
   ]
 }

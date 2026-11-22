@@ -12,7 +12,13 @@
       "date": "2009-01",
       "format": "hardcover",
       "isbn13": 9780786950690,
-      "cover": "/images/rol/open-grave/english.webp"
+      "cover": "/images/rol/open-grave/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/59689/open-grave-secrets-of-the-undead-4e"
+        }
+      ]
     }
   ]
 }

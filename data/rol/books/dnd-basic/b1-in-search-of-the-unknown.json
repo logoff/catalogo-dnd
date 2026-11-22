@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1978",
       "format": "paperback",
-      "cover": "/images/rol/b1-in-search-of-the-unknown/english.webp"
+      "cover": "/images/rol/b1-in-search-of-the-unknown/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17081/b1-in-search-of-the-unknown-basic"
+        }
+      ]
     }
   ]
 }

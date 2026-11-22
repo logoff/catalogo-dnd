@@ -12,7 +12,13 @@
       "date": "2003-10",
       "format": "hardcover",
       "isbn13": 9780786931361,
-      "cover": "/images/rol/book-of-exalted-deeds/english.webp"
+      "cover": "/images/rol/book-of-exalted-deeds/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25928/book-of-exalted-deeds-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

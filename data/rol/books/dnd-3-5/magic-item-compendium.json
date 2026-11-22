@@ -12,7 +12,13 @@
       "date": "2007-03",
       "format": "hardcover",
       "isbn13": 9780786943456,
-      "cover": "/images/rol/magic-item-compendium/english.webp"
+      "cover": "/images/rol/magic-item-compendium/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54389/magic-item-compendium-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

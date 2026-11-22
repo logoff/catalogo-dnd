@@ -60,6 +60,7 @@ jobs:
           VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM: ${{ secrets.AFFILIATE_CASA_DEL_LIBRO_PROGRAM }}
           VITE_AFFILIATE_NEXTORY_PROGRAM: ${{ secrets.AFFILIATE_NEXTORY_PROGRAM }}
           VITE_AFFILIATE_NOSOLOROL_PROGRAM: ${{ secrets.AFFILIATE_NOSOLOROL_PROGRAM }}
+          VITE_AFFILIATE_DRIVETHRU_ID: ${{ secrets.AFFILIATE_DRIVETHRU_ID }}
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4

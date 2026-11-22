@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2015"
+      "date": "2015",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/165919/cat-mouse-for-5th-edition"
+        }
+      ]
     },
     {
       "language": "castellano",

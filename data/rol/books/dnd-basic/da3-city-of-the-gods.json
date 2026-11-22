@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/da3-city-of-the-gods/english.webp"
+      "cover": "/images/rol/da3-city-of-the-gods/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17132/da3-city-of-the-gods-basic"
+        }
+      ]
     }
   ]
 }

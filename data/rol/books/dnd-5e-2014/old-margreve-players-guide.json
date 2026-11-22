@@ -8,7 +8,13 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Kobold Press"
+      "publisher": "Kobold Press",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/278069/margreve-player-s-guide-for-5th-edition"
+        }
+      ]
     },
     {
       "language": "castellano",

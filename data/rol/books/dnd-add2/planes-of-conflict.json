@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/planes-of-conflict/english.webp"
+      "cover": "/images/rol/planes-of-conflict/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17278/planes-of-conflict-2e"
+        }
+      ]
     }
   ]
 }

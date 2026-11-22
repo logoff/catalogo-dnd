@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/phbr10-the-complete-book-of-humanoids/english.webp"
+      "cover": "/images/rol/phbr10-the-complete-book-of-humanoids/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16998/phbr10-the-complete-book-of-humanoids-2e"
+        }
+      ]
     }
   ]
 }

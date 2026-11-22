@@ -12,7 +12,13 @@
       "date": "2006-08",
       "format": "hardcover",
       "isbn13": 9780786939220,
-      "cover": "/images/rol/tome-of-battle/english.webp"
+      "cover": "/images/rol/tome-of-battle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51650/tome-of-battle-the-book-of-nine-swords-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

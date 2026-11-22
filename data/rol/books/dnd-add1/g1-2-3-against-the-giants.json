@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1981",
       "format": "paperback",
-      "cover": "/images/rol/g1-2-3-against-the-giants/english.webp"
+      "cover": "/images/rol/g1-2-3-against-the-giants/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17037/g1-3-against-the-giants-1e"
+        }
+      ]
     }
   ]
 }

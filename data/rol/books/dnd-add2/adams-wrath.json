@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/adams-wrath/english.webp"
+      "cover": "/images/rol/adams-wrath/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17505/adam-s-wrath-2e"
+        }
+      ]
     }
   ]
 }

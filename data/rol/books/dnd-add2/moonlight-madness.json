@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/moonlight-madness/english.webp"
+      "cover": "/images/rol/moonlight-madness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17343/moonlight-madness-2e"
+        }
+      ]
     }
   ]
 }

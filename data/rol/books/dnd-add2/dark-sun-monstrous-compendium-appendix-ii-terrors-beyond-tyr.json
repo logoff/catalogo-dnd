@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/dark-sun-monstrous-compendium-appendix-ii-terrors-beyond-tyr/english.webp"
+      "cover": "/images/rol/dark-sun-monstrous-compendium-appendix-ii-terrors-beyond-tyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17201/dark-sun-monstrous-compendium-appendix-ii-terrors-beyond-tyr-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/the-rjurik-highlands/english.webp"
+      "cover": "/images/rol/the-rjurik-highlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16958/the-rjurik-highlands-2e"
+        }
+      ]
     }
   ]
 }

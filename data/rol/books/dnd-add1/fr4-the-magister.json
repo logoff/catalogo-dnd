@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1988",
       "format": "paperback",
-      "cover": "/images/rol/fr4-the-magister/english.webp"
+      "cover": "/images/rol/fr4-the-magister/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16806/fr4-the-magister-1e"
+        }
+      ]
     }
   ]
 }

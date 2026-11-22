@@ -12,7 +12,13 @@
       "date": "2006-03",
       "format": "hardcover",
       "isbn13": 9780786939091,
-      "cover": "/images/rol/tome-of-magic/english.webp"
+      "cover": "/images/rol/tome-of-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/50000/tome-of-magic-pact-shadow-and-truename-magic-3-5"
+        }
+      ]
     }
   ]
 }

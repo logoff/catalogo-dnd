@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/hr3-celts-campaign-sourcebook/english.webp"
+      "cover": "/images/rol/hr3-celts-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110199/hr3-celts-campaign-sourcebook-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/lc4-port-of-ravens-bluff/english.webp"
+      "cover": "/images/rol/lc4-port-of-ravens-bluff/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16825/lc4-port-of-ravens-bluff-the-living-city-2e"
+        }
+      ]
     }
   ]
 }

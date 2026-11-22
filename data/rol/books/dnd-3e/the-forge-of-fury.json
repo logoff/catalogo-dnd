@@ -12,7 +12,13 @@
       "date": "2000-11",
       "format": "paperback",
       "isbn13": 9780786916443,
-      "cover": "/images/rol/the-forge-of-fury/english.webp"
+      "cover": "/images/rol/the-forge-of-fury/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3737/the-forge-of-fury-3e"
+        }
+      ]
     }
   ]
 }

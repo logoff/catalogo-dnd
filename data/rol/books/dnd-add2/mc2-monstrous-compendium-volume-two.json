@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1989",
-      "cover": "/images/rol/mc2-monstrous-compendium-volume-two/english.webp"
+      "cover": "/images/rol/mc2-monstrous-compendium-volume-two/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16996/mc2-monstrous-compendium-volume-two-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

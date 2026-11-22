@@ -12,7 +12,13 @@
       "date": "2005-10",
       "format": "hardcover",
       "isbn13": 9780786936991,
-      "cover": "/images/rol/heroes-of-horror/english.webp"
+      "cover": "/images/rol/heroes-of-horror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3724/heroes-of-horror-3-5"
+        }
+      ]
     }
   ]
 }

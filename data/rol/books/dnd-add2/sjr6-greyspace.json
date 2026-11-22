@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/sjr6-greyspace/english.webp"
+      "cover": "/images/rol/sjr6-greyspace/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17251/sjr6-greyspace-2e"
+        }
+      ]
     }
   ]
 }

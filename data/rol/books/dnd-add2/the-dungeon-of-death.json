@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "2000",
       "format": "paperback",
-      "cover": "/images/rol/the-dungeon-of-death/english.webp"
+      "cover": "/images/rol/the-dungeon-of-death/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17536/the-dungeon-of-death-2e"
+        }
+      ]
     }
   ]
 }

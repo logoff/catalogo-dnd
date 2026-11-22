@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/a-guide-to-transylvania/english.webp"
+      "cover": "/images/rol/a-guide-to-transylvania/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17518/a-guide-to-transylvania-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2006",
       "format": "paperback",
       "isbn13": 9780786939381,
-      "cover": "/images/rol/red-hand-of-doom/english.webp"
+      "cover": "/images/rol/red-hand-of-doom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28797/red-hand-of-doom-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

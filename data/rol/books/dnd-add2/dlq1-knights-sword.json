@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/dlq1-knights-sword/english.webp"
+      "cover": "/images/rol/dlq1-knights-sword/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17377/dlq1-knight-s-sword-2e"
+        }
+      ]
     }
   ]
 }

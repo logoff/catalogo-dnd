@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/for5-elves-of-evermeet/english.webp"
+      "cover": "/images/rol/for5-elves-of-evermeet/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16844/for5-elves-of-evermeet-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

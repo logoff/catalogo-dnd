@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "paperback",
-      "cover": "/images/rol/four-from-cormyr/english.webp"
+      "cover": "/images/rol/four-from-cormyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17577/four-from-cormyr-2e"
+        }
+      ]
     }
   ]
 }

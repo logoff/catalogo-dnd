@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/auroras-whole-realms-catalogue/english.webp"
+      "cover": "/images/rol/auroras-whole-realms-catalogue/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16834/aurora-s-whole-realms-catalogue-2e"
+        }
+      ]
     }
   ]
 }

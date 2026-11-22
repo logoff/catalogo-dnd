@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1982",
       "format": "paperback",
-      "cover": "/images/rol/i2-tomb-of-the-lizard-king/english.webp"
+      "cover": "/images/rol/i2-tomb-of-the-lizard-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17048/i2-tomb-of-the-lizard-king-1e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "boxed_set",
-      "cover": "/images/rol/forest-maker/english.webp"
+      "cover": "/images/rol/forest-maker/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17198/forest-maker-2e"
+        }
+      ]
     }
   ]
 }

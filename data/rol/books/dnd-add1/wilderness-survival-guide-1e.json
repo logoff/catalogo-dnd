@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1986",
       "format": "hardcover",
-      "cover": "/images/rol/wilderness-survival-guide-1e/english.webp"
+      "cover": "/images/rol/wilderness-survival-guide-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17007/wilderness-survival-guide-1e"
+        }
+      ]
     }
   ]
 }

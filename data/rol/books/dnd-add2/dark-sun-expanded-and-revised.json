@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/dark-sun-expanded-and-revised/english.webp"
+      "cover": "/images/rol/dark-sun-expanded-and-revised/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17203/dark-sun-campaign-setting-expanded-and-revised-edition-2e"
+        }
+      ]
     }
   ]
 }

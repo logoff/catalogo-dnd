@@ -13,7 +13,13 @@
       "date": "2002-09",
       "format": "paperback",
       "isbn13": 9780786928743,
-      "cover": "/images/rol/city-of-the-spider-queen/english.webp"
+      "cover": "/images/rol/city-of-the-spider-queen/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25111/city-of-the-spider-queen-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

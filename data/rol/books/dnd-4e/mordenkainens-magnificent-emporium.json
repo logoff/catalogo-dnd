@@ -12,7 +12,13 @@
       "date": "2011-09",
       "format": "hardcover",
       "isbn13": 9780786957446,
-      "cover": "/images/rol/mordenkainens-magnificent-emporium/english.webp"
+      "cover": "/images/rol/mordenkainens-magnificent-emporium/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/165544/mordenkainen-s-magnificent-emporium-4e"
+        }
+      ]
     }
   ]
 }

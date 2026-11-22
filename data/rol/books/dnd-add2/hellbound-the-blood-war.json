@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/hellbound-the-blood-war/english.webp"
+      "cover": "/images/rol/hellbound-the-blood-war/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17281/hellbound-the-blood-war-2e"
+        }
+      ]
     }
   ]
 }

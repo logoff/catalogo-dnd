@@ -12,7 +12,13 @@
       "date": "2000-09",
       "format": "paperback",
       "isbn13": 9780786916405,
-      "cover": "/images/rol/the-sunless-citadel/english.webp"
+      "cover": "/images/rol/the-sunless-citadel/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3727/the-sunless-citadel-3e"
+        }
+      ]
     }
   ]
 }

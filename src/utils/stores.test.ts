@@ -3,6 +3,7 @@ import {
   adtractionAffiliate,
   amazonAffiliate,
   awinAffiliate,
+  driveThruAffiliate,
   getPurchaseUrl,
   instantGamingAffiliate,
   withParam,
@@ -61,6 +62,15 @@ describe('stores', () => {
     expect(instantGamingAffiliate()).toBeUndefined()
     expect(getPurchaseUrl('instant_gaming', url)).toBe(url)
     expect(instantGamingAffiliate('gamer-prueba')!(url)).toBe(`${url}?igr=gamer-prueba`)
+  })
+
+  it('DMsGuild y DriveThruRPG añaden el mismo ID de afiliado', () => {
+    const dmsguild = 'https://www.dmsguild.com/en/product/17171/d-d-rules-cyclopedia-basic'
+    expect(driveThruAffiliate()).toBeUndefined()
+    expect(driveThruAffiliate('123')!(dmsguild)).toBe(`${dmsguild}?affiliate_id=123`)
+    expect(driveThruAffiliate('123')!('https://www.drivethrurpg.com/en/product/1/x?cPath=9')).toBe(
+      'https://www.drivethrurpg.com/en/product/1/x?cPath=9&affiliate_id=123'
+    )
   })
 
   it('Awin necesita anunciante y publisher, y codifica la URL de destino', () => {

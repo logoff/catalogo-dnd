@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/dls3-oak-lords/english.webp"
+      "cover": "/images/rol/dls3-oak-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17374/dls3-oak-lords-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

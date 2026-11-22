@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "paperback",
-      "cover": "/images/rol/return-to-the-keep-on-the-borderlands/english.webp"
+      "cover": "/images/rol/return-to-the-keep-on-the-borderlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17359/return-to-the-keep-on-the-borderlands-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

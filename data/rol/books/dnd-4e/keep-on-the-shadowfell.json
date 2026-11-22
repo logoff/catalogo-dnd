@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2008-05",
       "isbn13": 9780786948505,
-      "cover": "/images/rol/keep-on-the-shadowfell/english.webp"
+      "cover": "/images/rol/keep-on-the-shadowfell/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110212/h1-keep-on-the-shadowfell-quick-start-rules-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

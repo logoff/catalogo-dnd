@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/fr7-hall-of-heroes/english.webp"
+      "cover": "/images/rol/fr7-hall-of-heroes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16814/fr7-hall-of-heroes-1e-2e"
+        }
+      ]
     }
   ]
 }

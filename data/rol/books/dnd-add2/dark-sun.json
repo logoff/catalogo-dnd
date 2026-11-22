@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "boxed_set",
-      "cover": "/images/rol/dark-sun/english.webp"
+      "cover": "/images/rol/dark-sun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17169/dark-sun-boxed-set-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

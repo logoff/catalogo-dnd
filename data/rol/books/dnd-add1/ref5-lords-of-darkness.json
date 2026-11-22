@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1988",
       "format": "paperback",
-      "cover": "/images/rol/ref5-lords-of-darkness/english.webp"
+      "cover": "/images/rol/ref5-lords-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16810/ref5-lords-of-darkness-1e"
+        }
+      ]
     }
   ]
 }

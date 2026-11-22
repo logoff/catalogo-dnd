@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/hr4-a-mighty-fortress-campaign-sourcebook/english.webp"
+      "cover": "/images/rol/hr4-a-mighty-fortress-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16916/hr4-a-mighty-fortress-campaign-sourcebook-2e"
+        }
+      ]
     }
   ]
 }

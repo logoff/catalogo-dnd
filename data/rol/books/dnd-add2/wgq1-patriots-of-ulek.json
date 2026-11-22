@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/wgq1-patriots-of-ulek/english.webp"
+      "cover": "/images/rol/wgq1-patriots-of-ulek/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17429/wgq1-patriots-of-ulek-2e"
+        }
+      ]
     }
   ]
 }

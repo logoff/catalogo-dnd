@@ -41,6 +41,8 @@ export type Store =
   | 'casa_del_libro'
   | 'nextory'
   | 'nosolorol'
+  | 'dmsguild'
+  | 'drivethrurpg'
 
 export interface PurchaseLink {
   store: Store

@@ -13,7 +13,13 @@
       "date": "2009-07",
       "format": "hardcover",
       "isbn13": 9780786950997,
-      "cover": "/images/rol/eberron-campaign-guide/english.webp"
+      "cover": "/images/rol/eberron-campaign-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/150473/eberron-campaign-guide-4e"
+        }
+      ]
     }
   ]
 }

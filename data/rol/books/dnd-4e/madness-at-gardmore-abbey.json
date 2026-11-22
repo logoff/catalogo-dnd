@@ -12,7 +12,13 @@
       "date": "2011-09",
       "format": "boxed_set",
       "isbn13": 9780786958726,
-      "cover": "/images/rol/madness-at-gardmore-abbey/english.webp"
+      "cover": "/images/rol/madness-at-gardmore-abbey/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/153648/madness-at-gardmore-abbey-4e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/the-factols-manifesto/english.webp"
+      "cover": "/images/rol/the-factols-manifesto/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17275/the-factol-s-manifesto-2e"
+        }
+      ]
     }
   ]
 }

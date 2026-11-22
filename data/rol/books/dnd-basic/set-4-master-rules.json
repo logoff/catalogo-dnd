@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "boxed_set",
-      "cover": "/images/rol/set-4-master-rules/english.webp"
+      "cover": "/images/rol/set-4-master-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17167/d-d-master-set-becmi-ed-basic"
+        }
+      ]
     }
   ]
 }

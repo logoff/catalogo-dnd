@@ -12,7 +12,13 @@
       "date": "2012-04",
       "format": "paperback",
       "isbn13": 9780786959945,
-      "cover": "/images/rol/halls-of-undermountain/english.webp"
+      "cover": "/images/rol/halls-of-undermountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/151463/halls-of-undermountain-4e"
+        }
+      ]
     }
   ]
 }

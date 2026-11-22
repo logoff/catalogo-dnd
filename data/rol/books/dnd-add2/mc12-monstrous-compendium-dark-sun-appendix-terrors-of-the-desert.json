@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1992",
-      "cover": "/images/rol/mc12-monstrous-compendium-dark-sun-appendix-terrors-of-the-desert/english.webp"
+      "cover": "/images/rol/mc12-monstrous-compendium-dark-sun-appendix-terrors-of-the-desert/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17180/mc12-monstrous-compendium-dark-sun-appendix-terrors-of-the-desert-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

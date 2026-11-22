@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/hwa1-nightwail/english.webp"
+      "cover": "/images/rol/hwa1-nightwail/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17146/hwa1-nightwail-basic"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2010-02",
       "format": "hardcover",
       "isbn13": 9780786953899,
-      "cover": "/images/rol/martial-power-2/english.webp"
+      "cover": "/images/rol/martial-power-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/143256/martial-power-2-4e"
+        }
+      ]
     }
   ]
 }

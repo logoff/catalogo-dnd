@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/crypt-of-lyzandred-the-mad-the-lost-tombs-volume-2/english.webp"
+      "cover": "/images/rol/crypt-of-lyzandred-the-mad-the-lost-tombs-volume-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17437/crypt-of-lyzandred-the-mad-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2005-09",
       "isbn13": 9780786936984,
-      "cover": "/images/rol/sons-of-gruumsh/english.webp"
+      "cover": "/images/rol/sons-of-gruumsh/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3740/sons-of-gruumsh-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

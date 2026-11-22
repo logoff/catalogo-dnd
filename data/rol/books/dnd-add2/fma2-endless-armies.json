@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/fma2-endless-armies/english.webp"
+      "cover": "/images/rol/fma2-endless-armies/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/196796/fma2-endless-armies-2e"
+        }
+      ]
     }
   ]
 }

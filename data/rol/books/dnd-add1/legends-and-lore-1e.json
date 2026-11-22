@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "hardcover",
-      "cover": "/images/rol/legends-and-lore-1e/english.webp"
+      "cover": "/images/rol/legends-and-lore-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17008/1e-legends-lore"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/requiem-the-grim-harvest/english.webp"
+      "cover": "/images/rol/requiem-the-grim-harvest/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17480/requiem-the-grim-harvest-2e"
+        }
+      ]
     }
   ]
 }

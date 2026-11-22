@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/i13-adventure-pack-i/english.webp"
+      "cover": "/images/rol/i13-adventure-pack-i/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17021/i13-adventure-pack-i-1e"
+        }
+      ]
     }
   ]
 }

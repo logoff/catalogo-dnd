@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1994",
-      "cover": "/images/rol/dlc3-classics-volume-iii/english.webp"
+      "cover": "/images/rol/dlc3-classics-volume-iii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17386/dlc3-dragonlance-classics-volume-iii-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

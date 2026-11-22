@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/a-players-primer-to-the-outlands/english.webp"
+      "cover": "/images/rol/a-players-primer-to-the-outlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17301/a-players-primer-to-the-outlands-2e"
+        }
+      ]
     }
   ]
 }

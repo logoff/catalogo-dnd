@@ -12,7 +12,13 @@
       "date": "2008-01",
       "format": "paperback",
       "isbn13": 9780786948024,
-      "cover": "/images/rol/wizards-presents-worlds-and-monsters/english.webp"
+      "cover": "/images/rol/wizards-presents-worlds-and-monsters/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/56955/wizards-presents-worlds-and-monsters-4e"
+        }
+      ]
     }
   ]
 }

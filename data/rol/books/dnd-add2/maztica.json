@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "boxed_set",
-      "cover": "/images/rol/maztica/english.webp"
+      "cover": "/images/rol/maztica/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/198112/maztica-2e"
+        }
+      ]
     }
   ]
 }

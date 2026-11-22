@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/pc3-the-sea-people/english.webp"
+      "cover": "/images/rol/pc3-the-sea-people/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17144/pc3-creature-crucible-the-sea-people-basic"
+        }
+      ]
     }
   ]
 }

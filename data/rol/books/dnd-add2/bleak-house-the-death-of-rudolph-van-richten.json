@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/bleak-house-the-death-of-rudolph-van-richten/english.webp"
+      "cover": "/images/rol/bleak-house-the-death-of-rudolph-van-richten/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/201381/bleak-house-2e"
+        }
+      ]
     }
   ]
 }

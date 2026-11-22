@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/ac1-the-shady-dragon-inn/english.webp"
+      "cover": "/images/rol/ac1-the-shady-dragon-inn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16969/ac1-the-shady-dragon-inn-basic"
+        }
+      ]
     }
   ]
 }

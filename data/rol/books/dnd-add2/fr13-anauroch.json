@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/fr13-anauroch/english.webp"
+      "cover": "/images/rol/fr13-anauroch/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16827/fr13-anauroch-2e"
+        }
+      ]
     }
   ]
 }

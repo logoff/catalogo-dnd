@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/hwa3-nightstorm/english.webp"
+      "cover": "/images/rol/hwa3-nightstorm/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16992/hwa3-hollow-world-nightstorm-basic"
+        }
+      ]
     }
   ]
 }

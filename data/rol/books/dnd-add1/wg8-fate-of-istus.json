@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/wg8-fate-of-istus/english.webp"
+      "cover": "/images/rol/wg8-fate-of-istus/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17363/wg8-fate-of-istus-1e-2e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/m2-maze-of-the-riddling-minotaur/english.webp"
+      "cover": "/images/rol/m2-maze-of-the-riddling-minotaur/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/202689/m2-msolo2-maze-of-the-riddling-minotaur-basic"
+        }
+      ]
     }
   ]
 }

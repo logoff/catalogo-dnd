@@ -12,7 +12,13 @@
       "date": "2007-02",
       "format": "hardcover",
       "isbn13": 9780786941186,
-      "cover": "/images/rol/dungeonscape/english.webp"
+      "cover": "/images/rol/dungeonscape/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54309/dungeonscape-3e"
+        }
+      ]
     }
   ]
 }

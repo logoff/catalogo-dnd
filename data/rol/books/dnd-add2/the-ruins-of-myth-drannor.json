@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "boxed_set",
-      "cover": "/images/rol/the-ruins-of-myth-drannor/english.webp"
+      "cover": "/images/rol/the-ruins-of-myth-drannor/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16787/the-ruins-of-myth-drannor-2e"
+        }
+      ]
     }
   ]
 }

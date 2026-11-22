@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/ac1011-poor-wizards-almanac-ii-and-book-of-facts/english.webp"
+      "cover": "/images/rol/ac1011-poor-wizards-almanac-ii-and-book-of-facts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16994/poor-wizard-s-almanac-ii-basic"
+        }
+      ]
     }
   ]
 }

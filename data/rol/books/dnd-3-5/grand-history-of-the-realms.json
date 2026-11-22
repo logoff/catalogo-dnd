@@ -13,7 +13,13 @@
       "date": "2007-09",
       "format": "hardcover",
       "isbn13": 9780786947317,
-      "cover": "/images/rol/grand-history-of-the-realms/english.webp"
+      "cover": "/images/rol/grand-history-of-the-realms/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51644/grand-history-of-the-realms-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

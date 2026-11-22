@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/the-evil-eye/english.webp"
+      "cover": "/images/rol/the-evil-eye/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17512/the-evil-eye-2e"
+        }
+      ]
     }
   ]
 }

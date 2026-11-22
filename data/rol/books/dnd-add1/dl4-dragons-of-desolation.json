@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/dl4-dragons-of-desolation/english.webp"
+      "cover": "/images/rol/dl4-dragons-of-desolation/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16901/dl4-dragons-of-desolation-1e"
+        }
+      ]
     }
   ]
 }

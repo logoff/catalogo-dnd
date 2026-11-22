@@ -12,7 +12,13 @@
       "date": "2009-08",
       "format": "hardcover",
       "isbn13": 9780786952045,
-      "cover": "/images/rol/adventurers-vault-2/english.webp"
+      "cover": "/images/rol/adventurers-vault-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/144972/adventurer-s-vault-2-4e"
+        }
+      ]
     }
   ]
 }

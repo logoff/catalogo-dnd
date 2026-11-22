@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/phbr8-the-complete-book-of-elves/english.webp"
+      "cover": "/images/rol/phbr8-the-complete-book-of-elves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16896/phbr8-the-complete-book-of-elves-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/frq3-doom-of-daggerdale/english.webp"
+      "cover": "/images/rol/frq3-doom-of-daggerdale/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16840/frq3-doom-of-daggerdale-2e"
+        }
+      ]
     }
   ]
 }

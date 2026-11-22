@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1988",
       "format": "hardcover",
-      "cover": "/images/rol/greyhawk-adventures/english.webp"
+      "cover": "/images/rol/greyhawk-adventures/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17407/greyhawk-adventures-1e-2e"
+        }
+      ]
     }
   ]
 }

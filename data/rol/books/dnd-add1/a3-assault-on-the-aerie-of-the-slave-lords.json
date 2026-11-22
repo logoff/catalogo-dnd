@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1981",
       "format": "paperback",
-      "cover": "/images/rol/a3-assault-on-the-aerie-of-the-slave-lords/english.webp"
+      "cover": "/images/rol/a3-assault-on-the-aerie-of-the-slave-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17029/a3-assault-on-the-aerie-of-the-slave-lords-1e"
+        }
+      ]
     }
   ]
 }

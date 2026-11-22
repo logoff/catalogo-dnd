@@ -12,7 +12,13 @@
       "date": "2003-04",
       "format": "hardcover",
       "isbn13": 9780786927807,
-      "cover": "/images/rol/fiend-folio-3e/english.webp"
+      "cover": "/images/rol/fiend-folio-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/1751/fiend-folio-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

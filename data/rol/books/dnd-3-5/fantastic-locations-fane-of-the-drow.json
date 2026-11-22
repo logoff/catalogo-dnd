@@ -11,7 +11,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2005",
       "isbn13": 9780786938476,
-      "cover": "/images/rol/fantastic-locations-fane-of-the-drow/english.webp"
+      "cover": "/images/rol/fantastic-locations-fane-of-the-drow/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/187858/fantastic-locations-fane-of-the-drow-3-5"
+        }
+      ]
     }
   ]
 }

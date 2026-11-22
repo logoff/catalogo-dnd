@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/wgr5-iuz-the-evil/english.webp"
+      "cover": "/images/rol/wgr5-iuz-the-evil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17432/wgr5-iuz-the-evil-2e"
+        }
+      ]
     }
   ]
 }

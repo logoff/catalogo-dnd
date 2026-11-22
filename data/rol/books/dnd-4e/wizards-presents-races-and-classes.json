@@ -12,7 +12,13 @@
       "date": "2007-12",
       "format": "paperback",
       "isbn13": 9780786948017,
-      "cover": "/images/rol/wizards-presents-races-and-classes/english.webp"
+      "cover": "/images/rol/wizards-presents-races-and-classes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/56956/wizards-presents-races-and-classes-4-0"
+        }
+      ]
     }
   ]
 }

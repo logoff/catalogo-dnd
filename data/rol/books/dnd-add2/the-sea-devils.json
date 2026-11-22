@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "paperback",
-      "cover": "/images/rol/the-sea-devils/english.webp"
+      "cover": "/images/rol/the-sea-devils/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17337/monstrous-arcana-the-sea-devils-2e"
+        }
+      ]
     }
   ]
 }

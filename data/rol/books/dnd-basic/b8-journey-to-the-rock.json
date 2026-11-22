@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/b8-journey-to-the-rock/english.webp"
+      "cover": "/images/rol/b8-journey-to-the-rock/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17109/b8-journey-to-the-rock-basic"
+        }
+      ]
     }
   ]
 }

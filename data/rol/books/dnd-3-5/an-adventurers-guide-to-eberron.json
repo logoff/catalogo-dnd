@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2008-03",
       "isbn13": 9780786948550,
-      "cover": "/images/rol/an-adventurers-guide-to-eberron/english.webp"
+      "cover": "/images/rol/an-adventurers-guide-to-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57086/an-adventurer-s-guide-to-eberron-3-5"
+        }
+      ]
     }
   ]
 }

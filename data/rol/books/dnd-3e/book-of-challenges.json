@@ -12,7 +12,13 @@
       "date": "2002-06",
       "format": "paperback",
       "isbn13": 9780786926572,
-      "cover": "/images/rol/book-of-challenges/english.webp"
+      "cover": "/images/rol/book-of-challenges/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3736/book-of-challenges-dungeon-rooms-puzzles-and-traps-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

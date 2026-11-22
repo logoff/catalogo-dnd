@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/undermountain-the-lost-level/english.webp"
+      "cover": "/images/rol/undermountain-the-lost-level/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17570/undermountain-i-the-lost-level-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2005-06",
       "format": "hardcover",
       "isbn13": 9780786936878,
-      "cover": "/images/rol/dungeon-masters-guide-ii/english.webp"
+      "cover": "/images/rol/dungeon-masters-guide-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25841/dungeon-master-s-guide-ii-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

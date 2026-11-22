@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/the-magic-encyclopedia-volume-two/english.webp"
+      "cover": "/images/rol/the-magic-encyclopedia-volume-two/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17408/the-magic-encyclopedia-volume-ii-2e"
+        }
+      ]
     }
   ]
 }

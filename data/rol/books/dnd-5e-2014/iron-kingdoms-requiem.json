@@ -8,7 +8,13 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Privateer Press"
+      "publisher": "Privateer Press",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/509419/iron-kingdoms-requiem-the-roleplaying-game"
+        }
+      ]
     },
     {
       "language": "castellano",

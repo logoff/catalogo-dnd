@@ -12,7 +12,13 @@
       "date": "2009-10",
       "format": "hardcover",
       "isbn13": 9780786950232,
-      "cover": "/images/rol/primal-power/english.webp"
+      "cover": "/images/rol/primal-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/142736/primal-power-4e"
+        }
+      ]
     }
   ]
 }

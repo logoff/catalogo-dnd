@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "paperback",
-      "cover": "/images/rol/bastion-of-faith/english.webp"
+      "cover": "/images/rol/bastion-of-faith/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17289/bastion-of-faith-2e"
+        }
+      ]
     }
   ]
 }

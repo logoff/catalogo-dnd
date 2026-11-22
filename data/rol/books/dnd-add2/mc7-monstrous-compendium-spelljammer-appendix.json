@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1990",
-      "cover": "/images/rol/mc7-monstrous-compendium-spelljammer-appendix/english.webp"
+      "cover": "/images/rol/mc7-monstrous-compendium-spelljammer-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17244/mc7-monstrous-compendium-spelljammer-appendix-2e"
+        }
+      ]
     }
   ]
 }

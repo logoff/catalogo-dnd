@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/frc2-curse-of-the-azure-bonds/english.webp"
+      "cover": "/images/rol/frc2-curse-of-the-azure-bonds/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16809/frc2-curse-of-the-azure-bonds-1e-2e"
+        }
+      ]
     }
   ]
 }

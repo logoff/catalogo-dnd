@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/glantri-kingdom-of-magic/english.webp"
+      "cover": "/images/rol/glantri-kingdom-of-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17553/glantri-kingdom-of-magic-2e"
+        }
+      ]
     }
   ]
 }

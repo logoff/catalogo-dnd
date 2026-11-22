@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/netheril-empire-of-magic/english.webp"
+      "cover": "/images/rol/netheril-empire-of-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17546/netheril-empire-of-magic-2e"
+        }
+      ]
     }
   ]
 }

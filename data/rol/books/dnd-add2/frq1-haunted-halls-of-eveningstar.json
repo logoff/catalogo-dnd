@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/frq1-haunted-halls-of-eveningstar/english.webp"
+      "cover": "/images/rol/frq1-haunted-halls-of-eveningstar/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16833/frq1-haunted-halls-of-eveningstar-2e"
+        }
+      ]
     }
   ]
 }

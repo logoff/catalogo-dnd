@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/mind-lords-of-the-last-sea/english.webp"
+      "cover": "/images/rol/mind-lords-of-the-last-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17206/mind-lords-of-the-last-sea-2e"
+        }
+      ]
     }
   ]
 }

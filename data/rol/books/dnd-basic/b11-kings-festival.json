@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/b11-kings-festival/english.webp"
+      "cover": "/images/rol/b11-kings-festival/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17141/b11-king-s-festival-basic"
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,13 @@
       "date": "2003-07",
       "format": "hardcover",
       "isbn13": 9780786928866,
-      "cover": "/images/rol/players-handbook-3-5/english.webp"
+      "cover": "/images/rol/players-handbook-3-5/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/148008/player-s-handbook-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

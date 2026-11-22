@@ -13,7 +13,13 @@
       "date": "2005-10",
       "format": "hardcover",
       "isbn13": 9780786936960,
-      "cover": "/images/rol/magic-of-eberron/english.webp"
+      "cover": "/images/rol/magic-of-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3729/magic-of-eberron-3-5"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "boxed_set",
-      "cover": "/images/rol/city-by-the-silt-sea/english.webp"
+      "cover": "/images/rol/city-by-the-silt-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17200/city-by-the-silt-sea-2e"
+        }
+      ]
     }
   ]
 }

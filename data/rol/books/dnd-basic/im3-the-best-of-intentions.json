@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/im3-the-best-of-intentions/english.webp"
+      "cover": "/images/rol/im3-the-best-of-intentions/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17136/im3-the-best-of-intentions-basic"
+        }
+      ]
     }
   ]
 }

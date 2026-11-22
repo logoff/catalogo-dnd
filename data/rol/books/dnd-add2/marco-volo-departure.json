@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/marco-volo-departure/english.webp"
+      "cover": "/images/rol/marco-volo-departure/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17558/marco-volo-departure-2e"
+        }
+      ]
     }
   ]
 }

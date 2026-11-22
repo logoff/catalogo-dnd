@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/joshuans-almanac-and-book-of-facts/english.webp"
+      "cover": "/images/rol/joshuans-almanac-and-book-of-facts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17350/joshuan-s-almanac-book-of-facts-basic-2e"
+        }
+      ]
     }
   ]
 }

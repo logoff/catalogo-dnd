@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Pelgrane Press",
-      "date": "2013"
+      "date": "2013",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/142231/shadows-of-eldolan"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/c4-to-find-a-king/english.webp"
+      "cover": "/images/rol/c4-to-find-a-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17034/c4-to-find-a-king-1e"
+        }
+      ]
     }
   ]
 }

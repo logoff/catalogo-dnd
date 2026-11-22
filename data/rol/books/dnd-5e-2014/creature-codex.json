@@ -14,6 +14,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/1936781921/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/252157/creature-codex-for-5th-edition"
         }
       ]
     }

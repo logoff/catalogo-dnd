@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1980",
       "format": "paperback",
-      "cover": "/images/rol/monster-and-treasure-assortment-sets-one-three-levels-one-nine/english.webp"
+      "cover": "/images/rol/monster-and-treasure-assortment-sets-one-three-levels-one-nine/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16966/d-d-monster-treasure-assortment-sets-one-to-three"
+        }
+      ]
     }
   ]
 }

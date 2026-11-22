@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2001-08",
       "isbn13": 9780786919642,
-      "cover": "/images/rol/magic-of-faerun/english.webp"
+      "cover": "/images/rol/magic-of-faerun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3731/magic-of-faerun-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

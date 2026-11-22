@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/children-of-the-night-vampires/english.webp"
+      "cover": "/images/rol/children-of-the-night-vampires/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110201/children-of-the-night-vampires-2e"
+        }
+      ]
     }
   ]
 }

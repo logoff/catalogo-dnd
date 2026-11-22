@@ -13,7 +13,13 @@
       "date": "2005-01",
       "format": "paperback",
       "isbn13": 9780786936526,
-      "cover": "/images/rol/grasp-of-the-emerald-claw/english.webp"
+      "cover": "/images/rol/grasp-of-the-emerald-claw/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28587/eberron-grasp-of-the-emerald-claw-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

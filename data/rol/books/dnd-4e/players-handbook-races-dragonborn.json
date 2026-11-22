@@ -12,7 +12,13 @@
       "date": "2010-01",
       "format": "paperback",
       "isbn13": 9780786953868,
-      "cover": "/images/rol/players-handbook-races-dragonborn/english.webp"
+      "cover": "/images/rol/players-handbook-races-dragonborn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/146652/player-s-handbook-races-dragonborn-4e"
+        }
+      ]
     }
   ]
 }

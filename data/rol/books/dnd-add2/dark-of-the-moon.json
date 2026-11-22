@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/dark-of-the-moon/english.webp"
+      "cover": "/images/rol/dark-of-the-moon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17504/dark-of-the-moon-2e"
+        }
+      ]
     }
   ]
 }

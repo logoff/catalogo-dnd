@@ -8,7 +8,13 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Goodman Games"
+      "publisher": "Goodman Games",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/132657/fifth-edition-fantasy-1-glitterdoom"
+        }
+      ]
     },
     {
       "language": "castellano",

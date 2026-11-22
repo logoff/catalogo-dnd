@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1979",
       "format": "paperback",
-      "cover": "/images/rol/s2-white-plume-mountain/english.webp"
+      "cover": "/images/rol/s2-white-plume-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17064/s2-white-plume-mountain-1e"
+        }
+      ]
     }
   ]
 }

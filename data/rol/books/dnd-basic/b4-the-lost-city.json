@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1982",
       "format": "paperback",
-      "cover": "/images/rol/b4-the-lost-city/english.webp"
+      "cover": "/images/rol/b4-the-lost-city/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17084/b4-the-lost-city-basic"
+        }
+      ]
     },
     {
       "language": "castellano",

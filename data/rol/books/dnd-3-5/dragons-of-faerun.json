@@ -13,7 +13,13 @@
       "date": "2006-08",
       "format": "hardcover",
       "isbn13": 9780786939237,
-      "cover": "/images/rol/dragons-of-faerun/english.webp"
+      "cover": "/images/rol/dragons-of-faerun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57386/dragons-of-faerun-3-5"
+        }
+      ]
     }
   ]
 }

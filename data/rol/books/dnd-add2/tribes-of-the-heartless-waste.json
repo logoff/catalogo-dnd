@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1997",
-      "cover": "/images/rol/tribes-of-the-heartless-waste/english.webp"
+      "cover": "/images/rol/tribes-of-the-heartless-waste/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16946/tribes-of-the-heartless-waste-2e"
+        }
+      ]
     }
   ]
 }

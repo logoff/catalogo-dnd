@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1981",
       "format": "paperback",
-      "cover": "/images/rol/d1-2-descent-into-the-depths-of-the-earth/english.webp"
+      "cover": "/images/rol/d1-2-descent-into-the-depths-of-the-earth/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17041/d1-2-descent-into-the-depths-of-the-earth-1e"
+        }
+      ]
     }
   ]
 }

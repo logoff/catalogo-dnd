@@ -12,7 +12,13 @@
       "date": "2010-08",
       "format": "hardcover",
       "isbn13": 9780786955602,
-      "cover": "/images/rol/psionic-power/english.webp"
+      "cover": "/images/rol/psionic-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/144596/psionic-power-4e"
+        }
+      ]
     }
   ]
 }

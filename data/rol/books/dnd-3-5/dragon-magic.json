@@ -12,7 +12,13 @@
       "date": "2006-09",
       "format": "hardcover",
       "isbn13": 9780786939367,
-      "cover": "/images/rol/dragon-magic/english.webp"
+      "cover": "/images/rol/dragon-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51634/dragon-magic-3-5"
+        }
+      ]
     }
   ]
 }

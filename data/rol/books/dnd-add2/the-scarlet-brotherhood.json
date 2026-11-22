@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "paperback",
-      "cover": "/images/rol/the-scarlet-brotherhood/english.webp"
+      "cover": "/images/rol/the-scarlet-brotherhood/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17402/the-scarlet-brotherhood-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

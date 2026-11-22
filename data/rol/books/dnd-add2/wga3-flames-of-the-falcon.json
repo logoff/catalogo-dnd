@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/wga3-flames-of-the-falcon/english.webp"
+      "cover": "/images/rol/wga3-flames-of-the-falcon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17422/wga3-flames-of-the-falcon-2e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1975",
       "format": "paperback",
-      "cover": "/images/rol/supplement-i-greyhawk/english.webp"
+      "cover": "/images/rol/supplement-i-greyhawk/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17174/od-d-supplement-i-greyhawk-0e"
+        }
+      ]
     }
   ]
 }

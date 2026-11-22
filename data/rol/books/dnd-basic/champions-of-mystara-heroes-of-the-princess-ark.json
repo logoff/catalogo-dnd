@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "boxed_set",
-      "cover": "/images/rol/champions-of-mystara-heroes-of-the-princess-ark/english.webp"
+      "cover": "/images/rol/champions-of-mystara-heroes-of-the-princess-ark/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17344/champions-of-mystara-heroes-of-the-princess-ark-basic"
+        }
+      ]
     }
   ]
 }

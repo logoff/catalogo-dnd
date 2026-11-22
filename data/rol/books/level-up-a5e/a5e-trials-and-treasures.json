@@ -16,6 +16,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/1912007835/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/376476/level-up-trials-treasures-a5e"
         }
       ]
     }

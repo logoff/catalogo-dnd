@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/uk5-eye-of-the-serpent/english.webp"
+      "cover": "/images/rol/uk5-eye-of-the-serpent/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17076/uk5-eye-of-the-serpent-1e"
+        }
+      ]
     }
   ]
 }

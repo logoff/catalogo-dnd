@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1982",
       "format": "paperback",
-      "cover": "/images/rol/n1-against-the-cult-of-the-reptile-god/english.webp"
+      "cover": "/images/rol/n1-against-the-cult-of-the-reptile-god/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17056/n1-against-the-cult-of-the-reptile-god-1e"
+        }
+      ]
     }
   ]
 }

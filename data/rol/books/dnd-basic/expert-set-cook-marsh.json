@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1981",
       "format": "boxed_set",
-      "cover": "/images/rol/expert-set-cook-marsh/english.webp"
+      "cover": "/images/rol/expert-set-cook-marsh/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110792/d-d-expert-set-rulebook-b-x-ed-basic"
+        }
+      ]
     }
   ]
 }

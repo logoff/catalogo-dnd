@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "hardcover",
-      "cover": "/images/rol/monster-manual-ii-1e/english.webp"
+      "cover": "/images/rol/monster-manual-ii-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17005/monster-manual-ii-1e"
+        }
+      ]
     }
   ]
 }

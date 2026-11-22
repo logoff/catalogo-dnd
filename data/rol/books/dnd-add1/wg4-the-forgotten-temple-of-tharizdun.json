@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1982",
       "format": "paperback",
-      "cover": "/images/rol/wg4-the-forgotten-temple-of-tharizdun/english.webp"
+      "cover": "/images/rol/wg4-the-forgotten-temple-of-tharizdun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17080/wg4-the-forgotten-temple-of-tharizdun-1e"
+        }
+      ]
     }
   ]
 }

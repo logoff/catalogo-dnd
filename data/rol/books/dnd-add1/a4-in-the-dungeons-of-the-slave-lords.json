@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1981",
       "format": "paperback",
-      "cover": "/images/rol/a4-in-the-dungeons-of-the-slave-lords/english.webp"
+      "cover": "/images/rol/a4-in-the-dungeons-of-the-slave-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17030/a4-in-the-dungeons-of-the-slave-lords-1e"
+        }
+      ]
     }
   ]
 }

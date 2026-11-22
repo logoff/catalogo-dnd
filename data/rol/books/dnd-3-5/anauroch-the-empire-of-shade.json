@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2007-11",
       "isbn13": 9780786943623,
-      "cover": "/images/rol/anauroch-the-empire-of-shade/english.webp"
+      "cover": "/images/rol/anauroch-the-empire-of-shade/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51675/anauroch-the-empire-of-shade-3-5"
+        }
+      ]
     }
   ]
 }

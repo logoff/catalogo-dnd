@@ -11,7 +11,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2007-09",
       "isbn13": 9780786943609,
-      "cover": "/images/rol/fortress-of-the-yuan-ti/english.webp"
+      "cover": "/images/rol/fortress-of-the-yuan-ti/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54388/dd3-fortress-of-the-yuan-ti-3-5"
+        }
+      ]
     }
   ]
 }

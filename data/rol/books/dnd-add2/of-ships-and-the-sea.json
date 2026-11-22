@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "paperback",
-      "cover": "/images/rol/of-ships-and-the-sea/english.webp"
+      "cover": "/images/rol/of-ships-and-the-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16933/dmgr9-of-ships-and-the-sea-2e"
+        }
+      ]
     }
   ]
 }

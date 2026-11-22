@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "2000",
       "format": "paperback",
-      "cover": "/images/rol/priests-spell-compendium-volume-three/english.webp"
+      "cover": "/images/rol/priests-spell-compendium-volume-three/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17384/priest-s-spell-compendium-vol-3-2e"
+        }
+      ]
     }
   ]
 }

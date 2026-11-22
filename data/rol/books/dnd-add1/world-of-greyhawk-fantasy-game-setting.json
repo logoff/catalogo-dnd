@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "boxed_set",
-      "cover": "/images/rol/world-of-greyhawk-fantasy-game-setting/english.webp"
+      "cover": "/images/rol/world-of-greyhawk-fantasy-game-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17392/world-of-greyhawk-fantasy-game-setting-1e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1976",
       "format": "paperback",
-      "cover": "/images/rol/supplement-iii-eldritch-wizardry/english.webp"
+      "cover": "/images/rol/supplement-iii-eldritch-wizardry/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17176/od-d-supplement-iii-eldritch-wizardry-0e"
+        }
+      ]
     }
   ]
 }

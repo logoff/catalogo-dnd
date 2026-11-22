@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/x6-quagmire/english.webp"
+      "cover": "/images/rol/x6-quagmire/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17100/x6-quagmire-basic"
+        }
+      ]
     }
   ]
 }

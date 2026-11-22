@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/rq3-from-the-shadows/english.webp"
+      "cover": "/images/rol/rq3-from-the-shadows/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17496/rq3-from-the-shadows-2e"
+        }
+      ]
     }
   ]
 }

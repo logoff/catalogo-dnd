@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/dda3-eye-of-traldar/english.webp"
+      "cover": "/images/rol/dda3-eye-of-traldar/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/193620/dda3-eye-of-traldar-basic"
+        }
+      ]
     }
   ]
 }

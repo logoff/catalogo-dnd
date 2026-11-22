@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/forged-of-darkness/english.webp"
+      "cover": "/images/rol/forged-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17515/forged-of-darkness-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2005-12",
       "format": "hardcover",
       "isbn13": 9780786937028,
-      "cover": "/images/rol/spell-compendium/english.webp"
+      "cover": "/images/rol/spell-compendium/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28314/spell-compendium-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",
