@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/uk7-dark-clouds-gather/english.webp"
+      "cover": "/images/rol/uk7-dark-clouds-gather/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17078/uk7-dark-clouds-gather-1e"
+        }
+      ]
     }
   ]
 }

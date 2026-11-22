@@ -12,6 +12,7 @@ interface ImportMetaEnv {
   readonly VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM?: string
   readonly VITE_AFFILIATE_NEXTORY_PROGRAM?: string
   readonly VITE_AFFILIATE_NOSOLOROL_PROGRAM?: string
+  readonly VITE_AFFILIATE_DRIVETHRU_ID?: string
 }
 
 // Índice de novelas generado en el build por el plugin novelsIndex (vite.config.ts)

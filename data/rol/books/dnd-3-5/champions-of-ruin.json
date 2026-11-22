@@ -13,7 +13,13 @@
       "date": "2005-05",
       "format": "hardcover",
       "isbn13": 9780786936922,
-      "cover": "/images/rol/champions-of-ruin/english.webp"
+      "cover": "/images/rol/champions-of-ruin/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3730/champions-of-ruin-3-5"
+        }
+      ]
     }
   ]
 }

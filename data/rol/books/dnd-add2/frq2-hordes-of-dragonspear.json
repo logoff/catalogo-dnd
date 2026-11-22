@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/frq2-hordes-of-dragonspear/english.webp"
+      "cover": "/images/rol/frq2-hordes-of-dragonspear/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16835/frq2-hordes-of-dragonspear-2e"
+        }
+      ]
     }
   ]
 }

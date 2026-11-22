@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/fr14-the-great-glacier/english.webp"
+      "cover": "/images/rol/fr14-the-great-glacier/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16832/fr14-the-great-glacier-2e"
+        }
+      ]
     }
   ]
 }

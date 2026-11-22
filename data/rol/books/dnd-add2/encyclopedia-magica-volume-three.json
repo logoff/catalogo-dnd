@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/encyclopedia-magica-volume-three/english.webp"
+      "cover": "/images/rol/encyclopedia-magica-volume-three/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17462/encyclopedia-magica-vol-3-p-s-2e"
+        }
+      ]
     }
   ]
 }

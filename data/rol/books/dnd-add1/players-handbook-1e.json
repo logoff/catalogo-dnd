@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1978",
       "format": "hardcover",
-      "cover": "/images/rol/players-handbook-1e/english.webp"
+      "cover": "/images/rol/players-handbook-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17003/players-handbook-1e"
+        }
+      ]
     }
   ]
 }

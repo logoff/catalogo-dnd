@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1988",
       "format": "paperback",
-      "cover": "/images/rol/h4-the-throne-of-bloodstone/english.webp"
+      "cover": "/images/rol/h4-the-throne-of-bloodstone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16805/h4-the-throne-of-bloodstone-1e"
+        }
+      ]
     }
   ]
 }

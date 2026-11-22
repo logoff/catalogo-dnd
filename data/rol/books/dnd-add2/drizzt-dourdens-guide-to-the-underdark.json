@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "paperback",
-      "cover": "/images/rol/drizzt-dourdens-guide-to-the-underdark/english.webp"
+      "cover": "/images/rol/drizzt-dourdens-guide-to-the-underdark/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17547/drizzt-do-urden-s-guide-to-the-underdark-2e"
+        }
+      ]
     }
   ]
 }

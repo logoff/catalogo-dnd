@@ -13,7 +13,13 @@
       "date": "2004-07",
       "format": "paperback",
       "isbn13": 9780786932764,
-      "cover": "/images/rol/shadows-of-the-last-war/english.webp"
+      "cover": "/images/rol/shadows-of-the-last-war/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3739/eberron-shadows-of-the-last-war-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

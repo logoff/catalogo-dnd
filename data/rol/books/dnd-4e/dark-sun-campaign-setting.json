@@ -13,7 +13,13 @@
       "date": "2010-08",
       "format": "hardcover",
       "isbn13": 9780786954933,
-      "cover": "/images/rol/dark-sun-campaign-setting/english.webp"
+      "cover": "/images/rol/dark-sun-campaign-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/129293/dark-sun-campaign-setting-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

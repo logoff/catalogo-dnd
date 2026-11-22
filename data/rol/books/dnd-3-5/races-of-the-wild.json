@@ -12,7 +12,13 @@
       "date": "2005-02",
       "format": "hardcover",
       "isbn13": 9780786934386,
-      "cover": "/images/rol/races-of-the-wild/english.webp"
+      "cover": "/images/rol/races-of-the-wild/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3722/races-of-the-wild-3-5"
+        }
+      ]
     }
   ]
 }

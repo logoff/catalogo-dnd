@@ -12,7 +12,13 @@
       "date": "2003-06",
       "format": "hardcover",
       "isbn13": 9780786928347,
-      "cover": "/images/rol/ghostwalk/english.webp"
+      "cover": "/images/rol/ghostwalk/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/169140/ghostwalk-3e"
+        }
+      ]
     }
   ]
 }

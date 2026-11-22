@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1980",
       "format": "paperback",
-      "cover": "/images/rol/q1-queen-of-the-demonweb-pits/english.webp"
+      "cover": "/images/rol/q1-queen-of-the-demonweb-pits/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17054/q1-queen-of-the-demonweb-pits-1e"
+        }
+      ]
     }
   ]
 }

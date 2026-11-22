@@ -17,6 +17,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/1950789756/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/480452/tales-of-the-valiant-player-s-guide"
         }
       ]
     },

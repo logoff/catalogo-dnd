@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1990",
-      "cover": "/images/rol/mc6-monstrous-compendium-kara-tur-appendix/english.webp"
+      "cover": "/images/rol/mc6-monstrous-compendium-kara-tur-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17319/mc6-monstrous-compendium-kara-tur-appendix-2e"
+        }
+      ]
     }
   ]
 }

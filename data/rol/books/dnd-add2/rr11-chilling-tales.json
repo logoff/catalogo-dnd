@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/rr11-chilling-tales/english.webp"
+      "cover": "/images/rol/rr11-chilling-tales/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17510/chilling-tales-2e"
+        }
+      ]
     }
   ]
 }

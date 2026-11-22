@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "paperback",
-      "cover": "/images/rol/faces-of-evil-the-fiends/english.webp"
+      "cover": "/images/rol/faces-of-evil-the-fiends/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121100/faces-of-evil-the-fiends-2e"
+        }
+      ]
     }
   ]
 }

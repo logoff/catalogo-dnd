@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "hardcover",
-      "cover": "/images/rol/players-option-skills-and-powers/english.webp"
+      "cover": "/images/rol/players-option-skills-and-powers/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16863/player-s-option-skills-power-2e"
+        }
+      ]
     }
   ]
 }

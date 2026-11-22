@@ -12,7 +12,13 @@
       "date": "2006-07",
       "format": "hardcover",
       "isbn13": 9780786939206,
-      "cover": "/images/rol/monster-manual-iv/english.webp"
+      "cover": "/images/rol/monster-manual-iv/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51646/monster-manual-iv-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

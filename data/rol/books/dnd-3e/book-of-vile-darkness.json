@@ -12,7 +12,13 @@
       "date": "2002-10",
       "format": "hardcover",
       "isbn13": 9780786926503,
-      "cover": "/images/rol/book-of-vile-darkness/english.webp"
+      "cover": "/images/rol/book-of-vile-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3723/book-of-vile-darkness-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

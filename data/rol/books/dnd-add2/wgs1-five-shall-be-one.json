@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/wgs1-five-shall-be-one/english.webp"
+      "cover": "/images/rol/wgs1-five-shall-be-one/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17425/wgs1-five-shall-be-one-2e"
+        }
+      ]
     }
   ]
 }

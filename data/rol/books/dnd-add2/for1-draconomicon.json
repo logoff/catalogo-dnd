@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/for1-draconomicon/english.webp"
+      "cover": "/images/rol/for1-draconomicon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16821/for1-draconomicon-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/dmgr1-campaign-sourcebook-and-catacomb-guide/english.webp"
+      "cover": "/images/rol/dmgr1-campaign-sourcebook-and-catacomb-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16887/dmgr1-campaign-sourcebook-and-catacomb-guide-2e"
+        }
+      ]
     }
   ]
 }

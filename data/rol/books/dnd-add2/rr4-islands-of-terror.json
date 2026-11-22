@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/rr4-islands-of-terror/english.webp"
+      "cover": "/images/rol/rr4-islands-of-terror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17492/rr4-islands-of-terror-2e"
+        }
+      ]
     }
   ]
 }

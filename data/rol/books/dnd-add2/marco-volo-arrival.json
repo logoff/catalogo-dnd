@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/marco-volo-arrival/english.webp"
+      "cover": "/images/rol/marco-volo-arrival/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17560/marco-volo-arrival-2e"
+        }
+      ]
     }
   ]
 }

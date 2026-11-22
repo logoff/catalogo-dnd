@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/dle1-in-search-of-dragons/english.webp"
+      "cover": "/images/rol/dle1-in-search-of-dragons/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17366/dle1-in-search-of-dragons-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

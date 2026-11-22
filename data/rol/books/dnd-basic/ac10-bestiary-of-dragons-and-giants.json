@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/ac10-bestiary-of-dragons-and-giants/english.webp"
+      "cover": "/images/rol/ac10-bestiary-of-dragons-and-giants/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16976/ac10-bestiary-of-dragons-giants-basic"
+        }
+      ]
     }
   ]
 }

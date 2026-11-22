@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1986",
       "format": "paperback",
-      "cover": "/images/rol/ref3-the-book-of-lairs/english.webp"
+      "cover": "/images/rol/ref3-the-book-of-lairs/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17019/ref3-the-book-of-lairs-1e"
+        }
+      ]
     }
   ]
 }

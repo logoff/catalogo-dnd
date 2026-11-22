@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/s5-the-dancing-hut-of-baba-yaga/english.webp"
+      "cover": "/images/rol/s5-the-dancing-hut-of-baba-yaga/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17358/s5-the-dancing-hut-of-baba-yaga-2e"
+        }
+      ]
     }
   ]
 }

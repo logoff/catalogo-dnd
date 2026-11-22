@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/uk1-beyond-the-crystal-cave/english.webp"
+      "cover": "/images/rol/uk1-beyond-the-crystal-cave/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17072/uk1-beyond-the-crystal-cave-1e"
+        }
+      ]
     }
   ]
 }

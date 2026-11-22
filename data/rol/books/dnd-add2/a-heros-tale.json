@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/a-heros-tale/english.webp"
+      "cover": "/images/rol/a-heros-tale/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/189072/a-hero-s-tale-2e"
+        }
+      ]
     }
   ]
 }

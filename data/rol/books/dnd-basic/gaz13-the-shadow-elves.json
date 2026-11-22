@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/gaz13-the-shadow-elves/english.webp"
+      "cover": "/images/rol/gaz13-the-shadow-elves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16991/gaz13-the-shadow-elves-basic"
+        }
+      ]
     }
   ]
 }

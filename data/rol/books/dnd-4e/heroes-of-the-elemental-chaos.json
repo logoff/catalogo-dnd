@@ -12,7 +12,13 @@
       "date": "2012-02",
       "format": "hardcover",
       "isbn13": 9780786959815,
-      "cover": "/images/rol/heroes-of-the-elemental-chaos/english.webp"
+      "cover": "/images/rol/heroes-of-the-elemental-chaos/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/149133/player-s-option-heroes-of-the-elemental-chaos-4e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2006-11",
       "format": "paperback",
       "isbn13": 9780786939350,
-      "cover": "/images/rol/scourge-of-the-howling-horde/english.webp"
+      "cover": "/images/rol/scourge-of-the-howling-horde/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54393/scourge-of-the-howling-horde-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

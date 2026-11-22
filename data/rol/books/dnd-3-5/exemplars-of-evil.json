@@ -12,7 +12,13 @@
       "date": "2007-09",
       "format": "hardcover",
       "isbn13": 9780786943616,
-      "cover": "/images/rol/exemplars-of-evil/english.webp"
+      "cover": "/images/rol/exemplars-of-evil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54310/exemplars-of-evil-3-5"
+        }
+      ]
     }
   ]
 }

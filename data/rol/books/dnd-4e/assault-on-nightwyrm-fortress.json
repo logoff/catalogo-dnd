@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2009-03",
       "isbn13": 9780786950003,
-      "cover": "/images/rol/assault-on-nightwyrm-fortress/english.webp"
+      "cover": "/images/rol/assault-on-nightwyrm-fortress/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/60483/p3-assault-on-nightwyrm-fortress-4e"
+        }
+      ]
     }
   ]
 }

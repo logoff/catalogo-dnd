@@ -13,7 +13,13 @@
       "date": "2004-09",
       "format": "paperback",
       "isbn13": 9780786935109,
-      "cover": "/images/rol/whispers-of-the-vampires-blade/english.webp"
+      "cover": "/images/rol/whispers-of-the-vampires-blade/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28712/eberron-whispers-of-the-vampire-s-blade-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

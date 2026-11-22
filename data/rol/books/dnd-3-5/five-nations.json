@@ -13,7 +13,13 @@
       "date": "2005-07",
       "format": "hardcover",
       "isbn13": 9780786936908,
-      "cover": "/images/rol/five-nations/english.webp"
+      "cover": "/images/rol/five-nations/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121301/eberron-five-nations-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

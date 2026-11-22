@@ -13,7 +13,13 @@
       "date": "2007-10",
       "format": "hardcover",
       "isbn13": 9780786941544,
-      "cover": "/images/rol/dragons-of-eberron/english.webp"
+      "cover": "/images/rol/dragons-of-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54307/dragons-of-eberron-3-5"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/oa6-ronin-challenge/english.webp"
+      "cover": "/images/rol/oa6-ronin-challenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/200813/oa6-ronin-challenge-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/dle3-dragon-keep/english.webp"
+      "cover": "/images/rol/dle3-dragon-keep/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17368/dle3-dragon-keep-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

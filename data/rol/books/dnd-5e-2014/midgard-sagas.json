@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2018"
+      "date": "2018",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/260076/midgard-sagas-for-5th-edition"
+        }
+      ]
     }
   ]
 }

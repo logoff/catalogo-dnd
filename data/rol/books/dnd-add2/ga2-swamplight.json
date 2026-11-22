@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/ga2-swamplight/english.webp"
+      "cover": "/images/rol/ga2-swamplight/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17312/ga2-swamplight-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

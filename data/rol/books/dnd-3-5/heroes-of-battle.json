@@ -12,7 +12,13 @@
       "date": "2005-05",
       "format": "hardcover",
       "isbn13": 9780786936861,
-      "cover": "/images/rol/heroes-of-battle/english.webp"
+      "cover": "/images/rol/heroes-of-battle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3732/heroes-of-battle-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

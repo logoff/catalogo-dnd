@@ -13,7 +13,13 @@
       "date": "2008-06",
       "format": "hardcover",
       "isbn13": 9780786948673,
-      "cover": "/images/rol/players-handbook-4e/english.webp"
+      "cover": "/images/rol/players-handbook-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/161671/player-s-handbook-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

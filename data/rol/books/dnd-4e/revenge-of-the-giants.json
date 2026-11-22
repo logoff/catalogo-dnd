@@ -11,7 +11,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2009-08",
       "isbn13": 9780786952052,
-      "cover": "/images/rol/revenge-of-the-giants/english.webp"
+      "cover": "/images/rol/revenge-of-the-giants/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/187870/revenge-of-the-giants-4e"
+        }
+      ]
     }
   ]
 }

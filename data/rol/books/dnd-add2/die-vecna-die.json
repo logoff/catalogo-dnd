@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "2000",
       "format": "paperback",
-      "cover": "/images/rol/die-vecna-die/english.webp"
+      "cover": "/images/rol/die-vecna-die/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17483/die-vecna-die-2e"
+        }
+      ]
     }
   ]
 }

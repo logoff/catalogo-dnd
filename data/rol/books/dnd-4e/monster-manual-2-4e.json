@@ -13,7 +13,13 @@
       "date": "2009-05",
       "format": "hardcover",
       "isbn13": 9780786951017,
-      "cover": "/images/rol/monster-manual-2-4e/english.webp"
+      "cover": "/images/rol/monster-manual-2-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121102/monster-manual-2-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

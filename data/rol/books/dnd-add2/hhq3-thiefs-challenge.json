@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/hhq3-thiefs-challenge/english.webp"
+      "cover": "/images/rol/hhq3-thiefs-challenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17309/hhq3-thief-s-challenge-2e"
+        }
+      ]
     }
   ]
 }

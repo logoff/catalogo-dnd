@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/cm4-earthshaker/english.webp"
+      "cover": "/images/rol/cm4-earthshaker/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17116/cm4-earthshaker-basic"
+        }
+      ]
     }
   ]
 }

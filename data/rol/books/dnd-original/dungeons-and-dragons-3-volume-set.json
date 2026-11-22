@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1974",
       "format": "boxed_set",
-      "cover": "/images/rol/dungeons-and-dragons-3-volume-set/english.webp"
+      "cover": "/images/rol/dungeons-and-dragons-3-volume-set/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28306/od-d-dungeons-dragons-original-edition-0e"
+        }
+      ]
     }
   ]
 }

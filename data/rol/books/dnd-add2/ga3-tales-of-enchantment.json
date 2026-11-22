@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/ga3-tales-of-enchantment/english.webp"
+      "cover": "/images/rol/ga3-tales-of-enchantment/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17314/ga3-tales-of-enchantment-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

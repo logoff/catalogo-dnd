@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "boxed_set",
-      "cover": "/images/rol/lands-of-intrigue/english.webp"
+      "cover": "/images/rol/lands-of-intrigue/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17548/lands-of-intrigue-2e"
+        }
+      ]
     }
   ]
 }

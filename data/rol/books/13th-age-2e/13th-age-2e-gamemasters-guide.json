@@ -13,7 +13,13 @@
       "date": "2025",
       "format": "hardcover",
       "isbn13": 9781912324590,
-      "cover": "/images/rol/13th-age-2e-gamemasters-guide/english.webp"
+      "cover": "/images/rol/13th-age-2e-gamemasters-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/532649/13th-age-second-edition-gamemaster-s-guide"
+        }
+      ]
     }
   ]
 }

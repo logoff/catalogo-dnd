@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1996",
-      "cover": "/images/rol/the-gates-of-firestorm-peak/english.webp"
+      "cover": "/images/rol/the-gates-of-firestorm-peak/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17335/the-gates-of-firestorm-peak-2e"
+        }
+      ]
     }
   ]
 }

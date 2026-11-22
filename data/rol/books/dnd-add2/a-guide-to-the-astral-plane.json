@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/a-guide-to-the-astral-plane/english.webp"
+      "cover": "/images/rol/a-guide-to-the-astral-plane/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17287/a-guide-to-the-astral-plane-2e"
+        }
+      ]
     }
   ]
 }

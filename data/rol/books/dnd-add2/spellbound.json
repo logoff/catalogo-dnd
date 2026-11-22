@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "boxed_set",
-      "cover": "/images/rol/spellbound/english.webp"
+      "cover": "/images/rol/spellbound/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/216643/spellbound-2e"
+        }
+      ]
     }
   ]
 }

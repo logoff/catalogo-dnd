@@ -13,6 +13,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/1950789055/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/373084/southlands-worldbook-for-5th-edition"
         }
       ]
     }

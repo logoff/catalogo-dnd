@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/the-complete-druids-handbook/english.webp"
+      "cover": "/images/rol/the-complete-druids-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16903/phbr13-complete-druid-s-handbook-2e"
+        }
+      ]
     }
   ]
 }

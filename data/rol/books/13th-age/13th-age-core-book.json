@@ -18,6 +18,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/190898340X/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/118994/13th-age-core-book"
         }
       ]
     },

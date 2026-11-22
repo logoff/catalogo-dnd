@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/monstrous-compendium-annual-volume-one/english.webp"
+      "cover": "/images/rol/monstrous-compendium-annual-volume-one/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16944/monstrous-compendium-annual-volume-1-2e"
+        }
+      ]
     }
   ]
 }

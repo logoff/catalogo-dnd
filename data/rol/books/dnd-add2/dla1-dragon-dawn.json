@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/dla1-dragon-dawn/english.webp"
+      "cover": "/images/rol/dla1-dragon-dawn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/209339/dla1-dragon-dawn-2e"
+        }
+      ]
     }
   ]
 }

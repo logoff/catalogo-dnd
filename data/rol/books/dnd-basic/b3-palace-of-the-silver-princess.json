@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1981",
       "format": "paperback",
-      "cover": "/images/rol/b3-palace-of-the-silver-princess/english.webp"
+      "cover": "/images/rol/b3-palace-of-the-silver-princess/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17159/b3-palace-of-the-silver-princess-basic"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1991",
-      "cover": "/images/rol/dlc1-classics-volume-i/english.webp"
+      "cover": "/images/rol/dlc1-classics-volume-i/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17370/dragonlance-classics-volume-i-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

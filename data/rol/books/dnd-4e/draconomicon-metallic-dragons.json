@@ -12,7 +12,13 @@
       "date": "2009-11",
       "format": "hardcover",
       "isbn13": 9780786952489,
-      "cover": "/images/rol/draconomicon-metallic-dragons/english.webp"
+      "cover": "/images/rol/draconomicon-metallic-dragons/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/146442/draconomicon-ii-metallic-dragons-4e"
+        }
+      ]
     }
   ]
 }

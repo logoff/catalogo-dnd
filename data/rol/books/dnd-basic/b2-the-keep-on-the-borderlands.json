@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1979",
       "format": "paperback",
-      "cover": "/images/rol/b2-the-keep-on-the-borderlands/english.webp"
+      "cover": "/images/rol/b2-the-keep-on-the-borderlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17158/b2-the-keep-on-the-borderlands-basic"
+        }
+      ]
     },
     {
       "language": "castellano",

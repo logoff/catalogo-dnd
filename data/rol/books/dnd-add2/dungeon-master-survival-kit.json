@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1995",
-      "cover": "/images/rol/dungeon-master-survival-kit/english.webp"
+      "cover": "/images/rol/dungeon-master-survival-kit/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17353/mystara-dungeon-master-survival-kit-2e"
+        }
+      ]
     }
   ]
 }

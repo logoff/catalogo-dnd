@@ -13,7 +13,13 @@
       "date": "2001-06",
       "format": "paperback",
       "isbn13": 9780786918430,
-      "cover": "/images/rol/return-to-the-temple-of-elemental-evil/english.webp"
+      "cover": "/images/rol/return-to-the-temple-of-elemental-evil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28447/return-to-the-temple-of-elemental-evil-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

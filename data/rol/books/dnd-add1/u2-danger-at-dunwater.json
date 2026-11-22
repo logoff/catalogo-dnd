@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1982",
-      "cover": "/images/rol/u2-danger-at-dunwater/english.webp"
+      "cover": "/images/rol/u2-danger-at-dunwater/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17070/u2-danger-at-dunwater-1e"
+        }
+      ]
     }
   ]
 }

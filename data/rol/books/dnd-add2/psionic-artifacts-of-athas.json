@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/psionic-artifacts-of-athas/english.webp"
+      "cover": "/images/rol/psionic-artifacts-of-athas/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17208/psionic-artifacts-of-athas-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/rr7-van-richtens-guide-to-werebeasts/english.webp"
+      "cover": "/images/rol/rr7-van-richtens-guide-to-werebeasts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17501/rr7-van-richten-s-guide-to-werebeasts-2e"
+        }
+      ]
     }
   ]
 }

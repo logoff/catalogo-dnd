@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1985",
-      "cover": "/images/rol/c5-the-bane-of-llywelyn/english.webp"
+      "cover": "/images/rol/c5-the-bane-of-llywelyn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17035/c5-the-bane-of-llewellyn-1e"
+        }
+      ]
     }
   ]
 }

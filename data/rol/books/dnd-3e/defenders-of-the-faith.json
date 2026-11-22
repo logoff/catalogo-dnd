@@ -12,7 +12,13 @@
       "date": "2001-05",
       "format": "paperback",
       "isbn13": 9780786918409,
-      "cover": "/images/rol/defenders-of-the-faith/english.webp"
+      "cover": "/images/rol/defenders-of-the-faith/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3725/defenders-of-the-faith-a-guidebook-to-clerics-and-paladins-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

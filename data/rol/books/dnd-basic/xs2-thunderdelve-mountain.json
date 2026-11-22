@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/xs2-thunderdelve-mountain/english.webp"
+      "cover": "/images/rol/xs2-thunderdelve-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17155/xs2-thunderdelve-mountain-basic"
+        }
+      ]
     }
   ]
 }

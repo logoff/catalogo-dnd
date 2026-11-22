@@ -11,7 +11,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2010-07",
       "isbn13": 9780786954919,
-      "cover": "/images/rol/tomb-of-horrors-4e/english.webp"
+      "cover": "/images/rol/tomb-of-horrors-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/153646/tomb-of-horrors-4e"
+        }
+      ]
     }
   ]
 }

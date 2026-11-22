@@ -13,7 +13,13 @@
       "date": "2008-08",
       "format": "hardcover",
       "isbn13": 9780786949243,
-      "cover": "/images/rol/forgotten-realms-campaign-guide/english.webp"
+      "cover": "/images/rol/forgotten-realms-campaign-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57376/forgotten-realms-campaign-guide-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

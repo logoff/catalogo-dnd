@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1991",
-      "cover": "/images/rol/mc8-monstrous-compendium-the-outer-planes-appendix/english.webp"
+      "cover": "/images/rol/mc8-monstrous-compendium-the-outer-planes-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16892/mc8-monstrous-compendium-outer-planes-appendix-2e"
+        }
+      ]
     }
   ]
 }

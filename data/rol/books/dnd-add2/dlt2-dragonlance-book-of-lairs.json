@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/dlt2-dragonlance-book-of-lairs/english.webp"
+      "cover": "/images/rol/dlt2-dragonlance-book-of-lairs/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17385/dragonlance-book-of-lairs-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

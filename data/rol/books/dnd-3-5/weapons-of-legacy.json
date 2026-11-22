@@ -12,7 +12,13 @@
       "date": "2005-07",
       "format": "hardcover",
       "isbn13": 9780786936885,
-      "cover": "/images/rol/weapons-of-legacy/english.webp"
+      "cover": "/images/rol/weapons-of-legacy/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27999/weapons-of-legacy-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

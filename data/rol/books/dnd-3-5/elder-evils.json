@@ -12,7 +12,13 @@
       "date": "2007-12",
       "format": "hardcover",
       "isbn13": 9780786947331,
-      "cover": "/images/rol/elder-evils/english.webp"
+      "cover": "/images/rol/elder-evils/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51677/elder-evils-3-5"
+        }
+      ]
     }
   ]
 }

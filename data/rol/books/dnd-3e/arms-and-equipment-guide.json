@@ -12,7 +12,13 @@
       "date": "2003-03",
       "format": "hardcover",
       "isbn13": 9780786926497,
-      "cover": "/images/rol/arms-and-equipment-guide/english.webp"
+      "cover": "/images/rol/arms-and-equipment-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3726/arms-and-equipment-guide-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

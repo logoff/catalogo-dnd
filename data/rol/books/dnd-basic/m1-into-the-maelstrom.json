@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/m1-into-the-maelstrom/english.webp"
+      "cover": "/images/rol/m1-into-the-maelstrom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176912/m1-into-the-maelstrom-basic"
+        }
+      ]
     }
   ]
 }

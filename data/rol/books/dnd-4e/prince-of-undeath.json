@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2009-10",
       "isbn13": 9780786952472,
-      "cover": "/images/rol/prince-of-undeath/english.webp"
+      "cover": "/images/rol/prince-of-undeath/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/142151/e3-prince-of-undeath-4e"
+        }
+      ]
     }
   ]
 }

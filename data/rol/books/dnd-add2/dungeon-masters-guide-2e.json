@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "hardcover",
-      "cover": "/images/rol/dungeon-masters-guide-2e/english.webp"
+      "cover": "/images/rol/dungeon-masters-guide-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17552/dungeon-master-guide-revised-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

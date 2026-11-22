@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/hwr2-kingdom-of-nithia/english.webp"
+      "cover": "/images/rol/hwr2-kingdom-of-nithia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16985/hwr2-kingdom-of-nithia-basic"
+        }
+      ]
     }
   ]
 }

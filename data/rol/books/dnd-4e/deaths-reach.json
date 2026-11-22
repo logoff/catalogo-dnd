@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2009-04",
       "isbn13": 9780786951024,
-      "cover": "/images/rol/deaths-reach/english.webp"
+      "cover": "/images/rol/deaths-reach/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/131515/e1-death-s-reach-4e"
+        }
+      ]
     }
   ]
 }

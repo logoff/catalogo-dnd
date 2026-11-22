@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/gaz4-the-kingdom-of-ierendi/english.webp"
+      "cover": "/images/rol/gaz4-the-kingdom-of-ierendi/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16977/gaz4-the-kingdom-of-ierendi-basic"
+        }
+      ]
     }
   ]
 }

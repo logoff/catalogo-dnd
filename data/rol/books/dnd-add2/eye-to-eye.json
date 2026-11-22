@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/eye-to-eye/english.webp"
+      "cover": "/images/rol/eye-to-eye/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17336/eye-to-eye-2e"
+        }
+      ]
     }
   ]
 }

@@ -365,12 +365,29 @@ describe('datos de otros juegos de rol', () => {
     expect(duplicated.map((b) => b.slug)).toEqual([])
   })
 
-  it('los libros de las ediciones anteriores de D&D no tienen enlaces de compra', () => {
+  // Están descatalogados: solo se venden en PDF o impresión bajo demanda en DMsGuild
+  it('los libros de las ediciones anteriores de D&D solo enlazan a DMsGuild', () => {
     const editions = systems.filter(isDndEdition).map((s) => s.slug)
-    const withLinks = books.filter(
-      (b) => editions.includes(b.system) && b.editions.some((e) => e.purchase_links?.length)
+    const wrong = books.filter(
+      (b) =>
+        editions.includes(b.system) &&
+        b.editions.some((e) => (e.purchase_links ?? []).some((l) => l.store !== 'dmsguild'))
     )
-    expect(withLinks.map((b) => b.slug)).toEqual([])
+    expect(wrong.map((b) => b.slug)).toEqual([])
+  })
+
+  it('DMsGuild solo en las ediciones anteriores de D&D y DriveThruRPG solo fuera de ellas', () => {
+    const editions = systems.filter(isDndEdition).map((s) => s.slug)
+    const wrong = books.filter((b) =>
+      b.editions.some((e) =>
+        (e.purchase_links ?? []).some(
+          (l) =>
+            (l.store === 'drivethrurpg' && editions.includes(b.system)) ||
+            (l.store === 'dmsguild' && !editions.includes(b.system))
+        )
+      )
+    )
+    expect(wrong.map((b) => b.slug)).toEqual([])
   })
 
   // Las ediciones anteriores de D&D llevan todo su catálogo, aunque solo esté en inglés
@@ -411,7 +428,7 @@ describe('datos de otros juegos de rol', () => {
   it('los enlaces de compra no llevan parámetros de afiliado', () => {
     const tagged = books
       .flatMap((b) => b.editions.flatMap((e) => e.purchase_links ?? []))
-      .filter((link) => /[?&](tag|a|awinaffid|igr)=/.test(link.url))
+      .filter((link) => /[?&](tag|a|awinaffid|igr|affiliate_id)=/.test(link.url))
     expect(tagged).toEqual([])
   })
 

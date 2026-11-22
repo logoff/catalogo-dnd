@@ -12,7 +12,13 @@
       "date": "2005-08",
       "format": "hardcover",
       "isbn13": 9780786936892,
-      "cover": "/images/rol/stormwrack/english.webp"
+      "cover": "/images/rol/stormwrack/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28313/stormwrack-3e"
+        }
+      ]
     }
   ]
 }

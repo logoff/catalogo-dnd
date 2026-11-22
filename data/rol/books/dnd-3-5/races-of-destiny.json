@@ -12,7 +12,13 @@
       "date": "2004-12",
       "format": "hardcover",
       "isbn13": 9780786936533,
-      "cover": "/images/rol/races-of-destiny/english.webp"
+      "cover": "/images/rol/races-of-destiny/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51647/races-of-destiny-3-5"
+        }
+      ]
     }
   ]
 }

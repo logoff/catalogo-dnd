@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "boxed_set",
-      "cover": "/images/rol/the-goblins-lair/english.webp"
+      "cover": "/images/rol/the-goblins-lair/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17156/the-goblin-s-lair-basic"
+        }
+      ]
     },
     {
       "language": "castellano",

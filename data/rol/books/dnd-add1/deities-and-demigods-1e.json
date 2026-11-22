@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1980",
       "format": "hardcover",
-      "cover": "/images/rol/deities-and-demigods-1e/english.webp"
+      "cover": "/images/rol/deities-and-demigods-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110198/deities-demigods-1e"
+        }
+      ]
     }
   ]
 }

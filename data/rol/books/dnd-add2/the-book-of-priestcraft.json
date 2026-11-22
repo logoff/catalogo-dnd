@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "paperback",
-      "cover": "/images/rol/the-book-of-priestcraft/english.webp"
+      "cover": "/images/rol/the-book-of-priestcraft/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/133455/birthright-book-of-priestcraft-2e"
+        }
+      ]
     }
   ]
 }

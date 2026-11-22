@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/i5-lost-tomb-of-martek/english.webp"
+      "cover": "/images/rol/i5-lost-tomb-of-martek/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17051/i5-lost-tomb-of-martek-1e"
+        }
+      ]
     }
   ]
 }

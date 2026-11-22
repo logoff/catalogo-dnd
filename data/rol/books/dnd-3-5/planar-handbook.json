@@ -12,7 +12,13 @@
       "date": "2004-07",
       "format": "hardcover",
       "isbn13": 9780786934294,
-      "cover": "/images/rol/planar-handbook/english.webp"
+      "cover": "/images/rol/planar-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27882/planar-handbook-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

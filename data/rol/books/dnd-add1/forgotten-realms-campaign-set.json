@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "boxed_set",
-      "cover": "/images/rol/forgotten-realms-campaign-set/english.webp"
+      "cover": "/images/rol/forgotten-realms-campaign-set/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16782/forgotten-realms-campaign-set-1e"
+        }
+      ]
     }
   ]
 }

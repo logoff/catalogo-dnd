@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/dda2-legions-of-thyatis/english.webp"
+      "cover": "/images/rol/dda2-legions-of-thyatis/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/191511/dda2-legions-of-thyatis-basic"
+        }
+      ]
     }
   ]
 }

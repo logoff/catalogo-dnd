@@ -12,7 +12,13 @@
       "date": "2002-04",
       "format": "hardcover",
       "isbn13": 9780786926541,
-      "cover": "/images/rol/deities-and-demigods-3e/english.webp"
+      "cover": "/images/rol/deities-and-demigods-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/130333/deities-and-demigods-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

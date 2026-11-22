@@ -12,7 +12,13 @@
       "date": "2007-10",
       "format": "hardcover",
       "isbn13": 9780786947300,
-      "cover": "/images/rol/dungeon-survival-guide/english.webp"
+      "cover": "/images/rol/dungeon-survival-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57085/dungeon-survival-guide-3-x"
+        }
+      ]
     }
   ]
 }

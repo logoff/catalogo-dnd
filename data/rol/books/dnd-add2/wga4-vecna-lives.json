@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/wga4-vecna-lives/english.webp"
+      "cover": "/images/rol/wga4-vecna-lives/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17424/wga4-vecna-lives-2e"
+        }
+      ]
     }
   ]
 }

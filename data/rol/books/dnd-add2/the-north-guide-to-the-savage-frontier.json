@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/the-north-guide-to-the-savage-frontier/english.webp"
+      "cover": "/images/rol/the-north-guide-to-the-savage-frontier/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17543/the-north-guide-to-the-savage-frontier-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2003-11",
       "format": "hardcover",
       "isbn13": 9780786928842,
-      "cover": "/images/rol/draconomicon/english.webp"
+      "cover": "/images/rol/draconomicon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25831/draconomicon-the-book-of-dragons-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

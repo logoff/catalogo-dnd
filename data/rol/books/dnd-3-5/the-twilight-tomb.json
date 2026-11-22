@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2006-09",
       "isbn13": 9780786939473,
-      "cover": "/images/rol/the-twilight-tomb/english.webp"
+      "cover": "/images/rol/the-twilight-tomb/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51649/the-twilight-tomb-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

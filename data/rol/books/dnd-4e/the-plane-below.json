@@ -12,7 +12,13 @@
       "date": "2009-12",
       "format": "hardcover",
       "isbn13": 9780786952496,
-      "cover": "/images/rol/the-plane-below/english.webp"
+      "cover": "/images/rol/the-plane-below/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/149853/the-plane-below-secrets-of-the-elemental-chaos-4e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1986",
       "format": "paperback",
-      "cover": "/images/rol/gdq1-7-queen-of-the-spiders/english.webp"
+      "cover": "/images/rol/gdq1-7-queen-of-the-spiders/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17036/gdq-1-7-queen-of-the-spiders"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/uk2-the-sentinel/english.webp"
+      "cover": "/images/rol/uk2-the-sentinel/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17073/uk2-the-sentinel-1e"
+        }
+      ]
     }
   ]
 }

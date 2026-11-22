@@ -12,7 +12,13 @@
       "date": "2008-09",
       "format": "hardcover",
       "isbn13": 9780786949786,
-      "cover": "/images/rol/adventurers-vault/english.webp"
+      "cover": "/images/rol/adventurers-vault/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110209/adventurer-s-vault-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

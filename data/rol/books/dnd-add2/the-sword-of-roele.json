@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/the-sword-of-roele/english.webp"
+      "cover": "/images/rol/the-sword-of-roele/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16923/the-sword-of-roele-2e"
+        }
+      ]
     }
   ]
 }

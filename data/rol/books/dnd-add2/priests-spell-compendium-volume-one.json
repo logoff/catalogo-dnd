@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "paperback",
-      "cover": "/images/rol/priests-spell-compendium-volume-one/english.webp"
+      "cover": "/images/rol/priests-spell-compendium-volume-one/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17382/priest-s-spell-compendium-vol-1-2e"
+        }
+      ]
     }
   ]
 }

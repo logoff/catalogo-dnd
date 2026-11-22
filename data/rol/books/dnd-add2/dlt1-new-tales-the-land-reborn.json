@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/dlt1-new-tales-the-land-reborn/english.webp"
+      "cover": "/images/rol/dlt1-new-tales-the-land-reborn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17383/dlt1-new-tales-the-land-reborn-2e"
+        }
+      ]
     }
   ]
 }

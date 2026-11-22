@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "Kobold Press",
       "date": "2024-10-16",
-      "format": "hardcover"
+      "format": "hardcover",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/497120/tales-of-the-valiant-game-master-s-guide"
+        }
+      ]
     }
   ]
 }

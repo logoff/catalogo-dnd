@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "paperback",
-      "cover": "/images/rol/for12-demihumans-of-the-realms/english.webp"
+      "cover": "/images/rol/for12-demihumans-of-the-realms/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16793/for12-demihumans-of-the-realms-2e"
+        }
+      ]
     }
   ]
 }

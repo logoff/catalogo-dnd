@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/pc1-tall-tales-of-the-wee-folk/english.webp"
+      "cover": "/images/rol/pc1-tall-tales-of-the-wee-folk/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16990/pc1-creature-crucible-tall-tales-of-the-wee-folk-basic"
+        }
+      ]
     }
   ]
 }

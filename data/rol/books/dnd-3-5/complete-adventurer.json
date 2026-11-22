@@ -12,7 +12,13 @@
       "date": "2005",
       "format": "hardcover",
       "isbn13": 9780786936519,
-      "cover": "/images/rol/complete-adventurer/english.webp"
+      "cover": "/images/rol/complete-adventurer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51630/complete-adventurer-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

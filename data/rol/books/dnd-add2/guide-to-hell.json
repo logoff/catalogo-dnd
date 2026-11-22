@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "paperback",
-      "cover": "/images/rol/guide-to-hell/english.webp"
+      "cover": "/images/rol/guide-to-hell/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17390/guide-to-hell-2e"
+        }
+      ]
     }
   ]
 }

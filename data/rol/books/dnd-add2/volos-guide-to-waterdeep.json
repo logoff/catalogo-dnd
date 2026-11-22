@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/volos-guide-to-waterdeep/english.webp"
+      "cover": "/images/rol/volos-guide-to-waterdeep/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16836/volo-s-guide-to-waterdeep-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

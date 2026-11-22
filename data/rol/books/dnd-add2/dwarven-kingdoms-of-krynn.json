@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "boxed_set",
-      "cover": "/images/rol/dwarven-kingdoms-of-krynn/english.webp"
+      "cover": "/images/rol/dwarven-kingdoms-of-krynn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16962/dwarven-kingdoms-of-krynn-2e"
+        }
+      ]
     }
   ]
 }

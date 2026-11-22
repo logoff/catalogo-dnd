@@ -189,6 +189,7 @@ se publica sin afiliado:
 | `VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM`      | ID del anunciante Casa del Libro en Awin        |
 | `VITE_AFFILIATE_NEXTORY_PROGRAM`             | ID del programa de Nextory en Adtraction        |
 | `VITE_AFFILIATE_NOSOLOROL_PROGRAM`           | ID del programa de NoSoloRol en Adtraction      |
+| `VITE_AFFILIATE_DRIVETHRU_ID`                | ID de afiliado de DMsGuild y DriveThruRPG       |
 
 En el despliegue se leen de los secretos del repositorio con el mismo
 nombre sin el prefijo `VITE_`. En local se pueden poner en `.env`.

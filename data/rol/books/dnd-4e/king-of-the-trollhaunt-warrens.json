@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2008-10",
       "isbn13": 9780786949281,
-      "cover": "/images/rol/king-of-the-trollhaunt-warrens/english.webp"
+      "cover": "/images/rol/king-of-the-trollhaunt-warrens/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/58378/p1-king-of-the-trollhaunt-warrens-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

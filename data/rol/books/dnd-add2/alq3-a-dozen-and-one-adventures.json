@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "boxed_set",
-      "cover": "/images/rol/alq3-a-dozen-and-one-adventures/english.webp"
+      "cover": "/images/rol/alq3-a-dozen-and-one-adventures/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16876/alq3-a-dozen-and-one-adventures-2e"
+        }
+      ]
     }
   ]
 }

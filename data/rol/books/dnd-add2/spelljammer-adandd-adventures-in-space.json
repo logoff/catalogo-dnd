@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "boxed_set",
-      "cover": "/images/rol/spelljammer-adandd-adventures-in-space/english.webp"
+      "cover": "/images/rol/spelljammer-adandd-adventures-in-space/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17263/spelljammer-adventures-in-space-2e"
+        }
+      ]
     }
   ]
 }

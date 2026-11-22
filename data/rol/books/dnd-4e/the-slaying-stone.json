@@ -12,7 +12,13 @@
       "date": "2010-05",
       "format": "paperback",
       "isbn13": 9780786953882,
-      "cover": "/images/rol/the-slaying-stone/english.webp"
+      "cover": "/images/rol/the-slaying-stone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110208/hs1-the-slaying-stone-4e"
+        }
+      ]
     }
   ]
 }

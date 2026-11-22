@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "EN Publishing",
       "date": "2022",
-      "format": "hardcover"
+      "format": "hardcover",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/376471/level-up-adventurer-s-guide-a5e"
+        }
+      ]
     }
   ]
 }

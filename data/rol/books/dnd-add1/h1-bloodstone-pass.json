@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1985",
-      "cover": "/images/rol/h1-bloodstone-pass/english.webp"
+      "cover": "/images/rol/h1-bloodstone-pass/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16800/h1-bloodstone-pass-1e"
+        }
+      ]
     }
   ]
 }

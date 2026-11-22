@@ -12,7 +12,13 @@
       "date": "2006-05",
       "format": "hardcover",
       "isbn13": 9780786939183,
-      "cover": "/images/rol/players-handbook-ii/english.webp"
+      "cover": "/images/rol/players-handbook-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28731/player-s-handbook-ii-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

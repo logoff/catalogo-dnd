@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/for8-pages-from-the-mages/english.webp"
+      "cover": "/images/rol/for8-pages-from-the-mages/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16853/for8-pages-from-the-mages-2e"
+        }
+      ]
     }
   ]
 }

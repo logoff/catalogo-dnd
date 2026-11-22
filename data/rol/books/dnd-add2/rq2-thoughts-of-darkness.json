@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/rq2-thoughts-of-darkness/english.webp"
+      "cover": "/images/rol/rq2-thoughts-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17495/rq2-thoughts-of-darkness-2e"
+        }
+      ]
     }
   ]
 }

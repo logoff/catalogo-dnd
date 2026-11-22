@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/uk6-all-that-glitters/english.webp"
+      "cover": "/images/rol/uk6-all-that-glitters/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17077/uk6-all-that-glitters-1e"
+        }
+      ]
     }
   ]
 }

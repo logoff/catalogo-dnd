@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "boxed_set",
-      "cover": "/images/rol/naval-battle-rules-the-seas-of-cerilia/english.webp"
+      "cover": "/images/rol/naval-battle-rules-the-seas-of-cerilia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16956/naval-battle-rules-the-seas-of-cerilia-2e"
+        }
+      ]
     }
   ]
 }

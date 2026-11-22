@@ -12,7 +12,13 @@
       "date": "2006-04",
       "format": "hardcover",
       "isbn13": 9780786939114,
-      "cover": "/images/rol/complete-psionic/english.webp"
+      "cover": "/images/rol/complete-psionic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28740/complete-psionic-3-5"
+        }
+      ]
     }
   ]
 }

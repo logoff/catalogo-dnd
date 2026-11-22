@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2003-05",
       "isbn13": 9780786928811,
-      "cover": "/images/rol/unapproachable-east/english.webp"
+      "cover": "/images/rol/unapproachable-east/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28722/unapproachable-east-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

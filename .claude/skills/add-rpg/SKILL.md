@@ -39,8 +39,9 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   la edición (básicos, cajas de inicio, suplementos, ambientaciones y
   aventuras), aunque solo salieran en inglés; fuera pantallas, hojas de
   personaje, miniaturas, Dungeon Tiles, revistas y material con licencia
-  de otras editoriales (Dragonlance de Sovereign Press). **Sin enlaces de
-  compra**: están descatalogados. Los básicos llevan sufijo de edición en
+  de otras editoriales (Dragonlance de Sovereign Press). **Solo DMsGuild**:
+  están descatalogados; si DMsGuild vende el PDF o la impresión bajo demanda
+  de Wizards, su enlace va en la edición en inglés (ningún otro). Los básicos llevan sufijo de edición en
   el slug (`players-handbook-3-5`) y `core: true`.
 
 ## Reglas de los datos

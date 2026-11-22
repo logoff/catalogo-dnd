@@ -13,7 +13,13 @@
       "date": "2004-06",
       "format": "hardcover",
       "isbn13": 9780786932740,
-      "cover": "/images/rol/eberron-campaign-setting/english.webp"
+      "cover": "/images/rol/eberron-campaign-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28474/eberron-campaign-setting-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "2000",
-      "cover": "/images/rol/van-richtens-monster-hunters-compendium-volume-three/english.webp"
+      "cover": "/images/rol/van-richtens-monster-hunters-compendium-volume-three/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17481/van-richten-s-monster-hunter-s-compendium-vol-3-2e"
+        }
+      ]
     }
   ]
 }

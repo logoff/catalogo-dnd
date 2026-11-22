@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/cgr3-the-complete-shairs-handbook/english.webp"
+      "cover": "/images/rol/cgr3-the-complete-shairs-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16873/cgr3-the-complete-sha-ir-s-handbook-2e"
+        }
+      ]
     }
   ]
 }

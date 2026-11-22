@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/for4-the-code-of-the-harpers/english.webp"
+      "cover": "/images/rol/for4-the-code-of-the-harpers/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16839/for4-the-code-of-the-harpers-2e"
+        }
+      ]
     }
   ]
 }

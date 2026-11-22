@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/rr3-van-richtens-guide-to-vampires/english.webp"
+      "cover": "/images/rol/rr3-van-richtens-guide-to-vampires/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17491/rr3-van-richten-s-guide-to-vampires-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/sja4-under-the-dark-fist/english.webp"
+      "cover": "/images/rol/sja4-under-the-dark-fist/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17248/sja4-under-the-dark-fist-2e"
+        }
+      ]
     }
   ]
 }

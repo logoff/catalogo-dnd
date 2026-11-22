@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2008-08",
       "isbn13": 9780786949359,
-      "cover": "/images/rol/pyramid-of-shadows/english.webp"
+      "cover": "/images/rol/pyramid-of-shadows/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57375/h3-pyramid-of-shadows-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/the-complete-book-of-necromancers/english.webp"
+      "cover": "/images/rol/the-complete-book-of-necromancers/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16942/dmgr7-the-complete-book-of-necromancers-2e"
+        }
+      ]
     }
   ]
 }

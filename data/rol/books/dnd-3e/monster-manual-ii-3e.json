@@ -12,7 +12,13 @@
       "date": "2002-09",
       "format": "hardcover",
       "isbn13": 9780786928736,
-      "cover": "/images/rol/monster-manual-ii-3e/english.webp"
+      "cover": "/images/rol/monster-manual-ii-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/23424/monster-manual-ii-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

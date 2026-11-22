@@ -12,7 +12,13 @@
       "date": "2010-11",
       "format": "paperback",
       "isbn13": 9780786956197,
-      "cover": "/images/rol/heroes-of-the-forgotten-kingdoms/english.webp"
+      "cover": "/images/rol/heroes-of-the-forgotten-kingdoms/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/155642/player-essentials-heroes-of-the-forgotten-kingdoms-4e"
+        }
+      ]
     }
   ]
 }

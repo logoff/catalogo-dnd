@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/froa1-ninja-wars/english.webp"
+      "cover": "/images/rol/froa1-ninja-wars/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17320/froa1-ninja-wars-2e"
+        }
+      ]
     }
   ]
 }

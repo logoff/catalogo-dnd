@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "boxed_set",
-      "cover": "/images/rol/forgotten-realms-campaign-setting/english.webp"
+      "cover": "/images/rol/forgotten-realms-campaign-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/283992/forgotten-realms-campaign-setting-revised-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

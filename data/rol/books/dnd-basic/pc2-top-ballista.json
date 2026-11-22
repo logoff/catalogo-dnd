@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1989",
       "format": "paperback",
-      "cover": "/images/rol/pc2-top-ballista/english.webp"
+      "cover": "/images/rol/pc2-top-ballista/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16983/pc2-creature-crucible-top-ballista-basic"
+        }
+      ]
     }
   ]
 }

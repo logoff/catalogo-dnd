@@ -12,7 +12,13 @@
       "date": "2011-04",
       "format": "hardcover",
       "isbn13": 9780786957453,
-      "cover": "/images/rol/heroes-of-shadow/english.webp"
+      "cover": "/images/rol/heroes-of-shadow/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/148009/player-s-option-heroes-of-shadow-4e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/hwr1-sons-of-azca/english.webp"
+      "cover": "/images/rol/hwr1-sons-of-azca/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17148/hwr1-sons-of-azca-basic"
+        }
+      ]
     }
   ]
 }

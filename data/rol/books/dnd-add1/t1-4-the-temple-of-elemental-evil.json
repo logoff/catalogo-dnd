@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/t1-4-the-temple-of-elemental-evil/english.webp"
+      "cover": "/images/rol/t1-4-the-temple-of-elemental-evil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17068/t1-4-temple-of-elemental-evil-1e"
+        }
+      ]
     }
   ]
 }

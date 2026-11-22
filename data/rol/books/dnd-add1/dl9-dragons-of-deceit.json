@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/dl9-dragons-of-deceit/english.webp"
+      "cover": "/images/rol/dl9-dragons-of-deceit/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16897/dl9-dragons-of-deceit-1e"
+        }
+      ]
     }
   ]
 }

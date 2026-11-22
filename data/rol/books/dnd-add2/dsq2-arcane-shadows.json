@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "boxed_set",
-      "cover": "/images/rol/dsq2-arcane-shadows/english.webp"
+      "cover": "/images/rol/dsq2-arcane-shadows/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17184/dsq2-arcane-shadows-2e"
+        }
+      ]
     }
   ]
 }

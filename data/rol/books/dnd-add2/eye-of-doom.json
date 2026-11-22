@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/eye-of-doom/english.webp"
+      "cover": "/images/rol/eye-of-doom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17332/eye-of-doom-2e"
+        }
+      ]
     }
   ]
 }

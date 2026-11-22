@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/hhq6-wizards-challenge-ii/english.webp"
+      "cover": "/images/rol/hhq6-wizards-challenge-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17316/hhq6-wizard-s-challenge-ii-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/sjr5-rock-of-bral/english.webp"
+      "cover": "/images/rol/sjr5-rock-of-bral/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17264/sjr5-rock-of-bral-2e"
+        }
+      ]
     }
   ]
 }

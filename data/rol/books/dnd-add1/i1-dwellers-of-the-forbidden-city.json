@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1981",
       "format": "paperback",
-      "cover": "/images/rol/i1-dwellers-of-the-forbidden-city/english.webp"
+      "cover": "/images/rol/i1-dwellers-of-the-forbidden-city/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17046/i1-dwellers-of-the-forbidden-city-1e"
+        }
+      ]
     }
   ]
 }

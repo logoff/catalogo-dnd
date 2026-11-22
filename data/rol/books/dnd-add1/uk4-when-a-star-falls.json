@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/uk4-when-a-star-falls/english.webp"
+      "cover": "/images/rol/uk4-when-a-star-falls/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17075/uk4-when-a-star-falls-1e"
+        }
+      ]
     }
   ]
 }

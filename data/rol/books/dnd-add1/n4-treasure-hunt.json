@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1986",
       "format": "paperback",
-      "cover": "/images/rol/n4-treasure-hunt/english.webp"
+      "cover": "/images/rol/n4-treasure-hunt/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17058/n4-treasure-hunt-1e"
+        }
+      ]
     }
   ]
 }

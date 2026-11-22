@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1993",
-      "cover": "/images/rol/dlc2-classics-volume-ii/english.webp"
+      "cover": "/images/rol/dlc2-classics-volume-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17381/dlc2-dragonlance-classics-volume-ii-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

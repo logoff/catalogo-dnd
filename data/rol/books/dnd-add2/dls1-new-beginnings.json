@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/dls1-new-beginnings/english.webp"
+      "cover": "/images/rol/dls1-new-beginnings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17372/dls1-new-beginnings-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

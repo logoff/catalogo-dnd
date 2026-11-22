@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/oa3-ochimo-the-spirit-warrior/english.webp"
+      "cover": "/images/rol/oa3-ochimo-the-spirit-warrior/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17331/oa3-ochimo-the-spirit-warrior-1e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/something-wild/english.webp"
+      "cover": "/images/rol/something-wild/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17279/something-wild-2e"
+        }
+      ]
     }
   ]
 }

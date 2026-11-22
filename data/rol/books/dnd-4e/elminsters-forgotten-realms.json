@@ -13,7 +13,13 @@
       "date": "2012-10",
       "format": "hardcover",
       "isbn13": 9780786960347,
-      "cover": "/images/rol/elminsters-forgotten-realms/english.webp"
+      "cover": "/images/rol/elminsters-forgotten-realms/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/166568/ed-greenwood-presents-elminster-s-forgotten-realms"
+        }
+      ]
     }
   ]
 }

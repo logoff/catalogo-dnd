@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2008-12",
       "isbn13": 9780786949779,
-      "cover": "/images/rol/demon-queens-enclave/english.webp"
+      "cover": "/images/rol/demon-queens-enclave/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/58823/p2-demon-queen-s-enclave-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

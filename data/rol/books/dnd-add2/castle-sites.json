@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/castle-sites/english.webp"
+      "cover": "/images/rol/castle-sites/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17464/castle-sites-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "boxed_set",
-      "cover": "/images/rol/the-horde/english.webp"
+      "cover": "/images/rol/the-horde/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/216679/the-horde-2e"
+        }
+      ]
     }
   ]
 }

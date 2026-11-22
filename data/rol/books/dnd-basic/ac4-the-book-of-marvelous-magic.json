@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/ac4-the-book-of-marvelous-magic/english.webp"
+      "cover": "/images/rol/ac4-the-book-of-marvelous-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17173/ac4-the-book-of-marvelous-magic-basic-1e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2002-07",
       "format": "hardcover",
       "isbn13": 9780786926589,
-      "cover": "/images/rol/epic-level-handbook/english.webp"
+      "cover": "/images/rol/epic-level-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/23683/epic-level-handbook-3e"
+        }
+      ]
     }
   ]
 }

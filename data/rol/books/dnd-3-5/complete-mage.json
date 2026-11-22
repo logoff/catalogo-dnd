@@ -12,7 +12,13 @@
       "date": "2006-10",
       "format": "hardcover",
       "isbn13": 9780786939374,
-      "cover": "/images/rol/complete-mage/english.webp"
+      "cover": "/images/rol/complete-mage/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51631/complete-mage-3-5"
+        }
+      ]
     }
   ]
 }

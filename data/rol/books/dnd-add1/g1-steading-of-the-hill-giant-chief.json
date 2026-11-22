@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1979",
       "format": "paperback",
-      "cover": "/images/rol/g1-steading-of-the-hill-giant-chief/english.webp"
+      "cover": "/images/rol/g1-steading-of-the-hill-giant-chief/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/186742/g1-steading-of-the-hill-giant-chief-1e"
+        }
+      ]
     }
   ]
 }

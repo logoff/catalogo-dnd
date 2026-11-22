@@ -12,7 +12,13 @@
       "date": "2008-11",
       "format": "hardcover",
       "isbn13": 9780786949816,
-      "cover": "/images/rol/martial-power/english.webp"
+      "cover": "/images/rol/martial-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/58552/martial-power-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

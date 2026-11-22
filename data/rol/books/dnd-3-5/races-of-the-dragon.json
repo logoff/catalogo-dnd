@@ -12,7 +12,13 @@
       "date": "2006-01",
       "format": "hardcover",
       "isbn13": 9780786939138,
-      "cover": "/images/rol/races-of-the-dragon/english.webp"
+      "cover": "/images/rol/races-of-the-dragon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28750/races-of-the-dragon-3-5"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/dl8-dragons-of-war/english.webp"
+      "cover": "/images/rol/dl8-dragons-of-war/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16909/dl8-dragons-of-war-1e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2002-01",
       "format": "paperback",
       "isbn13": 9780786926527,
-      "cover": "/images/rol/lord-of-the-iron-fortress/english.webp"
+      "cover": "/images/rol/lord-of-the-iron-fortress/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28472/lord-of-the-iron-fortress-3e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1995",
-      "cover": "/images/rol/the-moonsea/english.webp"
+      "cover": "/images/rol/the-moonsea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16847/the-moonsea-2e"
+        }
+      ]
     }
   ]
 }

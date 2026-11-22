@@ -12,7 +12,13 @@
       "date": "2004-10",
       "format": "hardcover",
       "isbn13": 9780786934331,
-      "cover": "/images/rol/libris-mortis/english.webp"
+      "cover": "/images/rol/libris-mortis/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51645/libris-mortis-the-book-of-undead-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

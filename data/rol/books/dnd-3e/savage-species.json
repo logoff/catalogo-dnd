@@ -12,7 +12,13 @@
       "date": "2003-02",
       "format": "hardcover",
       "isbn13": 9780786926480,
-      "cover": "/images/rol/savage-species/english.webp"
+      "cover": "/images/rol/savage-species/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25108/savage-species-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

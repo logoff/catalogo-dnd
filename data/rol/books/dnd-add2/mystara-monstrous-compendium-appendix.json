@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/mystara-monstrous-compendium-appendix/english.webp"
+      "cover": "/images/rol/mystara-monstrous-compendium-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16911/monstrous-compendium-mystara-appendix-2e"
+        }
+      ]
     }
   ]
 }

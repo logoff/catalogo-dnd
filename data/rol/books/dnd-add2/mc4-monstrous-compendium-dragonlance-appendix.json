@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1990",
-      "cover": "/images/rol/mc4-monstrous-compendium-dragonlance-appendix/english.webp"
+      "cover": "/images/rol/mc4-monstrous-compendium-dragonlance-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16963/mc4-monstrous-compendium-dragonlance-appendix-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

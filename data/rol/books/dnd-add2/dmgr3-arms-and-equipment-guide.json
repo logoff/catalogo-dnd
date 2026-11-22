@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/dmgr3-arms-and-equipment-guide/english.webp"
+      "cover": "/images/rol/dmgr3-arms-and-equipment-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/113391/dmgr3-arms-and-equipment-guide-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

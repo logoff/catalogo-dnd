@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "Kobold Press",
       "date": "2016",
-      "format": "hardcover"
+      "format": "hardcover",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/434286/tome-of-beasts-for-5th-edition"
+        }
+      ]
     },
     {
       "language": "castellano",

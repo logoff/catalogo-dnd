@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/for7-giantcraft/english.webp"
+      "cover": "/images/rol/for7-giantcraft/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16851/for7-giantcraft-2e"
+        }
+      ]
     }
   ]
 }

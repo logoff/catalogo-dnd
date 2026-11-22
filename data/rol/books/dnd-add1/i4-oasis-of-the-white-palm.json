@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/i4-oasis-of-the-white-palm/english.webp"
+      "cover": "/images/rol/i4-oasis-of-the-white-palm/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17050/i4-oasis-of-the-white-palm-1e"
+        }
+      ]
     }
   ]
 }

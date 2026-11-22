@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "hardcover",
-      "cover": "/images/rol/dungeon-master-option-high-level-campaigns/english.webp"
+      "cover": "/images/rol/dungeon-master-option-high-level-campaigns/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16866/dungeon-master-s-options-high-level-campaigns"
+        }
+      ]
     }
   ]
 }

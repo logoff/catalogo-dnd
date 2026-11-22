@@ -12,7 +12,13 @@
       "date": "2006-06",
       "format": "hardcover",
       "isbn13": 9780786939190,
-      "cover": "/images/rol/fiendish-codex-i/english.webp"
+      "cover": "/images/rol/fiendish-codex-i/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51643/fiendish-codex-i-hordes-of-the-abyss-3-5"
+        }
+      ]
     }
   ]
 }

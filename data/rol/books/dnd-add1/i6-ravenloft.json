@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "paperback",
-      "cover": "/images/rol/i6-ravenloft/english.webp"
+      "cover": "/images/rol/i6-ravenloft/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17527/i6-ravenloft-1e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "date": "2001-04",
       "format": "paperback",
       "isbn13": 9780786918386,
-      "cover": "/images/rol/the-standing-stone/english.webp"
+      "cover": "/images/rol/the-standing-stone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/26025/the-standing-stone-3e"
+        }
+      ]
     }
   ]
 }

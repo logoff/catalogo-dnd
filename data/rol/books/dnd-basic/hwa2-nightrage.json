@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/hwa2-nightrage/english.webp"
+      "cover": "/images/rol/hwa2-nightrage/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17147/hwa2-nightrage-basic"
+        }
+      ]
     }
   ]
 }

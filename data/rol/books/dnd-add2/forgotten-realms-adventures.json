@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "hardcover",
-      "cover": "/images/rol/forgotten-realms-adventures/english.webp"
+      "cover": "/images/rol/forgotten-realms-adventures/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16797/forgotten-realms-adventures-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

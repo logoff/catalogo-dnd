@@ -12,7 +12,13 @@
       "date": "2002-05",
       "format": "paperback",
       "isbn13": 9780786926558,
-      "cover": "/images/rol/stronghold-builders-guidebook/english.webp"
+      "cover": "/images/rol/stronghold-builders-guidebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25107/stronghold-builders-guidebook-3e"
+        }
+      ]
     }
   ]
 }

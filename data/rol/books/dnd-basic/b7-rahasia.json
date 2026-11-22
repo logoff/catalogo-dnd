@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/b7-rahasia/english.webp"
+      "cover": "/images/rol/b7-rahasia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17113/b7-rahasia-basic"
+        }
+      ]
     }
   ]
 }

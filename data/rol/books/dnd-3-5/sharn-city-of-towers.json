@@ -13,7 +13,13 @@
       "date": "2004-11",
       "format": "hardcover",
       "isbn13": 9780786934348,
-      "cover": "/images/rol/sharn-city-of-towers/english.webp"
+      "cover": "/images/rol/sharn-city-of-towers/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28713/eberron-sharn-city-of-towers-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

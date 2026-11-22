@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/dl5-dragons-of-mystery/english.webp"
+      "cover": "/images/rol/dl5-dragons-of-mystery/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16890/dl5-dragons-of-mystery-1e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/x7-the-war-rafts-of-kron/english.webp"
+      "cover": "/images/rol/x7-the-war-rafts-of-kron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17099/x7-the-war-rafts-of-kron-basic"
+        }
+      ]
     }
   ]
 }

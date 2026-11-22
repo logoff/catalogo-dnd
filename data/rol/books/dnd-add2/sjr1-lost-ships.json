@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/sjr1-lost-ships/english.webp"
+      "cover": "/images/rol/sjr1-lost-ships/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17252/sjr1-lost-ships-2e"
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1997",
       "format": "boxed_set",
-      "cover": "/images/rol/tale-of-the-comet/english.webp"
+      "cover": "/images/rol/tale-of-the-comet/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17106/tale-of-the-comet-2e"
+        }
+      ]
     }
   ]
 }

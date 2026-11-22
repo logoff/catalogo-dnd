@@ -187,8 +187,9 @@ una edición es un sistema con `official: true` y sin `official_catalog`
 (`isDndEdition` en `src/utils/rpg.ts`, que con `systemPath` y `bookPath` da
 la URL de cada sistema y libro). Llevan todos los libros impresos de Wizards
 de la edición, aunque solo salieran en inglés, con su edición de Devir si la
-hubo, y nunca enlaces de compra (están descatalogados; un test lo exige y
-`just affiliate-coverage` no los revisa). Las fichas son `RpgSystemPage` y
+hubo. Están descatalogados: el único enlace de compra permitido es el de
+DMsGuild (PDF e impresión bajo demanda de Wizards), en la edición en inglés;
+un test lo exige y `just affiliate-coverage` solo revisa esa tienda. Las fichas son `RpgSystemPage` y
 `RpgBookPage` con `section="ediciones"`; `/rol/dnd-3-5` redirige con
 `public/_redirects`.
 
@@ -202,8 +203,9 @@ rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
 `/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`.
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
-cada tienda (Amazon, Adtraction, Awin, Instant Gaming; NoSoloRol solo en
-otros juegos de rol); los JSON guardan
+cada tienda (Amazon, Adtraction, Awin, Instant Gaming, DriveThru; NoSoloRol y
+DriveThruRPG solo en otros juegos de rol, DMsGuild solo en ediciones
+anteriores); los JSON guardan
 siempre la URL limpia y los IDs llegan por variables `VITE_AFFILIATE_*`
 (ver README).
 

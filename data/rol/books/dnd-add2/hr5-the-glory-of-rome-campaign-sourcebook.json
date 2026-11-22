@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/hr5-the-glory-of-rome-campaign-sourcebook/english.webp"
+      "cover": "/images/rol/hr5-the-glory-of-rome-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16918/hr5-the-glory-of-rome-campaign-sourcebook-2e"
+        }
+      ]
     }
   ]
 }

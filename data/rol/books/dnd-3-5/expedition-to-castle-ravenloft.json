@@ -13,7 +13,13 @@
       "date": "2006-10",
       "format": "hardcover",
       "isbn13": 9780786939466,
-      "cover": "/images/rol/expedition-to-castle-ravenloft/english.webp"
+      "cover": "/images/rol/expedition-to-castle-ravenloft/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54340/expedition-to-castle-ravenloft-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

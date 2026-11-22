@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/jakandor-land-of-legend/english.webp"
+      "cover": "/images/rol/jakandor-land-of-legend/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/204202/jakandor-land-of-legend-2e"
+        }
+      ]
     }
   ]
 }

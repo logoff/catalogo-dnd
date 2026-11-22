@@ -12,7 +12,13 @@
       "date": "2004-05",
       "format": "hardcover",
       "isbn13": 9780786932726,
-      "cover": "/images/rol/complete-divine/english.webp"
+      "cover": "/images/rol/complete-divine/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28308/complete-divine-3-5"
+        }
+      ]
     },
     {
       "language": "castellano",

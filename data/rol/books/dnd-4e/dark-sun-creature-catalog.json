@@ -13,7 +13,13 @@
       "date": "2010-08",
       "format": "hardcover",
       "isbn13": 9780786954940,
-      "cover": "/images/rol/dark-sun-creature-catalog/english.webp"
+      "cover": "/images/rol/dark-sun-creature-catalog/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/133464/dark-sun-creature-catalog-4e"
+        }
+      ]
     },
     {
       "language": "castellano",

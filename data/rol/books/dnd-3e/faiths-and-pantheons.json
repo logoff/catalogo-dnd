@@ -12,7 +12,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2002-05",
       "isbn13": 9780786927593,
-      "cover": "/images/rol/faiths-and-pantheons/english.webp"
+      "cover": "/images/rol/faiths-and-pantheons/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28544/faiths-and-pantheons-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1996",
       "format": "paperback",
-      "cover": "/images/rol/uncaged-faces-of-sigil/english.webp"
+      "cover": "/images/rol/uncaged-faces-of-sigil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17285/uncaged-faces-of-sigil-2e"
+        }
+      ]
     }
   ]
 }

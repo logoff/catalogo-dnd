@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1986",
       "format": "boxed_set",
-      "cover": "/images/rol/set-5-immortal-rules/english.webp"
+      "cover": "/images/rol/set-5-immortal-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17166/d-d-immortals-set-becmi-ed-basic"
+        }
+      ]
     }
   ]
 }

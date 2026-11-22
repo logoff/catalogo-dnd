@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1993",
-      "cover": "/images/rol/rr6-van-richtens-guide-to-the-lich/english.webp"
+      "cover": "/images/rol/rr6-van-richtens-guide-to-the-lich/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17497/rs1-rr6-van-richten-s-guide-to-the-lich-2e"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "boxed_set",
-      "cover": "/images/rol/night-of-the-vampire/english.webp"
+      "cover": "/images/rol/night-of-the-vampire/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17349/night-of-the-vampire-2e"
+        }
+      ]
     }
   ]
 }

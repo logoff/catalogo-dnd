@@ -359,5 +359,26 @@
       "13th-age-2e-heroes-handbook": "No está en Amazon.es (revisado el 2026-11-20); tampoco en Juegos de la Mesa Redonda, Casa del Libro ni NoSoloRol",
       "13th-age-2e-gamemasters-guide": "No está en Amazon.es (revisado el 2026-11-20); tampoco en Juegos de la Mesa Redonda, Casa del Libro ni NoSoloRol"
     }
+  },
+  "ediciones": {
+    "dmsguild": {
+      "dnd-add1/cb1-conan-unchained": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add1/cb2-conan-against-darkness": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add1/lankhmar-city-of-adventure-1e": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add1/rs1-red-sonja-unconquered": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/avengers-in-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/cutthroats-of-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/diablo-ii-adventure-game": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/diablo-ii-the-awakening": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lankhmar-city-of-adventure": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lankhmar-the-new-adventures-of-fafhrd-and-gray-mouser": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lna1-thieves-of-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lna2-nehwon": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lna3-prince-of-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lnq1-slayers-of-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lnr1-wonders-of-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/lnr2-tales-of-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild",
+      "dnd-add2/rogues-in-lankhmar": "Licencia de terceros que Wizards ya no tiene: no está en DMsGuild"
+    }
   }
 }

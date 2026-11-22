@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/champions-of-the-mists/english.webp"
+      "cover": "/images/rol/champions-of-the-mists/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17522/champions-of-the-mists-2e"
+        }
+      ]
     }
   ]
 }

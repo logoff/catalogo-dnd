@@ -12,7 +12,13 @@
       "date": "2004-09",
       "format": "hardcover",
       "isbn13": 9780786928965,
-      "cover": "/images/rol/frostburn/english.webp"
+      "cover": "/images/rol/frostburn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/1449/frostburn-3-5"
+        }
+      ]
     }
   ]
 }

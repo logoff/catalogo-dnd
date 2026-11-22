@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "hardcover",
-      "cover": "/images/rol/rules-cyclopedia/english.webp"
+      "cover": "/images/rol/rules-cyclopedia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17171/d-d-rules-cyclopedia-basic"
+        }
+      ]
     }
   ]
 }

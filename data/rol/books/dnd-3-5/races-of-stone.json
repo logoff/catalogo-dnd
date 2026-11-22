@@ -12,7 +12,13 @@
       "date": "2004-08",
       "format": "hardcover",
       "isbn13": 9780786932788,
-      "cover": "/images/rol/races-of-stone/english.webp"
+      "cover": "/images/rol/races-of-stone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27893/races-of-stone-3-5"
+        }
+      ]
     }
   ]
 }

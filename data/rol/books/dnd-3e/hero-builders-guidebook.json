@@ -12,7 +12,13 @@
       "date": "2000-12",
       "format": "paperback",
       "isbn13": 9780786916474,
-      "cover": "/images/rol/hero-builders-guidebook/english.webp"
+      "cover": "/images/rol/hero-builders-guidebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/153641/hero-builder-s-guidebook-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

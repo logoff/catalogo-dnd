@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "boxed_set",
-      "cover": "/images/rol/dse1-dragons-crown/english.webp"
+      "cover": "/images/rol/dse1-dragons-crown/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17188/dse1-dragon-s-crown-2e"
+        }
+      ]
     }
   ]
 }

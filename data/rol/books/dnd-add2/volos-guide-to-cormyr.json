@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "paperback",
-      "cover": "/images/rol/volos-guide-to-cormyr/english.webp"
+      "cover": "/images/rol/volos-guide-to-cormyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17561/volo-s-guide-to-cormyr-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

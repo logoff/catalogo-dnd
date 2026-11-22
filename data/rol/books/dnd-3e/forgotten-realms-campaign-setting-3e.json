@@ -13,7 +13,13 @@
       "date": "2001-06",
       "format": "hardcover",
       "isbn13": 9780786918362,
-      "cover": "/images/rol/forgotten-realms-campaign-setting-3e/english.webp"
+      "cover": "/images/rol/forgotten-realms-campaign-setting-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28729/forgotten-realms-campaign-setting-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

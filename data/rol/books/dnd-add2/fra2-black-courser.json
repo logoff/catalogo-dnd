@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/fra2-black-courser/english.webp"
+      "cover": "/images/rol/fra2-black-courser/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16820/fra2-black-courser-2e"
+        }
+      ]
     }
   ]
 }

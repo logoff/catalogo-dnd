@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/cm2-deaths-ride/english.webp"
+      "cover": "/images/rol/cm2-deaths-ride/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17115/cm2-death-s-ride-basic"
+        }
+      ]
     }
   ]
 }

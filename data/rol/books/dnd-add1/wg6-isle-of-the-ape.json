@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1985",
       "format": "paperback",
-      "cover": "/images/rol/wg6-isle-of-the-ape/english.webp"
+      "cover": "/images/rol/wg6-isle-of-the-ape/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17396/wg6-isle-of-the-ape-1e"
+        }
+      ]
     }
   ]
 }

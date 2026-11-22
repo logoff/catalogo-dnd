@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/dls4-wild-elves/english.webp"
+      "cover": "/images/rol/dls4-wild-elves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17375/dls4-wild-elves-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

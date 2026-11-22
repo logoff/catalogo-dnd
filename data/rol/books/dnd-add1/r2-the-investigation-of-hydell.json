@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1982",
       "format": "paperback",
-      "cover": "/images/rol/r2-the-investigation-of-hydell/english.webp"
+      "cover": "/images/rol/r2-the-investigation-of-hydell/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/281745/r2-the-investigation-of-hydell-1e"
+        }
+      ]
     }
   ]
 }

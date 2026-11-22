@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "2000",
       "format": "paperback",
-      "cover": "/images/rol/reverse-dungeon/english.webp"
+      "cover": "/images/rol/reverse-dungeon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17286/reverse-dungeon-2e"
+        }
+      ]
     }
   ]
 }

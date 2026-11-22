@@ -12,7 +12,13 @@
       "date": "2011-05",
       "format": "boxed_set",
       "isbn13": 9780786958481,
-      "cover": "/images/rol/the-shadowfell-gloomwrought-and-beyond/english.webp"
+      "cover": "/images/rol/the-shadowfell-gloomwrought-and-beyond/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/148010/the-shadowfell-gloomwrought-and-beyond-4e"
+        }
+      ]
     }
   ]
 }

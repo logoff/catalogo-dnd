@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/xl1-quest-for-the-heartstone/english.webp"
+      "cover": "/images/rol/xl1-quest-for-the-heartstone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17111/xl1-quest-for-the-heartstone-expert"
+        }
+      ]
     }
   ]
 }

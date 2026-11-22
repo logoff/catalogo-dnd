@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/age-of-heroes-campaign-sourcebook/english.webp"
+      "cover": "/images/rol/age-of-heroes-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16920/hr6-age-of-heroes-campaign-sourcebook-2e"
+        }
+      ]
     }
   ]
 }

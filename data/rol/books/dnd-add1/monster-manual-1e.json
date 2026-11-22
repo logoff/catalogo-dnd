@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1977",
       "format": "hardcover",
-      "cover": "/images/rol/monster-manual-1e/english.webp"
+      "cover": "/images/rol/monster-manual-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17002/monster-manual-1e"
+        }
+      ]
     }
   ]
 }

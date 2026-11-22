@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1979",
       "format": "paperback",
-      "cover": "/images/rol/g3-hall-of-the-fire-giant-king/english.webp"
+      "cover": "/images/rol/g3-hall-of-the-fire-giant-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176868/g3-hall-of-the-fire-giant-king-1e"
+        }
+      ]
     }
   ]
 }

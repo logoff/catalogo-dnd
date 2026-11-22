@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1995",
       "format": "hardcover",
-      "cover": "/images/rol/players-option-combat-and-tactics/english.webp"
+      "cover": "/images/rol/players-option-combat-and-tactics/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16862/player-s-option-combat-tactics-2e"
+        }
+      ]
     }
   ]
 }

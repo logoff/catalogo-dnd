@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "paperback",
-      "cover": "/images/rol/gaz2-the-emirates-of-ylaruam/english.webp"
+      "cover": "/images/rol/gaz2-the-emirates-of-ylaruam/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/124832/gaz2-the-emirates-of-ylaruam-basic"
+        }
+      ]
     }
   ]
 }

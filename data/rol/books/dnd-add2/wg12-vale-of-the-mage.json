@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1990",
       "format": "paperback",
-      "cover": "/images/rol/wg12-vale-of-the-mage/english.webp"
+      "cover": "/images/rol/wg12-vale-of-the-mage/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17415/wg12-vale-of-the-mage-2e"
+        }
+      ]
     }
   ]
 }

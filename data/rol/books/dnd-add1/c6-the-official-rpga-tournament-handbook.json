@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1979",
       "format": "paperback",
-      "cover": "/images/rol/c6-the-official-rpga-tournament-handbook/english.webp"
+      "cover": "/images/rol/c6-the-official-rpga-tournament-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17022/1e-c6-the-official-rpga-tournament-handbook"
+        }
+      ]
     }
   ]
 }

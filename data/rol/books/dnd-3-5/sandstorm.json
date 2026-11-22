@@ -12,7 +12,13 @@
       "date": "2005-03",
       "format": "hardcover",
       "isbn13": 9780786936557,
-      "cover": "/images/rol/sandstorm/english.webp"
+      "cover": "/images/rol/sandstorm/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28493/sandstorm-3e"
+        }
+      ]
     }
   ]
 }

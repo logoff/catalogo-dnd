@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1991",
       "format": "paperback",
-      "cover": "/images/rol/phbr5-the-complete-psionics-handbook/english.webp"
+      "cover": "/images/rol/phbr5-the-complete-psionics-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16891/phbr5-the-complete-psionics-handbook-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

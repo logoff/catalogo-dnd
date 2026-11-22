@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1993",
       "format": "paperback",
-      "cover": "/images/rol/dss1-city-state-of-tyr/english.webp"
+      "cover": "/images/rol/dss1-city-state-of-tyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17192/dss1-city-state-of-tyr-2e"
+        }
+      ]
     }
   ]
 }

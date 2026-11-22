@@ -11,7 +11,13 @@
       "publisher": "Wizards of the Coast",
       "date": "2009-07",
       "isbn13": 9780786950171,
-      "cover": "/images/rol/seekers-of-the-ashen-crown/english.webp"
+      "cover": "/images/rol/seekers-of-the-ashen-crown/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/153068/seekers-of-the-ashen-crown-4e"
+        }
+      ]
     }
   ]
 }

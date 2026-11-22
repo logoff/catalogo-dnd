@@ -12,7 +12,13 @@
       "date": "2007",
       "format": "hardcover",
       "isbn13": 9780786940349,
-      "cover": "/images/rol/complete-champion/english.webp"
+      "cover": "/images/rol/complete-champion/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54289/complete-champion-3-5"
+        }
+      ]
     }
   ]
 }

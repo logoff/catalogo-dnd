@@ -12,7 +12,13 @@
       "date": "2007",
       "format": "paperback",
       "isbn13": 9780786943579,
-      "cover": "/images/rol/the-sinister-spire/english.webp"
+      "cover": "/images/rol/the-sinister-spire/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/50001/dd2-the-sinister-spire-3-5"
+        }
+      ]
     }
   ]
 }

@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2016"
+      "date": "2016",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/195159/prepared-one-shot-adventures-for-5th-edition"
+        }
+      ]
     },
     {
       "language": "castellano",

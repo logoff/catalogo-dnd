@@ -12,7 +12,13 @@
       "date": "2010-04",
       "format": "hardcover",
       "isbn13": 9780786953929,
-      "cover": "/images/rol/the-plane-above/english.webp"
+      "cover": "/images/rol/the-plane-above/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/161669/the-plane-above-secrets-of-the-astral-sea-4e"
+        }
+      ]
     }
   ]
 }

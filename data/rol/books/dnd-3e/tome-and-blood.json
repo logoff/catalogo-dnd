@@ -12,7 +12,13 @@
       "date": "2001-07",
       "format": "paperback",
       "isbn13": 9780786918454,
-      "cover": "/images/rol/tome-and-blood/english.webp"
+      "cover": "/images/rol/tome-and-blood/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/143695/tome-and-blood-a-guidebook-to-wizards-and-sorcerers-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

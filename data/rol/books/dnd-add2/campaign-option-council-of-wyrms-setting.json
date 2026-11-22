@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "hardcover",
-      "cover": "/images/rol/campaign-option-council-of-wyrms-setting/english.webp"
+      "cover": "/images/rol/campaign-option-council-of-wyrms-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17026/campaign-option-council-of-wyrms-setting-2e"
+        }
+      ]
     }
   ]
 }

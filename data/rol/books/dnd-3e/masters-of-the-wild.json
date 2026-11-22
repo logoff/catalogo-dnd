@@ -12,7 +12,13 @@
       "date": "2002-02",
       "format": "paperback",
       "isbn13": 9780786926534,
-      "cover": "/images/rol/masters-of-the-wild/english.webp"
+      "cover": "/images/rol/masters-of-the-wild/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3735/masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers-3e"
+        }
+      ]
     },
     {
       "language": "castellano",

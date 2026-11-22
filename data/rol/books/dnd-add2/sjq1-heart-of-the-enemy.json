@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "paperback",
-      "cover": "/images/rol/sjq1-heart-of-the-enemy/english.webp"
+      "cover": "/images/rol/sjq1-heart-of-the-enemy/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17250/sjq1-heart-of-the-enemy-2e"
+        }
+      ]
     }
   ]
 }

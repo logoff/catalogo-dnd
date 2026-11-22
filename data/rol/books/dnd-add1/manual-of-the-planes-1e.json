@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1987",
       "format": "hardcover",
-      "cover": "/images/rol/manual-of-the-planes-1e/english.webp"
+      "cover": "/images/rol/manual-of-the-planes-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17009/manual-of-the-planes-1e"
+        }
+      ]
     }
   ]
 }

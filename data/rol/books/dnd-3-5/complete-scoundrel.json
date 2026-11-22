@@ -12,7 +12,13 @@
       "date": "2007-01",
       "format": "hardcover",
       "isbn13": 9780786941520,
-      "cover": "/images/rol/complete-scoundrel/english.webp"
+      "cover": "/images/rol/complete-scoundrel/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54290/complete-scoundrel-3-5"
+        }
+      ]
     }
   ]
 }

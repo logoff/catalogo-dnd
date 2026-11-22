@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1992",
       "format": "boxed_set",
-      "cover": "/images/rol/tales-of-the-lance/english.webp"
+      "cover": "/images/rol/tales-of-the-lance/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16961/tales-of-the-lance-2e"
+        }
+      ]
     },
     {
       "language": "castellano",

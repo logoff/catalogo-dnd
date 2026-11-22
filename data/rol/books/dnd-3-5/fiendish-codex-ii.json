@@ -12,7 +12,13 @@
       "date": "2006-12",
       "format": "hardcover",
       "isbn13": 9780786939404,
-      "cover": "/images/rol/fiendish-codex-ii/english.webp"
+      "cover": "/images/rol/fiendish-codex-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28730/fiendish-codex-ii-tyrants-of-the-nine-hells-3-5"
+        }
+      ]
     }
   ]
 }

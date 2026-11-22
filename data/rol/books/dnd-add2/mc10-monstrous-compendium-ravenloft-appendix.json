@@ -11,7 +11,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1991",
-      "cover": "/images/rol/mc10-monstrous-compendium-ravenloft-appendix/english.webp"
+      "cover": "/images/rol/mc10-monstrous-compendium-ravenloft-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17530/mc10-monstrous-compendium-ravenloft-appendix"
+        }
+      ]
     },
     {
       "language": "castellano",

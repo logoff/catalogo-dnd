@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/children-of-the-night-werebeasts/english.webp"
+      "cover": "/images/rol/children-of-the-night-werebeasts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110204/children-of-the-night-werebeasts-2e"
+        }
+      ]
     }
   ]
 }
