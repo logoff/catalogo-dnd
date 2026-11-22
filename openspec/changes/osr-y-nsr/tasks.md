@@ -49,7 +49,7 @@
 ## 8. Integración
 
 - [x] 8.1 `just check` y `just build` en verde, con las fichas nuevas prerenderizadas y en el sitemap; revisar en el servidor de desarrollo `/rol`, una ficha OSR, una NSR, una licencia de compatibilidad y el árbol en escritorio y móvil
-- [ ] 8.2 Abrir una sola PR con todo el cambio, descripción breve (qué se hace, qué queda, comprobaciones) y el recuento de sistemas, libros y licencias
+- [x] 8.2 Abrir una sola PR con todo el cambio, descripción breve (qué se hace, qué queda, comprobaciones) y el recuento de sistemas, libros y licencias
 
 ## Workflow follow-up
 
