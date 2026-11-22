@@ -385,6 +385,49 @@ lote.
 
 Otras editoriales españolas con 5E se añaden al encontrarlas, con su fuente.
 
+## OSR y NSR
+
+Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castellano y la línea impresa propia de cada juego en inglés. Sin zines solo en PDF ni material de terceros solo en inglés.
+
+### Old-School Essentials
+
+| #   | Título                                                     | Tipo       | Ficha                                  | Nota   |
+| --- | ---------------------------------------------------------- | ---------- | -------------------------------------- | ------ |
+| 1   | Old-School Essentials Classic Fantasy: Rules Tome          | básico     | ose-classic-fantasy-rules-tome         | inglés |
+| 2   | Old-School Essentials Classic Game Set                     | básico     | ose-classic-game-set                   | inglés |
+| 3   | Old-School Essentials Classic Fantasy: Player's Rules Tome | básico     | ose-classic-fantasy-players-rules-tome | inglés |
+| 4   | Old-School Essentials Advanced Fantasy: Player's Tome      | básico     | ose-advanced-fantasy-players-tome      | inglés |
+| 5   | Old-School Essentials Advanced Fantasy: Referee's Tome     | básico     | ose-advanced-fantasy-referees-tome     | inglés |
+| 6   | Old-School Essentials Advanced Expansion Set               | suplemento | ose-advanced-expansion-set             | inglés |
+| 7   | Old-School Essentials Advanced Fantasy: Genre Rules        | suplemento | ose-advanced-fantasy-genre-rules       | inglés |
+| 8   | Old-School Essentials Reference Booklet                    | otro       | ose-reference-booklet                  | inglés |
+| 9   | Old-School Essentials Deluxe Referee's Screen              | otro       | ose-referees-screen                    | inglés |
+| 10  | The Hole in the Oak                                        | aventura   | the-hole-in-the-oak                    | inglés |
+| 11  | Winter's Daughter                                          | aventura   | winters-daughter                       | inglés |
+| 12  | The Incandescent Grottoes                                  | aventura   | the-incandescent-grottoes              | inglés |
+| 13  | Halls of the Blood King                                    | aventura   | halls-of-the-blood-king                | inglés |
+| 14  | The Isle of the Plangent Mage                              | aventura   | the-isle-of-the-plangent-mage          | inglés |
+| 15  | Holy Mountain Shaker                                       | aventura   | holy-mountain-shaker                   | inglés |
+| 16  | Old-School Essentials Adventure Anthology 1                | aventura   | ose-adventure-anthology-1              | inglés |
+| 17  | Old-School Essentials Adventure Anthology 2                | aventura   | ose-adventure-anthology-2              | inglés |
+| 18  | Quick Delve #1: Milk                                       | aventura   | quick-delve-1-milk                     | inglés |
+| 19  | Quick Delve #2: The Grotesques' Grotto                     | aventura   | quick-delve-2-the-grotesques-grotto    | inglés |
+| 20  | Quick Delve #3: Against the Horselord                      | aventura   | quick-delve-3-against-the-horselord    | inglés |
+
+### Dolmenwood
+
+| #   | Título                              | Tipo     | Ficha                               | Nota   |
+| --- | ----------------------------------- | -------- | ----------------------------------- | ------ |
+| 1   | Dolmenwood Player's Book            | básico   | dolmenwood-players-book             | inglés |
+| 2   | Dolmenwood Campaign Book            | básico   | dolmenwood-campaign-book            | inglés |
+| 3   | Dolmenwood Monster Book             | básico   | dolmenwood-monster-book             | inglés |
+| 4   | Dolmenwood Maps Book                | otro     | dolmenwood-maps-book                | inglés |
+| 5   | Dolmenwood Referee's Screen         | otro     | dolmenwood-referees-screen          | inglés |
+| 6   | The Fungus That Came to Blackeswell | aventura | the-fungus-that-came-to-blackeswell | inglés |
+| 7   | The Ruined Abbey of St Clewyd       | aventura | the-ruined-abbey-of-st-clewyd       | inglés |
+| 8   | Emelda's Song                       | aventura | emeldas-song                        | inglés |
+| 9   | Winter's Daughter (Dolmenwood)      | aventura | winters-daughter-dolmenwood         | inglés |
+
 ## Ediciones anteriores de D&D
 
 Sección propia en `/ediciones` (no forma parte de «Otros juegos de rol»),

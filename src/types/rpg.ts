@@ -76,7 +76,7 @@ export type RpgBookKind = 'core' | 'starter' | 'supplement' | 'adventure' | 'set
 
 export type RpgLanguage = 'english' | 'castellano'
 
-export type RpgFormat = 'hardcover' | 'paperback' | 'boxed_set' | 'pdf'
+export type RpgFormat = 'hardcover' | 'paperback' | 'boxed_set' | 'screen' | 'pdf'
 
 export interface RpgEdition {
   language: RpgLanguage

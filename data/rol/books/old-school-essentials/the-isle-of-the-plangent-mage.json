@@ -1,0 +1,23 @@
+{
+  "slug": "the-isle-of-the-plangent-mage",
+  "system": "old-school-essentials",
+  "title": "The Isle of the Plangent Mage",
+  "kind": "adventure",
+  "description": "Una aventura de maravillas sonoras para personajes de nivel 3 a 5, de Donn Stroud: en una cala idílica, magia y sonido se entrelazan, y bajo la Torre Profunda aguardan acertijos musicales, portales recién abiertos y criaturas de las profundidades.\n\nTrae sesenta y cuatro zonas, la descripción de una aldea con sus personajes, tabla de rumores y resumen del botín, en formato de consulta rápida.",
+  "source": "https://www.drivethrurpg.com/en/product/348884/the-isle-of-the-plangent-mage",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2021-03",
+      "format": "hardcover",
+      "cover": "/images/rol/the-isle-of-the-plangent-mage/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/348884/the-isle-of-the-plangent-mage"
+        }
+      ]
+    }
+  ]
+}

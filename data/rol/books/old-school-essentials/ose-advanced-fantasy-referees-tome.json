@@ -1,0 +1,24 @@
+{
+  "slug": "ose-advanced-fantasy-referees-tome",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Advanced Fantasy: Referee's Tome",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de Advanced Fantasy: cómo preparar aventuras y campañas, más de trescientos treinta monstruos y más de trescientos objetos mágicos, todo compatible con las reglas de D&D de los ochenta.\n\nForma pareja con el tomo del jugador de Advanced Fantasy y sirve también para las aventuras clásicas de B/X y AD&D.",
+  "source": "https://www.drivethrurpg.com/en/product/336585/old-school-essentials-referee-s-book",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2021-01",
+      "format": "hardcover",
+      "cover": "/images/rol/ose-advanced-fantasy-referees-tome/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/336585/old-school-essentials-referee-s-book"
+        }
+      ]
+    }
+  ]
+}

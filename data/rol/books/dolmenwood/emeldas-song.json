@@ -1,0 +1,23 @@
+{
+  "slug": "emeldas-song",
+  "system": "dolmenwood",
+  "title": "Emelda's Song",
+  "kind": "adventure",
+  "description": "Una aventura de infiltración e intriga para personajes de nivel 2 a 4, de Scott Malthouse: el cruel lord Malbleat anuncia en Lankshorn una fiesta en honor de su antepasado hechicero, y la joven cantante Emelda desaparece.\n\nEstá en formato de consulta rápida y requiere los libros básicos de Dolmenwood.",
+  "source": "https://www.drivethrurpg.com/en/product/527293/emelda-s-song",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/emeldas-song/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/527293/emelda-s-song"
+        }
+      ]
+    }
+  ]
+}

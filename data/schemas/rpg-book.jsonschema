@@ -133,6 +133,7 @@
                         "hardcover",
                         "paperback",
                         "boxed_set",
+                        "screen",
                         "pdf"
                     ]
                 },

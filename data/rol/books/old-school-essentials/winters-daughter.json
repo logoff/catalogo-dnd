@@ -1,0 +1,23 @@
+{
+  "slug": "winters-daughter",
+  "system": "old-school-essentials",
+  "title": "Winter's Daughter",
+  "kind": "adventure",
+  "description": "Un cuento de hadas romántico para personajes de nivel 1 a 3, de Gavin Norman: la tumba de un antiguo héroe perdida en el bosque, un círculo de piedras vigilado por el culto de los drune y una princesa feérica que espera desde el otro lado del velo un tesoro olvidado.\n\nAmbientada en Dolmenwood, fue la primera aventura de Necrotic Gnome. La edición digital trae una versión para Old-School Essentials y otra para el juego Dolmenwood.",
+  "source": "https://www.drivethrurpg.com/en/product/270795/winter-s-daughter",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2019-03",
+      "format": "hardcover",
+      "cover": "/images/rol/winters-daughter/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/270795/winter-s-daughter"
+        }
+      ]
+    }
+  ]
+}

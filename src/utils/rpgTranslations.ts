@@ -43,6 +43,7 @@ export const rpgFormatNames: Record<RpgFormat, string> = {
   hardcover: 'Tapa dura',
   paperback: 'Tapa blanda',
   boxed_set: 'Caja',
+  screen: 'Pantalla',
   pdf: 'PDF',
 }
 

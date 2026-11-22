@@ -1,0 +1,23 @@
+{
+  "slug": "the-incandescent-grottoes",
+  "system": "old-school-essentials",
+  "title": "The Incandescent Grottoes",
+  "kind": "adventure",
+  "description": "Una expedición clásica al inframundo mítico para personajes de nivel 1 a 2, de Gavin Norman: un arroyo se precipita en un agujero que lleva a cursos de agua subterráneos y grutas centelleantes, con musgos y hongos extraños, un templo en ruinas y la guarida de un dragón onírico que come cristales.\n\nTiene cincuenta y siete zonas en formato de consulta rápida y se puede enlazar con The Hole in the Oak.",
+  "source": "https://www.drivethrurpg.com/en/product/348878/the-incandescent-grottoes",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2021-03",
+      "format": "hardcover",
+      "cover": "/images/rol/the-incandescent-grottoes/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/348878/the-incandescent-grottoes"
+        }
+      ]
+    }
+  ]
+}

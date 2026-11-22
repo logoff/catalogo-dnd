@@ -1,0 +1,24 @@
+{
+  "slug": "ose-advanced-fantasy-players-tome",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Advanced Fantasy: Player's Tome",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de Old-School Essentials Advanced Fantasy: todas las reglas, trece clases y diez razas inspiradas en AD&D 1.ª edición, el equipo y más de doscientos conjuros, con la opción de elegir raza y clase por separado.\n\nEs la puerta a la variante más completa de Old-School Essentials. Se usa junto al tomo del director de Advanced Fantasy.",
+  "source": "https://www.drivethrurpg.com/en/product/336584/old-school-essentials-player-s-book",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2021-01",
+      "format": "hardcover",
+      "cover": "/images/rol/ose-advanced-fantasy-players-tome/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/336584/old-school-essentials-player-s-book"
+        }
+      ]
+    }
+  ]
+}

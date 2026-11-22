@@ -1,0 +1,23 @@
+{
+  "slug": "ose-reference-booklet",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Reference Booklet",
+  "kind": "other",
+  "description": "Un cuadernillo de consulta con las reglas y tablas más usadas de Old-School Essentials: procedimientos de mazmorra, tierras salvajes, navegación y combate, tablas de personaje, equipo, encuentros y monstruos por dados de golpe.\n\nPensado para tenerlo abierto en la mesa junto a los libros básicos.",
+  "source": "https://www.drivethrurpg.com/en/product/336579/old-school-essentials-reference-booklet",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2021-01",
+      "format": "paperback",
+      "cover": "/images/rol/ose-reference-booklet/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/336579/old-school-essentials-reference-booklet"
+        }
+      ]
+    }
+  ]
+}

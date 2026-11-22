@@ -1,0 +1,24 @@
+{
+  "slug": "dolmenwood-campaign-book",
+  "system": "dolmenwood",
+  "title": "Dolmenwood Campaign Book",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de Dolmenwood: la descripción del bosque casilla a casilla, con sus aldeas, abadías, señoríos feéricos y lugares encantados, las facciones, los rumores y las reglas para viajar y explorar.\n\nEs el corazón de la ambientación y se usa con el libro del jugador y el de monstruos.",
+  "source": "https://www.drivethrurpg.com/en/product/497358/dolmenwood-campaign-book",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/dolmenwood-campaign-book/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/497358/dolmenwood-campaign-book"
+        }
+      ]
+    }
+  ]
+}

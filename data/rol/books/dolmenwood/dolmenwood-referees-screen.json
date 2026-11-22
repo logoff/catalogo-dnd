@@ -1,0 +1,16 @@
+{
+  "slug": "dolmenwood-referees-screen",
+  "system": "dolmenwood",
+  "title": "Dolmenwood Referee's Screen",
+  "kind": "other",
+  "description": "La pantalla del director de Dolmenwood, con las tablas y procedimientos más usados para viajar por el bosque, combatir y resolver encuentros.\n\nComplementa los libros básicos durante la partida.",
+  "source": "https://www.exaltedfuneral.com/products/dolmenwood-referees-screen",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "format": "screen",
+      "cover": "/images/rol/dolmenwood-referees-screen/english.webp"
+    }
+  ]
+}

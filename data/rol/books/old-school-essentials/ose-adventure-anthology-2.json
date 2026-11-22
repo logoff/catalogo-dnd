@@ -1,0 +1,23 @@
+{
+  "slug": "ose-adventure-anthology-2",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Adventure Anthology 2",
+  "kind": "adventure",
+  "description": "Otras cuatro aventuras cortas para Old-School Essentials, de autores como Chance Dudinack y Nate Treme: túmulos de esqueletos bandidos, santuarios gnomos, catedrales siniestras y pozos escalonados malditos.\n\nComo la primera antología, son partidas breves y fáciles de insertar en una campaña.",
+  "source": "https://www.drivethrurpg.com/en/product/461807/old-school-essentials-adventure-anthology-2",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2024-03",
+      "format": "hardcover",
+      "cover": "/images/rol/ose-adventure-anthology-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/461807/old-school-essentials-adventure-anthology-2"
+        }
+      ]
+    }
+  ]
+}

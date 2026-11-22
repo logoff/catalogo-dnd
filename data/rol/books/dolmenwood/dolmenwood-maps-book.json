@@ -1,0 +1,23 @@
+{
+  "slug": "dolmenwood-maps-book",
+  "system": "dolmenwood",
+  "title": "Dolmenwood Maps Book",
+  "kind": "other",
+  "description": "Un libro con los mapas de Dolmenwood: el bosque entero y sus regiones, en versiones para el director y para los jugadores.\n\nPensado para usarlo en la mesa junto al libro de campaña.",
+  "source": "https://www.drivethrurpg.com/en/product/527285/dolmenwood-maps-book",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/dolmenwood-maps-book/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/527285/dolmenwood-maps-book"
+        }
+      ]
+    }
+  ]
+}

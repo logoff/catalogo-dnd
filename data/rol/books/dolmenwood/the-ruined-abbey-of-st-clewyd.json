@@ -1,0 +1,23 @@
+{
+  "slug": "the-ruined-abbey-of-st-clewyd",
+  "system": "dolmenwood",
+  "title": "The Ruined Abbey of St Clewyd",
+  "kind": "adventure",
+  "description": "Una exploración de criptas extraña para personajes de nivel 4 a 6, de Gavin Norman y Yves Geens: la abadía de San Clewyd lleva un siglo en ruinas, sacudida por energías extrañas y espíritus malignos, y todas las misiones para recuperarla han fracasado.\n\nEstá en formato de consulta rápida y requiere los libros básicos de Dolmenwood.",
+  "source": "https://www.drivethrurpg.com/en/product/527291/the-ruined-abbey-of-st-clewyd",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/the-ruined-abbey-of-st-clewyd/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/527291/the-ruined-abbey-of-st-clewyd"
+        }
+      ]
+    }
+  ]
+}
