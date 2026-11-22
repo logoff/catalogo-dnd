@@ -1,0 +1,24 @@
+{
+  "slug": "cairn-barebones",
+  "system": "cairn-2e",
+  "title": "Cairn: Barebones Edition",
+  "kind": "core",
+  "core": true,
+  "description": "Una versión mínima de las reglas de la segunda edición de Cairn, sin la ambientación implícita y con la creación de personajes totalmente aleatoria, como en la primera edición, para explorar túneles, castillos y bosques en cualquier mundo de fantasía.\n\nEs compatible con las aventuras de la segunda edición y se publica bajo CC BY-SA 4.0, casi sin ilustraciones.",
+  "source": "https://www.drivethrurpg.com/en/product/554951/cairn-barebones-edition",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Cairn Press",
+      "date": "2026-02",
+      "format": "paperback",
+      "cover": "/images/rol/cairn-barebones/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/554951/cairn-barebones-edition"
+        }
+      ]
+    }
+  ]
+}

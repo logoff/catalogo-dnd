@@ -84,6 +84,8 @@ digital de plataformas comunitarias.
 | 31  | Mausritter                         | Mausritter                         | Losing Games                       | 2020 | —                                                        | Into the Odd: reescrito pero compatible                     | sí (El Refugio de Ryhope)        | [Mausritter](https://mausritter.com/)                                                           | mausritter                         | NSR                                                                                      |
 | 32  | Mörk Borg                          | Mörk Borg                          | Free League                        | 2020 | mork-borg-third-party-license                            | D&D básico: inspiración                                     | anunciado (El Refugio de Ryhope) | [Mörk Borg](https://morkborg.com/)                                                              | mork-borg                          | NSR                                                                                      |
 | 33  | Cy_Borg                            | Cy_Borg                            | Free League                        | 2022 | cy-borg-third-party-license                              | Mörk Borg: reescrito pero compatible                        | no consta                        | [Mörk Borg](https://morkborg.com/)                                                              | cy-borg                            | NSR                                                                                      |
+| 34  | Mythic Bastionland                 | Mythic Bastionland                 | Bastionland Press                  | 2025 | —                                                        | Electric Bastionland: reescrito pero compatible             | no consta                        | [Bastionland Press](https://www.bastionland.com/)                                               | mythic-bastionland                 | NSR                                                                                      |
+| 35  | Cairn 2E                           | cairn                              | Cairn Press                        | 2024 | cc-by-sa-4-0                                             | Cairn: revisión                                             | no consta                        | [Cairn](https://cairnrpg.com/)                                                                  | cairn-2e                           | NSR                                                                                      |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -464,6 +466,50 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | #   | Título                    | Tipo   | Ficha                   | Nota   |
 | --- | ------------------------- | ------ | ----------------------- | ------ |
 | 1   | Into the Odd – Remastered | básico | into-the-odd-remastered | inglés |
+
+### Cairn
+
+| #   | Título | Tipo   | Ficha    | Nota   |
+| --- | ------ | ------ | -------- | ------ |
+| 1   | Cairn  | básico | cairn-1e | inglés |
+
+### Cairn 2E
+
+| #   | Título                             | Tipo     | Ficha                               | Nota   |
+| --- | ---------------------------------- | -------- | ----------------------------------- | ------ |
+| 1   | Cairn 2e Boxed Set                 | básico   | cairn-2e-boxed-set                  | inglés |
+| 2   | Cairn Warden's Guide (2nd Edition) | básico   | cairn-2e-wardens-guide              | inglés |
+| 3   | Cairn: Barebones Edition           | básico   | cairn-barebones                     | inglés |
+| 4   | CAS-1: Trouble in Twin Lakes       | aventura | cairn-cas-1-trouble-in-twin-lakes   | inglés |
+| 5   | CAS-3: The Feast of Tegny Wood     | aventura | cairn-cas-3-the-feast-of-tegny-wood | inglés |
+
+### Electric Bastionland
+
+| #   | Título               | Tipo   | Ficha                | Nota               |
+| --- | -------------------- | ------ | -------------------- | ------------------ |
+| 1   | Electric Bastionland | básico | electric-bastionland | castellano, inglés |
+
+### Mythic Bastionland
+
+| #   | Título             | Tipo   | Ficha              | Nota   |
+| --- | ------------------ | ------ | ------------------ | ------ |
+| 1   | Mythic Bastionland | básico | mythic-bastionland | inglés |
+
+### Knave
+
+| #   | Título                      | Tipo     | Ficha                       | Nota   |
+| --- | --------------------------- | -------- | --------------------------- | ------ |
+| 1   | The Waking of Willowby Hall | aventura | the-waking-of-willowby-hall | inglés |
+
+### Mausritter
+
+| #   | Título                                      | Tipo     | Ficha                           | Nota       |
+| --- | ------------------------------------------- | -------- | ------------------------------- | ---------- |
+| 1   | Mausritter: Boxed Set                       | básico   | mausritter-boxed-set            | inglés     |
+| 2   | Mausritter: The Estate Adventure Collection | aventura | mausritter-the-estate           | inglés     |
+| 3   | Mausritter                                  | básico   | mausritter                      | castellano |
+| 4   | Honey in the Rafters (_Miel en las vigas_)  | aventura | mausritter-honey-in-the-rafters | castellano |
+| 5   | Veneno en la ciénaga                        | aventura | mausritter-veneno-en-la-cienaga | castellano |
 
 ## Ediciones anteriores de D&D
 

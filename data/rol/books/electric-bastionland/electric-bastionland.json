@@ -1,0 +1,31 @@
+{
+  "slug": "electric-bastionland",
+  "system": "electric-bastionland",
+  "title": "Electric Bastionland",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de Electric Bastionland: Bastión, la ciudad eléctrica e infinita, el campo profundo y los túneles imposibles del Subterráneo, con las reglas, cientos de trasfondos fallidos que dan a cada personaje su deuda y su equipo, y herramientas para el director.\n\nEs el único libro necesario para jugar. Cursed Ink lo publica en castellano.",
+  "source": "https://www.exaltedfuneral.com/products/electric-bastionland",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Bastionland Press",
+      "date": "2020-04",
+      "format": "hardcover",
+      "cover": "/images/rol/electric-bastionland/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/308100/electric-bastionland"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "publisher": "Cursed Ink",
+      "format": "hardcover",
+      "source": "https://dracotienda.com/juegos-de-rol/41385-electric-bastionland.html",
+      "cover": "/images/rol/electric-bastionland/castellano.webp"
+    }
+  ]
+}

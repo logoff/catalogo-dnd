@@ -1,0 +1,23 @@
+{
+  "slug": "the-waking-of-willowby-hall",
+  "system": "knave",
+  "title": "The Waking of Willowby Hall",
+  "kind": "adventure",
+  "description": "Una aventura muy interactiva de Ben Milton para personajes de nivel 3: una mansión en ruinas asaltada por un gigante desbocado, muertos inquietos y un ganso muy enfadado, con mapas de una página para dirigirla de un vistazo.\n\nEstá preparada para Knave pero sirve para cualquier juego de la vieja escuela. Sale en un fanzine grapado a color de treinta y dos páginas.",
+  "source": "https://www.exaltedfuneral.com/products/the-waking-of-willowby-hall",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Questing Beast",
+      "date": "2021-02",
+      "format": "paperback",
+      "cover": "/images/rol/the-waking-of-willowby-hall/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/348439/the-waking-of-willowby-hall"
+        }
+      ]
+    }
+  ]
+}

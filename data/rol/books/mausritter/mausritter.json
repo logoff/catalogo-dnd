@@ -1,0 +1,19 @@
+{
+  "slug": "mausritter",
+  "system": "mausritter",
+  "title": "Mausritter",
+  "kind": "core",
+  "core": true,
+  "description": "El reglamento de Mausritter en castellano: ratones valientes que sobreviven en un mundo enorme y peligroso, con reglas mínimas, creación de personajes, inventario de cartas, magia de hechizos rúnicos y herramientas para crear la región de juego.\n\nEs el libro básico; El Refugio de Ryhope publica también aventuras.",
+  "source": "https://dracotienda.com/juegos-de-rol/26026-mausritter.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Mausritter",
+      "publisher": "El Refugio de Ryhope",
+      "format": "hardcover",
+      "source": "https://dracotienda.com/juegos-de-rol/26026-mausritter.html",
+      "cover": "/images/rol/mausritter/castellano.webp"
+    }
+  ]
+}

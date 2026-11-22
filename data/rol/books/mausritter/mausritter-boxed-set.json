@@ -1,0 +1,17 @@
+{
+  "slug": "mausritter-boxed-set",
+  "system": "mausritter",
+  "title": "Mausritter: Boxed Set",
+  "kind": "core",
+  "core": true,
+  "description": "La caja de Mausritter, ganador de un ENnie de oro como mejor juego familiar en 2021: el reglamento, el material para jugar con su inventario de cartas y todo lo necesario para empezar a llevar ratones aventureros.\n\nEs la forma recomendada de empezar a jugar en inglés.",
+  "source": "https://www.exaltedfuneral.com/products/mausritter-boxed-set",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Exalted Funeral Press",
+      "format": "boxed_set",
+      "cover": "/images/rol/mausritter-boxed-set/english.webp"
+    }
+  ]
+}

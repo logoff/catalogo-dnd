@@ -1,0 +1,24 @@
+{
+  "slug": "cairn-2e-wardens-guide",
+  "system": "cairn-2e",
+  "title": "Cairn Warden's Guide (2nd Edition)",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de la segunda edición de Cairn: herramientas, tablas y consejos para dirigir, con procedimientos para crear aventuras en el Vald o en cualquier mundo de fantasía.\n\nSe usa con el libro del jugador o con la edición Barebones.",
+  "source": "https://www.drivethrurpg.com/en/product/500478/cairn-warden-s-guide-2nd-edition",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Cairn Press",
+      "date": "2024-10",
+      "format": "paperback",
+      "cover": "/images/rol/cairn-2e-wardens-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/500478/cairn-warden-s-guide-2nd-edition"
+        }
+      ]
+    }
+  ]
+}
