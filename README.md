@@ -204,3 +204,14 @@ están definidas las variables `VITE_UMAMI_URL` y
 `VITE_UMAMI_WEBSITE_ID`. En el despliegue se leen de los secretos
 del repositorio `UMAMI_URL` y `UMAMI_WEBSITE_ID`. En desarrollo local
 no se envía nada.
+
+El día 1 de cada mes, la Action `umami-report.yml` consulta la API de
+Umami y envía a un chat privado de Telegram el resumen del mes anterior:
+visitantes, visitas y páginas vistas (con la variación respecto al mes
+anterior), páginas más vistas, procedencia y clics en «comprar» por
+tienda y por sección. El repositorio es público, así que el informe
+nunca se escribe en el registro de Actions ni se guarda como artefacto.
+Usa los secretos `UMAMI_URL`, `UMAMI_WEBSITE_ID`, `UMAMI_USERNAME` y
+`UMAMI_PASSWORD` (mejor un usuario de solo lectura), `TELEGRAM_BOT_TOKEN`
+y `TELEGRAM_CHAT_ID`. Con `just umami-report` se ve el informe en la
+terminal sin enviarlo, leyendo esas variables de `.env`.
