@@ -178,7 +178,9 @@ ellos entra, además, la línea impresa propia en inglés (editorial del
 sistema o `line_publishers`), con `format` en cada edición y al menos una
 impresa (`movementBookProblem` en `src/utils/rpg.ts`). Si la editorial ha
 liberado un libro en Codex de la Marca, la edición lo enlaza con
-`free_download`, un botón aparte que no es de compra.
+`free_download`, un botón aparte que no es de compra. De los juegos de La
+Marca del Este entra todo lo oficial, también accesorios (formato
+`accessory`), novelas y PDF liberados en Codex.
 Los sistemas de D&D tienen ficha mínima que enlaza al catálogo oficial
 (`official_catalog`). Como en novelas, un plugin de `vite.config.ts`
 genera `virtual:rpg-index` (licencias, sistemas y resumen de los libros)
@@ -212,7 +214,8 @@ rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
 cada tienda (Amazon, Adtraction, Awin, Instant Gaming, DriveThru; NoSoloRol y
 DriveThruRPG solo en otros juegos de rol, DMsGuild solo en ediciones
-anteriores); los JSON guardan
+anteriores, Tesoros de la Marca, sin afiliado y sin `rel="sponsored"`, solo en los
+juegos de La Marca del Este, `MARCA_DEL_ESTE_SYSTEMS`); los JSON guardan
 siempre la URL limpia y los IDs llegan por variables `VITE_AFFILIATE_*`
 (ver README).
 

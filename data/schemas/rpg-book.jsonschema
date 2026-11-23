@@ -134,6 +134,7 @@
                         "paperback",
                         "boxed_set",
                         "screen",
+                        "accessory",
                         "pdf"
                     ]
                 },
@@ -179,7 +180,8 @@
                         "casa_del_libro",
                         "nosolorol",
                         "dmsguild",
-                        "drivethrurpg"
+                        "drivethrurpg",
+                        "tesoros_de_la_marca"
                     ]
                 },
                 "url": {

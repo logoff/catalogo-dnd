@@ -12,7 +12,13 @@
       "date": "2015-07",
       "format": "paperback",
       "source": "https://lamarcadeleste.com/2015/07/primeras-resenas-de-el-orbe-de-amonhotep.html",
-      "free_download": "https://codexdelamarca.com/posts/b3-el-orbe-de-amonhotep/"
+      "free_download": "https://codexdelamarca.com/posts/b3-el-orbe-de-amonhotep/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-orbe-de-amonhotep/"
+        }
+      ]
     }
   ]
 }

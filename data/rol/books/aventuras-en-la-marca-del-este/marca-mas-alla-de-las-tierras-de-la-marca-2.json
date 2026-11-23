@@ -12,7 +12,13 @@
       "date": "2025-01",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/38403-mas-alla-de-las-tierras-de-la-marca-n-2.html",
-      "cover": "/images/rol/marca-mas-alla-de-las-tierras-de-la-marca-2/castellano.webp"
+      "cover": "/images/rol/marca-mas-alla-de-las-tierras-de-la-marca-2/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/mas-alla-de-las-tierras-de-la-marca-no-2/"
+        }
+      ]
     }
   ]
 }

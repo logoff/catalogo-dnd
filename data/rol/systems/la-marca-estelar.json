@@ -1,0 +1,29 @@
+{
+  "slug": "la-marca-estelar",
+  "name": "La Marca Estelar",
+  "family": "la-marca-estelar",
+  "publisher": "Holocubierta Ediciones",
+  "date": "2016",
+  "movement": "osr",
+  "description": "Un juego de ciencia ficción retro de La Marca del Este que lleva el reglamento de Aventuras en la Marca del Este al espacio: aventureros cósmicos, monstruos alienígenas, templos en planetas perdidos, mutaciones, robots y poderes mentales, con el tono de la ciencia ficción de los ochenta.\n\nLo publicó Holocubierta en julio de 2016 en un manual de 216 páginas. Es el juego espacial de la familia de la Marca, en castellano, y en 2023 La Marca del Este le sumó su primera aventura, Los clonadores de Tavuun-17.",
+  "features": [
+    "Aventuras en la Marca del Este en el espacio",
+    "Mutaciones, robots y poderes mentales",
+    "Ciencia ficción de los ochenta",
+    "En castellano"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "aventuras-en-la-marca-del-este",
+      "kind": "major_rewrite",
+      "note": "Adapta el reglamento de Aventuras en la Marca del Este a la ciencia ficción."
+    }
+  ],
+  "links": [
+    {
+      "label": "La Marca del Este",
+      "url": "https://lamarcadeleste.com/2016/06/la-marca-estelar-este-viernes-ya-la.html"
+    }
+  ]
+}

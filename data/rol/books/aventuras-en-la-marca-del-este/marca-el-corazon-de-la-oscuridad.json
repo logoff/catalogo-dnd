@@ -13,7 +13,13 @@
       "format": "hardcover",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26128-aventuras-en-la-marca-del-este-el-corazon-de-la-oscuridad.html",
       "cover": "/images/rol/marca-el-corazon-de-la-oscuridad/castellano.webp",
-      "free_download": "https://codexdelamarca.com/posts/tn3-el-corazon-de-la-oscuridad/"
+      "free_download": "https://codexdelamarca.com/posts/tn3-el-corazon-de-la-oscuridad/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-corazon-de-la-oscuridad/"
+        }
+      ]
     }
   ]
 }

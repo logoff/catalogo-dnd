@@ -13,7 +13,13 @@
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/22015-aventuras-en-la-marca-del-este-incursin-a-la-tierra-del-dios-azul.html",
       "cover": "/images/rol/marca-incursion-a-la-tierra-del-dios-azul/castellano.webp",
-      "free_download": "https://codexdelamarca.com/posts/b5-incursion-a-la-tierra-del-dios-azul/"
+      "free_download": "https://codexdelamarca.com/posts/b5-incursion-a-la-tierra-del-dios-azul/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/incursion-la-tierra-del-dios-azul/"
+        }
+      ]
     }
   ]
 }

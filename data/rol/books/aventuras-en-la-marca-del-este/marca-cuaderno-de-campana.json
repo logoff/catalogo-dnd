@@ -1,0 +1,24 @@
+{
+  "slug": "marca-cuaderno-de-campana",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Cuaderno de campaña",
+  "kind": "other",
+  "description": "Un cuaderno A5 de doble anilla que sustituye al bloc de notas en la mesa de juego: seis bloques de 16 páginas, cada uno para una aventura, con mallas hexagonales y rectangulares para mapas y páginas para personajes, enemigos y trampas.\n\nLo diseñó el grupo Grapas & Mapas como recompensa del mecenazgo de Clásicos de la Marca de 2019. Sus textos son genéricos y sirven para cualquier juego.",
+  "source": "https://lamarcadeleste.com/2019/05/nueva-meta-el-cuaderno-de-campana.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2019",
+      "format": "accessory",
+      "source": "https://lamarcadeleste.com/2019/05/nueva-meta-el-cuaderno-de-campana.html",
+      "cover": "/images/rol/marca-cuaderno-de-campana/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/cuaderno-de-campana/"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,13 @@
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/39227-aventuras-en-la-marca-del-este-tiempos-oscuros-en-dormunder.html",
       "cover": "/images/rol/marca-tiempos-oscuros-en-dormunder/castellano.webp",
-      "free_download": "https://codexdelamarca.com/posts/x4-tiempos-oscuros-en-dormunder/"
+      "free_download": "https://codexdelamarca.com/posts/x4-tiempos-oscuros-en-dormunder/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/tiempos-oscuros-en-dormunder/"
+        }
+      ]
     }
   ]
 }

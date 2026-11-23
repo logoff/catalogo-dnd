@@ -15,6 +15,15 @@ import { normalize } from './videogameFilters.ts'
 // Editoriales de 5E destacadas: entra su catálogo impreso principal aunque solo esté en inglés
 export const FEATURED_PUBLISHERS = ['Kobold Press']
 
+// Juegos del grupo La Marca del Este: entra todo lo que publican y solo sus libros enlazan a su
+// tienda, Tesoros de la Marca
+export const MARCA_DEL_ESTE_SYSTEMS = [
+  'aventuras-en-la-marca-del-este',
+  'leyendas-de-la-marca-del-este',
+  'cronicas-de-la-marca-del-este',
+  'la-marca-estelar',
+]
+
 function byDateDesc<T extends { date?: string }>(a: T, b: T): number {
   return (b.date ?? '').localeCompare(a.date ?? '')
 }
@@ -227,13 +236,16 @@ export function movementProblem(systems: RpgSystem[], system: RpgSystem): string
 }
 
 // Por qué un libro de un sistema OSR o NSR queda fuera del alcance, o null si entra: necesita
-// formato en cada edición, una edición impresa y estar en castellano o ser de la línea propia
+// formato en cada edición, una edición impresa (o liberada gratis por la editorial en Codex de la
+// Marca) y estar en castellano o ser de la línea propia
 export function movementBookProblem(
   book: Pick<RpgBook, 'editions'>,
   system: Pick<RpgSystem, 'publisher' | 'line_publishers'>
 ): string | null {
   if (book.editions.some((e) => !e.format)) return 'cada edición tiene que indicar su formato'
-  if (!book.editions.some((e) => e.format !== 'pdf')) return 'necesita una edición impresa'
+  if (!book.editions.some((e) => e.format !== 'pdf' || e.free_download)) {
+    return 'necesita una edición impresa'
+  }
   const line = linePublishers(system)
   const inScope = book.editions.some(
     (e) => e.language === 'castellano' || (e.language === 'english' && line.includes(e.publisher))

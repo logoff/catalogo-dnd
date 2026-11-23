@@ -1,0 +1,28 @@
+{
+  "slug": "marca-mapamundi-de-valion",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Mapamundi de Valion",
+  "kind": "other",
+  "description": "Una carpeta con el mapamundi de Valion en hexágonos y a todo color (88 × 60 cm), con las ubicaciones de las aventuras de Clásicos de la Marca hasta La gesta del enano, un mapa del mismo tamaño de la ciudad de Coronaburgo, un libreto de anexos y ocho encartes con tablas para la pantalla de Crónicas de la Marca del Este.\n\nSirve tanto para Aventuras en la Marca del Este como para Crónicas. Los mapas de Jorge Moreno se publicaron en enero de 2023.",
+  "source": "https://codexdelamarca.com/posts/mapamundi/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2023-01",
+      "format": "accessory",
+      "source": "https://lamarcadeleste.com/2022/12/el-mapamundi-de-valion.html",
+      "cover": "/images/rol/marca-mapamundi-de-valion/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14167-aventuras-en-la-marca-del-este-mapamundi-de-valion-9788493585823.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/mapamundi-de-valion/"
+        }
+      ]
+    }
+  ]
+}

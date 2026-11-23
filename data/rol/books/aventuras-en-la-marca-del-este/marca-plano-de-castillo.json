@@ -1,0 +1,17 @@
+{
+  "slug": "marca-plano-de-castillo",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Plano de castillo",
+  "kind": "other",
+  "description": "Un póster A3 a todo color con el plano de un castillo de tres niveles y un sótano, dibujado por Eneko Menika, del grupo Grapas & Mapas.\n\nTesoros de la Marca lo regala con los pedidos; no se vende por separado.",
+  "source": "https://tesorosdelamarca.com/producto/plano-de-castillo/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "accessory",
+      "source": "https://tesorosdelamarca.com/producto/plano-de-castillo/",
+      "cover": "/images/rol/marca-plano-de-castillo/castellano.webp"
+    }
+  ]
+}

@@ -43,6 +43,7 @@ export type Store =
   | 'nosolorol'
   | 'dmsguild'
   | 'drivethrurpg'
+  | 'tesoros_de_la_marca'
 
 export interface PurchaseLink {
   store: Store

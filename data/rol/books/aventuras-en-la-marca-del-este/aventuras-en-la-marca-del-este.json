@@ -41,7 +41,13 @@
       "date": "2025-06",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/39492-aventuras-en-la-marca-del-este-ed-bolsillo-nueva-edicion.html",
-      "cover": "/images/rol/aventuras-en-la-marca-del-este/castellano.webp"
+      "cover": "/images/rol/aventuras-en-la-marca-del-este/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/reedicion-de-aventuras-en-la-marca-del-este-de-bolsillo/"
+        }
+      ]
     },
     {
       "language": "english",

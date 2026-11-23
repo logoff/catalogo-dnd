@@ -4,6 +4,8 @@ interface StoreConfig {
   label: string
   // Convierte la URL del producto en un enlace de afiliado. Sin definir, se usa la URL tal cual
   affiliate?: (url: string) => string
+  // Tienda sin programa de afiliados: su enlace no se marca como patrocinado
+  unaffiliated?: true
 }
 
 // Los IDs de afiliado no se guardan en el repositorio: llegan en el build como variables
@@ -120,6 +122,11 @@ export const STORES: Record<Store, StoreConfig> = {
   drivethrurpg: {
     label: 'DriveThruRPG',
     affiliate: driveThruAffiliate(env.VITE_AFFILIATE_DRIVETHRU_ID),
+  },
+  // Tienda del grupo La Marca del Este, sin afiliado: solo en los libros de sus juegos
+  tesoros_de_la_marca: {
+    label: 'Tesoros de la Marca',
+    unaffiliated: true,
   },
 }
 

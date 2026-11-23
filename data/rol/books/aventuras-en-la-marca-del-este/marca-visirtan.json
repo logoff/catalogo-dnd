@@ -12,7 +12,13 @@
       "date": "2025-12",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41018-aventuras-en-la-marca-del-este-visirtan-tierra-de-magia-y-arena.html",
-      "cover": "/images/rol/marca-visirtan/castellano.webp"
+      "cover": "/images/rol/marca-visirtan/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/visirtan-tierra-de-magia-y-arena/"
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,13 @@
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/22014-aventuras-en-la-marca-del-este-la-catacumba-de-los-espantos-de-kavaduz.html",
       "cover": "/images/rol/marca-la-catacumba-de-los-espantos-de-kavaduz/castellano.webp",
-      "free_download": "https://codexdelamarca.com/posts/c2-la-catacumba-de-los-espantos-de-kavaduz/"
+      "free_download": "https://codexdelamarca.com/posts/c2-la-catacumba-de-los-espantos-de-kavaduz/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-catacumba-los-espantos-kavaduz/"
+        }
+      ]
     }
   ]
 }

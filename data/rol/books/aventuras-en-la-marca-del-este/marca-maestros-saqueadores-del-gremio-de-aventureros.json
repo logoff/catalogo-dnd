@@ -11,7 +11,13 @@
       "publisher": "HT Publishers",
       "date": "2025-02",
       "format": "paperback",
-      "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html"
+      "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/maestros-saqueadores-del-gremio-de-aventureros/"
+        }
+      ]
     }
   ]
 }

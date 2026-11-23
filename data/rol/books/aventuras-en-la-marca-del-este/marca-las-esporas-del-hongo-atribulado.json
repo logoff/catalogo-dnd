@@ -12,7 +12,13 @@
       "date": "2022-05",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30135-las-esporas-del-hongo-atribulado.html",
-      "cover": "/images/rol/marca-las-esporas-del-hongo-atribulado/castellano.webp"
+      "cover": "/images/rol/marca-las-esporas-del-hongo-atribulado/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/las-esporas-del-hongo-atribulado/"
+        }
+      ]
     }
   ]
 }

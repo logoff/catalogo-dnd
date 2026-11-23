@@ -12,7 +12,13 @@
       "date": "2025-05",
       "format": "paperback",
       "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
-      "free_download": "https://codexdelamarca.com/posts/b23-la-corona-del-nigromante/"
+      "free_download": "https://codexdelamarca.com/posts/b23-la-corona-del-nigromante/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-corona-del-nigromante/"
+        }
+      ]
     }
   ]
 }

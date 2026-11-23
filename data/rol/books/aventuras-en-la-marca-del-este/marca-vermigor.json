@@ -1,0 +1,29 @@
+{
+  "slug": "marca-vermigor",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Vermigor",
+  "kind": "setting",
+  "description": "Una ambientación de fantasía oscura y terror de corte romántico para Aventuras en la Marca del Este: un mundo con magia, elfos y dragones donde abundan los misterios sobrenaturales, los fantasmas y los monstruos grotescos. El libro trae una revisión completa del reglamento, la ambientación, un bestiario, conjuros y una aventura introductoria.\n\nLo escribió José Manuel Palacios y lo publicó Holocubierta en 2018. En 2025 La Marca del Este anunció un suplemento nuevo para la ambientación.",
+  "source": "https://www.todostuslibros.com/libros/vermigor_978-84-15763-52-9",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2018-09",
+      "format": "paperback",
+      "isbn13": 9788415763529,
+      "source": "https://www.todostuslibros.com/libros/vermigor_978-84-15763-52-9",
+      "cover": "/images/rol/marca-vermigor/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/6644-vermigor-9788415763529.html"
+        },
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-vermigor/9788415763529/9637797"
+        }
+      ]
+    }
+  ]
+}

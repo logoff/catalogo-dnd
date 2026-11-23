@@ -1,0 +1,17 @@
+{
+  "slug": "marca-los-hijos-de-la-ceniza",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Los hijos de la ceniza",
+  "kind": "adventure",
+  "description": "Un módulo para personajes de nivel 3 a 4 en las estepas de Geniges y Losang: unos jóvenes vuelven de su prueba de madurez y encuentran su hogar arrasado, y siguen el rastro de los supervivientes entre esclavistas y señores de la guerra.\n\nLo escribió Manuel Prieto Serrano y estaba en imprenta en noviembre de 2026.",
+  "source": "https://tesorosdelamarca.com/producto/los-hijos-de-la-ceniza/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "paperback",
+      "source": "https://lamarcadeleste.com/2026/11/novedades-de-la-marca-para-el-cierre-de-este-2026.html",
+      "cover": "/images/rol/marca-los-hijos-de-la-ceniza/castellano.webp"
+    }
+  ]
+}

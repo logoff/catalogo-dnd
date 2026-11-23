@@ -1,0 +1,18 @@
+{
+  "slug": "marca-vestir-el-dungeon",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Vestir el Dungeon",
+  "kind": "supplement",
+  "description": "Un libreto de tablas y consejos para dar vida a las mazmorras y los megadungeons: detalles, ecosistemas y descripciones para que la exploración resulte creíble y sorprendente.\n\nLo escribió Pedro Gil, con tablas adaptadas de José Carlos Domínguez, y salió en 2020 junto a El corazón de la oscuridad. Se descarga gratis en Codex de la Marca.",
+  "source": "https://codexdelamarca.com/posts/vestireldungeon/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2020-09",
+      "format": "pdf",
+      "source": "https://codexdelamarca.com/posts/vestireldungeon/",
+      "free_download": "https://codexdelamarca.com/posts/vestireldungeon/"
+    }
+  ]
+}

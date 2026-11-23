@@ -1,0 +1,18 @@
+{
+  "slug": "marca-legados",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Legados",
+  "kind": "other",
+  "description": "Una novela de Javier Pellicer ambientada en la Marca del Este, con personajes de las Crónicas como el arqueólogo gnomo Papiro y el enano Talfin, que recorren la Marca para frenar un mal antiguo y enfrentarse a su pasado.\n\nLa publicó Holocubierta en 2013, con portada de A. J. Manzanedo.",
+  "source": "https://lamarcadeleste.com/2013/07/legados.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2013-06",
+      "format": "paperback",
+      "isbn13": 9788415763079,
+      "source": "https://www.todostuslibros.com/libros/legados_978-84-15763-07-9"
+    }
+  ]
+}
