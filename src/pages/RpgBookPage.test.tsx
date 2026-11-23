@@ -72,6 +72,30 @@ const editionBook: RpgBook = {
     { language: 'castellano', title: 'Manual del Jugador 3.5', publisher: 'Devir' },
   ],
 }
+const boxedBook: RpgBook = {
+  ...editionBook,
+  slug: 'caja',
+  title: 'Caja',
+  editions: [
+    {
+      language: 'english',
+      publisher: 'Wizards of the Coast',
+      date: '2003-07',
+      purchase_links: [
+        {
+          store: 'dmsguild',
+          url: 'https://www.dmsguild.com/en/product/1/libro-1',
+          variant: 'Libro 1',
+        },
+        {
+          store: 'dmsguild',
+          url: 'https://www.dmsguild.com/en/product/2/libro-2',
+          variant: 'Libro 2',
+        },
+      ],
+    },
+  ],
+}
 const compatibleOnly: RpgBook = {
   ...book,
   slug: 'compatible',
@@ -105,12 +129,17 @@ const renderAt = (path: string) =>
 describe('ficha de libro', () => {
   beforeEach(() => {
     setRpgIndex(
-      buildRpgIndex([orc], [system, edition], [book, compatibleOnly, editionBook, freeBook])
+      buildRpgIndex(
+        [orc],
+        [system, edition],
+        [book, compatibleOnly, editionBook, freeBook, boxedBook]
+      )
     )
     cacheBook(book)
     cacheBook(freeBook)
     cacheBook(compatibleOnly)
     cacheBook(editionBook)
+    cacheBook(boxedBook)
   })
 
   it('muestra título, sistema, licencia heredada, descripción y aviso de no oficial', () => {
@@ -152,6 +181,15 @@ describe('ficha de libro', () => {
     expect(link).not.toHaveAttribute('rel', expect.stringContaining('sponsored'))
     expect(document.querySelector('[data-purchase-links]')).toBeNull()
     expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+  })
+
+  it('distingue los enlaces de una misma tienda por lo que se vende en cada uno', () => {
+    renderAt('/ediciones/dnd-3-5/caja')
+    expect(screen.getByRole('link', { name: /Comprar en DMsGuild Libro 1/ })).toHaveAttribute(
+      'href',
+      expect.stringContaining('/product/1/libro-1')
+    )
+    expect(screen.getByRole('link', { name: /Comprar en DMsGuild Libro 2/ })).toBeInTheDocument()
   })
 
   it('un libro de una edición anterior de D&D es oficial, sin tiendas ni aviso de afiliado', () => {

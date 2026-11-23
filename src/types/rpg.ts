@@ -1,6 +1,11 @@
 import type { World } from '../utils/worlds.ts'
 import type { PurchaseLink } from './index'
 
+// Enlace de compra; variant dice qué se vende cuando una edición tiene varios de la misma tienda
+export interface RpgPurchaseLink extends PurchaseLink {
+  variant?: string
+}
+
 // license: texto legal que permite publicar; reference_document: reglas publicadas bajo una
 // licencia (SRD); community_license: licencia de un editor para su propio juego
 export type LicenseKind = 'license' | 'reference_document' | 'community_license'
@@ -89,7 +94,7 @@ export interface RpgEdition {
   cover?: string
   // Fuente de la edición, cuando no es la misma que la del libro
   source?: string
-  purchase_links?: PurchaseLink[]
+  purchase_links?: RpgPurchaseLink[]
   // Copia gratuita liberada por la editorial (Codex de la Marca); no es una tienda
   free_download?: string
 }

@@ -12,7 +12,19 @@
       "publisher": "TSR",
       "date": "1983",
       "format": "boxed_set",
-      "cover": "/images/rol/set-1-basic-rules/english.webp"
+      "cover": "/images/rol/set-1-basic-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/116578/d-d-basic-set-player-s-manual-becmi-ed-basic",
+          "variant": "Player's Manual"
+        },
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/116619/d-d-basic-set-dm-s-rulebook-becmi-ed-basic",
+          "variant": "DM's Rulebook"
+        }
+      ]
     },
     {
       "language": "castellano",
