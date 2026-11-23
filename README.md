@@ -172,6 +172,12 @@ lógica de `scripts/feed.mjs`; sus enlaces llevan
 `utm_source=rss&utm_medium=feed&utm_campaign=novedades` para medirlo en
 Umami. Se anuncia en el `<head>` y se enlaza en el pie de página.
 
+La página `/novedades` y el bloque «Novedades» de la portada usan la misma
+lógica (`scripts/releases.mjs`): lo salido en los últimos 90 días, lo que
+tiene fecha futura y lo anunciado sin fecha, en inglés y en castellano. Las
+fechas se calculan en el build, así que el sitio se despliega también cada
+día (`schedule` de `deploy.yml`) para que avance solo.
+
 ## Enlaces de afiliado
 
 Los botones de compra llevan ID de afiliado solo si están definidas

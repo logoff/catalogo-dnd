@@ -19,6 +19,14 @@ describe('cabecera', () => {
     expect(screen.getByRole('link', { name: 'Guías' })).toHaveAttribute('href', '/guias')
   })
 
+  it('enlaza a las novedades y mide el clic', () => {
+    renderHeader()
+    const link = screen.getByRole('link', { name: 'Novedades' })
+    expect(link).toHaveAttribute('href', '/novedades')
+    expect(link).toHaveAttribute('data-umami-event', 'menu')
+    expect(link).toHaveAttribute('data-umami-event-seccion', 'Novedades')
+  })
+
   it('el grupo «Libros» enlaza a todas las ediciones de D&D', () => {
     renderHeader()
     fireEvent.click(screen.getByRole('button', { name: 'Libros' }))
@@ -51,6 +59,7 @@ describe('cabecera', () => {
       '/ediciones'
     )
     expect(mobile.getByRole('link', { name: 'Novelas' })).toHaveAttribute('href', '/novelas')
+    expect(mobile.getByRole('link', { name: 'Novedades' })).toHaveAttribute('href', '/novedades')
     expect(mobile.getByRole('link', { name: 'Árbol genealógico' })).toHaveAttribute(
       'href',
       '/rol/arbol'

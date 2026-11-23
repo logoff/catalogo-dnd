@@ -3,6 +3,10 @@ name: Deploy
 on:
   push:
     branches: [main]
+  # Cada día, para que /novedades pase lo que llega a su fecha de «Próximamente» a «Recién salido»
+  # (las fechas se fijan en el build). Sin cambios en data/ no avisa a IndexNow
+  schedule:
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 permissions:

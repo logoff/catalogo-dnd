@@ -74,7 +74,11 @@ const navGroups: NavGroup[] = [
   },
 ]
 
-const guidesLink: NavItem = { to: '/guias', label: 'Guías' }
+// Enlaces sueltos tras los grupos
+const singleLinks: NavItem[] = [
+  { to: '/novedades', label: 'Novedades' },
+  { to: '/guias', label: 'Guías' },
+]
 
 // Evento de Umami de cada enlace del menú, para medir qué secciones se visitan desde la cabecera
 const trackMenu = (label: string) => ({
@@ -90,7 +94,7 @@ function isGroupActive(group: NavGroup, pathname: string) {
 
 const linkClass = (active: boolean) =>
   clsx(
-    'inline-flex min-h-10 items-center rounded-md px-3 text-sm transition-colors duration-150',
+    'inline-flex min-h-10 items-center rounded-md px-2 text-sm whitespace-nowrap xl:px-3 transition-colors duration-150',
     active ? 'font-medium text-fg' : 'text-muted hover:text-fg'
   )
 
@@ -174,19 +178,28 @@ export default function Header() {
         <div className="flex h-16 items-center gap-4">
           <Link to="/" className="flex items-center gap-2.5 font-semibold tracking-tight">
             <Logo className="size-8" />
-            <span className="text-base">Catálogo D&amp;D</span>
+            <span className="text-base whitespace-nowrap md:max-[52rem]:sr-only">
+              Catálogo D&amp;D
+            </span>
           </Link>
 
-          <nav aria-label="Principal" className="ml-4 hidden items-center gap-1 md:flex">
+          <nav aria-label="Principal" className="ml-2 hidden items-center gap-0.5 md:flex lg:ml-4">
             {navGroups.map((group) => (
               <NavDropdown key={group.label} group={group} />
             ))}
-            <NavLink to={guidesLink.to} className={navLinkClass} {...trackMenu(guidesLink.label)}>
-              {guidesLink.label}
-            </NavLink>
+            {singleLinks.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                className={navLinkClass}
+                {...trackMenu(item.label)}
+              >
+                {item.label}
+              </NavLink>
+            ))}
           </nav>
 
-          <div className="ml-auto hidden w-64 lg:block">
+          <div className="ml-auto hidden w-56 lg:block xl:w-64">
             <SearchBar />
           </div>
 
@@ -240,14 +253,17 @@ export default function Header() {
                 </div>
               ))}
               <span className="mt-2 border-t border-line" aria-hidden="true" />
-              <NavLink
-                to={guidesLink.to}
-                className={mobileLinkClass}
-                onClick={closeMobileMenu}
-                {...trackMenu(guidesLink.label)}
-              >
-                {guidesLink.label}
-              </NavLink>
+              {singleLinks.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  className={mobileLinkClass}
+                  onClick={closeMobileMenu}
+                  {...trackMenu(item.label)}
+                >
+                  {item.label}
+                </NavLink>
+              ))}
             </nav>
           </div>
         )}

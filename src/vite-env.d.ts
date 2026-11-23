@@ -41,3 +41,10 @@ declare module 'virtual:rpg-stats' {
   const stats: { systems: number; books: number }
   export default stats
 }
+
+// Novedades: lo próximo, lo reciente y lo anunciado, calculado en el build (plugin releasesIndex)
+declare module 'virtual:releases' {
+  import type { ReleasesIndex } from '@/types/releases'
+  const releases: ReleasesIndex
+  export default releases
+}

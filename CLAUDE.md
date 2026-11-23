@@ -209,7 +209,8 @@ de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandi
 `?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/rol` (otros juegos de
 rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
 (ediciones anteriores de D&D), `/ediciones/:edicion` y
-`/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`.
+`/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`,
+`/novedades`.
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
 cada tienda (Amazon, Adtraction, Awin, Instant Gaming, DriveThru; NoSoloRol y
@@ -234,11 +235,16 @@ ligeras de 1200×630 (`dist/images/previews/`). `main.tsx` hidrata ese
 HTML. Lo que pinte el primer render debe coincidir en servidor y
 navegador: nada de `window` ni `localStorage` durante el render.
 
-**Feed de novedades:** `scripts/generate-feed.mjs` genera en el build
-`dist/feed.xml` (Atom) con las 50 últimas ediciones con fecha de todas las
-secciones, usando la lógica pura de `scripts/feed.mjs` (con tests en
-`scripts/feed.test.mjs`). Se anuncia en el `<head>` de `index.html` y en el
-pie.
+**Feed y página de novedades:** qué es una novedad lo decide la lógica
+pura de `scripts/releases.mjs` (con tests en `scripts/releases.test.mjs`):
+ediciones con fecha de mes o de día de todas las secciones y anunciados sin
+fecha. `scripts/generate-feed.mjs` genera en el build `dist/feed.xml`
+(Atom) con las 50 últimas ya publicadas (`scripts/feed.mjs`); se anuncia en
+el `<head>` de `index.html` y en el pie. `/novedades` (`ReleasesPage`) y el
+bloque de la portada leen `virtual:releases`, que un plugin de
+`vite.config.ts` calcula con «hoy» en hora de Madrid: lo salido en 90 días,
+lo que tiene fecha futura y lo anunciado. Como la fecha se fija en el build,
+`deploy.yml` despliega también cada día a las 4:00 UTC.
 
 **Despliegue:** Cloudflare Pages (proyecto `catalogodnd`) en
 `catalogodnd.es`; el base path es `/` en todos los entornos.

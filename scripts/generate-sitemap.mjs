@@ -48,6 +48,7 @@ function generateSitemap() {
     { loc: '/catalogo', priority: 0.9, changefreq: 'weekly', lastmod: today },
     { loc: '/2014', priority: 0.8, changefreq: 'weekly', lastmod: today },
     { loc: '/2024', priority: 0.8, changefreq: 'weekly', lastmod: today },
+    { loc: '/novedades', priority: 0.8, changefreq: 'daily', lastmod: today },
     { loc: '/guias', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/por-donde-empezar', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/2014-vs-2024', priority: 0.8, changefreq: 'monthly', lastmod: today },

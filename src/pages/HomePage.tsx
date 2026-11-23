@@ -16,6 +16,9 @@ import { cardClass, headingClass } from '@/components/ui/styles'
 import { latestInSpanish } from '@/utils/releases'
 import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
+import releases from 'virtual:releases'
+import { ReleaseList } from '@/components/releases/ReleaseList'
+import type { ReleasesIndex } from '@/types/releases'
 
 const container = 'mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'
 
@@ -67,6 +70,34 @@ function Block({
       </div>
       {children}
     </section>
+  )
+}
+
+// Cuántas novedades próximas y recientes muestra la portada
+const RELEASES_PREVIEW = 3
+
+// Lo más próximo y lo más reciente de /novedades; sin próximas, solo lo reciente
+export function ReleasesPreview({ data = releases }: { data?: ReleasesIndex }) {
+  const upcoming = data.upcoming.slice(0, RELEASES_PREVIEW)
+  const recent = data.recent.slice(0, RELEASES_PREVIEW)
+  if (upcoming.length === 0 && recent.length === 0) return null
+  return (
+    <Block title="Novedades" to="/novedades" linkLabel="Ver todas">
+      <div className="grid gap-x-10 gap-y-6 md:grid-cols-2">
+        {upcoming.length > 0 && (
+          <div>
+            <h3 className={headingClass('group', 'mb-1')}>Próximamente</h3>
+            <ReleaseList releases={upcoming} />
+          </div>
+        )}
+        {recent.length > 0 && (
+          <div>
+            <h3 className={headingClass('group', 'mb-1')}>Recién salido</h3>
+            <ReleaseList releases={recent} />
+          </div>
+        )}
+      </div>
+    </Block>
   )
 }
 
@@ -154,6 +185,8 @@ export default function HomePage() {
           />
         </div>
       </section>
+
+      <ReleasesPreview />
 
       {latestSpanish.length > 0 && (
         <Block
