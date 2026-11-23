@@ -210,7 +210,7 @@ de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandi
 rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
 (ediciones anteriores de D&D), `/ediciones/:edicion` y
 `/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`,
-`/novedades`.
+`/novedades` y `/novedades/:mes` (resumen mensual).
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
 cada tienda (Amazon, Adtraction, Awin, Instant Gaming, DriveThru; NoSoloRol y
@@ -245,6 +245,16 @@ bloque de la portada leen `virtual:releases`, que un plugin de
 `vite.config.ts` calcula con «hoy» en hora de Madrid: lo salido en 90 días,
 lo que tiene fecha futura y lo anunciado. Como la fecha se fija en el build,
 `deploy.yml` despliega también cada día a las 4:00 UTC.
+
+**Resumen mensual:** `/novedades/AAAA-MM` (`MonthlySummaryPage`) cuenta lo
+que cambió en `data/` cada mes completo desde noviembre de 2026: fichas
+nuevas por sección (recuento y diez de ejemplo), ediciones y fechas en
+castellano y reseñas. `virtual:monthly-summaries` lo calcula en el build con
+el historial de git (`scripts/git-history.mjs` compara la última revisión
+anterior al día 1 de cada mes en hora de Madrid; `scripts/monthly-summary.mjs`
+es la lógica pura, con tests). Por eso `deploy.yml` clona con
+`fetch-depth: 0`; en un clon superficial el build de producción falla.
+`SUMMARY_TODAY=AAAA-MM-DD` simula otro día en local.
 
 **Despliegue:** Cloudflare Pages (proyecto `catalogodnd`) en
 `catalogodnd.es`; el base path es `/` en todos los entornos.

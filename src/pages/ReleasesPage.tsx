@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import releases from 'virtual:releases'
+import summaries from 'virtual:monthly-summaries'
 import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import PageHeader from '@/components/ui/PageHeader'
@@ -8,6 +10,8 @@ import { headingClass } from '@/components/ui/styles'
 import { ReleaseList, ReleasesByMonth } from '@/components/releases/ReleaseList'
 import type { Release } from '@/types/releases'
 import type { Language } from '@/types'
+import type { MonthlySummary } from '@/types/monthlySummary'
+import { monthLabel } from '@/utils/monthlySummary'
 
 type LanguageFilter = 'todos' | Language
 
@@ -27,7 +31,48 @@ const EMPTY_TEXT: Record<LanguageFilter, string> = {
 const byLanguage = (filter: LanguageFilter) => (release: Release) =>
   filter === 'todos' || release.language === filter
 
-export default function ReleasesPage({ data = releases }: { data?: typeof releases }) {
+const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1)
+
+// El último resumen mensual y el archivo de todos, del más reciente al más antiguo
+function MonthlySummaries({ months }: { months: MonthlySummary[] }) {
+  const latest = months[months.length - 1]
+  return (
+    <section aria-labelledby="este-mes" className="mt-12 border-t border-line pt-8">
+      <h2 id="este-mes" className={headingClass('section', 'mb-2')}>
+        Este mes en el catálogo
+      </h2>
+      <p className="mb-4 text-sm text-muted">
+        Lo que cambió en el catálogo cada mes: fichas nuevas, ediciones y fechas en castellano y
+        reseñas.
+      </p>
+      <Link to={`/novedades/${latest.month}`} className="font-medium text-fg underline">
+        Último resumen: {monthLabel(latest.month)}
+      </Link>
+      {months.length > 1 && (
+        <>
+          <h3 className={headingClass('group', 'mt-6 mb-2')}>Archivo</h3>
+          <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+            {[...months].reverse().map(({ month }) => (
+              <li key={month}>
+                <Link to={`/novedades/${month}`} className="text-muted hover:text-fg">
+                  {capitalize(monthLabel(month))}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </section>
+  )
+}
+
+export default function ReleasesPage({
+  data = releases,
+  months = summaries.months,
+}: {
+  data?: typeof releases
+  months?: MonthlySummary[]
+}) {
   // «Todos» en el primer render, igual en el servidor que en el navegador
   const [language, setLanguage] = useState<LanguageFilter>('todos')
   const keep = byLanguage(language)
@@ -95,6 +140,8 @@ export default function ReleasesPage({ data = releases }: { data?: typeof releas
               <p className="text-sm text-muted">{EMPTY_TEXT[language]}</p>
             )}
           </section>
+
+          {months.length > 0 && <MonthlySummaries months={months} />}
         </div>
       </div>
     </>

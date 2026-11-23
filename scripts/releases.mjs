@@ -173,3 +173,75 @@ export function splitReleases(entries, today) {
     upcoming: entries.filter((e) => e.date > today).reverse(),
   }
 }
+
+// Qué es un archivo de data/ según su ruta: el tipo de ficha y, en los libros oficiales, la carpeta
+// de la edición. Los demás archivos (esquemas, inventarios, series…) no son fichas
+export function fichaKind(file) {
+  const parts = file.split('/')
+  if (parts[0] !== 'data' || !file.endsWith('.json')) return null
+  if ((parts[1] === '2014' || parts[1] === '2024') && parts[2] === 'products') {
+    return { kind: 'product', folder: parts[1] }
+  }
+  if (parts[1] === 'videogames' && parts[2] === 'games' && parts.length === 5) {
+    return { kind: 'videogame' }
+  }
+  if (parts[1] === 'merchandising' && parts[2] === 'items' && parts.length === 5) {
+    return { kind: 'merchandise' }
+  }
+  if (parts[1] === 'novels' && parts.length === 4) return { kind: 'novel' }
+  if (parts[1] === 'rol' && parts[2] === 'books' && parts.length === 5) return { kind: 'rpgBook' }
+  if (parts[1] === 'rol' && parts[2] === 'systems' && parts.length === 4)
+    return { kind: 'rpgSystem' }
+  return null
+}
+
+// La ficha de un archivo: sección, ruta, nombre y su fecha más reciente (completa o solo el año),
+// con las mismas reglas que las novedades. null si el archivo no es una ficha
+export function describeFicha(file, json, rpgSystems = []) {
+  const type = fichaKind(file)
+  if (!type) return null
+  if (type.kind === 'rpgSystem') {
+    const edition = isDndEdition(json)
+    // Los sistemas de D&D con catálogo oficial no tienen sección propia en el sitio
+    if (json.official && json.official_catalog) return null
+    return {
+      section: edition ? 'ediciones' : 'rol',
+      path: `/${edition ? 'ediciones' : 'rol'}/${json.slug}`,
+      name: json.name,
+      date: json.date ?? null,
+    }
+  }
+  const empty = {
+    products: [],
+    videogames: [],
+    merchandise: [],
+    novels: [],
+    rpgBooks: [],
+    rpgSystems,
+  }
+  const data = {
+    product: () => ({ ...empty, products: [{ product: json, folder: type.folder }] }),
+    videogame: () => ({ ...empty, videogames: [json] }),
+    merchandise: () => ({ ...empty, merchandise: [json] }),
+    novel: () => ({ ...empty, novels: [json] }),
+    rpgBook: () => ({ ...empty, rpgBooks: [json] }),
+  }[type.kind]()
+  const all = editions(data)
+  if (all.length === 0) return null
+  const name = {
+    product: () => json.publications[0]?.title ?? json.code,
+    videogame: () => json.title_es ?? json.title,
+    merchandise: () => json.title_es ?? json.title,
+    novel: () => json.title,
+    rpgBook: () => json.title,
+  }[type.kind]()
+  // La fecha más reciente, tal como viene en los datos (día, mes o solo año); para ordenar, las de
+  // mes cuentan desde el día 1
+  const dated = all
+    .map((e) => ({ raw: e.raw, sort: fullDate(e.raw) ?? yearOnly(e.raw) }))
+    .filter((d) => d.sort)
+    .sort((a, b) => b.sort.localeCompare(a.sort))
+  const date = dated[0]?.raw ?? null
+  const { section, path, context } = all[0]
+  return { section, path, name, date, ...(context ? { context } : {}) }
+}

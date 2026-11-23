@@ -178,6 +178,15 @@ tiene fecha futura y lo anunciado sin fecha, en inglés y en castellano. Las
 fechas se calculan en el build, así que el sitio se despliega también cada
 día (`schedule` de `deploy.yml`) para que avance solo.
 
+Cada mes completo desde noviembre de 2026 tiene su resumen en
+`/novedades/AAAA-MM` («Este mes en el catálogo»): fichas nuevas por sección,
+ediciones y fechas en castellano y reseñas añadidas. Se calcula en el build
+comparando cómo estaba `data/` al empezar y al acabar el mes según el
+historial de git (`scripts/monthly-summary.mjs` y `scripts/git-history.mjs`),
+así que el despliegue clona el historial completo (`fetch-depth: 0`). Con
+`SUMMARY_TODAY=AAAA-MM-DD npm run build` se ve en local cómo quedará un mes
+antes de que acabe.
+
 ## Enlaces de afiliado
 
 Los botones de compra llevan ID de afiliado solo si están definidas

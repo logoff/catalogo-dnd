@@ -36,8 +36,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          # Hace falta el commit anterior para ver qué ha cambiado
-          fetch-depth: 2
+          # Historial completo: el resumen mensual (/novedades/AAAA-MM) compara cómo estaba data/ al
+          # empezar y al acabar cada mes, y el aviso a IndexNow mira el commit anterior
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v7

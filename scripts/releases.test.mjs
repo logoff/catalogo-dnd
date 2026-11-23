@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { announcedEntries, releaseEntries, splitReleases } from './releases.mjs'
+import { announcedEntries, describeFicha, releaseEntries, splitReleases } from './releases.mjs'
 
 const empty = { products: [], videogames: [], merchandise: [], novels: [], rpgBooks: [] }
 const today = '2026-11-23'
@@ -180,5 +180,72 @@ describe('recientes y próximas', () => {
       '2026-11-24',
       '2027-01-10',
     ])
+  })
+})
+
+describe('fichas de data/', () => {
+  const systems = [
+    { slug: 'dnd-3-5', name: 'D&D 3.5', official: true },
+    { slug: 'pathfinder-2e', name: 'Pathfinder 2E' },
+    { slug: 'dnd-5e-2024', name: 'D&D 5.5E', official: true, official_catalog: '/2024' },
+  ]
+
+  it('reconoce cada tipo de ficha por su ruta y deja fuera los demás archivos', () => {
+    expect(describeFicha('data/schemas/product.jsonschema', {})).toBeNull()
+    expect(describeFicha('data/novels/series.json', [])).toBeNull()
+    expect(
+      describeFicha('data/2024/products/01_books/05_x/004_dsbap.json', {
+        code: 'DSBaP',
+        publications: [{ title: 'Dark Sun: Blood and Power', language: 'english' }],
+      })
+    ).toEqual({
+      section: 'libros',
+      path: '/producto/2024/dsbap',
+      name: 'Dark Sun: Blood and Power',
+      date: null,
+    })
+  })
+
+  it('da la fecha más reciente de sus ediciones', () => {
+    const ficha = describeFicha('data/novels/forgotten_realms/novela.json', {
+      slug: 'novela',
+      title: 'Novela',
+      editions: [
+        { language: 'english', publisher: 'A', date: '1990-05' },
+        { language: 'castellano', publisher: 'B', date: '2026-11-18' },
+      ],
+    })
+    expect(ficha).toEqual({
+      section: 'novelas',
+      path: '/novela/novela',
+      name: 'Novela',
+      date: '2026-11-18',
+    })
+  })
+
+  it('los libros y sistemas de rol van a su sección, y los de D&D con catálogo no cuentan', () => {
+    expect(
+      describeFicha(
+        'data/rol/books/dnd-3-5/libro.json',
+        {
+          slug: 'libro',
+          system: 'dnd-3-5',
+          title: 'Libro',
+          editions: [{ language: 'english', publisher: 'W', date: '2003' }],
+        },
+        systems
+      )
+    ).toEqual({
+      section: 'ediciones',
+      path: '/ediciones/dnd-3-5/libro',
+      name: 'Libro',
+      date: '2003',
+      context: 'D&D 3.5',
+    })
+    expect(describeFicha('data/rol/systems/pathfinder-2e.json', systems[1])).toMatchObject({
+      section: 'rol',
+      path: '/rol/pathfinder-2e',
+    })
+    expect(describeFicha('data/rol/systems/dnd-5e-2024.json', systems[2])).toBeNull()
   })
 })
