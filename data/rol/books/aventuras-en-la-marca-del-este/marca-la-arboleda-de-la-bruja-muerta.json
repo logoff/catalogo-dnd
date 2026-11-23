@@ -13,7 +13,13 @@
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40458-aventuras-en-la-marca-del-este-la-arboleda-de-la-bruja-muerta.html",
       "cover": "/images/rol/marca-la-arboleda-de-la-bruja-muerta/castellano.webp",
-      "free_download": "https://codexdelamarca.com/posts/b26-la-arboleda-de-la-bruja-muerta/"
+      "free_download": "https://codexdelamarca.com/posts/b26-la-arboleda-de-la-bruja-muerta/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-arboleda-de-la-bruja-muerta/"
+        }
+      ]
     }
   ]
 }

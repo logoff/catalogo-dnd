@@ -13,7 +13,13 @@
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30308-aventuras-en-la-marca-del-este-vileza-en-el-bastion-de-los-bandidos.html",
       "cover": "/images/rol/marca-vileza-en-el-bastion-de-los-bandidos/castellano.webp",
-      "free_download": "https://codexdelamarca.com/posts/b14-vileza-en-el-bastion-de-los-bandidos/"
+      "free_download": "https://codexdelamarca.com/posts/b14-vileza-en-el-bastion-de-los-bandidos/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/vileza-en-el-bastion-de-los-bandidos/"
+        }
+      ]
     }
   ]
 }

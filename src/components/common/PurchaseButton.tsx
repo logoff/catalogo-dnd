@@ -23,7 +23,7 @@ export default function PurchaseButton({
   variant,
   primary = false,
 }: PurchaseButtonProps) {
-  const { label } = STORES[store]
+  const { label, unaffiliated } = STORES[store]
   const trackingAttributes = Object.fromEntries(
     Object.entries(tracking).map(([key, value]) => [`data-umami-event-${key}`, value])
   )
@@ -32,7 +32,7 @@ export default function PurchaseButton({
     <a
       href={getPurchaseUrl(store, url)}
       target="_blank"
-      rel="sponsored noopener noreferrer"
+      rel={unaffiliated ? 'noopener noreferrer' : 'sponsored noopener noreferrer'}
       className={buttonClass(primary ? 'primary' : 'secondary')}
       // Evento de Umami: clic en un enlace de compra, con la URL sin parámetros de afiliado
       data-umami-event="comprar"

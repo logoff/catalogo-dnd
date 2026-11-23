@@ -13,7 +13,13 @@
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26126-aventuras-en-la-marca-del-este-bestiario-de-criaturas-extraordinarias.html",
       "cover": "/images/rol/marca-bestiario-de-criaturas-extraordinarias/castellano.webp",
-      "free_download": "https://codexdelamarca.com/posts/bs1-bestiario/"
+      "free_download": "https://codexdelamarca.com/posts/bs1-bestiario/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/bestiario-de-criaturas-extraordinarias/"
+        }
+      ]
     }
   ]
 }

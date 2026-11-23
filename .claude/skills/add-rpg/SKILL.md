@@ -103,7 +103,8 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   - **URLs de compra limpias**, sin parámetros de afiliado, y solo a
     tiendas del esquema: `amazon`, `juegos_mesa_redonda`, `nosolorol`,
     `casa_del_libro` y `drivethrurpg` (ediciones anteriores: solo
-    `dmsguild`). En los OSR y NSR se revisa DriveThruRPG en las ediciones
+    `dmsguild`; juegos de La Marca del Este: también
+    `tesoros_de_la_marca`, la tienda del grupo, sin afiliado). En los OSR y NSR se revisa DriveThruRPG en las ediciones
     en inglés en lugar de Amazon, y JMR y Casa del Libro en las de
     castellano. `just affiliate-coverage` lista las que faltan; lo
     que se revisa y no está a la venta va con su motivo en
@@ -113,6 +114,13 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
     la URL de su entrada (`https://codexdelamarca.com/posts/<entrada>/`).
     No es una tienda ni cuenta como enlace de compra; solo si la entrada
     tiene descarga.
+  - **La Marca del Este** (`MARCA_DEL_ESTE_SYSTEMS` en `src/utils/rpg.ts`):
+    entra todo lo oficial del grupo, también accesorios (`format:
+    accessory`, `kind: other`), novelas y aventuras solo en PDF si están
+    liberadas en Codex; fuera el material no oficial de la comunidad.
+    Tesoros de la Marca expone su catálogo en
+    `/wp-json/wc/store/v1/products?category=193` (enlace solo si
+    `is_in_stock` y `is_purchasable`).
 
 ## Fuentes recomendadas
 

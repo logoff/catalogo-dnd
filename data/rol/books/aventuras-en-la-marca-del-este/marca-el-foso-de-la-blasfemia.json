@@ -13,7 +13,13 @@
       "date": "2024-11",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/37902-the-pit-of-blasphemy-castellano.html",
-      "cover": "/images/rol/marca-el-foso-de-la-blasfemia/castellano.webp"
+      "cover": "/images/rol/marca-el-foso-de-la-blasfemia/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-foso-de-la-blasfemia/"
+        }
+      ]
     }
   ]
 }

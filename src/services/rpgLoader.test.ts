@@ -21,6 +21,7 @@ import {
   isDndEdition,
   mainCover,
   movementBookProblem,
+  MARCA_DEL_ESTE_SYSTEMS,
   movementProblem,
   relatedLicenses,
   rolSection,
@@ -386,6 +387,20 @@ describe('datos de otros juegos de rol', () => {
           (l) =>
             (l.store === 'drivethrurpg' && editions.includes(b.system)) ||
             (l.store === 'dmsguild' && !editions.includes(b.system))
+        )
+      )
+    )
+    expect(wrong.map((b) => b.slug)).toEqual([])
+  })
+
+  it('Tesoros de la Marca solo en los libros de los juegos de La Marca del Este', () => {
+    const wrong = books.filter((b) =>
+      b.editions.some((e) =>
+        (e.purchase_links ?? []).some(
+          (l) =>
+            l.store === 'tesoros_de_la_marca' &&
+            (!MARCA_DEL_ESTE_SYSTEMS.includes(b.system) ||
+              !l.url.startsWith('https://tesorosdelamarca.com/producto/'))
         )
       )
     )

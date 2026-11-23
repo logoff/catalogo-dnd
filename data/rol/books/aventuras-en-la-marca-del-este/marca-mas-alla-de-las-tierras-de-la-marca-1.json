@@ -12,7 +12,13 @@
       "date": "2023-01",
       "format": "paperback",
       "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/32606-mas-alla-de-las-tierras-de-la-marca-n-1.html",
-      "cover": "/images/rol/marca-mas-alla-de-las-tierras-de-la-marca-1/castellano.webp"
+      "cover": "/images/rol/marca-mas-alla-de-las-tierras-de-la-marca-1/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/mas-alla-de-las-tierras-de-la-marca-no-1/"
+        }
+      ]
     }
   ]
 }

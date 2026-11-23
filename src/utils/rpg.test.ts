@@ -103,4 +103,12 @@ describe('movementBookProblem', () => {
     ).not.toBeNull()
     expect(movementBookProblem({ editions: [edition('english', 'Editorial')] }, ose)).not.toBeNull()
   })
+
+  it('acepta lo solo en PDF si la editorial lo ha liberado en Codex de la Marca', () => {
+    const free = {
+      ...edition('castellano', 'La Marca del Este', 'pdf'),
+      free_download: 'https://codexdelamarca.com/posts/libre/',
+    }
+    expect(movementBookProblem({ editions: [free] }, ose)).toBeNull()
+  })
 })
