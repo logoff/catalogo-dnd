@@ -52,7 +52,11 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   personaje, miniaturas, Dungeon Tiles, revistas y material con licencia
   de otras editoriales (Dragonlance de Sovereign Press). **Solo DMsGuild**:
   están descatalogados; si DMsGuild vende el PDF o la impresión bajo demanda
-  de Wizards, su enlace va en la edición en inglés (ningún otro). Los básicos llevan sufijo de edición en
+  de Wizards, su enlace va en la edición en inglés (ningún otro). Si una
+  caja solo se vende por partes, un enlace por libro con `variant` («Player's
+  Manual», «DM's Rulebook»). Para buscar, la API pública
+  `api.drivethrurpg.com/api/vBeta/products?keyword=…&siteId=10` (Wizards es
+  `publisherId` 44); la web da 403 a curl. Los básicos llevan sufijo de edición en
   el slug (`players-handbook-3-5`) y `core: true`.
 
 ## Reglas de los datos

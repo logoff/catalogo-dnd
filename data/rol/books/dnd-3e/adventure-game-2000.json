@@ -12,7 +12,13 @@
       "date": "2000-08",
       "format": "boxed_set",
       "isbn13": 9780786916412,
-      "cover": "/images/rol/adventure-game-2000/english.webp"
+      "cover": "/images/rol/adventure-game-2000/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/294522/dungeons-dragons-adventure-game"
+        }
+      ]
     }
   ]
 }

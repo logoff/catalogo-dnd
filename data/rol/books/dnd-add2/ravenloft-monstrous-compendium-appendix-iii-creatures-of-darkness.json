@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1994",
       "format": "paperback",
-      "cover": "/images/rol/ravenloft-monstrous-compendium-appendix-iii-creatures-of-darkness/english.webp"
+      "cover": "/images/rol/ravenloft-monstrous-compendium-appendix-iii-creatures-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17524/monstrous-compendium-ravenloft-appendix-iii-2e"
+        }
+      ]
     }
   ]
 }

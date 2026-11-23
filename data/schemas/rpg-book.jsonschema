@@ -187,6 +187,10 @@
                 "url": {
                     "type": "string",
                     "format": "uri"
+                },
+                "variant": {
+                    "type": "string",
+                    "description": "Qué se vende en el enlace cuando una edición tiene varios de la misma tienda, como los libros sueltos de una caja"
                 }
             }
         }

@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "2000",
       "format": "paperback",
-      "cover": "/images/rol/vortex-of-madness/english.webp"
+      "cover": "/images/rol/vortex-of-madness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17282/the-vortex-of-madness-and-other-planer-perils-2e"
+        }
+      ]
     }
   ]
 }

@@ -67,6 +67,7 @@ function EditionRow({
               primary={first && index === 0}
               store={link.store}
               url={link.url}
+              variant={link.variant}
               tracking={{ rol: `${book.system}/${book.slug}`, idioma: edition.language }}
             />
           ))}

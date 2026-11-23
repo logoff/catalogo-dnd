@@ -10,7 +10,13 @@
       "language": "english",
       "publisher": "TSR",
       "date": "1992",
-      "cover": "/images/rol/mc13-monstrous-compendium-al-qadim-appendix/english.webp"
+      "cover": "/images/rol/mc13-monstrous-compendium-al-qadim-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16872/monstrous-compendium-al-qadim-appendix"
+        }
+      ]
     }
   ]
 }
