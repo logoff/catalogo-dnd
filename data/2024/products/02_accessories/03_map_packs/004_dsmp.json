@@ -1,0 +1,16 @@
+{
+  "code": "DSMP",
+  "settings": ["dark_sun"],
+  "description": "Pack de mapas de Dark Sun, anunciado junto a los libros del regreso de Athas para 2027, para jugar sobre la mesa los lugares del mundo desértico.\n\nEs un complemento de Dark Sun: Blood and Power y Dark Sun: Edge of Oblivion. Solo está anunciado en inglés; fecha y contenido pendientes de confirmar.",
+  "publications": [
+    {
+      "type": "accessory",
+      "subtype": "map_pack",
+      "language": "english",
+      "edition": "2024",
+      "title": "Dark Sun Map Pack",
+      "publisher": "Wizards of the Coast",
+      "official_url": "https://www.dndbeyond.com/posts/2215-d-d-vision-keynote-recap-world-of-warcaft-dark-sun"
+    }
+  ]
+}

@@ -65,6 +65,15 @@
     {
       "type": "book",
       "subtype": "core_rules",
+      "language": "english",
+      "edition": "2024",
+      "title": "Player's Handbook (Limited Edition, Dark Sun Art)",
+      "publisher": "Wizards of the Coast",
+      "official_url": "https://www.dndbeyond.com/posts/2215-d-d-vision-keynote-recap-world-of-warcaft-dark-sun"
+    },
+    {
+      "type": "book",
+      "subtype": "core_rules",
       "language": "castellano",
       "edition": "2024",
       "title": "Manual del Jugador",
