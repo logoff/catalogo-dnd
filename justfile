@@ -133,6 +133,10 @@ check-reviews:
 check-scores:
     node scripts/check-scores.mjs
 
+# Ver en la terminal el informe de Umami del mes anterior sin enviarlo (--month AAAA-MM para otro)
+umami-report *args:
+    node --env-file-if-exists=.env scripts/send-umami-report.mjs --dry-run {{args}}
+
 # Listar los libros publicados que aún no tienen reseñas
 reviews-coverage:
     node scripts/reviews-coverage.mjs
