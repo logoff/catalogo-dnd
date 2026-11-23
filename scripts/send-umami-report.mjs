@@ -82,8 +82,11 @@ async function pageMetrics(range) {
   }
 }
 
-const eventValues = (range, propertyName) =>
-  get('/event-data/values', range, { eventName: 'comprar', propertyName })
+const eventValues = (range, propertyName, eventName = 'comprar') =>
+  get('/event-data/values', range, { eventName, propertyName })
+
+// Valores de /event-data/values como filas { x, y } de /metrics
+const asMetrics = (values) => values.map(({ value, total }) => ({ x: value, y: total }))
 
 const period = reportPeriod(new Date(), month)
 const { current, previous } = period
@@ -91,15 +94,17 @@ const { current, previous } = period
 let report
 try {
   const properties = [...new Set(SECTIONS.map((s) => s.property))]
-  const [stats, previousStats, pages, referrers, events, stores, ...values] = await Promise.all([
-    get('/stats', current),
-    get('/stats', previous),
-    pageMetrics(current),
-    get('/metrics', current, { type: 'referrer', limit: '50' }),
-    get('/metrics', current, { type: 'event', limit: '50' }),
-    eventValues(current, 'tienda'),
-    ...properties.map((property) => eventValues(current, property)),
-  ])
+  const [stats, previousStats, pages, referrers, events, stores, menu, ...values] =
+    await Promise.all([
+      get('/stats', current),
+      get('/stats', previous),
+      pageMetrics(current),
+      get('/metrics', current, { type: 'referrer', limit: '50' }),
+      get('/metrics', current, { type: 'event', limit: '50' }),
+      eventValues(current, 'tienda'),
+      eventValues(current, 'seccion', 'menu'),
+      ...properties.map((property) => eventValues(current, property)),
+    ])
   report = formatReport({
     period,
     stats,
@@ -107,7 +112,9 @@ try {
     pages: topRows(pages),
     referrers: topRows(referrers),
     events,
-    stores: topRows(stores.map(({ value, total }) => ({ x: value, y: total }))),
+    stores: topRows(asMetrics(stores)),
+    // Todos los enlaces del menú, también los que no pasan de la decena
+    menu: topRows(asMetrics(menu), undefined, Infinity),
     sections: clicksBySection(Object.fromEntries(properties.map((p, i) => [p, values[i]]))),
   })
 } catch (error) {
