@@ -9,6 +9,8 @@ import type { Novel, NovelSeries } from './src/types/novel.ts'
 import { buildRpgIndex, rolSection } from './src/utils/rpg.ts'
 import type { License, RpgBook, RpgSystem } from './src/types/rpg.ts'
 import { announcedEntries, releaseEntries, splitReleases } from './scripts/releases.mjs'
+import { summarizeMonth, summaryMonths } from './scripts/monthly-summary.mjs'
+import { isShallow, monthChanges } from './scripts/git-history.mjs'
 
 // Inyecta el script de Umami solo si están definidas las variables de entorno
 function umami(url?: string, websiteId?: string): Plugin {
@@ -193,6 +195,56 @@ function releasesIndex(): Plugin {
   }
 }
 
+// Resumen mensual de cambios del catálogo (virtual:monthly-summaries): por cada mes completo desde
+// noviembre de 2026, qué cambió en data/ según el historial de git (scripts/monthly-summary.mjs y
+// git-history.mjs). Necesita el historial completo: en un clon superficial avisa y no exporta
+// meses, y en el build de producción falla para no publicar resúmenes vacíos.
+function monthlySummaries(mode: string): Plugin {
+  const MODULE = 'virtual:monthly-summaries'
+  const root = import.meta.dirname
+  let cached: string | undefined
+
+  return {
+    name: 'monthly-summaries',
+    resolveId: (id) => (id === MODULE ? '\0' + id : undefined),
+    load(id) {
+      if (id !== '\0' + MODULE) return
+      if (cached) return cached
+      // SUMMARY_TODAY=AAAA-MM-DD permite probar en local cómo quedará un mes antes de que acabe
+      const today =
+        process.env.SUMMARY_TODAY ??
+        new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date())
+      let months: unknown[] = []
+      if (isShallow(root)) {
+        const message =
+          'El clon de git es superficial: el resumen mensual necesita el historial completo (fetch-depth: 0)'
+        if (mode === 'production') throw new Error(message)
+        this.warn(message)
+      } else {
+        months = summaryMonths(today).map((month) => {
+          // Los sistemas de rol y los medios, como estaban al acabar el mes
+          const { changes, extra } = monthChanges(root, month, ['data/review-outlets.json'])
+          const rpgSystems = changes
+            .filter((change) => change.file.startsWith('data/rol/systems/') && change.after)
+            .map((change) => change.after)
+          const current = globSync('data/rol/systems/*.json', { cwd: root }).map((file) =>
+            JSON.parse(readFileSync(join(root, file), 'utf-8'))
+          )
+          return {
+            month,
+            ...summarizeMonth(changes, {
+              rpgSystems: [...rpgSystems, ...current],
+              outlets: extra[0] ?? [],
+            }),
+          }
+        })
+      }
+      cached = `export default ${JSON.stringify({ months })}`
+      return cached
+    },
+  }
+}
+
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_UMAMI_')
@@ -205,6 +257,7 @@ export default defineConfig(({ mode }) => {
       novelsIndex(),
       rpgIndex(),
       releasesIndex(),
+      monthlySummaries(mode),
     ],
     resolve: {
       alias: {

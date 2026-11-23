@@ -48,3 +48,10 @@ declare module 'virtual:releases' {
   const releases: ReleasesIndex
   export default releases
 }
+
+// Resúmenes mensuales de cambios del catálogo, del más antiguo al más reciente (plugin monthlySummaries)
+declare module 'virtual:monthly-summaries' {
+  import type { MonthlySummary } from '@/types/monthlySummary'
+  const summaries: { months: MonthlySummary[] }
+  export default summaries
+}

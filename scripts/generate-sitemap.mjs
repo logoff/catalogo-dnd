@@ -2,6 +2,8 @@ import { writeFileSync, readFileSync, readdirSync, statSync } from 'fs'
 import { join, basename } from 'path'
 import { fileURLToPath } from 'url'
 import { dirname } from 'path'
+import { summaryMonths } from './monthly-summary.mjs'
+import { isShallow } from './git-history.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -49,6 +51,19 @@ function generateSitemap() {
     { loc: '/2014', priority: 0.8, changefreq: 'weekly', lastmod: today },
     { loc: '/2024', priority: 0.8, changefreq: 'weekly', lastmod: today },
     { loc: '/novedades', priority: 0.8, changefreq: 'daily', lastmod: today },
+    // Un resumen por mes completo (los mismos que publica virtual:monthly-summaries); sin historial
+    // de git no hay resúmenes
+    ...(isShallow(join(__dirname, '..'))
+      ? []
+      : summaryMonths(
+          process.env.SUMMARY_TODAY ??
+            new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date())
+        ).map((month) => ({
+          loc: `/novedades/${month}`,
+          priority: 0.6,
+          changefreq: 'yearly',
+          lastmod: today,
+        }))),
     { loc: '/guias', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/por-donde-empezar', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/2014-vs-2024', priority: 0.8, changefreq: 'monthly', lastmod: today },

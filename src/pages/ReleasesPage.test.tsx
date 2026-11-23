@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { fireEvent, render, screen, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import type { ReleasesIndex } from '@/types/releases'
+import type { MonthlySummary } from '@/types/monthlySummary'
 import ReleasesPage from './ReleasesPage'
 
 const data: ReleasesIndex = {
@@ -79,10 +80,18 @@ const data: ReleasesIndex = {
   ],
 }
 
-const renderPage = (index: ReleasesIndex = data) =>
+const summary = (month: string): MonthlySummary => ({
+  month,
+  added: [],
+  spanishEditions: [],
+  spanishDates: [],
+  reviews: { count: 0, items: [] },
+})
+
+const renderPage = (index: ReleasesIndex = data, months: MonthlySummary[] = []) =>
   render(
     <MemoryRouter>
-      <ReleasesPage data={index} />
+      <ReleasesPage data={index} months={months} />
     </MemoryRouter>
   )
 
@@ -149,5 +158,23 @@ describe('página de novedades', () => {
       'href',
       '/feed.xml'
     )
+  })
+
+  it('enlaza al último resumen mensual y al archivo', () => {
+    renderPage(data, [summary('2026-11'), summary('2026-12')])
+    const block = section('Este mes en el catálogo')
+    expect(
+      within(block).getByRole('link', { name: /Último resumen: diciembre de 2026/ })
+    ).toHaveAttribute('href', '/novedades/2026-12')
+    expect(
+      within(block)
+        .getAllByRole('link')
+        .map((link) => link.textContent)
+    ).toEqual(['Último resumen: diciembre de 2026', 'Diciembre de 2026', 'Noviembre de 2026'])
+  })
+
+  it('sin resúmenes no muestra el bloque', () => {
+    renderPage()
+    expect(screen.queryByRole('heading', { name: 'Este mes en el catálogo' })).toBeNull()
   })
 })
