@@ -14,7 +14,7 @@
 ## 3. Páginas
 
 - [x] 3.1 Crear `src/pages/MonthlySummaryPage.tsx` en `/novedades/:mes` con cabecera, recuentos, fichas nuevas por sección con enlace al listado, ediciones y fechas en castellano, reseñas y navegación al mes anterior y siguiente; meses fuera de rango muestran no encontrado; verificar con `MonthlySummaryPage.test.tsx`
-- [ ] 3.2 Añadir a `ReleasesPage.tsx` el bloque «Este mes en el catálogo» con el último resumen y el archivo de meses; verificar con `ReleasesPage.test.tsx` (con y sin meses)
+- [x] 3.2 Añadir a `ReleasesPage.tsx` el bloque «Este mes en el catálogo» con el último resumen y el archivo de meses; verificar con `ReleasesPage.test.tsx` (con y sin meses)
 - [x] 3.3 Registrar la ruta, el título y la descripción de cada mes, y añadir los meses publicados a `scripts/generate-sitemap.mjs`; verificar con `npm run build` que existe `dist/novedades/2026-11.html` (con la fecha de hoy) y que está en el sitemap
 - [x] 3.4 Revisar la página de noviembre en el servidor de desarrollo en escritorio y a 360 px, en tema claro y oscuro
 
