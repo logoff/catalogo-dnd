@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1999",
       "format": "boxed_set",
-      "cover": "/images/rol/adventure-game/english.webp"
+      "cover": "/images/rol/adventure-game/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/284581/dungeons-dragons-adventure-game"
+        }
+      ]
     }
   ]
 }

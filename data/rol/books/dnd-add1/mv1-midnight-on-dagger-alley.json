@@ -11,7 +11,13 @@
       "publisher": "TSR",
       "date": "1984",
       "format": "paperback",
-      "cover": "/images/rol/mv1-midnight-on-dagger-alley/english.webp"
+      "cover": "/images/rol/mv1-midnight-on-dagger-alley/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/281729/midnight-on-dagger-alley"
+        }
+      ]
     }
   ]
 }

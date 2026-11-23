@@ -12,7 +12,13 @@
       "publisher": "TSR",
       "date": "1998",
       "format": "paperback",
-      "cover": "/images/rol/the-city-of-ravens-bluff/english.webp"
+      "cover": "/images/rol/the-city-of-ravens-bluff/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17574/the-city-of-ravens-bluff"
+        }
+      ]
     }
   ]
 }
