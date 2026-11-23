@@ -2,12 +2,13 @@
 import { defineConfig, loadEnv, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-import { readFileSync, readdirSync } from 'fs'
+import { globSync, readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { buildNovelIndex } from './src/utils/novels.ts'
 import type { Novel, NovelSeries } from './src/types/novel.ts'
 import { buildRpgIndex, rolSection } from './src/utils/rpg.ts'
 import type { License, RpgBook, RpgSystem } from './src/types/rpg.ts'
+import { announcedEntries, releaseEntries, splitReleases } from './scripts/releases.mjs'
 
 // Inyecta el script de Umami solo si están definidas las variables de entorno
 function umami(url?: string, websiteId?: string): Plugin {
@@ -120,6 +121,78 @@ function rpgIndex(): Plugin {
   }
 }
 
+// Novedades para /novedades y la portada (virtual:releases), con la lógica de scripts/releases.mjs:
+// lo salido en los últimos 90 días, lo que tiene fecha futura y lo anunciado sin fecha. «Hoy» es el
+// día del build en hora de Madrid, el mismo en el servidor y en el navegador; el sitio se despliega
+// cada día para que avance solo. Solo lleva los campos que pinta la página, no las fichas.
+function releasesIndex(): Plugin {
+  const MODULE = 'virtual:releases'
+  const root = import.meta.dirname
+  const files = (pattern: string) => globSync(pattern, { cwd: root }).sort()
+  const read = (file: string) => JSON.parse(readFileSync(join(root, file), 'utf-8'))
+  const pick = ({
+    name,
+    path,
+    section,
+    context,
+    language,
+    date,
+    year,
+    key,
+    monthOnly,
+  }: Record<string, string>) => ({
+    name,
+    path,
+    section,
+    key,
+    ...(context ? { context } : {}),
+    ...(language ? { language } : {}),
+    ...(date ? { date } : {}),
+    ...(year ? { year } : {}),
+    ...(monthOnly ? { monthOnly } : {}),
+  })
+
+  return {
+    name: 'releases-index',
+    resolveId: (id) => (id === MODULE ? '\0' + id : undefined),
+    load(id) {
+      if (id !== '\0' + MODULE) return
+      const groups = {
+        products: ['2014', '2024'].flatMap((folder) =>
+          files(`data/${folder}/products/**/*.json`).map((file) => ({ file, folder }))
+        ),
+        videogames: files('data/videogames/games/*/*.json'),
+        merchandise: files('data/merchandising/items/*/*.json'),
+        novels: files('data/novels/*/*.json'),
+        rpgBooks: files('data/rol/books/*/*.json'),
+        rpgSystems: files('data/rol/systems/*.json'),
+      }
+      // Para que el servidor de desarrollo regenere el módulo al cambiar cualquier JSON
+      for (const file of Object.values(groups).flat()) {
+        this.addWatchFile(join(root, typeof file === 'string' ? file : file.file))
+      }
+      const data = {
+        products: groups.products.map(({ file, folder }) => ({ product: read(file), folder })),
+        videogames: groups.videogames.map(read),
+        merchandise: groups.merchandise.map(read),
+        novels: groups.novels.map(read),
+        rpgBooks: groups.rpgBooks.map(read),
+        rpgSystems: groups.rpgSystems.map(read),
+      }
+      const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(
+        new Date()
+      )
+      const { recent, upcoming } = splitReleases(releaseEntries(data), today)
+      return `export default ${JSON.stringify({
+        today,
+        upcoming: upcoming.map(pick),
+        recent: recent.map(pick),
+        announced: announcedEntries(data, today).map(pick),
+      })}`
+    },
+  }
+}
+
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_UMAMI_')
@@ -131,6 +204,7 @@ export default defineConfig(({ mode }) => {
       umami(env.VITE_UMAMI_URL, env.VITE_UMAMI_WEBSITE_ID),
       novelsIndex(),
       rpgIndex(),
+      releasesIndex(),
     ],
     resolve: {
       alias: {

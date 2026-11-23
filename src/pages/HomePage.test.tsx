@@ -3,7 +3,9 @@ import { fireEvent, render, screen, within } from '@testing-library/react'
 import { latestInSpanish, productPath } from '@/utils/releases'
 import { MemoryRouter } from 'react-router-dom'
 import Header from '@/components/layout/Header'
-import HomePage from './HomePage'
+import HomePage, { ReleasesPreview } from './HomePage'
+import releases from 'virtual:releases'
+import type { ReleasesIndex } from '@/types/releases'
 import { useProductStore } from '@/store/productStore'
 import { getAllMerchandise } from '@/services/merchandiseLoader'
 import novelsLatest from 'virtual:novels-latest'
@@ -54,7 +56,9 @@ describe('acceso al merchandising', () => {
     const links = screen.getAllByRole('link', { name: /Merchandising|Ver todo/ })
     expect(links.some((link) => link.getAttribute('href') === '/merchandising')).toBe(true)
     expect(screen.getByRole('heading', { name: 'Merchandising' })).toBeInTheDocument()
-    const itemLinks = screen
+    // Solo los del bloque de merchandising (el de novedades también puede enlazar artículos)
+    const block = screen.getByRole('heading', { name: 'Merchandising' }).closest('section')!
+    const itemLinks = within(block)
       .getAllByRole('link')
       .filter((link) => link.getAttribute('href')?.startsWith('/merchandising/'))
     expect(itemLinks.length).toBeGreaterThan(0)
@@ -83,7 +87,9 @@ describe('acceso a las novelas', () => {
     const links = screen.getAllByRole('link', { name: /Novelas|Ver todas/ })
     expect(links.some((link) => link.getAttribute('href') === '/novelas')).toBe(true)
     expect(screen.getByRole('heading', { name: 'Novelas' })).toBeInTheDocument()
-    const novelLinks = screen
+    // Solo los del bloque de novelas (el de novedades también puede enlazar novelas)
+    const block = screen.getByRole('heading', { name: 'Novelas' }).closest('section')!
+    const novelLinks = within(block)
       .getAllByRole('link')
       .filter((link) => link.getAttribute('href')?.startsWith('/novela/'))
     expect(novelLinks.length).toBeGreaterThan(0)
@@ -104,6 +110,62 @@ describe('acceso a las novelas', () => {
 })
 
 describe('portada', () => {
+  it('empieza los bloques con las novedades, que enlazan a /novedades', () => {
+    render(
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>
+    )
+    const headings = screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)
+    expect(headings[0]).toBe('Novedades')
+    const block = screen.getByRole('heading', { name: 'Novedades', level: 2 }).closest('section')!
+    expect(within(block).getByRole('link', { name: /Ver todas/ })).toHaveAttribute(
+      'href',
+      '/novedades'
+    )
+    const shown = releases.recent.slice(0, 3).map((r) => r.name)
+    for (const name of shown) expect(within(block).getAllByText(name).length).toBeGreaterThan(0)
+  })
+
+  it('el bloque de novedades muestra hasta tres próximas y tres recientes', () => {
+    const release = (name: string, date: string): ReleasesIndex['recent'][number] => ({
+      name,
+      date,
+      path: `/novela/${name}`,
+      section: 'novelas',
+      key: name,
+    })
+    const data: ReleasesIndex = {
+      today: '2026-11-23',
+      upcoming: ['p1', 'p2', 'p3', 'p4'].map((n) => release(n, '2026-12-01')),
+      recent: ['r1', 'r2', 'r3', 'r4'].map((n) => release(n, '2026-11-01')),
+      announced: [],
+    }
+    const { unmount } = render(
+      <MemoryRouter>
+        <ReleasesPreview data={data} />
+      </MemoryRouter>
+    )
+    expect(screen.getByRole('heading', { name: 'Próximamente' })).toBeInTheDocument()
+    expect(screen.getAllByRole('link', { name: /^[pr]\d$/ }).map((l) => l.textContent)).toEqual([
+      'p1',
+      'p2',
+      'p3',
+      'r1',
+      'r2',
+      'r3',
+    ])
+    unmount()
+
+    render(
+      <MemoryRouter>
+        <ReleasesPreview data={{ ...data, upcoming: [] }} />
+      </MemoryRouter>
+    )
+    expect(screen.queryByRole('heading', { name: 'Próximamente' })).toBeNull()
+    expect(screen.getByRole('heading', { name: 'Recién salido' })).toBeInTheDocument()
+  })
+
   it('muestra los libros salidos más recientemente en castellano', () => {
     render(
       <MemoryRouter>

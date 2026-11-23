@@ -18,6 +18,7 @@ import LicenseDetailPage from './pages/LicenseDetailPage'
 import DndEditionsPage from './pages/DndEditionsPage'
 import RpgTreePage from './pages/RpgTreePage'
 import NotFoundPage from './pages/NotFoundPage'
+import ReleasesPage from './pages/ReleasesPage'
 import GuidesPage from './pages/GuidesPage'
 import LegalPage from './pages/LegalPage'
 import StartGuide from './pages/guides/StartGuide'
@@ -58,6 +59,7 @@ export default function AppRoutes() {
         <Route path="ediciones/:system/:book" element={<RpgBookPage section="ediciones" />} />
         <Route path="licencias" element={<LicensesPage />} />
         <Route path="licencia/:slug" element={<LicenseDetailPage />} />
+        <Route path="novedades" element={<ReleasesPage />} />
         <Route path="guias" element={<GuidesPage />} />
         <Route path="guias/por-donde-empezar" element={<StartGuide />} />
         <Route path="guias/2014-vs-2024" element={<EditionsGuide />} />
