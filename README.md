@@ -209,7 +209,7 @@ El día 1 de cada mes, la Action `umami-report.yml` consulta la API de
 Umami y envía a un chat privado de Telegram el resumen del mes anterior:
 visitantes, visitas y páginas vistas (con la variación respecto al mes
 anterior), páginas más vistas, procedencia y clics en «comprar» por
-tienda y por sección. El repositorio es público, así que el informe
+tienda y por sección, y clics en cada enlace del menú principal. El repositorio es público, así que el informe
 nunca se escribe en el registro de Actions ni se guarda como artefacto.
 Usa los secretos `UMAMI_URL`, `UMAMI_WEBSITE_ID`, `UMAMI_USERNAME` y
 `UMAMI_PASSWORD` (mejor un usuario de solo lectura), `TELEGRAM_BOT_TOKEN`

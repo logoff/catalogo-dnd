@@ -133,11 +133,11 @@ function list(title, rows) {
 }
 
 // Filas { x, y } de /metrics a { label, total }, las TOP primeras
-export function topRows(metrics, empty = '(directo)') {
+export function topRows(metrics, empty = '(directo)', limit = TOP) {
   return (metrics ?? [])
     .map(({ x, y }) => ({ label: x || empty, total: Number(y) }))
     .sort((a, b) => b.total - a.total)
-    .slice(0, TOP)
+    .slice(0, limit)
 }
 
 // Texto del mensaje en el HTML que admite Telegram
@@ -150,6 +150,7 @@ export function formatReport({
   events,
   stores,
   sections,
+  menu = [],
 }) {
   const line = (label, key) => {
     const value = statValue(stats[key])
@@ -174,5 +175,7 @@ export function formatReport({
     ...list('Clics en «comprar» por tienda', stores),
     '',
     ...list('Clics en «comprar» por sección', sections),
+    '',
+    ...list('Clics en el menú por sección', menu),
   ].join('\n')
 }

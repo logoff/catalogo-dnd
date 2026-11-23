@@ -69,6 +69,13 @@ describe('mensaje del informe', () => {
     expect(rows).toHaveLength(10)
     expect(rows[0]).toEqual({ label: 'sitio11', total: 11 })
     expect(topRows([{ x: '', y: 5 }])).toEqual([{ label: '(directo)', total: 5 }])
+    expect(
+      topRows(
+        Array.from({ length: 12 }, (_, i) => ({ x: `s${i}`, y: i })),
+        undefined,
+        Infinity
+      )
+    ).toHaveLength(12)
   })
 
   it('escapa el HTML de Telegram', () => {
@@ -88,6 +95,7 @@ describe('mensaje del informe', () => {
       ],
       stores: [{ label: 'amazon', total: 30 }],
       sections: [{ label: 'Novelas', total: 42 }],
+      menu: [{ label: 'Árbol genealógico', total: 7 }],
     })
     expect(text).toContain('<b>Catálogo D&amp;D · noviembre de 2026</b>')
     expect(text).toContain('Visitantes: 1200 (+20 %)')
@@ -97,5 +105,6 @@ describe('mensaje del informe', () => {
     expect(text).not.toContain('Descargas')
     expect(text).toContain('<b>Procedencia</b>\nSin datos')
     expect(text).toContain('30 · amazon')
+    expect(text).toContain('<b>Clics en el menú por sección</b>\n7 · Árbol genealógico')
   })
 })
