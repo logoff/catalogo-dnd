@@ -36,6 +36,7 @@ async function previewImage(imageUrl) {
     .replace(`${SITE_URL}/images/videogames/`, '/images/previews/videogames/')
     .replace(`${SITE_URL}/images/merchandising/`, '/images/previews/merchandising/')
     .replace(`${SITE_URL}/images/novels/`, '/images/previews/novels/')
+    .replace(`${SITE_URL}/images/comics/`, '/images/previews/comics/')
     .replace(`${SITE_URL}/images/rol/`, '/images/previews/rol/')
     .replace(/\.\w+$/, '.jpg')
   const target = join(DIST_DIR, previewPath)
@@ -66,6 +67,7 @@ for (const path of paths) {
     image?.startsWith(`${SITE_URL}/images/videogames/`) ||
     image?.startsWith(`${SITE_URL}/images/merchandising/`) ||
     image?.startsWith(`${SITE_URL}/images/novels/`) ||
+    image?.startsWith(`${SITE_URL}/images/comics/`) ||
     image?.startsWith(`${SITE_URL}/images/rol/`)
   ) {
     head = head.replaceAll(image, await previewImage(image))

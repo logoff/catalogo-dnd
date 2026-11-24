@@ -22,6 +22,7 @@ import ReviewScore from './ReviewScore'
 import PurchaseByPlatform from './PurchaseByPlatform'
 import YouTubeVideo from './YouTubeVideo'
 import ScreenshotGallery from './ScreenshotGallery'
+import RelatedComics from '@/components/comics/RelatedComics'
 
 interface VideogameDetailProps {
   game: VideogameWithMeta
@@ -210,6 +211,8 @@ export default function VideogameDetail({ game }: VideogameDetailProps) {
           </ul>
         </DetailSection>
       )}
+
+      <RelatedComics group="videogames" id={game.slug} />
 
       <ImageLightbox
         images={images}

@@ -1,0 +1,128 @@
+{
+  "slug": "dragonlance-chronicles-vol-3",
+  "title": "Dragonlance Chronicles Vol. III",
+  "title_es": "Crónicas de la Dragonlance",
+  "publisher": "Devil's Due Publishing",
+  "setting": "dragonlance",
+  "kind": "limited_series",
+  "date": "2007-03",
+  "end_date": "2008-06",
+  "issue_count": 12,
+  "description": "Última parte de la adaptación de Devil's Due de las Crónicas de la Dragonlance, sobre La reina de la oscuridad: los Compañeros se reúnen para el asalto final contra Takhisis en Neraka, con la traición de Raistlin y el dilema de Tanis.\n\nIDW la reeditó en 2016 y Norma la publicó en castellano en 2009 en los tomos 5 y 6 de Crónicas de la Dragonlance.",
+  "source": "https://www.comics.org/series/37722/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2007-03",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/1.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "2",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/2.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "3",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/3.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "4",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/4.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "5",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/5.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "6",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/6.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "7",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/7.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "8",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/8.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "9",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/9.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "10",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/10.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "11",
+      "date": "2008-05",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/11.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "12",
+      "date": "2008-06",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/12.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dragonlance Chronicles Vol. 3: Dragons of Spring Dawning, Part 1",
+      "publisher": "Devil's Due Publishing",
+      "date": "2008",
+      "format": "paperback",
+      "isbn13": 9781932796957,
+      "contents": [{ "series": "dragonlance-chronicles-vol-3", "issues": "1-6" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1932796959/" }],
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/9781932796957.webp",
+      "cover_source": "https://www.amazon.es/dp/1932796959/"
+    },
+    {
+      "language": "english",
+      "title": "Dragonlance Chronicles Vol. 4: Dragons of Spring Dawning, Part 2",
+      "publisher": "Devil's Due Publishing",
+      "date": "2008",
+      "format": "paperback",
+      "isbn13": 9781934692387,
+      "contents": [{ "series": "dragonlance-chronicles-vol-3", "issues": "7-12" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1934692387/" }]
+    },
+    {
+      "language": "english",
+      "title": "Dragonlance Chronicles Vol. 3: Dragons of Spring Dawning",
+      "publisher": "IDW Publishing",
+      "date": "2016-03",
+      "format": "paperback",
+      "isbn13": 9781631405310,
+      "contents": [{ "series": "dragonlance-chronicles-vol-3", "issues": "1-12" }],
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/9781631405310.webp",
+      "cover_source": "https://www.amazon.es/dp/1631405314/"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Crónicas de la Dragonlance 5 y 6: La reina de la oscuridad y El templo de Takhisis",
+      "publisher": "Norma Editorial",
+      "date": "2009-06",
+      "format": "paperback",
+      "contents": [{ "series": "dragonlance-chronicles-vol-3", "issues": "1-12" }],
+      "source": "https://www.amazon.es/dp/8498472520/",
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/8498479509/" }],
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/tomo-4.webp",
+      "cover_source": "https://www.amazon.es/dp/8498472520/"
+    }
+  ],
+  "continues": "dragonlance-chronicles-vol-2",
+  "related_novels": ["dragons-of-spring-dawning"]
+}

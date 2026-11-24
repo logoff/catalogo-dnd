@@ -1,0 +1,21 @@
+{
+  "slug": "the-thief-of-many-things",
+  "title": "Dungeons & Dragons: The Thief of Many Things",
+  "publisher": "IDW Publishing",
+  "setting": "generic",
+  "kind": "one_shot",
+  "date": "2024-04",
+  "issue_count": 1,
+  "writers": ["Ellen Boener"],
+  "artists": ["Eduardo Mello"],
+  "description": "Número único de IDW de 2024 escrito por Ellen Boener y dibujado por Eduardo Mello, cuyo título alude a la Baraja de las Muchas Cosas del suplemento The Book of Many Things.\n\nFue de los últimos cómics de D&D de IDW antes de que la licencia pasara a Dark Horse. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/211025/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2024-04",
+      "cover": "/images/comics/the-thief-of-many-things/1.webp",
+      "cover_source": "https://www.comics.org/series/211025/covers/"
+    }
+  ]
+}

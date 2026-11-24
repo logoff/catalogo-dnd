@@ -2,7 +2,7 @@ import type { Language } from './index'
 
 // Sección del catálogo a la que pertenece una novedad
 export type ReleaseSection =
-  'libros' | 'videojuegos' | 'merchandising' | 'novelas' | 'rol' | 'ediciones'
+  'libros' | 'videojuegos' | 'merchandising' | 'novelas' | 'comics' | 'rol' | 'ediciones'
 
 // Una edición de la página de novedades (ver scripts/releases.mjs)
 export interface Release {

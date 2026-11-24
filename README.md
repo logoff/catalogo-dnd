@@ -9,7 +9,8 @@ en inglés y en castellano de Dungeons & Dragons de las ediciones
 con las plataformas, si están en castellano y dónde comprarlos, y del
 merchandising con licencia oficial (libros de cocina y de arte, figuras,
 LEGO y juegos de mesa), de las novelas oficiales de D&D en inglés con
-todas sus ediciones en castellano y de otros juegos de rol de la familia
+todas sus ediciones en castellano, de los cómics oficiales de D&D con
+sus tomos en inglés y en castellano y de otros juegos de rol de la familia
 de D&D (Pathfinder, Tales of the Valiant, Daggerheart…) con sus licencias
 abiertas.
 
@@ -149,6 +150,17 @@ inglés y en castellano. Cada novela es un JSON en
 en `data/novels/series.json`. La lista maestra es
 `data/novels/inventory.md`, la skill `add-novel` explica cómo dar de alta
 novelas y `just novel-covers` descarga y convierte sus portadas.
+
+## Cómics
+
+La sección `/comics` reúne los cómics oficiales de D&D en inglés (TSR, DC,
+Devil's Due, IDW, Dark Horse…) y todo lo publicado en castellano, con una
+ficha por serie: sus números y los tomos que los recogen, en inglés y en
+castellano. Cada serie es un JSON en `data/comics/<editorial>/<slug>.json`
+y los tomos de varias series están en `data/comics/collections.json`. La
+lista maestra es `data/comics/inventory.md`, la skill `add-comic` explica
+cómo dar de alta cómics y `just comic-covers` descarga y convierte sus
+portadas.
 
 ## Otros juegos de rol
 

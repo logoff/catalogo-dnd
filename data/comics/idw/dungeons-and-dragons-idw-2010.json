@@ -1,0 +1,186 @@
+{
+  "slug": "dungeons-and-dragons-idw-2010",
+  "title": "Dungeons & Dragons",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "ongoing",
+  "date": "2010-08",
+  "end_date": "2012-02",
+  "issue_count": 16,
+  "writers": ["John Rogers"],
+  "artists": ["Andrea Di Vito"],
+  "description": "Serie regular de IDW escrita por John Rogers, guionista de Leverage, con dibujo de Andrea Di Vito. Sigue durante 16 números (del 0 al 15) a Fell's Five, un grupo de aventureros de la época de la cuarta edición liderado por Adric Fell.\n\nSe recopiló en tres tomos (en tapa dura y en rústica) y después en el integral Fell's Five. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/51897/",
+  "issues": [
+    {
+      "number": "0",
+      "date": "2010-08-11",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/0.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "1",
+      "date": "2010-11",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/1.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2010-12",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/2.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2011-01",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/3.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2011-02-16",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/4.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2011-04-06",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/5.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "6",
+      "date": "2011-04-20",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/6.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "7",
+      "date": "2011-05-25",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/7.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "8",
+      "date": "2011-06-15",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/8.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "9",
+      "date": "2011-08-03",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/9.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "10",
+      "date": "2011-08-24",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/10.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "11",
+      "date": "2011-09-28",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/11.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "12",
+      "date": "2011-10-19",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/12.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "13",
+      "date": "2011-11-23",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/13.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "14",
+      "date": "2011-12-28",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/14.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    },
+    {
+      "number": "15",
+      "date": "2012-02-08",
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/15.webp",
+      "cover_source": "https://www.comics.org/series/51897/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons Vol. 1: Shadowplague",
+      "publisher": "IDW Publishing",
+      "date": "2012-06-06",
+      "format": "paperback",
+      "isbn13": 9781613772188,
+      "contents": [{ "series": "dungeons-and-dragons-idw-2010", "issues": "0-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613772181/" }],
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/9781613772188.webp",
+      "cover_source": "https://www.amazon.es/dp/1613772181/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons Vol. 2: First Encounters",
+      "publisher": "IDW Publishing",
+      "date": "2012-12-05",
+      "format": "paperback",
+      "isbn13": 9781613775349,
+      "contents": [{ "series": "dungeons-and-dragons-idw-2010", "issues": "6-11" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613775342/" }],
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/9781613775349.webp",
+      "cover_source": "https://www.amazon.es/dp/1613775342/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons Vol. 3: Down",
+      "publisher": "IDW Publishing",
+      "date": "2013-04-03",
+      "format": "paperback",
+      "isbn13": 9781613776179,
+      "contents": [{ "series": "dungeons-and-dragons-idw-2010", "issues": "12-15" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613776179/" }],
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/9781613776179.webp",
+      "cover_source": "https://www.amazon.es/dp/1613776179/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons Vol. 1: Shadowplague",
+      "publisher": "IDW Publishing",
+      "date": "2011-07-06",
+      "format": "hardcover",
+      "isbn13": 9781600109225,
+      "contents": [{ "series": "dungeons-and-dragons-idw-2010", "issues": "0-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1600109225/" }],
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/9781600109225.webp",
+      "cover_source": "https://www.amazon.es/dp/1600109225/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons Vol. 2: First Encounters",
+      "publisher": "IDW Publishing",
+      "date": "2011-12-28",
+      "format": "hardcover",
+      "isbn13": 9781613770849,
+      "contents": [{ "series": "dungeons-and-dragons-idw-2010", "issues": "6-11" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613770847/" }],
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/9781613770849.webp",
+      "cover_source": "https://www.amazon.es/dp/1613770847/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons Vol. 3: Down",
+      "publisher": "IDW Publishing",
+      "date": "2012-04-25",
+      "format": "hardcover",
+      "isbn13": 9781613771785,
+      "contents": [{ "series": "dungeons-and-dragons-idw-2010", "issues": "12-15" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613771789/" }],
+      "cover": "/images/comics/dungeons-and-dragons-idw-2010/9781613771785.webp",
+      "cover_source": "https://www.amazon.es/dp/1613771789/"
+    }
+  ]
+}

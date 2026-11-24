@@ -1,0 +1,41 @@
+{
+  "slug": "infestation-2-dungeons-and-dragons",
+  "title": "Infestation 2: Dungeons & Dragons",
+  "publisher": "IDW Publishing",
+  "setting": "eberron",
+  "kind": "limited_series",
+  "date": "2012-02",
+  "issue_count": 2,
+  "writers": ["Paul Crilley"],
+  "artists": ["Valerio Schiti"],
+  "description": "Miniserie de dos números que forma parte de Infestation 2, un cruce de IDW en el que los primigenios de Lovecraft invaden los mundos de sus licencias. La de D&D, protagonizada por el mago Abraxis Wren, pasa en Eberron. Guion de Paul Crilley y dibujo de Valerio Schiti.\n\nSe recopiló en 2015 como Abraxis Wren of Eberron. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/63313/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2012-02-15",
+      "cover": "/images/comics/infestation-2-dungeons-and-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/63313/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2012-02-22",
+      "cover": "/images/comics/infestation-2-dungeons-and-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/63313/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Abraxis Wren of Eberron",
+      "publisher": "IDW Publishing",
+      "date": "2015-06",
+      "format": "paperback",
+      "isbn13": 9781631402654,
+      "contents": [{ "series": "infestation-2-dungeons-and-dragons", "issues": "1-2" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/163140265X/" }],
+      "cover": "/images/comics/infestation-2-dungeons-and-dragons/9781631402654.webp",
+      "cover_source": "https://www.amazon.es/dp/163140265X/"
+    }
+  ]
+}

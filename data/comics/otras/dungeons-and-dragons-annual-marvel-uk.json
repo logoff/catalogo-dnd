@@ -1,0 +1,21 @@
+{
+  "slug": "dungeons-and-dragons-annual-marvel-uk",
+  "title": "Dungeons & Dragons Annual",
+  "publisher": "Marvel Comics Ltd.",
+  "setting": "none",
+  "kind": "one_shot",
+  "date": "1987",
+  "issue_count": 1,
+  "writers": ["Francisco Pérez Navarro"],
+  "artists": ["Pasqual Ferry"],
+  "description": "Anuario británico de Marvel UK de 1987 dedicado a la serie de dibujos animados de Dungeons & Dragons, con historietas, pasatiempos y textos. Sus historietas son traducciones de las de Dragones y Mazmorras, la serie española de Planeta DeAgostini dibujada por Pasqual Ferry.\n\nEs un libro para niños de la época, sin reedición; solo se encuentra de segunda mano.",
+  "source": "https://www.comics.org/series/126721/",
+  "issues": [
+    {
+      "number": "1987",
+      "date": "1987",
+      "cover": "/images/comics/dungeons-and-dragons-annual-marvel-uk/1987.webp",
+      "cover_source": "https://www.comics.org/series/126721/covers/"
+    }
+  ]
+}

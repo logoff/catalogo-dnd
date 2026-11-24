@@ -5,6 +5,13 @@ import AppRoutes from './AppRoutes'
 import { ROUTER_BASENAME } from './utils/constants'
 import type { Novel, NovelAnthology, NovelSeries } from './types/novel'
 import { cacheNovel, loadNovelIndex, setAnthologies, setSeries } from './services/novelLoader'
+import type { Comic, ComicEdition } from './types/comic'
+import {
+  cacheComic,
+  loadComicIndex,
+  setCollections,
+  setContinuations,
+} from './services/comicLoader'
 import type { RpgBook } from './types/rpg'
 import { cacheBook, loadRpgIndex } from './services/rpgLoader'
 
@@ -22,6 +29,19 @@ const anthologies = import.meta.glob<NovelAnthology[]>('/data/novels/anthologies
 setAnthologies(Object.values(anthologies)[0] ?? [])
 const novels = import.meta.glob<Novel>('/data/novels/*/*.json', { eager: true, import: 'default' })
 Object.values(novels).forEach(cacheNovel)
+
+// Lo mismo con los cómics: el índice, los tomos de varias series y todas las series
+const comicIndex = await loadComicIndex()
+setContinuations(
+  new Map(comicIndex.flatMap((c) => (c.continuedBy ? [[c.slug, c.continuedBy] as const] : [])))
+)
+const collections = import.meta.glob<ComicEdition[]>('/data/comics/collections.json', {
+  eager: true,
+  import: 'default',
+})
+setCollections(Object.values(collections)[0] ?? [])
+const comics = import.meta.glob<Comic>('/data/comics/*/*.json', { eager: true, import: 'default' })
+Object.values(comics).forEach(cacheComic)
 
 // Lo mismo con otros juegos de rol: el índice y todos los libros
 await loadRpgIndex()

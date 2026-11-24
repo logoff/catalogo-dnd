@@ -8,7 +8,7 @@ para trabajar con el código de este repositorio.
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
 para las ediciones 5E (2014) y 5.5E (2024), de todos los videojuegos
 oficiales de D&D, del merchandising con licencia, de las novelas
-oficiales y de otros juegos de rol de la familia de D&D con sus licencias
+y los cómics oficiales y de otros juegos de rol de la familia de D&D con sus licencias
 abiertas (sección separada de lo oficial). Se despliega en Cloudflare Pages en
 <https://catalogodnd.es/>.
 
@@ -47,6 +47,10 @@ recetas disponibles.
   ediciones de una novela, las convierte a WebP con miniatura y las anota
   en su ficha (`--openlibrary` para las que falten, `--series <id>` para
   los recopilatorios)
+- `just comic-covers <slug> <clave>=<url>… --source <página>` — Descarga
+  portadas de un cómic (números, tomos por ISBN o `tomo-<n>`, grapas en
+  castellano con `castellano-<n>`), las convierte a WebP con miniatura y
+  las anota en su ficha (`--collection <id>` para los tomos de varias series)
 - `just screenshots <slug> --steam` — Descarga capturas oficiales de un
   videojuego, las convierte a WebP y las anota en su ficha (`--source
 <página> <url>…` para GOG, webs oficiales o kits de prensa)
@@ -161,6 +165,21 @@ novelas en castellano se generan desde el índice; el orden de cada una
 está en `data/novels/reading-orders.json` (series enteras o novelas
 sueltas).
 
+**Cómics:** todos los cómics oficiales de D&D en inglés y todo lo publicado
+en castellano (también las series solo españolas, con `language`), una
+ficha por serie en `data/comics/<editorial>/<slug>.json` (esquema
+`data/schemas/comic.jsonschema`) con sus números (`issues`) y sus ediciones:
+tomos con `contents` (qué números recogen) y grapas en castellano
+(`format: "issue"` con sus propios números). Los tomos de varias series van
+una vez en `data/comics/collections.json`. Como novelas, un plugin de
+`vite.config.ts` genera `virtual:comics-index` (listado, en un trozo aparte),
+`virtual:comics-stats` (portada) y `virtual:comics-related` (los cómics que
+enlazan a cada novela, videojuego, artículo o libro, para sus fichas); cada
+serie es un trozo aparte y las páginas leen de la caché de `comicLoader.ts`.
+`data/comics/inventory.md` es la lista maestra. Las series sin ninguna
+portada están en `PENDING_COVERS` de `comicLoader.test.ts`. Para dar de alta,
+usar la skill `add-comic`.
+
 **Otros juegos de rol:** juegos de la familia de D&D que no son de
 Wizards (los que derivan de D&D o usan sus licencias abiertas, y grandes
 de fantasía como Daggerheart) y libros de otras editoriales para 5E,
@@ -207,7 +226,8 @@ un test lo exige y `just affiliate-coverage` solo revisa esa tienda. Las fichas 
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
 de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandising`
 (listado), `/merchandising/:slug` (ficha), `/novelas` (listado, con
-`?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/rol` (otros juegos de
+`?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/comics` (listado, con
+`?editorial=`, `?mundo=` y `?epoca=`), `/comic/:slug` (ficha), `/rol` (otros juegos de
 rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
 (ediciones anteriores de D&D), `/ediciones/:edicion` y
 `/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`,

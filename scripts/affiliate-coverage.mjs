@@ -82,6 +82,27 @@ check(
     .map((n) => [n.slug, storesOf(n.editions).has('amazon')])
 )
 
+// Cómics: cada tomo con ISBN (inglés o castellano) en Amazon; los de castellano, también en Casa
+// del Libro. Los tomos de varias series (collections.json) cuentan aparte, por su id
+const comicTomos = [
+  ...files('data/comics/*/*.json')
+    .map(read)
+    .flatMap((c) => (c.editions ?? []).map((e) => ({ owner: c.slug, ...e }))),
+  ...read(join(ROOT, 'data', 'comics', 'collections.json')).map((e) => ({ owner: e.id, ...e })),
+].filter((e) => e.format !== 'issue' && e.isbn13)
+check(
+  'comics',
+  'amazon',
+  comicTomos.map((e) => [`${e.owner} ${e.isbn13}`, storesOf([e]).has('amazon')])
+)
+check(
+  'comics',
+  'casa_del_libro',
+  comicTomos
+    .filter((e) => e.language === 'castellano')
+    .map((e) => [`${e.owner} ${e.isbn13}`, storesOf([e]).has('casa_del_libro')])
+)
+
 // Otros juegos de rol: Amazon en todos los libros; las tiendas españolas, en las ediciones en
 // castellano. NoSoloRol solo vende lo que publica Nosolorol. Los libros de las ediciones
 // anteriores de D&D (sistemas oficiales sin catálogo propio) están descatalogados: solo se

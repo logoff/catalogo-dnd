@@ -104,6 +104,11 @@ export default function LegalPage() {
             Wizards of the Coast; se muestran solo para identificar cada obra y cada edición.
           </p>
           <p>
+            Los títulos y las portadas de los cómics y de sus tomos son de sus editoriales (TSR, DC
+            Comics, Devil's Due, IDW, Dark Horse, Norma y las demás) y de Wizards of the Coast; se
+            muestran solo para identificar cada serie y cada edición.
+          </p>
+          <p>
             Los nombres, logotipos y portadas de los juegos y libros de la sección «Otros juegos de
             rol» son de sus editoriales (Paizo, Kobold Press, Darrington Press y las demás que se
             citan en cada ficha), sin relación con este sitio ni su respaldo; se muestran solo para

@@ -1,0 +1,19 @@
+{
+  "slug": "baldurs-gate-3-dark-horse",
+  "title": "Baldur's Gate 3",
+  "publisher": "Dark Horse Comics",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2027-02",
+  "announced": true,
+  "issue_count": 6,
+  "description": "Serie de Dark Horse basada en el videojuego Baldur's Gate 3, hecha con Larian Studios y Wizards of the Coast. Está anunciada en arcos: el primero, de seis números, sigue a Astarion, y el segundo, de doce, a Karlach.\n\nEl primer número sale el 24 de febrero de 2027.",
+  "source": "https://www.comicsbeat.com/dark-horse-bg3/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2027-02-24"
+    }
+  ],
+  "related_videogames": ["baldurs-gate-3"]
+}

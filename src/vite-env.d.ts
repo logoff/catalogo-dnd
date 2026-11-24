@@ -29,6 +29,26 @@ declare module 'virtual:novels-latest' {
   export default latest
 }
 
+// Índice de cómics generado en el build por el plugin comicsIndex (vite.config.ts)
+declare module 'virtual:comics-index' {
+  import type { ComicSummary } from '@/types/comic'
+  const index: ComicSummary[]
+  export default index
+}
+
+// Cómics que enlazan a cada ficha de otra sección (plugin comicsIndex)
+declare module 'virtual:comics-related' {
+  import type { ComicRelations } from '@/types/comic'
+  const related: ComicRelations
+  export default related
+}
+
+// Cuántas series de cómics hay, para la portada (plugin comicsIndex)
+declare module 'virtual:comics-stats' {
+  const stats: { total: number }
+  export default stats
+}
+
 // Licencias, sistemas y resumen de los libros de otros juegos de rol (plugin rpgIndex)
 declare module 'virtual:rpg-index' {
   import type { RpgIndex } from '@/types/rpg'

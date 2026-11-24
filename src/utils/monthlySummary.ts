@@ -20,6 +20,7 @@ export const SUMMARY_SECTIONS: Record<
     more: 'Ver el merchandising',
   },
   novelas: { label: 'Novelas', listing: '/novelas', more: 'Ver las novelas' },
+  comics: { label: 'Cómics', listing: '/comics', more: 'Ver los cómics' },
   rol: { label: 'Otros juegos de rol', listing: '/rol', more: 'Ver otros juegos de rol' },
   ediciones: {
     label: 'Ediciones anteriores de D&D',

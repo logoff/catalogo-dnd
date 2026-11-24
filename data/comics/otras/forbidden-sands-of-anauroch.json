@@ -1,0 +1,27 @@
+{
+  "slug": "forbidden-sands-of-anauroch",
+  "title": "The Forgotten Realms: Forbidden Sands of Anauroch",
+  "publisher": "Twenty First Century Comics",
+  "setting": "forgotten_realms",
+  "kind": "graphic_novel",
+  "date": "2000",
+  "issue_count": 2,
+  "writers": ["Alessandro Zeminian", "Andrea Verardi"],
+  "artists": ["Isabella Dalla Vecchia", "Michele Rizzardi"],
+  "description": "Álbumes de tapa dura de un equipo italiano ambientados en el desierto de Anauroch, en los Reinos Olvidados. Se anunciaron seis y solo llegaron a publicarse los dos primeros, en 2000.\n\nSon de los cómics de D&D más difíciles de encontrar; no se han reeditado ni traducido al castellano.",
+  "source": "https://www.comics.org/series/23362/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2000",
+      "cover": "/images/comics/forbidden-sands-of-anauroch/1.webp",
+      "cover_source": "https://www.comics.org/series/23362/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2000",
+      "cover": "/images/comics/forbidden-sands-of-anauroch/2.webp",
+      "cover_source": "https://www.comics.org/series/23362/covers/"
+    }
+  ]
+}

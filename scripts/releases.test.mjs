@@ -249,3 +249,50 @@ describe('fichas de data/', () => {
     expect(describeFicha('data/rol/systems/dnd-5e-2024.json', systems[2])).toBeNull()
   })
 })
+
+describe('cómics', () => {
+  const comic = {
+    slug: 'mindbreaker',
+    title: 'Dungeons & Dragons: Mindbreaker',
+    publisher: 'IDW Publishing',
+    issues: [{ number: '1', date: '2021-10-20' }, { number: '2' }],
+    editions: [
+      {
+        language: 'castellano',
+        spain: true,
+        title: 'Rompementes',
+        publisher: 'Norma',
+        date: '2023-05',
+        format: 'paperback',
+        isbn13: 9788467900000,
+      },
+      {
+        language: 'castellano',
+        spain: true,
+        publisher: 'Zinco',
+        format: 'issue',
+        issues: [{ number: '1', date: '1990-07' }],
+      },
+    ],
+  }
+
+  it('cuenta los números con fecha, los tomos y las grapas, con la sección «comics»', () => {
+    const entries = releaseEntries({ ...empty, comics: [comic] })
+    expect(entries.map((e) => [e.name, e.section, e.language])).toEqual([
+      ['Rompementes', 'comics', 'castellano'],
+      ['Dungeons & Dragons: Mindbreaker #1', 'comics', 'english'],
+      ['Dungeons & Dragons: Mindbreaker #1', 'comics', 'castellano'],
+    ])
+    expect(entries[0].path).toBe('/comic/mindbreaker')
+  })
+
+  it('describe la ficha de un cómic y no la de los tomos de varias series', () => {
+    expect(describeFicha('data/comics/idw/mindbreaker.json', comic)).toMatchObject({
+      section: 'comics',
+      path: '/comic/mindbreaker',
+      name: 'Dungeons & Dragons: Mindbreaker',
+      date: '2023-05',
+    })
+    expect(describeFicha('data/comics/collections.json', [])).toBeNull()
+  })
+})

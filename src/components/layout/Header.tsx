@@ -50,6 +50,11 @@ const navGroups: NavGroup[] = [
         label: 'Novelas',
         description: 'Todas las oficiales, con su edición en castellano',
       },
+      {
+        to: '/comics',
+        label: 'Cómics',
+        description: 'De TSR y DC a IDW y Dark Horse',
+      },
       { to: '/videojuegos', label: 'Videojuegos', description: 'De los años 70 a hoy' },
       {
         to: '/merchandising',
@@ -57,7 +62,7 @@ const navGroups: NavGroup[] = [
         description: 'Figuras, juegos de mesa y libros con licencia',
       },
     ],
-    extraPaths: ['/novela', '/videojuego'],
+    extraPaths: ['/novela', '/comic', '/videojuego'],
   },
   {
     label: 'Otros juegos de rol',

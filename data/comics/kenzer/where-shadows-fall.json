@@ -1,0 +1,38 @@
+{
+  "slug": "where-shadows-fall",
+  "title": "Dungeons & Dragons: Where Shadows Fall",
+  "publisher": "Kenzer & Company",
+  "setting": "generic",
+  "kind": "limited_series",
+  "date": "2003",
+  "issue_count": 5,
+  "description": "Última miniserie de Kenzer & Company antes de perder la licencia, en cinco números publicados entre 2003 y 2004, con una aventura en un mundo de D&D genérico.\n\nNo se ha reeditado en tomo ni se publicó en castellano.",
+  "source": "https://www.comics.org/series/31789/",
+  "issues": [
+    {
+      "number": "1",
+      "cover": "/images/comics/where-shadows-fall/1.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    },
+    {
+      "number": "2",
+      "cover": "/images/comics/where-shadows-fall/2.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    },
+    {
+      "number": "3",
+      "cover": "/images/comics/where-shadows-fall/3.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    },
+    {
+      "number": "4",
+      "cover": "/images/comics/where-shadows-fall/4.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    },
+    {
+      "number": "5",
+      "cover": "/images/comics/where-shadows-fall/5.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    }
+  ]
+}

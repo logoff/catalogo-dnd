@@ -6,6 +6,8 @@ import { globSync, readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { buildNovelIndex } from './src/utils/novels.ts'
 import type { Novel, NovelSeries } from './src/types/novel.ts'
+import { buildComicIndex, relatedComics } from './src/utils/comics.ts'
+import type { Comic, ComicEdition } from './src/types/comic.ts'
 import { buildRpgIndex, rolSection } from './src/utils/rpg.ts'
 import type { License, RpgBook, RpgSystem } from './src/types/rpg.ts'
 import { announcedEntries, releaseEntries, splitReleases } from './scripts/releases.mjs'
@@ -73,6 +75,39 @@ function novelsIndex(): Plugin {
               return { total: index.novels.length, latest, series }
             })()
           : index
+      return `export default ${JSON.stringify(data)}`
+    },
+  }
+}
+
+// Datos de cómics generados leyendo los JSON de data/comics, como los de novelas:
+// - virtual:comics-index, índice ligero del listado, en un trozo aparte.
+// - virtual:comics-stats, cuántas series hay, para la portada del sitio.
+function comicsIndex(): Plugin {
+  const MODULES = ['virtual:comics-index', 'virtual:comics-stats', 'virtual:comics-related']
+  const dataDir = resolve(import.meta.dirname, 'data/comics')
+  const readJson = <T>(path: string): T => JSON.parse(readFileSync(path, 'utf-8'))
+
+  return {
+    name: 'comics-index',
+    resolveId: (id) => (MODULES.includes(id) ? '\0' + id : undefined),
+    load(id) {
+      if (!MODULES.includes(id.slice(1))) return
+      const comics = readdirSync(dataDir, { withFileTypes: true })
+        .filter((entry) => entry.isDirectory())
+        .flatMap((dir) =>
+          readdirSync(join(dataDir, dir.name))
+            .filter((file) => file.endsWith('.json'))
+            .map((file) => join(dataDir, dir.name, file))
+        )
+      const collectionsFile = join(dataDir, 'collections.json')
+      for (const file of [...comics, collectionsFile]) this.addWatchFile(file)
+      const all = comics.map((file) => readJson<Comic>(file))
+      if (id === '\0virtual:comics-related') {
+        return `export default ${JSON.stringify(relatedComics(all))}`
+      }
+      const index = buildComicIndex(all, readJson<ComicEdition[]>(collectionsFile))
+      const data = id === '\0virtual:comics-stats' ? { total: index.length } : index
       return `export default ${JSON.stringify(data)}`
     },
   }
@@ -166,6 +201,7 @@ function releasesIndex(): Plugin {
         videogames: files('data/videogames/games/*/*.json'),
         merchandise: files('data/merchandising/items/*/*.json'),
         novels: files('data/novels/*/*.json'),
+        comics: files('data/comics/*/*.json'),
         rpgBooks: files('data/rol/books/*/*.json'),
         rpgSystems: files('data/rol/systems/*.json'),
       }
@@ -178,6 +214,7 @@ function releasesIndex(): Plugin {
         videogames: groups.videogames.map(read),
         merchandise: groups.merchandise.map(read),
         novels: groups.novels.map(read),
+        comics: groups.comics.map(read),
         rpgBooks: groups.rpgBooks.map(read),
         rpgSystems: groups.rpgSystems.map(read),
       }
@@ -255,6 +292,7 @@ export default defineConfig(({ mode }) => {
       tailwindcss(),
       umami(env.VITE_UMAMI_URL, env.VITE_UMAMI_WEBSITE_ID),
       novelsIndex(),
+      comicsIndex(),
       rpgIndex(),
       releasesIndex(),
       monthlySummaries(mode),

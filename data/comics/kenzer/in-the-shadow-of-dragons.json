@@ -1,0 +1,83 @@
+{
+  "slug": "in-the-shadow-of-dragons",
+  "title": "Dungeons & Dragons: In the Shadow of Dragons",
+  "title_es": "Bajo la sombra de los dragones",
+  "publisher": "Kenzer & Company",
+  "setting": "greyhawk",
+  "kind": "limited_series",
+  "date": "2001-03",
+  "end_date": "2002-05",
+  "issue_count": 8,
+  "writers": ["Jay Donovan"],
+  "artists": ["Tyler Walpole"],
+  "description": "Miniserie de ocho números de Kenzer & Company, que tuvo la licencia de cómics de D&D entre 2001 y 2004. Es el primer cómic ambientado en Greyhawk, con guion de Jay Donovan y dibujo de Tyler Walpole.\n\nDevir la publicó en España entre 2003 y 2004 en cuatro cuadernos como Bajo la sombra de los dragones; hoy solo se encuentra de segunda mano.",
+  "source": "https://www.comics.org/series/9922/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2001-03",
+      "cover": "/images/comics/in-the-shadow-of-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2001-05",
+      "cover": "/images/comics/in-the-shadow-of-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2001-07",
+      "cover": "/images/comics/in-the-shadow-of-dragons/3.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2001-09",
+      "cover": "/images/comics/in-the-shadow-of-dragons/4.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2001-11",
+      "cover": "/images/comics/in-the-shadow-of-dragons/5.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "6",
+      "date": "2002-01",
+      "cover": "/images/comics/in-the-shadow-of-dragons/6.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "7",
+      "date": "2002-03",
+      "cover": "/images/comics/in-the-shadow-of-dragons/7.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "8",
+      "date": "2002-05",
+      "cover": "/images/comics/in-the-shadow-of-dragons/8.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Bajo la sombra de los dragones",
+      "publisher": "Devir",
+      "date": "2003-12",
+      "format": "issue",
+      "isbn13": 9788496262263,
+      "issues": [
+        { "number": "1", "title": "El último de mi padre", "date": "2003-12" },
+        { "number": "2", "title": "A través de la oscuridad de Anasteo" },
+        { "number": "3", "title": "Bajo la sombra de los dragones" },
+        { "number": "4", "title": "Envuelto en el beso de la traición", "date": "2004-03" }
+      ],
+      "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_2003_devir_-bajo_la_sombra_de_los_dragones-.html"
+    }
+  ]
+}

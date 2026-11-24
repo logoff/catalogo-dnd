@@ -1,0 +1,22 @@
+{
+  "slug": "rick-and-morty-vs-dungeons-and-dragons-the-meeseeks-adventure",
+  "title": "Rick and Morty vs. Dungeons & Dragons: The Meeseeks Adventure",
+  "publisher": "IDW Publishing / Oni Press",
+  "setting": "none",
+  "kind": "one_shot",
+  "date": "2022-02",
+  "issue_count": 1,
+  "writers": ["Jim Zub"],
+  "artists": ["Troy Little"],
+  "description": "Número único de 2022 del cruce entre Rick y Morty y D&D, escrito por Jim Zub y dibujado por Troy Little, protagonizado por los Meeseeks, las criaturas azules que existen para cumplir una tarea.\n\nNo se publicó en castellano.",
+  "source": "https://www.comics.org/series/181326/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2022-02",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons-the-meeseeks-adventure/1.webp",
+      "cover_source": "https://www.comics.org/series/181326/covers/"
+    }
+  ],
+  "continues": "rick-and-morty-vs-dungeons-and-dragons-ii-painscape"
+}

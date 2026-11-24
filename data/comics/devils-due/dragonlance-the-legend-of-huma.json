@@ -1,0 +1,46 @@
+{
+  "slug": "dragonlance-the-legend-of-huma",
+  "title": "Dragonlance: The Legend of Huma",
+  "publisher": "Devil's Due Publishing",
+  "setting": "dragonlance",
+  "kind": "limited_series",
+  "date": "2004-01",
+  "end_date": "2005-11",
+  "issue_count": 6,
+  "writers": ["Richard A. Knaak", "Brian Augustyn", "Sean J. Jordan"],
+  "artists": ["Mike S. Miller", "Rael Lyra"],
+  "description": "Adaptación en seis números de la novela de Richard A. Knaak sobre Huma, el caballero que derrotó a la Reina de la Oscuridad en la Tercera Guerra de los Dragones, siglos antes de las Crónicas. Fue la primera serie de Devil's Due con licencia de D&D.\n\nEl sexto número salió primero en el tomo recopilatorio. IDW la reeditó en 2017; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/35866/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2004-01",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/1.webp",
+      "cover_source": "https://www.comics.org/series/35866/covers/"
+    },
+    { "number": "2" },
+    { "number": "3" },
+    { "number": "4" },
+    { "number": "5" },
+    {
+      "number": "6",
+      "date": "2005-11",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/6.webp",
+      "cover_source": "https://www.comics.org/series/35866/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dragonlance: The Legend of Huma",
+      "publisher": "IDW Publishing",
+      "date": "2017-01",
+      "format": "paperback",
+      "isbn13": 9781631407970,
+      "contents": [{ "series": "dragonlance-the-legend-of-huma", "issues": "1-6" }],
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/9781631407970.webp",
+      "cover_source": "https://www.amazon.es/dp/163140797X/"
+    }
+  ],
+  "related_novels": ["the-legend-of-huma"]
+}

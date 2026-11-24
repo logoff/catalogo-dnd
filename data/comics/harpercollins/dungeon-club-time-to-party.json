@@ -1,0 +1,29 @@
+{
+  "slug": "dungeon-club-time-to-party",
+  "title": "Dungeons & Dragons: Dungeon Club: Time to Party",
+  "publisher": "HarperCollins (HarperAlley)",
+  "setting": "none",
+  "kind": "graphic_novel",
+  "date": "2024",
+  "issue_count": 1,
+  "writers": ["Molly Knox Ostertag"],
+  "artists": ["Xanthe Bouma"],
+  "description": "Segunda novela gráfica de Dungeon Club, de Molly Knox Ostertag y Xanthe Bouma: el club de D&D del colegio crece y Jess y Olivia aprenden a jugar en grupo con jugadores nuevos.\n\nPara lectores de 8 a 12 años. No se ha publicado en castellano.",
+  "source": "https://www.amazon.es/dp/0063039265/",
+  "issues": [{ "number": "1", "date": "2024" }],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Dungeon Club: Time to Party",
+      "publisher": "HarperAlley",
+      "date": "2024",
+      "format": "hardcover",
+      "isbn13": 9780063039261,
+      "contents": [{ "series": "dungeon-club-time-to-party", "issues": "1" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0063039265/" }],
+      "cover": "/images/comics/dungeon-club-time-to-party/9780063039261.webp",
+      "cover_source": "https://www.amazon.es/dp/0063039265/"
+    }
+  ],
+  "continues": "dungeon-club-roll-call"
+}

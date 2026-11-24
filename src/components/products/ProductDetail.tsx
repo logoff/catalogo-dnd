@@ -15,6 +15,7 @@ import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
 import PurchaseLinks from '../common/PurchaseLinks'
 import { buttonClass, headingClass } from '@/components/ui/styles'
+import RelatedComics from '@/components/comics/RelatedComics'
 
 interface ProductDetailProps {
   product: ProductWithMeta
@@ -173,6 +174,8 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
             )}
         </div>
       </div>
+
+      <RelatedComics group="products" id={`${product.primaryEdition}/${product.code}`} />
 
       <ImageLightbox
         images={images}

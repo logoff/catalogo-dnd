@@ -678,5 +678,44 @@
       "dnd-basic/basic-set-holmes": "No está en DMsGuild",
       "dnd-basic/the-new-easy-to-master-dungeons-and-dragons-game": "No está en DMsGuild"
     }
+  },
+  "comics": {
+    "amazon": {
+      "stranger-things-and-dungeons-and-dragons 9788467947014": "No está en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-dc 9781600108631": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-dc 9781613772010": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-dc 9781613774854": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "dragonlance-chronicles-vol-3 9781631405310": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "dragonlance-the-legend-of-huma 9781631407970": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-exile 9788498473407": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-homeland 9788498473193": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-sojourn 9781631404818": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-sojourn 9788498476842": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-streams-of-silver 9781631407314": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-streams-of-silver 9788498473681": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-the-crystal-shard 9788498478365": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-the-halflings-gem 9781631408656": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "forgotten-realms-the-halflings-gem 9788498479607": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "a-darkened-wish 9781684055388": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "cutter 9781613777923": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "evil-at-baldurs-gate 9781684053353": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "frost-giants-fury 9781631409288": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "infernal-tides 9781684056293": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "legends-of-baldurs-gate 9781631402500": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "saturday-morning-adventures-ii 9798887241418": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "the-legend-of-drizzt-neverwinter-tales 9781613771563": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "legend-of-drizzt-omnibus-1 9781600109973": "No está a la venta en Amazon.es (revisado el 2026-11-24)",
+      "legend-of-drizzt-omnibus-2 9781613773956": "No está a la venta en Amazon.es (revisado el 2026-11-24)"
+    },
+    "casa_del_libro": {
+      "forgotten-realms-exile 9788498473407": "Agotado en Casa del Libro (revisado el 2026-11-24)",
+      "forgotten-realms-homeland 9788498473193": "Agotado en Casa del Libro (revisado el 2026-11-24)",
+      "forgotten-realms-sojourn 9788498476842": "Agotado en Casa del Libro (revisado el 2026-11-24)",
+      "forgotten-realms-streams-of-silver 9788498473681": "Agotado en Casa del Libro (revisado el 2026-11-24)",
+      "forgotten-realms-the-crystal-shard 9788498478365": "Agotado en Casa del Libro (revisado el 2026-11-24)",
+      "forgotten-realms-the-halflings-gem 9788498479607": "Agotado en Casa del Libro (revisado el 2026-11-24)",
+      "rick-and-morty-vs-dungeons-and-dragons 9788467940084": "No está en Casa del Libro (revisado el 2026-11-24)",
+      "dragonlance-chronicles-integral-norma 9788467913828": "No está en Casa del Libro (revisado el 2026-11-24)"
+    }
   }
 }

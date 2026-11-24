@@ -1,0 +1,60 @@
+{
+  "slug": "legends-of-baldurs-gate",
+  "title": "Dungeons & Dragons: Legends of Baldur's Gate",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2014-10",
+  "end_date": "2015-03",
+  "issue_count": 5,
+  "writers": ["Jim Zub"],
+  "artists": ["Max Dunbar"],
+  "description": "Miniserie de cinco números con la que Jim Zub y Max Dunbar empezaron la etapa de IDW en Puerta de Baldur: Minsc y su hámster Boo, el explorador del videojuego Baldur's Gate, vuelve a la vida y forma un grupo nuevo para resolver un misterio en la ciudad.\n\nEs la primera de una serie de minis enlazadas que siguen con Shadows of the Vampire. Se recopiló en 2015; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/85101/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2014-10-22",
+      "cover": "/images/comics/legends-of-baldurs-gate/1.webp",
+      "cover_source": "https://www.comics.org/series/85101/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2014-11-19",
+      "cover": "/images/comics/legends-of-baldurs-gate/2.webp",
+      "cover_source": "https://www.comics.org/series/85101/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2014-12-10",
+      "cover": "/images/comics/legends-of-baldurs-gate/3.webp",
+      "cover_source": "https://www.comics.org/series/85101/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2015-01-21",
+      "cover": "/images/comics/legends-of-baldurs-gate/4.webp",
+      "cover_source": "https://www.comics.org/series/85101/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2015-03-18",
+      "cover": "/images/comics/legends-of-baldurs-gate/5.webp",
+      "cover_source": "https://www.comics.org/series/85101/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Legends of Baldur's Gate",
+      "publisher": "IDW Publishing",
+      "date": "2015-04",
+      "format": "paperback",
+      "isbn13": 9781631402500,
+      "contents": [{ "series": "legends-of-baldurs-gate", "issues": "1-5" }],
+      "cover": "/images/comics/legends-of-baldurs-gate/9781631402500.webp",
+      "cover_source": "https://www.amazon.es/dp/1631402501/"
+    }
+  ],
+  "related_videogames": ["baldurs-gate", "baldurs-gate-ii"]
+}

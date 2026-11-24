@@ -1,0 +1,57 @@
+{
+  "slug": "dungeons-and-dragons-timun-mas",
+  "title": "Dungeons and Dragons",
+  "language": "castellano",
+  "publisher": "Timun Mas",
+  "setting": "none",
+  "kind": "ongoing",
+  "date": "1985",
+  "end_date": "1985-11",
+  "issue_count": 6,
+  "description": "Cuadernos de Timun Mas de 1985 inspirados en la serie de dibujos animados Dragones y Mazmorras, con viñetas y los textos al pie, a medio camino entre el tebeo y el libro ilustrado. Salieron seis, y después se reunieron en tres tomos y en una edición de Círculo de Lectores de 1986.\n\nSon publicaciones españolas para niños de la época y solo se encuentran de segunda mano.",
+  "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_timun_mas.html",
+  "issues": [
+    {
+      "number": "1",
+      "title": "El traidor",
+      "date": "1985-11",
+      "cover": "/images/comics/dungeons-and-dragons-timun-mas/1.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_timun_mas.html"
+    },
+    {
+      "number": "2",
+      "title": "El jardín de los Zinn",
+      "date": "1985-11",
+      "cover": "/images/comics/dungeons-and-dragons-timun-mas/2.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_timun_mas.html"
+    },
+    {
+      "number": "3",
+      "title": "El día del amo del calabozo",
+      "date": "1985-11",
+      "cover": "/images/comics/dungeons-and-dragons-timun-mas/3.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_timun_mas.html"
+    },
+    {
+      "number": "4",
+      "title": "El tesoro de los Tardos",
+      "date": "1985",
+      "cover": "/images/comics/dungeons-and-dragons-timun-mas/4.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_timun_mas.html"
+    },
+    {
+      "number": "5",
+      "title": "La última ilusión",
+      "date": "1985-11",
+      "cover": "/images/comics/dungeons-and-dragons-timun-mas/5.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_timun_mas.html"
+    },
+    {
+      "number": "6",
+      "title": "La caja",
+      "date": "1985-11",
+      "cover": "/images/comics/dungeons-and-dragons-timun-mas/6.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_timun_mas.html"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "rick-and-morty-vs-dungeons-and-dragons-ii-painscape",
+  "title": "Rick and Morty vs. Dungeons & Dragons II: Painscape",
+  "publisher": "IDW Publishing / Oni Press",
+  "setting": "none",
+  "kind": "limited_series",
+  "date": "2019-09",
+  "end_date": "2020-01",
+  "issue_count": 4,
+  "writers": ["Jim Zub"],
+  "artists": ["Troy Little"],
+  "description": "Segunda parte del cruce entre Rick y Morty y D&D, escrita por Jim Zub y dibujada por Troy Little, que lleva a la familia Smith a los planos de Planescape tras una partida que se les va de las manos.\n\nSe recopiló en 2020. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/150383/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2019-09-18",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons-ii-painscape/1.webp",
+      "cover_source": "https://www.comics.org/series/150383/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2019-10-16",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons-ii-painscape/2.webp",
+      "cover_source": "https://www.comics.org/series/150383/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2019-11-27",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons-ii-painscape/3.webp",
+      "cover_source": "https://www.comics.org/series/150383/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2020-01-15",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons-ii-painscape/4.webp",
+      "cover_source": "https://www.comics.org/series/150383/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Rick and Morty vs. Dungeons & Dragons Vol. 2: Painscape",
+      "publisher": "Oni Press",
+      "date": "2020-03-04",
+      "format": "paperback",
+      "isbn13": 9781620106907,
+      "contents": [
+        { "series": "rick-and-morty-vs-dungeons-and-dragons-ii-painscape", "issues": "1-4" }
+      ],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1620106906/" }],
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons-ii-painscape/9781620106907.webp",
+      "cover_source": "https://www.amazon.es/dp/1620106906/"
+    }
+  ],
+  "continues": "rick-and-morty-vs-dungeons-and-dragons"
+}

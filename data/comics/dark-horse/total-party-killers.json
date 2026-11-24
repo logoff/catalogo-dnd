@@ -1,0 +1,53 @@
+{
+  "slug": "total-party-killers",
+  "title": "Dungeons & Dragons: Total Party Killers",
+  "publisher": "Dark Horse Comics",
+  "setting": "generic",
+  "kind": "limited_series",
+  "date": "2026-07",
+  "end_date": "2026-10",
+  "issue_count": 4,
+  "writers": ["Christopher Hastings"],
+  "artists": ["Denis Medri"],
+  "description": "Miniserie de cuatro números de Dark Horse escrita por Christopher Hastings y dibujada por Denis Medri, publicada en 2026. Su título juega con la expresión de los jugadores para cuando muere todo el grupo.\n\nSe recopiló en 2026. No se ha publicado en castellano.",
+  "source": "https://www.comics.org/series/239297/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2026-07-22",
+      "cover": "/images/comics/total-party-killers/1.webp",
+      "cover_source": "https://www.amazon.es/dp/B0GZLN4ZKD/"
+    },
+    {
+      "number": "2",
+      "date": "2026-09-02",
+      "cover": "/images/comics/total-party-killers/2.webp",
+      "cover_source": "https://www.amazon.es/dp/B0H7FD8XMF/"
+    },
+    {
+      "number": "3",
+      "date": "2026-10-14",
+      "cover": "/images/comics/total-party-killers/3.webp",
+      "cover_source": "https://www.amazon.es/dp/B0HCXDHKWC/"
+    },
+    {
+      "number": "4",
+      "cover": "/images/comics/total-party-killers/4.webp",
+      "cover_source": "https://www.amazon.es/dp/B0HLV1R289/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Total Party Killers",
+      "publisher": "Dark Horse Comics",
+      "date": "2026",
+      "format": "paperback",
+      "isbn13": 9781506749327,
+      "contents": [{ "series": "total-party-killers", "issues": "1-4" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1506749321/" }],
+      "cover": "/images/comics/total-party-killers/9781506749327.webp",
+      "cover_source": "https://www.amazon.es/dp/1506749321/"
+    }
+  ]
+}
