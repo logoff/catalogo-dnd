@@ -13,7 +13,9 @@
   "issues": [
     {
       "number": "1",
-      "date": "2022-02"
+      "date": "2022-02",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons-the-meeseeks-adventure/1.webp",
+      "cover_source": "https://www.comics.org/series/181326/covers/"
     }
   ],
   "continues": "rick-and-morty-vs-dungeons-and-dragons-ii-painscape"

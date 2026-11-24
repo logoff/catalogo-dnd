@@ -13,15 +13,11 @@
   "issues": [
     {
       "number": "AD&D",
-      "date": "1996"
+      "date": "1996",
+      "cover": "/images/comics/tsr-limited-edition/ad-d.webp",
+      "cover_source": "https://www.comics.org/series/65000/covers/"
     },
-    {
-      "number": "Dragonlance",
-      "date": "1996"
-    },
-    {
-      "number": "Forgotten Realms",
-      "date": "1996"
-    }
+    { "number": "Dragonlance", "date": "1996" },
+    { "number": "Forgotten Realms", "date": "1996" }
   ]
 }

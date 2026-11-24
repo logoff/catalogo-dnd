@@ -11,7 +11,9 @@
   "issues": [
     {
       "number": "1",
-      "date": "1994-02"
+      "date": "1994-02",
+      "cover": "/images/comics/dragon-strike/1.webp",
+      "cover_source": "https://www.comics.org/series/17132/covers/"
     }
   ]
 }

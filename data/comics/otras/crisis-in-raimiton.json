@@ -13,7 +13,9 @@
   "issues": [
     {
       "number": "1",
-      "date": "2004-07-03"
+      "date": "2004-07-03",
+      "cover": "/images/comics/crisis-in-raimiton/1.webp",
+      "cover_source": "https://www.comics.org/series/28544/covers/"
     }
   ]
 }

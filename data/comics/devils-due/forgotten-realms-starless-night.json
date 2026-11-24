@@ -13,7 +13,9 @@
   "issues": [
     {
       "number": "1",
-      "date": "2008-09"
+      "date": "2008-09",
+      "cover": "/images/comics/forgotten-realms-starless-night/1.webp",
+      "cover_source": "https://www.comics.org/series/93985/covers/"
     }
   ],
   "continues": "forgotten-realms-the-legacy",

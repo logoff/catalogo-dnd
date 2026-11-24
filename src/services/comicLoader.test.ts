@@ -71,37 +71,9 @@ const allEditions = [
   ...collections.map((e) => ({ owner: e.id!, ...e })),
 ]
 
-// Series que aún no tienen ninguna portada (ni de número ni de tomo): las webs que las tienen
-// (GCD, la wiki de los Reinos Olvidados) no permiten descargarlas de forma automática. Pendiente
-// de decidir con el usuario; la lista solo puede encoger (ver el test siguiente)
-const PENDING_COVERS = [
-  'avatar-dc',
-  'baldurs-gate-1998',
-  'baldurs-gate-3-dark-horse',
-  'black-and-white',
-  'crisis-in-raimiton',
-  'dragon-strike',
-  'dragones-y-mazmorras-planeta',
-  'dragonlance-dc',
-  'dungeons-and-dragons-annual-2012-eberron',
-  'dungeons-and-dragons-annual-2022',
-  'dungeons-and-dragons-annual-marvel-uk',
-  'dungeons-and-dragons-timun-mas',
-  'eberron-eye-of-the-wolf',
-  'forbidden-sands-of-anauroch',
-  'forgotten-realms-starless-night',
-  'forgotten-realms-the-legacy',
-  'in-the-shadow-of-dragons',
-  'magefall',
-  'ravenloft-caravan-of-curses',
-  'rick-and-morty-vs-dungeons-and-dragons-the-meeseeks-adventure',
-  'spelljammer-dc',
-  'tempests-gate',
-  'the-dragonlance-saga',
-  'the-thief-of-many-things',
-  'tsr-limited-edition',
-  'where-shadows-fall',
-]
+// Series que aún no tienen ninguna portada (ni de número ni de tomo), como lo anunciado que todavía
+// no ha salido. La lista solo puede encoger (ver el test siguiente)
+const PENDING_COVERS = ['baldurs-gate-3-dark-horse']
 
 describe('esquema de cómics', () => {
   it('acepta una serie mínima', () => {

@@ -14,24 +14,14 @@
   "issues": [
     {
       "number": "1",
-      "date": "1987-11"
+      "date": "1987-11",
+      "cover": "/images/comics/the-dragonlance-saga/1.webp",
+      "cover_source": "https://www.comics.org/series/30081/covers/"
     },
-    {
-      "number": "2",
-      "date": "1988-06"
-    },
-    {
-      "number": "3",
-      "date": "1988-06"
-    },
-    {
-      "number": "4",
-      "date": "1990-03-01"
-    },
-    {
-      "number": "5",
-      "date": "1991-02-28"
-    }
+    { "number": "2", "date": "1988-06" },
+    { "number": "3", "date": "1988-06" },
+    { "number": "4", "date": "1990-03-01" },
+    { "number": "5", "date": "1991-02-28" }
   ],
   "related_novels": ["dragons-of-autumn-twilight", "dragons-of-winter-night"]
 }

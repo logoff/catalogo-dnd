@@ -15,36 +15,17 @@
   "issues": [
     {
       "number": "1",
-      "date": "2001-03"
+      "date": "2001-03",
+      "cover": "/images/comics/in-the-shadow-of-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
     },
-    {
-      "number": "2",
-      "date": "2001-05"
-    },
-    {
-      "number": "3",
-      "date": "2001-07"
-    },
-    {
-      "number": "4",
-      "date": "2001-09"
-    },
-    {
-      "number": "5",
-      "date": "2001-11"
-    },
-    {
-      "number": "6",
-      "date": "2002-01"
-    },
-    {
-      "number": "7",
-      "date": "2002-03"
-    },
-    {
-      "number": "8",
-      "date": "2002-05"
-    }
+    { "number": "2", "date": "2001-05" },
+    { "number": "3", "date": "2001-07" },
+    { "number": "4", "date": "2001-09" },
+    { "number": "5", "date": "2001-11" },
+    { "number": "6", "date": "2002-01" },
+    { "number": "7", "date": "2002-03" },
+    { "number": "8", "date": "2002-05" }
   ],
   "editions": [
     {
@@ -56,24 +37,10 @@
       "format": "issue",
       "isbn13": 9788496262263,
       "issues": [
-        {
-          "number": "1",
-          "title": "El último de mi padre",
-          "date": "2003-12"
-        },
-        {
-          "number": "2",
-          "title": "A través de la oscuridad de Anasteo"
-        },
-        {
-          "number": "3",
-          "title": "Bajo la sombra de los dragones"
-        },
-        {
-          "number": "4",
-          "title": "Envuelto en el beso de la traición",
-          "date": "2004-03"
-        }
+        { "number": "1", "title": "El último de mi padre", "date": "2003-12" },
+        { "number": "2", "title": "A través de la oscuridad de Anasteo" },
+        { "number": "3", "title": "Bajo la sombra de los dragones" },
+        { "number": "4", "title": "Envuelto en el beso de la traición", "date": "2004-03" }
       ],
       "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_2003_devir_-bajo_la_sombra_de_los_dragones-.html"
     }

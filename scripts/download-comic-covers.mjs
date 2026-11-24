@@ -2,7 +2,8 @@
 // public/images/comics/<slug>/ y anota la ruta y la página de origen en la ficha.
 //
 //   node scripts/download-comic-covers.mjs <slug> <clave>=<url>... [--source <url>]
-//     Claves (ver comic-covers.mjs): <número>, <isbn>, tomo-<n>, castellano-<n>.
+//     Claves (ver comic-covers.mjs): <número>, <isbn>, tomo-<n>, castellano-<n>. La imagen puede ser
+//     una URL o una ruta local (una portada descargada desde el navegador).
 //     --source guarda esa página como origen de todas las portadas de la orden; si no se da,
 //     el origen es la propia URL de la imagen.
 //   node scripts/download-comic-covers.mjs --collection <id> <url> [--source <url>]
@@ -37,9 +38,17 @@ function comicFile(slug) {
 
 // Devuelve la ruta pública de la portada, o null si la URL no tiene imagen
 async function convert(url, dir, name) {
-  const response = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } })
-  if (!response.ok) return null
-  const image = sharp(Buffer.from(await response.arrayBuffer()))
+  let buffer
+  if (/^https?:\/\//.test(url)) {
+    const response = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } })
+    if (!response.ok) return null
+    buffer = Buffer.from(await response.arrayBuffer())
+  } else {
+    // Imagen ya descargada (por ejemplo, desde el navegador): ruta local
+    if (!existsSync(url)) return null
+    buffer = readFileSync(url)
+  }
+  const image = sharp(buffer)
   // Amazon responde con un GIF de 1×1 cuando no tiene la portada
   const { width = 0 } = await image.metadata()
   if (width < MIN_WIDTH) return null

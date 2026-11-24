@@ -10,19 +10,13 @@
   "source": "https://www.comics.org/series/31789/",
   "issues": [
     {
-      "number": "1"
+      "number": "1",
+      "cover": "/images/comics/where-shadows-fall/1.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
     },
-    {
-      "number": "2"
-    },
-    {
-      "number": "3"
-    },
-    {
-      "number": "4"
-    },
-    {
-      "number": "5"
-    }
+    { "number": "2" },
+    { "number": "3" },
+    { "number": "4" },
+    { "number": "5" }
   ]
 }

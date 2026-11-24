@@ -13,20 +13,13 @@
   "issues": [
     {
       "number": "1",
-      "date": "2001-12"
+      "date": "2001-12",
+      "cover": "/images/comics/tempests-gate/1.webp",
+      "cover_source": "https://www.comics.org/series/17723/covers/"
     },
-    {
-      "number": "2",
-      "date": "2002-01"
-    },
-    {
-      "number": "3",
-      "date": "2002-02"
-    },
-    {
-      "number": "4",
-      "date": "2002-03"
-    }
+    { "number": "2", "date": "2002-01" },
+    { "number": "3", "date": "2002-02" },
+    { "number": "4", "date": "2002-03" }
   ],
   "editions": [
     {
@@ -38,14 +31,8 @@
       "format": "issue",
       "isbn13": 9788496262065,
       "issues": [
-        {
-          "number": "1",
-          "date": "2003-12"
-        },
-        {
-          "number": "2",
-          "date": "2004-01"
-        }
+        { "number": "1", "date": "2003-12" },
+        { "number": "2", "date": "2004-01" }
       ],
       "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_2003_devir_-paso_de_la_tempestad-.html"
     }

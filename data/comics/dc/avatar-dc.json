@@ -14,16 +14,12 @@
   "issues": [
     {
       "number": "1",
-      "date": "1990-12-13"
+      "date": "1990-12-13",
+      "cover": "/images/comics/avatar-dc/1.webp",
+      "cover_source": "https://www.comics.org/series/14727/covers/"
     },
-    {
-      "number": "2",
-      "date": "1991-02-14"
-    },
-    {
-      "number": "3",
-      "date": "1991-05-30"
-    }
+    { "number": "2", "date": "1991-02-14" },
+    { "number": "3", "date": "1991-05-30" }
   ],
   "related_novels": ["shadowdale", "tantras", "waterdeep"]
 }

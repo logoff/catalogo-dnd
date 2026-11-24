@@ -14,16 +14,12 @@
   "issues": [
     {
       "number": "1",
-      "date": "2008-02"
+      "date": "2008-02",
+      "cover": "/images/comics/forgotten-realms-the-legacy/1.webp",
+      "cover_source": "https://www.comics.org/series/34102/covers/"
     },
-    {
-      "number": "2",
-      "date": "2008-04"
-    },
-    {
-      "number": "3",
-      "date": "2008-06"
-    }
+    { "number": "2", "date": "2008-04" },
+    { "number": "3", "date": "2008-06" }
   ],
   "continues": "forgotten-realms-the-halflings-gem",
   "related_novels": ["the-legacy"]

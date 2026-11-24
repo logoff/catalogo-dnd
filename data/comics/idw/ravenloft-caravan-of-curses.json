@@ -13,7 +13,9 @@
   "issues": [
     {
       "number": "1",
-      "date": "2024-04"
+      "date": "2024-04",
+      "cover": "/images/comics/ravenloft-caravan-of-curses/1.webp",
+      "cover_source": "https://www.comics.org/series/210791/covers/"
     }
   ]
 }

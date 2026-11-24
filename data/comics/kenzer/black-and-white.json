@@ -13,28 +13,15 @@
   "issues": [
     {
       "number": "1",
-      "date": "2002-07"
+      "date": "2002-07",
+      "cover": "/images/comics/black-and-white/1.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
     },
-    {
-      "number": "2",
-      "date": "2002-08"
-    },
-    {
-      "number": "3",
-      "date": "2002-09"
-    },
-    {
-      "number": "4",
-      "date": "2002-10"
-    },
-    {
-      "number": "5",
-      "date": "2002-11"
-    },
-    {
-      "number": "6",
-      "date": "2003-01"
-    }
+    { "number": "2", "date": "2002-08" },
+    { "number": "3", "date": "2002-09" },
+    { "number": "4", "date": "2002-10" },
+    { "number": "5", "date": "2002-11" },
+    { "number": "6", "date": "2003-01" }
   ],
   "editions": [
     {
@@ -46,21 +33,9 @@
       "format": "issue",
       "isbn13": 9788496262621,
       "issues": [
-        {
-          "number": "1",
-          "title": "Una vez ladrón...",
-          "date": "2005-01"
-        },
-        {
-          "number": "2",
-          "title": "Woodwych",
-          "date": "2005-04"
-        },
-        {
-          "number": "3",
-          "title": "El retorno",
-          "date": "2005-04"
-        }
+        { "number": "1", "title": "Una vez ladrón...", "date": "2005-01" },
+        { "number": "2", "title": "Woodwych", "date": "2005-04" },
+        { "number": "3", "title": "El retorno", "date": "2005-04" }
       ],
       "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_2004_devir_-blanco_y_negro-.html"
     }
