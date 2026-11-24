@@ -1,0 +1,22 @@
+{
+  "slug": "dungeon-scrawlers-heroes-of-waterdeep",
+  "title": "Dungeons & Dragons: Dungeon Scrawlers: Heroes of Waterdeep",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "WizKids",
+  "date": "2023",
+  "description": "Segundo juego de la serie Dungeon Scrawlers: cada jugador traza con rotulador borrable su recorrido por la misma mazmorra de Aguaprofunda, con nuevos héroes y mazmorras, en una carrera contra los demás.\n\nComo el primero, es un juego corto y familiar que se aprende en minutos. Solo se vende en inglés.",
+  "source": "https://shop.wizkids.com/products/dungeons-dragons-dungeon-scrawlers-heroes-of-waterdeep",
+  "editions": [
+    {
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15686-dungeons-and-dragons-dungeon-scrawlers-heroes-of-waterdeep-634482875704.html"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeon-scrawlers-heroes-of-waterdeep/0.jpg"]
+}

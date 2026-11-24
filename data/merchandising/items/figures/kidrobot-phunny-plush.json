@@ -1,0 +1,31 @@
+{
+  "slug": "kidrobot-phunny-plush",
+  "title": "Kidrobot Dungeons & Dragons Phunny Plush",
+  "group": "figures",
+  "kind": "plush",
+  "manufacturer": "Kidrobot",
+  "description": "Línea de peluches oficiales de Dungeons & Dragons de Kidrobot, distribuida por WizKids, con monstruos clásicos en versión simpática: contemplador, azotamentes, oso lechuza, bestia trémula, dragones cromáticos, demonio de la fosa o mimeto, además de los de la película «Honor entre ladrones» y de Spelljammer. Hay peluches de unos 20 cm, otros más grandes y llaveros de peluche.\n\nSon un regalo habitual para jugadores de cualquier edad. Se agrupan en una ficha; en Amazon se venden por separado.",
+  "source": "https://wizkids.com/dungeons-dragons-phunny-plush-by-kid-robot/",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CKX8LKC3/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B094YSG945/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BLXJJYR1/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/kidrobot-phunny-plush/0.jpg",
+    "/images/merchandising/kidrobot-phunny-plush/1.jpg"
+  ]
+}

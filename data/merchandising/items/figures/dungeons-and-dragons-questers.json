@@ -1,0 +1,32 @@
+{
+  "slug": "dungeons-and-dragons-questers",
+  "title": "Dungeons & Dragons Questers",
+  "group": "figures",
+  "kind": "figure",
+  "manufacturer": "Basic Fun!",
+  "date": "2026",
+  "description": "Línea de juguetes de Dungeons & Dragons para niños, con figuras para montar en tres escalas: criaturas de 5 cm dentro de un d20 sorpresa, aventureros de 10 cm en una torre sorpresa y dragones de 13 cm dentro de un huevo. Cada una trae un d20, una tarjeta o póster del personaje y pegatinas, y las piezas se pueden combinar entre figuras.\n\nEs una forma de acercar D&D a los niños a partir de cuatro años. En España la distribuye Bizak, con caja en castellano, y se encuentra en Amazon y en jugueterías.",
+  "source": "https://www.basicfun.com/product/dungeons-dragons-questers-adventurer-characters-blind-pack-3-75-inch-buildable-toy-figure/",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GY91QMVJ/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GY95NJDD/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GYPCD14Q/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/dungeons-and-dragons-questers/0.jpg",
+    "/images/merchandising/dungeons-and-dragons-questers/1.jpg"
+  ]
+}
