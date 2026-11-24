@@ -126,6 +126,8 @@ export interface ComicSummary {
   thumbnail: string | null
   spanish: 'spain' | 'elsewhere' | 'none'
   availableToBuy: boolean
+  // Serie que continúa a esta, para la ficha
+  continuedBy: string | null
   // Títulos de la serie y de sus tomos y autores, normalizados, para la búsqueda
   searchText: string
 }

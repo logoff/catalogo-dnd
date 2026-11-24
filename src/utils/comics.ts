@@ -142,6 +142,7 @@ export function summarize(comic: ComicWithMeta): ComicSummary {
     thumbnail: comic.cover ? thumbnailOf(comic.cover) : null,
     spanish: comic.spanish,
     availableToBuy: comic.availableToBuy,
+    continuedBy: comic.continuedBy,
     searchText: normalize([...new Set([...titles, ...people])].join(' | ')),
   }
 }

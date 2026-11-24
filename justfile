@@ -145,6 +145,10 @@ reviews-coverage:
 screenshots slug +args:
     node scripts/download-screenshots.mjs {{slug}} {{args}}
 
+# Descargar portadas de un cómic: just comic-covers <slug> <número|isbn|tomo-n|castellano-n>=<url>... [--source <url>] | --collection <id> <url>
+comic-covers +args:
+    node scripts/download-comic-covers.mjs {{args}}
+
 # Descargar portadas de una novela: just novel-covers <slug> <isbn>=<url>... | <slug> --openlibrary | --series <id> <isbn>=<url>... | --anthology <id> <clave>=<url>...
 novel-covers +args:
     node scripts/download-novel-covers.mjs {{args}}

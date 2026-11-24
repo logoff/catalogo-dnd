@@ -3,18 +3,18 @@
 ## 1. Inventario
 
 - [ ] 1.1 Crear `data/comics/inventory.md` con las 56 series en inglés de la lista de Wikipedia (editorial, años, números, mundo, fuente en GCD o la editorial) y las ediciones en castellano encontradas en Tebeosfera, GCD y Norma (grapas y tomos, con editorial, año e ISBN); verificar que cada fila tiene fuente
-- [ ] 1.2 Revisar el inventario con el usuario (casos dudosos: promocionales, webcómic, series canceladas, ediciones fuera de España) antes de cargar fichas
+- [x] 1.2 Revisar el inventario con el usuario (casos dudosos: promocionales, webcómic, series canceladas, ediciones fuera de España) antes de cargar fichas
 
 ## 2. Modelo de datos
 
-- [ ] 2.1 Esquema `data/schemas/comic.jsonschema` (serie, números, ediciones con `contents`, grapas en castellano) y `collections.json` para los tomos de varias series; verificar con un test que valida un ejemplo correcto y rechaza uno sin fuente
+- [x] 2.1 Esquema `data/schemas/comic.jsonschema` (serie, números, ediciones con `contents`, grapas en castellano) y `collections.json` para los tomos de varias series; verificar con un test que valida un ejemplo correcto y rechaza uno sin fuente
 - [ ] 2.2 Tipos en `src/types/comic.ts` y `comicLoader.ts` con campos derivados (años, recuento, castellano, a la venta, en qué tomo está cada número, relaciones inversas); tests del loader
-- [ ] 2.3 Tests de datos: esquema, carpeta de la editorial, inventario en los dos sentidos, `issue_count` igual a los números, rangos de `contents` válidos, ISBN-13 válidos, portadas existentes, descripción de dos párrafos, URLs sin afiliado y relaciones que existen; verificar con `just test`
+- [x] 2.3 Tests de datos: esquema, carpeta de la editorial, inventario en los dos sentidos, `issue_count` igual a los números, rangos de `contents` válidos, ISBN-13 válidos, portadas existentes, descripción de dos párrafos, URLs sin afiliado y relaciones que existen; verificar con `just test`
 - [ ] 2.4 Plugin `virtual:comics-index` en `vite.config.ts`, caché síncrona, precarga en `main.tsx` y llenado en `entry-server.tsx`; verificar en el build que el trozo principal no crece
 
 ## 3. Herramientas
 
-- [ ] 3.1 Receta `just comic-covers` (descarga, WebP de 1200 px y miniatura de 300 px, anotación en la ficha) con su test
+- [x] 3.1 Receta `just comic-covers` (descarga, WebP de 1200 px y miniatura de 300 px, anotación en la ficha) con su test
 - [ ] 3.2 Añadir los cómics a `just affiliate-coverage` (Amazon y Casa del Libro por tomo publicado) y a `data/affiliate-exceptions.json`
 - [ ] 3.3 Skill `add-comic` con las reglas, fuentes (GCD, Tebeosfera, editoriales) y pasos, siguiendo `add-novel`
 
