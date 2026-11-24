@@ -13,9 +13,24 @@
   "description": "Primera de las miniseries de Devil's Due que adaptan La leyenda de Drizzt de R. A. Salvatore, con guion de Andrew Dabb y dibujo de Tim Seeley. Cuenta la infancia de Drizzt Do'Urden en Menzoberranzan, la ciudad de los elfos oscuros, y su ruptura con su familia.\n\nIDW la reeditó en 2015 y Norma la publicó en castellano en 2008 como La morada, primer tomo de su colección Reinos Olvidados.",
   "source": "https://www.comics.org/series/34096/",
   "issues": [
-    { "number": "1", "date": "2005-06" },
-    { "number": "2", "date": "2005-07" },
-    { "number": "3", "date": "2005-08" }
+    {
+      "number": "1",
+      "date": "2005-06",
+      "cover": "/images/comics/forgotten-realms-homeland/1.webp",
+      "cover_source": "https://www.comics.org/series/34096/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2005-07",
+      "cover": "/images/comics/forgotten-realms-homeland/2.webp",
+      "cover_source": "https://www.comics.org/series/34096/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2005-08",
+      "cover": "/images/comics/forgotten-realms-homeland/3.webp",
+      "cover_source": "https://www.comics.org/series/34096/covers/"
+    }
   ],
   "editions": [
     {

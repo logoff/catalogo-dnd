@@ -13,13 +13,48 @@
   "description": "Antología de Devil's Due en siete números con historias cortas de varios mundos de D&D, como los Reinos Olvidados (con Drizzt), Dragonlance, Eberron y Ravenloft, que tuvo aquí su primer cómic. Participaron autores de las novelas como R. A. Salvatore.\n\nNorma la publicó en castellano en dos tomos, en 2009 y 2012, como Los mundos de Dungeons and Dragons.",
   "source": "https://www.comics.org/series/52573/",
   "issues": [
-    { "number": "1", "date": "2008-02" },
-    { "number": "2", "date": "2008-03" },
-    { "number": "3", "date": "2008-07" },
-    { "number": "4", "date": "2008-08" },
-    { "number": "5", "date": "2008-09" },
-    { "number": "6", "date": "2008-10" },
-    { "number": "7", "date": "2008-11" }
+    {
+      "number": "1",
+      "date": "2008-02",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2008-03",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2008-07",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/3.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2008-08",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/4.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2008-09",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/5.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "6",
+      "date": "2008-10",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/6.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "7",
+      "date": "2008-11",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/7.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    }
   ],
   "editions": [
     {

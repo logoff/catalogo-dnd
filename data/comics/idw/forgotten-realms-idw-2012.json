@@ -12,11 +12,36 @@
   "description": "Miniserie de cinco números escrita por Ed Greenwood, el creador de los Reinos Olvidados, con dibujo de Lee Ferguson: una aventura en su mundo contada por quien lo inventó.\n\nSe recopiló en tomo en 2013. No se publicó en castellano.",
   "source": "https://www.comics.org/series/65464/",
   "issues": [
-    { "number": "1", "date": "2012-05-09" },
-    { "number": "2", "date": "2012-06-27" },
-    { "number": "3", "date": "2012-09-05" },
-    { "number": "4", "date": "2012-10-17" },
-    { "number": "5", "date": "2012-11-21" }
+    {
+      "number": "1",
+      "date": "2012-05-09",
+      "cover": "/images/comics/forgotten-realms-idw-2012/1.webp",
+      "cover_source": "https://www.comics.org/series/65464/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2012-06-27",
+      "cover": "/images/comics/forgotten-realms-idw-2012/2.webp",
+      "cover_source": "https://www.comics.org/series/65464/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2012-09-05",
+      "cover": "/images/comics/forgotten-realms-idw-2012/3.webp",
+      "cover_source": "https://www.comics.org/series/65464/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2012-10-17",
+      "cover": "/images/comics/forgotten-realms-idw-2012/4.webp",
+      "cover_source": "https://www.comics.org/series/65464/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2012-11-21",
+      "cover": "/images/comics/forgotten-realms-idw-2012/5.webp",
+      "cover_source": "https://www.comics.org/series/65464/covers/"
+    }
   ],
   "editions": [
     {

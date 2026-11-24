@@ -17,11 +17,36 @@
       "cover": "/images/comics/black-and-white/1.webp",
       "cover_source": "https://www.comics.org/series/15239/covers/"
     },
-    { "number": "2", "date": "2002-08" },
-    { "number": "3", "date": "2002-09" },
-    { "number": "4", "date": "2002-10" },
-    { "number": "5", "date": "2002-11" },
-    { "number": "6", "date": "2003-01" }
+    {
+      "number": "2",
+      "date": "2002-08",
+      "cover": "/images/comics/black-and-white/2.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2002-09",
+      "cover": "/images/comics/black-and-white/3.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2002-10",
+      "cover": "/images/comics/black-and-white/4.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2002-11",
+      "cover": "/images/comics/black-and-white/5.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "6",
+      "date": "2003-01",
+      "cover": "/images/comics/black-and-white/6.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    }
   ],
   "editions": [
     {

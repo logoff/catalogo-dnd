@@ -12,11 +12,36 @@
   "description": "Miniserie de cinco números de IDW ambientada en Athas, el mundo desértico de Dark Sun, que volvía con la cuarta edición, con guion de Alex Irvine y dibujo de Peter Bergting.\n\nSe recopiló como Ianto's Tomb en tapa dura y en rústica. No se publicó en castellano.",
   "source": "https://www.comics.org/series/54674/",
   "issues": [
-    { "number": "1", "date": "2011-01-05" },
-    { "number": "2", "date": "2011-02" },
-    { "number": "3", "date": "2011-03-09" },
-    { "number": "4", "date": "2011-04-20" },
-    { "number": "5", "date": "2011-05-04" }
+    {
+      "number": "1",
+      "date": "2011-01-05",
+      "cover": "/images/comics/dark-sun/1.webp",
+      "cover_source": "https://www.comics.org/series/54674/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2011-02",
+      "cover": "/images/comics/dark-sun/2.webp",
+      "cover_source": "https://www.comics.org/series/54674/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2011-03-09",
+      "cover": "/images/comics/dark-sun/3.webp",
+      "cover_source": "https://www.comics.org/series/54674/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2011-04-20",
+      "cover": "/images/comics/dark-sun/4.webp",
+      "cover_source": "https://www.comics.org/series/54674/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2011-05-04",
+      "cover": "/images/comics/dark-sun/5.webp",
+      "cover_source": "https://www.comics.org/series/54674/covers/"
+    }
   ],
   "editions": [
     {

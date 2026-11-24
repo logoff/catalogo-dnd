@@ -12,11 +12,36 @@
   "description": "Continuación de Legends of Baldur's Gate escrita por Jim Zub y dibujada por Nelson Dániel: Minsc, Boo y sus compañeros acaban en Barovia y se enfrentan a Strahd von Zarovich, en paralelo a la aventura Curse of Strahd de la quinta edición.\n\nSe recopiló en 2016; no se publicó en castellano.",
   "source": "https://www.comics.org/series/101008/",
   "issues": [
-    { "number": "1", "date": "2016-05-04" },
-    { "number": "2", "date": "2016-06-15" },
-    { "number": "3", "date": "2016-07-13" },
-    { "number": "4", "date": "2016-08-24" },
-    { "number": "5", "date": "2016-10-05" }
+    {
+      "number": "1",
+      "date": "2016-05-04",
+      "cover": "/images/comics/shadows-of-the-vampire/1.webp",
+      "cover_source": "https://www.comics.org/series/101008/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2016-06-15",
+      "cover": "/images/comics/shadows-of-the-vampire/2.webp",
+      "cover_source": "https://www.comics.org/series/101008/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2016-07-13",
+      "cover": "/images/comics/shadows-of-the-vampire/3.webp",
+      "cover_source": "https://www.comics.org/series/101008/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2016-08-24",
+      "cover": "/images/comics/shadows-of-the-vampire/4.webp",
+      "cover_source": "https://www.comics.org/series/101008/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2016-10-05",
+      "cover": "/images/comics/shadows-of-the-vampire/5.webp",
+      "cover_source": "https://www.comics.org/series/101008/covers/"
+    }
   ],
   "editions": [
     {

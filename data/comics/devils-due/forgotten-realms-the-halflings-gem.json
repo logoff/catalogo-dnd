@@ -13,9 +13,24 @@
   "description": "Miniserie de Devil's Due que adapta La gema del halfling de R. A. Salvatore: Drizzt y Wulfgar viajan al sur, hasta Calimport, para rescatar a Regis del asesino Artemis Entreri. Cierra la adaptación de la trilogía del Valle del Viento Helado.\n\nIDW la reeditó en 2017 y Norma la publicó en castellano en 2009 como tercer libro de El valle del viento helado.",
   "source": "https://www.comics.org/series/34101/",
   "issues": [
-    { "number": "1", "date": "2007-08" },
-    { "number": "2", "date": "2007-10" },
-    { "number": "3", "date": "2007-12" }
+    {
+      "number": "1",
+      "date": "2007-08",
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/1.webp",
+      "cover_source": "https://www.comics.org/series/34101/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2007-10",
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/2.webp",
+      "cover_source": "https://www.comics.org/series/34101/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2007-12",
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/3.webp",
+      "cover_source": "https://www.comics.org/series/34101/covers/"
+    }
   ],
   "editions": [
     {

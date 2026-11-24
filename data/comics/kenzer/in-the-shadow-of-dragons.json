@@ -19,13 +19,48 @@
       "cover": "/images/comics/in-the-shadow-of-dragons/1.webp",
       "cover_source": "https://www.comics.org/series/9922/covers/"
     },
-    { "number": "2", "date": "2001-05" },
-    { "number": "3", "date": "2001-07" },
-    { "number": "4", "date": "2001-09" },
-    { "number": "5", "date": "2001-11" },
-    { "number": "6", "date": "2002-01" },
-    { "number": "7", "date": "2002-03" },
-    { "number": "8", "date": "2002-05" }
+    {
+      "number": "2",
+      "date": "2001-05",
+      "cover": "/images/comics/in-the-shadow-of-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2001-07",
+      "cover": "/images/comics/in-the-shadow-of-dragons/3.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2001-09",
+      "cover": "/images/comics/in-the-shadow-of-dragons/4.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2001-11",
+      "cover": "/images/comics/in-the-shadow-of-dragons/5.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "6",
+      "date": "2002-01",
+      "cover": "/images/comics/in-the-shadow-of-dragons/6.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "7",
+      "date": "2002-03",
+      "cover": "/images/comics/in-the-shadow-of-dragons/7.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    },
+    {
+      "number": "8",
+      "date": "2002-05",
+      "cover": "/images/comics/in-the-shadow-of-dragons/8.webp",
+      "cover_source": "https://www.comics.org/series/9922/covers/"
+    }
   ],
   "editions": [
     {

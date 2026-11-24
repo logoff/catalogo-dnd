@@ -13,43 +13,228 @@
   "description": "Serie mensual de DC Comics con licencia de TSR que siguió durante 36 números a un grupo de aventureros de los Reinos Olvidados, con guion de Michael Fleisher y Dan Mishkin y dibujo de Jan Duursema. Tuvo además un número anual en 1990.\n\nEs el cómic regular más largo de D&D. IDW la reeditó completa en los cuatro tomos de Dungeons & Dragons Classics, y en España la publicó Zinco en 1990 y 1991 como Dragones y Mazmorras, en grapa.",
   "source": "https://www.comics.org/series/3565/",
   "issues": [
-    { "number": "1", "date": "1988-11-10" },
-    { "number": "2", "date": "1988-12-15" },
-    { "number": "3", "date": "1989-01-12" },
-    { "number": "4", "date": "1989-02-16" },
-    { "number": "5", "date": "1989-03-16" },
-    { "number": "6", "date": "1989-04-06" },
-    { "number": "7", "date": "1989-05-11" },
-    { "number": "8", "date": "1989-06-08" },
-    { "number": "9", "date": "1989-07-06" },
-    { "number": "10", "date": "1989-08-10" },
-    { "number": "11", "date": "1989-09-07" },
-    { "number": "12", "date": "1989-10-05" },
-    { "number": "13", "date": "1989-11-09" },
-    { "number": "14", "date": "1989-12-07" },
-    { "number": "15", "date": "1990-01-11" },
-    { "number": "16", "date": "1990-02-08" },
-    { "number": "17", "date": "1990-03-08" },
-    { "number": "18", "date": "1990-04-05" },
-    { "number": "19", "date": "1990-05-10" },
-    { "number": "20", "date": "1990-06-07" },
-    { "number": "21", "date": "1990-08" },
-    { "number": "22", "date": "1990-09-13" },
-    { "number": "23", "date": "1990-10-11" },
-    { "number": "24", "date": "1990-11-08" },
-    { "number": "25", "date": "1990-12-06" },
-    { "number": "26", "date": "1991-01-10" },
-    { "number": "27", "date": "1991-02-07" },
-    { "number": "28", "date": "1991-03-07" },
-    { "number": "29", "date": "1991-04-11" },
-    { "number": "30", "date": "1991-05-02" },
-    { "number": "31", "date": "1991-06-06" },
-    { "number": "32", "date": "1991-07-05" },
-    { "number": "33", "date": "1991-08-08" },
-    { "number": "34", "date": "1991-09-05" },
-    { "number": "35", "date": "1991-10-03" },
-    { "number": "36", "date": "1991-11-07" },
-    { "number": "Annual 1", "date": "1990-09-27" }
+    {
+      "number": "1",
+      "date": "1988-11-10",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "2",
+      "date": "1988-12-15",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "3",
+      "date": "1989-01-12",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/3.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "4",
+      "date": "1989-02-16",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/4.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "5",
+      "date": "1989-03-16",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/5.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "6",
+      "date": "1989-04-06",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/6.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "7",
+      "date": "1989-05-11",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/7.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "8",
+      "date": "1989-06-08",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/8.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "9",
+      "date": "1989-07-06",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/9.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "10",
+      "date": "1989-08-10",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/10.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "11",
+      "date": "1989-09-07",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/11.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "12",
+      "date": "1989-10-05",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/12.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "13",
+      "date": "1989-11-09",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/13.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "14",
+      "date": "1989-12-07",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/14.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "15",
+      "date": "1990-01-11",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/15.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "16",
+      "date": "1990-02-08",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/16.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "17",
+      "date": "1990-03-08",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/17.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "18",
+      "date": "1990-04-05",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/18.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "19",
+      "date": "1990-05-10",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/19.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "20",
+      "date": "1990-06-07",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/20.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "21",
+      "date": "1990-08",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/21.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "22",
+      "date": "1990-09-13",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/22.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "23",
+      "date": "1990-10-11",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/23.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "24",
+      "date": "1990-11-08",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/24.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "25",
+      "date": "1990-12-06",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/25.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "26",
+      "date": "1991-01-10",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/26.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "27",
+      "date": "1991-02-07",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/27.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "28",
+      "date": "1991-03-07",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/28.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "29",
+      "date": "1991-04-11",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/29.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "30",
+      "date": "1991-05-02",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/30.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "31",
+      "date": "1991-06-06",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/31.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "32",
+      "date": "1991-07-05",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/32.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "33",
+      "date": "1991-08-08",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/33.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "34",
+      "date": "1991-09-05",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/34.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "35",
+      "date": "1991-10-03",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/35.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "36",
+      "date": "1991-11-07",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/36.webp",
+      "cover_source": "https://www.comics.org/series/3565/covers/"
+    },
+    {
+      "number": "Annual 1",
+      "date": "1990-09-27",
+      "cover": "/images/comics/advanced-dungeons-and-dragons/annual-1.webp",
+      "cover_source": "https://www.comics.org/series/11509/covers/"
+    }
   ],
   "editions": [
     {
@@ -108,18 +293,86 @@
       "date": "1990-07",
       "format": "issue",
       "issues": [
-        { "number": "1", "date": "1990-07" },
-        { "number": "2", "date": "1990-08" },
-        { "number": "3", "date": "1990-09" },
-        { "number": "4", "date": "1990-10" },
-        { "number": "5", "title": "Juego de poder (primera parte)", "date": "1990-11" },
-        { "number": "6", "title": "Juego de poder (segunda parte)", "date": "1990-12" },
-        { "number": "7", "title": "Juego de poder (tercera parte)", "date": "1991-01" },
-        { "number": "8", "title": "Juego de poder (cuarta parte)", "date": "1991-02" },
-        { "number": "9", "title": "Juegos de magia (primera parte)", "date": "1991-03" },
-        { "number": "10", "title": "Juegos de magia (segunda parte)", "date": "1991-04" },
-        { "number": "11", "title": "Juegos de magia (tercera parte)", "date": "1991-05" },
-        { "number": "12", "title": "Juegos de magia (conclusión)", "date": "1991-06" }
+        {
+          "number": "1",
+          "date": "1990-07",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-1.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "2",
+          "date": "1990-08",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-2.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "3",
+          "date": "1990-09",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-3.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "4",
+          "date": "1990-10",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-4.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "5",
+          "title": "Juego de poder (primera parte)",
+          "date": "1990-11",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-5.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "6",
+          "title": "Juego de poder (segunda parte)",
+          "date": "1990-12",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-6.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "7",
+          "title": "Juego de poder (tercera parte)",
+          "date": "1991-01",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-7.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "8",
+          "title": "Juego de poder (cuarta parte)",
+          "date": "1991-02",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-8.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "9",
+          "title": "Juegos de magia (primera parte)",
+          "date": "1991-03",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-9.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "10",
+          "title": "Juegos de magia (segunda parte)",
+          "date": "1991-04",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-10.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "11",
+          "title": "Juegos de magia (tercera parte)",
+          "date": "1991-05",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-11.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        },
+        {
+          "number": "12",
+          "title": "Juegos de magia (conclusión)",
+          "date": "1991-06",
+          "cover": "/images/comics/advanced-dungeons-and-dragons/castellano-12.webp",
+          "cover_source": "https://www.comics.org/series/34497/covers/"
+        }
       ],
       "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1990_zinco_-dragones_y_mazmorras-.html"
     }

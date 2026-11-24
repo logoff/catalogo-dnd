@@ -13,9 +13,24 @@
   "description": "Miniserie de Devil's Due que adapta La piedra de cristal, la primera novela de Drizzt de R. A. Salvatore, en la que el drow defiende el Valle del Viento Helado junto a Bruenor, Catti-brie, Regis y Wulfgar contra el hechicero Akar Kessell.\n\nIDW la reeditó en 2016 y Norma la publicó en castellano en 2009 como primer libro de El valle del viento helado.",
   "source": "https://www.comics.org/series/34099/",
   "issues": [
-    { "number": "1", "date": "2006-08" },
-    { "number": "2", "date": "2006-10" },
-    { "number": "3", "date": "2006-12" }
+    {
+      "number": "1",
+      "date": "2006-08",
+      "cover": "/images/comics/forgotten-realms-the-crystal-shard/1.webp",
+      "cover_source": "https://www.comics.org/series/34099/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2006-10",
+      "cover": "/images/comics/forgotten-realms-the-crystal-shard/2.webp",
+      "cover_source": "https://www.comics.org/series/34099/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2006-12",
+      "cover": "/images/comics/forgotten-realms-the-crystal-shard/3.webp",
+      "cover_source": "https://www.comics.org/series/34099/covers/"
+    }
   ],
   "editions": [
     {

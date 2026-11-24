@@ -11,8 +11,18 @@
   "description": "Miniserie de dos números que forma parte de Infestation 2, un cruce de IDW en el que los primigenios de Lovecraft invaden los mundos de sus licencias. La de D&D, protagonizada por el mago Abraxis Wren, pasa en Eberron. Guion de Paul Crilley y dibujo de Valerio Schiti.\n\nSe recopiló en 2015 como Abraxis Wren of Eberron. No se publicó en castellano.",
   "source": "https://www.comics.org/series/63313/",
   "issues": [
-    { "number": "1", "date": "2012-02-15" },
-    { "number": "2", "date": "2012-02-22" }
+    {
+      "number": "1",
+      "date": "2012-02-15",
+      "cover": "/images/comics/infestation-2-dungeons-and-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/63313/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2012-02-22",
+      "cover": "/images/comics/infestation-2-dungeons-and-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/63313/covers/"
+    }
   ],
   "editions": [
     {

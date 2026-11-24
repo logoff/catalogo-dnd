@@ -12,11 +12,36 @@
   "description": "Miniserie de cinco números escrita por R. A. Salvatore y Geno Salvatore, con dibujo de David Baldeón, cuyo título es el apodo de Khazid'hea, la espada inteligente de las novelas de Drizzt.\n\nSe recopiló en tapa dura en 2013 y en rústica en 2014. No se publicó en castellano.",
   "source": "https://www.comics.org/series/73622/",
   "issues": [
-    { "number": "1", "date": "2013-04-10" },
-    { "number": "2", "date": "2013-05-01" },
-    { "number": "3", "date": "2013-06-12" },
-    { "number": "4", "date": "2013-08-07" },
-    { "number": "5", "date": "2013-09-25" }
+    {
+      "number": "1",
+      "date": "2013-04-10",
+      "cover": "/images/comics/cutter/1.webp",
+      "cover_source": "https://www.comics.org/series/73622/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2013-05-01",
+      "cover": "/images/comics/cutter/2.webp",
+      "cover_source": "https://www.comics.org/series/73622/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2013-06-12",
+      "cover": "/images/comics/cutter/3.webp",
+      "cover_source": "https://www.comics.org/series/73622/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2013-08-07",
+      "cover": "/images/comics/cutter/4.webp",
+      "cover_source": "https://www.comics.org/series/73622/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2013-09-25",
+      "cover": "/images/comics/cutter/5.webp",
+      "cover_source": "https://www.comics.org/series/73622/covers/"
+    }
   ],
   "editions": [
     {

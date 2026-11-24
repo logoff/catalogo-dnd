@@ -12,10 +12,30 @@
   "description": "Segunda miniserie de cuatro números con los protagonistas de la serie de dibujos animados de Dragones y Mazmorras, escrita por David M. Booher y dibujada por George Kambadais, que siguen buscando el camino de vuelta a casa.\n\nSe recopiló en 2024. No se publicó en castellano.",
   "source": "https://www.comics.org/series/208262/",
   "issues": [
-    { "number": "1", "date": "2024-01-24" },
-    { "number": "2", "date": "2024-02-28" },
-    { "number": "3", "date": "2024-03-27" },
-    { "number": "4", "date": "2024-04-24" }
+    {
+      "number": "1",
+      "date": "2024-01-24",
+      "cover": "/images/comics/saturday-morning-adventures-ii/1.webp",
+      "cover_source": "https://www.comics.org/series/208262/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2024-02-28",
+      "cover": "/images/comics/saturday-morning-adventures-ii/2.webp",
+      "cover_source": "https://www.comics.org/series/208262/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2024-03-27",
+      "cover": "/images/comics/saturday-morning-adventures-ii/3.webp",
+      "cover_source": "https://www.comics.org/series/208262/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2024-04-24",
+      "cover": "/images/comics/saturday-morning-adventures-ii/4.webp",
+      "cover_source": "https://www.comics.org/series/208262/covers/"
+    }
   ],
   "editions": [
     {

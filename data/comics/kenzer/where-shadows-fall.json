@@ -14,9 +14,25 @@
       "cover": "/images/comics/where-shadows-fall/1.webp",
       "cover_source": "https://www.comics.org/series/31789/covers/"
     },
-    { "number": "2" },
-    { "number": "3" },
-    { "number": "4" },
-    { "number": "5" }
+    {
+      "number": "2",
+      "cover": "/images/comics/where-shadows-fall/2.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    },
+    {
+      "number": "3",
+      "cover": "/images/comics/where-shadows-fall/3.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    },
+    {
+      "number": "4",
+      "cover": "/images/comics/where-shadows-fall/4.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    },
+    {
+      "number": "5",
+      "cover": "/images/comics/where-shadows-fall/5.webp",
+      "cover_source": "https://www.comics.org/series/31789/covers/"
+    }
   ]
 }

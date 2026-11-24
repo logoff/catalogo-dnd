@@ -12,10 +12,30 @@
   "description": "Miniserie de cuatro números escrita por la luchadora AJ Mendez y la actriz Aimee Garcia, con dibujo de Martín Cóccolo, ambientada en el norte helado de los Reinos Olvidados, en la cordillera del Espinazo del Mundo.\n\nSe recopiló en 2021; no se publicó en castellano.",
   "source": "https://www.comics.org/series/166425/",
   "issues": [
-    { "number": "1", "date": "2020-11-11" },
-    { "number": "2", "date": "2020-12-30" },
-    { "number": "3", "date": "2021-01-06" },
-    { "number": "4", "date": "2021-03-24" }
+    {
+      "number": "1",
+      "date": "2020-11-11",
+      "cover": "/images/comics/at-the-spine-of-the-world/1.webp",
+      "cover_source": "https://www.comics.org/series/166425/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2020-12-30",
+      "cover": "/images/comics/at-the-spine-of-the-world/2.webp",
+      "cover_source": "https://www.comics.org/series/166425/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2021-01-06",
+      "cover": "/images/comics/at-the-spine-of-the-world/3.webp",
+      "cover_source": "https://www.comics.org/series/166425/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2021-03-24",
+      "cover": "/images/comics/at-the-spine-of-the-world/4.webp",
+      "cover_source": "https://www.comics.org/series/166425/covers/"
+    }
   ],
   "editions": [
     {

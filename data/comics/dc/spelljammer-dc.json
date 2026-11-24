@@ -18,19 +18,89 @@
       "cover": "/images/comics/spelljammer-dc/1.webp",
       "cover_source": "https://www.comics.org/series/14877/covers/"
     },
-    { "number": "2", "date": "1990-09-06" },
-    { "number": "3", "date": "1990-10-18" },
-    { "number": "4", "date": "1990-11-08" },
-    { "number": "5", "date": "1990-11-29" },
-    { "number": "6", "date": "1991-01-04" },
-    { "number": "7", "date": "1991-01-31" },
-    { "number": "8", "date": "1991-02-28" },
-    { "number": "9", "date": "1991-03-28" },
-    { "number": "10", "date": "1991-04-25" },
-    { "number": "11", "date": "1991-06-06" },
-    { "number": "12", "date": "1991-07-05" },
-    { "number": "13", "date": "1991-08-08" },
-    { "number": "14", "date": "1991-09-05" },
-    { "number": "15", "date": "1991-11-21" }
+    {
+      "number": "2",
+      "date": "1990-09-06",
+      "cover": "/images/comics/spelljammer-dc/2.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "3",
+      "date": "1990-10-18",
+      "cover": "/images/comics/spelljammer-dc/3.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "4",
+      "date": "1990-11-08",
+      "cover": "/images/comics/spelljammer-dc/4.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "5",
+      "date": "1990-11-29",
+      "cover": "/images/comics/spelljammer-dc/5.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "6",
+      "date": "1991-01-04",
+      "cover": "/images/comics/spelljammer-dc/6.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "7",
+      "date": "1991-01-31",
+      "cover": "/images/comics/spelljammer-dc/7.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "8",
+      "date": "1991-02-28",
+      "cover": "/images/comics/spelljammer-dc/8.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "9",
+      "date": "1991-03-28",
+      "cover": "/images/comics/spelljammer-dc/9.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "10",
+      "date": "1991-04-25",
+      "cover": "/images/comics/spelljammer-dc/10.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "11",
+      "date": "1991-06-06",
+      "cover": "/images/comics/spelljammer-dc/11.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "12",
+      "date": "1991-07-05",
+      "cover": "/images/comics/spelljammer-dc/12.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "13",
+      "date": "1991-08-08",
+      "cover": "/images/comics/spelljammer-dc/13.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "14",
+      "date": "1991-09-05",
+      "cover": "/images/comics/spelljammer-dc/14.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    },
+    {
+      "number": "15",
+      "date": "1991-11-21",
+      "cover": "/images/comics/spelljammer-dc/15.webp",
+      "cover_source": "https://www.comics.org/series/14877/covers/"
+    }
   ]
 }

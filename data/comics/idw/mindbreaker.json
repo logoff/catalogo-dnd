@@ -12,11 +12,37 @@
   "description": "Miniserie de cinco números en la que Minsc y Boo, con la compañía de aventureros de las anteriores series de IDW, se enfrentan en Puerta de Baldur a un culto de azotamentes que siembra renacuajos en la mente de sus víctimas. Escrita por Jim Zub, que también firmó las series anteriores de Baldur's Gate en IDW, y dibujada por Eduardo Mello.\n\nSe publicó como preludio oficial de Baldur's Gate 3: presenta la amenaza de los illithids y el Absoluto que arranca el videojuego. Está recopilada en un tomo en inglés; no hay edición en castellano.",
   "source": "https://www.comics.org/series/177154/",
   "issues": [
-    { "number": "1", "date": "2021-10-20" },
-    { "number": "2", "title": "A Growing Threat", "date": "2021-11-24" },
-    { "number": "3", "date": "2021-12-15" },
-    { "number": "4", "date": "2022-01-19" },
-    { "number": "5", "date": "2022-02-16" }
+    {
+      "number": "1",
+      "date": "2021-10-20",
+      "cover": "/images/comics/mindbreaker/1.webp",
+      "cover_source": "https://www.comics.org/series/177154/covers/"
+    },
+    {
+      "number": "2",
+      "title": "A Growing Threat",
+      "date": "2021-11-24",
+      "cover": "/images/comics/mindbreaker/2.webp",
+      "cover_source": "https://www.comics.org/series/177154/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2021-12-15",
+      "cover": "/images/comics/mindbreaker/3.webp",
+      "cover_source": "https://www.comics.org/series/177154/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2022-01-19",
+      "cover": "/images/comics/mindbreaker/4.webp",
+      "cover_source": "https://www.comics.org/series/177154/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2022-02-16",
+      "cover": "/images/comics/mindbreaker/5.webp",
+      "cover_source": "https://www.comics.org/series/177154/covers/"
+    }
   ],
   "editions": [
     {

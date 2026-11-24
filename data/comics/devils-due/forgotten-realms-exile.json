@@ -13,9 +13,24 @@
   "description": "Segunda miniserie de La leyenda de Drizzt de Devil's Due: Drizzt sobrevive solo en la Antípoda Oscura, perseguido por su familia, y encuentra a sus primeros aliados. Adapta la segunda novela de la trilogía del elfo oscuro de R. A. Salvatore.\n\nIDW la reeditó en 2015 y Norma la publicó en castellano en 2008 como El exilio.",
   "source": "https://www.comics.org/series/34097/",
   "issues": [
-    { "number": "1", "date": "2005-11" },
-    { "number": "2", "date": "2005-11-30" },
-    { "number": "3", "date": "2006-01" }
+    {
+      "number": "1",
+      "date": "2005-11",
+      "cover": "/images/comics/forgotten-realms-exile/1.webp",
+      "cover_source": "https://www.comics.org/series/34097/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2005-11-30",
+      "cover": "/images/comics/forgotten-realms-exile/2.webp",
+      "cover_source": "https://www.comics.org/series/34097/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2006-01",
+      "cover": "/images/comics/forgotten-realms-exile/3.webp",
+      "cover_source": "https://www.comics.org/series/34097/covers/"
+    }
   ],
   "editions": [
     {

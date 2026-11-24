@@ -13,10 +13,30 @@
   "description": "Cruce de cuatro números entre Rick y Morty y Dungeons & Dragons, coeditado por IDW y Oni Press, con guion de Patrick Rothfuss y Jim Zub y dibujo de Troy Little. Morty quiere aprender a jugar a D&D y Rick acaba metiendo a la familia en una partida real, con chistes sobre las reglas y la cultura del rol.\n\nNorma lo publicó en castellano en 2020 como Rick y Morty vs. Dungeons & Dragons.",
   "source": "https://www.comics.org/series/128777/",
   "issues": [
-    { "number": "1", "date": "2018-08-29" },
-    { "number": "2", "date": "2018-09-26" },
-    { "number": "3", "date": "2018-12-05" },
-    { "number": "4", "date": "2019-01-30" }
+    {
+      "number": "1",
+      "date": "2018-08-29",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/128777/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2018-09-26",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/128777/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2018-12-05",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons/3.webp",
+      "cover_source": "https://www.comics.org/series/128777/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2019-01-30",
+      "cover": "/images/comics/rick-and-morty-vs-dungeons-and-dragons/4.webp",
+      "cover_source": "https://www.comics.org/series/128777/covers/"
+    }
   ],
   "editions": [
     {

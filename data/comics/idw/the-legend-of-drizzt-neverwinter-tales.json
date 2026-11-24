@@ -12,11 +12,36 @@
   "description": "Miniserie de cinco números de IDW escrita por R. A. Salvatore y su hijo Geno, con historias originales de Drizzt en Neverwinter que sirven de puente con la trilogía de novelas Neverwinter. Dibujo de Agustín Padilla.\n\nSe recopiló en tapa dura y en rústica. No se publicó en castellano.",
   "source": "https://www.comics.org/series/60657/",
   "issues": [
-    { "number": "1", "date": "2011-08-24" },
-    { "number": "2", "date": "2011-09-14" },
-    { "number": "3", "date": "2011-11-09" },
-    { "number": "4", "date": "2011-12-21" },
-    { "number": "5", "date": "2012-02-15" }
+    {
+      "number": "1",
+      "date": "2011-08-24",
+      "cover": "/images/comics/the-legend-of-drizzt-neverwinter-tales/1.webp",
+      "cover_source": "https://www.comics.org/series/60657/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2011-09-14",
+      "cover": "/images/comics/the-legend-of-drizzt-neverwinter-tales/2.webp",
+      "cover_source": "https://www.comics.org/series/60657/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2011-11-09",
+      "cover": "/images/comics/the-legend-of-drizzt-neverwinter-tales/3.webp",
+      "cover_source": "https://www.comics.org/series/60657/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2011-12-21",
+      "cover": "/images/comics/the-legend-of-drizzt-neverwinter-tales/4.webp",
+      "cover_source": "https://www.comics.org/series/60657/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2012-02-15",
+      "cover": "/images/comics/the-legend-of-drizzt-neverwinter-tales/5.webp",
+      "cover_source": "https://www.comics.org/series/60657/covers/"
+    }
   ],
   "editions": [
     {

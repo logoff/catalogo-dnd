@@ -11,8 +11,18 @@
   "description": "Miniserie de cuatro números de Dark Horse ambientada en los Dominios del Terror de Ravenloft, que empezó a publicarse en septiembre de 2026.\n\nEstá en curso; el tomo está anunciado. No se ha publicado en castellano.",
   "source": "https://www.comics.org/series/240562/",
   "issues": [
-    { "number": "1", "date": "2026-09-16" },
-    { "number": "2", "date": "2026-10-28" },
+    {
+      "number": "1",
+      "date": "2026-09-16",
+      "cover": "/images/comics/ravenloft-dark-horse/1.webp",
+      "cover_source": "https://www.comics.org/series/240562/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2026-10-28",
+      "cover": "/images/comics/ravenloft-dark-horse/2.webp",
+      "cover_source": "https://www.comics.org/series/240562/covers/"
+    },
     { "number": "3" },
     { "number": "4" }
   ],

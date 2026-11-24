@@ -17,7 +17,17 @@
       "cover": "/images/comics/tsr-limited-edition/ad-d.webp",
       "cover_source": "https://www.comics.org/series/65000/covers/"
     },
-    { "number": "Dragonlance", "date": "1996" },
-    { "number": "Forgotten Realms", "date": "1996" }
+    {
+      "number": "Dragonlance",
+      "date": "1996",
+      "cover": "/images/comics/tsr-limited-edition/dragonlance.webp",
+      "cover_source": "https://www.comics.org/series/81855/covers/"
+    },
+    {
+      "number": "Forgotten Realms",
+      "date": "1996",
+      "cover": "/images/comics/tsr-limited-edition/forgotten-realms.webp",
+      "cover_source": "https://www.comics.org/series/62575/covers/"
+    }
   ]
 }

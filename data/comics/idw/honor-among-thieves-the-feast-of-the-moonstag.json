@@ -8,7 +8,14 @@
   "issue_count": 1,
   "description": "Novela gráfica oficial de IDW que sirve de precuela de la película Dragones y Mazmorras: Honor entre ladrones, de 2023: cuenta un golpe anterior de Edgin, Holga, Forge y compañía en los Reinos Olvidados.\n\nSe publicó en 2023 en inglés y no se tradujo al castellano.",
   "source": "https://www.comics.org/series/197468/",
-  "issues": [{ "number": "1", "date": "2023-03" }],
+  "issues": [
+    {
+      "number": "1",
+      "date": "2023-03",
+      "cover": "/images/comics/honor-among-thieves-the-feast-of-the-moonstag/1.webp",
+      "cover_source": "https://www.comics.org/series/197468/covers/"
+    }
+  ],
   "editions": [
     {
       "language": "english",

@@ -13,9 +13,24 @@
   "description": "Miniserie de Devil's Due que adapta Ríos de plata de R. A. Salvatore: Drizzt y sus amigos acompañan a Bruenor en busca de Mithril Hall, el hogar perdido de su clan.\n\nIDW la reeditó en 2016 y Norma la publicó en castellano en 2009 como segundo libro de El valle del viento helado.",
   "source": "https://www.comics.org/series/34100/",
   "issues": [
-    { "number": "1", "date": "2007-02" },
-    { "number": "2", "date": "2007-04" },
-    { "number": "3", "date": "2007-06" }
+    {
+      "number": "1",
+      "date": "2007-02",
+      "cover": "/images/comics/forgotten-realms-streams-of-silver/1.webp",
+      "cover_source": "https://www.comics.org/series/34100/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2007-04",
+      "cover": "/images/comics/forgotten-realms-streams-of-silver/2.webp",
+      "cover_source": "https://www.comics.org/series/34100/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2007-06",
+      "cover": "/images/comics/forgotten-realms-streams-of-silver/3.webp",
+      "cover_source": "https://www.comics.org/series/34100/covers/"
+    }
   ],
   "editions": [
     {

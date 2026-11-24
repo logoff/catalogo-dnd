@@ -17,6 +17,11 @@
       "cover": "/images/comics/forbidden-sands-of-anauroch/1.webp",
       "cover_source": "https://www.comics.org/series/23362/covers/"
     },
-    { "number": "2", "date": "2000" }
+    {
+      "number": "2",
+      "date": "2000",
+      "cover": "/images/comics/forbidden-sands-of-anauroch/2.webp",
+      "cover_source": "https://www.comics.org/series/23362/covers/"
+    }
   ]
 }

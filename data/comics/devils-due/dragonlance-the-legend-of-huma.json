@@ -12,12 +12,22 @@
   "description": "Adaptación en seis números de la novela de Richard A. Knaak sobre Huma, el caballero que derrotó a la Reina de la Oscuridad en la Tercera Guerra de los Dragones, siglos antes de las Crónicas. Fue la primera serie de Devil's Due con licencia de D&D.\n\nEl sexto número salió primero en el tomo recopilatorio. IDW la reeditó en 2017; no se publicó en castellano.",
   "source": "https://www.comics.org/series/35866/",
   "issues": [
-    { "number": "1", "date": "2004-01" },
+    {
+      "number": "1",
+      "date": "2004-01",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/1.webp",
+      "cover_source": "https://www.comics.org/series/35866/covers/"
+    },
     { "number": "2" },
     { "number": "3" },
     { "number": "4" },
     { "number": "5" },
-    { "number": "6", "date": "2005-11" }
+    {
+      "number": "6",
+      "date": "2005-11",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/6.webp",
+      "cover_source": "https://www.comics.org/series/35866/covers/"
+    }
   ],
   "editions": [
     {

@@ -11,18 +11,69 @@
   "description": "Última parte de la adaptación de Devil's Due de las Crónicas de la Dragonlance, sobre La reina de la oscuridad: los Compañeros se reúnen para el asalto final contra Takhisis en Neraka, con la traición de Raistlin y el dilema de Tanis.\n\nIDW la reeditó en 2016 y Norma la publicó en castellano en 2009 en los tomos 5 y 6 de Crónicas de la Dragonlance.",
   "source": "https://www.comics.org/series/37722/",
   "issues": [
-    { "number": "1", "date": "2007-03" },
-    { "number": "2" },
-    { "number": "3" },
-    { "number": "4" },
-    { "number": "5" },
-    { "number": "6" },
-    { "number": "7" },
-    { "number": "8" },
-    { "number": "9" },
-    { "number": "10" },
-    { "number": "11", "date": "2008-05" },
-    { "number": "12", "date": "2008-06" }
+    {
+      "number": "1",
+      "date": "2007-03",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/1.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "2",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/2.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "3",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/3.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "4",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/4.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "5",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/5.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "6",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/6.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "7",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/7.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "8",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/8.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "9",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/9.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "10",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/10.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "11",
+      "date": "2008-05",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/11.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    },
+    {
+      "number": "12",
+      "date": "2008-06",
+      "cover": "/images/comics/dragonlance-chronicles-vol-3/12.webp",
+      "cover_source": "https://www.comics.org/series/37722/covers/"
+    }
   ],
   "editions": [
     {

@@ -17,9 +17,24 @@
       "cover": "/images/comics/tempests-gate/1.webp",
       "cover_source": "https://www.comics.org/series/17723/covers/"
     },
-    { "number": "2", "date": "2002-01" },
-    { "number": "3", "date": "2002-02" },
-    { "number": "4", "date": "2002-03" }
+    {
+      "number": "2",
+      "date": "2002-01",
+      "cover": "/images/comics/tempests-gate/2.webp",
+      "cover_source": "https://www.comics.org/series/17723/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2002-02",
+      "cover": "/images/comics/tempests-gate/3.webp",
+      "cover_source": "https://www.comics.org/series/17723/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2002-03",
+      "cover": "/images/comics/tempests-gate/4.webp",
+      "cover_source": "https://www.comics.org/series/17723/covers/"
+    }
   ],
   "editions": [
     {

@@ -12,11 +12,36 @@
   "description": "Miniserie de cinco números escrita por Jim Zub y dibujada por Jose Jaro, con un grupo de aventureros nuevo en los Reinos Olvidados, publicada entre 2023 y 2024.\n\nSe recopiló en 2024; no se publicó en castellano.",
   "source": "https://www.comics.org/series/206077/",
   "issues": [
-    { "number": "1", "date": "2023-11-15" },
-    { "number": "2", "date": "2023-12-27" },
-    { "number": "3", "date": "2024-01-24" },
-    { "number": "4", "date": "2024-02-21" },
-    { "number": "5", "date": "2024-03-20" }
+    {
+      "number": "1",
+      "date": "2023-11-15",
+      "cover": "/images/comics/fortune-finder/1.webp",
+      "cover_source": "https://www.comics.org/series/206077/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2023-12-27",
+      "cover": "/images/comics/fortune-finder/2.webp",
+      "cover_source": "https://www.comics.org/series/206077/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2024-01-24",
+      "cover": "/images/comics/fortune-finder/3.webp",
+      "cover_source": "https://www.comics.org/series/206077/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2024-02-21",
+      "cover": "/images/comics/fortune-finder/4.webp",
+      "cover_source": "https://www.comics.org/series/206077/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2024-03-20",
+      "cover": "/images/comics/fortune-finder/5.webp",
+      "cover_source": "https://www.comics.org/series/206077/covers/"
+    }
   ],
   "editions": [
     {

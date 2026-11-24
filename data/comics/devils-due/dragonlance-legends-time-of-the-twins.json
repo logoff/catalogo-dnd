@@ -12,9 +12,24 @@
   "description": "Miniserie de tres números de Devil's Due que adapta El templo de Istar, la primera novela de las Leyendas de la Dragonlance: Caramon viaja al pasado, a la ciudad de Istar antes del Cataclismo, para impedir que su hermano Raistlin desafíe a los dioses.\n\nSe quedó en el primer libro porque Devil's Due perdió la licencia. Tiene tomo de Devil's Due y reedición de IDW; no se publicó en castellano.",
   "source": "https://www.comics.org/series/85913/",
   "issues": [
-    { "number": "1", "date": "2008-06" },
-    { "number": "2", "date": "2008-08" },
-    { "number": "3", "date": "2008-10" }
+    {
+      "number": "1",
+      "date": "2008-06",
+      "cover": "/images/comics/dragonlance-legends-time-of-the-twins/1.webp",
+      "cover_source": "https://www.comics.org/series/85913/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2008-08",
+      "cover": "/images/comics/dragonlance-legends-time-of-the-twins/2.webp",
+      "cover_source": "https://www.comics.org/series/85913/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2008-10",
+      "cover": "/images/comics/dragonlance-legends-time-of-the-twins/3.webp",
+      "cover_source": "https://www.comics.org/series/85913/covers/"
+    }
   ],
   "editions": [
     {

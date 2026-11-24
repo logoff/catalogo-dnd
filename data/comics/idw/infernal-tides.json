@@ -12,11 +12,36 @@
   "description": "Quinta y última miniserie de la etapa de Jim Zub y Max Dunbar en Puerta de Baldur: la ciudad cae en el Averno y Minsc, Boo y sus compañeros tienen que luchar en la Guerra de Sangre entre demonios y diablos. Prepara la aventura Baldur's Gate: Descent into Avernus.\n\nSe recopiló en 2021; no se publicó en castellano.",
   "source": "https://www.comics.org/series/153575/",
   "issues": [
-    { "number": "1", "date": "2019-12-11" },
-    { "number": "2", "date": "2020-02-12" },
-    { "number": "3", "date": "2020-05-20" },
-    { "number": "4", "date": "2020-07-08" },
-    { "number": "5", "date": "2020-08-12" }
+    {
+      "number": "1",
+      "date": "2019-12-11",
+      "cover": "/images/comics/infernal-tides/1.webp",
+      "cover_source": "https://www.comics.org/series/153575/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2020-02-12",
+      "cover": "/images/comics/infernal-tides/2.webp",
+      "cover_source": "https://www.comics.org/series/153575/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2020-05-20",
+      "cover": "/images/comics/infernal-tides/3.webp",
+      "cover_source": "https://www.comics.org/series/153575/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2020-07-08",
+      "cover": "/images/comics/infernal-tides/4.webp",
+      "cover_source": "https://www.comics.org/series/153575/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2020-08-12",
+      "cover": "/images/comics/infernal-tides/5.webp",
+      "cover_source": "https://www.comics.org/series/153575/covers/"
+    }
   ],
   "editions": [
     {

@@ -12,11 +12,36 @@
   "description": "Miniserie de cuatro números con nuevas aventuras de los chicos de la serie de dibujos animados Dragones y Mazmorras de los años ochenta (Hank, Sheila, Presto, Eric, Diana y Bobby) en el Reino, escrita por David M. Booher y Sam Maggs con dibujo de George Kambadais. Tuvo un número especial de verano en 2023.\n\nSe recopiló en 2023 y siguió con una segunda parte. No se publicó en castellano.",
   "source": "https://www.comics.org/series/198381/",
   "issues": [
-    { "number": "1", "date": "2023-03-29" },
-    { "number": "2", "date": "2023-04-26" },
-    { "number": "3", "date": "2023-05-24" },
-    { "number": "4", "date": "2023-06-28" },
-    { "number": "Endless Summer", "date": "2023-08" }
+    {
+      "number": "1",
+      "date": "2023-03-29",
+      "cover": "/images/comics/saturday-morning-adventures/1.webp",
+      "cover_source": "https://www.comics.org/series/198381/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2023-04-26",
+      "cover": "/images/comics/saturday-morning-adventures/2.webp",
+      "cover_source": "https://www.comics.org/series/198381/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2023-05-24",
+      "cover": "/images/comics/saturday-morning-adventures/3.webp",
+      "cover_source": "https://www.comics.org/series/198381/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2023-06-28",
+      "cover": "/images/comics/saturday-morning-adventures/4.webp",
+      "cover_source": "https://www.comics.org/series/198381/covers/"
+    },
+    {
+      "number": "Endless Summer",
+      "date": "2023-08",
+      "cover": "/images/comics/saturday-morning-adventures/endless-summer.webp",
+      "cover_source": "https://www.comics.org/series/203671/covers/"
+    }
   ],
   "editions": [
     {

@@ -12,32 +12,162 @@
   "description": "Serie mensual de DC Comics escrita por Jeff Grubb, uno de los creadores de los Reinos Olvidados, con dibujo de Rags Morales. Durante 25 números y un anual sigue a la tripulación del barco volador Realms Master por los Reinos.\n\nIDW la reeditó completa en los cuatro tomos de Forgotten Realms Classics y después en dos integrales. No se publicó en castellano.",
   "source": "https://www.comics.org/series/3790/",
   "issues": [
-    { "number": "1", "date": "1989-08-10" },
-    { "number": "2", "date": "1989-08-24" },
-    { "number": "3", "date": "1989-09-07" },
-    { "number": "4", "date": "1989-09-21" },
-    { "number": "5", "date": "1989-10-26" },
-    { "number": "6", "date": "1989-11-23" },
-    { "number": "7", "date": "1989-12-21" },
-    { "number": "8", "date": "1990-01-25" },
-    { "number": "9", "date": "1990-02-22" },
-    { "number": "10", "date": "1990-03-22" },
-    { "number": "11", "date": "1990-05-24" },
-    { "number": "12", "date": "1990-07-19" },
-    { "number": "13", "date": "1990-08-02" },
-    { "number": "14", "date": "1990-08-23" },
-    { "number": "15", "date": "1990-10-04" },
-    { "number": "16", "date": "1990-10-25" },
-    { "number": "17", "date": "1990-11-22" },
-    { "number": "18", "date": "1990-12-20" },
-    { "number": "19", "date": "1991-01-24" },
-    { "number": "20", "date": "1991-02-21" },
-    { "number": "21", "date": "1991-03-21" },
-    { "number": "22", "date": "1991-04-18" },
-    { "number": "23", "date": "1991-05-23" },
-    { "number": "24", "date": "1991-06-20" },
-    { "number": "25", "date": "1991-07-25" },
-    { "number": "Annual 1", "date": "1990-12-13" }
+    {
+      "number": "1",
+      "date": "1989-08-10",
+      "cover": "/images/comics/forgotten-realms-dc/1.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "2",
+      "date": "1989-08-24",
+      "cover": "/images/comics/forgotten-realms-dc/2.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "3",
+      "date": "1989-09-07",
+      "cover": "/images/comics/forgotten-realms-dc/3.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "4",
+      "date": "1989-09-21",
+      "cover": "/images/comics/forgotten-realms-dc/4.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "5",
+      "date": "1989-10-26",
+      "cover": "/images/comics/forgotten-realms-dc/5.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "6",
+      "date": "1989-11-23",
+      "cover": "/images/comics/forgotten-realms-dc/6.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "7",
+      "date": "1989-12-21",
+      "cover": "/images/comics/forgotten-realms-dc/7.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "8",
+      "date": "1990-01-25",
+      "cover": "/images/comics/forgotten-realms-dc/8.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "9",
+      "date": "1990-02-22",
+      "cover": "/images/comics/forgotten-realms-dc/9.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "10",
+      "date": "1990-03-22",
+      "cover": "/images/comics/forgotten-realms-dc/10.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "11",
+      "date": "1990-05-24",
+      "cover": "/images/comics/forgotten-realms-dc/11.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "12",
+      "date": "1990-07-19",
+      "cover": "/images/comics/forgotten-realms-dc/12.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "13",
+      "date": "1990-08-02",
+      "cover": "/images/comics/forgotten-realms-dc/13.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "14",
+      "date": "1990-08-23",
+      "cover": "/images/comics/forgotten-realms-dc/14.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "15",
+      "date": "1990-10-04",
+      "cover": "/images/comics/forgotten-realms-dc/15.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "16",
+      "date": "1990-10-25",
+      "cover": "/images/comics/forgotten-realms-dc/16.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "17",
+      "date": "1990-11-22",
+      "cover": "/images/comics/forgotten-realms-dc/17.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "18",
+      "date": "1990-12-20",
+      "cover": "/images/comics/forgotten-realms-dc/18.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "19",
+      "date": "1991-01-24",
+      "cover": "/images/comics/forgotten-realms-dc/19.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "20",
+      "date": "1991-02-21",
+      "cover": "/images/comics/forgotten-realms-dc/20.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "21",
+      "date": "1991-03-21",
+      "cover": "/images/comics/forgotten-realms-dc/21.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "22",
+      "date": "1991-04-18",
+      "cover": "/images/comics/forgotten-realms-dc/22.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "23",
+      "date": "1991-05-23",
+      "cover": "/images/comics/forgotten-realms-dc/23.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "24",
+      "date": "1991-06-20",
+      "cover": "/images/comics/forgotten-realms-dc/24.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "25",
+      "date": "1991-07-25",
+      "cover": "/images/comics/forgotten-realms-dc/25.webp",
+      "cover_source": "https://www.comics.org/series/3790/covers/"
+    },
+    {
+      "number": "Annual 1",
+      "date": "1990-12-13",
+      "cover": "/images/comics/forgotten-realms-dc/annual-1.webp",
+      "cover_source": "https://www.comics.org/series/14801/covers/"
+    }
   ],
   "editions": [
     {

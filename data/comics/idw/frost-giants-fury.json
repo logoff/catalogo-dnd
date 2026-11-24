@@ -12,11 +12,36 @@
   "description": "Tercera miniserie de la etapa de Jim Zub en IDW, con dibujo de Netho Diaz: el grupo de Minsc se enfrenta a los gigantes de escarcha, los mismos que protagonizan la aventura Storm King's Thunder de ese año.\n\nSe recopiló en 2017; no se publicó en castellano.",
   "source": "https://www.comics.org/series/111274/",
   "issues": [
-    { "number": "1", "date": "2017-01-11" },
-    { "number": "2", "date": "2017-04-12" },
-    { "number": "3", "date": "2017-06-14" },
-    { "number": "4", "date": "2017-03" },
-    { "number": "5", "date": "2017-04" }
+    {
+      "number": "1",
+      "date": "2017-01-11",
+      "cover": "/images/comics/frost-giants-fury/1.webp",
+      "cover_source": "https://www.comics.org/series/111274/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2017-04-12",
+      "cover": "/images/comics/frost-giants-fury/2.webp",
+      "cover_source": "https://www.comics.org/series/111274/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2017-06-14",
+      "cover": "/images/comics/frost-giants-fury/3.webp",
+      "cover_source": "https://www.comics.org/series/111274/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2017-03",
+      "cover": "/images/comics/frost-giants-fury/4.webp",
+      "cover_source": "https://www.comics.org/series/111274/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2017-04",
+      "cover": "/images/comics/frost-giants-fury/5.webp",
+      "cover_source": "https://www.comics.org/series/111274/covers/"
+    }
   ],
   "editions": [
     {

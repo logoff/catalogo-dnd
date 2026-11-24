@@ -13,9 +13,24 @@
   "description": "Tercera miniserie de La leyenda de Drizzt de Devil's Due: Drizzt sale a la superficie, donde descubre un mundo que desconfía de los drows, y conoce al guardabosques Montolio. Cierra la adaptación de la trilogía del elfo oscuro de R. A. Salvatore.\n\nIDW la reeditó en 2015 y Norma la publicó en castellano en 2008 como El refugio.",
   "source": "https://www.comics.org/series/34098/",
   "issues": [
-    { "number": "1", "date": "2006-03" },
-    { "number": "2", "date": "2006-05-10" },
-    { "number": "3", "date": "2006-06" }
+    {
+      "number": "1",
+      "date": "2006-03",
+      "cover": "/images/comics/forgotten-realms-sojourn/1.webp",
+      "cover_source": "https://www.comics.org/series/34098/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2006-05-10",
+      "cover": "/images/comics/forgotten-realms-sojourn/2.webp",
+      "cover_source": "https://www.comics.org/series/34098/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2006-06",
+      "cover": "/images/comics/forgotten-realms-sojourn/3.webp",
+      "cover_source": "https://www.comics.org/series/34098/covers/"
+    }
   ],
   "editions": [
     {
