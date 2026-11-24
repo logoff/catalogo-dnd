@@ -31,7 +31,7 @@
 - [x] 5.2 Cargar Kenzer, Devil's Due y el resto de 2000-2008, con sus tomos; `just test`
 - [x] 5.3 Cargar IDW (2010-2024), con sus tomos en inglés y los de Norma en castellano, con enlaces de compra; `just test`
 - [x] 5.4 Cargar HarperCollins, Dark Horse (2025-2026, también lo anunciado) y _Dragones y Mazmorras_ de Planeta DeAgostini; `just test`
-- [ ] 5.5 Revisar con `just affiliate-coverage` que no queda ningún tomo sin enlace ni excepción, y pasar las descripciones al usuario para revisión
+- [x] 5.5 Revisar con `just affiliate-coverage` que no queda ningún tomo sin enlace ni excepción, y pasar las descripciones al usuario para revisión
 
 ## 6. Integración
 
