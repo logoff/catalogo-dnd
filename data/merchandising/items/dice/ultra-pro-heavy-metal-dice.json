@@ -1,0 +1,47 @@
+{
+  "slug": "ultra-pro-heavy-metal-dice",
+  "title": "Ultra Pro Heavy Metal Dice for Dungeons & Dragons",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "Ultra Pro",
+  "description": "Línea de dados de metal con licencia oficial de Dungeons & Dragons. Hay juegos de siete dados de rol, parejas de d20 y juegos de cuatro d6 en varios acabados, como el rojo y blanco, el cobre y verde de la Feywild o la edición del 50.º aniversario.\n\nSon dados pesados y duraderos para quien quiere un juego de metal con la marca oficial. Se agrupan en una ficha; en Amazon se venden por separado.",
+  "source": "https://ultrapro.com/products/heavy-metal-red-and-white-rpg-dice-set-7ct-for-dungeons-dragons",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09F5742P9/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09F62DDDN/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09F5Y2TPF/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B097Z6MCVH/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B097Z8ZT21/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B093TW2CYD/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DCGR5BJP/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/ultra-pro-heavy-metal-dice/0.jpg",
+    "/images/merchandising/ultra-pro-heavy-metal-dice/1.jpg"
+  ]
+}

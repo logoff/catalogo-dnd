@@ -1,0 +1,21 @@
+{
+  "slug": "fanroll-liquid-core-dice-set",
+  "title": "FanRoll Dungeons & Dragons Liquid Core Dice Set",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "FanRoll",
+  "date": "2025-01",
+  "description": "Juego oficial de siete dados de Dungeons & Dragons con núcleo líquido: cada dado lleva dentro un líquido con purpurina que se mueve al tirarlo. Están hechos y pintados a mano y vienen en una caja de presentación con la marca de D&D.\n\nEs un juego de dados de capricho, para coleccionistas o para regalar a quien ya tiene dados normales y busca algo vistoso.",
+  "source": "https://www.fanrolldice.com/products/dungeons-dragons-liquid-core-dice-set",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DTJ8R896/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/fanroll-liquid-core-dice-set/0.jpg"]
+}

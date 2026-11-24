@@ -1,0 +1,27 @@
+{
+  "slug": "fanroll-fizbans-fortune",
+  "title": "FanRoll D&D Fizban's Fortune",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "FanRoll",
+  "date": "2026-03",
+  "description": "Caja sorpresa con un d20 grande dentro de un pequeño cofre del tesoro, inspirada en el «Fizban's Treasury of Dragons». Cada dado representa a un dragón y la colección tiene más de treinta, de varios materiales (metal, núcleo líquido, huecos, piedras) y con distintos grados de rareza.\n\nEs para coleccionistas a los que les gustan las cajas sorpresa; no se sabe qué dado toca hasta abrirla.",
+  "source": "https://www.fanrolldice.com/products/d-d-fizbans-fortune-blind-mystery-box",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GT6DBM9K/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/fanroll-fizbans-fortune/0.jpg"],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "FTD"
+    }
+  ]
+}

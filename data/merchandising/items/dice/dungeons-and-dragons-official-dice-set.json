@@ -1,0 +1,20 @@
+{
+  "slug": "dungeons-and-dragons-official-dice-set",
+  "title": "Dungeons & Dragons Official Dice Set",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "Wizards of the Coast",
+  "description": "Juego oficial de once dados de Wizards of the Coast, en rojo con números blancos: dos d20, un d12, dos d10 (unidades y decenas), un d8, cuatro d6 y un d4, en una caja con el logotipo de D&D.\n\nEs el juego básico y barato para empezar a jugar, con dados de sobra para las tiradas con ventaja y el daño.",
+  "source": "https://asmodee.co.uk/products/wtcc99450000-dungeons-dragons-offical-dice-set",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0B58GPRVG/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeons-and-dragons-official-dice-set/0.jpg"]
+}

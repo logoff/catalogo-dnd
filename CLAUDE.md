@@ -120,7 +120,8 @@ skill `add-videogame`.
 
 **Merchandising:** productos con licencia oficial de D&D desde 2014 que
 no son de reglas (libros licenciados, figuras y juguetes, juegos de mesa
-y cartas). Cada artículo es un JSON en
+y cartas, y dados y accesorios de dados). Los dados solo entran si se
+pueden comprar en España, con enlace de compra. Cada artículo es un JSON en
 `data/merchandising/items/<grupo>/<slug>.json` (esquema
 `data/schemas/merchandise.jsonschema`) con sus ediciones por idioma; las
 de castellano indican si salieron en España (`spain`).

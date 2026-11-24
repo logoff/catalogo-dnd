@@ -1,0 +1,31 @@
+{
+  "slug": "ultra-pro-dice-trays-and-towers",
+  "title": "Ultra Pro Dungeons & Dragons Dice Trays and Towers",
+  "group": "dice",
+  "kind": "dice_accessory",
+  "manufacturer": "Ultra Pro",
+  "description": "Bandejas y torres para tirar dados con licencia oficial de Dungeons & Dragons, con ilustraciones de libros y de la película: la bandeja plegable con la portada alternativa de «Phandelver and Below», la torre de «Honor entre ladrones» y el pergamino para dados del 50.º aniversario.\n\nSon para la mesa de juego: evitan que los dados se caigan. Se agrupan en una ficha; en Amazon se venden por separado.",
+  "source": "https://ultrapro.com/products/honor-among-thieves-printed-leatherette-dice-tower-for-dungeons-dragons",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CCZJWZGS/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BJYNPQSH/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DCGSS63K/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/ultra-pro-dice-trays-and-towers/0.jpg",
+    "/images/merchandising/ultra-pro-dice-trays-and-towers/1.jpg"
+  ]
+}

@@ -32,7 +32,8 @@
             "enum": [
                 "books",
                 "figures",
-                "games"
+                "games",
+                "dice"
             ]
         },
         "kind": {
@@ -47,7 +48,10 @@
                 "plush",
                 "collectible_miniature",
                 "board_game",
-                "card_game"
+                "card_game",
+                "dice_set",
+                "dice_accessory",
+                "advent_calendar"
             ]
         },
         "manufacturer": {
@@ -187,6 +191,26 @@
                         "enum": [
                             "board_game",
                             "card_game"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "group": {
+                        "const": "dice"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "kind": {
+                        "enum": [
+                            "dice_set",
+                            "dice_accessory",
+                            "advent_calendar"
                         ]
                     }
                 }

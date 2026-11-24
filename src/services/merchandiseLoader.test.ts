@@ -185,6 +185,15 @@ describe('datos de merchandising', () => {
     expect(withAffiliate).toEqual([])
   })
 
+  it('los dados y accesorios tienen al menos un enlace de compra', () => {
+    // Solo entran si se pueden comprar en España al darlos de alta
+    const withoutLinks = items
+      .filter((i) => i.group === 'dice')
+      .filter((i) => !i.editions.some((e) => e.purchase_links?.length))
+      .map((i) => i.slug)
+    expect(withoutLinks).toEqual([])
+  })
+
   it('los libros y videojuegos relacionados existen', () => {
     const products = getAllProducts()
     const games = getAllVideogames().map((g) => g.slug)

@@ -1,0 +1,21 @@
+{
+  "slug": "fanroll-orb-of-possibility",
+  "title": "FanRoll D&D Orb of Possibility",
+  "group": "dice",
+  "kind": "dice_accessory",
+  "manufacturer": "FanRoll",
+  "date": "2025-05",
+  "description": "Lanzador automático de dados de Dungeons & Dragons: una cúpula a pilas que hace girar los dados al pulsar un botón. Incluye un d20 rojo de silicona con la marca de D&D.\n\nEs un accesorio curioso para la mesa, útil para tirar sin que los dados rueden por el suelo y vistoso para las tiradas importantes.",
+  "source": "https://www.fanrolldice.com/products/orb-of-possibility",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DDZF8KCZ/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/fanroll-orb-of-possibility/0.jpg"]
+}

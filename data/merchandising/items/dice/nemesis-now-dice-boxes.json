@@ -1,0 +1,35 @@
+{
+  "slug": "nemesis-now-dice-boxes",
+  "title": "Nemesis Now Dungeons & Dragons Dice Boxes",
+  "group": "dice",
+  "kind": "dice_accessory",
+  "manufacturer": "Nemesis Now",
+  "description": "Cajas de resina pintadas a mano para guardar dados, con forma de criaturas y símbolos de Dungeons & Dragons: el mimeto de 11 cm, un d20 de 13,5 cm con el ampersand, el cubo gelatinoso de 11,5 cm y el contemplador de 15 cm.\n\nSon más adorno que accesorio de juego: guardan un juego de dados y quedan bien en la estantería. Se agrupan en una ficha; en Amazon se venden por separado.",
+  "source": "https://www.nemesisnow.com/en/dungeons-dragons-mimic-dice-box-11-3cm/",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08XMMYS8T/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B08XMHFCVW/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0CH5TB6G3/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0D31LD524/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/nemesis-now-dice-boxes/0.jpg",
+    "/images/merchandising/nemesis-now-dice-boxes/1.jpg"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "sirius-dice-mini-dice-cups",
+  "title": "Sirius Dice D&D Mini Dice Cups",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "Sirius Dice",
+  "date": "2024-09",
+  "description": "Vasos de cristal con una figura esculpida de un personaje de Dungeons & Dragons, como el azotamentes, el mimeto, el contemplador o el dragón rojo, con un juego de minidados dentro. Se venden en caja sorpresa con varios grados de rareza.\n\nSon un regalo pequeño para jugadores y coleccionistas; el vaso sirve para guardar los dados o como adorno.",
+  "source": "https://siriusdice.com/products/dungeons-dragons-mini-dice-cups",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DW6JQTS2/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/sirius-dice-mini-dice-cups/0.jpg"]
+}

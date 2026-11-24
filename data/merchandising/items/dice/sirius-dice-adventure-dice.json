@@ -1,0 +1,56 @@
+{
+  "slug": "sirius-dice-adventure-dice",
+  "title": "Sirius Dice D&D Adventure Dice",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "Sirius Dice",
+  "date": "2024-09",
+  "description": "Línea oficial de juegos de dados de Dungeons & Dragons de Sirius Dice, uno por clase (guerrero, mago, pícaro, clérigo, paladín, explorador, bardo, brujo, hechicero…) y otros de personajes y objetos como Drizzt, Tasha o Bola de fuego. Cada caja trae un juego de dados con los colores y el estilo de la clase o del personaje.\n\nSon para jugadores que quieren unos dados a juego con su personaje. Se agrupan en una ficha; en Amazon se venden por separado.",
+  "source": "https://siriusdice.com/products/dungeons-dragons-adventure-dice-legend-of-drizzt-sirius",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DJDV6PJC/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DJDWLQ7T/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DJDVMLJG/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GY3ZLBJD/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GY2L241Z/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GY2BB5XW/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GY2QKRNY/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0H6GV3KM6/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FZY1BZQ2/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/sirius-dice-adventure-dice/0.jpg",
+    "/images/merchandising/sirius-dice-adventure-dice/1.jpg"
+  ]
+}

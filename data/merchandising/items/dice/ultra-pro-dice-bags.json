@@ -1,0 +1,35 @@
+{
+  "slug": "ultra-pro-dice-bags",
+  "title": "Ultra Pro Dungeons & Dragons Dice Bags",
+  "group": "dice",
+  "kind": "dice_accessory",
+  "manufacturer": "Ultra Pro",
+  "description": "Bolsas para dados de peluche con forma de monstruos de Dungeons & Dragons, como el azotamentes, el contemplador Xanathar o el acorazado astral de Spelljammer, y la Treasure Nest del liche.\n\nSirven para llevar los dados a la partida y son un regalo habitual entre jugadores. Se agrupan en una ficha; en Amazon se venden por separado.",
+  "source": "https://ultrapro.com/products/dungeons-dragons-mind-flayer-gamer-pouch",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B01BKMT566/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07YP1MSQD/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0971RHGQ3/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B09WW3Y563/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/ultra-pro-dice-bags/0.jpg",
+    "/images/merchandising/ultra-pro-dice-bags/1.jpg"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "fanroll-masterworks-series",
+  "title": "FanRoll D&D Masterworks Series",
+  "group": "dice",
+  "kind": "dice_accessory",
+  "manufacturer": "FanRoll",
+  "date": "2025-06",
+  "description": "Bandejas y torres para dados con ilustraciones clásicas de Dungeons & Dragons. La primera colección está dedicada a tres artistas de los años setenta y ochenta, Jeff Easley, Erol Otus y Larry Elmore, con una bandeja y una torre de cada uno.\n\nSon para jugadores que aprecian el arte histórico del juego. En España solo se encuentran las de Jeff Easley.",
+  "source": "https://www.fanrolldice.com/products/dd-masterworks-series-dice-tray-jeff-easley",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FHXV6Q9W/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FLF3RTXX/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/fanroll-masterworks-series/0.jpg",
+    "/images/merchandising/fanroll-masterworks-series/1.jpg"
+  ]
+}
