@@ -65,6 +65,8 @@ export interface Comic {
   slug: string
   title: string
   title_es?: string
+  // Solo en las series publicadas primero en castellano (Planeta, Timun Mas)
+  language?: 'castellano'
   publisher: string
   setting: ComicSetting
   kind: ComicKind
@@ -131,3 +133,9 @@ export interface ComicSummary {
   // Títulos de la serie y de sus tomos y autores, normalizados, para la búsqueda
   searchText: string
 }
+
+// Cómics que enlazan a cada ficha de otra sección (virtual:comics-related)
+export type ComicRelations = Record<
+  'novels' | 'videogames' | 'merchandise' | 'products',
+  Record<string, { slug: string; title: string }[]>
+>

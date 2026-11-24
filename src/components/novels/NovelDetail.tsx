@@ -32,6 +32,7 @@ import NovelBestseller from './NovelBestseller'
 import NovelSpanishBadge from './NovelSpanishBadge'
 import { NOVEL_PLACEHOLDER } from './NovelCard'
 import { headingClass } from '@/components/ui/styles'
+import RelatedComics from '@/components/comics/RelatedComics'
 
 interface NovelDetailProps {
   novel: NovelWithMeta
@@ -398,6 +399,8 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
           </ul>
         </DetailSection>
       )}
+
+      <RelatedComics group="novels" id={novel.slug} />
 
       <ImageLightbox
         images={covers}

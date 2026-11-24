@@ -26,7 +26,15 @@ const productPath = (product, folder) => `/producto/${folder}/${(product.code ??
 // se muestra en la página, la frase y el resumen del feed, la ruta de su ficha, una clave estable,
 // la sección y el idioma (los videojuegos y algunos artículos no tienen idioma). `announceable`
 // marca las secciones en las que una edición sin fecha es un anuncio y no un dato que falta.
-function editions({ products, videogames, merchandise, novels, rpgBooks, rpgSystems = [] }) {
+function editions({
+  products,
+  videogames,
+  merchandise,
+  novels,
+  comics = [],
+  rpgBooks,
+  rpgSystems = [],
+}) {
   const dndEditions = new Set(rpgSystems.filter(isDndEdition).map((system) => system.slug))
   const systemNames = new Map(rpgSystems.map((system) => [system.slug, system.name]))
   const all = []
@@ -91,6 +99,51 @@ function editions({ products, videogames, merchandise, novels, rpgBooks, rpgSyst
         section: 'novelas',
         language: edition.language,
       })
+    }
+  }
+  for (const comic of comics) {
+    // Cada número de la serie (en inglés) y cada edición: los tomos con su fecha y, en las grapas
+    // en castellano, cada número
+    for (const issue of comic.issues) {
+      const name = `${comic.title} #${issue.number}`
+      all.push({
+        raw: issue.date,
+        announceable: Boolean(comic.announced),
+        name,
+        title: `${name} sale ${LANGUAGES[comic.language ?? 'english']}`,
+        summary: `Cómic de D&D (${comic.publisher}).`,
+        path: `/comic/${comic.slug}`,
+        key: `${comic.language ?? 'english'}-${issue.number}`,
+        section: 'comics',
+        language: comic.language ?? 'english',
+      })
+    }
+    for (const edition of comic.editions ?? []) {
+      const base = edition.title ?? comic.title
+      const items =
+        edition.format === 'issue'
+          ? (edition.issues ?? []).map((issue) => ({
+              raw: issue.date,
+              name: `${base} #${issue.number}`,
+              key: `${edition.language}-${edition.publisher}-${issue.number}`,
+            }))
+          : [
+              {
+                raw: edition.date,
+                name: base,
+                key: `${edition.language}-${edition.isbn13 ?? edition.publisher}-${edition.format}`,
+              },
+            ]
+      for (const item of items) {
+        all.push({
+          ...item,
+          title: `${item.name} sale ${LANGUAGES[edition.language]}`,
+          summary: `Cómic de D&D (${edition.publisher}).`,
+          path: `/comic/${comic.slug}`,
+          section: 'comics',
+          language: edition.language,
+        })
+      }
     }
   }
   for (const book of rpgBooks) {
@@ -189,6 +242,7 @@ export function fichaKind(file) {
     return { kind: 'merchandise' }
   }
   if (parts[1] === 'novels' && parts.length === 4) return { kind: 'novel' }
+  if (parts[1] === 'comics' && parts.length === 4) return { kind: 'comic' }
   if (parts[1] === 'rol' && parts[2] === 'books' && parts.length === 5) return { kind: 'rpgBook' }
   if (parts[1] === 'rol' && parts[2] === 'systems' && parts.length === 4)
     return { kind: 'rpgSystem' }
@@ -216,6 +270,7 @@ export function describeFicha(file, json, rpgSystems = []) {
     videogames: [],
     merchandise: [],
     novels: [],
+    comics: [],
     rpgBooks: [],
     rpgSystems,
   }
@@ -224,6 +279,7 @@ export function describeFicha(file, json, rpgSystems = []) {
     videogame: () => ({ ...empty, videogames: [json] }),
     merchandise: () => ({ ...empty, merchandise: [json] }),
     novel: () => ({ ...empty, novels: [json] }),
+    comic: () => ({ ...empty, comics: [json] }),
     rpgBook: () => ({ ...empty, rpgBooks: [json] }),
   }[type.kind]()
   const all = editions(data)
@@ -233,6 +289,7 @@ export function describeFicha(file, json, rpgSystems = []) {
     videogame: () => json.title_es ?? json.title,
     merchandise: () => json.title_es ?? json.title,
     novel: () => json.title,
+    comic: () => json.title,
     rpgBook: () => json.title,
   }[type.kind]()
   // La fecha más reciente, tal como viene en los datos (día, mes o solo año); para ordenar, las de

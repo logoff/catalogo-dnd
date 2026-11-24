@@ -4,6 +4,7 @@ import type {
   Comic,
   ComicEdition,
   ComicEditionWithMeta,
+  ComicRelations,
   ComicSummary,
   ComicWithMeta,
 } from '../types/comic.ts'
@@ -53,7 +54,8 @@ function yearsOf(comic: Comic): string {
   return from === to ? from : `${from}-${to}`
 }
 
-function spanishOf(editions: ComicEdition[]): ComicWithMeta['spanish'] {
+function spanishOf(comic: Comic, editions: ComicEdition[]): ComicWithMeta['spanish'] {
+  if (comic.language === 'castellano') return 'spain'
   const spanish = editions.filter((edition) => edition.language === 'castellano')
   if (spanish.some((edition) => edition.spain)) return 'spain'
   return spanish.length > 0 ? 'elsewhere' : 'none'
@@ -101,7 +103,7 @@ export function enrichComic(
     years: yearsOf(comic),
     editions,
     spanishTitle,
-    spanish: spanishOf(editions),
+    spanish: spanishOf(comic, editions),
     availableToBuy: editions.some((edition) => (edition.purchase_links ?? []).length > 0),
     cover,
     collectedIn,
@@ -152,6 +154,22 @@ export function continuations(comics: Comic[]): Map<string, string> {
   return new Map(
     comics.flatMap((comic) => (comic.continues ? [[comic.continues, comic.slug] as const] : []))
   )
+}
+
+// Cómics que enlazan a cada novela, videojuego, artículo de merchandising y libro de rol (por
+// «edición/código»), para que sus fichas los muestren sin repetir el dato
+export function relatedComics(comics: Comic[]): ComicRelations {
+  const relations: ComicRelations = { novels: {}, videogames: {}, merchandise: {}, products: {} }
+  const add = (group: keyof ComicRelations, key: string, comic: Comic) =>
+    (relations[group][key] ??= []).push({ slug: comic.slug, title: comic.title })
+  for (const comic of [...comics].sort(compareByDate).reverse()) {
+    for (const slug of comic.related_novels ?? []) add('novels', slug, comic)
+    for (const slug of comic.related_videogames ?? []) add('videogames', slug, comic)
+    for (const slug of comic.related_merchandise ?? []) add('merchandise', slug, comic)
+    for (const rel of comic.related_products ?? [])
+      add('products', `${rel.edition}/${rel.code}`, comic)
+  }
+  return relations
 }
 
 // Lo que necesita el listado: sin descripciones, números ni ediciones

@@ -1,0 +1,36 @@
+{
+  "slug": "infernal-tides",
+  "title": "Dungeons & Dragons: Infernal Tides",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2019-12",
+  "end_date": "2020-08",
+  "issue_count": 5,
+  "writers": ["Jim Zub"],
+  "artists": ["Max Dunbar"],
+  "description": "Quinta y última miniserie de la etapa de Jim Zub y Max Dunbar en Puerta de Baldur: la ciudad cae en el Averno y Minsc, Boo y sus compañeros tienen que luchar en la Guerra de Sangre entre demonios y diablos. Prepara la aventura Baldur's Gate: Descent into Avernus.\n\nSe recopiló en 2021; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/153575/",
+  "issues": [
+    { "number": "1", "date": "2019-12-11" },
+    { "number": "2", "date": "2020-02-12" },
+    { "number": "3", "date": "2020-05-20" },
+    { "number": "4", "date": "2020-07-08" },
+    { "number": "5", "date": "2020-08-12" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Infernal Tides",
+      "publisher": "IDW Publishing",
+      "date": "2021-02-17",
+      "format": "paperback",
+      "isbn13": 9781684056293,
+      "contents": [{ "series": "infernal-tides", "issues": "1-5" }],
+      "cover": "/images/comics/infernal-tides/9781684056293.webp",
+      "cover_source": "https://www.amazon.es/dp/1684056292/"
+    }
+  ],
+  "continues": "evil-at-baldurs-gate",
+  "related_products": [{ "edition": "5e", "code": "BGDIA" }]
+}

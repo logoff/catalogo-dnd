@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import type { Comic, ComicEdition } from '@/types/comic'
-import { buildComicIndex, enrichComic, expandIssueRange, issuesOf, thumbnailOf } from './comics'
+import {
+  buildComicIndex,
+  enrichComic,
+  expandIssueRange,
+  issuesOf,
+  relatedComics,
+  thumbnailOf,
+} from './comics'
 
 const comic = (slug: string, extra: Partial<Comic> = {}): Comic => ({
   slug,
@@ -128,5 +135,25 @@ describe('buildComicIndex', () => {
     expect(index[0].searchText).toContain("fell's five")
     expect(index[0].searchText).toContain('jim zub')
     expect(index[0].thumbnail).toBe(thumbnailOf('/images/comics/nueva/1.webp'))
+  })
+})
+
+describe('relatedComics', () => {
+  it('agrupa por ficha de destino los cómics que la enlazan, del más antiguo al más reciente', () => {
+    const relations = relatedComics([
+      comic('nuevo', {
+        date: '2016-05',
+        related_novels: ['homeland'],
+        related_products: [{ edition: '5e', code: 'COS' }],
+      }),
+      comic('viejo', {
+        date: '2005-06',
+        related_novels: ['homeland'],
+        related_videogames: ['baldurs-gate'],
+      }),
+    ])
+    expect(relations.novels.homeland.map((c) => c.slug)).toEqual(['viejo', 'nuevo'])
+    expect(relations.videogames['baldurs-gate'][0].slug).toBe('viejo')
+    expect(relations.products['5e/COS'][0].slug).toBe('nuevo')
   })
 })

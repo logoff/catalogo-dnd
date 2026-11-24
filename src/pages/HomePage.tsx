@@ -16,6 +16,7 @@ import { cardClass, headingClass } from '@/components/ui/styles'
 import { latestInSpanish } from '@/utils/releases'
 import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
+import comicsStats from 'virtual:comics-stats'
 import releases from 'virtual:releases'
 import { ReleaseList } from '@/components/releases/ReleaseList'
 import type { ReleasesIndex } from '@/types/releases'
@@ -130,8 +131,8 @@ export default function HomePage() {
             Catálogo de Dungeons &amp; Dragons
           </h1>
           <p className="text-lg text-muted">
-            Libros de 5E (2014) y 5.5E (2024), videojuegos, merchandising y novelas oficiales: qué
-            hay en castellano, cuándo salió y dónde comprarlo.
+            Libros de 5E (2014) y 5.5E (2024), videojuegos, merchandising, novelas y cómics
+            oficiales: qué hay en castellano, cuándo salió y dónde comprarlo.
           </p>
           <div className="mt-2 max-w-xl">
             <SearchBar size="lg" />
@@ -170,6 +171,12 @@ export default function HomePage() {
             title="Novelas"
             description="Las novelas oficiales desde 1978, en inglés y en castellano."
             count={novelsLatest.total}
+          />
+          <SectionCard
+            to="/comics"
+            title="Cómics"
+            description="Los cómics oficiales desde 1987, con sus tomos en inglés y en castellano."
+            count={comicsStats.total}
           />
           <SectionCard
             to="/rol"

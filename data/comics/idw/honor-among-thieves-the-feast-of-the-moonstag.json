@@ -1,0 +1,26 @@
+{
+  "slug": "honor-among-thieves-the-feast-of-the-moonstag",
+  "title": "Dungeons & Dragons: Honor Among Thieves – The Feast of the Moonstag",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "graphic_novel",
+  "date": "2023-03",
+  "issue_count": 1,
+  "description": "Novela gráfica oficial de IDW que sirve de precuela de la película Dragones y Mazmorras: Honor entre ladrones, de 2023: cuenta un golpe anterior de Edgin, Holga, Forge y compañía en los Reinos Olvidados.\n\nSe publicó en 2023 en inglés y no se tradujo al castellano.",
+  "source": "https://www.comics.org/series/197468/",
+  "issues": [{ "number": "1", "date": "2023-03" }],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Honor Among Thieves – The Feast of the Moonstag",
+      "publisher": "IDW Publishing",
+      "date": "2023-03",
+      "format": "paperback",
+      "isbn13": 9781684059119,
+      "contents": [{ "series": "honor-among-thieves-the-feast-of-the-moonstag", "issues": "1" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1684059119/" }],
+      "cover": "/images/comics/honor-among-thieves-the-feast-of-the-moonstag/9781684059119.webp",
+      "cover_source": "https://www.amazon.es/dp/1684059119/"
+    }
+  ]
+}

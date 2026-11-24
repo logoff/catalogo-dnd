@@ -36,6 +36,13 @@ declare module 'virtual:comics-index' {
   export default index
 }
 
+// Cómics que enlazan a cada ficha de otra sección (plugin comicsIndex)
+declare module 'virtual:comics-related' {
+  import type { ComicRelations } from '@/types/comic'
+  const related: ComicRelations
+  export default related
+}
+
 // Cuántas series de cómics hay, para la portada (plugin comicsIndex)
 declare module 'virtual:comics-stats' {
   const stats: { total: number }

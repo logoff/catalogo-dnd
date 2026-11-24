@@ -1,0 +1,37 @@
+{
+  "slug": "the-dragonlance-saga",
+  "title": "The Dragonlance Saga",
+  "publisher": "TSR / DC Comics",
+  "setting": "dragonlance",
+  "kind": "graphic_novel",
+  "date": "1987-11",
+  "end_date": "1991-02",
+  "issue_count": 5,
+  "writers": ["Roy Thomas"],
+  "artists": ["Tom Yeates"],
+  "description": "Adaptación en cinco álbumes de gran formato de las Crónicas de la Dragonlance, con guion de Roy Thomas: los tres primeros los publicó TSR entre 1987 y 1988 y los dos últimos DC Comics en 1990 y 1991. Cuenta el regreso de los dragones a Krynn y el viaje de Tanis, Raistlin, Sturm y sus compañeros desde Solace.\n\nFue el primer cómic de Dragonlance y uno de los primeros de D&D. Nunca se ha reeditado ni se ha publicado en castellano; sus álbumes solo se encuentran de segunda mano.",
+  "source": "https://www.comics.org/series/30081/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "1987-11"
+    },
+    {
+      "number": "2",
+      "date": "1988-06"
+    },
+    {
+      "number": "3",
+      "date": "1988-06"
+    },
+    {
+      "number": "4",
+      "date": "1990-03-01"
+    },
+    {
+      "number": "5",
+      "date": "1991-02-28"
+    }
+  ],
+  "related_novels": ["dragons-of-autumn-twilight", "dragons-of-winter-night"]
+}

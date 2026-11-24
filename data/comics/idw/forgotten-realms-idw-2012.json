@@ -1,0 +1,47 @@
+{
+  "slug": "forgotten-realms-idw-2012",
+  "title": "Dungeons & Dragons: Forgotten Realms",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2012-05",
+  "end_date": "2012-11",
+  "issue_count": 5,
+  "writers": ["Ed Greenwood"],
+  "artists": ["Lee Ferguson"],
+  "description": "Miniserie de cinco números escrita por Ed Greenwood, el creador de los Reinos Olvidados, con dibujo de Lee Ferguson: una aventura en su mundo contada por quien lo inventó.\n\nSe recopiló en tomo en 2013. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/65464/",
+  "issues": [
+    { "number": "1", "date": "2012-05-09" },
+    { "number": "2", "date": "2012-06-27" },
+    { "number": "3", "date": "2012-09-05" },
+    { "number": "4", "date": "2012-10-17" },
+    { "number": "5", "date": "2012-11-21" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Forgotten Realms",
+      "publisher": "IDW Publishing",
+      "date": "2013-01-02",
+      "format": "paperback",
+      "isbn13": 9781613775097,
+      "contents": [{ "series": "forgotten-realms-idw-2012", "issues": "1-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613775091/" }],
+      "cover": "/images/comics/forgotten-realms-idw-2012/9781613775097.webp",
+      "cover_source": "https://www.amazon.es/dp/1613775091/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Forgotten Realms",
+      "publisher": "IDW Publishing",
+      "date": "2013-12-04",
+      "format": "paperback",
+      "isbn13": 9781613778258,
+      "contents": [{ "series": "forgotten-realms-idw-2012", "issues": "1-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613778252/" }],
+      "cover": "/images/comics/forgotten-realms-idw-2012/9781613778258.webp",
+      "cover_source": "https://www.amazon.es/dp/1613778252/"
+    }
+  ]
+}

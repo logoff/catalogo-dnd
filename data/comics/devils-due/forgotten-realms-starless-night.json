@@ -1,0 +1,21 @@
+{
+  "slug": "forgotten-realms-starless-night",
+  "title": "Forgotten Realms: Starless Night",
+  "publisher": "Devil's Due Publishing",
+  "setting": "forgotten_realms",
+  "kind": "graphic_novel",
+  "date": "2008-09",
+  "issue_count": 1,
+  "writers": ["R. A. Salvatore", "Andrew Dabb"],
+  "artists": ["Juanfran Moyano"],
+  "description": "Adaptación de Noche sin estrellas de R. A. Salvatore, en la que Drizzt vuelve a la Antípoda Oscura para enfrentarse a su pasado. Devil's Due la publicó en 2008 en un solo volumen, poco antes de perder la licencia de D&D.\n\nEs la última adaptación de Drizzt de Devil's Due; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/93985/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2008-09"
+    }
+  ],
+  "continues": "forgotten-realms-the-legacy",
+  "related_novels": ["starless-night"]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "forgotten-realms-the-legacy",
+  "title": "Forgotten Realms: The Legacy",
+  "publisher": "Devil's Due Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2008-02",
+  "end_date": "2008-06",
+  "issue_count": 3,
+  "writers": ["R. A. Salvatore", "Andrew Dabb"],
+  "artists": ["Robert Atkins"],
+  "description": "Miniserie de Devil's Due que adapta El legado de R. A. Salvatore: los drows de Menzoberranzan atacan Mithril Hall para capturar a Drizzt, que debe defender a sus amigos de su propia familia.\n\nNo tiene tomo a la venta en las tiendas del sitio ni se publicó en castellano.",
+  "source": "https://www.comics.org/series/34102/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2008-02"
+    },
+    {
+      "number": "2",
+      "date": "2008-04"
+    },
+    {
+      "number": "3",
+      "date": "2008-06"
+    }
+  ],
+  "continues": "forgotten-realms-the-halflings-gem",
+  "related_novels": ["the-legacy"]
+}

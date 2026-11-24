@@ -1,0 +1,46 @@
+{
+  "slug": "cutter",
+  "title": "Dungeons & Dragons: Cutter",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2013-04",
+  "end_date": "2013-09",
+  "issue_count": 5,
+  "writers": ["Geno Salvatore", "R. A. Salvatore"],
+  "artists": ["David Baldeón"],
+  "description": "Miniserie de cinco números escrita por R. A. Salvatore y Geno Salvatore, con dibujo de David Baldeón, cuyo título es el apodo de Khazid'hea, la espada inteligente de las novelas de Drizzt.\n\nSe recopiló en tapa dura en 2013 y en rústica en 2014. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/73622/",
+  "issues": [
+    { "number": "1", "date": "2013-04-10" },
+    { "number": "2", "date": "2013-05-01" },
+    { "number": "3", "date": "2013-06-12" },
+    { "number": "4", "date": "2013-08-07" },
+    { "number": "5", "date": "2013-09-25" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Cutter",
+      "publisher": "IDW Publishing",
+      "date": "2014-11",
+      "format": "paperback",
+      "isbn13": 9781631400575,
+      "contents": [{ "series": "cutter", "issues": "1-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1631400576/" }],
+      "cover": "/images/comics/cutter/9781631400575.webp",
+      "cover_source": "https://www.amazon.es/dp/1631400576/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Cutter",
+      "publisher": "IDW Publishing",
+      "date": "2013-12-04",
+      "format": "hardcover",
+      "isbn13": 9781613777923,
+      "contents": [{ "series": "cutter", "issues": "1-5" }],
+      "cover": "/images/comics/cutter/9781613777923.webp",
+      "cover_source": "https://www.amazon.es/dp/1613777922/"
+    }
+  ]
+}

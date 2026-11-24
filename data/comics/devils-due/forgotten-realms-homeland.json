@@ -1,0 +1,57 @@
+{
+  "slug": "forgotten-realms-homeland",
+  "title": "Forgotten Realms: Homeland",
+  "title_es": "Reinos Olvidados 1. El elfo oscuro: La morada",
+  "publisher": "Devil's Due Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2005-06",
+  "end_date": "2005-08",
+  "issue_count": 3,
+  "writers": ["R. A. Salvatore", "Andrew Dabb"],
+  "artists": ["Tim Seeley"],
+  "description": "Primera de las miniseries de Devil's Due que adaptan La leyenda de Drizzt de R. A. Salvatore, con guion de Andrew Dabb y dibujo de Tim Seeley. Cuenta la infancia de Drizzt Do'Urden en Menzoberranzan, la ciudad de los elfos oscuros, y su ruptura con su familia.\n\nIDW la reeditó en 2015 y Norma la publicó en castellano en 2008 como La morada, primer tomo de su colección Reinos Olvidados.",
+  "source": "https://www.comics.org/series/34096/",
+  "issues": [
+    { "number": "1", "date": "2005-06" },
+    { "number": "2", "date": "2005-07" },
+    { "number": "3", "date": "2005-08" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "The Legend of Drizzt Vol. 1: Homeland",
+      "publisher": "IDW Publishing",
+      "date": "2015-01",
+      "format": "paperback",
+      "isbn13": 9781631401978,
+      "contents": [{ "series": "forgotten-realms-homeland", "issues": "1-3" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1631401971/" }],
+      "cover": "/images/comics/forgotten-realms-homeland/9781631401978.webp",
+      "cover_source": "https://www.amazon.es/dp/1631401971/"
+    },
+    {
+      "language": "english",
+      "title": "The Legend of Drizzt Vol. 1: Homeland",
+      "publisher": "Devil's Due Publishing",
+      "date": "2005",
+      "format": "paperback",
+      "isbn13": 9781932796407,
+      "contents": [{ "series": "forgotten-realms-homeland", "issues": "1-3" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1932796401/" }]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Reinos Olvidados 1. El elfo oscuro: La morada",
+      "publisher": "Norma Editorial",
+      "date": "2008-04-17",
+      "format": "paperback",
+      "isbn13": 9788498473193,
+      "contents": [{ "series": "forgotten-realms-homeland", "issues": "1-3" }],
+      "cover": "/images/comics/forgotten-realms-homeland/9788498473193.webp",
+      "cover_source": "https://www.amazon.es/dp/8498473195/"
+    }
+  ],
+  "related_novels": ["homeland"]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "fortune-finder",
+  "title": "Dungeons & Dragons: Fortune Finder",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2023-11",
+  "end_date": "2024-03",
+  "issue_count": 5,
+  "writers": ["Jim Zub"],
+  "artists": ["Jose Jaro"],
+  "description": "Miniserie de cinco números escrita por Jim Zub y dibujada por Jose Jaro, con un grupo de aventureros nuevo en los Reinos Olvidados, publicada entre 2023 y 2024.\n\nSe recopiló en 2024; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/206077/",
+  "issues": [
+    { "number": "1", "date": "2023-11-15" },
+    { "number": "2", "date": "2023-12-27" },
+    { "number": "3", "date": "2024-01-24" },
+    { "number": "4", "date": "2024-02-21" },
+    { "number": "5", "date": "2024-03-20" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Fortune Finder",
+      "publisher": "IDW Publishing",
+      "date": "2024-06-04",
+      "format": "paperback",
+      "isbn13": 9798887241456,
+      "contents": [{ "series": "fortune-finder", "issues": "1-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0CP72GQLR/" }],
+      "cover": "/images/comics/fortune-finder/9798887241456.webp",
+      "cover_source": "https://www.amazon.es/dp/B0CP72GQLR/"
+    }
+  ]
+}

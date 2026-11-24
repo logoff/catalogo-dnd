@@ -1,0 +1,53 @@
+{
+  "slug": "tempests-gate",
+  "title": "Dungeons & Dragons: Tempest's Gate",
+  "title_es": "Paso de la tempestad",
+  "publisher": "Kenzer & Company",
+  "setting": "generic",
+  "kind": "limited_series",
+  "date": "2001-12",
+  "end_date": "2002-03",
+  "issue_count": 4,
+  "description": "Miniserie de cuatro números de Kenzer & Company en la que Aidus, un joven paladín al mando de una colonia fronteriza, tiene que defenderla de incursiones orcas y de una hechicera mientras aprende a mandar.\n\nDevir la publicó en España en dos cuadernos con lomo, entre 2003 y 2004, como Paso de la tempestad.",
+  "source": "https://www.comics.org/series/17723/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2001-12"
+    },
+    {
+      "number": "2",
+      "date": "2002-01"
+    },
+    {
+      "number": "3",
+      "date": "2002-02"
+    },
+    {
+      "number": "4",
+      "date": "2002-03"
+    }
+  ],
+  "editions": [
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Paso de la tempestad",
+      "publisher": "Devir",
+      "date": "2003-12",
+      "format": "issue",
+      "isbn13": 9788496262065,
+      "issues": [
+        {
+          "number": "1",
+          "date": "2003-12"
+        },
+        {
+          "number": "2",
+          "date": "2004-01"
+        }
+      ],
+      "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_2003_devir_-paso_de_la_tempestad-.html"
+    }
+  ]
+}

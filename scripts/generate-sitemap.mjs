@@ -129,6 +129,14 @@ function generateSitemap() {
     urls.push({ loc: `/novela/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
   }
 
+  // Comic pages (data/comics/<editorial>/<slug>.json; collections.json está en la raíz)
+  urls.push({ loc: '/comics', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  const comicsDir = join(DATA_DIR, 'comics')
+  for (const file of getProductFiles(comicsDir).filter((f) => dirname(f) !== comicsDir)) {
+    const { slug } = JSON.parse(readFileSync(file, 'utf-8'))
+    urls.push({ loc: `/comic/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
+  }
+
   // Guías por ambientación: una por cada mundo que tenga algún libro, novela o videojuego
   const worlds = new Set()
   for (const edition of ['2014', '2024']) {

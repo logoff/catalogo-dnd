@@ -19,6 +19,7 @@ const entries = feedEntries(
     videogames: files('data/videogames/games/*/*.json').map(read),
     merchandise: files('data/merchandising/items/*/*.json').map(read),
     novels: files('data/novels/*/*.json').map(read),
+    comics: files('data/comics/*/*.json').map(read),
     rpgBooks: files('data/rol/books/*/*.json').map(read),
     rpgSystems: files('data/rol/systems/*.json').map(read),
   },

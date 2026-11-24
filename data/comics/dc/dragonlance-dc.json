@@ -1,0 +1,214 @@
+{
+  "slug": "dragonlance-dc",
+  "title": "Dragonlance",
+  "publisher": "DC Comics",
+  "setting": "dragonlance",
+  "kind": "ongoing",
+  "date": "1988",
+  "end_date": "1991-07",
+  "issue_count": 34,
+  "writers": ["Dan Mishkin"],
+  "artists": ["Ron Randall"],
+  "description": "Serie mensual de DC Comics ambientada en Krynn, con guion de Dan Mishkin y dibujo de Ron Randall, que duró 34 números entre 1988 y 1991, con historias largas en varias partes en las que aparece Raistlin.\n\nIDW la reeditó en los tres tomos de Dragonlance Classics. En España, Zinco publicó sus primeros números en 1990 y 1991 en una colección en grapa de doce entregas.",
+  "source": "https://www.comics.org/series/3589/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "1988-08-25"
+    },
+    {
+      "number": "2",
+      "date": "1988-09-29"
+    },
+    {
+      "number": "3",
+      "date": "1988"
+    },
+    {
+      "number": "4",
+      "date": "1988-11-24"
+    },
+    {
+      "number": "5",
+      "date": "1989-01-05"
+    },
+    {
+      "number": "6",
+      "date": "1989-02-16"
+    },
+    {
+      "number": "7",
+      "date": "1989-03-09"
+    },
+    {
+      "number": "8",
+      "date": "1989-04-20"
+    },
+    {
+      "number": "9",
+      "date": "1989-05-25"
+    },
+    {
+      "number": "10",
+      "date": "1989-06-22"
+    },
+    {
+      "number": "11",
+      "date": "1989-07-27"
+    },
+    {
+      "number": "12",
+      "date": "1989-08-24"
+    },
+    {
+      "number": "13",
+      "date": "1989-09-21"
+    },
+    {
+      "number": "14",
+      "date": "1989-10-26"
+    },
+    {
+      "number": "15",
+      "date": "1989-11-23"
+    },
+    {
+      "number": "16",
+      "date": "1989-12-21"
+    },
+    {
+      "number": "17",
+      "date": "1990-01-25"
+    },
+    {
+      "number": "18",
+      "date": "1990-02-22"
+    },
+    {
+      "number": "19",
+      "date": "1990-03-22"
+    },
+    {
+      "number": "20",
+      "date": "1990-04-19"
+    },
+    {
+      "number": "21",
+      "date": "1990-06-07"
+    },
+    {
+      "number": "22",
+      "date": "1990-06-21"
+    },
+    {
+      "number": "23",
+      "date": "1990-10"
+    },
+    {
+      "number": "24",
+      "date": "1990-10-04"
+    },
+    {
+      "number": "25",
+      "date": "1990-11-01"
+    },
+    {
+      "number": "26",
+      "date": "1990-11-22"
+    },
+    {
+      "number": "27",
+      "date": "1990-12-20"
+    },
+    {
+      "number": "28",
+      "date": "1991-01-24"
+    },
+    {
+      "number": "29",
+      "date": "1991-02-21"
+    },
+    {
+      "number": "30",
+      "date": "1991-03-21"
+    },
+    {
+      "number": "31",
+      "date": "1991-04-18"
+    },
+    {
+      "number": "32",
+      "date": "1991-05-23"
+    },
+    {
+      "number": "33",
+      "date": "1991-07-05"
+    },
+    {
+      "number": "34",
+      "date": "1991-07-18"
+    }
+  ],
+  "editions": [
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dragonlance",
+      "publisher": "Ediciones Zinco",
+      "date": "1990-07",
+      "format": "issue",
+      "issues": [
+        {
+          "number": "1",
+          "date": "1990-07"
+        },
+        {
+          "number": "2",
+          "title": "¡Cuidado con el draconiano!"
+        },
+        {
+          "number": "3",
+          "title": "¡Atrapada entre pesadillas!"
+        },
+        {
+          "number": "4",
+          "title": "¿El honor o la vida?"
+        },
+        {
+          "number": "5",
+          "title": "El peón de Raistlin (primera parte)"
+        },
+        {
+          "number": "6",
+          "title": "El peón de Raistlin (segunda parte)"
+        },
+        {
+          "number": "7",
+          "title": "El peón de Raistlin (tercera parte)"
+        },
+        {
+          "number": "8",
+          "title": "El peón de Raistlin (cuarta parte)"
+        },
+        {
+          "number": "9",
+          "title": "La arena de Istar (primera parte)"
+        },
+        {
+          "number": "10",
+          "title": "La arena de Istar (segunda parte)"
+        },
+        {
+          "number": "11",
+          "title": "La arena de Istar (tercera parte)"
+        },
+        {
+          "number": "12",
+          "title": "La arena de Istar (cuarta parte)",
+          "date": "1991-06"
+        }
+      ],
+      "source": "https://www.tebeosfera.com/colecciones/dragonlance_1990_zinco.html"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ function spanishEditions(file, json) {
   const list =
     kind === 'product'
       ? json.publications
-      : ['merchandise', 'novel', 'rpgBook'].includes(kind)
+      : ['merchandise', 'novel', 'comic', 'rpgBook'].includes(kind)
         ? json.editions
         : []
   return (list ?? [])

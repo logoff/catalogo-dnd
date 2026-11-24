@@ -1,0 +1,35 @@
+{
+  "slug": "evil-at-baldurs-gate",
+  "title": "Dungeons & Dragons: Evil at Baldur's Gate",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2018-04",
+  "end_date": "2018-08",
+  "issue_count": 5,
+  "writers": ["Jim Zub"],
+  "artists": ["Dean Kotz"],
+  "description": "Cuarta miniserie de Jim Zub en IDW, dibujada por Dean Kotz: Minsc, Boo y sus amigos vuelven a Puerta de Baldur, donde una amenaza que viene de los Nueve Infiernos pone en peligro la ciudad.\n\nSe recopiló en 2018 y enlaza con Infernal Tides, que prepara la aventura Baldur's Gate: Descent into Avernus. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/127166/",
+  "issues": [
+    { "number": "1", "date": "2018-04-25" },
+    { "number": "2", "date": "2018-07-04" },
+    { "number": "3", "date": "2018-07-25" },
+    { "number": "4", "date": "2018-08-08" },
+    { "number": "5", "date": "2018-08-29" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Evil at Baldur's Gate",
+      "publisher": "IDW Publishing",
+      "date": "2018-11-21",
+      "format": "paperback",
+      "isbn13": 9781684053353,
+      "contents": [{ "series": "evil-at-baldurs-gate", "issues": "1-5" }],
+      "cover": "/images/comics/evil-at-baldurs-gate/9781684053353.webp",
+      "cover_source": "https://www.amazon.es/dp/1684053358/"
+    }
+  ],
+  "continues": "frost-giants-fury"
+}

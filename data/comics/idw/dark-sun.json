@@ -1,0 +1,47 @@
+{
+  "slug": "dark-sun",
+  "title": "Dungeons & Dragons: Dark Sun",
+  "publisher": "IDW Publishing",
+  "setting": "dark_sun",
+  "kind": "limited_series",
+  "date": "2011-01",
+  "end_date": "2011-05",
+  "issue_count": 5,
+  "writers": ["Alex Irvine"],
+  "artists": ["Peter Bergting"],
+  "description": "Miniserie de cinco números de IDW ambientada en Athas, el mundo desértico de Dark Sun, que volvía con la cuarta edición, con guion de Alex Irvine y dibujo de Peter Bergting.\n\nSe recopiló como Ianto's Tomb en tapa dura y en rústica. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/54674/",
+  "issues": [
+    { "number": "1", "date": "2011-01-05" },
+    { "number": "2", "date": "2011-02" },
+    { "number": "3", "date": "2011-03-09" },
+    { "number": "4", "date": "2011-04-20" },
+    { "number": "5", "date": "2011-05-04" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Dark Sun: Ianto's Tomb",
+      "publisher": "IDW Publishing",
+      "date": "2011-08",
+      "format": "hardcover",
+      "isbn13": 9781600109966,
+      "contents": [{ "series": "dark-sun", "issues": "1-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1600109969/" }],
+      "cover": "/images/comics/dark-sun/9781600109966.webp",
+      "cover_source": "https://www.amazon.es/dp/1600109969/"
+    },
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Dark Sun: Ianto's Tomb",
+      "publisher": "IDW Publishing",
+      "date": "2012-08",
+      "format": "paperback",
+      "isbn13": 9781613773499,
+      "contents": [{ "series": "dark-sun", "issues": "1-5" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1613773498/" }],
+      "cover": "/images/comics/dark-sun/9781613773499.webp",
+      "cover_source": "https://www.amazon.es/dp/1613773498/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "tsr-limited-edition",
+  "title": "TSR Limited Edition",
+  "publisher": "TSR",
+  "setting": "multiple",
+  "kind": "promotional",
+  "date": "1996",
+  "issue_count": 3,
+  "writers": ["Mike Baron", "Tom Bierbaum", "Mary Bierbaum", "Jeff Grubb"],
+  "artists": ["Arnie Swekel", "Todd Fox"],
+  "description": "Cómics promocionales que TSR regaló en 1996, cada uno ambientado en uno de sus mundos de campaña: Advanced Dungeons & Dragons, Dragonlance (la Quinta Era) y Reinos Olvidados; Wikipedia cita un cuarto, de Birthright. Servían para presentar los juegos y las novelas de la época.\n\nNo se vendieron en tiendas ni se han reeditado.",
+  "source": "https://www.comics.org/series/65000/",
+  "issues": [
+    {
+      "number": "AD&D",
+      "date": "1996"
+    },
+    {
+      "number": "Dragonlance",
+      "date": "1996"
+    },
+    {
+      "number": "Forgotten Realms",
+      "date": "1996"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "dragonlance-legends-time-of-the-twins",
+  "title": "Dragonlance Legends: Time of the Twins",
+  "publisher": "Devil's Due Publishing",
+  "setting": "dragonlance",
+  "kind": "limited_series",
+  "date": "2008-06",
+  "end_date": "2008-10",
+  "issue_count": 3,
+  "writers": ["Andrew Dabb"],
+  "artists": ["David Cole"],
+  "description": "Miniserie de tres números de Devil's Due que adapta El templo de Istar, la primera novela de las Leyendas de la Dragonlance: Caramon viaja al pasado, a la ciudad de Istar antes del Cataclismo, para impedir que su hermano Raistlin desafíe a los dioses.\n\nSe quedó en el primer libro porque Devil's Due perdió la licencia. Tiene tomo de Devil's Due y reedición de IDW; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/85913/",
+  "issues": [
+    { "number": "1", "date": "2008-06" },
+    { "number": "2", "date": "2008-08" },
+    { "number": "3", "date": "2008-10" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dragonlance Legends Vol. 1: Time of the Twins",
+      "publisher": "Devil's Due Publishing",
+      "date": "2008-11",
+      "format": "paperback",
+      "isbn13": 9781934692349,
+      "contents": [{ "series": "dragonlance-legends-time-of-the-twins", "issues": "1-3" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1934692344/" }],
+      "cover": "/images/comics/dragonlance-legends-time-of-the-twins/9781934692349.webp",
+      "cover_source": "https://www.amazon.es/dp/1934692344/"
+    },
+    {
+      "language": "english",
+      "title": "Dragonlance Legends: Time of the Twins",
+      "publisher": "IDW Publishing",
+      "date": "2016-07",
+      "format": "paperback",
+      "isbn13": 9781631406577,
+      "contents": [{ "series": "dragonlance-legends-time-of-the-twins", "issues": "1-3" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1631406574/" }],
+      "cover": "/images/comics/dragonlance-legends-time-of-the-twins/9781631406577.webp",
+      "cover_source": "https://www.amazon.es/dp/1631406574/"
+    }
+  ],
+  "related_novels": ["time-of-the-twins"]
+}

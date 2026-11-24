@@ -1,5 +1,6 @@
 import type { Comic, ComicEdition, ComicSummary, ComicWithMeta } from '@/types/comic'
 import { enrichComic } from '@/utils/comics'
+import { loadNovelIndex } from './novelLoader'
 
 // Como las novelas, los datos de cómics no van en el bundle principal: el índice del listado,
 // los tomos de varias series y cada serie son trozos aparte. El servidor los carga todos antes de
@@ -96,7 +97,12 @@ async function loadContinuations(): Promise<void> {
 export async function preloadComicRoute(pathname: string): Promise<void> {
   const detail = pathname.match(/^\/comic\/([^/]+)\/?$/)
   if (detail) {
-    await Promise.all([loadComicIndex(), loadComic(decodeURIComponent(detail[1]))])
+    // La ficha usa el índice de novelas para el título de las novelas relacionadas
+    await Promise.all([
+      loadComicIndex(),
+      loadNovelIndex(),
+      loadComic(decodeURIComponent(detail[1])),
+    ])
   } else if (/^\/comics\/?$/.test(pathname)) {
     await loadComicIndex()
   }

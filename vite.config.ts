@@ -6,7 +6,7 @@ import { globSync, readFileSync, readdirSync } from 'fs'
 import { join, resolve } from 'path'
 import { buildNovelIndex } from './src/utils/novels.ts'
 import type { Novel, NovelSeries } from './src/types/novel.ts'
-import { buildComicIndex } from './src/utils/comics.ts'
+import { buildComicIndex, relatedComics } from './src/utils/comics.ts'
 import type { Comic, ComicEdition } from './src/types/comic.ts'
 import { buildRpgIndex, rolSection } from './src/utils/rpg.ts'
 import type { License, RpgBook, RpgSystem } from './src/types/rpg.ts'
@@ -84,7 +84,7 @@ function novelsIndex(): Plugin {
 // - virtual:comics-index, índice ligero del listado, en un trozo aparte.
 // - virtual:comics-stats, cuántas series hay, para la portada del sitio.
 function comicsIndex(): Plugin {
-  const MODULES = ['virtual:comics-index', 'virtual:comics-stats']
+  const MODULES = ['virtual:comics-index', 'virtual:comics-stats', 'virtual:comics-related']
   const dataDir = resolve(import.meta.dirname, 'data/comics')
   const readJson = <T>(path: string): T => JSON.parse(readFileSync(path, 'utf-8'))
 
@@ -102,10 +102,11 @@ function comicsIndex(): Plugin {
         )
       const collectionsFile = join(dataDir, 'collections.json')
       for (const file of [...comics, collectionsFile]) this.addWatchFile(file)
-      const index = buildComicIndex(
-        comics.map((file) => readJson<Comic>(file)),
-        readJson<ComicEdition[]>(collectionsFile)
-      )
+      const all = comics.map((file) => readJson<Comic>(file))
+      if (id === '\0virtual:comics-related') {
+        return `export default ${JSON.stringify(relatedComics(all))}`
+      }
+      const index = buildComicIndex(all, readJson<ComicEdition[]>(collectionsFile))
       const data = id === '\0virtual:comics-stats' ? { total: index.length } : index
       return `export default ${JSON.stringify(data)}`
     },
@@ -200,6 +201,7 @@ function releasesIndex(): Plugin {
         videogames: files('data/videogames/games/*/*.json'),
         merchandise: files('data/merchandising/items/*/*.json'),
         novels: files('data/novels/*/*.json'),
+        comics: files('data/comics/*/*.json'),
         rpgBooks: files('data/rol/books/*/*.json'),
         rpgSystems: files('data/rol/systems/*.json'),
       }
@@ -212,6 +214,7 @@ function releasesIndex(): Plugin {
         videogames: groups.videogames.map(read),
         merchandise: groups.merchandise.map(read),
         novels: groups.novels.map(read),
+        comics: groups.comics.map(read),
         rpgBooks: groups.rpgBooks.map(read),
         rpgSystems: groups.rpgSystems.map(read),
       }

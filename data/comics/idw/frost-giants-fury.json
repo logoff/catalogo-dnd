@@ -1,0 +1,36 @@
+{
+  "slug": "frost-giants-fury",
+  "title": "Dungeons & Dragons: Frost Giant's Fury",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2017-01",
+  "end_date": "2017-06",
+  "issue_count": 5,
+  "writers": ["Jim Zub"],
+  "artists": ["Netho Diaz"],
+  "description": "Tercera miniserie de la etapa de Jim Zub en IDW, con dibujo de Netho Diaz: el grupo de Minsc se enfrenta a los gigantes de escarcha, los mismos que protagonizan la aventura Storm King's Thunder de ese año.\n\nSe recopiló en 2017; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/111274/",
+  "issues": [
+    { "number": "1", "date": "2017-01-11" },
+    { "number": "2", "date": "2017-04-12" },
+    { "number": "3", "date": "2017-06-14" },
+    { "number": "4", "date": "2017-03" },
+    { "number": "5", "date": "2017-04" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Frost Giant's Fury",
+      "publisher": "IDW Publishing",
+      "date": "2017-10-25",
+      "format": "paperback",
+      "isbn13": 9781631409288,
+      "contents": [{ "series": "frost-giants-fury", "issues": "1-5" }],
+      "cover": "/images/comics/frost-giants-fury/9781631409288.webp",
+      "cover_source": "https://www.amazon.es/dp/163140928X/"
+    }
+  ],
+  "continues": "shadows-of-the-vampire",
+  "related_products": [{ "edition": "5e", "code": "SKT" }]
+}

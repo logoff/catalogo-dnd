@@ -1,0 +1,35 @@
+{
+  "slug": "ravenloft-orphan-of-agony-isle",
+  "title": "Dungeons & Dragons: Ravenloft – Orphan of Agony Isle",
+  "publisher": "IDW Publishing",
+  "setting": "ravenloft",
+  "kind": "limited_series",
+  "date": "2022-06",
+  "end_date": "2022-10",
+  "issue_count": 4,
+  "writers": ["Zoë Quinn"],
+  "artists": ["Bayleigh Underwood"],
+  "description": "Miniserie de cuatro números escrita por Zoë Quinn y dibujada por Bayleigh Underwood, ambientada en los Dominios del Terror de Ravenloft: una joven sin recuerdos despierta en la isla de Agonía y descubre los horrores góticos del lugar, en paralelo al Van Richten's Guide to Ravenloft.\n\nSe recopiló en 2023; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/186623/",
+  "issues": [
+    { "number": "1", "date": "2022-06-29" },
+    { "number": "2", "date": "2022-07-27" },
+    { "number": "3", "date": "2022-08-31" },
+    { "number": "4", "date": "2022-10-05" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Ravenloft – Orphan of Agony Isle",
+      "publisher": "IDW Publishing",
+      "date": "2023-03-15",
+      "format": "paperback",
+      "isbn13": 9781684059560,
+      "contents": [{ "series": "ravenloft-orphan-of-agony-isle", "issues": "1-4" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1684059569/" }],
+      "cover": "/images/comics/ravenloft-orphan-of-agony-isle/9781684059560.webp",
+      "cover_source": "https://www.amazon.es/dp/1684059569/"
+    }
+  ],
+  "related_products": [{ "edition": "5e", "code": "VRGR" }]
+}

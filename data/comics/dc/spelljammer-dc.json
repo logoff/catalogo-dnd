@@ -1,0 +1,76 @@
+{
+  "slug": "spelljammer-dc",
+  "title": "Spelljammer",
+  "publisher": "DC Comics",
+  "setting": "spelljammer",
+  "kind": "ongoing",
+  "date": "1990-08",
+  "end_date": "1991-11",
+  "issue_count": 15,
+  "writers": ["Barbara Kesel"],
+  "artists": ["Mike Collins"],
+  "description": "Serie de DC Comics de 15 números, escrita por Barbara Kesel y dibujada por Mike Collins, que lleva a un grupo de aventureros por el espacio salvaje a bordo de una nave de Spelljammer, el mundo de campaña de D&D de viajes entre esferas de cristal.\n\nSe publicó entre 1990 y 1991 y es el único cómic de Spelljammer. No se ha reeditado en tomo ni se publicó en castellano.",
+  "source": "https://www.comics.org/series/14877/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "1990-08-02"
+    },
+    {
+      "number": "2",
+      "date": "1990-09-06"
+    },
+    {
+      "number": "3",
+      "date": "1990-10-18"
+    },
+    {
+      "number": "4",
+      "date": "1990-11-08"
+    },
+    {
+      "number": "5",
+      "date": "1990-11-29"
+    },
+    {
+      "number": "6",
+      "date": "1991-01-04"
+    },
+    {
+      "number": "7",
+      "date": "1991-01-31"
+    },
+    {
+      "number": "8",
+      "date": "1991-02-28"
+    },
+    {
+      "number": "9",
+      "date": "1991-03-28"
+    },
+    {
+      "number": "10",
+      "date": "1991-04-25"
+    },
+    {
+      "number": "11",
+      "date": "1991-06-06"
+    },
+    {
+      "number": "12",
+      "date": "1991-07-05"
+    },
+    {
+      "number": "13",
+      "date": "1991-08-08"
+    },
+    {
+      "number": "14",
+      "date": "1991-09-05"
+    },
+    {
+      "number": "15",
+      "date": "1991-11-21"
+    }
+  ]
+}

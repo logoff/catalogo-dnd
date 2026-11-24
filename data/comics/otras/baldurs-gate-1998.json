@@ -1,0 +1,18 @@
+{
+  "slug": "baldurs-gate-1998",
+  "title": "Baldur's Gate",
+  "publisher": "Interplay",
+  "setting": "forgotten_realms",
+  "kind": "promotional",
+  "date": "1998",
+  "issue_count": 1,
+  "description": "Cómic promocional de un solo número que Interplay regaló en 1998 para presentar el videojuego Baldur's Gate, ambientado en la Costa de la Espada de los Reinos Olvidados.\n\nEs un regalo de época para coleccionistas del juego; no se ha reeditado.",
+  "source": "https://www.comics.org/series/230450/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "1998"
+    }
+  ],
+  "related_videogames": ["baldurs-gate"]
+}

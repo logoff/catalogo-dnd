@@ -1,0 +1,35 @@
+{
+  "slug": "saturday-morning-adventures",
+  "title": "Dungeons & Dragons: Saturday Morning Adventures",
+  "publisher": "IDW Publishing",
+  "setting": "none",
+  "kind": "limited_series",
+  "date": "2023-03",
+  "end_date": "2023-08",
+  "issue_count": 5,
+  "writers": ["David M. Booher", "Sam Maggs"],
+  "artists": ["George Kambadais"],
+  "description": "Miniserie de cuatro números con nuevas aventuras de los chicos de la serie de dibujos animados Dragones y Mazmorras de los años ochenta (Hank, Sheila, Presto, Eric, Diana y Bobby) en el Reino, escrita por David M. Booher y Sam Maggs con dibujo de George Kambadais. Tuvo un número especial de verano en 2023.\n\nSe recopiló en 2023 y siguió con una segunda parte. No se publicó en castellano.",
+  "source": "https://www.comics.org/series/198381/",
+  "issues": [
+    { "number": "1", "date": "2023-03-29" },
+    { "number": "2", "date": "2023-04-26" },
+    { "number": "3", "date": "2023-05-24" },
+    { "number": "4", "date": "2023-06-28" },
+    { "number": "Endless Summer", "date": "2023-08" }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Saturday Morning Adventures",
+      "publisher": "IDW Publishing",
+      "date": "2023-10",
+      "format": "paperback",
+      "isbn13": 9781684059430,
+      "contents": [{ "series": "saturday-morning-adventures", "issues": "1-4" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1684059437/" }],
+      "cover": "/images/comics/saturday-morning-adventures/9781684059430.webp",
+      "cover_source": "https://www.amazon.es/dp/1684059437/"
+    }
+  ]
+}
