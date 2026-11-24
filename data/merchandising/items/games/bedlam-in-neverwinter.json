@@ -1,0 +1,28 @@
+{
+  "slug": "bedlam-in-neverwinter",
+  "title": "Dungeons & Dragons: Bedlam in Neverwinter",
+  "title_es": "Dungeons & Dragons: Caos en Neverwinter",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "Hasbro",
+  "date": "2023",
+  "description": "Juego de escape cooperativo de Dungeons & Dragons para dos a seis jugadores, en tres actos de alrededor de hora y media: el grupo investiga una serie de desapariciones en Neverwinter resolviendo acertijos y misterios.\n\nEs para grupos a los que les gustan las salas de escape, y se juega una sola vez. Hay edición en castellano publicada en España, «Caos en Neverwinter».",
+  "source": "https://hasbropulse.com/collections/all-products/products/dungeons-dragons-bedlam-in-neverwinter",
+  "editions": [
+    {
+      "language": "english"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons: Caos en Neverwinter",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0BZ95M17Z/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/bedlam-in-neverwinter/0.jpg"]
+}

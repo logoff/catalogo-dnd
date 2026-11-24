@@ -1,0 +1,22 @@
+{
+  "slug": "dragonlance-warriors-of-krynn",
+  "title": "Dragonlance: Warriors of Krynn",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "Wizards of the Coast",
+  "date": "2023-04-04",
+  "description": "Juego de mesa cooperativo ambientado en la Dragonlance: los jugadores llevan héroes que luchan contra el Ejército de los Dragones en batallas masivas, con una campaña de escenarios que mezcla estrategia y narración.\n\nEs para grupos que juegan la aventura «Shadow of the Dragon Queen» o que quieren batallas de Dragonlance en el tablero. Solo se vende en inglés.",
+  "source": "https://wpn.wizards.com/en/products/dragonlance-warriors-of-krynn",
+  "editions": [
+    {
+      "language": "english"
+    }
+  ],
+  "images": ["/images/merchandising/dragonlance-warriors-of-krynn/0.jpg"],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "DSOTDQ"
+    }
+  ]
+}

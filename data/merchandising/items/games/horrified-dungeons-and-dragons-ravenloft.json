@@ -1,0 +1,32 @@
+{
+  "slug": "horrified-dungeons-and-dragons-ravenloft",
+  "title": "Horrified: Dungeons & Dragons – Ravenloft",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "Ravensburger",
+  "date": "2026-07",
+  "description": "Juego cooperativo independiente de la serie Horrified ambientado en Ravenloft, para uno a cinco jugadores, con cuatro monstruos nuevos: Strahd von Zarovich, la Carrionette, el Árbol de Gulthias y Baba Lysaga, cada uno con su propia mecánica. Se puede combinar con «Horrified: Dungeons & Dragons» y con los demás juegos de la serie.\n\nEs para grupos que ya disfrutan de Horrified y quieren el terror gótico de Barovia, a partir de diez años. Tiene edición en castellano publicada en España.",
+  "source": "https://juegosdelamesaredonda.com/18961-horrified-dungeons-and-dragons-ravenloft-castellano-4005556251438.html",
+  "editions": [
+    {
+      "language": "english"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18961-horrified-dungeons-and-dragons-ravenloft-castellano-4005556251438.html"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/horrified-dungeons-and-dragons-ravenloft/0.jpg"],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "COS"
+    }
+  ]
+}
