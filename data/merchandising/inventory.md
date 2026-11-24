@@ -5,15 +5,21 @@ que tendrán ficha en la sección de merchandising. Un artículo con
 «pendiente» en la columna Ficha aún no tiene su JSON en
 `data/merchandising/items/`.
 
-Actualizado: 2026-11-13. Revisado con el usuario el 2026-11-13.
+Actualizado: 2026-11-24. Revisado con el usuario el 2026-11-13; dados y
+accesorios añadidos con el usuario el 2026-11-24.
 
 ## Alcance
 
-Productos con licencia oficial publicados desde 2014, en tres grupos:
-libros licenciados que no son de reglas, figuras y juguetes, y juegos de
-mesa y cartas que no son de rol. Quedan fuera los libros de reglas, las
-novelas y los cómics (tendrán su propia sección), los dados, la ropa y
-los productos sin licencia.
+Productos con licencia oficial publicados desde 2014, en cuatro grupos:
+libros licenciados que no son de reglas, figuras y juguetes, juegos de
+mesa y cartas que no son de rol, y dados y accesorios de dados. Quedan
+fuera los libros de reglas, las novelas y los cómics (tienen su propia
+sección), la ropa y los productos sin licencia.
+
+Los dados y sus accesorios (bandejas, torres, bolsas, cajas y calendarios
+de adviento) solo entran si se pueden comprar en España al darlos de alta,
+de preferencia en una tienda de afiliados. Lo oficial que no llega a
+España se anota en «Pendiente de investigar».
 
 Una ficha por libro, por juego (las expansiones que se venden aparte
 tienen ficha propia) y por línea u ola reconocible de figuras, no por
@@ -104,8 +110,41 @@ cada variante.
 | 43  | WizKids D&D Vinyl Mini Monsters                                            | miniatura de coleccionista | WizKids    | 2023 | —          | [WizKids](https://wizkids.com/dungeons-dragons-3-vinyl-mini-monster-series-1/)                                                                                                                      | vinyl-mini-monsters                         | Figuras de vinilo en caja sorpresa.                                                                                 |
 | 44  | WizKids D&D Icons of the Realms                                            | miniatura de coleccionista | WizKids    | 2014 | —          | [WizKids](https://wizkids.com/?p=30325)                                                                                                                                                             | icons-of-the-realms                         | Miniaturas prepintadas en decenas de sets: una sola ficha para toda la línea. Fuente y año de inicio por confirmar. |
 
+## Dados y accesorios
+
+| #   | Título                                             | Tipo           | Fabricante           | Año  | Castellano | Fuente                                                                                                             | Ficha                                       | Nota                                                                  |
+| --- | -------------------------------------------------- | -------------- | -------------------- | ---- | ---------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- | --------------------------------------------------------------------- |
+| 57  | FanRoll D&D Frostmaiden's Aurora Advent Calendar   | calendario     | FanRoll              | 2025 | —          | [FanRoll](https://www.fanrolldice.com/products/dungeons-dragons-frostmaidens-aurora)                               | fanroll-frostmaidens-aurora-advent-calendar |                                                                       |
+| 58  | FanRoll D&D 50th Anniversary Holmes Dice Sets      | juego de dados | FanRoll              | 2024 | —          | [FanRoll](https://www.fanrolldice.com/products/dd-50th-anniversary-retro-holmes-replica-set)                       | fanroll-50th-anniversary-holmes-dice        |                                                                       |
+| 59  | FanRoll Dungeons & Dragons Liquid Core Dice Set    | juego de dados | FanRoll              | 2025 | —          | [FanRoll](https://www.fanrolldice.com/products/dungeons-dragons-liquid-core-dice-set)                              | fanroll-liquid-core-dice-set                |                                                                       |
+| 60  | FanRoll Dungeons & Dragons Beholder Dice Set       | juego de dados | FanRoll              | 2025 | —          | [FanRoll](https://www.fanrolldice.com/products/dungeons-and-dragons-beholder-dice-set)                             | fanroll-beholder-dice-set                   |                                                                       |
+| 61  | FanRoll D&D Gelatinous Cube                        | juego de dados | FanRoll              | 2026 | —          | [FanRoll](https://www.fanrolldice.com/products/d-d-gelatinous-cube)                                                | fanroll-gelatinous-cube                     |                                                                       |
+| 62  | FanRoll D&D Fizban's Fortune                       | juego de dados | FanRoll              | 2026 | —          | [FanRoll](https://www.fanrolldice.com/products/d-d-fizbans-fortune-blind-mystery-box)                              | fanroll-fizbans-fortune                     | En Amazon.es como «Fizban's Treasure Misfit» (MDG10977).              |
+| 63  | FanRoll D&D Orb of Possibility                     | accesorio      | FanRoll              | 2025 | —          | [FanRoll](https://www.fanrolldice.com/products/orb-of-possibility)                                                 | fanroll-orb-of-possibility                  |                                                                       |
+| 64  | FanRoll D&D Masterworks Series                     | accesorio      | FanRoll              | 2025 | —          | [FanRoll](https://www.fanrolldice.com/products/dd-masterworks-series-dice-tray-jeff-easley)                        | fanroll-masterworks-series                  | En España solo las de Jeff Easley.                                    |
+| 65  | Sirius Dice D&D Adventure Dice                     | juego de dados | Sirius Dice          | 2024 | —          | [Sirius Dice](https://siriusdice.com/products/dungeons-dragons-adventure-dice-legend-of-drizzt-sirius)             | sirius-dice-adventure-dice                  |                                                                       |
+| 66  | Sirius Dice D&D Treasure Packs                     | juego de dados | Sirius Dice          | 2024 | —          | [Sirius Dice](https://siriusdice.com/products/dnd-mists-of-ravenloft-treasure-packs)                               | sirius-dice-treasure-packs                  |                                                                       |
+| 67  | Sirius Dice D&D Mini Dice Cups                     | juego de dados | Sirius Dice          | 2024 | —          | [Sirius Dice](https://siriusdice.com/products/dungeons-dragons-mini-dice-cups)                                     | sirius-dice-mini-dice-cups                  |                                                                       |
+| 68  | Sirius Dice Dungeons & Dragons Pride Dice Set      | juego de dados | Sirius Dice          | 2025 | —          | [Sirius Dice](https://siriusdice.com/products/pre-order-dungeons-dragons-pride-unlimited)                          | sirius-dice-pride-dice-set                  |                                                                       |
+| 69  | Ultra Pro Heavy Metal Dice for Dungeons & Dragons  | juego de dados | Ultra Pro            | —    | —          | [Ultra Pro](https://ultrapro.com/products/heavy-metal-red-and-white-rpg-dice-set-7ct-for-dungeons-dragons)         | ultra-pro-heavy-metal-dice                  |                                                                       |
+| 70  | Ultra Pro Dungeons & Dragons Dice Bags             | accesorio      | Ultra Pro            | —    | —          | [Ultra Pro](https://ultrapro.com/products/dungeons-dragons-mind-flayer-gamer-pouch)                                | ultra-pro-dice-bags                         |                                                                       |
+| 71  | Ultra Pro Dungeons & Dragons Dice Trays and Towers | accesorio      | Ultra Pro            | —    | —          | [Ultra Pro](https://ultrapro.com/products/honor-among-thieves-printed-leatherette-dice-tower-for-dungeons-dragons) | ultra-pro-dice-trays-and-towers             |                                                                       |
+| 72  | Nemesis Now Dungeons & Dragons Dice Boxes          | accesorio      | Nemesis Now          | —    | —          | [Nemesis Now](https://www.nemesisnow.com/en/dungeons-dragons-mimic-dice-box-11-3cm/)                               | nemesis-now-dice-boxes                      |                                                                       |
+| 73  | Dungeons & Dragons Dice & Miscellany               | juego de dados | Wizards of the Coast | —    | no consta  | [Wizards (WPN)](https://wpn.wizards.com/en/products/the-witchlight-carnival-dice-and-miscellany)                   | dice-and-miscellany                         | A la venta: Rime of the Frostmaiden y The Wild Beyond the Witchlight. |
+| 74  | Dungeons & Dragons Official Dice Set               | juego de dados | Wizards of the Coast | —    | —          | [Asmodee](https://asmodee.co.uk/products/wtcc99450000-dungeons-dragons-offical-dice-set)                           | dungeons-and-dragons-official-dice-set      | Sin página oficial; fuente: Asmodee (distribuidora).                  |
+
 ## Pendiente de investigar
 
+- **Dados oficiales que no se venden en España** (revisado el
+  2026-11-24): de FanRoll, Mind Flayer Dice Set, Dragon Scale (metal dorado
+  y silicona roja), d20 gigante de Mists of Ravenloft, bandeja octogonal
+  del dragón rojo antiguo, bandejas y torres Masterworks de Erol Otus y
+  Larry Elmore y los calendarios de adviento Halloween Haunt (2025),
+  Halloween (2026) y Red Robes & Winter Woes (2026); de Sirius Dice, los d20
+  de 55 mm, la Dice Vault de madera y los dados de D&D x World of Warcraft;
+  de Wizards, los demás «Dice & Miscellany» y dados de aventuras (Tomb of
+  Annihilation, Waterdeep: Dragon Heist…). Si llegan a una tienda de
+  España, se les da ficha.
 - **Peluches:** hay peluches oficiales (Kidrobot, búhos lechuza y otros),
   pero falta una fuente clara de cada línea.
 - **Funko Bitty Pop! Dungeons & Dragons:** confirmar año y contenido.

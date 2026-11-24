@@ -1,0 +1,27 @@
+{
+  "slug": "fanroll-frostmaidens-aurora-advent-calendar",
+  "title": "FanRoll D&D Frostmaiden's Aurora Advent Calendar",
+  "group": "dice",
+  "kind": "advent_calendar",
+  "manufacturer": "FanRoll",
+  "date": "2025",
+  "description": "Calendario de adviento oficial de Dungeons & Dragons con doce casillas para la cuenta atrás hasta Navidad, ambientado en el Valle del Viento Helado de «Rime of the Frostmaiden». Trae una bandeja y una bolsa para dados, un juego de minidados, un d20 gigante exclusivo y un juego de dados con objetos de la aventura dentro de cada dado, como un libro de conjuros o un anillo de calor.\n\nEs un regalo para quien juega a D&D y quiere estrenar dados durante las fiestas. Es de la temporada de 2025 y no hay edición en castellano: lo que se vende son los dados y accesorios.",
+  "source": "https://www.fanrolldice.com/products/dungeons-dragons-frostmaidens-aurora",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GW8RBWLV/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/fanroll-frostmaidens-aurora-advent-calendar/0.jpg"],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "IDROTF"
+    }
+  ]
+}

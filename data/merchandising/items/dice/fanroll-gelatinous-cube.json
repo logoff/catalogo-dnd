@@ -1,0 +1,21 @@
+{
+  "slug": "fanroll-gelatinous-cube",
+  "title": "FanRoll D&D Gelatinous Cube",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "FanRoll",
+  "date": "2026-01",
+  "description": "Dados de seis caras de Dungeons & Dragons que imitan al cubo gelatinoso, con objetos dentro de la resina. Hay dos versiones: un juego de d6 de esquinas redondeadas que, juntos, cuentan la historia de un guerrero devorado por el cubo, y un d6 gigante de 40 mm de aristas vivas con huesos, un cofre y una calavera dentro.\n\nSon dados de colección y de adorno para la mesa, pensados para quien conoce al monstruo y quiere tenerlo a mano en la partida.",
+  "source": "https://www.fanrolldice.com/products/d-d-gelatinous-cube",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GW8RGY2N/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/fanroll-gelatinous-cube/0.jpg"]
+}
