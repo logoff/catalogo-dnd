@@ -73,7 +73,7 @@ const allEditions = [
 
 // Series que aún no tienen ninguna portada (ni de número ni de tomo), como lo anunciado que todavía
 // no ha salido. La lista solo puede encoger (ver el test siguiente)
-const PENDING_COVERS = ['baldurs-gate-3-dark-horse']
+const PENDING_COVERS: string[] = []
 
 describe('esquema de cómics', () => {
   it('acepta una serie mínima', () => {
