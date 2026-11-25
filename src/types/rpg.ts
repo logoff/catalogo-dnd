@@ -102,7 +102,14 @@ export interface RpgEdition {
 }
 
 export type CrowdfundingPlatform =
-  'verkami' | 'kickstarter' | 'gamefound' | 'backerkit' | 'lanzanos' | 'ulule'
+  | 'verkami'
+  | 'kickstarter'
+  | 'gamefound'
+  | 'backerkit'
+  | 'lanzanos'
+  | 'ulule'
+  // Mecenazgo en la tienda de la propia editorial (Nosolorol, The Hills Press…)
+  | 'editorial'
 
 export interface RpgCrowdfunding {
   platform: CrowdfundingPlatform

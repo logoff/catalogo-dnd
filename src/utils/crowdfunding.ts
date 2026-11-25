@@ -8,6 +8,7 @@ export const platformNames: Record<CrowdfundingPlatform, string> = {
   backerkit: 'BackerKit',
   lanzanos: 'Lánzanos',
   ulule: 'Ulule',
+  editorial: 'el mecenazgo de la editorial',
 }
 
 // Abierta si cierra hoy o después. «Hoy» es el día del build (virtual:build-date), para que el

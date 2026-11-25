@@ -3,7 +3,7 @@
   "system": "old-school-essentials",
   "title": "Old-School Essentials Advanced Fantasy: Genre Rules",
   "kind": "supplement",
-  "description": "El suplemento que añade a Classic Fantasy las opciones de personaje de Advanced Fantasy: nueve clases humanas (acróbata, asesino, bárbaro, bardo, druida, ilusionista, caballero, paladín y explorador), seis razas-clase, reglas opcionales y venenos.\n\nPara quien ya juega a Classic Fantasy y solo quiere más opciones de personaje.",
+  "description": "El suplemento que añade a Classic Fantasy las opciones de personaje de Advanced Fantasy: nueve clases humanas (acróbata, asesino, bárbaro, bardo, druida, ilusionista, caballero, paladín y explorador), seis razas-clase, reglas opcionales y venenos.\n\nPara quien ya juega a Classic Fantasy y solo quiere más opciones de personaje. En castellano lo publica The Hills Press.",
   "source": "https://www.exaltedfuneral.com/products/ose-advanced-fantasy-genre-rules",
   "editions": [
     {
@@ -11,6 +11,13 @@
       "publisher": "Necrotic Gnome",
       "format": "hardcover",
       "cover": "/images/rol/ose-advanced-fantasy-genre-rules/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Fantasía avanzada: Reglas de género",
+      "publisher": "The Hills Press",
+      "date": "2022-01",
+      "format": "paperback"
     }
   ]
 }

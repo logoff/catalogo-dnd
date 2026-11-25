@@ -22,7 +22,12 @@
       "language": "castellano",
       "title": "Dolmenwood: Pantalla del Árbitro",
       "publisher": "Nosolorol",
-      "format": "screen"
+      "format": "screen",
+      "crowdfunding": {
+        "platform": "editorial",
+        "url": "https://www.nosolorol.com/dolmenwood",
+        "end": "2025-05-05"
+      }
     }
   ]
 }

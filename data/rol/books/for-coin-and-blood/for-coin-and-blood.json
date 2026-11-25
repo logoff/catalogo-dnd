@@ -10,9 +10,15 @@
     {
       "language": "castellano",
       "publisher": "The Hills Press",
+      "date": "2020-02",
       "format": "hardcover",
       "isbn13": 9788417175283,
-      "cover": "/images/rol/for-coin-and-blood/castellano.webp"
+      "cover": "/images/rol/for-coin-and-blood/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/22218-for-coin-blood",
+        "end": "2019-01-09"
+      }
     }
   ]
 }

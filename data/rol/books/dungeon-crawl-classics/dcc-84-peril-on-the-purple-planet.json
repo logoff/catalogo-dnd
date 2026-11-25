@@ -11,8 +11,13 @@
       "title": "Peligro en el planeta púrpura",
       "publisher": "Other Selves",
       "format": "boxed_set",
+      "cover": "/images/rol/dcc-84-peril-on-the-purple-planet/castellano.webp",
       "source": "https://dracotienda.com/clasicos-del-mazmorreo/30788-clasicos-del-mazmorreo-peligro-en-el-planeta-purpura.html",
-      "cover": "/images/rol/dcc-84-peril-on-the-purple-planet/castellano.webp"
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/31853-peligro-en-el-planeta-purpura",
+        "end": "2022-01-01"
+      }
     },
     {
       "language": "english",

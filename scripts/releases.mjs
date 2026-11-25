@@ -217,6 +217,7 @@ const PLATFORMS = {
   backerkit: 'BackerKit',
   lanzanos: 'Lánzanos',
   ulule: 'Ulule',
+  editorial: 'mecenazgo de la editorial',
 }
 
 // Ediciones de libros de rol en campaña de micromecenazgo abierta (cierra hoy o después), con la

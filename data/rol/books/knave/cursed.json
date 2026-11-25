@@ -1,0 +1,17 @@
+{
+  "slug": "cursed",
+  "system": "knave",
+  "title": "Cursed!",
+  "kind": "supplement",
+  "description": "Zine de Alexandre Kobayashi con un juego de terror completo inspirado en Knave, sin clases ni niveles, para dirigir cualquier aventura de terror en la que humanos se enfrentan a lo sobrenatural, en 28 páginas.\n\nEstá pensado para adaptar sobre la marcha aventuras de terror de otros juegos; en castellano lo publica Outremer.",
+  "source": "https://outremer.es/producto/cursed-version-fisica/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Outremer Ediciones",
+      "format": "paperback",
+      "isbn13": 9788412770933,
+      "cover": "/images/rol/cursed/castellano.webp"
+    }
+  ]
+}

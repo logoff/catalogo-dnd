@@ -117,6 +117,7 @@ digital de plataformas comunitarias.
 | 47  | Black Sword Hack                   | Black Sword Hack                   | The Merry Mushmen                  | 2020 | —                                                        | The Black Hack: reescrito pero compatible                   | sí (The Hills Press)             | [DriveThruRPG](https://www.drivethrurpg.com/en/product/331118/black-sword-hack)                  | black-sword-hack                   | OSR; entra por su edición en castellano.                                                 |
 | 48  | For Coin & Blood                   | For Coin & Blood                   | Gallant Knight Games               | 2018 | —                                                        | Swords & Wizardry: reescrito pero compatible                | sí (The Hills Press)             | [Gallant Knight Games](https://gallantknightgames.com/products/for-coin-blood-second-edition)    | for-coin-and-blood                 | OSR; entra por su edición en castellano.                                                 |
 | 49  | Runecairn                          | Runecairn                          | Colin Le Sueur                     | 2021 | —                                                        | Cairn: reescrito pero compatible                            | sí (Outremer)                    | [DriveThruRPG](https://www.drivethrurpg.com/en/product/385682/runecairn-wardensaga)              | runecairn                          | NSR; entra por su edición en castellano.                                                 |
+| 50  | The Electrum Archive               | The Electrum Archive               | Cult of the Lizard King            | 2022 | —                                                        | Cairn: reescrito pero compatible                            | sí (Outremer)                    | [Outremer](https://outremer.es/producto/el-archivo-de-electro/)                                  | the-electrum-archive               | NSR; zine; entra por su edición en castellano.                                           |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -1043,20 +1044,44 @@ Juegos y libros españoles derivados de D&D o muy próximos, muchos financiados 
 
 ### Traducciones al castellano que faltaban (issue #160, parte 2)
 
-Revisado en Juegos de la Mesa Redonda, Nosolorol y Outremer el 2026-11-25. Dolmenwood en castellano son ediciones de sus fichas (Nosolorol, mecenazgo de 2025).
+Revisado en Juegos de la Mesa Redonda, Nosolorol, Outremer, The Hills Press y Verkami el 2026-11-25. Dolmenwood en castellano son ediciones de sus fichas (Nosolorol, mecenazgo de 2025).
 
-| #   | Título                                | Sistema            | Tipo         | Ficha                                  | Nota             |
-| --- | ------------------------------------- | ------------------ | ------------ | -------------------------------------- | ---------------- |
-| 1   | Labyrinth Lord (caja)                 | labyrinth-lord     | básico       | labyrinth-lord-caja                    | Nosolorol.       |
-| 2   | Labyrinth Lord Aventuras Vol. 1       | labyrinth-lord     | aventura     | labyrinth-lord-aventuras-vol-1         | Nosolorol.       |
-| 3   | A Rasp of Sand + Knave                | knave              | suplemento   | a-rasp-of-sand                         | Outremer.        |
-| 4   | Black Sword Hack                      | black-sword-hack   | básico       | black-sword-hack                       | The Hills Press. |
-| 5   | For Coin & Blood                      | for-coin-and-blood | básico       | for-coin-and-blood                     | The Hills Press. |
-| 6   | For Coin & Blood: La Corona de Sangre | for-coin-and-blood | ambientación | for-coin-and-blood-la-corona-de-sangre | The Hills Press. |
-| 7   | Runecairn: Wardensaga                 | runecairn          | básico       | runecairn-wardensaga                   | Outremer.        |
-| 8   | Runecairn: Bestiario                  | runecairn          | suplemento   | runecairn-bestiario                    | Outremer.        |
+| #   | Título                                                  | Sistema               | Tipo         | Ficha                                             | Nota                               |
+| --- | ------------------------------------------------------- | --------------------- | ------------ | ------------------------------------------------- | ---------------------------------- |
+| 1   | Labyrinth Lord (caja)                                   | labyrinth-lord        | básico       | labyrinth-lord-caja                               | Nosolorol.                         |
+| 2   | Labyrinth Lord Aventuras Vol. 1                         | labyrinth-lord        | aventura     | labyrinth-lord-aventuras-vol-1                    | Nosolorol.                         |
+| 3   | A Rasp of Sand + Knave                                  | knave                 | suplemento   | a-rasp-of-sand                                    | Outremer.                          |
+| 4   | Black Sword Hack                                        | black-sword-hack      | básico       | black-sword-hack                                  | The Hills Press.                   |
+| 5   | For Coin & Blood                                        | for-coin-and-blood    | básico       | for-coin-and-blood                                | The Hills Press.                   |
+| 6   | For Coin & Blood: La Corona de Sangre                   | for-coin-and-blood    | ambientación | for-coin-and-blood-la-corona-de-sangre            | The Hills Press.                   |
+| 7   | Runecairn: Wardensaga                                   | runecairn             | básico       | runecairn-wardensaga                              | Outremer.                          |
+| 8   | Runecairn: Bestiario                                    | runecairn             | suplemento   | runecairn-bestiario                               | Outremer.                          |
+| 9   | Old-School Essentials (Fantasía clásica)                | old-school-essentials | básico       | ose-classic-game-set                              | The Hills Press, 2021.             |
+| 10  | El agujero en el roble                                  | old-school-essentials | aventura     | the-hole-in-the-oak                               | The Hills Press, 2022.             |
+| 11  | Fantasía avanzada: Reglas de género                     | old-school-essentials | suplemento   | ose-advanced-fantasy-genre-rules                  | The Hills Press, 2022.             |
+| 12  | Fantasía avanzada: Hechizos para druidas e ilusionistas | old-school-essentials | suplemento   | ose-advanced-fantasy-druid-and-illusionist-spells | The Hills Press, 2022.             |
+| 13  | Tornwood y la Tumba Desconocida                         | old-school-essentials | aventura     | tornwood-y-la-tumba-desconocida                   | The Hills Press, 2022.             |
+| 14  | Gusano carroñero #1                                     | old-school-essentials | otro         | gusano-carronero-1                                | Revista; The Hills Press, 2022.    |
+| 15  | Los salones del Rey de Sangre                           | old-school-essentials | aventura     | halls-of-the-blood-king                           | The Hills Press, 2022.             |
+| 16  | Temblores bajo la montaña sagrada                       | old-school-essentials | aventura     | holy-mountain-shaker                              | The Hills Press, 2024.             |
+| 17  | Fantasía avanzada: Bestiario                            | old-school-essentials | suplemento   | ose-advanced-fantasy-monsters                     | The Hills Press, 2024.             |
+| 18  | Fantasía avanzada: Tesoros                              | old-school-essentials | suplemento   | ose-advanced-fantasy-treasures                    | The Hills Press, 2024.             |
+| 19  | El Archivo de Electro #1                                | the-electrum-archive  | básico       | el-archivo-de-electro-1                           | Zine; Outremer.                    |
+| 20  | Cursed!                                                 | knave                 | suplemento   | cursed                                            | Zine; Outremer.                    |
+| 21  | Eirendor: Tesoros & Monstruos                           | eirendor              | suplemento   | eirendor-tesoros-y-monstruos                      | Yipikayei; Verkami (2017).         |
+| 22  | Eirendor: El Palacio de los Sueños                      | eirendor              | aventura     | eirendor-el-palacio-de-los-suenos                 | Telar de Leyendas; Verkami (2017). |
 
-Fuera: Mörk Borg y Old-School Essentials no tienen todavía edición en castellano a la venta; El Archivo de Electro y Cursed! (Outremer) son zines; Siete Pecados (Nosolorol) es un suplemento para SRD 5 y OSR sin sistema propio; Knave en castellano solo está en PDF de «paga lo que quieras».
+Entra todo lo publicado en castellano aunque esté agotado, también los zines impresos. Las fechas salen de la campaña de mecenazgo o de la preventa y, si no, del alta del producto en la tienda de la editorial. Fuera: Mörk Borg no tiene todavía edición en castellano; Siete Pecados (Nosolorol) es un suplemento para SRD 5 y OSR sin sistema propio; Knave en castellano solo está en PDF de «paga lo que quieras».
+
+### Pendiente de investigar (campañas de Verkami, 2026-11-25)
+
+Proyectos financiados en Verkami de la familia de D&D que aún no están en el catálogo:
+
+- **Clásicos del Mazmorreo:** la primera edición en castellano (Verkami, agosto de 2016) y la segunda; la ficha solo recoge la tercera.
+- **OSR españoles:** Walpurgis, el retrojuego de rol de fantasía; Fallen Justice OSR; Dungeon Hack: Aventureros errantes; Tierras quebradas; Buscadores de mazmorras; Entrando en la mazmorra; Crónicas de Aarth.
+- **Libros de terceros para 5E en castellano:** La isla de Vyrr, Brancalonia 5E, Tanares RPG 5E, Kobold: aventuras en Tzarkuhdea, Compendio de objetos mágicos para D&D 5E, Dungeons & Cthulhu, Cómo seducir a un dragón y las aventuras de La Mazmorra del Roleo (El último banquete, La caverna misteriosa, Save Private Tom).
+- **Dragonlight:** juego sobre el SRD 5.2.
+- **Fechas en castellano** de Labyrinth Lord y las aventuras de Nosolorol.
 
 ## Ediciones anteriores de D&D
 

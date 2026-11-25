@@ -12,7 +12,12 @@
       "date": "2018-03",
       "format": "boxed_set",
       "source": "https://lamarcadeleste.com/2018/02/al-fin-gazetteer.html",
-      "free_download": "https://codexdelamarca.com/posts/gazetteer/"
+      "free_download": "https://codexdelamarca.com/posts/gazetteer/",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/18034-gazetteer-de-aventuras-en-la-marca-del-este",
+        "end": "2017-08-09"
+      }
     }
   ]
 }

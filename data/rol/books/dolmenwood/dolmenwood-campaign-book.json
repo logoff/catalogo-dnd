@@ -25,6 +25,11 @@
       "title": "Dolmenwood: Libro de Campaña",
       "publisher": "Nosolorol",
       "format": "hardcover",
+      "crowdfunding": {
+        "platform": "editorial",
+        "url": "https://www.nosolorol.com/dolmenwood",
+        "end": "2025-05-05"
+      },
       "purchase_links": [
         {
           "store": "juegos_mesa_redonda",

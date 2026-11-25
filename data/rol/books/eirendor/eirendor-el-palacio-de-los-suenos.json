@@ -1,0 +1,20 @@
+{
+  "slug": "eirendor-el-palacio-de-los-suenos",
+  "system": "eirendor",
+  "title": "Eirendor: El Palacio de los Sueños",
+  "kind": "adventure",
+  "description": "Aventura para Eirendor del grupo creativo Telar de Leyendas, financiada en Verkami en septiembre de 2017.\n\nNecesita el manual básico de Eirendor.",
+  "source": "https://www.verkami.com/projects/18373-eirendor-el-palacio-de-los-suenos",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Telar de Leyendas",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/18373-eirendor-el-palacio-de-los-suenos",
+        "end": "2017-09-05"
+      }
+    }
+  ]
+}

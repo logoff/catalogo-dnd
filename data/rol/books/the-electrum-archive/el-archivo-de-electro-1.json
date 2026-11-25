@@ -1,0 +1,18 @@
+{
+  "slug": "el-archivo-de-electro-1",
+  "system": "the-electrum-archive",
+  "title": "El Archivo de Electro #1",
+  "kind": "core",
+  "core": true,
+  "description": "El primer número de El Archivo de Electro: las reglas para jugar a buscatintas en el mundo de Orn, sus ciudades dominadas por casas mercantiles y los peligros de las tierras de los Antiguos, en 68 páginas en blanco y negro.\n\nEs todo lo necesario para empezar; en castellano lo publica Outremer.",
+  "source": "https://outremer.es/producto/el-archivo-de-electro/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Outremer Ediciones",
+      "format": "paperback",
+      "isbn13": 9788400111090,
+      "cover": "/images/rol/el-archivo-de-electro-1/castellano.webp"
+    }
+  ]
+}

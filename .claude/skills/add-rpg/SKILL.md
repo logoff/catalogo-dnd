@@ -31,8 +31,7 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   editorial del sistema o las de `line_publishers`): suplementos,
   aventuras, cajas y pantallas (`format: screen`). Cada edición lleva
   `format` y al menos una debe ser impresa (vale la impresión bajo
-  demanda). Fuera: material de terceros solo en inglés, zines y libros
-  solo en PDF. La constancia de la impresión sale de la tienda de la
+  demanda). Entra todo lo publicado en castellano aunque esté agotado, también los zines impresos. Fuera: material de terceros solo en inglés y libros solo en PDF. La constancia de la impresión sale de la tienda de la
   editorial, del formato impreso en DriveThruRPG o de un ISBN.
 - **Libros:** todo lo publicado o anunciado en castellano de esos
   sistemas; de lo que solo está en inglés, los principales (básicos y caja
@@ -118,13 +117,11 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
     Drive publicado por el autor), la edición lleva `free_download` con esa
     URL. No es una tienda ni cuenta como enlace de compra. En los OSR y NSR
     basta para que entre un libro solo en PDF.
-  - **Micromecenazgo:** si la edición se financió o se está financiando en
-    una campaña (Verkami, Kickstarter, Gamefound, BackerKit, Lánzanos,
-    Ulule), lleva `crowdfunding` con `platform`, `url` y `end` (fecha de
+  - **Micromecenazgo y preventas:** si la edición se financió o se está financiando en una campaña (Verkami, Kickstarter, Gamefound, BackerKit, Lánzanos, Ulule o el mecenazgo de la propia editorial en su tienda, `editorial`, como hacen Nosolorol o The Hills Press), lleva `crowdfunding` con `platform`, `url` y `end` (fecha de
     cierre, AAAA-MM-DD). Solo campañas conseguidas o abiertas; si la página
     no da la fecha de cierre, se toma de «Proyecto conseguido el…» o de los
     días que quedan. Mientras sigue abierta, sale en «En micromecenazgo» de
-    `/novedades`; no es una tienda ni cuenta como enlace de compra.
+    `/novedades`; no es una tienda ni cuenta como enlace de compra. La lista de proyectos financiados de Verkami (`/discover/projects/by/money_raised/category/47-rpgs?page=N`) sirve para encontrar las campañas. Las fechas de las ediciones en castellano salen de la campaña o la preventa y, si no hay, del alta del producto en la tienda de la editorial (en WooCommerce, `/wp-json/wp/v2/product/<id>?_fields=date`).
   - **Rol español de la familia de D&D:** entra todo, también lo pequeño y lo
     que solo se vende en Lulu o en la tienda de la editorial (con su
     excepción de afiliado); los libros de aventuras «para D&D o cualquier

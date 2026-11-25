@@ -11,9 +11,14 @@
       "publisher": "La Marca del Este",
       "date": "2019-10",
       "format": "paperback",
-      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23806-aventuras-en-la-marca-del-este-alameda.html",
       "cover": "/images/rol/marca-alameda/castellano.webp",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23806-aventuras-en-la-marca-del-este-alameda.html",
       "free_download": "https://codexdelamarca.com/posts/g2-alameda/",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/23656-cuatro-modulos-de-aventuras-para-clasicos-de-la-marca",
+        "end": "2019-06-22"
+      },
       "purchase_links": [
         {
           "store": "tesoros_de_la_marca",

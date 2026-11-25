@@ -3,7 +3,7 @@
   "system": "old-school-essentials",
   "title": "Holy Mountain Shaker",
   "kind": "adventure",
-  "description": "Una aventura de Luka Rejec para personajes de nivel 5 a 6: terremotos asolan una vieja ciudad y todos lo achacan al Pez Faraón, el dios que duerme bajo la montaña, así que el consejo envía a unos «aventureros expertos» a aplacarlo.\n\nSe juega como un recorrido por diecisiete regiones, con reglas para ese formato en Old-School Essentials y una mazmorra dentro del propio Pez Faraón.",
+  "description": "Una aventura de Luka Rejec para personajes de nivel 5 a 6: terremotos asolan una vieja ciudad y todos lo achacan al Pez Faraón, el dios que duerme bajo la montaña, así que el consejo envía a unos «aventureros expertos» a aplacarlo.\n\nSe juega como un recorrido por diecisiete regiones, con reglas para ese formato en Old-School Essentials y una mazmorra dentro del propio Pez Faraón. En castellano lo publica The Hills Press.",
   "source": "https://www.drivethrurpg.com/en/product/363966/holy-mountain-shaker",
   "editions": [
     {
@@ -18,6 +18,13 @@
           "url": "https://www.drivethrurpg.com/en/product/363966/holy-mountain-shaker"
         }
       ]
+    },
+    {
+      "language": "castellano",
+      "title": "Temblores bajo la montaña sagrada",
+      "publisher": "The Hills Press",
+      "date": "2024-02",
+      "format": "paperback"
     }
   ]
 }

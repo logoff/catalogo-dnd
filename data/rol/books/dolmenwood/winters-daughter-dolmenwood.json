@@ -16,7 +16,12 @@
       "language": "castellano",
       "title": "La Hija del Invierno",
       "publisher": "Nosolorol",
-      "format": "hardcover"
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "editorial",
+        "url": "https://www.nosolorol.com/dolmenwood",
+        "end": "2025-05-05"
+      }
     }
   ]
 }

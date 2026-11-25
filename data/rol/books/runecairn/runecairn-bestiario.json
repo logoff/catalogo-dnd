@@ -9,9 +9,15 @@
     {
       "language": "castellano",
       "publisher": "Outremer Ediciones",
+      "date": "2024-02",
       "format": "paperback",
       "isbn13": 9788412770926,
       "cover": "/images/rol/runecairn-bestiario/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/37162-runecairn-un-juego-de-rol-souls-like-en-un-mundo-tras-el-ragnarok",
+        "end": "2023-12-11"
+      },
       "purchase_links": [
         {
           "store": "juegos_mesa_redonda",
