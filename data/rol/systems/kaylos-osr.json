@@ -1,0 +1,29 @@
+{
+  "slug": "kaylos-osr",
+  "name": "Kaylos OSR",
+  "family": "kaylos-osr",
+  "publisher": "El Artesano del Rey",
+  "date": "2024-11",
+  "movement": "nsr",
+  "description": "Juego de rol de fantasía de El Artesano del Rey con un sistema propio de dados de seis caras: cuatro características, tiradas por debajo y una clase (guerrero, mago, ladrón o clérigo) que sale de la característica más alta, en el mundo de Kaylos.\n\nSe financió en Verkami en 2024 y tuvo una versión 2.1 en 2026 con todos los manuales en un solo libro; sus autores lo inspiran en Cairn y otros juegos de la escena OSR. Solo está en castellano.",
+  "features": [
+    "Sistema propio de d6",
+    "Cuatro clases clásicas",
+    "Reglas para jugar en solitario",
+    "Financiado en Verkami"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "cairn",
+      "kind": "inspiration",
+      "note": "Sus autores citan Cairn y otros juegos OSR como inspiración; el sistema de d6 es propio."
+    }
+  ],
+  "links": [
+    {
+      "label": "El Artesano del Rey",
+      "url": "https://elartesanodelrey.es/"
+    }
+  ]
+}

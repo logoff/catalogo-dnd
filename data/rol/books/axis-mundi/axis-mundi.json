@@ -1,0 +1,19 @@
+{
+  "slug": "axis-mundi",
+  "system": "axis-mundi",
+  "title": "Axis Mundi",
+  "kind": "core",
+  "core": true,
+  "description": "El libro básico de Axis Mundi: creación de personajes con sus tres clases, reglas de exploración y combate, conjuros, monstruos y objetos mágicos, y las herramientas del Amo del Calabozo para dirigir, en 320 páginas de tapa dura.\n\nEs todo lo necesario para jugar y sirve como puerta de entrada al rol de la vieja escuela en castellano; se complementa con la aventura Estación Norte.",
+  "source": "https://77mundos.es/tienda/axis-mundi/1684/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "77 Mundos",
+      "date": "2022-01",
+      "format": "hardcover",
+      "isbn13": 9788412379310,
+      "cover": "/images/rol/axis-mundi/castellano.webp"
+    }
+  ]
+}

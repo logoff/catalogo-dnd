@@ -79,6 +79,7 @@ export default function ReleasesPage({
   const upcoming = data.upcoming.filter(keep)
   const announced = data.announced.filter(keep)
   const recent = data.recent.filter(keep)
+  const campaigns = data.campaigns.filter(keep)
 
   return (
     <>
@@ -111,6 +112,18 @@ export default function ReleasesPage({
             onChange={setLanguage}
             className="mb-8"
           />
+
+          {campaigns.length > 0 && (
+            <section aria-labelledby="micromecenazgo" className="mb-12">
+              <h2 id="micromecenazgo" className={headingClass('section', 'mb-1')}>
+                En micromecenazgo
+              </h2>
+              <p className="mb-4 text-sm text-muted">
+                Campañas abiertas, con su fecha de cierre: es cuando se pueden conseguir.
+              </p>
+              <ReleaseList releases={campaigns} />
+            </section>
+          )}
 
           {(upcoming.length > 0 || announced.length > 0) && (
             <section aria-labelledby="proximamente" className="mb-12">

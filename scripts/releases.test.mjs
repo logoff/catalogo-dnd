@@ -1,5 +1,11 @@
 import { describe, it, expect } from 'vitest'
-import { announcedEntries, describeFicha, releaseEntries, splitReleases } from './releases.mjs'
+import {
+  announcedEntries,
+  campaignEntries,
+  describeFicha,
+  releaseEntries,
+  splitReleases,
+} from './releases.mjs'
 
 const empty = { products: [], videogames: [], merchandise: [], novels: [], rpgBooks: [] }
 const today = '2026-11-23'
@@ -155,6 +161,37 @@ describe('anunciados', () => {
       today
     )
     expect(entry.year).toBe('2027')
+  })
+})
+
+describe('campañas de micromecenazgo', () => {
+  const campaign = (end, url = `https://www.verkami.com/projects/${end}`) => ({
+    language: 'castellano',
+    publisher: 'Autoedición',
+    crowdfunding: { platform: 'verkami', url, end },
+  })
+  const data = {
+    rpgSystems: [
+      { slug: 'dnd-5e-2014', name: 'D&D 5E (2014)', official: true, official_catalog: '/2014' },
+    ],
+    rpgBooks: [
+      { slug: 'b', system: 'dnd-5e-2014', title: 'B', editions: [campaign('2026-12-27')] },
+      { slug: 'a', system: 'dnd-5e-2014', title: 'A', editions: [campaign('2026-11-23')] },
+      {
+        slug: 'cerrada',
+        system: 'dnd-5e-2014',
+        title: 'Cerrada',
+        editions: [campaign('2026-11-22')],
+      },
+      { slug: 'sin', system: 'dnd-5e-2014', title: 'Sin', editions: [{ language: 'castellano' }] },
+    ],
+  }
+
+  it('solo las abiertas (cierran hoy o después), de la que cierra antes a la que cierra después', () => {
+    expect(campaignEntries(data, today).map((e) => [e.name, e.date, e.context, e.path])).toEqual([
+      ['A', '2026-11-23', 'D&D 5E (2014) · Verkami', '/rol/dnd-5e-2014/a'],
+      ['B', '2026-12-27', 'D&D 5E (2014) · Verkami', '/rol/dnd-5e-2014/b'],
+    ])
   })
 })
 

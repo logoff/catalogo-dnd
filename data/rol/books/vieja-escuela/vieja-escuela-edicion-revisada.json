@@ -1,0 +1,19 @@
+{
+  "slug": "vieja-escuela-edicion-revisada",
+  "system": "vieja-escuela",
+  "title": "Vieja Escuela: el juego de rol",
+  "kind": "core",
+  "core": true,
+  "description": "Edición revisada del reglamento de Vieja Escuela, de Javier «cabohicks» García: un librito de bolsillo de 28 páginas con las reglas para crear personajes, explorar mazmorras, combatir y lanzar conjuros al estilo del D&D clásico.\n\nEstá pensado para quien quiere jugar a la vieja escuela con el mínimo de reglas o adaptar sobre la marcha aventuras de otros retroclones. El PDF es gratuito y el libro se imprime bajo demanda en Lulu.",
+  "source": "https://viejaescuela.nogarung.com/vieja-escuela-el-juego-de-rol-edicion-revisada/",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Vieja Escuela: el juego de rol (edición revisada)",
+      "publisher": "Grapas y Mapas",
+      "date": "2026-10-20",
+      "format": "paperback",
+      "cover": "/images/rol/vieja-escuela-edicion-revisada/castellano.webp"
+    }
+  ]
+}

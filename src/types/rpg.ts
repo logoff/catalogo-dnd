@@ -97,6 +97,18 @@ export interface RpgEdition {
   purchase_links?: RpgPurchaseLink[]
   // Copia gratuita liberada por la editorial (Codex de la Marca); no es una tienda
   free_download?: string
+  // Campaña de micromecenazgo de la edición (conseguida o abierta)
+  crowdfunding?: RpgCrowdfunding
+}
+
+export type CrowdfundingPlatform =
+  'verkami' | 'kickstarter' | 'gamefound' | 'backerkit' | 'lanzanos' | 'ulule'
+
+export interface RpgCrowdfunding {
+  platform: CrowdfundingPlatform
+  url: string
+  // Fecha de cierre (AAAA-MM-DD)
+  end: string
 }
 
 export interface RpgBook {

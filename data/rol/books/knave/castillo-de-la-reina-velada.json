@@ -1,0 +1,17 @@
+{
+  "slug": "castillo-de-la-reina-velada",
+  "system": "knave",
+  "title": "El castillo de la Reina Velada",
+  "kind": "adventure",
+  "description": "Módulo para Más allá de Corny Groń: un castillo fronterizo de las montañas Karpaki, entre prisión y fortaleza del Imperio de Estiria-Panonia, con más de 85 habitaciones, más de 25 personajes no jugadores, objetos mágicos únicos y ganchos de aventura.\n\nNecesita el libro básico de Más allá de Corny Groń y da para intrigas, alianzas y saqueos en el valle.",
+  "source": "https://outremer.es/producto/el-castillo-de-la-reina-velada-version-fisica/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Outremer Ediciones",
+      "format": "paperback",
+      "isbn13": 9791399036299,
+      "cover": "/images/rol/castillo-de-la-reina-velada/castellano.webp"
+    }
+  ]
+}

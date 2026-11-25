@@ -30,4 +30,6 @@ export interface ReleasesIndex {
   upcoming: Release[]
   recent: Release[]
   announced: Release[]
+  // Libros en campaña de micromecenazgo abierta; su `date` es la fecha de cierre
+  campaigns: Release[]
 }

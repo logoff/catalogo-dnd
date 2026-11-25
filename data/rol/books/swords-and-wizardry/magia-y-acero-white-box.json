@@ -1,0 +1,18 @@
+{
+  "slug": "magia-y-acero-white-box",
+  "system": "swords-and-wizardry",
+  "title": "Magia & Acero White Box",
+  "kind": "core",
+  "core": true,
+  "description": "Adaptación al castellano de White Box FMAG, de Javier García: el juego completo en 138 páginas, con clases, conjuros, monstruos y tesoros al estilo de la caja blanca original de 1974, en la tradición de Swords & Wizardry WhiteBox.\n\nEs para quien quiere jugar el D&D más primitivo en castellano con reglas cortas y abiertas a la improvisación. Se imprime bajo demanda en Lulu desde 2022 y su autor lo ha ido revisando.",
+  "source": "https://www.lulu.com/es/shop/javier-garc%C3%ADa-dwayne-hicks/magia-acero-white-box/paperback/product-n8689k.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Javier García",
+      "date": "2022-07-28",
+      "format": "paperback",
+      "cover": "/images/rol/magia-y-acero-white-box/castellano.webp"
+    }
+  ]
+}

@@ -199,7 +199,11 @@ ellos entra, además, la línea impresa propia en inglés (editorial del
 sistema o `line_publishers`), con `format` en cada edición y al menos una
 impresa (`movementBookProblem` en `src/utils/rpg.ts`). Si la editorial ha
 liberado un libro en Codex de la Marca, la edición lo enlaza con
-`free_download`, un botón aparte que no es de compra. De los juegos de La
+`free_download`, un botón aparte que no es de compra. Las ediciones
+financiadas en micromecenazgo llevan `crowdfunding` (plataforma, enlace y
+fecha de cierre): la ficha dice «En campaña en…» o «Financiado en…» comparando
+con `virtual:build-date`, y las abiertas salen en «En micromecenazgo» de
+`/novedades` (`campaignEntries` en `scripts/releases.mjs`). De los juegos de La
 Marca del Este entra todo lo oficial, también accesorios (formato
 `accessory`), novelas y PDF liberados en Codex.
 Los sistemas de D&D tienen ficha mínima que enlaza al catálogo oficial

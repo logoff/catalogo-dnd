@@ -78,6 +78,7 @@ const data: ReleasesIndex = {
       date: '2026-10-02',
     },
   ],
+  campaigns: [],
 }
 
 const summary = (month: string): MonthlySummary => ({
@@ -131,6 +132,35 @@ describe('página de novedades', () => {
     expect(link).toHaveAttribute('data-umami-event', 'novedades')
     expect(link).toHaveAttribute('data-umami-event-seccion', 'novelas')
     expect(link).toHaveAttribute('data-umami-event-idioma', 'castellano')
+  })
+
+  it('muestra las campañas de micromecenazgo abiertas con su fecha de cierre', () => {
+    renderPage({
+      ...data,
+      campaigns: [
+        {
+          name: 'Mazmorrón: El Azulón',
+          path: '/rol/dnd-5e-2014/mazmorron-el-azulon',
+          section: 'rol',
+          context: 'D&D 5E (2014) · Verkami',
+          key: 'campaña-castellano-x',
+          language: 'castellano',
+          date: '2026-12-27',
+        },
+      ],
+    })
+    const campaigns = section('En micromecenazgo')
+    expect(within(campaigns).getByRole('link', { name: 'Mazmorrón: El Azulón' })).toHaveAttribute(
+      'href',
+      '/rol/dnd-5e-2014/mazmorron-el-azulon'
+    )
+    expect(campaigns).toHaveTextContent('27 dic')
+    expect(campaigns).toHaveTextContent('Verkami')
+  })
+
+  it('no muestra «En micromecenazgo» si no hay campañas abiertas', () => {
+    renderPage()
+    expect(screen.queryByRole('heading', { name: 'En micromecenazgo' })).toBeNull()
   })
 
   it('no muestra «Próximamente» si no hay nada anunciado', () => {

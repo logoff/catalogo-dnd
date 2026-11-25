@@ -108,6 +108,10 @@ digital de plataformas comunitarias.
 | 38  | Leyendas de la Marca del Este      | Crónicas de la Marca del Este      | Holocubierta Ediciones             | 2017 | ogl-1-0a                                                 | Castles & Crusades: reescrito pero compatible               | sí                               | [La Marca del Este](https://lamarcadeleste.com/2017/12/leyendas-de-la-marca.html)                | leyendas-de-la-marca-del-este      | OSR                                                                                      |
 | 39  | Crónicas de la Marca del Este      | Crónicas de la Marca del Este      | La Marca del Este                  | 2022 | ogl-1-0a                                                 | Leyendas de la Marca del Este: revisión                     | sí                               | [Codex de la Marca](https://codexdelamarca.com/posts/cronicas-marca/)                            | cronicas-de-la-marca-del-este      | OSR                                                                                      |
 | 40  | La Marca Estelar                   | La Marca Estelar                   | Holocubierta Ediciones             | 2016 | —                                                        | Aventuras en la Marca del Este: cambio mayor de reglas      | sí                               | [La Marca del Este](https://lamarcadeleste.com/2016/06/la-marca-estelar-este-viernes-ya-la.html) | la-marca-estelar                   | OSR                                                                                      |
+| 41  | Axis Mundi                         | Axis Mundi                         | 77 Mundos                          | 2022 | ogl-1-0a                                                 | D&D básico: reescrito pero compatible (OGL)                 | sí                               | [77 Mundos](https://77mundos.es/categoria-producto/axis-mundi/)                                  | axis-mundi                         | Retroclón español (issue #160).                                                          |
+| 42  | Vieja Escuela                      | Vieja Escuela                      | Grapas y Mapas                     | 2026 | ogl-1-0a; cc-by-sa-4-0                                   | D&D original: reescrito pero compatible (OGL)               | sí                               | [Vieja Escuela](https://viejaescuela.nogarung.com/)                                              | vieja-escuela                      | Retroclón minimalista español; fecha de la edición revisada.                             |
+| 43  | Kaylos OSR                         | Kaylos OSR                         | El Artesano del Rey                | 2024 | —                                                        | Cairn: inspiración                                          | sí                               | [Verkami](https://www.verkami.com/projects/39488-kaylos-osr)                                     | kaylos-osr                         | Sistema propio de d6 (NSR), financiado en Verkami.                                       |
+| 44  | Helvéczia                          | Helvéczia                          | Outremer Ediciones                 | 2022 | —                                                        | D&D 3.ª edición: cambio mayor de reglas                     | sí                               | [Outremer](https://outremer.es/producto/helveczia-el-juego-de-rol-de-fantasia-picaresca/)        | helveczia                          | Original húngaro (2013); edición española financiada en Verkami.                         |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -1008,6 +1012,28 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 | --- | --------------------------- | -------- | -------------------------------------------- | -------------------------------------------------- |
 | 1   | La Marca Estelar            | básico   | la-marca-estelar                             | castellano                                         |
 | 2   | Los clonadores de Tavuun-17 | aventura | la-marca-estelar-los-clonadores-de-tavuun-17 | castellano; descarga gratuita en Codex de la Marca |
+
+## Rol español de la familia de D&D (issue #160)
+
+Juegos y libros españoles derivados de D&D o muy próximos, muchos financiados en micromecenazgo (la edición enlaza la campaña). Revisado el 2026-11-25.
+
+| #   | Título                                            | Sistema             | Tipo         | Ficha                          | Nota                                                          |
+| --- | ------------------------------------------------- | ------------------- | ------------ | ------------------------------ | ------------------------------------------------------------- |
+| 1   | Axis Mundi                                        | axis-mundi          | básico       | axis-mundi                     | 77 Mundos, enero de 2022.                                     |
+| 2   | Estación Norte                                    | axis-mundi          | aventura     | axis-mundi-estacion-norte      | 77 Mundos.                                                    |
+| 3   | Vieja Escuela: el juego de rol (edición revisada) | vieja-escuela       | básico       | vieja-escuela-edicion-revisada | Lulu, octubre de 2026.                                        |
+| 4   | Kaylos OSR                                        | kaylos-osr          | básico       | kaylos-osr                     | Verkami (2024).                                               |
+| 5   | Kaylos OSR 2.1                                    | kaylos-osr          | básico       | kaylos-osr-2-1                 | Verkami (2026), pendiente de entrega.                         |
+| 6   | Helvéczia (caja)                                  | helveczia           | básico       | helveczia-caja                 | Verkami (2022).                                               |
+| 7   | El Mazmorrón                                      | dnd-5e-2014         | aventura     | el-mazmorron                   | Para D&D o cualquier juego de fantasía; Verkami (2024).       |
+| 8   | Mazmorrón: El Azulón                              | dnd-5e-2014         | aventura     | mazmorron-el-azulon            | En campaña en Verkami hasta el 2026-12-27.                    |
+| 9   | Magia & Acero White Box                           | swords-and-wizardry | básico       | magia-y-acero-white-box        | Adaptación de White Box FMAG; Lulu.                           |
+| 10  | Más allá de Corny Groń                            | knave               | ambientación | mas-alla-de-corny-gron         | Outremer; Verkami (2026).                                     |
+| 11  | El castillo de la Reina Velada                    | knave               | aventura     | castillo-de-la-reina-velada    | Módulo de Corny Groń.                                         |
+| 12  | Eirendor: El Albor de la Quinta Edad              | —                   | básico       | pendiente                      | Basado en la 5E; faltan fuentes de la campaña y la editorial. |
+| 13  | Trasgos y Mazmorras                               | —                   | básico       | pendiente                      | Tragotauro (2012-2014); sin fuente oficial encontrada.        |
+
+Pendiente en otro cambio: las traducciones al castellano de sistemas OSR que ya están en el catálogo (Labyrinth Lord de Nosolorol, Mörk Borg de El Refugio de Ryhope, Old-School Essentials de The Hills Press, la línea de Knave de Outremer…).
 
 ## Ediciones anteriores de D&D
 

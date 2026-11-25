@@ -118,6 +118,17 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
     la URL de su entrada (`https://codexdelamarca.com/posts/<entrada>/`).
     No es una tienda ni cuenta como enlace de compra; solo si la entrada
     tiene descarga.
+  - **Micromecenazgo:** si la edición se financió o se está financiando en
+    una campaña (Verkami, Kickstarter, Gamefound, BackerKit, Lánzanos,
+    Ulule), lleva `crowdfunding` con `platform`, `url` y `end` (fecha de
+    cierre, AAAA-MM-DD). Solo campañas conseguidas o abiertas; si la página
+    no da la fecha de cierre, se toma de «Proyecto conseguido el…» o de los
+    días que quedan. Mientras sigue abierta, sale en «En micromecenazgo» de
+    `/novedades`; no es una tienda ni cuenta como enlace de compra.
+  - **Rol español de la familia de D&D:** entra todo, también lo pequeño y lo
+    que solo se vende en Lulu o en la tienda de la editorial (con su
+    excepción de afiliado); los libros de aventuras «para D&D o cualquier
+    juego de fantasía» cuelgan de `dnd-5e-2014` con `license: none`.
   - **La Marca del Este** (`MARCA_DEL_ESTE_SYSTEMS` en `src/utils/rpg.ts`):
     entra todo lo oficial del grupo, también accesorios (`format:
     accessory`, `kind: other`), novelas y aventuras solo en PDF si están

@@ -1,0 +1,22 @@
+{
+  "slug": "el-mazmorron",
+  "system": "dnd-5e-2014",
+  "title": "El Mazmorrón",
+  "kind": "adventure",
+  "license": "none",
+  "description": "Libro de Dan y Lena con un megadungeon enorme, de más de 300 páginas e ilustrado en blanco y negro, pensado para Dungeons & Dragons pero con referencias de reglas tan breves que sirve con cualquier juego de rol de fantasía, y que también se puede leer como un libro de exploración.\n\nEs una mazmorra para campañas largas a muchos niveles. Se financió en Verkami en diciembre de 2024, se envió a los mecenas en junio de 2025 y después salió en PDF en DriveThruRPG.",
+  "source": "https://www.verkami.com/projects/39467-el-mazmorron-un-mega-dungeon-para-disfrutar-a-muchos-niveles",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Dan y Lena",
+      "date": "2025-06",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/39467-el-mazmorron-un-mega-dungeon-para-disfrutar-a-muchos-niveles",
+        "end": "2024-12-17"
+      }
+    }
+  ]
+}
