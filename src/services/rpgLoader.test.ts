@@ -178,6 +178,18 @@ describe('esquema de libros', () => {
     ).toBe(false)
     expect(validateBook({ ...book, extra: true })).toBe(false)
   })
+
+  it('acepta la campaña de micromecenazgo solo con una plataforma conocida', () => {
+    const campaign = (crowdfunding: object) => ({
+      ...book,
+      editions: [{ ...book.editions[0], crowdfunding }],
+    })
+    const url = 'https://www.verkami.com/projects/1-x'
+    expect(validateBook(campaign({ platform: 'verkami', url, end: '2026-12-27' }))).toBe(true)
+    expect(validateBook(campaign({ platform: 'patreon', url, end: '2026-12-27' }))).toBe(false)
+    expect(validateBook(campaign({ platform: 'verkami', url, end: '2026-12' }))).toBe(false)
+    expect(validateBook(campaign({ platform: 'verkami', url }))).toBe(false)
+  })
 })
 
 describe('enrichBook', () => {

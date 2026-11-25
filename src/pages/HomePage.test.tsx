@@ -140,6 +140,7 @@ describe('portada', () => {
       upcoming: ['p1', 'p2', 'p3', 'p4'].map((n) => release(n, '2026-12-01')),
       recent: ['r1', 'r2', 'r3', 'r4'].map((n) => release(n, '2026-11-01')),
       announced: [],
+      campaigns: [],
     }
     const { unmount } = render(
       <MemoryRouter>

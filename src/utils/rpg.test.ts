@@ -1,6 +1,12 @@
 import { describe, expect, it } from 'vitest'
 import type { RpgSystem } from '@/types/rpg'
-import { linePublishers, movementBookProblem, movementProblem, reachesDnd } from './rpg'
+import {
+  linePublishers,
+  movementBookProblem,
+  movementProblem,
+  reachesDnd,
+  freeDownloadLabel,
+} from './rpg'
 
 const system = (slug: string, extra: Partial<RpgSystem> = {}): RpgSystem => ({
   slug,
@@ -110,5 +116,15 @@ describe('movementBookProblem', () => {
       free_download: 'https://codexdelamarca.com/posts/libre/',
     }
     expect(movementBookProblem({ editions: [free] }, ose)).toBeNull()
+  })
+})
+
+describe('freeDownloadLabel', () => {
+  it('nombra Codex de la Marca y deja genéricas las demás descargas', () => {
+    expect(freeDownloadLabel('https://codexdelamarca.com/posts/libre/')).toBe(
+      'Descarga gratuita en Codex de la Marca'
+    )
+    expect(freeDownloadLabel('https://nogarung.com/ve-revisada')).toBe('Descarga gratuita')
+    expect(freeDownloadLabel('https://otrocodexdelamarca.com/x')).toBe('Descarga gratuita')
   })
 })

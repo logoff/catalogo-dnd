@@ -1,0 +1,35 @@
+{
+  "slug": "axis-mundi",
+  "name": "Axis Mundi",
+  "family": "axis-mundi",
+  "publisher": "77 Mundos",
+  "date": "2022-01",
+  "movement": "osr",
+  "description": "Retroclón español de José Carlos «Kha» Domínguez publicado por 77 Mundos: recupera las mecánicas de las primeras ediciones de D&D, con clases y niveles, monstruos, conjuros y objetos mágicos, y lo resume todo en un solo libro de tapa dura con tres clases básicas (mago, guerrero y especialista).\n\nSe publicó en enero de 2022 bajo la licencia OGL y su primera aventura, Estación Norte, lo lleva a un mundo posapocalíptico con tecnomagia. Solo está en castellano.",
+  "features": [
+    "Retroclón de las primeras ediciones",
+    "Tres clases básicas",
+    "Un solo libro con todo el juego",
+    "Licencia OGL"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2022"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Su editorial lo presenta como un retroclón de las primeras ediciones bajo la OGL."
+    }
+  ],
+  "links": [
+    {
+      "label": "77 Mundos",
+      "url": "https://77mundos.es/categoria-producto/axis-mundi/"
+    }
+  ]
+}

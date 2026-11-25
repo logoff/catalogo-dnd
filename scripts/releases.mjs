@@ -210,6 +210,40 @@ export function announcedEntries(data, today) {
   )
 }
 
+const PLATFORMS = {
+  verkami: 'Verkami',
+  kickstarter: 'Kickstarter',
+  gamefound: 'Gamefound',
+  backerkit: 'BackerKit',
+  lanzanos: 'Lánzanos',
+  ulule: 'Ulule',
+}
+
+// Ediciones de libros de rol en campaña de micromecenazgo abierta (cierra hoy o después), con la
+// fecha de cierre como `date` y la plataforma en el contexto; de la que cierra antes a la que
+// cierra después
+export function campaignEntries({ rpgBooks = [], rpgSystems = [] }, today) {
+  const dndEditions = new Set(rpgSystems.filter(isDndEdition).map((system) => system.slug))
+  const systemNames = new Map(rpgSystems.map((system) => [system.slug, system.name]))
+  const open = rpgBooks.flatMap((book) => {
+    const dnd = dndEditions.has(book.system)
+    return book.editions
+      .filter((edition) => edition.crowdfunding && edition.crowdfunding.end >= today)
+      .map((edition) => ({
+        name: edition.title ?? book.title,
+        path: `/${dnd ? 'ediciones' : 'rol'}/${book.system}/${book.slug}`,
+        section: dnd ? 'ediciones' : 'rol',
+        context: [systemNames.get(book.system), PLATFORMS[edition.crowdfunding.platform]]
+          .filter(Boolean)
+          .join(' · '),
+        key: `campaña-${edition.language}-${edition.crowdfunding.url}`,
+        language: edition.language,
+        date: edition.crowdfunding.end,
+      }))
+  })
+  return open.sort((a, b) => a.date.localeCompare(b.date) || a.name.localeCompare(b.name))
+}
+
 // Fecha ISO de hace `days` días
 function daysBefore(today, days) {
   const date = new Date(`${today}T00:00:00Z`)

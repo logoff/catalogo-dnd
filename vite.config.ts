@@ -10,7 +10,12 @@ import { buildComicIndex, relatedComics } from './src/utils/comics.ts'
 import type { Comic, ComicEdition } from './src/types/comic.ts'
 import { buildRpgIndex, rolSection } from './src/utils/rpg.ts'
 import type { License, RpgBook, RpgSystem } from './src/types/rpg.ts'
-import { announcedEntries, releaseEntries, splitReleases } from './scripts/releases.mjs'
+import {
+  announcedEntries,
+  campaignEntries,
+  releaseEntries,
+  splitReleases,
+} from './scripts/releases.mjs'
 import { summarizeMonth, summaryMonths } from './scripts/monthly-summary.mjs'
 import { isShallow, monthChanges } from './scripts/git-history.mjs'
 
@@ -158,6 +163,23 @@ function rpgIndex(): Plugin {
   }
 }
 
+// Día del build en hora de Madrid: el «hoy» de las novedades y de las campañas de micromecenazgo,
+// el mismo en el servidor y en el navegador (el sitio se despliega cada día)
+function madridToday(): string {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date())
+}
+
+// virtual:build-date, solo la fecha, para las páginas que la necesitan sin cargar las novedades
+function buildDate(): Plugin {
+  const MODULE = 'virtual:build-date'
+  return {
+    name: 'build-date',
+    resolveId: (id) => (id === MODULE ? '\0' + id : undefined),
+    load: (id) =>
+      id === '\0' + MODULE ? `export default ${JSON.stringify(madridToday())}` : undefined,
+  }
+}
+
 // Novedades para /novedades y la portada (virtual:releases), con la lógica de scripts/releases.mjs:
 // lo salido en los últimos 90 días, lo que tiene fecha futura y lo anunciado sin fecha. «Hoy» es el
 // día del build en hora de Madrid, el mismo en el servidor y en el navegador; el sitio se despliega
@@ -218,15 +240,14 @@ function releasesIndex(): Plugin {
         rpgBooks: groups.rpgBooks.map(read),
         rpgSystems: groups.rpgSystems.map(read),
       }
-      const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(
-        new Date()
-      )
+      const today = madridToday()
       const { recent, upcoming } = splitReleases(releaseEntries(data), today)
       return `export default ${JSON.stringify({
         today,
         upcoming: upcoming.map(pick),
         recent: recent.map(pick),
         announced: announcedEntries(data, today).map(pick),
+        campaigns: campaignEntries(data, today).map(pick),
       })}`
     },
   }
@@ -295,6 +316,7 @@ export default defineConfig(({ mode }) => {
       comicsIndex(),
       rpgIndex(),
       releasesIndex(),
+      buildDate(),
       monthlySummaries(mode),
     ],
     resolve: {

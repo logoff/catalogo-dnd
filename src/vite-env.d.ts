@@ -63,6 +63,12 @@ declare module 'virtual:rpg-stats' {
 }
 
 // Novedades: lo próximo, lo reciente y lo anunciado, calculado en el build (plugin releasesIndex)
+declare module 'virtual:build-date' {
+  // Día del build en hora de Madrid (AAAA-MM-DD)
+  const today: string
+  export default today
+}
+
 declare module 'virtual:releases' {
   import type { ReleasesIndex } from '@/types/releases'
   const releases: ReleasesIndex

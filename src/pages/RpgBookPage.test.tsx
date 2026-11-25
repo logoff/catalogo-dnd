@@ -116,6 +116,22 @@ const freeBook: RpgBook = {
   ],
 }
 
+const campaignBook = (slug: string, end: string): RpgBook => ({
+  ...book,
+  slug,
+  title: slug,
+  editions: [
+    {
+      language: 'castellano',
+      publisher: 'Autoedición',
+      format: 'paperback',
+      crowdfunding: { platform: 'verkami', url: `https://www.verkami.com/projects/1-${slug}`, end },
+    },
+  ],
+})
+const openCampaign = campaignBook('en-campana', '2999-12-31')
+const closedCampaign = campaignBook('financiado', '2020-01-15')
+
 const renderAt = (path: string) =>
   render(
     <MemoryRouter initialEntries={[path]}>
@@ -132,7 +148,7 @@ describe('ficha de libro', () => {
       buildRpgIndex(
         [orc],
         [system, edition],
-        [book, compatibleOnly, editionBook, freeBook, boxedBook]
+        [book, compatibleOnly, editionBook, freeBook, boxedBook, openCampaign, closedCampaign]
       )
     )
     cacheBook(book)
@@ -140,6 +156,8 @@ describe('ficha de libro', () => {
     cacheBook(compatibleOnly)
     cacheBook(editionBook)
     cacheBook(boxedBook)
+    cacheBook(openCampaign)
+    cacheBook(closedCampaign)
   })
 
   it('muestra título, sistema, licencia heredada, descripción y aviso de no oficial', () => {
@@ -181,6 +199,22 @@ describe('ficha de libro', () => {
     expect(link).not.toHaveAttribute('rel', expect.stringContaining('sponsored'))
     expect(document.querySelector('[data-purchase-links]')).toBeNull()
     expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+  })
+
+  it('enlaza la campaña de micromecenazgo, abierta o ya financiada, sin tratarla como tienda', () => {
+    const { unmount } = renderAt('/rol/pathfinder-2e/en-campana')
+    const open = screen.getByRole('link', {
+      name: /En campaña en Verkami hasta el 31 de diciembre de 2999/,
+    })
+    expect(open).toHaveAttribute('href', 'https://www.verkami.com/projects/1-en-campana')
+    expect(open).not.toHaveAttribute('rel', expect.stringContaining('sponsored'))
+    expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+    unmount()
+    renderAt('/rol/pathfinder-2e/financiado')
+    expect(screen.getByRole('link', { name: /Financiado en Verkami/ })).toHaveAttribute(
+      'href',
+      'https://www.verkami.com/projects/1-financiado'
+    )
   })
 
   it('distingue los enlaces de una misma tienda por lo que se vende en cada uno', () => {
