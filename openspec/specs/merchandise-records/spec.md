@@ -10,9 +10,10 @@ sección de merchandising y qué datos verificables se guardan de cada uno.
 ### Requirement: Alcance de productos licenciados
 
 La sección SHALL incluir productos con licencia oficial de Dungeons &
-Dragons publicados desde 2014 que pertenezcan a uno de cuatro grupos:
+Dragons publicados desde 2014 que pertenezcan a uno de cinco grupos:
 libros licenciados que no son de reglas, figuras y juguetes, juegos de
-mesa y cartas que no son de rol, y dados y accesorios de dados.
+mesa y cartas que no son de rol, dados y accesorios de dados, y papelería y
+regalo.
 
 #### Scenario: Libro de cocina oficial
 
@@ -29,6 +30,18 @@ mesa y cartas que no son de rol, y dados y accesorios de dados.
 - **WHEN** un calendario de adviento de dados lleva la licencia oficial de
   D&D
 - **THEN** entra en la sección, en el grupo de dados y accesorios
+
+#### Scenario: Diario de campaña oficial
+
+- **WHEN** un diario o un puzle lleva la licencia oficial de D&D
+- **THEN** entra en la sección, en el grupo de papelería y regalo
+
+#### Scenario: Librojuego oficial
+
+- **WHEN** un librojuego de «elige tu camino» lleva la licencia oficial de
+  D&D
+- **THEN** entra en la sección, en el grupo de libros licenciados con el
+  tipo librojuego
 
 #### Scenario: Dados genéricos de rol
 
@@ -73,10 +86,10 @@ después se agota, la ficha se mantiene.
 ### Requirement: Grupo y tipo de cada artículo
 
 Cada artículo SHALL indicar su grupo y un tipo de una lista cerrada:
-libro de cocina, de manualidades, de arte o guía ilustrada; Funko, LEGO,
-figura, peluche o miniatura de coleccionista; juego de mesa o juego de
-cartas; juego de dados, accesorio de dados o calendario de adviento de
-dados.
+libro de cocina, de manualidades, de arte, guía ilustrada o librojuego;
+Funko, LEGO, figura, peluche o miniatura de coleccionista; juego de mesa o
+juego de cartas; juego de dados, accesorio de dados o calendario de
+adviento de dados; diario o cuaderno, puzle o papelería y otros regalos.
 
 #### Scenario: Tipo que no está en la lista
 
@@ -93,6 +106,13 @@ dados.
 - **WHEN** un artículo es una bandeja o una torre para tirar dados
 - **THEN** va en el grupo de dados y accesorios con el tipo accesorio de
   dados
+
+#### Scenario: Baraja de tarot
+
+- **WHEN** un artículo es una baraja de tarot, unas postales o un libro de
+  pegatinas
+- **THEN** va en el grupo de papelería y regalo con el tipo papelería y
+  otros regalos
 
 ### Requirement: Datos del artículo
 
