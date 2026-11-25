@@ -1,0 +1,21 @@
+{
+  "slug": "como-seducir-a-un-dragon",
+  "system": "dnd-5e-2014",
+  "title": "Cómo seducir a un dragón",
+  "kind": "supplement",
+  "license": "none",
+  "description": "Suplemento para la quinta edición sobre las relaciones afectivas y sexuales de algunas criaturas de fantasía, para dar profundidad a ese lado de las partidas que los juegos de rol clásicos dejaron de lado.\n\nSe usa también en otros juegos con una ambientación parecida. Se financió en Verkami en octubre de 2023.",
+  "source": "https://www.verkami.com/projects/36248",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "mararrort",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/36248",
+        "end": "2023-10-14"
+      }
+    }
+  ]
+}

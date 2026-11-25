@@ -1,0 +1,21 @@
+{
+  "slug": "compendio-de-objetos-magicos-y-esto-que-hace",
+  "system": "dnd-5e-2014",
+  "title": "Compendio de objetos mágicos: ¿Y esto qué hace?",
+  "kind": "supplement",
+  "license": "none",
+  "description": "Compendio de objetos mágicos extraños y curiosos para D&D 5E, de La Mazmorra del Roleo, en 100 páginas de tapa blanda.\n\nSe financió en Verkami (diciembre de 2025).",
+  "source": "https://www.verkami.com/projects/41952",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Mazmorra del Roleo",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/41952",
+        "end": "2025-12-21"
+      }
+    }
+  ]
+}

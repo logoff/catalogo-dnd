@@ -1,0 +1,23 @@
+{
+  "slug": "cronicas-de-aarth",
+  "system": "dnd-5e-2014",
+  "title": "Crónicas de Aarth",
+  "kind": "adventure",
+  "license": "none",
+  "description": "Campaña de aventuras compatibles con la quinta edición, de Sugaar Editorial, ambientada en Nervaluan, el mayor país humano del mundo de Aarth, y presentada en una caja clásica con cuadernillos.\n\nEs una campaña con mundo propio para grupos que juegan a 5E. Se financió en Verkami en julio de 2019.",
+  "source": "https://www.verkami.com/projects/23839",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Sugaar Editorial",
+      "format": "boxed_set",
+      "isbn13": 9788412117011,
+      "cover": "/images/rol/cronicas-de-aarth/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/23839",
+        "end": "2019-07-27"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "la-caverna-misteriosa",
+  "system": "dnd-5e-2014",
+  "title": "La caverna misteriosa",
+  "kind": "adventure",
+  "license": "none",
+  "description": "Aventura de terror y misterio para D&D 5E, de La Mazmorra del Roleo, ambientada en Eldermoor, para cuatro o cinco personajes de nivel 5.\n\nSe financió en Verkami (octubre de 2026).",
+  "source": "https://www.verkami.com/projects/44141",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Mazmorra del Roleo",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/44141",
+        "end": "2026-10-26"
+      }
+    }
+  ]
+}
