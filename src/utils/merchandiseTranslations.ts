@@ -10,6 +10,7 @@ export const groupNames: Record<MerchandiseGroup, string> = {
   figures: 'Figuras y juguetes',
   games: 'Juegos de mesa y cartas',
   dice: 'Dados y accesorios',
+  stationery: 'Papelería y regalo',
 }
 
 export const kindNames: Record<MerchandiseKind, string> = {
@@ -17,6 +18,7 @@ export const kindNames: Record<MerchandiseKind, string> = {
   craft_book: 'Manualidades',
   art_book: 'Libro de arte',
   guide_book: 'Guía ilustrada',
+  gamebook: 'Librojuego',
   funko: 'Funko',
   lego: 'LEGO',
   figure: 'Figura',
@@ -27,14 +29,18 @@ export const kindNames: Record<MerchandiseKind, string> = {
   dice_set: 'Juego de dados',
   dice_accessory: 'Accesorio de dados',
   advent_calendar: 'Calendario de adviento',
+  journal: 'Diario o cuaderno',
+  puzzle: 'Puzle',
+  stationery_gift: 'Papelería y otros regalos',
 }
 
 // Tipos de cada grupo, en el orden en que se muestran
 export const kindsByGroup: Record<MerchandiseGroup, MerchandiseKind[]> = {
-  books: ['cookbook', 'craft_book', 'art_book', 'guide_book'],
+  books: ['cookbook', 'craft_book', 'art_book', 'guide_book', 'gamebook'],
   figures: ['funko', 'lego', 'figure', 'plush', 'collectible_miniature'],
   games: ['board_game', 'card_game'],
   dice: ['dice_set', 'dice_accessory', 'advent_calendar'],
+  stationery: ['journal', 'puzzle', 'stationery_gift'],
 }
 
 export const spanishNames: Record<MerchandiseSpanish, string> = {

@@ -1,0 +1,25 @@
+{
+  "slug": "dungeon-masters-campaign-journal",
+  "title": "The Dungeon Master's Campaign Journal",
+  "group": "stationery",
+  "kind": "journal",
+  "manufacturer": "Ten Speed Press",
+  "date": "2025-11-18",
+  "description": "Diario de campaña oficial para directores de juego, con secciones para preparar sesiones, apuntar personajes no jugadores, lugares y tramas, y llevar el hilo de una campaña larga.\n\nTiene su pareja para jugadores en The Player's Campaign Journal. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/787528/x/9798217034314/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2025-11-18",
+      "isbn13": 9798217034314,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DRXGR4WZ/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeon-masters-campaign-journal/0.jpg"]
+}

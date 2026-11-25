@@ -1,0 +1,25 @@
+{
+  "slug": "gelatinous-cube-board-set",
+  "title": "Gelatinous Cube Board Set",
+  "group": "stationery",
+  "kind": "stationery_gift",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-10-13",
+  "description": "Juego de cuatro pizarras de rotulador borrable que, apiladas, forman un bloque con el aspecto del cubo gelatinoso, el monstruo de D&D.\n\nSirve para apuntar iniciativa, puntos de golpe o notas en la mesa de juego. No tiene texto que traducir.",
+  "source": "https://www.penguinrandomhouse.com/books/787657/x/9798217034376/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-10-13",
+      "isbn13": 9798217034376,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0GGMQDX34/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/gelatinous-cube-board-set/0.jpg"]
+}

@@ -88,6 +88,22 @@ describe('filterMerchandise', () => {
     ).toEqual(['Bandeja'])
   })
 
+  it('filtra por el grupo de papelería y regalo y sus tipos', () => {
+    const stationery = [
+      ...items,
+      item('Diario', { group: 'stationery', kind: 'journal', manufacturer: 'Ten Speed Press' }),
+      item('Puzle', { group: 'stationery', kind: 'puzzle', manufacturer: 'Ten Speed Press' }),
+    ]
+    expect(titles(filterMerchandise(stationery, { ...noFilters, groups: ['stationery'] }))).toEqual(
+      ['Diario', 'Puzle']
+    )
+    expect(
+      titles(
+        filterMerchandise(stationery, { ...noFilters, groups: ['stationery'], kinds: ['puzzle'] })
+      )
+    ).toEqual(['Puzle'])
+  })
+
   it('el castellano solo cuenta si la edición salió en España', () => {
     expect(titles(filterMerchandise(items, { ...noFilters, spainOnly: true }))).toEqual([
       "Heroes' Feast",

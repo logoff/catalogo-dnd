@@ -123,8 +123,9 @@ cada ficha esté en ella y al revés. Para dar de alta juegos, usar la
 skill `add-videogame`.
 
 **Merchandising:** productos con licencia oficial de D&D desde 2014 que
-no son de reglas (libros licenciados, figuras y juguetes, juegos de mesa
-y cartas, y dados y accesorios de dados). Los dados solo entran si se
+no son de reglas (libros licenciados y librojuegos, figuras y juguetes,
+juegos de mesa y cartas, dados y accesorios de dados, y papelería y regalo:
+diarios, puzles, tarot, postales). Los dados solo entran si se
 pueden comprar en España, con enlace de compra. Cada artículo es un JSON en
 `data/merchandising/items/<grupo>/<slug>.json` (esquema
 `data/schemas/merchandise.jsonschema`) con sus ediciones por idioma; las

@@ -1,0 +1,25 @@
+{
+  "slug": "heroes-feast-deck-of-many-morsels",
+  "title": "Heroes' Feast: The Deck of Many Morsels",
+  "group": "books",
+  "kind": "cookbook",
+  "manufacturer": "Ten Speed Press",
+  "date": "2024-10-01",
+  "description": "Baraja de cincuenta cartas de recetas de los autores de Heroes' Feast, con bebidas y aperitivos sencillos para preparar durante la partida; el nombre juega con la Baraja de Muchas Cosas, el objeto mágico de D&D.\n\nEs un complemento de los libros de cocina de Heroes' Feast, más práctico para tener en la mesa. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/722113/x/9780593580738/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2024-10-01",
+      "isbn13": 9780593580738,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593580737/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/heroes-feast-deck-of-many-morsels/0.jpg"]
+}

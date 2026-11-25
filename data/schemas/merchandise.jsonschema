@@ -33,7 +33,8 @@
                 "books",
                 "figures",
                 "games",
-                "dice"
+                "dice",
+                "stationery"
             ]
         },
         "kind": {
@@ -42,6 +43,7 @@
                 "craft_book",
                 "art_book",
                 "guide_book",
+                "gamebook",
                 "funko",
                 "lego",
                 "figure",
@@ -51,7 +53,10 @@
                 "card_game",
                 "dice_set",
                 "dice_accessory",
-                "advent_calendar"
+                "advent_calendar",
+                "journal",
+                "puzzle",
+                "stationery_gift"
             ]
         },
         "manufacturer": {
@@ -149,7 +154,8 @@
                             "cookbook",
                             "craft_book",
                             "art_book",
-                            "guide_book"
+                            "guide_book",
+                            "gamebook"
                         ]
                     }
                 }
@@ -211,6 +217,26 @@
                             "dice_set",
                             "dice_accessory",
                             "advent_calendar"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "group": {
+                        "const": "stationery"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "kind": {
+                        "enum": [
+                            "journal",
+                            "puzzle",
+                            "stationery_gift"
                         ]
                     }
                 }

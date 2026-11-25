@@ -1,0 +1,25 @@
+{
+  "slug": "dungeons-and-dragons-tarot-deck",
+  "title": "The Dungeons & Dragons Tarot Deck",
+  "group": "stationery",
+  "kind": "stationery_gift",
+  "manufacturer": "Ten Speed Press",
+  "date": "2022-05-24",
+  "description": "Baraja de tarot oficial de setenta y ocho cartas ilustradas con personajes, monstruos y objetos de Dungeons & Dragons, con un librito que explica cada carta.\n\nSirve para leer el tarot y como herramienta de inspiración para partidas. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/603927/x/9781984824660/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2022-05-24",
+      "isbn13": 9781984824660,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/198482466X/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeons-and-dragons-tarot-deck/0.jpg"]
+}

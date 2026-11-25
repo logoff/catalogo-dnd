@@ -1,0 +1,27 @@
+{
+  "slug": "endless-quest-to-catch-a-thief",
+  "title": "Endless Quest: To Catch a Thief",
+  "group": "books",
+  "kind": "gamebook",
+  "manufacturer": "Candlewick Press",
+  "date": "2018",
+  "description": "Librojuego de Matt Forbeck de la serie Endless Quest, recuperada por Wizards of the Coast y Candlewick en 2018: el lector elige qué hacer al final de cada capítulo en una aventura por Aguasprofundas y el mercado subterráneo de Skullport, siguiendo a un ladrón al servicio del contemplador Xanathar.\n\nEstá pensado para lectores de 8 a 12 años que empiezan con D&D, con ilustraciones del arte oficial de la quinta edición. Salió en tapa dura y en rústica, y solo en inglés.",
+  "source": "https://gamebooks.org/Item/11798",
+  "editions": [
+    {
+      "language": "english",
+      "title": "Endless Quest: To Catch a Thief (tapa dura)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536202434
+    },
+    {
+      "language": "english",
+      "title": "Endless Quest: To Catch a Thief (rústica)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536200669
+    }
+  ],
+  "images": ["/images/merchandising/endless-quest-to-catch-a-thief/0.jpg"]
+}
