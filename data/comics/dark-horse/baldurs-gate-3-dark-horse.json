@@ -12,7 +12,9 @@
   "issues": [
     {
       "number": "1",
-      "date": "2027-02-24"
+      "date": "2027-02-24",
+      "cover": "/images/comics/baldurs-gate-3-dark-horse/1.webp",
+      "cover_source": "https://www.darkhorse.com/comics/3016-794/baldurs-gate-3-1/"
     }
   ],
   "related_videogames": ["baldurs-gate-3"]

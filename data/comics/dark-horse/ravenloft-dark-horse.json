@@ -5,10 +5,10 @@
   "setting": "ravenloft",
   "kind": "limited_series",
   "date": "2026-09",
-  "end_date": "2026-10",
+  "end_date": "2027-02",
   "announced": true,
   "issue_count": 4,
-  "description": "Miniserie de cuatro números de Dark Horse ambientada en los Dominios del Terror de Ravenloft, que empezó a publicarse en septiembre de 2026.\n\nEstá en curso; el tomo está anunciado. No se ha publicado en castellano.",
+  "description": "Miniserie de cuatro números de Dark Horse ambientada en los Dominios del Terror de Ravenloft, que empezó a publicarse en septiembre de 2026.\n\nTermina en febrero de 2027 y el tomo sale en junio de ese año. No se ha publicado en castellano.",
   "source": "https://www.comics.org/series/240562/",
   "issues": [
     {
@@ -23,15 +23,25 @@
       "cover": "/images/comics/ravenloft-dark-horse/2.webp",
       "cover_source": "https://www.comics.org/series/240562/covers/"
     },
-    { "number": "3" },
-    { "number": "4" }
+    {
+      "number": "3",
+      "date": "2027-01-06",
+      "cover": "/images/comics/ravenloft-dark-horse/3.webp",
+      "cover_source": "https://www.darkhorse.com/comics/3014-470/dungeons-dragons-ravenloft-3/"
+    },
+    {
+      "number": "4",
+      "date": "2027-02-17",
+      "cover": "/images/comics/ravenloft-dark-horse/4.webp",
+      "cover_source": "https://www.darkhorse.com/comics/3014-471/dungeons-dragons-ravenloft-4/"
+    }
   ],
   "editions": [
     {
       "language": "english",
       "title": "Dungeons & Dragons: Ravenloft",
       "publisher": "Dark Horse Comics",
-      "date": "2027",
+      "date": "2027-06-15",
       "format": "paperback",
       "isbn13": 9781506755571,
       "contents": [{ "series": "ravenloft-dark-horse", "issues": "1-4" }],

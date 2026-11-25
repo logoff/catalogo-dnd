@@ -10,7 +10,14 @@
   "artists": ["Xanthe Bouma"],
   "description": "Novela gráfica infantil de Molly Knox Ostertag y Xanthe Bouma sobre Jess y Olivia, dos amigas que empiezan a jugar a D&D en el club de su colegio y descubren que la partida les ayuda a entenderse cuando cambian de grupo de amigos.\n\nEs el primero de los tres libros de Dungeon Club, pensados para lectores de 8 a 12 años. No se ha publicado en castellano.",
   "source": "https://www.amazon.es/dp/0063039249/",
-  "issues": [{ "number": "1", "date": "2022-12" }],
+  "issues": [
+    {
+      "number": "1",
+      "date": "2022-12",
+      "cover": "/images/comics/dungeon-club-roll-call/9780063039247.webp",
+      "cover_source": "https://www.amazon.es/dp/0063039249/"
+    }
+  ],
   "editions": [
     {
       "language": "english",

@@ -10,7 +10,14 @@
   "artists": ["Xanthe Bouma"],
   "description": "Tercera y última novela gráfica de Dungeon Club, de Molly Knox Ostertag y Xanthe Bouma, que cierra la historia de Jess, Olivia y su club de D&D.\n\nPara lectores de 8 a 12 años. No se ha publicado en castellano.",
   "source": "https://www.amazon.es/dp/0063039281/",
-  "issues": [{ "number": "1", "date": "2025" }],
+  "issues": [
+    {
+      "number": "1",
+      "date": "2025",
+      "cover": "/images/comics/dungeon-club-final-face-off/9780063039285.webp",
+      "cover_source": "https://www.amazon.es/dp/0063039281/"
+    }
+  ],
   "editions": [
     {
       "language": "english",

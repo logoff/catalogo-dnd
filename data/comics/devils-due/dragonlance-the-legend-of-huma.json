@@ -18,10 +18,30 @@
       "cover": "/images/comics/dragonlance-the-legend-of-huma/1.webp",
       "cover_source": "https://www.comics.org/series/35866/covers/"
     },
-    { "number": "2" },
-    { "number": "3" },
-    { "number": "4" },
-    { "number": "5" },
+    {
+      "number": "2",
+      "date": "2004-02",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/2.webp",
+      "cover_source": "https://comicvine.gamespot.com/dragonlance-the-legend-of-huma/4050-32859/"
+    },
+    {
+      "number": "3",
+      "date": "2004-03",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/3.webp",
+      "cover_source": "https://comicvine.gamespot.com/dragonlance-the-legend-of-huma/4050-32859/"
+    },
+    {
+      "number": "4",
+      "date": "2004-04",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/4.webp",
+      "cover_source": "https://comicvine.gamespot.com/dragonlance-the-legend-of-huma/4050-32859/"
+    },
+    {
+      "number": "5",
+      "date": "2004-05",
+      "cover": "/images/comics/dragonlance-the-legend-of-huma/5.webp",
+      "cover_source": "https://comicvine.gamespot.com/dragonlance-the-legend-of-huma/4050-32859/"
+    },
     {
       "number": "6",
       "date": "2005-11",
