@@ -3,7 +3,7 @@
   "system": "dolmenwood",
   "title": "Winter's Daughter (Dolmenwood)",
   "kind": "adventure",
-  "description": "La edición impresa para el juego Dolmenwood de Winter's Daughter: la tumba de un antiguo héroe en lo profundo del bosque, el círculo de piedras de los drune y una princesa feérica que espera un tesoro olvidado, para personajes de nivel 1 a 3.\n\nRequiere los libros básicos de Dolmenwood; la primera edición era para Old-School Essentials.",
+  "description": "La edición impresa para el juego Dolmenwood de Winter's Daughter: la tumba de un antiguo héroe en lo profundo del bosque, el círculo de piedras de los drune y una princesa feérica que espera un tesoro olvidado, para personajes de nivel 1 a 3.\n\nRequiere los libros básicos de Dolmenwood; la primera edición era para Old-School Essentials. En castellano lo publica Nosolorol, que lo financió en su propio mecenazgo en 2025.",
   "source": "https://www.exaltedfuneral.com/products/dolmenwood-official-adventure-scenario-winters-daughter",
   "editions": [
     {
@@ -11,6 +11,17 @@
       "publisher": "Necrotic Gnome",
       "format": "hardcover",
       "cover": "/images/rol/winters-daughter-dolmenwood/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "La Hija del Invierno",
+      "publisher": "Nosolorol",
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "editorial",
+        "url": "https://www.nosolorol.com/dolmenwood",
+        "end": "2025-05-05"
+      }
     }
   ]
 }

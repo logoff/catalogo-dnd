@@ -4,7 +4,7 @@
   "title": "Dolmenwood Campaign Book",
   "kind": "core",
   "core": true,
-  "description": "El libro del director de Dolmenwood: la descripción del bosque casilla a casilla, con sus aldeas, abadías, señoríos feéricos y lugares encantados, las facciones, los rumores y las reglas para viajar y explorar.\n\nEs el corazón de la ambientación y se usa con el libro del jugador y el de monstruos.",
+  "description": "El libro del director de Dolmenwood: la descripción del bosque casilla a casilla, con sus aldeas, abadías, señoríos feéricos y lugares encantados, las facciones, los rumores y las reglas para viajar y explorar.\n\nEs el corazón de la ambientación y se usa con el libro del jugador y el de monstruos. En castellano lo publica Nosolorol, que lo financió en su propio mecenazgo en 2025.",
   "source": "https://www.drivethrurpg.com/en/product/497358/dolmenwood-campaign-book",
   "editions": [
     {
@@ -17,6 +17,24 @@
         {
           "store": "drivethrurpg",
           "url": "https://www.drivethrurpg.com/en/product/497358/dolmenwood-campaign-book"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Dolmenwood: Libro de Campaña",
+      "publisher": "Nosolorol",
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "editorial",
+        "url": "https://www.nosolorol.com/dolmenwood",
+        "end": "2025-05-05"
+      },
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17448-dolmenwood-aventuras-y-peligros-en-un-bosque-de-cuento-nivel-estandar.html",
+          "variant": "Nivel Estándar: los tres libros básicos"
         }
       ]
     }

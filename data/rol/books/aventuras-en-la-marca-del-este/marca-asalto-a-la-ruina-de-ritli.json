@@ -11,8 +11,13 @@
       "publisher": "La Marca del Este",
       "date": "2019",
       "format": "paperback",
+      "cover": "/images/rol/marca-asalto-a-la-ruina-de-ritli/castellano.webp",
       "source": "https://lamarcadeleste.com/2019/05/desbloqueamos-la-primera-meta.html",
-      "cover": "/images/rol/marca-asalto-a-la-ruina-de-ritli/castellano.webp"
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/23656-cuatro-modulos-de-aventuras-para-clasicos-de-la-marca",
+        "end": "2019-06-22"
+      }
     }
   ]
 }

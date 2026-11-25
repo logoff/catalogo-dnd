@@ -1,0 +1,29 @@
+{
+  "slug": "black-sword-hack",
+  "name": "Black Sword Hack",
+  "family": "black-sword-hack",
+  "publisher": "The Merry Mushmen",
+  "date": "2020-10",
+  "movement": "osr",
+  "description": "Juego de fantasía oscura de Kobayashi inspirado en la Saga de Elric de Michael Moorcock y en los libros de Kane de Karl Edward Wagner: sin clases, con personajes definidos por su origen, y sobre la base de las reglas de The Black Hack segunda edición.\n\nEs un juego completo y muy ágil para campañas de espada y brujería con caos, demonios y magia peligrosa. En castellano lo publica The Hills Press.",
+  "features": [
+    "Sobre The Black Hack segunda edición",
+    "Sin clases: personajes por origen",
+    "Espada y brujería a lo Moorcock",
+    "Reglas muy ágiles"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "the-black-hack",
+      "kind": "compatible",
+      "note": "Usa como base The Black Hack segunda edición, con cambios propios."
+    }
+  ],
+  "links": [
+    {
+      "label": "DriveThruRPG",
+      "url": "https://www.drivethrurpg.com/en/product/331118/black-sword-hack"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "system": "old-school-essentials",
   "title": "The Hole in the Oak",
   "kind": "adventure",
-  "description": "Una expedición clásica al inframundo mítico para personajes de nivel 1 a 2, de Gavin Norman: el hueco de un viejo roble lleva a pasadizos llenos de raíces, a las salas de un antiguo complejo de magos y a las orillas de un río subterráneo donde un culto de reptiles levantó sus templos.\n\nTiene sesenta zonas descritas en formato de consulta rápida, tabla de rumores e ideas para ampliar la mazmorra, y se puede enlazar con The Incandescent Grottoes.",
+  "description": "Una expedición clásica al inframundo mítico para personajes de nivel 1 a 2, de Gavin Norman: el hueco de un viejo roble lleva a pasadizos llenos de raíces, a las salas de un antiguo complejo de magos y a las orillas de un río subterráneo donde un culto de reptiles levantó sus templos.\n\nTiene sesenta zonas descritas en formato de consulta rápida, tabla de rumores e ideas para ampliar la mazmorra, y se puede enlazar con The Incandescent Grottoes. En castellano lo publica The Hills Press.",
   "source": "https://www.drivethrurpg.com/en/product/284852/the-hole-in-the-oak",
   "editions": [
     {
@@ -18,6 +18,13 @@
           "url": "https://www.drivethrurpg.com/en/product/284852/the-hole-in-the-oak"
         }
       ]
+    },
+    {
+      "language": "castellano",
+      "title": "El agujero en el roble",
+      "publisher": "The Hills Press",
+      "date": "2022-01",
+      "format": "paperback"
     }
   ]
 }

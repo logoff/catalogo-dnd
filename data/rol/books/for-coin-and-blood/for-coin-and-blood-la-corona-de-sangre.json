@@ -1,0 +1,23 @@
+{
+  "slug": "for-coin-and-blood-la-corona-de-sangre",
+  "system": "for-coin-and-blood",
+  "title": "For Coin & Blood: La Corona de Sangre",
+  "kind": "setting",
+  "description": "Suplemento de For Coin & Blood ambientado en Konigsberg, una ciudad anegada de corrupción, mafia y juego, dominada por gremios de ladrones que no saben lo que se les viene encima.\n\nDa a las campañas criminales una gran ciudad para conspirar y robar; necesita el libro básico.",
+  "source": "https://juegosdelamesaredonda.com/8947-for-coin-and-blood-la-corona-de-sangre-9788417175290.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "The Hills Press",
+      "date": "2020-02",
+      "format": "hardcover",
+      "isbn13": 9788417175290,
+      "cover": "/images/rol/for-coin-and-blood-la-corona-de-sangre/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/22218-for-coin-blood",
+        "end": "2019-01-09"
+      }
+    }
+  ]
+}

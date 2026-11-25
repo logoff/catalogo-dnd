@@ -3,7 +3,7 @@
   "system": "dolmenwood",
   "title": "The Ruined Abbey of St Clewyd",
   "kind": "adventure",
-  "description": "Una exploración de criptas extraña para personajes de nivel 4 a 6, de Gavin Norman y Yves Geens: la abadía de San Clewyd lleva un siglo en ruinas, sacudida por energías extrañas y espíritus malignos, y todas las misiones para recuperarla han fracasado.\n\nEstá en formato de consulta rápida y requiere los libros básicos de Dolmenwood.",
+  "description": "Una exploración de criptas extraña para personajes de nivel 4 a 6, de Gavin Norman y Yves Geens: la abadía de San Clewyd lleva un siglo en ruinas, sacudida por energías extrañas y espíritus malignos, y todas las misiones para recuperarla han fracasado.\n\nEstá en formato de consulta rápida y requiere los libros básicos de Dolmenwood. En castellano lo publica Nosolorol, que lo financió en su propio mecenazgo en 2025.",
   "source": "https://www.drivethrurpg.com/en/product/527291/the-ruined-abbey-of-st-clewyd",
   "editions": [
     {
@@ -18,6 +18,17 @@
           "url": "https://www.drivethrurpg.com/en/product/527291/the-ruined-abbey-of-st-clewyd"
         }
       ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Abadía en Ruinas de San Clewyd",
+      "publisher": "Nosolorol",
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "editorial",
+        "url": "https://www.nosolorol.com/dolmenwood",
+        "end": "2025-05-05"
+      }
     }
   ]
 }

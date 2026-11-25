@@ -158,7 +158,7 @@
                     "pattern": "^https://"
                 },
                 "crowdfunding": {
-                    "description": "Campaña de micromecenazgo con la que se financió o se está financiando la edición; solo campañas conseguidas o abiertas. Abierta si la fecha de cierre es igual o posterior a la del build",
+                    "description": "Campaña de micromecenazgo con la que se financió o se está financiando la edición, en una plataforma o en la tienda de la propia editorial (`editorial`); solo campañas conseguidas o abiertas. Abierta si la fecha de cierre es igual o posterior a la del build",
                     "type": "object",
                     "additionalProperties": false,
                     "required": [
@@ -174,7 +174,8 @@
                                 "gamefound",
                                 "backerkit",
                                 "lanzanos",
-                                "ulule"
+                                "ulule",
+                                "editorial"
                             ]
                         },
                         "url": {

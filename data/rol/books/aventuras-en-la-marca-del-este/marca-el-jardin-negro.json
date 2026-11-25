@@ -11,9 +11,14 @@
       "publisher": "La Marca del Este",
       "date": "2019-10",
       "format": "paperback",
-      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23807-aventuras-en-la-marca-del-este-el-jardn-negro.html",
       "cover": "/images/rol/marca-el-jardin-negro/castellano.webp",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23807-aventuras-en-la-marca-del-este-el-jardn-negro.html",
       "free_download": "https://codexdelamarca.com/posts/c3-el-jardin-negro/",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/23656-cuatro-modulos-de-aventuras-para-clasicos-de-la-marca",
+        "end": "2019-06-22"
+      },
       "purchase_links": [
         {
           "store": "juegos_mesa_redonda",
