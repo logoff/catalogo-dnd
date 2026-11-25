@@ -125,5 +125,6 @@ describe('freeDownloadLabel', () => {
       'Descarga gratuita en Codex de la Marca'
     )
     expect(freeDownloadLabel('https://nogarung.com/ve-revisada')).toBe('Descarga gratuita')
+    expect(freeDownloadLabel('https://otrocodexdelamarca.com/x')).toBe('Descarga gratuita')
   })
 })

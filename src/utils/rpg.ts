@@ -258,7 +258,8 @@ export function movementBookProblem(
 
 // Texto del botón de descarga gratuita: Codex de la Marca por su nombre; las demás, genérico
 export function freeDownloadLabel(url: string): string {
-  return new URL(url).hostname.endsWith('codexdelamarca.com')
+  const host = new URL(url).hostname
+  return host === 'codexdelamarca.com' || host.endsWith('.codexdelamarca.com')
     ? 'Descarga gratuita en Codex de la Marca'
     : 'Descarga gratuita'
 }
