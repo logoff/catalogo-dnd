@@ -1,0 +1,29 @@
+{
+  "slug": "runecairn",
+  "name": "Runecairn",
+  "family": "runecairn",
+  "publisher": "Colin Le Sueur",
+  "date": "2021-06",
+  "movement": "nsr",
+  "description": "Juego de rol de Colin Le Sueur de fantasía nórdica tras el Ragnarök, inspirado en los videojuegos de la saga Souls: los personajes despiertan en un mundo arrasado, atrapados en un ciclo de muerte, y exploran túmulos y ruinas en busca de fuego y de sentido.\n\nSus reglas parten de Cairn, Knave e Into the Odd. En castellano lo publica Outremer, con Wardensaga y el Bestiario.",
+  "features": [
+    "Fantasía nórdica tras el Ragnarök",
+    "Inspirado en los videojuegos Souls",
+    "Reglas de Cairn",
+    "Exploración letal de túmulos"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "cairn",
+      "kind": "compatible",
+      "note": "Sus reglas parten de Cairn, con ideas de Knave e Into the Odd."
+    }
+  ],
+  "links": [
+    {
+      "label": "DriveThruRPG",
+      "url": "https://www.drivethrurpg.com/en/product/385682/runecairn-wardensaga"
+    }
+  ]
+}

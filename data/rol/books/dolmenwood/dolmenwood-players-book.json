@@ -4,7 +4,7 @@
   "title": "Dolmenwood Player's Book",
   "kind": "core",
   "core": true,
-  "description": "El libro del jugador de Dolmenwood: los pueblos del bosque (como los elfos, los hombres-gato, los grimalkin o los mossling), sus clases, trasfondos, equipo, magia y todas las reglas de juego.\n\nEs uno de los tres libros básicos, junto al de campaña y el de monstruos.",
+  "description": "El libro del jugador de Dolmenwood: los pueblos del bosque (como los elfos, los hombres-gato, los grimalkin o los mossling), sus clases, trasfondos, equipo, magia y todas las reglas de juego.\n\nEs uno de los tres libros básicos, junto al de campaña y el de monstruos. En castellano lo publica Nosolorol, que lo financió en su propio mecenazgo en 2025.",
   "source": "https://www.drivethrurpg.com/en/product/497353/dolmenwood-player-s-book",
   "editions": [
     {
@@ -17,6 +17,19 @@
         {
           "store": "drivethrurpg",
           "url": "https://www.drivethrurpg.com/en/product/497353/dolmenwood-player-s-book"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Dolmenwood: Libro del Jugador",
+      "publisher": "Nosolorol",
+      "format": "hardcover",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17448-dolmenwood-aventuras-y-peligros-en-un-bosque-de-cuento-nivel-estandar.html",
+          "variant": "Nivel Estándar: los tres libros básicos"
         }
       ]
     }

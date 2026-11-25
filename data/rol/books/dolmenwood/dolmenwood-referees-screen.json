@@ -3,7 +3,7 @@
   "system": "dolmenwood",
   "title": "Dolmenwood Referee's Screen",
   "kind": "other",
-  "description": "La pantalla del director de Dolmenwood, con las tablas y procedimientos más usados para viajar por el bosque, combatir y resolver encuentros.\n\nComplementa los libros básicos durante la partida.",
+  "description": "La pantalla del director de Dolmenwood, con las tablas y procedimientos más usados para viajar por el bosque, combatir y resolver encuentros.\n\nComplementa los libros básicos durante la partida. En castellano lo publica Nosolorol, que lo financió en su propio mecenazgo en 2025.",
   "source": "https://www.exaltedfuneral.com/products/dolmenwood-referees-screen",
   "editions": [
     {
@@ -17,6 +17,12 @@
           "url": "https://www.drivethrurpg.com/en/product/527286/dolmenwood-referee-s-screen"
         }
       ]
+    },
+    {
+      "language": "castellano",
+      "title": "Dolmenwood: Pantalla del Árbitro",
+      "publisher": "Nosolorol",
+      "format": "screen"
     }
   ]
 }

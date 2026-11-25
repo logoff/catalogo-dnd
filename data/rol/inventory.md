@@ -114,6 +114,9 @@ digital de plataformas comunitarias.
 | 44  | Helvéczia                          | Helvéczia                          | Outremer Ediciones                 | 2022 | —                                                        | D&D 3.ª edición: cambio mayor de reglas                     | sí                               | [Outremer](https://outremer.es/producto/helveczia-el-juego-de-rol-de-fantasia-picaresca/)        | helveczia                          | Original húngaro (2013); edición española financiada en Verkami.                         |
 | 45  | Eirendor                           | Eirendor                           | Yipikayei                          | 2016 | srd-5-1                                                  | D&D 5E (2014): reescrito pero compatible (SRD 5.1)          | sí                               | [Verkami](https://www.verkami.com/projects/15028-eirendor-el-albor-de-la-quinta-edad)            | eirendor                           | Basado en la 5E; financiado en Verkami.                                                  |
 | 46  | Trasgos y Mazmorras                | Trasgos y Mazmorras                | Trasgotauro                        | 2016 | —                                                        | AD&D 2.ª edición: reescrito pero compatible                 | sí                               | [Trasgotauro](https://trasgotauro.com/rollplay/)                                                 | trasgos-y-mazmorras                | Retroclón español de AD&D; versión 1.0 de 2016.                                          |
+| 47  | Black Sword Hack                   | Black Sword Hack                   | The Merry Mushmen                  | 2020 | —                                                        | The Black Hack: reescrito pero compatible                   | sí (The Hills Press)             | [DriveThruRPG](https://www.drivethrurpg.com/en/product/331118/black-sword-hack)                  | black-sword-hack                   | OSR; entra por su edición en castellano.                                                 |
+| 48  | For Coin & Blood                   | For Coin & Blood                   | Gallant Knight Games               | 2018 | —                                                        | Swords & Wizardry: reescrito pero compatible                | sí (The Hills Press)             | [Gallant Knight Games](https://gallantknightgames.com/products/for-coin-blood-second-edition)    | for-coin-and-blood                 | OSR; entra por su edición en castellano.                                                 |
+| 49  | Runecairn                          | Runecairn                          | Colin Le Sueur                     | 2021 | —                                                        | Cairn: reescrito pero compatible                            | sí (Outremer)                    | [DriveThruRPG](https://www.drivethrurpg.com/en/product/385682/runecairn-wardensaga)              | runecairn                          | NSR; entra por su edición en castellano.                                                 |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -448,17 +451,17 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 
 ### Dolmenwood
 
-| #   | Título                              | Tipo     | Ficha                               | Nota   |
-| --- | ----------------------------------- | -------- | ----------------------------------- | ------ |
-| 1   | Dolmenwood Player's Book            | básico   | dolmenwood-players-book             | inglés |
-| 2   | Dolmenwood Campaign Book            | básico   | dolmenwood-campaign-book            | inglés |
-| 3   | Dolmenwood Monster Book             | básico   | dolmenwood-monster-book             | inglés |
-| 4   | Dolmenwood Maps Book                | otro     | dolmenwood-maps-book                | inglés |
-| 5   | Dolmenwood Referee's Screen         | otro     | dolmenwood-referees-screen          | inglés |
-| 6   | The Fungus That Came to Blackeswell | aventura | the-fungus-that-came-to-blackeswell | inglés |
-| 7   | The Ruined Abbey of St Clewyd       | aventura | the-ruined-abbey-of-st-clewyd       | inglés |
-| 8   | Emelda's Song                       | aventura | emeldas-song                        | inglés |
-| 9   | Winter's Daughter (Dolmenwood)      | aventura | winters-daughter-dolmenwood         | inglés |
+| #   | Título                              | Tipo     | Ficha                               | Nota               |
+| --- | ----------------------------------- | -------- | ----------------------------------- | ------------------ |
+| 1   | Dolmenwood Player's Book            | básico   | dolmenwood-players-book             | castellano, inglés |
+| 2   | Dolmenwood Campaign Book            | básico   | dolmenwood-campaign-book            | castellano, inglés |
+| 3   | Dolmenwood Monster Book             | básico   | dolmenwood-monster-book             | castellano, inglés |
+| 4   | Dolmenwood Maps Book                | otro     | dolmenwood-maps-book                | inglés             |
+| 5   | Dolmenwood Referee's Screen         | otro     | dolmenwood-referees-screen          | castellano, inglés |
+| 6   | The Fungus That Came to Blackeswell | aventura | the-fungus-that-came-to-blackeswell | castellano, inglés |
+| 7   | The Ruined Abbey of St Clewyd       | aventura | the-ruined-abbey-of-st-clewyd       | castellano, inglés |
+| 8   | Emelda's Song                       | aventura | emeldas-song                        | castellano, inglés |
+| 9   | Winter's Daughter (Dolmenwood)      | aventura | winters-daughter-dolmenwood         | castellano, inglés |
 
 ### Shadowdark
 
@@ -1038,7 +1041,22 @@ Juegos y libros españoles derivados de D&D o muy próximos, muchos financiados 
 | 15  | Eirendor: La bruja de El Cuello y su retorcida repostería | eirendor            | aventura     | eirendor-la-bruja-de-el-cuello         | Yipikayei.                                              |
 | 16  | Manual del Jugador de Trasgos y Mazmorras                 | trasgos-y-mazmorras | básico       | trasgos-y-mazmorras-manual-del-jugador | Trasgotauro; PDF gratuito y Lulu.                       |
 
-Pendiente en otro cambio: las traducciones al castellano de sistemas OSR que ya están en el catálogo (Labyrinth Lord de Nosolorol, Mörk Borg de El Refugio de Ryhope, Old-School Essentials de The Hills Press, la línea de Knave de Outremer…).
+### Traducciones al castellano que faltaban (issue #160, parte 2)
+
+Revisado en Juegos de la Mesa Redonda, Nosolorol y Outremer el 2026-11-25. Dolmenwood en castellano son ediciones de sus fichas (Nosolorol, mecenazgo de 2025).
+
+| #   | Título                                | Sistema            | Tipo         | Ficha                                  | Nota             |
+| --- | ------------------------------------- | ------------------ | ------------ | -------------------------------------- | ---------------- |
+| 1   | Labyrinth Lord (caja)                 | labyrinth-lord     | básico       | labyrinth-lord-caja                    | Nosolorol.       |
+| 2   | Labyrinth Lord Aventuras Vol. 1       | labyrinth-lord     | aventura     | labyrinth-lord-aventuras-vol-1         | Nosolorol.       |
+| 3   | A Rasp of Sand + Knave                | knave              | suplemento   | a-rasp-of-sand                         | Outremer.        |
+| 4   | Black Sword Hack                      | black-sword-hack   | básico       | black-sword-hack                       | The Hills Press. |
+| 5   | For Coin & Blood                      | for-coin-and-blood | básico       | for-coin-and-blood                     | The Hills Press. |
+| 6   | For Coin & Blood: La Corona de Sangre | for-coin-and-blood | ambientación | for-coin-and-blood-la-corona-de-sangre | The Hills Press. |
+| 7   | Runecairn: Wardensaga                 | runecairn          | básico       | runecairn-wardensaga                   | Outremer.        |
+| 8   | Runecairn: Bestiario                  | runecairn          | suplemento   | runecairn-bestiario                    | Outremer.        |
+
+Fuera: Mörk Borg y Old-School Essentials no tienen todavía edición en castellano a la venta; El Archivo de Electro y Cursed! (Outremer) son zines; Siete Pecados (Nosolorol) es un suplemento para SRD 5 y OSR sin sistema propio; Knave en castellano solo está en PDF de «paga lo que quieras».
 
 ## Ediciones anteriores de D&D
 

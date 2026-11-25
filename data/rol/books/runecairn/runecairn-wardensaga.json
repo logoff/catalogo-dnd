@@ -1,0 +1,18 @@
+{
+  "slug": "runecairn-wardensaga",
+  "system": "runecairn",
+  "title": "Runecairn: Wardensaga",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de juego de Runecairn: creación de los guardianes, reglas de exploración y combate, magia de runas y un mundo nórdico destruido que recorrer, en 64 páginas a color.\n\nEs todo lo necesario para jugar; se completa con el Bestiario. En castellano lo publica Outremer.",
+  "source": "https://outremer.es/producto/runecairn-wardensaga-fisico/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Outremer Ediciones",
+      "format": "paperback",
+      "isbn13": 9788412770919,
+      "cover": "/images/rol/runecairn-wardensaga/castellano.webp"
+    }
+  ]
+}

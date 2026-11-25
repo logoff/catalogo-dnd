@@ -1,0 +1,18 @@
+{
+  "slug": "a-rasp-of-sand",
+  "system": "knave",
+  "title": "A Rasp of Sand",
+  "kind": "supplement",
+  "description": "Juego de fantasía que usa las reglas de Knave: los jugadores son los herederos de quienes robaron la corona de la Reina de las Profundidades y tienen que devolverla para aplacar su ira, en 76 páginas en blanco y negro.\n\nOutremer lo publica en castellano junto a Knave, del que depende, y sirve como campaña lista para jugar con ese sistema.",
+  "source": "https://outremer.es/producto/a-rasp-of-sand-version-fisica/",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "A Rasp of Sand + Knave",
+      "publisher": "Outremer Ediciones",
+      "format": "paperback",
+      "isbn13": 9788412523560,
+      "cover": "/images/rol/a-rasp-of-sand/castellano.webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "runecairn-bestiario",
+  "system": "runecairn",
+  "title": "Runecairn: Bestiario",
+  "kind": "supplement",
+  "description": "Cien monstruos listos para Runecairn, de las abejas cuervo a los draugr, los jotun o el gigantesco hafgufa, con reglas para crear criaturas nuevas o adaptarlas de otros juegos, en 64 páginas a color.\n\nAmplía las amenazas del mundo de Runecairn y sirve también para otros juegos derivados de Cairn.",
+  "source": "https://outremer.es/producto/runecairn-bestiario-fisico/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Outremer Ediciones",
+      "format": "paperback",
+      "isbn13": 9788412770926,
+      "cover": "/images/rol/runecairn-bestiario/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/15867-runecairn-bestiario-9788412770926.html"
+        }
+      ]
+    }
+  ]
+}

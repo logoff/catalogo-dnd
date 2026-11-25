@@ -309,7 +309,19 @@
       "eirendor-el-albor-de-la-quinta-edad": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
       "eirendor-la-tumba-de-los-perdidos": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
       "eirendor-deseos-oscuros": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
-      "trasgos-y-mazmorras-manual-del-jugador": "Solo se vende en Lulu (impresión bajo demanda); el PDF es gratuito (revisado el 2026-11-25)"
+      "trasgos-y-mazmorras-manual-del-jugador": "Solo se vende en Lulu (impresión bajo demanda); el PDF es gratuito (revisado el 2026-11-25)",
+      "labyrinth-lord-caja": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "labyrinth-lord-aventuras-vol-1": "No está en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "dolmenwood-referees-screen": "Solo se consiguió en el mecenazgo de Nosolorol; no está suelto en tiendas (revisado el 2026-11-25)",
+      "winters-daughter-dolmenwood": "Solo se consiguió en el mecenazgo de Nosolorol; no está suelto en tiendas (revisado el 2026-11-25)",
+      "emeldas-song": "Solo se consiguió en el mecenazgo de Nosolorol; no está suelto en tiendas (revisado el 2026-11-25)",
+      "the-fungus-that-came-to-blackeswell": "Solo se consiguió en el mecenazgo de Nosolorol; no está suelto en tiendas (revisado el 2026-11-25)",
+      "the-ruined-abbey-of-st-clewyd": "Solo se consiguió en el mecenazgo de Nosolorol; no está suelto en tiendas (revisado el 2026-11-25)",
+      "a-rasp-of-sand": "Agotado en Juegos de la Mesa Redonda y en Outremer (revisado el 2026-11-25)",
+      "black-sword-hack": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "for-coin-and-blood": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "for-coin-and-blood-la-corona-de-sangre": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "runecairn-wardensaga": "Agotado en Juegos de la Mesa Redonda y en Outremer (revisado el 2026-11-25)"
     },
     "casa_del_libro": {
       "13-true-ways": "No está en Casa del Libro (revisado el 2026-11-20)",
@@ -604,7 +616,23 @@
       "eirendor-la-tumba-de-los-perdidos": "No está en Casa del Libro (revisado el 2026-11-25)",
       "eirendor-deseos-oscuros": "No está en Casa del Libro (revisado el 2026-11-25)",
       "eirendor-la-bruja-de-el-cuello": "No está en Casa del Libro (revisado el 2026-11-25)",
-      "trasgos-y-mazmorras-manual-del-jugador": "No está en Casa del Libro (revisado el 2026-11-25)"
+      "trasgos-y-mazmorras-manual-del-jugador": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "labyrinth-lord-caja": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "labyrinth-lord-aventuras-vol-1": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "dolmenwood-players-book": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "dolmenwood-campaign-book": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "dolmenwood-monster-book": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "dolmenwood-referees-screen": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "winters-daughter-dolmenwood": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "emeldas-song": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "the-fungus-that-came-to-blackeswell": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "the-ruined-abbey-of-st-clewyd": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "a-rasp-of-sand": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "black-sword-hack": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "for-coin-and-blood": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "for-coin-and-blood-la-corona-de-sangre": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "runecairn-wardensaga": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "runecairn-bestiario": "No está en Casa del Libro (revisado el 2026-11-25)"
     },
     "amazon": {
       "13th-age-2e-gamemasters-guide": "No está en Amazon.es (revisado el 2026-11-20); tampoco en Juegos de la Mesa Redonda, Casa del Libro ni NoSoloRol",
@@ -663,6 +691,16 @@
       "shadowdark/solodark": "The Arcane Library lo vende en su tienda; no está en DriveThruRPG (revisado 2026-11-22)",
       "the-black-hack/the-black-hack-black-box": "caja solo impresa de SquareHex; no está en DriveThruRPG (revisado 2026-11-22)",
       "the-black-hack/the-black-hack-rule-booklet": "libreto solo impreso de SquareHex; no está en DriveThruRPG (revisado 2026-11-22)"
+    },
+    "nosolorol": {
+      "dolmenwood-campaign-book": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)",
+      "dolmenwood-monster-book": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)",
+      "dolmenwood-players-book": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)",
+      "dolmenwood-referees-screen": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)",
+      "emeldas-song": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)",
+      "the-fungus-that-came-to-blackeswell": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)",
+      "the-ruined-abbey-of-st-clewyd": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)",
+      "winters-daughter-dolmenwood": "La tienda de Nosolorol no lo vende suelto; salió en su mecenazgo de 2025 (revisado el 2026-11-25)"
     }
   },
   "ediciones": {

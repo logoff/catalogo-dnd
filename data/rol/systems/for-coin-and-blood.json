@@ -1,0 +1,29 @@
+{
+  "slug": "for-coin-and-blood",
+  "name": "For Coin & Blood",
+  "family": "for-coin-and-blood",
+  "publisher": "Gallant Knight Games",
+  "date": "2018-01",
+  "movement": "osr",
+  "description": "Juego de fantasía oscura de Alan Bahr y Jamie Vann en el que los personajes son criminales, asesinos, ladrones y nobles caídos: una versión sombría del rol de la vieja escuela que parte de Swords & Wizardry White Box y toma ideas de The Black Hack.\n\nSalió en 2018 y tuvo una segunda edición en 2021. En castellano lo publica The Hills Press, con el suplemento La Corona de Sangre.",
+  "features": [
+    "Personajes villanos y criminales",
+    "Base de Swords & Wizardry White Box",
+    "Fantasía oscura y despiadada",
+    "Segunda edición en 2021"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "swords-and-wizardry",
+      "kind": "compatible",
+      "note": "Parte de Swords & Wizardry White Box, según las reseñas del juego."
+    }
+  ],
+  "links": [
+    {
+      "label": "Gallant Knight Games",
+      "url": "https://gallantknightgames.com/products/for-coin-blood-second-edition"
+    }
+  ]
+}
