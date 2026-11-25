@@ -113,11 +113,11 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
     castellano. `just affiliate-coverage` lista las que faltan; lo
     que se revisa y no está a la venta va con su motivo en
     `data/affiliate-exceptions.json`.
-  - **Descarga gratuita:** si La Marca del Este ha liberado el libro en
-    Codex de la Marca, la edición en castellano lleva `free_download` con
-    la URL de su entrada (`https://codexdelamarca.com/posts/<entrada>/`).
-    No es una tienda ni cuenta como enlace de compra; solo si la entrada
-    tiene descarga.
+  - **Descarga gratuita:** si la editorial o el autor ofrecen gratis y de
+    forma legal el libro (Codex de la Marca, su web, un enlace de Google
+    Drive publicado por el autor), la edición lleva `free_download` con esa
+    URL. No es una tienda ni cuenta como enlace de compra. En los OSR y NSR
+    basta para que entre un libro solo en PDF.
   - **Micromecenazgo:** si la edición se financió o se está financiando en
     una campaña (Verkami, Kickstarter, Gamefound, BackerKit, Lánzanos,
     Ulule), lleva `crowdfunding` con `platform`, `url` y `end` (fecha de

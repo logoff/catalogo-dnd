@@ -112,6 +112,8 @@ digital de plataformas comunitarias.
 | 42  | Vieja Escuela                      | Vieja Escuela                      | Grapas y Mapas                     | 2026 | ogl-1-0a; cc-by-sa-4-0                                   | D&D original: reescrito pero compatible (OGL)               | sí                               | [Vieja Escuela](https://viejaescuela.nogarung.com/)                                              | vieja-escuela                      | Retroclón minimalista español; fecha de la edición revisada.                             |
 | 43  | Kaylos OSR                         | Kaylos OSR                         | El Artesano del Rey                | 2024 | —                                                        | Cairn: inspiración                                          | sí                               | [Verkami](https://www.verkami.com/projects/39488-kaylos-osr)                                     | kaylos-osr                         | Sistema propio de d6 (NSR), financiado en Verkami.                                       |
 | 44  | Helvéczia                          | Helvéczia                          | Outremer Ediciones                 | 2022 | —                                                        | D&D 3.ª edición: cambio mayor de reglas                     | sí                               | [Outremer](https://outremer.es/producto/helveczia-el-juego-de-rol-de-fantasia-picaresca/)        | helveczia                          | Original húngaro (2013); edición española financiada en Verkami.                         |
+| 45  | Eirendor                           | Eirendor                           | Yipikayei                          | 2016 | srd-5-1                                                  | D&D 5E (2014): reescrito pero compatible (SRD 5.1)          | sí                               | [Verkami](https://www.verkami.com/projects/15028-eirendor-el-albor-de-la-quinta-edad)            | eirendor                           | Basado en la 5E; financiado en Verkami.                                                  |
+| 46  | Trasgos y Mazmorras                | Trasgos y Mazmorras                | Trasgotauro                        | 2016 | —                                                        | AD&D 2.ª edición: reescrito pero compatible                 | sí                               | [Trasgotauro](https://trasgotauro.com/rollplay/)                                                 | trasgos-y-mazmorras                | Retroclón español de AD&D; versión 1.0 de 2016.                                          |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -1017,21 +1019,24 @@ Libros de los sistemas con etiqueta de movimiento: todo lo publicado en castella
 
 Juegos y libros españoles derivados de D&D o muy próximos, muchos financiados en micromecenazgo (la edición enlaza la campaña). Revisado el 2026-11-25.
 
-| #   | Título                                            | Sistema             | Tipo         | Ficha                          | Nota                                                          |
-| --- | ------------------------------------------------- | ------------------- | ------------ | ------------------------------ | ------------------------------------------------------------- |
-| 1   | Axis Mundi                                        | axis-mundi          | básico       | axis-mundi                     | 77 Mundos, enero de 2022.                                     |
-| 2   | Estación Norte                                    | axis-mundi          | aventura     | axis-mundi-estacion-norte      | 77 Mundos.                                                    |
-| 3   | Vieja Escuela: el juego de rol (edición revisada) | vieja-escuela       | básico       | vieja-escuela-edicion-revisada | Lulu, octubre de 2026.                                        |
-| 4   | Kaylos OSR                                        | kaylos-osr          | básico       | kaylos-osr                     | Verkami (2024).                                               |
-| 5   | Kaylos OSR 2.1                                    | kaylos-osr          | básico       | kaylos-osr-2-1                 | Verkami (2026), pendiente de entrega.                         |
-| 6   | Helvéczia (caja)                                  | helveczia           | básico       | helveczia-caja                 | Verkami (2022).                                               |
-| 7   | El Mazmorrón                                      | dnd-5e-2014         | aventura     | el-mazmorron                   | Para D&D o cualquier juego de fantasía; Verkami (2024).       |
-| 8   | Mazmorrón: El Azulón                              | dnd-5e-2014         | aventura     | mazmorron-el-azulon            | En campaña en Verkami hasta el 2026-12-27.                    |
-| 9   | Magia & Acero White Box                           | swords-and-wizardry | básico       | magia-y-acero-white-box        | Adaptación de White Box FMAG; Lulu.                           |
-| 10  | Más allá de Corny Groń                            | knave               | ambientación | mas-alla-de-corny-gron         | Outremer; Verkami (2026).                                     |
-| 11  | El castillo de la Reina Velada                    | knave               | aventura     | castillo-de-la-reina-velada    | Módulo de Corny Groń.                                         |
-| 12  | Eirendor: El Albor de la Quinta Edad              | —                   | básico       | pendiente                      | Basado en la 5E; faltan fuentes de la campaña y la editorial. |
-| 13  | Trasgos y Mazmorras                               | —                   | básico       | pendiente                      | Tragotauro (2012-2014); sin fuente oficial encontrada.        |
+| #   | Título                                                    | Sistema             | Tipo         | Ficha                                  | Nota                                                    |
+| --- | --------------------------------------------------------- | ------------------- | ------------ | -------------------------------------- | ------------------------------------------------------- |
+| 1   | Axis Mundi                                                | axis-mundi          | básico       | axis-mundi                             | 77 Mundos, enero de 2022.                               |
+| 2   | Estación Norte                                            | axis-mundi          | aventura     | axis-mundi-estacion-norte              | 77 Mundos.                                              |
+| 3   | Vieja Escuela: el juego de rol (edición revisada)         | vieja-escuela       | básico       | vieja-escuela-edicion-revisada         | Lulu, octubre de 2026.                                  |
+| 4   | Kaylos OSR                                                | kaylos-osr          | básico       | kaylos-osr                             | Verkami (2024).                                         |
+| 5   | Kaylos OSR 2.1                                            | kaylos-osr          | básico       | kaylos-osr-2-1                         | Verkami (2026), pendiente de entrega.                   |
+| 6   | Helvéczia (caja)                                          | helveczia           | básico       | helveczia-caja                         | Verkami (2022).                                         |
+| 7   | El Mazmorrón                                              | dnd-5e-2014         | aventura     | el-mazmorron                           | Para D&D o cualquier juego de fantasía; Verkami (2024). |
+| 8   | Mazmorrón: El Azulón                                      | dnd-5e-2014         | aventura     | mazmorron-el-azulon                    | En campaña en Verkami hasta el 2026-12-27.              |
+| 9   | Magia & Acero White Box                                   | swords-and-wizardry | básico       | magia-y-acero-white-box                | Adaptación de White Box FMAG; Lulu.                     |
+| 10  | Más allá de Corny Groń                                    | knave               | ambientación | mas-alla-de-corny-gron                 | Outremer; Verkami (2026).                               |
+| 11  | El castillo de la Reina Velada                            | knave               | aventura     | castillo-de-la-reina-velada            | Módulo de Corny Groń.                                   |
+| 12  | Eirendor: El albor de la Quinta Edad                      | eirendor            | básico       | eirendor-el-albor-de-la-quinta-edad    | Yipikayei; Verkami (2016).                              |
+| 13  | Eirendor: La tumba de los perdidos                        | eirendor            | aventura     | eirendor-la-tumba-de-los-perdidos      | Meta de la campaña de Verkami.                          |
+| 14  | Eirendor: Deseos oscuros                                  | eirendor            | aventura     | eirendor-deseos-oscuros                | Yipikayei.                                              |
+| 15  | Eirendor: La bruja de El Cuello y su retorcida repostería | eirendor            | aventura     | eirendor-la-bruja-de-el-cuello         | Yipikayei.                                              |
+| 16  | Manual del Jugador de Trasgos y Mazmorras                 | trasgos-y-mazmorras | básico       | trasgos-y-mazmorras-manual-del-jugador | Trasgotauro; PDF gratuito y Lulu.                       |
 
 Pendiente en otro cambio: las traducciones al castellano de sistemas OSR que ya están en el catálogo (Labyrinth Lord de Nosolorol, Mörk Borg de El Refugio de Ryhope, Old-School Essentials de The Hills Press, la línea de Knave de Outremer…).
 

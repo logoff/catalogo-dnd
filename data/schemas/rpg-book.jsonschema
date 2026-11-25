@@ -152,10 +152,10 @@
                     "format": "uri"
                 },
                 "free_download": {
-                    "description": "Copia gratuita liberada por la propia editorial (por ahora, solo Codex de la Marca); no es una tienda",
+                    "description": "Copia gratuita y legal que ofrece la propia editorial o el autor (Codex de la Marca, su web o su enlace de descarga); no es una tienda ni cuenta como enlace de compra",
                     "type": "string",
                     "format": "uri",
-                    "pattern": "^https://codexdelamarca\\.com/posts/[^/]+/$"
+                    "pattern": "^https://"
                 },
                 "crowdfunding": {
                     "description": "Campaña de micromecenazgo con la que se financió o se está financiando la edición; solo campañas conseguidas o abiertas. Abierta si la fecha de cierre es igual o posterior a la del build",

@@ -11,6 +11,7 @@
 - [x] 2.1 Sistemas Axis Mundi, Vieja Escuela, Kaylos OSR y Helvéczia con sus libros, y filas en `data/rol/inventory.md`; verificar con `just test`
 - [x] 2.2 Libros de El Mazmorrón (con sus campañas), Magia y Acero y Más allá de Corny Groń; verificar con `just test`
 - [x] 2.3 `just affiliate-coverage` sin fichas por revisar; descripciones al usuario para revisión
+- [x] 2.4 Descarga gratuita abierta a cualquier copia legal de la editorial o del autor (esquema, `freeDownloadLabel` y ficha), con enlace en Vieja Escuela, Magia & Acero y Trasgos y Mazmorras, y sistemas Eirendor y Trasgos y Mazmorras; verificar con `src/utils/rpg.test.ts` y `just test`
 
 ## 3. Documentación y verificación
 

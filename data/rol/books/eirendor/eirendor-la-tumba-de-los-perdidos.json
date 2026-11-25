@@ -1,0 +1,22 @@
+{
+  "slug": "eirendor-la-tumba-de-los-perdidos",
+  "system": "eirendor",
+  "title": "Eirendor: La tumba de los perdidos",
+  "kind": "adventure",
+  "description": "Aventura para Eirendor en la Mina de Fadrek, una antigua excavación enana abandonada tras la desaparición de sus habitantes y conocida como la Tumba, cuyas puertas rotas dejan al alcance de cualquiera sus tesoros y su terrible historia.\n\nEs la primera aventura del juego y salió impresa como meta de la campaña de Verkami de 2016; necesita el manual básico.",
+  "source": "https://juegosdelamesaredonda.com/4425-eirendor-la-tumba-de-los-perdidos-9788494645822.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "format": "paperback",
+      "isbn13": 9788494645822,
+      "cover": "/images/rol/eirendor-la-tumba-de-los-perdidos/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/15028-eirendor-el-albor-de-la-quinta-edad",
+        "end": "2016-07-04"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "eirendor",
+  "name": "Eirendor",
+  "family": "eirendor",
+  "publisher": "Yipikayei",
+  "date": "2016",
+  "description": "Juego de rol de fantasía español de Yipikayei que usa el sistema y las mecánicas básicas de la quinta edición de D&D, gracias a su licencia abierta, en un mundo propio que se enfrenta a la llegada de la Quinta Edad.\n\nSu manual básico, El albor de la Quinta Edad, se financió en Verkami en 2016 y tuvo después varias aventuras impresas. Es un juego español, solo en castellano.",
+  "features": [
+    "Reglas de la quinta edición",
+    "Mundo propio de fantasía",
+    "Manual en formato A5",
+    "Financiado en Verkami"
+  ],
+  "licenses": [
+    {
+      "license": "srd-5-1",
+      "since": "2016"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-5e-2014",
+      "kind": "compatible",
+      "via_license": "srd-5-1",
+      "note": "Usa el sistema y las mecánicas básicas de la quinta edición bajo su licencia abierta, según su campaña."
+    }
+  ],
+  "links": [
+    {
+      "label": "Verkami",
+      "url": "https://www.verkami.com/projects/15028-eirendor-el-albor-de-la-quinta-edad"
+    }
+  ]
+}

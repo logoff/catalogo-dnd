@@ -18,14 +18,17 @@ cuando se puede conseguir, y no solo cuando llega a las tiendas.
 - La ficha del libro muestra la campaña: «En campaña en Verkami hasta el…»
   si sigue abierta y «Financiado en Verkami» si ya cerró, como enlace aparte
   que no es una tienda ni lleva afiliado.
+- La descarga gratuita de una edición deja de estar limitada a Codex de la
+  Marca: vale cualquier copia gratuita y legal de la editorial o del autor,
+  como los PDF de Vieja Escuela, Magia & Acero o Trasgos y Mazmorras.
 - `/novedades` añade el bloque «En micromecenazgo» con las campañas
   abiertas, de la que cierra antes a la que cierra después. Como la página se
   genera cada día, una campaña sale del bloque al cerrar.
 - Carga de los juegos españoles que faltaban: Axis Mundi, Vieja Escuela,
   Kaylos OSR y Helvéczia como sistemas; El Mazmorrón (libros de aventuras para
   D&D 5E), Magia y Acero (en Swords & Wizardry) y Más allá de Corny Groń (en
-  Knave) como libros. Eirendor y Trasgos y Mazmorras quedan pendientes en el
-  inventario hasta encontrar fuentes.
+  Knave) como libros, y Eirendor (basado en la 5E) y Trasgos y Mazmorras
+  (retroclón de AD&D) como sistemas con sus libros.
 - Las traducciones al castellano que faltan de sistemas OSR que ya están en el
   catálogo (Labyrinth Lord, Mörk Borg, Old-School Essentials, la línea de
   Knave…) van en otro cambio.
@@ -40,7 +43,8 @@ cuando se puede conseguir, y no solo cuando llega a las tiendas.
 
 ### Modified Capabilities
 
-Ninguna.
+- `rpg-books`: la descarga gratuita vale para cualquier copia gratuita y
+  legal de la editorial o del autor, no solo Codex de la Marca.
 
 ## Impact
 

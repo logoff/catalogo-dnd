@@ -239,8 +239,8 @@ export function movementProblem(systems: RpgSystem[], system: RpgSystem): string
 }
 
 // Por qué un libro de un sistema OSR o NSR queda fuera del alcance, o null si entra: necesita
-// formato en cada edición, una edición impresa (o liberada gratis por la editorial en Codex de la
-// Marca) y estar en castellano o ser de la línea propia
+// formato en cada edición, una edición impresa (o una copia gratuita de la editorial o del autor,
+// como las de Codex de la Marca) y estar en castellano o ser de la línea propia
 export function movementBookProblem(
   book: Pick<RpgBook, 'editions'>,
   system: Pick<RpgSystem, 'publisher' | 'line_publishers'>
@@ -254,4 +254,11 @@ export function movementBookProblem(
     (e) => e.language === 'castellano' || (e.language === 'english' && line.includes(e.publisher))
   )
   return inScope ? null : 'solo en inglés y de otra editorial que la del sistema'
+}
+
+// Texto del botón de descarga gratuita: Codex de la Marca por su nombre; las demás, genérico
+export function freeDownloadLabel(url: string): string {
+  return new URL(url).hostname.endsWith('codexdelamarca.com')
+    ? 'Descarga gratuita en Codex de la Marca'
+    : 'Descarga gratuita'
 }

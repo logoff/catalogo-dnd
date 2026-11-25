@@ -305,7 +305,11 @@
       "el-mazmorron": "El libro impreso solo se consiguió en Verkami; el PDF de DriveThruRPG se pide al autor (revisado el 2026-11-25)",
       "mazmorron-el-azulon": "En campaña en Verkami; aún no está en tiendas (revisado el 2026-11-25)",
       "magia-y-acero-white-box": "Solo se vende en Lulu (impresión bajo demanda) (revisado el 2026-11-25)",
-      "castillo-de-la-reina-velada": "Agotado en Juegos de la Mesa Redonda y en la tienda de Outremer (revisado el 2026-11-25)"
+      "castillo-de-la-reina-velada": "Agotado en Juegos de la Mesa Redonda y en la tienda de Outremer (revisado el 2026-11-25)",
+      "eirendor-el-albor-de-la-quinta-edad": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "eirendor-la-tumba-de-los-perdidos": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "eirendor-deseos-oscuros": "Agotado en Juegos de la Mesa Redonda (revisado el 2026-11-25)",
+      "trasgos-y-mazmorras-manual-del-jugador": "Solo se vende en Lulu (impresión bajo demanda); el PDF es gratuito (revisado el 2026-11-25)"
     },
     "casa_del_libro": {
       "13-true-ways": "No está en Casa del Libro (revisado el 2026-11-20)",
@@ -595,7 +599,12 @@
       "magia-y-acero-white-box": "No está en Casa del Libro (revisado el 2026-11-25)",
       "castillo-de-la-reina-velada": "No está en Casa del Libro (revisado el 2026-11-25)",
       "axis-mundi-estacion-norte": "No está en Casa del Libro (revisado el 2026-11-25)",
-      "mas-alla-de-corny-gron": "No está en Casa del Libro (revisado el 2026-11-25)"
+      "mas-alla-de-corny-gron": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "eirendor-el-albor-de-la-quinta-edad": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "eirendor-la-tumba-de-los-perdidos": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "eirendor-deseos-oscuros": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "eirendor-la-bruja-de-el-cuello": "No está en Casa del Libro (revisado el 2026-11-25)",
+      "trasgos-y-mazmorras-manual-del-jugador": "No está en Casa del Libro (revisado el 2026-11-25)"
     },
     "amazon": {
       "13th-age-2e-gamemasters-guide": "No está en Amazon.es (revisado el 2026-11-20); tampoco en Juegos de la Mesa Redonda, Casa del Libro ni NoSoloRol",
@@ -629,7 +638,11 @@
       "tov-tumba-perdida-de-nargoth": "Solo en PDF (revisado el 2026-11-20)",
       "warlock-grimoire": "No disponible en Amazon.es; solo están los volúmenes 3 y IV (revisado el 2026-11-20)",
       "el-mazmorron": "El libro impreso solo se consiguió en Verkami; el PDF de DriveThruRPG se pide al autor (revisado el 2026-11-25)",
-      "mazmorron-el-azulon": "En campaña en Verkami; aún no está en tiendas (revisado el 2026-11-25)"
+      "mazmorron-el-azulon": "En campaña en Verkami; aún no está en tiendas (revisado el 2026-11-25)",
+      "eirendor-el-albor-de-la-quinta-edad": "No está a la venta en Amazon.es (revisado el 2026-11-25)",
+      "eirendor-la-tumba-de-los-perdidos": "No está a la venta en Amazon.es (revisado el 2026-11-25)",
+      "eirendor-deseos-oscuros": "No está a la venta en Amazon.es (revisado el 2026-11-25)",
+      "eirendor-la-bruja-de-el-cuello": "No está a la venta en Amazon.es (revisado el 2026-11-25)"
     },
     "drivethrurpg": {
       "aventuras-en-la-marca-del-este/aventuras-en-la-marca-del-este": "la caja en inglés (2014) no se vende en DriveThruRPG; no está en DriveThruRPG (revisado 2026-11-22)",

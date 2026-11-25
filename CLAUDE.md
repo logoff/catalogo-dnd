@@ -197,9 +197,9 @@ Los juegos OSR y NSR llevan `movement` en su sistema (con texto propio
 en `/rol#osr-y-nsr` que avisa de que la definición no es precisa) y de
 ellos entra, además, la línea impresa propia en inglés (editorial del
 sistema o `line_publishers`), con `format` en cada edición y al menos una
-impresa (`movementBookProblem` en `src/utils/rpg.ts`). Si la editorial ha
-liberado un libro en Codex de la Marca, la edición lo enlaza con
-`free_download`, un botón aparte que no es de compra. Las ediciones
+impresa (`movementBookProblem` en `src/utils/rpg.ts`). Si la editorial o el
+autor ofrecen el libro gratis (Codex de la Marca, su web), la edición lo
+enlaza con `free_download`, un botón aparte que no es de compra. Las ediciones
 financiadas en micromecenazgo llevan `crowdfunding` (plataforma, enlace y
 fecha de cierre): la ficha dice «En campaña en…» o «Financiado en…» comparando
 con `virtual:build-date`, y las abiertas salen en «En micromecenazgo» de

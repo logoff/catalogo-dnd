@@ -26,6 +26,7 @@ import type { RpgBookWithMeta, RpgEdition } from '@/types/rpg'
 import { PLACEHOLDER_IMAGE, SITE_URL } from '@/utils/constants'
 import { formatISBN } from '@/utils/formatters'
 import { campaignLabel } from '@/utils/crowdfunding'
+import { freeDownloadLabel } from '@/utils/rpg'
 import { isDndEdition, mainCover, systemPath } from '@/utils/rpg'
 import { bookKindNames, licenseLabel, rpgFormatNames } from '@/utils/rpgTranslations'
 import { formatPartialDate } from '@/utils/videogameTranslations'
@@ -78,7 +79,7 @@ function EditionRow({
             />
           ))}
           {edition.free_download && (
-            // Copia liberada por la editorial: no es una tienda ni lleva afiliado
+            // Copia gratuita de la editorial o del autor: no es una tienda ni lleva afiliado
             <a
               href={edition.free_download}
               target="_blank"
@@ -88,7 +89,7 @@ function EditionRow({
               data-umami-event-rol={`${book.system}/${book.slug}`}
               data-umami-event-url={edition.free_download}
             >
-              <span>Descarga gratuita en Codex de la Marca</span>
+              <span>{freeDownloadLabel(edition.free_download)}</span>
               <ArrowDownTrayIcon className="size-3.5 opacity-70" aria-hidden="true" />
             </a>
           )}
