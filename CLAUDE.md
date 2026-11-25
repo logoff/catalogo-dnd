@@ -231,7 +231,19 @@ de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandi
 rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
 (ediciones anteriores de D&D), `/ediciones/:edicion` y
 `/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`,
-`/novedades` y `/novedades/:mes` (resumen mensual).
+`/novedades` y `/novedades/:mes` (resumen mensual), `/buscar?q=` (buscador
+global, con `noindex` y fuera del sitemap).
+
+**Buscador global:** la caja de la cabecera y de la portada (`SearchBar`,
+con `useSiteSearchInput`) lleva a `/buscar?q=` (`SearchPage`), que busca en
+todas las secciones a la vez con `src/utils/siteSearch.ts`: un adaptador por
+sección convierte sus fichas en entradas comunes (título, castellano, enlace,
+miniatura y texto de búsqueda con títulos, autores o editoriales e ISBN) y
+`searchSite` las agrupa por sección. Novelas, cómics y rol aportan el
+`searchText` de su índice, que se descarga al abrir la página. El texto de la
+URL se aplica tras hidratar, porque `/buscar` se prerenderiza vacía
+(`UNLISTED_PATHS` en `scripts/prerender.mjs`). Cada listado conserva su propio
+buscador; el de `/catalogo`, `/2014` y `/2024` está en `FilterPanel`.
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
 cada tienda (Amazon, Adtraction, Awin, Instant Gaming, DriveThru; NoSoloRol y

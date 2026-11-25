@@ -209,10 +209,10 @@ export default function Header() {
           </div>
 
           <div className="ml-auto flex items-center gap-2 lg:ml-0">
-            {/* Entre md y lg no cabe el buscador: se llega al del catálogo */}
+            {/* Entre md y lg no cabe el buscador: se llega a la página de búsqueda */}
             <Link
-              to="/catalogo"
-              aria-label="Buscar libros"
+              to="/buscar"
+              aria-label="Buscar en el catálogo"
               className="hidden size-10 items-center justify-center rounded-lg border border-line text-fg hover:bg-well md:inline-flex lg:hidden"
             >
               <MagnifyingGlassIcon className="size-5" aria-hidden="true" />

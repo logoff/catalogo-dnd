@@ -11,6 +11,7 @@ import type {
   RpgSystem,
 } from '../types/rpg.ts'
 import { normalize } from './videogameFilters.ts'
+import { isbnsOf } from './searchText.ts'
 
 // Editoriales de 5E destacadas: entra su catálogo impreso principal aunque solo esté en inglés
 export const FEATURED_PUBLISHERS = ['Kobold Press']
@@ -69,7 +70,9 @@ export function enrichBook(book: RpgBook, systems: RpgSystem[]): RpgBookWithMeta
     spanish: book.editions.some((e) => e.language === 'castellano'),
     licenses: bookLicenses(book, systems),
     publishers,
-    searchText: normalize([...new Set([...titles, ...publishers])].join(' | ')),
+    searchText: normalize(
+      [...new Set([...titles, ...publishers, ...isbnsOf(book.editions)])].join(' | ')
+    ),
     movement: systems.find((s) => s.slug === book.system)?.movement ?? null,
   }
 }

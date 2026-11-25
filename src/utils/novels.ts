@@ -12,6 +12,7 @@ import type {
   NovelWithMeta,
 } from '../types/novel.ts'
 import { normalize } from './videogameFilters.ts'
+import { isbnsOf } from './searchText.ts'
 
 // Recopilatorios de cualquier serie que contienen la novela
 export function collectionsIn(series: NovelSeries[], slug: string): NovelCollection[] {
@@ -63,7 +64,14 @@ export function enrichNovel(novel: Novel, collections: NovelCollection[]): Novel
       (edition) => (edition.purchase_links ?? []).length > 0
     ),
     searchText: normalize(
-      [...new Set([novel.title, ...spanishTitles, ...novel.authors])].join(' | ')
+      [
+        ...new Set([
+          novel.title,
+          ...spanishTitles,
+          ...novel.authors,
+          ...isbnsOf([...novel.editions, ...collections]),
+        ]),
+      ].join(' | ')
     ),
   }
 }

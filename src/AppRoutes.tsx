@@ -21,6 +21,7 @@ import DndEditionsPage from './pages/DndEditionsPage'
 import RpgTreePage from './pages/RpgTreePage'
 import NotFoundPage from './pages/NotFoundPage'
 import ReleasesPage from './pages/ReleasesPage'
+import SearchPage from './pages/SearchPage'
 import MonthlySummaryPage from './pages/MonthlySummaryPage'
 import GuidesPage from './pages/GuidesPage'
 import LegalPage from './pages/LegalPage'
@@ -42,6 +43,7 @@ export default function AppRoutes() {
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="catalogo" element={<CatalogPage />} />
+        <Route path="buscar" element={<SearchPage />} />
         <Route path="2014" element={<EditionPage edition="5e" />} />
         <Route path="2014/:category" element={<EditionPage edition="5e" />} />
         <Route path="2024" element={<EditionPage edition="2024" />} />
