@@ -1,0 +1,25 @@
+{
+  "slug": "book-of-concealment",
+  "title": "The Book of Concealment",
+  "group": "stationery",
+  "kind": "journal",
+  "manufacturer": "Ten Speed Press",
+  "date": "2024-09-17",
+  "description": "Diario oficial ilustrado de Dungeons & Dragons con páginas cuadriculadas, útiles para dibujar mapas, y plantillas para anotar las partidas, en la línea de The Book of Holding.\n\nEs un cuaderno de regalo para jugadores y directores de juego. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/721991/x/9780593580721/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2024-09-17",
+      "isbn13": 9780593580721,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593580729/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/book-of-concealment/0.jpg"]
+}

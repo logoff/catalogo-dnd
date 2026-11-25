@@ -1,0 +1,25 @@
+{
+  "slug": "lich-lord-puzzle",
+  "title": "The Lich Lord Puzzle",
+  "group": "stationery",
+  "kind": "puzzle",
+  "manufacturer": "Ten Speed Press",
+  "date": "2022-08-30",
+  "description": "Puzle oficial de mil piezas con una ilustración de un señor liche de Dungeons & Dragons, en caja de regalo.\n\nForma serie con los puzles del contemplador y de Tiamat de la misma editorial. No tiene texto que traducir.",
+  "source": "https://www.penguinrandomhouse.com/books/705580/x/9780593236659/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2022-08-30",
+      "isbn13": 9780593236659,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593236653/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/lich-lord-puzzle/0.jpg"]
+}

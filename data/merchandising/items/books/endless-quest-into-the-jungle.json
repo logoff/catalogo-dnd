@@ -1,0 +1,27 @@
+{
+  "slug": "endless-quest-into-the-jungle",
+  "title": "Endless Quest: Into the Jungle",
+  "group": "books",
+  "kind": "gamebook",
+  "manufacturer": "Candlewick Press",
+  "date": "2018",
+  "description": "Librojuego de Matt Forbeck de la serie Endless Quest, recuperada por Wizards of the Coast y Candlewick en 2018: el lector elige qué hacer al final de cada capítulo en una aventura por una selva de la costa occidental de Faerûn, donde el lector, un clérigo, busca un anillo perdido entre dinosaurios y ruinas.\n\nEstá pensado para lectores de 8 a 12 años que empiezan con D&D, con ilustraciones del arte oficial de la quinta edición. Salió en tapa dura y en rústica, y solo en inglés.",
+  "source": "https://gamebooks.org/Item/11800",
+  "editions": [
+    {
+      "language": "english",
+      "title": "Endless Quest: Into the Jungle (tapa dura)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536202465
+    },
+    {
+      "language": "english",
+      "title": "Endless Quest: Into the Jungle (rústica)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536202410
+    }
+  ],
+  "images": ["/images/merchandising/endless-quest-into-the-jungle/0.jpg"]
+}

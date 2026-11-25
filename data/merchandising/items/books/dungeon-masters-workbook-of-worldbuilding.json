@@ -1,0 +1,25 @@
+{
+  "slug": "dungeon-masters-workbook-of-worldbuilding",
+  "title": "Dungeon Master's Workbook of Worldbuilding",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-05-05",
+  "description": "Cuaderno de trabajo oficial para directores de juego, con ejercicios, preguntas y guías visuales para crear un mundo de campaña propio: geografía, pueblos, facciones, historia y ganchos de aventura.\n\nSe rellena a mano y acompaña a las reglas, no las sustituye; tiene su pareja para jugadores en el Player's Workbook of Epic Adventures. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/787530/x/9798217034338/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-05-05",
+      "isbn13": 9798217034338,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FLCFHXSL/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeon-masters-workbook-of-worldbuilding/0.jpg"]
+}

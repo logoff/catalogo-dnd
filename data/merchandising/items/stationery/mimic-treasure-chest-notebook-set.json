@@ -1,0 +1,25 @@
+{
+  "slug": "mimic-treasure-chest-notebook-set",
+  "title": "Mimic Treasure Chest Notebook Set",
+  "group": "stationery",
+  "kind": "journal",
+  "manufacturer": "Ten Speed Press",
+  "date": "2024-08-13",
+  "description": "Juego de cinco libretas en blanco de 4 × 6 pulgadas guardadas en una caja con forma de cofre del tesoro que es en realidad un mimeto, el monstruo que se hace pasar por cofre.\n\nEs un regalo para jugadores, útil para notas de partida. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/722115/x/9780593580745/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2024-08-13",
+      "isbn13": 9780593580745,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593580745/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/mimic-treasure-chest-notebook-set/0.jpg"]
+}

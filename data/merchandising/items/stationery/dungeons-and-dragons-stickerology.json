@@ -1,0 +1,25 @@
+{
+  "slug": "dungeons-and-dragons-stickerology",
+  "title": "Dungeons & Dragons Stickerology",
+  "group": "stationery",
+  "kind": "stationery_gift",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-10-10",
+  "description": "Libro de pegatinas oficial con cientos de adhesivos de monstruos, personajes, objetos y símbolos de Dungeons & Dragons, para decorar cuadernos, carpetas y pantallas.\n\nEs un regalo para jugadores de cualquier edad. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/722117/x/9780593580752/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-10-10",
+      "isbn13": 9780593580752,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0593580753/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/dungeons-and-dragons-stickerology/0.jpg"]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "worldbuilders-journal-of-legendary-adventures",
+  "title": "The Worldbuilder's Journal of Legendary Adventures",
+  "group": "stationery",
+  "kind": "journal",
+  "manufacturer": "Ten Speed Press",
+  "date": "2020-05-12",
+  "description": "Diario oficial de Dungeons & Dragons con trescientas sesenta y cinco propuestas de escritura, una por día, para inventar personajes, lugares y aventuras.\n\nPensado para jugadores y directores de juego de cualquier nivel que quieran practicar la creación de mundos. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/603924/x/9781984824639/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2020-05-12",
+      "isbn13": 9781984824639,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984824635/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/worldbuilders-journal-of-legendary-adventures/0.jpg"]
+}

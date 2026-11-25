@@ -1,0 +1,25 @@
+{
+  "slug": "art-and-making-of-honor-among-thieves",
+  "title": "The Art and Making of Dungeons & Dragons: Honor Among Thieves",
+  "group": "books",
+  "kind": "art_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-04-04",
+  "description": "Libro oficial sobre el rodaje de la película Dragones y Mazmorras: Honor entre ladrones, de 2023, con arte conceptual, fotografías y entrevistas con el reparto y el equipo sobre cómo se llevó D&D a la pantalla.\n\nPara quien quiera ver el diseño de criaturas, decorados y vestuario de la película. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/714668/x/9781984861863/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2023-04-04",
+      "isbn13": 9781984861863,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984861867/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/art-and-making-of-honor-among-thieves/0.jpg"]
+}

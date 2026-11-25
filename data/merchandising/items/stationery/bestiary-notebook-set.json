@@ -1,0 +1,25 @@
+{
+  "slug": "bestiary-notebook-set",
+  "title": "Bestiary Notebook Set",
+  "group": "stationery",
+  "kind": "journal",
+  "manufacturer": "Ten Speed Press",
+  "date": "2019-10-01",
+  "description": "Caja con ocho libretas ilustradas con monstruos clásicos de Dungeons & Dragons en las cubiertas, para tomar notas durante las partidas.\n\nEs un regalo para jugadores y directores de juego. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/603926/x/9781984824653/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2019-10-01",
+      "isbn13": 9781984824653,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984824651/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/bestiary-notebook-set/0.jpg"]
+}

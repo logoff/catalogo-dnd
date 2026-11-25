@@ -1,0 +1,25 @@
+{
+  "slug": "players-workbook-of-epic-adventures",
+  "title": "Player's Workbook of Epic Adventures",
+  "group": "books",
+  "kind": "guide_book",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-05-05",
+  "description": "Cuaderno de trabajo oficial para jugadores, con ejercicios, preguntas y guías visuales para dar forma al trasfondo, la personalidad y los objetivos de un personaje y llevar la cuenta de sus aventuras.\n\nEs la pareja del Dungeon Master's Workbook of Worldbuilding y sirve para jugadores nuevos y veteranos. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/787532/x/9798217034345/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-05-05",
+      "isbn13": 9798217034345,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FLCHJN8Y/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/players-workbook-of-epic-adventures/0.jpg"]
+}
