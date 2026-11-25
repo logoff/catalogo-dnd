@@ -1,39 +1,21 @@
-import { useState, useEffect, useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { useProductStore } from '@/store/productStore'
-import { useDebounce } from '@/hooks/useDebounce'
 import SearchField from '@/components/ui/SearchField'
+import { useSiteSearchInput } from '@/hooks/useSiteSearchInput'
 
+// Buscador global de la cabecera y de la portada: lleva a /buscar con los resultados de todas
+// las secciones
 export default function SearchBar({ size = 'md' }: { size?: 'md' | 'lg' }) {
-  const navigate = useNavigate()
-  const { searchQuery, setSearchQuery } = useProductStore()
-  const [localQuery, setLocalQuery] = useState(searchQuery)
-  const debouncedQuery = useDebounce(localQuery, 300)
-  const prevQuery = useRef(debouncedQuery)
-
-  useEffect(() => {
-    if (debouncedQuery === prevQuery.current) return
-    prevQuery.current = debouncedQuery
-
-    setSearchQuery(debouncedQuery)
-    if (debouncedQuery && !window.location.pathname.endsWith('/catalogo')) {
-      navigate(`/catalogo?q=${encodeURIComponent(debouncedQuery)}`)
-    }
-  }, [debouncedQuery, setSearchQuery, navigate])
-
-  const handleClear = () => {
-    setLocalQuery('')
-    setSearchQuery('')
-  }
+  const { value, onChange, onClear, onSubmit } = useSiteSearchInput()
 
   return (
-    <SearchField
-      label="Buscar libros"
-      value={localQuery}
-      onChange={(e) => setLocalQuery(e.target.value)}
-      onClear={handleClear}
-      placeholder="Buscar libros…"
-      size={size}
-    />
+    <form role="search" onSubmit={onSubmit}>
+      <SearchField
+        label="Buscar en el catálogo"
+        value={value}
+        onChange={onChange}
+        onClear={onClear}
+        placeholder="Buscar en el catálogo…"
+        size={size}
+      />
+    </form>
   )
 }

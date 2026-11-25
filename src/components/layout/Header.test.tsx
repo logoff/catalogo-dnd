@@ -19,6 +19,15 @@ describe('cabecera', () => {
     expect(screen.getByRole('link', { name: 'Guías' })).toHaveAttribute('href', '/guias')
   })
 
+  it('el acceso de búsqueda de tableta abre la página de búsqueda', () => {
+    renderHeader()
+    expect(screen.getByRole('link', { name: 'Buscar en el catálogo' })).toHaveAttribute(
+      'href',
+      '/buscar'
+    )
+    expect(screen.getAllByRole('search').length).toBeGreaterThan(0)
+  })
+
   it('enlaza a las novedades y mide el clic', () => {
     renderHeader()
     const link = screen.getByRole('link', { name: 'Novedades' })

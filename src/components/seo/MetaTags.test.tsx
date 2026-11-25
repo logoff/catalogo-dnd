@@ -26,6 +26,23 @@ describe('MetaTags', () => {
     )
     expect(canonical()).toBe('https://catalogodnd.es/')
   })
+
+  it('solo pide no indexar cuando se indica', () => {
+    const robots = () => document.head.querySelector('meta[name="robots"]')?.getAttribute('content')
+    const { unmount } = render(
+      <MemoryRouter initialEntries={['/']}>
+        <MetaTags />
+      </MemoryRouter>
+    )
+    expect(robots()).toBeUndefined()
+    unmount()
+    render(
+      <MemoryRouter initialEntries={['/buscar']}>
+        <MetaTags title="Buscar" noindex />
+      </MemoryRouter>
+    )
+    expect(robots()).toBe('noindex')
+  })
 })
 
 describe('summarize', () => {

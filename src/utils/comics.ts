@@ -9,6 +9,7 @@ import type {
   ComicWithMeta,
 } from '../types/comic.ts'
 import { normalize } from './videogameFilters.ts'
+import { isbnsOf } from './searchText.ts'
 
 // Números de un rango: «1-5» → 1…5; «1-3, 6» → 1, 2, 3, 6; «Annual 1» → «Annual 1». Los rangos
 // solo valen entre números enteros; lo demás se toma tal cual.
@@ -145,7 +146,9 @@ export function summarize(comic: ComicWithMeta): ComicSummary {
     spanish: comic.spanish,
     availableToBuy: comic.availableToBuy,
     continuedBy: comic.continuedBy,
-    searchText: normalize([...new Set([...titles, ...people])].join(' | ')),
+    searchText: normalize(
+      [...new Set([...titles, ...people, ...isbnsOf(comic.editions)])].join(' | ')
+    ),
   }
 }
 
