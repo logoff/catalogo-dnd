@@ -45,8 +45,8 @@ enlazar a su ficha.
 
 El listado SHALL permitir filtrar por grupo, por tipo, por artículos con
 edición en castellano publicada en España y por artículos a la venta, y
-combinar los filtros. Los grupos SHALL ser los cuatro de la sección,
-también «Dados y accesorios».
+combinar los filtros. Los grupos SHALL ser los cinco de la sección,
+también «Dados y accesorios» y «Papelería y regalo».
 
 #### Scenario: Filtrar por grupo
 
@@ -58,6 +58,12 @@ también «Dados y accesorios».
 - **WHEN** el visitante elige el grupo «Dados y accesorios»
 - **THEN** solo ve juegos de dados, accesorios de dados y calendarios de
   adviento de dados
+
+#### Scenario: Filtrar por papelería
+
+- **WHEN** el visitante elige el grupo «Papelería y regalo»
+- **THEN** solo ve diarios y cuadernos, puzles y otros artículos de
+  papelería y regalo
 
 #### Scenario: Sin resultados
 
