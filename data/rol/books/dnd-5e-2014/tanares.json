@@ -1,0 +1,21 @@
+{
+  "slug": "tanares",
+  "system": "dnd-5e-2014",
+  "title": "Tanares RPG 5E",
+  "kind": "setting",
+  "license": "none",
+  "description": "Edición española de Tanares, una ambientación para la quinta edición financiada antes en Kickstarter y Gamefound, que Akuma Studio publica en castellano en una caja.\n\nSu campaña de Verkami de 2025 fue una preventa tardía para quien no participó en las anteriores.",
+  "source": "https://www.verkami.com/projects/38400",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Akuma Studio",
+      "format": "boxed_set",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/38400",
+        "end": "2025-04-04"
+      }
+    }
+  ]
+}

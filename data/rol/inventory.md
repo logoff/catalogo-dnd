@@ -118,6 +118,7 @@ digital de plataformas comunitarias.
 | 48  | For Coin & Blood                   | For Coin & Blood                   | Gallant Knight Games               | 2018 | —                                                        | Swords & Wizardry: reescrito pero compatible                | sí (The Hills Press)             | [Gallant Knight Games](https://gallantknightgames.com/products/for-coin-blood-second-edition)    | for-coin-and-blood                 | OSR; entra por su edición en castellano.                                                 |
 | 49  | Runecairn                          | Runecairn                          | Colin Le Sueur                     | 2021 | —                                                        | Cairn: reescrito pero compatible                            | sí (Outremer)                    | [DriveThruRPG](https://www.drivethrurpg.com/en/product/385682/runecairn-wardensaga)              | runecairn                          | NSR; entra por su edición en castellano.                                                 |
 | 50  | The Electrum Archive               | The Electrum Archive               | Cult of the Lizard King            | 2022 | —                                                        | Cairn: reescrito pero compatible                            | sí (Outremer)                    | [Outremer](https://outremer.es/producto/el-archivo-de-electro/)                                  | the-electrum-archive               | NSR; zine; entra por su edición en castellano.                                           |
+| 51  | Dungeon Hack                       | Dungeon Hack                       | Yipikayei                          | 2018 | —                                                        | The Black Hack: cambio mayor de reglas                      | sí                               | [Verkami](https://www.verkami.com/projects/21054)                                                | dungeon-hack                       | OSR español; vía Estrellas Errantes.                                                     |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -1073,15 +1074,29 @@ Revisado en Juegos de la Mesa Redonda, Nosolorol, Outremer, The Hills Press y Ve
 
 Entra todo lo publicado en castellano aunque esté agotado, también los zines impresos. Las fechas salen de la campaña de mecenazgo o de la preventa y, si no, del alta del producto en la tienda de la editorial. Fuera: Mörk Borg no tiene todavía edición en castellano; Siete Pecados (Nosolorol) es un suplemento para SRD 5 y OSR sin sistema propio; Knave en castellano solo está en PDF de «paga lo que quieras».
 
-### Pendiente de investigar (campañas de Verkami, 2026-11-25)
+### Campañas de Verkami (2026-11-25)
 
-Proyectos financiados en Verkami de la familia de D&D que aún no están en el catálogo:
+Lo de la familia de D&D en la lista de proyectos financiados de Verkami que faltaba. Clásicos del Mazmorreo 1.ª y 2.ª edición y la primera pantalla son ediciones de sus fichas; Dragonlight ya estaba y gana su campaña.
 
-- **Clásicos del Mazmorreo:** la primera edición en castellano (Verkami, agosto de 2016) y la segunda; la ficha solo recoge la tercera.
-- **OSR españoles:** Walpurgis, el retrojuego de rol de fantasía; Fallen Justice OSR; Dungeon Hack: Aventureros errantes; Tierras quebradas; Buscadores de mazmorras; Entrando en la mazmorra; Crónicas de Aarth.
-- **Libros de terceros para 5E en castellano:** La isla de Vyrr, Brancalonia 5E, Tanares RPG 5E, Kobold: aventuras en Tzarkuhdea, Compendio de objetos mágicos para D&D 5E, Dungeons & Cthulhu, Cómo seducir a un dragón y las aventuras de La Mazmorra del Roleo (El último banquete, La caverna misteriosa, Save Private Tom).
-- **Dragonlight:** juego sobre el SRD 5.2.
-- **Fechas en castellano** de Labyrinth Lord y las aventuras de Nosolorol.
+| #   | Título                                                           | Sistema                | Tipo         | Ficha                                                             | Nota                                       |
+| --- | ---------------------------------------------------------------- | ---------------------- | ------------ | ----------------------------------------------------------------- | ------------------------------------------ |
+| 1   | Dungeons & Cthulhu: El templo perdido de Hastur el Innombrable   | dungeon-crawl-classics | aventura     | dungeons-and-cthulhu-el-templo-perdido-de-hastur                  | Ediciones T&T; Verkami (2017).             |
+| 2   | Dungeons & Cthulhu: La siniestra fortaleza de Bahía Espinosa     | dungeon-crawl-classics | aventura     | dungeons-and-cthulhu-la-siniestra-fortaleza-de-bahia-espinosa     | Ediciones T&T; Verkami (2019).             |
+| 3   | Dungeons & Cthulhu: La sombra funesta de las ruinas de Rocavieja | dungeon-crawl-classics | aventura     | dungeons-and-cthulhu-la-sombra-funesta-de-las-ruinas-de-rocavieja | Ediciones T&T; Verkami (2021).             |
+| 4   | Dungeon Hack: Aventureros Errantes                               | dungeon-hack           | básico       | dungeon-hack-aventureros-errantes                                 | Yipikayei; Verkami (2018).                 |
+| 5   | Crónicas de Aarth                                                | dnd-5e-2014            | aventura     | cronicas-de-aarth                                                 | Sugaar Editorial; Verkami (2019).          |
+| 6   | La Isla de Vyrr                                                  | dnd-5e-2014            | aventura     | la-isla-de-vyrr                                                   | Rolecat; Verkami (2019).                   |
+| 7   | Brancalonia                                                      | dnd-5e-2014            | ambientación | brancalonia                                                       | Cursed Ink; Verkami (2025).                |
+| 8   | Tanares RPG 5E                                                   | dnd-5e-2014            | ambientación | tanares                                                           | Akuma Studio; Verkami (2025).              |
+| 9   | Cómo seducir a un dragón                                         | dnd-5e-2014            | suplemento   | como-seducir-a-un-dragon                                          | Verkami (2023).                            |
+| 10  | Entrando en la mazmorra                                          | dnd-5e-2014            | otro         | entrando-en-la-mazmorra                                           | Verkami (2020).                            |
+| 11  | Compendio de objetos mágicos: ¿Y esto qué hace?                  | dnd-5e-2014            | suplemento   | compendio-de-objetos-magicos-y-esto-que-hace                      | La Mazmorra del Roleo; Verkami (2025).     |
+| 12  | El último banquete                                               | dnd-5e-2014            | aventura     | el-ultimo-banquete                                                | La Mazmorra del Roleo; Verkami (2026).     |
+| 13  | La caverna misteriosa                                            | dnd-5e-2014            | aventura     | la-caverna-misteriosa                                             | La Mazmorra del Roleo; Verkami (2026).     |
+| 14  | El Grimorio del Herbalista                                       | dnd-5e-2014            | suplemento   | el-grimorio-del-herbalista                                        | En campaña en Verkami hasta el 2026-12-01. |
+| 15  | SRD 5.2 + Dragonlight                                            | dnd-5e-2024            | básico       | srd-5-2-dragonlight                                               | Dragon Lighthouse; Verkami (2025).         |
+
+Fuera, por no derivar de D&D: Walpurgis (sistema propio de terror), Fallen Justice (suplemento de Tiny Supers), Kobold: aventuras en Tzarkuhdea (d100 de BRP), Buscadores de mazmorras (sistema indie propio) y Tierras Quebradas (sistema propio). Save Private Tom (La Mazmorra del Roleo) está en inglés y Abrerinto (Crónicas de Aarth) es un librojuego.
 
 ## Ediciones anteriores de D&D
 

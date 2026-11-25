@@ -1,0 +1,20 @@
+{
+  "slug": "brancalonia",
+  "system": "dnd-5e-2014",
+  "title": "Brancalonia",
+  "kind": "setting",
+  "license": "none",
+  "description": "Edición en castellano de Brancalonia, la ambientación de fantasía picaresca a la italiana para la quinta edición, que publica Cursed Ink.\n\nSe financió en Verkami en mayo de 2025 e incluye subclases propias como el pagano, el arlequín, el espadachín y el fraile.",
+  "source": "https://www.verkami.com/projects/40575",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Cursed Ink",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/40575",
+        "end": "2025-05-11"
+      }
+    }
+  ]
+}

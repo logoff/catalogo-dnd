@@ -14,6 +14,11 @@
       "isbn13": 9791399093704,
       "cover": "/images/rol/dragonlight/castellano.webp",
       "source": "https://revistaturno.es/dragonlight-ambientacion-dungeons-and-dragons/",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/39874",
+        "end": "2025-04-15"
+      },
       "purchase_links": [
         {
           "store": "juegos_mesa_redonda",

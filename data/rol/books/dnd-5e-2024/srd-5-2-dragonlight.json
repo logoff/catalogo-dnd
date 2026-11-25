@@ -1,0 +1,21 @@
+{
+  "slug": "srd-5-2-dragonlight",
+  "system": "dnd-5e-2024",
+  "title": "SRD 5.2 + Dragonlight",
+  "kind": "core",
+  "license": "none",
+  "description": "Manual en castellano con las reglas básicas del SRD 5.2, la licencia abierta de la edición de 2024, ilustrado con el mundo de Dragonlight, de Dragon Lighthouse, en tapa dura.\n\nSirve para jugar a la quinta edición de 2024 en castellano sin los libros oficiales y como base de Dragonlight. Se financió en Verkami en mayo de 2025.",
+  "source": "https://www.verkami.com/projects/40883",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Dragon Lighthouse",
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/40883",
+        "end": "2025-05-25"
+      }
+    }
+  ]
+}

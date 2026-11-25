@@ -1,0 +1,21 @@
+{
+  "slug": "dungeons-and-cthulhu-la-siniestra-fortaleza-de-bahia-espinosa",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeons & Cthulhu: La siniestra fortaleza de Bahía Espinosa",
+  "kind": "adventure",
+  "description": "Módulo de Dungeons & Cthulhu, de Ediciones T&T, ganador del primer premio de módulos de la línea: una aventura de la vieja escuela con horror de los Mitos para jugar con las reglas de Clásicos del Mazmorreo.\n\nNecesita el libro básico de Clásicos del Mazmorreo. Se financió en Verkami en enero de 2019.",
+  "source": "https://edicionestyt.com/products/dungeons-cthulhu-la-siniestra-fortaleza-de-bahia-espinosa",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Ediciones T&T",
+      "format": "paperback",
+      "cover": "/images/rol/dungeons-and-cthulhu-la-siniestra-fortaleza-de-bahia-espinosa/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/22208",
+        "end": "2019-01-06"
+      }
+    }
+  ]
+}

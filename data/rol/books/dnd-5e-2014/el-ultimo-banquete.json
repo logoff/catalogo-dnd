@@ -1,0 +1,21 @@
+{
+  "slug": "el-ultimo-banquete",
+  "system": "dnd-5e-2014",
+  "title": "El último banquete",
+  "kind": "adventure",
+  "license": "none",
+  "description": "Aventura corta para D&D 5E, de La Mazmorra del Roleo: una carrera contrarreloj para salvar a la reina y al pueblo de Lioncrest de un veneno orquestado por un reino rival, para cuatro personajes de nivel 8.\n\nSe financió en Verkami (julio de 2026).",
+  "source": "https://www.verkami.com/projects/43525",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Mazmorra del Roleo",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/43525",
+        "end": "2026-07-19"
+      }
+    }
+  ]
+}
