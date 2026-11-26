@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
+import { ArrowTopRightOnSquareIcon, GlobeAltIcon } from '@heroicons/react/24/outline'
 import type { ScreenWorkWithMeta } from '@/types/screen'
 import { getMerchandiseBySlug } from '@/services/merchandiseLoader'
 import { getVideogameBySlug } from '@/services/videogameLoader'
@@ -132,12 +132,25 @@ export default function ScreenDetail({ work }: { work: ScreenWorkWithMeta }) {
             ))}
           </div>
 
-          {(work.external?.imdb || work.external?.filmaffinity) && (
+          {(work.official_url || work.external?.imdb || work.external?.filmaffinity) && (
             <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
-              {work.external.imdb && (
+              {work.official_url && (
                 <li>
                   <a
-                    href={work.external.imdb}
+                    href={work.official_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex min-h-11 items-center gap-1.5 text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
+                  >
+                    <GlobeAltIcon className="size-4" aria-hidden="true" />
+                    Web oficial
+                  </a>
+                </li>
+              )}
+              {work.external?.imdb && (
+                <li>
+                  <a
+                    href={work.external!.imdb}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex min-h-11 items-center gap-1.5 text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
@@ -147,10 +160,10 @@ export default function ScreenDetail({ work }: { work: ScreenWorkWithMeta }) {
                   </a>
                 </li>
               )}
-              {work.external.filmaffinity && (
+              {work.external?.filmaffinity && (
                 <li>
                   <a
-                    href={work.external.filmaffinity}
+                    href={work.external!.filmaffinity}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex min-h-11 items-center gap-1.5 text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"

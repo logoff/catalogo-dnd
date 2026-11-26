@@ -142,6 +142,14 @@ describe('ScreenDetailPage', () => {
     expect(data.aggregateRating).toBeUndefined()
   })
 
+  it('enlaza a la web oficial cuando la tiene', () => {
+    renderAt('/cine-y-series/eye-of-the-beholder-the-art-of-dungeons-and-dragons')
+    expect(screen.getByRole('link', { name: 'Web oficial' })).toHaveAttribute(
+      'href',
+      'https://www.eyeofthebeholdermovie.com/'
+    )
+  })
+
   it('marca la obra no oficial con su insignia y su motivo', () => {
     renderAt('/cine-y-series/secrets-of-blackmoor')
     expect(screen.getByText('No oficial')).toBeInTheDocument()

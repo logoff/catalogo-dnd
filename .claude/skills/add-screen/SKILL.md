@@ -63,6 +63,10 @@ haya archivado la change, en
   (`https://www.imdb.com/title/tt…/`), `filmaffinity`
   (`https://www.filmaffinity.com/es/film….html`) y `wikidata` (el QID,
   que no se muestra y sirve para contrastar los otros dos).
+- **Web oficial** (`official_url`): solo si sigue activa y la mantienen sus
+  autores o su distribuidora. Comprueba con `curl` el título y el texto de la
+  página: hay dominios en manos de fans o a la venta. Suele llevar el tráiler
+  oficial empotrado.
 - **Relaciones** (`related_novels`, `related_merchandise`,
   `related_videogames`): slugs de fichas que existan. Solo se guardan
   aquí; las fichas de novela y merchandising las muestran solas.

@@ -58,6 +58,8 @@ export interface ScreenWork {
   posters?: ScreenPoster[]
   trailers?: ScreenTrailer[]
   external?: { imdb?: string; filmaffinity?: string; wikidata?: string }
+  // Web oficial de la obra, si sigue activa
+  official_url?: string
   related_novels?: string[]
   related_merchandise?: string[]
   related_videogames?: string[]
