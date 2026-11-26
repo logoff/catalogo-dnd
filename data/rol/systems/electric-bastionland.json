@@ -1,0 +1,29 @@
+{
+  "slug": "electric-bastionland",
+  "name": "Electric Bastionland",
+  "family": "electric-bastionland",
+  "publisher": "Bastionland Press",
+  "date": "2020",
+  "movement": "nsr",
+  "description": "El sucesor de Into the Odd, también de Chris McDowall: los personajes empiezan endeudados en una ciudad infinita y extravagante y salen a buscar tesoros para pagar. El libro trae cientos de trasfondos fallidos, uno por página, que dan al personaje su equipo y su historia.\n\nMantiene las reglas de Into the Odd con ajustes y muchos consejos para el director. En castellano lo publica Cursed Ink.",
+  "features": [
+    "Cientos de trasfondos fallidos",
+    "Ciudad infinita y extravagante",
+    "Deudas como motor de la partida",
+    "Reglas de Into the Odd con ajustes"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "into-the-odd",
+      "kind": "compatible",
+      "note": "Mantiene el sistema de Into the Odd con ajustes y una ambientación nueva."
+    }
+  ],
+  "links": [
+    {
+      "label": "Bastionland Press",
+      "url": "https://www.bastionland.com/"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "dragon-kings",
+  "system": "dnd-add2",
+  "title": "Dragon Kings",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Un suplemento de Dark Sun para llevar a los personajes hasta el nivel 30: guerreros de nivel alto, opciones de Battlesystem, más de cincuenta páginas de conjuros muy poderosos y los reyes dragón que gobiernan Athas. Lo escribió Timothy B. Brown.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "hardcover",
+      "cover": "/images/rol/dragon-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17183/dragon-kings-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Los Reyes Dragón",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dragon-kings/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

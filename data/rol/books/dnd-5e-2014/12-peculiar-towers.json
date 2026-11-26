@@ -9,7 +9,17 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2018"
+      "date": "2018",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1936781964/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/261838/12-peculiar-towers-for-5th-edition"
+        }
+      ]
     }
   ]
 }

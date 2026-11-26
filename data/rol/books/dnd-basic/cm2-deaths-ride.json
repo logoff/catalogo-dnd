@@ -1,0 +1,23 @@
+{
+  "slug": "cm2-deaths-ride",
+  "system": "dnd-basic",
+  "title": "CM2 Death's Ride",
+  "kind": "adventure",
+  "description": "Una aventura de la caja de compañía: una nube negra aísla una baronía de Norwold, y los personajes encuentran ejércitos de muertos vivientes, una torre de mago y una aldea sometida. La escribió Garry Spiegle.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/cm2-deaths-ride/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17115/cm2-death-s-ride-basic"
+        }
+      ]
+    }
+  ]
+}

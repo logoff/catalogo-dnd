@@ -1,0 +1,24 @@
+{
+  "slug": "frq2-hordes-of-dragonspear",
+  "system": "dnd-add2",
+  "title": "FRQ2 Hordes of Dragonspear",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura con las reglas de Battlesystem para grandes batallas, alrededor del castillo de Dragonspear. La escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-frq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/frq2-hordes-of-dragonspear/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16835/frq2-hordes-of-dragonspear-2e"
+        }
+      ]
+    }
+  ]
+}

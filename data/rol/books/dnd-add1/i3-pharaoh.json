@@ -1,0 +1,23 @@
+{
+  "slug": "i3-pharaoh",
+  "system": "dnd-add1",
+  "title": "I3 Pharaoh",
+  "kind": "adventure",
+  "description": "La primera aventura de la serie del Desierto de la Desolación, de inspiración egipcia: el fantasma de un faraón maldito pide a los personajes que lo liberen, en una pirámide con un laberinto lleno de trampas. La escribieron Tracy y Laura Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/i3-pharaoh/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17049/i3-pharoah-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "dsq1-road-to-urik",
+  "system": "dnd-add2",
+  "title": "DSQ1 Road to Urik",
+  "kind": "adventure",
+  "settings": ["dark_sun"],
+  "description": "Una aventura de la serie DSQ de Dark Sun, camino de la ciudad-estado de Urik. La escribió David «Zeb» Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/dsq1-road-to-urik/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17181/dsq1-road-to-urik-2e"
+        }
+      ]
+    }
+  ]
+}

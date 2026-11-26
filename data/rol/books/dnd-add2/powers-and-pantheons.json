@@ -1,0 +1,24 @@
+{
+  "slug": "powers-and-pantheons",
+  "system": "dnd-add2",
+  "title": "Powers & Pantheons",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre los panteones de Toril que no son los de Faerûn, como los de Mulhorand o Maztica. Lo escribió Eric L. Boyd.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-deity.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/powers-and-pantheons/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17535/powers-pantheons-2e"
+        }
+      ]
+    }
+  ]
+}

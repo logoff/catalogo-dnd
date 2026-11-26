@@ -1,0 +1,23 @@
+{
+  "slug": "im1-the-immortal-storm",
+  "system": "dnd-basic",
+  "title": "IM1 The Immortal Storm",
+  "kind": "adventure",
+  "description": "La primera aventura de la serie IM, para personajes inmortales.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-im.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/im1-the-immortal-storm/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17124/im1-the-immortal-storm-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "underdark-4e",
+  "system": "dnd-4e",
+  "title": "Underdark",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El mundo subterráneo bajo Faerûn en la 4.ª edición: sus regiones, sus ciudades y sus pueblos, con monstruos, ganchos de aventura y reglas para explorarlo.\n\nComparte título con el libro de 2003. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Forgotten_Realms_modules_and_sourcebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01",
+      "format": "hardcover",
+      "isbn13": 9780786953875,
+      "cover": "/images/rol/underdark-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/164603/underdark-4e"
+        }
+      ]
+    }
+  ]
+}

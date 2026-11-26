@@ -1,0 +1,19 @@
+{
+  "slug": "trasgos-y-mazmorras-manual-del-jugador",
+  "system": "trasgos-y-mazmorras",
+  "title": "Manual del Jugador de Trasgos y Mazmorras",
+  "kind": "core",
+  "core": true,
+  "description": "El manual básico de Trasgos y Mazmorras, con la creación de personajes, las razas y clases, las reglas de juego y de combate y la magia de este AD&D renovado, en su versión 1.0.\n\nEs el libro que necesitan jugadores y directores para empezar, y se completa con el compendio de conjuros y el manual de monstruos que la editorial también ofrece gratis en su web.",
+  "source": "https://trasgotauro.com/download/manual-de-trasgos-y-mazmorras/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Trasgotauro",
+      "date": "2016-10-16",
+      "format": "paperback",
+      "cover": "/images/rol/trasgos-y-mazmorras-manual-del-jugador/castellano.webp",
+      "free_download": "https://trasgotauro.com/download/manual-de-trasgos-y-mazmorras/"
+    }
+  ]
+}

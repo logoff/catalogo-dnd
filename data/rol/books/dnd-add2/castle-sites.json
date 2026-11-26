@@ -1,0 +1,23 @@
+{
+  "slug": "castle-sites",
+  "system": "dnd-add2",
+  "title": "Castle Sites",
+  "kind": "supplement",
+  "description": "Castillos listos para usar en cualquier campaña, con sus mapas, sus habitantes e ideas de aventura. Lo escribieron Kevin Melka y Sam Witt.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-site.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/castle-sites/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17464/castle-sites-2e"
+        }
+      ]
+    }
+  ]
+}

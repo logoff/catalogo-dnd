@@ -1,0 +1,30 @@
+{
+  "slug": "into-the-odd",
+  "name": "Into the Odd",
+  "family": "into-the-odd",
+  "publisher": "Free League",
+  "date": "2014",
+  "movement": "nsr",
+  "description": "El juego de Chris McDowall que abrió el NSR: personajes con tres atributos y pocos puntos de golpe, sin tirada de ataque (el daño se tira directamente) y una ciudad industrial y extraña donde la exploración y los objetos raros importan más que las reglas.\n\nSu sistema es la base de muchos juegos, como Electric Bastionland, Cairn o Mausritter. La primera edición es de 2014; Free League publicó en 2023 una edición remasterizada. No consta una edición en castellano.",
+  "features": [
+    "Tres atributos y salvaciones",
+    "Sin tirada de ataque",
+    "Ciudad industrial y extraña",
+    "Base de muchos juegos NSR"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "inspiration",
+      "note": "Nace de jugar a la vieja escuela, pero reescribe las reglas por completo: sin tirada de ataque ni clases."
+    }
+  ],
+  "links": [
+    {
+      "label": "Free League",
+      "url": "https://freeleaguepublishing.com/games/into-the-odd/"
+    }
+  ],
+  "line_publishers": ["Free League", "Bastionland Press"]
+}

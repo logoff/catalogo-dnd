@@ -1,0 +1,23 @@
+{
+  "slug": "faecal-lands",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Faecal Lands",
+  "kind": "setting",
+  "description": "Una ambientación de otra dimensión, escatológica, para LotFP y otros juegos tradicionales.\n\nPublicado por Lamentations of the Flame Princess, escrito por Shatner Turdsmith, con 34 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/447127/faecal-lands",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2023-08",
+      "format": "paperback",
+      "cover": "/images/rol/faecal-lands/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/447127/faecal-lands"
+        }
+      ]
+    }
+  ]
+}

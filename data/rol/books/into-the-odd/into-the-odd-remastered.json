@@ -1,0 +1,24 @@
+{
+  "slug": "into-the-odd-remastered",
+  "system": "into-the-odd",
+  "title": "Into the Odd – Remastered",
+  "kind": "core",
+  "core": true,
+  "description": "La edición remasterizada de Into the Odd: exploradores que se aventuran desde Bastión, la ciudad industrial, en busca de riquezas y de Arcana, artefactos con poderes antinaturales, con reglas mínimas, tablas para el director y aventuras.\n\nEs el libro básico del juego en la edición de Free League, revisada y ampliada respecto a la de 2014.",
+  "source": "https://www.drivethrurpg.com/en/product/399483/into-the-odd-remastered",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Free League",
+      "date": "2022-10",
+      "format": "hardcover",
+      "cover": "/images/rol/into-the-odd-remastered/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/399483/into-the-odd-remastered"
+        }
+      ]
+    }
+  ]
+}

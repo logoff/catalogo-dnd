@@ -1,0 +1,31 @@
+{
+  "slug": "the-star-cairns-the-lost-tombs-volume-1",
+  "system": "dnd-add2",
+  "title": "The Star Cairns (The Lost Tombs, Volume 1)",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La primera aventura de la trilogía de las Tumbas Perdidas de Greyhawk. La escribió Sean K. Reynolds.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-star-cairns-the-lost-tombs-volume-1/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17436/the-star-cairns-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Las Tumbas Perdidas I: Los Túmulos de la Estrella",
+      "publisher": "Martínez Roca",
+      "format": "paperback",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

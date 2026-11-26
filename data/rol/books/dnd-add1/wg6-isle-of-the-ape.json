@@ -1,0 +1,24 @@
+{
+  "slug": "wg6-isle-of-the-ape",
+  "system": "dnd-add1",
+  "title": "WG6 Isle of the Ape",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura de Greyhawk para personajes muy poderosos en la Isla del Simio, un semiplano mágico creado por el archimago loco Zagyg Yragerne. La escribió Gary Gygax.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/wg6-isle-of-the-ape/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17396/wg6-isle-of-the-ape-1e"
+        }
+      ]
+    }
+  ]
+}

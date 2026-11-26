@@ -1,0 +1,32 @@
+{
+  "slug": "dlc2-classics-volume-ii",
+  "system": "dnd-add2",
+  "title": "DLC2 Classics Volume II",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "Las aventuras del segundo arco de la saga de Dragonlance, los Relatos de la Noche de Invierno, revisadas para AD&D 2.ª edición y reunidas en un volumen. La escribieron Douglas Niles, Jeff Grubb y Tracy y Laura Hickman.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "cover": "/images/rol/dlc2-classics-volume-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17381/dlc2-dragonlance-classics-volume-ii-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Clasicos Volumen II",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dlc2-classics-volume-ii/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

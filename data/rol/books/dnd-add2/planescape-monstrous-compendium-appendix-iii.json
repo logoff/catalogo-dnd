@@ -1,0 +1,24 @@
+{
+  "slug": "planescape-monstrous-compendium-appendix-iii",
+  "system": "dnd-add2",
+  "title": "Planescape: Monstrous Compendium Appendix III",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "El tercer apéndice de monstruos de Planescape, con más criaturas de los planos. Lo escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/planescape-monstrous-compendium-appendix-iii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17294/monstrous-compendium-planescape-appendix-iii"
+        }
+      ]
+    }
+  ]
+}

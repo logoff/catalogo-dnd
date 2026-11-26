@@ -1,0 +1,29 @@
+{
+  "slug": "marca-marjalnegro",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Marjalnegro",
+  "kind": "setting",
+  "description": "Un suplemento de campaña sobre Marjalnegro, un nuevo mundo más allá del Mar de Poniente, tras la caída del continente de Zafiria, lleno de monstruos, reliquias y ruinas para aventureros novatos.\n\nUno de los suplementos del mecenazgo de 2020; tuvo después una guía y una aventura propias.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26125-aventuras-en-la-marca-del-este-marjalnegro.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2020-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26125-aventuras-en-la-marca-del-este-marjalnegro.html",
+      "cover": "/images/rol/marca-marjalnegro/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/mn1-marjalnegro/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/10300-aventuras-en-la-marca-del-este-marjalnegro-9780201300628.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/marjalnegro/"
+        }
+      ]
+    }
+  ]
+}

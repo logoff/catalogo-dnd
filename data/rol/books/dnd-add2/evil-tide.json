@@ -1,0 +1,23 @@
+{
+  "slug": "evil-tide",
+  "system": "dnd-add2",
+  "title": "Evil Tide",
+  "kind": "adventure",
+  "description": "Una aventura de AD&D 2.ª edición. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/evil-tide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17025/evil-tide-2e"
+        }
+      ]
+    }
+  ]
+}

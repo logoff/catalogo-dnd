@@ -1,0 +1,24 @@
+{
+  "slug": "open-grave",
+  "system": "dnd-4e",
+  "title": "Open Grave: Secrets of the Undead",
+  "kind": "supplement",
+  "description": "Un libro sobre los muertos vivientes: su origen, cómo usarlos en la campaña, lugares y personajes famosos y decenas de monstruos nuevos, de zombis a liches y vampiros.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-01",
+      "format": "hardcover",
+      "isbn13": 9780786950690,
+      "cover": "/images/rol/open-grave/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/59689/open-grave-secrets-of-the-undead-4e"
+        }
+      ]
+    }
+  ]
+}

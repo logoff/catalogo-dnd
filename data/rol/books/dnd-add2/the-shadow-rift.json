@@ -1,0 +1,24 @@
+{
+  "slug": "the-shadow-rift",
+  "system": "dnd-add2",
+  "title": "The Shadow Rift",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Un producto de Ravenloft sobre la Grieta de las Sombras. Lo escribieron William W. Connors, Cindi Rice y John D. Rateliff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-shadow-rift/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17482/the-shadow-rift-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "dsr1-slave-tribes",
+  "system": "dnd-add2",
+  "title": "DSR1 Slave Tribes",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Un suplemento de Dark Sun sobre las tribus de esclavos libres del desierto y los esclavos que siguen en las ciudades-estado. Lo escribió Bill Slavicsek.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dsr1-slave-tribes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17179/dsr1-slave-tribes-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Tribus de Esclavos",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/dsr1-slave-tribes/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

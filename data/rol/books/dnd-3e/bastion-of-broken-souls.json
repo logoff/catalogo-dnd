@@ -1,0 +1,24 @@
+{
+  "slug": "bastion-of-broken-souls",
+  "system": "dnd-3e",
+  "title": "Bastion of Broken Souls",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 18 a 20: el gran dragón Ashardalon acumula poder mientras una de las cabezas del príncipe demonio Demogorgon intenta usar a los personajes para matarlo y quedarse con su fuerza.\n\nCierra la serie de aventuras de la 3.ª edición iniciada con The Sunless Citadel. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20030212072207/http://www.wizards.com:80/default.asp?x=products/dndacc/881670000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-03",
+      "format": "paperback",
+      "isbn13": 9780786926565,
+      "cover": "/images/rol/bastion-of-broken-souls/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28449/bastion-of-broken-souls-3e"
+        }
+      ]
+    }
+  ]
+}

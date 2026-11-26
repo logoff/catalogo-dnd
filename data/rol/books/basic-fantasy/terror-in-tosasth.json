@@ -1,0 +1,23 @@
+{
+  "slug": "terror-in-tosasth",
+  "system": "basic-fantasy",
+  "title": "Terror in Tosasth",
+  "kind": "adventure",
+  "description": "Una aventura larga en busca de tesoros de los antiguos reinos de elfos y enanos.\n\nPublicado por Basic Fantasy Project, escrito por Leon Atkinson, con 174 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/544173/terror-in-tosasth",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-10",
+      "format": "paperback",
+      "cover": "/images/rol/terror-in-tosasth/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/544173/terror-in-tosasth"
+        }
+      ]
+    }
+  ]
+}

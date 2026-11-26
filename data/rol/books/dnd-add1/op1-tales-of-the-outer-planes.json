@@ -1,0 +1,23 @@
+{
+  "slug": "op1-tales-of-the-outer-planes",
+  "system": "dnd-add1",
+  "title": "OP1 Tales of the Outer Planes",
+  "kind": "adventure",
+  "description": "Once aventuras cortas en otros planos, del Etéreo y los elementales al Astral y el Abismo, y diecisiete guaridas, para llevar a los personajes fuera del plano material.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-op1.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/op1-tales-of-the-outer-planes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17055/op1-tales-of-the-outer-planes-1e"
+        }
+      ]
+    }
+  ]
+}

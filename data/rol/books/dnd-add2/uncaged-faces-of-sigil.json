@@ -1,0 +1,24 @@
+{
+  "slug": "uncaged-faces-of-sigil",
+  "system": "dnd-add2",
+  "title": "Uncaged: Faces of Sigil",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "Una colección de personajes no jugadores para Planescape: más de cuarenta habitantes de Sigil descritos con detalle, en forma de informes y relatos, con sus estadísticas. La escribió Ray Vallese.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/uncaged-faces-of-sigil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17285/uncaged-faces-of-sigil-2e"
+        }
+      ]
+    }
+  ]
+}

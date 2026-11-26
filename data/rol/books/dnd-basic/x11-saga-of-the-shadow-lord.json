@@ -1,0 +1,23 @@
+{
+  "slug": "x11-saga-of-the-shadow-lord",
+  "system": "dnd-basic",
+  "title": "X11 Saga of the Shadow Lord",
+  "kind": "adventure",
+  "description": "Dos aventuras enlazadas como una pequeña campaña: los personajes intentan robar el objeto mágico con el que el Señor de las Sombras prepara la invasión de un reino vecino y después lo persiguen hasta sus salones. La escribió Stephen Bourne.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/x11-saga-of-the-shadow-lord/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17123/x11-saga-of-the-shadow-lord-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "prince-of-undeath",
+  "system": "dnd-4e",
+  "title": "E3 Prince of Undeath",
+  "kind": "adventure",
+  "settings": ["nerath"],
+  "description": "La aventura final de la serie, para personajes de nivel 27 a 30: el señor demoníaco Orcus intenta arrebatar a la Reina Cuervo su poder sobre la muerte, y los personajes tienen que detenerlo.\n\nCierra la serie H-P-E. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Prince_of_Undeath",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-10",
+      "isbn13": 9780786952472,
+      "cover": "/images/rol/prince-of-undeath/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/142151/e3-prince-of-undeath-4e"
+        }
+      ]
+    }
+  ]
+}

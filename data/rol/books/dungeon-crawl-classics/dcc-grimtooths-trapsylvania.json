@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-grimtooths-trapsylvania",
+  "system": "dungeon-crawl-classics",
+  "title": "Grimtooth's Trapsylvania",
+  "kind": "supplement",
+  "description": "Los lugares legendarios de los libros de trampas de Grimtooth, por primera vez descritos y compatibles con DCC.\n\nPublicado por Goodman Games, escrito por Steve Crompton, con 168 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/267704/grimtooth-s-trapsylvania-dcc-sourcebook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2019-02",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-grimtooths-trapsylvania/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/267704/grimtooth-s-trapsylvania-dcc-sourcebook"
+        }
+      ]
+    }
+  ]
+}

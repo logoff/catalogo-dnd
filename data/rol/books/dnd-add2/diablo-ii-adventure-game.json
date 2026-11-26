@@ -1,0 +1,17 @@
+{
+  "slug": "diablo-ii-adventure-game",
+  "system": "dnd-add2",
+  "title": "Diablo II Adventure Game",
+  "kind": "starter",
+  "description": "Una versión de la caja de iniciación simplificada con la ambientación del videojuego Diablo II. La escribieron Jeff Grubb y Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "boxed_set",
+      "cover": "/images/rol/diablo-ii-adventure-game/english.webp"
+    }
+  ]
+}

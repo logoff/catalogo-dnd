@@ -1,0 +1,23 @@
+{
+  "slug": "ac9-creature-catalogue",
+  "system": "dnd-basic",
+  "title": "AC9 Creature Catalogue",
+  "kind": "supplement",
+  "description": "Un bestiario con más de doscientos monstruos: los que habían ido saliendo en las aventuras de D&D, otros adaptados de AD&D y ochenta nuevos, cada uno con su ilustración y ordenados por el entorno en que aparecen. Lo escribieron Jim Bambra, Phil Gallagher y Graeme Morris.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-ac.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/ac9-creature-catalogue/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16973/ac9-d-d-creature-catalogue-basic"
+        }
+      ]
+    }
+  ]
+}

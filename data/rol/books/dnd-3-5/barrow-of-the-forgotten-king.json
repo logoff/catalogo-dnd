@@ -1,0 +1,24 @@
+{
+  "slug": "barrow-of-the-forgotten-king",
+  "system": "dnd-3-5",
+  "title": "Barrow of the Forgotten King",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 2 a 4: lobos merodean el cementerio de Kingsholm y algo ha perturbado a los muertos del mausoleo, así que los personajes bajan a las catacumbas.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Barrow_of_the_Forgotten_King",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-02",
+      "format": "paperback",
+      "isbn13": 9780786943180,
+      "cover": "/images/rol/barrow-of-the-forgotten-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54287/dd1-barrow-of-the-forgotten-king-3-5"
+        }
+      ]
+    }
+  ]
+}

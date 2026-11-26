@@ -1,0 +1,24 @@
+{
+  "slug": "gaz13-the-shadow-elves",
+  "system": "dnd-basic",
+  "title": "GAZ13 The Shadow Elves",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El Gazetteer de los elfos de las sombras, que viven en un reino subterráneo bajo el Mundo Conocido, con reglas para jugar con ellos. Lo escribieron Carl Sargent y Gary Thomas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/gaz13-the-shadow-elves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16991/gaz13-the-shadow-elves-basic"
+        }
+      ]
+    }
+  ]
+}

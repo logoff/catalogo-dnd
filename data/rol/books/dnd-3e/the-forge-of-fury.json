@@ -1,0 +1,24 @@
+{
+  "slug": "the-forge-of-fury",
+  "system": "dnd-3e",
+  "title": "The Forge of Fury",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 3 a 5 en una fortaleza enana abandonada bajo una montaña, con orcos, trogloditas y un dragón negro.\n\nSigue a The Sunless Citadel en la serie de aventuras de la 3.ª edición. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20031211021250/http://www.wizards.com:80/default.asp?x=products/dndacc/865750000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-11",
+      "format": "paperback",
+      "isbn13": 9780786916443,
+      "cover": "/images/rol/the-forge-of-fury/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3737/the-forge-of-fury-3e"
+        }
+      ]
+    }
+  ]
+}

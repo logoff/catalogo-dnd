@@ -1,0 +1,23 @@
+{
+  "slug": "shaman",
+  "system": "dnd-add2",
+  "title": "Shaman",
+  "kind": "supplement",
+  "description": "Un suplemento con la clase de chamán, que pide favores a los espíritus de la naturaleza y de los antepasados en lugar de lanzar conjuros. Lo escribieron Kevin Hassall y Steve Miller.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/shaman/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17443/shaman-2e"
+        }
+      ]
+    }
+  ]
+}

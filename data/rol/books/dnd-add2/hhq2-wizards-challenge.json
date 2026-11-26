@@ -1,0 +1,23 @@
+{
+  "slug": "hhq2-wizards-challenge",
+  "system": "dnd-add2",
+  "title": "HHQ2 Wizard's Challenge",
+  "kind": "adventure",
+  "description": "Una aventura de desafío para un mago de nivel bajo, o hasta tres personajes, en la aldea de Northbank, con apariciones y asesinatos. La escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hhq2-wizards-challenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17307/hhq2-wizard-s-challenge-2e"
+        }
+      ]
+    }
+  ]
+}

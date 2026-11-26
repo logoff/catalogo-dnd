@@ -1,0 +1,25 @@
+{
+  "slug": "knave-2e",
+  "system": "knave-2e",
+  "title": "Knave: Second Edition",
+  "kind": "core",
+  "core": true,
+  "description": "El reglamento de la segunda edición de Knave: personajes sin clases definidos por su equipo, reglas modulares para explorar hexágonos y mazmorras, preparar pociones y actividades entre aventuras, y setenta y cinco tablas de d100 para generar mazmorras, regiones, personajes y mucho más.\n\nPublicado por Questing Beast Games, escrito por Ben Milton e ilustrado por Peter Mullen, en tapa dura de formato reducido con 80 páginas. Sirve también como caja de herramientas para otros juegos de la vieja escuela.",
+  "source": "https://www.drivethrurpg.com/en/product/484910/knave-second-edition-2e",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Questing Beast Games",
+      "date": "2024-06",
+      "format": "hardcover",
+      "isbn13": 9798987470206,
+      "cover": "/images/rol/knave-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/484910/knave-second-edition-2e"
+        }
+      ]
+    }
+  ]
+}

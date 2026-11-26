@@ -1,0 +1,24 @@
+{
+  "slug": "dragonlance-adventures",
+  "system": "dnd-add1",
+  "title": "Dragonlance Adventures",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "El libro de tapa dura de reglas y ambientación de Dragonlance: Krynn, sus razas como los kender, los magos de las Túnicas, los caballeros de Solamnia y los dioses.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "hardcover",
+      "cover": "/images/rol/dragonlance-adventures/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/162788/dragonlance-adventures-1e"
+        }
+      ]
+    }
+  ]
+}

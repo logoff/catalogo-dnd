@@ -1,0 +1,16 @@
+{
+  "slug": "gr4-treasure-chest",
+  "system": "dnd-add2",
+  "title": "GR4 Treasure Chest",
+  "kind": "supplement",
+  "description": "Un suplemento de referencia general sobre tesoros para usar en cualquier campaña. Lo escribió Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-gr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "cover": "/images/rol/gr4-treasure-chest/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "hero-builders-guidebook",
+  "system": "dnd-3e",
+  "title": "Hero Builder's Guidebook",
+  "kind": "supplement",
+  "description": "Un cuadernillo para crear personajes con más historia: tablas y consejos para decidir el origen, la familia, la personalidad y los objetivos del personaje, y paquetes de clase listos con dotes, habilidades y equipo para empezar a jugar enseguida.\n\nFue uno de los primeros suplementos de la 3.ª edición. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20031211022023/http://www.wizards.com:80/default.asp?x=products/dndacc/868960000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-12",
+      "format": "paperback",
+      "isbn13": 9780786916474,
+      "cover": "/images/rol/hero-builders-guidebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/153641/hero-builder-s-guidebook-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Creador de Héroes",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712066,
+      "cover": "/images/rol/hero-builders-guidebook/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/guia-del-creador-de-heroes_978-84-95712-06-6"
+    }
+  ]
+}

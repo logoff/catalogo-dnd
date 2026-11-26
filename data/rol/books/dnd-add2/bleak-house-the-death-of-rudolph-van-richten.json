@@ -1,0 +1,24 @@
+{
+  "slug": "bleak-house-the-death-of-rudolph-van-richten",
+  "system": "dnd-add2",
+  "title": "Bleak House: The Death of Rudolph van Richten",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una campaña de Ravenloft en tres aventuras alrededor de la muerte del cazador de monstruos Rudolph van Richten. La escribieron William W. Connors y Dave Gross con Steve Miller.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/bleak-house-the-death-of-rudolph-van-richten/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/201381/bleak-house-2e"
+        }
+      ]
+    }
+  ]
+}

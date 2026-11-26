@@ -1,0 +1,29 @@
+{
+  "slug": "dnd-add2",
+  "name": "AD&D 2.ª edición",
+  "family": "dungeons-and-dragons",
+  "official": true,
+  "publisher": "TSR",
+  "date": "1989",
+  "description": "La segunda edición de Advanced Dungeons & Dragons, que TSR publicó en 1989 a partir de las reglas de Gary Gygax con David «Zeb» Cook como diseñador principal. Ordenó y aclaró las reglas de la primera edición sin cambiarlas en lo esencial: clases, razas y tiradas siguen siendo reconocibles, con el THAC0 para atacar, la clase de armadura descendente y tiradas de salvación por categorías. Añadió pericias opcionales, escuelas de magia y esferas para los clérigos, quitó el asesino y el semiorco de las opciones básicas y rebautizó a demonios y diablos como tanar'ri y baatezu.\n\nFue la edición de las grandes ambientaciones: Reinos Olvidados, Dragonlance, Greyhawk, Ravenloft, Dark Sun, Planescape, Spelljammer, Al-Qadim o Birthright, cada una con su línea de cajas, suplementos y aventuras, además de los manuales de clase y raza «Complete». En 1995 salió una revisión de los básicos y los libros Player's Option, y en 1997 Wizards of the Coast compró TSR y siguió la línea hasta la 3.ª edición. En castellano la publicaron Zinco y, desde 1995, Martínez Roca.",
+  "features": [
+    "THAC0 y clase de armadura descendente",
+    "Pericias de armas y no de armas opcionales",
+    "Escuelas de magia y esferas de conjuros clericales",
+    "Kits de personaje en los manuales de clase y raza"
+  ],
+  "licenses": [],
+  "links": [
+    {
+      "label": "TSR Archive: Advanced Dungeons & Dragons",
+      "url": "https://www.tsrarchive.com/add/add.html"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-add1",
+      "kind": "revision",
+      "note": "Revisión de 1989: ordena y aclara las reglas de la 1.ª edición; con pequeños ajustes, casi todo su material sirve."
+    }
+  ]
+}

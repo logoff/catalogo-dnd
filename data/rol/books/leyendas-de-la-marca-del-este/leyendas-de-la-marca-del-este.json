@@ -1,0 +1,19 @@
+{
+  "slug": "leyendas-de-la-marca-del-este",
+  "system": "leyendas-de-la-marca-del-este",
+  "title": "Leyendas de la Marca del Este",
+  "kind": "core",
+  "description": "El reglamento completo del juego: creación de personajes con sus clases y razas, combate, magia, monstruos, tesoros y la ambientación de la Marca del Este, con notas para convertir material de Aventuras en la Marca del Este.\n\nUn libro de 328 páginas en rústica con solapas, publicado por Holocubierta en diciembre de 2017 y hoy agotado.",
+  "source": "https://lamarcadeleste.com/leyendas-de-la-marca",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2017-12",
+      "format": "paperback",
+      "isbn13": 9788415763451,
+      "source": "https://lamarcadeleste.com/2017/12/leyendas-de-la-marca.html",
+      "cover": "/images/rol/leyendas-de-la-marca-del-este/castellano.webp"
+    }
+  ]
+}

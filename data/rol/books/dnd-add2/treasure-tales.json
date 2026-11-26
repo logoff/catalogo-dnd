@@ -1,0 +1,16 @@
+{
+  "slug": "treasure-tales",
+  "system": "dnd-add2",
+  "title": "Treasure Tales",
+  "kind": "supplement",
+  "description": "Dieciséis aventuras cortas, cada una con información para los jugadores, notas para el Dungeon Master, un mapa y una ilustración. Lo escribió Loren Coleman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-gr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "cover": "/images/rol/treasure-tales/english.webp"
+    }
+  ]
+}

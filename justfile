@@ -133,6 +133,10 @@ check-reviews:
 check-scores:
     node scripts/check-scores.mjs
 
+# Ver en la terminal el informe de Umami del mes anterior sin enviarlo (--month AAAA-MM para otro)
+umami-report *args:
+    node --env-file-if-exists=.env scripts/send-umami-report.mjs --dry-run {{args}}
+
 # Listar los libros publicados que aún no tienen reseñas
 reviews-coverage:
     node scripts/reviews-coverage.mjs
@@ -140,6 +144,10 @@ reviews-coverage:
 # Descargar capturas oficiales de un videojuego: just screenshots <slug> --steam | --source <página> <url>...
 screenshots slug +args:
     node scripts/download-screenshots.mjs {{slug}} {{args}}
+
+# Descargar portadas de un cómic: just comic-covers <slug> <número|isbn|tomo-n|castellano-n>=<url>... [--source <url>] | --collection <id> <url>
+comic-covers +args:
+    node scripts/download-comic-covers.mjs {{args}}
 
 # Descargar portadas de una novela: just novel-covers <slug> <isbn>=<url>... | <slug> --openlibrary | --series <id> <isbn>=<url>... | --anthology <id> <clave>=<url>...
 novel-covers +args:

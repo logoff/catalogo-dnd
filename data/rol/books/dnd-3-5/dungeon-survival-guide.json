@@ -1,0 +1,24 @@
+{
+  "slug": "dungeon-survival-guide",
+  "system": "dnd-3-5",
+  "title": "Dungeon Survival Guide",
+  "kind": "supplement",
+  "description": "Un libro ilustrado sobre las mazmorras de D&D que repasa veinte mazmorras famosas de la historia del juego, sin perfiles de juego: es más un libro de ambientación y de consulta que de reglas.\n\nSalió cuando Wizards ya preparaba la 4.ª edición. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dungeon_Survival_Guide",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-10",
+      "format": "hardcover",
+      "isbn13": 9780786947300,
+      "cover": "/images/rol/dungeon-survival-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57085/dungeon-survival-guide-3-x"
+        }
+      ]
+    }
+  ]
+}

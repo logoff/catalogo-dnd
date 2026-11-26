@@ -1,0 +1,34 @@
+{
+  "slug": "cityscape",
+  "system": "dnd-3-5",
+  "title": "Cityscape",
+  "kind": "supplement",
+  "description": "Aventuras en la ciudad: cómo diseñar una urbe, su gobierno, su economía y sus barrios, peligros urbanos, organizaciones, clases de prestigio, dotes, conjuros, equipo y monstruos para campañas que transcurren entre calles y tejados.\n\nDevir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20061116030640/http://www.wizards.com:80/default.asp?x=products/dndacc/953867200",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-11",
+      "format": "hardcover",
+      "isbn13": 9780786939398,
+      "cover": "/images/rol/cityscape/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54288/cityscape-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Entornos Urbanos",
+      "publisher": "Devir",
+      "date": "2007-03",
+      "format": "hardcover",
+      "isbn13": 9788496422070,
+      "cover": "/images/rol/cityscape/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/d-d-entornos-urbanos_978-84-96422-07-0"
+    }
+  ]
+}

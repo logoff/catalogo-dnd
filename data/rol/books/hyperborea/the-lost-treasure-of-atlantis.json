@@ -1,0 +1,23 @@
+{
+  "slug": "the-lost-treasure-of-atlantis",
+  "system": "hyperborea",
+  "title": "The Lost Treasure of Atlantis",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 6 a 8 en Crystal Point, una isla montañosa del archipiélago del Cangrejo.\n\nPublicado por North Wind Adventures, escrito por Chainsaw (author), David Prata (editor), Jeffrey P. Talanian (development), con 68 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/296269/the-lost-treasure-of-atlantis",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2019-11",
+      "format": "paperback",
+      "cover": "/images/rol/the-lost-treasure-of-atlantis/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/296269/the-lost-treasure-of-atlantis"
+        }
+      ]
+    }
+  ]
+}

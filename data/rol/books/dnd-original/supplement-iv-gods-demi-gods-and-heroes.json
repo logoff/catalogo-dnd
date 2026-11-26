@@ -1,0 +1,23 @@
+{
+  "slug": "supplement-iv-gods-demi-gods-and-heroes",
+  "system": "dnd-original",
+  "title": "Supplement IV: Gods, Demi-Gods & Heroes",
+  "kind": "supplement",
+  "description": "El cuarto suplemento de D&D: dioses, semidioses y héroes de la mitología y la ficción con estadísticas de juego, el precedente de Deities & Demigods.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-sup.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1976",
+      "format": "paperback",
+      "cover": "/images/rol/supplement-iv-gods-demi-gods-and-heroes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17177/od-d-supplement-iv-gods-demi-gods-heroes-0e"
+        }
+      ]
+    }
+  ]
+}

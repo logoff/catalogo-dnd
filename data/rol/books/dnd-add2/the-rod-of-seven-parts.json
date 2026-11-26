@@ -1,0 +1,23 @@
+{
+  "slug": "the-rod-of-seven-parts",
+  "system": "dnd-add2",
+  "title": "The Rod of Seven Parts",
+  "kind": "adventure",
+  "description": "Una campaña en caja para recuperar los fragmentos de la Vara de las Siete Partes, el artefacto de la ley, en la guerra entre la ley y el caos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-tome.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-rod-of-seven-parts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17108/the-rod-of-seven-parts-2e"
+        }
+      ]
+    }
+  ]
+}

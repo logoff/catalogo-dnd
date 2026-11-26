@@ -1,0 +1,24 @@
+{
+  "slug": "fre2-tantras",
+  "system": "dnd-add1",
+  "title": "FRE2 Tantras",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "La segunda aventura de la trilogía de los Avatares: acusados de asesinar a Elminster, los personajes escapan de prisión y viajan a la ciudad de Tantras. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fre.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/fre2-tantras/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16812/fre2-tantras-1e-2e"
+        }
+      ]
+    }
+  ]
+}

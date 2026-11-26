@@ -1,0 +1,27 @@
+{
+  "slug": "marca-aventuras-orientales-en-endo",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Aventuras orientales en Endo",
+  "kind": "setting",
+  "description": "Un suplemento de campaña sobre Endo, el archipiélago de Kondo, tierra de samuráis, kami caprichosos y sombras, con clases, equipo, reglas de combate y magia, bestiario y una guía ampliada de sus clanes.\n\nAmplía la región oriental descrita en el Gazetteer. Cuadernillo de treinta y dos páginas.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/43245-aventuras-en-la-marca-del-este-aventuras-orientales-en-endo.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/43245-aventuras-en-la-marca-del-este-aventuras-orientales-en-endo.html",
+      "cover": "/images/rol/marca-aventuras-orientales-en-endo/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19597-la-marca-del-este-aventuras-orientales-en-endo-080201379624.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/aventuras-orientales-en-endo/"
+        }
+      ]
+    }
+  ]
+}

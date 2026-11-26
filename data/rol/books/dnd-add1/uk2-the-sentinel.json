@@ -1,0 +1,23 @@
+{
+  "slug": "uk2-the-sentinel",
+  "system": "dnd-add1",
+  "title": "UK2 The Sentinel",
+  "kind": "adventure",
+  "description": "Una aventura de la filial británica de TSR: los personajes acaban con el skulk que aterroriza una aldea y buscan un guantelete mágico. Continúa en The Gauntlet. La escribió Graeme Morris.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-uk.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/uk2-the-sentinel/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17073/uk2-the-sentinel-1e"
+        }
+      ]
+    }
+  ]
+}

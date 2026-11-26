@@ -1,0 +1,24 @@
+{
+  "slug": "sjq1-heart-of-the-enemy",
+  "system": "dnd-add2",
+  "title": "SJQ1 Heart of the Enemy",
+  "kind": "adventure",
+  "settings": ["spelljammer"],
+  "description": "Una aventura de Spelljammer. La escribió Rick Swan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/sjq1-heart-of-the-enemy/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17250/sjq1-heart-of-the-enemy-2e"
+        }
+      ]
+    }
+  ]
+}

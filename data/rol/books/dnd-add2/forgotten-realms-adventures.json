@@ -1,0 +1,33 @@
+{
+  "slug": "forgotten-realms-adventures",
+  "system": "dnd-add2",
+  "title": "Forgotten Realms Adventures",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El libro que adaptó los Reinos Olvidados a AD&D 2.ª edición: la magia y los dioses tras la Era de los Trastornos, y reglas para jugar en Faerûn.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/fr/fr-camp.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "hardcover",
+      "cover": "/images/rol/forgotten-realms-adventures/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16797/forgotten-realms-adventures-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Forgotten Realms Aventuras",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "hardcover",
+      "cover": "/images/rol/forgotten-realms-adventures/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-box.html"
+    }
+  ]
+}

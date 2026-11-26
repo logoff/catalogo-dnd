@@ -1,0 +1,31 @@
+{
+  "slug": "hhq4-clerics-challenge",
+  "system": "dnd-add2",
+  "title": "HHQ4 Cleric's Challenge",
+  "kind": "adventure",
+  "description": "Una aventura de desafío para un sacerdote o clérigo de nivel 2 a 4. La escribió L. Richard Baker III.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/hhq4-clerics-challenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17466/hhq4-cleric-s-challenge-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Desafío del Clérigo",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/hhq4-clerics-challenge/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

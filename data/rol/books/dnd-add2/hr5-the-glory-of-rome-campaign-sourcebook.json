@@ -1,0 +1,23 @@
+{
+  "slug": "hr5-the-glory-of-rome-campaign-sourcebook",
+  "system": "dnd-add2",
+  "title": "HR5 The Glory of Rome Campaign Sourcebook",
+  "kind": "supplement",
+  "description": "Un libro de la serie histórica de AD&D sobre el Imperio romano: sin magos ni psiónicos, con guerreros que pueden ser legionarios, gladiadores o aurigas. Lo escribió David Pulver.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/hr5-the-glory-of-rome-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16918/hr5-the-glory-of-rome-campaign-sourcebook-2e"
+        }
+      ]
+    }
+  ]
+}

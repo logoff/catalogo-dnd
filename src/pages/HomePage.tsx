@@ -12,10 +12,14 @@ import VideogameCard from '@/components/videogames/VideogameCard'
 import { useMerchandiseStore } from '@/store/merchandiseStore'
 import MerchandiseCard from '@/components/merchandise/MerchandiseCard'
 import NovelCard from '@/components/novels/NovelCard'
-import { cardClass } from '@/components/ui/styles'
+import { cardClass, headingClass } from '@/components/ui/styles'
 import { latestInSpanish } from '@/utils/releases'
 import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
+import comicsStats from 'virtual:comics-stats'
+import releases from 'virtual:releases'
+import { ReleaseList } from '@/components/releases/ReleaseList'
+import type { ReleasesIndex } from '@/types/releases'
 import { getAllScreenWorks } from '@/services/screenLoader'
 
 const container = 'mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'
@@ -57,7 +61,7 @@ function Block({
   return (
     <section className={`${container} py-10`}>
       <div className="mb-5 flex items-baseline justify-between gap-4">
-        <h2 className="text-xl">{title}</h2>
+        <h2 className={headingClass('section')}>{title}</h2>
         <Link
           to={to}
           className="inline-flex min-h-11 items-center gap-1 text-sm text-muted transition-colors duration-150 hover:text-fg sm:min-h-0"
@@ -68,6 +72,34 @@ function Block({
       </div>
       {children}
     </section>
+  )
+}
+
+// Cuántas novedades próximas y recientes muestra la portada
+const RELEASES_PREVIEW = 3
+
+// Lo más próximo y lo más reciente de /novedades; sin próximas, solo lo reciente
+export function ReleasesPreview({ data = releases }: { data?: ReleasesIndex }) {
+  const upcoming = data.upcoming.slice(0, RELEASES_PREVIEW)
+  const recent = data.recent.slice(0, RELEASES_PREVIEW)
+  if (upcoming.length === 0 && recent.length === 0) return null
+  return (
+    <Block title="Novedades" to="/novedades" linkLabel="Ver todas">
+      <div className="grid gap-x-10 gap-y-6 md:grid-cols-2">
+        {upcoming.length > 0 && (
+          <div>
+            <h3 className={headingClass('group', 'mb-1')}>Próximamente</h3>
+            <ReleaseList releases={upcoming} />
+          </div>
+        )}
+        {recent.length > 0 && (
+          <div>
+            <h3 className={headingClass('group', 'mb-1')}>Recién salido</h3>
+            <ReleaseList releases={recent} />
+          </div>
+        )}
+      </div>
+    </Block>
   )
 }
 
@@ -100,8 +132,8 @@ export default function HomePage() {
             Catálogo de Dungeons &amp; Dragons
           </h1>
           <p className="text-lg text-muted">
-            Libros de 5E (2014) y 5.5E (2024), videojuegos, cine y series, merchandising y novelas:
-            qué hay en castellano, cuándo salió y dónde comprarlo.
+            Libros de 5E (2014) y 5.5E (2024), videojuegos, cine y series, merchandising, novelas y
+            cómics: qué hay en castellano, cuándo salió y dónde comprarlo.
           </p>
           <div className="mt-2 max-w-xl">
             <SearchBar size="lg" />
@@ -142,6 +174,12 @@ export default function HomePage() {
             count={novelsLatest.total}
           />
           <SectionCard
+            to="/comics"
+            title="Cómics"
+            description="Los cómics oficiales desde 1987, con sus tomos en inglés y en castellano."
+            count={comicsStats.total}
+          />
+          <SectionCard
             to="/cine-y-series"
             title="Cine y series"
             description="Películas, series y documentales de D&D, con sus estrenos en España y aparte las obras no oficiales."
@@ -161,6 +199,8 @@ export default function HomePage() {
           />
         </div>
       </section>
+
+      <ReleasesPreview />
 
       {latestSpanish.length > 0 && (
         <Block

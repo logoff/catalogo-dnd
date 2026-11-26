@@ -1,0 +1,23 @@
+{
+  "slug": "x4-master-of-the-desert-nomads",
+  "system": "dnd-basic",
+  "title": "X4 Master of the Desert Nomads",
+  "kind": "adventure",
+  "description": "Una aventura para la caja experta: los personajes salen de Darokin, siguen un río y cruzan el desierto de Sind hasta la abadía malvada del Maestro, que ha unido a los nómadas y humanoides del desierto. La escribió David Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/x4-master-of-the-desert-nomads/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17094/x4-master-of-the-desert-nomads-basic"
+        }
+      ]
+    }
+  ]
+}

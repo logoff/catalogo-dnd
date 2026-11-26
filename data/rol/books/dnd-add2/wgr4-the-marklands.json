@@ -1,0 +1,24 @@
+{
+  "slug": "wgr4-the-marklands",
+  "system": "dnd-add2",
+  "title": "WGR4 The Marklands",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "Un suplemento de Greyhawk sobre Furyondy, Highfolk y Nyrond después de las Guerras de Greyhawk. Lo escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/wgr4-the-marklands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17431/wgr4-the-marklands-2e"
+        }
+      ]
+    }
+  ]
+}

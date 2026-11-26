@@ -1,0 +1,24 @@
+{
+  "slug": "marca-visirtan",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Visirtán, tierra de magia y arena",
+  "kind": "setting",
+  "description": "Un escenario para la Marca del Este: Visirtán, tierra de desiertos y tribus nómadas junto al mar de Osiris, limitada por la cordillera de Malamir y vigilada por los Unguloz.\n\nLibro de ciento diez páginas, de diciembre de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41018-aventuras-en-la-marca-del-este-visirtan-tierra-de-magia-y-arena.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-12",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/41018-aventuras-en-la-marca-del-este-visirtan-tierra-de-magia-y-arena.html",
+      "cover": "/images/rol/marca-visirtan/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/visirtan-tierra-de-magia-y-arena/"
+        }
+      ]
+    }
+  ]
+}

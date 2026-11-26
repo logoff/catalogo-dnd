@@ -1,4 +1,4 @@
-import type { RpgBookSummary } from '@/types/rpg'
+import type { RpgBookSummary, RpgMovement } from '@/types/rpg'
 import { normalize } from './videogameFilters'
 import { compareBooks } from './rpg'
 
@@ -8,6 +8,8 @@ export interface RpgFilters {
   system: string
   // Slug de la licencia (heredada del sistema o propia del libro), o vacío para todas
   license: string
+  // Movimiento OSR o NSR del sistema, o vacío para todos
+  movement?: RpgMovement | ''
   spanishOnly: boolean
 }
 
@@ -20,11 +22,12 @@ export function filterBooks(books: RpgBookSummary[], filters: RpgFilters): RpgBo
       (!query || book.searchText.includes(query)) &&
       (!filters.system || book.system === filters.system) &&
       (!filters.license || book.licenses.includes(filters.license)) &&
+      (!filters.movement || book.movement === filters.movement) &&
       (!filters.spanishOnly || book.spanish)
   )
 }
 
-const titleOf = (book: RpgBookSummary) => book.titleEs ?? book.title
+const titleOf = (book: RpgBookSummary) => book.title
 
 export function sortBooks(books: RpgBookSummary[], sort: RpgSort): RpgBookSummary[] {
   const sorted = [...books]

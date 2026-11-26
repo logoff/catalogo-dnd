@@ -1,0 +1,29 @@
+{
+  "slug": "estrellas-errantes",
+  "name": "Estrellas Errantes",
+  "family": "estrellas-errantes",
+  "publisher": "Yipikayei",
+  "date": "2017",
+  "movement": "osr",
+  "description": "Un pequeño juego español de ópera espacial de Carlos Julián del Cerro «Variable» que adapta las reglas de The Black Hack a la exploración del espacio: naves, planetas por descubrir y tripulaciones de pícaros, con las tiradas en manos de los jugadores y muy pocas páginas de reglas.\n\nYipikayei lo publicó en 2017 en una tirada limitada de 56 páginas, y sus reglas sirvieron después de base para Dungeon Hack. Es un juego español, solo en castellano.",
+  "features": [
+    "Reglas de The Black Hack",
+    "Ópera espacial y exploración",
+    "Manual de 56 páginas",
+    "En castellano"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "the-black-hack",
+      "kind": "major_rewrite",
+      "note": "Adapta las reglas de The Black Hack a la ciencia ficción."
+    }
+  ],
+  "links": [
+    {
+      "label": "Sinergia de Rol",
+      "url": "http://www.sinergiaderol.com/juegosgratuitos/j-estrellaserrantes.html"
+    }
+  ]
+}

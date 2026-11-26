@@ -8,13 +8,27 @@
   "editions": [
     {
       "language": "english",
-      "publisher": "Goodman Games"
+      "publisher": "Goodman Games",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/132657/fifth-edition-fantasy-1-glitterdoom"
+        }
+      ]
     },
     {
       "language": "castellano",
       "title": "Fulgor fatídico",
       "publisher": "Other Selves",
-      "date": "2018"
+      "date": "2018",
+      "isbn13": 9788494589980,
+      "cover": "/images/rol/glitterdoom/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/5148-fulgor-fatidico-aventura-para-la-quinta-edicion-de-dungeons-and-dragons-9788494589980.html"
+        }
+      ]
     }
   ]
 }

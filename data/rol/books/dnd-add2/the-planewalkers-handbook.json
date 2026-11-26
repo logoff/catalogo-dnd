@@ -1,0 +1,24 @@
+{
+  "slug": "the-planewalkers-handbook",
+  "system": "dnd-add2",
+  "title": "The Planewalker's Handbook",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "Una guía práctica para los jugadores de Planescape, que reúne en forma de enciclopedia lo que hay que saber para moverse por el multiverso. La escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/the-planewalkers-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17280/the-planewalker-s-handbook-2e"
+        }
+      ]
+    }
+  ]
+}

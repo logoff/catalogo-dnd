@@ -1,0 +1,21 @@
+{
+  "slug": "dungeons-and-dragons-dark-horse",
+  "title": "Dungeons & Dragons",
+  "publisher": "Dark Horse Comics",
+  "setting": "generic",
+  "kind": "ongoing",
+  "date": "2026-11",
+  "issue_count": 1,
+  "writers": ["Jackson Lanzing", "Collin Kelly"],
+  "artists": ["Ibraim Roberson"],
+  "description": "Serie regular de Dark Horse que empezó en noviembre de 2026, escrita por Jackson Lanzing y Collin Kelly y dibujada por Ibraim Roberson. Es la serie principal de la nueva etapa de cómics de D&D.\n\nEstá en curso. No se ha publicado en castellano.",
+  "source": "https://www.comics.org/series/241826/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2026-11-04",
+      "cover": "/images/comics/dungeons-and-dragons-dark-horse/1.webp",
+      "cover_source": "https://www.amazon.es/dp/B0HHQ95VQL/"
+    }
+  ]
+}

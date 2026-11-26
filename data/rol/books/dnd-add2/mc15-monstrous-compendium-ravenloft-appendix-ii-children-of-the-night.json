@@ -1,0 +1,23 @@
+{
+  "slug": "mc15-monstrous-compendium-ravenloft-appendix-ii-children-of-the-night",
+  "system": "dnd-add2",
+  "title": "MC15 Monstrous Compendium Ravenloft Appendix II: Children of the Night",
+  "kind": "supplement",
+  "settings": ["ravenloft"],
+  "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de Ravenloft (el segundo, Children of the Night).\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "cover": "/images/rol/mc15-monstrous-compendium-ravenloft-appendix-ii-children-of-the-night/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17484/mc15-monstrous-compendium-ravenloft-appendix-ii-children-of-the-night-2e"
+        }
+      ]
+    }
+  ]
+}

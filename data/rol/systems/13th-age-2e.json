@@ -1,0 +1,37 @@
+{
+  "slug": "13th-age-2e",
+  "name": "13th Age 2E",
+  "family": "13th-age",
+  "publisher": "Pelgrane Press",
+  "date": "2025",
+  "description": "La segunda edición de 13th Age, de Rob Heinsoo y Jonathan Tweet con Lee Moyer y Aaron McConnell, financiada en Kickstarter en 2024. Conserva lo que define al juego (las relaciones con los trece iconos, el algo único de cada personaje y el dado de escalada) y revisa el resto: los pueblos ganan varias opciones de poderes, los conjuros escalan con el nivel del lanzador, el guerrero gana opciones tácticas y el explorador y el bardo se rehacen.\n\nEl libro básico se divide en dos tomos, el Heroes' Handbook para jugadores y el Gamemaster's Guide para el director, con monstruos, tesoros y una aventura de introducción. Pelgrane la diseñó para que sigan sirviendo los suplementos de la primera edición; solo sustituye al libro básico y a la pantalla. Su documento de referencia abierto sigue siendo el de la primera edición, bajo la OGL, hasta que Pelgrane publique el de la segunda. De momento no consta edición en castellano.",
+  "features": [
+    "Relaciones con los trece iconos y algo único",
+    "Dado de escalada en combate",
+    "Conjuros que escalan con el nivel",
+    "Compatible con los suplementos de 1.ª edición"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "note": "a través del SRD de la 1.ª edición; Pelgrane prevé actualizarlo a la 2.ª"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "13th-age",
+      "kind": "revision",
+      "note": "Revisión de 2025: mismas bases; los suplementos de la primera edición siguen sirviendo, salvo el libro básico y la pantalla."
+    }
+  ],
+  "links": [
+    {
+      "label": "Pelgrane Press",
+      "url": "https://pelgranepress.com/13th-age-second-edition/"
+    },
+    {
+      "label": "Preguntas frecuentes de Pelgrane",
+      "url": "https://pelgranepress.com/2025/11/24/13th-age-faq-2/"
+    }
+  ]
+}

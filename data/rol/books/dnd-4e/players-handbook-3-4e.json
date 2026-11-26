@@ -1,0 +1,33 @@
+{
+  "slug": "players-handbook-3-4e",
+  "system": "dnd-4e",
+  "title": "Player's Handbook 3: Psionic, Divine, and Primal Heroes",
+  "kind": "core",
+  "core": true,
+  "description": "El tercer Manual del Jugador: cuatro razas (githzerai, minotauro, mentefragmentada y wilden), seis clases (ardiente, mente de batalla, monje, psiónico, sacerdote rúnico y buscador) con la psiónica como fuente de poder, y reglas de personajes híbridos.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Player%27s_Handbook_3",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03",
+      "format": "hardcover",
+      "isbn13": 9780786953905,
+      "cover": "/images/rol/players-handbook-3-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/144597/player-s-handbook-3-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador 3",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/players-handbook-3-4e/castellano.webp",
+      "source": "https://web.archive.org/web/2011/http://www.devir.es/catalog/images/mj3-portada.jpg"
+    }
+  ]
+}

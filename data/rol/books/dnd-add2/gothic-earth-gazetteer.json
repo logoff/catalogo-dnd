@@ -1,0 +1,24 @@
+{
+  "slug": "gothic-earth-gazetteer",
+  "system": "dnd-add2",
+  "title": "Gothic Earth Gazetteer",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Un suplemento de Masque of the Red Death con la historia de la Tierra gótica de 1890 a 1899, los sucesos, personajes y qabals importantes, e ideas de aventura. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-red.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/gothic-earth-gazetteer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17513/the-gothic-earth-gazetteer-2e"
+        }
+      ]
+    }
+  ]
+}

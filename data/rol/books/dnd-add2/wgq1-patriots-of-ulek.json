@@ -1,0 +1,24 @@
+{
+  "slug": "wgq1-patriots-of-ulek",
+  "system": "dnd-add2",
+  "title": "WGQ1 Patriots of Ulek",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura en el Principado de Ulek, en el sudoeste de la Flanaess. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/wgq1-patriots-of-ulek/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17429/wgq1-patriots-of-ulek-2e"
+        }
+      ]
+    }
+  ]
+}

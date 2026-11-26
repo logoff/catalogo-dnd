@@ -1,0 +1,24 @@
+{
+  "slug": "calimport",
+  "system": "dnd-add2",
+  "title": "Calimport",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre Calimport, la gran ciudad de Calimshan, en el sur de Faerûn. Lo escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/calimport/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17572/calimport-2e"
+        }
+      ]
+    }
+  ]
+}

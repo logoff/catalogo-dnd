@@ -1,0 +1,34 @@
+{
+  "slug": "forgotten-realms-players-guide",
+  "system": "dnd-4e",
+  "title": "Forgotten Realms Player's Guide",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Los Reinos Olvidados de la 4.ª edición vistos por los jugadores: razas como los genasi y los drows, la clase de espadachín arcano, regiones de origen, dotes, poderes, sendas de leyenda y destinos épicos.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Forgotten_Realms_Player%27s_Guide",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-09",
+      "format": "hardcover",
+      "isbn13": 9780786949298,
+      "cover": "/images/rol/forgotten-realms-players-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57985/forgotten-realms-player-s-guide-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Reinos Olvidados: Guía del Jugador",
+      "publisher": "Devir",
+      "date": "2009-05",
+      "isbn13": 9788496934597,
+      "cover": "/images/rol/forgotten-realms-players-guide/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/reinos-olvidados-4-guia-del-jugador-reinos-olvidados-suplemento_978-84-96934-59-7"
+    }
+  ]
+}

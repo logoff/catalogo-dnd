@@ -1,0 +1,34 @@
+{
+  "slug": "red-hand-of-doom",
+  "system": "dnd-3-5",
+  "title": "Red Hand of Doom",
+  "kind": "adventure",
+  "description": "Una campaña para personajes de nivel 6 a 12 en el Valle de Elsir: un ejército de hobgoblins y una secta de Tiamat invaden la región, y los personajes deben frenar su avance con misiones que cambian el curso de la guerra.\n\nFue la primera aventura de D&D con notas de diseño de los autores. Su historia continúa en Scales of War, la campaña de 4.ª edición de la revista Dungeon. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Red_Hand_of_Doom",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006",
+      "format": "paperback",
+      "isbn13": 9780786939381,
+      "cover": "/images/rol/red-hand-of-doom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28797/red-hand-of-doom-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Horda de la Mano Roja",
+      "publisher": "Devir",
+      "date": "2006-11",
+      "format": "paperback",
+      "isbn13": 9788496422827,
+      "cover": "/images/rol/red-hand-of-doom/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/la-horda-de-la-mano-roja_978-84-96422-82-7"
+    }
+  ]
+}

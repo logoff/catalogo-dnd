@@ -1,0 +1,23 @@
+{
+  "slug": "mork-borg-gm-screen",
+  "system": "mork-borg",
+  "title": "MÖRK BORG GM Screen",
+  "kind": "other",
+  "description": "La pantalla de cinco paneles de Mörk Borg: por fuera, cinco escenas de lugares y personajes del mundo moribundo; por dentro, tablas y resúmenes de reglas para la partida.\n\nComplementa el libro básico durante el juego.",
+  "source": "https://www.drivethrurpg.com/en/product/380978/moerk-borg-gm-screen",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Free League",
+      "date": "2022-04",
+      "format": "screen",
+      "cover": "/images/rol/mork-borg-gm-screen/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/380978/moerk-borg-gm-screen"
+        }
+      ]
+    }
+  ]
+}

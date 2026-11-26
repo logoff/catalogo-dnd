@@ -1,0 +1,24 @@
+{
+  "slug": "sea-of-fallen-stars",
+  "system": "dnd-add2",
+  "title": "Sea of Fallen Stars",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre el Mar de las Estrellas Caídas y lo que hay bajo sus aguas. Lo escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/sea-of-fallen-stars/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16796/sea-of-fallen-stars-2e"
+        }
+      ]
+    }
+  ]
+}

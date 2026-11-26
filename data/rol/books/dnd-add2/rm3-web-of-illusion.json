@@ -1,0 +1,24 @@
+{
+  "slug": "rm3-web-of-illusion",
+  "system": "dnd-add2",
+  "title": "RM3 Web of Illusion",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura corta de la serie RM de Ravenloft. La escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rm3-web-of-illusion/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17500/rm3-web-of-illusion-2e"
+        }
+      ]
+    }
+  ]
+}

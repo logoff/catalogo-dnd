@@ -14,7 +14,8 @@ import { PLACEHOLDER_IMAGE } from '@/utils/constants'
 import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
 import PurchaseLinks from '../common/PurchaseLinks'
-import { buttonClass } from '@/components/ui/styles'
+import { buttonClass, headingClass } from '@/components/ui/styles'
+import RelatedComics from '@/components/comics/RelatedComics'
 
 interface ProductDetailProps {
   product: ProductWithMeta
@@ -73,7 +74,7 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
   return (
     <article className="rounded-xl border border-line bg-surface p-4 sm:p-6">
       <header className="mb-5 flex flex-col gap-2 border-b border-line pb-4 sm:flex-row sm:items-center sm:justify-between">
-        <h3 className="text-lg font-semibold tracking-tight">{publication.title}</h3>
+        <h3 className={headingClass('title')}>{publication.title}</h3>
         <div className="flex flex-wrap gap-1.5">
           <EditionBadge edition={publication.edition} />
           <TypeBadge type={publication.type} />
@@ -174,6 +175,8 @@ function PublicationSection({ product, publication }: PublicationSectionProps) {
         </div>
       </div>
 
+      <RelatedComics group="products" id={`${product.primaryEdition}/${product.code}`} />
+
       <ImageLightbox
         images={images}
         initialIndex={lightboxIndex}
@@ -216,7 +219,7 @@ function SubPublicationsList({ subPublications }: SubPublicationsListProps) {
 
   return (
     <div className="border-t border-line pt-4">
-      <h4 className="mb-2 text-sm font-semibold">Contenido</h4>
+      <h4 className={headingClass('group', 'mb-2')}>Contenido</h4>
       <ul className="list-inside list-disc space-y-1 text-sm">
         {subPublications.map((sub, index) => (
           <li key={index}>

@@ -1,0 +1,35 @@
+{
+  "slug": "dungeon-masters-guide-3-5",
+  "system": "dnd-3-5",
+  "title": "Dungeon Master's Guide v.3.5",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de juego de la revisión 3.5: cómo dirigir partidas, construir encuentros, aventuras y mundos, repartir experiencia y tesoro, y las reglas de clases de prestigio, objetos mágicos y planos. Crece respecto a la versión de 2000, con más ayudas para preparar sesiones.\n\nEs el segundo de los tres básicos de 3.5 y está pensado para quien dirige; se usa junto al Manual del Jugador y el Manual de Monstruos.",
+  "source": "https://web.archive.org/web/2005/http://www.wizards.com:80/default.asp?x=products/dndcore/177520000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-07",
+      "format": "hardcover",
+      "isbn13": 9780786928897,
+      "cover": "/images/rol/dungeon-masters-guide-3-5/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/149132/dungeon-master-s-guide-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Dungeon Master v.3.5",
+      "publisher": "Devir",
+      "date": "2003-10",
+      "format": "hardcover",
+      "isbn13": 9788496262072,
+      "cover": "/images/rol/dungeon-masters-guide-3-5/castellano.webp",
+      "source": "https://web.archive.org/web/20040630010035/http://www.devir.es:80/catalogo/cat.pl?o=1&c=JRDDBAS&b=logos/dungeons.jpg%27target=%27text"
+    }
+  ]
+}

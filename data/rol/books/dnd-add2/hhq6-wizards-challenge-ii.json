@@ -1,0 +1,23 @@
+{
+  "slug": "hhq6-wizards-challenge-ii",
+  "system": "dnd-add2",
+  "title": "HHQ6 Wizard's Challenge II",
+  "kind": "adventure",
+  "description": "La segunda aventura de desafío para magos: el barón de New Haven llama a un mago para investigar una criatura que escupe fuego y a la que las espadas no hieren. La escribió Kevin Melka.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/hhq6-wizards-challenge-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17316/hhq6-wizard-s-challenge-ii-2e"
+        }
+      ]
+    }
+  ]
+}

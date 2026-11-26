@@ -1,0 +1,18 @@
+{
+  "slug": "lankhmar-city-of-adventure-1e",
+  "system": "dnd-add1",
+  "title": "Lankhmar: City of Adventure",
+  "kind": "setting",
+  "settings": ["lankhmar"],
+  "description": "Lankhmar, la ciudad de Fafhrd y el Ratonero Gris de Fritz Leiber, como escenario de AD&D.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/lankhmar-city-of-adventure-1e/english.webp"
+    }
+  ]
+}

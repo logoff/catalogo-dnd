@@ -1,0 +1,23 @@
+{
+  "slug": "ref4-the-book-of-lairs-ii",
+  "system": "dnd-add1",
+  "title": "REF4 The Book of Lairs II",
+  "kind": "supplement",
+  "description": "La segunda colección de aventuras cortas centradas en las guaridas de monstruos de AD&D.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ref-2e.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/ref4-the-book-of-lairs-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17020/ref4-the-book-of-lairs-ii-1e"
+        }
+      ]
+    }
+  ]
+}

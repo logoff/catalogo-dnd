@@ -1,0 +1,23 @@
+{
+  "slug": "mork-borg-cult-heretic",
+  "system": "mork-borg",
+  "title": "MÖRK BORG CULT: HERETIC",
+  "kind": "supplement",
+  "description": "El segundo suplemento de material de la comunidad de Mörk Borg: un generador de cultos, reglas opcionales de progresión para personajes sin clase, aventuras como Graves Left Wanting y más maldiciones.\n\nComo Feretory, se usa con Mörk Borg o con otros juegos ligeros de fantasía oscura.",
+  "source": "https://www.drivethrurpg.com/en/product/380973/moerk-borg-cult-heretic",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Free League",
+      "date": "2022-04",
+      "format": "paperback",
+      "cover": "/images/rol/mork-borg-cult-heretic/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/380973/moerk-borg-cult-heretic"
+        }
+      ]
+    }
+  ]
+}

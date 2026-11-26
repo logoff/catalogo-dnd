@@ -1,0 +1,25 @@
+{
+  "slug": "dragons-of-eberron",
+  "system": "dnd-3-5",
+  "title": "Dragons of Eberron",
+  "kind": "setting",
+  "settings": ["eberron"],
+  "description": "Los dragones de Eberron y la Profecía Dracónica: Argonnessen, el continente de los dragones, sus organizaciones y sus planes, con opciones de personaje y criaturas.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dragons_of_Eberron",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-10",
+      "format": "hardcover",
+      "isbn13": 9780786941544,
+      "cover": "/images/rol/dragons-of-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54307/dragons-of-eberron-3-5"
+        }
+      ]
+    }
+  ]
+}

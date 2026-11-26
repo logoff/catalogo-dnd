@@ -1,0 +1,24 @@
+{
+  "slug": "sjr5-rock-of-bral",
+  "system": "dnd-add2",
+  "title": "SJR5 Rock of Bral",
+  "kind": "setting",
+  "settings": ["spelljammer"],
+  "description": "Un suplemento de Spelljammer sobre la Roca de Bral, una ciudad construida en un asteroide. Lo escribió L. Richard Baker III.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/sjr5-rock-of-bral/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17264/sjr5-rock-of-bral-2e"
+        }
+      ]
+    }
+  ]
+}

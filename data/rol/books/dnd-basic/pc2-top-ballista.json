@@ -1,0 +1,24 @@
+{
+  "slug": "pc2-top-ballista",
+  "system": "dnd-basic",
+  "title": "PC2 Top Ballista",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "Un Creature Crucible sobre Serraine, la ciudad voladora de los gnomos del cielo, inventores de aparatos extravagantes y pilotos de biplanos mágicos, con reglas para jugar con ellos y con otras razas de la ciudad. Lo escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/cc/cc-pc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/pc2-top-ballista/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16983/pc2-creature-crucible-top-ballista-basic"
+        }
+      ]
+    }
+  ]
+}

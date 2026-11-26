@@ -1,0 +1,33 @@
+{
+  "slug": "the-twilight-tomb",
+  "system": "dnd-3-5",
+  "title": "The Twilight Tomb",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura corta en Aglarond, en el Este Inaccesible: en el bosque de Yuirwood, un oráculo anuncia el regreso del Caminante del Ocaso, un antiguo mago elfo estelar corrompido, mientras desaparecen viajeros en la zona.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/The_Twilight_Tomb",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-09",
+      "isbn13": 9780786939473,
+      "cover": "/images/rol/the-twilight-tomb/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51649/the-twilight-tomb-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Tumba del Ocaso",
+      "publisher": "Devir",
+      "date": "2007-08",
+      "isbn13": 9788496422988,
+      "cover": "/images/rol/the-twilight-tomb/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/tumba-del-ocaso-reinos-olvidados-juego-de-rol-suplemento-la_978-84-96422-98-8"
+    }
+  ]
+}

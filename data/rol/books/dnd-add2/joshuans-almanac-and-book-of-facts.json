@@ -1,0 +1,24 @@
+{
+  "slug": "joshuans-almanac-and-book-of-facts",
+  "system": "dnd-add2",
+  "title": "Joshuan's Almanac & Book of Facts",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El último almanaque de Mystara, ya para AD&D 2.ª edición, escrito con la voz del mediano Joshuan Gallidox y otros corresponsales: el mundo reino a reino. Lo escribieron Ann Dupuis y Elizabeth Tornabene.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-alm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/joshuans-almanac-and-book-of-facts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17350/joshuan-s-almanac-book-of-facts-basic-2e"
+        }
+      ]
+    }
+  ]
+}

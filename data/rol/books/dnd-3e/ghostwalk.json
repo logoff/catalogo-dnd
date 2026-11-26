@@ -1,0 +1,24 @@
+{
+  "slug": "ghostwalk",
+  "system": "dnd-3e",
+  "title": "Ghostwalk",
+  "kind": "setting",
+  "description": "Una ambientación en la que la muerte no es el final: en la ciudad de Manifest, construida sobre el Velo de las Almas, los espíritus de los muertos vuelven como fantasmas y los personajes pueden seguir jugando tras morir, con reglas, clases de prestigio, conjuros y la ciudad descrita.\n\nFue una de las últimas ambientaciones de la 3.ª edición. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20030418030736/http://www.wizards.com:80/default.asp?x=products/dndacc/885660000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-06",
+      "format": "hardcover",
+      "isbn13": 9780786928347,
+      "cover": "/images/rol/ghostwalk/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/169140/ghostwalk-3e"
+        }
+      ]
+    }
+  ]
+}

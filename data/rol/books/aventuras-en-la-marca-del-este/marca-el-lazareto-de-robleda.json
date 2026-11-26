@@ -1,0 +1,27 @@
+{
+  "slug": "marca-el-lazareto-de-robleda",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El lazareto de Robleda",
+  "kind": "adventure",
+  "description": "Un módulo para personajes de nivel 5 a 7 en una vieja construcción siniestra de la Cañada Siniestra, cerca de Robleda, ideal como introducción a Crónicas de la Marca del Este.\n\nCuadernillo de veinte páginas.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/42219-aventuras-en-la-marca-del-este-el-lazareto-de-robleda.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/42219-aventuras-en-la-marca-del-este-el-lazareto-de-robleda.html",
+      "cover": "/images/rol/marca-el-lazareto-de-robleda/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19061-aventuras-en-la-marca-del-este-el-lazareto-de-robleda-9660266375529.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-lazareto-de-robleda/"
+        }
+      ]
+    }
+  ]
+}

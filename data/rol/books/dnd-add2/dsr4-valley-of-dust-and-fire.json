@@ -1,0 +1,33 @@
+{
+  "slug": "dsr4-valley-of-dust-and-fire",
+  "system": "dnd-add2",
+  "title": "DSR4 Valley of Dust and Fire",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Un suplemento de Dark Sun sobre una región de Athas. Lo escribió L. Richard Baker III.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dsr4-valley-of-dust-and-fire/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17187/dsr4-valley-of-dust-and-fire-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Valle de Polvo y Fuego",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/dsr4-valley-of-dust-and-fire/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

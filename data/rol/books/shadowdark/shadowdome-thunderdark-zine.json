@@ -1,0 +1,16 @@
+{
+  "slug": "shadowdome-thunderdark-zine",
+  "system": "shadowdark",
+  "title": "Shadowdome Thunderdark Zine",
+  "kind": "adventure",
+  "description": "Un fanzine de veintiocho páginas con un generador de megamazmorras creado entre la comunidad para el evento Shadowdome Thunderdark de la Gary Con de 2024: cincuenta salas, monstruos nuevos y tablas para montar la mazmorra.\n\nUna curiosidad para jugadores de Shadowdark que quieran improvisar una gran mazmorra.",
+  "source": "https://www.thearcanelibrary.com/products/shadowdome-thunderdark-zine",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "format": "paperback",
+      "cover": "/images/rol/shadowdome-thunderdark-zine/english.webp"
+    }
+  ]
+}

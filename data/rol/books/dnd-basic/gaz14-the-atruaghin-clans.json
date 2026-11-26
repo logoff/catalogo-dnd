@@ -1,0 +1,24 @@
+{
+  "slug": "gaz14-the-atruaghin-clans",
+  "system": "dnd-basic",
+  "title": "GAZ14 The Atruaghin Clans",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El último Gazetteer de la serie: los clanes de Atruaghin, cinco tribus inspiradas en los pueblos indígenas de América del Norte y Central, con su historia, la clase de chamán y sus conjuros. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/gaz14-the-atruaghin-clans/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/170942/gaz14-the-atruaghin-clans-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "neither-man-nor-beast",
+  "system": "dnd-add2",
+  "title": "Neither Man Nor Beast",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft en la que los personajes naufragan en una isla desierta tras una tormenta. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/neither-man-nor-beast/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17514/neither-man-nor-beast-2e"
+        }
+      ]
+    }
+  ]
+}

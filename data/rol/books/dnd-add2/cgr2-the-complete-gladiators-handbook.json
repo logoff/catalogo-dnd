@@ -1,0 +1,32 @@
+{
+  "slug": "cgr2-the-complete-gladiators-handbook",
+  "system": "dnd-add2",
+  "title": "CGR2 The Complete Gladiator's Handbook",
+  "kind": "supplement",
+  "description": "El manual de los gladiadores de Dark Sun en el formato de los «Complete»: la vida en las arenas de Athas, kits y estilos de lucha. Lo escribieron Walter M. Baas y Colin McComb.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-cgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/cgr2-the-complete-gladiators-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17191/cgr2-the-complete-gladiator-s-handbook-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Buen Gladiador",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/cgr2-the-complete-gladiators-handbook/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

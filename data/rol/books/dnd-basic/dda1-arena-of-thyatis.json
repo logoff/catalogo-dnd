@@ -1,0 +1,24 @@
+{
+  "slug": "dda1-arena-of-thyatis",
+  "system": "dnd-basic",
+  "title": "DDA1 Arena of Thyatis",
+  "kind": "adventure",
+  "settings": ["mystara"],
+  "description": "Una aventura para usar con Dawn of the Emperors: los personajes tratan con un senador de Thyatis y acaban luchando en el Coliseo de la capital. La escribió John Nephew.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-dda.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/dda1-arena-of-thyatis/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17145/dda1-arena-of-thyatis-basic"
+        }
+      ]
+    }
+  ]
+}

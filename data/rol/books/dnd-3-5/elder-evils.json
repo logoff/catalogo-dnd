@@ -1,0 +1,24 @@
+{
+  "slug": "elder-evils",
+  "system": "dnd-3-5",
+  "title": "Elder Evils",
+  "kind": "supplement",
+  "description": "Nueve amenazas alienígenas capaces de destruir el mundo, pensadas para el final de una campaña de nivel alto: cada una con las señales de su llegada, sus siervos, sus perfiles y cómo enfrentarse a ella.\n\nFue uno de los últimos libros de 3.5. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Elder_Evils",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-12",
+      "format": "hardcover",
+      "isbn13": 9780786947331,
+      "cover": "/images/rol/elder-evils/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51677/elder-evils-3-5"
+        }
+      ]
+    }
+  ]
+}

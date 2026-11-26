@@ -1,0 +1,24 @@
+{
+  "slug": "undermountain-stardock",
+  "system": "dnd-add2",
+  "title": "Undermountain: Stardock",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura en Bajomontaña. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/undermountain-stardock/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17579/undermountain-stardock-2e"
+        }
+      ]
+    }
+  ]
+}

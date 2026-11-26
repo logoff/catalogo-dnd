@@ -1,0 +1,23 @@
+{
+  "slug": "i14-swords-of-the-iron-legion",
+  "system": "dnd-add1",
+  "title": "I14 Swords of the Iron Legion",
+  "kind": "adventure",
+  "description": "Una colección de once aventuras cortas para los Reinos Olvidados, algunas pensadas para Battlesystem.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/i14-swords-of-the-iron-legion/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17537/i14-swords-of-the-iron-legion-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "dead-gods",
+  "system": "dnd-add2",
+  "title": "Dead Gods",
+  "kind": "adventure",
+  "settings": ["planescape"],
+  "description": "Dos aventuras de Planescape sobre la muerte y la resurrección de un dios: Orcus, el señor tanar'ri de los muertos vivientes, al que se creía destruido, prepara su regreso. La escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/dead-gods/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17297/dead-gods-2e"
+        }
+      ]
+    }
+  ]
+}

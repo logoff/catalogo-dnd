@@ -1,0 +1,23 @@
+{
+  "slug": "uk4-when-a-star-falls",
+  "system": "dnd-add1",
+  "title": "UK4 When a Star Falls",
+  "kind": "adventure",
+  "description": "Una aventura de la filial británica de TSR: los personajes buscan una estrella caída para devolverla a su dueño, entre derros codiciosos, svirfneblin engañosos y clérigos traicioneros. La escribió Graeme Morris.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-uk.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/uk4-when-a-star-falls/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17075/uk4-when-a-star-falls-1e"
+        }
+      ]
+    }
+  ]
+}

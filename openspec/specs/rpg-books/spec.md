@@ -13,8 +13,10 @@ castellano, y qué muestra su ficha.
 La sección SHALL incluir todo libro publicado en castellano de un sistema de
 la sección y, de lo que solo está en inglés, los libros principales (básicos
 y caja de inicio) de los sistemas grandes y el catálogo impreso principal de
-las editoriales de 5E destacadas, empezando por Kobold Press. El contenido solo
-digital de plataformas comunitarias queda fuera.
+las editoriales de 5E destacadas, empezando por Kobold Press. Los sistemas
+OSR y NSR siguen su propia regla de alcance. El contenido solo digital de
+plataformas comunitarias queda fuera. Los libros oficiales de Wizards of the
+Coast no SHALL estar en la sección.
 
 #### Scenario: Suplemento en castellano
 
@@ -24,7 +26,8 @@ digital de plataformas comunitarias queda fuera.
 
 #### Scenario: Suplemento solo en inglés
 
-- **WHEN** un suplemento de un sistema grande solo está en inglés
+- **WHEN** un suplemento de un sistema grande que no es OSR ni NSR solo está
+  en inglés
 - **THEN** no entra en la sección
 
 #### Scenario: Básico solo en inglés
@@ -36,6 +39,17 @@ digital de plataformas comunitarias queda fuera.
 
 - **WHEN** un libro impreso de Kobold Press para 5E solo está en inglés
 - **THEN** entra en la sección, aunque no sea un libro básico
+
+#### Scenario: Libro oficial de una edición anterior de D&D
+
+- **WHEN** un libro es de Wizards of the Coast para D&D 3.5
+- **THEN** no aparece en la sección, sino en la de ediciones anteriores
+
+#### Scenario: Libro de Wizards para 5E
+
+- **WHEN** un libro de Wizards of the Coast cuelga de un sistema de 5E de la
+  sección
+- **THEN** los tests del proyecto fallan
 
 ### Requirement: Datos del libro
 
@@ -51,8 +65,9 @@ de una tienda. SHALL poder guardar el título en castellano.
 
 #### Scenario: Libro solo en inglés no principal
 
-- **WHEN** un libro no tiene edición en castellano, no está marcado como
-  principal y no es de una editorial destacada
+- **WHEN** un libro de un sistema de la sección que no es OSR ni NSR no
+  tiene edición en castellano, no está marcado como principal y no es de una
+  editorial destacada
 - **THEN** los tests del proyecto fallan
 
 ### Requirement: Ediciones por idioma
@@ -137,3 +152,56 @@ título, descripción e imagen para compartir propios.
 
 - **WHEN** se genera el build
 - **THEN** el sitemap incluye `/rol/:sistema/:libro` de cada libro
+
+### Requirement: Alcance de los libros OSR y NSR
+
+De un sistema OSR o NSR SHALL entrar todo libro con edición en castellano y
+toda la línea impresa en inglés de la editorial del sistema (básicos,
+suplementos, aventuras, cajas y pantallas). Un libro solo en inglés de otra
+editorial no SHALL entrar, ni un libro sin ninguna edición impresa.
+
+#### Scenario: Suplemento de la línea propia
+
+- **WHEN** Necrotic Gnome publica un suplemento impreso de Old-School
+  Essentials solo en inglés
+- **THEN** entra en la sección
+
+#### Scenario: Aventura de terceros en castellano
+
+- **WHEN** una editorial española publica una aventura para Old-School
+  Essentials
+- **THEN** entra en la sección
+
+#### Scenario: Suplemento de terceros solo en inglés
+
+- **WHEN** un libro de un sistema OSR solo tiene edición en inglés de una
+  editorial distinta de la del sistema
+- **THEN** los tests del proyecto fallan
+
+#### Scenario: Zine solo en PDF
+
+- **WHEN** un libro de un sistema NSR solo tiene ediciones en PDF
+- **THEN** los tests del proyecto fallan
+
+#### Scenario: Impresión bajo demanda
+
+- **WHEN** un libro de la línea propia solo se vende impreso bajo demanda
+- **THEN** cuenta como edición impresa y entra en la sección
+
+### Requirement: Descarga gratuita de la editorial o del autor
+
+Si la editorial o el autor ofrecen gratis y de forma legal el libro (en Codex
+de la Marca, en su web o con un enlace de descarga), la edición SHALL enlazarlo
+con un botón «Descarga gratuita» aparte de los de compra, sin afiliado. La
+descarga no SHALL contar como enlace de compra. En los libros OSR y NSR, una
+edición con descarga gratuita SHALL bastar aunque no haya edición impresa.
+
+#### Scenario: Reglamento gratuito en la web del autor
+
+- **WHEN** el autor de un retroclón ofrece el PDF del reglamento en su web
+- **THEN** la ficha muestra «Descarga gratuita» enlazado a esa descarga
+
+#### Scenario: Copia liberada en Codex de la Marca
+
+- **WHEN** La Marca del Este ha liberado un libro en Codex de la Marca
+- **THEN** el botón dice «Descarga gratuita en Codex de la Marca»

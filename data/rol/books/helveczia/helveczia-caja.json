@@ -1,0 +1,23 @@
+{
+  "slug": "helveczia-caja",
+  "system": "helveczia",
+  "title": "Helvéczia: el juego de rol de fantasía picaresca",
+  "kind": "core",
+  "core": true,
+  "description": "La caja de Helvéczia en castellano: el manual de más de 200 páginas con portada de Peter Mullen, el suplemento de trasfondo Ammertal y el Oberammsbund, mapas, un calendario y diario de viaje y una baraja húngara para el juego.\n\nEs todo lo necesario para jugar aventuras picarescas en la Helvéczia del siglo XVII. Se financió en Verkami en enero de 2022 y lo publica Outremer Ediciones.",
+  "source": "https://outremer.es/producto/helveczia-el-juego-de-rol-de-fantasia-picaresca/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Outremer Ediciones",
+      "format": "boxed_set",
+      "isbn13": 9788412523515,
+      "cover": "/images/rol/helveczia-caja/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/31925-helveczia-el-juego-de-rol-de-fantasia-picaresca",
+        "end": "2022-01-23"
+      }
+    }
+  ]
+}

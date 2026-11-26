@@ -1,0 +1,24 @@
+{
+  "slug": "silver-marches",
+  "system": "dnd-3e",
+  "title": "Silver Marches",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La región de las Marcas Plateadas, en el norte de Faerûn: la alianza de Luruar, ciudades como Lunargenta y Mithril Hall, sus peligros y sus personajes, con ganchos de aventura.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Forgotten_Realms_modules_and_sourcebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002",
+      "isbn13": 9780786928354,
+      "cover": "/images/rol/silver-marches/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28616/silver-marches-3e"
+        }
+      ]
+    }
+  ]
+}

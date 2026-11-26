@@ -1,0 +1,22 @@
+{
+  "slug": "mc6-monstrous-compendium-kara-tur-appendix",
+  "system": "dnd-add2",
+  "title": "MC6 Monstrous Compendium Kara-Tur Appendix",
+  "kind": "supplement",
+  "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de Kara-Tur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "cover": "/images/rol/mc6-monstrous-compendium-kara-tur-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17319/mc6-monstrous-compendium-kara-tur-appendix-2e"
+        }
+      ]
+    }
+  ]
+}

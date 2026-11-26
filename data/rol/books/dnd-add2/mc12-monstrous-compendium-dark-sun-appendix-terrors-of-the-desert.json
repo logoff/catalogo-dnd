@@ -1,0 +1,29 @@
+{
+  "slug": "mc12-monstrous-compendium-dark-sun-appendix-terrors-of-the-desert",
+  "system": "dnd-add2",
+  "title": "MC12 Monstrous Compendium Dark Sun Appendix: Terrors of the Desert",
+  "kind": "supplement",
+  "settings": ["dark_sun"],
+  "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de Dark Sun, los terrores del desierto.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "cover": "/images/rol/mc12-monstrous-compendium-dark-sun-appendix-terrors-of-the-desert/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17180/mc12-monstrous-compendium-dark-sun-appendix-terrors-of-the-desert-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Monstruos Volumen Tres: Terrores del Desierto",
+      "publisher": "Zinco",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

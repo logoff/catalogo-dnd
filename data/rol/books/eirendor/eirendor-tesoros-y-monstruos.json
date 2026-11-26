@@ -1,0 +1,20 @@
+{
+  "slug": "eirendor-tesoros-y-monstruos",
+  "system": "eirendor",
+  "title": "Eirendor: Tesoros & Monstruos",
+  "kind": "supplement",
+  "description": "Suplemento de Eirendor con criaturas y tesoros para el director de juego, con las reglas de la quinta edición.\n\nCompleta el manual básico de Reglas & Magia. Yipikayei lo financió en Verkami en junio de 2017.",
+  "source": "https://www.verkami.com/projects/17449-eirendor-tesoros-monstruos",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/17449-eirendor-tesoros-monstruos",
+        "end": "2017-06-01"
+      }
+    }
+  ]
+}

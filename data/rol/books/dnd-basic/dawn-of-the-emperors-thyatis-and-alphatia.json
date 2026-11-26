@@ -1,0 +1,24 @@
+{
+  "slug": "dawn-of-the-emperors-thyatis-and-alphatia",
+  "system": "dnd-basic",
+  "title": "Dawn of the Emperors: Thyatis and Alphatia",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "Una caja con los dos grandes imperios de Mystara, Thyatis y Alphatia, sus ciudades, su historia y sus intrigas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "boxed_set",
+      "cover": "/images/rol/dawn-of-the-emperors-thyatis-and-alphatia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16995/dawn-of-the-emperors-thyatis-and-alphatia-basic"
+        }
+      ]
+    }
+  ]
+}

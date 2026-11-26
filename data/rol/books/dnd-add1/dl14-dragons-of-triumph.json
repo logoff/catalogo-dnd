@@ -1,0 +1,24 @@
+{
+  "slug": "dl14-dragons-of-triumph",
+  "system": "dnd-add1",
+  "title": "DL14 Dragons of Triumph",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La aventura que cierra la saga original de Dragonlance: los dos grupos de Compañeros, separados desde Dragons of Ice, vuelven a reunirse para el final de la Guerra de la Lanza. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/dl14-dragons-of-triumph/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16925/dl14-dragons-of-triumph-1e"
+        }
+      ]
+    }
+  ]
+}

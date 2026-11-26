@@ -1,0 +1,24 @@
+{
+  "slug": "fr7-hall-of-heroes",
+  "system": "dnd-add1",
+  "title": "FR7 Hall of Heroes",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un libro con los héroes famosos de los Reinos Olvidados, los personajes de sus novelas, con su historia y sus estadísticas de juego. Lo editó Scott Bowles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/fr7-hall-of-heroes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16814/fr7-hall-of-heroes-1e-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "c4-to-find-a-king",
+  "system": "dnd-add1",
+  "title": "C4 To Find a King",
+  "kind": "adventure",
+  "description": "La primera parte de la serie de la Profecía de Brie, nacida de un torneo de la RPGA: los personajes buscan al rey que debe devolver la gloria al reino celta de Pellham. La escribió Bob Blake.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/c4-to-find-a-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17034/c4-to-find-a-king-1e"
+        }
+      ]
+    }
+  ]
+}

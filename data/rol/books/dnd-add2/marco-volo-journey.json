@@ -1,0 +1,24 @@
+{
+  "slug": "marco-volo-journey",
+  "system": "dnd-add2",
+  "title": "Marco Volo: Journey",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "La segunda parte de la trilogía de aventuras de Marco Volo. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-mv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/marco-volo-journey/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17559/marco-volo-journey-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "b2-the-keep-on-the-borderlands",
+  "system": "dnd-basic",
+  "title": "B2 The Keep on the Borderlands",
+  "kind": "adventure",
+  "description": "La aventura de Gary Gygax para principiantes: una fortaleza en la frontera que sirve de base y las Cuevas del Caos, llenas de humanoides. Venía en muchas cajas básicas y es una de las aventuras más jugadas de la historia de D&D.\n\nEdición en castellano de Dalmau Carles Pla.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "paperback",
+      "cover": "/images/rol/b2-the-keep-on-the-borderlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17158/b2-the-keep-on-the-borderlands-basic"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Fortaleza en la Frontera",
+      "publisher": "Dalmau Carles Pla",
+      "date": "1986",
+      "format": "paperback",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

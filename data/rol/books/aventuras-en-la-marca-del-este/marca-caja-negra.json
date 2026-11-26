@@ -1,0 +1,18 @@
+{
+  "slug": "marca-caja-negra",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Caja Negra: La Llamada de los Dioses",
+  "kind": "adventure",
+  "description": "La caja negra de la Marca del Este: La Llamada de los Dioses, una gran campaña para el juego, con más contenido que las cajas anteriores.\n\nLa publicó Holocubierta en febrero de 2014 y fue su último gran suplemento para la Marca del Este.",
+  "source": "https://lamarcadeleste.com/2014/02/la-llamada-de-los-dioses-la-caja-negra.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2014-02",
+      "format": "boxed_set",
+      "source": "https://lamarcadeleste.com/2014/02/la-llamada-de-los-dioses-la-caja-negra.html",
+      "free_download": "https://codexdelamarca.com/posts/la-llamada-de-los-dioses/"
+    }
+  ]
+}

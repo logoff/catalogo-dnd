@@ -1,0 +1,24 @@
+{
+  "slug": "the-north-guide-to-the-savage-frontier",
+  "system": "dnd-add2",
+  "title": "The North: Guide to the Savage Frontier",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una caja sobre el Norte, con dos mapas y tres libros sobre sus tierras salvajes y sus ciudades, del bosque de Neverwinter al Frozenfar, y un estudio detallado de Daggerford. La escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-north-guide-to-the-savage-frontier/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17543/the-north-guide-to-the-savage-frontier-2e"
+        }
+      ]
+    }
+  ]
+}

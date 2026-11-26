@@ -1,0 +1,24 @@
+{
+  "slug": "dsm1-black-flames",
+  "system": "dnd-add2",
+  "title": "DSM1 Black Flames",
+  "kind": "adventure",
+  "settings": ["dark_sun"],
+  "description": "Una aventura de Dark Sun: en el camino de Urik a Raam, tras una tormenta de arena, una tribu nómada rescata a los personajes, pero resulta ser una ilusión del dragón Farcluun. La escribió Sam Witt.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/dsm1-black-flames/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17189/dsm1-black-flames-2e"
+        }
+      ]
+    }
+  ]
+}

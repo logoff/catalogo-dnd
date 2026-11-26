@@ -9,7 +9,15 @@
     {
       "language": "castellano",
       "title": "Descenso a las entrañas de la Bestia 2: El Valle de los Huesos",
-      "publisher": "Shadowlands Ediciones"
+      "publisher": "Shadowlands Ediciones",
+      "isbn13": 9788412058642,
+      "cover": "/images/rol/el-valle-de-los-huesos/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/9236-el-valle-de-los-huesos-9788412058642.html"
+        }
+      ]
     }
   ]
 }

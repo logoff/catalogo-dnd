@@ -1,0 +1,17 @@
+{
+  "slug": "r3-the-egg-of-the-phoenix",
+  "system": "dnd-add1",
+  "title": "R3 The Egg of the Phoenix",
+  "kind": "adventure",
+  "description": "Una aventura de torneo de la RPGA en la que los personajes viajan al Plano Material Negativo en busca del Huevo del Fénix. La escribió Frank Mentzer.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-r.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/r3-the-egg-of-the-phoenix/english.webp"
+    }
+  ]
+}

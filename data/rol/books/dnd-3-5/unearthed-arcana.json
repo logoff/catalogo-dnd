@@ -1,0 +1,33 @@
+{
+  "slug": "unearthed-arcana",
+  "system": "dnd-3-5",
+  "title": "Unearthed Arcana",
+  "kind": "supplement",
+  "description": "Un libro de reglas variantes para cambiar el juego a medida: razas adaptadas al entorno, variantes de las clases básicas, personajes gestalt con dos clases a la vez, defensa por clase, heridas y vitalidad en lugar de puntos de golpe, puntos de acción, cordura, reputación, combate de masas y muchas más opciones.\n\nToma el título de un suplemento de AD&D de 1985, aunque no tiene relación con su contenido. Buena parte de sus variantes se publicaron en el SRD 3.5. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Unearthed_Arcana",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-02",
+      "format": "hardcover",
+      "isbn13": 9780786931316,
+      "cover": "/images/rol/unearthed-arcana/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3734/unearthed-arcana-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Arcanos Desenterrados",
+      "publisher": "Devir",
+      "date": "2004-09",
+      "format": "hardcover",
+      "isbn13": 9788496262829,
+      "source": "https://www.todostuslibros.com/libros/arcanos-desenterrados_978-84-96262-82-9"
+    }
+  ]
+}

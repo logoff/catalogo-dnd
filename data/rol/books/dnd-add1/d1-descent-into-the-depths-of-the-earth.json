@@ -1,0 +1,18 @@
+{
+  "slug": "d1-descent-into-the-depths-of-the-earth",
+  "system": "dnd-add1",
+  "title": "D1 Descent Into the Depths of the Earth",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La primera aventura de la serie de los drow: el descenso a las profundidades de la tierra tras la pista de los elfos oscuros.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-d.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1978",
+      "format": "paperback",
+      "cover": "/images/rol/d1-descent-into-the-depths-of-the-earth/english.webp"
+    }
+  ]
+}

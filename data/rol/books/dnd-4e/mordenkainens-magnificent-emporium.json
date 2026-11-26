@@ -1,0 +1,24 @@
+{
+  "slug": "mordenkainens-magnificent-emporium",
+  "system": "dnd-4e",
+  "title": "Mordenkainen's Magnificent Emporium",
+  "kind": "supplement",
+  "description": "Objetos mágicos y equipo presentados como el catálogo de la tienda del mago Mordenkainen, con las reglas de rareza de objetos de la línea Essentials.\n\nSustituyó a los Adventurer's Vault. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Mordenkainen%27s_Magnificent_Emporium",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-09",
+      "format": "hardcover",
+      "isbn13": 9780786957446,
+      "cover": "/images/rol/mordenkainens-magnificent-emporium/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/165544/mordenkainen-s-magnificent-emporium-4e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "mc1-monstrous-compendium-volume-one",
+  "system": "dnd-add2",
+  "title": "MC1 Monstrous Compendium Volume One",
+  "kind": "core",
+  "description": "El primer bestiario de AD&D 2.ª edición, en hojas sueltas para carpeta de anillas: cada monstruo ocupa su propia hoja para poder ordenarlas y añadir las de los apéndices de cada ambientación.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "cover": "/images/rol/mc1-monstrous-compendium-volume-one/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/183092/mc1-monstrous-compendium-volume-one-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Monstruos Volumen Uno",
+      "publisher": "Zinco",
+      "date": "1992",
+      "cover": "/images/rol/mc1-monstrous-compendium-volume-one/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core-a.html"
+    }
+  ]
+}

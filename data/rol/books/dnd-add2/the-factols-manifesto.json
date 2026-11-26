@@ -1,0 +1,24 @@
+{
+  "slug": "the-factols-manifesto",
+  "system": "dnd-add2",
+  "title": "The Factol's Manifesto",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "Un suplemento sobre las quince facciones de Sigil, cada una contada por su propio factol: su filosofía, su organización y cómo jugar con ellas. Lo escribieron Tim Beach, Dori Jean Hein y J. M. Salsbury.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-factols-manifesto/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17275/the-factol-s-manifesto-2e"
+        }
+      ]
+    }
+  ]
+}

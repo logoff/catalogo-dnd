@@ -9,6 +9,8 @@ export const groupNames: Record<MerchandiseGroup, string> = {
   books: 'Libros licenciados',
   figures: 'Figuras y juguetes',
   games: 'Juegos de mesa y cartas',
+  dice: 'Dados y accesorios',
+  stationery: 'Papelería y regalo',
 }
 
 export const kindNames: Record<MerchandiseKind, string> = {
@@ -16,6 +18,7 @@ export const kindNames: Record<MerchandiseKind, string> = {
   craft_book: 'Manualidades',
   art_book: 'Libro de arte',
   guide_book: 'Guía ilustrada',
+  gamebook: 'Librojuego',
   funko: 'Funko',
   lego: 'LEGO',
   figure: 'Figura',
@@ -23,13 +26,21 @@ export const kindNames: Record<MerchandiseKind, string> = {
   collectible_miniature: 'Miniatura de coleccionista',
   board_game: 'Juego de mesa',
   card_game: 'Juego de cartas',
+  dice_set: 'Juego de dados',
+  dice_accessory: 'Accesorio de dados',
+  advent_calendar: 'Calendario de adviento',
+  journal: 'Diario o cuaderno',
+  puzzle: 'Puzle',
+  stationery_gift: 'Papelería y otros regalos',
 }
 
 // Tipos de cada grupo, en el orden en que se muestran
 export const kindsByGroup: Record<MerchandiseGroup, MerchandiseKind[]> = {
-  books: ['cookbook', 'craft_book', 'art_book', 'guide_book'],
+  books: ['cookbook', 'craft_book', 'art_book', 'guide_book', 'gamebook'],
   figures: ['funko', 'lego', 'figure', 'plush', 'collectible_miniature'],
   games: ['board_game', 'card_game'],
+  dice: ['dice_set', 'dice_accessory', 'advent_calendar'],
+  stationery: ['journal', 'puzzle', 'stationery_gift'],
 }
 
 export const spanishNames: Record<MerchandiseSpanish, string> = {
@@ -38,7 +49,7 @@ export const spanishNames: Record<MerchandiseSpanish, string> = {
   none: 'Solo en inglés',
 }
 
-// Los artículos sin texto (figuras, LEGO) no llevan marca de idioma
+// Los artículos sin texto (figuras, LEGO, dados) no llevan marca de idioma
 export function hasLanguage(item: MerchandiseWithMeta): boolean {
   return item.editions.some((edition) => edition.language)
 }

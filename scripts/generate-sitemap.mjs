@@ -2,6 +2,8 @@ import { writeFileSync, readFileSync, readdirSync, statSync } from 'fs'
 import { join, basename } from 'path'
 import { fileURLToPath } from 'url'
 import { dirname } from 'path'
+import { summaryMonths } from './monthly-summary.mjs'
+import { isShallow } from './git-history.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -48,6 +50,20 @@ function generateSitemap() {
     { loc: '/catalogo', priority: 0.9, changefreq: 'weekly', lastmod: today },
     { loc: '/2014', priority: 0.8, changefreq: 'weekly', lastmod: today },
     { loc: '/2024', priority: 0.8, changefreq: 'weekly', lastmod: today },
+    { loc: '/novedades', priority: 0.8, changefreq: 'daily', lastmod: today },
+    // Un resumen por mes completo (los mismos que publica virtual:monthly-summaries); sin historial
+    // de git no hay resúmenes
+    ...(isShallow(join(__dirname, '..'))
+      ? []
+      : summaryMonths(
+          process.env.SUMMARY_TODAY ??
+            new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date())
+        ).map((month) => ({
+          loc: `/novedades/${month}`,
+          priority: 0.6,
+          changefreq: 'yearly',
+          lastmod: today,
+        }))),
     { loc: '/guias', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/por-donde-empezar', priority: 0.8, changefreq: 'monthly', lastmod: today },
     { loc: '/guias/2014-vs-2024', priority: 0.8, changefreq: 'monthly', lastmod: today },
@@ -126,21 +142,65 @@ function generateSitemap() {
     })
   }
 
-  // Otros juegos de rol: la sección, las licencias, los sistemas y los libros
+  // Comic pages (data/comics/<editorial>/<slug>.json; collections.json está en la raíz)
+  urls.push({ loc: '/comics', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  const comicsDir = join(DATA_DIR, 'comics')
+  for (const file of getProductFiles(comicsDir).filter((f) => dirname(f) !== comicsDir)) {
+    const { slug } = JSON.parse(readFileSync(file, 'utf-8'))
+    urls.push({ loc: `/comic/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
+  }
+
+  // Guías por ambientación: una por cada mundo que tenga algún libro, novela o videojuego
+  const worlds = new Set()
+  for (const edition of ['2014', '2024']) {
+    for (const file of getProductFiles(join(DATA_DIR, edition, 'products'))) {
+      for (const w of JSON.parse(readFileSync(file, 'utf-8')).settings ?? []) worlds.add(w)
+    }
+  }
+  for (const file of getProductFiles(join(DATA_DIR, 'rol', 'books'))) {
+    for (const w of JSON.parse(readFileSync(file, 'utf-8')).settings ?? []) worlds.add(w)
+  }
+  for (const file of getProductFiles(join(DATA_DIR, 'novels'))) {
+    const world = file.split('/').at(-2)
+    if (world !== 'generic' && world !== 'novels') worlds.add(world)
+  }
+  for (const file of getProductFiles(join(DATA_DIR, 'videogames', 'games'))) {
+    const { setting } = JSON.parse(readFileSync(file, 'utf-8'))
+    if (setting) worlds.add(setting)
+  }
+  for (const world of [...worlds].sort()) {
+    urls.push({
+      loc: `/guias/ambientacion/${world.replace(/_/g, '-')}`,
+      priority: 0.7,
+      changefreq: 'monthly',
+      lastmod: today,
+    })
+  }
+
+  // Otros juegos de rol y ediciones anteriores de D&D: las secciones, las licencias, los sistemas
+  // y los libros
   // (data/rol/books/<sistema>/<slug>.json)
   const rolDir = join(DATA_DIR, 'rol')
   const rolUrl = (loc, priority) => ({ loc, priority, changefreq: 'monthly', lastmod: today })
   urls.push({ loc: '/rol', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  urls.push(rolUrl('/rol/arbol', 0.7))
   urls.push(rolUrl('/licencias', 0.7))
   for (const file of getProductFiles(join(rolDir, 'licenses'))) {
     urls.push(rolUrl(`/licencia/${JSON.parse(readFileSync(file, 'utf-8')).slug}`, 0.6))
   }
+  // Las ediciones anteriores de D&D (oficiales y sin catálogo propio en el sitio) y sus libros van
+  // en /ediciones (el mismo criterio que isDndEdition en src/utils/rpg.ts)
+  urls.push(rolUrl('/ediciones', 0.8))
+  const sectionOf = new Map()
   for (const file of getProductFiles(join(rolDir, 'systems'))) {
-    urls.push(rolUrl(`/rol/${JSON.parse(readFileSync(file, 'utf-8')).slug}`, 0.7))
+    const system = JSON.parse(readFileSync(file, 'utf-8'))
+    const section = system.official && !system.official_catalog ? 'ediciones' : 'rol'
+    sectionOf.set(system.slug, section)
+    urls.push(rolUrl(`/${section}/${system.slug}`, 0.7))
   }
   for (const file of getProductFiles(join(rolDir, 'books'))) {
     const { system, slug } = JSON.parse(readFileSync(file, 'utf-8'))
-    urls.push(rolUrl(`/rol/${system}/${slug}`, 0.6))
+    urls.push(rolUrl(`/${sectionOf.get(system) ?? 'rol'}/${system}/${slug}`, 0.6))
   }
 
   // Generate XML

@@ -1,0 +1,23 @@
+{
+  "slug": "the-apocalypse-stone",
+  "system": "dnd-add2",
+  "title": "The Apocalypse Stone",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 15 o más pensada como final de una larga campaña, que lleva al fin del mundo de juego. La escribieron Jason Carl y Chris Pramas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/the-apocalypse-stone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17303/the-apocalypse-stone-2e"
+        }
+      ]
+    }
+  ]
+}

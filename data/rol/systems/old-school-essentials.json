@@ -1,0 +1,39 @@
+{
+  "slug": "old-school-essentials",
+  "name": "Old-School Essentials",
+  "family": "old-school-essentials",
+  "publisher": "Necrotic Gnome",
+  "date": "2019",
+  "movement": "osr",
+  "description": "La reedición más fiel y ordenada de las cajas básica y experta de D&D de 1981 (la llamada B/X), escrita por Gavin Norman: las mismas reglas, reorganizadas para consultarlas en mesa, con cada regla en una página o dos. Classic Fantasy es el juego tal cual, con las razas como clases, y Advanced Fantasy añade las razas y clases de AD&D para separar raza y clase.\n\nSe ha convertido en la referencia del OSR por su claridad y por la cantidad de aventuras compatibles que publica su comunidad gracias a su licencia de terceros. Su editorial también publica Dolmenwood. No consta una edición en castellano.",
+  "features": [
+    "Reglas de las cajas básica y experta de 1981",
+    "Maquetación pensada para consultar en mesa",
+    "Razas como clases o separadas (Advanced Fantasy)",
+    "Gran catálogo de aventuras compatibles"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2019"
+    },
+    {
+      "license": "ose-third-party-license",
+      "note": "Para publicar material compatible con el nombre y el logotipo del juego."
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Reescribe y reorganiza las reglas B/X de 1981 sin cambiarlas; las aventuras de entonces se usan tal cual."
+    }
+  ],
+  "links": [
+    {
+      "label": "Necrotic Gnome",
+      "url": "https://necroticgnome.com/pages/about-old-school-essentials"
+    }
+  ]
+}

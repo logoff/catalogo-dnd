@@ -1,0 +1,23 @@
+{
+  "slug": "ref3-the-book-of-lairs",
+  "system": "dnd-add1",
+  "title": "REF3 The Book of Lairs",
+  "kind": "supplement",
+  "description": "Más de sesenta aventuras cortas, de una o dos páginas, centradas en las guaridas de monstruos de los bestiarios de AD&D, ordenadas por monstruo y por terreno para añadirlas a cualquier campaña. La escribieron James M. Ward y Mike Breault.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ref-2e.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/ref3-the-book-of-lairs/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17019/ref3-the-book-of-lairs-1e"
+        }
+      ]
+    }
+  ]
+}

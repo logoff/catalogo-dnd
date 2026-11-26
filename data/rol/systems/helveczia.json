@@ -1,0 +1,29 @@
+{
+  "slug": "helveczia",
+  "name": "Helvéczia",
+  "family": "helveczia",
+  "publisher": "Outremer Ediciones",
+  "date": "2022",
+  "movement": "osr",
+  "description": "Juego de rol de fantasía picaresca ambientado en una Suiza imaginaria del siglo XVII, con estudiantes, vagabundos, soldados y clérigos que recorren un mundo de cuentos populares, diablos y aventuras de camino.\n\nSe publicó en húngaro en 2013 y en inglés en 2021; usa una versión sencilla del sistema d20 de la tercera edición de D&D. La edición en castellano de Outremer se financió en Verkami en 2022 y sale en una caja con mapas y una baraja húngara.",
+  "features": [
+    "Fantasía picaresca del siglo XVII",
+    "d20 de la tercera edición simplificado",
+    "Virtud en lugar de alineamiento",
+    "Caja con mapas y baraja húngara"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "dnd-3e",
+      "kind": "major_rewrite",
+      "note": "Usa una versión simplificada del sistema d20 de la tercera edición, según su editorial en castellano."
+    }
+  ],
+  "links": [
+    {
+      "label": "Outremer",
+      "url": "https://outremer.es/producto/helveczia-el-juego-de-rol-de-fantasia-picaresca/"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "slug": "dragones-y-mazmorras-planeta",
+  "title": "Dragones y Mazmorras",
+  "language": "castellano",
+  "publisher": "Planeta DeAgostini (Forum)",
+  "setting": "none",
+  "kind": "ongoing",
+  "date": "1985",
+  "end_date": "1986",
+  "issue_count": 27,
+  "writers": ["Francisco Pérez Navarro"],
+  "artists": ["Pasqual Ferry", "Bernet Toledano"],
+  "description": "Serie española de 27 cuadernos que Forum, el sello de cómics de Planeta DeAgostini, publicó en 1985 y 1986 a partir de la serie de dibujos animados Dragones y Mazmorras. Fue su primera colección de producción propia, con guiones de Francisco Pérez Navarro y dibujo de Pasqual Ferry y Bernet Toledano, entre otros.\n\nEs un cómic de quiosco para niños que hoy solo se encuentra de segunda mano. Sus historias se tradujeron después al inglés en el anuario británico de Marvel UK.",
+  "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html",
+  "issues": [
+    {
+      "number": "1",
+      "title": "El ojo del vigilante",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/1.webp",
+      "cover_source": "https://www.comics.org/series/126722/covers/"
+    },
+    {
+      "number": "2",
+      "title": "El valle de los unicornios",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/2.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "3",
+      "title": "En busca del amo del calabozo",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/3.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "4",
+      "title": "Prisión sin paredes",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/4.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "5",
+      "title": "El sirviente del mal",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/5.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "6",
+      "title": "El jardín de Zinn",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/6.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "7",
+      "title": "La noche sin fin",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/7.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "8",
+      "title": "El gran salón",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/8.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "9",
+      "title": "La bella y la bestia",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/9.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "10",
+      "title": "Presto hechiza un desastre",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/10.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "11",
+      "title": "La búsqueda del esqueleto guerrero",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/11.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "12",
+      "title": "Los niños perdidos",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/12.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "13",
+      "title": "La caja",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/13.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "14",
+      "title": "La niña que soñaba el futuro",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/14.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "15",
+      "title": "El tesoro de Tardos",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/15.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "16",
+      "title": "La ciudad al filo de la medianoche",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/16.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "17",
+      "title": "El traidor",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/17.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "18",
+      "title": "La última ilusión",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/18.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "19",
+      "title": "Eric es amo por un día",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/19.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "20",
+      "title": "El cementerio de dragones",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/20.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "21",
+      "title": "El hijo del cosmólogo",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/21.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "22",
+      "title": "La mazmorra en el corazón del alba",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/22.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "23",
+      "title": "Ciudadela de sombras",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/23.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "24",
+      "title": "El talismán número doce",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/24.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "25",
+      "title": "La cueva de los dragones fantásticos",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/25.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "26",
+      "title": "Tiempo perdido",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/26.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    },
+    {
+      "number": "27",
+      "title": "Vientos de oscuridad",
+      "date": "1985",
+      "cover": "/images/comics/dragones-y-mazmorras-planeta/27.webp",
+      "cover_source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_1985_planeta-deagostini.html"
+    }
+  ]
+}

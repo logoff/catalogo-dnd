@@ -1,0 +1,23 @@
+{
+  "slug": "dragon-mountain",
+  "system": "dnd-add2",
+  "title": "Dragon Mountain",
+  "kind": "adventure",
+  "description": "Una aventura en caja para personajes de nivel alto en la guarida de un gran dragón rojo y los kóbolds que lo sirven.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/dragon-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17086/dragon-mountain-2e"
+        }
+      ]
+    }
+  ]
+}

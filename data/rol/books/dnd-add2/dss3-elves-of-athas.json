@@ -1,0 +1,24 @@
+{
+  "slug": "dss3-elves-of-athas",
+  "system": "dnd-add2",
+  "title": "DSS3 Elves of Athas",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Un suplemento de Dark Sun sobre los elfos de Athas, sus tribus y su cultura. Lo escribió Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dss.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dss3-elves-of-athas/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17195/dss3-elves-of-athas-2e"
+        }
+      ]
+    }
+  ]
+}

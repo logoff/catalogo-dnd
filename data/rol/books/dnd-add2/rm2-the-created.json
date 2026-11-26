@@ -1,0 +1,24 @@
+{
+  "slug": "rm2-the-created",
+  "system": "dnd-add2",
+  "title": "RM2 The Created",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura corta de Ravenloft: los personajes asisten a una fiesta en una aldea antes de que se hunda en el semiplano del Pavor y se enfrentan a marionetas asesinas. La escribió Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rm2-the-created/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17477/rm2-the-created-2e"
+        }
+      ]
+    }
+  ]
+}

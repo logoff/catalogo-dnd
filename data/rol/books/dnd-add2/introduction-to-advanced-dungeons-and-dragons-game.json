@@ -1,0 +1,25 @@
+{
+  "slug": "introduction-to-advanced-dungeons-and-dragons-game",
+  "system": "dnd-add2",
+  "title": "Introduction to Advanced Dungeons & Dragons Game",
+  "kind": "starter",
+  "description": "Una caja para empezar a jugar a AD&D 2.ª edición, con reglas de iniciación y una partida guiada. La escribieron L. Richard Baker III, David «Zeb» Cook, Kevin Melka y Bruce Nesmith.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/add/add-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/introduction-to-advanced-dungeons-and-dragons-game/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Iniciación al Juego de Rol",
+      "publisher": "Martínez Roca",
+      "format": "boxed_set",
+      "cover": "/images/rol/introduction-to-advanced-dungeons-and-dragons-game/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

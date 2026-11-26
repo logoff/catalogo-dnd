@@ -1,0 +1,27 @@
+{
+  "slug": "endless-quest-big-trouble",
+  "title": "Endless Quest: Big Trouble",
+  "group": "books",
+  "kind": "gamebook",
+  "manufacturer": "Candlewick Press",
+  "date": "2018",
+  "description": "Librojuego de Matt Forbeck de la serie Endless Quest, recuperada por Wizards of the Coast y Candlewick en 2018: el lector elige qué hacer al final de cada capítulo en una aventura por los Reinos Olvidados atacados por gigantes, con el lector en el papel de un mago que defiende su hogar.\n\nEstá pensado para lectores de 8 a 12 años que empiezan con D&D, con ilustraciones del arte oficial de la quinta edición. Salió en tapa dura y en rústica, y solo en inglés.",
+  "source": "https://gamebooks.org/Item/11799",
+  "editions": [
+    {
+      "language": "english",
+      "title": "Endless Quest: Big Trouble (tapa dura)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536202458
+    },
+    {
+      "language": "english",
+      "title": "Endless Quest: Big Trouble (rústica)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536202441
+    }
+  ],
+  "images": ["/images/merchandising/endless-quest-big-trouble/0.jpg"]
+}

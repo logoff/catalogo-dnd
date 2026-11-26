@@ -1,0 +1,39 @@
+{
+  "slug": "set-1-basic-rules",
+  "system": "dnd-basic",
+  "title": "Set 1: Basic Rules",
+  "kind": "core",
+  "core": true,
+  "description": "La caja roja de Frank Mentzer, con portada de Larry Elmore: el Manual del Jugador, con una aventura en solitario para aprender, y el Manual del Dungeon Master para los niveles 1 a 3. Fue la primera caja de la serie BECMI y la primera que se tradujo al castellano.\n\nEdición en castellano de Dalmau Carles Pla.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-ment.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "boxed_set",
+      "cover": "/images/rol/set-1-basic-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/116578/d-d-basic-set-player-s-manual-becmi-ed-basic",
+          "variant": "Player's Manual"
+        },
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/116619/d-d-basic-set-dm-s-rulebook-becmi-ed-basic",
+          "variant": "DM's Rulebook"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Reglas Nivel Básico 1",
+      "publisher": "Dalmau Carles Pla",
+      "date": "1985",
+      "format": "boxed_set",
+      "cover": "/images/rol/set-1-basic-rules/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-box.html"
+    }
+  ]
+}

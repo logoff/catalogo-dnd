@@ -1,0 +1,24 @@
+{
+  "slug": "fma2-endless-armies",
+  "system": "dnd-add2",
+  "title": "FMA2 Endless Armies",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura de Maztica. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/fma2-endless-armies/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/196796/fma2-endless-armies-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "lnr1-wonders-of-lankhmar",
+  "system": "dnd-add2",
+  "title": "LNR1 Wonders of Lankhmar",
+  "kind": "setting",
+  "settings": ["lankhmar"],
+  "description": "Cuarenta y ocho aventuras cortas ambientadas en Nehwon, con un mapa del mundo. Lo escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-lnr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/lnr1-wonders-of-lankhmar/english.webp"
+    }
+  ]
+}

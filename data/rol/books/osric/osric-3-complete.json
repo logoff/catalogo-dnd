@@ -1,0 +1,24 @@
+{
+  "slug": "osric-3-complete",
+  "system": "osric",
+  "title": "OSRIC 3.0 Complete",
+  "kind": "core",
+  "core": true,
+  "description": "La tercera edición de OSRIC en un volumen: el reglamento completo de la primera edición avanzada para jugadores y directores, con dragones, mazmorras olvidadas y tesoros.\n\nPublicado por Mythmere Games, escrito por Matt Finch, Stuart Marshall, con 585 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/554778/osric-3-0-complete",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Mythmere Games",
+      "date": "2026-03",
+      "format": "paperback",
+      "cover": "/images/rol/osric-3-complete/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/554778/osric-3-0-complete"
+        }
+      ]
+    }
+  ]
+}

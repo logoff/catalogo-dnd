@@ -1,0 +1,24 @@
+{
+  "slug": "hwa3-nightstorm",
+  "system": "dnd-basic",
+  "title": "HWA3 Nightstorm",
+  "kind": "adventure",
+  "settings": ["mystara"],
+  "description": "La tercera y última parte de la trilogía de aventuras del Mundo Hueco. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/hwa3-nightstorm/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16992/hwa3-hollow-world-nightstorm-basic"
+        }
+      ]
+    }
+  ]
+}

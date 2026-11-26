@@ -1,0 +1,23 @@
+{
+  "slug": "n5-under-illefarn",
+  "system": "dnd-add1",
+  "title": "N5 Under Illefarn",
+  "kind": "adventure",
+  "description": "Una aventura de los Reinos Olvidados para principiantes: los personajes, miembros de la milicia de Daggerford, se enfrentan a hombres lagarto, rescatan a una noble secuestrada y protegen una caravana. La escribió Steve Perrin.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-n.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/n5-under-illefarn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16801/n5-under-illefarn-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "marca-las-esporas-del-hongo-atribulado",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Las esporas del hongo atribulado",
+  "kind": "adventure",
+  "description": "Una aventura corta, peligrosa y fúngica de exploración de mazmorras, la primera de un autor extranjero en la línea.\n\nSirve para Aventuras en la Marca del Este y otros juegos OSR. Cuadernillo A5 grapado de dieciséis páginas, de mayo de 2022.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30135-las-esporas-del-hongo-atribulado.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2022-05",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30135-las-esporas-del-hongo-atribulado.html",
+      "cover": "/images/rol/marca-las-esporas-del-hongo-atribulado/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/las-esporas-del-hongo-atribulado/"
+        }
+      ]
+    }
+  ]
+}

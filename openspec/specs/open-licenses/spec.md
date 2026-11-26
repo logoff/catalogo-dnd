@@ -73,12 +73,20 @@ asesoramiento jurídico.
 
 El sitio SHALL tener una ficha por licencia en `/licencia/:slug`, con su
 explicación, sus datos, sus enlaces oficiales, los sistemas que la usan y
-los libros de esos sistemas o que la usan directamente.
+los libros de esos sistemas o que la usan directamente. Las ediciones
+anteriores de D&D SHALL enlazar a su ficha en `/ediciones` y sus libros no
+SHALL listarse en la licencia.
 
 #### Scenario: Sistemas agrupados
 
 - **WHEN** un visitante abre la ficha de la ORC
 - **THEN** ve los sistemas que la usan, cada uno con enlace a su ficha
+
+#### Scenario: Edición anterior de D&D
+
+- **WHEN** un visitante abre la ficha del SRD 3.5
+- **THEN** ve D&D 3.5 entre los sistemas que la usan, enlazado a
+  `/ediciones/dnd-3-5`, y ninguno de sus libros
 
 #### Scenario: Licencia relacionada
 
@@ -109,3 +117,22 @@ sitemap y tener título y descripción propios.
 
 - **WHEN** se genera el build
 - **THEN** el sitemap incluye `/licencia/:slug` de cada licencia
+
+### Requirement: Licencias de compatibilidad
+
+Una licencia con la que una editorial permite publicar material compatible con
+su juego (por ejemplo, las de Old-School Essentials o Mörk Borg) SHALL tener
+ficha si la usa un sistema de la sección, con el tipo de licencia comunitaria,
+y solo SHALL darse de alta cuando una fuente oficial de la editorial la
+publique.
+
+#### Scenario: Licencia de terceros de un juego OSR
+
+- **WHEN** un sistema OSR indica la licencia de terceros de su editorial
+- **THEN** la licencia tiene ficha de tipo licencia comunitaria, con un
+  enlace oficial a su texto
+
+#### Scenario: Juego sin licencia publicada
+
+- **WHEN** la editorial de un juego no publica ninguna licencia
+- **THEN** su sistema indica que no tiene licencia abierta

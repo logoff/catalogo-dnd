@@ -1,0 +1,23 @@
+{
+  "slug": "the-haunted-tower",
+  "system": "dnd-basic",
+  "title": "The Haunted Tower",
+  "kind": "adventure",
+  "description": "Una caja de aventuras para la caja de iniciación de 1991, en una torre encantada, con mapas y figuras de cartón. La escribió Julia Martin.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-haunted-tower/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17001/the-haunted-tower-basic"
+        }
+      ]
+    }
+  ]
+}

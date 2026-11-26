@@ -1,0 +1,21 @@
+{
+  "slug": "magefall",
+  "title": "Dungeons & Dragons: Magefall",
+  "publisher": "Dark Horse Comics",
+  "setting": "generic",
+  "kind": "promotional",
+  "date": "2026-05",
+  "issue_count": 1,
+  "writers": ["Tim Seeley"],
+  "artists": ["Andrew Krahnke"],
+  "description": "Historia corta de D&D de Tim Seeley y Andrew Krahnke, publicada en el cómic gratuito de Dark Horse para el Comics Giveaway Day de 2026, compartido con He-Man y los Masters del Universo.\n\nSe regaló en tiendas de cómics y no se ha reeditado.",
+  "source": "https://www.comics.org/series/236099/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2026-05",
+      "cover": "/images/comics/magefall/1.webp",
+      "cover_source": "https://www.comics.org/series/236099/covers/"
+    }
+  ]
+}

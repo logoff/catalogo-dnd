@@ -1,0 +1,24 @@
+{
+  "slug": "hyperborea-3e-players-manual",
+  "system": "hyperborea",
+  "title": "HYPERBOREA 3E Player's Manual",
+  "kind": "core",
+  "core": true,
+  "description": "El manual del jugador de la tercera edición de Hyperborea, juego de espada, brujería y ciencia fantástica extraña: clases y subclases, razas, equipo, magia y reglas, en su actualización de 2025.\n\nPublicado por North Wind Adventures, escrito por Jeffrey Talanian, con 333 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/381205/hyperborea-3e-player-s-manual-2025-update",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2021-12",
+      "format": "hardcover",
+      "cover": "/images/rol/hyperborea-3e-players-manual/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/381205/hyperborea-3e-player-s-manual-2025-update"
+        }
+      ]
+    }
+  ]
+}

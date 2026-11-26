@@ -1,0 +1,24 @@
+{
+  "slug": "dsq2-arcane-shadows",
+  "system": "dnd-add2",
+  "title": "DSQ2 Arcane Shadows",
+  "kind": "adventure",
+  "settings": ["dark_sun"],
+  "description": "Una aventura de la serie DSQ de Dark Sun, con tablas de personajes no jugadores, mapas y un relato breve para situarla. La escribió Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/dsq2-arcane-shadows/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17184/dsq2-arcane-shadows-2e"
+        }
+      ]
+    }
+  ]
+}

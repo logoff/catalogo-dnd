@@ -1,0 +1,23 @@
+{
+  "slug": "i5-lost-tomb-of-martek",
+  "system": "dnd-add1",
+  "title": "I5 Lost Tomb of Martek",
+  "kind": "adventure",
+  "description": "La aventura que cierra la serie del Desierto de la Desolación: la búsqueda de la tumba perdida del mago Martek. La escribió Tracy Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/i5-lost-tomb-of-martek/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17051/i5-lost-tomb-of-martek-1e"
+        }
+      ]
+    }
+  ]
+}

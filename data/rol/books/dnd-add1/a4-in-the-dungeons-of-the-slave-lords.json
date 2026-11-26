@@ -1,0 +1,24 @@
+{
+  "slug": "a4-in-the-dungeons-of-the-slave-lords",
+  "system": "dnd-add1",
+  "title": "A4 In the Dungeons of the Slave Lords",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La aventura que cierra la serie de los esclavistas: capturados y sin equipo, los personajes deben escapar de las mazmorras de los señores de los esclavos mientras despierta un volcán. La escribió Lawrence Schick.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-a.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "paperback",
+      "cover": "/images/rol/a4-in-the-dungeons-of-the-slave-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17030/a4-in-the-dungeons-of-the-slave-lords-1e"
+        }
+      ]
+    }
+  ]
+}

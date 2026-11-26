@@ -1,0 +1,23 @@
+{
+  "slug": "hr4-a-mighty-fortress-campaign-sourcebook",
+  "system": "dnd-add2",
+  "title": "HR4 A Mighty Fortress Campaign Sourcebook",
+  "kind": "supplement",
+  "description": "Un libro de la serie histórica de AD&D sobre la Europa de los siglos XVI y XVII. Lo escribió Steve Winter.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hr4-a-mighty-fortress-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16916/hr4-a-mighty-fortress-campaign-sourcebook-2e"
+        }
+      ]
+    }
+  ]
+}

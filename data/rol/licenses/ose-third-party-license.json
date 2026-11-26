@@ -1,0 +1,19 @@
+{
+  "slug": "ose-third-party-license",
+  "name": "Old-School Essentials Third Party License",
+  "short_name": "Licencia de terceros de OSE",
+  "kind": "community_license",
+  "holder": "Necrotic Gnome",
+  "date": "2020-03",
+  "description": "La licencia gratuita y sin royalties con la que Necrotic Gnome permite a otras editoriales publicar material para Old-School Essentials, comercial o gratuito, usando el nombre del juego y el logotipo «Designed for use with Old-School Essentials». Exige que el producto no parezca una publicación oficial de Necrotic Gnome.\n\nNo obliga a publicar bajo ninguna licencia de contenido abierto: quien la usa puede elegir la OGL, una Creative Commons o ninguna. Las reglas de Old-School Essentials se publican aparte bajo la OGL 1.0a.",
+  "links": [
+    {
+      "label": "Licencia en la tienda de Necrotic Gnome",
+      "url": "https://necroticgnome.com/products/old-school-essentials-third-party-license"
+    },
+    {
+      "label": "Cómo publicar para OSE",
+      "url": "https://necroticgnome.com/blogs/news/publishing-third-party-products-for-old-school-essentials"
+    }
+  ]
+}

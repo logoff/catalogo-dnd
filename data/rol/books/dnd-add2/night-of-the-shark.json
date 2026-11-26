@@ -1,0 +1,23 @@
+{
+  "slug": "night-of-the-shark",
+  "system": "dnd-add2",
+  "title": "Night of the Shark",
+  "kind": "adventure",
+  "description": "Una aventura de AD&D 2.ª edición. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/night-of-the-shark/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17338/night-of-the-shark-2e"
+        }
+      ]
+    }
+  ]
+}

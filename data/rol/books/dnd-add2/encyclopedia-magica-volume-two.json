@@ -1,0 +1,23 @@
+{
+  "slug": "encyclopedia-magica-volume-two",
+  "system": "dnd-add2",
+  "title": "Encyclopedia Magica Volume Two",
+  "kind": "supplement",
+  "description": "El segundo de los cuatro tomos de la Encyclopedia Magica, que reúne todos los objetos mágicos publicados por TSR hasta entonces, en orden alfabético.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-em.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/encyclopedia-magica-volume-two/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/117439/encyclopedia-magica-vol-2-d-p-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "dlc1-classics-volume-i",
+  "system": "dnd-add2",
+  "title": "DLC1 Classics Volume I",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "Las cuatro primeras aventuras de la saga de Dragonlance, de DL1 a DL4, revisadas para AD&D 2.ª edición y reunidas en un volumen. La escribieron Tracy Hickman, Douglas Niles y Michael Dobson.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "cover": "/images/rol/dlc1-classics-volume-i/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17370/dragonlance-classics-volume-i-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Clásicos Volumen I",
+      "publisher": "Zinco",
+      "cover": "/images/rol/dlc1-classics-volume-i/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

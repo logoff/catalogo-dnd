@@ -1,0 +1,23 @@
+{
+  "slug": "van-richtens-monster-hunters-compendium-volume-three",
+  "system": "dnd-add2",
+  "title": "Van Richten's Monster Hunter's Compendium Volume Three",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "El tercer volumen que reúne los tratados de Rudolph van Richten. Lo escribieron David Wise, Steve Miller y Teeuwynn Woodruff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-mhc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "cover": "/images/rol/van-richtens-monster-hunters-compendium-volume-three/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17481/van-richten-s-monster-hunter-s-compendium-vol-3-2e"
+        }
+      ]
+    }
+  ]
+}

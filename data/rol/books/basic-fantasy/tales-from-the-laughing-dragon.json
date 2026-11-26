@@ -1,0 +1,23 @@
+{
+  "slug": "tales-from-the-laughing-dragon",
+  "system": "basic-fantasy",
+  "title": "Tales from The Laughing Dragon",
+  "kind": "adventure",
+  "description": "Fonkin, el querido sabio gnomo, ha desaparecido, y unos aventureros novatos siguen su rastro hasta unas ruinas.\n\nPublicado por Basic Fantasy Project, escrito por Dave Gerard, con 35 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/480060/tales-from-the-laughing-dragon-a-dragonclaw-adventure",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-06",
+      "format": "paperback",
+      "cover": "/images/rol/tales-from-the-laughing-dragon/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/480060/tales-from-the-laughing-dragon-a-dragonclaw-adventure"
+        }
+      ]
+    }
+  ]
+}

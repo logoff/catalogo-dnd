@@ -1,0 +1,32 @@
+{
+  "slug": "return-to-white-plume-mountain",
+  "system": "dnd-add2",
+  "title": "Return to White Plume Mountain",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La secuela de la aventura clásica S2 White Plume Mountain, por el 25.º aniversario de D&D.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/add/add-25.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/return-to-white-plume-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17404/return-to-white-plume-mountain-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Retorno a la Montaña del Penacho Blanco",
+      "publisher": "Martínez Roca",
+      "format": "paperback",
+      "cover": "/images/rol/return-to-white-plume-mountain/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

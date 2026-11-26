@@ -1,0 +1,59 @@
+{
+  "slug": "a-darkened-wish",
+  "title": "Dungeons & Dragons: A Darkened Wish",
+  "publisher": "IDW Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2019-03",
+  "end_date": "2020-02",
+  "issue_count": 5,
+  "writers": ["B. Dave Walters"],
+  "artists": ["Tess Fowler"],
+  "description": "Miniserie de cinco números escrita por B. Dave Walters y dibujada por Tess Fowler, independiente de la saga de Minsc, con un grupo de aventureros nuevo y una historia en torno a un deseo y su precio.\n\nSe recopiló en 2020; no se publicó en castellano.",
+  "source": "https://www.comics.org/series/142698/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2019-03-20",
+      "cover": "/images/comics/a-darkened-wish/1.webp",
+      "cover_source": "https://www.comics.org/series/142698/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2019-07-24",
+      "cover": "/images/comics/a-darkened-wish/2.webp",
+      "cover_source": "https://www.comics.org/series/142698/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2019-10-02",
+      "cover": "/images/comics/a-darkened-wish/3.webp",
+      "cover_source": "https://www.comics.org/series/142698/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2020-01-15",
+      "cover": "/images/comics/a-darkened-wish/4.webp",
+      "cover_source": "https://www.comics.org/series/142698/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2020-02-19",
+      "cover": "/images/comics/a-darkened-wish/5.webp",
+      "cover_source": "https://www.comics.org/series/142698/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: A Darkened Wish",
+      "publisher": "IDW Publishing",
+      "date": "2020-06-10",
+      "format": "paperback",
+      "isbn13": 9781684055388,
+      "contents": [{ "series": "a-darkened-wish", "issues": "1-5" }],
+      "cover": "/images/comics/a-darkened-wish/9781684055388.webp",
+      "cover_source": "https://www.amazon.es/dp/1684055385/"
+    }
+  ]
+}

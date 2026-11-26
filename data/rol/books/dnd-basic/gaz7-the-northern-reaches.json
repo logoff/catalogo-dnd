@@ -1,0 +1,24 @@
+{
+  "slug": "gaz7-the-northern-reaches",
+  "system": "dnd-basic",
+  "title": "GAZ7 The Northern Reaches",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El Gazetteer de las Tierras del Norte, los reinos de inspiración vikinga de Ostland, Vestland y Soderfjord, con reglas para personajes de la región y la historia de sus naciones. Lo escribió Ken Rolston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/gaz7-the-northern-reaches/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16979/gaz7-the-northern-reaches-basic"
+        }
+      ]
+    }
+  ]
+}

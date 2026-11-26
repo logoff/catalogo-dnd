@@ -1,0 +1,34 @@
+{
+  "slug": "cronicas-de-la-marca-del-este",
+  "name": "Crónicas de la Marca del Este",
+  "family": "cronicas-de-la-marca-del-este",
+  "publisher": "La Marca del Este",
+  "date": "2022",
+  "movement": "osr",
+  "description": "La segunda edición de Leyendas de la Marca del Este, muy revisada y más compacta: sigue siendo una adaptación de Castles & Crusades con la ambientación de la Marca del Este, con capítulos de clases, especies, combate, magia, monstruos y consejos para el Narrador.\n\nLa publicó el propio grupo La Marca del Este en 2022 en un libro de 212 páginas, en rústica con solapas. Es compatible con Aventuras en la Marca del Este, trae apéndices para convertir material de Aventuras en la Marca, de AD&D, del d20 y de la quinta edición, y el grupo la ha liberado gratis en Codex de la Marca.",
+  "features": [
+    "Segunda edición de Leyendas de la Marca del Este",
+    "Compatible con Aventuras en la Marca del Este",
+    "Conversión desde AD&D, d20 y 5E",
+    "Descarga gratuita en Codex de la Marca"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2022"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "leyendas-de-la-marca-del-este",
+      "kind": "revision",
+      "note": "Revisa y amplía la primera edición sin cambiar su base."
+    }
+  ],
+  "links": [
+    {
+      "label": "Codex de la Marca",
+      "url": "https://codexdelamarca.com/posts/cronicas-marca/"
+    }
+  ]
+}

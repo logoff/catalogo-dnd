@@ -1,0 +1,23 @@
+{
+  "slug": "the-complete-paladins-handbook",
+  "system": "dnd-add2",
+  "title": "The Complete Paladin's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para paladines, con kits, órdenes de caballería, caballos de guerra y códigos de conducta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/the-complete-paladins-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17551/phbr12-the-complete-paladin-s-handbook-2e"
+        }
+      ]
+    }
+  ]
+}

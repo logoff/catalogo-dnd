@@ -1,0 +1,34 @@
+{
+  "slug": "libris-mortis",
+  "system": "dnd-3-5",
+  "title": "Libris Mortis: The Book of Undead",
+  "kind": "supplement",
+  "description": "Un libro sobre los muertos vivientes: su naturaleza, su sociedad y cómo usarlos en partida, con monstruos nuevos, plantillas, clases de prestigio, dotes y conjuros para jugadores y Dungeon Masters.\n\nEs el segundo de la serie dedicada a un tipo de monstruo, tras Draconomicon. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Libris_Mortis",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-10",
+      "format": "hardcover",
+      "isbn13": 9780786934331,
+      "cover": "/images/rol/libris-mortis/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51645/libris-mortis-the-book-of-undead-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Libris Mortis",
+      "publisher": "Devir",
+      "date": "2006-03",
+      "format": "hardcover",
+      "isbn13": 9788496422629,
+      "cover": "/images/rol/libris-mortis/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/libris-mortis_978-84-96422-62-9"
+    }
+  ]
+}

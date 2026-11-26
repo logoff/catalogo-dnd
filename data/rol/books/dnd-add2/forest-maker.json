@@ -1,0 +1,24 @@
+{
+  "slug": "forest-maker",
+  "system": "dnd-add2",
+  "title": "Forest Maker",
+  "kind": "adventure",
+  "settings": ["dark_sun"],
+  "description": "Una aventura de Dark Sun. La escribió John J. Terra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/forest-maker/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17198/forest-maker-2e"
+        }
+      ]
+    }
+  ]
+}

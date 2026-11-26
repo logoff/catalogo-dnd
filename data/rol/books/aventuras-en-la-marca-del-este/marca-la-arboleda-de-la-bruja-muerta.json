@@ -1,0 +1,25 @@
+{
+  "slug": "marca-la-arboleda-de-la-bruja-muerta",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La arboleda de la bruja muerta",
+  "kind": "adventure",
+  "description": "Un módulo para personajes de nivel 4 a 6: un grupo de jóvenes se ha perdido en la Arboleda de la Bruja y el bosque parece haberse rebelado contra quien cruza sus lindes.\n\nPublicado en octubre de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40458-aventuras-en-la-marca-del-este-la-arboleda-de-la-bruja-muerta.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-10",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40458-aventuras-en-la-marca-del-este-la-arboleda-de-la-bruja-muerta.html",
+      "cover": "/images/rol/marca-la-arboleda-de-la-bruja-muerta/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/b26-la-arboleda-de-la-bruja-muerta/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-arboleda-de-la-bruja-muerta/"
+        }
+      ]
+    }
+  ]
+}

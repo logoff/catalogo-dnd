@@ -1,0 +1,24 @@
+{
+  "slug": "cc-engineering-villages",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Engineering Villages",
+  "kind": "supplement",
+  "description": "Todo lo necesario para crear aldeas y caseríos: tipos y trazados, habitantes y economía.\n\nPublicado por Troll Lord Games, escrito por Davis Chenault, con 50 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/513437/castles-crusades-engineering-villages",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2025-02",
+      "format": "paperback",
+      "isbn13": 9781952379727,
+      "cover": "/images/rol/cc-engineering-villages/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/513437/castles-crusades-engineering-villages"
+        }
+      ]
+    }
+  ]
+}

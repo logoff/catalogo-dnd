@@ -1,0 +1,24 @@
+{
+  "slug": "dragonlance-classics-15th-anniversary-edition",
+  "system": "dnd-add2",
+  "title": "Dragonlance Classics 15th Anniversary Edition",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La edición del 15.º aniversario de las aventuras clásicas de la saga de Dragonlance, puestas al día para AD&D 2.ª edición en un solo volumen. La escribieron Steve Miller y Stan!.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-25.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/dragonlance-classics-15th-anniversary-edition/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/219096/dragonlance-classics-15th-anniversary-edition-2e-saga"
+        }
+      ]
+    }
+  ]
+}

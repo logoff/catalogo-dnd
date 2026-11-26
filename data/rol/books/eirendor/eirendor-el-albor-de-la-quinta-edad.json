@@ -1,0 +1,25 @@
+{
+  "slug": "eirendor-el-albor-de-la-quinta-edad",
+  "system": "eirendor",
+  "title": "Eirendor: El albor de la Quinta Edad",
+  "kind": "core",
+  "core": true,
+  "description": "El manual básico de Eirendor, «Reglas & Magia»: creación de personajes, reglas de juego y magia basadas en la quinta edición y la presentación del mundo, en más de 250 páginas en blanco y negro y formato A5 de tapa blanda, con ilustraciones de Jagoba Lekuona.\n\nEs todo lo necesario para empezar a jugar en Eirendor y la base de sus aventuras. Se financió en Verkami en julio de 2016 y se envió a los mecenas a principios de 2017.",
+  "source": "https://www.verkami.com/projects/15028-eirendor-el-albor-de-la-quinta-edad",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "date": "2016",
+      "format": "paperback",
+      "isbn13": 9788494645808,
+      "cover": "/images/rol/eirendor-el-albor-de-la-quinta-edad/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/15028-eirendor-el-albor-de-la-quinta-edad",
+        "end": "2016-07-04"
+      },
+      "free_download": "https://www.sinergiaderol.com/RolGratuito/Eirendor/Eirendor.rar"
+    }
+  ]
+}

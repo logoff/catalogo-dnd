@@ -1,0 +1,23 @@
+{
+  "slug": "a-darkness-gathering",
+  "system": "dnd-add2",
+  "title": "A Darkness Gathering",
+  "kind": "adventure",
+  "description": "La primera aventura de la trilogía de la Iliada, para seis personajes de nivel 7 a 9: un invierno y una primavera anormalmente fríos anuncian el plan de los azotamentes. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/a-darkness-gathering/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17345/a-darkness-gathering-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "dungeoneers-survival-guide-1e",
+  "system": "dnd-add1",
+  "title": "Dungeoneer's Survival Guide",
+  "kind": "supplement",
+  "description": "Reglas para aventuras subterráneas en AD&D 1.ª edición: exploración, peligros, la Infraoscuridad y sus pueblos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "hardcover",
+      "cover": "/images/rol/dungeoneers-survival-guide-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17006/dungeoneer-s-survival-guide-1e"
+        }
+      ]
+    }
+  ]
+}

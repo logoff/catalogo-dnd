@@ -1,0 +1,61 @@
+{
+  "slug": "aventuras-en-la-marca-del-este",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Aventuras en la Marca del Este",
+  "kind": "core",
+  "core": true,
+  "description": "El reglamento de Aventuras en la Marca del Este: clases de aventurero, conjuros, equipo, monstruos, tesoros y las reglas para explorar mazmorras y tierras salvajes, en la tradición de la caja roja de D&D de los ochenta. Las ediciones más recientes reúnen también las clases y reglas avanzadas de las cajas posteriores.\n\nEs el libro imprescindible del juego. Ha salido en caja (la caja roja de 2010 y su reedición de 2022) y en edición de bolsillo, y en inglés como Adventures in the East Mark.",
+  "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Aventuras en la Marca del Este (caja roja)",
+      "publisher": "La Marca del Este",
+      "date": "2010-10",
+      "format": "boxed_set",
+      "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html"
+    },
+    {
+      "language": "castellano",
+      "title": "Aventuras en la Marca del Este: edición de bolsillo",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2011-09",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/10224-aventuras-en-la-marca-del-este-ed-bolsillo-antigua-edicion.html",
+      "cover": "/images/rol/aventuras-en-la-marca-del-este/castellano.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Aventuras en la Marca del Este (caja roja, reedición)",
+      "publisher": "La Marca del Este",
+      "date": "2022-02",
+      "format": "boxed_set",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/28165-caja-roja-de-la-marca-del-este.html",
+      "cover": "/images/rol/aventuras-en-la-marca-del-este/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/caja_roja/"
+    },
+    {
+      "language": "castellano",
+      "title": "Aventuras en la Marca del Este: nueva edición de bolsillo",
+      "publisher": "La Marca del Este",
+      "date": "2025-06",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/39492-aventuras-en-la-marca-del-este-ed-bolsillo-nueva-edicion.html",
+      "cover": "/images/rol/aventuras-en-la-marca-del-este/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/reedicion-de-aventuras-en-la-marca-del-este-de-bolsillo/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "title": "Adventures in the East Mark",
+      "publisher": "Extra-Dimensional Publishing",
+      "date": "2014",
+      "format": "boxed_set",
+      "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "x12-skardas-mirror",
+  "system": "dnd-basic",
+  "title": "X12 Skarda's Mirror",
+  "kind": "adventure",
+  "description": "Una aventura en la que los personajes entran por un espejo mágico en otra dimensión para rescatar a quienes quedaron atrapados en ella por el mago Skarda, que aterrorizaba Karameikos. La escribió Aaron Allston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/x12-skardas-mirror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17129/x12-skarda-s-mirror-basic"
+        }
+      ]
+    }
+  ]
+}

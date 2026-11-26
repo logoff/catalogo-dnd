@@ -1,0 +1,23 @@
+{
+  "slug": "monster-and-treasure-assortment-sets-one-three-levels-one-nine",
+  "system": "dnd-basic",
+  "title": "Monster & Treasure Assortment Sets One-Three: Levels One-Nine",
+  "kind": "supplement",
+  "description": "Los tres surtidos de monstruos y tesoros reunidos en un cuadernillo: listas ya tiradas de monstruos y tesoros para poblar mazmorras de los niveles 1 a 9, cien por nivel.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-mta.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/monster-and-treasure-assortment-sets-one-three-levels-one-nine/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16966/d-d-monster-treasure-assortment-sets-one-to-three"
+        }
+      ]
+    }
+  ]
+}

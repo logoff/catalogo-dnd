@@ -1,0 +1,24 @@
+{
+  "slug": "hwa1-nightwail",
+  "system": "dnd-basic",
+  "title": "HWA1 Nightwail",
+  "kind": "adventure",
+  "settings": ["mystara"],
+  "description": "La primera parte de una trilogía de aventuras ambientada en el Mundo Hueco. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/hwa1-nightwail/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17146/hwa1-nightwail-basic"
+        }
+      ]
+    }
+  ]
+}

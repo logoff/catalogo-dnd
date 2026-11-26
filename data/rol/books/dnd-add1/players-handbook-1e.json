@@ -1,0 +1,24 @@
+{
+  "slug": "players-handbook-1e",
+  "system": "dnd-add1",
+  "title": "Players Handbook",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de AD&D 1.ª edición, escrito por Gary Gygax: razas, clases con sus subclases (paladín, explorador, druida, ilusionista, asesino, monje), equipo y todos los conjuros.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-core-phb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1978",
+      "format": "hardcover",
+      "cover": "/images/rol/players-handbook-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17003/players-handbook-1e"
+        }
+      ]
+    }
+  ]
+}

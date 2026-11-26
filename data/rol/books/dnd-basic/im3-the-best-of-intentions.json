@@ -1,0 +1,23 @@
+{
+  "slug": "im3-the-best-of-intentions",
+  "system": "dnd-basic",
+  "title": "IM3 The Best of Intentions",
+  "kind": "adventure",
+  "description": "Una aventura cómica para la caja de inmortales: los personajes, inmortales novatos, buscan a la inmortal desaparecida Mazikeen, compiten en las pruebas olímpicas y viajan por planos extraños. La escribió Ken Rolston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-im.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/im3-the-best-of-intentions/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17136/im3-the-best-of-intentions-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "marca-justicia",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Justicia",
+  "kind": "adventure",
+  "description": "Una aventura corta para Vermigor, ambientada en el bosque de Brithwell, para cuatro o cinco personajes de nivel 1: se juega en una tarde y muestra el tono oscuro y corrupto de la ambientación.\n\nSe publicó gratis en PDF en 2020 y se descarga desde Codex de la Marca. Para quien quiera probar Vermigor antes de lanzarse con su libro.",
+  "source": "https://codexdelamarca.com/posts/justicia/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2020-07",
+      "format": "pdf",
+      "source": "https://codexdelamarca.com/posts/justicia/",
+      "free_download": "https://codexdelamarca.com/posts/justicia/"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "cc-i5-den-of-iniquity",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades I5 Den of Iniquity",
+  "kind": "adventure",
+  "description": "Raglesborg, un pueblo escondido en los fiordos de la península de Urstin, tan salvaje como la tierra que lo rodea.\n\nPublicado por Troll Lord Games, escrito por David Chenault, con 78 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/285540/castles-crusades-i5-den-of-iniquity",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2020-03",
+      "format": "paperback",
+      "isbn13": 9781944135911,
+      "cover": "/images/rol/cc-i5-den-of-iniquity/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/285540/castles-crusades-i5-den-of-iniquity"
+        }
+      ]
+    }
+  ]
+}

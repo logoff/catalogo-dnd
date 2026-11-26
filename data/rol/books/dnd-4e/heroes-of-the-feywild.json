@@ -1,0 +1,24 @@
+{
+  "slug": "heroes-of-the-feywild",
+  "system": "dnd-4e",
+  "title": "Heroes of the Feywild",
+  "kind": "supplement",
+  "description": "Opciones para personajes ligados al Reino de las Hadas: tres razas nuevas (hamadríade, duendecillo y sátiro), nuevas variantes de bárbaro, bardo, druida y mago, temas, dotes y objetos mágicos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Heroes_of_the_Feywild",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-11",
+      "format": "hardcover",
+      "isbn13": 9780786958368,
+      "cover": "/images/rol/heroes-of-the-feywild/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121710/player-s-option-heroes-of-the-feywild-4e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "warriors-of-heaven",
+  "system": "dnd-add2",
+  "title": "Warriors of Heaven",
+  "kind": "supplement",
+  "description": "Un suplemento sobre los celestiales y los seres de los planos del bien. Lo escribió Christopher Perkins.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/warriors-of-heaven/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17387/warriors-of-heaven-2e"
+        }
+      ]
+    }
+  ]
+}

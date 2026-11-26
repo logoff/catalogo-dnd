@@ -1,0 +1,24 @@
+{
+  "slug": "sword-and-crown",
+  "system": "dnd-add2",
+  "title": "Sword and Crown",
+  "kind": "adventure",
+  "settings": ["birthright"],
+  "description": "Una aventura de Birthright: en una reunión de los líderes de Anuire en el dominio de un personaje, soldados con los colores de una casa noble secuestran a la hija de uno de ellos y estalla una crisis política. La escribió Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/sword-and-crown/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16907/sword-and-crown-2e"
+        }
+      ]
+    }
+  ]
+}

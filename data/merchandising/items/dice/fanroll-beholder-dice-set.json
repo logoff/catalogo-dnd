@@ -1,0 +1,21 @@
+{
+  "slug": "fanroll-beholder-dice-set",
+  "title": "FanRoll Dungeons & Dragons Beholder Dice Set",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "FanRoll",
+  "date": "2025-02",
+  "description": "Juego oficial de siete dados de resina de Dungeons & Dragons con un pequeño contemplador en 3D dentro de cada dado, uno de los monstruos más conocidos del juego.\n\nEs para jugadores que quieren unos dados temáticos con licencia oficial; sirven para jugar como cualquier juego de siete dados.",
+  "source": "https://www.fanrolldice.com/products/dungeons-and-dragons-beholder-dice-set",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DVKCJZMD/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/fanroll-beholder-dice-set/0.jpg"]
+}

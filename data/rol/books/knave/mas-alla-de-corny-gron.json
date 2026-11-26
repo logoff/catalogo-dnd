@@ -1,0 +1,29 @@
+{
+  "slug": "mas-alla-de-corny-gron",
+  "system": "knave",
+  "title": "Más allá de Corny Groń",
+  "kind": "setting",
+  "description": "Libro de Kuba Skurzyński que publica en castellano Outremer: un valle de las montañas de Karpaki, con montañeses, bandidos, reyes feéricos y nobles diabólicos, una guía para construir un sandbox y un reglamento ligero propio, en 344 páginas de tapa dura.\n\nSirve para campañas de exploración con Knave y otros juegos OSR. Se financió en Verkami en junio de 2026 y llegó a los mecenas en septiembre.",
+  "source": "https://outremer.es/producto/mas-alla-de-corny-gron-version-fisica/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Outremer Ediciones",
+      "date": "2026-09",
+      "format": "hardcover",
+      "isbn13": 9791399036275,
+      "cover": "/images/rol/mas-alla-de-corny-gron/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/43102-mas-alla-de-corny-gron-un-libro-de-aventuras-bucolicas-malditas-y-feericas",
+        "end": "2026-06-07"
+      },
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/19654-mas-alla-de-corny-gron-9791399036275.html"
+        }
+      ]
+    }
+  ]
+}

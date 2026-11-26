@@ -1,0 +1,24 @@
+{
+  "slug": "assault-on-nightwyrm-fortress",
+  "system": "dnd-4e",
+  "title": "P3 Assault on Nightwyrm Fortress",
+  "kind": "adventure",
+  "settings": ["nerath"],
+  "description": "Una aventura para personajes de nivel 17 a 20 que asaltan la fortaleza Nightwyrm y siguen desbaratando los planes de Orcus, el hilo que une toda la serie.\n\nCierra la etapa de leyenda de la serie H-P-E. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Assault_on_Nightwyrm_Fortress",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-03",
+      "isbn13": 9780786950003,
+      "cover": "/images/rol/assault-on-nightwyrm-fortress/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/60483/p3-assault-on-nightwyrm-fortress-4e"
+        }
+      ]
+    }
+  ]
+}

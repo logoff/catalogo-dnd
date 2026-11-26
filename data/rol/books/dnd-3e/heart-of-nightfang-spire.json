@@ -1,0 +1,24 @@
+{
+  "slug": "heart-of-nightfang-spire",
+  "system": "dnd-3e",
+  "title": "Heart of Nightfang Spire",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 10 a 13 en Nightfang Spire, una torre solitaria que fue templo del culto del dragón Ashardalon, donde el señor vampiro Gulthias prepara el regreso de su amo despertando a los antiguos sectarios.\n\nForma parte de la serie de aventuras de la 3.ª edición que culmina en Bastion of Broken Souls con el gran dragón Ashardalon. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20030704155454/http://wizards.com:80/default.asp?x=products/dndacc/882390000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-08",
+      "format": "paperback",
+      "isbn13": 9780786918478,
+      "cover": "/images/rol/heart-of-nightfang-spire/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/24984/heart-of-nightfang-spire-3e"
+        }
+      ]
+    }
+  ]
+}

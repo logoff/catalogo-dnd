@@ -1,0 +1,21 @@
+{
+  "slug": "srd-3-0",
+  "name": "System Reference Document 3.0",
+  "short_name": "SRD 3.0",
+  "kind": "reference_document",
+  "holder": "Wizards of the Coast",
+  "date": "2000",
+  "description": "El primer documento de referencia abierto de D&D: las reglas de la tercera edición (características, razas, clases, dotes, habilidades, conjuros, objetos mágicos y monstruos) que Wizards of the Coast publicó como contenido abierto bajo la Open Game License, primero en su versión 1.0 y enseguida en la 1.0a. No incluía la ambientación ni los nombres protegidos.\n\nFue el experimento que inauguró el juego abierto: con él cualquier editorial podía publicar material compatible con D&D sin pedir permiso, y en pocos años aparecieron cientos de libros d20 de terceros. Lo sustituyó el SRD 3.5 cuando salió la revisión de 2003.",
+  "links": [
+    {
+      "label": "Página del SRD en wizards.com (copia de 2001)",
+      "url": "https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd"
+    }
+  ],
+  "published_under": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2000"
+    }
+  ]
+}

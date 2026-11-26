@@ -1,0 +1,24 @@
+{
+  "slug": "empires-of-the-shining-sea",
+  "system": "dnd-add2",
+  "title": "Empires of the Shining Sea",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre la región del Mar Brillante, con Calimshan y el Lago de Vapor. Lo escribieron Steven E. Schend y Dale Donovan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "boxed_set",
+      "cover": "/images/rol/empires-of-the-shining-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17533/empires-of-the-shining-sea-2e"
+        }
+      ]
+    }
+  ]
+}

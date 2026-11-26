@@ -1,0 +1,24 @@
+{
+  "slug": "the-city-of-ravens-bluff",
+  "system": "dnd-add2",
+  "title": "The City of Ravens Bluff",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre la ciudad de Ravens Bluff, la de la campaña de la Ciudad Viva. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-city-of-ravens-bluff/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17574/the-city-of-ravens-bluff"
+        }
+      ]
+    }
+  ]
+}

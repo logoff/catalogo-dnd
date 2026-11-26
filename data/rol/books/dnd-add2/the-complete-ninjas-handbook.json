@@ -1,0 +1,23 @@
+{
+  "slug": "the-complete-ninjas-handbook",
+  "system": "dnd-add2",
+  "title": "The Complete Ninja's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para ninjas, con kits de ninja para las clases existentes y su tradición.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-complete-ninjas-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16904/phbr15-complete-ninja-s-handbook-2e"
+        }
+      ]
+    }
+  ]
+}

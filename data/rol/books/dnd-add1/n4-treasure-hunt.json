@@ -1,0 +1,23 @@
+{
+  "slug": "n4-treasure-hunt",
+  "system": "dnd-add1",
+  "title": "N4 Treasure Hunt",
+  "kind": "adventure",
+  "description": "Una aventura que empieza con personajes de nivel 0, sin clase, que descubren qué clase serán a lo largo de la aventura, en el archipiélago de Korinn. La escribió Aaron Allston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-n.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/n4-treasure-hunt/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17058/n4-treasure-hunt-1e"
+        }
+      ]
+    }
+  ]
+}

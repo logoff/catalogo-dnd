@@ -1,0 +1,24 @@
+{
+  "slug": "cc-towers-of-adventure",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Towers of Adventure",
+  "kind": "adventure",
+  "description": "Una aventura de James M. Ward con niveles de torre, salas, monstruos y tesoros intercambiables para montar torres distintas cada vez.\n\nPublicado por Troll Lord Games, escrito por James M. Ward, con 54 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/61464/castles-crusades-towers-of-adventure-master",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2009-04",
+      "format": "paperback",
+      "isbn13": 9781929474196,
+      "cover": "/images/rol/cc-towers-of-adventure/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/61464/castles-crusades-towers-of-adventure-master"
+        }
+      ]
+    }
+  ]
+}

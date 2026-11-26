@@ -1,0 +1,24 @@
+{
+  "slug": "marca-calendario-2027",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Calendario 2027",
+  "kind": "other",
+  "description": "Un calendario A4 de 2027 ilustrado con portadas de la línea Clásicos de la Marca, una por mes.\n\nUna tirada limitada que el grupo publicó en 2026, para seguidores de la Marca del Este.",
+  "source": "https://tesorosdelamarca.com/producto/la-marca-del-este-calendario-2027/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2026",
+      "format": "accessory",
+      "source": "https://tesorosdelamarca.com/producto/la-marca-del-este-calendario-2027/",
+      "cover": "/images/rol/marca-calendario-2027/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-marca-del-este-calendario-2027/"
+        }
+      ]
+    }
+  ]
+}

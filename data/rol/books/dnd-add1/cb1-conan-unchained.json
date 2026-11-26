@@ -1,0 +1,17 @@
+{
+  "slug": "cb1-conan-unchained",
+  "system": "dnd-add1",
+  "title": "CB1 Conan Unchained!",
+  "kind": "adventure",
+  "description": "Una aventura en la Edad Hiboria de Robert E. Howard, cuando Conan era un saqueador kozak y pirata en el mar de Vilayet, con reglas para jugarla con AD&D y las estadísticas de Conan, Valeria y otros personajes de los relatos. La escribió David Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-cb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/cb1-conan-unchained/english.webp"
+    }
+  ]
+}

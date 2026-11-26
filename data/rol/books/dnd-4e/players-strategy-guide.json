@@ -1,0 +1,24 @@
+{
+  "slug": "players-strategy-guide",
+  "system": "dnd-4e",
+  "title": "Player's Strategy Guide",
+  "kind": "supplement",
+  "description": "Una guía para jugar mejor a la 4.ª edición: cómo construir personajes eficaces, trabajar en equipo según los papeles del grupo, sacar partido a las tácticas en combate y a la interpretación.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-05",
+      "format": "hardcover",
+      "isbn13": 9780786954889,
+      "cover": "/images/rol/players-strategy-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/154499/player-s-strategy-guide-4e"
+        }
+      ]
+    }
+  ]
+}

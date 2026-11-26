@@ -1,0 +1,18 @@
+{
+  "slug": "planescape-monstrous-compendium-appendix-ii",
+  "system": "dnd-add2",
+  "title": "Planescape: Monstrous Compendium Appendix II",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "El segundo apéndice de monstruos de Planescape, con más criaturas de los planos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/planescape-monstrous-compendium-appendix-ii/english.webp"
+    }
+  ]
+}

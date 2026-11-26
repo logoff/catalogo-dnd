@@ -1,0 +1,23 @@
+{
+  "slug": "hr3-celts-campaign-sourcebook",
+  "system": "dnd-add2",
+  "title": "HR3 Celts Campaign Sourcebook",
+  "kind": "supplement",
+  "description": "Un libro de la serie histórica de AD&D sobre la historia y la mitología de los celtas, con variantes de clase, monstruos, una cronología y un mapa de las islas británicas al mar Negro. Lo escribió Graeme Davis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hr3-celts-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110199/hr3-celts-campaign-sourcebook-2e"
+        }
+      ]
+    }
+  ]
+}

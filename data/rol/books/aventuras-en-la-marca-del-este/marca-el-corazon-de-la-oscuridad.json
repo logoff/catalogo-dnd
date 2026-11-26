@@ -1,0 +1,30 @@
+{
+  "slug": "marca-el-corazon-de-la-oscuridad",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El corazón de la oscuridad",
+  "kind": "adventure",
+  "description": "El megadungeon de la Marca del Este: bajo Marvalar, capital de Reino Bosque, se oculta una mazmorra gigantesca y antiquísima. Incluye un libro de ciento ochenta páginas en tapa dura, quince mapas A3 a color y el cuadernillo Vestir el Dungeon con tablas aleatorias.\n\nSe financió en un mecenazgo de 2020 que superó los treinta mil euros.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26128-aventuras-en-la-marca-del-este-el-corazon-de-la-oscuridad.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2020-11",
+      "format": "hardcover",
+      "cover": "/images/rol/marca-el-corazon-de-la-oscuridad/castellano.webp",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/26128-aventuras-en-la-marca-del-este-el-corazon-de-la-oscuridad.html",
+      "free_download": "https://codexdelamarca.com/posts/tn3-el-corazon-de-la-oscuridad/",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/24869-un-megadungeon-para-aventuras-en-la-marca-del-este",
+        "end": "2019-12-11"
+      },
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-corazon-de-la-oscuridad/"
+        }
+      ]
+    }
+  ]
+}

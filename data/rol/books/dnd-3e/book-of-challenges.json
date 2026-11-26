@@ -1,0 +1,32 @@
+{
+  "slug": "book-of-challenges",
+  "system": "dnd-3e",
+  "title": "Book of Challenges: Dungeon Rooms, Puzzles, and Traps",
+  "kind": "supplement",
+  "description": "Una colección de estancias de mazmorra, trampas, acertijos y encuentros listos para insertar en cualquier aventura, ordenados por nivel de desafío, con consejos para crear trampas y enigmas propios.\n\nDevir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030212072331/http://www.wizards.com:80/default.asp?x=products/dndacc/881680000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-06",
+      "format": "paperback",
+      "isbn13": 9780786926572,
+      "cover": "/images/rol/book-of-challenges/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3736/book-of-challenges-dungeon-rooms-puzzles-and-traps-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Libro de los Desafíos",
+      "publisher": "Devir",
+      "date": "2003",
+      "isbn13": 9788495712851,
+      "source": "https://www.todostuslibros.com/libros/el-libro-de-los-desafios_978-84-95712-85-1"
+    }
+  ]
+}

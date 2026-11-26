@@ -1,0 +1,18 @@
+{
+  "slug": "ca1-swords-of-the-undercity",
+  "system": "dnd-add1",
+  "title": "CA1 Swords of the Undercity",
+  "kind": "adventure",
+  "settings": ["lankhmar"],
+  "description": "La primera aventura para Lankhmar, la ciudad de Fritz Leiber: tres aventuras enlazadas en los bajos fondos de la ciudad. La escribieron Carl Smith, Bruce Nesmith y Doug Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-ca.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/ca1-swords-of-the-undercity/english.webp"
+    }
+  ]
+}

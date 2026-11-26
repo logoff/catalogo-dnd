@@ -1,0 +1,32 @@
+{
+  "slug": "phbr1-the-complete-fighters-handbook",
+  "system": "dnd-add2",
+  "title": "PHBR1 The Complete Fighter's Handbook",
+  "kind": "supplement",
+  "description": "El primero de los manuales de clase «Complete»: opciones para guerreros con kits de personaje, pericias, estilos de combate y equipo.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/phbr1-the-complete-fighters-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16885/phbr1-the-complete-fighter-s-handbook-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Buen Guerrero",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/phbr1-the-complete-fighters-handbook/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-phbr.html"
+    }
+  ]
+}

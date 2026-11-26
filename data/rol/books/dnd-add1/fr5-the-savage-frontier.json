@@ -1,0 +1,24 @@
+{
+  "slug": "fr5-the-savage-frontier",
+  "system": "dnd-add1",
+  "title": "FR5 The Savage Frontier",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El suplemento de la Frontera Salvaje, las tierras al norte de Aguas Profundas donde transcurre La piedra de cristal: los hombres del Norte, las tribus bárbaras uthgardt y el mar sin Rastros, con mapas a color. Lo escribió Paul Jaquays.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/fr5-the-savage-frontier/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17554/fr5-the-savage-frontier-1e"
+        }
+      ]
+    }
+  ]
+}

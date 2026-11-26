@@ -1,0 +1,23 @@
+{
+  "slug": "college-of-wizardry",
+  "system": "dnd-add2",
+  "title": "College of Wizardry",
+  "kind": "supplement",
+  "description": "El primero de los libros sobre la base de cada clase: un colegio de magos con sus maestros, sus estudios y sus intrigas. Lo escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/college-of-wizardry/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17446/college-of-wizardry-2e"
+        }
+      ]
+    }
+  ]
+}

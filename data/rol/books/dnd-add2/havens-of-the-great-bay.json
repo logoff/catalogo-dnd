@@ -1,0 +1,24 @@
+{
+  "slug": "havens-of-the-great-bay",
+  "system": "dnd-add2",
+  "title": "Havens of the Great Bay",
+  "kind": "setting",
+  "settings": ["birthright"],
+  "description": "Un suplemento de Birthright con más dominios para gobernar: los reinos de Brechtur alrededor de la gran bahía de Cerilia, poblados por elfos, enanos y brechts. Lo escribió Ed Stark.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/havens-of-the-great-bay/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16959/havens-of-the-great-bay-2e"
+        }
+      ]
+    }
+  ]
+}

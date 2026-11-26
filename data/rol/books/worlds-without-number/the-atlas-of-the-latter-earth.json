@@ -1,0 +1,23 @@
+{
+  "slug": "the-atlas-of-the-latter-earth",
+  "system": "worlds-without-number",
+  "title": "The Atlas of the Latter Earth",
+  "kind": "setting",
+  "description": "Un atlas de ambientación para Worlds Without Number que describe el mundo de la Tierra tardía, sus reinos y sus peligros.\n\nPublicado por Sine Nomine Publishing, escrito por Kevin Crawford, con 223 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/416284/the-atlas-of-the-latter-earth",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Sine Nomine Publishing",
+      "date": "2022-11",
+      "format": "hardcover",
+      "cover": "/images/rol/the-atlas-of-the-latter-earth/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/416284/the-atlas-of-the-latter-earth"
+        }
+      ]
+    }
+  ]
+}

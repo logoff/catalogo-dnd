@@ -1,0 +1,23 @@
+{
+  "slug": "sea-of-blood",
+  "system": "dnd-add2",
+  "title": "Sea of Blood",
+  "kind": "adventure",
+  "description": "Una aventura de AD&D 2.ª edición. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/sea-of-blood/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17340/sea-of-blood-2e"
+        }
+      ]
+    }
+  ]
+}

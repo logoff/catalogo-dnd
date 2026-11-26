@@ -1,0 +1,33 @@
+{
+  "slug": "complete-arcane",
+  "system": "dnd-3-5",
+  "title": "Complete Arcane",
+  "kind": "supplement",
+  "description": "La magia arcana para todas las clases: tres clases nuevas, el brujo, que lanza descargas sobrenaturales y usa invocaciones a voluntad en vez de conjuros; el mago de guerra y el wu jen, junto con clases de prestigio, dotes, conjuros y familiares.\n\nEl brujo se convirtió en una de las clases más populares de 3.5 y volvió en las ediciones siguientes. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Complete_Arcane",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-11",
+      "format": "hardcover",
+      "isbn13": 9780786934355,
+      "cover": "/images/rol/complete-arcane/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3733/complete-arcane-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Arcano Completo",
+      "publisher": "Devir",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9788496422476,
+      "source": "https://www.todostuslibros.com/libros/el-arcano-completo_978-84-96422-47-6"
+    }
+  ]
+}

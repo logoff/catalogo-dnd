@@ -1,0 +1,24 @@
+{
+  "slug": "ra3-touch-of-death",
+  "system": "dnd-add2",
+  "title": "RA3 Touch of Death",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft en Har'Akir, el dominio desértico de la momia Ankhtepot. La escribió Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-ra.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/ra3-touch-of-death/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17490/ra3-touch-of-death-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "tome-of-battle",
+  "system": "dnd-3-5",
+  "title": "Tome of Battle: The Book of Nine Swords",
+  "kind": "supplement",
+  "description": "Un sistema de combate para luchadores que funciona como la magia: los iniciadores aprenden maniobras y posturas de nueve disciplinas marciales, las preparan y las recuperan durante el combate. Trae tres clases (el cruzado, el maestro de las espadas y la hoja de guerra), clases de prestigio, dotes y la historia del Templo de las Nueve Espadas.\n\nNació para que los guerreros tuvieran tantas opciones como los lanzadores de conjuros a niveles altos, y sus maniobras anticiparon los poderes de la 4.ª edición. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Tome_of_Battle:_The_Book_of_Nine_Swords",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-08",
+      "format": "hardcover",
+      "isbn13": 9780786939220,
+      "cover": "/images/rol/tome-of-battle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51650/tome-of-battle-the-book-of-nine-swords-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Libro de las Nueve Espadas",
+      "publisher": "Devir",
+      "date": "2007-05",
+      "format": "hardcover",
+      "isbn13": 9788496422902,
+      "cover": "/images/rol/tome-of-battle/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/el-libro-de-las-nueve-espadas_978-84-96422-90-2"
+    }
+  ]
+}

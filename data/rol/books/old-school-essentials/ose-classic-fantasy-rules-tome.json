@@ -1,0 +1,24 @@
+{
+  "slug": "ose-classic-fantasy-rules-tome",
+  "system": "old-school-essentials",
+  "title": "Old-School Essentials Classic Fantasy: Rules Tome",
+  "kind": "core",
+  "core": true,
+  "description": "El juego completo de Old-School Essentials Classic Fantasy en un solo libro de tapa dura: las siete clases clásicas (clérigo, enano, elfo, guerrero, mediano, mago y ladrón), el equipo, los conjuros de clérigo y de mago, las reglas para explorar mazmorras, tierras salvajes y el mar, los monstruos y los tesoros.\n\nEs la forma más directa de jugar a las reglas B/X de 1981 tal cual. Para quien quiera más clases y razas, se complementa con las reglas de Advanced Fantasy.",
+  "source": "https://www.drivethrurpg.com/en/product/279183/old-school-essentials-classic-fantasy-rules-tome",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2019-08",
+      "format": "hardcover",
+      "cover": "/images/rol/ose-classic-fantasy-rules-tome/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/279183/old-school-essentials-classic-fantasy-rules-tome"
+        }
+      ]
+    }
+  ]
+}

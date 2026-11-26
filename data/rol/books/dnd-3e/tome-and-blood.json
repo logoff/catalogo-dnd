@@ -1,0 +1,33 @@
+{
+  "slug": "tome-and-blood",
+  "system": "dnd-3e",
+  "title": "Tome and Blood",
+  "kind": "supplement",
+  "description": "La guía de magos y hechiceros: clases de prestigio, dotes y conjuros nuevos, familiares, escuelas de magia, objetos y consejos para jugar con lanzadores arcanos.\n\nForma parte de la serie de guías de clase de la 3.ª edición. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030704155319/http://wizards.com:80/default.asp?x=products/dndacc/882380000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-07",
+      "format": "paperback",
+      "isbn13": 9780786918454,
+      "cover": "/images/rol/tome-and-blood/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/143695/tome-and-blood-a-guidebook-to-wizards-and-sorcerers-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Tomo y Sangre",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712134,
+      "cover": "/images/rol/tome-and-blood/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/tomo-y-sangre_978-84-95712-13-4"
+    }
+  ]
+}

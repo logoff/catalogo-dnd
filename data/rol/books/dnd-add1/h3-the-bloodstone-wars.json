@@ -1,0 +1,24 @@
+{
+  "slug": "h3-the-bloodstone-wars",
+  "system": "dnd-add1",
+  "title": "H3 The Bloodstone Wars",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "La tercera aventura de la serie de Bloodstone: una campaña de Battlesystem para librar una ciudad de una horda de bandidos y una pequeña mazmorra, con reglas de la 1.ª edición como la clase de asesino. La escribieron Michael Dobson y Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-h.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/h3-the-bloodstone-wars/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17045/h3-the-bloodstone-wars-1e"
+        }
+      ]
+    }
+  ]
+}

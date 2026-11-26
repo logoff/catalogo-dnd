@@ -1,0 +1,23 @@
+{
+  "slug": "destiny-of-kings",
+  "system": "dnd-add2",
+  "title": "Destiny of Kings",
+  "kind": "adventure",
+  "description": "Una aventura en la que un asesino mata al rey de Andevar y su hermano usurpa el trono; los personajes deben rescatar al príncipe desaparecido para que reclame la corona. La escribió Stephen Bourne.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/destiny-of-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17361/n3-destiny-of-kings-2e"
+        }
+      ]
+    }
+  ]
+}

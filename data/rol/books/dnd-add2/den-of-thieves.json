@@ -1,0 +1,23 @@
+{
+  "slug": "den-of-thieves",
+  "system": "dnd-add2",
+  "title": "Den of Thieves",
+  "kind": "supplement",
+  "description": "El segundo de los libros sobre la base de cada clase: un gremio de ladrones con su guarida, sus miembros y sus trabajos. Lo escribió Wes Nicholson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/den-of-thieves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17365/den-of-thieves-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "marca-un-paseo-por-el-campo",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Un paseo por el campo",
+  "kind": "adventure",
+  "description": "Cerca del Valle Sagrado, en los páramos orientales de la Marca, los personajes parten del pueblo de Nidaros para explorar ruinas y secretos en vaguadas y quebradas traicioneras.\n\nAventura de Clásicos de la Marca publicada en diciembre de 2018.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/21773-aventuras-en-la-marca-del-este-un-paseo-por-el-campo.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2018-12",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/21773-aventuras-en-la-marca-del-este-un-paseo-por-el-campo.html",
+      "cover": "/images/rol/marca-un-paseo-por-el-campo/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/g1-un-paseo-por-el-campo/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-tome-of-adventure-7",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Tome of Adventure Vol. 7: Magic, Gods, and Demons",
+  "kind": "adventure",
+  "description": "Ocho aventuras de DCC en un volumen: reinos extraplanares, torres llenas de tesoros, cavernas malditas, mansiones góticas y mundos alienígenas.\n\nPublicado por Goodman Games, escrito por Jobe Bittman, Michael Curtis, Edgar D. Johnson III, Brendan LaSalle, and Harley Stroh.",
+  "source": "https://www.drivethrurpg.com/en/product/525981/dungeon-crawl-classics-tome-of-adventure-7-magic-gods-and-demons",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-tome-of-adventure-7/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/525981/dungeon-crawl-classics-tome-of-adventure-7-magic-gods-and-demons"
+        }
+      ]
+    }
+  ]
+}

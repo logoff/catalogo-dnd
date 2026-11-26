@@ -1,0 +1,33 @@
+{
+  "slug": "ra1-feast-of-goblyns",
+  "system": "dnd-add2",
+  "title": "RA1 Feast of Goblyns",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "La primera aventura de la serie RA, publicada tras la caja negra de Ravenloft. La escribió Blake Mobley.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/rv/rv-ra.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/ra1-feast-of-goblyns/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17486/ra1-feast-of-goblyns-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Fiesta de Goblyns",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/ra1-feast-of-goblyns/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-rv.html"
+    }
+  ]
+}

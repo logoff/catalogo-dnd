@@ -1,0 +1,24 @@
+{
+  "slug": "wga2-falconmaster",
+  "system": "dnd-add2",
+  "title": "WGA2 Falconmaster",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La continuación de Falcon's Revenge: los personajes buscan al líder del culto, con edificios de cartulina. La escribieron Richard W. y Anne Brown.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/wga2-falconmaster/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17420/wga2-falconmaster-2e"
+        }
+      ]
+    }
+  ]
+}

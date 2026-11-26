@@ -1,0 +1,24 @@
+{
+  "slug": "pc1-tall-tales-of-the-wee-folk",
+  "system": "dnd-basic",
+  "title": "PC1 Tall Tales of the Wee Folk",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El primer Creature Crucible: las criaturas mágicas del bosque, como brownies, duendes, dríades, centauros o pixies, y su reino del Sueño, gobernado por el rey de las hadas Oberón, con reglas para jugar con ellas. Lo escribió John Nephew.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/cc/cc-pc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/pc1-tall-tales-of-the-wee-folk/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16990/pc1-creature-crucible-tall-tales-of-the-wee-folk-basic"
+        }
+      ]
+    }
+  ]
+}

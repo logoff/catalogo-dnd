@@ -1,0 +1,24 @@
+{
+  "slug": "the-history-of-dragonlance",
+  "system": "dnd-add2",
+  "title": "The History of Dragonlance",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "Un libro sobre la historia de Dragonlance y de su creación. Lo editaron Margaret Weis y Tracy Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-history-of-dragonlance/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/197643/the-history-of-dragonlance-2e"
+        }
+      ]
+    }
+  ]
+}

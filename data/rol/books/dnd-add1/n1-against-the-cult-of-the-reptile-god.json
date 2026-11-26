@@ -1,0 +1,23 @@
+{
+  "slug": "n1-against-the-cult-of-the-reptile-god",
+  "system": "dnd-add1",
+  "title": "N1 Against the Cult of the Reptile God",
+  "kind": "adventure",
+  "description": "Una aventura en la frontera entre la Gran Marca y Keoland, en Greyhawk: un misterio en la aldea de Orlane que lleva a la naturaleza y a las cuevas del culto del Dios Reptil. Es de las aventuras tempranas más exigentes de AD&D. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-n.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/n1-against-the-cult-of-the-reptile-god/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17056/n1-against-the-cult-of-the-reptile-god-1e"
+        }
+      ]
+    }
+  ]
+}

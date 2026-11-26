@@ -1,0 +1,29 @@
+{
+  "slug": "trasgos-y-mazmorras",
+  "name": "Trasgos y Mazmorras",
+  "family": "trasgos-y-mazmorras",
+  "publisher": "Trasgotauro",
+  "date": "2016",
+  "movement": "osr",
+  "description": "Retroclón español de AD&D de Alex Santonja y Jorge Coto, de la editorial Trasgotauro: un AD&D renovado y actualizado con el que, según sus autores, se pueden jugar aventuras de AD&D, de D&D, de la tercera edición, de Pathfinder y de Aventuras en la Marca del Este.\n\nSu Manual del Jugador, en versión 1.0 desde 2016, se descarga gratis en la web de la editorial y se imprime bajo demanda en Lulu, con suplementos y fichas de la comunidad. Es un juego español, solo en castellano.",
+  "features": [
+    "Retroclón de AD&D",
+    "Compatible con aventuras clásicas",
+    "Gratis en PDF y en papel bajo demanda",
+    "Hecho por y para la comunidad"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "dnd-add2",
+      "kind": "compatible",
+      "note": "Sus autores lo presentan como un retroclón de AD&D, sin concretar edición."
+    }
+  ],
+  "links": [
+    {
+      "label": "Trasgotauro",
+      "url": "https://trasgotauro.com/rollplay/"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "marca-vileza-en-el-bastion-de-los-bandidos",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Vileza en el bastión de los bandidos",
+  "kind": "adventure",
+  "description": "Una localización mítica de Valion, llena de riquezas antiguas y peligros ignotos, de cuyas galerías pocos guerreros han vuelto para contarlo.\n\nPublicada en junio de 2022.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30308-aventuras-en-la-marca-del-este-vileza-en-el-bastion-de-los-bandidos.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2022-06",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30308-aventuras-en-la-marca-del-este-vileza-en-el-bastion-de-los-bandidos.html",
+      "cover": "/images/rol/marca-vileza-en-el-bastion-de-los-bandidos/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/b14-vileza-en-el-bastion-de-los-bandidos/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/vileza-en-el-bastion-de-los-bandidos/"
+        }
+      ]
+    }
+  ]
+}

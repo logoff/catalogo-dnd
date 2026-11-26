@@ -1,0 +1,24 @@
+{
+  "slug": "deep-horizon",
+  "system": "dnd-3e",
+  "title": "Deep Horizon",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 13 a 15 en el mundo subterráneo, donde los desmodus, un pueblo humanoide, están a punto de ser exterminados por contempladores y salamandras.\n\nForma parte de la serie de aventuras de la 3.ª edición que culmina en Bastion of Broken Souls con el gran dragón Ashardalon. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20030707111449/http://www.wizards.com:80/default.asp?x=products/dndacc/886670000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-11",
+      "format": "paperback",
+      "isbn13": 9780786918553,
+      "cover": "/images/rol/deep-horizon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25110/deep-horizon-3e"
+        }
+      ]
+    }
+  ]
+}

@@ -22,17 +22,41 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
 - **Sistemas de la familia de D&D:** los que derivan de D&D o se publican
   bajo sus licencias abiertas (OGL, SRD, ORC) y los grandes juegos de
   fantasía comparables, como Daggerheart. Fuera: juegos de otras familias
-  (La llamada de Cthulhu, Vampiro…) y OSR, por ahora.
+  (La llamada de Cthulhu, Vampiro…).
+- **OSR y NSR:** sistemas con `movement` (`osr` si derivan de una edición
+  de D&D y siguen siendo compatibles, directamente o a través de otro OSR;
+  `nsr` si solo se inspiran en ellas, con derivación `inspiration`). La
+  definición no es precisa: ante la duda, pregunta al usuario. Entra todo
+  lo publicado en castellano y la línea impresa propia en inglés (la
+  editorial del sistema o las de `line_publishers`): suplementos,
+  aventuras, cajas y pantallas (`format: screen`). Cada edición lleva
+  `format` y al menos una debe ser impresa (vale la impresión bajo
+  demanda). Entra todo lo publicado en castellano aunque esté agotado, también los zines impresos. Fuera: material de terceros solo en inglés y libros solo en PDF. La constancia de la impresión sale de la tienda de la
+  editorial, del formato impreso en DriveThruRPG o de un ISBN.
 - **Libros:** todo lo publicado o anunciado en castellano de esos
   sistemas; de lo que solo está en inglés, los principales (básicos y caja
   de inicio, con `core: true`) de los sistemas grandes y el catálogo
   impreso principal de las editoriales destacadas (`FEATURED_PUBLISHERS`
   en `src/utils/rpg.ts`, hoy Kobold Press). Sin packs de tienda,
   suscripciones ni contenido solo digital de plataformas comunitarias.
-- **Lo oficial de D&D no se duplica:** los sistemas de D&D tienen ficha
-  mínima con `official_catalog` y sus libros siguen en el catálogo
-  oficial. Los libros de otras editoriales para 5E cuelgan de
+- **Lo oficial de D&D no se duplica:** los sistemas de D&D de 5E tienen
+  ficha mínima con `official` y `official_catalog`, y sus libros siguen en
+  el catálogo oficial. Los libros de otras editoriales para 5E cuelgan de
   `dnd-5e-2014` o `dnd-5e-2024`.
+- **Ediciones anteriores de D&D** (sección `/ediciones`, inventario en su
+  propia lista): sistemas con `official: true` y sin `official_catalog`
+  (`dnd-3e`, `dnd-3-5`…). Entran todos los libros impresos de Wizards de
+  la edición (básicos, cajas de inicio, suplementos, ambientaciones y
+  aventuras), aunque solo salieran en inglés; fuera pantallas, hojas de
+  personaje, miniaturas, Dungeon Tiles, revistas y material con licencia
+  de otras editoriales (Dragonlance de Sovereign Press). **Solo DMsGuild**:
+  están descatalogados; si DMsGuild vende el PDF o la impresión bajo demanda
+  de Wizards, su enlace va en la edición en inglés (ningún otro). Si una
+  caja solo se vende por partes, un enlace por libro con `variant` («Player's
+  Manual», «DM's Rulebook»). Para buscar, la API pública
+  `api.drivethrurpg.com/api/vBeta/products?keyword=…&siteId=10` (Wizards es
+  `publisherId` 44); la web da 403 a curl. Los básicos llevan sufijo de edición en
+  el slug (`players-handbook-3-5`) y `core: true`.
 
 ## Reglas de los datos
 
@@ -59,6 +83,9 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   - Una ficha por edición de un juego (`pathfinder-1e`, `pathfinder-2e`),
     con `family` común.
   - `features`: tres o cuatro características cortas.
+  - `movement` y `line_publishers` solo en los OSR y NSR (los tests
+    comprueban que el OSR llega a D&D sin pasar por `inspiration` y que el
+    NSR llega con ella).
   - `licenses`: cada una con `since` (fecha o versión, como «Remaster
     (2023)») y `note` si hace falta. Vacío si no tiene licencia abierta.
   - `derived_from`: solo la relación directa y reconocida, con `kind`
@@ -77,13 +104,42 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   - Portadas en `public/images/rol/<slug>/<idioma>.webp` (600 px de ancho)
     con miniatura `<idioma>-thumb.webp` (240 px), convertidas con `sharp`.
   - **URLs de compra limpias**, sin parámetros de afiliado, y solo a
-    tiendas del esquema: `amazon`, `juegos_mesa_redonda`, `nosolorol` y
-    `casa_del_libro`. `just affiliate-coverage` lista las que faltan; lo
+    tiendas del esquema: `amazon`, `juegos_mesa_redonda`, `nosolorol`,
+    `casa_del_libro` y `drivethrurpg` (ediciones anteriores: solo
+    `dmsguild`; juegos de La Marca del Este: también
+    `tesoros_de_la_marca`, la tienda del grupo, sin afiliado). En los OSR y NSR se revisa DriveThruRPG en las ediciones
+    en inglés en lugar de Amazon, y JMR y Casa del Libro en las de
+    castellano. `just affiliate-coverage` lista las que faltan; lo
     que se revisa y no está a la venta va con su motivo en
     `data/affiliate-exceptions.json`.
+  - **Descarga gratuita:** si la editorial o el autor ofrecen gratis y de
+    forma legal el libro (Codex de la Marca, su web, un enlace de Google
+    Drive publicado por el autor), la edición lleva `free_download` con esa
+    URL. No es una tienda ni cuenta como enlace de compra. En los OSR y NSR
+    basta para que entre un libro solo en PDF.
+  - **Micromecenazgo y preventas:** si la edición se financió o se está financiando en una campaña (Verkami, Kickstarter, Gamefound, BackerKit, Lánzanos, Ulule o el mecenazgo de la propia editorial en su tienda, `editorial`, como hacen Nosolorol o The Hills Press), lleva `crowdfunding` con `platform`, `url` y `end` (fecha de
+    cierre, AAAA-MM-DD). Solo campañas conseguidas o abiertas; si la página
+    no da la fecha de cierre, se toma de «Proyecto conseguido el…» o de los
+    días que quedan. Mientras sigue abierta, sale en «En micromecenazgo» de
+    `/novedades`; no es una tienda ni cuenta como enlace de compra. La lista de proyectos financiados de Verkami (`/discover/projects/by/money_raised/category/47-rpgs?page=N`) sirve para encontrar las campañas. Las fechas de las ediciones en castellano salen de la campaña o la preventa y, si no hay, del alta del producto en la tienda de la editorial (en WooCommerce, `/wp-json/wp/v2/product/<id>?_fields=date`).
+  - **Rol español de la familia de D&D:** entra todo, también lo pequeño y lo
+    que solo se vende en Lulu o en la tienda de la editorial (con su
+    excepción de afiliado); los libros de aventuras «para D&D o cualquier
+    juego de fantasía» cuelgan de `dnd-5e-2014` con `license: none`.
+  - **La Marca del Este** (`MARCA_DEL_ESTE_SYSTEMS` en `src/utils/rpg.ts`):
+    entra todo lo oficial del grupo, también accesorios (`format:
+    accessory`, `kind: other`), novelas y aventuras solo en PDF si están
+    liberadas en Codex; fuera el material no oficial de la comunidad.
+    Tesoros de la Marca expone su catálogo en
+    `/wp-json/wc/store/v1/products?category=193` (enlace solo si
+    `is_in_stock` y `is_purchasable`).
 
 ## Fuentes recomendadas
 
+- **Ediciones anteriores de D&D:** páginas de producto de wizards.com
+  archivadas en archive.org (fecha, ISBN, portada) y, si no hay copia, Open
+  Library por ISBN. Las ediciones de Devir ya no están en su web: tiendas,
+  distribuidoras o catálogos archivados, solo para título, fecha e ISBN.
 - **Paizo:** `store.paizo.com/<producto>/` (fecha, ISBN en la página y
   portada en `og:image`).
 - **Devir:** catálogo de cada línea (`devir.es/pathfinder-2-ed`) y su
@@ -92,6 +148,12 @@ entra según el alcance de `rpg-systems` y `rpg-books` (specs en
   `nosolorol.com/talesofthevaliant`.
 - **Kobold Press:** su tienda (`koboldpress.com/kpstore/`) y la lista de
   Wikipedia como apoyo.
+- **OSR y NSR:** la tienda de cada editorial (muchas son Shopify:
+  `/products.json` da títulos, formatos y portadas), las páginas de
+  editorial de DriveThruRPG (fecha, páginas, autores, formatos e ISBN) y,
+  para La Marca del Este, su web y su blog (`/wp-json/wp/v2/posts?search=`),
+  Tesoros de la Marca, las tiendas españolas y Codex de la Marca
+  (`codexdelamarca.com/index.xml` lista todas las entradas).
 - **Licencias:** páginas de Wizards y D&D Beyond (OGL, SRD), Paizo
   (ORC), Creative Commons, Kobold Press (Black Flag), Darrington Press
   (DPCGL) y EN Publishing (A5E SRD).

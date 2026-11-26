@@ -1,0 +1,33 @@
+{
+  "slug": "the-scarlet-brotherhood",
+  "system": "dnd-add2",
+  "title": "The Scarlet Brotherhood",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "Un suplemento de Greyhawk sobre la Hermandad Escarlata y sus tierras: la península de Tilvanot, Hepmonaland y la selva de Amedio, con el pueblo olman, que no salía desde The Hidden Shrine of Tamoachan. Lo escribió Sean K. Reynolds.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/the-scarlet-brotherhood/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17402/the-scarlet-brotherhood-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Hermandad Escarlata",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/the-scarlet-brotherhood/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-gh-acc.html"
+    }
+  ]
+}

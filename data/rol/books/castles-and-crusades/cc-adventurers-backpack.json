@@ -1,0 +1,23 @@
+{
+  "slug": "cc-adventurers-backpack",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Adventurers Backpack",
+  "kind": "supplement",
+  "description": "El primer gran libro de material para jugadores desde el libro básico: clases, opciones y equipo nuevos para Castles & Crusades, a todo color y en tapa dura.\n\nPublicado por Troll Lord Games, escrito por Stephen Chenault, con 144 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/234183/castles-crusades-the-adventurers-backpack",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2018-09",
+      "format": "hardcover",
+      "cover": "/images/rol/cc-adventurers-backpack/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/234183/castles-crusades-the-adventurers-backpack"
+        }
+      ]
+    }
+  ]
+}

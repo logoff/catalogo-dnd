@@ -1,0 +1,27 @@
+{
+  "slug": "marca-la-sierpe-negra-de-brandonsford",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La sierpe negra de Brandonsford",
+  "kind": "adventure",
+  "description": "Una de las dos primeras aventuras traducidas del inglés para la línea, publicada en agosto de 2025.\n\nSe juega con el reglamento de Aventuras en la Marca del Este.",
+  "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-08",
+      "format": "paperback",
+      "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18025-aventuras-en-la-marca-del-este-la-sierpe-negra-de-brandonsford-9780205375554.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-sierpe-negra-de-brandonsford/"
+        }
+      ]
+    }
+  ]
+}

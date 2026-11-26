@@ -1,0 +1,24 @@
+{
+  "slug": "wizards-presents-races-and-classes",
+  "system": "dnd-4e",
+  "title": "Wizards Presents: Races and Classes",
+  "kind": "other",
+  "description": "Un libro de diseño publicado antes de la 4.ª edición: los diseñadores explican cómo y por qué rehicieron las razas y las clases, con bocetos, ilustraciones y adelantos de las reglas que todavía iban a cambiar.\n\nEs un avance, no un libro de reglas jugable. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-12",
+      "format": "paperback",
+      "isbn13": 9780786948017,
+      "cover": "/images/rol/wizards-presents-races-and-classes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/56956/wizards-presents-races-and-classes-4-0"
+        }
+      ]
+    }
+  ]
+}

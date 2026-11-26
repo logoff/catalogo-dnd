@@ -1,0 +1,23 @@
+{
+  "slug": "the-classic-dungeons-and-dragons-game",
+  "system": "dnd-basic",
+  "title": "The Classic Dungeons & Dragons Game",
+  "kind": "starter",
+  "description": "La versión revisada de 1994 de la caja de iniciación de 1991, con el nombre de Classic Dungeons & Dragons.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-classic-dungeons-and-dragons-game/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17157/the-classic-dungeons-and-dragons-game"
+        }
+      ]
+    }
+  ]
+}

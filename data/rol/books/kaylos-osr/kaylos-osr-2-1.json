@@ -1,0 +1,21 @@
+{
+  "slug": "kaylos-osr-2-1",
+  "system": "kaylos-osr",
+  "title": "Kaylos OSR 2.1",
+  "kind": "core",
+  "core": true,
+  "description": "Versión definitiva de Kaylos OSR, con todos los manuales del juego reunidos en un solo libro con encuadernación en espiral; su campaña añadía el Manual de la buena Taberna, dados para jugar en solitario y mazos de cartas de trampas, magia, eventos y mazmorras.\n\nSustituye a la primera edición para quien empieza. Se financió en Verkami en mayo de 2026 y está pendiente de entrega a los mecenas.",
+  "source": "https://www.verkami.com/projects/40116-kaylos-osr-21",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "El Artesano del Rey",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/40116-kaylos-osr-21",
+        "end": "2026-05-01"
+      }
+    }
+  ]
+}

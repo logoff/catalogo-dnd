@@ -1,0 +1,24 @@
+{
+  "slug": "for-duty-and-deity",
+  "system": "dnd-add2",
+  "title": "For Duty & Deity",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura de los Reinos Olvidados. La escribió Dale Donovan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/for-duty-and-deity/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17576/for-duty-deity-2e"
+        }
+      ]
+    }
+  ]
+}

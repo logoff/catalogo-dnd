@@ -1,0 +1,33 @@
+{
+  "slug": "the-ruins-of-undermountain",
+  "system": "dnd-add2",
+  "title": "The Ruins of Undermountain",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La primera caja de Bajomontaña, la gran mazmorra bajo Aguas Profundas creada por el mago loco Halaster: mapas de sus niveles, encuentros y monstruos.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-ruins-of-undermountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16785/the-ruins-of-undermountain-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Las Ruinas de Bajomontaña",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-ruins-of-undermountain/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-box.html"
+    }
+  ]
+}

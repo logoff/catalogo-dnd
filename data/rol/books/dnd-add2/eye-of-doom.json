@@ -1,0 +1,23 @@
+{
+  "slug": "eye-of-doom",
+  "system": "dnd-add2",
+  "title": "Eye of Doom",
+  "kind": "adventure",
+  "description": "La segunda aventura de la trilogía de los contempladores: en la aldea de Cumbert, sobre una colmena de contempladores, los personajes se enfrentan al culto del Ojo que no Parpadea. La escribió Thomas M. Reid.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/eye-of-doom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17332/eye-of-doom-2e"
+        }
+      ]
+    }
+  ]
+}

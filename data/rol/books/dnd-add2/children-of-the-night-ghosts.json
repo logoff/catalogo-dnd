@@ -1,0 +1,24 @@
+{
+  "slug": "children-of-the-night-ghosts",
+  "system": "dnd-add2",
+  "title": "Children of the Night: Ghosts",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "La segunda entrega de la serie Children of the Night, con fantasmas para Ravenloft, cada uno con su historia, sus estadísticas y una aventura corta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-cotn.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/children-of-the-night-ghosts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17521/children-of-the-night-ghosts-2e"
+        }
+      ]
+    }
+  ]
+}

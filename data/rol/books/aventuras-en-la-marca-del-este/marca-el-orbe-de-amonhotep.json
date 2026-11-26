@@ -1,0 +1,24 @@
+{
+  "slug": "marca-el-orbe-de-amonhotep",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El orbe de Amonhotep",
+  "kind": "adventure",
+  "description": "La tercera aventura de la línea Clásicos de la Marca, publicada en julio de 2015 por el grupo creativo La Marca del Este.\n\nUn módulo breve para el reglamento básico de Aventuras en la Marca del Este.",
+  "source": "https://lamarcadeleste.com/2015/07/primeras-resenas-de-el-orbe-de-amonhotep.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2015-07",
+      "format": "paperback",
+      "source": "https://lamarcadeleste.com/2015/07/primeras-resenas-de-el-orbe-de-amonhotep.html",
+      "free_download": "https://codexdelamarca.com/posts/b3-el-orbe-de-amonhotep/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-orbe-de-amonhotep/"
+        }
+      ]
+    }
+  ]
+}

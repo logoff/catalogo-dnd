@@ -1,0 +1,33 @@
+{
+  "slug": "complete-divine",
+  "system": "dnd-3-5",
+  "title": "Complete Divine",
+  "kind": "supplement",
+  "description": "La magia divina para todas las clases: tres clases nuevas (el shugenja, lanzador elemental traído de Oriental Adventures; el alma predilecta, del Manual de Miniaturas, y el chamán espiritual), clases de prestigio, dotes, conjuros, dominios y reglas sobre la fe, las deidades y el más allá, con objetos mágicos ligados al panteón de D&D.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Complete_Divine",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-05",
+      "format": "hardcover",
+      "isbn13": 9780786932726,
+      "cover": "/images/rol/complete-divine/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28308/complete-divine-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Divino Completo",
+      "publisher": "Devir",
+      "date": "2005-01",
+      "format": "hardcover",
+      "isbn13": 9788496422025,
+      "source": "https://www.todostuslibros.com/libros/el-divino-completo_978-84-96422-02-5"
+    }
+  ]
+}

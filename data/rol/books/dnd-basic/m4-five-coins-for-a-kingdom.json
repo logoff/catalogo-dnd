@@ -1,0 +1,23 @@
+{
+  "slug": "m4-five-coins-for-a-kingdom",
+  "system": "dnd-basic",
+  "title": "M4 Five Coins For a Kingdom",
+  "kind": "adventure",
+  "description": "Una aventura para la caja maestra: una ciudad desaparece ante los ojos de los personajes y caen del cielo cinco monedas con el espíritu de cinco magos, que les piden ayuda para salvar su mundo. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-m.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/m4-five-coins-for-a-kingdom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176914/m4-five-coins-for-a-kingdom-basic"
+        }
+      ]
+    }
+  ]
+}

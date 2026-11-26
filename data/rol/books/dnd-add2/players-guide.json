@@ -1,0 +1,33 @@
+{
+  "slug": "players-guide",
+  "system": "dnd-add2",
+  "title": "Player's Guide",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "La guía del jugador de Greyhawk, de la reedición de la ambientación de 1998. La escribió Anne Brown.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/players-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17435/greyhawk-player-s-guide-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Jugador",
+      "publisher": "Martínez Roca",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/players-guide/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-gh-acc.html"
+    }
+  ]
+}

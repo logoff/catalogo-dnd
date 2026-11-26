@@ -1,0 +1,33 @@
+{
+  "slug": "serpent-kingdoms",
+  "system": "dnd-3-5",
+  "title": "Serpent Kingdoms",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Los pueblos escamosos de Faerûn, los hombres lagarto, las nagas, los yuan-ti y los sarrukh que los crearon: su historia, sus reinos ocultos y sus dioses, con razas jugables, clases de prestigio, dotes, conjuros y monstruos.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Serpent_Kingdoms",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-07",
+      "format": "hardcover",
+      "isbn13": 9780786932771,
+      "cover": "/images/rol/serpent-kingdoms/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28709/serpent-kingdoms-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Los Reinos Serpentinos",
+      "publisher": "Devir",
+      "date": "2004-11",
+      "isbn13": 9788496422032,
+      "source": "https://www.todostuslibros.com/libros/los-reinos-serpentinos_978-84-96422-03-2"
+    }
+  ]
+}

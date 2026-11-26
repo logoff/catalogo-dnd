@@ -1,0 +1,35 @@
+{
+  "slug": "power-of-faerun",
+  "system": "dnd-3-5",
+  "title": "Power of Faerûn",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Para personajes de nivel alto que quieren gobernar o influir en Faerûn: cómo fundar y dirigir cortes, templos, gremios y otras organizaciones, manejar intrigas políticas y crisis, con ideas de aventura.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Power_of_Faer%C3%BBn",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-03",
+      "format": "hardcover",
+      "isbn13": 9780786939107,
+      "cover": "/images/rol/power-of-faerun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/29539/power-of-faerun-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Los Poderes de Faerûn",
+      "publisher": "Devir",
+      "date": "2006-10",
+      "format": "hardcover",
+      "isbn13": 9788496422803,
+      "cover": "/images/rol/power-of-faerun/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/los-poderes-de-faerun_978-84-96422-80-3"
+    }
+  ]
+}

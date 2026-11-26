@@ -1,0 +1,24 @@
+{
+  "slug": "frs1-the-dalelands",
+  "system": "dnd-add2",
+  "title": "FRS1 The Dalelands",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre los Valles, de Archendale y Daggerdale al Valle de la Sombra, con un mapa a color de la región. Lo escribió L. Richard Baker III.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-frs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/frs1-the-dalelands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16841/frs1-the-dalelands-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "fre3-waterdeep",
+  "system": "dnd-add1",
+  "title": "FRE3 Waterdeep",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "La aventura que cierra la trilogía de los Avatares y la Era de los Trastornos, en la ciudad de Aguas Profundas. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fre.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/fre3-waterdeep/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16813/fre3-waterdeep-1e-2e"
+        }
+      ]
+    }
+  ]
+}

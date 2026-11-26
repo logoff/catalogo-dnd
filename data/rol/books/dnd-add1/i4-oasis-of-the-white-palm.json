@@ -1,0 +1,23 @@
+{
+  "slug": "i4-oasis-of-the-white-palm",
+  "system": "dnd-add1",
+  "title": "I4 Oasis of the White Palm",
+  "kind": "adventure",
+  "description": "La segunda aventura de la serie del Desierto de la Desolación, en el oasis de la Palmera Blanca. La escribieron Philip Meyers y Tracy Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/i4-oasis-of-the-white-palm/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17050/i4-oasis-of-the-white-palm-1e"
+        }
+      ]
+    }
+  ]
+}

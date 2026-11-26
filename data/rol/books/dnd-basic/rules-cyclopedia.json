@@ -1,0 +1,24 @@
+{
+  "slug": "rules-cyclopedia",
+  "system": "dnd-basic",
+  "title": "Rules Cyclopedia",
+  "kind": "core",
+  "core": true,
+  "description": "Las reglas de las cuatro primeras cajas BECMI reunidas, revisadas y ordenadas en un solo volumen de tapa dura de Aaron Allston, del nivel 1 al 36, con un apéndice sobre el mundo de Mystara.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "hardcover",
+      "cover": "/images/rol/rules-cyclopedia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17171/d-d-rules-cyclopedia-basic"
+        }
+      ]
+    }
+  ]
+}

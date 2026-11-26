@@ -1,0 +1,16 @@
+{
+  "slug": "solodark",
+  "system": "shadowdark",
+  "title": "SoloDark: Solo Rules for Shadowdark RPG",
+  "kind": "supplement",
+  "description": "Las reglas oficiales para jugar a Shadowdark sin director: un cuadernillo de doce páginas con un oráculo para responder preguntas de sí o no, tablas de ideas y de nombres de mazmorras y reglas alternativas.\n\nComplementa el libro básico para quien quiera jugar en solitario.",
+  "source": "https://www.thearcanelibrary.com/products/solodark-solo-rules-for-shadowdark-rpg-print-pdf",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "format": "paperback",
+      "cover": "/images/rol/solodark/english.webp"
+    }
+  ]
+}

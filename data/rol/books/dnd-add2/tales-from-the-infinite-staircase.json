@@ -1,0 +1,24 @@
+{
+  "slug": "tales-from-the-infinite-staircase",
+  "system": "dnd-add2",
+  "title": "Tales From the Infinite Staircase",
+  "kind": "adventure",
+  "settings": ["planescape"],
+  "description": "Ocho aventuras enlazadas de Planescape, que se pueden jugar en cualquier orden, en las que un grupo de viajeros planares recorre la Escalera Infinita para investigar una amenaza que atraviesa los planos. La escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/tales-from-the-infinite-staircase/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17291/tales-from-the-infinite-staircase-2e"
+        }
+      ]
+    }
+  ]
+}

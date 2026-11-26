@@ -1,6 +1,6 @@
 import type { Edition, PurchaseLink } from './index'
 
-export type MerchandiseGroup = 'books' | 'figures' | 'games'
+export type MerchandiseGroup = 'books' | 'figures' | 'games' | 'dice' | 'stationery'
 
 export type MerchandiseKind =
   // Libros licenciados
@@ -8,6 +8,7 @@ export type MerchandiseKind =
   | 'craft_book'
   | 'art_book'
   | 'guide_book'
+  | 'gamebook'
   // Figuras y juguetes
   | 'funko'
   | 'lego'
@@ -17,6 +18,14 @@ export type MerchandiseKind =
   // Juegos de mesa y cartas
   | 'board_game'
   | 'card_game'
+  // Dados y accesorios
+  | 'dice_set'
+  | 'dice_accessory'
+  | 'advent_calendar'
+  // Papelería y regalo
+  | 'journal'
+  | 'puzzle'
+  | 'stationery_gift'
 
 export interface MerchandiseEdition {
   // Sin idioma en artículos sin texto, como una figura

@@ -1,0 +1,24 @@
+{
+  "slug": "alq7-corsairs-of-the-great-sea",
+  "system": "dnd-add2",
+  "title": "ALQ7 Corsairs of the Great Sea",
+  "kind": "adventure",
+  "settings": ["al_qadim"],
+  "description": "Cinco aventuras de Al-Qadim en el Gran Mar, con corsarios, un culto de ghules, traiciones y misiones de espionaje. La escribió Nicky Rea.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-alq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/alq7-corsairs-of-the-great-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/215918/corsairs-of-the-great-sea-2e"
+        }
+      ]
+    }
+  ]
+}

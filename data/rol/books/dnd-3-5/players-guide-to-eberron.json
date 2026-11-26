@@ -1,0 +1,34 @@
+{
+  "slug": "players-guide-to-eberron",
+  "system": "dnd-3-5",
+  "title": "Player's Guide to Eberron",
+  "kind": "setting",
+  "settings": ["eberron"],
+  "description": "Lo que un personaje de Eberron sabe de su mundo, de Aerenal a Zilargo: las casas marcadas por el dragón, la Última Guerra, los dragones o los Señores del Polvo, sin desvelar los secretos del Dungeon Master, con opciones de personaje.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Player%27s_Guide_to_Eberron",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-01",
+      "format": "hardcover",
+      "isbn13": 9780786939121,
+      "cover": "/images/rol/players-guide-to-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/29550/player-s-guide-to-eberron-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Eberron: Guía del Jugador",
+      "publisher": "Devir",
+      "date": "2007-09",
+      "isbn13": 9788496422995,
+      "cover": "/images/rol/players-guide-to-eberron/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/eberron-guia-del-jugador_978-84-96422-99-5"
+    }
+  ]
+}

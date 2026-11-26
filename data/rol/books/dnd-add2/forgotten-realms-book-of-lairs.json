@@ -1,0 +1,24 @@
+{
+  "slug": "forgotten-realms-book-of-lairs",
+  "system": "dnd-add2",
+  "title": "Forgotten Realms Book of Lairs",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Aventuras cortas en guaridas de monstruos de los Reinos Olvidados, para añadirlas a cualquier campaña. Lo escribieron Nicky Rea y Sam Witt.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/forgotten-realms-book-of-lairs/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16846/book-of-lairs-forgotten-realms-2e"
+        }
+      ]
+    }
+  ]
+}

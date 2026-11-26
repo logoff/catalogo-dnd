@@ -54,6 +54,48 @@ const book: RpgBook = {
     },
   ],
 }
+const edition: RpgSystem = {
+  ...system,
+  slug: 'dnd-3-5',
+  name: 'D&D 3.5',
+  family: 'dungeons-and-dragons',
+  publisher: 'Wizards of the Coast',
+  official: true,
+}
+const editionBook: RpgBook = {
+  ...book,
+  slug: 'players-handbook-3-5',
+  system: 'dnd-3-5',
+  title: "Player's Handbook v.3.5",
+  editions: [
+    { language: 'english', publisher: 'Wizards of the Coast', date: '2003-07' },
+    { language: 'castellano', title: 'Manual del Jugador 3.5', publisher: 'Devir' },
+  ],
+}
+const boxedBook: RpgBook = {
+  ...editionBook,
+  slug: 'caja',
+  title: 'Caja',
+  editions: [
+    {
+      language: 'english',
+      publisher: 'Wizards of the Coast',
+      date: '2003-07',
+      purchase_links: [
+        {
+          store: 'dmsguild',
+          url: 'https://www.dmsguild.com/en/product/1/libro-1',
+          variant: 'Libro 1',
+        },
+        {
+          store: 'dmsguild',
+          url: 'https://www.dmsguild.com/en/product/2/libro-2',
+          variant: 'Libro 2',
+        },
+      ],
+    },
+  ],
+}
 const compatibleOnly: RpgBook = {
   ...book,
   slug: 'compatible',
@@ -61,21 +103,61 @@ const compatibleOnly: RpgBook = {
   license: 'none',
   editions: [{ language: 'english', publisher: 'Otra' }],
 }
+const freeBook: RpgBook = {
+  ...book,
+  slug: 'libre',
+  title: 'Libre',
+  editions: [
+    {
+      language: 'castellano',
+      publisher: 'La Marca del Este',
+      free_download: 'https://codexdelamarca.com/posts/libre/',
+    },
+  ],
+}
+
+const campaignBook = (slug: string, end: string): RpgBook => ({
+  ...book,
+  slug,
+  title: slug,
+  editions: [
+    {
+      language: 'castellano',
+      publisher: 'Autoedición',
+      format: 'paperback',
+      crowdfunding: { platform: 'verkami', url: `https://www.verkami.com/projects/1-${slug}`, end },
+    },
+  ],
+})
+const openCampaign = campaignBook('en-campana', '2999-12-31')
+const closedCampaign = campaignBook('financiado', '2020-01-15')
 
 const renderAt = (path: string) =>
   render(
     <MemoryRouter initialEntries={[path]}>
       <Routes>
         <Route path="/rol/:system/:book" element={<RpgBookPage />} />
+        <Route path="/ediciones/:system/:book" element={<RpgBookPage section="ediciones" />} />
       </Routes>
     </MemoryRouter>
   )
 
 describe('ficha de libro', () => {
   beforeEach(() => {
-    setRpgIndex(buildRpgIndex([orc], [system], [book, compatibleOnly]))
+    setRpgIndex(
+      buildRpgIndex(
+        [orc],
+        [system, edition],
+        [book, compatibleOnly, editionBook, freeBook, boxedBook, openCampaign, closedCampaign]
+      )
+    )
     cacheBook(book)
+    cacheBook(freeBook)
     cacheBook(compatibleOnly)
+    cacheBook(editionBook)
+    cacheBook(boxedBook)
+    cacheBook(openCampaign)
+    cacheBook(closedCampaign)
   })
 
   it('muestra título, sistema, licencia heredada, descripción y aviso de no oficial', () => {
@@ -108,6 +190,67 @@ describe('ficha de libro', () => {
     renderAt('/rol/pathfinder-2e/compatible')
     expect(screen.getByText('Sin licencia abierta: se declara compatible')).toBeInTheDocument()
     expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+  })
+
+  it('enlaza la copia gratuita de Codex de la Marca sin tratarla como tienda', () => {
+    renderAt('/rol/pathfinder-2e/libre')
+    const link = screen.getByRole('link', { name: /Descarga gratuita en Codex de la Marca/ })
+    expect(link).toHaveAttribute('href', 'https://codexdelamarca.com/posts/libre/')
+    expect(link).not.toHaveAttribute('rel', expect.stringContaining('sponsored'))
+    expect(document.querySelector('[data-purchase-links]')).toBeNull()
+    expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+  })
+
+  it('enlaza la campaña de micromecenazgo, abierta o ya financiada, sin tratarla como tienda', () => {
+    const { unmount } = renderAt('/rol/pathfinder-2e/en-campana')
+    const open = screen.getByRole('link', {
+      name: /En campaña en Verkami hasta el 31 de diciembre de 2999/,
+    })
+    expect(open).toHaveAttribute('href', 'https://www.verkami.com/projects/1-en-campana')
+    expect(open).not.toHaveAttribute('rel', expect.stringContaining('sponsored'))
+    expect(screen.getByText('No está a la venta en las tiendas del sitio.')).toBeInTheDocument()
+    unmount()
+    renderAt('/rol/pathfinder-2e/financiado')
+    expect(screen.getByRole('link', { name: /Financiado en Verkami/ })).toHaveAttribute(
+      'href',
+      'https://www.verkami.com/projects/1-financiado'
+    )
+  })
+
+  it('distingue los enlaces de una misma tienda por lo que se vende en cada uno', () => {
+    renderAt('/ediciones/dnd-3-5/caja')
+    expect(screen.getByRole('link', { name: /Comprar en DMsGuild Libro 1/ })).toHaveAttribute(
+      'href',
+      expect.stringContaining('/product/1/libro-1')
+    )
+    expect(screen.getByRole('link', { name: /Comprar en DMsGuild Libro 2/ })).toBeInTheDocument()
+  })
+
+  it('un libro de una edición anterior de D&D es oficial, sin tiendas ni aviso de afiliado', () => {
+    renderAt('/ediciones/dnd-3-5/players-handbook-3-5')
+    expect(screen.queryByText(/no es un producto oficial/)).toBeNull()
+    expect(screen.getByRole('link', { name: 'Ediciones de D&D' })).toHaveAttribute(
+      'href',
+      '/ediciones'
+    )
+    expect(screen.getByText('Edición')).toBeInTheDocument()
+    expect(screen.getAllByRole('link', { name: 'D&D 3.5' })[1]).toHaveAttribute(
+      'href',
+      '/ediciones/dnd-3-5'
+    )
+    expect(document.querySelector('[data-purchase-links]')).toBeNull()
+    expect(screen.queryByRole('link', { name: /Comprar/ })).toBeNull()
+    expect(screen.getByText('Descatalogado.')).toBeInTheDocument()
+  })
+
+  it('cada libro solo tiene ficha en su sección', async () => {
+    renderAt('/rol/dnd-3-5/players-handbook-3-5')
+    expect(await screen.findByText(/no encontrad/i)).toBeInTheDocument()
+  })
+
+  it('un libro de otros juegos de rol no tiene ficha en ediciones anteriores', async () => {
+    renderAt('/ediciones/pathfinder-2e/player-core')
+    expect(await screen.findByText(/no encontrad/i)).toBeInTheDocument()
   })
 
   it('un libro en la URL de otro sistema muestra la página de no encontrado', async () => {

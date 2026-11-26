@@ -1,0 +1,24 @@
+{
+  "slug": "a3-assault-on-the-aerie-of-the-slave-lords",
+  "system": "dnd-add1",
+  "title": "A3 Assault on the Aerie of the Slave Lords",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La tercera aventura de la serie de los esclavistas: el asalto a Suderham, la ciudad escondida de los señores de los esclavos. La escribió Allen Hammack.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-a.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "paperback",
+      "cover": "/images/rol/a3-assault-on-the-aerie-of-the-slave-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17029/a3-assault-on-the-aerie-of-the-slave-lords-1e"
+        }
+      ]
+    }
+  ]
+}

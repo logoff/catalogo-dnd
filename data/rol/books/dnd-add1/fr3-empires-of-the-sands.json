@@ -1,0 +1,24 @@
+{
+  "slug": "fr3-empires-of-the-sands",
+  "system": "dnd-add1",
+  "title": "FR3 Empires of the Sands",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El suplemento de los Imperios de las Arenas, en el sudoeste de Faerûn: las naciones de Amn, Tethyr y Calimshan, en la costa sur del mar de las Espadas. Lo escribió Scott Haring.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/fr3-empires-of-the-sands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16804/fr3-empires-of-the-sands-1e"
+        }
+      ]
+    }
+  ]
+}

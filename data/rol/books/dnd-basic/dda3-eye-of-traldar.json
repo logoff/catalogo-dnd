@@ -1,0 +1,24 @@
+{
+  "slug": "dda3-eye-of-traldar",
+  "system": "dnd-basic",
+  "title": "DDA3 Eye of Traldar",
+  "kind": "adventure",
+  "settings": ["mystara"],
+  "description": "Una aventura para personajes que empiezan, ambientada en Karameikos y en la herencia de los antiguos traldar. La escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-dda.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dda3-eye-of-traldar/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/193620/dda3-eye-of-traldar-basic"
+        }
+      ]
+    }
+  ]
+}

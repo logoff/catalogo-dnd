@@ -1,0 +1,24 @@
+{
+  "slug": "the-legend-of-spelljammer",
+  "system": "dnd-add2",
+  "title": "The Legend of Spelljammer",
+  "kind": "setting",
+  "settings": ["spelljammer"],
+  "description": "Una caja sobre el Spelljammer, la legendaria nave viviente que da nombre a la ambientación. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-legend-of-spelljammer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17241/the-legend-of-spelljammer-2e"
+        }
+      ]
+    }
+  ]
+}

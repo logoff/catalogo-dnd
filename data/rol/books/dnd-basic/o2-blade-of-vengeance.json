@@ -1,0 +1,23 @@
+{
+  "slug": "o2-blade-of-vengeance",
+  "system": "dnd-basic",
+  "title": "O2 Blade of Vengeance",
+  "kind": "adventure",
+  "description": "Una aventura para un Dungeon Master y un solo jugador, que lleva a un elfo: al volver a su hogar en el bosque lo encuentra en llamas y a su familia asesinada por un dragón rojo, y sale en busca de venganza. La escribió Jim Bambra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-o.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/o2-blade-of-vengeance/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17110/o2-blade-of-vengeance-basic"
+        }
+      ]
+    }
+  ]
+}

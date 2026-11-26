@@ -1,0 +1,25 @@
+{
+  "slug": "book-of-holding",
+  "title": "The Book of Holding",
+  "group": "stationery",
+  "kind": "journal",
+  "manufacturer": "Ten Speed Press",
+  "date": "2020-08-04",
+  "description": "Diario oficial de Dungeons & Dragons en tapa dura con cierre magnético y bolsillo trasero, con páginas en blanco y otras con plantillas para anotar personajes, partidas y botín; el nombre juega con la bolsa de contención.\n\nEs un cuaderno de regalo para jugadores y directores de juego. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/603902/x/9781984824615/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2020-08-04",
+      "isbn13": 9781984824615,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984824619/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/book-of-holding/0.jpg"]
+}

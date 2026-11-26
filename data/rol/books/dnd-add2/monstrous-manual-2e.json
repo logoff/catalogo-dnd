@@ -1,0 +1,42 @@
+{
+  "slug": "monstrous-manual-2e",
+  "system": "dnd-add2",
+  "title": "Monstrous Manual",
+  "kind": "core",
+  "core": true,
+  "description": "El bestiario definitivo de AD&D 2.ª edición: reúne en un solo volumen de tapa dura los monstruos de los Monstrous Compendium en carpeta, con una página por criatura e ilustraciones en color.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "hardcover",
+      "cover": "/images/rol/monstrous-manual-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16865/monstrous-manual-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual Monstruoso Volumen I",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "hardcover",
+      "cover": "/images/rol/monstrous-manual-2e/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core.html"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual Monstruoso Volumen II",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "hardcover",
+      "cover": "/images/rol/monstrous-manual-2e/castellano-2.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core.html"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "wga4-vecna-lives",
+  "system": "dnd-add2",
+  "title": "WGA4 Vecna Lives!",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura de Greyhawk sobre el liche Vecna, su mano y su ojo: su culto conspira para cambiar Oerth para siempre, y empieza con los jugadores llevando a los magos del Círculo de los Ocho. La escribió David «Zeb» Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/wga4-vecna-lives/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17424/wga4-vecna-lives-2e"
+        }
+      ]
+    }
+  ]
+}

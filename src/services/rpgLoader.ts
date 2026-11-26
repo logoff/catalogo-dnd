@@ -59,14 +59,16 @@ export async function loadBook(system: string, slug: string): Promise<RpgBookWit
 }
 
 // Carga lo que necesita la página de la ruta para pintar lo mismo que el HTML prerenderizado.
-// Todas las páginas de la sección usan el índice; la del libro, además, su JSON.
+// Todas las páginas de la sección y de las ediciones anteriores de D&D usan el índice; la del
+// libro, además, su JSON.
 export async function preloadRpgRoute(pathname: string): Promise<void> {
-  const book = pathname.match(/^\/rol\/([^/]+)\/([^/]+)\/?$/)
+  const book = pathname.match(/^\/(?:rol|ediciones)\/([^/]+)\/([^/]+)\/?$/)
   if (book) {
     await loadBook(decodeURIComponent(book[1]), decodeURIComponent(book[2]))
   } else if (
-    /^\/(rol|licencias)(\/[^/]+)?\/?$/.test(pathname) ||
-    /^\/licencia\/[^/]+\/?$/.test(pathname)
+    /^\/(rol|ediciones|licencias)(\/[^/]+)?\/?$/.test(pathname) ||
+    /^\/licencia\/[^/]+\/?$/.test(pathname) ||
+    /^\/guias\/ambientacion\/[^/]+\/?$/.test(pathname)
   ) {
     await loadRpgIndex()
   }

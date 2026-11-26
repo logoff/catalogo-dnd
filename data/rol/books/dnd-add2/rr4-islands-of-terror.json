@@ -1,0 +1,24 @@
+{
+  "slug": "rr4-islands-of-terror",
+  "system": "dnd-add2",
+  "title": "RR4 Islands of Terror",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Un suplemento de Ravenloft con nueve islas nuevas, cada una con su señor oscuro, para añadir a los Dominios del Pavor. Lo escribieron Colin McComb y Scott Bennie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/rr4-islands-of-terror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17492/rr4-islands-of-terror-2e"
+        }
+      ]
+    }
+  ]
+}

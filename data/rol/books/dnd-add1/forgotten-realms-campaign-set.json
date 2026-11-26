@@ -1,0 +1,24 @@
+{
+  "slug": "forgotten-realms-campaign-set",
+  "system": "dnd-add1",
+  "title": "Forgotten Realms Campaign Set",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La primera caja de los Reinos Olvidados de Ed Greenwood, conocida como «la caja gris»: Faerûn, sus regiones, sus dioses y sus personajes.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-camp.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "boxed_set",
+      "cover": "/images/rol/forgotten-realms-campaign-set/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16782/forgotten-realms-campaign-set-1e"
+        }
+      ]
+    }
+  ]
+}

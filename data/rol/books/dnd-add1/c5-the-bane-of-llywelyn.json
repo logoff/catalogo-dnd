@@ -1,0 +1,22 @@
+{
+  "slug": "c5-the-bane-of-llywelyn",
+  "system": "dnd-add1",
+  "title": "C5 The Bane of Llywelyn",
+  "kind": "adventure",
+  "description": "La segunda parte de la Profecía de Brie: los personajes siguen la antigua profecía que anuncia el regreso de un rey del pasado al reino de Pellham, gobernado por un consejo incompetente. La escribió Bob Blake.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "cover": "/images/rol/c5-the-bane-of-llywelyn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17035/c5-the-bane-of-llewellyn-1e"
+        }
+      ]
+    }
+  ]
+}

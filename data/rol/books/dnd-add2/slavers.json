@@ -1,0 +1,24 @@
+{
+  "slug": "slavers",
+  "system": "dnd-add2",
+  "title": "Slavers",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura de Greyhawk que retoma la historia de los señores de los esclavos de la serie A. La escribieron Sean K. Reynolds y Chris Pramas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/slavers/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17405/slavers"
+        }
+      ]
+    }
+  ]
+}

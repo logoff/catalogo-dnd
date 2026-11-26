@@ -1,0 +1,24 @@
+{
+  "slug": "dark-sun-expanded-and-revised",
+  "system": "dnd-add2",
+  "title": "Dark Sun: Expanded & Revised",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "La revisión de Dark Sun de 1995, que avanza la historia de Athas tras las novelas del Prism Pentad.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-rev.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/dark-sun-expanded-and-revised/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17203/dark-sun-campaign-setting-expanded-and-revised-edition-2e"
+        }
+      ]
+    }
+  ]
+}

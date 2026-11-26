@@ -1,0 +1,23 @@
+{
+  "slug": "m1-into-the-maelstrom",
+  "system": "dnd-basic",
+  "title": "M1 Into the Maelstrom",
+  "kind": "adventure",
+  "description": "La primera aventura para la caja maestra: una niebla venenosa y una lluvia ácida asolan Norwold, y los personajes dirigen una flota de naves voladoras contra el invasor. La escribieron Bruce y Beatrice Heard.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-m.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/m1-into-the-maelstrom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176912/m1-into-the-maelstrom-basic"
+        }
+      ]
+    }
+  ]
+}

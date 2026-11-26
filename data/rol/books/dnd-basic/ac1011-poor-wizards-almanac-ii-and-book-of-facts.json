@@ -1,0 +1,24 @@
+{
+  "slug": "ac1011-poor-wizards-almanac-ii-and-book-of-facts",
+  "system": "dnd-basic",
+  "title": "AC1011 Poor Wizard's Almanac II & Book of Facts",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El segundo almanaque de Mystara: pone al día las naciones del Mundo Conocido y su calendario de sucesos para el año siguiente, como si lo hubieran escrito sus propios sabios. Lo escribió Ann Dupuis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-alm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/ac1011-poor-wizards-almanac-ii-and-book-of-facts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16994/poor-wizard-s-almanac-ii-basic"
+        }
+      ]
+    }
+  ]
+}

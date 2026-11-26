@@ -1,0 +1,24 @@
+{
+  "slug": "legends-of-the-hero-kings",
+  "system": "dnd-add2",
+  "title": "Legends of the Hero-Kings",
+  "kind": "adventure",
+  "settings": ["birthright"],
+  "description": "Ideas de aventura para Birthright basadas en cada uno de los sucesos aleatorios de la caja básica, como desacreditar a un regente o el despertar de un mal antiguo. Lo escribió Ed Stark.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/legends-of-the-hero-kings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16926/legends-of-the-hero-kings-2e"
+        }
+      ]
+    }
+  ]
+}

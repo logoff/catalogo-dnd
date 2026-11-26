@@ -1,0 +1,33 @@
+{
+  "slug": "planar-handbook",
+  "system": "dnd-3-5",
+  "title": "Planar Handbook",
+  "kind": "supplement",
+  "description": "Una guía del jugador para aventuras en los planos: razas planares como los aasimar, los tieflings o los bariaur, clases de prestigio, dotes, conjuros, equipo y monstruos, con los peligros de viajar fuera del Plano Material.\n\nPone al día para 3.5 parte del material de la ambientación de Planescape y completa el Manual of the Planes de la 3.ª edición. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Planar_Handbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-07",
+      "format": "hardcover",
+      "isbn13": 9780786934294,
+      "cover": "/images/rol/planar-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27882/planar-handbook-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual Planario",
+      "publisher": "Devir",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9788496422391,
+      "source": "https://www.todostuslibros.com/libros/manual-planario_978-84-96422-39-1"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "cm8-the-endless-stair",
+  "system": "dnd-basic",
+  "title": "CM8 The Endless Stair",
+  "kind": "adventure",
+  "description": "Una aventura de la caja de compañía que empieza en una posada: un rumor lleva a los personajes a la tumba del gran mago Cheiromar y a una puerta que nadie había visto antes en lo alto de un risco. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/cm8-the-endless-stair/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17133/cm8-the-endless-stair-basic"
+        }
+      ]
+    }
+  ]
+}

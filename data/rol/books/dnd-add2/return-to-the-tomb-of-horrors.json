@@ -1,0 +1,33 @@
+{
+  "slug": "return-to-the-tomb-of-horrors",
+  "system": "dnd-add2",
+  "title": "Return to the Tomb of Horrors",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La secuela de la Tumba de los Horrores de Gary Gygax: una campaña para personajes de nivel alto que vuelve a la tumba del semiliche Acererak, en caja.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/add/add-tome.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "boxed_set",
+      "cover": "/images/rol/return-to-the-tomb-of-horrors/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17473/return-to-the-tomb-of-horrors-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Retorno a la Tumba de los Horrores",
+      "publisher": "Martínez Roca",
+      "date": "1998",
+      "format": "boxed_set",
+      "cover": "/images/rol/return-to-the-tomb-of-horrors/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-tome.html"
+    }
+  ]
+}

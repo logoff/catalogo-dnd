@@ -1,0 +1,24 @@
+{
+  "slug": "i6-ravenloft",
+  "system": "dnd-add1",
+  "title": "I6 Ravenloft",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "La aventura de Tracy y Laura Hickman que creó a Strahd von Zarovich: un castillo de terror gótico en la tierra de Barovia. Dio origen a la ambientación de Ravenloft.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/i6-ravenloft/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17527/i6-ravenloft-1e"
+        }
+      ]
+    }
+  ]
+}

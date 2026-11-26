@@ -1,0 +1,24 @@
+{
+  "slug": "the-sword-of-roele",
+  "system": "dnd-add2",
+  "title": "The Sword of Roele",
+  "kind": "adventure",
+  "settings": ["birthright"],
+  "description": "Una aventura de Birthright: los Tres Hermanos Magos, enemigos de la Quimera, dicen saber dónde está la legendaria espada de Roele y envían a los personajes a buscarla, aunque persiguen otra cosa. La escribió Wolfgang Baur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/the-sword-of-roele/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16923/the-sword-of-roele-2e"
+        }
+      ]
+    }
+  ]
+}

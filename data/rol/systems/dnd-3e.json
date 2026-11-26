@@ -1,0 +1,34 @@
+{
+  "slug": "dnd-3e",
+  "name": "D&D 3.ª edición",
+  "family": "dungeons-and-dragons",
+  "official": true,
+  "publisher": "Wizards of the Coast",
+  "date": "2000",
+  "description": "La tercera edición de Dungeons & Dragons, la primera que publicó Wizards of the Coast tras comprar TSR. Acabó con la división entre D&D y Advanced D&D y rehízo las reglas en torno al d20: casi todo se resuelve tirando un dado de veinte caras, sumando modificadores y comparando con una dificultad, con la clase de armadura ascendente y tres tiradas de salvación. Los personajes se personalizan con dotes, habilidades por puntos, multiclase libre y clases de prestigio.\n\nSu legado va más allá del juego: Wizards publicó sus reglas como SRD bajo la Open Game License, lo que permitió a cualquier editorial publicar material compatible y abrió la era del d20. En 2003 la sustituyó la revisión 3.5. Devir la publicó en castellano.",
+  "features": [
+    "Sistema d20: tirada de veinte caras más modificadores contra una dificultad",
+    "Clase de armadura ascendente y salvaciones de Fortaleza, Reflejos y Voluntad",
+    "Dotes y habilidades por puntos",
+    "Multiclase libre y clases de prestigio"
+  ],
+  "licenses": [
+    {
+      "license": "srd-3-0",
+      "since": "2000"
+    }
+  ],
+  "links": [
+    {
+      "label": "SRD 3.0 en wizards.com (copia de 2001)",
+      "url": "https://web.archive.org/web/20010429025529/http://www.wizards.com:80/D20/article.asp?x=srd"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-add2",
+      "kind": "major_rewrite",
+      "note": "Reescritura completa de 2000: une D&D y AD&D, pasa al d20 con clase de armadura ascendente, dotes y habilidades; el material de AD&D necesita conversión."
+    }
+  ]
+}

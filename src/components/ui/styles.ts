@@ -39,6 +39,23 @@ export function cardClass(interactive = false, className?: string) {
   )
 }
 
+// Escala de títulos. Cada nivel se distingue del siguiente por algo más que el tamaño:
+// la sección es grande, el título de un bloque es mediano, el grupo de una lista va en
+// versalitas grises (para no confundirse con los elementos que agrupa) y el elemento de
+// una tarjeta o una lista es del tamaño del texto
+export type HeadingLevel = 'section' | 'title' | 'group' | 'item'
+
+const headingLevels: Record<HeadingLevel, string> = {
+  section: 'text-2xl font-semibold tracking-tight',
+  title: 'text-lg font-semibold tracking-tight',
+  group: 'text-xs font-semibold tracking-wider text-muted uppercase',
+  item: 'text-[15px] font-semibold tracking-tight',
+}
+
+export function headingClass(level: HeadingLevel, className?: string) {
+  return clsx(headingLevels[level], className)
+}
+
 export type BadgeVariant = 'neutral' | 'accent' | 'outline'
 
 const badgeVariants: Record<BadgeVariant, string> = {

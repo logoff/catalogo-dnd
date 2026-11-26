@@ -32,7 +32,9 @@
             "enum": [
                 "books",
                 "figures",
-                "games"
+                "games",
+                "dice",
+                "stationery"
             ]
         },
         "kind": {
@@ -41,13 +43,20 @@
                 "craft_book",
                 "art_book",
                 "guide_book",
+                "gamebook",
                 "funko",
                 "lego",
                 "figure",
                 "plush",
                 "collectible_miniature",
                 "board_game",
-                "card_game"
+                "card_game",
+                "dice_set",
+                "dice_accessory",
+                "advent_calendar",
+                "journal",
+                "puzzle",
+                "stationery_gift"
             ]
         },
         "manufacturer": {
@@ -145,7 +154,8 @@
                             "cookbook",
                             "craft_book",
                             "art_book",
-                            "guide_book"
+                            "guide_book",
+                            "gamebook"
                         ]
                     }
                 }
@@ -187,6 +197,46 @@
                         "enum": [
                             "board_game",
                             "card_game"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "group": {
+                        "const": "dice"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "kind": {
+                        "enum": [
+                            "dice_set",
+                            "dice_accessory",
+                            "advent_calendar"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "group": {
+                        "const": "stationery"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "kind": {
+                        "enum": [
+                            "journal",
+                            "puzzle",
+                            "stationery_gift"
                         ]
                     }
                 }

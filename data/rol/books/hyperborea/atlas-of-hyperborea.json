@@ -1,0 +1,23 @@
+{
+  "slug": "atlas-of-hyperborea",
+  "system": "hyperborea",
+  "title": "Atlas of Hyperborea",
+  "kind": "setting",
+  "description": "El mapa de Hiperbórea en dieciséis sectores, con un desplegable central sin rótulos de todo el reino.\n\nPublicado por North Wind Adventures, escrito por Jeffrey Talanian, con 38 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/381202/atlas-of-hyperborea",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2021-12",
+      "format": "paperback",
+      "cover": "/images/rol/atlas-of-hyperborea/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/381202/atlas-of-hyperborea"
+        }
+      ]
+    }
+  ]
+}

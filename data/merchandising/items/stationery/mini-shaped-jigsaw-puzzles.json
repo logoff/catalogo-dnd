@@ -1,0 +1,38 @@
+{
+  "slug": "mini-shaped-jigsaw-puzzles",
+  "title": "Dungeons & Dragons Mini Shaped Jigsaw Puzzles",
+  "group": "stationery",
+  "kind": "puzzle",
+  "manufacturer": "Ten Speed Press",
+  "date": "2023-08-22",
+  "description": "Tres minipuzles oficiales con la forma recortada de monstruos de Dungeons & Dragons: el Demogorgon, el mimeto y el contemplador, cada uno en su propia caja.\n\nSon pequeños y rápidos de montar, pensados como regalo. No tienen texto que traducir.",
+  "source": "https://www.penguinrandomhouse.com/books/721932/x/9780593580684/",
+  "editions": [
+    {
+      "language": "english",
+      "title": "The Demogorgon Edition",
+      "publisher": "Ten Speed Press",
+      "date": "2023-08-22",
+      "isbn13": 9780593580684
+    },
+    {
+      "language": "english",
+      "title": "The Mimic Edition",
+      "publisher": "Ten Speed Press",
+      "date": "2023-08-22",
+      "isbn13": 9780593580691
+    },
+    {
+      "language": "english",
+      "title": "The Beholder Edition",
+      "publisher": "Ten Speed Press",
+      "date": "2023-08-22",
+      "isbn13": 9780593580707
+    }
+  ],
+  "images": [
+    "/images/merchandising/mini-shaped-jigsaw-puzzles/0.jpg",
+    "/images/merchandising/mini-shaped-jigsaw-puzzles/1.jpg",
+    "/images/merchandising/mini-shaped-jigsaw-puzzles/2.jpg"
+  ]
+}

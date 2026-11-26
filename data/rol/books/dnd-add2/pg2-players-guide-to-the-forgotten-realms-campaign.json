@@ -1,0 +1,24 @@
+{
+  "slug": "pg2-players-guide-to-the-forgotten-realms-campaign",
+  "system": "dnd-add2",
+  "title": "PG2 Player's Guide to the Forgotten Realms Campaign",
+  "kind": "supplement",
+  "settings": ["forgotten_realms"],
+  "description": "Una guía para jugadores de los Reinos Olvidados que presenta la ambientación con relatos, artículos e ilustraciones, sin reglas ni estadísticas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-pg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/pg2-players-guide-to-the-forgotten-realms-campaign/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16799/pg2-player-s-guide-to-the-forgotten-realms-campaign-2e"
+        }
+      ]
+    }
+  ]
+}

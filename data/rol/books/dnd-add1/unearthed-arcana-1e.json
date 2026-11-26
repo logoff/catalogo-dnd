@@ -1,0 +1,23 @@
+{
+  "slug": "unearthed-arcana-1e",
+  "system": "dnd-add1",
+  "title": "Unearthed Arcana",
+  "kind": "supplement",
+  "description": "El suplemento de Gary Gygax que amplió AD&D 1.ª edición con nuevas razas como los drow y los svirfneblin, las clases de bárbaro, caballero y acróbata, especialización en armas, nuevos conjuros y objetos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "hardcover",
+      "cover": "/images/rol/unearthed-arcana-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/170096/unearthed-arcana-1e"
+        }
+      ]
+    }
+  ]
+}

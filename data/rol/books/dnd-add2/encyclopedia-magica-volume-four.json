@@ -1,0 +1,23 @@
+{
+  "slug": "encyclopedia-magica-volume-four",
+  "system": "dnd-add2",
+  "title": "Encyclopedia Magica Volume Four",
+  "kind": "supplement",
+  "description": "El cuarto y último tomo de la Encyclopedia Magica, que reúne todos los objetos mágicos publicados por TSR hasta entonces, en orden alfabético, hasta el Zwieback of Zymurgy.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-em.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/encyclopedia-magica-volume-four/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17451/encyclopedia-magica-vol-4-t-z-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "sjs1-goblins-return",
+  "system": "dnd-add2",
+  "title": "SJS1 Goblins' Return",
+  "kind": "adventure",
+  "settings": ["spelljammer"],
+  "description": "Una aventura de Spelljammer. La escribió Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/sjs1-goblins-return/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17249/sjs1-goblin-s-return-2e"
+        }
+      ]
+    }
+  ]
+}

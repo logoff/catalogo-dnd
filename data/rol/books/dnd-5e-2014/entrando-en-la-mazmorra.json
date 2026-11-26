@@ -1,0 +1,20 @@
+{
+  "slug": "entrando-en-la-mazmorra",
+  "system": "dnd-5e-2014",
+  "title": "Entrando en la mazmorra",
+  "kind": "other",
+  "license": "none",
+  "description": "Guía para empezar a jugar a rol basada en el sistema d20 de la licencia abierta del juego de rol más conocido, con la información presentada en infografías en lugar del texto habitual a dos columnas.\n\nEstá pensada para jugadores nuevos de 5E y otros juegos d20. Se financió en Verkami en septiembre de 2020.",
+  "source": "https://www.verkami.com/projects/27400",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Entrando en la mazmorra",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/27400",
+        "end": "2020-09-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "forgotten-realms-campaign-guide",
+  "system": "dnd-4e",
+  "title": "Forgotten Realms Campaign Guide",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Los Reinos Olvidados para la 4.ª edición, un siglo después de la Plaga de los Conjuros: Faerûn región a región tras los cambios, un pueblo detallado para empezar la campaña, ganchos de aventura, monstruos, personajes y un mapa.\n\nEl salto temporal y los cambios del mundo dividieron a los aficionados. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Forgotten_Realms_Campaign_Guide",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-08",
+      "format": "hardcover",
+      "isbn13": 9780786949243,
+      "cover": "/images/rol/forgotten-realms-campaign-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57376/forgotten-realms-campaign-guide-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Reinos Olvidados: Escenario de Campaña",
+      "publisher": "Devir",
+      "date": "2009-02",
+      "isbn13": 9788496934498,
+      "cover": "/images/rol/forgotten-realms-campaign-guide/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/reinos-olvidados_978-84-96934-49-8"
+    }
+  ]
+}

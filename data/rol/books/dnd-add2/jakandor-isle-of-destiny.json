@@ -1,0 +1,17 @@
+{
+  "slug": "jakandor-isle-of-destiny",
+  "system": "dnd-add2",
+  "title": "Jakandor, Isle of Destiny",
+  "kind": "supplement",
+  "description": "El segundo suplemento de Jakandor, la isla de los bárbaros knorr y los nigromantes charonti. Lo escribieron Kirk Botula, Dale Donovan y Kim Mohan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ody.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/jakandor-isle-of-destiny/english.webp"
+    }
+  ]
+}

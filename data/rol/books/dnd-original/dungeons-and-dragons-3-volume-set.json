@@ -1,0 +1,24 @@
+{
+  "slug": "dungeons-and-dragons-3-volume-set",
+  "system": "dnd-original",
+  "title": "Dungeons & Dragons 3-Volume Set",
+  "kind": "core",
+  "core": true,
+  "description": "El juego que empezó todo: tres cuadernillos en una caja de madera (luego de cartón), Men & Magic, Monsters & Treasure y The Underworld & Wilderness Adventures, escritos por Gary Gygax y Dave Arneson a partir del juego de miniaturas Chainmail. Tres clases (guerrero, usuario de magia y clérigo), dados de veinte caras y la idea de explorar mazmorras con un árbitro.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-3vs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1974",
+      "format": "boxed_set",
+      "cover": "/images/rol/dungeons-and-dragons-3-volume-set/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28306/od-d-dungeons-dragons-original-edition-0e"
+        }
+      ]
+    }
+  ]
+}

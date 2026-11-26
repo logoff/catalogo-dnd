@@ -1,0 +1,35 @@
+{
+  "slug": "labyrinth-lord",
+  "name": "Labyrinth Lord",
+  "family": "labyrinth-lord",
+  "publisher": "Goblinoid Games",
+  "date": "2007",
+  "movement": "osr",
+  "description": "Uno de los primeros retroclones, escrito por Daniel Proctor: reproduce las reglas de las cajas básica y experta de D&D de 1981 gracias a la OGL, para que se pudieran seguir publicando aventuras compatibles con ellas. Con el suplemento Advanced Edition Companion añade las clases, razas y conjuros de AD&D.\n\nFue durante años la base de muchos juegos y aventuras OSR, entre ellos el español Aventuras en la Marca del Este, y su editorial permitía usar su marca para declarar la compatibilidad. En 2023 salió una segunda edición revisada. No consta una edición en castellano.",
+  "features": [
+    "Reglas de las cajas básica y experta de 1981",
+    "Razas como clases",
+    "Advanced Edition Companion para jugar a lo AD&D",
+    "Base de muchos juegos OSR"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "2007"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-basic",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Reproduce las reglas B/X de 1981 a partir del SRD 3.0 de la OGL."
+    }
+  ],
+  "links": [
+    {
+      "label": "Goblinoid Games",
+      "url": "https://www.goblinoidgames.com/"
+    }
+  ]
+}

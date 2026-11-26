@@ -1,0 +1,24 @@
+{
+  "slug": "dsq3-asticlian-gambit",
+  "system": "dnd-add2",
+  "title": "DSQ3 Asticlian Gambit",
+  "kind": "adventure",
+  "settings": ["dark_sun"],
+  "description": "Una aventura de la serie DSQ de Dark Sun. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dsq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/dsq3-asticlian-gambit/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17186/dsq3-asticlian-gambit-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "monster-manual-ii-3e",
+  "system": "dnd-3e",
+  "title": "Monster Manual II",
+  "kind": "supplement",
+  "description": "El segundo bestiario de la 3.ª edición, con unos doscientos monstruos nuevos de todos los niveles de desafío, además de reglas para crear y mejorar criaturas.\n\nNo se revisó para 3.5, que siguió con el Monster Manual III. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118232505/http://www.wizards.com:80/default.asp?x=products/dndacc/882680000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-09",
+      "format": "hardcover",
+      "isbn13": 9780786928736,
+      "cover": "/images/rol/monster-manual-ii-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/23424/monster-manual-ii-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos II",
+      "publisher": "Devir",
+      "date": "2003-04",
+      "isbn13": 9788495712370,
+      "cover": "/images/rol/monster-manual-ii-3e/castellano.webp",
+      "source": "https://web.archive.org/web/20040630010035/http://www.devir.es:80/catalogo/cat.pl?o=1&c=JRDDBAS&b=logos/dungeons.jpg%27target=%27text"
+    }
+  ]
+}

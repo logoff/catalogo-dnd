@@ -1,0 +1,25 @@
+{
+  "slug": "champions-of-ruin",
+  "system": "dnd-3-5",
+  "title": "Champions of Ruin",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El mal en los Reinos Olvidados: organizaciones malvadas, cultos, clases de prestigio, dotes y conjuros, y consejos para jugar con personajes malvados o llevar campañas de villanos.\n\nTiene compañero dedicado al bien, Champions of Valor. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Champions_of_Ruin",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-05",
+      "format": "hardcover",
+      "isbn13": 9780786936922,
+      "cover": "/images/rol/champions-of-ruin/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3730/champions-of-ruin-3-5"
+        }
+      ]
+    }
+  ]
+}

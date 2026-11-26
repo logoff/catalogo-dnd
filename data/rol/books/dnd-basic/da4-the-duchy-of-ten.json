@@ -1,0 +1,23 @@
+{
+  "slug": "da4-the-duchy-of-ten",
+  "system": "dnd-basic",
+  "title": "DA4 The Duchy of Ten",
+  "kind": "adventure",
+  "description": "La última aventura de la serie DA, basada en la campaña original de Blackmoor de Dave Arneson: los personajes deben llevar el temible Pozo de las Almas al lugar donde se forjó, el único donde puede destruirse. Incluye datos de ambientación y un gran mapa de las tierras del oeste. La escribió David J. Ritchie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-da.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/da4-the-duchy-of-ten/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17135/da4-the-duchy-of-ten-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "priests-spell-compendium-volume-one",
+  "system": "dnd-add2",
+  "title": "Priest's Spell Compendium Volume One",
+  "kind": "supplement",
+  "description": "El primer volumen del compendio de conjuros de sacerdote de AD&D 2.ª edición, con todos los conjuros clericales publicados por TSR en orden alfabético.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-wsc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/priests-spell-compendium-volume-one/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17382/priest-s-spell-compendium-vol-1-2e"
+        }
+      ]
+    }
+  ]
+}

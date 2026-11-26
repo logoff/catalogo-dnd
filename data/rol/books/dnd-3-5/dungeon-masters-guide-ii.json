@@ -1,0 +1,34 @@
+{
+  "slug": "dungeon-masters-guide-ii",
+  "system": "dnd-3-5",
+  "title": "Dungeon Master's Guide II",
+  "kind": "supplement",
+  "description": "Consejos para dirigir que amplían la Guía del Dungeon Master: cómo tratar a cada tipo de jugador, preparar y llevar la partida, diseñar aventuras, trampas y encuentros y gestionar una campaña. Añade reglas de afiliaciones a organizaciones y una ciudad de ejemplo lista para usar, Saltmarsh.\n\nEstá pensado para ahorrar trabajo de preparación al Dungeon Master. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20041119063742/http://www.wizards.com:80/default.asp?x=products/dndacc/863170000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-06",
+      "format": "hardcover",
+      "isbn13": 9780786936878,
+      "cover": "/images/rol/dungeon-masters-guide-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25841/dungeon-master-s-guide-ii-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Dungeon Master II",
+      "publisher": "Devir",
+      "date": "2005-12",
+      "format": "hardcover",
+      "isbn13": 9788496422568,
+      "cover": "/images/rol/dungeon-masters-guide-ii/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/guia-del-dungeon-master-ii_978-84-96422-56-8"
+    }
+  ]
+}

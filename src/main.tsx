@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot, hydrateRoot } from 'react-dom/client'
 import App from './App'
+import { preloadComicRoute } from './services/comicLoader'
 import { preloadNovelRoute } from './services/novelLoader'
 import { preloadRpgRoute } from './services/rpgLoader'
 import './styles/globals.css'
@@ -16,10 +17,11 @@ const app = (
 )
 
 // En producción el HTML viene prerenderizado; en desarrollo el contenedor llega vacío. Las
-// páginas de novelas y de otros juegos de rol necesitan sus datos antes del primer render para
+// páginas de novelas, cómics y otros juegos de rol necesitan sus datos antes del primer render para
 // coincidir con ese HTML.
 Promise.allSettled([
   preloadNovelRoute(window.location.pathname),
+  preloadComicRoute(window.location.pathname),
   preloadRpgRoute(window.location.pathname),
 ]).finally(() => {
   if (container.hasChildNodes()) {

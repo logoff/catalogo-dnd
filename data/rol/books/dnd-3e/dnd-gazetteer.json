@@ -1,0 +1,24 @@
+{
+  "slug": "dnd-gazetteer",
+  "system": "dnd-3e",
+  "title": "Dungeons & Dragons Gazetteer",
+  "kind": "setting",
+  "description": "Un cuadernillo de 32 páginas que presenta Greyhawk, el mundo por defecto de la 3.ª edición, con un mapa y un resumen de sus regiones y sus dioses para quien empieza.\n\nEs la introducción breve al mundo que desarrolla el Living Greyhawk Gazetteer. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20031211020800/http://www.wizards.com:80/default.asp?x=products/dndacc/117420000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-09",
+      "format": "paperback",
+      "isbn13": 9780786917426,
+      "cover": "/images/rol/dnd-gazetteer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28490/d-d-gazetteer-3e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "ruins-of-zhentil-keep",
+  "system": "dnd-add2",
+  "title": "Ruins of Zhentil Keep",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una caja sobre las ruinas de Zhentil Keep: su gente, sus lugares y sus criaturas, y tres aventuras, cada una en una época distinta. La escribieron Kevin Melka y John Terra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/ruins-of-zhentil-keep/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16792/ruins-of-zhentil-keep-2e"
+        }
+      ]
+    }
+  ]
+}

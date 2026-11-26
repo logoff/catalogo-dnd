@@ -20,10 +20,15 @@
       "language": "castellano",
       "title": "El concejo de ladrones 5: La madre de las moscas",
       "publisher": "Devir",
+      "cover": "/images/rol/council-of-thieves-5/castellano.webp",
       "purchase_links": [
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/B01C9BHA8C/"
+        },
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4030-pathfinder-consejo-de-ladrones-1-los-bastardos-del-erebo-8436017223682.html"
         }
       ]
     }

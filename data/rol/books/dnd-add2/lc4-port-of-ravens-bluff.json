@@ -1,0 +1,24 @@
+{
+  "slug": "lc4-port-of-ravens-bluff",
+  "system": "dnd-add2",
+  "title": "LC4 Port of Ravens Bluff",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento de la Ciudad Viva sobre el puerto de Ravens Bluff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-lc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/lc4-port-of-ravens-bluff/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16825/lc4-port-of-ravens-bluff-the-living-city-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "sjr6-greyspace",
+  "system": "dnd-add2",
+  "title": "SJR6 Greyspace",
+  "kind": "setting",
+  "settings": ["spelljammer"],
+  "description": "Un suplemento de Spelljammer sobre el espacio alrededor de Oerth, el mundo de Greyhawk, y sus planetas. Lo escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/sjr6-greyspace/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17251/sjr6-greyspace-2e"
+        }
+      ]
+    }
+  ]
+}

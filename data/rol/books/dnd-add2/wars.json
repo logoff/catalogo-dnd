@@ -1,0 +1,24 @@
+{
+  "slug": "wars",
+  "system": "dnd-add2",
+  "title": "Wars",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "Un juego de guerra de las Guerras de Greyhawk. Lo escribió David Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/wars/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17400/greyhawk-wars-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -81,6 +81,40 @@ describe('feed de novedades', () => {
     ])
   })
 
+  it('los libros de las ediciones anteriores de D&D enlazan a /ediciones', () => {
+    const entries = feedEntries(
+      {
+        ...empty,
+        rpgSystems: [
+          { slug: 'dnd-3-5', official: true },
+          { slug: 'dnd-5e-2014', official: true, official_catalog: '/2014' },
+        ],
+        rpgBooks: [
+          {
+            slug: 'players-handbook-3-5',
+            system: 'dnd-3-5',
+            title: "Player's Handbook v.3.5",
+            editions: [{ language: 'english', publisher: 'Wizards of the Coast', date: '2003-07' }],
+          },
+          {
+            slug: 'libro',
+            system: 'dnd-5e-2014',
+            title: 'Libro',
+            editions: [{ language: 'english', publisher: 'Otra', date: '2020-01' }],
+          },
+        ],
+      },
+      today
+    )
+    expect(entries.map((e) => [e.path, e.summary])).toEqual([
+      ['/rol/dnd-5e-2014/libro', 'Otros juegos de rol (Otra).'],
+      [
+        '/ediciones/dnd-3-5/players-handbook-3-5',
+        'Ediciones anteriores de D&D (Wizards of the Coast).',
+      ],
+    ])
+  })
+
   it('deja fuera las fechas futuras y las que solo dan el año', () => {
     const entries = feedEntries(
       {

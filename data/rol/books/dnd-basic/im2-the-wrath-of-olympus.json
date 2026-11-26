@@ -1,0 +1,23 @@
+{
+  "slug": "im2-the-wrath-of-olympus",
+  "system": "dnd-basic",
+  "title": "IM2 The Wrath of Olympus",
+  "kind": "adventure",
+  "description": "Una aventura para la caja de inmortales: los personajes, ya inmortales, liberan a otros inmortales prisioneros de los demonios de la entropía. La escribió Robert J. Blake.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-im.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/im2-the-wrath-of-olympus/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176913/im2-the-wrath-of-olympus-basic"
+        }
+      ]
+    }
+  ]
+}

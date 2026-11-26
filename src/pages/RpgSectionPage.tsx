@@ -4,13 +4,15 @@ import MetaTags from '@/components/seo/MetaTags'
 import Breadcrumbs from '@/components/common/Breadcrumbs'
 import PageHeader from '@/components/ui/PageHeader'
 import SearchField from '@/components/ui/SearchField'
-import { cardClass, selectClass } from '@/components/ui/styles'
+import { cardClass, selectClass, headingClass } from '@/components/ui/styles'
 import RpgBookCard from '@/components/rpg/RpgBookCard'
 import { RpgLoading, SECTION_NAME } from '@/components/rpg/RpgSection'
+import { MovementBadge, MovementsNote } from '@/components/rpg/RpgMovements'
 import { useRpgIndex } from '@/hooks/useRpgData'
-import type { RpgSystem } from '@/types/rpg'
+import type { RpgMovement, RpgSystem } from '@/types/rpg'
 import { filterBooks, sortBooks, type RpgSort } from '@/utils/rpgFilters'
-import { licenseLabel } from '@/utils/rpgTranslations'
+import { rolSection, systemPath } from '@/utils/rpg'
+import { licenseLabel, movementNames } from '@/utils/rpgTranslations'
 
 const SORTS: { value: RpgSort; label: string }[] = [
   { value: 'newest', label: 'Más recientes' },
@@ -52,23 +54,66 @@ export default function RpgSectionPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [system, setSystem] = useState('')
   const [license, setLicense] = useState('')
+  const [movement, setMovement] = useState<RpgMovement | ''>('')
   const [spanishOnly, setSpanishOnly] = useState(false)
   const [sort, setSort] = useState<RpgSort>('newest')
 
+  // Sin las ediciones anteriores de D&D, que tienen su propia sección
+  const rol = useMemo(() => (index ? rolSection(index.systems, index.books) : null), [index])
   const results = useMemo(
     () =>
-      index
-        ? sortBooks(filterBooks(index.books, { searchQuery, system, license, spanishOnly }), sort)
+      rol
+        ? sortBooks(
+            filterBooks(rol.books, { searchQuery, system, license, movement, spanishOnly }),
+            sort
+          )
         : [],
-    [index, searchQuery, system, license, spanishOnly, sort]
+    [rol, searchQuery, system, license, movement, spanishOnly, sort]
   )
 
-  if (!index) return <RpgLoading what="la sección" />
+  if (!index || !rol) return <RpgLoading what="la sección" />
 
-  // Sistemas agrupados por familia, en el orden de la edición más antigua de cada una
-  const families = new Map<string, RpgSystem[]>()
-  for (const s of index.systems) families.set(s.family, [...(families.get(s.family) ?? []), s])
-  const booksOf = (slug: string) => index.books.filter((b) => b.system === slug).length
+  // Sistemas agrupados por familia, en el orden de la edición más antigua de cada una; los OSR y
+  // NSR van aparte, en su propio grupo
+  const groupByFamily = (systems: RpgSystem[]) => {
+    const families = new Map<string, RpgSystem[]>()
+    for (const s of systems) families.set(s.family, [...(families.get(s.family) ?? []), s])
+    return [...families.values()]
+  }
+  const families = groupByFamily(rol.systems.filter((s) => !s.movement))
+  const movementFamilies = groupByFamily(rol.systems.filter((s) => s.movement))
+  const booksOf = (slug: string) => rol.books.filter((b) => b.system === slug).length
+  const familyCards = (groups: RpgSystem[][]) => (
+    <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {groups.map((members) => (
+        <li key={members[0].family} className={cardClass(false, 'p-4')}>
+          <ul className="space-y-2">
+            {members.map((s) => (
+              <li key={s.slug}>
+                <span className="inline-flex flex-wrap items-center gap-2">
+                  <Link
+                    to={systemPath(s)}
+                    className="font-medium text-fg underline-offset-2 hover:underline"
+                  >
+                    {s.name}
+                  </Link>
+                  {s.movement && <MovementBadge movement={s.movement} />}
+                </span>
+                <p className="text-sm text-muted">
+                  {s.publisher} ·{' '}
+                  {s.official_catalog
+                    ? 'catálogo oficial'
+                    : booksOf(s.slug) === 1
+                      ? '1 libro'
+                      : `${booksOf(s.slug)} libros`}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+    </ul>
+  )
 
   return (
     <>
@@ -85,49 +130,36 @@ export default function RpgSectionPage() {
 
         <section aria-labelledby="sistemas" className="mb-12">
           <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-            <h2 id="sistemas" className="text-xl">
+            <h2 id="sistemas" className={headingClass('section')}>
               Sistemas
             </h2>
-            <Link
-              to="/licencias"
-              className="text-sm text-muted underline underline-offset-2 hover:text-fg"
-            >
-              Licencias abiertas
-            </Link>
+            <div className="flex gap-4">
+              <Link
+                to="/rol/arbol"
+                className="text-sm text-muted underline underline-offset-2 hover:text-fg"
+              >
+                Árbol genealógico
+              </Link>
+              <Link
+                to="/licencias"
+                className="text-sm text-muted underline underline-offset-2 hover:text-fg"
+              >
+                Licencias abiertas
+              </Link>
+            </div>
           </div>
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[...families.values()].map((members) => (
-              <li key={members[0].family} className={cardClass(false, 'p-4')}>
-                <ul className="space-y-2">
-                  {members.map((s) => (
-                    <li key={s.slug}>
-                      <Link
-                        to={`/rol/${s.slug}`}
-                        className="font-medium text-fg underline-offset-2 hover:underline"
-                      >
-                        {s.name}
-                      </Link>
-                      <p className="text-sm text-muted">
-                        {s.publisher} ·{' '}
-                        {s.official_catalog
-                          ? 'catálogo oficial'
-                          : booksOf(s.slug) === 1
-                            ? '1 libro'
-                            : `${booksOf(s.slug)} libros`}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
-          </ul>
+          {familyCards(families)}
+          <div className="mt-10 space-y-6">
+            <MovementsNote />
+            {movementFamilies.length > 0 && familyCards(movementFamilies)}
+          </div>
         </section>
 
         <section aria-labelledby="libros">
-          <h2 id="libros" className="mb-4 text-xl">
+          <h2 id="libros" className={headingClass('section', 'mb-4')}>
             Libros
           </h2>
-          <div className="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5 lg:items-end">
+          <div className="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-6 lg:items-end">
             <SearchField
               label="Buscar libros"
               placeholder="Título o editorial"
@@ -142,7 +174,7 @@ export default function RpgSectionPage() {
               onChange={setSystem}
               options={[
                 { value: '', label: 'Todos' },
-                ...index.systems
+                ...rol.systems
                   .filter((s) => booksOf(s.slug) > 0)
                   .map((s) => ({ value: s.slug, label: s.name })),
               ]}
@@ -154,8 +186,17 @@ export default function RpgSectionPage() {
               options={[
                 { value: '', label: 'Todas' },
                 ...index.licenses
-                  .filter((l) => index.books.some((b) => b.licenses.includes(l.slug)))
+                  .filter((l) => rol.books.some((b) => b.licenses.includes(l.slug)))
                   .map((l) => ({ value: l.slug, label: licenseLabel(l) })),
+              ]}
+            />
+            <Select
+              label="Movimiento"
+              value={movement}
+              onChange={(value) => setMovement(value as RpgMovement | '')}
+              options={[
+                { value: '', label: 'Todos' },
+                ...(['osr', 'nsr'] as const).map((m) => ({ value: m, label: movementNames[m] })),
               ]}
             />
             <Select
@@ -184,7 +225,7 @@ export default function RpgSectionPage() {
                 <li key={book.slug}>
                   <RpgBookCard
                     book={book}
-                    system={index.systems.find((s) => s.slug === book.system)}
+                    system={rol.systems.find((s) => s.slug === book.system)}
                   />
                 </li>
               ))}

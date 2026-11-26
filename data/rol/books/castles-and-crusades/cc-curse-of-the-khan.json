@@ -1,0 +1,24 @@
+{
+  "slug": "cc-curse-of-the-khan",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Curse of the Khan",
+  "kind": "adventure",
+  "description": "Una mazmorra para personajes de nivel 6 a 11 en Aihrde, en torno a la Reina Reptante que antaño dominó a hombres, elfos y enanos.\n\nPublicado por Troll Lord Games, escrito por Casey Christofferson, con 70 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/88995/castles-crusades-curse-of-the-khan",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2011-03",
+      "format": "paperback",
+      "isbn13": 9781936822034,
+      "cover": "/images/rol/cc-curse-of-the-khan/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/88995/castles-crusades-curse-of-the-khan"
+        }
+      ]
+    }
+  ]
+}

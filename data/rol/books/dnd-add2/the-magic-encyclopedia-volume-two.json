@@ -1,0 +1,23 @@
+{
+  "slug": "the-magic-encyclopedia-volume-two",
+  "system": "dnd-add2",
+  "title": "The Magic Encyclopedia: Volume Two",
+  "kind": "supplement",
+  "description": "El segundo tomo de la enciclopedia de objetos mágicos de AD&D 2.ª edición. Lo escribieron Connie y Dale «Slade» Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-me.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/the-magic-encyclopedia-volume-two/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17408/the-magic-encyclopedia-volume-ii-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "wg12-vale-of-the-mage",
+  "system": "dnd-add2",
+  "title": "WG12 Vale of the Mage",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura de Greyhawk: los personajes persiguen a unos magos renegados al otro lado de los picos Barrera hasta el Valle del Mago, donde deben pedir ayuda a su señor. La escribió Jean Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/wg12-vale-of-the-mage/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17415/wg12-vale-of-the-mage-2e"
+        }
+      ]
+    }
+  ]
+}

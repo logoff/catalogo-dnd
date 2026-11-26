@@ -1,0 +1,24 @@
+{
+  "slug": "wyrmskull-throne",
+  "system": "dnd-add2",
+  "title": "Wyrmskull Throne",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura de los Reinos Olvidados. La escribieron Steven E. Schend y Thomas M. Reid.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/wyrmskull-throne/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17542/wyrmskull-throne-2e"
+        }
+      ]
+    }
+  ]
+}

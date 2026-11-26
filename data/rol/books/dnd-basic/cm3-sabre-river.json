@@ -1,0 +1,23 @@
+{
+  "slug": "cm3-sabre-river",
+  "system": "dnd-basic",
+  "title": "CM3 Sabre River",
+  "kind": "adventure",
+  "description": "Una aventura de la caja de compañía: las aguas del río Sabre están malditas y los personajes siguen su origen, con un niño inmune a la maldición, hasta una torre dentro de un volcán activo y un río subterráneo. La escribieron Douglas Niles y Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/cm3-sabre-river/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17160/cm3-sabre-river-basic"
+        }
+      ]
+    }
+  ]
+}

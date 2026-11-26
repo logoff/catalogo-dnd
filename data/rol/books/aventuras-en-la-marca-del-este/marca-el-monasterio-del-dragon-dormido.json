@@ -1,0 +1,25 @@
+{
+  "slug": "marca-el-monasterio-del-dragon-dormido",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El monasterio del dragón dormido",
+  "kind": "adventure",
+  "description": "Una aventura de nivel 1 pensada para iniciarse, con un encarte para la pantalla personalizable que por detrás muestra a los jugadores el mapa de la zona.\n\nPublicada en septiembre de 2021.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/27829-aventuras-en-la-marca-del-este-el-monasterio-del-dragon-dormido.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2021-09",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/27829-aventuras-en-la-marca-del-este-el-monasterio-del-dragon-dormido.html",
+      "cover": "/images/rol/marca-el-monasterio-del-dragon-dormido/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/b12-el-monasterio-del-dragon-dormido/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-monasterio-del-dragon-dormido/"
+        }
+      ]
+    }
+  ]
+}

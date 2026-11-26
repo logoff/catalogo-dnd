@@ -1,0 +1,34 @@
+{
+  "slug": "grasp-of-the-emerald-claw",
+  "system": "dnd-3-5",
+  "title": "Grasp of the Emerald Claw",
+  "kind": "adventure",
+  "settings": ["eberron"],
+  "description": "Una aventura para personajes de 6.º nivel que continúa Whispers of the Vampire's Blade, aunque se puede jugar sola, contra la Garra Esmeralda, la orden fanática al servicio de la Sangre de Vol.\n\nCierra la serie de tres aventuras. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Grasp_of_the_Emerald_Claw",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-01",
+      "format": "paperback",
+      "isbn13": 9780786936526,
+      "cover": "/images/rol/grasp-of-the-emerald-claw/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28587/eberron-grasp-of-the-emerald-claw-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "En Manos de la Garra Esmeralda",
+      "publisher": "Devir",
+      "date": "2005-08",
+      "format": "paperback",
+      "isbn13": 9788496422377,
+      "source": "https://www.todostuslibros.com/libros/en-manos-de-la-garra-esmeralda_978-84-96422-37-7"
+    }
+  ]
+}

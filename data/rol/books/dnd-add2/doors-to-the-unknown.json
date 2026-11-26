@@ -1,0 +1,24 @@
+{
+  "slug": "doors-to-the-unknown",
+  "system": "dnd-add2",
+  "title": "Doors to the Unknown",
+  "kind": "adventure",
+  "settings": ["planescape"],
+  "description": "Una pequeña campaña de Planescape alrededor de cuatro portales que aparecen en Sigil cada quinientos años y desaparecen dos meses después, relacionados con la muerte del dios Aoskar a manos de la Señora del Dolor. La escribió Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/doors-to-the-unknown/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17290/doors-to-the-unknown-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -68,6 +68,42 @@ describe('filterMerchandise', () => {
     ).toEqual(['Legend of Drizzt'])
   })
 
+  it('filtra por el grupo de dados y sus tipos', () => {
+    const dice = [
+      ...items,
+      item('Calendario', {
+        group: 'dice',
+        kind: 'advent_calendar',
+        manufacturer: 'FanRoll',
+        editions: [{ purchase_links: link }],
+      }),
+      item('Bandeja', { group: 'dice', kind: 'dice_accessory', manufacturer: 'Ultra Pro' }),
+    ]
+    expect(titles(filterMerchandise(dice, { ...noFilters, groups: ['dice'] }))).toEqual([
+      'Calendario',
+      'Bandeja',
+    ])
+    expect(
+      titles(filterMerchandise(dice, { ...noFilters, groups: ['dice'], kinds: ['dice_accessory'] }))
+    ).toEqual(['Bandeja'])
+  })
+
+  it('filtra por el grupo de papelería y regalo y sus tipos', () => {
+    const stationery = [
+      ...items,
+      item('Diario', { group: 'stationery', kind: 'journal', manufacturer: 'Ten Speed Press' }),
+      item('Puzle', { group: 'stationery', kind: 'puzzle', manufacturer: 'Ten Speed Press' }),
+    ]
+    expect(titles(filterMerchandise(stationery, { ...noFilters, groups: ['stationery'] }))).toEqual(
+      ['Diario', 'Puzle']
+    )
+    expect(
+      titles(
+        filterMerchandise(stationery, { ...noFilters, groups: ['stationery'], kinds: ['puzzle'] })
+      )
+    ).toEqual(['Puzle'])
+  })
+
   it('el castellano solo cuenta si la edición salió en España', () => {
     expect(titles(filterMerchandise(items, { ...noFilters, spainOnly: true }))).toEqual([
       "Heroes' Feast",

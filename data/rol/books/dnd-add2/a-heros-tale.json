@@ -1,0 +1,23 @@
+{
+  "slug": "a-heros-tale",
+  "system": "dnd-add2",
+  "title": "A Hero's Tale",
+  "kind": "adventure",
+  "description": "Diez aventuras para personajes de nivel 1 a 10, enlazadas en una campaña alrededor de un artefacto llamado la Estrella Menguante. La escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/a-heros-tale/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/189072/a-hero-s-tale-2e"
+        }
+      ]
+    }
+  ]
+}

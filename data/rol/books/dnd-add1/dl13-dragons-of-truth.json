@@ -1,0 +1,24 @@
+{
+  "slug": "dl13-dragons-of-truth",
+  "system": "dnd-add1",
+  "title": "DL13 Dragons of Truth",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La decimotercera aventura de la saga de Dragonlance, en el arco final de la guerra. La escribió Tracy Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/dl13-dragons-of-truth/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16921/dl13-dragons-of-truth-1e"
+        }
+      ]
+    }
+  ]
+}

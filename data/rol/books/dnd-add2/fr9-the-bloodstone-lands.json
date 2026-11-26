@@ -1,0 +1,24 @@
+{
+  "slug": "fr9-the-bloodstone-lands",
+  "system": "dnd-add2",
+  "title": "FR9 The Bloodstone Lands",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre las Tierras de Bloodstone, Vaasa y Damara, escenario de la serie de aventuras H y de las novelas de R. A. Salvatore, con diez ideas de aventura. Lo escribió R. A. Salvatore.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/fr9-the-bloodstone-lands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16816/fr9-the-bloodstone-lands-2e"
+        }
+      ]
+    }
+  ]
+}

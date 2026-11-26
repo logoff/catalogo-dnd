@@ -1,0 +1,24 @@
+{
+  "slug": "froa1-ninja-wars",
+  "system": "dnd-add2",
+  "title": "FROA1 Ninja Wars",
+  "kind": "adventure",
+  "settings": ["kara_tur"],
+  "description": "Una aventura de Kara-Tur. La escribió Nigel Findley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/froa1-ninja-wars/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17320/froa1-ninja-wars-2e"
+        }
+      ]
+    }
+  ]
+}

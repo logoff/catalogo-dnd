@@ -1,0 +1,32 @@
+{
+  "slug": "fanroll-50th-anniversary-holmes-dice",
+  "title": "FanRoll D&D 50th Anniversary Holmes Dice Sets",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "FanRoll",
+  "date": "2024-07",
+  "description": "Juegos de dados del 50.º aniversario de Dungeons & Dragons que homenajean los que traía la caja básica de Holmes de los años setenta. Son tres productos: la réplica retro, con los números sin pintar y una cera para rellenarlos como entonces; una versión moderna inspirada en aquellos dados, y el estuche «Then and Now» con los dos juegos. Cada uno lleva d4, d6, d8, dos d10, d12 y d20 en un estuche con el dragón rojo.\n\nSon para coleccionistas y para quien quiere un recuerdo de los orígenes del juego que también sirva en la mesa.",
+  "source": "https://www.fanrolldice.com/products/dd-50th-anniversary-retro-holmes-replica-set",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DDZ2F988/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DDZ8H2GF/"
+        },
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DDZ22YQM/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/images/merchandising/fanroll-50th-anniversary-holmes-dice/0.jpg",
+    "/images/merchandising/fanroll-50th-anniversary-holmes-dice/1.jpg"
+  ]
+}

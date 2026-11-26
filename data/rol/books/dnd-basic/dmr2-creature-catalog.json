@@ -1,0 +1,23 @@
+{
+  "slug": "dmr2-creature-catalog",
+  "system": "dnd-basic",
+  "title": "DMR2 Creature Catalog",
+  "kind": "supplement",
+  "description": "La versión revisada del Creature Catalogue, puesta al día para la Rules Cyclopedia, con los monstruos de las aventuras y suplementos de D&D reunidos en un solo libro. Lo escribió John Nephew.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-dmr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dmr2-creature-catalog/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16989/dmr2-creature-catalog-basic"
+        }
+      ]
+    }
+  ]
+}

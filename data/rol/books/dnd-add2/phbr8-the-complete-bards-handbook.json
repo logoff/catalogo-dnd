@@ -1,0 +1,23 @@
+{
+  "slug": "phbr8-the-complete-bards-handbook",
+  "system": "dnd-add2",
+  "title": "PHBR8 The Complete Bard's Handbook",
+  "kind": "supplement",
+  "description": "El manual de clase para bardos, con kits como el juglar o el escaldo, instrumentos y magia de la música.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/phbr8-the-complete-bards-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16894/phbr7-the-complete-bard-s-handbook-2e"
+        }
+      ]
+    }
+  ]
+}

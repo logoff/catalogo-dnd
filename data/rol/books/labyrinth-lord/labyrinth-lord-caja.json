@@ -1,0 +1,24 @@
+{
+  "slug": "labyrinth-lord-caja",
+  "system": "labyrinth-lord",
+  "title": "Labyrinth Lord",
+  "kind": "core",
+  "core": true,
+  "description": "La edición en castellano de Labyrinth Lord, de Daniel Proctor, en una caja con el Manual del jugador, el Grimorio de conjuros, el Manual del laberinto, el Bestiario de monstruos, la pantalla del Amo del Laberinto, un bloc de hojas de personaje y un juego de dados.\n\nEs la forma más cómoda de empezar con el retroclón del básico de los ochenta en castellano, con traducción de Hugo González; incluye el PDF.",
+  "source": "https://www.nosolorol.com/labyrinth-lord/labyrinth-lord-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Nosolorol",
+      "format": "boxed_set",
+      "isbn13": 9788416780389,
+      "cover": "/images/rol/labyrinth-lord-caja/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/labyrinth-lord/labyrinth-lord-papel"
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "kind": "card_game",
   "manufacturer": "WizKids",
   "date": "2017-01",
-  "description": "Juego de cartas para fiestas de tres a seis jugadores: los magos de un grupo de aventureros se pelean por el tesoro de un dragón lanzándose conjuros con gestos al estilo de piedra, papel o tijera. Gana quien primero reúne veinticinco monedas de oro.\n\nEs para grupos grandes que quieren partidas rápidas y ruidosas, de una media hora. Solo se vende en inglés.",
+  "description": "Juego de cartas para fiestas de tres a seis jugadores: los magos de un grupo de aventureros se pelean por el tesoro de un dragón lanzándose conjuros con gestos al estilo de piedra, papel o tijera. Gana quien primero reúne veinticinco monedas de oro.\n\nEs para grupos grandes que quieren partidas rápidas y ruidosas, de una media hora. Tuvo edición en castellano de SD Games, «Piedra, Papel, Hechizo», hoy agotada.",
   "source": "https://wizkids.com/rock-paper-wizard/",
   "editions": [
     {
@@ -16,7 +16,15 @@
           "url": "https://www.amazon.es/dp/B01LW2INHK/"
         }
       ]
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Dungeons & Dragons: Piedra, Papel, Hechizo",
+      "publisher": "SD Games",
+      "ean": "8435450204111"
     }
   ],
-  "images": ["/images/merchandising/rock-paper-wizard/0.jpg"]
+  "images": ["/images/merchandising/rock-paper-wizard/0.jpg"],
+  "title_es": "Piedra, Papel, Hechizo"
 }

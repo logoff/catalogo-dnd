@@ -1,0 +1,25 @@
+{
+  "slug": "13th-age-2e-heroes-handbook",
+  "system": "13th-age-2e",
+  "title": "13th Age Second Edition: Heroes' Handbook",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de 13th Age 2E: creación de personajes con sus relaciones con los iconos y su algo único, pueblos, clases revisadas, conjuros, dotes, combate con el dado de escalada y las reglas básicas. Creció en el desarrollo hasta casi 350 páginas.\n\nEs uno de los dos tomos del libro básico, junto al Gamemaster's Guide. Solo ha salido en inglés.",
+  "source": "https://pelgranepress.com/13th-age-second-edition/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Pelgrane Press",
+      "date": "2025",
+      "format": "hardcover",
+      "isbn13": 9781912324583,
+      "cover": "/images/rol/13th-age-2e-heroes-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/532641/13th-age-second-edition-heroes-handbook"
+        }
+      ]
+    }
+  ]
+}

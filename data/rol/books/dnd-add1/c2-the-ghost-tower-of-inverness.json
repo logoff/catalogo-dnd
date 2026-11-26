@@ -1,0 +1,23 @@
+{
+  "slug": "c2-the-ghost-tower-of-inverness",
+  "system": "dnd-add1",
+  "title": "C2 The Ghost Tower of Inverness",
+  "kind": "adventure",
+  "description": "Una aventura de torneo: los personajes reúnen las cuatro partes de una llave para entrar en la Torre Fantasma del mago Galap-Dreidel y conseguir la legendaria Gema del Alma. La escribió Allen Hammack.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/c2-the-ghost-tower-of-inverness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17032/c2-the-ghost-tower-of-inverness-1e"
+        }
+      ]
+    }
+  ]
+}

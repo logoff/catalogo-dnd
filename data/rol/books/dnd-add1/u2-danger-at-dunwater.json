@@ -1,0 +1,23 @@
+{
+  "slug": "u2-danger-at-dunwater",
+  "system": "dnd-add1",
+  "title": "U2 Danger at Dunwater",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La segunda aventura de la serie de Saltmarsh, de la filial británica de TSR: los personajes siguen a un ejército creciente de hombres lagarto hasta su guarida para impedir su ataque al pueblo. La escribió Dave J. Browne con Don Turnbull.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-u.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "cover": "/images/rol/u2-danger-at-dunwater/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17070/u2-danger-at-dunwater-1e"
+        }
+      ]
+    }
+  ]
+}

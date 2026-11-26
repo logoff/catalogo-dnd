@@ -1,0 +1,23 @@
+{
+  "slug": "uk7-dark-clouds-gather",
+  "system": "dnd-add1",
+  "title": "UK7 Dark Clouds Gather",
+  "kind": "adventure",
+  "description": "Una aventura en el aire, en cuatro partes de dificultad creciente, para limpiar el nombre de los aarakocra, el pueblo pájaro, acusados de crímenes, que acaba con el ataque al hogar volador de un gigante de las nubes. La escribieron Jim Bambra y Phil Gallagher.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-uk.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/uk7-dark-clouds-gather/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17078/uk7-dark-clouds-gather-1e"
+        }
+      ]
+    }
+  ]
+}

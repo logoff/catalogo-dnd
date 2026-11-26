@@ -1,0 +1,23 @@
+{
+  "slug": "the-silver-key",
+  "system": "dnd-add2",
+  "title": "The Silver Key",
+  "kind": "adventure",
+  "description": "Una aventura para dos a seis personajes de nivel 2 a 8: los orcos patrullan la región mientras la ciudad de Horonshar se prepara para la guerra. La escribió Ted James Thomas Zuvich.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/the-silver-key/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17328/the-silver-key-2e"
+        }
+      ]
+    }
+  ]
+}

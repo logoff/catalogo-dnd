@@ -1,0 +1,23 @@
+{
+  "slug": "the-beasts-of-kraggoth-manor",
+  "system": "hyperborea",
+  "title": "The Beasts of Kraggoth Manor",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 4 a 6 al noreste de Khromarium, tras cruzar el yermo de Lug.\n\nPublicado por North Wind Adventures, escrito por Tim Callahan (author), David Prata (editor), Jeffrey Talanian (additional development), con 52 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/248580/the-beasts-of-kraggoth-manor",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2018-08",
+      "format": "paperback",
+      "cover": "/images/rol/the-beasts-of-kraggoth-manor/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/248580/the-beasts-of-kraggoth-manor"
+        }
+      ]
+    }
+  ]
+}

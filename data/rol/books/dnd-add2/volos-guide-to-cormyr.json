@@ -1,0 +1,33 @@
+{
+  "slug": "volos-guide-to-cormyr",
+  "system": "dnd-add2",
+  "title": "Volo's Guide to Cormyr",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una guía de Volo, el viajero de los Reinos, sobre Cormyr: sus ciudades, posadas y lugares de interés. La escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/fr/fr-volo.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-cormyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17561/volo-s-guide-to-cormyr-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de Volo para Cormyr",
+      "publisher": "Martínez Roca",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-cormyr/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-volo.html"
+    }
+  ]
+}

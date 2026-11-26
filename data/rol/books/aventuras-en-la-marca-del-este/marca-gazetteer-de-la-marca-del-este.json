@@ -1,0 +1,23 @@
+{
+  "slug": "marca-gazetteer-de-la-marca-del-este",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Gazetteer de la Marca del Este",
+  "kind": "setting",
+  "description": "El Gazetteer de la Marca: una caja montada a mano, a imitación de los escenarios de campaña de TSR, con nueve mapas a color que forman el mundo entero de Valion, una nueva pantalla en cartoné y la descripción del mundo, que revisa y completa la caja azul.\n\nSe financió en Verkami y salió en marzo de 2018.",
+  "source": "https://lamarcadeleste.com/2018/02/al-fin-gazetteer.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2018-03",
+      "format": "boxed_set",
+      "source": "https://lamarcadeleste.com/2018/02/al-fin-gazetteer.html",
+      "free_download": "https://codexdelamarca.com/posts/gazetteer/",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/18034-gazetteer-de-aventuras-en-la-marca-del-este",
+        "end": "2017-08-09"
+      }
+    }
+  ]
+}

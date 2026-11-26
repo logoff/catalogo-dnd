@@ -1,0 +1,23 @@
+{
+  "slug": "players-option-skills-and-powers",
+  "system": "dnd-add2",
+  "title": "Player's Option: Skills & Powers",
+  "kind": "supplement",
+  "description": "El Player's Option que convirtió la creación de personajes en un sistema de puntos: características divididas en subcaracterísticas, razas y clases compradas por rasgos y pericias y habilidades personalizadas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "hardcover",
+      "cover": "/images/rol/players-option-skills-and-powers/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16863/player-s-option-skills-power-2e"
+        }
+      ]
+    }
+  ]
+}

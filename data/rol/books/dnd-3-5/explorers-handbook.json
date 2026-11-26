@@ -1,0 +1,25 @@
+{
+  "slug": "explorers-handbook",
+  "system": "dnd-3-5",
+  "title": "Explorer's Handbook",
+  "kind": "setting",
+  "settings": ["eberron"],
+  "description": "Viajes y exploración en Eberron: los continentes más allá de Khorvaire y los medios para llegar a ellos, desde el tren de rayos hasta las aeronaves y los barcos elementales, con planos de vehículos, ganchos de aventura y opciones para personajes viajeros.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Explorer%27s_Handbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-08",
+      "format": "hardcover",
+      "isbn13": 9780786936915,
+      "cover": "/images/rol/explorers-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28711/eberron-explorer-s-handbook-3-5"
+        }
+      ]
+    }
+  ]
+}

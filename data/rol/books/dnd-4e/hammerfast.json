@@ -1,0 +1,24 @@
+{
+  "slug": "hammerfast",
+  "system": "dnd-4e",
+  "title": "Hammerfast: A Dwarven Outpost Adventure Site",
+  "kind": "adventure",
+  "description": "Un enclave enano construido sobre una antigua necrópolis, descrito como escenario de aventuras listo para insertar en cualquier campaña, con lugares, personajes y ganchos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-03",
+      "format": "paperback",
+      "isbn13": 9780786955343,
+      "cover": "/images/rol/hammerfast/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/188113/hammerfast-a-dwarven-outpost-adventure-site-4e"
+        }
+      ]
+    }
+  ]
+}

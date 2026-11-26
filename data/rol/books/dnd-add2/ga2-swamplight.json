@@ -1,0 +1,32 @@
+{
+  "slug": "ga2-swamplight",
+  "system": "dnd-add2",
+  "title": "GA2 Swamplight",
+  "kind": "adventure",
+  "description": "Una de las aventuras generales, para usar en cualquier mundo, en un pantano peligroso para personajes de nivel 7 a 9. La escribió Jean Rabe.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-ga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/ga2-swamplight/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17312/ga2-swamplight-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Peligro en el Pantano",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/ga2-swamplight/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-adv.html"
+    }
+  ]
+}

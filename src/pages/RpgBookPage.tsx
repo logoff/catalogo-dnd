@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { GlobeAltIcon } from '@heroicons/react/24/outline'
+import {
+  ArrowDownTrayIcon,
+  ArrowTopRightOnSquareIcon,
+  GlobeAltIcon,
+} from '@heroicons/react/24/outline'
+import buildDate from 'virtual:build-date'
 import MetaTags from '@/components/seo/MetaTags'
 import { SpanishMark } from '@/components/ui/Badge'
 import Badge from '@/components/ui/Badge'
@@ -9,12 +14,20 @@ import LazyImage from '@/components/common/LazyImage'
 import ImageLightbox from '@/components/common/ImageLightbox'
 import PurchaseButton from '@/components/common/PurchaseButton'
 import PurchaseLinks from '@/components/common/PurchaseLinks'
-import { RpgLoading, RpgPage, UnofficialNotice } from '@/components/rpg/RpgSection'
+import { buttonClass } from '@/components/ui/styles'
+import {
+  RpgLoading,
+  RpgPage,
+  UnofficialNotice,
+  type RpgSectionId,
+} from '@/components/rpg/RpgSection'
 import { useRpgBook, useRpgIndex } from '@/hooks/useRpgData'
 import type { RpgBookWithMeta, RpgEdition } from '@/types/rpg'
 import { PLACEHOLDER_IMAGE, SITE_URL } from '@/utils/constants'
 import { formatISBN } from '@/utils/formatters'
-import { mainCover } from '@/utils/rpg'
+import { campaignLabel } from '@/utils/crowdfunding'
+import { freeDownloadLabel } from '@/utils/rpg'
+import { isDndEdition, mainCover, systemPath } from '@/utils/rpg'
 import { bookKindNames, licenseLabel, rpgFormatNames } from '@/utils/rpgTranslations'
 import { formatPartialDate } from '@/utils/videogameTranslations'
 import NotFoundPage from './NotFoundPage'
@@ -53,7 +66,7 @@ function EditionRow({
         : {edition.title ?? book.title}
       </p>
       <p className="text-sm text-muted">{details.join(' · ')}</p>
-      {links.length > 0 && (
+      {(links.length > 0 || edition.free_download || edition.crowdfunding) && (
         <div className="mt-2 flex flex-wrap gap-2">
           {links.map((link, index) => (
             <PurchaseButton
@@ -61,16 +74,48 @@ function EditionRow({
               primary={first && index === 0}
               store={link.store}
               url={link.url}
+              variant={link.variant}
               tracking={{ rol: `${book.system}/${book.slug}`, idioma: edition.language }}
             />
           ))}
+          {edition.free_download && (
+            // Copia gratuita de la editorial o del autor: no es una tienda ni lleva afiliado
+            <a
+              href={edition.free_download}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={buttonClass('secondary')}
+              data-umami-event="descargar"
+              data-umami-event-rol={`${book.system}/${book.slug}`}
+              data-umami-event-url={edition.free_download}
+            >
+              <span>{freeDownloadLabel(edition.free_download)}</span>
+              <ArrowDownTrayIcon className="size-3.5 opacity-70" aria-hidden="true" />
+            </a>
+          )}
+          {edition.crowdfunding && (
+            // Campaña de micromecenazgo: de dónde sale la edición, no una tienda ni un afiliado
+            <a
+              href={edition.crowdfunding.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={buttonClass('secondary')}
+              data-umami-event="micromecenazgo"
+              data-umami-event-rol={`${book.system}/${book.slug}`}
+              data-umami-event-plataforma={edition.crowdfunding.platform}
+            >
+              <span>{campaignLabel(edition.crowdfunding, buildDate)}</span>
+              <ArrowTopRightOnSquareIcon className="size-3.5 opacity-70" aria-hidden="true" />
+            </a>
+          )}
         </div>
       )}
     </li>
   )
 }
 
-export default function RpgBookPage() {
+// También es la ficha de los libros de las ediciones anteriores de D&D, en /ediciones
+export default function RpgBookPage({ section = 'rol' }: { section?: RpgSectionId }) {
   const { system: systemSlug = '', book: slug = '' } = useParams<{ system: string; book: string }>()
   const state = useRpgBook(systemSlug, slug)
   const index = useRpgIndex()
@@ -81,6 +126,8 @@ export default function RpgBookPage() {
 
   const { book } = state
   const system = index.systems.find((s) => s.slug === book.system)!
+  const edition = isDndEdition(system)
+  if (edition !== (section === 'ediciones')) return <NotFoundPage />
   const cover = mainCover(book)
   const covers = [
     ...new Set([...(cover ? [cover] : []), ...book.editions.flatMap((e) => e.cover ?? [])]),
@@ -99,8 +146,11 @@ export default function RpgBookPage() {
         description={book.description.split('\n\n')[0]}
         image={cover ? `${SITE_URL}${cover}` : undefined}
       />
-      <RpgPage crumbs={[{ label: system.name, to: `/rol/${system.slug}` }, { label: title }]}>
-        {!system.official_catalog && <UnofficialNotice />}
+      <RpgPage
+        section={section}
+        crumbs={[{ label: system.name, to: systemPath(system) }, { label: title }]}
+      >
+        {!system.official && <UnofficialNotice />}
 
         <div className="space-y-10">
           <div className="flex flex-col gap-6 md:flex-row md:gap-10">
@@ -136,10 +186,10 @@ export default function RpgBookPage() {
 
               <DataList>
                 <DataRow
-                  label="Sistema"
+                  label={edition ? 'Edición' : 'Sistema'}
                   value={
                     <Link
-                      to={`/rol/${system.slug}`}
+                      to={systemPath(system)}
                       className="text-fg underline underline-offset-2 hover:text-accent"
                     >
                       {system.name}
@@ -203,7 +253,7 @@ export default function RpgBookPage() {
                   ))}
                 </ul>
                 <p className="mt-4 text-sm text-muted">
-                  No está a la venta en las tiendas del sitio.
+                  {edition ? 'Descatalogado.' : 'No está a la venta en las tiendas del sitio.'}
                 </p>
               </>
             )}

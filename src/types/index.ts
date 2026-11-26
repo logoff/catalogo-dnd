@@ -1,3 +1,4 @@
+import type { World } from '@/utils/worlds'
 export type PublicationType = 'book' | 'boxed_set' | 'accessory'
 
 export type PublicationSubtype =
@@ -40,6 +41,9 @@ export type Store =
   | 'casa_del_libro'
   | 'nextory'
   | 'nosolorol'
+  | 'dmsguild'
+  | 'drivethrurpg'
+  | 'tesoros_de_la_marca'
 
 export interface PurchaseLink {
   store: Store
@@ -94,6 +98,8 @@ export interface ReviewOutlet {
 
 export interface Product {
   code: string
+  // Mundos en los que transcurre o que describe
+  settings?: World[]
   description?: string
   reviews?: Review[]
   publications: Publication[]

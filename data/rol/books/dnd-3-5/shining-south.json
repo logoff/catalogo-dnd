@@ -1,0 +1,34 @@
+{
+  "slug": "shining-south",
+  "system": "dnd-3-5",
+  "title": "Shining South",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Las tierras del extremo sur de Faerûn, más allá del Lago de Vapor: el reino mágico de Halruaa, las llanuras del Shaar, Luiren, la tierra de los medianos, y Dambrath, con su historia, sus lugares, sus personajes y opciones de juego para la región.\n\nPone al día un suplemento de AD&D de 1993 con el mismo título. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Shining_South_(2004_supplement)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-10",
+      "format": "hardcover",
+      "isbn13": 9780786934928,
+      "cover": "/images/rol/shining-south/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3741/shining-south-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Sur Radiante",
+      "publisher": "Devir",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9788496422315,
+      "source": "https://www.todostuslibros.com/libros/el-sur-radiante_978-84-96422-31-5"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "gaz5-the-elves-of-alfheim",
+  "system": "dnd-basic",
+  "title": "GAZ5 The Elves of Alfheim",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El Gazetteer de Alfheim, la nación de los elfos del Mundo Conocido, con sus clanes, su magia y reglas para personajes elfos. Lo escribió Steve Perrin.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/gaz5-the-elves-of-alfheim/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16997/gaz5-the-elves-of-alfheim-basic"
+        }
+      ]
+    }
+  ]
+}

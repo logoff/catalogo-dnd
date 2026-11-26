@@ -1,0 +1,24 @@
+{
+  "slug": "city-system",
+  "system": "dnd-add1",
+  "title": "City System",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una caja con los mapas a todo color de la ciudad de Aguas Profundas: diez grandes mapas que encajan entre sí con calles, callejones y tejados, el mapa de la ciudad entera, el interior del castillo y un cuadernillo con más de doscientos lugares. La escribieron Jeff Grubb y Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "boxed_set",
+      "cover": "/images/rol/city-system/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16783/city-system-1e"
+        }
+      ]
+    }
+  ]
+}

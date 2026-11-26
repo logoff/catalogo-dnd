@@ -1,0 +1,24 @@
+{
+  "slug": "cc-codex-exaltum",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Codex Exaltum",
+  "kind": "supplement",
+  "description": "Los celestiales y ángeles al servicio de los dioses, con sus armas y su hechicería, para Castles & Crusades.\n\nPublicado por Troll Lord Games, escrito por Jason Vey, Stephen Chenault, Davis Chenault, con 128 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/546799/castles-crusades-codex-exaltum",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2025-11",
+      "format": "paperback",
+      "isbn13": 9781952379802,
+      "cover": "/images/rol/cc-codex-exaltum/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/546799/castles-crusades-codex-exaltum"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "demon-queens-enclave",
+  "system": "dnd-4e",
+  "title": "P2 Demon Queen's Enclave",
+  "kind": "adventure",
+  "settings": ["nerath"],
+  "description": "Una aventura para personajes de nivel 14 a 16 en un enclave drow de la Infraoscuridad ligado a la reina demoníaca Lolth.\n\nForma parte de la serie H-P-E. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Demon_Queen%27s_Enclave",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-12",
+      "isbn13": 9780786949779,
+      "cover": "/images/rol/demon-queens-enclave/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/58823/p2-demon-queen-s-enclave-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Enclave de la Reina Demoníaca",
+      "publisher": "Devir",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

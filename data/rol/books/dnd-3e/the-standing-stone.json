@@ -1,0 +1,24 @@
+{
+  "slug": "the-standing-stone",
+  "system": "dnd-3e",
+  "title": "The Standing Stone",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 7 a 9: el hechicero tiefling Dyson usa la magia de un antiguo círculo de piedras druídico para sustituir a los habitantes de una zona por animales con forma humana leales a él.\n\nForma parte de la serie de aventuras de la 3.ª edición que culmina en Bastion of Broken Souls con el gran dragón Ashardalon. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20040217195106/http://www.wizards.com:80/default.asp?x=products/dndacc/882320000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-04",
+      "format": "paperback",
+      "isbn13": 9780786918386,
+      "cover": "/images/rol/the-standing-stone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/26025/the-standing-stone-3e"
+        }
+      ]
+    }
+  ]
+}

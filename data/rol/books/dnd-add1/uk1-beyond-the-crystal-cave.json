@@ -1,0 +1,23 @@
+{
+  "slug": "uk1-beyond-the-crystal-cave",
+  "system": "dnd-add1",
+  "title": "UK1 Beyond the Crystal Cave",
+  "kind": "adventure",
+  "description": "Una aventura de la filial británica de TSR que premia resolver los encuentros con inteligencia y sin violencia: los personajes rescatan a una pareja fugada en la Cueva de los Ecos y entran en el jardín mágico de Porpherio. La escribieron Dave J. Browne, Tom Kirby y Graeme Morris.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-uk.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/uk1-beyond-the-crystal-cave/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17072/uk1-beyond-the-crystal-cave-1e"
+        }
+      ]
+    }
+  ]
+}

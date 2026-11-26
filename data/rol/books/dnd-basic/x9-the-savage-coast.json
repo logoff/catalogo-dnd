@@ -1,0 +1,23 @@
+{
+  "slug": "x9-the-savage-coast",
+  "system": "dnd-basic",
+  "title": "X9 The Savage Coast",
+  "kind": "adventure",
+  "description": "Una aventura en la península de la Cabeza de Orco, en la Costa Salvaje, entre ciudades perdidas, bestias terribles y caníbales, que presentó esa región de Mystara. La escribieron Merle y Jackie Rasmussen y Anne C. Gray.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/x9-the-savage-coast/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17117/x9-the-savage-coast-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "cy-borg-third-party-license",
+  "name": "CY_BORG Third Party License",
+  "short_name": "Licencia de terceros de Cy_Borg",
+  "kind": "community_license",
+  "holder": "Stockholm Kartell",
+  "date": "2022",
+  "description": "La licencia con la que los autores de Cy_Borg permiten publicar, gratis o a la venta y sin pagarles nada, material compatible con el juego, y reutilizar libremente sus reglas, los nombres de su mundo, el mapa de Cy y los logotipos de sus organizaciones.\n\nEs una copia casi exacta de la licencia de terceros de Mörk Borg, con otro nombre y otro logotipo: tampoco permite reutilizar ni traducir el texto ni el arte de los libros, ni dar a entender que el producto es oficial.",
+  "links": [
+    {
+      "label": "Licencia",
+      "url": "https://morkborg.com/cb-license/"
+    }
+  ]
+}

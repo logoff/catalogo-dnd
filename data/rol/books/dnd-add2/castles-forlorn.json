@@ -1,0 +1,24 @@
+{
+  "slug": "castles-forlorn",
+  "system": "dnd-add2",
+  "title": "Castles Forlorn",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft en la mansión de Tristenoira, de ocho niveles, que existe a la vez en tres épocas distintas en el mismo lugar. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/castles-forlorn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17476/castles-forlorn-2e"
+        }
+      ]
+    }
+  ]
+}

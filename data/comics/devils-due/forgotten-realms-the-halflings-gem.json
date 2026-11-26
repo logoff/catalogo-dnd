@@ -1,0 +1,74 @@
+{
+  "slug": "forgotten-realms-the-halflings-gem",
+  "title": "Forgotten Realms: The Halfling's Gem",
+  "title_es": "Reinos Olvidados 6. El valle del viento helado. Libro 3",
+  "publisher": "Devil's Due Publishing",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "2007-08",
+  "end_date": "2007-12",
+  "issue_count": 3,
+  "writers": ["R. A. Salvatore", "Andrew Dabb"],
+  "artists": ["Tim Seeley"],
+  "description": "Miniserie de Devil's Due que adapta La gema del halfling de R. A. Salvatore: Drizzt y Wulfgar viajan al sur, hasta Calimport, para rescatar a Regis del asesino Artemis Entreri. Cierra la adaptación de la trilogía del Valle del Viento Helado.\n\nIDW la reeditó en 2017 y Norma la publicó en castellano en 2009 como tercer libro de El valle del viento helado.",
+  "source": "https://www.comics.org/series/34101/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2007-08",
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/1.webp",
+      "cover_source": "https://www.comics.org/series/34101/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2007-10",
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/2.webp",
+      "cover_source": "https://www.comics.org/series/34101/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2007-12",
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/3.webp",
+      "cover_source": "https://www.comics.org/series/34101/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "The Legend of Drizzt Vol. 6: The Halfling's Gem",
+      "publisher": "IDW Publishing",
+      "date": "2017-04",
+      "format": "paperback",
+      "isbn13": 9781631408656,
+      "contents": [{ "series": "forgotten-realms-the-halflings-gem", "issues": "1-3" }],
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/9781631408656.webp",
+      "cover_source": "https://www.amazon.es/dp/1631408658/"
+    },
+    {
+      "language": "english",
+      "title": "The Legend of Drizzt Vol. 6: The Halfling's Gem",
+      "publisher": "Devil's Due Publishing",
+      "date": "2007",
+      "format": "paperback",
+      "isbn13": 9781934692165,
+      "contents": [{ "series": "forgotten-realms-the-halflings-gem", "issues": "1-3" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1934692166/" }],
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/9781934692165.webp",
+      "cover_source": "https://www.amazon.es/dp/1934692166/"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Reinos Olvidados 6. El valle del viento helado. Libro 3",
+      "publisher": "Norma Editorial",
+      "date": "2009-09-25",
+      "format": "paperback",
+      "isbn13": 9788498479607,
+      "contents": [{ "series": "forgotten-realms-the-halflings-gem", "issues": "1-3" }],
+      "cover": "/images/comics/forgotten-realms-the-halflings-gem/9788498479607.webp",
+      "cover_source": "https://www.amazon.es/dp/8498479606/"
+    }
+  ],
+  "continues": "forgotten-realms-streams-of-silver",
+  "related_novels": ["the-halflings-gem"]
+}

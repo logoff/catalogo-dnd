@@ -1,0 +1,32 @@
+{
+  "slug": "manual-of-the-planes-3e",
+  "system": "dnd-3e",
+  "title": "Manual of the Planes",
+  "kind": "supplement",
+  "description": "La cosmología de D&D en la 3.ª edición: cómo funcionan los planos y cómo viajar entre ellos, la Gran Rueda con sus planos interiores, exteriores y de transición, sus rasgos, sus habitantes y monstruos, y cómo diseñar cosmologías propias.\n\nComparte título con el libro de AD&D de 1987. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030704155902/http://wizards.com:80/default.asp?x=products/dndacc/882420000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-09",
+      "format": "hardcover",
+      "isbn13": 9780786918508,
+      "cover": "/images/rol/manual-of-the-planes-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25109/manual-of-the-planes-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de los Planos",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712165,
+      "source": "https://www.todostuslibros.com/libros/manual-de-los-planos_978-84-95712-16-5"
+    }
+  ]
+}

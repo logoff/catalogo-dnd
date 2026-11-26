@@ -1,0 +1,23 @@
+{
+  "slug": "x7-the-war-rafts-of-kron",
+  "system": "dnd-basic",
+  "title": "X7 The War Rafts of Kron",
+  "kind": "adventure",
+  "description": "Una aventura en el mar y bajo el agua, con reglas para aventuras submarinas, las balsas de guerra de Kron y la ciudad submarina de Colhador; la recompensa es una isla tropical propia. La escribió Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/x7-the-war-rafts-of-kron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17099/x7-the-war-rafts-of-kron-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -12,6 +12,7 @@ interface ImportMetaEnv {
   readonly VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM?: string
   readonly VITE_AFFILIATE_NEXTORY_PROGRAM?: string
   readonly VITE_AFFILIATE_NOSOLOROL_PROGRAM?: string
+  readonly VITE_AFFILIATE_DRIVETHRU_ID?: string
 }
 
 // Índice de novelas generado en el build por el plugin novelsIndex (vite.config.ts)
@@ -28,6 +29,26 @@ declare module 'virtual:novels-latest' {
   export default latest
 }
 
+// Índice de cómics generado en el build por el plugin comicsIndex (vite.config.ts)
+declare module 'virtual:comics-index' {
+  import type { ComicSummary } from '@/types/comic'
+  const index: ComicSummary[]
+  export default index
+}
+
+// Cómics que enlazan a cada ficha de otra sección (plugin comicsIndex)
+declare module 'virtual:comics-related' {
+  import type { ComicRelations } from '@/types/comic'
+  const related: ComicRelations
+  export default related
+}
+
+// Cuántas series de cómics hay, para la portada (plugin comicsIndex)
+declare module 'virtual:comics-stats' {
+  const stats: { total: number }
+  export default stats
+}
+
 // Licencias, sistemas y resumen de los libros de otros juegos de rol (plugin rpgIndex)
 declare module 'virtual:rpg-index' {
   import type { RpgIndex } from '@/types/rpg'
@@ -39,4 +60,24 @@ declare module 'virtual:rpg-index' {
 declare module 'virtual:rpg-stats' {
   const stats: { systems: number; books: number }
   export default stats
+}
+
+// Novedades: lo próximo, lo reciente y lo anunciado, calculado en el build (plugin releasesIndex)
+declare module 'virtual:build-date' {
+  // Día del build en hora de Madrid (AAAA-MM-DD)
+  const today: string
+  export default today
+}
+
+declare module 'virtual:releases' {
+  import type { ReleasesIndex } from '@/types/releases'
+  const releases: ReleasesIndex
+  export default releases
+}
+
+// Resúmenes mensuales de cambios del catálogo, del más antiguo al más reciente (plugin monthlySummaries)
+declare module 'virtual:monthly-summaries' {
+  import type { MonthlySummary } from '@/types/monthlySummary'
+  const summaries: { months: MonthlySummary[] }
+  export default summaries
 }

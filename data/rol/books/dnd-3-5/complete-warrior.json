@@ -1,0 +1,33 @@
+{
+  "slug": "complete-warrior",
+  "system": "dnd-3-5",
+  "title": "Complete Warrior",
+  "kind": "supplement",
+  "description": "Opciones para personajes que viven de las armas: tres clases nuevas (el hexblade, que maldice a sus enemigos; el samurái y el espadachín), decenas de clases de prestigio, dotes, entre ellas las tácticas, equipo, conjuros para guerreros y consejos para llevar personajes marciales.\n\nAbrió la serie Complete, que sustituyó a las guías de clase de la 3.ª edición, y recoge lo que no encaja en los demás libros de la serie. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Complete_Warrior",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003",
+      "format": "hardcover",
+      "isbn13": 9780786928804,
+      "cover": "/images/rol/complete-warrior/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/1750/complete-warrior-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Combatiente Completo",
+      "publisher": "Devir",
+      "date": "2004-06",
+      "format": "hardcover",
+      "isbn13": 9788496262577,
+      "source": "https://www.todostuslibros.com/libros/el-combatiente-completo_978-84-96262-57-7"
+    }
+  ]
+}

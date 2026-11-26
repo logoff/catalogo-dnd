@@ -1,0 +1,24 @@
+{
+  "slug": "war-captains-companion",
+  "system": "dnd-add2",
+  "title": "War Captain's Companion",
+  "kind": "setting",
+  "settings": ["spelljammer"],
+  "description": "Una caja de Spelljammer con reglas para el combate entre naves espaciales. La escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/war-captains-companion/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17242/war-captain-s-companion-2e"
+        }
+      ]
+    }
+  ]
+}

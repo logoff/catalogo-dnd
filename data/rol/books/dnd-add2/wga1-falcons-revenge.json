@@ -1,0 +1,24 @@
+{
+  "slug": "wga1-falcons-revenge",
+  "system": "dnd-add2",
+  "title": "WGA1 Falcon's Revenge",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura en la ciudad de Greyhawk contra un culto malvado, con edificios de cartulina para montar un muelle. La escribieron Richard W. y Anne Brown.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/wga1-falcons-revenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17418/wga1-falcon-s-revenge-2e"
+        }
+      ]
+    }
+  ]
+}

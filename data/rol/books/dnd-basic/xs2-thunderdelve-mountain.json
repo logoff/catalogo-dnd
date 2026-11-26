@@ -1,0 +1,23 @@
+{
+  "slug": "xs2-thunderdelve-mountain",
+  "system": "dnd-basic",
+  "title": "XS2 Thunderdelve Mountain",
+  "kind": "adventure",
+  "description": "Una aventura en solitario para un enano que debe vencer a Fyrsnaca, un gusano que escupe fuego; también se puede jugar en grupo. La escribió William Carlson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/xs2-thunderdelve-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17155/xs2-thunderdelve-mountain-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-city-of-greyhawk",
+  "system": "dnd-add2",
+  "title": "The City of Greyhawk",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "La ciudad de Greyhawk en caja: sus barrios, sus personajes y aventuras.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-city-of-greyhawk/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/224789/the-city-of-greyhawk-2e"
+        }
+      ]
+    }
+  ]
+}

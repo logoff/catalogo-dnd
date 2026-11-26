@@ -1,0 +1,24 @@
+{
+  "slug": "dss2-earth-air-fire-and-water",
+  "system": "dnd-add2",
+  "title": "DSS2 Earth, Air, Fire, and Water",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Un suplemento de Dark Sun sobre los clérigos, que en Athas no adoran a dioses, sino que pactan con los cuatro planos elementales: sus deberes, sus objetivos y sus poderes. Lo escribió Shane Lacy Hensley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dss.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dss2-earth-air-fire-and-water/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17194/dss2-earth-air-fire-and-water-2e"
+        }
+      ]
+    }
+  ]
+}

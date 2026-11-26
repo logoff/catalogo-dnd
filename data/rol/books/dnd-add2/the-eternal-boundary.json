@@ -1,0 +1,32 @@
+{
+  "slug": "the-eternal-boundary",
+  "system": "dnd-add2",
+  "title": "The Eternal Boundary",
+  "kind": "adventure",
+  "settings": ["planescape"],
+  "description": "La primera aventura de Planescape, en Sigil: los personajes buscan a un loco que tiene la llave de un portal, recorren los barrios bajos de la Colmena, a la Cábala Sombría y el Depósito de Cadáveres, y descubren una conspiración. La escribió L. Richard Baker III.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/the-eternal-boundary/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17300/the-eternal-boundary-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Frontera Eterna",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/the-eternal-boundary/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

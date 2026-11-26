@@ -1,0 +1,25 @@
+{
+  "slug": "monster-vault-threats-to-the-nentir-vale",
+  "system": "dnd-4e",
+  "title": "Monster Vault: Threats to the Nentir Vale",
+  "kind": "supplement",
+  "settings": ["nerath"],
+  "description": "Monstruos y villanos del Valle de Nentir, el escenario por defecto de la 4.ª edición, con sus tácticas y su historia, fichas de cartón para el tablero y un mapa de batalla de doble cara.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Monster_Vault:_Threats_to_the_Nentir_Vale",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-06",
+      "format": "paperback",
+      "isbn13": 9780786958382,
+      "cover": "/images/rol/monster-vault-threats-to-the-nentir-vale/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/158948/monster-vault-threats-to-the-nentir-vale-4e"
+        }
+      ]
+    }
+  ]
+}

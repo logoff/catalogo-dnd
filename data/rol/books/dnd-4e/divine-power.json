@@ -1,0 +1,24 @@
+{
+  "slug": "divine-power",
+  "system": "dnd-4e",
+  "title": "Divine Power",
+  "kind": "supplement",
+  "description": "Opciones para las clases divinas: vengadores, clérigos, invocadores y paladines, con variantes, poderes, dotes, dominios, sendas de leyenda y destinos épicos.\n\nForma parte de la serie Power. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Divine_Power",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-07",
+      "format": "hardcover",
+      "isbn13": 9780786949823,
+      "cover": "/images/rol/divine-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/142370/divine-power-4e"
+        }
+      ]
+    }
+  ]
+}

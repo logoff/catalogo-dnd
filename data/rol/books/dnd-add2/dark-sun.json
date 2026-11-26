@@ -1,0 +1,31 @@
+{
+  "slug": "dark-sun",
+  "system": "dnd-add2",
+  "title": "Dark Sun",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "La caja original de Dark Sun: Athas, un mundo desértico arrasado por la magia, gobernado por reyes hechiceros, con psiónica para todos los personajes, razas como los thri-kreen y los mul y un tono de supervivencia brutal.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/dark-sun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17169/dark-sun-boxed-set-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Dark Sun: Caja Básica",
+      "publisher": "Zinco",
+      "format": "boxed_set",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "cm4-earthshaker",
+  "system": "dnd-basic",
+  "title": "CM4 Earthshaker!",
+  "kind": "adventure",
+  "description": "Una aventura de la caja de compañía: mientras gobiernan una baronía, los personajes deben impedir que un gigantesco humanoide mecánico que llega con una feria ambulante caiga en malas manos, recorriéndolo por dentro. La escribió David «Zeb» Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/cm4-earthshaker/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17116/cm4-earthshaker-basic"
+        }
+      ]
+    }
+  ]
+}

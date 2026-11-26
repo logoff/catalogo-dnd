@@ -9,7 +9,13 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2017"
+      "date": "2017",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/221451/prepared-2-a-dozen-one-shot-adventures-for-5th-edition"
+        }
+      ]
     }
   ]
 }

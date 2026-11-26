@@ -1,0 +1,29 @@
+{
+  "slug": "the-electrum-archive",
+  "name": "The Electrum Archive",
+  "family": "the-electrum-archive",
+  "publisher": "Cult of the Lizard King",
+  "date": "2022",
+  "movement": "nsr",
+  "description": "Zine de ciencia fantástica de Emiel Boven ambientado en Orn, un mundo abandonado por una raza alienígena, los Antiguos, cuya tinta mágica es a la vez moneda y fuente de poder; inspirado en Morrowind, Dark Sun y Ultraviolet Grasslands.\n\nSus reglas, muy sencillas, parten de Cairn, Mausritter y Whitehack. En castellano lo publica Outremer como El Archivo de Electro.",
+  "features": [
+    "Ciencia fantástica extraña",
+    "El mundo de Orn",
+    "Reglas de Cairn y Mausritter",
+    "Formato de zine"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "cairn",
+      "kind": "compatible",
+      "note": "Sus reglas parten de Cairn, Mausritter y Whitehack, según su edición en castellano."
+    }
+  ],
+  "links": [
+    {
+      "label": "Outremer",
+      "url": "https://outremer.es/producto/el-archivo-de-electro/"
+    }
+  ]
+}

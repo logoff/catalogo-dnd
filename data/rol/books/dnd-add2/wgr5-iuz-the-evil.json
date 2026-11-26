@@ -1,0 +1,24 @@
+{
+  "slug": "wgr5-iuz-the-evil",
+  "system": "dnd-add2",
+  "title": "WGR5 Iuz the Evil",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "Un suplemento de Greyhawk sobre el imperio del semidiós maligno Iuz después de las Guerras de Greyhawk. Lo escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/wgr5-iuz-the-evil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17432/wgr5-iuz-the-evil-2e"
+        }
+      ]
+    }
+  ]
+}

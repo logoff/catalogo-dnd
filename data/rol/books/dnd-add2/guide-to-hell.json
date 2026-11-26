@@ -1,0 +1,23 @@
+{
+  "slug": "guide-to-hell",
+  "system": "dnd-add2",
+  "title": "Guide to Hell",
+  "kind": "supplement",
+  "description": "Un suplemento sobre los Nueve Infiernos de Baator, con conjuros, objetos mágicos, kits, la raza de los medio diablos y una tabla para expulsar diablos. Lo escribió Chris Pramas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/guide-to-hell/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17390/guide-to-hell-2e"
+        }
+      ]
+    }
+  ]
+}

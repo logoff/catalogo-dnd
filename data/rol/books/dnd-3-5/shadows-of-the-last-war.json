@@ -1,0 +1,34 @@
+{
+  "slug": "shadows-of-the-last-war",
+  "system": "dnd-3-5",
+  "title": "Shadows of the Last War",
+  "kind": "adventure",
+  "settings": ["eberron"],
+  "description": "Una aventura para personajes de 2.º nivel que sigue a The Forgotten Forge, la aventura del libro básico, aunque se puede jugar sola. Es la primera de una serie de tres aventuras enlazadas.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Shadows_of_the_Last_War",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-07",
+      "format": "paperback",
+      "isbn13": 9780786932764,
+      "cover": "/images/rol/shadows-of-the-last-war/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3739/eberron-shadows-of-the-last-war-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Sombras de la Última Guerra",
+      "publisher": "Devir",
+      "date": "2004",
+      "isbn13": 9788496422049,
+      "cover": "/images/rol/shadows-of-the-last-war/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/sombras-de-la-ultima-guerra_978-84-96422-04-9"
+    }
+  ]
+}

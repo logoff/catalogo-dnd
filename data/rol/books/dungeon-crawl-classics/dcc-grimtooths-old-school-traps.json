@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-grimtooths-old-school-traps",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG: Grimtooth's Old-School Traps",
+  "kind": "supplement",
+  "description": "Más de ciento cincuenta trampas clásicas de los libros de Grimtooth, desarrolladas con las reglas de DCC para llevarlas directamente a la mesa.\n\nPublicado por Goodman Games.",
+  "source": "https://www.drivethrurpg.com/en/product/503605/dcc-rpg-grimtooth-s-old-school-traps",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2024-11",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-grimtooths-old-school-traps/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/503605/dcc-rpg-grimtooth-s-old-school-traps"
+        }
+      ]
+    }
+  ]
+}

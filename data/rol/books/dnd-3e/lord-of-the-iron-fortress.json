@@ -1,0 +1,24 @@
+{
+  "slug": "lord-of-the-iron-fortress",
+  "system": "dnd-3e",
+  "title": "Lord of the Iron Fortress",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 15 a 17 en Acherón: Imperagon, medio duergar y medio dragón y señor de la Fortaleza de Hierro de Zandikar, está rehaciendo la Espada de Poder Ígneo del sultán de los efrits, cuyos pedazos se dispersaron por los planos.\n\nForma parte de la serie de aventuras de la 3.ª edición que culmina en Bastion of Broken Souls con el gran dragón Ashardalon. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20030118231417/http://www.wizards.com:80/default.asp?x=products/dndacc/881630000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2002-01",
+      "format": "paperback",
+      "isbn13": 9780786926527,
+      "cover": "/images/rol/lord-of-the-iron-fortress/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28472/lord-of-the-iron-fortress-3e"
+        }
+      ]
+    }
+  ]
+}

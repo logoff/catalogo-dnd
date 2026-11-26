@@ -1,0 +1,24 @@
+{
+  "slug": "sja4-under-the-dark-fist",
+  "system": "dnd-add2",
+  "title": "SJA4 Under the Dark Fist",
+  "kind": "adventure",
+  "settings": ["spelljammer"],
+  "description": "Una aventura de Spelljammer. La escribió Grant Boucher.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sja.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/sja4-under-the-dark-fist/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17248/sja4-under-the-dark-fist-2e"
+        }
+      ]
+    }
+  ]
+}

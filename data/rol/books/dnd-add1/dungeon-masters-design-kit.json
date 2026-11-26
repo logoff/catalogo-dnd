@@ -1,0 +1,22 @@
+{
+  "slug": "dungeon-masters-design-kit",
+  "system": "dnd-add1",
+  "title": "Dungeon Master's Design Kit",
+  "kind": "supplement",
+  "description": "Un juego de herramientas para que el Dungeon Master diseñe sus propias aventuras, con fichas, tablas y consejos para organizar tramas, encuentros y personajes. Lo escribieron Harold Johnson y Aaron Allston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmacc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "cover": "/images/rol/dungeon-masters-design-kit/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17023/dungeon-master-s-design-kit-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-awakening",
+  "system": "dnd-add2",
+  "title": "The Awakening",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/the-awakening/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/139188/the-awakening-2e"
+        }
+      ]
+    }
+  ]
+}

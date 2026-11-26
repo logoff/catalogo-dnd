@@ -1,0 +1,23 @@
+{
+  "slug": "da3-city-of-the-gods",
+  "system": "dnd-basic",
+  "title": "DA3 City of the Gods",
+  "kind": "adventure",
+  "description": "Una aventura de la serie DA, cuatro mil años en el pasado: los señores de Blackmoor envían a los personajes a la Ciudad de los Dioses a negociar, o robar, una magia divina, mientras el culto de la Rana vuelve a actuar. La escribieron Dave Arneson y David J. Ritchie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-da.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/da3-city-of-the-gods/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17132/da3-city-of-the-gods-basic"
+        }
+      ]
+    }
+  ]
+}

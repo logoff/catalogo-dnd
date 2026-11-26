@@ -1,0 +1,23 @@
+{
+  "slug": "in-the-phantoms-wake",
+  "system": "dnd-basic",
+  "title": "In the Phantom's Wake",
+  "kind": "adventure",
+  "description": "Una aventura corta de Thunder Rift para la caja de iniciación de 1991. La escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/in-the-phantoms-wake/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17154/in-the-phantom-s-wake-basic"
+        }
+      ]
+    }
+  ]
+}

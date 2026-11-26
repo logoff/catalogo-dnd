@@ -1,0 +1,23 @@
+{
+  "slug": "r2-the-investigation-of-hydell",
+  "system": "dnd-add1",
+  "title": "R2 The Investigation of Hydell",
+  "kind": "adventure",
+  "description": "Una aventura de torneo de la RPGA en la que los personajes investigan una organización de traficantes de esclavos. La escribió Frank Mentzer.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-r.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/r2-the-investigation-of-hydell/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/281745/r2-the-investigation-of-hydell-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "marca-muerte-en-la-mansion-del-mago-malifax",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Muerte en la mansión del mago Malifax",
+  "kind": "adventure",
+  "description": "La Campana Negra suena trece veces cuando muere el mago Malifax, y su mansión a las afueras de Marvalar, de la que nadie ha salido en años, queda al alcance de los más osados.\n\nAventura de Clásicos de la Marca publicada en 2018.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/22016-aventuras-en-la-marca-del-este-muerte-en-la-mansin-del-mago-malifax.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2018-03",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/22016-aventuras-en-la-marca-del-este-muerte-en-la-mansin-del-mago-malifax.html",
+      "cover": "/images/rol/marca-muerte-en-la-mansion-del-mago-malifax/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/b4-muerte-en-la-mansion-del-mago-malifax/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/muerte-la-mansion-del-mago-malifax/"
+        }
+      ]
+    }
+  ]
+}

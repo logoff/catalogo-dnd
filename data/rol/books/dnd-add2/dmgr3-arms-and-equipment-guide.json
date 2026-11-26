@@ -1,0 +1,31 @@
+{
+  "slug": "dmgr3-arms-and-equipment-guide",
+  "system": "dnd-add2",
+  "title": "DMGR3 Arms and Equipment Guide",
+  "kind": "supplement",
+  "description": "Armas, armaduras, ropa, vehículos y equipo de todas las épocas para AD&D 2.ª edición.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr3-arms-and-equipment-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/113391/dmgr3-arms-and-equipment-guide-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de Armas y Equipos",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr3-arms-and-equipment-guide/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

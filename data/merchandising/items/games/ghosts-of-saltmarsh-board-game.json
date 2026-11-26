@@ -1,0 +1,28 @@
+{
+  "slug": "ghosts-of-saltmarsh-board-game",
+  "title": "Dungeons & Dragons: Ghosts of Saltmarsh Adventure System Board Game Expansion",
+  "group": "games",
+  "kind": "board_game",
+  "manufacturer": "WizKids",
+  "date": "2021",
+  "description": "Expansión de los juegos de mesa del sistema de aventuras de D&D, basada en «Ghosts of Saltmarsh»: añade aventuras, enemigos y mazmorras costeras y marinas, y se juega con cualquiera de los juegos de la serie, como «Tomb of Annihilation» o «Temple of Elemental Evil».\n\nEs para quien ya tiene un juego del sistema de aventuras y quiere más campañas. Solo se vende en inglés.",
+  "source": "https://wizkids.com/dungeons-dragons-ghosts-of-saltmarsh-adventure-system-board-game-expansion/",
+  "editions": [
+    {
+      "language": "english",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B096L7M36Y/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/ghosts-of-saltmarsh-board-game/0.jpg"],
+  "related_products": [
+    {
+      "edition": "5e",
+      "code": "GOS"
+    }
+  ]
+}

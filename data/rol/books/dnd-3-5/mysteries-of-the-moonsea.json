@@ -1,0 +1,34 @@
+{
+  "slug": "mysteries-of-the-moonsea",
+  "system": "dnd-3-5",
+  "title": "Mysteries of the Moonsea",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La región del Mar de la Luna, una frontera peligrosa de tiranos, monstruos y conspiraciones: mapas y descripciones de Melvaunt, Hillsfar, Mulmaster y Zhentil Keep, quince villanos de la zona y 37 aventuras cortas que se pueden jugar sueltas o enlazar en una campaña.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Mysteries_of_the_Moonsea",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-06",
+      "format": "hardcover",
+      "isbn13": 9780786939152,
+      "cover": "/images/rol/mysteries-of-the-moonsea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28745/mysteries-of-the-moonsea-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Misterios del Mar de la Luna",
+      "publisher": "Devir",
+      "date": "2007-06",
+      "isbn13": 9788496422971,
+      "cover": "/images/rol/mysteries-of-the-moonsea/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/misterios-del-mar-de-la-luna_978-84-96422-97-1"
+    }
+  ]
+}

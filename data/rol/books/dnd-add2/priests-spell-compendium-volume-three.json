@@ -1,0 +1,23 @@
+{
+  "slug": "priests-spell-compendium-volume-three",
+  "system": "dnd-add2",
+  "title": "Priest's Spell Compendium Volume Three",
+  "kind": "supplement",
+  "description": "El último de los tres tomos que reúnen en orden alfabético todos los conjuros de sacerdote publicados por TSR.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-wsc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/priests-spell-compendium-volume-three/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17384/priest-s-spell-compendium-vol-3-2e"
+        }
+      ]
+    }
+  ]
+}

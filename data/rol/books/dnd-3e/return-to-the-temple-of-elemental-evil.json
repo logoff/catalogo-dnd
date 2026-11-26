@@ -1,0 +1,33 @@
+{
+  "slug": "return-to-the-temple-of-elemental-evil",
+  "system": "dnd-3e",
+  "title": "Return to the Temple of Elemental Evil",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una gran campaña de Greyhawk para personajes de nivel 4 a 14, secuela de la aventura clásica de 1985: el culto del Ojo Elemental Anciano vuelve a reunirse en torno a su templo, ahora por tercera vez.\n\nSe considera una de las mejores aventuras de D&D. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030707110255/http://www.wizards.com:80/default.asp?x=products/dndacc/882370000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-06",
+      "format": "paperback",
+      "isbn13": 9780786918430,
+      "cover": "/images/rol/return-to-the-temple-of-elemental-evil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28447/return-to-the-temple-of-elemental-evil-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Retorno al Templo del Mal Elemental",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712110,
+      "source": "https://www.todostuslibros.com/libros/retorno-al-templo-del-mal-elemental_978-84-95712-11-0"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "fr10-old-empires",
+  "system": "dnd-add2",
+  "title": "FR10 Old Empires",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre los Viejos Imperios, los reinos antiguos del sur de Faerûn de inspiración egipcia y clásica: Mulhorand, Unther y Chessenta. Lo escribió Scott Bennie.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/fr10-old-empires/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16817/fr10-old-empires-2e"
+        }
+      ]
+    }
+  ]
+}

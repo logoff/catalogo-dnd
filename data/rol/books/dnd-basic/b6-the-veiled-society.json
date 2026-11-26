@@ -1,0 +1,23 @@
+{
+  "slug": "b6-the-veiled-society",
+  "system": "dnd-basic",
+  "title": "B6 The Veiled Society",
+  "kind": "adventure",
+  "description": "Una aventura de intriga en Specularum, la capital de Karameikos: los personajes investigan un asesinato y descubren cuál de las tres grandes familias de la ciudad, y qué sociedad secreta, está detrás. La escribió David Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/b6-the-veiled-society/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17102/b6-the-veiled-society-basic"
+        }
+      ]
+    }
+  ]
+}

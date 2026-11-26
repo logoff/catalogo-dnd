@@ -9,7 +9,17 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2020"
+      "date": "2020",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1950789004/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/334518/tome-of-beasts-2-for-5th-edition"
+        }
+      ]
     }
   ]
 }

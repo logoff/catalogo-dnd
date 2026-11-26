@@ -1,0 +1,23 @@
+{
+  "slug": "labyrinth-lord-aventuras-vol-1",
+  "system": "labyrinth-lord",
+  "title": "Labyrinth Lord Aventuras Vol. 1",
+  "kind": "adventure",
+  "description": "Doce aventuras de fantasía clásica para Labyrinth Lord, de Daniel Vicente, que llevan a los personajes del primer al sexto nivel, en 60 páginas en blanco y negro con mapas de Dyson Logos.\n\nSirve para tener material listo para varias sesiones con la caja de Labyrinth Lord u otro retroclón del básico.",
+  "source": "https://www.nosolorol.com/labyrinth-lord/labyrinth-lord-aventuras-vol-1-papel",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Nosolorol",
+      "format": "paperback",
+      "isbn13": 9788417379759,
+      "cover": "/images/rol/labyrinth-lord-aventuras-vol-1/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "nosolorol",
+          "url": "https://www.nosolorol.com/labyrinth-lord/labyrinth-lord-aventuras-vol-1-papel"
+        }
+      ]
+    }
+  ]
+}

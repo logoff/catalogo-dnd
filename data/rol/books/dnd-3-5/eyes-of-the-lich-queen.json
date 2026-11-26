@@ -1,0 +1,24 @@
+{
+  "slug": "eyes-of-the-lich-queen",
+  "system": "dnd-3-5",
+  "title": "Eyes of the Lich Queen",
+  "kind": "adventure",
+  "settings": ["eberron"],
+  "description": "Una gran aventura para personajes de nivel 5 a 10 con dragones, la Sangre de Vol y una maldición ligada a la Profecía Dracónica.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Eyes_of_the_Lich_Queen",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-04",
+      "isbn13": 9780786943197,
+      "cover": "/images/rol/eyes-of-the-lich-queen/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54343/eberron-eyes-of-the-lich-queen-3-5"
+        }
+      ]
+    }
+  ]
+}

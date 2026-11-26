@@ -1,0 +1,23 @@
+{
+  "slug": "the-complete-book-of-villains",
+  "system": "dnd-add2",
+  "title": "The Complete Book of Villains",
+  "kind": "supplement",
+  "description": "Cómo crear villanos memorables para AD&D 2.ª edición: tipos, motivaciones, guaridas y su papel en la campaña.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/the-complete-book-of-villains/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16900/dmgr6-the-complete-book-of-villains-2e"
+        }
+      ]
+    }
+  ]
+}

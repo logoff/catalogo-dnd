@@ -1,0 +1,24 @@
+{
+  "slug": "howls-in-the-night",
+  "system": "dnd-add2",
+  "title": "Howls in the Night",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft. La escribió Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/howls-in-the-night/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17508/howls-in-the-night-2e"
+        }
+      ]
+    }
+  ]
+}

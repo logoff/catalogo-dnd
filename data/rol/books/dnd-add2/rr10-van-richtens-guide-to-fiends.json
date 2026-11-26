@@ -1,0 +1,24 @@
+{
+  "slug": "rr10-van-richtens-guide-to-fiends",
+  "system": "dnd-add2",
+  "title": "RR10 Van Richten's Guide to Fiends",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Uno de los tratados de Rudolph van Richten, escrito como si fuera suyo, sobre los infernales. Lo escribió Teeuwynn Woodruff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/rr10-van-richtens-guide-to-fiends/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17529/van-richten-s-guide-to-fiends-2e"
+        }
+      ]
+    }
+  ]
+}

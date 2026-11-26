@@ -7,6 +7,8 @@ interface MetaTagsProps {
   description?: string
   image?: string
   url?: string
+  // Páginas que no deben aparecer en buscadores, como la de resultados de búsqueda
+  noindex?: boolean
 }
 
 export default function MetaTags({
@@ -14,6 +16,7 @@ export default function MetaTags({
   description = SITE_DESCRIPTION,
   image = `${SITE_URL}/images/og.png`,
   url,
+  noindex = false,
 }: MetaTagsProps) {
   const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME
   const summary = summarize(description)
@@ -26,6 +29,7 @@ export default function MetaTags({
     <>
       <title>{fullTitle}</title>
       <meta name="description" content={summary} />
+      {noindex && <meta name="robots" content="noindex" />}
 
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />

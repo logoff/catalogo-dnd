@@ -1,0 +1,24 @@
+{
+  "slug": "dse2-black-spine",
+  "system": "dnd-add2",
+  "title": "DSE2 Black Spine",
+  "kind": "adventure",
+  "settings": ["dark_sun"],
+  "description": "Una gran aventura de Dark Sun. La escribieron varios autores, entre ellos Walter Baas y Dustin Browder.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-dse.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/dse2-black-spine/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17197/dse2-black-spine-2e"
+        }
+      ]
+    }
+  ]
+}

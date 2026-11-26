@@ -1,0 +1,23 @@
+{
+  "slug": "cm1-test-of-the-warlords",
+  "system": "dnd-basic",
+  "title": "CM1 Test of the Warlords",
+  "kind": "adventure",
+  "description": "La primera aventura para la caja de compañía: los personajes reciben sus propios dominios en Norwold, una región recién colonizada al norte del Mundo Conocido, y tienen que levantarlos en plena lucha entre grandes potencias. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/cm1-test-of-the-warlords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17114/cm1-test-of-the-warlords-basic"
+        }
+      ]
+    }
+  ]
+}

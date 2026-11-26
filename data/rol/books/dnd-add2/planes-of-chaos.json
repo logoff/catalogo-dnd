@@ -1,0 +1,24 @@
+{
+  "slug": "planes-of-chaos",
+  "system": "dnd-add2",
+  "title": "Planes of Chaos",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "Una caja de Planescape con los cinco Planos Exteriores caóticos: Arborea, Ysgard, el Limbo, Pandemónium y el Abismo, con una guía para jugadores, un libro para el Dungeon Master, aventuras y monstruos. La escribieron Lester Smith y Wolfgang Baur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/planes-of-chaos/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17298/planes-of-chaos-2e"
+        }
+      ]
+    }
+  ]
+}

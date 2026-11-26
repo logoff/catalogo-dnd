@@ -1,0 +1,23 @@
+{
+  "slug": "i3-5-desert-of-desolation",
+  "system": "dnd-add1",
+  "title": "I3-5 Desert of Desolation",
+  "kind": "adventure",
+  "description": "La serie del Desierto de la Desolación (Pharaoh, Oasis of the White Palm y Lost Tomb of Martek) revisada y reunida en un volumen. La escribieron Tracy y Laura Hickman, Philip Meyers, Peter Rice y Jeff Wheeler.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/i3-5-desert-of-desolation/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/196428/i3-5-desert-of-desolation-1e"
+        }
+      ]
+    }
+  ]
+}

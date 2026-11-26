@@ -1,0 +1,24 @@
+{
+  "slug": "races-of-stone",
+  "system": "dnd-3-5",
+  "title": "Races of Stone",
+  "kind": "supplement",
+  "description": "La cultura, la sociedad y la religión de los enanos y los gnomos, con subrazas, dioses, clases de prestigio, dotes, conjuros y equipo, y una raza nueva: los goliats, montañeses de tamaño casi gigante.\n\nAbrió la serie Races of, que dedicaba cada libro a varias razas afines. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Races_of_Stone",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2004-08",
+      "format": "hardcover",
+      "isbn13": 9780786932788,
+      "cover": "/images/rol/races-of-stone/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27893/races-of-stone-3-5"
+        }
+      ]
+    }
+  ]
+}

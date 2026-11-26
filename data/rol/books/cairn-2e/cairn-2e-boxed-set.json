@@ -1,0 +1,17 @@
+{
+  "slug": "cairn-2e-boxed-set",
+  "system": "cairn-2e",
+  "title": "Cairn 2e Boxed Set",
+  "kind": "core",
+  "core": true,
+  "description": "La caja de la segunda edición de Cairn: tres ejemplares del libro del jugador, el libro del director, la aventura Trouble in Twin Lakes, una antología con tres aventuras nuevas, la pantalla y un bloc de hojas de personaje.\n\nEs la forma más completa de tener la segunda edición en papel para todo el grupo.",
+  "source": "https://www.exaltedfuneral.com/products/cairn-2e-boxed-set",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Space Penguin Ink",
+      "format": "boxed_set",
+      "cover": "/images/rol/cairn-2e-boxed-set/english.webp"
+    }
+  ]
+}

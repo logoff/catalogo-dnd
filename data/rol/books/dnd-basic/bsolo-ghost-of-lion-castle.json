@@ -1,0 +1,23 @@
+{
+  "slug": "bsolo-ghost-of-lion-castle",
+  "system": "dnd-basic",
+  "title": "BSOLO Ghost of Lion Castle",
+  "kind": "adventure",
+  "description": "Una aventura en solitario para un mago o un elfo de nivel bajo, con reglas de combate para un solo jugador, en un castillo con forma de león gigante donde ronda el fantasma del mago Sargon. La escribió Merle M. Rasmussen.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/bsolo-ghost-of-lion-castle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17107/bsolo-ghost-of-lion-castle-basic"
+        }
+      ]
+    }
+  ]
+}

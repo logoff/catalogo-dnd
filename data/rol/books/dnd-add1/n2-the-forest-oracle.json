@@ -1,0 +1,23 @@
+{
+  "slug": "n2-the-forest-oracle",
+  "system": "dnd-add1",
+  "title": "N2 The Forest Oracle",
+  "kind": "adventure",
+  "description": "Una aventura en la que los personajes buscan a un gran druida en el bosque para levantar la maldición que está matando el valle de los Downs. La escribió Carl Smith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-n.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/n2-the-forest-oracle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17057/n2-the-forest-oracle-1e"
+        }
+      ]
+    }
+  ]
+}

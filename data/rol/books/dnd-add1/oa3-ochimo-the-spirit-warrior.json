@@ -1,0 +1,24 @@
+{
+  "slug": "oa3-ochimo-the-spirit-warrior",
+  "system": "dnd-add1",
+  "title": "OA3 Ochimo: The Spirit Warrior",
+  "kind": "adventure",
+  "settings": ["kara_tur"],
+  "description": "Una aventura para Oriental Adventures en la isla de Akari, donde los personajes luchan contra el espíritu de un guerrero de la antigüedad, con una cronología de Kara-Tur. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/oa3-ochimo-the-spirit-warrior/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17331/oa3-ochimo-the-spirit-warrior-1e"
+        }
+      ]
+    }
+  ]
+}

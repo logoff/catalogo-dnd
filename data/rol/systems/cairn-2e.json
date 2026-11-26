@@ -1,0 +1,35 @@
+{
+  "slug": "cairn-2e",
+  "name": "Cairn 2E",
+  "family": "cairn",
+  "publisher": "Cairn Press",
+  "date": "2024",
+  "movement": "nsr",
+  "description": "La segunda edición de Cairn, de Yochai Gal, que sustituye gratis a la primera: la misma exploración tensa y el combate rápido y letal, con un libro del jugador ampliado, un libro del director con herramientas para crear aventuras y un mundo implícito, el Vald, además de una versión mínima sin ambientación.\n\nSigue publicándose bajo CC BY-SA 4.0. No consta una edición en castellano de esta edición.",
+  "features": [
+    "Creación de personajes rápida y aleatoria",
+    "Combate rápido y letal",
+    "Ambientación implícita del Vald",
+    "Versión mínima Barebones"
+  ],
+  "licenses": [
+    {
+      "license": "cc-by-sa-4-0",
+      "since": "2024"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "cairn",
+      "kind": "revision",
+      "note": "Revisa y amplía la primera edición manteniendo la compatibilidad con sus aventuras."
+    }
+  ],
+  "links": [
+    {
+      "label": "Cairn",
+      "url": "https://cairnrpg.com/"
+    }
+  ],
+  "line_publishers": ["Cairn Press", "Space Penguin Ink"]
+}

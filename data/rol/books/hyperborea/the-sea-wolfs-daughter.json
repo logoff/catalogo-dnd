@@ -1,0 +1,23 @@
+{
+  "slug": "the-sea-wolfs-daughter",
+  "system": "hyperborea",
+  "title": "The Sea-Wolf's Daughter",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 7 a 9 al servicio de Ragnarr el Lobo de Mar, jarl de Nueva Vinlandia, cuya hija ha desaparecido.\n\nPublicado por North Wind Adventures, escrito por Jeffrey P. Talanian (author), Ben Ball (editor), David Prata (development), con 64 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/296282/the-sea-wolf-s-daughter",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2019-11",
+      "format": "paperback",
+      "cover": "/images/rol/the-sea-wolfs-daughter/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/296282/the-sea-wolf-s-daughter"
+        }
+      ]
+    }
+  ]
+}

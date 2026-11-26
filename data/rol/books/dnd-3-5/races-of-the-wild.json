@@ -1,0 +1,24 @@
+{
+  "slug": "races-of-the-wild",
+  "system": "dnd-3-5",
+  "title": "Races of the Wild",
+  "kind": "supplement",
+  "description": "Los pueblos de la naturaleza: elfos y medianos con su cultura y sus opciones, reglas para jugar con centauros y otras criaturas salvajes y dos razas nuevas, los raptoranos, humanoides alados, y los killoren, un pueblo feérico.\n\nForma parte de la serie Races of. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Races_of_the_Wild",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-02",
+      "format": "hardcover",
+      "isbn13": 9780786934386,
+      "cover": "/images/rol/races-of-the-wild/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3722/races-of-the-wild-3-5"
+        }
+      ]
+    }
+  ]
+}

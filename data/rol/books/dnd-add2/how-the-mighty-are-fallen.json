@@ -1,0 +1,24 @@
+{
+  "slug": "how-the-mighty-are-fallen",
+  "system": "dnd-add2",
+  "title": "How the Mighty Are Fallen",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura para niveles 11 a 14 en el antiguo Netheril, contra la Tarasca, un ejército de muertos vivientes y un dragón dorado, en busca de los Pergaminos de Nether y de los componentes de un conjuro capaz de matar a un dios. La escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-aa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/how-the-mighty-are-fallen/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17562/how-the-mighty-are-fallen-2e"
+        }
+      ]
+    }
+  ]
+}

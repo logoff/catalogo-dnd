@@ -1,0 +1,25 @@
+{
+  "slug": "cc-monsters-and-treasure",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Monsters & Treasure",
+  "kind": "core",
+  "core": true,
+  "description": "El bestiario y tesoro de Castles & Crusades: dragones, gigantes, orcos, hadas, hidras, esfinges, nagas, guivernos, grifos y muchos más monstruos, con sus tesoros y objetos mágicos.\n\nPublicado por Troll Lord Games, escrito por Stephen Chenault, Robert Doyel, Brian Young, Davis Chenault, Todd Gray, Mac Golden, Christian Harris, con 336 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/505221/castles-crusades-monsters-treasure",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2025-01",
+      "format": "hardcover",
+      "isbn13": 9781952379673,
+      "cover": "/images/rol/cc-monsters-and-treasure/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/505221/castles-crusades-monsters-treasure"
+        }
+      ]
+    }
+  ]
+}

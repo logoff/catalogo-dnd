@@ -1,0 +1,23 @@
+{
+  "slug": "the-shattered-statue",
+  "system": "dnd-add1",
+  "title": "The Shattered Statue",
+  "kind": "adventure",
+  "description": "Una aventura de los Reinos Olvidados en la que los personajes buscan los pedazos de una antigua estatua rota para reconstruirla y devolverle la vida; también se puede jugar con DragonQuest. La escribió Paul Jaquays.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/the-shattered-statue/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17090/dq1-the-shattered-statue"
+        }
+      ]
+    }
+  ]
+}

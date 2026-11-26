@@ -1,0 +1,24 @@
+{
+  "slug": "frq3-doom-of-daggerdale",
+  "system": "dnd-add2",
+  "title": "FRQ3 Doom of Daggerdale",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura en Daggerdale, uno de los Valles, y su ciudad de Dagger Falls. La escribió Wolfgang Baur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-frq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/frq3-doom-of-daggerdale/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16840/frq3-doom-of-daggerdale-2e"
+        }
+      ]
+    }
+  ]
+}

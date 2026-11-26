@@ -1,0 +1,22 @@
+{
+  "slug": "mc8-monstrous-compendium-the-outer-planes-appendix",
+  "system": "dnd-add2",
+  "title": "MC8 Monstrous Compendium The Outer Planes Appendix",
+  "kind": "supplement",
+  "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de los Planos Exteriores.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "cover": "/images/rol/mc8-monstrous-compendium-the-outer-planes-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16892/mc8-monstrous-compendium-outer-planes-appendix-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-adventure-begins",
+  "system": "dnd-add2",
+  "title": "The Adventure Begins",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "Una visión general de Oerth para la reedición de Greyhawk de 1998, con la historia del mundo puesta al día, su calendario, sus regiones y la ciudad de Greyhawk. La escribió Roger E. Moore.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-adventure-begins/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17441/greyhawk-the-adventure-begins-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Empieza la Aventura",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/the-adventure-begins/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-gh-acc.html"
+    }
+  ]
+}

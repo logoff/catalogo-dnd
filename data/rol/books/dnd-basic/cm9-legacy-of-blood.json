@@ -1,0 +1,23 @@
+{
+  "slug": "cm9-legacy-of-blood",
+  "system": "dnd-basic",
+  "title": "CM9 Legacy of Blood",
+  "kind": "adventure",
+  "description": "Una aventura de la caja de compañía: uno de los personajes hereda el dominio de Fenhold, amenazado por un pantano que lo engulle, fantasmas, desapariciones y cosechas que se pudren. La escribieron Steve Perrin y Katharine Kerr.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-cm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/cm9-legacy-of-blood/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17137/cm9-legacy-of-blood-basic"
+        }
+      ]
+    }
+  ]
+}

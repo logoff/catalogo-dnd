@@ -1,0 +1,24 @@
+{
+  "slug": "wg9-gargoyle",
+  "system": "dnd-add1",
+  "title": "WG9 Gargoyle",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura de Greyhawk. La escribieron Dave Collins y Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/wg9-gargoyle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176906/wg9-gargoyle-1e-2e"
+        }
+      ]
+    }
+  ]
+}

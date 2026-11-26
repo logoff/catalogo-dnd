@@ -1,0 +1,17 @@
+{
+  "slug": "cb2-conan-against-darkness",
+  "system": "dnd-add1",
+  "title": "CB2 Conan Against Darkness!",
+  "kind": "adventure",
+  "description": "Una aventura en la Edad Hiboria, cuando Conan era rey de Aquilonia, con la lucha contra el hechicero Thoth-Amon, reglas variantes de miedo y heroísmo y monstruos nuevos. La escribió Ken Rolston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-cb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/cb2-conan-against-darkness/english.webp"
+    }
+  ]
+}

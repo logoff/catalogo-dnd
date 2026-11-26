@@ -92,7 +92,7 @@ describe('página de otros juegos de rol', () => {
       'href',
       '/rol/pathfinder-1e'
     )
-    expect(screen.getByRole('link', { name: 'Pathfinder 1E' }).parentElement).toHaveTextContent(
+    expect(screen.getByRole('link', { name: 'Pathfinder 1E' }).closest('li')).toHaveTextContent(
       '2 libros'
     )
     expect(screen.getByRole('link', { name: 'Licencias abiertas' })).toHaveAttribute(
@@ -101,33 +101,50 @@ describe('página de otros juegos de rol', () => {
     )
   })
 
+  it('no muestra las ediciones anteriores de D&D ni sus libros', () => {
+    const index = buildRpgIndex(
+      [license('ogl', 'OGL')],
+      [
+        system('pathfinder-1e', 'Pathfinder 1E', 'pathfinder', ['ogl']),
+        { ...system('dnd-3-5', 'D&D 3.5', 'dungeons-and-dragons', ['ogl']), official: true },
+      ],
+      [
+        book('core', 'Core Rulebook', 'pathfinder-1e', '2009'),
+        book('phb', "Player's Handbook", 'dnd-3-5', '2003'),
+      ]
+    )
+    setRpgIndex(index)
+    renderPage()
+    expect(screen.queryByRole('link', { name: 'D&D 3.5' })).toBeNull()
+    expect(titles()).toEqual(['Core Rulebook'])
+    expect(
+      within(screen.getByLabelText('Sistema')).queryByRole('option', { name: 'D&D 3.5' })
+    ).toBeNull()
+  })
+
   it('ordena por defecto del más reciente al más antiguo y permite ordenar por título', () => {
     renderPage()
-    expect(titles()).toEqual([
-      'Guía del jugador',
-      'Player Core',
-      'Libro Compatible',
-      'Core Rulebook',
-    ])
+    expect(titles()).toEqual(["Player's Guide", 'Player Core', 'Libro Compatible', 'Core Rulebook'])
+    // El título original va siempre delante y el de castellano, si lo hay, debajo
+    expect(screen.getByText('Guía del jugador')).toHaveAttribute('lang', 'es')
+    // Cada título lleva su año: el del original (2024) y el de la edición en castellano (2026)
+    const card = screen.getByRole('link', { name: /Player's Guide/ })
+    expect(within(card).getByText(/2024/)).toBeInTheDocument()
+    expect(within(card).getByText('· 2026')).toBeInTheDocument()
     fireEvent.change(screen.getByLabelText('Orden'), { target: { value: 'title' } })
-    expect(titles()).toEqual([
-      'Core Rulebook',
-      'Guía del jugador',
-      'Libro Compatible',
-      'Player Core',
-    ])
+    expect(titles()).toEqual(['Core Rulebook', 'Libro Compatible', 'Player Core', "Player's Guide"])
   })
 
   it('filtra por licencia, heredada del sistema o propia del libro', () => {
     renderPage()
     fireEvent.change(screen.getByLabelText('Licencia'), { target: { value: 'orc' } })
-    expect(titles()).toEqual(['Guía del jugador', 'Player Core', 'Libro Compatible'])
+    expect(titles()).toEqual(["Player's Guide", 'Player Core', 'Libro Compatible'])
   })
 
   it('combina sistema y castellano, y avisa cuando no hay resultados', () => {
     renderPage()
     fireEvent.click(screen.getByLabelText('En castellano'))
-    expect(titles()).toEqual(['Guía del jugador'])
+    expect(titles()).toEqual(["Player's Guide"])
     fireEvent.change(screen.getByLabelText('Sistema'), { target: { value: 'pathfinder-2e' } })
     expect(titles()).toEqual([])
     expect(screen.getByText('Ningún libro coincide con los filtros.')).toBeInTheDocument()
@@ -136,8 +153,63 @@ describe('página de otros juegos de rol', () => {
   it('busca por título y editorial sin distinguir tildes', () => {
     renderPage()
     fireEvent.change(screen.getByLabelText('Buscar libros'), { target: { value: 'guia' } })
-    expect(titles()).toEqual(['Guía del jugador'])
+    expect(titles()).toEqual(["Player's Guide"])
     fireEvent.change(screen.getByLabelText('Buscar libros'), { target: { value: 'kobold' } })
-    expect(titles()).toEqual(['Guía del jugador'])
+    expect(titles()).toEqual(["Player's Guide"])
+  })
+
+  it('agrupa aparte los sistemas OSR y NSR, con su etiqueta y la explicación', () => {
+    const dnd = { ...system('dnd-basic', 'D&D básico', 'dungeons-and-dragons', []), official: true }
+    const ose: RpgSystem = {
+      ...system('ose', 'Old-School Essentials', 'ose', ['ogl']),
+      movement: 'osr',
+      derived_from: [{ system: 'dnd-basic', kind: 'compatible' }],
+    }
+    const mork: RpgSystem = {
+      ...system('mork-borg', 'Mörk Borg', 'mork-borg', []),
+      movement: 'nsr',
+      derived_from: [{ system: 'dnd-basic', kind: 'inspiration', note: 'Nota' }],
+    }
+    setRpgIndex(
+      buildRpgIndex(
+        [license('ogl', 'OGL')],
+        [system('pathfinder-1e', 'Pathfinder 1E', 'pathfinder', ['ogl']), dnd, ose, mork],
+        [
+          book('core', 'Core Rulebook', 'pathfinder-1e', '2009'),
+          book('ose-core', 'Classic Fantasy', 'ose', '2019', {
+            editions: [
+              { language: 'english', publisher: 'Editorial', date: '2019', format: 'hardcover' },
+              { ...spanish, title: 'Fantasía clásica', format: 'hardcover' },
+            ],
+          }),
+          book('mork-core', 'Mörk Borg', 'mork-borg', '2020', {
+            editions: [
+              { language: 'english', publisher: 'Editorial', date: '2020', format: 'hardcover' },
+            ],
+          }),
+        ]
+      )
+    )
+    renderPage()
+    const note = screen.getByRole('heading', { name: 'OSR y NSR' })
+    expect(note).toHaveAttribute('id', 'osr-y-nsr')
+    expect(
+      screen.getByText('Ninguno de los dos términos tiene una definición precisa.')
+    ).toBeInTheDocument()
+    const oseItem = screen.getByRole('link', { name: 'Old-School Essentials' }).closest('li')!
+    expect(within(oseItem).getByRole('link', { name: 'OSR' })).toHaveAttribute(
+      'href',
+      '/rol#osr-y-nsr'
+    )
+    // El grupo OSR y NSR va después de la explicación; el resto de familias, antes
+    const pathfinder = screen.getByRole('link', { name: 'Pathfinder 1E' })
+    expect(pathfinder.compareDocumentPosition(note) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    expect(note.compareDocumentPosition(oseItem) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+
+    fireEvent.change(screen.getByLabelText('Movimiento'), { target: { value: 'nsr' } })
+    expect(titles()).toEqual(['Mörk Borg'])
+    fireEvent.change(screen.getByLabelText('Movimiento'), { target: { value: 'osr' } })
+    fireEvent.click(screen.getByLabelText('En castellano'))
+    expect(titles()).toEqual(['Classic Fantasy'])
   })
 })

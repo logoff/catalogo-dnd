@@ -1,0 +1,24 @@
+{
+  "slug": "leaves-from-the-inn-of-the-last-home",
+  "system": "dnd-add1",
+  "title": "Leaves From the Inn of the Last Home",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "Un libro de artículos, leyendas y recetas de Dragonlance: la creación de Krynn según Astinus, las diferencias entre kenders y enanos gully, las tácticas contra dragones de lord Gunthar y un relato sobre el primer encuentro de los Compañeros. Lo editaron Margaret Weis y Tracy Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/leaves-from-the-inn-of-the-last-home/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/309152/leaves-from-the-inn-of-the-last-home"
+        }
+      ]
+    }
+  ]
+}

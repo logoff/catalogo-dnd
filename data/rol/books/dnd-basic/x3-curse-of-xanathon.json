@@ -1,0 +1,23 @@
+{
+  "slug": "x3-curse-of-xanathon",
+  "system": "dnd-basic",
+  "title": "X3 Curse of Xanathon",
+  "kind": "adventure",
+  "description": "Una aventura para la caja experta: el duque de Rhoona dicta decretos absurdos, como pagar los impuestos en cerveza o montar a caballo del revés, por una maldición del sacerdote Xanathon. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/x3-curse-of-xanathon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17091/x3-curse-of-xanathon-basic"
+        }
+      ]
+    }
+  ]
+}

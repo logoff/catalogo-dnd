@@ -1,0 +1,32 @@
+{
+  "slug": "ga3-tales-of-enchantment",
+  "system": "dnd-add2",
+  "title": "GA3 Tales of Enchantment",
+  "kind": "adventure",
+  "description": "Una de las aventuras generales, en un bosque, que en lugar de mazmorras propone interpretar la búsqueda de un joven enamorado de una pixie. La escribió Jim Musser.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-ga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/ga3-tales-of-enchantment/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17314/ga3-tales-of-enchantment-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Bosque Mágico",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/ga3-tales-of-enchantment/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-adv.html"
+    }
+  ]
+}

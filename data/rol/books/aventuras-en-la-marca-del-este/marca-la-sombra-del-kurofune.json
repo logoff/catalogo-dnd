@@ -1,0 +1,17 @@
+{
+  "slug": "marca-la-sombra-del-kurofune",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La sombra del Kurofune",
+  "kind": "adventure",
+  "description": "La primera aventura de Clásicos de la Marca en Endo, el continente inspirado en un Japón mítico: un encuentro entre culturas en torno a un barco negro y la casa de un brujo endonés.\n\nLa escribió Manuel José Ruiz Mesa y estaba en imprenta en noviembre de 2026. Se complementa con Aventuras orientales en Endo.",
+  "source": "https://lamarcadeleste.com/2026/11/la-sombra-del-kurofune-diario-de-diseno.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "paperback",
+      "source": "https://lamarcadeleste.com/2026/11/la-sombra-del-kurofune-diario-de-diseno.html",
+      "cover": "/images/rol/marca-la-sombra-del-kurofune/castellano.webp"
+    }
+  ]
+}

@@ -9,7 +9,8 @@ en inglés y en castellano de Dungeons & Dragons de las ediciones
 con las plataformas, si están en castellano y dónde comprarlos, y del
 merchandising con licencia oficial (libros de cocina y de arte, figuras,
 LEGO y juegos de mesa), de las novelas oficiales de D&D en inglés con
-todas sus ediciones en castellano, de las películas, series y documentales
+todas sus ediciones en castellano, de los cómics oficiales de D&D con
+sus tomos en inglés y en castellano, de las películas, series y documentales
 de D&D (y, aparte, los no oficiales sobre el juego) y de otros juegos de rol
 de la familia
 de D&D (Pathfinder, Tales of the Valiant, Daggerheart…) con sus licencias
@@ -153,6 +154,17 @@ en `data/novels/series.json`. La lista maestra es
 `data/novels/inventory.md`, la skill `add-novel` explica cómo dar de alta
 novelas y `just novel-covers` descarga y convierte sus portadas.
 
+## Cómics
+
+La sección `/comics` reúne los cómics oficiales de D&D en inglés (TSR, DC,
+Devil's Due, IDW, Dark Horse…) y todo lo publicado en castellano, con una
+ficha por serie: sus números y los tomos que los recogen, en inglés y en
+castellano. Cada serie es un JSON en `data/comics/<editorial>/<slug>.json`
+y los tomos de varias series están en `data/comics/collections.json`. La
+lista maestra es `data/comics/inventory.md`, la skill `add-comic` explica
+cómo dar de alta cómics y `just comic-covers` descarga y convierte sus
+portadas.
+
 ## Cine y series
 
 La sección `/cine-y-series` reúne las películas, series, documentales y
@@ -170,7 +182,9 @@ obra. La lista maestra es `data/screen/inventory.md` y la skill
 
 La sección `/rol` reúne juegos de la familia de D&D que no son de Wizards
 of the Coast (Pathfinder, Starfinder, Tales of the Valiant, Daggerheart,
-13th Age, Level Up) y libros de otras editoriales para 5E, con sus
+13th Age, Level Up), los juegos OSR y NSR (Old-School Essentials, Dungeon
+Crawl Classics, Aventuras en la Marca del Este, Mörk Borg, Cairn…) con la
+línea impresa de cada uno y libros de otras editoriales para 5E, con sus
 ediciones en inglés y en castellano, y `/licencias` explica las licencias
 abiertas (OGL, SRD, ORC…) que los relacionan. Los datos están en
 `data/rol/`: licencias en `licenses/`, sistemas en `systems/` y libros en
@@ -185,6 +199,21 @@ día o de mes, sin las futuras). Lo hace `scripts/generate-feed.mjs` con la
 lógica de `scripts/feed.mjs`; sus enlaces llevan
 `utm_source=rss&utm_medium=feed&utm_campaign=novedades` para medirlo en
 Umami. Se anuncia en el `<head>` y se enlaza en el pie de página.
+
+La página `/novedades` y el bloque «Novedades» de la portada usan la misma
+lógica (`scripts/releases.mjs`): lo salido en los últimos 90 días, lo que
+tiene fecha futura y lo anunciado sin fecha, en inglés y en castellano. Las
+fechas se calculan en el build, así que el sitio se despliega también cada
+día (`schedule` de `deploy.yml`) para que avance solo.
+
+Cada mes completo desde noviembre de 2026 tiene su resumen en
+`/novedades/AAAA-MM` («Este mes en el catálogo»): fichas nuevas por sección,
+ediciones y fechas en castellano y reseñas añadidas. Se calcula en el build
+comparando cómo estaba `data/` al empezar y al acabar el mes según el
+historial de git (`scripts/monthly-summary.mjs` y `scripts/git-history.mjs`),
+así que el despliegue clona el historial completo (`fetch-depth: 0`). Con
+`SUMMARY_TODAY=AAAA-MM-DD npm run build` se ve en local cómo quedará un mes
+antes de que acabe.
 
 ## Enlaces de afiliado
 
@@ -205,6 +234,7 @@ se publica sin afiliado:
 | `VITE_AFFILIATE_CASA_DEL_LIBRO_PROGRAM`      | ID del anunciante Casa del Libro en Awin        |
 | `VITE_AFFILIATE_NEXTORY_PROGRAM`             | ID del programa de Nextory en Adtraction        |
 | `VITE_AFFILIATE_NOSOLOROL_PROGRAM`           | ID del programa de NoSoloRol en Adtraction      |
+| `VITE_AFFILIATE_DRIVETHRU_ID`                | ID de afiliado de DMsGuild y DriveThruRPG       |
 
 En el despliegue se leen de los secretos del repositorio con el mismo
 nombre sin el prefijo `VITE_`. En local se pueden poner en `.env`.
@@ -217,3 +247,14 @@ están definidas las variables `VITE_UMAMI_URL` y
 `VITE_UMAMI_WEBSITE_ID`. En el despliegue se leen de los secretos
 del repositorio `UMAMI_URL` y `UMAMI_WEBSITE_ID`. En desarrollo local
 no se envía nada.
+
+El día 1 de cada mes, la Action `umami-report.yml` consulta la API de
+Umami y envía a un chat privado de Telegram el resumen del mes anterior:
+visitantes, visitas y páginas vistas (con la variación respecto al mes
+anterior), páginas más vistas, procedencia y clics en «comprar» por
+tienda y por sección, y clics en cada enlace del menú principal. El repositorio es público, así que el informe
+nunca se escribe en el registro de Actions ni se guarda como artefacto.
+Usa los secretos `UMAMI_URL`, `UMAMI_WEBSITE_ID`, `UMAMI_USERNAME` y
+`UMAMI_PASSWORD` (mejor un usuario de solo lectura), `TELEGRAM_BOT_TOKEN`
+y `TELEGRAM_CHAT_ID`. Con `just umami-report` se ve el informe en la
+terminal sin enviarlo, leyendo esas variables de `.env`.

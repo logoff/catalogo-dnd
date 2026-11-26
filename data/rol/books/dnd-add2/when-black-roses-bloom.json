@@ -1,0 +1,24 @@
+{
+  "slug": "when-black-roses-bloom",
+  "system": "dnd-add2",
+  "title": "When Black Roses Bloom",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft con Lord Soth, el caballero de la muerte de Dragonlance: atrapado en el semiplano del Pavor, añora Krynn y ha fabricado seis espejos de la memoria para volver. La escribió Lisa Smedman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/when-black-roses-bloom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17528/when-black-roses-bloom-2e"
+        }
+      ]
+    }
+  ]
+}

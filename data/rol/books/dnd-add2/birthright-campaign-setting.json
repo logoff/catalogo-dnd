@@ -1,0 +1,24 @@
+{
+  "slug": "birthright-campaign-setting",
+  "system": "dnd-add2",
+  "title": "Birthright Campaign Setting",
+  "kind": "setting",
+  "settings": ["birthright"],
+  "description": "La caja básica de Birthright: Cerilia, un continente de reinos gobernados por los personajes, herederos de la sangre de dioses muertos, con reglas de dominio y de guerra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/birthright-campaign-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16938/birthright-campaign-setting-2e"
+        }
+      ]
+    }
+  ]
+}

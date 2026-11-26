@@ -1,0 +1,23 @@
+{
+  "slug": "ref5-lords-of-darkness",
+  "system": "dnd-add1",
+  "title": "REF5 Lords of Darkness",
+  "kind": "supplement",
+  "description": "Un suplemento de referencia de AD&D 1.ª edición, con introducción de Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ref-2e.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/ref5-lords-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16810/ref5-lords-of-darkness-1e"
+        }
+      ]
+    }
+  ]
+}

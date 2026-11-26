@@ -1,0 +1,23 @@
+{
+  "slug": "uk5-eye-of-the-serpent",
+  "system": "dnd-add1",
+  "title": "UK5 Eye of the Serpent",
+  "kind": "adventure",
+  "description": "Una aventura en la que un roc lleva a los personajes a su nido en la montaña y deben bajar y cruzar un valle peligroso para volver a casa; también se puede jugar con un solo personaje. La escribió Graeme Morris.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-uk.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/uk5-eye-of-the-serpent/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17076/uk5-eye-of-the-serpent-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "poor-wizards-almanac-iii-and-book-of-facts",
+  "system": "dnd-basic",
+  "title": "Poor Wizard's Almanac III & Book of Facts",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El tercer almanaque de Mystara, que sigue los cambios del Mundo Conocido año a año con su calendario de sucesos y las noticias de cada nación. Lo escribió Ann Dupuis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-alm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/poor-wizards-almanac-iii-and-book-of-facts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17348/poor-wizard-s-almanac-iii-book-of-facts"
+        }
+      ]
+    }
+  ]
+}

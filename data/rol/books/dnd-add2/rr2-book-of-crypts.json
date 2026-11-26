@@ -1,0 +1,24 @@
+{
+  "slug": "rr2-book-of-crypts",
+  "system": "dnd-add2",
+  "title": "RR2 Book of Crypts",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Un suplemento de Ravenloft con aventuras cortas en criptas y tumbas para añadir a cualquier campaña. Lo escribieron Dale «Slade» Henson y J. Robert King.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/rr2-book-of-crypts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17489/rr2-book-of-crypts-2e"
+        }
+      ]
+    }
+  ]
+}

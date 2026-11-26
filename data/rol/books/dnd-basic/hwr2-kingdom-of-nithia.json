@@ -1,0 +1,24 @@
+{
+  "slug": "hwr2-kingdom-of-nithia",
+  "system": "dnd-basic",
+  "title": "HWR2 Kingdom of Nithia",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El suplemento del Mundo Hueco sobre Nithia, una civilización inspirada en el antiguo Egipto que desapareció de la superficie de Mystara y que los inmortales conservan en el interior del mundo. Lo escribieron Blake Mobley y Newton Ewell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/hwr2-kingdom-of-nithia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16985/hwr2-kingdom-of-nithia-basic"
+        }
+      ]
+    }
+  ]
+}

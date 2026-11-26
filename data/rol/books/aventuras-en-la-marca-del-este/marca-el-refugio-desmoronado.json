@@ -1,0 +1,29 @@
+{
+  "slug": "marca-el-refugio-desmoronado",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El refugio desmoronado",
+  "kind": "adventure",
+  "description": "Una aventura en Urusal-din, la ciudad de la Cúpula Dorada del califato de Visirtán: los personajes buscan a un mago desaparecido entre persecuciones, magia desatada y asesinos.\n\nPublicada en noviembre de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40862-aventuras-en-la-marca-del-este-el-refugio-desmoronado.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40862-aventuras-en-la-marca-del-este-el-refugio-desmoronado.html",
+      "cover": "/images/rol/marca-el-refugio-desmoronado/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/b29-el-refugio-desmoronado/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18384-aventuras-en-la-marca-del-este-el-refugio-desmoronado-9180201579619.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-refugio-desmoronado/"
+        }
+      ]
+    }
+  ]
+}

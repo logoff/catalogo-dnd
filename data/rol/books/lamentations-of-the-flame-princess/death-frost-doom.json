@@ -1,0 +1,23 @@
+{
+  "slug": "death-frost-doom",
+  "system": "lamentations-of-the-flame-princess",
+  "title": "Death Frost Doom",
+  "kind": "adventure",
+  "description": "La aventura más conocida de la línea: una montaña maldita, una cabaña aislada y un templo bajo la nieve donde despertar lo que duerme puede condenar a toda la región. Esta versión de 2014 está revisada por Zak S y James Edward Raggi IV.\n\nPublicado por Lamentations of the Flame Princess, escrito por James Edward Raggi IV, con 64 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/63592/death-frost-doom",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Lamentations of the Flame Princess",
+      "date": "2009-07",
+      "format": "paperback",
+      "cover": "/images/rol/death-frost-doom/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/63592/death-frost-doom"
+        }
+      ]
+    }
+  ]
+}

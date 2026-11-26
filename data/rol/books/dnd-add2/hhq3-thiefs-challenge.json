@@ -1,0 +1,23 @@
+{
+  "slug": "hhq3-thiefs-challenge",
+  "system": "dnd-add2",
+  "title": "HHQ3 Thief's Challenge",
+  "kind": "adventure",
+  "description": "Una aventura de desafío para un solo ladrón de nivel 1 a 4. La escribió Troy Christensen.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/hhq3-thiefs-challenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17309/hhq3-thief-s-challenge-2e"
+        }
+      ]
+    }
+  ]
+}

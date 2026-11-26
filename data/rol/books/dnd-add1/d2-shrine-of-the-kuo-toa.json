@@ -1,0 +1,24 @@
+{
+  "slug": "d2-shrine-of-the-kuo-toa",
+  "system": "dnd-add1",
+  "title": "D2 Shrine of the Kuo-Toa",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La segunda aventura de la serie de los drow, en el santuario de los kuo-toa.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-d.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "paperback",
+      "cover": "/images/rol/d2-shrine-of-the-kuo-toa/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17042/d2-shrine-of-the-kuo-toa-1e"
+        }
+      ]
+    }
+  ]
+}

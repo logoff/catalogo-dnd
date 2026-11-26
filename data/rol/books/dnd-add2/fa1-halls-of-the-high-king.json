@@ -1,0 +1,24 @@
+{
+  "slug": "fa1-halls-of-the-high-king",
+  "system": "dnd-add2",
+  "title": "FA1 Halls of the High King",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura en las islas Moonshae, gobernadas por Tristan Kendrick, Gran Rey de los Ffolk, después de la Era de los Trastornos y la muerte del dios Bane. La escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/fa1-halls-of-the-high-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16823/fa1-halls-of-the-high-king-2e"
+        }
+      ]
+    }
+  ]
+}

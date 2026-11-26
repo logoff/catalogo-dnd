@@ -1,0 +1,32 @@
+{
+  "slug": "marca-la-isla-misteriosa",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La isla misteriosa",
+  "kind": "adventure",
+  "description": "La segunda aventura de la línea Clásicos de la Marca, publicada en marzo de 2015 por el grupo creativo La Marca del Este.\n\nComo el resto de la línea, es un módulo breve para el reglamento básico de Aventuras en la Marca del Este.",
+  "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2015-03",
+      "format": "paperback",
+      "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
+      "free_download": "https://codexdelamarca.com/posts/b2-la-isla-misteriosa/"
+    },
+    {
+      "language": "english",
+      "title": "The Mysterious Island",
+      "publisher": "La Marca del Este",
+      "date": "2025-09",
+      "format": "pdf",
+      "cover": "/images/rol/marca-la-isla-misteriosa/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/536769/the-mysterious-island"
+        }
+      ]
+    }
+  ]
+}

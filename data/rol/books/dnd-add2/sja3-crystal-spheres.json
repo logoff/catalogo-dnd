@@ -1,0 +1,24 @@
+{
+  "slug": "sja3-crystal-spheres",
+  "system": "dnd-add2",
+  "title": "SJA3 Crystal Spheres",
+  "kind": "adventure",
+  "settings": ["spelljammer"],
+  "description": "Una aventura de Spelljammer: el capitán de la nave Hummingbird pide ayuda para salvar su esfera natal de un bardo misterioso, con cuatro esferas de cristal nuevas. La escribió J. Paul LaFountain.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sja.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/sja3-crystal-spheres/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17247/sja3-crystal-spheres-2e"
+        }
+      ]
+    }
+  ]
+}

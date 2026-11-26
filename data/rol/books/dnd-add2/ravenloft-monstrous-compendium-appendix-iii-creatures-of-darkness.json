@@ -1,0 +1,24 @@
+{
+  "slug": "ravenloft-monstrous-compendium-appendix-iii-creatures-of-darkness",
+  "system": "dnd-add2",
+  "title": "Ravenloft Monstrous Compendium Appendix III: Creatures of Darkness",
+  "kind": "supplement",
+  "settings": ["ravenloft"],
+  "description": "El tercer apéndice de monstruos de Ravenloft, con más criaturas de la oscuridad. Lo escribieron Kirk Botula, Shane Hensley, Nicky Rea y Teeuwynn Woodruff.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/ravenloft-monstrous-compendium-appendix-iii-creatures-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17524/monstrous-compendium-ravenloft-appendix-iii-2e"
+        }
+      ]
+    }
+  ]
+}

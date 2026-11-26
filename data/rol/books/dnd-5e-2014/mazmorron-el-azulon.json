@@ -1,0 +1,22 @@
+{
+  "slug": "mazmorron-el-azulon",
+  "system": "dnd-5e-2014",
+  "title": "Mazmorrón: El Azulón",
+  "kind": "adventure",
+  "license": "none",
+  "description": "Segundo libro de Mazmorrón, de Dan y Lena: aventuras marineras en un gran mar de islas, ciudades piratas, criaturas extrañas y mazmorras, con 365 lugares numerados repartidos en doce zonas, unas 200 ilustraciones, fichas de personaje y una carta náutica plegable.\n\nComo el primero, está pensado para D&D pero sirve para cualquier juego de fantasía y se puede jugar en solitario con un oráculo. Está en campaña en Verkami, con entrega prevista en junio de 2027.",
+  "source": "https://www.verkami.com/projects/44476-mazmorron-el-azulon-aventuras-marineras-para-disfrutar-a-toda-vela",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Dan y Lena",
+      "date": "2027-06",
+      "format": "paperback",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/44476-mazmorron-el-azulon-aventuras-marineras-para-disfrutar-a-toda-vela",
+        "end": "2026-12-27"
+      }
+    }
+  ]
+}

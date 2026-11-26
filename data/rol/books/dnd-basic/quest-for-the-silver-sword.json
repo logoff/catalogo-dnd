@@ -1,0 +1,32 @@
+{
+  "slug": "quest-for-the-silver-sword",
+  "system": "dnd-basic",
+  "title": "Quest for the Silver Sword",
+  "kind": "adventure",
+  "description": "Una aventura corta de Thunder Rift para la caja de iniciación de 1991: la exploración de un torreón encantado en busca de una espada de plata. La escribió William W. Connors.\n\nEdición en castellano de Borrás Plana.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/quest-for-the-silver-sword/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17161/quest-for-the-silver-sword-basic"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Misterio de la Espada de Plata",
+      "publisher": "Borrás Plana",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/quest-for-the-silver-sword/castellano.webp",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

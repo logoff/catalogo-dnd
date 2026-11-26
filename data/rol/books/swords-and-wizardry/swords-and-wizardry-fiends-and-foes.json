@@ -1,0 +1,23 @@
+{
+  "slug": "swords-and-wizardry-fiends-and-foes",
+  "system": "swords-and-wizardry",
+  "title": "Swords & Wizardry Fiends & Foes",
+  "kind": "supplement",
+  "description": "Más de trescientos monstruos para Swords & Wizardry, de ellos más de cuarenta nuevos, con su moral y su experiencia corregidas.\n\nPublicado por Mythmere Games, escrito por Matt Finch, James M. Spahn, Andrew Trent, Trent Foster, Salvatore Macri, Scott Wylie Roberts, Sean Stone, Matt Hoover, Russell Cone, Michael Shorten, Scott Casper, Edsan, John Turcotte, Will Mistretta, Garrett Clark, con 128 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/485699/swords-wizardry-fiends-foes",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Mythmere Games",
+      "date": "2024-08",
+      "format": "hardcover",
+      "cover": "/images/rol/swords-and-wizardry-fiends-and-foes/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/485699/swords-wizardry-fiends-foes"
+        }
+      ]
+    }
+  ]
+}

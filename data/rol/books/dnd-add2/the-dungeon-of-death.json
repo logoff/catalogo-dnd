@@ -1,0 +1,24 @@
+{
+  "slug": "the-dungeon-of-death",
+  "system": "dnd-add2",
+  "title": "The Dungeon of Death",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura de la serie Dungeon Crawl, de mazmorras al estilo clásico, ambientada en los Reinos Olvidados pero fácil de llevar a otras campañas. La escribió Jason Carl.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/the-dungeon-of-death/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17536/the-dungeon-of-death-2e"
+        }
+      ]
+    }
+  ]
+}

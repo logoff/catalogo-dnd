@@ -1,0 +1,23 @@
+{
+  "slug": "idol-of-the-orcs",
+  "system": "labyrinth-lord",
+  "title": "Idol of the Orcs",
+  "kind": "adventure",
+  "description": "Una banda de orcos inusualmente organizada asalta granjas y viajeros, y una voz siniestra les susurra órdenes.\n\nPublicado por Goblinoid Games, escrito por James C. Boney, con 14 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/63033/idol-of-the-orcs",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goblinoid Games",
+      "date": "2009-06",
+      "format": "paperback",
+      "cover": "/images/rol/idol-of-the-orcs/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/63033/idol-of-the-orcs"
+        }
+      ]
+    }
+  ]
+}

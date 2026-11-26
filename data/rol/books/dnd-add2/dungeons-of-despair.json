@@ -1,0 +1,23 @@
+{
+  "slug": "dungeons-of-despair",
+  "system": "dnd-add2",
+  "title": "Dungeons of Despair",
+  "kind": "adventure",
+  "description": "Una colección de seis aventuras para personajes de nivel bajo. La editó Christopher Perkins.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/dungeons-of-despair/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17089/dungeons-of-despair"
+        }
+      ]
+    }
+  ]
+}

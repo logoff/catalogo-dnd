@@ -1,0 +1,24 @@
+{
+  "slug": "hwq1-the-milenian-scepter",
+  "system": "dnd-basic",
+  "title": "HWQ1 The Milenian Scepter",
+  "kind": "adventure",
+  "settings": ["mystara"],
+  "description": "Una aventura del Mundo Hueco ambientada en el Imperio Mileniano. La escribió Anthony Herring.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hwq1-the-milenian-scepter/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17151/hwq1-the-milenian-scepter-basic"
+        }
+      ]
+    }
+  ]
+}

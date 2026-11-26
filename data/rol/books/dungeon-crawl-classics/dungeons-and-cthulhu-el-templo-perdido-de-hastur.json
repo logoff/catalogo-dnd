@@ -1,0 +1,21 @@
+{
+  "slug": "dungeons-and-cthulhu-el-templo-perdido-de-hastur",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeons & Cthulhu: El templo perdido de Hastur el Innombrable",
+  "kind": "adventure",
+  "description": "Primer módulo de Dungeons & Cthulhu, de Ediciones T&T: una aventura de la vieja escuela que mezcla las mazmorras clásicas con el horror de los Mitos de Cthulhu, para jugar con las reglas de Clásicos del Mazmorreo.\n\nAbre la línea de aventuras de Dungeons & Cthulhu y necesita el libro básico de Clásicos del Mazmorreo. Se financió en Verkami en agosto de 2017.",
+  "source": "https://edicionestyt.com/products/dungeons-cthulhu-el-templo-perdido-de-hastur-el-innombrable",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Ediciones T&T",
+      "format": "paperback",
+      "cover": "/images/rol/dungeons-and-cthulhu-el-templo-perdido-de-hastur/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/18262",
+        "end": "2017-08-20"
+      }
+    }
+  ]
+}

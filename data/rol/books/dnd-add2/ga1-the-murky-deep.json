@@ -1,0 +1,31 @@
+{
+  "slug": "ga1-the-murky-deep",
+  "system": "dnd-add2",
+  "title": "GA1 The Murky Deep",
+  "kind": "adventure",
+  "description": "La primera de las aventuras generales, para usar en cualquier mundo: una aventura submarina para seis a ocho personajes de nivel 5 a 8. La escribió Norman B. Ritchie.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-ga.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/ga1-the-murky-deep/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17310/ga1-the-murky-deep-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Tenebrosas Profundidades",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/ga1-the-murky-deep/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

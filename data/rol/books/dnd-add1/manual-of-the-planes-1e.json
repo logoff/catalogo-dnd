@@ -1,0 +1,23 @@
+{
+  "slug": "manual-of-the-planes-1e",
+  "system": "dnd-add1",
+  "title": "Manual of the Planes",
+  "kind": "supplement",
+  "description": "La primera cosmología completa de los planos de D&D: los planos interiores, exteriores y de transición, cómo viajar entre ellos y qué los habita.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "hardcover",
+      "cover": "/images/rol/manual-of-the-planes-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17009/manual-of-the-planes-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "the-candlekeep-chronicles",
+  "title": "The Candlekeep Chronicles: Seekers of the Lost Tome",
+  "publisher": "Penguin Random House",
+  "setting": "forgotten_realms",
+  "kind": "graphic_novel",
+  "date": "2027-07",
+  "announced": true,
+  "issue_count": 1,
+  "writers": ["Liz Marsham", "Josh Trujillo"],
+  "description": "Novela gráfica juvenil de Liz Marsham y Josh Trujillo, primer volumen de una serie nueva: en la biblioteca de Candlekeep, en los Reinos Olvidados, dos jóvenes que viven allí y un visitante presencian el intento de robar un libro con un hechizo y acaban unidos telepáticamente a Drizzt Do'Urden, que les encarga encontrarlo.\n\nEstá pensada para lectores de 10 a 14 años. Sale en julio de 2027 en rústica y solo se ha anunciado en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/709690/x/9781984861481/",
+  "issues": [{ "number": "1", "date": "2027-07-13" }],
+  "editions": [
+    {
+      "language": "english",
+      "title": "The Candlekeep Chronicles: Seekers of the Lost Tome, Volume 1",
+      "publisher": "Penguin Random House",
+      "date": "2027-07-13",
+      "format": "paperback",
+      "isbn13": 9781984861481,
+      "contents": [{ "series": "the-candlekeep-chronicles", "issues": "1" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1984861484/" }]
+    }
+  ]
+}

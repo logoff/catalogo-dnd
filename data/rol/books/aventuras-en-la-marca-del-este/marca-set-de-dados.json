@@ -1,0 +1,17 @@
+{
+  "slug": "marca-set-de-dados",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Set de dados de Aventuras en la Marca del Este",
+  "kind": "other",
+  "description": "Un juego de siete dados de rol con el diseño de Aventuras en la Marca del Este: d4, d6, d8, d10, d10 de porcentaje, d12 y d20.\n\nTodo lo necesario para empezar a jugar con la caja roja o cualquier otro juego de la Marca.",
+  "source": "https://tesorosdelamarca.com/producto/set-dados-aventuras-la-marca-del-este-7/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "accessory",
+      "source": "https://tesorosdelamarca.com/producto/set-dados-aventuras-la-marca-del-este-7/",
+      "cover": "/images/rol/marca-set-de-dados/castellano.webp"
+    }
+  ]
+}

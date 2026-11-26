@@ -1,0 +1,23 @@
+{
+  "slug": "pool-of-radiance-attack-on-myth-drannor",
+  "system": "dnd-3e",
+  "title": "Pool of Radiance: Attack on Myth Drannor",
+  "kind": "adventure",
+  "description": "Una aventura en las ruinas de Myth Drannor, la antigua ciudad élfica de los Reinos Olvidados: el Culto del Dragón ha levantado allí una fortaleza secreta y quiere someter Faerûn con el poder de un estanque de radiancia corrompido.\n\nAcompañó al videojuego Pool of Radiance: Ruins of Myth Drannor. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Pool_of_Radiance:_Attack_on_Myth_Drannor",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001",
+      "isbn13": 9780786917105,
+      "cover": "/images/rol/pool-of-radiance-attack-on-myth-drannor/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/134340/pool-of-radiance-attack-on-myth-drannor-3e"
+        }
+      ]
+    }
+  ]
+}

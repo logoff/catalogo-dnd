@@ -10,6 +10,8 @@ import MerchandisePage from './pages/MerchandisePage'
 import MerchandiseDetailPage from './pages/MerchandiseDetailPage'
 import NovelsPage from './pages/NovelsPage'
 import NovelDetailPage from './pages/NovelDetailPage'
+import ComicsPage from './pages/ComicsPage'
+import ComicDetailPage from './pages/ComicDetailPage'
 import ScreenPage from './pages/ScreenPage'
 import ScreenDetailPage from './pages/ScreenDetailPage'
 import LicensesPage from './pages/LicensesPage'
@@ -17,7 +19,12 @@ import RpgSectionPage from './pages/RpgSectionPage'
 import RpgSystemPage from './pages/RpgSystemPage'
 import RpgBookPage from './pages/RpgBookPage'
 import LicenseDetailPage from './pages/LicenseDetailPage'
+import DndEditionsPage from './pages/DndEditionsPage'
+import RpgTreePage from './pages/RpgTreePage'
 import NotFoundPage from './pages/NotFoundPage'
+import ReleasesPage from './pages/ReleasesPage'
+import SearchPage from './pages/SearchPage'
+import MonthlySummaryPage from './pages/MonthlySummaryPage'
 import GuidesPage from './pages/GuidesPage'
 import LegalPage from './pages/LegalPage'
 import StartGuide from './pages/guides/StartGuide'
@@ -29,6 +36,7 @@ import EdgeWizardsGuide from './pages/guides/EdgeWizardsGuide'
 import DrizztReadingOrder from './pages/guides/DrizztReadingOrder'
 import DragonlanceReadingOrder from './pages/guides/DragonlanceReadingOrder'
 import SpanishNovelsGuide from './pages/guides/SpanishNovelsGuide'
+import WorldGuide from './pages/guides/WorldGuide'
 
 // Rutas compartidas por el navegador (App) y el prerenderizado (entry-server)
 export default function AppRoutes() {
@@ -37,6 +45,7 @@ export default function AppRoutes() {
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="catalogo" element={<CatalogPage />} />
+        <Route path="buscar" element={<SearchPage />} />
         <Route path="2014" element={<EditionPage edition="5e" />} />
         <Route path="2014/:category" element={<EditionPage edition="5e" />} />
         <Route path="2024" element={<EditionPage edition="2024" />} />
@@ -48,13 +57,21 @@ export default function AppRoutes() {
         <Route path="merchandising/:slug" element={<MerchandiseDetailPage />} />
         <Route path="novelas" element={<NovelsPage />} />
         <Route path="novela/:slug" element={<NovelDetailPage />} />
+        <Route path="comics" element={<ComicsPage />} />
+        <Route path="comic/:slug" element={<ComicDetailPage />} />
         <Route path="cine-y-series" element={<ScreenPage />} />
         <Route path="cine-y-series/:slug" element={<ScreenDetailPage />} />
         <Route path="rol" element={<RpgSectionPage />} />
+        <Route path="rol/arbol" element={<RpgTreePage />} />
         <Route path="rol/:system" element={<RpgSystemPage />} />
         <Route path="rol/:system/:book" element={<RpgBookPage />} />
+        <Route path="ediciones" element={<DndEditionsPage />} />
+        <Route path="ediciones/:system" element={<RpgSystemPage section="ediciones" />} />
+        <Route path="ediciones/:system/:book" element={<RpgBookPage section="ediciones" />} />
         <Route path="licencias" element={<LicensesPage />} />
         <Route path="licencia/:slug" element={<LicenseDetailPage />} />
+        <Route path="novedades" element={<ReleasesPage />} />
+        <Route path="novedades/:month" element={<MonthlySummaryPage />} />
         <Route path="guias" element={<GuidesPage />} />
         <Route path="guias/por-donde-empezar" element={<StartGuide />} />
         <Route path="guias/2014-vs-2024" element={<EditionsGuide />} />
@@ -65,6 +82,7 @@ export default function AppRoutes() {
         <Route path="guias/orden-de-lectura-drizzt" element={<DrizztReadingOrder />} />
         <Route path="guias/orden-de-lectura-dragonlance" element={<DragonlanceReadingOrder />} />
         <Route path="guias/novelas-en-castellano" element={<SpanishNovelsGuide />} />
+        <Route path="guias/ambientacion/:world" element={<WorldGuide />} />
         <Route path="aviso-legal" element={<LegalPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>

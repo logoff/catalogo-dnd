@@ -1,0 +1,18 @@
+{
+  "slug": "marca-el-paramo",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "El Páramo",
+  "kind": "adventure",
+  "description": "Una aventura gratuita para personajes de nivel 2 a 4 basada en varias localizaciones: los campos y páramos cercanos a Robleda, los cenagales del Gran Pantano, la villa de Alameda, el fuerte de Rocagarganta y un túmulo misterioso.\n\nUna de las primeras aventuras que el grupo publicó gratis en PDF, en 2012; hoy se descarga desde Codex de la Marca.",
+  "source": "https://codexdelamarca.com/posts/el-paramo/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2012-04",
+      "format": "pdf",
+      "source": "https://codexdelamarca.com/posts/el-paramo/",
+      "free_download": "https://codexdelamarca.com/posts/el-paramo/"
+    }
+  ]
+}

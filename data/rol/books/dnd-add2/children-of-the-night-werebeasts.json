@@ -1,0 +1,24 @@
+{
+  "slug": "children-of-the-night-werebeasts",
+  "system": "dnd-add2",
+  "title": "Children of the Night: Werebeasts",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Una entrega de la serie Children of the Night con licántropos para Ravenloft, cada uno con su historia, sus estadísticas y una aventura corta. La escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-cotn.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/children-of-the-night-werebeasts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110204/children-of-the-night-werebeasts-2e"
+        }
+      ]
+    }
+  ]
+}

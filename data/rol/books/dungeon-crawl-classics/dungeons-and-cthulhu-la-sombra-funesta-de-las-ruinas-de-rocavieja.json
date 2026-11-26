@@ -1,0 +1,21 @@
+{
+  "slug": "dungeons-and-cthulhu-la-sombra-funesta-de-las-ruinas-de-rocavieja",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeons & Cthulhu: La sombra funesta de las ruinas de Rocavieja",
+  "kind": "adventure",
+  "description": "Módulo de Dungeons & Cthulhu, de Ediciones T&T, sobre el Devorador, símbolo de horror y muerte en los Territorios, para jugar con las reglas de Clásicos del Mazmorreo; incluye además la aventura de nivel 0 «El Sabueso Infernal del Barón de Baskerville».\n\nNecesita el libro básico de Clásicos del Mazmorreo. Se financió en Verkami en marzo de 2021.",
+  "source": "https://edicionestyt.com/products/dungeons-cthulhu-la-sombra-funesta-de-las-ruinas-de-rocavieja",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Ediciones T&T",
+      "format": "paperback",
+      "cover": "/images/rol/dungeons-and-cthulhu-la-sombra-funesta-de-las-ruinas-de-rocavieja/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/29309",
+        "end": "2021-03-10"
+      }
+    }
+  ]
+}

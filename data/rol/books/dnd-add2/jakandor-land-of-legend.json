@@ -1,0 +1,23 @@
+{
+  "slug": "jakandor-land-of-legend",
+  "system": "dnd-add2",
+  "title": "Jakandor, Land of Legend",
+  "kind": "adventure",
+  "description": "El tercer libro de Jakandor, la isla de los bárbaros knorr y los nigromantes charonti, con aventuras. Lo escribió Dale Donovan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ody.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/jakandor-land-of-legend/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/204202/jakandor-land-of-legend-2e"
+        }
+      ]
+    }
+  ]
+}

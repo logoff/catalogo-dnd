@@ -1,0 +1,23 @@
+{
+  "slug": "axe-of-the-dwarvish-lords",
+  "system": "dnd-add2",
+  "title": "Axe of the Dwarvish Lords",
+  "kind": "adventure",
+  "description": "Una aventura para recuperar el Hacha de los Señores Enanos, el artefacto de los enanos de Greyhawk.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-tome.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/axe-of-the-dwarvish-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17283/axe-of-the-dwarvish-lords-2e"
+        }
+      ]
+    }
+  ]
+}

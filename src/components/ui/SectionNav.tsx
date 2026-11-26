@@ -10,15 +10,17 @@ export interface SectionLink {
 export default function SectionNav({
   sections,
   className,
+  label = 'Secciones de la ficha',
 }: {
   sections: SectionLink[]
   className?: string
+  label?: string
 }) {
   if (sections.length < 2) return null
 
   return (
     <nav
-      aria-label="Secciones de la ficha"
+      aria-label={label}
       className={clsx(
         'sticky top-16 z-30 -mx-4 border-b border-line bg-bg/95 px-4 backdrop-blur-sm sm:mx-0 sm:px-0',
         className

@@ -1,0 +1,23 @@
+{
+  "slug": "hhq5-fighters-challenge-ii",
+  "system": "dnd-add2",
+  "title": "HHQ5 Fighter's Challenge II",
+  "kind": "adventure",
+  "description": "La segunda aventura de desafío para guerreros. La escribió Drew Bittner.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/hhq5-fighters-challenge-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17313/hhq5-fighter-s-challenge-ii-2e"
+        }
+      ]
+    }
+  ]
+}

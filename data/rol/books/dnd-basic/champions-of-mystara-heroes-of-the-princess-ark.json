@@ -1,0 +1,24 @@
+{
+  "slug": "champions-of-mystara-heroes-of-the-princess-ark",
+  "system": "dnd-basic",
+  "title": "Champions of Mystara: Heroes of the Princess Ark",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "Una caja basada en las crónicas de la Princess Ark de la revista Dragon: la nave voladora del príncipe Haldemar, reglas para construir naves voladoras y viajar por el vacío entre los mundos, y aventuras para una campaña a bordo. La escribió Ann Dupuis.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/champions-of-mystara-heroes-of-the-princess-ark/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17344/champions-of-mystara-heroes-of-the-princess-ark-basic"
+        }
+      ]
+    }
+  ]
+}

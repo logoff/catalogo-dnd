@@ -1,0 +1,23 @@
+{
+  "slug": "o1-the-gem-and-the-staff",
+  "system": "dnd-basic",
+  "title": "O1 The Gem and the Staff",
+  "kind": "adventure",
+  "description": "Una aventura para un Dungeon Master y un solo jugador, que lleva a Eric el Audaz, un ladrón experimentado: en dos partes, debe robar una gema de la torre llena de trampas de un mago malvado y después un bastón de poder. La escribieron John y Laurie Van De Graaf.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-o.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/o1-the-gem-and-the-staff/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17085/o1-the-gem-and-the-staff-basic"
+        }
+      ]
+    }
+  ]
+}

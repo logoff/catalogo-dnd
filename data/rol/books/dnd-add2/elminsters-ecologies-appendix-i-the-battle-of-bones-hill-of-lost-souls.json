@@ -1,0 +1,23 @@
+{
+  "slug": "elminsters-ecologies-appendix-i-the-battle-of-bones-hill-of-lost-souls",
+  "system": "dnd-add2",
+  "title": "Elminster's Ecologies Appendix I: The Battle of Bones / Hill of Lost Souls",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La continuación de Elminster's Ecologies, con la flora y la fauna del Campo de Huesos y la Colina de las Almas Perdidas, de la comadreja zombi al ankheg de lava, y recetas del mundo. La escribieron Scott Davis y Donald J. Bingle.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-ee.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "cover": "/images/rol/elminsters-ecologies-appendix-i-the-battle-of-bones-hill-of-lost-souls/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17563/elminster-s-ecologies-appendix-i-the-battle-of-bones-hill-of-lost-souls-2e"
+        }
+      ]
+    }
+  ]
+}

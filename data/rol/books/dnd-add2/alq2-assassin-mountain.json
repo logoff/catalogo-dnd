@@ -1,0 +1,24 @@
+{
+  "slug": "alq2-assassin-mountain",
+  "system": "dnd-add2",
+  "title": "ALQ2 Assassin Mountain",
+  "kind": "adventure",
+  "settings": ["al_qadim"],
+  "description": "Tres aventuras de Al-Qadim contra los asesinos sagrados de Zakhara: un robo, el asalto a su fortaleza de la montaña, Sarahin, y su Pozo de los Mil Horrores. La escribió Wolfgang Baur.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-alq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/alq2-assassin-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16875/alq2-assassin-mountain-2e"
+        }
+      ]
+    }
+  ]
+}

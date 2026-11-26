@@ -1,0 +1,35 @@
+{
+  "slug": "avatar-dc",
+  "title": "Avatar",
+  "publisher": "DC Comics",
+  "setting": "forgotten_realms",
+  "kind": "limited_series",
+  "date": "1990-12",
+  "end_date": "1991-05",
+  "issue_count": 3,
+  "writers": ["Barbara Kesel"],
+  "artists": ["Dameon Willich"],
+  "description": "Miniserie en tres números de formato prestigio que adapta la trilogía de novelas Avatar (Shadowdale, Tantras y Waterdeep), con la que TSR contó el Tiempo de Tribulaciones de los Reinos Olvidados, cuando los dioses caen a Faerûn en forma mortal. Guion de Barbara Kesel.\n\nSe publicó en 1991 y no se ha reeditado ni traducido.",
+  "source": "https://www.comics.org/series/14727/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "1990-12-13",
+      "cover": "/images/comics/avatar-dc/1.webp",
+      "cover_source": "https://www.comics.org/series/14727/covers/"
+    },
+    {
+      "number": "2",
+      "date": "1991-02-14",
+      "cover": "/images/comics/avatar-dc/2.webp",
+      "cover_source": "https://www.comics.org/series/14727/covers/"
+    },
+    {
+      "number": "3",
+      "date": "1991-05-30",
+      "cover": "/images/comics/avatar-dc/3.webp",
+      "cover_source": "https://www.comics.org/series/14727/covers/"
+    }
+  ],
+  "related_novels": ["shadowdale", "tantras", "waterdeep"]
+}

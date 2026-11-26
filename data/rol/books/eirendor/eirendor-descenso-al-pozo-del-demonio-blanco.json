@@ -1,0 +1,25 @@
+{
+  "slug": "eirendor-descenso-al-pozo-del-demonio-blanco",
+  "system": "eirendor",
+  "title": "Eirendor: Descenso al Pozo del Demonio Blanco",
+  "kind": "adventure",
+  "description": "Aventura para Eirendor de Javier Arce y Carlos Julián del Cerro para cuatro a seis personajes de nivel 1, a los que Stalos Prax, un rico coleccionista de reliquias y leyendas, contrata para bajar al Pozo del Demonio Blanco, donde descubrirán los secretos de los Aspectos y nada es lo que parece.\n\nEs un cuadernillo de 40 páginas en A5 de la colección Aventuras para Eirendor; necesita el manual básico y sirve también para la quinta edición de D&D.",
+  "source": "https://www.todostuslibros.com/libros/eirendor-descenso-al-pozo-del-demonio-blanco_978-84-947923-1-1",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "date": "2017-12-05",
+      "format": "paperback",
+      "isbn13": 9788494792311,
+      "cover": "/images/rol/eirendor-descenso-al-pozo-del-demonio-blanco/castellano.webp",
+      "source": "https://tesorosdelamarca.com/producto/descenso-al-pozo-del-demonio-blanco/",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/8494792318"
+        }
+      ]
+    }
+  ]
+}

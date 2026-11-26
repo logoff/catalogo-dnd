@@ -1,0 +1,17 @@
+{
+  "slug": "marca-nirmala-eje-de-mundos",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Nirmala, eje de mundos",
+  "kind": "setting",
+  "description": "Un suplemento de ambientación sobre Nirmala, una tierra exótica de ciudades de mármol, selvas, castas, dioses cercanos y fortalezas voladoras.\n\nLo escribió Miguel Ángel Muñoz y estaba en imprenta en noviembre de 2026.",
+  "source": "https://tesorosdelamarca.com/producto/nirmala/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "format": "paperback",
+      "source": "https://lamarcadeleste.com/2026/11/novedades-de-la-marca-para-el-cierre-de-este-2026.html",
+      "cover": "/images/rol/marca-nirmala-eje-de-mundos/castellano.webp"
+    }
+  ]
+}

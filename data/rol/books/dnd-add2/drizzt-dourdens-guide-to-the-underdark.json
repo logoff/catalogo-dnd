@@ -1,0 +1,24 @@
+{
+  "slug": "drizzt-dourdens-guide-to-the-underdark",
+  "system": "dnd-add2",
+  "title": "Drizzt Do'Urden's Guide to the Underdark",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una guía de la Infraoscuridad de los Reinos Olvidados contada por Drizzt Do'Urden, el elfo oscuro de las novelas de R. A. Salvatore. La escribió Eric L. Boyd.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/drizzt-dourdens-guide-to-the-underdark/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17547/drizzt-do-urden-s-guide-to-the-underdark-2e"
+        }
+      ]
+    }
+  ]
+}

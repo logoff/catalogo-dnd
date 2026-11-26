@@ -1,0 +1,24 @@
+{
+  "slug": "dl2-dragons-of-flame",
+  "system": "dnd-add1",
+  "title": "DL2 Dragons of Flame",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La segunda aventura de la saga de Dragonlance: los Compañeros liberan a los esclavos de la fortaleza de Pax Tharkas, gobernada por el señor de los dragones Verminaard. Presentó a los draconianos kapak. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/dl2-dragons-of-flame/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16883/dl2-dragons-of-flame-1e"
+        }
+      ]
+    }
+  ]
+}

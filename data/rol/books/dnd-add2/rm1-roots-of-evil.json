@@ -1,0 +1,24 @@
+{
+  "slug": "rm1-roots-of-evil",
+  "system": "dnd-add2",
+  "title": "RM1 Roots of Evil",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura corta de la serie RM de Ravenloft. La escribieron Eric Haddock y David Wise.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rm1-roots-of-evil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17498/rm1-roots-of-evil-2e"
+        }
+      ]
+    }
+  ]
+}

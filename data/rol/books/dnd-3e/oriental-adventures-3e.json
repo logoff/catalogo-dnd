@@ -1,0 +1,33 @@
+{
+  "slug": "oriental-adventures-3e",
+  "system": "dnd-3e",
+  "title": "Oriental Adventures",
+  "kind": "setting",
+  "settings": ["kara_tur"],
+  "description": "Fantasía de inspiración asiática para la 3.ª edición: razas, clases como el samurái, el shugenja o el wu jen, artes marciales, conjuros, monstruos y la ambientación de Rokugan, el mundo de La Leyenda de los Cinco Anillos.\n\nComparte título con el suplemento de AD&D de 1985. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030704160336/http://wizards.com:80/default.asp?x=products/dndacc/882440000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-10",
+      "format": "hardcover",
+      "isbn13": 9780786920150,
+      "cover": "/images/rol/oriental-adventures-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/23426/oriental-adventures-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Aventuras Orientales",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712127,
+      "source": "https://www.todostuslibros.com/libros/aventuras-orientales_978-84-95712-12-7"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "oa6-ronin-challenge",
+  "system": "dnd-add2",
+  "title": "OA6 Ronin Challenge",
+  "kind": "adventure",
+  "settings": ["kara_tur"],
+  "description": "Una aventura de Kara-Tur: los personajes participan en un torneo de artes marciales antes de viajar por tierras salvajes y ruinas antiguas. La escribieron Curtis Smith y Rick Swan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/oa6-ronin-challenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/200813/oa6-ronin-challenge-2e"
+        }
+      ]
+    }
+  ]
+}

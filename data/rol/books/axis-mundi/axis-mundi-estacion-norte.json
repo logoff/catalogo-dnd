@@ -1,0 +1,27 @@
+{
+  "slug": "axis-mundi-estacion-norte",
+  "system": "axis-mundi",
+  "title": "Estación Norte",
+  "kind": "adventure",
+  "description": "Aventura introductoria para Axis Mundi para cuatro a seis personajes de nivel 6 a 8, ambientada en un mundo posapocalíptico; añade la tecnomagia, cinco clases nuevas y los kóbolds como especie jugable.\n\nSirve para estrenar el juego con personajes ya curtidos y para llevarlo más allá de la fantasía clásica.",
+  "source": "https://77mundos.es/tienda/axis-mundi/estacion-norte/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "77 Mundos",
+      "format": "paperback",
+      "isbn13": 9791399060041,
+      "cover": "/images/rol/axis-mundi-estacion-norte/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18489-axis-mundi-estacion-norte-9791399060041.html"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/es/product/549823/estacion-norte"
+        }
+      ]
+    }
+  ]
+}

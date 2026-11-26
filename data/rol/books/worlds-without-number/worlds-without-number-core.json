@@ -1,0 +1,24 @@
+{
+  "slug": "worlds-without-number-core",
+  "system": "worlds-without-number",
+  "title": "Worlds Without Number",
+  "kind": "core",
+  "core": true,
+  "description": "El libro completo de Worlds Without Number: reglas de fantasía de la vieja escuela con habilidades, magia, monstruos y muchas herramientas para crear mundos, facciones, ruinas y campañas de caja de arena.\n\nPublicado por Sine Nomine Publishing, escrito por Kevin Crawford, con 400 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/348791/worlds-without-number",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Sine Nomine Publishing",
+      "date": "2021-03",
+      "format": "hardcover",
+      "cover": "/images/rol/worlds-without-number-core/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/348791/worlds-without-number"
+        }
+      ]
+    }
+  ]
+}

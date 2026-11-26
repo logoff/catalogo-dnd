@@ -1,0 +1,24 @@
+{
+  "slug": "rr9-van-richtens-guide-to-the-ancient-dead",
+  "system": "dnd-add2",
+  "title": "RR9 Van Richten's Guide to the Ancient Dead",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Uno de los tratados de Rudolph van Richten, escrito como si fuera suyo, sobre los muertos antiguos, las momias. Lo escribió Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/rr9-van-richtens-guide-to-the-ancient-dead/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17506/rr9-van-richten-s-guide-to-the-ancient-dead-2e"
+        }
+      ]
+    }
+  ]
+}

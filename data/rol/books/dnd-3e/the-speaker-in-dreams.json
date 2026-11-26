@@ -1,0 +1,24 @@
+{
+  "slug": "the-speaker-in-dreams",
+  "system": "dnd-3e",
+  "title": "The Speaker in Dreams",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 5 a 7 en el pueblo de Brindinford: un ataque durante una feria sirve de distracción para asaltar el castillo del barón, y los personajes descubren las alianzas secretas del villano Ghaerleth Axom.\n\nForma parte de la serie de aventuras de la 3.ª edición que culmina en Bastion of Broken Souls con el gran dragón Ashardalon. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20031211022534/http://www.wizards.com:80/default.asp?x=products/dndacc/880620000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-01",
+      "format": "paperback",
+      "isbn13": 9780786918300,
+      "cover": "/images/rol/the-speaker-in-dreams/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25837/the-speaker-in-dreams-3e"
+        }
+      ]
+    }
+  ]
+}

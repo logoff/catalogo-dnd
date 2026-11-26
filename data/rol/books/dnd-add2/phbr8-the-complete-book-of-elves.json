@@ -1,0 +1,31 @@
+{
+  "slug": "phbr8-the-complete-book-of-elves",
+  "system": "dnd-add2",
+  "title": "PHBR8 The Complete Book of Elves",
+  "kind": "supplement",
+  "description": "El manual de raza de los elfos: subrazas, cultura, magia élfica, kits y opciones de juego.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/phbr8-the-complete-book-of-elves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16896/phbr8-the-complete-book-of-elves-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Libro de los Elfos",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/phbr8-the-complete-book-of-elves/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

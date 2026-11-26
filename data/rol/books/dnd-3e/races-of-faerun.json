@@ -1,0 +1,35 @@
+{
+  "slug": "races-of-faerun",
+  "system": "dnd-3e",
+  "title": "Races of Faerûn",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Las razas y subrazas de los Reinos Olvidados, humanas y no humanas, con su cultura, su historia y sus opciones de juego.\n\nDevir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20030118114714/http://www.wizards.com:80/default.asp?x=products/dndacc/885780000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-03",
+      "format": "hardcover",
+      "isbn13": 9780786928750,
+      "cover": "/images/rol/races-of-faerun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/25986/races-of-faerun-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Razas de Faerûn",
+      "publisher": "Devir",
+      "date": "2004-03",
+      "format": "hardcover",
+      "isbn13": 9788495712349,
+      "cover": "/images/rol/races-of-faerun/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/razas-de-faerun_978-84-95712-34-9"
+    }
+  ]
+}

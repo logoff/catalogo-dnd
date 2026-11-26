@@ -1,0 +1,29 @@
+{
+  "slug": "mythic-bastionland",
+  "name": "Mythic Bastionland",
+  "family": "mythic-bastionland",
+  "publisher": "Bastionland Press",
+  "date": "2025",
+  "movement": "nsr",
+  "description": "El tercer juego de Chris McDowall sobre el mundo de Bastión, ambientado en su pasado imaginado: los jugadores son jóvenes caballeros andantes, cada uno elegido entre setenta y dos con su equipo y su habilidad, que buscan la gloria cazando los Mitos que se manifiestan en el reino.\n\nUsa el mismo sistema ligero de Into the Odd y Electric Bastionland. No consta una edición en castellano.",
+  "features": [
+    "Caballeros andantes en busca de gloria",
+    "Setenta y dos caballeros y Mitos",
+    "Sistema de Into the Odd",
+    "Exploración por casillas hexagonales"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "electric-bastionland",
+      "kind": "compatible",
+      "note": "Usa el mismo sistema de reglas que Into the Odd y Electric Bastionland."
+    }
+  ],
+  "links": [
+    {
+      "label": "Bastionland Press",
+      "url": "https://www.bastionland.com/"
+    }
+  ]
+}

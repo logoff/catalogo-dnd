@@ -1,0 +1,23 @@
+{
+  "slug": "hhq8-clerics-challenge-ii",
+  "system": "dnd-add2",
+  "title": "HHQ8 Cleric's Challenge II",
+  "kind": "adventure",
+  "description": "La segunda aventura de desafío para clérigos, de nivel 4 a 6: en un pueblo rural sin templo, la rivalidad entre dos bodegas se ha vuelto peligrosa. La escribió Paul F. Culotta.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/hhq8-clerics-challenge-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17326/hhq8-cleric-s-challenge-ii-2e"
+        }
+      ]
+    }
+  ]
+}

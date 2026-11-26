@@ -1,0 +1,31 @@
+{
+  "slug": "for2-the-drow-of-the-underdark",
+  "system": "dnd-add2",
+  "title": "FOR2 The Drow of the Underdark",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre los drow de los Reinos Olvidados: su sociedad, sus casas, su religión y su magia. Lo escribió Ed Greenwood.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/fr/fr-for.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/for2-the-drow-of-the-underdark/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16829/for2-the-drow-of-the-underdark-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Los Drow de la Suboscuridad",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

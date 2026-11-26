@@ -1,0 +1,37 @@
+{
+  "slug": "dark-sun-a-killing-in-tyr",
+  "title": "Dungeons & Dragons: Dark Sun – A Killing in Tyr",
+  "publisher": "Dark Horse Comics",
+  "setting": "dark_sun",
+  "kind": "graphic_novel",
+  "date": "2027-04",
+  "announced": true,
+  "issue_count": 1,
+  "writers": ["Dan Abnett"],
+  "artists": ["Nil Vendrell"],
+  "description": "Novela gráfica de Dark Horse escrita por Dan Abnett y dibujada por Nil Vendrell, con portada de Jeff Stokely. En la ciudad de Tyr, en el desierto de Athas, un gladiador insectoide se ofrece a proteger a un amigo perseguido y arrastra a un grupo de compañeros poco recomendables a una huida por las calles.\n\nSale en abril de 2027 en tapa dura, como acompañamiento del libro de ambientación Dark Sun: Edge of Oblivion. No se ha anunciado en castellano.",
+  "source": "https://www.darkhorse.com/books/3019-511/dungeons-dragons-dark-sun-a-killing-in-tyr-hc/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2027-04-20",
+      "cover": "/images/comics/dark-sun-a-killing-in-tyr/9781506758589.webp",
+      "cover_source": "https://www.darkhorse.com/books/3019-511/dungeons-dragons-dark-sun-a-killing-in-tyr-hc/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dungeons & Dragons: Dark Sun – A Killing in Tyr",
+      "publisher": "Dark Horse Comics",
+      "date": "2027-04-20",
+      "format": "hardcover",
+      "isbn13": 9781506758589,
+      "contents": [{ "series": "dark-sun-a-killing-in-tyr", "issues": "1" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1506758584/" }],
+      "cover": "/images/comics/dark-sun-a-killing-in-tyr/9781506758589.webp",
+      "cover_source": "https://www.darkhorse.com/books/3019-511/dungeons-dragons-dark-sun-a-killing-in-tyr-hc/"
+    }
+  ],
+  "related_products": [{ "edition": "2024", "code": "DSEoO" }]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "dle3-dragon-keep",
+  "system": "dnd-add2",
+  "title": "DLE3 Dragon Keep",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La aventura que cierra la trilogía de In Search of Dragons: los personajes viajan de la luna Lunitari a las profundidades del océano de Krynn para vencer a la hija de Takhisis. La escribió Rick Swan.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dle.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/dle3-dragon-keep/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17368/dle3-dragon-keep-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Ciudadela del Dragón",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/dle3-dragon-keep/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

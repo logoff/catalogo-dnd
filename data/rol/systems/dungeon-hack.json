@@ -1,0 +1,29 @@
+{
+  "slug": "dungeon-hack",
+  "name": "Dungeon Hack",
+  "family": "dungeon-hack",
+  "publisher": "Yipikayei",
+  "date": "2018",
+  "movement": "osr",
+  "description": "Juego de rol español de fantasía al estilo de la vieja escuela, de Yipikayei: trasgos, dragones, enigmas, tierras salvajes, reinos que gobernar y viajes a otras dimensiones, con reglas rápidas pensadas para jugar cualquier aventura OSR sin apenas cambios.\n\nParte de las reglas de Estrellas Errantes, que a su vez se basan en The Black Hack. Se financió en Verkami en 2018 y solo está en castellano.",
+  "features": [
+    "Reglas de The Black Hack",
+    "Compatible con aventuras OSR",
+    "Reinos y viajes a otras dimensiones",
+    "Financiado en Verkami"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "estrellas-errantes",
+      "kind": "major_rewrite",
+      "note": "Lleva de vuelta a la fantasía las reglas de Estrellas Errantes, que a su vez parte de The Black Hack."
+    }
+  ],
+  "links": [
+    {
+      "label": "Verkami",
+      "url": "https://www.verkami.com/projects/21054"
+    }
+  ]
+}

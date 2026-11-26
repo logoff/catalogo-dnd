@@ -1,0 +1,24 @@
+{
+  "slug": "rr12-van-richtens-guide-to-the-vistani",
+  "system": "dnd-add2",
+  "title": "RR12 Van Richten's Guide to the Vistani",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Uno de los tratados de Rudolph van Richten, escrito como si fuera suyo, sobre los vistani, el pueblo nómada que cruza las nieblas de Ravenloft. Lo escribió David Wise.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/rr12-van-richtens-guide-to-the-vistani/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17511/van-richten-s-guide-to-the-vistani-2e"
+        }
+      ]
+    }
+  ]
+}

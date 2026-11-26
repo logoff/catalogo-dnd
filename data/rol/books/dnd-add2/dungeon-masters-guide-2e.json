@@ -1,0 +1,42 @@
+{
+  "slug": "dungeon-masters-guide-2e",
+  "system": "dnd-add2",
+  "title": "Dungeon Master's Guide",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del Dungeon Master de AD&D 2.ª edición: cómo crear personajes no jugadores, experiencia, tesoros y objetos mágicos, combate avanzado, viajes, encuentros y consejos para llevar campañas. Tuvo una versión revisada en 1995.\n\nEdición en castellano de Zinco y Martínez Roca.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-dmg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "hardcover",
+      "cover": "/images/rol/dungeon-masters-guide-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17552/dungeon-master-guide-revised-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Dungeon Master",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "hardcover",
+      "cover": "/images/rol/dungeon-masters-guide-2e/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core-a.html"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Dungeon Master",
+      "publisher": "Martínez Roca",
+      "date": "1998",
+      "format": "hardcover",
+      "cover": "/images/rol/dungeon-masters-guide-2e/castellano-2.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core.html"
+    }
+  ]
+}

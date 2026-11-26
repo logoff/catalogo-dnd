@@ -1,0 +1,22 @@
+{
+  "slug": "dnd-original",
+  "name": "D&D original",
+  "family": "dungeons-and-dragons",
+  "official": true,
+  "publisher": "TSR",
+  "date": "1974",
+  "description": "El primer Dungeons & Dragons, que Gary Gygax y Dave Arneson publicaron en 1974 a partir del juego de miniaturas Chainmail y de la campaña de Blackmoor: tres cuadernillos en una caja, Men & Magic, Monsters & Treasure y The Underworld & Wilderness Adventures. Tenía solo tres clases (guerrero, usuario de magia y clérigo), daba por supuesto que el jugador conocía los juegos de guerra y dejaba muchas reglas en manos del árbitro.\n\nCuatro suplementos lo ampliaron entre 1975 y 1976 con el ladrón, el paladín, el monje, el druida, la psiónica y los dioses, y de él salieron las dos ramas de D&D: la línea básica, que empezó con la caja de Holmes en 1977, y Advanced Dungeons & Dragons. No se tradujo al castellano.",
+  "features": [
+    "Tres clases: guerrero, usuario de magia y clérigo",
+    "Combate con tablas heredadas de Chainmail",
+    "Cuatro suplementos que añaden clases, monstruos y magia",
+    "Gran libertad del árbitro para completar las reglas"
+  ],
+  "licenses": [],
+  "links": [
+    {
+      "label": "TSR Archive: Dungeons & Dragons",
+      "url": "https://www.tsrarchive.com/dd/dd.html"
+    }
+  ]
+}

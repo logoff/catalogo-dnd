@@ -1,0 +1,27 @@
+{
+  "slug": "endless-quest-escape-from-castle-ravenloft",
+  "title": "Endless Quest: Escape from Castle Ravenloft",
+  "group": "books",
+  "kind": "gamebook",
+  "manufacturer": "Candlewick Press",
+  "date": "2019",
+  "description": "Librojuego de Matt Forbeck de la serie Endless Quest, recuperada por Wizards of the Coast y Candlewick en 2018: el lector elige qué hacer al final de cada capítulo en una aventura por el castillo del conde Strahd von Zarovich en Barovia, el mundo de terror de Ravenloft.\n\nEstá pensado para lectores de 8 a 12 años que empiezan con D&D, con ilustraciones del arte oficial de la quinta edición. Salió en tapa dura y en rústica, y solo en inglés.",
+  "source": "https://gamebooks.org/Item/12282",
+  "editions": [
+    {
+      "language": "english",
+      "title": "Endless Quest: Escape from Castle Ravenloft (tapa dura)",
+      "publisher": "Candlewick Press",
+      "date": "2019",
+      "isbn13": 9781536209228
+    },
+    {
+      "language": "english",
+      "title": "Endless Quest: Escape from Castle Ravenloft (rústica)",
+      "publisher": "Candlewick Press",
+      "date": "2019",
+      "isbn13": 9781536209235
+    }
+  ],
+  "images": ["/images/merchandising/endless-quest-escape-from-castle-ravenloft/0.jpg"]
+}

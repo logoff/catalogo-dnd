@@ -1,0 +1,36 @@
+{
+  "slug": "dcc-84-peril-on-the-purple-planet",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics #84: Peril on the Purple Planet",
+  "kind": "setting",
+  "description": "Aventura para nivel 4 y ambientación: el Planeta Púrpura, donde tribus de hombres bestia guerrean bajo un sol moribundo y los gusanos de la muerte dominan los desiertos.\n\nPublicado por Goodman Games, escrito por Harley Stroh, con 32 páginas. Other Selves lo publica en castellano como Peligro en el planeta púrpura.",
+  "source": "https://www.drivethrurpg.com/en/product/133501/dungeon-crawl-classics-84-peril-on-the-purple-planet",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Peligro en el planeta púrpura",
+      "publisher": "Other Selves",
+      "format": "boxed_set",
+      "cover": "/images/rol/dcc-84-peril-on-the-purple-planet/castellano.webp",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/30788-clasicos-del-mazmorreo-peligro-en-el-planeta-purpura.html",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/31853-peligro-en-el-planeta-purpura",
+        "end": "2022-01-01"
+      }
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2015-06",
+      "format": "boxed_set",
+      "cover": "/images/rol/dcc-84-peril-on-the-purple-planet/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/133501/dungeon-crawl-classics-84-peril-on-the-purple-planet"
+        }
+      ]
+    }
+  ]
+}

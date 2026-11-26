@@ -1,0 +1,33 @@
+{
+  "slug": "dls4-wild-elves",
+  "system": "dnd-add2",
+  "title": "DLS4 Wild Elves",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "Una aventura de la serie DLS de Dragonlance, con los elfos salvajes. La escribió Scott Bennie.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dls.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dls4-wild-elves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17375/dls4-wild-elves-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Elfos Salvajes",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dls4-wild-elves/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

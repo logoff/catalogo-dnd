@@ -1,0 +1,23 @@
+{
+  "slug": "monster-manual-ii-1e",
+  "system": "dnd-add1",
+  "title": "Monster Manual II",
+  "kind": "supplement",
+  "description": "El segundo bestiario de AD&D 1.ª edición, escrito por Gary Gygax, con cientos de monstruos nuevos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "hardcover",
+      "cover": "/images/rol/monster-manual-ii-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17005/monster-manual-ii-1e"
+        }
+      ]
+    }
+  ]
+}

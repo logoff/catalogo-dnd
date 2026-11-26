@@ -1,0 +1,23 @@
+{
+  "slug": "m2-maze-of-the-riddling-minotaur",
+  "system": "dnd-basic",
+  "title": "M2 Maze of the Riddling Minotaur",
+  "kind": "adventure",
+  "description": "Una aventura en solitario para la caja básica: el rey encarga al personaje buscar a una princesa secuestrada en un laberinto lleno de monstruos. Los resultados de cada elección se revelan con un rotulador de tinta invisible. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-msolo.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/m2-maze-of-the-riddling-minotaur/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/202689/m2-msolo2-maze-of-the-riddling-minotaur-basic"
+        }
+      ]
+    }
+  ]
+}

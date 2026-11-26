@@ -1,0 +1,33 @@
+{
+  "slug": "dls2-tree-lords",
+  "system": "dnd-add2",
+  "title": "DLS2 Tree Lords",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "Una aventura de la serie DLS de Dragonlance. La escribió John Terra.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dls.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dls2-tree-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17373/dls2-tree-lords-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Los Señores de los Árboles",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dls2-tree-lords/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

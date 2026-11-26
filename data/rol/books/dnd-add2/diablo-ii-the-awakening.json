@@ -1,0 +1,17 @@
+{
+  "slug": "diablo-ii-the-awakening",
+  "system": "dnd-add2",
+  "title": "Diablo II: The Awakening",
+  "kind": "adventure",
+  "description": "Una aventura ambientada en el mundo del videojuego Diablo II. La escribieron Bruce R. Cordell y Mike Selinker.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/diablo-ii-the-awakening/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "hwa2-nightrage",
+  "system": "dnd-basic",
+  "title": "HWA2 Nightrage",
+  "kind": "adventure",
+  "settings": ["mystara"],
+  "description": "La segunda parte de la trilogía de aventuras del Mundo Hueco. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/hw/hw-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/hwa2-nightrage/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17147/hwa2-nightrage-basic"
+        }
+      ]
+    }
+  ]
+}

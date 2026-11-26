@@ -1,0 +1,23 @@
+{
+  "slug": "b11-kings-festival",
+  "system": "dnd-basic",
+  "title": "B11 King's Festival",
+  "kind": "adventure",
+  "description": "Una aventura introductoria para la caja básica, pensada para jugadores y Dungeon Masters que empiezan. La escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/b11-kings-festival/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17141/b11-king-s-festival-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-sinister-spire",
+  "system": "dnd-3-5",
+  "title": "The Sinister Spire",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de 5.º nivel en la Infraoscuridad: a orillas de un mar sin sol se alza una ciudad de torres colosales que los personajes deben explorar.\n\nContinúa Barrow of the Forgotten King en una serie de aventuras enlazadas. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20070504012931/http://www.wizards.com:80/default.asp?x=products/dndacc/107977400",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007",
+      "format": "paperback",
+      "isbn13": 9780786943579,
+      "cover": "/images/rol/the-sinister-spire/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/50001/dd2-the-sinister-spire-3-5"
+        }
+      ]
+    }
+  ]
+}

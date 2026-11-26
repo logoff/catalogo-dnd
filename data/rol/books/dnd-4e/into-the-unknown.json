@@ -1,0 +1,24 @@
+{
+  "slug": "into-the-unknown",
+  "system": "dnd-4e",
+  "title": "Into the Unknown: The Dungeon Survival Handbook",
+  "kind": "supplement",
+  "description": "Un libro sobre las mazmorras: para los jugadores, temas, poderes, equipo y tres razas (svirfneblin, kóbold y goblin); para el Dungeon Master, consejos para construir mazmorras y saber sobre sus monstruos clásicos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Into_the_Unknown:_The_Dungeon_Survival_Handbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-05",
+      "format": "hardcover",
+      "isbn13": 9780786960323,
+      "cover": "/images/rol/into-the-unknown/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/169142/into-the-unknown-the-dungeon-survival-handbook-4e"
+        }
+      ]
+    }
+  ]
+}

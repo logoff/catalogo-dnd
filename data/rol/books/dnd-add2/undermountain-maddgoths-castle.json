@@ -1,0 +1,24 @@
+{
+  "slug": "undermountain-maddgoths-castle",
+  "system": "dnd-add2",
+  "title": "Undermountain: Maddgoth's Castle",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura en Bajomontaña: el mago Maddgoth esconde los libros de conjuros que ha robado en una fortaleza encogida por magia, y los personajes deben recuperar todos los que puedan. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/undermountain-maddgoths-castle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17575/undermountain-ii-maddgoth-s-castle-2e"
+        }
+      ]
+    }
+  ]
+}

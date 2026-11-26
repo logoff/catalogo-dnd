@@ -1,0 +1,77 @@
+{
+  "slug": "dragonlance-chronicles-vol-2",
+  "title": "Dragonlance Chronicles Vol. II",
+  "title_es": "Crónicas de la Dragonlance",
+  "publisher": "Devil's Due Publishing",
+  "setting": "dragonlance",
+  "kind": "limited_series",
+  "date": "2006-07",
+  "end_date": "2007-01",
+  "issue_count": 4,
+  "description": "Segunda parte de la adaptación de Devil's Due de las Crónicas de la Dragonlance, sobre La tumba de Huma: los Compañeros, separados, buscan los orbes de los dragones y las legendarias lanzas mientras avanza el ejército de la Reina de la Oscuridad.\n\nIDW la reeditó en 2015 y Norma la publicó en castellano en 2008 en los tomos 3 y 4 de Crónicas de la Dragonlance.",
+  "source": "https://www.comics.org/series/37721/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2006-07",
+      "cover": "/images/comics/dragonlance-chronicles-vol-2/1.webp",
+      "cover_source": "https://www.comics.org/series/37721/covers/"
+    },
+    {
+      "number": "2",
+      "cover": "/images/comics/dragonlance-chronicles-vol-2/2.webp",
+      "cover_source": "https://www.comics.org/series/37721/covers/"
+    },
+    {
+      "number": "3",
+      "cover": "/images/comics/dragonlance-chronicles-vol-2/3.webp",
+      "cover_source": "https://www.comics.org/series/37721/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2007-01",
+      "cover": "/images/comics/dragonlance-chronicles-vol-2/4.webp",
+      "cover_source": "https://www.comics.org/series/37721/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "english",
+      "title": "Dragonlance Chronicles Vol. 2: Dragons of Winter Night",
+      "publisher": "Devil's Due Publishing",
+      "date": "2007",
+      "format": "paperback",
+      "isbn13": 9781932796889,
+      "contents": [{ "series": "dragonlance-chronicles-vol-2", "issues": "1-4" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1932796886/" }],
+      "cover": "/images/comics/dragonlance-chronicles-vol-2/9781932796889.webp",
+      "cover_source": "https://www.amazon.es/dp/1932796886/"
+    },
+    {
+      "language": "english",
+      "title": "Dragonlance Chronicles Vol. 2: Dragons of Winter Night",
+      "publisher": "IDW Publishing",
+      "date": "2015-08",
+      "format": "paperback",
+      "isbn13": 9781631403705,
+      "contents": [{ "series": "dragonlance-chronicles-vol-2", "issues": "1-4" }],
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/1631403702/" }],
+      "cover": "/images/comics/dragonlance-chronicles-vol-2/9781631403705.webp",
+      "cover_source": "https://www.amazon.es/dp/1631403702/"
+    },
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Crónicas de la Dragonlance 3 y 4: Los barcos alados de Tarsis y La tumba de Huma",
+      "publisher": "Norma Editorial",
+      "date": "2008-07",
+      "format": "paperback",
+      "contents": [{ "series": "dragonlance-chronicles-vol-2", "issues": "1-4" }],
+      "source": "https://www.amazon.es/dp/8498473586/",
+      "cover": "/images/comics/dragonlance-chronicles-vol-2/tomo-3.webp",
+      "cover_source": "https://www.amazon.es/dp/8498473586/"
+    }
+  ],
+  "continues": "dragonlance-chronicles-vol-1",
+  "related_novels": ["dragons-of-winter-night"]
+}

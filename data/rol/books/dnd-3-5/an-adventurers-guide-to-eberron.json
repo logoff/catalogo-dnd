@@ -1,0 +1,24 @@
+{
+  "slug": "an-adventurers-guide-to-eberron",
+  "system": "dnd-3-5",
+  "title": "An Adventurer's Guide to Eberron",
+  "kind": "setting",
+  "settings": ["eberron"],
+  "description": "Una guía visual ilustrada de 64 páginas sobre el mundo de Eberron, sin reglas, pensada como introducción a la ambientación.\n\nSalió poco antes de la 4.ª edición, que mantuvo Eberron entre sus ambientaciones. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/An_Adventurer%27s_Guide_to_Eberron",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-03",
+      "isbn13": 9780786948550,
+      "cover": "/images/rol/an-adventurers-guide-to-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57086/an-adventurer-s-guide-to-eberron-3-5"
+        }
+      ]
+    }
+  ]
+}

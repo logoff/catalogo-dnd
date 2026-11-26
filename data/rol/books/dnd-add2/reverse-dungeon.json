@@ -1,0 +1,23 @@
+{
+  "slug": "reverse-dungeon",
+  "system": "dnd-add2",
+  "title": "Reverse Dungeon",
+  "kind": "adventure",
+  "description": "Una aventura al revés: los jugadores llevan a los monstruos de una mazmorra frente a un grupo de aventureros, empezando por una pequeña tribu de goblins y subiendo por distintas criaturas. La escribieron John D. Rateliff y Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "2000",
+      "format": "paperback",
+      "cover": "/images/rol/reverse-dungeon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17286/reverse-dungeon-2e"
+        }
+      ]
+    }
+  ]
+}

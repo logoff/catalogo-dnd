@@ -1,0 +1,23 @@
+{
+  "slug": "battlesystem-skirmishes-miniatures-rules",
+  "system": "dnd-add2",
+  "title": "Battlesystem: Skirmishes Miniatures Rules",
+  "kind": "supplement",
+  "description": "Reglas de Battlesystem para escaramuzas, combates pequeños con miniaturas en los que cada figura es un personaje. Lo escribió Bruce Nesmith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-bs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/battlesystem-skirmishes-miniatures-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16937/battlesystem-skirmishes-2e"
+        }
+      ]
+    }
+  ]
+}

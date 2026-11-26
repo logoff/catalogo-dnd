@@ -1,0 +1,23 @@
+{
+  "slug": "country-sites",
+  "system": "dnd-add2",
+  "title": "Country Sites",
+  "kind": "supplement",
+  "description": "Siete grandes lugares para cualquier campaña, como el Templo Encantado, la Ciudad de los Muertos o la Isla de las Almas Perdidas, y cuatro más pequeños. Lo escribió Robin Jenkins.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-site.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/country-sites/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17538/country-sites-2e"
+        }
+      ]
+    }
+  ]
+}

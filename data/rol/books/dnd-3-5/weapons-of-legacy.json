@@ -1,0 +1,34 @@
+{
+  "slug": "weapons-of-legacy",
+  "system": "dnd-3-5",
+  "title": "Weapons of Legacy",
+  "kind": "supplement",
+  "description": "Objetos de legado: armas y otros objetos mágicos con historia propia que despiertan nuevos poderes a medida que su portador sube de nivel, a cambio de rituales y de un precio permanente en puntos de golpe, tiradas o ataque. Trae decenas de objetos con su leyenda y reglas para crear los propios.\n\nEs una forma de que un objeto acompañe al personaje toda la campaña en vez de cambiarlo por otro mejor. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20041119063730/http://www.wizards.com:80/default.asp?x=products/dndacc/178620000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-07",
+      "format": "hardcover",
+      "isbn13": 9780786936885,
+      "cover": "/images/rol/weapons-of-legacy/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27999/weapons-of-legacy-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Armas de Leyenda",
+      "publisher": "Devir",
+      "date": "2006-03",
+      "format": "hardcover",
+      "isbn13": 9788496422650,
+      "cover": "/images/rol/weapons-of-legacy/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/armas-de-leyenda_978-84-96422-65-0"
+    }
+  ]
+}

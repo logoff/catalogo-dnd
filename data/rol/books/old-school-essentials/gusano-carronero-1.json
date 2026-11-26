@@ -1,0 +1,17 @@
+{
+  "slug": "gusano-carronero-1",
+  "system": "old-school-essentials",
+  "title": "Gusano carroñero #1",
+  "kind": "other",
+  "description": "Primer número de la revista de Old-School Essentials de Necrotic Gnome en castellano, con clases y razas de personaje nuevas, hechizos, objetos mágicos, monstruos, reglas opcionales y aventuras, en 32 páginas.\n\nEs la versión en castellano de Carcass Crawler, la revista de la línea; la publica The Hills Press.",
+  "source": "https://www.thehillspress.es/producto/gusano-carronero-1/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "The Hills Press",
+      "date": "2022-01",
+      "format": "paperback",
+      "cover": "/images/rol/gusano-carronero-1/castellano.webp"
+    }
+  ]
+}

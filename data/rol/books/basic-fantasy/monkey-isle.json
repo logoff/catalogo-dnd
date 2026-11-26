@@ -1,0 +1,23 @@
+{
+  "slug": "monkey-isle",
+  "system": "basic-fantasy",
+  "title": "Monkey Isle",
+  "kind": "adventure",
+  "description": "Una isla verde en medio del océano llena de bestias antiguas y ruinas extrañas por explorar.\n\nPublicado por Basic Fantasy Project, escrito por J.D. Neal, con 48 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/489782/monkey-isle",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-04",
+      "format": "paperback",
+      "cover": "/images/rol/monkey-isle/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/489782/monkey-isle"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "xsolo-lathans-gold",
+  "system": "dnd-basic",
+  "title": "XSOLO Lathan's Gold",
+  "kind": "adventure",
+  "description": "Una aventura en solitario en la que el personaje recorre las islas del Mar del Terror buscando el dinero para pagar el rescate que pide un secuestrador. La escribió Merle M. Rasmussen.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/xsolo-lathans-gold/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17101/xsolo-lathan-s-gold-basic"
+        }
+      ]
+    }
+  ]
+}

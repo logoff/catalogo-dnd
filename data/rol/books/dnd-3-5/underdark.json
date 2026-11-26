@@ -1,0 +1,34 @@
+{
+  "slug": "underdark",
+  "system": "dnd-3-5",
+  "title": "Underdark",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El mundo subterráneo de los Reinos Olvidados: la geografía de la Infraoscuridad bajo Faerûn, sus ciudades y sus pueblos (drow, duergar, svirfneblin, azotamentes y otros), con razas jugables, clases de prestigio, dotes, conjuros, monstruos y reglas para sobrevivir lejos de la luz.\n\nSalió justo después de la revisión 3.5, como accesorio de campaña de Reinos Olvidados. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Underdark_(supplement)",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2003-10",
+      "format": "hardcover",
+      "isbn13": 9780786930531,
+      "cover": "/images/rol/underdark/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28621/underdark-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Infraoscuridad",
+      "publisher": "Devir",
+      "date": "2004-06",
+      "format": "hardcover",
+      "isbn13": 9788496262522,
+      "source": "https://www.todostuslibros.com/libros/la-infraoscuridad_978-84-96262-52-2"
+    }
+  ]
+}

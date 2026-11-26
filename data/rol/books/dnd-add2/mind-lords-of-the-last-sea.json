@@ -1,0 +1,24 @@
+{
+  "slug": "mind-lords-of-the-last-sea",
+  "system": "dnd-add2",
+  "title": "Mind Lords of the Last Sea",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Un suplemento de Dark Sun sobre los Señores de la Mente del Último Mar. Lo escribió Matt Forbeck.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-rev.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/mind-lords-of-the-last-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17206/mind-lords-of-the-last-sea-2e"
+        }
+      ]
+    }
+  ]
+}

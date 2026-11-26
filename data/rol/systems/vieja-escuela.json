@@ -1,0 +1,39 @@
+{
+  "slug": "vieja-escuela",
+  "name": "Vieja Escuela",
+  "family": "vieja-escuela",
+  "publisher": "Grapas y Mapas",
+  "date": "2026-10",
+  "movement": "osr",
+  "description": "Retroclón minimalista de Javier «cabohicks» García, nacido de un fanzine: un reglamento de muy pocas páginas que recoge lo esencial del D&D clásico para jugar partidas de la vieja escuela con el mínimo de reglas.\n\nSe distribuye gratis en PDF y en papel bajo demanda en Lulu, y su licencia (OGL y Creative Commons) ha dado pie a muchas variantes de la comunidad, de superhéroes a piratas. Es un juego español, solo en castellano.",
+  "features": [
+    "Reglamento minimalista",
+    "Gratis en PDF y en papel bajo demanda",
+    "Licencias OGL y Creative Commons",
+    "Muchas variantes de la comunidad"
+  ],
+  "licenses": [
+    {
+      "license": "ogl-1-0a",
+      "since": "Edición revisada (2026)"
+    },
+    {
+      "license": "cc-by-sa-4-0",
+      "since": "Edición expandida (2026)"
+    }
+  ],
+  "derived_from": [
+    {
+      "system": "dnd-original",
+      "kind": "compatible",
+      "via_license": "ogl-1-0a",
+      "note": "Su autor lo presenta como un retroclón minimalista del D&D clásico, sin concretar edición."
+    }
+  ],
+  "links": [
+    {
+      "label": "Vieja Escuela",
+      "url": "https://viejaescuela.nogarung.com/"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "monsters-of-faerun",
+  "system": "dnd-3e",
+  "title": "Monster Compendium: Monsters of Faerûn",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un bestiario de criaturas propias de los Reinos Olvidados. Fue el primer libro de 3.ª edición en dar a cada monstruo un apartado sobre dónde y cómo usarlo en los Reinos.\n\nDevir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20040203160621/http://www.wizards.com:80/default.asp?x=products/dndacc/880990000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-02",
+      "format": "paperback",
+      "isbn13": 9780786918324,
+      "cover": "/images/rol/monsters-of-faerun/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/29509/monster-compendium-monsters-of-faerun-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Monstruos de Faerûn",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712189,
+      "source": "https://www.todostuslibros.com/libros/monstruos-de-faerun_978-84-95712-18-9"
+    }
+  ]
+}

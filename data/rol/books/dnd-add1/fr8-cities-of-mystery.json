@@ -1,0 +1,24 @@
+{
+  "slug": "fr8-cities-of-mystery",
+  "system": "dnd-add1",
+  "title": "FR8 Cities of Mystery",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una caja para montar ciudades: edificios de cartulina recortable a todo color para construir una manzana, dos grandes mapas, personajes no jugadores e ideas de aventura. La escribió Jean Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "boxed_set",
+      "cover": "/images/rol/fr8-cities-of-mystery/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16815/fr8-cities-of-mystery-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "i9-day-of-alakbar",
+  "system": "dnd-add1",
+  "title": "I9 Day of Al'Akbar",
+  "kind": "adventure",
+  "description": "Una aventura en una tierra desértica al estilo de Las mil y una noches, entre la ciudad de Khaibar, en manos de un bandido, y el palacio del sultán Al'Akbar, en busca de los artefactos que pueden curar una plaga roja. La escribió Allen Hammack.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/i9-day-of-alakbar/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17053/i9-day-of-al-akbar-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "ds1-freedom",
+  "system": "dnd-add2",
+  "title": "DS1 Freedom",
+  "kind": "adventure",
+  "settings": ["dark_sun"],
+  "description": "La primera aventura de Dark Sun: los personajes empiezan como esclavos en la ciudad-estado de Tyr y luchan por su libertad, en paralelo a la primera novela del Prism Pentad. La escribió David «Zeb» Cook.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ds/ds-ds.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/ds1-freedom/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17178/ds1-freedom-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Libertad",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/ds1-freedom/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-ds.html"
+    }
+  ]
+}

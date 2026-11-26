@@ -1,0 +1,23 @@
+{
+  "slug": "first-quest",
+  "system": "dnd-add2",
+  "title": "First Quest",
+  "kind": "starter",
+  "description": "Una caja de iniciación a AD&D 2.ª edición con un CD de audio que guía la primera partida.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/first-quest/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/241685/first-quest-2e"
+        }
+      ]
+    }
+  ]
+}

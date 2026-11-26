@@ -1,0 +1,57 @@
+{
+  "slug": "dcc-rpg",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics RPG",
+  "kind": "core",
+  "core": true,
+  "description": "El libro básico de Dungeon Crawl Classics: reglas, clases, conjuros con resultados imprevisibles, patrones sobrenaturales, deidades, monstruos y tesoros, más la partida de nivel 0 en la que cada jugador lleva varios campesinos y solo los supervivientes llegan a ser aventureros.\n\nPublicado por Goodman Games, escrito por Joseph Goodman, con 480 páginas. Other Selves lo publica en castellano como Clásicos del Mazmorreo: la primera edición, de casi 500 páginas, se financió en Verkami en 2016, y después llegaron la segunda y la tercera.",
+  "source": "https://www.drivethrurpg.com/en/product/101050/dungeon-crawl-classics-rpg-dcc-rpg",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "Clásicos del Mazmorreo (2.ª edición)",
+      "publisher": "Other Selves",
+      "format": "hardcover",
+      "isbn13": 9788412274646
+    },
+    {
+      "language": "castellano",
+      "title": "Clásicos del Mazmorreo (1.ª edición)",
+      "publisher": "Other Selves",
+      "date": "2016",
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/15384-clasicos-del-mazmorreo",
+        "end": "2016-08-06"
+      }
+    },
+    {
+      "language": "castellano",
+      "title": "Clásicos del Mazmorreo. Juego de rol (3.ª edición)",
+      "publisher": "Other Selves",
+      "format": "hardcover",
+      "source": "https://dracotienda.com/clasicos-del-mazmorreo/30786-clasicos-del-mazmorreo-juego-de-rol-3-edicion.html",
+      "cover": "/images/rol/dcc-rpg/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/17705-clasicos-del-mazmorreo-tercera-edicion-9788412750751.html"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2012-05",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-rpg/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/101050/dungeon-crawl-classics-rpg-dcc-rpg"
+        }
+      ]
+    }
+  ]
+}

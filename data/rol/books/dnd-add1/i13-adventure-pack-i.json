@@ -1,0 +1,23 @@
+{
+  "slug": "i13-adventure-pack-i",
+  "system": "dnd-add1",
+  "title": "I13 Adventure Pack I",
+  "kind": "supplement",
+  "description": "Una colección de ocho aventuras y tres escenarios cortos, como el misterio de un circo mágico, una guerra entre asesinos o el castillo giratorio en el cielo de un gigante de las tormentas moribundo.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/i13-adventure-pack-i/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17021/i13-adventure-pack-i-1e"
+        }
+      ]
+    }
+  ]
+}

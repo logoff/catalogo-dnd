@@ -1,0 +1,24 @@
+{
+  "slug": "sja1-wildspace",
+  "system": "dnd-add2",
+  "title": "SJA1 Wildspace",
+  "kind": "adventure",
+  "settings": ["spelljammer"],
+  "description": "La primera aventura de Spelljammer. La escribió Allen Varney.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sja.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/sja1-wildspace/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17245/sja1-wildspace-2e"
+        }
+      ]
+    }
+  ]
+}

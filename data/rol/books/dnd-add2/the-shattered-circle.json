@@ -1,0 +1,23 @@
+{
+  "slug": "the-shattered-circle",
+  "system": "dnd-add2",
+  "title": "The Shattered Circle",
+  "kind": "adventure",
+  "description": "Una aventura: al caer un menhir de un antiguo círculo de piedras cerca de Cahervaniel aparece un túnel, desaparece un pastor y salen monstruos de noche; debajo hay un enorme laberinto de tres niveles. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/the-shattered-circle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17104/the-shattered-circle-2e"
+        }
+      ]
+    }
+  ]
+}

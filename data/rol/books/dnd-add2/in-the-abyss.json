@@ -1,0 +1,24 @@
+{
+  "slug": "in-the-abyss",
+  "system": "dnd-add2",
+  "title": "In the Abyss",
+  "kind": "adventure",
+  "settings": ["planescape"],
+  "description": "Una aventura de Planescape en el Abismo, el plano de los tanar'ri. La escribió Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/in-the-abyss/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17270/in-the-abyss-2e"
+        }
+      ]
+    }
+  ]
+}

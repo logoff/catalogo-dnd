@@ -1,0 +1,29 @@
+{
+  "slug": "dolmenwood",
+  "name": "Dolmenwood",
+  "family": "dolmenwood",
+  "publisher": "Necrotic Gnome",
+  "date": "2024",
+  "movement": "osr",
+  "description": "Un juego de fantasía oscura y feérica ambientado en un gran bosque encantado inspirado en el folclore británico, de Gavin Norman y Necrotic Gnome. Nació como ambientación para Old-School Essentials y acabó siendo un juego completo, con sus propios pueblos (como los elfos de la corte feérica o los hombres-gato), clases y reglas para explorar el bosque casilla a casilla.\n\nMantiene la base B/X de Old-School Essentials, así que sus aventuras y monstruos se usan con él casi sin cambios. Se publica en tres libros básicos: el del jugador, el de campaña y el de monstruos. No consta una edición en castellano.",
+  "features": [
+    "Bosque feérico de inspiración británica",
+    "Pueblos y clases propios",
+    "Exploración por casillas hexagonales",
+    "Compatible con Old-School Essentials"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "old-school-essentials",
+      "kind": "compatible",
+      "note": "Parte de las reglas de Old-School Essentials y las amplía con pueblos, clases y reglas de exploración propias."
+    }
+  ],
+  "links": [
+    {
+      "label": "Necrotic Gnome",
+      "url": "https://necroticgnome.com/"
+    }
+  ]
+}

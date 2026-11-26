@@ -1,0 +1,34 @@
+{
+  "slug": "monster-manual-2-4e",
+  "system": "dnd-4e",
+  "title": "Monster Manual 2",
+  "kind": "core",
+  "core": true,
+  "description": "El segundo bestiario de la 4.ª edición, con más criaturas de todos los niveles, del heroico al épico, y sus tácticas y su papel en el mundo.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-05",
+      "format": "hardcover",
+      "isbn13": 9780786951017,
+      "cover": "/images/rol/monster-manual-2-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121102/monster-manual-2-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos II",
+      "publisher": "Devir",
+      "date": "2010-03",
+      "isbn13": 9788496934887,
+      "cover": "/images/rol/monster-manual-2-4e/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/d-d-rol-4a-ed-manual-de-monstruos-ii_978-84-96934-88-7"
+    }
+  ]
+}

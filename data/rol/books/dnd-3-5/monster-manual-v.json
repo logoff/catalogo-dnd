@@ -1,0 +1,33 @@
+{
+  "slug": "monster-manual-v",
+  "system": "dnd-3-5",
+  "title": "Monster Manual V",
+  "kind": "supplement",
+  "description": "El último Manual de Monstruos de 3.5: criaturas nuevas con el formato de perfil del Manual de Monstruos IV, encuentros de ejemplo y guaridas, y grupos de monstruos relacionados para construir aventuras alrededor de ellos.\n\nDevir lo publicó en castellano en 2008, cuando la 3.5 estaba a punto de dejar paso a la 4.ª edición.",
+  "source": "https://en.wikipedia.org/wiki/Monster_Manual_V",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-07",
+      "format": "hardcover",
+      "isbn13": 9780786941155,
+      "cover": "/images/rol/monster-manual-v/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54391/monster-manual-v-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos V",
+      "publisher": "Devir",
+      "date": "2008-03",
+      "isbn13": 9788496934146,
+      "cover": "/images/rol/monster-manual-v/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/manual-de-monstruos-v_978-84-96934-14-6"
+    }
+  ]
+}

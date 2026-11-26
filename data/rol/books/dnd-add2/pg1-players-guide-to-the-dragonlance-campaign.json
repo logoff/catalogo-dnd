@@ -1,0 +1,24 @@
+{
+  "slug": "pg1-players-guide-to-the-dragonlance-campaign",
+  "system": "dnd-add2",
+  "title": "PG1 Player's Guide to the Dragonlance Campaign",
+  "kind": "supplement",
+  "settings": ["dragonlance"],
+  "description": "Una guía para jugadores de Dragonlance que presenta la ambientación con relatos, artículos e ilustraciones, sin reglas ni estadísticas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-pg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/pg1-players-guide-to-the-dragonlance-campaign/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16964/pg1-player-s-guide-to-the-dragonlance-campaign-2e"
+        }
+      ]
+    }
+  ]
+}

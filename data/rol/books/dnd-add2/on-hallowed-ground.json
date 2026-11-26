@@ -1,0 +1,24 @@
+{
+  "slug": "on-hallowed-ground",
+  "system": "dnd-add2",
+  "title": "On Hallowed Ground",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "Un suplemento de Planescape sobre los reinos divinos de veinte panteones en los planos, con reglas para sacerdotes fuera del plano material, consejos para crear y visitar reinos de dioses, apéndices de dioses por panteón y mapas. Lo escribió Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/on-hallowed-ground/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121101/on-hallowed-ground-2e"
+        }
+      ]
+    }
+  ]
+}

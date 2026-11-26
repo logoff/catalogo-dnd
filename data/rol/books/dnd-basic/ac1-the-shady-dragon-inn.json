@@ -1,0 +1,23 @@
+{
+  "slug": "ac1-the-shady-dragon-inn",
+  "system": "dnd-basic",
+  "title": "AC1 The Shady Dragon Inn",
+  "kind": "supplement",
+  "description": "Un suplemento con más de cien personajes pregenerados de todas las clases y razas, sueltos y en grupos, para usarlos como personajes no jugadores o como personajes listos para jugar, con el plano de la posada del Dragón Sombrío. Lo escribió Carl Smith.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-ac.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/ac1-the-shady-dragon-inn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16969/ac1-the-shady-dragon-inn-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "frc1-ruins-of-adventure",
+  "system": "dnd-add1",
+  "title": "FRC1 Ruins of Adventure",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Cuatro aventuras enlazadas adaptadas del videojuego Pool of Radiance, en la ciudad arrasada de Phlan, que los personajes deben limpiar de las fuerzas del mal que la dominan. La escribieron Mike Breault, David Cook, Jim Ward y Steve Winter.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-frc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/frc1-ruins-of-adventure/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16808/frc1-ruins-of-adventure-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "marco-volo-departure",
+  "system": "dnd-add2",
+  "title": "Marco Volo: Departure",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "La primera parte de la trilogía de aventuras de Marco Volo. La escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-mv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/marco-volo-departure/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17558/marco-volo-departure-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "hr1-vikings-campaign-sourcebook",
+  "system": "dnd-add2",
+  "title": "HR1 Vikings Campaign Sourcebook",
+  "kind": "supplement",
+  "description": "El primer libro de la serie histórica de AD&D: los vikingos, su historia, su cultura y su geografía, con los dones que las nornas otorgan a los personajes humanos al nacer. Lo escribió David «Zeb» Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/hr1-vikings-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16912/hr1-vikings-campaign-sourcebook-2e"
+        }
+      ]
+    }
+  ]
+}

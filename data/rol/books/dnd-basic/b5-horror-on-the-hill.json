@@ -1,0 +1,23 @@
+{
+  "slug": "b5-horror-on-the-hill",
+  "system": "dnd-basic",
+  "title": "B5 Horror on the Hill",
+  "kind": "adventure",
+  "description": "Una aventura para principiantes en la Colina, una mole llena de cuevas frente al fuerte de Guido, donde un ejército creciente de goblins y hobgoblins se esconde en una mazmorra de tres niveles. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/b5-horror-on-the-hill/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17097/b5-horror-on-the-hill-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "marca-los-hijos-del-viento",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Los hijos del viento",
+  "kind": "adventure",
+  "description": "Una aventura en el remoto reino de Shui, en la frontera del Imperio Kang, donde ha despertado un mal ancestral en un valle rodeado de montañas.\n\nPublicada en noviembre de 2025.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40861-aventuras-en-la-marca-del-este-los-hijos-del-viento.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2025-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/40861-aventuras-en-la-marca-del-este-los-hijos-del-viento.html",
+      "cover": "/images/rol/marca-los-hijos-del-viento/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/b27-los-hijos-del-viento/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/18382-aventuras-en-la-marca-del-este-los-hijos-del-viento-9781111371234.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/los-hijos-del-viento/"
+        }
+      ]
+    }
+  ]
+}

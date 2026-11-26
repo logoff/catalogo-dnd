@@ -1,0 +1,24 @@
+{
+  "slug": "the-plane-above",
+  "system": "dnd-4e",
+  "title": "The Plane Above: Secrets of the Astral Sea",
+  "kind": "supplement",
+  "description": "El Mar Astral, donde están los dominios de los dioses: sus regiones, sus habitantes y sus viajes, con monstruos, ganchos de aventura y opciones de juego.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-04",
+      "format": "hardcover",
+      "isbn13": 9780786953929,
+      "cover": "/images/rol/the-plane-above/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/161669/the-plane-above-secrets-of-the-astral-sea-4e"
+        }
+      ]
+    }
+  ]
+}

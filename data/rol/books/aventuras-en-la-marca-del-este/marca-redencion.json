@@ -1,0 +1,25 @@
+{
+  "slug": "marca-redencion",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Redención",
+  "kind": "adventure",
+  "description": "La tercera y última parte de la trilogía de La Orden del Libro: tras la destrucción de la Orden en Robleda, los personajes buscan venganza y la posibilidad de restaurarla.\n\nLa publicó Holocubierta en 2014 y cierra la campaña iniciada en El Enclave.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/13674-aventuras-en-la-marca-del-este-redencin.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2014-06",
+      "format": "paperback",
+      "isbn13": 9788415763130,
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/13674-aventuras-en-la-marca-del-este-redencin.html",
+      "cover": "/images/rol/marca-redencion/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "casa_del_libro",
+          "url": "https://www.casadellibro.com/libro-aventuras-en-la-marca-del-este-redencion/9788415763130/12346116"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-rjurik-highlands",
+  "system": "dnd-add2",
+  "title": "The Rjurik Highlands",
+  "kind": "setting",
+  "settings": ["birthright"],
+  "description": "Un suplemento de Birthright sobre las tierras altas de los rjurik, una frontera salvaje del noroeste de Cerilia guiada por sus druidas. Lo escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-rjurik-highlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16958/the-rjurik-highlands-2e"
+        }
+      ]
+    }
+  ]
+}

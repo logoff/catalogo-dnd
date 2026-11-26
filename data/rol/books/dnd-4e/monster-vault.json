@@ -1,0 +1,24 @@
+{
+  "slug": "monster-vault",
+  "system": "dnd-4e",
+  "title": "Monster Vault",
+  "kind": "starter",
+  "description": "La caja de monstruos de la línea Essentials: un bestiario con el perfil revisado, cientos de fichas de monstruos para el tablero y la aventura Cairn of the Winter King.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Monster_Vault",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-11",
+      "format": "boxed_set",
+      "isbn13": 9780786956319,
+      "cover": "/images/rol/monster-vault/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/158946/dungeons-dragons-essentials-monster-vault-4e"
+        }
+      ]
+    }
+  ]
+}

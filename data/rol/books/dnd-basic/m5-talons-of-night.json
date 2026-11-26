@@ -1,0 +1,23 @@
+{
+  "slug": "m5-talons-of-night",
+  "system": "dnd-basic",
+  "title": "M5 Talons of Night",
+  "kind": "adventure",
+  "description": "La continuación de Vengeance of Alphaks: mientras empiezan las negociaciones de paz entre Thyatis y Alphatia, los personajes se enfrentan a los malvados de Thothia entre bibliotecas, templos antiguos y acertijos. La escribió Paul Jaquays.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-m.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/m5-talons-of-night/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17138/m5-talons-of-night-basic"
+        }
+      ]
+    }
+  ]
+}

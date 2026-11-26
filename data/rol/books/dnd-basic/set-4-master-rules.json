@@ -1,0 +1,23 @@
+{
+  "slug": "set-4-master-rules",
+  "system": "dnd-basic",
+  "title": "Set 4: Master Rules",
+  "kind": "core",
+  "description": "La cuarta caja de la serie BECMI, de Frank Mentzer: niveles 26 a 36, armas de maestría, artefactos, viajes planares y el camino a la inmortalidad.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-ment.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "boxed_set",
+      "cover": "/images/rol/set-4-master-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17167/d-d-master-set-becmi-ed-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "marca-la-ciudad-de-xorandor",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La ciudad de Xorandor",
+  "kind": "setting",
+  "description": "El primer libro de Xorandor: la capital de los elfos oscuros en la Suboscuridad que se extiende bajo Valion, una ciudad tan hermosa como peligrosa donde el miedo es la única ley.\n\nLibro de ambientación de ochenta y cuatro páginas, de junio de 2024; continúa en Las casas y La Suboscuridad.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/36873-aventuras-en-la-marca-del-este-la-ciudad-de-xorandor.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2024-06",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/36873-aventuras-en-la-marca-del-este-la-ciudad-de-xorandor.html",
+      "cover": "/images/rol/marca-la-ciudad-de-xorandor/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/xr1-la-ciudad-de-xorandor/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/16277-la-ciudad-de-xorandor-9780207897979.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-ciudad-de-xorandor/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "champions-of-valor",
+  "system": "dnd-3-5",
+  "title": "Champions of Valor",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El bien en los Reinos Olvidados: organizaciones heroicas, órdenes de caballería y fuerzas del bien, con clases de prestigio, dotes, conjuros y consejos para campañas de héroes.\n\nEs el compañero de Champions of Ruin. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Champions_of_Valor",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-11",
+      "format": "hardcover",
+      "isbn13": 9780786936977,
+      "cover": "/images/rol/champions-of-valor/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27803/champions-of-valor-3-5"
+        }
+      ]
+    }
+  ]
+}

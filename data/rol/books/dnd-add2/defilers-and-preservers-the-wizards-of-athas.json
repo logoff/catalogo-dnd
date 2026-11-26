@@ -1,0 +1,24 @@
+{
+  "slug": "defilers-and-preservers-the-wizards-of-athas",
+  "system": "dnd-add2",
+  "title": "Defilers and Preservers: The Wizards of Athas",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Un suplemento de Dark Sun sobre los magos de Athas: la lista completa de los conjuros a los que tienen acceso, reunidos de varios libros, y nuevas fuentes de magia. Lo escribió Nicky Rea.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ds/ds-rev.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/defilers-and-preservers-the-wizards-of-athas/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17207/defilers-and-preservers-the-wizards-of-athas-2e"
+        }
+      ]
+    }
+  ]
+}

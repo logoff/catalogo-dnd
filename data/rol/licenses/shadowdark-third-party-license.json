@@ -1,0 +1,15 @@
+{
+  "slug": "shadowdark-third-party-license",
+  "name": "Shadowdark RPG Third-Party License",
+  "short_name": "Licencia de terceros de Shadowdark",
+  "kind": "community_license",
+  "holder": "The Arcane Library",
+  "date": "2023-05",
+  "description": "La licencia con la que The Arcane Library permite publicar y vender material compatible con Shadowdark sin pedir permiso. Basta con incluir un breve texto de atribución que diga que el producto es independiente y no está afiliado a la editorial; no hace falta reproducir la licencia entera.\n\nNo incluye las marcas Shadowdark RPG ni The Arcane Library, así que un título que parezca oficial queda fuera, y tampoco cubre los fanzines Cursed Scroll. La versión vigente, la 1.1, viene en el kit para creadores y en el propio libro básico.",
+  "links": [
+    {
+      "label": "Preguntas frecuentes de la licencia",
+      "url": "https://thearcanelibrary.com/blogs/shadowdark-blog/faq-on-the-shadowdark-rpg-third-party-license"
+    }
+  ]
+}

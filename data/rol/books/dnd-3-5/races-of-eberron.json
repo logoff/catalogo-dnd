@@ -1,0 +1,35 @@
+{
+  "slug": "races-of-eberron",
+  "system": "dnd-3-5",
+  "title": "Races of Eberron",
+  "kind": "setting",
+  "settings": ["eberron"],
+  "description": "Las razas de Eberron, con más detalle sobre las propias de la ambientación (cambiantes, forjados, kalashtar y cambiaformas) y cómo encajan en ella las razas clásicas, con dotes, clases de prestigio y opciones de personaje.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Races_of_Eberron",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-04",
+      "format": "hardcover",
+      "isbn13": 9780786936588,
+      "cover": "/images/rol/races-of-eberron/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/27954/races-of-eberron-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Razas de Eberron",
+      "publisher": "Devir",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9788496422551,
+      "cover": "/images/rol/races-of-eberron/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/razas-de-eberron_978-84-96422-55-1"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "volos-guide-to-the-sword-coast",
+  "system": "dnd-add2",
+  "title": "Volo's Guide to the Sword Coast",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una guía de Volo sobre la Costa de la Espada, de Daggerford a Amn, con especial atención a sus tabernas. La escribió Ed Greenwood.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/fr/fr-volo.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-the-sword-coast/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16845/volo-s-guide-to-the-sword-coast-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía de Volo para la Costa de la Espada",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/volos-guide-to-the-sword-coast/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-volo.html"
+    }
+  ]
+}

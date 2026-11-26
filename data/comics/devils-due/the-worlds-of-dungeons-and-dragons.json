@@ -1,0 +1,77 @@
+{
+  "slug": "the-worlds-of-dungeons-and-dragons",
+  "title": "The Worlds of Dungeons & Dragons",
+  "title_es": "Los mundos de Dungeons and Dragons",
+  "publisher": "Devil's Due Publishing",
+  "setting": "multiple",
+  "kind": "limited_series",
+  "date": "2008-02",
+  "end_date": "2008-11",
+  "issue_count": 7,
+  "writers": ["R. A. Salvatore", "Nick Schley"],
+  "artists": ["Rafael Kayanan"],
+  "description": "Antología de Devil's Due en siete números con historias cortas de varios mundos de D&D, como los Reinos Olvidados (con Drizzt), Dragonlance, Eberron y Ravenloft, que tuvo aquí su primer cómic. Participaron autores de las novelas como R. A. Salvatore.\n\nNorma la publicó en castellano en dos tomos, en 2009 y 2012, como Los mundos de Dungeons and Dragons.",
+  "source": "https://www.comics.org/series/52573/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2008-02",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/1.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2008-03",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/2.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2008-07",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/3.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2008-08",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/4.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2008-09",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/5.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "6",
+      "date": "2008-10",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/6.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    },
+    {
+      "number": "7",
+      "date": "2008-11",
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/7.webp",
+      "cover_source": "https://www.comics.org/series/52573/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Los mundos de Dungeons and Dragons 1 y 2",
+      "publisher": "Norma Editorial",
+      "date": "2009-10",
+      "format": "paperback",
+      "contents": [{ "series": "the-worlds-of-dungeons-and-dragons", "issues": "1-7" }],
+      "source": "https://www.amazon.es/dp/8498477107/",
+      "purchase_links": [
+        { "store": "amazon", "url": "https://www.amazon.es/dp/8498477107/" },
+        { "store": "amazon", "url": "https://www.amazon.es/dp/8467907576/" }
+      ],
+      "cover": "/images/comics/the-worlds-of-dungeons-and-dragons/tomo-1.webp",
+      "cover_source": "https://www.amazon.es/dp/8498477107/"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mc7-monstrous-compendium-spelljammer-appendix",
+  "system": "dnd-add2",
+  "title": "MC7 Monstrous Compendium Spelljammer Appendix",
+  "kind": "supplement",
+  "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de Spelljammer.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "cover": "/images/rol/mc7-monstrous-compendium-spelljammer-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17244/mc7-monstrous-compendium-spelljammer-appendix-2e"
+        }
+      ]
+    }
+  ]
+}

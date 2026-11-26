@@ -1,0 +1,24 @@
+{
+  "slug": "the-sunless-citadel",
+  "system": "dnd-3e",
+  "title": "The Sunless Citadel",
+  "kind": "adventure",
+  "description": "La primera aventura de la 3.ª edición, para personajes de 1.er nivel: una fortaleza hundida en un barranco, kobolds, goblins y un árbol maldito.\n\nAbre una serie de aventuras que lleva a los personajes de nivel 1 a 20 y culmina en Bastion of Broken Souls con el gran dragón Ashardalon. Se considera una de las mejores aventuras de iniciación. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20040217192234/http://www.wizards.com:80/default.asp?x=products/dndacc/116400000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-09",
+      "format": "paperback",
+      "isbn13": 9780786916405,
+      "cover": "/images/rol/the-sunless-citadel/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3727/the-sunless-citadel-3e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "the-illithiad",
+  "system": "dnd-add2",
+  "title": "The Illithiad",
+  "kind": "supplement",
+  "description": "Un suplemento sobre los azotamentes: su sociedad, su biología, sus ciudades y sus planes, que acompaña a la trilogía de aventuras de la Iliada. Lo escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-illithiad/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17448/monstrous-arcana-the-illithiad-2e"
+        }
+      ]
+    }
+  ]
+}

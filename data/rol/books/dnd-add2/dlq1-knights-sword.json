@@ -1,0 +1,24 @@
+{
+  "slug": "dlq1-knights-sword",
+  "system": "dnd-add2",
+  "title": "DLQ1 Knight's Sword",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "Una aventura de Dragonlance. La escribieron Colin McComb y Thomas M. Reid.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dlq1-knights-sword/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17377/dlq1-knight-s-sword-2e"
+        }
+      ]
+    }
+  ]
+}

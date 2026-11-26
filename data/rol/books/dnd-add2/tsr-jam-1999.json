@@ -1,0 +1,23 @@
+{
+  "slug": "tsr-jam-1999",
+  "system": "dnd-add2",
+  "title": "TSR Jam 1999",
+  "kind": "adventure",
+  "description": "Siete aventuras de distintas ambientaciones de TSR, reunidas en un volumen.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/tsr-jam-1999/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17292/tsr-jam-1999"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "psionics-handbook",
+  "system": "dnd-3e",
+  "title": "Psionics Handbook",
+  "kind": "supplement",
+  "description": "Las reglas de los poderes de la mente para la 3.ª edición: las clases de psiónico y guerrero psíquico, poderes con puntos de poder, dotes, clases de prestigio, objetos psiónicos y monstruos, y cómo encajar la psiónica en una campaña.\n\nLo sustituyó en 3.5 el Expanded Psionics Handbook. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Psionics_Handbook",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-03",
+      "isbn13": 9780786918355,
+      "cover": "/images/rol/psionics-handbook/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Psiónica",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712141,
+      "source": "https://www.todostuslibros.com/libros/manual-de-psionica_978-84-95712-14-1"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "undermountain-the-lost-level",
+  "system": "dnd-add2",
+  "title": "Undermountain: The Lost Level",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "La primera aventura de la serie Dungeon Crawl, en Bajomontaña: los personajes empiezan en la sala 1 y deben llegar a la 30 para salir. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/undermountain-the-lost-level/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17570/undermountain-i-the-lost-level-2e"
+        }
+      ]
+    }
+  ]
+}

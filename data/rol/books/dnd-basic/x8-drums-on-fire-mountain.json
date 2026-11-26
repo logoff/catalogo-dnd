@@ -1,0 +1,23 @@
+{
+  "slug": "x8-drums-on-fire-mountain",
+  "system": "dnd-basic",
+  "title": "X8 Drums on Fire Mountain",
+  "kind": "adventure",
+  "description": "Una aventura en una isla de la jungla al sudeste de Thyatis, donde los personajes exploran los túneles antiguos bajo una montaña volcánica para descubrir qué amenaza a los barcos de la zona. La escribieron Graeme Morris y Tom Kirby.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/x8-drums-on-fire-mountain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/177832/x8-drums-on-fire-mountain-basic"
+        }
+      ]
+    }
+  ]
+}

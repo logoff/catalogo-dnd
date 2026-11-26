@@ -1,0 +1,23 @@
+{
+  "slug": "of-ships-and-the-sea",
+  "system": "dnd-add2",
+  "title": "Of Ships and the Sea",
+  "kind": "supplement",
+  "description": "Un suplemento de reglas sobre barcos, navegación y combate naval, y exploración submarina. Lo escribió Keith Francis Strohm.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/of-ships-and-the-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16933/dmgr9-of-ships-and-the-sea-2e"
+        }
+      ]
+    }
+  ]
+}

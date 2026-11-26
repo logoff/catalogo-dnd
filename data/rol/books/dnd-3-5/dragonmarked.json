@@ -1,0 +1,25 @@
+{
+  "slug": "dragonmarked",
+  "system": "dnd-3-5",
+  "title": "Dragonmarked",
+  "kind": "setting",
+  "settings": ["eberron"],
+  "description": "Las marcas de dragón y las trece casas marcadas que controlan buena parte del comercio y los servicios de Khorvaire: su historia, su organización y sus intrigas, con dotes, clases de prestigio y opciones para personajes marcados.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dragonmarked",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-11",
+      "format": "hardcover",
+      "isbn13": 9780786939336,
+      "cover": "/images/rol/dragonmarked/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54305/dragonmarked-3-5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "l3-deep-dwarven-delve",
+  "system": "dnd-add2",
+  "title": "L3 Deep Dwarven Delve",
+  "kind": "adventure",
+  "description": "Una aventura de mazmorra clásica por una mina enana abandonada, con el objetivo de liberar a unos enanos esclavizados en otro mundo; continúa la serie L de la 1.ª edición. La escribió Lenard Lakofka.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-l.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/l3-deep-dwarven-delve/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/111269/l3-deep-dwarven-delve-1e"
+        }
+      ]
+    }
+  ]
+}

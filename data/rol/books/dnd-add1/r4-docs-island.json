@@ -1,0 +1,23 @@
+{
+  "slug": "r4-docs-island",
+  "system": "dnd-add1",
+  "title": "R4 Doc's Island",
+  "kind": "adventure",
+  "description": "Una aventura de torneo de la RPGA en la que los personajes deben entregar el Huevo del Fénix en la extraña isla de Doc. La escribió Frank Mentzer.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-r.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/r4-docs-island/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17103/r4-doc-s-island-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "the-late-trappers-lament",
+  "system": "hyperborea",
+  "title": "The Late Trapper's Lament",
+  "kind": "adventure",
+  "description": "Una aventura para nivel 1 a 2 en la que los personajes se enrolan como infantes de marina en un barco.\n\nPublicado por North Wind Adventures, escrito por David Prata, con 40 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/381199/the-late-trapper-s-lament",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "North Wind Adventures",
+      "date": "2021-12",
+      "format": "paperback",
+      "cover": "/images/rol/the-late-trappers-lament/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/381199/the-late-trapper-s-lament"
+        }
+      ]
+    }
+  ]
+}

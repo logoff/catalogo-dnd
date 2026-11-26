@@ -1,0 +1,24 @@
+{
+  "slug": "cormyr",
+  "system": "dnd-add2",
+  "title": "Cormyr",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre Cormyr, el reino del Dragón Púrpura. Lo escribió Eric W. Haddock.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/cormyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16843/cormyr-2e"
+        }
+      ]
+    }
+  ]
+}

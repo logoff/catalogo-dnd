@@ -1,0 +1,24 @@
+{
+  "slug": "fmq1-city-of-gold",
+  "system": "dnd-add2",
+  "title": "FMQ1 City of Gold",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura de Maztica, en busca de una ciudad de oro. La escribieron John Nephew y Jonathan Tweet.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-fm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/fmq1-city-of-gold/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17555/fmq1-city-of-gold-2e"
+        }
+      ]
+    }
+  ]
+}

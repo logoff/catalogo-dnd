@@ -1,0 +1,23 @@
+{
+  "slug": "phbr9-the-complete-book-of-gnomes-and-halflings",
+  "system": "dnd-add2",
+  "title": "PHBR9 The Complete Book of Gnomes & Halflings",
+  "kind": "supplement",
+  "description": "El manual de raza de gnomos y medianos, con su cultura, subrazas, kits y opciones de juego.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/phbr9-the-complete-book-of-gnomes-and-halflings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16898/phbr9-the-complete-book-of-gnomes-halflings-2e"
+        }
+      ]
+    }
+  ]
+}

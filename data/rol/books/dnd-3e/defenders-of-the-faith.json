@@ -1,0 +1,33 @@
+{
+  "slug": "defenders-of-the-faith",
+  "system": "dnd-3e",
+  "title": "Defenders of the Faith",
+  "kind": "supplement",
+  "description": "La guía de clérigos y paladines: clases de prestigio, dotes, conjuros y dominios nuevos, órdenes religiosas y consejos para jugar con personajes devotos y construir iglesias para la campaña.\n\nForma parte de la serie de guías de clase de la 3.ª edición. Devir lo publicó en castellano.",
+  "source": "https://web.archive.org/web/20031211025844/http://www.wizards.com:80/default.asp?x=products/dndacc/882340000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-05",
+      "format": "paperback",
+      "isbn13": 9780786918409,
+      "cover": "/images/rol/defenders-of-the-faith/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/3725/defenders-of-the-faith-a-guidebook-to-clerics-and-paladins-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Defensores de la Fe",
+      "publisher": "Devir",
+      "date": "2002",
+      "isbn13": 9788495712103,
+      "cover": "/images/rol/defenders-of-the-faith/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/defensores-de-la-fe_978-84-95712-10-3"
+    }
+  ]
+}

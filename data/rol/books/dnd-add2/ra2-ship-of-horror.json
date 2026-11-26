@@ -1,0 +1,33 @@
+{
+  "slug": "ra2-ship-of-horror",
+  "system": "dnd-add2",
+  "title": "RA2 Ship of Horror",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft para personajes de nivel 8 a 10, a bordo del barco Endurance de su capitán Garvyn, con personajes no jugadores muy trabajados y mucha atmósfera. La escribió Anne Brown.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/rv/rv-ra.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/ra2-ship-of-horror/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17487/ra2-ship-of-horror-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Nave del Horror",
+      "publisher": "Zinco",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/ra2-ship-of-horror/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-rv.html"
+    }
+  ]
+}

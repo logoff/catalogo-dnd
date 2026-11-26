@@ -1,0 +1,24 @@
+{
+  "slug": "cc-a0-the-rising-knight",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades A0 The Rising Knight",
+  "kind": "adventure",
+  "description": "Una aventura introductoria pensada para que jugadores y director empiecen a usar las reglas de Castles & Crusades sin complicaciones.\n\nPublicado por Troll Lord Games, escrito por Davis Chenault, con 24 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/84040/castles-crusades-a0-the-rising-knight",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2010-09",
+      "format": "paperback",
+      "isbn13": 9781936822072,
+      "cover": "/images/rol/cc-a0-the-rising-knight/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/84040/castles-crusades-a0-the-rising-knight"
+        }
+      ]
+    }
+  ]
+}

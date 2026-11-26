@@ -1,0 +1,23 @@
+{
+  "slug": "cairn-cas-1-trouble-in-twin-lakes",
+  "system": "cairn-2e",
+  "title": "CAS-1: Trouble in Twin Lakes",
+  "kind": "adventure",
+  "description": "Una aventura de la segunda edición de Cairn ambientada en el Vald: Aldra, la querida carnicera de Isthmus Town, desapareció hace dos semanas, alguien vio a un hombre tragado por la tierra cerca de Deadmill y ya faltan más vecinos.\n\nPrimera de la serie CAS de aventuras oficiales.",
+  "source": "https://www.drivethrurpg.com/en/product/500557/cas-1-trouble-in-twin-lakes",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Cairn Press",
+      "date": "2024-11",
+      "format": "paperback",
+      "cover": "/images/rol/cairn-cas-1-trouble-in-twin-lakes/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/500557/cas-1-trouble-in-twin-lakes"
+        }
+      ]
+    }
+  ]
+}

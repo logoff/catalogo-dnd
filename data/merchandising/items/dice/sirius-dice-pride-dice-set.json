@@ -1,0 +1,21 @@
+{
+  "slug": "sirius-dice-pride-dice-set",
+  "title": "Sirius Dice Dungeons & Dragons Pride Dice Set",
+  "group": "dice",
+  "kind": "dice_set",
+  "manufacturer": "Sirius Dice",
+  "date": "2025-04",
+  "description": "Juego oficial de siete dados de Dungeons & Dragons con los colores de la bandera del Orgullo, de resina transparente con franjas de colores en el interior.\n\nEs para jugadores que quieren unos dados con este motivo y la licencia oficial; sirven para jugar como cualquier juego de siete dados.",
+  "source": "https://siriusdice.com/products/pre-order-dungeons-dragons-pride-unlimited",
+  "editions": [
+    {
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0DX2LPYXV/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/sirius-dice-pride-dice-set/0.jpg"]
+}

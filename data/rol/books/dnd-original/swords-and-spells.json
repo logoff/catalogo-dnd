@@ -1,0 +1,23 @@
+{
+  "slug": "swords-and-spells",
+  "system": "dnd-original",
+  "title": "Swords & Spells",
+  "kind": "supplement",
+  "description": "Reglas de Gary Gygax para batallas con miniaturas a gran escala con magia y monstruos, que enlazan D&D con su origen en los juegos de guerra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-sup.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1976",
+      "format": "paperback",
+      "cover": "/images/rol/swords-and-spells/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17175/swords-spells-0e"
+        }
+      ]
+    }
+  ]
+}

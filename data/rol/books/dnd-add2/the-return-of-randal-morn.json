@@ -1,0 +1,24 @@
+{
+  "slug": "the-return-of-randal-morn",
+  "system": "dnd-add2",
+  "title": "The Return of Randal Morn",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura en la que los personajes rescatan a Randal Morn, secuestrado. La escribió Jim Butler.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-rm.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/the-return-of-randal-morn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16852/the-return-of-randal-morn-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "marca-pacto-de-cenizas",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Pacto de cenizas",
+  "kind": "adventure",
+  "description": "Cinco años después de que Silas y un ejército de monstruos, bárbaros y rebeldes atacaran la Marca, el castillo de Ermegar sigue marcado por aquella defensa desesperada.\n\nPrimera parte de una campaña que sigue en El feudo en llamas; mecenazgo de 2019.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23804-aventuras-en-la-marca-del-este-pacto-de-cenizas.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2019-10",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23804-aventuras-en-la-marca-del-este-pacto-de-cenizas.html",
+      "cover": "/images/rol/marca-pacto-de-cenizas/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/tn1-pacto-de-cenizas/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/8756-aventuras-en-la-marca-del-este-pacto-de-cenizas-9780991399628.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/pacto-de-cenizas/"
+        }
+      ]
+    }
+  ]
+}

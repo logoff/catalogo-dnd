@@ -1,0 +1,29 @@
+{
+  "slug": "mc10-monstrous-compendium-ravenloft-appendix",
+  "system": "dnd-add2",
+  "title": "MC10 Monstrous Compendium Ravenloft Appendix",
+  "kind": "supplement",
+  "settings": ["ravenloft"],
+  "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de Ravenloft.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "cover": "/images/rol/mc10-monstrous-compendium-ravenloft-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17530/mc10-monstrous-compendium-ravenloft-appendix"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Monstruos Volumen V",
+      "publisher": "Zinco",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

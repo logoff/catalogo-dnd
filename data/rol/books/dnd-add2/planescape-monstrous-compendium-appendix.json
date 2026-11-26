@@ -1,0 +1,25 @@
+{
+  "slug": "planescape-monstrous-compendium-appendix",
+  "system": "dnd-add2",
+  "title": "Planescape: Monstrous Compendium Appendix",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "El primer apéndice de monstruos de Planescape, en hojas sueltas para la carpeta, con las criaturas de los planos.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ps/ps-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/planescape-monstrous-compendium-appendix/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Compendio de Monstruos Volumen VI",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

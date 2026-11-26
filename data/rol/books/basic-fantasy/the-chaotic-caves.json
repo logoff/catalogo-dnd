@@ -1,0 +1,23 @@
+{
+  "slug": "the-chaotic-caves",
+  "system": "basic-fantasy",
+  "title": "The Chaotic Caves",
+  "kind": "adventure",
+  "description": "Monstruos que habitan unas cuevas en la frontera entre las tierras salvajes y la civilización amenazan a pueblos y aldeas.\n\nPublicado por Basic Fantasy Project, escrito por J.D. Neal, con 48 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/480040/the-chaotic-caves",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-06",
+      "format": "paperback",
+      "cover": "/images/rol/the-chaotic-caves/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/480040/the-chaotic-caves"
+        }
+      ]
+    }
+  ]
+}

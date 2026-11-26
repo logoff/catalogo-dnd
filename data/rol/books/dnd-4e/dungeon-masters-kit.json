@@ -1,0 +1,24 @@
+{
+  "slug": "dungeon-masters-kit",
+  "system": "dnd-4e",
+  "title": "Dungeon Master's Kit",
+  "kind": "starter",
+  "description": "La caja del Dungeon Master de la línea Essentials: un libro con todo lo necesario para dirigir, la aventura Reavers of Harkenwold, mapas, fichas de monstruos y una pantalla.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Dungeon_Master%27s_Kit",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-10",
+      "format": "boxed_set",
+      "isbn13": 9780786956302,
+      "cover": "/images/rol/dungeon-masters-kit/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121978/dungeon-master-s-kit-4e"
+        }
+      ]
+    }
+  ]
+}

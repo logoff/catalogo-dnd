@@ -1,0 +1,24 @@
+{
+  "slug": "for-coin-and-blood",
+  "system": "for-coin-and-blood",
+  "title": "For Coin & Blood",
+  "kind": "core",
+  "core": true,
+  "description": "El libro básico de For Coin & Blood: creación de criminales y villanos, reglas de juego de la vieja escuela, magia y un mundo hostil lleno de gremios, mafias y corrupción.\n\nEs para quien quiere jugar desde el otro lado de la ley con reglas clásicas; en castellano lo publica The Hills Press y se completa con La Corona de Sangre.",
+  "source": "https://juegosdelamesaredonda.com/8946-for-coin-and-blood-castellano-9788417175283.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "The Hills Press",
+      "date": "2020-02",
+      "format": "hardcover",
+      "isbn13": 9788417175283,
+      "cover": "/images/rol/for-coin-and-blood/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/22218-for-coin-blood",
+        "end": "2019-01-09"
+      }
+    }
+  ]
+}

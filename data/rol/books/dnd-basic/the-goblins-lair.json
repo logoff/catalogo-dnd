@@ -1,0 +1,31 @@
+{
+  "slug": "the-goblins-lair",
+  "system": "dnd-basic",
+  "title": "The Goblin's Lair",
+  "kind": "adventure",
+  "description": "Una caja de aventuras para la caja de iniciación de 1991, con varias aventuras en la guarida de los goblins, mapas y figuras de cartón. La escribió Graeme Davis.\n\nEdición en castellano de Borrás Plana.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-goblins-lair/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17156/the-goblin-s-lair-basic"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Guarida del Goblin",
+      "publisher": "Borrás Plana",
+      "date": "1994",
+      "format": "boxed_set",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

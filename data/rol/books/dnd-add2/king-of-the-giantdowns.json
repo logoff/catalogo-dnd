@@ -1,0 +1,24 @@
+{
+  "slug": "king-of-the-giantdowns",
+  "system": "dnd-add2",
+  "title": "King of the Giantdowns",
+  "kind": "adventure",
+  "settings": ["birthright"],
+  "description": "Una aventura de Birthright. La escribió Ed Stark.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/br/br-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/king-of-the-giantdowns/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16934/king-of-the-giantdowns-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,7 @@ import LazyImage from '../common/LazyImage'
 import PurchaseButton from '../common/PurchaseButton'
 import PurchaseLinks from '../common/PurchaseLinks'
 import MerchandiseSpanishBadge from './MerchandiseSpanishBadge'
+import RelatedComics from '@/components/comics/RelatedComics'
 
 interface MerchandiseDetailProps {
   item: MerchandiseWithMeta
@@ -221,6 +222,8 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
           </ul>
         </DetailSection>
       )}
+
+      <RelatedComics group="merchandise" id={item.slug} />
 
       <ImageLightbox
         images={item.images}

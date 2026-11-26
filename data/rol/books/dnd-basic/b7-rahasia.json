@@ -1,0 +1,23 @@
+{
+  "slug": "b7-rahasia",
+  "system": "dnd-basic",
+  "title": "B7 Rahasia",
+  "kind": "adventure",
+  "description": "La versión para la caja básica de un módulo de torneo de la RPGA: los personajes rescatan a unas doncellas elfas secuestradas en un templo élfico del que se ha apoderado un sacerdote malvado. La escribieron Tracy y Laura Hickman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/b7-rahasia/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17113/b7-rahasia-basic"
+        }
+      ]
+    }
+  ]
+}

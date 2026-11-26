@@ -1,0 +1,23 @@
+{
+  "slug": "temple-tower-and-tomb",
+  "system": "dnd-add2",
+  "title": "Temple, Tower, and Tomb",
+  "kind": "adventure",
+  "description": "Tres aventuras: un templo, una torre y una tumba. La escribieron Laura Craig y Steve Winter.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/temple-tower-and-tomb/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/176915/temple-tower-tomb-2e"
+        }
+      ]
+    }
+  ]
+}

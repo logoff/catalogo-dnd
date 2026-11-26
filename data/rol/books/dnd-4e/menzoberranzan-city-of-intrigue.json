@@ -1,0 +1,25 @@
+{
+  "slug": "menzoberranzan-city-of-intrigue",
+  "system": "dnd-4e",
+  "title": "Menzoberranzan: City of Intrigue",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La ciudad drow de Menzoberranzan como escenario de intriga: el culto de Lolth, las casas nobles y otras facciones, la ciudad y sus alrededores, y opciones para jugar con drows.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Menzoberranzan:_City_of_Intrigue",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2012-08",
+      "format": "hardcover",
+      "isbn13": 9780786960361,
+      "cover": "/images/rol/menzoberranzan-city-of-intrigue/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/168539/menzoberranzan-city-of-intrigue-4e"
+        }
+      ]
+    }
+  ]
+}

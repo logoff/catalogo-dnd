@@ -1,0 +1,24 @@
+{
+  "slug": "dl4-dragons-of-desolation",
+  "system": "dnd-add1",
+  "title": "DL4 Dragons of Desolation",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La cuarta aventura de la saga de Dragonlance, que cierra su primer arco: los Compañeros buscan refugio en el reino enano de Thorbardin. La escribieron Tracy Hickman y Michael Dobson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/dl4-dragons-of-desolation/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16901/dl4-dragons-of-desolation-1e"
+        }
+      ]
+    }
+  ]
+}

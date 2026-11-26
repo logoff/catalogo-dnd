@@ -1,0 +1,32 @@
+{
+  "slug": "in-the-cage-a-guide-to-sigil",
+  "system": "dnd-add2",
+  "title": "In the Cage: A Guide to Sigil",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "La guía de Sigil, la Ciudad de las Puertas: sus barrios, sus lugares, sus personajes y la vida en la ciudad que une todos los planos. La escribieron Wolfgang Baur y Rick Swan.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/in-the-cage-a-guide-to-sigil/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17274/in-the-cage-a-guide-to-sigil-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "En la Jaula: Una Guía de Sigil",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "cover": "/images/rol/in-the-cage-a-guide-to-sigil/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

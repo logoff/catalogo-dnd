@@ -1,0 +1,24 @@
+{
+  "slug": "from-the-ashes",
+  "system": "dnd-add2",
+  "title": "From the Ashes",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "La caja que actualizó Greyhawk tras las Guerras de Greyhawk, con la Flanaess devastada y nuevos poderes en juego.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/from-the-ashes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17399/from-the-ashes-2e"
+        }
+      ]
+    }
+  ]
+}

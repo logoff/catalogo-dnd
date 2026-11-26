@@ -1,0 +1,33 @@
+{
+  "slug": "rr3-van-richtens-guide-to-vampires",
+  "system": "dnd-add2",
+  "title": "RR3 Van Richten's Guide to Vampires",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "El primero de los tratados del cazador de monstruos Rudolph van Richten, escrito como si fuera suyo: todo sobre los vampiros, cómo reconocerlos y cómo cazarlos. Lo escribió Nigel D. Findley.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/rr3-van-richtens-guide-to-vampires/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17491/rr3-van-richten-s-guide-to-vampires-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Guía Van Richten de los Vampiros",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/rr3-van-richtens-guide-to-vampires/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-rv.html"
+    }
+  ]
+}

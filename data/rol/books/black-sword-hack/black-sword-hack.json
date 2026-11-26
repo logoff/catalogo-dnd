@@ -1,0 +1,19 @@
+{
+  "slug": "black-sword-hack",
+  "system": "black-sword-hack",
+  "title": "Black Sword Hack",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de Black Sword Hack: creación de personajes por origen, reglas de combate y magia caótica, demonios y tablas para crear aventuras de espada y brujería en un mundo en decadencia.\n\nEs todo lo necesario para jugar y está pensado para campañas cortas y letales; en castellano lo publica The Hills Press.",
+  "source": "https://juegosdelamesaredonda.com/13157-black-sword-hack-castellano-9788419120052.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "The Hills Press",
+      "date": "2022-04",
+      "format": "hardcover",
+      "isbn13": 9788419120052,
+      "cover": "/images/rol/black-sword-hack/castellano.webp"
+    }
+  ]
+}

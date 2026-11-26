@@ -1,0 +1,23 @@
+{
+  "slug": "jakandor-island-of-war",
+  "system": "dnd-add2",
+  "title": "Jakandor, Island of War",
+  "kind": "supplement",
+  "description": "Un suplemento sobre Jakandor, una isla con dos pueblos enfrentados: los bárbaros knorr, desterrados allí por su dios, y los charonti, una raza de nigromantes. Lo escribió Kirk Botula.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ody.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/jakandor-island-of-war/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17364/jakandor-island-of-war-2e"
+        }
+      ]
+    }
+  ]
+}

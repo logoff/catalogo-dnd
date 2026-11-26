@@ -1,0 +1,24 @@
+{
+  "slug": "wgr1-greyhawk-ruins",
+  "system": "dnd-add2",
+  "title": "WGR1 Greyhawk Ruins",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "Las ruinas y mazmorras del castillo de Greyhawk, tratadas en serio, después de la versión humorística de WG7. Lo escribieron Blake Mobley y Timothy B. Brown.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/wgr1-greyhawk-ruins/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17421/wgr1-greyhawk-ruins-2e"
+        }
+      ]
+    }
+  ]
+}

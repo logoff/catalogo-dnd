@@ -1,0 +1,18 @@
+{
+  "slug": "lnr2-tales-of-lankhmar",
+  "system": "dnd-add2",
+  "title": "LNR2 Tales of Lankhmar",
+  "kind": "setting",
+  "settings": ["lankhmar"],
+  "description": "Un suplemento de Lankhmar. Lo escribió Anthony Pryor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-lnr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/lnr2-tales-of-lankhmar/english.webp"
+    }
+  ]
+}

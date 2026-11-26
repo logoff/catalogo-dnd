@@ -1,0 +1,25 @@
+{
+  "slug": "marca-la-catacumba-de-los-espantos-de-kavaduz",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "La catacumba de los espantos de Kavadůz",
+  "kind": "adventure",
+  "description": "Una aventura para cuatro a seis personajes de nivel 12 a 15 bajo la recóndita ermita de Kavadůz, que puede situarse en cualquier escenario de campaña.\n\nForma parte de las aventuras de alto nivel de Clásicos de la Marca, publicada en 2018.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/22014-aventuras-en-la-marca-del-este-la-catacumba-de-los-espantos-de-kavaduz.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2018-03",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/22014-aventuras-en-la-marca-del-este-la-catacumba-de-los-espantos-de-kavaduz.html",
+      "cover": "/images/rol/marca-la-catacumba-de-los-espantos-de-kavaduz/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/c2-la-catacumba-de-los-espantos-de-kavaduz/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/la-catacumba-los-espantos-kavaduz/"
+        }
+      ]
+    }
+  ]
+}

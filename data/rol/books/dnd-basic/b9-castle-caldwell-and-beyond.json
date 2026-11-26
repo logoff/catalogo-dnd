@@ -1,0 +1,23 @@
+{
+  "slug": "b9-castle-caldwell-and-beyond",
+  "system": "dnd-basic",
+  "title": "B9 Castle Caldwell and Beyond",
+  "kind": "adventure",
+  "description": "Cinco aventuras cortas para la caja básica: limpiar el castillo Caldwell y sus mazmorras, rescatar a una princesa, escapar de una prisión y recuperar una reliquia sagrada. La escribió Harry Nuckols.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/b9-castle-caldwell-and-beyond/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17126/b9-castle-caldwell-and-beyond-basic"
+        }
+      ]
+    }
+  ]
+}

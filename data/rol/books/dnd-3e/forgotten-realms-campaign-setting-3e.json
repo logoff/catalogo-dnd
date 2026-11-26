@@ -1,0 +1,34 @@
+{
+  "slug": "forgotten-realms-campaign-setting-3e",
+  "system": "dnd-3e",
+  "title": "Forgotten Realms Campaign Setting",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El libro básico de los Reinos Olvidados para la 3.ª edición: Faerûn región a región, razas y regiones de origen, dotes, clases de prestigio, conjuros, dioses, organizaciones e historia, con un gran mapa.\n\nEs la base de todos los libros de Reinos Olvidados de 3.0 y 3.5. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Forgotten_Realms_Campaign_Setting",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2001-06",
+      "format": "hardcover",
+      "isbn13": 9780786918362,
+      "cover": "/images/rol/forgotten-realms-campaign-setting-3e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28729/forgotten-realms-campaign-setting-3e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Reinos Olvidados: Escenario de Campaña",
+      "publisher": "Devir",
+      "date": "2002-12",
+      "isbn13": 9788495712097,
+      "cover": "/images/rol/forgotten-realms-campaign-setting-3e/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/reinos-olvidados_978-84-95712-09-7"
+    }
+  ]
+}

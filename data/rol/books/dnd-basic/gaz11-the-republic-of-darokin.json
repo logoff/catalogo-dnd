@@ -1,0 +1,24 @@
+{
+  "slug": "gaz11-the-republic-of-darokin",
+  "system": "dnd-basic",
+  "title": "GAZ11 The Republic of Darokin",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "El Gazetteer de Darokin, una república gobernada por un consejo de mercaderes: su sociedad y su política, la clase de mercader, reglas de comercio y las rutas comerciales del Mundo Conocido. Lo escribió Scott Haring.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gz/gz-gaz.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/gaz11-the-republic-of-darokin/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16982/gaz11-the-republic-of-darokin-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "the-knight-of-newts",
+  "system": "dnd-basic",
+  "title": "The Knight of Newts",
+  "kind": "adventure",
+  "description": "Una aventura corta de Thunder Rift para personajes de nivel 1 y 2, con reglas para aventuras bajo el agua, un monstruo nuevo y figuras de cartón. La escribió Dale «Slade» Henson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/the-knight-of-newts/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17152/the-knight-of-newts-basic"
+        }
+      ]
+    }
+  ]
+}

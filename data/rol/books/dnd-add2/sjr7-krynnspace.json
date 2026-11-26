@@ -1,0 +1,24 @@
+{
+  "slug": "sjr7-krynnspace",
+  "system": "dnd-add2",
+  "title": "SJR7 Krynnspace",
+  "kind": "setting",
+  "settings": ["spelljammer"],
+  "description": "Un suplemento que cruza Spelljammer y Dragonlance: el espacio alrededor de Krynn. Lo escribió Jean Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/sjr7-krynnspace/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17254/sjr7-krynnspace-2e"
+        }
+      ]
+    }
+  ]
+}

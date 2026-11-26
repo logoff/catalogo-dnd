@@ -1,0 +1,24 @@
+{
+  "slug": "the-lost-shrine-of-bundushatur",
+  "system": "dnd-add2",
+  "title": "The Lost Shrine of Bundushatur",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura en busca del santuario perdido de Bundushatur. La escribió Michael D. Wagner.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-lost-shrine-of-bundushatur/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17355/the-lost-shrine-of-bundushatur-2e"
+        }
+      ]
+    }
+  ]
+}

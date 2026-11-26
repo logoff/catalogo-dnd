@@ -1,0 +1,17 @@
+{
+  "slug": "gr1-strongholds",
+  "system": "dnd-add2",
+  "title": "GR1 Strongholds",
+  "kind": "supplement",
+  "description": "Un suplemento de referencia general sobre fortalezas para usar en cualquier campaña.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-gr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/gr1-strongholds/english.webp"
+    }
+  ]
+}

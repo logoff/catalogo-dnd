@@ -1,0 +1,23 @@
+{
+  "slug": "i7-baltrons-beacon",
+  "system": "dnd-add1",
+  "title": "I7 Baltron's Beacon",
+  "kind": "adventure",
+  "description": "Una aventura en la que los personajes buscan una sustancia llamada llama negra en una torre en ruinas en medio de un pantano. La escribió Philip Meyers.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/i7-baltrons-beacon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/119245/i7-baltron-s-beacon-1e"
+        }
+      ]
+    }
+  ]
+}

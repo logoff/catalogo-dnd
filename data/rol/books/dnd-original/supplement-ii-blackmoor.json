@@ -1,0 +1,23 @@
+{
+  "slug": "supplement-ii-blackmoor",
+  "system": "dnd-original",
+  "title": "Supplement II: Blackmoor",
+  "kind": "supplement",
+  "description": "El segundo suplemento de D&D, con material de la campaña de Dave Arneson en Blackmoor: las clases de monje y asesino, reglas de golpes en localizaciones, enfermedades, monstruos acuáticos y la aventura del Templo de la Rana.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-sup.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1975",
+      "format": "paperback",
+      "cover": "/images/rol/supplement-ii-blackmoor/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17172/od-d-supplement-ii-blackmoor-0e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "skullport",
+  "system": "dnd-add2",
+  "title": "Skullport",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre Puerto Calavera, la ciudad sin ley escondida bajo Aguas Profundas: contrabandistas, esclavistas y monstruos gobernados por las Calaveras flotantes, con mapas, facciones y más de cien lugares. Lo escribió Joseph C. Wolf.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "paperback",
+      "cover": "/images/rol/skullport/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16795/skullport-2e"
+        }
+      ]
+    }
+  ]
+}

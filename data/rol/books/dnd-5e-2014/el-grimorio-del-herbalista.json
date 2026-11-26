@@ -1,0 +1,20 @@
+{
+  "slug": "el-grimorio-del-herbalista",
+  "system": "dnd-5e-2014",
+  "title": "El Grimorio del Herbalista",
+  "kind": "supplement",
+  "license": "none",
+  "description": "Edición en castellano de un grimorio de herboristería para D&D 5E con más de cien ingredientes mágicos y cuarenta preparaciones: flores, hongos y raíces con propiedades extraordinarias para las aventuras.\n\nEstá en campaña en Verkami hasta el 1 de diciembre de 2026.",
+  "source": "https://www.verkami.com/projects/44391",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Chaotic Neutral Visionary",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/44391",
+        "end": "2026-12-01"
+      }
+    }
+  ]
+}

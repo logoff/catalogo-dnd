@@ -11,13 +11,22 @@ sistemas y sus libros, los filtros y su lugar en la navegación del sitio.
 
 El sitio SHALL tener una página en `/rol` que presente los sistemas de la
 sección, agrupados por familia, y un listado de sus libros, prerenderizada e
-incluida en el sitemap, con un enlace a `/licencias`.
+incluida en el sitemap, con un enlace a `/licencias`. Las ediciones de D&D
+anteriores a la 5E y sus libros no SHALL aparecer en ella, ni en sus filtros
+ni en sus recuentos.
 
 #### Scenario: Entrada a la sección
 
 - **WHEN** un visitante abre `/rol`
 - **THEN** ve los sistemas con su editorial y su número de libros, cada uno
   enlazado a su ficha, y un enlace a las licencias abiertas
+
+#### Scenario: Sin ediciones anteriores de D&D
+
+- **WHEN** un visitante abre `/rol`
+- **THEN** no ve D&D 3.5 entre los sistemas ni libros de D&D 3.5 en el
+  listado o en el filtro por sistema, y el recuento de la portada no los
+  cuenta
 
 ### Requirement: Contenido de cada libro en el listado
 
@@ -32,8 +41,9 @@ tiene edición en castellano, y enlazar a su ficha.
 
 ### Requirement: Filtros del listado
 
-El listado de libros SHALL permitir filtrar por sistema, por licencia y por
-libros con edición en castellano, y combinar los filtros.
+El listado de libros SHALL permitir filtrar por sistema, por licencia, por
+movimiento (OSR o NSR) y por libros con edición en castellano, y combinar los
+filtros.
 
 #### Scenario: Filtrar por licencia
 
@@ -45,6 +55,12 @@ libros con edición en castellano, y combinar los filtros.
 
 - **WHEN** el visitante marca «En castellano» y elige Pathfinder 2E
 - **THEN** ve solo los libros de Pathfinder 2E con edición en castellano
+
+#### Scenario: Filtrar por movimiento
+
+- **WHEN** el visitante elige OSR y marca «En castellano»
+- **THEN** ve solo los libros con edición en castellano de sistemas con la
+  etiqueta OSR
 
 ### Requirement: Búsqueda y orden
 
@@ -76,3 +92,14 @@ no aparecen en ellos.
 
 - **WHEN** un visitante busca el título de un libro de Pathfinder
 - **THEN** el buscador de la cabecera no lo muestra
+
+### Requirement: Sistemas OSR y NSR agrupados
+
+La página `/rol` SHALL presentar los sistemas OSR y NSR en un grupo propio,
+separado del resto de familias, junto al texto que explica los movimientos.
+
+#### Scenario: Grupo propio
+
+- **WHEN** un visitante abre `/rol`
+- **THEN** ve los sistemas OSR y NSR juntos en su grupo, cada uno con su
+  etiqueta, y la explicación de que la definición no es precisa

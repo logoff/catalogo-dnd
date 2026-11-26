@@ -12,6 +12,7 @@ import type { Edition, PublicationType, PublicationSubtype, Language } from '@/t
 import SortSelect from './SortSelect'
 import { FilterCheckbox, FilterPanelHeader, FilterSection } from './FilterControls'
 import SegmentedControl from '@/components/ui/SegmentedControl'
+import SearchField from '@/components/ui/SearchField'
 
 interface FilterPanelProps {
   // En las páginas de edición: los filtros se limitan a esa edición y no se muestra su filtro
@@ -31,6 +32,7 @@ export default function FilterPanel({ edition }: FilterPanelProps) {
     toggleType,
     toggleSubtype,
     toggleLanguage,
+    setSearchQuery,
     clearFilters,
     getActiveFilterCount,
   } = useProductStore()
@@ -56,6 +58,16 @@ export default function FilterPanel({ edition }: FilterPanelProps) {
         isExpanded={isExpanded}
         onToggle={() => setIsExpanded(!isExpanded)}
         onClear={clearFilters}
+      />
+
+      {/* Búsqueda dentro de los libros del listado; el buscador de la cabecera busca en todo */}
+      <SearchField
+        label="Buscar libros"
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        onClear={() => setSearchQuery('')}
+        placeholder="Título, código, autor o ISBN"
+        containerClassName="mt-4"
       />
 
       {/* Contenido de filtros - colapsable en móvil, siempre visible en desktop */}

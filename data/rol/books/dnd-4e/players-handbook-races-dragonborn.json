@@ -1,0 +1,24 @@
+{
+  "slug": "players-handbook-races-dragonborn",
+  "system": "dnd-4e",
+  "title": "Player's Handbook Races: Dragonborn",
+  "kind": "supplement",
+  "description": "Un libro dedicado a los dracónidos: su historia, su cultura y su papel en el mundo, con opciones de personaje, poderes raciales, dotes, sendas de leyenda y destinos épicos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-01",
+      "format": "paperback",
+      "isbn13": 9780786953868,
+      "cover": "/images/rol/players-handbook-races-dragonborn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/146652/player-s-handbook-races-dragonborn-4e"
+        }
+      ]
+    }
+  ]
+}

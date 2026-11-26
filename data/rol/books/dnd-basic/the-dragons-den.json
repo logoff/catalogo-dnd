@@ -1,0 +1,30 @@
+{
+  "slug": "the-dragons-den",
+  "system": "dnd-basic",
+  "title": "The Dragon's Den",
+  "kind": "adventure",
+  "description": "Una caja de aventuras para la caja de iniciación de 1991, con mapas, figuras de cartón y aventuras alrededor de la guarida de un dragón. La escribió Ken Rolston.\n\nEdición en castellano de Borrás Plana.",
+  "source": "https://www.tsrarchive.com/dd/dd2-chall.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-dragons-den/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17079/the-dragon-s-den-basic"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Cubil del Dragón",
+      "publisher": "Borrás Plana",
+      "format": "boxed_set",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "tales-of-the-lance",
+  "system": "dnd-add2",
+  "title": "Tales of the Lance",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "Una caja de Dragonlance que resume la historia del mundo y describe sus lugares clave en un grueso volumen sobre Ansalon, con cartas de personajes de los héroes de la saga. La editó J. Robert King.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/tales-of-the-lance/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16961/tales-of-the-lance-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Relatos de la Lanza",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "boxed_set",
+      "cover": "/images/rol/tales-of-the-lance/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-box.html"
+    }
+  ]
+}

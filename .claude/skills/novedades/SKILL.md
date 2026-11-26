@@ -94,8 +94,10 @@ hasta que el usuario confirme.**
 
 Después ejecuta `just check` y `npm run build`, y abre un PR siguiendo el
 estilo habitual del repositorio (breve: qué se hace, qué queda,
-comprobaciones). La guía «¿Cuándo sale en castellano?» se actualiza sola
-a partir de los datos.
+comprobaciones). La guía «¿Cuándo sale en castellano?» y la página
+`/novedades` se actualizan solas a partir de los datos. Los productos
+oficiales anunciados entran aunque no tengan fecha: salen en
+«Próximamente» como anunciados.
 
 Cuando entre una fecha en castellano nueva, recuérdale al usuario que es
 buen momento para volver a compartir la guía.

@@ -1,0 +1,24 @@
+{
+  "slug": "dl6-dragons-of-ice",
+  "system": "dnd-add1",
+  "title": "DL6 Dragons of Ice",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La sexta aventura de la saga de Dragonlance: tras el ataque de los ejércitos de los dragones a Tarsis, los personajes viajan al sur, por los glaciares, hasta el castillo del Muro de Hielo. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/dl6-dragons-of-ice/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16908/dl6-dragons-of-ice-1e"
+        }
+      ]
+    }
+  ]
+}

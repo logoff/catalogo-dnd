@@ -1,0 +1,25 @@
+{
+  "slug": "cc-castle-keepers-guide",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Castle Keepers Guide",
+  "kind": "core",
+  "core": true,
+  "description": "La guía del director de Castles & Crusades: creación de mundos, diseño de mazmorras, personajes no jugadores, atributos a alto nivel, magia, equipo y reglas opcionales.\n\nPublicado por Troll Lord Games, escrito por Stephen Chenault, Davis Chenault, con 368 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/505313/castles-crusades-castle-keepers-guide",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2025-01",
+      "format": "hardcover",
+      "isbn13": 9781952379796,
+      "cover": "/images/rol/cc-castle-keepers-guide/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/505313/castles-crusades-castle-keepers-guide"
+        }
+      ]
+    }
+  ]
+}

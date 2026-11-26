@@ -1,0 +1,24 @@
+{
+  "slug": "wg11-puppets",
+  "system": "dnd-add2",
+  "title": "WG11 Puppets",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura de Greyhawk en dos partes: un leprechaun malvado en el bosque Gnarley y unos ladrones diminutos en la Ciudad Libre de Dyvers. La escribieron Vince Garcia y Bruce Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wg.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/wg11-puppets/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17414/wg11-puppets-2e"
+        }
+      ]
+    }
+  ]
+}

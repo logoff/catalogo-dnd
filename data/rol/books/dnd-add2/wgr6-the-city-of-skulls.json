@@ -1,0 +1,24 @@
+{
+  "slug": "wgr6-the-city-of-skulls",
+  "system": "dnd-add2",
+  "title": "WGR6 The City of Skulls",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "Una aventura en Dorakaa, la Ciudad de las Calaveras, capital del imperio de Iuz, después de las Guerras de Greyhawk. La escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/wgr6-the-city-of-skulls/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17433/wgr6-the-city-of-skulls-2e"
+        }
+      ]
+    }
+  ]
+}

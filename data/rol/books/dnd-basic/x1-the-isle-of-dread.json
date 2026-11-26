@@ -1,0 +1,23 @@
+{
+  "slug": "x1-the-isle-of-dread",
+  "system": "dnd-basic",
+  "title": "X1 The Isle of Dread",
+  "kind": "adventure",
+  "description": "La aventura de la caja experta de Moldvay y Cook: una expedición a una isla tropical con dinosaurios, aldeas nativas y una meseta central llena de misterios. Presentó el mundo que sería Mystara.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "paperback",
+      "cover": "/images/rol/x1-the-isle-of-dread/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17083/x1-the-isle-of-dread-basic"
+        }
+      ]
+    }
+  ]
+}

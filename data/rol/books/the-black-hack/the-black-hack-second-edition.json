@@ -1,0 +1,25 @@
+{
+  "slug": "the-black-hack-second-edition",
+  "system": "the-black-hack",
+  "title": "The Black Hack Second Edition",
+  "kind": "core",
+  "core": true,
+  "description": "El reglamento de la segunda edición de The Black Hack: las reglas básicas siguen ocupando unas treinta páginas y el resto del libro añade más de noventa páginas de personajes no jugadores, monstruos, mazmorras, trampas y objetos mágicos para el director.\n\nPublicado por Gold Piece Publications y escrito por David Black, con 126 páginas; la edición impresa en tapa dura la distribuye SquareHex. Se complementa con Classic Monsters para usar sin conversión las aventuras de la vieja escuela.",
+  "source": "https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Gold Piece Publications",
+      "date": "2018-10",
+      "format": "hardcover",
+      "source": "https://www.exaltedfuneral.com/products/black-hack",
+      "cover": "/images/rol/the-black-hack-second-edition/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition"
+        }
+      ]
+    }
+  ]
+}

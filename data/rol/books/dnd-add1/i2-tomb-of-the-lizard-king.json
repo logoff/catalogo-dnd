@@ -1,0 +1,23 @@
+{
+  "slug": "i2-tomb-of-the-lizard-king",
+  "system": "dnd-add1",
+  "title": "I2 Tomb of the Lizard King",
+  "kind": "adventure",
+  "description": "Una aventura en tres partes: los personajes cruzan la naturaleza, se enfrentan a los bandidos que asaltan las rutas comerciales del sur y exploran la tumba del Rey Lagarto. La escribió Mark Acres.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/i2-tomb-of-the-lizard-king/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17048/i2-tomb-of-the-lizard-king-1e"
+        }
+      ]
+    }
+  ]
+}

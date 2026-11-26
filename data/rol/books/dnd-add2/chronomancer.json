@@ -1,0 +1,23 @@
+{
+  "slug": "chronomancer",
+  "system": "dnd-add2",
+  "title": "Chronomancer",
+  "kind": "supplement",
+  "description": "Un suplemento con una clase de mago especializado en la magia del tiempo y sus conjuros. Lo escribió Loren Coleman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-acc-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/chronomancer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17442/chronomancer-2e"
+        }
+      ]
+    }
+  ]
+}

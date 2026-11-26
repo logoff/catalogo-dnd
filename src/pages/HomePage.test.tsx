@@ -1,15 +1,29 @@
 import { getAllScreenWorks } from '@/services/screenLoader'
 import { describe, it, expect } from 'vitest'
-import { render, screen, within } from '@testing-library/react'
+import { fireEvent, render, screen, within } from '@testing-library/react'
 import { latestInSpanish, productPath } from '@/utils/releases'
 import { MemoryRouter } from 'react-router-dom'
 import Header from '@/components/layout/Header'
-import HomePage from './HomePage'
+import HomePage, { ReleasesPreview } from './HomePage'
+import releases from 'virtual:releases'
+import type { ReleasesIndex } from '@/types/releases'
 import { useProductStore } from '@/store/productStore'
 import { getAllMerchandise } from '@/services/merchandiseLoader'
 import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
 import rpgIndex from 'virtual:rpg-index'
+import { rolSection } from '@/utils/rpg'
+
+// Abre el grupo del menú y devuelve su enlace
+const headerLink = (group: string, name: RegExp) => {
+  render(
+    <MemoryRouter>
+      <Header />
+    </MemoryRouter>
+  )
+  fireEvent.click(screen.getByRole('button', { name: group }))
+  return screen.getByRole('link', { name })
+}
 
 describe('acceso a los videojuegos', () => {
   it('la portada enlaza a la sección y muestra los últimos juegos', () => {
@@ -29,15 +43,7 @@ describe('acceso a los videojuegos', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getByRole('link', { name: 'Videojuegos' })).toHaveAttribute(
-      'href',
-      '/videojuegos'
-    )
+    expect(headerLink('Más de D&D', /^Videojuegos/)).toHaveAttribute('href', '/videojuegos')
   })
 })
 
@@ -51,7 +57,9 @@ describe('acceso al merchandising', () => {
     const links = screen.getAllByRole('link', { name: /Merchandising|Ver todo/ })
     expect(links.some((link) => link.getAttribute('href') === '/merchandising')).toBe(true)
     expect(screen.getByRole('heading', { name: 'Merchandising' })).toBeInTheDocument()
-    const itemLinks = screen
+    // Solo los del bloque de merchandising (el de novedades también puede enlazar artículos)
+    const block = screen.getByRole('heading', { name: 'Merchandising' }).closest('section')!
+    const itemLinks = within(block)
       .getAllByRole('link')
       .filter((link) => link.getAttribute('href')?.startsWith('/merchandising/'))
     expect(itemLinks.length).toBeGreaterThan(0)
@@ -59,15 +67,7 @@ describe('acceso al merchandising', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getByRole('link', { name: 'Merchandising' })).toHaveAttribute(
-      'href',
-      '/merchandising'
-    )
+    expect(headerLink('Más de D&D', /^Merchandising/)).toHaveAttribute('href', '/merchandising')
   })
 
   it('el buscador de la cabecera sigue buscando solo libros', () => {
@@ -88,7 +88,9 @@ describe('acceso a las novelas', () => {
     const links = screen.getAllByRole('link', { name: /Novelas|Ver todas/ })
     expect(links.some((link) => link.getAttribute('href') === '/novelas')).toBe(true)
     expect(screen.getByRole('heading', { name: 'Novelas' })).toBeInTheDocument()
-    const novelLinks = screen
+    // Solo los del bloque de novelas (el de novedades también puede enlazar novelas)
+    const block = screen.getByRole('heading', { name: 'Novelas' }).closest('section')!
+    const novelLinks = within(block)
       .getAllByRole('link')
       .filter((link) => link.getAttribute('href')?.startsWith('/novela/'))
     expect(novelLinks.length).toBeGreaterThan(0)
@@ -97,12 +99,7 @@ describe('acceso a las novelas', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getAllByRole('link', { name: 'Novelas' })[0]).toHaveAttribute('href', '/novelas')
+    expect(headerLink('Más de D&D', /^Novelas/)).toHaveAttribute('href', '/novelas')
   })
 
   it('el buscador de la cabecera sigue buscando solo libros', () => {
@@ -114,6 +111,63 @@ describe('acceso a las novelas', () => {
 })
 
 describe('portada', () => {
+  it('empieza los bloques con las novedades, que enlazan a /novedades', () => {
+    render(
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>
+    )
+    const headings = screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)
+    expect(headings[0]).toBe('Novedades')
+    const block = screen.getByRole('heading', { name: 'Novedades', level: 2 }).closest('section')!
+    expect(within(block).getByRole('link', { name: /Ver todas/ })).toHaveAttribute(
+      'href',
+      '/novedades'
+    )
+    const shown = releases.recent.slice(0, 3).map((r) => r.name)
+    for (const name of shown) expect(within(block).getAllByText(name).length).toBeGreaterThan(0)
+  })
+
+  it('el bloque de novedades muestra hasta tres próximas y tres recientes', () => {
+    const release = (name: string, date: string): ReleasesIndex['recent'][number] => ({
+      name,
+      date,
+      path: `/novela/${name}`,
+      section: 'novelas',
+      key: name,
+    })
+    const data: ReleasesIndex = {
+      today: '2026-11-23',
+      upcoming: ['p1', 'p2', 'p3', 'p4'].map((n) => release(n, '2026-12-01')),
+      recent: ['r1', 'r2', 'r3', 'r4'].map((n) => release(n, '2026-11-01')),
+      announced: [],
+      campaigns: [],
+    }
+    const { unmount } = render(
+      <MemoryRouter>
+        <ReleasesPreview data={data} />
+      </MemoryRouter>
+    )
+    expect(screen.getByRole('heading', { name: 'Próximamente' })).toBeInTheDocument()
+    expect(screen.getAllByRole('link', { name: /^[pr]\d$/ }).map((l) => l.textContent)).toEqual([
+      'p1',
+      'p2',
+      'p3',
+      'r1',
+      'r2',
+      'r3',
+    ])
+    unmount()
+
+    render(
+      <MemoryRouter>
+        <ReleasesPreview data={{ ...data, upcoming: [] }} />
+      </MemoryRouter>
+    )
+    expect(screen.queryByRole('heading', { name: 'Próximamente' })).toBeNull()
+    expect(screen.getByRole('heading', { name: 'Recién salido' })).toBeInTheDocument()
+  })
+
   it('muestra los libros salidos más recientemente en castellano', () => {
     render(
       <MemoryRouter>
@@ -159,15 +213,7 @@ describe('acceso a cine y series', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getAllByRole('link', { name: 'Cine y series' })[0]).toHaveAttribute(
-      'href',
-      '/cine-y-series'
-    )
+    expect(headerLink('Más de D&D', /^Cine y series/)).toHaveAttribute('href', '/cine-y-series')
   })
 })
 
@@ -185,21 +231,14 @@ describe('acceso a otros juegos de rol', () => {
   })
 
   it('la cabecera enlaza a la sección', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
-    expect(screen.getAllByRole('link', { name: 'Otros juegos de rol' })[0]).toHaveAttribute(
-      'href',
-      '/rol'
-    )
+    expect(headerLink('Otros juegos de rol', /^Juegos y libros/)).toHaveAttribute('href', '/rol')
   })
 
   it('el buscador de la cabecera no muestra libros de la sección', () => {
     // El buscador filtra el store de productos, que no incluye los libros de la sección
     const productTitles = useProductStore.getState().products.map((p) => p.primaryTitle)
-    const rpgTitles = rpgIndex.books.map((book) => book.title)
+    // Los básicos de las ediciones anteriores de D&D se llaman como los de 5E: no cuentan
+    const rpgTitles = rolSection(rpgIndex.systems, rpgIndex.books).books.map((book) => book.title)
     expect(productTitles.filter((title) => rpgTitles.includes(title))).toEqual([])
   })
 })

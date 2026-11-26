@@ -1,0 +1,23 @@
+{
+  "slug": "hhq7-thiefs-challenge-ii-beacon-point",
+  "system": "dnd-add2",
+  "title": "HHQ7 Thief's Challenge II: Beacon Point",
+  "kind": "adventure",
+  "description": "La segunda aventura de desafío para ladrones. La escribió Terry Amthor.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/hhq7-thiefs-challenge-ii-beacon-point/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17317/hhq7-thief-s-challenge-ii-beacon-point-2e"
+        }
+      ]
+    }
+  ]
+}

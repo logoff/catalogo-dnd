@@ -1,0 +1,24 @@
+{
+  "slug": "hellgate-keep",
+  "system": "dnd-add2",
+  "title": "Hellgate Keep",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura en Hellgate Keep, la fortaleza de los tanar'ri en el Norte. La escribió Steven E. Schend.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-dc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/hellgate-keep/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16858/hellgate-keep-2e"
+        }
+      ]
+    }
+  ]
+}

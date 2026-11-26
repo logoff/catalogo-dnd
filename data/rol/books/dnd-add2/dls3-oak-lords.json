@@ -1,0 +1,33 @@
+{
+  "slug": "dls3-oak-lords",
+  "system": "dnd-add2",
+  "title": "DLS3 Oak Lords",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "Una aventura de la serie DLS de Dragonlance. La escribió Blake Mobley.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dls.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dls3-oak-lords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17374/dls3-oak-lords-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Los Señores del Roble",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dls3-oak-lords/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

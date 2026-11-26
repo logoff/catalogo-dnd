@@ -1,0 +1,23 @@
+{
+  "slug": "mc3-monstrous-compendium-volume-three-forgotten-realms-appendix",
+  "system": "dnd-add2",
+  "title": "MC3 Monstrous Compendium Volume Three: Forgotten Realms Appendix",
+  "kind": "supplement",
+  "settings": ["forgotten_realms"],
+  "description": "Un apéndice del Monstrous Compendium, en hojas sueltas para la carpeta, con los monstruos de los Reinos Olvidados.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "cover": "/images/rol/mc3-monstrous-compendium-volume-three-forgotten-realms-appendix/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17539/mc3-monstrous-compendium-forgotten-realms-appendix-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -8,8 +8,8 @@ para trabajar con el código de este repositorio.
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
 para las ediciones 5E (2014) y 5.5E (2024), de todos los videojuegos
 oficiales de D&D, del merchandising con licencia, de las novelas
-oficiales, de las películas y series (oficiales y, aparte, no oficiales)
-y de otros juegos de rol de la familia de D&D con sus licencias
+y los cómics oficiales, de las películas y series (oficiales y, aparte, no
+oficiales) y de otros juegos de rol de la familia de D&D con sus licencias
 abiertas (sección separada de lo oficial). Se despliega en Cloudflare Pages en
 <https://catalogodnd.es/>.
 
@@ -48,6 +48,10 @@ recetas disponibles.
   ediciones de una novela, las convierte a WebP con miniatura y las anota
   en su ficha (`--openlibrary` para las que falten, `--series <id>` para
   los recopilatorios)
+- `just comic-covers <slug> <clave>=<url>… --source <página>` — Descarga
+  portadas de un cómic (números, tomos por ISBN o `tomo-<n>`, grapas en
+  castellano con `castellano-<n>`), las convierte a WebP con miniatura y
+  las anota en su ficha (`--collection <id>` para los tomos de varias series)
 - `just screen-posters <slug> --source <página> <idioma>=<url>…` — Descarga
   los carteles de una película o serie (`en`, `es` o `pt`), los convierte a
   WebP con miniatura y los anota en su ficha
@@ -67,7 +71,10 @@ tema claro y el oscuro en `src/styles/globals.css`; los componentes no usan
 otros colores ni la variante `dark:` para ellos, y `contrast.test.ts` exige
 AA. El rojo es el único acento: acción principal (comprar), castellano,
 elemento activo y foco. Fuentes Geist y Geist Mono (cifras, fechas, ISBN).
-Los componentes base están en `src/components/ui/` (botón, tarjeta,
+Los títulos usan la escala de `headingClass` (`styles.ts`): sección, título de
+bloque, grupo de una lista (versalitas grises) y elemento; nada de tamaños
+sueltos. En las listas de libros va primero el título original y, debajo, el de
+castellano con `SpanishMark`. Los componentes base están en `src/components/ui/` (botón, tarjeta,
 insignia, buscador, control segmentado, navegación por secciones, tablas,
 cabecera de página). Sin animaciones de entrada ni degradados. El tema se
 aplica antes de pintar con el script en línea de `index.html` (el mismo
@@ -120,8 +127,10 @@ cada ficha esté en ella y al revés. Para dar de alta juegos, usar la
 skill `add-videogame`.
 
 **Merchandising:** productos con licencia oficial de D&D desde 2014 que
-no son de reglas (libros licenciados, figuras y juguetes, juegos de mesa
-y cartas). Cada artículo es un JSON en
+no son de reglas (libros licenciados y librojuegos, figuras y juguetes,
+juegos de mesa y cartas, dados y accesorios de dados, y papelería y regalo:
+diarios, puzles, tarot, postales). Los dados solo entran si se
+pueden comprar en España, con enlace de compra. Cada artículo es un JSON en
 `data/merchandising/items/<grupo>/<slug>.json` (esquema
 `data/schemas/merchandise.jsonschema`) con sus ediciones por idioma; las
 de castellano indican si salieron en España (`spain`).
@@ -161,6 +170,21 @@ novelas en castellano se generan desde el índice; el orden de cada una
 está en `data/novels/reading-orders.json` (series enteras o novelas
 sueltas).
 
+**Cómics:** todos los cómics oficiales de D&D en inglés y todo lo publicado
+en castellano (también las series solo españolas, con `language`), una
+ficha por serie en `data/comics/<editorial>/<slug>.json` (esquema
+`data/schemas/comic.jsonschema`) con sus números (`issues`) y sus ediciones:
+tomos con `contents` (qué números recogen) y grapas en castellano
+(`format: "issue"` con sus propios números). Los tomos de varias series van
+una vez en `data/comics/collections.json`. Como novelas, un plugin de
+`vite.config.ts` genera `virtual:comics-index` (listado, en un trozo aparte),
+`virtual:comics-stats` (portada) y `virtual:comics-related` (los cómics que
+enlazan a cada novela, videojuego, artículo o libro, para sus fichas); cada
+serie es un trozo aparte y las páginas leen de la caché de `comicLoader.ts`.
+`data/comics/inventory.md` es la lista maestra. Las series sin ninguna
+portada están en `PENDING_COVERS` de `comicLoader.test.ts`. Para dar de alta,
+usar la skill `add-comic`.
+
 **Cine y series:** películas, series, documentales y episodios sueltos
 de D&D. Cada obra es un JSON en `data/screen/<tipo>/<slug>.json` (tipos
 `films`, `series`, `documentaries`, `episodes`; esquema
@@ -191,6 +215,19 @@ libros con sus ediciones en inglés y en castellano
 publicado en castellano y, de lo que solo está en inglés, los libros
 principales (`core`) de los sistemas grandes y el catálogo de las
 editoriales destacadas (`FEATURED_PUBLISHERS` en `src/utils/rpg.ts`).
+Los juegos OSR y NSR llevan `movement` en su sistema (con texto propio
+en `/rol#osr-y-nsr` que avisa de que la definición no es precisa) y de
+ellos entra, además, la línea impresa propia en inglés (editorial del
+sistema o `line_publishers`), con `format` en cada edición y al menos una
+impresa (`movementBookProblem` en `src/utils/rpg.ts`). Si la editorial o el
+autor ofrecen el libro gratis (Codex de la Marca, su web), la edición lo
+enlaza con `free_download`, un botón aparte que no es de compra. Las ediciones
+financiadas en micromecenazgo llevan `crowdfunding` (plataforma, enlace y
+fecha de cierre): la ficha dice «En campaña en…» o «Financiado en…» comparando
+con `virtual:build-date`, y las abiertas salen en «En micromecenazgo» de
+`/novedades` (`campaignEntries` en `scripts/releases.mjs`). De los juegos de La
+Marca del Este entra todo lo oficial, también accesorios (formato
+`accessory`), novelas y PDF liberados en Codex.
 Los sistemas de D&D tienen ficha mínima que enlaza al catálogo oficial
 (`official_catalog`). Como en novelas, un plugin de `vite.config.ts`
 genera `virtual:rpg-index` (licencias, sistemas y resumen de los libros)
@@ -200,17 +237,47 @@ aparte y las páginas leen de la caché de `rpgLoader.ts` (`useRpgIndex`,
 que cada ficha esté en ella y al revés). Para dar de alta, usar la skill
 `add-rpg`.
 
+**Ediciones anteriores de D&D:** sección propia en `/ediciones`, fuera de
+«Otros juegos de rol», con el mismo modelo y los mismos datos de `data/rol/`:
+una edición es un sistema con `official: true` y sin `official_catalog`
+(`isDndEdition` en `src/utils/rpg.ts`, que con `systemPath` y `bookPath` da
+la URL de cada sistema y libro). Llevan todos los libros impresos de Wizards
+de la edición, aunque solo salieran en inglés, con su edición de Devir si la
+hubo. Están descatalogados: el único enlace de compra permitido es el de
+DMsGuild (PDF e impresión bajo demanda de Wizards), en la edición en inglés;
+un test lo exige y `just affiliate-coverage` solo revisa esa tienda. Las fichas son `RpgSystemPage` y
+`RpgBookPage` con `section="ediciones"`; `/rol/dnd-3-5` redirige con
+`public/_redirects`.
+
 **Rutas:** `/catalogo` (catálogo completo), `/2014` y `/2024` (páginas
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
 de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandising`
 (listado), `/merchandising/:slug` (ficha), `/novelas` (listado, con
-`?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/cine-y-series`
-(listado), `/cine-y-series/:slug` (ficha), `/rol` (otros juegos de rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/licencias` y
-`/licencia/:slug`.
+`?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/comics` (listado, con
+`?editorial=`, `?mundo=` y `?epoca=`), `/comic/:slug` (ficha), `/cine-y-series` (listado),
+`/cine-y-series/:slug` (ficha), `/rol` (otros juegos de
+rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/ediciones`
+(ediciones anteriores de D&D), `/ediciones/:edicion` y
+`/ediciones/:edicion/:libro` (fichas), `/licencias` y `/licencia/:slug`,
+`/novedades` y `/novedades/:mes` (resumen mensual), `/buscar?q=` (buscador
+global, con `noindex` y fuera del sitemap).
+
+**Buscador global:** la caja de la cabecera y de la portada (`SearchBar`,
+con `useSiteSearchInput`) lleva a `/buscar?q=` (`SearchPage`), que busca en
+todas las secciones a la vez con `src/utils/siteSearch.ts`: un adaptador por
+sección convierte sus fichas en entradas comunes (título, castellano, enlace,
+miniatura y texto de búsqueda con títulos, autores o editoriales e ISBN) y
+`searchSite` las agrupa por sección. Novelas, cómics y rol aportan el
+`searchText` de su índice, que se descarga al abrir la página. El texto de la
+URL se aplica tras hidratar, porque `/buscar` se prerenderiza vacía
+(`UNLISTED_PATHS` en `scripts/prerender.mjs`). Cada listado conserva su propio
+buscador; el de `/catalogo`, `/2014` y `/2024` está en `FilterPanel`.
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de
-cada tienda (Amazon, Adtraction, Awin, Instant Gaming; NoSoloRol solo en
-otros juegos de rol); los JSON guardan
+cada tienda (Amazon, Adtraction, Awin, Instant Gaming, DriveThru; NoSoloRol y
+DriveThruRPG solo en otros juegos de rol, DMsGuild solo en ediciones
+anteriores, Tesoros de la Marca, sin afiliado y sin `rel="sponsored"`, solo en los
+juegos de La Marca del Este, `MARCA_DEL_ESTE_SYSTEMS`); los JSON guardan
 siempre la URL limpia y los IDs llegan por variables `VITE_AFFILIATE_*`
 (ver README).
 
@@ -229,11 +296,26 @@ ligeras de 1200×630 (`dist/images/previews/`). `main.tsx` hidrata ese
 HTML. Lo que pinte el primer render debe coincidir en servidor y
 navegador: nada de `window` ni `localStorage` durante el render.
 
-**Feed de novedades:** `scripts/generate-feed.mjs` genera en el build
-`dist/feed.xml` (Atom) con las 50 últimas ediciones con fecha de todas las
-secciones, usando la lógica pura de `scripts/feed.mjs` (con tests en
-`scripts/feed.test.mjs`). Se anuncia en el `<head>` de `index.html` y en el
-pie.
+**Feed y página de novedades:** qué es una novedad lo decide la lógica
+pura de `scripts/releases.mjs` (con tests en `scripts/releases.test.mjs`):
+ediciones con fecha de mes o de día de todas las secciones y anunciados sin
+fecha. `scripts/generate-feed.mjs` genera en el build `dist/feed.xml`
+(Atom) con las 50 últimas ya publicadas (`scripts/feed.mjs`); se anuncia en
+el `<head>` de `index.html` y en el pie. `/novedades` (`ReleasesPage`) y el
+bloque de la portada leen `virtual:releases`, que un plugin de
+`vite.config.ts` calcula con «hoy» en hora de Madrid: lo salido en 90 días,
+lo que tiene fecha futura y lo anunciado. Como la fecha se fija en el build,
+`deploy.yml` despliega también cada día a las 4:00 UTC.
+
+**Resumen mensual:** `/novedades/AAAA-MM` (`MonthlySummaryPage`) cuenta lo
+que cambió en `data/` cada mes completo desde noviembre de 2026: fichas
+nuevas por sección (recuento y diez de ejemplo), ediciones y fechas en
+castellano y reseñas. `virtual:monthly-summaries` lo calcula en el build con
+el historial de git (`scripts/git-history.mjs` compara la última revisión
+anterior al día 1 de cada mes en hora de Madrid; `scripts/monthly-summary.mjs`
+es la lógica pura, con tests). Por eso `deploy.yml` clona con
+`fetch-depth: 0`; en un clon superficial el build de producción falla.
+`SUMMARY_TODAY=AAAA-MM-DD` simula otro día en local.
 
 **Despliegue:** Cloudflare Pages (proyecto `catalogodnd`) en
 `catalogodnd.es`; el base path es `/` en todos los entornos.

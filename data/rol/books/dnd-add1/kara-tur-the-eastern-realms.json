@@ -1,0 +1,24 @@
+{
+  "slug": "kara-tur-the-eastern-realms",
+  "system": "dnd-add1",
+  "title": "Kara-Tur: The Eastern Realms",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La caja de Kara-Tur, el continente oriental de los Reinos Olvidados presentado en Oriental Adventures, con sus reinos, su historia y sus pueblos. La escribieron Mike Pondsmith, Jay Batista, Rick Swan, John Nephew y Deborah Christian.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "boxed_set",
+      "cover": "/images/rol/kara-tur-the-eastern-realms/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17321/kara-tur-the-eastern-realms-1e"
+        }
+      ]
+    }
+  ]
+}

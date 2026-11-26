@@ -1,0 +1,16 @@
+{
+  "slug": "shadowdark-player-quickstart-zine",
+  "system": "shadowdark",
+  "title": "Shadowdark RPG Player Quickstart Zine",
+  "kind": "other",
+  "description": "El fanzine del jugador de Shadowdark, de sesenta y ocho páginas: las reglas para jugar, la creación de personajes con las cuatro clases principales y los conjuros de los primeros niveles.\n\nSe vende en paquetes de cuatro para repartir en la mesa y sirve tanto con las reglas de inicio como con el libro básico.",
+  "source": "https://www.thearcanelibrary.com/products/shadowdark-rpg-player-quickstart-zine-4-pack-print-pdf",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "format": "paperback",
+      "cover": "/images/rol/shadowdark-player-quickstart-zine/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "city-sites",
+  "system": "dnd-add2",
+  "title": "City Sites",
+  "kind": "supplement",
+  "description": "Lugares de ciudad listos para usar en cualquier campaña, con sus mapas, sus habitantes e ideas de aventura. Lo escribió Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-site.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/city-sites/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17417/city-sites-2e"
+        }
+      ]
+    }
+  ]
+}

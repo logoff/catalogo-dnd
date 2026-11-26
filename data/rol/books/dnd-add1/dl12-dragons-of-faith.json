@@ -1,0 +1,24 @@
+{
+  "slug": "dl12-dragons-of-faith",
+  "system": "dnd-add1",
+  "title": "DL12 Dragons of Faith",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La duodécima aventura de la saga de Dragonlance, con cartas de Talis, personajes pregenerados y una batalla submarina con las reglas de Battlesystem. La escribieron Harold Johnson y Bruce Heard.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dl.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/dl12-dragons-of-faith/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17388/dl12-dragons-of-faith-1e"
+        }
+      ]
+    }
+  ]
+}

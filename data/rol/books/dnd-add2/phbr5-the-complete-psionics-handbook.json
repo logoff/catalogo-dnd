@@ -1,0 +1,32 @@
+{
+  "slug": "phbr5-the-complete-psionics-handbook",
+  "system": "dnd-add2",
+  "title": "PHBR5 The Complete Psionics Handbook",
+  "kind": "supplement",
+  "description": "Las reglas de psiónica de AD&D 2.ª edición: la clase de psiónico, sus disciplinas, ciencias y devociones, y cómo encajar los poderes mentales en la campaña.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-phbr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/phbr5-the-complete-psionics-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16891/phbr5-the-complete-psionics-handbook-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de los Poderes Psiónicos",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/phbr5-the-complete-psionics-handbook/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-phbr.html"
+    }
+  ]
+}

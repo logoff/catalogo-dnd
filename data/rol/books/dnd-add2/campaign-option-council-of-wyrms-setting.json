@@ -1,0 +1,23 @@
+{
+  "slug": "campaign-option-council-of-wyrms-setting",
+  "system": "dnd-add2",
+  "title": "Campaign Option: Council of Wyrms Setting",
+  "kind": "supplement",
+  "description": "Una ambientación en la que los jugadores llevan dragones, en las islas de la Sangre de Io, con reglas para dragones como personajes. La escribió Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1999",
+      "format": "hardcover",
+      "cover": "/images/rol/campaign-option-council-of-wyrms-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17026/campaign-option-council-of-wyrms-setting-2e"
+        }
+      ]
+    }
+  ]
+}

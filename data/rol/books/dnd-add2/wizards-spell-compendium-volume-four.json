@@ -1,0 +1,23 @@
+{
+  "slug": "wizards-spell-compendium-volume-four",
+  "system": "dnd-add2",
+  "title": "Wizard's Spell Compendium Volume Four",
+  "kind": "supplement",
+  "description": "El último de los cuatro tomos que reúnen todos los conjuros de mago publicados por TSR de 1975 a 1995.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-wsc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/wizards-spell-compendium-volume-four/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17452/wizard-s-spell-compendium-vol-4-2e"
+        }
+      ]
+    }
+  ]
+}

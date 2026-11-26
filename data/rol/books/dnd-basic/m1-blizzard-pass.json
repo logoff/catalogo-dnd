@@ -1,0 +1,23 @@
+{
+  "slug": "m1-blizzard-pass",
+  "system": "dnd-basic",
+  "title": "M1 Blizzard Pass",
+  "kind": "adventure",
+  "description": "Una aventura en solitario para la caja básica de Mentzer, en un paso de montaña nevado, que se jugaba revelando el texto con un rotulador de tinta invisible.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-msolo.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/m1-blizzard-pass/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/282952/m1-blizzard-pass-basic"
+        }
+      ]
+    }
+  ]
+}

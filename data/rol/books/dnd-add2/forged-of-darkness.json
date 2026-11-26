@@ -1,0 +1,24 @@
+{
+  "slug": "forged-of-darkness",
+  "system": "dnd-add2",
+  "title": "Forged of Darkness",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Un suplemento de Ravenloft con nueve artefactos mágicos y su historia: dan grandes poderes, pero a un precio muy alto. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/forged-of-darkness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17515/forged-of-darkness-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "dlr1-otherlands",
+  "system": "dnd-add2",
+  "title": "DLR1 Otherlands",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "Un suplemento de Dragonlance sobre las tierras de Krynn menos conocidas. Lo escribieron Scott Haring, Scott Bennie y John Terra.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/dlr1-otherlands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/188636/dlr1-otherlands-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Otras Tierras",
+      "publisher": "Zinco",
+      "format": "paperback",
+      "source": "https://www.tsrarchive.com/in/sp/sp.html"
+    }
+  ]
+}

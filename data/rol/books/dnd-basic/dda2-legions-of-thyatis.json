@@ -1,0 +1,24 @@
+{
+  "slug": "dda2-legions-of-thyatis",
+  "system": "dnd-basic",
+  "title": "DDA2 Legions of Thyatis",
+  "kind": "adventure",
+  "settings": ["mystara"],
+  "description": "La continuación de Arena of Thyatis: los personajes recorren las catacumbas para impedir que un senador corrupto anule la magia que protege la ciudad de Thyatis de los monstruos que viven debajo. La escribió John Nephew.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-dda.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/dda2-legions-of-thyatis/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/191511/dda2-legions-of-thyatis-basic"
+        }
+      ]
+    }
+  ]
+}

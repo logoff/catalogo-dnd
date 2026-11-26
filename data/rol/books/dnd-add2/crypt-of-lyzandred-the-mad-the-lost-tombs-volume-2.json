@@ -1,0 +1,31 @@
+{
+  "slug": "crypt-of-lyzandred-the-mad-the-lost-tombs-volume-2",
+  "system": "dnd-add2",
+  "title": "Crypt of Lyzandred the Mad (The Lost Tombs, Volume 2)",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La segunda aventura de la trilogía de las Tumbas Perdidas de Greyhawk. La escribió Sean K. Reynolds.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/crypt-of-lyzandred-the-mad-the-lost-tombs-volume-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17437/crypt-of-lyzandred-the-mad-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Las Tumbas Perdidas II: La Cripta de Lyzandred el Loco",
+      "publisher": "Martínez Roca",
+      "format": "paperback",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

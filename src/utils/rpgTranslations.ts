@@ -1,4 +1,11 @@
-import type { DerivationKind, License, LicenseKind, RpgBookKind, RpgFormat } from '@/types/rpg'
+import type {
+  DerivationKind,
+  License,
+  LicenseKind,
+  RpgBookKind,
+  RpgFormat,
+  RpgMovement,
+} from '@/types/rpg'
 
 export const licenseKindNames: Record<LicenseKind, string> = {
   license: 'Licencia',
@@ -22,10 +29,22 @@ export const bookKindNames: Record<RpgBookKind, string> = {
   other: 'Otro',
 }
 
+// Títulos de los grupos de libros de una edición anterior de D&D, en el orden en que se muestran
+export const bookKindGroups: [RpgBookKind, string][] = [
+  ['core', 'Libros básicos'],
+  ['starter', 'Cajas de inicio'],
+  ['supplement', 'Suplementos'],
+  ['setting', 'Ambientaciones'],
+  ['adventure', 'Aventuras'],
+  ['other', 'Otros'],
+]
+
 export const rpgFormatNames: Record<RpgFormat, string> = {
   hardcover: 'Tapa dura',
   paperback: 'Tapa blanda',
   boxed_set: 'Caja',
+  screen: 'Pantalla',
+  accessory: 'Accesorio',
   pdf: 'PDF',
 }
 
@@ -33,3 +52,11 @@ export const rpgFormatNames: Record<RpgFormat, string> = {
 export function licenseLabel(license: Pick<License, 'name' | 'short_name'>): string {
   return license.short_name ?? license.name
 }
+
+export const movementNames: Record<RpgMovement, string> = {
+  osr: 'OSR',
+  nsr: 'NSR',
+}
+
+// Ancla de la explicación de los movimientos en /rol
+export const MOVEMENTS_ANCHOR = 'osr-y-nsr'

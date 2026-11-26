@@ -1,0 +1,33 @@
+{
+  "slug": "dungeon-hack-aventureros-errantes",
+  "system": "dungeon-hack",
+  "title": "Dungeon Hack: Aventureros Errantes",
+  "kind": "core",
+  "core": true,
+  "description": "El libro de Dungeon Hack: creación de personajes, reglas de exploración, combate y magia, y todo lo necesario para jugar aventuras de la vieja escuela.\n\nSirve para jugar casi sin cambios aventuras de otros juegos OSR. Es una sola edición que se vendió en dos formatos: la de tapa dura de 120 páginas del mecenazgo de Verkami (2018) y la básica en rústica de 96 páginas (2019). Yipikayei liberó después el PDF gratis.",
+  "source": "https://www.verkami.com/projects/21054",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "format": "hardcover",
+      "isbn13": 9788494792373,
+      "cover": "/images/rol/dungeon-hack-aventureros-errantes/castellano.webp",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/21054",
+        "end": "2018-07-30"
+      },
+      "free_download": "https://www.sinergiaderol.com/RolGratuito/DungeonHack/DungeonHack.rar"
+    },
+    {
+      "language": "castellano",
+      "title": "Dungeon Hack: Aventureros Errantes. Edición Básica",
+      "publisher": "Yipikayei",
+      "date": "2019-01-02",
+      "format": "paperback",
+      "isbn13": 9788494792397,
+      "source": "https://www.todostuslibros.com/libros/dungeon-hack-edicion-basica_978-84-947923-9-7"
+    }
+  ]
+}

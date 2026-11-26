@@ -1,0 +1,36 @@
+{
+  "slug": "marca-lo-que-el-ojo-no-ve",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Lo que el ojo no ve",
+  "kind": "adventure",
+  "description": "Un módulo para cuatro a seis personajes de nivel 2: el tranquilo Bosque Real, junto a Marvalar, sufre secuestros a manos de un ejército de trasgos crueles y disciplinados, y una extraña maldición se extiende por la zona.\n\nLo publicó Holocubierta en 2011 y La Marca del Este lo reeditó en 2023.",
+  "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Holocubierta Ediciones",
+      "date": "2011-09",
+      "format": "paperback",
+      "source": "https://roldelos90.blogspot.com/2021/07/todo-la-marca-del-este-2010-2021.html"
+    },
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2023-05",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/33746-aventuras-en-la-marca-del-este-lo-que-el-ojo-no-ve.html",
+      "cover": "/images/rol/marca-lo-que-el-ojo-no-ve/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/ho1-lo-que-el-ojo-no-ve/",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/14769-aventuras-en-la-marca-del-este-lo-que-el-ojo-no-ve-9782253058151.html"
+        },
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/lo-que-el-ojo-no-ve/"
+        }
+      ]
+    }
+  ]
+}

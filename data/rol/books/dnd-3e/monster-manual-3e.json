@@ -1,0 +1,28 @@
+{
+  "slug": "monster-manual-3e",
+  "system": "dnd-3e",
+  "title": "Monster Manual",
+  "kind": "core",
+  "core": true,
+  "description": "El bestiario de la tercera edición: cientos de criaturas, de aberraciones a dragones y no muertos, cada una con su perfil de juego, sus tácticas y su ecología, más las reglas para mejorar monstruos y usarlos como personajes.\n\nEs el tercero de los tres básicos y lo usa sobre todo el director de juego para poblar sus aventuras. En 2003 lo sustituyó el Manual de Monstruos v.3.5.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks#Core_rules_4",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-10",
+      "format": "hardcover",
+      "isbn13": 9780786915521,
+      "cover": "/images/rol/monster-manual-3e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual de Monstruos",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "isbn13": 9788495712028,
+      "cover": "/images/rol/monster-manual-3e/castellano.webp",
+      "source": "https://web.archive.org/web/20040630010035/http://www.devir.es:80/catalogo/cat.pl?o=1&c=JRDDBAS&b=logos/dungeons.jpg%27target=%27text"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "players-handbook-2e",
+  "system": "dnd-add2",
+  "title": "Player's Handbook",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del jugador de AD&D 2.ª edición: razas, clases (guerrero, paladín, explorador, mago y sus especialistas, clérigo, druida, ladrón y bardo), pericias, equipo, combate con THAC0 y los conjuros de mago y de sacerdote. En 1995 salió una versión revisada con nueva maquetación.\n\nEdición en castellano de Zinco y Martínez Roca.",
+  "source": "https://www.tsrarchive.com/add/add-2e-core-phb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "hardcover",
+      "cover": "/images/rol/players-handbook-2e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16868/player-s-handbook-revised-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "hardcover",
+      "cover": "/images/rol/players-handbook-2e/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core-a.html"
+    },
+    {
+      "language": "castellano",
+      "title": "Manual del Jugador",
+      "publisher": "Martínez Roca",
+      "date": "1995",
+      "format": "hardcover",
+      "cover": "/images/rol/players-handbook-2e/castellano-2.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-core.html"
+    }
+  ]
+}

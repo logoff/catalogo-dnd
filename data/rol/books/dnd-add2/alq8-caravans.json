@@ -1,0 +1,24 @@
+{
+  "slug": "alq8-caravans",
+  "system": "dnd-add2",
+  "title": "ALQ8 Caravans",
+  "kind": "adventure",
+  "settings": ["al_qadim"],
+  "description": "Un producto de Al-Qadim sobre las caravanas del desierto de Zakhara. Lo escribió Rick Swan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/aq/aq-alq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "boxed_set",
+      "cover": "/images/rol/alq8-caravans/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/200442/caravans-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "maztica",
+  "system": "dnd-add2",
+  "title": "Maztica",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La caja de Maztica, un continente de inspiración mesoamericana al otro lado del mar sin Rastros, con su magia, sus pueblos y la llegada de los conquistadores de Amn. La escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "boxed_set",
+      "cover": "/images/rol/maztica/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/198112/maztica-2e"
+        }
+      ]
+    }
+  ]
+}

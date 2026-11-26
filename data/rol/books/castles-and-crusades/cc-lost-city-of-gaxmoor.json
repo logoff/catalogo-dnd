@@ -1,0 +1,23 @@
+{
+  "slug": "cc-lost-city-of-gaxmoor",
+  "system": "castles-and-crusades",
+  "title": "Castles & Crusades Lost City of Gaxmoor",
+  "kind": "adventure",
+  "description": "Una aventura de Ernest Gary Gygax Jr. en las ruinas de la antigua metrópolis de Gaxmoor, al norte de las Bergruken.\n\nPublicado por Troll Lord Games, escrito por Ernest Gary Gygax Jr., Luke Gygax, con 120 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/150064/castles-crusades-lost-city-of-gaxmoor",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Troll Lord Games",
+      "date": "2015-05",
+      "format": "paperback",
+      "cover": "/images/rol/cc-lost-city-of-gaxmoor/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/150064/castles-crusades-lost-city-of-gaxmoor"
+        }
+      ]
+    }
+  ]
+}

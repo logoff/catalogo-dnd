@@ -1,0 +1,34 @@
+{
+  "slug": "complete-adventurer",
+  "system": "dnd-3-5",
+  "title": "Complete Adventurer",
+  "kind": "supplement",
+  "description": "Opciones para personajes de habilidad: tres clases nuevas próximas al pícaro (el ninja, el explorador y el ladrón de conjuros), clases de prestigio, dotes, usos nuevos de las habilidades, equipo y organizaciones.\n\nSustituye a Song and Silence, la guía de bardos y pícaros de la 3.ª edición, dentro de la serie Complete. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Complete_Adventurer",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005",
+      "format": "hardcover",
+      "isbn13": 9780786936519,
+      "cover": "/images/rol/complete-adventurer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51630/complete-adventurer-3-5"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Aventurero Completo",
+      "publisher": "Devir",
+      "date": "2005-10",
+      "format": "hardcover",
+      "isbn13": 9788496422544,
+      "cover": "/images/rol/complete-adventurer/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/el-aventurero-completo_978-84-96422-54-4"
+    }
+  ]
+}

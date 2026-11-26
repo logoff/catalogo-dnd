@@ -1,0 +1,16 @@
+{
+  "slug": "cursed-scroll-2-red-sands",
+  "system": "shadowdark",
+  "title": "Cursed Scroll Zine, Vol. 2: Red Sands",
+  "kind": "setting",
+  "description": "El segundo número del fanzine de Shadowdark, dedicado al desierto: asesinos hechiceros en un monasterio oculto, dunas que esconden tesoros y gladiadores, con la aventura Fortress of the Burning Brothers para niveles 4 a 6 y la región de The Djurum.\n\nAñade al mundo del juego una ambientación desértica completa con sus reglas y monstruos.",
+  "source": "https://www.thearcanelibrary.com/products/cursed-scroll-zine-vol-2-red-sands",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "The Arcane Library",
+      "format": "paperback",
+      "cover": "/images/rol/cursed-scroll-2-red-sands/english.webp"
+    }
+  ]
+}

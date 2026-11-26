@@ -1,0 +1,23 @@
+{
+  "slug": "dmgr8-sages-and-specialists",
+  "system": "dnd-add2",
+  "title": "DMGR8 Sages & Specialists",
+  "kind": "supplement",
+  "description": "Un manual del Dungeon Master con once tipos de personajes no jugadores especialistas que se encuentran en cualquier ciudad, de sabios a artesanos. Lo escribió Matt Forbeck.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmgr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/dmgr8-sages-and-specialists/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16884/dmgr8-sages-specialists-2e"
+        }
+      ]
+    }
+  ]
+}

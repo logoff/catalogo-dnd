@@ -1,0 +1,24 @@
+{
+  "slug": "dlr3-unsung-heroes",
+  "system": "dnd-add2",
+  "title": "DLR3 Unsung Heroes",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "Un suplemento de Dragonlance con personajes de Krynn. Lo editó Karen Boomgarden.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/dlr3-unsung-heroes/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17380/dlr3-unsung-heroes-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "monstrous-compendium-annual-volume-four",
+  "system": "dnd-add2",
+  "title": "Monstrous Compendium Annual Volume Four",
+  "kind": "supplement",
+  "description": "El cuarto y último anuario de monstruos de AD&D 2.ª edición.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-mcann.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/monstrous-compendium-annual-volume-four/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16935/monstrous-compendium-annual-volume-4-2e"
+        }
+      ]
+    }
+  ]
+}

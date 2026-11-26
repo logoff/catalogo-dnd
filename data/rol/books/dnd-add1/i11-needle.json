@@ -1,0 +1,23 @@
+{
+  "slug": "i11-needle",
+  "system": "dnd-add1",
+  "title": "I11 Needle",
+  "kind": "adventure",
+  "description": "Una aventura de la serie I para AD&D 1.ª edición. La escribió Frank Mentzer.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/i11-needle/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17098/i11-needle-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "the-shadowfell-gloomwrought-and-beyond",
+  "system": "dnd-4e",
+  "title": "The Shadowfell: Gloomwrought and Beyond",
+  "kind": "setting",
+  "description": "Una caja para aventuras en el Páramo Sombrío, el reflejo oscuro del mundo: la ciudad de Gloomwrought y lugares como Letherna, la morada de la Reina Cuervo, con mapas, fichas y monstruos.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/The_Shadowfell:_Gloomwrought_and_Beyond",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-05",
+      "format": "boxed_set",
+      "isbn13": 9780786958481,
+      "cover": "/images/rol/the-shadowfell-gloomwrought-and-beyond/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/148010/the-shadowfell-gloomwrought-and-beyond-4e"
+        }
+      ]
+    }
+  ]
+}

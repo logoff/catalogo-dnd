@@ -1,0 +1,33 @@
+{
+  "slug": "endless-quest-escape-the-underdark",
+  "title": "Endless Quest: Escape the Underdark",
+  "group": "books",
+  "kind": "gamebook",
+  "manufacturer": "Candlewick Press",
+  "date": "2018",
+  "description": "Librojuego de Matt Forbeck de la serie Endless Quest, recuperada por Wizards of the Coast y Candlewick en 2018: el lector elige qué hacer al final de cada capítulo en una aventura por la Infraoscuridad, donde el lector es prisionero de los drows y tiene que encontrar la salida.\n\nEstá pensado para lectores de 8 a 12 años que empiezan con D&D, con ilustraciones del arte oficial de la quinta edición. Salió en tapa dura y en rústica, y solo en inglés.",
+  "source": "https://gamebooks.org/Item/11797",
+  "editions": [
+    {
+      "language": "english",
+      "title": "Endless Quest: Escape the Underdark (tapa dura)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536202427,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1536202428/"
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "title": "Endless Quest: Escape the Underdark (rústica)",
+      "publisher": "Candlewick Press",
+      "date": "2018",
+      "isbn13": 9781536200652
+    }
+  ],
+  "images": ["/images/merchandising/endless-quest-escape-the-underdark/0.jpg"]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "expert-set-cook-marsh",
+  "system": "dnd-basic",
+  "title": "Expert Set (Cook y Marsh)",
+  "kind": "core",
+  "description": "La caja experta de 1981 editada por David «Zeb» Cook y Steve Marsh, que continuaba a la básica de Moldvay hasta el nivel 14 y presentaba el mundo que sería Mystara con la aventura X1 La isla del terror.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-box-mold.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1981",
+      "format": "boxed_set",
+      "cover": "/images/rol/expert-set-cook-marsh/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110792/d-d-expert-set-rulebook-b-x-ed-basic"
+        }
+      ]
+    }
+  ]
+}

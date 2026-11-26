@@ -1,0 +1,23 @@
+{
+  "slug": "beneath-the-silver-spire",
+  "system": "basic-fantasy",
+  "title": "Beneath the Silver Spire",
+  "kind": "adventure",
+  "description": "Han robado cuatro artefactos de valor incalculable y sus dueños prometen cualquier recompensa a quien los recupere.\n\nPublicado por Basic Fantasy Project, escrito por Todd Lyons, con 65 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/514756/beneath-the-silver-spire",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-04",
+      "format": "paperback",
+      "cover": "/images/rol/beneath-the-silver-spire/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/514756/beneath-the-silver-spire"
+        }
+      ]
+    }
+  ]
+}

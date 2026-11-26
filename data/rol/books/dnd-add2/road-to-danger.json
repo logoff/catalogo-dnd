@@ -1,0 +1,23 @@
+{
+  "slug": "road-to-danger",
+  "system": "dnd-add2",
+  "title": "Road to Danger",
+  "kind": "adventure",
+  "description": "Una colección de aventuras cortas. La editó Christopher Perkins.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/road-to-danger/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17284/road-to-danger-2e"
+        }
+      ]
+    }
+  ]
+}

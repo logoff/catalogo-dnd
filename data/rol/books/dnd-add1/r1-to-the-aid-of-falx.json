@@ -1,0 +1,17 @@
+{
+  "slug": "r1-to-the-aid-of-falx",
+  "system": "dnd-add1",
+  "title": "R1 To the Aid of Falx",
+  "kind": "adventure",
+  "description": "Una aventura de torneo de la RPGA en la que los personajes ayudan a un dragón de plata a recuperar cinco pociones de control de dragones escondidas en una guarida de ladrones. La escribió Frank Mentzer.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-r.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1982",
+      "format": "paperback",
+      "cover": "/images/rol/r1-to-the-aid-of-falx/english.webp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "ravenloft-monstrous-compendium-appendices-i-and-ii",
+  "system": "dnd-add2",
+  "title": "Ravenloft Monstrous Compendium Appendices I & II",
+  "kind": "supplement",
+  "settings": ["ravenloft"],
+  "description": "Los dos primeros apéndices de monstruos de Ravenloft revisados y reunidos en un libro. Lo escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/ravenloft-monstrous-compendium-appendices-i-and-ii/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17485/monstrous-compendium-ravenloft-appendices-i-ii-2e"
+        }
+      ]
+    }
+  ]
+}

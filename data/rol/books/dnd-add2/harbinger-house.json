@@ -1,0 +1,24 @@
+{
+  "slug": "harbinger-house",
+  "system": "dnd-add2",
+  "title": "Harbinger House",
+  "kind": "adventure",
+  "settings": ["planescape"],
+  "description": "Una aventura de Planescape en la ciudad de Sigil. La escribió Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/harbinger-house/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17277/harbinger-house-2e"
+        }
+      ]
+    }
+  ]
+}

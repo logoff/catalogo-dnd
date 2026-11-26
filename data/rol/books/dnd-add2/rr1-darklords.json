@@ -1,0 +1,24 @@
+{
+  "slug": "rr1-darklords",
+  "system": "dnd-add2",
+  "title": "RR1 Darklords",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Un suplemento con dieciséis señores oscuros de Ravenloft y sus dominios, como la momia Ankhtepot, la banshee drow Tristessa, Barbazul, el Jinete sin Cabeza o la casa viviente del Lamento. Lo escribió Andria Hayday con William W. Connors, Bruce Nesmith y James Lowder.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/rr1-darklords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17488/rr1-darklords-2e"
+        }
+      ]
+    }
+  ]
+}

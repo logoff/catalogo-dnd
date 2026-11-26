@@ -1,0 +1,31 @@
+{
+  "slug": "the-doomgrinder-the-lost-tombs-volume-3",
+  "system": "dnd-add2",
+  "title": "The Doomgrinder (The Lost Tombs, Volume 3)",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "La aventura que cierra la trilogía de las Tumbas Perdidas de Greyhawk. La escribió Steve Miller.\n\nEdición en castellano de Martínez Roca.",
+  "source": "https://www.tsrarchive.com/gh/gh-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/the-doomgrinder-the-lost-tombs-volume-3/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17438/the-doomgrinder-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Las Tumbas Perdidas III: El Molino del Destino",
+      "publisher": "Martínez Roca",
+      "format": "paperback",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "x10-red-arrow-black-shield",
+  "system": "dnd-basic",
+  "title": "X10 Red Arrow, Black Shield",
+  "kind": "adventure",
+  "description": "Una gran aventura de la serie X: tras la caída de Akesoli, los personajes defienden Darokin de los nómadas del desierto y de su señor, el Maestro, con misiones diplomáticas y batallas con las reglas de War Machine y Battlesystem. La escribió Michael S. Dobson.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "paperback",
+      "cover": "/images/rol/x10-red-arrow-black-shield/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17122/x10-red-arrow-black-shield-basic"
+        }
+      ]
+    }
+  ]
+}

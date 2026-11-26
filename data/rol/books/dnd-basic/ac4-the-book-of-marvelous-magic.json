@@ -1,0 +1,23 @@
+{
+  "slug": "ac4-the-book-of-marvelous-magic",
+  "system": "dnd-basic",
+  "title": "AC4 The Book of Marvelous Magic",
+  "kind": "supplement",
+  "description": "Un catálogo alfabético de más de quinientos objetos mágicos, con todos los de las cajas básica, experta y de compañía y muchos nuevos, cada uno con sus poderes y sus rarezas, y un apéndice para usarlos con AD&D. Lo escribieron Frank Mentzer y Gary Gygax.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-ac.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/ac4-the-book-of-marvelous-magic/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17173/ac4-the-book-of-marvelous-magic-basic-1e"
+        }
+      ]
+    }
+  ]
+}

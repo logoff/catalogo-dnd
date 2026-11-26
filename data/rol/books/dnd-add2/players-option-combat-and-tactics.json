@@ -1,0 +1,23 @@
+{
+  "slug": "players-option-combat-and-tactics",
+  "system": "dnd-add2",
+  "title": "Player's Option: Combat & Tactics",
+  "kind": "supplement",
+  "description": "El primero de los Player's Option, que rehízo el combate de AD&D 2.ª edición con reglas tácticas sobre cuadrícula, maniobras, críticos y combate con armas por estilos.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-opt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "hardcover",
+      "cover": "/images/rol/players-option-combat-and-tactics/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16862/player-s-option-combat-tactics-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "demonomicon",
+  "system": "dnd-4e",
+  "title": "Demonomicon",
+  "kind": "supplement",
+  "description": "Un libro sobre los demonios y el Abismo: su origen, sus señores, como Orcus, Demogorgon o Graz'zt, cultos y lugares, y muchos demonios nuevos para todos los niveles.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-07",
+      "format": "hardcover",
+      "isbn13": 9780786954926,
+      "cover": "/images/rol/demonomicon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/145326/demonomicon-4e"
+        }
+      ]
+    }
+  ]
+}

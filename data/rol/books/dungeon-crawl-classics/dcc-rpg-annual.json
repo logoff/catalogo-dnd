@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-rpg-annual",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG Annual",
+  "kind": "supplement",
+  "description": "Un libro de material nuevo para DCC concebido como anuario de la comunidad: reglas, clases, conjuros, objetos y herramientas para el juez.\n\nPublicado por Goodman Games, escrito por Joseph Goodman, con 212 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/268205/dcc-rpg-annual",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2019-10",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-rpg-annual/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/268205/dcc-rpg-annual"
+        }
+      ]
+    }
+  ]
+}

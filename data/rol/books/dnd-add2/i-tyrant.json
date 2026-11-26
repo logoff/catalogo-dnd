@@ -1,0 +1,23 @@
+{
+  "slug": "i-tyrant",
+  "system": "dnd-add2",
+  "title": "I, Tyrant",
+  "kind": "supplement",
+  "description": "Un suplemento sobre los contempladores: su historia como raza, su religión, su cultura, sus asentamientos, su psicología y sus variantes. Lo escribió Aaron Allston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/i-tyrant/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17444/monstrous-arcana-i-tyrant-2e"
+        }
+      ]
+    }
+  ]
+}

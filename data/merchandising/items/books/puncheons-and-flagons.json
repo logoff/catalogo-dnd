@@ -1,0 +1,25 @@
+{
+  "slug": "puncheons-and-flagons",
+  "title": "Puncheons and Flagons",
+  "group": "books",
+  "kind": "cookbook",
+  "manufacturer": "Ten Speed Press",
+  "date": "2024-08-27",
+  "description": "Libro de cócteles oficial de Dungeons & Dragons, escrito por Andrew Wheeler, con setenta y cinco bebidas y tapas de taberna inspiradas en lugares, personajes y monstruos de los Reinos Olvidados y del resto del multiverso.\n\nPensado para animar las noches de partida, con y sin alcohol. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/729802/x/9781984862525/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2024-08-27",
+      "isbn13": 9781984862525,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/1984862529/"
+        }
+      ]
+    }
+  ],
+  "images": ["/images/merchandising/puncheons-and-flagons/0.jpg"]
+}

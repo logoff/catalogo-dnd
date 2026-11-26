@@ -1,0 +1,68 @@
+{
+  "slug": "black-and-white",
+  "title": "Dungeons & Dragons: Black & White",
+  "title_es": "Blanco y negro",
+  "publisher": "Kenzer & Company",
+  "setting": "generic",
+  "kind": "limited_series",
+  "date": "2002-07",
+  "end_date": "2003-01",
+  "issue_count": 6,
+  "description": "Miniserie de seis números de Kenzer & Company publicada en blanco y negro entre 2002 y 2003, con aventuras en un mundo de D&D genérico.\n\nDevir la publicó en España en tres cuadernos en 2005 como Blanco y negro.",
+  "source": "https://www.comics.org/series/15239/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2002-07",
+      "cover": "/images/comics/black-and-white/1.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "2",
+      "date": "2002-08",
+      "cover": "/images/comics/black-and-white/2.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "3",
+      "date": "2002-09",
+      "cover": "/images/comics/black-and-white/3.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "4",
+      "date": "2002-10",
+      "cover": "/images/comics/black-and-white/4.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "5",
+      "date": "2002-11",
+      "cover": "/images/comics/black-and-white/5.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    },
+    {
+      "number": "6",
+      "date": "2003-01",
+      "cover": "/images/comics/black-and-white/6.webp",
+      "cover_source": "https://www.comics.org/series/15239/covers/"
+    }
+  ],
+  "editions": [
+    {
+      "language": "castellano",
+      "spain": true,
+      "title": "Blanco y negro",
+      "publisher": "Devir",
+      "date": "2005-01",
+      "format": "issue",
+      "isbn13": 9788496262621,
+      "issues": [
+        { "number": "1", "title": "Una vez ladrón...", "date": "2005-01" },
+        { "number": "2", "title": "Woodwych", "date": "2005-04" },
+        { "number": "3", "title": "El retorno", "date": "2005-04" }
+      ],
+      "source": "https://www.tebeosfera.com/colecciones/dungeons_and_dragons_2004_devir_-blanco_y_negro-.html"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "dungeon-masters-guide-3e",
+  "system": "dnd-3e",
+  "title": "Dungeon Master's Guide",
+  "kind": "core",
+  "core": true,
+  "description": "El libro del director de juego de la tercera edición: cómo preparar y dirigir partidas, crear aventuras y campañas, repartir experiencia y tesoro, y las reglas de clases de prestigio, personajes no jugadores y objetos mágicos.\n\nEs el segundo de los tres básicos y está pensado para quien dirige; se usa junto al Manual del Jugador y el Manual de Monstruos. En 2003 lo sustituyó la Guía del Dungeon Master v.3.5.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks#Core_rules_4",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-09",
+      "format": "hardcover",
+      "isbn13": 9780786915514,
+      "cover": "/images/rol/dungeon-masters-guide-3e/english.webp"
+    },
+    {
+      "language": "castellano",
+      "title": "Guía del Dungeon Master",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "isbn13": 9788495712004,
+      "cover": "/images/rol/dungeon-masters-guide-3e/castellano.webp",
+      "source": "https://web.archive.org/web/20040630010035/http://www.devir.es:80/catalogo/cat.pl?o=1&c=JRDDBAS&b=logos/dungeons.jpg%27target=%27text"
+    }
+  ]
+}

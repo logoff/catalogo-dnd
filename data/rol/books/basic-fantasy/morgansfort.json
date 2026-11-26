@@ -1,0 +1,23 @@
+{
+  "slug": "morgansfort",
+  "system": "basic-fantasy",
+  "title": "Morgansfort: The Western Lands Campaign",
+  "kind": "adventure",
+  "description": "Un módulo de campaña con aventuras enlazadas para dos a ocho personajes de nivel 1, pensado también para jugadores principiantes.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, con 82 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/480027/morgansfort-the-western-lands-campaign",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-06",
+      "format": "paperback",
+      "cover": "/images/rol/morgansfort/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/480027/morgansfort-the-western-lands-campaign"
+        }
+      ]
+    }
+  ]
+}

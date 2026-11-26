@@ -1,0 +1,24 @@
+{
+  "slug": "requiem-the-grim-harvest",
+  "system": "dnd-add2",
+  "title": "Requiem: The Grim Harvest",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Una caja de Ravenloft con el final de la campaña de la Cosecha Sombría, en la que los personajes se enfrentan al liche Azalin, señor de Darkon, una guía de la necrópolis donde transcurre y reglas para jugar con muertos vivientes. La escribieron William W. Connors y Lisa Smedman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "boxed_set",
+      "cover": "/images/rol/requiem-the-grim-harvest/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17480/requiem-the-grim-harvest-2e"
+        }
+      ]
+    }
+  ]
+}

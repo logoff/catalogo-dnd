@@ -1,0 +1,33 @@
+{
+  "slug": "dlr2-taladas-the-minotaurs",
+  "system": "dnd-add2",
+  "title": "DLR2 Taladas: The Minotaurs",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "Un suplemento de Dragonlance sobre los minotauros de Taladas. Lo escribió Colin McComb.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dlr2-taladas-the-minotaurs/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17376/dlr2-taladas-the-minotaurs-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Taladas: Los Minotauros",
+      "publisher": "Zinco",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/dlr2-taladas-the-minotaurs/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-acc.html"
+    }
+  ]
+}

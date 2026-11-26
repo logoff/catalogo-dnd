@@ -1,0 +1,23 @@
+{
+  "slug": "age-of-heroes-campaign-sourcebook",
+  "system": "dnd-add2",
+  "title": "Age of Heroes Campaign Sourcebook",
+  "kind": "supplement",
+  "description": "Un libro de la serie histórica de AD&D sobre la Grecia de los héroes y los mitos. Lo escribió Nicky Rea.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/age-of-heroes-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16920/hr6-age-of-heroes-campaign-sourcebook-2e"
+        }
+      ]
+    }
+  ]
+}

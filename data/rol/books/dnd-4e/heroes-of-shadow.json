@@ -1,0 +1,24 @@
+{
+  "slug": "heroes-of-shadow",
+  "system": "dnd-4e",
+  "title": "Heroes of Shadow",
+  "kind": "supplement",
+  "description": "Opciones con la sombra como fuente de poder: el asesino, que no aparecía como clase desde AD&D, y el vampiro, variantes oscuras de mago, paladín y brujo, razas como las sombras y los vryloka, y temas, dotes y poderes para personajes ligados a la oscuridad.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Heroes_of_Shadow",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2011-04",
+      "format": "hardcover",
+      "isbn13": 9780786957453,
+      "cover": "/images/rol/heroes-of-shadow/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/148009/player-s-option-heroes-of-shadow-4e"
+        }
+      ]
+    }
+  ]
+}

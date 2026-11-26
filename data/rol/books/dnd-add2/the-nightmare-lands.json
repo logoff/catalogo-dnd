@@ -1,0 +1,24 @@
+{
+  "slug": "the-nightmare-lands",
+  "system": "dnd-add2",
+  "title": "The Nightmare Lands",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Una caja de Ravenloft sobre las Tierras de la Pesadilla, en los límites del semiplano del Pavor, donde la Corte de la Pesadilla atrapa a los soñadores para alimentarse de sus miedos. La escribieron Shane Lacy Hensley y Bill Slavicsek.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-box.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "boxed_set",
+      "cover": "/images/rol/the-nightmare-lands/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17526/the-nightmare-lands-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "forgotten-realms-campaign-setting",
+  "system": "dnd-add2",
+  "title": "Forgotten Realms Campaign Setting",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "La caja básica de Reinos Olvidados para AD&D 2.ª edición: un gran recorrido por Faerûn, reglas para jugar en los Reinos, la región del Valle de la Sombra, mapas y hojas de monstruos.\n\nEdición en castellano de Zinco y Martínez Roca.",
+  "source": "https://www.tsrarchive.com/fr/fr-camp.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/forgotten-realms-campaign-setting/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/283992/forgotten-realms-campaign-setting-revised-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Forgotten Realms Vandemécum de Campaña",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "boxed_set",
+      "cover": "/images/rol/forgotten-realms-campaign-setting/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-box.html"
+    },
+    {
+      "language": "castellano",
+      "title": "Reinos Olvidados Escenario de Campaña",
+      "publisher": "Martínez Roca",
+      "date": "1999",
+      "format": "boxed_set",
+      "cover": "/images/rol/forgotten-realms-campaign-setting/castellano-2.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-fr-box.html"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "c6-the-official-rpga-tournament-handbook",
+  "system": "dnd-add1",
+  "title": "C6 The Official RPGA Tournament Handbook",
+  "kind": "adventure",
+  "description": "Las reglas oficiales para dirigir torneos de AD&D de la RPGA, con artículos sobre cómo diseñarlos, dirigirlos y puntuarlos, y dos aventuras de torneo. La escribieron Daniel Kramarsky y Jean y Bruce Rabe.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1979",
+      "format": "paperback",
+      "cover": "/images/rol/c6-the-official-rpga-tournament-handbook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17022/1e-c6-the-official-rpga-tournament-handbook"
+        }
+      ]
+    }
+  ]
+}

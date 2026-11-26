@@ -1,0 +1,24 @@
+{
+  "slug": "dark-sun-monstrous-compendium-appendix-ii-terrors-beyond-tyr",
+  "system": "dnd-add2",
+  "title": "Dark Sun Monstrous Compendium Appendix II: Terrors Beyond Tyr",
+  "kind": "supplement",
+  "settings": ["dark_sun"],
+  "description": "El segundo apéndice de monstruos de Dark Sun, con criaturas de más allá de Tyr. Lo escribieron varios autores, entre ellos Timothy B. Brown.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-mc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/dark-sun-monstrous-compendium-appendix-ii-terrors-beyond-tyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17201/dark-sun-monstrous-compendium-appendix-ii-terrors-beyond-tyr-2e"
+        }
+      ]
+    }
+  ]
+}

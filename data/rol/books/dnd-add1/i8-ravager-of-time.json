@@ -1,0 +1,23 @@
+{
+  "slug": "i8-ravager-of-time",
+  "system": "dnd-add1",
+  "title": "I8 Ravager of Time",
+  "kind": "adventure",
+  "description": "Una aventura en los pantanos de Ffenarch: buscando al hijo de un señor que mató a su padre, los personajes descubren un complot que corrompe la teocracia del lugar. La escribieron Graeme Morris y Jim Bambra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-i.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/i8-ravager-of-time/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17052/i8-ravager-of-time-1e"
+        }
+      ]
+    }
+  ]
+}

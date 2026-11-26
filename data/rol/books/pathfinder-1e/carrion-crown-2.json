@@ -19,7 +19,13 @@
     {
       "language": "castellano",
       "title": "La corona de carroña 2: El juicio de la Bestia",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4685-pathfinder-la-corona-de-carro%C3%B1a-2-el-juicio-de-la-bestia-8436017225846.html"
+        }
+      ]
     }
   ]
 }

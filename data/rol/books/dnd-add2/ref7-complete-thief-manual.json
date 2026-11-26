@@ -1,0 +1,17 @@
+{
+  "slug": "ref7-complete-thief-manual",
+  "system": "dnd-add2",
+  "title": "REF7 Complete Thief Manual",
+  "kind": "supplement",
+  "description": "Un libro de referencia de AD&D 2.ª edición. Lo escribió Douglas Niles.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ref-2e.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/ref7-complete-thief-manual/english.webp"
+    }
+  ]
+}

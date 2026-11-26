@@ -1,0 +1,25 @@
+{
+  "slug": "living-greyhawk-gazetteer",
+  "system": "dnd-3e",
+  "title": "Living Greyhawk Gazetteer",
+  "kind": "setting",
+  "settings": ["greyhawk"],
+  "description": "La guía del mundo de Greyhawk para la 3.ª edición: la Flanaess región a región, su historia, sus dioses y sus personajes, en el estado en que la dejaron las guerras del final de AD&D.\n\nFue la base de la campaña organizada Living Greyhawk de la RPGA. Solo salió en inglés.",
+  "source": "https://web.archive.org/web/20031211021346/http://www.wizards.com:80/default.asp?x=products/dndacc/867270000",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2000-11",
+      "format": "paperback",
+      "isbn13": 9780786917433,
+      "cover": "/images/rol/living-greyhawk-gazetteer/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28492/living-greyhawk-gazetteer-3-0"
+        }
+      ]
+    }
+  ]
+}

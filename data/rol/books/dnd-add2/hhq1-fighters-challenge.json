@@ -1,0 +1,32 @@
+{
+  "slug": "hhq1-fighters-challenge",
+  "system": "dnd-add2",
+  "title": "HHQ1 Fighter's Challenge",
+  "kind": "adventure",
+  "description": "La primera de las aventuras de desafío para una sola clase: para uno a tres guerreros de nivel 2 a 4. La escribió John Terra.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/add/add-hhq.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hhq1-fighters-challenge/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17306/hhq1-fighter-s-challenge-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Desafio del Guerrero",
+      "publisher": "Zinco",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/hhq1-fighters-challenge/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-2e-adv.html"
+    }
+  ]
+}

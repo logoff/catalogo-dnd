@@ -1,0 +1,24 @@
+{
+  "slug": "pc3-the-sea-people",
+  "system": "dnd-basic",
+  "title": "PC3 The Sea People",
+  "kind": "setting",
+  "settings": ["mystara"],
+  "description": "Un Creature Crucible sobre el reino submarino del fondo del Mar del Terror y sus habitantes, con reglas para jugar con ellos. Lo escribió Jim Bambra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/cc/cc-pc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/pc3-the-sea-people/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17144/pc3-creature-crucible-the-sea-people-basic"
+        }
+      ]
+    }
+  ]
+}

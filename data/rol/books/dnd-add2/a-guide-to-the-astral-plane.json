@@ -1,0 +1,24 @@
+{
+  "slug": "a-guide-to-the-astral-plane",
+  "system": "dnd-add2",
+  "title": "A Guide to the Astral Plane",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "Un suplemento de Planescape sobre el Plano Astral: reglas para viajar por él, combatir sin gravedad y lanzar conjuros, los githyanki como raza opcional para los jugadores y las demás criaturas que lo habitan. Lo escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/a-guide-to-the-astral-plane/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17287/a-guide-to-the-astral-plane-2e"
+        }
+      ]
+    }
+  ]
+}

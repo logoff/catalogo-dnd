@@ -1,0 +1,33 @@
+{
+  "slug": "dls1-new-beginnings",
+  "system": "dnd-add2",
+  "title": "DLS1 New Beginnings",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "La primera aventura de la serie DLS de Dragonlance. La escribió Mark Acres.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dls.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/dls1-new-beginnings/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17372/dls1-new-beginnings-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Nuevos Comienzos",
+      "publisher": "Zinco",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dls1-new-beginnings/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

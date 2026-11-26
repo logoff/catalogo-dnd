@@ -1,0 +1,23 @@
+{
+  "slug": "eye-of-pain",
+  "system": "dnd-add2",
+  "title": "Eye of Pain",
+  "kind": "adventure",
+  "description": "La primera aventura de la trilogía de los contempladores: un orbe anciano disfrazado contrata a los personajes para ponerlos a prueba en su plan de derrocar a una madre de la colmena y quedarse con su ciudad. La escribió Thomas M. Reid.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1996",
+      "format": "paperback",
+      "cover": "/images/rol/eye-of-pain/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17329/eye-of-pain-2e"
+        }
+      ]
+    }
+  ]
+}

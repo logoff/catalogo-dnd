@@ -1,0 +1,21 @@
+{
+  "slug": "estrellas-errantes",
+  "system": "estrellas-errantes",
+  "title": "Estrellas Errantes",
+  "kind": "core",
+  "core": true,
+  "description": "El manual de Estrellas Errantes: creación de la tripulación, reglas de exploración espacial, combate y naves, todo con las reglas ligeras de The Black Hack, en 56 páginas con solapas.\n\nEs el único libro que hace falta para jugar, y se completa con las aventuras de la línea Malas Compañías. Salió en una tirada limitada, hoy agotada, y Yipikayei liberó después el PDF gratis.",
+  "source": "https://juegosdelamesaredonda.com/5666-estrellas-errantes-9788494792328.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "date": "2017",
+      "format": "paperback",
+      "isbn13": 9788494792328,
+      "cover": "/images/rol/estrellas-errantes/castellano.webp",
+      "source": "http://www.sinergiaderol.com/juegosgratuitos/j-estrellaserrantes.html",
+      "free_download": "https://www.sinergiaderol.com/RolGratuito/EstrellasErrantes/EstrellasErrantes.rar"
+    }
+  ]
+}

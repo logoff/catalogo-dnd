@@ -1,0 +1,24 @@
+{
+  "slug": "wgs1-five-shall-be-one",
+  "system": "dnd-add2",
+  "title": "WGS1 Five Shall Be One",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Una aventura de Greyhawk sobre las cinco Espadas de Corusk, armas legendarias de los bárbaros suloise que se vuelven más poderosas al reunirse. La escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/gh/gh-wgs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/wgs1-five-shall-be-one/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17425/wgs1-five-shall-be-one-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -12,13 +12,20 @@ import rpgStats from 'virtual:rpg-stats'
 import {
   FEATURED_PUBLISHERS,
   bookLicenses,
+  bookPath,
   buildRpgIndex,
   derivationCycle,
   derivedSystems,
   enrichBook,
   familyOf,
+  isDndEdition,
   mainCover,
+  movementBookProblem,
+  MARCA_DEL_ESTE_SYSTEMS,
+  movementProblem,
   relatedLicenses,
+  rolSection,
+  systemPath,
   systemsUsing,
 } from '@/utils/rpg'
 import { getCachedBook, getRpgIndex, loadBook, preloadRpgRoute } from './rpgLoader'
@@ -171,10 +178,23 @@ describe('esquema de libros', () => {
     ).toBe(false)
     expect(validateBook({ ...book, extra: true })).toBe(false)
   })
+
+  it('acepta la campaña de micromecenazgo solo con una plataforma conocida', () => {
+    const campaign = (crowdfunding: object) => ({
+      ...book,
+      editions: [{ ...book.editions[0], crowdfunding }],
+    })
+    const url = 'https://www.verkami.com/projects/1-x'
+    expect(validateBook(campaign({ platform: 'verkami', url, end: '2026-12-27' }))).toBe(true)
+    expect(validateBook(campaign({ platform: 'editorial', url, end: '2025-05-05' }))).toBe(true)
+    expect(validateBook(campaign({ platform: 'patreon', url, end: '2026-12-27' }))).toBe(false)
+    expect(validateBook(campaign({ platform: 'verkami', url, end: '2026-12' }))).toBe(false)
+    expect(validateBook(campaign({ platform: 'verkami', url }))).toBe(false)
+  })
 })
 
 describe('enrichBook', () => {
-  it('toma el año y el título en castellano de la edición más reciente', () => {
+  it('separa la fecha del original de la de castellano y toma el título en castellano más reciente', () => {
     const enriched = enrichBook(
       {
         ...book,
@@ -185,7 +205,9 @@ describe('enrichBook', () => {
       },
       [system]
     )
-    expect(enriched.year).toBe(2022)
+    expect(enriched.originalDate).toBe(book.editions[0].date)
+    expect(enriched.spanishDate).toBe('2022')
+    expect(enriched.latestDate).toBe('2022')
     expect(enriched.titleEs).toBe('Libro')
     expect(enriched.spanish).toBe(true)
     expect(enriched.publishers).toEqual(['Editorial', 'Otra'])
@@ -258,6 +280,23 @@ describe('relaciones entre sistemas y licencias', () => {
     expect(derivationCycle([loop, child])).not.toBeNull()
   })
 
+  it('las ediciones anteriores de D&D van en /ediciones y el resto en /rol', () => {
+    const edition: RpgSystem = { ...system, slug: 'edicion', official: true }
+    const fifth: RpgSystem = {
+      ...system,
+      slug: 'quinta',
+      official: true,
+      official_catalog: '/2014',
+    }
+    expect([edition, fifth, system].map(isDndEdition)).toEqual([true, false, false])
+    expect(systemPath(edition)).toBe('/ediciones/edicion')
+    expect(systemPath(fifth)).toBe('/rol/quinta')
+    expect(bookPath({ slug: 'libro', system: 'edicion' }, [edition, system])).toBe(
+      '/ediciones/edicion/libro'
+    )
+    expect(bookPath(book, [edition, system])).toBe('/rol/sistema/libro')
+  })
+
   it('buildRpgIndex ordena los libros del más reciente al más antiguo', () => {
     const newer = { ...book, slug: 'nuevo', editions: [{ ...book.editions[0], date: '2024' }] }
     const index = buildRpgIndex([license], [system], [book, newer])
@@ -324,14 +363,91 @@ describe('datos de otros juegos de rol', () => {
     expect(wrong.map((s) => s.slug)).toEqual([])
   })
 
+  it('solo los sistemas de D&D son oficiales y los que enlazan al catálogo lo son', () => {
+    const wrong = systems.filter(
+      (s) =>
+        (s.official && s.family !== 'dungeons-and-dragons') || (s.official_catalog && !s.official)
+    )
+    expect(wrong.map((s) => s.slug)).toEqual([])
+  })
+
+  it('ningún libro de Wizards cuelga de un sistema con catálogo oficial', () => {
+    const withCatalog = systems.filter((s) => s.official_catalog).map((s) => s.slug)
+    const duplicated = books.filter(
+      (b) =>
+        withCatalog.includes(b.system) &&
+        b.editions.some((e) => e.publisher === 'Wizards of the Coast')
+    )
+    expect(duplicated.map((b) => b.slug)).toEqual([])
+  })
+
+  // Están descatalogados: solo se venden en PDF o impresión bajo demanda en DMsGuild
+  it('los libros de las ediciones anteriores de D&D solo enlazan a DMsGuild', () => {
+    const editions = systems.filter(isDndEdition).map((s) => s.slug)
+    const wrong = books.filter(
+      (b) =>
+        editions.includes(b.system) &&
+        b.editions.some((e) => (e.purchase_links ?? []).some((l) => l.store !== 'dmsguild'))
+    )
+    expect(wrong.map((b) => b.slug)).toEqual([])
+  })
+
+  it('DMsGuild solo en las ediciones anteriores de D&D y DriveThruRPG solo fuera de ellas', () => {
+    const editions = systems.filter(isDndEdition).map((s) => s.slug)
+    const wrong = books.filter((b) =>
+      b.editions.some((e) =>
+        (e.purchase_links ?? []).some(
+          (l) =>
+            (l.store === 'drivethrurpg' && editions.includes(b.system)) ||
+            (l.store === 'dmsguild' && !editions.includes(b.system))
+        )
+      )
+    )
+    expect(wrong.map((b) => b.slug)).toEqual([])
+  })
+
+  it('Tesoros de la Marca solo en los libros de los juegos de La Marca del Este', () => {
+    const wrong = books.filter((b) =>
+      b.editions.some((e) =>
+        (e.purchase_links ?? []).some(
+          (l) =>
+            l.store === 'tesoros_de_la_marca' &&
+            (!MARCA_DEL_ESTE_SYSTEMS.includes(b.system) ||
+              !l.url.startsWith('https://tesorosdelamarca.com/producto/'))
+        )
+      )
+    )
+    expect(wrong.map((b) => b.slug)).toEqual([])
+  })
+
+  // Las ediciones anteriores de D&D llevan todo su catálogo, aunque solo esté en inglés; los OSR y
+  // NSR siguen su propia regla
   it('un libro solo en inglés es principal o de una editorial destacada', () => {
+    const exempt = systems.filter((s) => isDndEdition(s) || s.movement).map((s) => s.slug)
     const outOfScope = books.filter(
       (b) =>
+        !exempt.includes(b.system) &&
         !b.editions.some((e) => e.language === 'castellano') &&
         !b.core &&
         !b.editions.some((e) => FEATURED_PUBLISHERS.includes(e.publisher))
     )
     expect(outOfScope.map((b) => b.slug)).toEqual([])
+  })
+
+  it('los sistemas OSR y NSR cumplen las reglas de su movimiento', () => {
+    const wrong = systems
+      .map((s) => [s.slug, movementProblem(systems, s)])
+      .filter(([, problem]) => problem)
+    expect(wrong).toEqual([])
+  })
+
+  it('los libros OSR y NSR son impresos y están en castellano o son de la línea propia', () => {
+    const wrong = books.flatMap((b) => {
+      const system = systems.find((s) => s.slug === b.system)
+      const problem = system?.movement ? movementBookProblem(b, system) : null
+      return problem ? [[b.slug, problem]] : []
+    })
+    expect(wrong).toEqual([])
   })
 
   it('todos tienen una descripción de dos párrafos', () => {
@@ -359,7 +475,7 @@ describe('datos de otros juegos de rol', () => {
   it('los enlaces de compra no llevan parámetros de afiliado', () => {
     const tagged = books
       .flatMap((b) => b.editions.flatMap((e) => e.purchase_links ?? []))
-      .filter((link) => /[?&](tag|a|awinaffid|igr)=/.test(link.url))
+      .filter((link) => /[?&](tag|a|awinaffid|igr|affiliate_id)=/.test(link.url))
     expect(tagged).toEqual([])
   })
 
@@ -369,7 +485,10 @@ describe('datos de otros juegos de rol', () => {
       expect(rpgIndex.systems).toHaveLength(systems.length)
       expect(rpgIndex.books).toHaveLength(books.length)
       expect(rpgIndex.books.every((b) => !('description' in b) && !('editions' in b))).toBe(true)
-      expect(rpgStats).toEqual({ systems: systems.length, books: books.length })
+      const movementOf = (slug: string) => systems.find((s) => s.slug === slug)?.movement ?? null
+      expect(rpgIndex.books.every((b) => b.movement === movementOf(b.system))).toBe(true)
+      const rol = rolSection(systems, books)
+      expect(rpgStats).toEqual({ systems: rol.systems.length, books: rol.books.length })
     })
   })
 

@@ -1,0 +1,21 @@
+{
+  "slug": "dungeons-and-dragons-annual-2012-eberron",
+  "title": "Dungeons & Dragons Annual 2012: Eberron",
+  "publisher": "IDW Publishing",
+  "setting": "eberron",
+  "kind": "one_shot",
+  "date": "2012-03",
+  "issue_count": 1,
+  "writers": ["Paul Crilley"],
+  "artists": ["Paco Diaz Luque", "Atilio Rojo"],
+  "description": "Número anual de IDW de 2012 ambientado en Eberron, con guion de Paul Crilley, el mismo guionista de Infestation 2: Dungeons & Dragons.\n\nNo se publicó en castellano.",
+  "source": "https://www.comics.org/series/153655/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2012-03",
+      "cover": "/images/comics/dungeons-and-dragons-annual-2012-eberron/1.webp",
+      "cover_source": "https://www.comics.org/series/153655/covers/"
+    }
+  ]
+}

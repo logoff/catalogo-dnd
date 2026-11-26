@@ -1,0 +1,24 @@
+{
+  "slug": "the-shattered-gates-of-slaughtergarde",
+  "system": "dnd-3-5",
+  "title": "The Shattered Gates of Slaughtergarde",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de nivel 1 a 6: hace ochocientos años el Abismo intentó invadir el mundo a través de unos portales, y ahora alguien quiere volver a abrirlos. Los personajes pueden cerrarlos, entregarlos a una sociedad secreta o abrirlos ellos mismos, según su alineamiento.\n\nSolo salió en inglés.",
+  "source": "https://web.archive.org/web/20061116030851/http://www.wizards.com:80/default.asp?x=products/dndacc/0786941960",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006",
+      "format": "paperback",
+      "isbn13": 9780786941964,
+      "cover": "/images/rol/the-shattered-gates-of-slaughtergarde/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54405/the-shattered-gates-of-slaughtergarde-3-5"
+        }
+      ]
+    }
+  ]
+}

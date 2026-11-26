@@ -1,0 +1,23 @@
+{
+  "slug": "uk6-all-that-glitters",
+  "system": "dnd-add1",
+  "title": "UK6 All That Glitters...",
+  "kind": "adventure",
+  "description": "Una aventura de la filial británica de TSR. La escribió Jim Bambra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-uk.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/uk6-all-that-glitters/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17077/uk6-all-that-glitters-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "complete-champion",
+  "system": "dnd-3-5",
+  "title": "Complete Champion",
+  "kind": "supplement",
+  "description": "Una especie de segunda parte de Complete Divine para personajes que luchan por una causa o una fe: dotes de dominio y de devoción, rasgos alternativos de clase, clases de prestigio, conjuros y objetos, y el papel de las religiones en una campaña.\n\nForma parte de la serie Complete. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Complete_Champion",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007",
+      "format": "hardcover",
+      "isbn13": 9780786940349,
+      "cover": "/images/rol/complete-champion/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54289/complete-champion-3-5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "marca-alameda",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Alameda",
+  "kind": "setting",
+  "description": "Más un suplemento de campaña que una aventura: material para una o varias aventuras, o una campaña, protagonizada por aventureros novatos en sus primeras andanzas.\n\nUno de los suplementos del mecenazgo de Clásicos de la Marca de 2019.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23806-aventuras-en-la-marca-del-este-alameda.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2019-10",
+      "format": "paperback",
+      "cover": "/images/rol/marca-alameda/castellano.webp",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/23806-aventuras-en-la-marca-del-este-alameda.html",
+      "free_download": "https://codexdelamarca.com/posts/g2-alameda/",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/23656-cuatro-modulos-de-aventuras-para-clasicos-de-la-marca",
+        "end": "2019-06-22"
+      },
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/alameda/"
+        }
+      ]
+    }
+  ]
+}

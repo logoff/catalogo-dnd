@@ -1,0 +1,25 @@
+{
+  "slug": "marca-el-foso-de-la-blasfemia",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "The Pit of Blasphemy",
+  "kind": "adventure",
+  "description": "La aventura de Tania Herrero publicada originalmente para Mörk Borg, traducida y adaptada a las reglas y al mundo de la Marca del Este: la villa de Valaz, famosa por sus vinos y hundida en la miseria, hasta que los viñedos vuelven a dar fruto.\n\nPara personajes de nivel 1 a 3; libro a color de sesenta y cuatro páginas, de noviembre de 2024.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/37902-the-pit-of-blasphemy-castellano.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "title": "El foso de la blasfemia",
+      "publisher": "La Marca del Este",
+      "date": "2024-11",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/37902-the-pit-of-blasphemy-castellano.html",
+      "cover": "/images/rol/marca-el-foso-de-la-blasfemia/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/el-foso-de-la-blasfemia/"
+        }
+      ]
+    }
+  ]
+}

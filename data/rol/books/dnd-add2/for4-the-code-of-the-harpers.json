@@ -1,0 +1,24 @@
+{
+  "slug": "for4-the-code-of-the-harpers",
+  "system": "dnd-add2",
+  "title": "FOR4 The Code of the Harpers",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre los Arpistas, la fuerza secreta del bien en los Reinos Olvidados, con mucha historia de los Reinos y de sus personajes y organizaciones poderosas. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-for.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/for4-the-code-of-the-harpers/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16839/for4-the-code-of-the-harpers-2e"
+        }
+      ]
+    }
+  ]
+}

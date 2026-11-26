@@ -1,0 +1,24 @@
+{
+  "slug": "magic-of-incarnum",
+  "system": "dnd-3-5",
+  "title": "Magic of Incarnum",
+  "kind": "supplement",
+  "description": "Un sistema de magia nuevo basado en el incarnum, la energía de las almas de los vivos, los muertos y los que aún no han nacido. Los personajes dan forma a moldes de alma que se atan a los chakras del cuerpo y les dan capacidades permanentes, que pueden reforzar invirtiendo esencia. Trae tres clases (encarnado, nacido del alma y totemista), razas, dotes, clases de prestigio y monstruos.\n\nEs el primero de los tres libros con los que Wizards probó sistemas distintos de los conjuros, seguido de Tome of Magic y Tome of Battle. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Magic_of_Incarnum",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2005-09",
+      "format": "hardcover",
+      "isbn13": 9780786937011,
+      "cover": "/images/rol/magic-of-incarnum/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28407/magic-of-incarnum-3-5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "m2-vengeance-of-alphaks",
+  "system": "dnd-basic",
+  "title": "M2 Vengeance of Alphaks",
+  "kind": "adventure",
+  "description": "Una aventura para la caja maestra: el inmortal Alphaks vuelve del plano de la entropía para vengarse de la humanidad sembrando guerras, y los personajes siguen su rastro entre batallas contra dragones y gigantes y acertijos de lógica. La escribió Skip Williams.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-m.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/m2-vengeance-of-alphaks/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17118/m2-vengeance-of-alphaks-basic"
+        }
+      ]
+    }
+  ]
+}

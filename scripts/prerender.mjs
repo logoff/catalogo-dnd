@@ -24,9 +24,16 @@ const template = readFileSync(join(DIST_DIR, 'index.html'), 'utf-8')
   .replace(/\s*<meta\s+data-static-meta[\s\S]*?\/>/g, '')
   .replace(/\s*<!-- Vista previa genérica[\s\S]*?-->/, '')
 
+// Páginas que se generan pero no se anuncian en el sitemap porque no deben indexarse. Sin su
+// HTML, Cloudflare serviría la portada en esa ruta y la hidratación no coincidiría.
+const UNLISTED_PATHS = ['/buscar']
+
 const paths = [
-  ...readFileSync(join(DIST_DIR, 'sitemap.xml'), 'utf-8').matchAll(/<loc>(.*?)<\/loc>/g),
-].map(([, loc]) => loc.replace(SITE_URL, '') || '/')
+  ...[...readFileSync(join(DIST_DIR, 'sitemap.xml'), 'utf-8').matchAll(/<loc>(.*?)<\/loc>/g)].map(
+    ([, loc]) => loc.replace(SITE_URL, '') || '/'
+  ),
+  ...UNLISTED_PATHS,
+]
 
 // Convierte una portada en una imagen de vista previa ligera, centrada sobre el fondo de la web
 async function previewImage(imageUrl) {
@@ -36,6 +43,7 @@ async function previewImage(imageUrl) {
     .replace(`${SITE_URL}/images/videogames/`, '/images/previews/videogames/')
     .replace(`${SITE_URL}/images/merchandising/`, '/images/previews/merchandising/')
     .replace(`${SITE_URL}/images/novels/`, '/images/previews/novels/')
+    .replace(`${SITE_URL}/images/comics/`, '/images/previews/comics/')
     .replace(`${SITE_URL}/images/rol/`, '/images/previews/rol/')
     .replace(`${SITE_URL}/images/screen/`, '/images/previews/screen/')
     .replace(/\.\w+$/, '.jpg')
@@ -67,6 +75,7 @@ for (const path of paths) {
     image?.startsWith(`${SITE_URL}/images/videogames/`) ||
     image?.startsWith(`${SITE_URL}/images/merchandising/`) ||
     image?.startsWith(`${SITE_URL}/images/novels/`) ||
+    image?.startsWith(`${SITE_URL}/images/comics/`) ||
     image?.startsWith(`${SITE_URL}/images/rol/`) ||
     image?.startsWith(`${SITE_URL}/images/screen/`)
   ) {

@@ -1,0 +1,24 @@
+{
+  "slug": "races-of-the-dragon",
+  "system": "dnd-3-5",
+  "title": "Races of the Dragon",
+  "kind": "supplement",
+  "description": "Las razas con sangre de dragón: los kobolds como raza jugable y dos razas nuevas, los dracónidos, humanoides que renacen consagrados a Bahamut, y las escamas de conjuro, ligadas a los hechiceros. Trae clases de prestigio, dotes y conjuros dracónicos.\n\nLos dracónidos de este libro son distintos de los de la 4.ª edición, aunque compartan el nombre. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Races_of_the_Dragon",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-01",
+      "format": "hardcover",
+      "isbn13": 9780786939138,
+      "cover": "/images/rol/races-of-the-dragon/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/28750/races-of-the-dragon-3-5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "faces-of-evil-the-fiends",
+  "system": "dnd-add2",
+  "title": "Faces of Evil: The Fiends",
+  "kind": "setting",
+  "settings": ["planescape"],
+  "description": "Un suplemento de Planescape sobre los infernales: los baatezu, los tanar'ri y los yugoloths, sus jerarquías y cómo usarlos en la campaña. Lo escribió Colin McComb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/ps/ps-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/faces-of-evil-the-fiends/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/121100/faces-of-evil-the-fiends-2e"
+        }
+      ]
+    }
+  ]
+}

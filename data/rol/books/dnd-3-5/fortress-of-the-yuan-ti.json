@@ -1,0 +1,23 @@
+{
+  "slug": "fortress-of-the-yuan-ti",
+  "system": "dnd-3-5",
+  "title": "Fortress of the Yuan-Ti",
+  "kind": "adventure",
+  "description": "Una aventura para personajes de 7.º nivel: los yuan-ti quieren destruir un reino con rituales oscuros y los huesos de un rey muerto hace siglos, y los personajes deben asaltar su fortaleza antes de que terminen.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Fortress_of_the_Yuan-Ti",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2007-09",
+      "isbn13": 9780786943609,
+      "cover": "/images/rol/fortress-of-the-yuan-ti/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/54388/dd3-fortress-of-the-yuan-ti-3-5"
+        }
+      ]
+    }
+  ]
+}

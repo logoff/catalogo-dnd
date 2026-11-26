@@ -1,0 +1,24 @@
+{
+  "slug": "oa1-swords-of-the-daimyo",
+  "system": "dnd-add1",
+  "title": "OA1 Swords of the Daimyo",
+  "kind": "adventure",
+  "settings": ["kara_tur"],
+  "description": "Tres aventuras para Oriental Adventures: un viaje por mar que lleva a personajes occidentales a Kozakura, la versión de Japón de Kara-Tur, con reglas para los motines de la tripulación. La escribió David «Zeb» Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/oa1-swords-of-the-daimyo/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17324/oa1-swords-of-the-daimyo-1e"
+        }
+      ]
+    }
+  ]
+}

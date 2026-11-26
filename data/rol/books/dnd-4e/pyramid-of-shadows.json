@@ -1,0 +1,33 @@
+{
+  "slug": "pyramid-of-shadows",
+  "system": "dnd-4e",
+  "title": "H3 Pyramid of Shadows",
+  "kind": "adventure",
+  "settings": ["nerath"],
+  "description": "Una aventura para personajes de nivel 7 a 10 atrapados en una pirámide que sirve de prisión mágica y de la que tienen que encontrar la salida.\n\nCierra la serie H. Devir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Pyramid_of_Shadows",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-08",
+      "isbn13": 9780786949359,
+      "cover": "/images/rol/pyramid-of-shadows/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/57375/h3-pyramid-of-shadows-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Pirámide de la Sombra",
+      "publisher": "Devir",
+      "date": "2010-01",
+      "isbn13": 9788496934795,
+      "cover": "/images/rol/pyramid-of-shadows/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/d-d-rol-4a-ed-la-piramide-de-la-sombra_978-84-96934-79-5"
+    }
+  ]
+}

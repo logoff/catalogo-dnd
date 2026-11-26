@@ -1,0 +1,26 @@
+{
+  "slug": "baldurs-gate-3-necromancy-of-thay",
+  "title": "Baldur's Gate 3: The Necromancy of Thay",
+  "group": "stationery",
+  "kind": "journal",
+  "manufacturer": "Ten Speed Press",
+  "date": "2026-07-21",
+  "description": "Cuaderno cuadriculado oficial con el aspecto del Necromancy of Thay, el tomo de nigromancia que aparece en el videojuego Baldur's Gate 3, con páginas para escribir y dibujar.\n\nEs un objeto para seguidores del juego más que un libro para leer. Solo está en inglés.",
+  "source": "https://www.penguinrandomhouse.com/books/805354/x/9798217035076/",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Ten Speed Press",
+      "date": "2026-07-21",
+      "isbn13": 9798217035076,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0FLCVLZ66/"
+        }
+      ]
+    }
+  ],
+  "related_videogames": ["baldurs-gate-3"],
+  "images": ["/images/merchandising/baldurs-gate-3-necromancy-of-thay/0.jpg"]
+}

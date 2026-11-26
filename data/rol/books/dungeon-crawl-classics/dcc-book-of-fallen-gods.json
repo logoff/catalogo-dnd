@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-book-of-fallen-gods",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC Book of Fallen Gods",
+  "kind": "supplement",
+  "description": "Los Un-Gods, una camarilla de deidades depuestas desde el origen del multiverso que encarnan fuerzas como la entropía, el amor o la creación, como patrones y dioses para DCC.\n\nPublicado por Goodman Games, escrito por Michael Curtis, Daniel J. Bishop, Bob Brinkman, Brendan LaSalle, and Marzio Muscedere, con 34 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/395902/dcc-book-of-fallen-gods",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2022-07",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-book-of-fallen-gods/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/395902/dcc-book-of-fallen-gods"
+        }
+      ]
+    }
+  ]
+}

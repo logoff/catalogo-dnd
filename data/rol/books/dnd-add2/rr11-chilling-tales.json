@@ -1,0 +1,24 @@
+{
+  "slug": "rr11-chilling-tales",
+  "system": "dnd-add2",
+  "title": "RR11 Chilling Tales",
+  "kind": "setting",
+  "settings": ["ravenloft"],
+  "description": "Un suplemento de Ravenloft. Lo escribió Lisa Smedman.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-rr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/rr11-chilling-tales/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17510/chilling-tales-2e"
+        }
+      ]
+    }
+  ]
+}

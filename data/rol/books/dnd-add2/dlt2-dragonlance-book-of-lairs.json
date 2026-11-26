@@ -1,0 +1,33 @@
+{
+  "slug": "dlt2-dragonlance-book-of-lairs",
+  "system": "dnd-add2",
+  "title": "DLT2 Dragonlance Book of Lairs",
+  "kind": "adventure",
+  "settings": ["dragonlance"],
+  "description": "Aventuras cortas en guaridas de monstruos de Krynn, para añadirlas a cualquier campaña de Dragonlance. Lo escribieron Skip Williams y Nicky D. Rea.\n\nEdición en castellano de Zinco.",
+  "source": "https://www.tsrarchive.com/dl/dl-dlt.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/dlt2-dragonlance-book-of-lairs/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17385/dragonlance-book-of-lairs-2e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Libro de las Guaridas",
+      "publisher": "Zinco",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/dlt2-dragonlance-book-of-lairs/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-adv.html"
+    }
+  ]
+}

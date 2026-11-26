@@ -1,0 +1,24 @@
+{
+  "slug": "complete-mage",
+  "system": "dnd-3-5",
+  "title": "Complete Mage",
+  "kind": "supplement",
+  "description": "Más opciones de magia arcana sin clases nuevas: rasgos alternativos de clase para personajes de todo tipo, clases de prestigio, dotes, conjuros, objetos mágicos y consejos para jugar con magos, hechiceros, brujos y otros lanzadores.\n\nSigue el formato de los últimos libros Complete, con más trasfondo y papel en el juego de cada opción. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Complete_Mage",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2006-10",
+      "format": "hardcover",
+      "isbn13": 9780786939374,
+      "cover": "/images/rol/complete-mage/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/51631/complete-mage-3-5"
+        }
+      ]
+    }
+  ]
+}

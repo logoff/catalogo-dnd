@@ -11,9 +11,19 @@ import type {
   RpgSystem,
 } from '../types/rpg.ts'
 import { normalize } from './videogameFilters.ts'
+import { isbnsOf } from './searchText.ts'
 
 // Editoriales de 5E destacadas: entra su catálogo impreso principal aunque solo esté en inglés
 export const FEATURED_PUBLISHERS = ['Kobold Press']
+
+// Juegos del grupo La Marca del Este: entra todo lo que publican y solo sus libros enlazan a su
+// tienda, Tesoros de la Marca
+export const MARCA_DEL_ESTE_SYSTEMS = [
+  'aventuras-en-la-marca-del-este',
+  'leyendas-de-la-marca-del-este',
+  'cronicas-de-la-marca-del-este',
+  'la-marca-estelar',
+]
 
 function byDateDesc<T extends { date?: string }>(a: T, b: T): number {
   return (b.date ?? '').localeCompare(a.date ?? '')
@@ -34,6 +44,15 @@ export function bookLicenses(book: Pick<RpgBook, 'license' | 'system'>, systems:
   return systems.find((s) => s.slug === book.system)?.licenses.map((l) => l.license) ?? []
 }
 
+// Fecha más antigua de las ediciones de un idioma (o de todas)
+function firstDate(book: RpgBook, language?: RpgEdition['language']): string | null {
+  const dates = book.editions
+    .filter((e) => e.date && (!language || e.language === language))
+    .map((e) => e.date!)
+    .sort()
+  return dates[0] ?? null
+}
+
 export function enrichBook(book: RpgBook, systems: RpgSystem[]): RpgBookWithMeta {
   const latest = [...book.editions].filter((e) => e.date).sort(byDateDesc)[0]?.date ?? null
   const titles = [
@@ -45,12 +64,16 @@ export function enrichBook(book: RpgBook, systems: RpgSystem[]): RpgBookWithMeta
   return {
     ...book,
     titleEs: titleEsOf(book),
-    year: latest ? Number(latest.slice(0, 4)) : null,
+    originalDate: firstDate(book, 'english') ?? firstDate(book),
+    spanishDate: firstDate(book, 'castellano'),
     latestDate: latest,
     spanish: book.editions.some((e) => e.language === 'castellano'),
     licenses: bookLicenses(book, systems),
     publishers,
-    searchText: normalize([...new Set([...titles, ...publishers])].join(' | ')),
+    searchText: normalize(
+      [...new Set([...titles, ...publishers, ...isbnsOf(book.editions)])].join(' | ')
+    ),
+    movement: systems.find((s) => s.slug === book.system)?.movement ?? null,
   }
 }
 
@@ -82,12 +105,15 @@ export function summarize(book: RpgBookWithMeta): RpgBookSummary {
     title: book.title,
     titleEs: book.titleEs,
     kind: book.kind,
-    year: book.year,
+    ...(book.settings && { settings: book.settings }),
+    originalDate: book.originalDate,
+    spanishDate: book.spanishDate,
     latestDate: book.latestDate,
     spanish: book.spanish,
     licenses: book.licenses,
     publishers: book.publishers,
     searchText: book.searchText,
+    movement: book.movement,
     thumbnail: cover ? thumbnailOf(cover) : null,
   }
 }
@@ -102,6 +128,29 @@ export function buildRpgIndex(
     systems: [...systems].sort((a, b) => a.date.localeCompare(b.date)),
     books: books.map((book) => summarize(enrichBook(book, systems))).sort(compareBooks),
   }
+}
+
+// Ediciones de D&D sin catálogo oficial en el sitio (las anteriores a la 5E): tienen su propia
+// sección en /ediciones, fuera de la de otros juegos de rol
+export function isDndEdition(system: Pick<RpgSystem, 'official' | 'official_catalog'>): boolean {
+  return Boolean(system.official && !system.official_catalog)
+}
+
+export function systemPath(system: Pick<RpgSystem, 'slug' | 'official' | 'official_catalog'>) {
+  return `${isDndEdition(system) ? '/ediciones' : '/rol'}/${system.slug}`
+}
+
+export function bookPath(book: Pick<RpgBook, 'slug' | 'system'>, systems: RpgSystem[]) {
+  const system = systems.find((s) => s.slug === book.system)
+  return `${system ? systemPath(system) : `/rol/${book.system}`}/${book.slug}`
+}
+
+// Lo que es de la sección de otros juegos de rol: todo menos las ediciones anteriores de D&D y
+// sus libros
+export function rolSection<T extends { system: string }>(systems: RpgSystem[], books: T[]) {
+  const rol = systems.filter((s) => !isDndEdition(s))
+  const slugs = new Set(rol.map((s) => s.slug))
+  return { systems: rol, books: books.filter((b) => slugs.has(b.system)) }
 }
 
 // Sistemas que derivan directamente de uno, con el tipo de cada derivación
@@ -151,4 +200,66 @@ export function derivationCycle(systems: RpgSystem[]): string | null {
     return cycle
   }
   return systems.find((s) => visit(s.slug))?.slug ?? null
+}
+
+// Si un sistema llega a una edición de D&D siguiendo sus derivaciones hacia arriba. Sin
+// withInspiration, las derivaciones de inspiración no cuentan (regla de los OSR); con ella, sí
+// (regla de los NSR). Supone que no hay ciclos, que ya vigila derivationCycle
+export function reachesDnd(
+  systems: RpgSystem[],
+  system: RpgSystem,
+  withInspiration: boolean
+): boolean {
+  const bySlug = new Map(systems.map((s) => [s.slug, s]))
+  const reaches = (current: RpgSystem): boolean =>
+    (current.derived_from ?? []).some((derivation) => {
+      if (!withInspiration && derivation.kind === 'inspiration') return false
+      const parent = bySlug.get(derivation.system)
+      return Boolean(parent && (parent.official || reaches(parent)))
+    })
+  return reaches(system)
+}
+
+// Editoriales de la línea propia de un juego OSR o NSR
+export function linePublishers(system: Pick<RpgSystem, 'publisher' | 'line_publishers'>) {
+  return system.line_publishers ?? [system.publisher]
+}
+
+// Por qué un sistema incumple las reglas de su movimiento, o null si las cumple: solo los que no
+// son D&D llevan movimiento, un OSR llega a D&D sin inspiración y un NSR llega con ella
+export function movementProblem(systems: RpgSystem[], system: RpgSystem): string | null {
+  if (!system.movement) return system.line_publishers ? 'line_publishers sin movimiento' : null
+  if (system.official) return 'una edición de D&D no lleva movimiento'
+  if (!reachesDnd(systems, system, system.movement === 'nsr')) {
+    return system.movement === 'osr'
+      ? 'un OSR tiene que derivar de D&D sin quedarse en la inspiración'
+      : 'un NSR tiene que llegar a D&D por sus derivaciones'
+  }
+  return null
+}
+
+// Por qué un libro de un sistema OSR o NSR queda fuera del alcance, o null si entra: necesita
+// formato en cada edición, una edición impresa (o una copia gratuita de la editorial o del autor,
+// como las de Codex de la Marca) y estar en castellano o ser de la línea propia
+export function movementBookProblem(
+  book: Pick<RpgBook, 'editions'>,
+  system: Pick<RpgSystem, 'publisher' | 'line_publishers'>
+): string | null {
+  if (book.editions.some((e) => !e.format)) return 'cada edición tiene que indicar su formato'
+  if (!book.editions.some((e) => e.format !== 'pdf' || e.free_download)) {
+    return 'necesita una edición impresa'
+  }
+  const line = linePublishers(system)
+  const inScope = book.editions.some(
+    (e) => e.language === 'castellano' || (e.language === 'english' && line.includes(e.publisher))
+  )
+  return inScope ? null : 'solo en inglés y de otra editorial que la del sistema'
+}
+
+// Texto del botón de descarga gratuita: Codex de la Marca por su nombre; las demás, genérico
+export function freeDownloadLabel(url: string): string {
+  const host = new URL(url).hostname
+  return host === 'codexdelamarca.com' || host.endsWith('.codexdelamarca.com')
+    ? 'Descarga gratuita en Codex de la Marca'
+    : 'Descarga gratuita'
 }

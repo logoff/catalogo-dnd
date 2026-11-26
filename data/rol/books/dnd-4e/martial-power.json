@@ -1,0 +1,34 @@
+{
+  "slug": "martial-power",
+  "system": "dnd-4e",
+  "title": "Martial Power",
+  "kind": "supplement",
+  "description": "El primer libro de la serie Power: opciones nuevas para guerreros, exploradores, pícaros y señores de la guerra, con nuevas variantes de cada clase, poderes, dotes, sendas de leyenda y destinos épicos.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Martial_Power",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-11",
+      "format": "hardcover",
+      "isbn13": 9780786949816,
+      "cover": "/images/rol/martial-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/58552/martial-power-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Poderes Marciales",
+      "publisher": "Devir",
+      "date": "2009-10",
+      "format": "hardcover",
+      "isbn13": 9788496934740,
+      "cover": "/images/rol/martial-power/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/dungeons-and-dragons-poderes-marciales_978-84-96934-74-0"
+    }
+  ]
+}

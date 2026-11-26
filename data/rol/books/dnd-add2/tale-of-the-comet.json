@@ -1,0 +1,23 @@
+{
+  "slug": "tale-of-the-comet",
+  "system": "dnd-add2",
+  "title": "Tale of the Comet",
+  "kind": "supplement",
+  "description": "Una caja en la que los personajes luchan contra invasores alienígenas y máquinas asesinas con magia y tecnología, y viajan de un pueblo de frontera a un mundo de alta tecnología para detener una guerra galáctica. La escribió Thomas M. Reid.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ody.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "boxed_set",
+      "cover": "/images/rol/tale-of-the-comet/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17106/tale-of-the-comet-2e"
+        }
+      ]
+    }
+  ]
+}

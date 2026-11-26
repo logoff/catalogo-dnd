@@ -1,0 +1,23 @@
+{
+  "slug": "marca-asalto-a-la-ruina-de-ritli",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Asalto a la Ruina de Ritli",
+  "kind": "adventure",
+  "description": "Un módulo de Clásicos de la Marca que sirve de puerta de entrada a las Colinas Azules, cerca de Robleda: una región llena de ruinas, templos y catacumbas antiguas donde los aventureros buscan fortuna.\n\nFue una de las recompensas desbloqueadas en el mecenazgo de Clásicos de la Marca de 2019. La editorial ya no lo vende.",
+  "source": "https://tesorosdelamarca.com/producto/asalto-a-la-ruina-de-ritli/",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2019",
+      "format": "paperback",
+      "cover": "/images/rol/marca-asalto-a-la-ruina-de-ritli/castellano.webp",
+      "source": "https://lamarcadeleste.com/2019/05/desbloqueamos-la-primera-meta.html",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/23656-cuatro-modulos-de-aventuras-para-clasicos-de-la-marca",
+        "end": "2019-06-22"
+      }
+    }
+  ]
+}

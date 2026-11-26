@@ -1,0 +1,23 @@
+{
+  "slug": "tomb-of-horrors-4e",
+  "system": "dnd-4e",
+  "title": "Tomb of Horrors",
+  "kind": "adventure",
+  "description": "Una gran aventura para personajes de nivel 10 a 22 que recupera la legendaria tumba de Acererak de 1978 y la amplía con nuevas mazmorras y planes del semiliche.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Tomb_of_Horrors",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-07",
+      "isbn13": 9780786954919,
+      "cover": "/images/rol/tomb-of-horrors-4e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/153646/tomb-of-horrors-4e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "oriental-adventures-1e",
+  "system": "dnd-add1",
+  "title": "Oriental Adventures",
+  "kind": "supplement",
+  "description": "La primera ambientación oriental de AD&D: Kara-Tur, con clases como el samurái, el ninja o el shukenja, honor, artes marciales y monstruos de la tradición asiática.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-1e-hb.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1985",
+      "format": "hardcover",
+      "cover": "/images/rol/oriental-adventures-1e/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17334/oriental-adventures-1e"
+        }
+      ]
+    }
+  ]
+}

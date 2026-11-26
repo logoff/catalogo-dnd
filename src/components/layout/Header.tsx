@@ -10,10 +10,13 @@ import clsx from 'clsx'
 import SearchBar from '../filters/SearchBar'
 import Logo from '@/components/ui/Logo'
 import ThemeToggle from '@/components/ui/ThemeToggle'
+import { headingClass } from '@/components/ui/styles'
 
 interface NavItem {
   to: string
   label: string
+  // Línea breve bajo el enlace en el desplegable, para descubrir lo que hay en cada sección
+  description?: string
 }
 
 interface NavGroup {
@@ -23,25 +26,75 @@ interface NavGroup {
   extraPaths?: string[]
 }
 
-// Libros y accesorios de rol primero; luego las secciones de lo demás.
-const booksGroup: NavGroup = {
-  label: 'Libros',
-  items: [
-    { to: '/catalogo', label: 'Catálogo completo' },
-    { to: '/2014', label: '5E (2014)' },
-    { to: '/2024', label: '5.5E (2024)' },
-  ],
-  extraPaths: ['/producto'],
-}
+// Lo oficial de D&D primero (libros y lo demás), luego los otros juegos de rol y las guías
+const navGroups: NavGroup[] = [
+  {
+    label: 'Libros',
+    items: [
+      {
+        to: '/catalogo',
+        label: 'Catálogo completo',
+        description: 'Libros y accesorios de 5E y 5.5E',
+      },
+      { to: '/2014', label: '5E (2014)' },
+      { to: '/2024', label: '5.5E (2024)' },
+      { to: '/ediciones', label: 'Todas las ediciones', description: 'De D&D original a la 5.5E' },
+    ],
+    extraPaths: ['/producto'],
+  },
+  {
+    label: 'Más de D&D',
+    items: [
+      {
+        to: '/novelas',
+        label: 'Novelas',
+        description: 'Todas las oficiales, con su edición en castellano',
+      },
+      {
+        to: '/comics',
+        label: 'Cómics',
+        description: 'De TSR y DC a IDW y Dark Horse',
+      },
+      { to: '/videojuegos', label: 'Videojuegos', description: 'De los años 70 a hoy' },
+      {
+        to: '/cine-y-series',
+        label: 'Cine y series',
+        description: 'Películas, series y documentales',
+      },
+      {
+        to: '/merchandising',
+        label: 'Merchandising',
+        description: 'Figuras, juegos de mesa y libros con licencia',
+      },
+    ],
+    extraPaths: ['/novela', '/comic', '/videojuego', '/cine-y-series'],
+  },
+  {
+    label: 'Otros juegos de rol',
+    items: [
+      {
+        to: '/rol',
+        label: 'Juegos y libros',
+        description: 'Pathfinder, Daggerheart, libros de terceros…',
+      },
+      { to: '/rol/arbol', label: 'Árbol genealógico', description: 'Cómo se relacionan con D&D' },
+      { to: '/licencias', label: 'Licencias abiertas', description: 'OGL, SRD, ORC y demás' },
+    ],
+    extraPaths: ['/licencia'],
+  },
+]
 
-const sectionLinks: NavItem[] = [
-  { to: '/videojuegos', label: 'Videojuegos' },
-  { to: '/merchandising', label: 'Merchandising' },
-  { to: '/novelas', label: 'Novelas' },
-  { to: '/cine-y-series', label: 'Cine y series' },
-  { to: '/rol', label: 'Otros juegos de rol' },
+// Enlaces sueltos tras los grupos
+const singleLinks: NavItem[] = [
+  { to: '/novedades', label: 'Novedades' },
   { to: '/guias', label: 'Guías' },
 ]
+
+// Evento de Umami de cada enlace del menú, para medir qué secciones se visitan desde la cabecera
+const trackMenu = (label: string) => ({
+  'data-umami-event': 'menu',
+  'data-umami-event-seccion': label,
+})
 
 function isGroupActive(group: NavGroup, pathname: string) {
   return [...group.items.map((item) => item.to), ...(group.extraPaths ?? [])].some(
@@ -51,7 +104,7 @@ function isGroupActive(group: NavGroup, pathname: string) {
 
 const linkClass = (active: boolean) =>
   clsx(
-    'inline-flex min-h-10 items-center rounded-md px-3 text-sm transition-colors duration-150',
+    'inline-flex min-h-10 items-center rounded-md px-2 text-sm whitespace-nowrap xl:px-3 transition-colors duration-150',
     active ? 'font-medium text-fg' : 'text-muted hover:text-fg'
   )
 
@@ -98,7 +151,7 @@ function NavDropdown({ group }: { group: NavGroup }) {
         <ChevronDownIcon className="size-3.5" aria-hidden="true" />
       </button>
       {open && (
-        <div className="absolute left-0 mt-1 w-52 rounded-xl border border-line bg-surface p-1 shadow-lg shadow-black/10">
+        <div className="absolute left-0 mt-1 w-72 rounded-xl border border-line bg-surface p-1 shadow-lg shadow-black/10">
           {group.items.map((item) => (
             <NavLink
               key={item.to}
@@ -106,13 +159,17 @@ function NavDropdown({ group }: { group: NavGroup }) {
               end
               className={({ isActive }) =>
                 clsx(
-                  'flex min-h-10 items-center rounded-lg px-3 text-sm transition-colors duration-150',
+                  'flex min-h-10 flex-col justify-center rounded-lg px-3 py-1.5 text-sm transition-colors duration-150',
                   isActive ? 'bg-well font-medium text-fg' : 'text-fg hover:bg-well'
                 )
               }
               onClick={() => setOpen(false)}
+              {...trackMenu(item.label)}
             >
               {item.label}
+              {item.description && (
+                <span className="text-xs font-normal text-muted">{item.description}</span>
+              )}
             </NavLink>
           ))}
         </div>
@@ -131,27 +188,36 @@ export default function Header() {
         <div className="flex h-16 items-center gap-4">
           <Link to="/" className="flex items-center gap-2.5 font-semibold tracking-tight">
             <Logo className="size-8" />
-            <span className="text-base">Catálogo D&amp;D</span>
+            <span className="text-base whitespace-nowrap md:max-[52rem]:sr-only">
+              Catálogo D&amp;D
+            </span>
           </Link>
 
-          <nav aria-label="Principal" className="ml-4 hidden items-center gap-1 md:flex">
-            <NavDropdown group={booksGroup} />
-            {sectionLinks.map((item) => (
-              <NavLink key={item.to} to={item.to} className={navLinkClass}>
+          <nav aria-label="Principal" className="ml-2 hidden items-center gap-0.5 md:flex lg:ml-4">
+            {navGroups.map((group) => (
+              <NavDropdown key={group.label} group={group} />
+            ))}
+            {singleLinks.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                className={navLinkClass}
+                {...trackMenu(item.label)}
+              >
                 {item.label}
               </NavLink>
             ))}
           </nav>
 
-          <div className="ml-auto hidden w-64 lg:block">
+          <div className="ml-auto hidden w-56 lg:block xl:w-64">
             <SearchBar />
           </div>
 
           <div className="ml-auto flex items-center gap-2 lg:ml-0">
-            {/* Entre md y lg no cabe el buscador: se llega al del catálogo */}
+            {/* Entre md y lg no cabe el buscador: se llega a la página de búsqueda */}
             <Link
-              to="/catalogo"
-              aria-label="Buscar libros"
+              to="/buscar"
+              aria-label="Buscar en el catálogo"
               className="hidden size-10 items-center justify-center rounded-lg border border-line text-fg hover:bg-well md:inline-flex lg:hidden"
             >
               <MagnifyingGlassIcon className="size-5" aria-hidden="true" />
@@ -179,27 +245,31 @@ export default function Header() {
               <SearchBar />
             </div>
             <nav aria-label="Principal" className="flex flex-col gap-1">
-              <span className="px-3 pt-1 pb-1 text-xs font-medium text-muted">
-                {booksGroup.label}
-              </span>
-              {booksGroup.items.map((item) => (
-                <NavLink
-                  key={item.to}
-                  to={item.to}
-                  end
-                  className={mobileLinkClass}
-                  onClick={closeMobileMenu}
-                >
-                  {item.label}
-                </NavLink>
+              {navGroups.map((group, i) => (
+                <div key={group.label} className={clsx('flex flex-col gap-1', i > 0 && 'mt-2')}>
+                  <span className={headingClass('group', 'px-3 pt-1 pb-1')}>{group.label}</span>
+                  {group.items.map((item) => (
+                    <NavLink
+                      key={item.to}
+                      to={item.to}
+                      end
+                      className={mobileLinkClass}
+                      onClick={closeMobileMenu}
+                      {...trackMenu(item.label)}
+                    >
+                      {item.label}
+                    </NavLink>
+                  ))}
+                </div>
               ))}
               <span className="mt-2 border-t border-line" aria-hidden="true" />
-              {sectionLinks.map((item) => (
+              {singleLinks.map((item) => (
                 <NavLink
                   key={item.to}
                   to={item.to}
                   className={mobileLinkClass}
                   onClick={closeMobileMenu}
+                  {...trackMenu(item.label)}
                 >
                   {item.label}
                 </NavLink>

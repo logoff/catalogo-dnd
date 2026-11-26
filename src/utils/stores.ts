@@ -4,6 +4,8 @@ interface StoreConfig {
   label: string
   // Convierte la URL del producto en un enlace de afiliado. Sin definir, se usa la URL tal cual
   affiliate?: (url: string) => string
+  // Tienda sin programa de afiliados: su enlace no se marca como patrocinado
+  unaffiliated?: true
 }
 
 // Los IDs de afiliado no se guardan en el repositorio: llegan en el build como variables
@@ -28,6 +30,12 @@ export function awinAffiliate(
 // Instant Gaming: programa propio, basta con añadir el código de referido a cualquier URL
 export function instantGamingAffiliate(referral?: string): StoreConfig['affiliate'] {
   return referral ? (url) => withParam(url, 'igr', referral) : undefined
+}
+
+// DriveThru (Roll20): el mismo ID de afiliado vale en DMsGuild, DriveThruRPG y sus webs
+// hermanas, añadido a cualquier URL con `affiliate_id`
+export function driveThruAffiliate(id?: string): StoreConfig['affiliate'] {
+  return id ? (url) => withParam(url, 'affiliate_id', id) : undefined
 }
 
 export function adtractionAffiliate(
@@ -104,6 +112,21 @@ export const STORES: Record<Store, StoreConfig> = {
       env.VITE_AFFILIATE_NEXTORY_PROGRAM,
       env.VITE_AFFILIATE_ADTRACTION_CHANNEL
     ),
+  },
+  // PDF e impresión bajo demanda de los libros antiguos de Wizards (D&D Classics)
+  dmsguild: {
+    label: 'DMsGuild',
+    affiliate: driveThruAffiliate(env.VITE_AFFILIATE_DRIVETHRU_ID),
+  },
+  // PDF e impresión bajo demanda de otras editoriales: solo en la sección de otros juegos de rol
+  drivethrurpg: {
+    label: 'DriveThruRPG',
+    affiliate: driveThruAffiliate(env.VITE_AFFILIATE_DRIVETHRU_ID),
+  },
+  // Tienda del grupo La Marca del Este, sin afiliado: solo en los libros de sus juegos
+  tesoros_de_la_marca: {
+    label: 'Tesoros de la Marca',
+    unaffiliated: true,
   },
 }
 

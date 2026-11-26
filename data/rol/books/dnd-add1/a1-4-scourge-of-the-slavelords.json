@@ -1,0 +1,24 @@
+{
+  "slug": "a1-4-scourge-of-the-slavelords",
+  "system": "dnd-add1",
+  "title": "A1-4 Scourge of the Slavelords",
+  "kind": "adventure",
+  "settings": ["greyhawk"],
+  "description": "Las cuatro aventuras de la serie de los señores de los esclavos reunidas en un solo volumen.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-a.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/a1-4-scourge-of-the-slavelords/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17362/scourge-of-the-slave-lords"
+        }
+      ]
+    }
+  ]
+}

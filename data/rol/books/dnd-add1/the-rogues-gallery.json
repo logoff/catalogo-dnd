@@ -1,0 +1,23 @@
+{
+  "slug": "the-rogues-gallery",
+  "system": "dnd-add1",
+  "title": "The Rogues Gallery",
+  "kind": "supplement",
+  "description": "Una colección de personajes no jugadores listos para usar, incluidos los de los propios diseñadores de TSR.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-dmacc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1980",
+      "format": "paperback",
+      "cover": "/images/rol/the-rogues-gallery/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17024/the-rogues-gallery-1e"
+        }
+      ]
+    }
+  ]
+}

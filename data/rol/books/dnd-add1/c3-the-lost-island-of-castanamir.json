@@ -1,0 +1,23 @@
+{
+  "slug": "c3-the-lost-island-of-castanamir",
+  "system": "dnd-add1",
+  "title": "C3 The Lost Island of Castanamir",
+  "kind": "adventure",
+  "description": "Una aventura en una isla misteriosa relacionada con varios naufragios, bajo la cual los personajes recorren una serie de salas unidas por portales mágicos. La escribió Ken Rolston.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-c.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/c3-the-lost-island-of-castanamir/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17033/c3-the-lost-island-of-castanamir-1e"
+        }
+      ]
+    }
+  ]
+}

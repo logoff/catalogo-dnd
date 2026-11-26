@@ -1,0 +1,29 @@
+{
+  "slug": "dnd-4e",
+  "name": "D&D 4.ª edición",
+  "family": "dungeons-and-dragons",
+  "official": true,
+  "publisher": "Wizards of the Coast",
+  "date": "2008-06",
+  "description": "La cuarta edición de Dungeons & Dragons rehízo el juego en torno al combate táctico: todas las clases usan poderes a voluntad, por encuentro y diarios, cada una tiene un papel en el grupo (defensor, líder, golpeador o controlador) y los monstruos se diseñan por rol, con secuaces que caen de un golpe y enemigos solitarios capaces de enfrentarse a todo el grupo. Los personajes se curan con esfuerzos curativos y suben del nivel 1 al 30 en tres etapas: heroica, de leyenda y épica.\n\nNo tuvo licencia abierta: Wizards la publicó bajo la Game System License, mucho más restrictiva que la OGL, y eso llevó a Paizo a seguir con las reglas de 3.5 en Pathfinder. En 2010 la línea Essentials la reorganizó en libros más sencillos, y en 2014 la sustituyó la 5.ª edición. Devir publicó en castellano los básicos y algunos suplementos.",
+  "features": [
+    "Poderes a voluntad, por encuentro y diarios para todas las clases",
+    "Papeles en el grupo: defensor, líder, golpeador y controlador",
+    "Esfuerzos curativos y descansos cortos",
+    "Monstruos por rol, con secuaces y enemigos solitarios"
+  ],
+  "licenses": [],
+  "derived_from": [
+    {
+      "system": "dnd-3-5",
+      "kind": "major_rewrite",
+      "note": "Reescritura completa de 2008: mantiene el d20 y la cuadrícula, pero cambia clases, conjuros, monstruos y la estructura del juego; el material de 3.5 no sirve sin conversión."
+    }
+  ],
+  "links": [
+    {
+      "label": "Dungeons & Dragons en wizards.com (copia de 2008)",
+      "url": "https://web.archive.org/web/2008/http://www.wizards.com/dnd/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "battlesystem-miniatures-rules",
+  "system": "dnd-add1",
+  "title": "Battlesystem: Miniatures Rules",
+  "kind": "supplement",
+  "description": "Las reglas de Battlesystem para batallas con miniaturas en AD&D y D&D, en las que cada figura representa a un héroe, un comandante o un grupo de tropas; TSR las presentó como herederas de Chainmail. La escribieron Douglas Niles y Steve Winter.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-bs.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/battlesystem-miniatures-rules/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16943/battlesystem-miniatures-rules-2e"
+        }
+      ]
+    }
+  ]
+}

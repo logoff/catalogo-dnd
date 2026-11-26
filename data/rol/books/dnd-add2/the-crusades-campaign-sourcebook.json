@@ -1,0 +1,23 @@
+{
+  "slug": "the-crusades-campaign-sourcebook",
+  "system": "dnd-add2",
+  "title": "The Crusades Campaign Sourcebook",
+  "kind": "supplement",
+  "description": "Un libro de la serie histórica de AD&D sobre las cruzadas. Lo escribió Steve Kurtz.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-hr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1994",
+      "format": "paperback",
+      "cover": "/images/rol/the-crusades-campaign-sourcebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16927/hr7-the-crusades-campaign-sourcebook-2e"
+        }
+      ]
+    }
+  ]
+}

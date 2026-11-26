@@ -1,0 +1,23 @@
+{
+  "slug": "m3-twilight-calling",
+  "system": "dnd-basic",
+  "title": "M3 Twilight Calling",
+  "kind": "adventure",
+  "description": "Una aventura para la caja maestra: engañados por Alphaks, los personajes cruzan el plano de las pesadillas y siete universos de bolsillo en busca de las llaves que abren el camino al castillo de los Carnifex. La escribió Tom Moldvay.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-m.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1986",
+      "format": "paperback",
+      "cover": "/images/rol/m3-twilight-calling/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17127/m3-twilight-calling-basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "x5-temple-of-death",
+  "system": "dnd-basic",
+  "title": "X5 Temple of Death",
+  "kind": "adventure",
+  "description": "La continuación de Master of the Desert Nomads: los personajes cruzan las montañas hasta la tierra de Hule para enfrentarse al Maestro en su templo. La escribió David Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1983",
+      "format": "paperback",
+      "cover": "/images/rol/x5-temple-of-death/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17095/x5-temple-of-death-basic"
+        }
+      ]
+    }
+  ]
+}

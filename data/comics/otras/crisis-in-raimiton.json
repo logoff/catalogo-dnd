@@ -1,0 +1,21 @@
+{
+  "slug": "crisis-in-raimiton",
+  "title": "Dungeons & Dragons: Crisis in Raimiton",
+  "publisher": "Wizards of the Coast",
+  "setting": "generic",
+  "kind": "promotional",
+  "date": "2004-07",
+  "issue_count": 1,
+  "writers": ["Matt Clarke"],
+  "artists": ["Scott Roller"],
+  "description": "Cómic gratuito que Wizards of the Coast repartió en el Free Comic Book Day de 2004 para presentar Dungeons & Dragons a lectores de cómics, con una aventura corta y una introducción al juego.\n\nNo se vendió ni se ha reeditado.",
+  "source": "https://www.comics.org/series/28544/",
+  "issues": [
+    {
+      "number": "1",
+      "date": "2004-07-03",
+      "cover": "/images/comics/crisis-in-raimiton/1.webp",
+      "cover_source": "https://www.comics.org/series/28544/covers/"
+    }
+  ]
+}

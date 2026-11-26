@@ -9,7 +9,17 @@
     {
       "language": "english",
       "publisher": "Kobold Press",
-      "date": "2022"
+      "date": "2022",
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/195078939X/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/416964/tome-of-beasts-3-for-5th-edition"
+        }
+      ]
     }
   ]
 }

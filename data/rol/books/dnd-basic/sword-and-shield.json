@@ -1,0 +1,23 @@
+{
+  "slug": "sword-and-shield",
+  "system": "dnd-basic",
+  "title": "Sword and Shield",
+  "kind": "adventure",
+  "description": "Una aventura corta de Thunder Rift para la caja de iniciación de 1991, en la que los personajes se enfrentan al misterioso Caballero Negro. La escribió John Terra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/sword-and-shield/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17162/sword-and-shield-basic"
+        }
+      ]
+    }
+  ]
+}

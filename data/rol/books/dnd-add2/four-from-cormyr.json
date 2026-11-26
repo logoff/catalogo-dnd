@@ -1,0 +1,24 @@
+{
+  "slug": "four-from-cormyr",
+  "system": "dnd-add2",
+  "title": "Four From Cormyr",
+  "kind": "adventure",
+  "settings": ["forgotten_realms"],
+  "description": "Cuatro aventuras ambientadas en Cormyr. La escribió John Terra.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1997",
+      "format": "paperback",
+      "cover": "/images/rol/four-from-cormyr/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17577/four-from-cormyr-2e"
+        }
+      ]
+    }
+  ]
+}

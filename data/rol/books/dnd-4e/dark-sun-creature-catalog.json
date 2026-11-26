@@ -1,0 +1,33 @@
+{
+  "slug": "dark-sun-creature-catalog",
+  "system": "dnd-4e",
+  "title": "Dark Sun Creature Catalog",
+  "kind": "setting",
+  "settings": ["dark_sun"],
+  "description": "Los monstruos, los personajes importantes y los peligros de Athas, con consejos para construir encuentros en Dark Sun; muchos recuperan criaturas de los bestiarios de la ambientación en AD&D.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/Dark_Sun_Creature_Catalog",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08",
+      "format": "hardcover",
+      "isbn13": 9780786954940,
+      "cover": "/images/rol/dark-sun-creature-catalog/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/133464/dark-sun-creature-catalog-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "Catálogo de Criaturas de Sol Oscuro",
+      "publisher": "Devir",
+      "format": "hardcover",
+      "cover": "/images/rol/dark-sun-creature-catalog/castellano.webp",
+      "source": "https://archiroleros.com/threads/todo-lo-publicado-de-d-d-en-espa%C3%B1a.872/"
+    }
+  ]
+}

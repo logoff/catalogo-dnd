@@ -1,0 +1,34 @@
+{
+  "slug": "the-fungus-that-came-to-blackeswell",
+  "system": "dolmenwood",
+  "title": "The Fungus That Came to Blackeswell",
+  "kind": "adventure",
+  "description": "Una aventura de horror fúngico para personajes de nivel 2 a 4, de Yves Geens: un apocalipsis de hongos ha cubierto la aldea aislada de Blackeswell, que va a ser arrasada, y los más osados pueden entrar antes de que lleguen las tropas para salvar a quien quede y frenar la infestación.\n\nEstá en formato de consulta rápida y requiere los libros básicos de Dolmenwood. En castellano lo publica Nosolorol, que lo financió en su propio mecenazgo en 2025.",
+  "source": "https://www.drivethrurpg.com/en/product/527289/the-fungus-that-came-to-blackeswell",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Necrotic Gnome",
+      "date": "2025-06",
+      "format": "hardcover",
+      "cover": "/images/rol/the-fungus-that-came-to-blackeswell/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/527289/the-fungus-that-came-to-blackeswell"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Hongo que Llegó a Blackeswell",
+      "publisher": "Nosolorol",
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "editorial",
+        "url": "https://www.nosolorol.com/dolmenwood",
+        "end": "2025-05-05"
+      }
+    }
+  ]
+}

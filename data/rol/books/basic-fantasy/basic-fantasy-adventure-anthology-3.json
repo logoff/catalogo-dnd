@@ -1,0 +1,23 @@
+{
+  "slug": "basic-fantasy-adventure-anthology-3",
+  "system": "basic-fantasy",
+  "title": "Adventure Anthology 3",
+  "kind": "adventure",
+  "description": "Doce aventuras cortas de varios autores para Basic Fantasy, para unas pocas sesiones cada una.\n\nPublicado por Basic Fantasy Project, escrito por James Lemon, Chris Gonnerman, and Contributors, con 153 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/486333/adventure-anthology-3",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-07",
+      "format": "paperback",
+      "cover": "/images/rol/basic-fantasy-adventure-anthology-3/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/486333/adventure-anthology-3"
+        }
+      ]
+    }
+  ]
+}

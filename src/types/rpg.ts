@@ -1,4 +1,10 @@
+import type { World } from '../utils/worlds.ts'
 import type { PurchaseLink } from './index'
+
+// Enlace de compra; variant dice qué se vende cuando una edición tiene varios de la misma tienda
+export interface RpgPurchaseLink extends PurchaseLink {
+  variant?: string
+}
 
 // license: texto legal que permite publicar; reference_document: reglas publicadas bajo una
 // licencia (SRD); community_license: licencia de un editor para su propio juego
@@ -46,6 +52,8 @@ export interface SystemLicense {
 }
 
 // Una edición concreta de un juego (Pathfinder 1E y 2E son sistemas distintos)
+export type RpgMovement = 'osr' | 'nsr'
+
 export interface RpgSystem {
   slug: string
   name: string
@@ -58,6 +66,12 @@ export interface RpgSystem {
   // Vacío si no tiene licencia abierta
   licenses: SystemLicense[]
   derived_from?: Derivation[]
+  // Movimiento OSR o NSR; nunca en las ediciones de D&D
+  movement?: RpgMovement
+  // Editoriales de la línea propia de un juego OSR o NSR si hay más de una (por defecto, publisher)
+  line_publishers?: string[]
+  // Edición oficial de D&D; si no tiene official_catalog, va en la sección de ediciones anteriores
+  official?: boolean
   // Solo en los sistemas de D&D: ruta del catálogo oficial del sitio, sin duplicar sus libros
   official_catalog?: '/2014' | '/2024'
   links: LicenseLink[]
@@ -67,7 +81,7 @@ export type RpgBookKind = 'core' | 'starter' | 'supplement' | 'adventure' | 'set
 
 export type RpgLanguage = 'english' | 'castellano'
 
-export type RpgFormat = 'hardcover' | 'paperback' | 'boxed_set' | 'pdf'
+export type RpgFormat = 'hardcover' | 'paperback' | 'boxed_set' | 'screen' | 'accessory' | 'pdf'
 
 export interface RpgEdition {
   language: RpgLanguage
@@ -80,7 +94,28 @@ export interface RpgEdition {
   cover?: string
   // Fuente de la edición, cuando no es la misma que la del libro
   source?: string
-  purchase_links?: PurchaseLink[]
+  purchase_links?: RpgPurchaseLink[]
+  // Copia gratuita liberada por la editorial (Codex de la Marca); no es una tienda
+  free_download?: string
+  // Campaña de micromecenazgo de la edición (conseguida o abierta)
+  crowdfunding?: RpgCrowdfunding
+}
+
+export type CrowdfundingPlatform =
+  | 'verkami'
+  | 'kickstarter'
+  | 'gamefound'
+  | 'backerkit'
+  | 'lanzanos'
+  | 'ulule'
+  // Mecenazgo en la tienda de la propia editorial (Nosolorol, The Hills Press…)
+  | 'editorial'
+
+export interface RpgCrowdfunding {
+  platform: CrowdfundingPlatform
+  url: string
+  // Fecha de cierre (AAAA-MM-DD)
+  end: string
 }
 
 export interface RpgBook {
@@ -89,6 +124,8 @@ export interface RpgBook {
   title: string
   title_es?: string
   kind: RpgBookKind
+  // Mundos en los que transcurre o que describe
+  settings?: World[]
   // Básico o caja de inicio de un sistema grande
   core?: boolean
   // Solo si no usa las licencias de su sistema: otra licencia, o «none» si solo se declara
@@ -102,8 +139,10 @@ export interface RpgBook {
 export interface RpgBookWithMeta extends RpgBook {
   // Título de la edición en castellano más reciente, o title_es
   titleEs: string | null
-  // Año de la edición más reciente
-  year: number | null
+  // Fecha de la edición original (la primera en inglés o, si no la hay, la primera de todas)
+  originalDate: string | null
+  // Fecha de la primera edición en castellano
+  spanishDate: string | null
   // Fecha de la edición más reciente, para ordenar
   latestDate: string | null
   spanish: boolean
@@ -112,6 +151,8 @@ export interface RpgBookWithMeta extends RpgBook {
   publishers: string[]
   // Títulos y editoriales, en minúsculas y sin tildes
   searchText: string
+  // Movimiento de su sistema (OSR o NSR), o null si no tiene
+  movement: RpgMovement | null
 }
 
 // Lo que el listado sabe de cada libro, sin descripción ni ediciones (virtual:rpg-index)
@@ -122,12 +163,15 @@ export interface RpgBookSummary extends Pick<
   | 'title'
   | 'titleEs'
   | 'kind'
-  | 'year'
+  | 'settings'
+  | 'originalDate'
+  | 'spanishDate'
   | 'latestDate'
   | 'spanish'
   | 'licenses'
   | 'publishers'
   | 'searchText'
+  | 'movement'
 > {
   // Miniatura de la portada principal
   thumbnail: string | null

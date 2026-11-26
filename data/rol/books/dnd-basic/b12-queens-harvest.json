@@ -1,0 +1,23 @@
+{
+  "slug": "b12-queens-harvest",
+  "system": "dnd-basic",
+  "title": "B12 Queen's Harvest",
+  "kind": "adventure",
+  "description": "Una aventura que mete a los personajes en la política de la corte: primero recuperan los objetos peligrosos que dejó un mago en su guarida y después resisten el asedio de una fortaleza enemiga muy superior en número. La escribió Carl Sargent.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1989",
+      "format": "paperback",
+      "cover": "/images/rol/b12-queens-harvest/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17142/b12-queen-s-harvest-basic"
+        }
+      ]
+    }
+  ]
+}

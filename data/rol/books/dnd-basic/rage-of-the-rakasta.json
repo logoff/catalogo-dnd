@@ -1,0 +1,23 @@
+{
+  "slug": "rage-of-the-rakasta",
+  "system": "dnd-basic",
+  "title": "Rage of the Rakasta",
+  "kind": "adventure",
+  "description": "Una aventura corta de Thunder Rift para un solo personaje principiante, en una pequeña mazmorra de los rakasta, una raza felina parecida a tigres que caminan erguidos. La escribió William W. Connors.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1993",
+      "format": "paperback",
+      "cover": "/images/rol/rage-of-the-rakasta/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17153/rage-of-the-rakasta-basic"
+        }
+      ]
+    }
+  ]
+}

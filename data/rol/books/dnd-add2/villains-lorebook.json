@@ -1,0 +1,24 @@
+{
+  "slug": "villains-lorebook",
+  "system": "dnd-add2",
+  "title": "Villains' Lorebook",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "El compañero de Heroes' Lorebook: veintinueve villanos de los Reinos Olvidados sacados de las novelas y otras fuentes, con ilustración, estadísticas e ideas para la campaña. Lo escribió Dale Donovan.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-lore.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/villains-lorebook/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17567/villains-lorebook-2e"
+        }
+      ]
+    }
+  ]
+}

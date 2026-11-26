@@ -1,0 +1,23 @@
+{
+  "slug": "masters-of-eternal-night",
+  "system": "dnd-add2",
+  "title": "Masters of Eternal Night",
+  "kind": "adventure",
+  "description": "La aventura que cierra la trilogía de la Iliada, sobre los azotamentes. La escribió Bruce R. Cordell.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ma.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/masters-of-eternal-night/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17352/masters-of-eternal-night-2e"
+        }
+      ]
+    }
+  ]
+}

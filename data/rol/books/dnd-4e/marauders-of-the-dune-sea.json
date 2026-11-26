@@ -1,0 +1,24 @@
+{
+  "slug": "marauders-of-the-dune-sea",
+  "system": "dnd-4e",
+  "title": "Marauders of the Dune Sea",
+  "kind": "adventure",
+  "description": "Una aventura de Dark Sun para personajes de nivel 2 a 5 que empieza en la ciudad de Tyr y se adentra en el desierto de Athas.\n\nSolo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Marauders_of_the_Dune_Sea",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2010-08",
+      "format": "paperback",
+      "isbn13": 9780786954957,
+      "cover": "/images/rol/marauders-of-the-dune-sea/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/153067/marauders-of-the-dune-sea-4e"
+        }
+      ]
+    }
+  ]
+}

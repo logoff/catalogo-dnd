@@ -1,0 +1,24 @@
+{
+  "slug": "oa5-mad-monkey-vs-the-dragon-claw",
+  "system": "dnd-add1",
+  "title": "OA5 Mad Monkey vs the Dragon Claw",
+  "kind": "adventure",
+  "settings": ["kara_tur"],
+  "description": "Una aventura para Oriental Adventures en la que los personajes buscan la escuela de artes marciales de la Garra del Dragón y viajan por T'u Lung hasta el culto del Leopardo Negro. La escribió Jeff Grubb.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/oa/oa-oa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1988",
+      "format": "paperback",
+      "cover": "/images/rol/oa5-mad-monkey-vs-the-dragon-claw/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/193622/oa5-mad-monkey-vs-the-dragon-claw-1e"
+        }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,10 @@
         {
           "store": "amazon",
           "url": "https://www.amazon.es/dp/1950789772/"
+        },
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/480454/tales-of-the-valiant-monster-vault"
         }
       ]
     },

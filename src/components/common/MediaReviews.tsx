@@ -2,6 +2,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 import { getReviewOutlet } from '@/services/reviewOutlets'
 import { formatDate } from '@/utils/formatters'
 import type { Review } from '@/types'
+import { headingClass } from '@/components/ui/styles'
 
 const languageLabel = { english: 'En inglés', castellano: 'En castellano' } as const
 
@@ -11,7 +12,7 @@ export default function MediaReviews({ reviews }: { reviews: Review[] }) {
 
   return (
     <section>
-      <h2 className="mb-4 text-xl">Reseñas</h2>
+      <h2 className={headingClass('section', 'mb-4')}>Reseñas</h2>
       <ul className="divide-y divide-line rounded-xl border border-line bg-surface px-4 sm:px-6">
         {sorted.map((review) => {
           const outlet = getReviewOutlet(review.outlet)
@@ -25,7 +26,7 @@ export default function MediaReviews({ reviews }: { reviews: Review[] }) {
           return (
             <li key={review.url} className="py-5">
               <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                <h3 className="text-base font-semibold">{name}</h3>
+                <h3 className={headingClass('item')}>{name}</h3>
                 {review.score !== undefined && outlet?.scale && (
                   <p className="font-mono text-lg tabular-nums">
                     {`${review.score}/${outlet.scale}`}

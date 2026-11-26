@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-reference-booklet",
+  "system": "dungeon-crawl-classics",
+  "title": "DCC RPG Reference Booklet",
+  "kind": "other",
+  "description": "Un cuadernillo que reúne casi todas las tablas de DCC que el juez consulta a menudo, para encontrarlas rápido sin abrir el libro básico.\n\nPublicado por Goodman Games, escrito por Jeremy Deram, con 66 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/439728/dcc-rpg-reference-booklet",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2023-06",
+      "format": "paperback",
+      "cover": "/images/rol/dcc-reference-booklet/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/439728/dcc-rpg-reference-booklet"
+        }
+      ]
+    }
+  ]
+}

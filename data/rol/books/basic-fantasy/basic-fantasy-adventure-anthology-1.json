@@ -1,0 +1,23 @@
+{
+  "slug": "basic-fantasy-adventure-anthology-1",
+  "system": "basic-fantasy",
+  "title": "Adventure Anthology 1",
+  "kind": "adventure",
+  "description": "Una colección de aventuras cortas de varios autores para Basic Fantasy, jugables en una o dos sesiones.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, con 87 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/486254/adventure-anthology-1",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2024-07",
+      "format": "paperback",
+      "cover": "/images/rol/basic-fantasy-adventure-anthology-1/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/486254/adventure-anthology-1"
+        }
+      ]
+    }
+  ]
+}

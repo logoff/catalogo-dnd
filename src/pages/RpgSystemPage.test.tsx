@@ -10,6 +10,7 @@ const renderAt = (path: string) =>
     <MemoryRouter initialEntries={[path]}>
       <Routes>
         <Route path="/rol/:system" element={<RpgSystemPage />} />
+        <Route path="/ediciones/:system" element={<RpgSystemPage section="ediciones" />} />
       </Routes>
     </MemoryRouter>
   )
@@ -38,17 +39,48 @@ describe('ficha de sistema', () => {
     expect(
       within(section('Otras ediciones')).getByRole('link', { name: /Pathfinder 1E/ })
     ).toHaveAttribute('href', '/rol/pathfinder-1e')
-    expect(
-      within(section('Libros')).getByRole('link', { name: 'Manual de juego (Remaster)' })
-    ).toHaveAttribute('href', '/rol/pathfinder-2e/player-core')
+    expect(within(section('Libros')).getByRole('link', { name: 'Player Core' })).toHaveAttribute(
+      'href',
+      '/rol/pathfinder-2e/player-core'
+    )
+    expect(within(section('Libros')).getByText('Manual de juego (Remaster)')).toBeInTheDocument()
   })
 
-  it('D&D 3.5 muestra los sistemas que derivan de él, con la licencia por la que derivan', () => {
-    renderAt('/rol/dnd-3-5')
+  it('D&D 3.5, en ediciones anteriores, muestra lo que deriva de ella, sin aviso y con sus libros', () => {
+    renderAt('/ediciones/dnd-3-5')
+    expect(screen.getByRole('link', { name: 'Ediciones de D&D' })).toHaveAttribute(
+      'href',
+      '/ediciones'
+    )
+    expect(screen.queryByText(/no es un producto oficial/)).toBeNull()
+    expect(screen.queryByRole('link', { name: /catálogo/ })).toBeNull()
     const derivations = section('Derivaciones')
-    expect(within(derivations).getByText('Derivan de él')).toBeInTheDocument()
-    expect(within(derivations).getByRole('link', { name: 'Pathfinder 1E' })).toBeInTheDocument()
+    expect(within(derivations).getByText('Derivan de ella')).toBeInTheDocument()
+    expect(within(derivations).getByRole('link', { name: 'Pathfinder 1E' })).toHaveAttribute(
+      'href',
+      '/rol/pathfinder-1e'
+    )
     expect(within(derivations).getAllByText(/a través de OGL 1\.0a/).length).toBeGreaterThan(0)
+    expect(screen.getByRole('heading', { level: 2, name: 'Libros' })).toBeInTheDocument()
+  })
+
+  it('/rol/dnd-3-5 lleva a la ficha de ediciones anteriores', () => {
+    renderAt('/rol/dnd-3-5')
+    expect(screen.getByRole('heading', { level: 1, name: 'D&D 3.5' })).toBeInTheDocument()
+    expect(screen.getByText('Derivan de ella')).toBeInTheDocument()
+  })
+
+  it('Pathfinder 1E enlaza a D&D 3.5 en ediciones anteriores', () => {
+    renderAt('/rol/pathfinder-1e')
+    expect(within(section('Derivaciones')).getByRole('link', { name: 'D&D 3.5' })).toHaveAttribute(
+      'href',
+      '/ediciones/dnd-3-5'
+    )
+  })
+
+  it('un sistema de otros juegos de rol no tiene ficha en ediciones anteriores', () => {
+    renderAt('/ediciones/pathfinder-2e')
+    expect(screen.getByText(/no encontrad/i)).toBeInTheDocument()
   })
 
   it('D&D 5E (2014) enlaza al catálogo oficial sin listar libros oficiales ni el aviso', () => {
@@ -66,13 +98,42 @@ describe('ficha de sistema', () => {
       ...index,
       systems: [
         ...index.systems,
-        { ...index.systems[0], slug: 'cerrado', name: 'Cerrado', family: 'cerrado', licenses: [] },
+        {
+          ...index.systems[0],
+          slug: 'cerrado',
+          name: 'Cerrado',
+          family: 'cerrado',
+          official: undefined,
+          licenses: [],
+        },
       ],
     })
     renderAt('/rol/cerrado')
     expect(
       within(section('Licencias abiertas')).getByText('No tiene licencia abierta.')
     ).toBeInTheDocument()
+    setRpgIndex(index)
+  })
+
+  it('un sistema NSR muestra su etiqueta enlazada a la explicación de los movimientos', () => {
+    const index = getRpgIndex()!
+    setRpgIndex({
+      ...index,
+      systems: [
+        ...index.systems,
+        {
+          ...index.systems[0],
+          slug: 'nsr-prueba',
+          name: 'NSR de prueba',
+          family: 'nsr-prueba',
+          official: undefined,
+          official_catalog: undefined,
+          movement: 'nsr',
+        },
+      ],
+    })
+    renderAt('/rol/nsr-prueba')
+    expect(screen.getByRole('link', { name: 'NSR' })).toHaveAttribute('href', '/rol#osr-y-nsr')
     setRpgIndex(index)
   })
 

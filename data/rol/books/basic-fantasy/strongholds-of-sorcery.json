@@ -1,0 +1,23 @@
+{
+  "slug": "strongholds-of-sorcery",
+  "system": "basic-fantasy",
+  "title": "Strongholds of Sorcery: The Glain Campaign",
+  "kind": "adventure",
+  "description": "Una serie de aventuras de nivel medio en las fortalezas de algunos de los magos más poderosos del mundo de Glain.\n\nPublicado por Basic Fantasy Project, escrito por Chris Gonnerman, Stuart Marshall, J.D. Neal, and Steve \"Longman\" McKenzie, con 134 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/514887/strongholds-of-sorcery-the-glain-campaign",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Basic Fantasy Project",
+      "date": "2025-04",
+      "format": "paperback",
+      "cover": "/images/rol/strongholds-of-sorcery/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/514887/strongholds-of-sorcery-the-glain-campaign"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "cormanthyr-empire-of-the-elves",
+  "system": "dnd-add2",
+  "title": "Cormanthyr: Empire of the Elves",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Un suplemento sobre Cormanthyr, el antiguo imperio de los elfos, y su capital Myth Drannor: su historia y su magia. Lo escribieron Steven E. Schend y Kevin Melka.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-aa.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/cormanthyr-empire-of-the-elves/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17550/cormanthyr-empire-of-the-elves-2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "marca-sangre-en-la-nieve",
+  "system": "aventuras-en-la-marca-del-este",
+  "title": "Sangre en la nieve",
+  "kind": "adventure",
+  "description": "Un módulo para personajes de nivel 2 que deben explorar los alrededores de un pueblo apartado en una región peligrosa y proteger la villa de los males que la acechan.\n\nPublicado en junio de 2022.",
+  "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30307-aventuras-en-la-marca-del-este-sangre-en-la-nieve.html",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "La Marca del Este",
+      "date": "2022-06",
+      "format": "paperback",
+      "source": "https://dracotienda.com/aventuras-en-la-marca-del-este/30307-aventuras-en-la-marca-del-este-sangre-en-la-nieve.html",
+      "cover": "/images/rol/marca-sangre-en-la-nieve/castellano.webp",
+      "free_download": "https://codexdelamarca.com/posts/b13-sangre-en-la-nieve/",
+      "purchase_links": [
+        {
+          "store": "tesoros_de_la_marca",
+          "url": "https://tesorosdelamarca.com/producto/sangre-en-la-nieve/"
+        }
+      ]
+    }
+  ]
+}

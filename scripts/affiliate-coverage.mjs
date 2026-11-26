@@ -82,13 +82,68 @@ check(
     .map((n) => [n.slug, storesOf(n.editions).has('amazon')])
 )
 
+// Cómics: cada tomo con ISBN (inglés o castellano) en Amazon; los de castellano, también en Casa
+// del Libro. Los tomos de varias series (collections.json) cuentan aparte, por su id
+const comicTomos = [
+  ...files('data/comics/*/*.json')
+    .map(read)
+    .flatMap((c) => (c.editions ?? []).map((e) => ({ owner: c.slug, ...e }))),
+  ...read(join(ROOT, 'data', 'comics', 'collections.json')).map((e) => ({ owner: e.id, ...e })),
+].filter((e) => e.format !== 'issue' && e.isbn13)
+check(
+  'comics',
+  'amazon',
+  comicTomos.map((e) => [`${e.owner} ${e.isbn13}`, storesOf([e]).has('amazon')])
+)
+check(
+  'comics',
+  'casa_del_libro',
+  comicTomos
+    .filter((e) => e.language === 'castellano')
+    .map((e) => [`${e.owner} ${e.isbn13}`, storesOf([e]).has('casa_del_libro')])
+)
+
 // Otros juegos de rol: Amazon en todos los libros; las tiendas españolas, en las ediciones en
-// castellano. NoSoloRol solo vende lo que publica Nosolorol
-const rpgBooks = files('data/rol/books/*/*.json').map(read)
+// castellano. NoSoloRol solo vende lo que publica Nosolorol. Los libros de las ediciones
+// anteriores de D&D (sistemas oficiales sin catálogo propio) están descatalogados: solo se
+// revisa DMsGuild, que vende sus PDF e impresiones bajo demanda
+const dndEditions = new Set(
+  files('data/rol/systems/*.json')
+    .map(read)
+    .filter((s) => s.official && !s.official_catalog)
+    .map((s) => s.slug)
+)
+const allRpgBooks = files('data/rol/books/*/*.json').map(read)
+check(
+  'ediciones',
+  'dmsguild',
+  allRpgBooks
+    .filter((b) => dndEditions.has(b.system))
+    .map((b) => [`${b.system}/${b.slug}`, storesOf(b.editions).has('dmsguild')])
+)
+const rpgBooks = allRpgBooks.filter((b) => !dndEditions.has(b.system))
+// Los juegos OSR y NSR se venden sobre todo en DriveThruRPG (PDF e impresión bajo demanda): allí
+// se revisan sus ediciones en inglés, y Amazon solo en el resto de la sección
+const movementSystems = new Set(
+  files('data/rol/systems/*.json')
+    .map(read)
+    .filter((s) => s.movement)
+    .map((s) => s.slug)
+)
 check(
   'otros juegos de rol',
   'amazon',
-  rpgBooks.map((b) => [b.slug, storesOf(b.editions).has('amazon')])
+  rpgBooks
+    .filter((b) => !movementSystems.has(b.system))
+    .map((b) => [b.slug, storesOf(b.editions).has('amazon')])
+)
+const englishOf = (b) => b.editions.filter((e) => e.language === 'english')
+check(
+  'otros juegos de rol',
+  'drivethrurpg',
+  rpgBooks
+    .filter((b) => movementSystems.has(b.system) && englishOf(b).length > 0)
+    .map((b) => [`${b.system}/${b.slug}`, storesOf(englishOf(b)).has('drivethrurpg')])
 )
 const spanishOf = (b, publisher) =>
   b.editions.filter((e) => e.language === 'castellano' && (!publisher || e.publisher === publisher))

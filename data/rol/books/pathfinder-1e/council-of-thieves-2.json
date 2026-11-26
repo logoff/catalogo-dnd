@@ -19,7 +19,14 @@
     {
       "language": "castellano",
       "title": "El concejo de ladrones 2: El juicio de las seis pruebas",
-      "publisher": "Devir"
+      "publisher": "Devir",
+      "cover": "/images/rol/council-of-thieves-2/castellano.webp",
+      "purchase_links": [
+        {
+          "store": "juegos_mesa_redonda",
+          "url": "https://juegosdelamesaredonda.com/4027-pathfinder-concejo-de-ladrones-2-el-juicio-de-las-6-pruebas-8436017223361.html"
+        }
+      ]
     }
   ]
 }

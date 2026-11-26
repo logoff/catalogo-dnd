@@ -1,0 +1,21 @@
+{
+  "slug": "la-isla-de-vyrr",
+  "system": "dnd-5e-2014",
+  "title": "La Isla de Vyrr",
+  "kind": "adventure",
+  "license": "none",
+  "description": "Campaña sandbox para la quinta edición, de Rolecat: los personajes llegan perdidos a una isla que tienen que explorar con libertad, en un libro de tapa dura de unas 400 páginas.\n\nSe juega con 5E o con otros juegos del SRD y de la OGL, con alguna conversión. Se financió en Verkami en marzo de 2019.",
+  "source": "https://www.verkami.com/projects/22783",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Rolecat",
+      "format": "hardcover",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/22783",
+        "end": "2019-03-13"
+      }
+    }
+  ]
+}

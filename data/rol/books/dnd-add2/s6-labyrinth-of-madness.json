@@ -1,0 +1,23 @@
+{
+  "slug": "s6-labyrinth-of-madness",
+  "system": "dnd-add2",
+  "title": "S6 Labyrinth of Madness",
+  "kind": "adventure",
+  "description": "Una aventura de la serie S, la de las aventuras especiales, para personajes de nivel alto en un laberinto de trampas.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-s.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1995",
+      "format": "paperback",
+      "cover": "/images/rol/s6-labyrinth-of-madness/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17327/s6-labyrinth-of-madness-2e"
+        }
+      ]
+    }
+  ]
+}

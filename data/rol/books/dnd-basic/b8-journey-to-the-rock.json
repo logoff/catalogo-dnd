@@ -1,0 +1,23 @@
+{
+  "slug": "b8-journey-to-the-rock",
+  "system": "dnd-basic",
+  "title": "B8 Journey to The Rock",
+  "kind": "adventure",
+  "description": "Una aventura en la naturaleza, con reglas para viajar por ella: un mago contrata a los personajes para descubrir el secreto de la Roca, y deben elegir entre tres rutas peligrosas para llegar. La escribió Michael Malone.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-b.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1984",
+      "format": "paperback",
+      "cover": "/images/rol/b8-journey-to-the-rock/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17109/b8-journey-to-the-rock-basic"
+        }
+      ]
+    }
+  ]
+}

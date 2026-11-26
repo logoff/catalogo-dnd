@@ -1,0 +1,23 @@
+{
+  "slug": "dcc-tome-of-adventure-2",
+  "system": "dungeon-crawl-classics",
+  "title": "Dungeon Crawl Classics Tome of Adventure Vol. 2",
+  "kind": "adventure",
+  "description": "Ocho aventuras de DCC en un volumen, de Harley Stroh, Michael Curtis y Daniel J. Bishop, con arte de Doug Kovacs y Stefan Poag, entre otros.\n\nPublicado por Goodman Games, escrito por Joseph Goodman, Harley Stroh, and others, con 219 páginas.",
+  "source": "https://www.drivethrurpg.com/en/product/506100/dungeon-crawl-classics-tome-of-adventure-vol-2",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Goodman Games",
+      "date": "2025-02",
+      "format": "hardcover",
+      "cover": "/images/rol/dcc-tome-of-adventure-2/english.webp",
+      "purchase_links": [
+        {
+          "store": "drivethrurpg",
+          "url": "https://www.drivethrurpg.com/en/product/506100/dungeon-crawl-classics-tome-of-adventure-vol-2"
+        }
+      ]
+    }
+  ]
+}

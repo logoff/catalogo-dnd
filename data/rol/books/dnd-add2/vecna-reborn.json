@@ -1,0 +1,24 @@
+{
+  "slug": "vecna-reborn",
+  "system": "dnd-add2",
+  "title": "Vecna Reborn",
+  "kind": "adventure",
+  "settings": ["ravenloft"],
+  "description": "Una aventura de Ravenloft en la que aparece Vecna, el liche convertido en semidiós. La escribió Monte Cook.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/rv/rv-adv.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1998",
+      "format": "paperback",
+      "cover": "/images/rol/vecna-reborn/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17523/vecna-reborn-2e"
+        }
+      ]
+    }
+  ]
+}

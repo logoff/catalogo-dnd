@@ -1,0 +1,16 @@
+{
+  "slug": "ref6-rogues-gallery",
+  "system": "dnd-add2",
+  "title": "REF6 Rogues' Gallery",
+  "kind": "supplement",
+  "description": "Un libro de referencia con cientos de personajes no jugadores de todas las clases listos para usar.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/add/add-ref-2e.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "cover": "/images/rol/ref6-rogues-gallery/english.webp"
+    }
+  ]
+}

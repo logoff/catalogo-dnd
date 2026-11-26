@@ -1,0 +1,24 @@
+{
+  "slug": "arcane-power",
+  "system": "dnd-4e",
+  "title": "Arcane Power",
+  "kind": "supplement",
+  "description": "Opciones para las clases arcanas: bardos, hechiceros, espadachines arcanos, brujos y magos, con variantes, poderes, dotes, sendas de leyenda, destinos épicos y rituales.\n\nForma parte de la serie Power. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Arcane_Power",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-04",
+      "format": "hardcover",
+      "isbn13": 9780786949571,
+      "cover": "/images/rol/arcane-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/143697/arcane-power-4e"
+        }
+      ]
+    }
+  ]
+}

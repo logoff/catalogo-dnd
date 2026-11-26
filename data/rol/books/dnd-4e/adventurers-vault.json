@@ -1,0 +1,34 @@
+{
+  "slug": "adventurers-vault",
+  "system": "dnd-4e",
+  "title": "Adventurer's Vault",
+  "kind": "supplement",
+  "description": "Cientos de objetos mágicos y equipo nuevos para todas las clases de la 4.ª edición: armas, armaduras, objetos maravillosos, consumibles, monturas y vehículos.\n\nDevir lo publicó en castellano.",
+  "source": "https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2008-09",
+      "format": "hardcover",
+      "isbn13": 9780786949786,
+      "cover": "/images/rol/adventurers-vault/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/110209/adventurer-s-vault-4e"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "La Bóveda de los Aventureros",
+      "publisher": "Devir",
+      "date": "2009-04",
+      "format": "hardcover",
+      "isbn13": 9788496934559,
+      "cover": "/images/rol/adventurers-vault/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/dungeons-and-dragons-la-boveda-de-los-aventureros_978-84-96934-55-9"
+    }
+  ]
+}

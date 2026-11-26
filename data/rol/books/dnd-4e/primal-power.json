@@ -1,0 +1,24 @@
+{
+  "slug": "primal-power",
+  "system": "dnd-4e",
+  "title": "Primal Power",
+  "kind": "supplement",
+  "description": "Opciones para las clases primigenias: bárbaros, druidas, chamanes y guardianes, con variantes, poderes, dotes, sendas de leyenda y destinos épicos de los héroes que sacan su fuerza de los espíritus de la naturaleza.\n\nForma parte de la serie Power. Solo salió en inglés.",
+  "source": "https://en.wikipedia.org/wiki/Primal_Power",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "Wizards of the Coast",
+      "date": "2009-10",
+      "format": "hardcover",
+      "isbn13": 9780786950232,
+      "cover": "/images/rol/primal-power/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/142736/primal-power-4e"
+        }
+      ]
+    }
+  ]
+}

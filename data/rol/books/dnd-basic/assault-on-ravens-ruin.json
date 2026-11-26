@@ -1,0 +1,23 @@
+{
+  "slug": "assault-on-ravens-ruin",
+  "system": "dnd-basic",
+  "title": "Assault on Raven's Ruin",
+  "kind": "adventure",
+  "description": "Una aventura corta para empezar a jugar con la caja de iniciación de 1991, ambientada en el valle de Thunder Rift. La escribió Tim Beach.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-entry.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1992",
+      "format": "paperback",
+      "cover": "/images/rol/assault-on-ravens-ruin/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17149/assault-on-raven-s-ruin-basic"
+        }
+      ]
+    }
+  ]
+}

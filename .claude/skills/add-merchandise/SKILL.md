@@ -1,6 +1,6 @@
 ---
 name: add-merchandise
-description: Añadir un artículo de merchandising oficial de D&D al catálogo (libros licenciados que no son de reglas, figuras y juguetes, juegos de mesa y cartas). Usa esta skill cuando el usuario quiera dar de alta merchandising, completar un artículo del inventario o rellenar un lote.
+description: Añadir un artículo de merchandising oficial de D&D al catálogo (libros licenciados que no son de reglas y librojuegos, figuras y juguetes, juegos de mesa y cartas, dados y accesorios de dados, y papelería y regalo). Usa esta skill cuando el usuario quiera dar de alta merchandising, completar un artículo del inventario o rellenar un lote.
 argument-hint: "[título o número del inventario]"
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch, WebSearch
 ---
@@ -21,8 +21,9 @@ entra según el alcance de `merchandise-records` (spec en
 
 - **Solo licencia oficial y desde 2014.** Nada de productos de fans ni
   imitaciones, aunque se vendan en Amazon con «D&D» en el título.
-- **Fuera:** libros de reglas, novelas y cómics, dados, ropa y
-  complementos.
+- **Fuera:** libros de reglas, novelas y cómics, ropa y complementos.
+  Tampoco lo que tiene forma de dado pero no es para tirar (figuras
+  sorpresa en un d20, copas, jarras).
 - **Nada inventado.** Cada dato sale de una fuente que se pueda citar.
   Si no se encuentra, el campo se omite. La fuente es la página oficial
   del fabricante o de Wizards (también su copia en el Internet Archive si
@@ -31,10 +32,14 @@ entra según el alcance de `merchandise-records` (spec en
   existe ninguna, vale la ficha del producto en Amazon o en un
   distribuidor.
 - **Todo lo que sale entra, aunque solo se venda en inglés:** así se ve
-  qué llega a España y qué no.
+  qué llega a España y qué no. **Excepción, los dados:** solo entran si
+  se pueden comprar en España al darlos de alta, con al menos un enlace
+  de compra (un test lo exige); lo oficial que no llega se anota en
+  «Pendiente de investigar» del inventario.
 - **Ediciones por idioma.** Una edición por idioma (`english`,
   `castellano`); los artículos sin texto (figuras, LEGO) llevan una
-  edición sin idioma. Cada edición en castellano lleva `spain`: `true`
+  edición sin idioma, igual que los dados (salvo los que traen cartas o
+  mapas con texto, como los «Dice & Miscellany» de Wizards). Cada edición en castellano lleva `spain`: `true`
   si se publicó en España, `false` si solo fuera (por ejemplo, las
   ediciones de DK en español para Estados Unidos).
 - **Una ficha por libro, por juego (las expansiones que se venden aparte
@@ -55,21 +60,46 @@ entra según el alcance de `merchandise-records` (spec en
 
 ## Grupos y tipos
 
-| Grupo (`group`) | Tipos (`kind`)                                                |
-| --------------- | ------------------------------------------------------------- |
-| `books`         | `cookbook`, `craft_book`, `art_book`, `guide_book`            |
-| `figures`       | `funko`, `lego`, `figure`, `plush`, `collectible_miniature`   |
-| `games`         | `board_game`, `card_game`                                     |
+| Grupo (`group`) | Tipos (`kind`)                                                 |
+| --------------- | -------------------------------------------------------------- |
+| `books`         | `cookbook`, `craft_book`, `art_book`, `guide_book`, `gamebook` |
+| `figures`       | `funko`, `lego`, `figure`, `plush`, `collectible_miniature`    |
+| `games`         | `board_game`, `card_game`                                      |
+| `dice`          | `dice_set`, `dice_accessory`, `advent_calendar`                |
+| `stationery`    | `journal`, `puzzle`, `stationery_gift`                         |
+
+En `dice`, `dice_set` son juegos de dados, dados sueltos y cajas o sobres
+sorpresa de dados; `dice_accessory`, bandejas, torres, lanzadores, bolsas
+y cajas para guardarlos, y `advent_calendar`, los calendarios de adviento
+de dados (uno por calendario).
+
+En `books`, las barajas de recetas son `cookbook`, los cuadernos de trabajo
+para rellenar, `guide_book`, y los librojuegos de «elige tu camino»
+(_Endless Quest_), `gamebook`: la sección de novelas no los recoge. En
+`stationery`, `journal` son diarios, cuadernos y sets de libretas; `puzzle`,
+puzles (las variantes de una misma línea, en una ficha con una edición por
+puzle), y `stationery_gift`, postales, pegatinas, barajas de tarot, pizarras
+y otros regalos de papelería.
+
+Si un producto anunciado aún no tiene portada en la editorial ni en Amazon,
+se deja como `pendiente` en el inventario con esa nota, sin imagen de
+relleno.
 
 ## Fuentes recomendadas
 
 - **Licencia, fecha y fabricante:** web del fabricante (Penguin Random
-  House, LEGO, Funko, Hasbro, WizKids…), Wizards y D&D Beyond.
+  House, LEGO, Funko, Hasbro, WizKids…), Wizards y D&D Beyond. Para dados:
+  FanRoll (`fanrolldice.com`), Sirius Dice (`siriusdice.com`), Ultra Pro
+  (`ultrapro.com`), las tres Shopify con `/products.json`, y Nemesis Now
+  (`nemesisnow.com/en/catalogsearch/result/?q=…`, en Chrome). FanRoll
+  limita las peticiones con curl: usar Chrome.
 - **Edición en castellano:** Planeta (Minotauro) para libros; DK en
   español; para juegos, catálogos de Hasbro España y distribuidoras.
 - **Enlace de Amazon e imagen:** `https://www.amazon.es/dp/<código>/`.
   La búsqueda de Amazon.es da el código, y la imagen principal sale del
-  atributo `data-old-hires` de la página del producto.
+  atributo `data-old-hires` de la página del producto. Los dados casi solo
+  se venden en Amazon.es, a través de vendedores externos; Juegos de la
+  Mesa Redonda y Generación X apenas tienen (revisado el 2026-11-24).
 
 Comprueba con `curl` que las URLs de compra responden y que el título de
 la página corresponde al producto (y al idioma: hay ediciones francesas y

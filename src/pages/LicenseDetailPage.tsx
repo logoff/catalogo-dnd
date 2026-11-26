@@ -6,7 +6,7 @@ import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
 import { cardClass } from '@/components/ui/styles'
 import { BookList, RpgLoading, RpgPage } from '@/components/rpg/RpgSection'
 import { useRpgIndex } from '@/hooks/useRpgData'
-import { relatedLicenses, systemsUsing } from '@/utils/rpg'
+import { relatedLicenses, rolSection, systemPath, systemsUsing } from '@/utils/rpg'
 import { licenseKindNames, licenseLabel } from '@/utils/rpgTranslations'
 import { formatPartialDate } from '@/utils/videogameTranslations'
 import NotFoundPage from './NotFoundPage'
@@ -21,7 +21,10 @@ export default function LicenseDetailPage() {
 
   const related = relatedLicenses(index.licenses, license)
   const systems = systemsUsing(index.systems, license.slug)
-  const books = index.books.filter((book) => book.licenses.includes(license.slug))
+  // Los libros de las ediciones anteriores de D&D se ven en la ficha de su edición
+  const books = rolSection(index.systems, index.books).books.filter((book) =>
+    book.licenses.includes(license.slug)
+  )
   const paragraphs = license.description.split('\n\n')
 
   return (
@@ -137,7 +140,7 @@ export default function LicenseDetailPage() {
                   const use = system.licenses.find((l) => l.license === license.slug)!
                   return (
                     <li key={system.slug}>
-                      <Link to={`/rol/${system.slug}`} className={cardClass(true, 'h-full p-4')}>
+                      <Link to={systemPath(system)} className={cardClass(true, 'h-full p-4')}>
                         <span className="text-lg font-medium text-fg">{system.name}</span>
                         <span className="text-sm text-muted">
                           {system.publisher} · {system.date.slice(0, 4)}

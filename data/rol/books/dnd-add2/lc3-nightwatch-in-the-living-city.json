@@ -1,0 +1,24 @@
+{
+  "slug": "lc3-nightwatch-in-the-living-city",
+  "system": "dnd-add2",
+  "title": "LC3 Nightwatch in the Living City",
+  "kind": "setting",
+  "settings": ["forgotten_realms"],
+  "description": "Una aventura de la Ciudad Viva: los personajes se unen a la guardia nocturna de Ravens Bluff en busca de fama y fortuna. La escribieron Walt Baas y Kira Glass.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/fr/fr-lc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1991",
+      "format": "paperback",
+      "cover": "/images/rol/lc3-nightwatch-in-the-living-city/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/16826/lc3-night-watch-in-the-living-city-2e"
+        }
+      ]
+    }
+  ]
+}

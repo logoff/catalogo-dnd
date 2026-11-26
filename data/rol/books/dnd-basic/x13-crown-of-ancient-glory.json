@@ -1,0 +1,23 @@
+{
+  "slug": "x13-crown-of-ancient-glory",
+  "system": "dnd-basic",
+  "title": "X13 Crown of Ancient Glory",
+  "kind": "adventure",
+  "description": "Una aventura en Vestland: tras la muerte del gran rey, los personajes buscan al heredero perdido y la sagrada corona de Sonora para unir el reino antes de la invasión de Ethengar. Incluye los planos de un drakkar. La escribió Stephen Bourne.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/dd/dd2-x.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/x13-crown-of-ancient-glory/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17139/x13-crown-of-ancient-glory-basic"
+        }
+      ]
+    }
+  ]
+}

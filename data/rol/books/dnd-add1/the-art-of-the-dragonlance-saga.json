@@ -1,0 +1,33 @@
+{
+  "slug": "the-art-of-the-dragonlance-saga",
+  "system": "dnd-add1",
+  "title": "The Art of the Dragonlance Saga",
+  "kind": "setting",
+  "settings": ["dragonlance"],
+  "description": "Un libro de arte con las ilustraciones de Dragonlance de los artistas de TSR, como Larry Elmore, Keith Parkinson o Jeff Easley. Lo editó Mary Kirchoff.\n\nEdición en castellano de Timun Mas.",
+  "source": "https://www.tsrarchive.com/dl/dl-acc.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1987",
+      "format": "paperback",
+      "cover": "/images/rol/the-art-of-the-dragonlance-saga/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17389/the-art-of-the-dragonlance-saga"
+        }
+      ]
+    },
+    {
+      "language": "castellano",
+      "title": "El Gran Libro de la Dragonlance",
+      "publisher": "Timun Mas",
+      "date": "1990",
+      "format": "hardcover",
+      "cover": "/images/rol/the-art-of-the-dragonlance-saga/castellano.webp",
+      "source": "https://www.tsrarchive.com/in/sp/sp-dl-acc.html"
+    }
+  ]
+}

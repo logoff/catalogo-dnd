@@ -1,0 +1,24 @@
+{
+  "slug": "sjr1-lost-ships",
+  "system": "dnd-add2",
+  "title": "SJR1 Lost Ships",
+  "kind": "setting",
+  "settings": ["spelljammer"],
+  "description": "Un suplemento de Spelljammer sobre una región del espacio donde se juntan naves abandonadas y criaturas extrañas. Lo escribió Ed Greenwood.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/sj/sj-sjr.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/sjr1-lost-ships/english.webp",
+      "purchase_links": [
+        {
+          "store": "dmsguild",
+          "url": "https://www.dmsguild.com/en/product/17252/sjr1-lost-ships-2e"
+        }
+      ]
+    }
+  ]
+}

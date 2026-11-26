@@ -1,0 +1,18 @@
+{
+  "slug": "lna2-nehwon",
+  "system": "dnd-add2",
+  "title": "LNA2 Nehwon",
+  "kind": "adventure",
+  "settings": ["lankhmar"],
+  "description": "Un suplemento de Lankhmar sobre Nehwon, el mundo de Fafhrd y el Ratonero Gris. Lo escribió Blake Mobley.\n\nSolo salió en inglés.",
+  "source": "https://www.tsrarchive.com/lm/lm-lna.html",
+  "editions": [
+    {
+      "language": "english",
+      "publisher": "TSR",
+      "date": "1990",
+      "format": "paperback",
+      "cover": "/images/rol/lna2-nehwon/english.webp"
+    }
+  ]
+}
