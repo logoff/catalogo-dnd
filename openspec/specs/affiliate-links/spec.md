@@ -14,9 +14,9 @@ aceptado o que no tengan programa (Steam, GOG mientras no se acepte):
 Amazon y Casa del Libro en libros de rol, merchandising, novelas, cómics y
 otros juegos de rol; Nextory en las novelas que tenga en su catálogo; Juegos
 de la Mesa Redonda en libros de rol y otros juegos de rol; NoSoloRol en otros
-juegos de rol; Amazon e Instant Gaming en videojuegos. Los programas
-rechazados (Fnac, Green Man Gaming, Humble Bundle, Eneba) no SHALL tener
-enlaces.
+juegos de rol; Amazon e Instant Gaming en videojuegos; Amazon en las
+ediciones físicas de cine y series. Los programas rechazados (Fnac, Green Man
+Gaming, Humble Bundle, Eneba) no SHALL tener enlaces.
 
 #### Scenario: Libro de rol en castellano en Casa del Libro
 
@@ -42,6 +42,12 @@ enlaces.
 - **WHEN** un dato guarda un enlace a una tienda que no está en el
   esquema
 - **THEN** los tests del proyecto fallan
+
+#### Scenario: Plataforma de streaming sin programa aceptado
+
+- **WHEN** una obra de cine y series se puede ver en una plataforma de
+  streaming cuyo programa de afiliados no está aceptado
+- **THEN** su ficha no enlaza a esa plataforma
 
 ### Requirement: Cobertura de enlaces
 
