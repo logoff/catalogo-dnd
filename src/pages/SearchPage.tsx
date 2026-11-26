@@ -12,6 +12,7 @@ import { useSearchQuery, useSiteSearchInput } from '@/hooks/useSiteSearchInput'
 import { getAllProducts } from '@/services/dataLoader'
 import { getAllVideogames } from '@/services/videogameLoader'
 import { getAllMerchandise } from '@/services/merchandiseLoader'
+import { getAllScreenWorks } from '@/services/screenLoader'
 import { getNovelIndex, loadNovelIndex } from '@/services/novelLoader'
 import { getComicIndex, loadComicIndex } from '@/services/comicLoader'
 import { getRpgIndex, loadRpgIndex } from '@/services/rpgLoader'
@@ -26,6 +27,7 @@ import {
   videogameEntries,
   type SearchEntry,
   type SearchGroup,
+  screenEntries,
 } from '@/utils/siteSearch'
 
 // Resultados que se ven de entrada en cada grupo
@@ -34,11 +36,12 @@ export const GROUP_PREVIEW = 8
 // Para saber si ya se ha hidratado: en el servidor y al hidratar devuelve false, después true
 const noSubscription = () => () => {}
 
-// Libros, videojuegos y merchandising están siempre en memoria
+// Libros, videojuegos, merchandising y cine y series están siempre en memoria
 const inMemory = (): SearchEntry[] => [
   ...productEntries(getAllProducts()),
   ...videogameEntries(getAllVideogames()),
   ...merchandiseEntries(getAllMerchandise()),
+  ...screenEntries(getAllScreenWorks()),
 ]
 
 function ResultRow({ entry }: { entry: SearchEntry }) {

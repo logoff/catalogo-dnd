@@ -5,12 +5,14 @@ import rpgIndex from 'virtual:rpg-index'
 import { getAllProducts } from '@/services/dataLoader'
 import { getAllVideogames } from '@/services/videogameLoader'
 import { getAllMerchandise } from '@/services/merchandiseLoader'
+import { getAllScreenWorks } from '@/services/screenLoader'
 import {
   comicEntries,
   merchandiseEntries,
   novelEntries,
   productEntries,
   rpgEntries,
+  screenEntries,
   SEARCH_SECTIONS,
   searchSite,
   videogameEntries,
@@ -24,6 +26,7 @@ const entries: SearchEntry[] = [
   ...novelEntries(novelsIndex.novels),
   ...comicEntries(comicsIndex),
   ...rpgEntries(rpgIndex),
+  ...screenEntries(getAllScreenWorks()),
 ]
 
 const group = (query: string, section: string) =>
@@ -43,6 +46,17 @@ describe('searchSite', () => {
     expect(paths('pathfinder 2e', 'rpg')).toContain('/rol/pathfinder-2e')
     expect(group('pathfinder', 'rpg').length).toBeGreaterThan(10)
     expect(paths('open game license', 'licenses').length).toBeGreaterThan(0)
+  })
+
+  it('encuentra películas y series por su título original, en castellano o por su serie', () => {
+    const path = '/cine-y-series/dungeons-and-dragons-honor-among-thieves'
+    expect(paths('honor among thieves', 'screen')).toContain(path)
+    expect(paths('HONOR ENTRE LADRONES', 'screen')).toContain(path)
+    expect(paths('secret level', 'screen')).toContain(
+      '/cine-y-series/secret-level-the-queens-cradle'
+    )
+    const vox = group('vox machina', 'screen')[0]
+    expect(vox.detail).toBe('Serie · 2022– · No oficial')
   })
 
   it('pone los libros de las ediciones anteriores en su grupo', () => {
