@@ -1,0 +1,36 @@
+{
+  "slug": "the-legend-of-vox-machina",
+  "kind": "series",
+  "official": false,
+  "unofficial_reason": "Serie de Critical Role sin licencia de D&D. Adapta la primera campaña de D&D que jugaron sus creadores.",
+  "title": "The Legend of Vox Machina",
+  "title_es": "La leyenda de Vox Machina",
+  "description": "Vox Machina es un grupo de mercenarios con más deudas que principios que acaba salvando el reino de Tal'Dorei de amenazas cada vez mayores, desde una pareja de vampiros que se ha hecho con una ciudad hasta una alianza de dragones cromáticos.\n\nSerie de animación para adultos de Prime Video, estrenada en 2022 y basada en la primera campaña que el grupo Critical Role jugó y emitió en directo. Tiene humor grueso y mucha violencia.",
+  "status": "released",
+  "series": {
+    "start_year": 2022,
+    "seasons": 4
+  },
+  "releases": [
+    {
+      "country": "us",
+      "medium": "streaming",
+      "date": "2022-01-28",
+      "network": "Prime Video"
+    }
+  ],
+  "trailers": [
+    {
+      "youtube": "btf_uj2FPrE",
+      "language": "en",
+      "title": "The Legend of Vox Machina - Official Trailer",
+      "channel": "Prime Video AU & NZ",
+      "date": "2022-01-23"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt11247158/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film138195.html",
+    "wikidata": "Q108881587"
+  }
+}

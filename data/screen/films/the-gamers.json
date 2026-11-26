@@ -1,0 +1,29 @@
+{
+  "slug": "the-gamers",
+  "kind": "film",
+  "official": false,
+  "unofficial_reason": "Producción independiente de Dead Gentlemen sin licencia de Wizards of the Coast; parodia una partida de rol al estilo de D&D.",
+  "title": "The Gamers",
+  "description": "Un grupo de aventureros cumple una misión que se tuerce a cada paso, y la película salta una y otra vez a la mesa donde unos estudiantes juegan esa partida, para mostrar de dónde salen sus absurdos: tiradas desastrosas, reglas mal entendidas y jugadores que no prestan atención.\n\nMediometraje de 2002 de Dead Gentlemen Productions, hecho con muy pocos medios, que se convirtió en un clásico de culto entre los jugadores de rol y dio pie a dos secuelas.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "us",
+      "medium": "home_video",
+      "date": "2002",
+      "network": "Dead Gentlemen Productions"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0369445/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film692602.html",
+    "wikidata": "Q675682"
+  },
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/the-gamers/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Gamer%27s_Cover_2.jpg"
+    }
+  ]
+}

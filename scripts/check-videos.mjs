@@ -1,7 +1,9 @@
-// Comprueba con el oEmbed de YouTube (sin clave de API) que los vídeos de las fichas siguen
-// disponibles, se pueden empotrar y son del canal anotado. Solo avisa: termina siempre con
-// código 0 para no bloquear la build. En GitHub Actions los avisos salen como anotaciones.
+// Comprueba con el oEmbed de YouTube (sin clave de API) que los vídeos de los videojuegos y los
+// tráileres de cine y series siguen disponibles, se pueden empotrar y son del canal anotado.
+// Solo avisa: termina siempre con código 0 para no bloquear la build. En GitHub Actions los
+// avisos salen como anotaciones.
 import { allVideos } from './videogames.mjs'
+import { allTrailers } from './screen.mjs'
 
 const inActions = process.env.GITHUB_ACTIONS === 'true'
 
@@ -31,7 +33,7 @@ async function check({ file, video }) {
   return true
 }
 
-const videos = allVideos()
+const videos = [...allVideos(), ...allTrailers()]
 let problems = 0
 
 try {

@@ -1,3 +1,4 @@
+import { getAllScreenWorks } from '@/services/screenLoader'
 import { describe, it, expect } from 'vitest'
 import { render, screen, within } from '@testing-library/react'
 import { latestInSpanish, productPath } from '@/utils/releases'
@@ -142,6 +143,31 @@ describe('portada', () => {
           .some((l) => l.getAttribute('href') === href)
       ).toBe(true)
     }
+  })
+})
+
+describe('acceso a cine y series', () => {
+  it('la portada enlaza a la sección con el número de obras', () => {
+    render(
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>
+    )
+    const card = screen.getByRole('link', { name: /Cine y series/ })
+    expect(card).toHaveAttribute('href', '/cine-y-series')
+    expect(within(card).getByText(String(getAllScreenWorks().length))).toBeInTheDocument()
+  })
+
+  it('la cabecera enlaza a la sección', () => {
+    render(
+      <MemoryRouter>
+        <Header />
+      </MemoryRouter>
+    )
+    expect(screen.getAllByRole('link', { name: 'Cine y series' })[0]).toHaveAttribute(
+      'href',
+      '/cine-y-series'
+    )
   })
 })
 

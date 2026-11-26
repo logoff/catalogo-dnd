@@ -8,7 +8,8 @@ para trabajar con el código de este repositorio.
 Catálogo en castellano de libros y accesorios de Dungeons & Dragons
 para las ediciones 5E (2014) y 5.5E (2024), de todos los videojuegos
 oficiales de D&D, del merchandising con licencia, de las novelas
-oficiales y de otros juegos de rol de la familia de D&D con sus licencias
+oficiales, de las películas y series (oficiales y, aparte, no oficiales)
+y de otros juegos de rol de la familia de D&D con sus licencias
 abiertas (sección separada de lo oficial). Se despliega en Cloudflare Pages en
 <https://catalogodnd.es/>.
 
@@ -32,7 +33,7 @@ recetas disponibles.
   fechas futuras, sin edición en castellano). La skill `novedades` parte
   de aquí para buscar información nueva
 - `just video-thumbnails` — Descarga las miniaturas que falten de los
-  vídeos de los videojuegos
+  vídeos de los videojuegos y los tráileres de cine y series
 - `just affiliate-coverage` — Lista las fichas sin enlace a las tiendas
   de afiliados aceptadas (excepciones en `data/affiliate-exceptions.json`)
 - `just check-videos` — Avisa de vídeos retirados, no empotrables o de
@@ -47,6 +48,9 @@ recetas disponibles.
   ediciones de una novela, las convierte a WebP con miniatura y las anota
   en su ficha (`--openlibrary` para las que falten, `--series <id>` para
   los recopilatorios)
+- `just screen-posters <slug> --source <página> <idioma>=<url>…` — Descarga
+  los carteles de una película o serie (`en`, `es` o `pt`), los convierte a
+  WebP con miniatura y los anota en su ficha
 - `just screenshots <slug> --steam` — Descarga capturas oficiales de un
   videojuego, las convierte a WebP y las anota en su ficha (`--source
 <página> <url>…` para GOG, webs oficiales o kits de prensa)
@@ -157,6 +161,24 @@ novelas en castellano se generan desde el índice; el orden de cada una
 está en `data/novels/reading-orders.json` (series enteras o novelas
 sueltas).
 
+**Cine y series:** películas, series, documentales y episodios sueltos
+de D&D. Cada obra es un JSON en `data/screen/<tipo>/<slug>.json` (tipos
+`films`, `series`, `documentaries`, `episodes`; esquema
+`data/schemas/screen.jsonschema`), oficial (licencia de TSR, Wizards o
+Hasbro) o no oficial (sin licencia pero con D&D como tema principal, con
+`unofficial_reason`). Lleva sinopsis propia, estrenos por país y medio,
+ediciones físicas en España (solo Amazon), hasta dos carteles
+(`poster-<idioma>.webp` en `public/images/screen/<slug>/`), hasta tres
+tráileres de canales oficiales con su idioma (mismo reproductor y
+miniaturas locales que los videojuegos, `src/components/common/YouTubeVideo.tsx`)
+y enlaces a IMDb y FilmAffinity. Las relaciones con novelas,
+merchandising y videojuegos solo se guardan en la ficha de la obra;
+`screenLoader.ts` calcula el sentido inverso. Va en el bundle principal.
+`data/screen/inventory.md` es la lista maestra (un test exige que cada
+ficha esté en ella y al revés). Para dar de alta obras, usar la skill
+`add-screen`. Prime Video y otras plataformas solo se enlazan si se acepta
+su programa de afiliados.
+
 **Otros juegos de rol:** juegos de la familia de D&D que no son de
 Wizards (los que derivan de D&D o usan sus licencias abiertas, y grandes
 de fantasía como Daggerheart) y libros de otras editoriales para 5E,
@@ -182,8 +204,8 @@ que cada ficha esté en ella y al revés). Para dar de alta, usar la skill
 de edición con categoría opcional), `/producto/:edition/:code` (detalle
 de producto), `/videojuegos` (listado), `/videojuego/:slug` (ficha), `/merchandising`
 (listado), `/merchandising/:slug` (ficha), `/novelas` (listado, con
-`?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/rol` (otros juegos de
-rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/licencias` y
+`?mundo=` y `?serie=`), `/novela/:slug` (ficha), `/cine-y-series`
+(listado), `/cine-y-series/:slug` (ficha), `/rol` (otros juegos de rol), `/rol/:sistema` y `/rol/:sistema/:libro` (fichas), `/licencias` y
 `/licencia/:slug`.
 
 **Tiendas y afiliados:** `src/utils/stores.ts` resuelve el enlace de

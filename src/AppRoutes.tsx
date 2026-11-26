@@ -10,6 +10,8 @@ import MerchandisePage from './pages/MerchandisePage'
 import MerchandiseDetailPage from './pages/MerchandiseDetailPage'
 import NovelsPage from './pages/NovelsPage'
 import NovelDetailPage from './pages/NovelDetailPage'
+import ScreenPage from './pages/ScreenPage'
+import ScreenDetailPage from './pages/ScreenDetailPage'
 import LicensesPage from './pages/LicensesPage'
 import RpgSectionPage from './pages/RpgSectionPage'
 import RpgSystemPage from './pages/RpgSystemPage'
@@ -46,6 +48,8 @@ export default function AppRoutes() {
         <Route path="merchandising/:slug" element={<MerchandiseDetailPage />} />
         <Route path="novelas" element={<NovelsPage />} />
         <Route path="novela/:slug" element={<NovelDetailPage />} />
+        <Route path="cine-y-series" element={<ScreenPage />} />
+        <Route path="cine-y-series/:slug" element={<ScreenDetailPage />} />
         <Route path="rol" element={<RpgSectionPage />} />
         <Route path="rol/:system" element={<RpgSystemPage />} />
         <Route path="rol/:system/:book" element={<RpgBookPage />} />

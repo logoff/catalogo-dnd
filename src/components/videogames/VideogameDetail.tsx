@@ -20,7 +20,7 @@ import SpanishBadge from './SpanishBadge'
 import ReleaseTable from './ReleaseTable'
 import ReviewScore from './ReviewScore'
 import PurchaseByPlatform from './PurchaseByPlatform'
-import YouTubeVideo from './YouTubeVideo'
+import YouTubeVideo from '@/components/common/YouTubeVideo'
 import ScreenshotGallery from './ScreenshotGallery'
 
 interface VideogameDetailProps {

@@ -38,6 +38,7 @@ const sectionLinks: NavItem[] = [
   { to: '/videojuegos', label: 'Videojuegos' },
   { to: '/merchandising', label: 'Merchandising' },
   { to: '/novelas', label: 'Novelas' },
+  { to: '/cine-y-series', label: 'Cine y series' },
   { to: '/rol', label: 'Otros juegos de rol' },
   { to: '/guias', label: 'Guías' },
 ]

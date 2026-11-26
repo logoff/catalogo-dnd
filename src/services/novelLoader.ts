@@ -103,13 +103,15 @@ export async function loadNovel(slug: string): Promise<NovelWithMeta | undefined
 }
 
 // Carga lo que necesita la página de la ruta para pintar lo mismo que el HTML prerenderizado.
-// La ficha también usa el índice, para la lista de su serie.
+// La ficha también usa el índice, para la lista de su serie, y las fichas de cine y series, para
+// los títulos de sus novelas relacionadas.
 export async function preloadNovelRoute(pathname: string): Promise<void> {
   const detail = pathname.match(/^\/novela\/([^/]+)\/?$/)
   if (detail) {
     await Promise.all([loadNovelIndex(), loadNovel(decodeURIComponent(detail[1]))])
   } else if (
     /^\/novelas\/?$/.test(pathname) ||
+    /^\/cine-y-series\/[^/]+\/?$/.test(pathname) ||
     /^\/guias\/(orden-de-lectura-[^/]+|novelas-en-castellano)\/?$/.test(pathname)
   ) {
     await loadNovelIndex()

@@ -1,0 +1,43 @@
+{
+  "slug": "dungeons-and-dragons-2000",
+  "kind": "film",
+  "official": true,
+  "title": "Dungeons & Dragons",
+  "title_es": "Dragones y mazmorras",
+  "description": "En el imperio de Izmer, la joven emperatriz Savina quiere acabar con el dominio de los magos sobre el pueblo llano, y el ambicioso mago Profion busca el cetro que controla a los dragones rojos para quitarle el trono. Dos ladrones de poca monta, una aprendiz de maga, un enano y una rastreadora elfa se ven metidos en la carrera por encontrarlo antes que él.\n\nPrimera película de D&D en acción real, dirigida por Courtney Solomon y estrenada por New Line Cinema, con Jeremy Irons como villano. Fue un fracaso de crítica y de taquilla, pero tuvo dos secuelas para televisión y vídeo. Tiene novelización en el catálogo.",
+  "status": "released",
+  "releases": [
+    { "country": "us", "medium": "cinema", "date": "2000-12-08", "network": "New Line Cinema" },
+    { "country": "es", "medium": "cinema", "date": "2001-04-06" }
+  ],
+  "physical_editions": [
+    {
+      "format": "dvd",
+      "year": 2005,
+      "spanish_audio": true,
+      "spanish_subtitles": true,
+      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/B0053C85M0/" }]
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0190374/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film231926.html",
+    "wikidata": "Q1265779"
+  },
+  "related_novels": [
+    "dungeons-and-dragons-the-movie",
+    "dungeons-and-dragons-the-movie-young-adult"
+  ],
+  "posters": [
+    {
+      "language": "es",
+      "image": "/images/screen/dungeons-and-dragons-2000/poster-es.webp",
+      "source": "https://www.sensacine.com/peliculas/pelicula-27922/"
+    },
+    {
+      "language": "en",
+      "image": "/images/screen/dungeons-and-dragons-2000/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Dungeons_and_dragons_poster.jpg"
+    }
+  ]
+}

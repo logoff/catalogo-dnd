@@ -106,6 +106,19 @@ for (const [store, publisher] of [
   )
 }
 
+// Cine y series: Amazon en cada edición física editada en España (DVD, Blu-ray o 4K)
+const screenWorks = files('data/screen/*/*.json').map(read)
+check(
+  'cine y series',
+  'amazon',
+  screenWorks.flatMap((w) =>
+    (w.physical_editions ?? []).map((e) => [
+      `${w.slug} ${e.format}${e.title ? ` (${e.title})` : ''}`,
+      storesOf([e]).has('amazon'),
+    ])
+  )
+)
+
 const report = checks.map(({ section, store, entries }) => {
   const known = exceptions[section]?.[store] ?? {}
   const missing = entries.filter(([id, has]) => !has && !(id in known)).map(([id]) => id)

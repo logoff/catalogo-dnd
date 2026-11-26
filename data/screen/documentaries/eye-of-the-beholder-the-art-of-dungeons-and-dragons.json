@@ -1,0 +1,21 @@
+{
+  "slug": "eye-of-the-beholder-the-art-of-dungeons-and-dragons",
+  "kind": "documentary",
+  "official": false,
+  "unofficial_reason": "Documental independiente sin licencia de Wizards of the Coast sobre los ilustradores de D&D.",
+  "title": "Eye of the Beholder: The Art of Dungeons & Dragons",
+  "description": "Repasa la historia de las ilustraciones de D&D a través de los artistas que pintaron las portadas y las láminas de los libros de TSR, que definieron cómo se imaginaban el juego varias generaciones de jugadores.\n\nDocumental de 2019 de Kelley Slagle y Brian Stillman. Es para quien se acuerda de las portadas de los manuales antiguos.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "us",
+      "medium": "home_video",
+      "date": "2019"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt8888186/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film349893.html",
+    "wikidata": "Q120385353"
+  }
+}

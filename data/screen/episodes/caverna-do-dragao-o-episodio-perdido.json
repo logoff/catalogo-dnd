@@ -1,0 +1,33 @@
+{
+  "slug": "caverna-do-dragao-o-episodio-perdido",
+  "kind": "episode",
+  "official": true,
+  "title": "Caverna do Dragão: O Episódio Perdido",
+  "parent_series": "Dungeons & Dragons (1983)",
+  "description": "Episodio final de la serie de animación de 1983, que nunca llegó a rodarse en su época, hecho cuarenta años después en stop motion para dar a los seis protagonistas el cierre que muchos espectadores esperaban.\n\nLo produjeron Ogilvy Brasil y Hasbro con el estudio Os Bonequinhos y las voces del doblaje brasileño original, y se estrenó gratis en el canal de YouTube de Jovem Nerd en diciembre de 2024. Está en portugués y dura unos quince minutos.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "br",
+      "medium": "streaming",
+      "date": "2024-12-13",
+      "network": "YouTube (Jovem Nerd)"
+    }
+  ],
+  "trailers": [
+    {
+      "youtube": "m_mFdMVKHTs",
+      "language": "pt",
+      "title": "Caverna do Dragão: O Episódio Perdido",
+      "channel": "Jovem Nerd",
+      "date": "2024-12-13"
+    },
+    {
+      "youtube": "tQKDkURQ4Ko",
+      "language": "pt",
+      "title": "Trailer: Caverna do Dragão - O Episódio Perdido em stop motion",
+      "channel": "Os Bonequinhos",
+      "date": "2024-12-07"
+    }
+  ]
+}

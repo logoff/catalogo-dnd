@@ -16,6 +16,7 @@ import { cardClass } from '@/components/ui/styles'
 import { latestInSpanish } from '@/utils/releases'
 import novelsLatest from 'virtual:novels-latest'
 import rpgStats from 'virtual:rpg-stats'
+import { getAllScreenWorks } from '@/services/screenLoader'
 
 const container = 'mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'
 
@@ -99,8 +100,8 @@ export default function HomePage() {
             Catálogo de Dungeons &amp; Dragons
           </h1>
           <p className="text-lg text-muted">
-            Libros de 5E (2014) y 5.5E (2024), videojuegos, merchandising y novelas oficiales: qué
-            hay en castellano, cuándo salió y dónde comprarlo.
+            Libros de 5E (2014) y 5.5E (2024), videojuegos, cine y series, merchandising y novelas:
+            qué hay en castellano, cuándo salió y dónde comprarlo.
           </p>
           <div className="mt-2 max-w-xl">
             <SearchBar size="lg" />
@@ -139,6 +140,12 @@ export default function HomePage() {
             title="Novelas"
             description="Las novelas oficiales desde 1978, en inglés y en castellano."
             count={novelsLatest.total}
+          />
+          <SectionCard
+            to="/cine-y-series"
+            title="Cine y series"
+            description="Películas, series y documentales de D&D, con sus estrenos en España y aparte las obras no oficiales."
+            count={getAllScreenWorks().length}
           />
           <SectionCard
             to="/rol"

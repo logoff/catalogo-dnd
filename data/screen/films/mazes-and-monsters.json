@@ -1,0 +1,23 @@
+{
+  "slug": "mazes-and-monsters",
+  "kind": "film",
+  "official": false,
+  "unofficial_reason": "Telefilme sin licencia: el juego de la película es una imitación de D&D, y su tema es el miedo de los años ochenta a los juegos de rol.",
+  "title": "Mazes and Monsters",
+  "title_es": "El umbral del juego",
+  "description": "Cuatro universitarios juegan a Mazes and Monsters, un juego de rol de fantasía, y deciden llevar su partida a unas cuevas reales. Allí uno de ellos, Robbie, empieza a confundir el juego con la realidad y desaparece convencido de que es su personaje.\n\nTelefilme de la CBS de 1982 con un joven Tom Hanks, basado en una novela inspirada en un caso real que la prensa relacionó con D&D. Es un documento del pánico moral de la época hacia los juegos de rol.",
+  "status": "released",
+  "releases": [{ "country": "us", "medium": "tv", "date": "1982-12-28", "network": "CBS" }],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0084314/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film714925.html",
+    "wikidata": "Q520191"
+  },
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/mazes-and-monsters/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:MazesMonstersVHSCover.jpg"
+    }
+  ]
+}

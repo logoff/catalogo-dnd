@@ -20,9 +20,26 @@ function fullDate(date) {
 
 const productPath = (product, folder) => `/producto/${folder}/${(product.code ?? '').toLowerCase()}`
 
-// Una entrada por cada edición con fecha: libros oficiales, videojuegos, merchandising, novelas y
-// otros juegos de rol
-export function feedEntries({ products, videogames, merchandise, novels, rpgBooks }, today) {
+const SCREEN_KINDS = {
+  film: 'Película',
+  series: 'Serie',
+  documentary: 'Documental',
+  episode: 'Episodio',
+}
+const SCREEN_MEDIA = {
+  cinema: 'en cines',
+  tv: 'en televisión',
+  streaming: 'en streaming',
+  home_video: 'en vídeo',
+}
+const SCREEN_COUNTRIES = { us: 'en EE. UU.', es: 'en España' }
+
+// Una entrada por cada edición con fecha: libros oficiales, videojuegos, merchandising, novelas,
+// cine y series y otros juegos de rol
+export function feedEntries(
+  { products, videogames, merchandise, novels, rpgBooks, screenWorks = [] },
+  today
+) {
   const entries = []
   const add = (date, entry) => {
     const day = fullDate(date)
@@ -71,6 +88,17 @@ export function feedEntries({ products, videogames, merchandise, novels, rpgBook
       })
     }
   }
+  for (const work of screenWorks) {
+    for (const release of work.releases ?? []) {
+      const where = [SCREEN_MEDIA[release.medium], SCREEN_COUNTRIES[release.country]]
+      add(release.date, {
+        title: `${work.title_es ?? work.title} se estrena ${where.filter(Boolean).join(' ')}`,
+        summary: `${SCREEN_KINDS[work.kind]} ${work.official ? 'oficial' : 'no oficial'} de D&D.`,
+        path: `/cine-y-series/${work.slug}`,
+        key: `${release.country}-${release.medium}`,
+      })
+    }
+  }
   for (const book of rpgBooks) {
     for (const edition of book.editions) {
       add(edition.date, {
@@ -113,7 +141,7 @@ export function atomFeed(entries, updated) {
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>${SITE_URL}/</id>
   <title>Novedades del Catálogo D&amp;D</title>
-  <subtitle>Libros, videojuegos, merchandising, novelas y otros juegos de rol de la familia de D&amp;D que acaban de salir, en inglés y en castellano.</subtitle>
+  <subtitle>Libros, videojuegos, merchandising, novelas, cine y series y otros juegos de rol de la familia de D&amp;D que acaban de salir, en inglés y en castellano.</subtitle>
   <link rel="self" href="${SITE_URL}${FEED_PATH}"/>
   <link href="${SITE_URL}/"/>
   <updated>${updated}T00:00:00Z</updated>

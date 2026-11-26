@@ -4,6 +4,8 @@ import { GlobeAltIcon } from '@heroicons/react/24/outline'
 import type { MerchandiseEdition, MerchandiseWithMeta } from '@/types/merchandise'
 import { getProductByCodeAndEdition } from '@/services/dataLoader'
 import { getVideogameBySlug } from '@/services/videogameLoader'
+import { getScreenWorksForMerchandise } from '@/services/screenLoader'
+import { kindNames as screenKindNames } from '@/utils/screen'
 import { groupNames, kindNames } from '@/utils/merchandiseTranslations'
 import { formatPartialDate } from '@/utils/videogameTranslations'
 import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
@@ -37,13 +39,15 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
   const relatedGames = (item.related_videogames ?? [])
     .map((slug) => getVideogameBySlug(slug))
     .filter((game) => game !== undefined)
+  // Películas y series: la relación se guarda en la ficha de la obra
+  const relatedScreen = getScreenWorksForMerchandise(item.slug)
+  const hasRelated =
+    relatedProducts.length > 0 || relatedGames.length > 0 || relatedScreen.length > 0
 
   const sections = [
     { id: 'donde-comprar', label: 'Comprar' },
     ...(item.expansions?.length ? [{ id: 'expansiones', label: 'Expansiones' }] : []),
-    ...(relatedProducts.length > 0 || relatedGames.length > 0
-      ? [{ id: 'relacionado', label: 'Relacionado' }]
-      : []),
+    ...(hasRelated ? [{ id: 'relacionado', label: 'Relacionado' }] : []),
   ]
 
   return (
@@ -177,7 +181,7 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
         </DetailSection>
       )}
 
-      {(relatedProducts.length > 0 || relatedGames.length > 0) && (
+      {hasRelated && (
         <DetailSection title="Relacionado">
           <ul className="space-y-1">
             {relatedProducts.map((product) => (
@@ -199,6 +203,19 @@ export default function MerchandiseDetail({ item }: MerchandiseDetailProps) {
                   {game.title}
                 </Link>{' '}
                 <span className="text-sm text-muted">(videojuego)</span>
+              </li>
+            ))}
+            {relatedScreen.map((work) => (
+              <li key={work.slug}>
+                <Link
+                  to={`/cine-y-series/${work.slug}`}
+                  className="underline decoration-muted underline-offset-2 transition-colors duration-150 hover:decoration-fg"
+                >
+                  {work.displayTitle}
+                </Link>{' '}
+                <span className="text-sm text-muted">
+                  ({screenKindNames[work.kind].toLowerCase()})
+                </span>
               </li>
             ))}
           </ul>

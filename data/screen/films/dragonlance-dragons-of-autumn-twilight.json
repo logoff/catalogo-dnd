@@ -1,0 +1,29 @@
+{
+  "slug": "dragonlance-dragons-of-autumn-twilight",
+  "kind": "film",
+  "official": true,
+  "title": "Dragonlance: Dragons of Autumn Twilight",
+  "description": "Tanis, Raistlin, Caramon, Sturm, Flint y Tasslehoff se reencuentran en la posada El Último Hogar tras cinco años separados, justo cuando una mujer con un bastón de cristal azul les da la primera señal de que los dioses y los dragones han vuelto a Krynn, y de que un ejército de dragones avanza sobre el continente.\n\nAdaptación en animación de la primera novela de las Crónicas de la Dragonlance, estrenada directamente en DVD por Paramount en 2008, con las voces de Kiefer Sutherland y Lucy Lawless. No llegó a editarse en España.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "us",
+      "medium": "home_video",
+      "date": "2008-01-15",
+      "network": "Paramount Home Entertainment"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0825245/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film417530.html",
+    "wikidata": "Q2914769"
+  },
+  "related_novels": ["dragons-of-autumn-twilight"],
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/dragonlance-dragons-of-autumn-twilight/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Dragonlance_dvd_cover.jpg"
+    }
+  ]
+}

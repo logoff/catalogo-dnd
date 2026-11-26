@@ -1,12 +1,21 @@
 import { useEffect, useRef, useState } from 'react'
 import { PlayIcon } from '@heroicons/react/24/solid'
-import type { VideoWithMeta } from '@/types/videogame'
 import { resolveImageSrc } from '@/utils/imageResolver'
 import { youtubeEmbedUrl, youtubeWatchUrl } from '@/utils/youtube'
 
+// Lo que necesita el reproductor de un vídeo de cualquier sección (videojuegos, cine y series)
+export interface PlayableVideo {
+  youtube: string
+  title: string
+  channel: string
+  // Miniatura local, para no pedir nada a YouTube antes de reproducir
+  thumbnail: string
+}
+
 // Vídeo con vista previa: hasta que el lector pulsa reproducir solo se ve la miniatura
 // local, sin pedir nada a YouTube. Sin JavaScript, la miniatura enlaza al vídeo en YouTube.
-export default function YouTubeVideo({ video }: { video: VideoWithMeta }) {
+// `label` se añade al pie (por ejemplo, el idioma de un tráiler).
+export default function YouTubeVideo({ video, label }: { video: PlayableVideo; label?: string }) {
   const [playing, setPlaying] = useState(false)
   const iframeRef = useRef<HTMLIFrameElement>(null)
 
@@ -62,6 +71,7 @@ export default function YouTubeVideo({ video }: { video: VideoWithMeta }) {
       <figcaption className="mt-2 text-sm text-fg">
         <span className="font-semibold text-fg">{video.title}</span>
         <span className="text-muted"> · {video.channel}</span>
+        {label && <span className="text-muted"> · {label}</span>}
       </figcaption>
     </figure>
   )

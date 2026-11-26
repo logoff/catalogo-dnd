@@ -113,6 +113,19 @@ function generateSitemap() {
     urls.push({ loc: `/novela/${slug}`, priority: 0.6, changefreq: 'monthly', lastmod: today })
   }
 
+  // Cine y series (data/screen/<tipo>/<slug>.json; inventory.md está en la raíz)
+  urls.push({ loc: '/cine-y-series', priority: 0.8, changefreq: 'weekly', lastmod: today })
+  const screenDir = join(DATA_DIR, 'screen')
+  for (const file of getProductFiles(screenDir).filter((f) => dirname(f) !== screenDir)) {
+    const { slug } = JSON.parse(readFileSync(file, 'utf-8'))
+    urls.push({
+      loc: `/cine-y-series/${slug}`,
+      priority: 0.6,
+      changefreq: 'monthly',
+      lastmod: today,
+    })
+  }
+
   // Otros juegos de rol: la sección, las licencias, los sistemas y los libros
   // (data/rol/books/<sistema>/<slug>.json)
   const rolDir = join(DATA_DIR, 'rol')
