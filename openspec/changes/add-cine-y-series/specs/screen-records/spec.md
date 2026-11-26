@@ -136,7 +136,14 @@ de la edición física.
 ### Requirement: Enlaces de referencia
 
 Cada obra SHALL guardar su enlace a IMDb y a FilmAffinity cuando tenga página
-en ellos, con la dirección canónica de cada uno.
+en ellos, con la dirección canónica de cada uno, y su web oficial si sigue
+activa y la mantienen sus autores o su distribuidora.
+
+#### Scenario: Web oficial de un fan
+
+- **WHEN** el dominio de la web de una obra lo mantiene un aficionado o está a
+  la venta
+- **THEN** la ficha no guarda esa web como oficial
 
 #### Scenario: Enlace a IMDb mal formado
 

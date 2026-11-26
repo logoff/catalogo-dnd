@@ -195,7 +195,8 @@ ediciones físicas en España (solo Amazon), hasta dos carteles
 (`poster-<idioma>.webp` en `public/images/screen/<slug>/`), hasta tres
 tráileres de canales oficiales con su idioma (mismo reproductor y
 miniaturas locales que los videojuegos, `src/components/common/YouTubeVideo.tsx`)
-y enlaces a IMDb y FilmAffinity. Las relaciones con novelas,
+enlaces a IMDb y FilmAffinity y su web oficial (`official_url`) si sigue
+activa. Las relaciones con novelas,
 merchandising y videojuegos solo se guardan en la ficha de la obra;
 `screenLoader.ts` calcula el sentido inverso. Va en el bundle principal.
 `data/screen/inventory.md` es la lista maestra (un test exige que cada

@@ -13,9 +13,19 @@
       "date": "2019"
     }
   ],
+  "trailers": [
+    {
+      "youtube": "bu_dCnirBe4",
+      "language": "en",
+      "title": "Eye of the Beholder (2019) [Trailer]",
+      "channel": "Comedy Dynamics",
+      "date": "2019-01-29"
+    }
+  ],
   "external": {
     "imdb": "https://www.imdb.com/title/tt8888186/",
     "filmaffinity": "https://www.filmaffinity.com/es/film349893.html",
     "wikidata": "Q120385353"
-  }
+  },
+  "official_url": "https://www.eyeofthebeholdermovie.com/"
 }

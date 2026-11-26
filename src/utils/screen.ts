@@ -108,7 +108,9 @@ export function sortScreenWorks(
 // Datos estructurados de Schema.org: Movie o TVSeries, sin valoraciones
 export function screenStructuredData(work: ScreenWorkWithMeta) {
   const isSeries = Boolean(work.series)
-  const sameAs = [work.external?.imdb, work.external?.filmaffinity].filter(Boolean)
+  const sameAs = [work.official_url, work.external?.imdb, work.external?.filmaffinity].filter(
+    Boolean
+  )
   return {
     '@context': 'https://schema.org',
     '@type': isSeries ? 'TVSeries' : 'Movie',

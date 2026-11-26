@@ -121,6 +121,10 @@
                 }
             }
         },
+        "official_url": {
+            "type": "string",
+            "format": "uri"
+        },
         "related_novels": {
             "$ref": "#/$defs/slugs"
         },

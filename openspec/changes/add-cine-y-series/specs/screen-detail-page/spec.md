@@ -80,8 +80,14 @@ Si la obra no tiene ninguna edición a la venta, la ficha SHALL indicarlo.
 
 ### Requirement: Enlaces de referencia
 
-La ficha SHALL enlazar a la página de la obra en IMDb y en FilmAffinity cuando
-existan, en enlaces externos sin afiliado.
+La ficha SHALL enlazar a la web oficial de la obra y a su página en IMDb y en
+FilmAffinity cuando existan, en enlaces externos sin afiliado.
+
+#### Scenario: Obra con web oficial
+
+- **WHEN** una obra tiene web oficial
+- **THEN** la ficha muestra el enlace «Web oficial» delante de IMDb y
+  FilmAffinity
 
 #### Scenario: Obra con las dos fichas externas
 
