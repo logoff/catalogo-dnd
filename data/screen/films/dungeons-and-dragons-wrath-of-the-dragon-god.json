@@ -1,0 +1,24 @@
+{
+  "slug": "dungeons-and-dragons-wrath-of-the-dragon-god",
+  "kind": "film",
+  "official": true,
+  "title": "Dungeons & Dragons: Wrath of the Dragon God",
+  "title_es": "Dragones y mazmorras 2",
+  "description": "Cien años después de la primera película, Damodar, el esbirro de Profion, vuelve maldito y decidido a despertar a un antiguo dragón negro con un orbe mágico. Berek, un antiguo capitán de la guardia, y su esposa, una maga, reúnen a un grupo de aventureros para detenerlo antes de que el dragón arrase el reino.\n\nTelefilme estrenado por Sci Fi Channel en 2005, que llegó a los cines en algunos países. Es más fiel al juego que la primera: sus personajes tienen clases reconocibles de la tercera edición y aparecen criaturas y conjuros del manual.",
+  "status": "released",
+  "releases": [
+    { "country": "us", "medium": "tv", "date": "2005-10-08", "network": "Sci Fi Channel" }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0406728/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film885629.html",
+    "wikidata": "Q391267"
+  },
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/dungeons-and-dragons-wrath-of-the-dragon-god/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:D%26d2.jpg"
+    }
+  ]
+}

@@ -226,6 +226,7 @@ function releasesIndex(): Plugin {
         comics: files('data/comics/*/*.json'),
         rpgBooks: files('data/rol/books/*/*.json'),
         rpgSystems: files('data/rol/systems/*.json'),
+        screenWorks: files('data/screen/*/*.json'),
       }
       // Para que el servidor de desarrollo regenere el módulo al cambiar cualquier JSON
       for (const file of Object.values(groups).flat()) {
@@ -239,6 +240,7 @@ function releasesIndex(): Plugin {
         comics: groups.comics.map(read),
         rpgBooks: groups.rpgBooks.map(read),
         rpgSystems: groups.rpgSystems.map(read),
+        screenWorks: groups.screenWorks.map(read),
       }
       const today = madridToday()
       const { recent, upcoming } = splitReleases(releaseEntries(data), today)

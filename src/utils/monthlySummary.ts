@@ -21,6 +21,7 @@ export const SUMMARY_SECTIONS: Record<
   },
   novelas: { label: 'Novelas', listing: '/novelas', more: 'Ver las novelas' },
   comics: { label: 'Cómics', listing: '/comics', more: 'Ver los cómics' },
+  cine: { label: 'Cine y series', listing: '/cine-y-series', more: 'Ver cine y series' },
   rol: { label: 'Otros juegos de rol', listing: '/rol', more: 'Ver otros juegos de rol' },
   ediciones: {
     label: 'Ediciones anteriores de D&D',

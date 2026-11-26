@@ -5,6 +5,41 @@ const empty = { products: [], videogames: [], merchandise: [], novels: [], rpgBo
 const today = '2026-11-19'
 
 describe('feed de novedades', () => {
+  it('anuncia los estrenos de cine y series, con su país y su medio', () => {
+    const entries = feedEntries(
+      {
+        ...empty,
+        screenWorks: [
+          {
+            slug: 'honor-among-thieves',
+            kind: 'film',
+            official: true,
+            title: 'Honor Among Thieves',
+            title_es: 'Honor entre ladrones',
+            releases: [
+              { country: 'us', medium: 'cinema', date: '2023-03-31' },
+              { country: 'es', medium: 'cinema', date: '2023-03-31' },
+              { country: 'es', medium: 'tv', date: '2024' },
+            ],
+          },
+        ],
+      },
+      today
+    )
+    expect(entries.map((e) => [e.title, e.summary, e.path])).toEqual([
+      [
+        'Honor entre ladrones se estrena en cines en EE. UU.',
+        'Película oficial de D&D.',
+        '/cine-y-series/honor-among-thieves',
+      ],
+      [
+        'Honor entre ladrones se estrena en cines en España',
+        'Película oficial de D&D.',
+        '/cine-y-series/honor-among-thieves',
+      ],
+    ])
+  })
+
   it('reúne las ediciones con fecha de todas las secciones, de la más reciente a la más antigua', () => {
     const entries = feedEntries(
       {

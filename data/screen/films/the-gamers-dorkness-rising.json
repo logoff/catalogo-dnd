@@ -1,0 +1,31 @@
+{
+  "slug": "the-gamers-dorkness-rising",
+  "kind": "film",
+  "official": false,
+  "unofficial_reason": "Producción independiente de Dead Gentlemen sin licencia de Wizards of the Coast; trata de un grupo de jugadores y su campaña de rol al estilo de D&D.",
+  "title": "The Gamers: Dorkness Rising",
+  "description": "Un director de juego que nunca consigue terminar una campaña porque sus jugadores la desbaratan a cada sesión lo intenta una vez más con su grupo y una jugadora nueva, mientras la película alterna la mesa con la aventura tal como la imaginan.\n\nSecuela de The Gamers de 2008, de Dead Gentlemen Productions, con más medios que la primera. Es una comedia para quien haya dirigido o jugado una partida.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "us",
+      "medium": "home_video",
+      "date": "2008",
+      "network": "Dead Gentlemen Productions"
+    }
+  ],
+  "trailers": [
+    {
+      "youtube": "m7k5Fa5m4UQ",
+      "language": "en",
+      "title": "The Gamers: Dorkness Rising trailer",
+      "channel": "GOG",
+      "date": "2014-10-03"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0447166/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film481436.html",
+    "wikidata": "Q2411535"
+  }
+}

@@ -22,6 +22,7 @@ const entries = feedEntries(
     comics: files('data/comics/*/*.json').map(read),
     rpgBooks: files('data/rol/books/*/*.json').map(read),
     rpgSystems: files('data/rol/systems/*.json').map(read),
+    screenWorks: files('data/screen/*/*.json').map(read),
   },
   today
 )

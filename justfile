@@ -152,3 +152,7 @@ comic-covers +args:
 # Descargar portadas de una novela: just novel-covers <slug> <isbn>=<url>... | <slug> --openlibrary | --series <id> <isbn>=<url>... | --anthology <id> <clave>=<url>...
 novel-covers +args:
     node scripts/download-novel-covers.mjs {{args}}
+
+# Descargar carteles de una película o serie: just screen-posters <slug> --source <página> <idioma>=<url>...
+screen-posters slug +args:
+    node scripts/download-screen-posters.mjs {{slug}} {{args}}

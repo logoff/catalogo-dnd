@@ -49,6 +49,13 @@ describe('MerchandiseDetailPage', () => {
     expect(screen.getAllByRole('link', { name: /Comprar en Amazon/ })).toHaveLength(2)
   })
 
+  it('enlaza a las películas y series que lo relacionan desde su ficha', () => {
+    renderAt('/merchandising/funko-pop-honor-among-thieves')
+    expect(
+      screen.getByRole('link', { name: 'Dungeons & Dragons: Honor entre ladrones' })
+    ).toHaveAttribute('href', '/cine-y-series/dungeons-and-dragons-honor-among-thieves')
+  })
+
   it('con un slug inexistente muestra la página de no encontrado', () => {
     renderAt('/merchandising/no-existe')
     expect(screen.getByRole('heading', { name: 'Página no encontrada' })).toBeInTheDocument()

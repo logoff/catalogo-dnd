@@ -15,6 +15,8 @@ export function releaseSectionLabel(release: Release): string {
       return 'Novela'
     case 'comics':
       return 'Cómic'
+    case 'cine':
+      return 'Cine y series'
     case 'rol':
       return 'Otros juegos de rol'
     case 'ediciones':

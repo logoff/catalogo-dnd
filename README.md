@@ -10,7 +10,9 @@ con las plataformas, si están en castellano y dónde comprarlos, y del
 merchandising con licencia oficial (libros de cocina y de arte, figuras,
 LEGO y juegos de mesa), de las novelas oficiales de D&D en inglés con
 todas sus ediciones en castellano, de los cómics oficiales de D&D con
-sus tomos en inglés y en castellano y de otros juegos de rol de la familia
+sus tomos en inglés y en castellano, de las películas, series y documentales
+de D&D (y, aparte, los no oficiales sobre el juego) y de otros juegos de rol
+de la familia
 de D&D (Pathfinder, Tales of the Valiant, Daggerheart…) con sus licencias
 abiertas.
 
@@ -48,8 +50,9 @@ Abrir <http://localhost:5173/>.
 - `just docker-run` - Ejecutar con Docker
 - `just deploy` - Publicar en Cloudflare Pages
 - `just indexnow` - Avisar a Bing y otros buscadores (IndexNow) de todas las URLs del sitemap
-- `just video-thumbnails` - Descargar las miniaturas que falten de los vídeos de los videojuegos
-- `just check-videos` - Comprobar que los vídeos de los videojuegos siguen disponibles en YouTube
+- `just video-thumbnails` - Descargar las miniaturas que falten de los vídeos de los videojuegos y los tráileres de cine y series
+- `just check-videos` - Comprobar que los vídeos de los videojuegos y los tráileres siguen disponibles en YouTube
+- `just screen-posters <slug> --source <página> <idioma>=<url>…` - Descargar los carteles de una película o serie
 - `just check-scores` - Comprobar que las notas de Metacritic y OpenCritic de los videojuegos siguen al día
 - `just screenshots <slug> --steam` - Descargar las capturas oficiales de un videojuego desde Steam (o `--source <página> <url>…` para otras fuentes)
 - `just check-reviews` - Comprobar que los enlaces de las reseñas de libros y novelas siguen vivos
@@ -161,6 +164,19 @@ y los tomos de varias series están en `data/comics/collections.json`. La
 lista maestra es `data/comics/inventory.md`, la skill `add-comic` explica
 cómo dar de alta cómics y `just comic-covers` descarga y convierte sus
 portadas.
+
+## Cine y series
+
+La sección `/cine-y-series` reúne las películas, series, documentales y
+episodios sueltos con licencia oficial de D&D y, en un bloque aparte, las
+obras sin licencia cuyo tema principal es D&D, cada una con el motivo por
+el que no es oficial. Cada obra es un JSON en
+`data/screen/<tipo>/<slug>.json` con sus títulos, una sinopsis propia, sus
+estrenos en EE. UU. y en España, carteles, tráileres oficiales, ediciones
+físicas en España y enlaces a IMDb y FilmAffinity. Las relaciones con
+novelas, merchandising y videojuegos solo se guardan en la ficha de la
+obra. La lista maestra es `data/screen/inventory.md` y la skill
+`add-screen` explica cómo dar de alta obras.
 
 ## Otros juegos de rol
 

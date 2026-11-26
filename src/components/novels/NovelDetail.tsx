@@ -11,6 +11,7 @@ import type {
 import { getProductByCodeAndEdition } from '@/services/dataLoader'
 import { getVideogameBySlug } from '@/services/videogameLoader'
 import { getMerchandiseBySlug } from '@/services/merchandiseLoader'
+import { getScreenWorksForNovel } from '@/services/screenLoader'
 import { getAllSeries, getAnthologiesFor } from '@/services/novelLoader'
 import { collectionsIn, mainCover, thumbnailOf } from '@/utils/novels'
 import {
@@ -21,6 +22,7 @@ import {
   settingNames,
 } from '@/utils/novelTranslations'
 import { formatPartialDate } from '@/utils/videogameTranslations'
+import { kindNames as screenKindNames } from '@/utils/screen'
 import { DataList, DataRow, DetailSection } from '@/components/ui/DetailSection'
 import SectionNav from '@/components/ui/SectionNav'
 import ImageLightbox from '../common/ImageLightbox'
@@ -115,8 +117,13 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
   const relatedMerchandise = (novel.related_merchandise ?? [])
     .map((slug) => getMerchandiseBySlug(slug))
     .filter((item) => item !== undefined)
+  // Películas y series: la relación se guarda en la ficha de la obra
+  const relatedScreen = getScreenWorksForNovel(novel.slug)
   const hasRelated =
-    relatedProducts.length > 0 || relatedGames.length > 0 || relatedMerchandise.length > 0
+    relatedProducts.length > 0 ||
+    relatedGames.length > 0 ||
+    relatedMerchandise.length > 0 ||
+    relatedScreen.length > 0
 
   const sections = [
     ...(novel.reviews?.length ? [{ id: 'resenas', label: 'Reseñas' }] : []),
@@ -394,6 +401,14 @@ export default function NovelDetail({ novel, index }: NovelDetailProps) {
                 to={`/merchandising/${item.slug}`}
                 label={item.title_es ?? item.title}
                 kind="merchandising"
+              />
+            ))}
+            {relatedScreen.map((work) => (
+              <RelatedLink
+                key={work.slug}
+                to={`/cine-y-series/${work.slug}`}
+                label={work.displayTitle}
+                kind={screenKindNames[work.kind].toLowerCase()}
               />
             ))}
           </ul>

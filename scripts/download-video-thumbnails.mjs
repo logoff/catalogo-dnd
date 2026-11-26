@@ -1,9 +1,11 @@
-// Descarga de YouTube las miniaturas de los vídeos de las fichas que aún no están en
-// public/images/videogames/<slug>/video-<id>.jpg. Las que ya existen no se tocan.
+// Descarga de YouTube las miniaturas de los vídeos de los videojuegos y los tráileres de cine y
+// series que aún no están en public/images/{videogames,screen}/<slug>/video-<id>.jpg. Las que
+// ya existen no se tocan.
 // La ficha sirve siempre la copia local: así no pide nada a YouTube antes de reproducir.
 import { existsSync, mkdirSync, writeFileSync } from 'fs'
 import { dirname, relative } from 'path'
 import { ROOT, allVideos, thumbnailPath } from './videogames.mjs'
+import { allTrailers } from './screen.mjs'
 
 // maxresdefault (1280×720) no existe en todos los vídeos; hqdefault (480×360) sí
 const SIZES = ['maxresdefault', 'hqdefault']
@@ -19,8 +21,15 @@ async function download(youtube) {
 let downloaded = 0
 let failed = 0
 
-for (const { file, slug, video } of allVideos()) {
-  const path = thumbnailPath(slug, video.youtube)
+const entries = [
+  ...allVideos().map((entry) => ({
+    ...entry,
+    thumbnail: thumbnailPath(entry.slug, entry.video.youtube),
+  })),
+  ...allTrailers(),
+]
+
+for (const { file, video, thumbnail: path } of entries) {
   if (existsSync(path)) continue
 
   const image = await download(video.youtube)

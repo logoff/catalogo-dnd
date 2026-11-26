@@ -57,12 +57,17 @@ const navGroups: NavGroup[] = [
       },
       { to: '/videojuegos', label: 'Videojuegos', description: 'De los años 70 a hoy' },
       {
+        to: '/cine-y-series',
+        label: 'Cine y series',
+        description: 'Películas, series y documentales',
+      },
+      {
         to: '/merchandising',
         label: 'Merchandising',
         description: 'Figuras, juegos de mesa y libros con licencia',
       },
     ],
-    extraPaths: ['/novela', '/comic', '/videojuego'],
+    extraPaths: ['/novela', '/comic', '/videojuego', '/cine-y-series'],
   },
   {
     label: 'Otros juegos de rol',

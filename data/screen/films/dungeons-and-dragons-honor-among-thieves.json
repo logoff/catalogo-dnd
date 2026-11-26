@@ -1,0 +1,105 @@
+{
+  "slug": "dungeons-and-dragons-honor-among-thieves",
+  "kind": "film",
+  "official": true,
+  "title": "Dungeons & Dragons: Honor Among Thieves",
+  "title_es": "Dungeons & Dragons: Honor entre ladrones",
+  "description": "Edgin, un bardo convertido en ladrón, y Holga, una guerrera bárbara, escapan de prisión para recuperar a la hija de él y una reliquia que puede devolver la vida a su esposa. Para lograrlo reúnen a un hechicero inseguro, una druida tiflin que cambia de forma y un paladín demasiado recto, y se enfrentan a un antiguo compañero que se ha hecho con el poder en Neverwinter y a una maga roja de Thay.\n\nEs una comedia de aventuras ambientada en los Reinos Olvidados, sin relación con las películas anteriores, dirigida por Jonathan Goldstein y John Francis Daley. Está llena de guiños a criaturas, conjuros y lugares del juego, pero se disfruta sin haber jugado nunca.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "us",
+      "medium": "cinema",
+      "date": "2023-03-31",
+      "network": "Paramount Pictures"
+    },
+    {
+      "country": "es",
+      "medium": "cinema",
+      "date": "2023-03-31",
+      "network": "Paramount Pictures"
+    }
+  ],
+  "physical_editions": [
+    {
+      "format": "dvd",
+      "year": 2023,
+      "spanish_audio": true,
+      "spanish_subtitles": true,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0C2DB1NNF/"
+        }
+      ]
+    },
+    {
+      "format": "bluray",
+      "year": 2023,
+      "spanish_audio": true,
+      "spanish_subtitles": true,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0C2DB6RNR/"
+        }
+      ]
+    },
+    {
+      "format": "uhd",
+      "year": 2023,
+      "title": "Con el Blu-ray",
+      "spanish_audio": true,
+      "spanish_subtitles": true,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B0C2DD32BQ/"
+        }
+      ]
+    }
+  ],
+  "trailers": [
+    {
+      "youtube": "zv-4ijjYv14",
+      "language": "es",
+      "title": "Dungeons & Dragons: Honor entre ladrones | Tráiler en castellano",
+      "channel": "Paramount Pictures Spain",
+      "date": "2022-07-28"
+    },
+    {
+      "youtube": "IiMinixSXII",
+      "language": "en",
+      "title": "Dungeons & Dragons: Honor Among Thieves | Official Trailer",
+      "channel": "Paramount Pictures",
+      "date": "2022-07-21"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt2906216/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film363637.html",
+    "wikidata": "Q105554572"
+  },
+  "related_novels": [
+    "dungeons-and-dragons-honor-among-thieves",
+    "the-druids-call",
+    "the-road-to-neverwinter"
+  ],
+  "related_merchandise": [
+    "funko-pop-honor-among-thieves",
+    "golden-archive-honor-among-thieves",
+    "monopoly-dungeons-and-dragons-honor-among-thieves"
+  ],
+  "posters": [
+    {
+      "language": "es",
+      "image": "/images/screen/dungeons-and-dragons-honor-among-thieves/poster-es.webp",
+      "source": "https://www.sensacine.com/peliculas/pelicula-221359/"
+    },
+    {
+      "language": "en",
+      "image": "/images/screen/dungeons-and-dragons-honor-among-thieves/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Theatrical_poster_for_Dungeons_and_Dragons,_Honor_Among_Thieves.jpg"
+    }
+  ]
+}

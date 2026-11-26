@@ -20,6 +20,20 @@ const yearOnly = (date) => (typeof date === 'string' && /^\d{4}$/.test(date) ? d
 // criterio que isDndEdition en src/utils/rpg.ts)
 export const isDndEdition = (system) => Boolean(system.official && !system.official_catalog)
 
+const SCREEN_KINDS = {
+  film: 'Película',
+  series: 'Serie',
+  documentary: 'Documental',
+  episode: 'Episodio',
+}
+const SCREEN_MEDIA = {
+  cinema: 'en cines',
+  tv: 'en televisión',
+  streaming: 'en streaming',
+  home_video: 'en vídeo',
+}
+const SCREEN_COUNTRIES = { us: 'en EE. UU.', es: 'en España' }
+
 const productPath = (product, folder) => `/producto/${folder}/${(product.code ?? '').toLowerCase()}`
 
 // Recorre todas las ediciones del catálogo. Cada una lleva su fecha tal cual (`raw`), el nombre que
@@ -34,6 +48,7 @@ function editions({
   comics = [],
   rpgBooks,
   rpgSystems = [],
+  screenWorks = [],
 }) {
   const dndEditions = new Set(rpgSystems.filter(isDndEdition).map((system) => system.slug))
   const systemNames = new Map(rpgSystems.map((system) => [system.slug, system.name]))
@@ -144,6 +159,23 @@ function editions({
           language: edition.language,
         })
       }
+    }
+  }
+  for (const work of screenWorks) {
+    // Cada estreno (cines, televisión, streaming o vídeo) en cada país
+    for (const release of work.releases ?? []) {
+      const name = work.title_es ?? work.title
+      const where = [SCREEN_MEDIA[release.medium], SCREEN_COUNTRIES[release.country]]
+      all.push({
+        raw: release.date,
+        name,
+        title: `${name} se estrena ${where.filter(Boolean).join(' ')}`,
+        summary: `${SCREEN_KINDS[work.kind]} ${work.official ? 'oficial' : 'no oficial'} de D&D.`,
+        path: `/cine-y-series/${work.slug}`,
+        key: `${release.country}-${release.medium}`,
+        section: 'cine',
+        ...(release.country === 'es' ? { language: 'castellano' } : {}),
+      })
     }
   }
   for (const book of rpgBooks) {
@@ -278,6 +310,7 @@ export function fichaKind(file) {
   }
   if (parts[1] === 'novels' && parts.length === 4) return { kind: 'novel' }
   if (parts[1] === 'comics' && parts.length === 4) return { kind: 'comic' }
+  if (parts[1] === 'screen' && parts.length === 4) return { kind: 'screenWork' }
   if (parts[1] === 'rol' && parts[2] === 'books' && parts.length === 5) return { kind: 'rpgBook' }
   if (parts[1] === 'rol' && parts[2] === 'systems' && parts.length === 4)
     return { kind: 'rpgSystem' }
@@ -308,6 +341,7 @@ export function describeFicha(file, json, rpgSystems = []) {
     comics: [],
     rpgBooks: [],
     rpgSystems,
+    screenWorks: [],
   }
   const data = {
     product: () => ({ ...empty, products: [{ product: json, folder: type.folder }] }),
@@ -316,6 +350,7 @@ export function describeFicha(file, json, rpgSystems = []) {
     novel: () => ({ ...empty, novels: [json] }),
     comic: () => ({ ...empty, comics: [json] }),
     rpgBook: () => ({ ...empty, rpgBooks: [json] }),
+    screenWork: () => ({ ...empty, screenWorks: [json] }),
   }[type.kind]()
   const all = editions(data)
   if (all.length === 0) return null
@@ -326,6 +361,7 @@ export function describeFicha(file, json, rpgSystems = []) {
     novel: () => json.title,
     comic: () => json.title,
     rpgBook: () => json.title,
+    screenWork: () => json.title_es ?? json.title,
   }[type.kind]()
   // La fecha más reciente, tal como viene en los datos (día, mes o solo año); para ordenar, las de
   // mes cuentan desde el día 1

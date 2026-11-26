@@ -7,6 +7,7 @@ const footerLinks = [
   { to: '/videojuegos', label: 'Videojuegos' },
   { to: '/merchandising', label: 'Merchandising' },
   { to: '/novelas', label: 'Novelas' },
+  { to: '/cine-y-series', label: 'Cine y series' },
   { to: '/guias', label: 'Guías' },
   { to: '/aviso-legal', label: 'Aviso legal y privacidad' },
 ]

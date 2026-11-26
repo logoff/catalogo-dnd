@@ -1,0 +1,31 @@
+{
+  "slug": "the-dungeon-masters",
+  "kind": "documentary",
+  "official": false,
+  "unofficial_reason": "Documental independiente sin licencia de Wizards of the Coast sobre tres directores de juego de D&D.",
+  "title": "The Dungeon Masters",
+  "description": "Sigue durante meses a tres personas que dirigen partidas de D&D y muestra cómo el juego se mezcla con su trabajo, su familia y sus problemas, más allá de la mesa.\n\nDocumental de 2008 de Keven McAlester. Nació como una historia del juego, pero acabó centrado en las vidas de sus protagonistas.",
+  "status": "released",
+  "releases": [{ "country": "us", "medium": "cinema", "date": "2008" }],
+  "trailers": [
+    {
+      "youtube": "6P_FCHkDbxU",
+      "language": "en",
+      "title": "Dungeon Masters (Official Trailer)",
+      "channel": "FilmBuff Movies",
+      "date": "2011-01-24"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0988086/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film746739.html",
+    "wikidata": "Q7731222"
+  },
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/the-dungeon-masters/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Dungeon_masters.jpg"
+    }
+  ]
+}

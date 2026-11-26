@@ -40,7 +40,7 @@ export function atomFeed(entries, updated) {
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>${SITE_URL}/</id>
   <title>Novedades del Catálogo D&amp;D</title>
-  <subtitle>Libros, videojuegos, merchandising, novelas y otros juegos de rol de la familia de D&amp;D que acaban de salir, en inglés y en castellano.</subtitle>
+  <subtitle>Libros, videojuegos, merchandising, novelas, cómics, cine y series y otros juegos de rol de la familia de D&amp;D que acaban de salir, en inglés y en castellano.</subtitle>
   <link rel="self" href="${SITE_URL}${FEED_PATH}"/>
   <link href="${SITE_URL}/"/>
   <updated>${updated}T00:00:00Z</updated>

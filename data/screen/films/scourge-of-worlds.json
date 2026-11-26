@@ -1,0 +1,20 @@
+{
+  "slug": "scourge-of-worlds",
+  "kind": "film",
+  "official": true,
+  "title": "Scourge of Worlds: A Dungeons & Dragons Adventure",
+  "description": "Los aventureros de la tercera edición de D&D (el guerrero Regdar, la pícara Lidda y la maga Mialee) se enfrentan a una amenaza que puede destruir su mundo, y el espectador decide en varios momentos qué camino toman, con finales distintos según lo que elija.\n\nPelícula de animación interactiva en DVD de 2003, hecha para aprovechar los menús del formato como si fuera una partida. Es una curiosidad para coleccionistas de la tercera edición.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "us",
+      "medium": "home_video",
+      "date": "2003"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0375048/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film649886.html",
+    "wikidata": "Q7438298"
+  }
+}

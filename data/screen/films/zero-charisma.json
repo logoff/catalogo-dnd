@@ -1,0 +1,33 @@
+{
+  "slug": "zero-charisma",
+  "kind": "film",
+  "official": false,
+  "unofficial_reason": "Comedia independiente sin licencia de Wizards of the Coast; su protagonista es el director de juego de una campaña de rol al estilo de D&D.",
+  "title": "Zero Charisma",
+  "description": "Scott es un director de juego irascible para quien su partida semanal de rol de fantasía es lo único que va bien en su vida. Cuando entra en el grupo un jugador nuevo, simpático y seguro de sí mismo, siente que pierde el control de la mesa y de lo poco que tiene.\n\nComedia de 2013 de Katie Graham y Andrew Matthews, estrenada en el festival South by Southwest. Retrata con cariño y sin compasión la vida de un aficionado al rol.",
+  "status": "released",
+  "releases": [
+    { "country": "us", "medium": "cinema", "date": "2013-10-11", "network": "Tribeca Film" }
+  ],
+  "trailers": [
+    {
+      "youtube": "N_go2_3uRP4",
+      "language": "en",
+      "title": "Zero Charisma Official Trailer",
+      "channel": "Devolver Digital Films",
+      "date": "2014-05-22"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt2294965/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film264168.html",
+    "wikidata": "Q17091073"
+  },
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/zero-charisma/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Zero_Charisma_Poster.jpg"
+    }
+  ]
+}

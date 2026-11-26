@@ -12,6 +12,8 @@ import NovelsPage from './pages/NovelsPage'
 import NovelDetailPage from './pages/NovelDetailPage'
 import ComicsPage from './pages/ComicsPage'
 import ComicDetailPage from './pages/ComicDetailPage'
+import ScreenPage from './pages/ScreenPage'
+import ScreenDetailPage from './pages/ScreenDetailPage'
 import LicensesPage from './pages/LicensesPage'
 import RpgSectionPage from './pages/RpgSectionPage'
 import RpgSystemPage from './pages/RpgSystemPage'
@@ -57,6 +59,8 @@ export default function AppRoutes() {
         <Route path="novela/:slug" element={<NovelDetailPage />} />
         <Route path="comics" element={<ComicsPage />} />
         <Route path="comic/:slug" element={<ComicDetailPage />} />
+        <Route path="cine-y-series" element={<ScreenPage />} />
+        <Route path="cine-y-series/:slug" element={<ScreenDetailPage />} />
         <Route path="rol" element={<RpgSectionPage />} />
         <Route path="rol/arbol" element={<RpgTreePage />} />
         <Route path="rol/:system" element={<RpgSystemPage />} />

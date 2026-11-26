@@ -1,0 +1,21 @@
+{
+  "slug": "dungeons-and-dragons-the-book-of-vile-darkness",
+  "kind": "film",
+  "official": true,
+  "title": "Dungeons & Dragons 3: The Book of Vile Darkness",
+  "description": "Grayson, un joven caballero, se hace pasar por villano y se une a un grupo de aventureros malvados que busca las páginas del Libro de la Oscuridad Vil, con la esperanza de rescatar a su padre. Cuanto más se acercan a su objetivo, más le cuesta mantener su disfraz sin convertirse en uno de ellos.\n\nTercera película de la saga, sin relación con las anteriores salvo por el mundo, rodada en Bulgaria y estrenada directamente en vídeo en Reino Unido en 2012. Es la más oscura de las tres.",
+  "status": "released",
+  "releases": [{ "country": "gb", "medium": "home_video", "date": "2012-08-09" }],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt1733125/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film766434.html",
+    "wikidata": "Q3280654"
+  },
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/dungeons-and-dragons-the-book-of-vile-darkness/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Dungeons%26dragons3.jpg"
+    }
+  ]
+}

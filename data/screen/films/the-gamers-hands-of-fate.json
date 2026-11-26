@@ -1,0 +1,45 @@
+{
+  "slug": "the-gamers-hands-of-fate",
+  "kind": "film",
+  "official": false,
+  "unofficial_reason": "Producción independiente de Dead Gentlemen sin licencia de Wizards of the Coast; sigue al mismo grupo de jugadores de rol de las anteriores.",
+  "title": "The Gamers: Hands of Fate",
+  "description": "Uno de los jugadores del grupo se obsesiona con un juego de cartas coleccionables y con impresionar a una jugadora del torneo, mientras la campaña de rol de sus amigos sigue adelante y la película salta entre las dos historias.\n\nTercera película de la serie, de 2013, financiada con una campaña de Kickstarter por Dead Gentlemen Productions y Zombie Orpheus Entertainment.",
+  "status": "released",
+  "releases": [
+    {
+      "country": "us",
+      "medium": "home_video",
+      "date": "2013",
+      "network": "Dead Gentlemen Productions"
+    }
+  ],
+  "trailers": [
+    {
+      "youtube": "txShwE_6ewU",
+      "language": "en",
+      "title": "The Gamers: Hands of Fate Trailer",
+      "channel": "GOG",
+      "date": "2014-10-03"
+    },
+    {
+      "youtube": "ZNxJNpb590c",
+      "language": "en",
+      "title": "Hands of Fate Teaser Trailer",
+      "channel": "Zombie Orpheus Entertainment",
+      "date": "2012-08-30"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt2312390/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film228495.html",
+    "wikidata": "Q15103410"
+  },
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/the-gamers-hands-of-fate/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Promo_poster_Hands_of_Fate.png"
+    }
+  ]
+}

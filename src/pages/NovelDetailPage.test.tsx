@@ -253,6 +253,19 @@ describe('NovelDetailPage', () => {
     )
   })
 
+  it('enlaza a las películas y series que la relacionan desde su ficha', () => {
+    // «Honor entre ladrones» guarda la relación con esta novela en su ficha de cine y series
+    const druid = novel("The Druid's Call", { slug: 'the-druids-call' })
+    setNovelIndex(buildNovelIndex([...novels, druid], series))
+    cacheNovel(druid)
+    renderPage('the-druids-call')
+    expect(
+      within(section('Relacionado')).getByRole('link', {
+        name: 'Dungeons & Dragons: Honor entre ladrones',
+      })
+    ).toHaveAttribute('href', '/cine-y-series/dungeons-and-dragons-honor-among-thieves')
+  })
+
   it('avisa de que no está en castellano ni a la venta, y omite serie y recopilatorios', () => {
     renderPage('the-legend-of-huma')
     expect(screen.getByText('No se ha publicado en castellano.')).toBeInTheDocument()

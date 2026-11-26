@@ -20,6 +20,7 @@ import comicsStats from 'virtual:comics-stats'
 import releases from 'virtual:releases'
 import { ReleaseList } from '@/components/releases/ReleaseList'
 import type { ReleasesIndex } from '@/types/releases'
+import { getAllScreenWorks } from '@/services/screenLoader'
 
 const container = 'mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'
 
@@ -131,8 +132,8 @@ export default function HomePage() {
             Catálogo de Dungeons &amp; Dragons
           </h1>
           <p className="text-lg text-muted">
-            Libros de 5E (2014) y 5.5E (2024), videojuegos, merchandising, novelas y cómics
-            oficiales: qué hay en castellano, cuándo salió y dónde comprarlo.
+            Libros de 5E (2014) y 5.5E (2024), videojuegos, cine y series, merchandising, novelas y
+            cómics: qué hay en castellano, cuándo salió y dónde comprarlo.
           </p>
           <div className="mt-2 max-w-xl">
             <SearchBar size="lg" />
@@ -177,6 +178,12 @@ export default function HomePage() {
             title="Cómics"
             description="Los cómics oficiales desde 1987, con sus tomos en inglés y en castellano."
             count={comicsStats.total}
+          />
+          <SectionCard
+            to="/cine-y-series"
+            title="Cine y series"
+            description="Películas, series y documentales de D&D, con sus estrenos en España y aparte las obras no oficiales."
+            count={getAllScreenWorks().length}
           />
           <SectionCard
             to="/rol"

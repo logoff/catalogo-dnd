@@ -1,0 +1,68 @@
+{
+  "slug": "dungeons-and-dragons-1983",
+  "kind": "series",
+  "official": true,
+  "title": "Dungeons & Dragons",
+  "title_es": "Dragones y mazmorras",
+  "description": "Seis amigos suben a una atracción de feria con forma de dragón y aparecen en un reino mágico. El Amo del Calabozo les da un arma y una clase a cada uno (explorador, caballero, mago, acróbata, ladrona y bárbaro) y, episodio tras episodio, buscan el camino de vuelta a casa mientras huyen del Vengador y de la reina dragón Tiamat.\n\nSerie de animación de Marvel Productions y TSR para la CBS, con tres temporadas y 27 episodios. En España la emitió TVE desde 1985 y es para muchos el primer contacto con D&D. No tuvo episodio final en su época: su guion, «Réquiem», se grabó después como audio para las ediciones en DVD, y en 2024 se estrenó en Brasil un final en stop motion.",
+  "status": "released",
+  "series": {
+    "start_year": 1983,
+    "end_year": 1985,
+    "seasons": 3
+  },
+  "releases": [
+    {
+      "country": "us",
+      "medium": "tv",
+      "date": "1983-09-17",
+      "network": "CBS"
+    },
+    {
+      "country": "es",
+      "medium": "tv",
+      "date": "1985-09-29",
+      "network": "TVE"
+    }
+  ],
+  "physical_editions": [
+    {
+      "format": "dvd",
+      "year": 2019,
+      "title": "Edición limitada y numerada en digipack (4 DVD)",
+      "spanish_audio": true,
+      "spanish_subtitles": true,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B07WC6H14G/"
+        }
+      ]
+    },
+    {
+      "format": "dvd",
+      "year": 2021,
+      "title": "Serie completa (4 DVD)",
+      "spanish_audio": true,
+      "spanish_subtitles": true,
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/B096YXPPQG/"
+        }
+      ]
+    }
+  ],
+  "posters": [
+    {
+      "language": "en",
+      "image": "/images/screen/dungeons-and-dragons-1983/poster-en.webp",
+      "source": "https://en.wikipedia.org/wiki/File:Dungeons_and_Dragons_DVD_boxset_art.jpg"
+    }
+  ],
+  "external": {
+    "imdb": "https://www.imdb.com/title/tt0085011/",
+    "filmaffinity": "https://www.filmaffinity.com/es/film484830.html",
+    "wikidata": "Q715777"
+  }
+}
