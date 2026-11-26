@@ -7,15 +7,25 @@ import type { MerchandiseWithMeta } from '@/types/merchandise'
 import type { NovelSummary } from '@/types/novel'
 import type { ComicSummary } from '@/types/comic'
 import type { RpgIndex } from '@/types/rpg'
+import type { ScreenWorkWithMeta } from '@/types/screen'
 import { PLACEHOLDER_IMAGE } from './constants'
 import { firstPublication, productPath } from './releases'
 import { translateEdition, translateType } from './translations'
 import { bookPath, isDndEdition, systemPath } from './rpg'
 import { normalize } from './videogameFilters'
 import { isbnsOf } from './searchText'
+import { kindNames as screenKindNames, yearsLabel } from './screen'
 
 export type SearchSection =
-  'books' | 'editions' | 'videogames' | 'merchandise' | 'novels' | 'comics' | 'rpg' | 'licenses'
+  | 'books'
+  | 'editions'
+  | 'videogames'
+  | 'merchandise'
+  | 'novels'
+  | 'comics'
+  | 'screen'
+  | 'rpg'
+  | 'licenses'
 
 // Orden en que se muestran los grupos de resultados
 export const SEARCH_SECTIONS: { id: SearchSection; label: string; path: string }[] = [
@@ -25,6 +35,7 @@ export const SEARCH_SECTIONS: { id: SearchSection; label: string; path: string }
   { id: 'merchandise', label: 'Merchandising', path: '/merchandising' },
   { id: 'novels', label: 'Novelas', path: '/novelas' },
   { id: 'comics', label: 'Cómics', path: '/comics' },
+  { id: 'screen', label: 'Cine y series', path: '/cine-y-series' },
   { id: 'rpg', label: 'Otros juegos de rol', path: '/rol' },
   { id: 'licenses', label: 'Licencias abiertas', path: '/licencias' },
 ]
@@ -139,6 +150,24 @@ export function comicEntries(comics: ComicSummary[]): SearchEntry[] {
     image: comic.thumbnail,
     detail: join([comic.publisher, comic.years]),
     searchText: comic.searchText,
+  }))
+}
+
+// Películas, series, documentales y episodios, oficiales o no
+export function screenEntries(works: ScreenWorkWithMeta[]): SearchEntry[] {
+  return works.map((work) => ({
+    section: 'screen',
+    path: `/cine-y-series/${work.slug}`,
+    title: work.title,
+    titleEs: distinct(work.title, work.title_es),
+    image: work.poster?.thumbnail ?? null,
+    detail: join([
+      screenKindNames[work.kind],
+      yearsLabel(work),
+      work.official ? null : 'No oficial',
+    ]),
+    // La serie de los episodios sueltos, para que «secret level» encuentre el suyo
+    searchText: textOf([work.title, work.title_es, work.parent_series]),
   }))
 }
 

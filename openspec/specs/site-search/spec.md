@@ -33,8 +33,9 @@ búsqueda con el texto actual, y al cambiarlo SHALL actualizar `q` en la URL.
 ### Requirement: Secciones en las que se busca
 
 La búsqueda SHALL cubrir los libros de 5E y 2024, las ediciones anteriores
-de D&D, los videojuegos, el merchandising, las novelas, los cómics, los
-libros y sistemas de otros juegos de rol y las licencias abiertas.
+de D&D, los videojuegos, el merchandising, las novelas, los cómics, el cine y
+las series, los libros y sistemas de otros juegos de rol y las licencias
+abiertas.
 
 #### Scenario: Una novela
 
@@ -46,6 +47,12 @@ libros y sistemas de otros juegos de rol y las licencias abiertas.
 - **WHEN** se busca un libro de AD&D 2.ª edición por su título
 - **THEN** aparece en el grupo de ediciones anteriores, enlazado a su ficha
   en `/ediciones/...`, y no en el de otros juegos de rol
+
+#### Scenario: Una película por su título en España
+
+- **WHEN** se busca «honor entre ladrones»
+- **THEN** aparece _Dungeons & Dragons: Honor Among Thieves_ en el grupo de
+  cine y series
 
 #### Scenario: Un sistema de otro juego de rol
 
@@ -85,7 +92,7 @@ ignorar tildes y mayúsculas. No SHALL buscarse en las descripciones.
 
 Los resultados SHALL agruparse por sección en este orden: libros de 5E y
 2024, ediciones anteriores, videojuegos, merchandising, novelas, cómics,
-otros juegos de rol y licencias. Cada grupo SHALL indicar cuántas fichas
+cine y series, otros juegos de rol y licencias. Cada grupo SHALL indicar cuántas fichas
 tiene y no SHALL mostrarse si no tiene ninguna. Dentro de un grupo, las
 fichas cuyo título empieza por el texto buscado SHALL ir primero.
 
