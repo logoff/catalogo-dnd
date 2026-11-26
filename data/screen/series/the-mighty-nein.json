@@ -8,7 +8,8 @@
   "status": "released",
   "series": { "start_year": 2025, "seasons": 1 },
   "releases": [
-    { "country": "us", "medium": "streaming", "date": "2025-11-19", "network": "Prime Video" }
+    { "country": "us", "medium": "streaming", "date": "2025-11-19", "network": "Prime Video" },
+    { "country": "es", "medium": "streaming", "date": "2025-11-19", "network": "Prime Video" }
   ],
   "trailers": [
     {
