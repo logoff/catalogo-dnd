@@ -1,0 +1,17 @@
+{
+  "slug": "eirendor-aventura",
+  "system": "eirendor",
+  "title": "Aventura!",
+  "kind": "supplement",
+  "description": "Libreto para jugar a Eirendor al estilo de las aventuras pulp de los años treinta y cuarenta, con clases, equipo y aventuras propias. Lo diseñaron Ramón Balcells y Carlos Julián del Cerro.\n\nNació como meta de la campaña de Tesoros & Monstruos, exclusiva para los mecenas, y en julio de 2017 Yipikayei lo publicó gratis en PDF. Necesita los dos primeros libros de Eirendor.",
+  "source": "https://www.verkami.com/projects/17449-eirendor-tesoros-monstruos/blog/31778-aventura",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "date": "2017-07",
+      "format": "pdf",
+      "free_download": "https://www.sinergiaderol.com/RolGratuito/Aventura/Aventura.rar"
+    }
+  ]
+}

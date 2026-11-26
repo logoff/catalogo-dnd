@@ -1,0 +1,24 @@
+{
+  "slug": "eirendor-leyendas-de-arkham",
+  "system": "eirendor",
+  "title": "Leyendas de Arkham",
+  "kind": "setting",
+  "description": "Escenario de campaña de fantasía oscura de David Muelas para Eirendor, en una versión lovecraftiana del Massachusetts colonial del siglo XVII: los personajes son colonos que se enfrentan al hambre, al frío y a los Mitos. Trae cinco clases nuevas, armas de pólvora, reglas de cordura y de viaje, la región de Arkham como exploración por hexágonos con más de 160 lugares y un bestiario de más de cien criaturas.\n\nEs un libro de 352 páginas en A5 que necesita el manual básico de Eirendor. Se financió en Verkami en abril de 2018, con un mapa de la región para los mecenas, y llegó a las tiendas en junio de 2019.",
+  "source": "https://www.verkami.com/projects/19706-leyendas-de-arkham",
+  "editions": [
+    {
+      "language": "castellano",
+      "publisher": "Yipikayei",
+      "date": "2019-06-21",
+      "format": "paperback",
+      "isbn13": 9788412054002,
+      "cover": "/images/rol/eirendor-leyendas-de-arkham/castellano.webp",
+      "source": "https://www.todostuslibros.com/libros/leyendas-de-arkham_978-84-120540-0-2",
+      "crowdfunding": {
+        "platform": "verkami",
+        "url": "https://www.verkami.com/projects/19706-leyendas-de-arkham",
+        "end": "2018-04-09"
+      }
+    }
+  ]
+}
