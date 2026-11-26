@@ -15,9 +15,9 @@
   "licenses": [],
   "derived_from": [
     {
-      "system": "the-black-hack",
+      "system": "estrellas-errantes",
       "kind": "major_rewrite",
-      "note": "Se basa en Estrellas Errantes, que a su vez parte de The Black Hack."
+      "note": "Lleva de vuelta a la fantasía las reglas de Estrellas Errantes, que a su vez parte de The Black Hack."
     }
   ],
   "links": [

@@ -4,7 +4,7 @@ Lista maestra de las licencias abiertas, los sistemas y los libros que
 tendrán ficha en la sección «Otros juegos de rol». Una entrada con
 «pendiente» en la columna Ficha aún no tiene su JSON en `data/rol/`.
 
-Actualizado: 2026-11-22. Revisado con el usuario el 2026-11-19 (también las ediciones anteriores de D&D). Catálogos de Devir
+Actualizado: 2026-11-26. Revisado con el usuario el 2026-11-19 (también las ediciones anteriores de D&D). Catálogos de Devir
 consultados el 2026-11-19.
 
 ## Alcance
@@ -118,7 +118,8 @@ digital de plataformas comunitarias.
 | 48  | For Coin & Blood                   | For Coin & Blood                   | Gallant Knight Games               | 2018 | —                                                        | Swords & Wizardry: reescrito pero compatible                | sí (The Hills Press)             | [Gallant Knight Games](https://gallantknightgames.com/products/for-coin-blood-second-edition)    | for-coin-and-blood                 | OSR; entra por su edición en castellano.                                                 |
 | 49  | Runecairn                          | Runecairn                          | Colin Le Sueur                     | 2021 | —                                                        | Cairn: reescrito pero compatible                            | sí (Outremer)                    | [DriveThruRPG](https://www.drivethrurpg.com/en/product/385682/runecairn-wardensaga)              | runecairn                          | NSR; entra por su edición en castellano.                                                 |
 | 50  | The Electrum Archive               | The Electrum Archive               | Cult of the Lizard King            | 2022 | —                                                        | Cairn: reescrito pero compatible                            | sí (Outremer)                    | [Outremer](https://outremer.es/producto/el-archivo-de-electro/)                                  | the-electrum-archive               | NSR; zine; entra por su edición en castellano.                                           |
-| 51  | Dungeon Hack                       | Dungeon Hack                       | Yipikayei                          | 2018 | —                                                        | The Black Hack: cambio mayor de reglas                      | sí                               | [Verkami](https://www.verkami.com/projects/21054)                                                | dungeon-hack                       | OSR español; vía Estrellas Errantes.                                                     |
+| 51  | Dungeon Hack                       | Dungeon Hack                       | Yipikayei                          | 2018 | —                                                        | Estrellas Errantes: cambio mayor de reglas                  | sí                               | [Verkami](https://www.verkami.com/projects/21054)                                                | dungeon-hack                       | OSR español; vía Estrellas Errantes.                                                     |
+| 52  | Estrellas Errantes                 | Estrellas Errantes                 | Yipikayei                          | 2017 | —                                                        | The Black Hack: cambio mayor de reglas                      | sí                               | [Sinergia de Rol](http://www.sinergiaderol.com/juegosgratuitos/j-estrellaserrantes.html)         | estrellas-errantes                 | OSR español de ciencia ficción; base de Dungeon Hack.                                    |
 
 ## Libros principales solo en inglés (lote 1)
 
@@ -1097,6 +1098,18 @@ Lo de la familia de D&D en la lista de proyectos financiados de Verkami que falt
 | 15  | SRD 5.2 + Dragonlight                                            | dnd-5e-2024            | básico       | srd-5-2-dragonlight                                               | Dragon Lighthouse; Verkami (2025).         |
 
 Fuera, por no derivar de D&D: Walpurgis (sistema propio de terror), Fallen Justice (suplemento de Tiny Supers), Kobold: aventuras en Tzarkuhdea (d100 de BRP), Buscadores de mazmorras (sistema indie propio) y Tierras Quebradas (sistema propio). Save Private Tom (La Mazmorra del Roleo) está en inglés y Abrerinto (Crónicas de Aarth) es un librojuego.
+
+### Yipikayei (2026-11-26)
+
+Lo que faltaba de la editorial tras el aviso de un lector. Revisado en Juegos de la Mesa Redonda, Tesoros de la Marca, Verkami, Sinergia de Rol y el catálogo de la editorial en todostuslibros; la web de Yipikayei ya no existe. Fuera, por no ser de la familia de D&D: Frágil y Frágil: Pozoamargo, y The Sprawl (Powered by the Apocalypse). Luna Roja se anunció para 2018 sin que conste que saliera. La Edición Básica de Dungeon Hack (2019) es una edición de su ficha. Sin datos: YKY Especial 1.
+
+| #   | Título                                                         | Sistema            | Tipo         | Ficha                                        | Nota                                       |
+| --- | -------------------------------------------------------------- | ------------------ | ------------ | -------------------------------------------- | ------------------------------------------ |
+| 1   | Leyendas de Arkham                                             | eirendor           | ambientación | eirendor-leyendas-de-arkham                  | Yipikayei; Verkami (2018).                 |
+| 2   | Aventura!                                                      | eirendor           | suplemento   | eirendor-aventura                            | Meta de Tesoros & Monstruos; PDF gratuito. |
+| 3   | Estrellas Errantes                                             | estrellas-errantes | básico       | estrellas-errantes                           | Yipikayei, 2017.                           |
+| 4   | Estrellas Errantes: Malas compañías I, una historia de piratas | estrellas-errantes | aventura     | estrellas-errantes-malas-companias-i         | Códice Grupo Creativo y Yipikayei, 2018.   |
+| 5   | Eirendor: Descenso al Pozo del Demonio Blanco                  | eirendor           | aventura     | eirendor-descenso-al-pozo-del-demonio-blanco | Yipikayei, diciembre de 2017.              |
 
 ## Ediciones anteriores de D&D
 
