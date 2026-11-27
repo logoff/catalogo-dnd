@@ -23,7 +23,13 @@
           "store": "gog",
           "url": "https://www.gog.com/es/game/icewind_dale_2"
         }
-      ]
+      ],
+      "spanish": {
+        "interface": false,
+        "subtitles": false,
+        "audio": false,
+        "note": "Solo en inglés, francés, alemán, polaco y ruso en GOG"
+      }
     }
   ],
   "reviews": [

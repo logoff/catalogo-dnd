@@ -3,6 +3,15 @@
   "description": "D&D: World of Warcraft adapta a D&D el universo de Warcraft. Incluye seis subclases nuevas (entre ellas el cazador de demonios), versiones de clase con estética de Warcraft, once especies como los dracthyr, los draenei y los huargen, más de sesenta conjuros, monturas y compañeros, más de cincuenta monstruos, treinta jefes de mazmorra, siete mazmorras del juego adaptadas y veintitrés facciones con recompensas por renombre.\n\nSe publica con portada normal, portada alternativa y una edición de coleccionista, y se acompaña de pantalla del Dungeon Master y del pack de mapas de la Ciudadela de la Corona de Hielo. De momento solo está anunciado en inglés.",
   "reviews": [
     {
+      "outlet": "cgmagazine",
+      "url": "https://www.cgmagonline.com/review/tabletop/dnd-world-of-warcraft/",
+      "language": "english",
+      "date": "2026-11-03",
+      "author": "Chris de Hoog",
+      "score": 7.5,
+      "summary": "Ambicioso y contenido a la vez: las clases como variantes de las de D&D y el material para el Dungeon Master (objetos, monstruos y compañeros) son lo mejor, pero la creación de personajes está muy pautada y los grandes jefes llegan sin encuentros ni mapas. Más inspiración para el DM que algo para jugar tal cual."
+    },
+    {
       "outlet": "wargamer",
       "url": "https://www.wargamer.com/dnd/world-of-warcraft-review",
       "language": "english",
@@ -26,7 +35,12 @@
       "images": ["/images/products/2024/ddwow/pub0_img0.png"],
       "official_url": "https://marketplace.dndbeyond.com/root/DB6051000?pid=D6051000&Digital/Physical=Physical",
       "wpn_url": "https://wpn.wizards.com/en/products/dnd-world-of-warcraft?product=4x11WKrZ6UBfwA3SB9lUlm",
-      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786970103/" }]
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786970103/"
+        }
+      ]
     },
     {
       "type": "book",
@@ -40,7 +54,12 @@
       "isbn13": 9780786970117,
       "images": ["/images/products/2024/ddwow/pub1_img0.webp"],
       "wpn_url": "https://wpn.wizards.com/en/products/dnd-world-of-warcraft?product=5ZnISt82f6i8ZSn2EHnZ2L",
-      "purchase_links": [{ "store": "amazon", "url": "https://www.amazon.es/dp/0786970111/" }]
+      "purchase_links": [
+        {
+          "store": "amazon",
+          "url": "https://www.amazon.es/dp/0786970111/"
+        }
+      ]
     },
     {
       "type": "book",
