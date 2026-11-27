@@ -1,0 +1,14 @@
+{
+  "code": "DDSWCR",
+  "description": "D&D | Star Wars Core Rules es el libro de reglas para jugar a D&D de quinta edición en el universo de Star Wars, anunciado para 2027. A diferencia de D&D: World of Warcraft, es un libro independiente: no hace falta el Manual del Jugador para usarlo. Wizards of the Coast aún no ha contado cómo funcionarán las clases, los poderes de la Fuerza, los bláster ni los sables de luz.\n\nSe presentó con Lucasfilm en la New York Comic Con de 2026, junto con la campaña Tyro Squadron: Adventures. Fecha, precio y detalles pendientes de confirmar; de momento solo está anunciado en inglés.",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "gameplay_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "D&D | Star Wars Core Rules",
+      "publisher": "Wizards of the Coast"
+    }
+  ]
+}

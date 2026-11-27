@@ -1,0 +1,14 @@
+{
+  "code": "DDSWTS",
+  "description": "D&D | Star Wars, Tyro Squadron: Adventures es una campaña para D&D ambientada en Star Wars durante la trilogía original, entre Una nueva esperanza y El retorno del Jedi, anunciada para 2027. Los personajes forman una tripulación secreta de la Alianza Rebelde que lucha contra el Imperio, con Luke y Leia presentes en la historia.\n\nSe juega con D&D | Star Wars Core Rules y se presentó con él en la New York Comic Con de 2026. Fecha, precio y detalles pendientes de confirmar; de momento solo está anunciada en inglés.",
+  "publications": [
+    {
+      "type": "book",
+      "subtype": "adventure_expansion",
+      "language": "english",
+      "edition": "2024",
+      "title": "D&D | Star Wars, Tyro Squadron: Adventures",
+      "publisher": "Wizards of the Coast"
+    }
+  ]
+}
